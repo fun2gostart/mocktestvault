@@ -126,156 +126,127 @@
     </div>
   </div>
 
-  <!-- Main Test Layout -->
+  <!-- Main Split Layout -->
   <main class="test-layout" id="test-layout">
     
-    <!-- Left Column: Question Area -->
-    <section class="question-column">
-      <div class="question-card" id="question-card">
-        <div class="q-header">
-          <span class="q-number-badge" id="q-number-badge">Question 1</span>
-          <div class="q-meta-group">
-            <span class="q-badge" id="q-subtopic-badge">CED Core Unit</span>
-            <span class="q-badge" id="q-diff-badge">Medium</span>
-          </div>
+    <!-- Question Card -->
+    <section class="question-card" id="question-card" aria-label="Active Test Question">
+      <div class="meta-badges-row" id="q-badges">
+        <span class="badge badge-chapter">AP® Physics 1</span>
+        <span class="badge badge-subtopic" id="q-subtopic-badge">CED Core Unit</span>
+        <span class="badge badge-subtopic" id="q-diff-badge">Medium</span>
+      </div>
+
+      <div class="question-text-box">
+        <div class="question-number" id="q-number">Question 1 of 20</div>
+        <div class="question-title" id="q-title">Loading question...</div>
+      </div>
+
+      <!-- Interactive Options -->
+      <div class="options-list" id="options-list" role="radiogroup" aria-label="Answer Options"></div>
+
+      <!-- Explanation Box -->
+      <div class="explanation-box" id="explanation-box" style="display:none;">
+        <div class="explanation-header">
+          <span>💡 College Board Answer Rationale & Formula Method</span>
+          <span class="citation-tag" id="citation-tag">College Board Specification</span>
+        </div>
+        <p class="explanation-text" id="explanation-text"></p>
+      </div>
+
+      <!-- Action Buttons Row -->
+      <div class="card-action-bar">
+        <button id="btn-prev" class="nav-btn" disabled>
+          <span>⬅️</span> Previous
+        </button>
+
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <button id="btn-review" class="nav-btn btn-review" title="Flag question to review later">
+            <span>🚩</span> Mark for Review
+          </button>
+          <button id="btn-clear" class="nav-btn" title="Clear chosen answer option">
+            <span>🧹</span> Clear Choice
+          </button>
         </div>
 
-        <div class="q-body" id="q-body">
-          <p id="q-text">Loading question text...</p>
-        </div>
-
-        <div class="options-group" id="options-group" role="radiogroup" aria-label="Answer Options">
-          <!-- Dynamically populated options A, B, C, D -->
-        </div>
-
-        <!-- Practice Mode Explanation Box -->
-        <div class="explanation-box" id="explanation-box" style="display: none;">
-          <div class="exp-title">
-            <span>💡</span> College Board Answer Rationale & Formula Method:
-          </div>
-          <div class="exp-body" id="exp-text"></div>
-          <div class="exp-citation" id="exp-citation"></div>
-        </div>
-
-        <!-- Question Card Action Controls -->
-        <div class="q-actions-bar">
-          <div class="action-left">
-            <button id="btn-review" class="btn-action btn-review" title="Flag this question to review later">
-              <span>🚩</span> Mark for Review
-            </button>
-            <button id="btn-clear" class="btn-action btn-clear" title="Clear chosen answer option">
-              Clear Choice
-            </button>
-          </div>
-
-          <div class="action-right">
-            <button id="btn-prev" class="btn-nav btn-prev" disabled>
-              ← Previous
-            </button>
-            <button id="btn-next" class="btn-nav btn-next">
-              Next Question →
-            </button>
-            <button id="btn-submit" class="btn-nav btn-submit" style="display:none;">
-              Finish Exam
-            </button>
-          </div>
+        <div style="display:flex; gap:10px;">
+          <button id="btn-next" class="nav-btn btn-primary">
+            Next <span>➡️</span>
+          </button>
+          <button id="btn-submit" class="nav-btn btn-submit-test">
+            Submit Test <span>🏁</span>
+          </button>
         </div>
       </div>
     </section>
 
-    <!-- Right Column: Navigation Palette & Overview -->
-    <aside class="palette-column" aria-label="Question Navigation Palette">
-      <div class="palette-card">
-        <div class="palette-header">
-          <h3>Question Palette</h3>
-          <span class="palette-count" id="palette-summary">0 / 20 Answered</span>
-        </div>
+    <!-- CBT Question Palette -->
+    <aside class="palette-card" aria-label="Question Navigation Grid">
+      <div class="palette-title">
+        <span>Question Palette</span>
+        <span id="palette-summary" style="font-size:0.75rem; color:var(--text-muted); font-weight:normal;">0 / 20 Answered</span>
+      </div>
 
-        <!-- Official Status Legend -->
-        <div class="palette-legend">
-          <div class="legend-item"><span class="legend-dot dot-not-visited"></span> Not Visited</div>
-          <div class="legend-item"><span class="legend-dot dot-not-answered"></span> Unanswered</div>
-          <div class="legend-item"><span class="legend-dot dot-answered"></span> Answered</div>
-          <div class="legend-item"><span class="legend-dot dot-review"></span> Marked Review</div>
-        </div>
+      <div class="palette-grid" id="palette-grid">
+        <!-- 1 to 20 dynamically populated -->
+      </div>
 
-        <!-- Grid of Question Buttons -->
-        <div class="palette-grid" id="palette-grid">
-          <!-- 1 to 20 dynamically populated -->
+      <div class="palette-legend">
+        <div class="legend-item">
+          <div class="legend-dot dot-answered"></div>
+          <span>Answered (<strong id="count-answered">0</strong>)</span>
         </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-not-answered"></div>
+          <span>Not Answered (<strong id="count-not-answered">0</strong>)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-reviewed"></div>
+          <span>Marked Review (<strong id="count-reviewed">0</strong>)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-unvisited"></div>
+          <span>Not Visited (<strong id="count-unvisited">20</strong>)</span>
+        </div>
+      </div>
 
-        <div class="palette-footer">
-          <button id="btn-open-submit" class="btn-palette-submit">
-            <span>🏁</span> Submit Test & Scorecard
-          </button>
-        </div>
+      <div style="margin-top:18px;">
+        <button id="btn-open-submit" class="nav-btn btn-submit-test" style="width:100%; justify-content:center;">
+          <span>🏁</span> Submit Test & Scorecard
+        </button>
       </div>
     </aside>
 
   </main>
 
-  <!-- Comprehensive Scorecard View (Shown on Submission) -->
-  <section id="scorecard-view" class="scorecard-view" style="display: none;">
-    <div class="scorecard-hero">
-      <div class="scorecard-badge">AP® Physics 1 Set 03 (Circular Motion & Energy) Performance Summary</div>
-      <h2 id="scorecard-greeting">Exam Complete!</h2>
-      <p id="scorecard-subtext">Here is your detailed breakdown according to College Board AP scoring benchmarks.</p>
+  <!-- Scorecard View -->
+  <section class="scorecard-view" id="scorecard-view" style="max-width:960px; margin:24px auto; padding:32px 24px;">
+    <div class="score-hero" id="score-hero"></div>
+    <div class="stats-grid" id="stats-grid"></div>
 
-      <div class="score-tiles-grid">
-        <div class="score-tile">
-          <div class="tile-label">Raw Score</div>
-          <div class="tile-val" id="score-raw">0 / 20</div>
-        </div>
-        <div class="score-tile">
-          <div class="tile-label">Accuracy</div>
-          <div class="tile-val" id="score-pct">0%</div>
-        </div>
-        <div class="score-tile">
-          <div class="tile-label">Projected AP Score</div>
-          <div class="tile-val" id="score-sat-scale">Score 5 (Top Tier)</div>
-        </div>
-        <div class="score-tile">
-          <div class="tile-label">Time Elapsed</div>
-          <div class="tile-val" id="score-time">00:00</div>
-        </div>
-      </div>
+    <div class="scorecard-actions" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin:24px 0;">
+      <button id="btn-retake" class="nav-btn btn-primary">
+        <span>🔄</span> Retake Test
+      </button>
+      <button id="btn-print" class="nav-btn">
+        <span>🖨️</span> Print / PDF Sheet
+      </button>
+      <a href="physics-1-diagnostic-04.html" class="nav-btn" style="text-decoration:none; background:var(--primary); color:#fff;">
+        <span>💥</span> Take AP Physics Set 04 (Momentum & Collisions) →
+      </a>
+    </div>
 
-      <div class="scorecard-actions">
-        <button id="btn-retake" class="btn-scorecard btn-retake">
-          <span>🔄</span> Retake Test
-        </button>
-        <button id="btn-print-sheet" class="btn-scorecard btn-print">
-          <span>🖨️</span> Print Revision Sheet (PDF)
-        </button>
-        <a href="physics-1-diagnostic-04.html" class="btn-scorecard btn-next-ch">
-          <span>💥</span> Take AP Physics Set 04 (Momentum & Collisions) →
-        </a>
+    <div id="mastery-container"></div>
+
+    <div class="review-filter-bar" style="margin-top:28px;">
+      <div class="filter-pills" role="tablist" style="display:flex; gap:8px; flex-wrap:wrap;">
+        <button class="filter-pill active" data-filter="all" id="filter-all">All (<span id="filter-count-all">20</span>)</button>
+        <button class="filter-pill filter-wrong" data-filter="wrong" id="filter-wrong">❌ Mistakes (<span id="filter-count-wrong">0</span>)</button>
+        <button class="filter-pill filter-reviewed" data-filter="reviewed" id="filter-reviewed">🟣 Review (<span id="filter-count-reviewed">0</span>)</button>
+        <button class="filter-pill filter-correct" data-filter="correct" id="filter-correct">✓ Correct (<span id="filter-count-correct">0</span>)</button>
       </div>
     </div>
 
-    <!-- Review Section with Filter Pills -->
-    <div class="scorecard-filter-bar">
-      <h3>Detailed Solution Review</h3>
-      <div class="filter-pills-group" role="tablist">
-        <button class="filter-pill active" data-filter="all" id="filter-all">
-          All (<span id="filter-count-all">20</span>)
-        </button>
-        <button class="filter-pill filter-incorrect" data-filter="incorrect" id="filter-incorrect">
-          ✗ Incorrect (<span id="filter-count-incorrect">0</span>)
-        </button>
-        <button class="filter-pill filter-unanswered" data-filter="unanswered" id="filter-unanswered">
-          ⚪ Unanswered (<span id="filter-count-unanswered">0</span>)
-        </button>
-        <button class="filter-pill filter-reviewed" data-filter="reviewed" id="filter-reviewed">
-          🟣 Review (<span id="filter-count-reviewed">0</span>)
-        </button>
-        <button class="filter-pill filter-correct" data-filter="correct" id="filter-correct">
-          ✓ Correct (<span id="filter-count-correct">0</span>)
-        </button>
-      </div>
-    </div>
-
-    <!-- Full Review List -->
     <div id="review-list"></div>
   </section>
 

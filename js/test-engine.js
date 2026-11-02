@@ -34,22 +34,25 @@ class MockTestEngine {
     this.soundEnabled = localStorage.getItem('mtv_sound') !== 'false';
     this.fontSizeScale = parseFloat(localStorage.getItem('mtv_font_scale')) || 1.0;
 
-    // DOM Elements
+    // DOM Elements with dual fallback selectors
     this.dom = {
       questionCard: document.getElementById('question-card'),
-      qNumber: document.getElementById('q-number'),
-      qBadges: document.getElementById('q-badges'),
-      qTitle: document.getElementById('q-title'),
-      optionsList: document.getElementById('options-list'),
+      qNumber: document.getElementById('q-number') || document.getElementById('q-number-badge'),
+      qBadges: document.getElementById('q-badges') || document.getElementById('q-meta-group'),
+      qSubtopicBadge: document.getElementById('q-subtopic-badge'),
+      qDiffBadge: document.getElementById('q-diff-badge'),
+      qTitle: document.getElementById('q-title') || document.getElementById('q-text'),
+      optionsList: document.getElementById('options-list') || document.getElementById('options-group'),
       explanationBox: document.getElementById('explanation-box'),
-      explanationText: document.getElementById('explanation-text'),
-      citationTag: document.getElementById('citation-tag'),
+      explanationText: document.getElementById('explanation-text') || document.getElementById('exp-text'),
+      citationTag: document.getElementById('citation-tag') || document.getElementById('exp-citation'),
       
       prevBtn: document.getElementById('btn-prev'),
       nextBtn: document.getElementById('btn-next'),
       reviewBtn: document.getElementById('btn-review'),
       clearBtn: document.getElementById('btn-clear'),
       submitBtn: document.getElementById('btn-submit'),
+      openSubmitBtn: document.getElementById('btn-open-submit'),
       
       paletteGrid: document.getElementById('palette-grid'),
       paletteAnsweredCount: document.getElementById('count-answered'),
@@ -57,6 +60,7 @@ class MockTestEngine {
       paletteReviewedCount: document.getElementById('count-reviewed'),
       paletteAnsReviewedCount: document.getElementById('count-ans-reviewed'),
       paletteUnvisitedCount: document.getElementById('count-unvisited'),
+      paletteSummary: document.getElementById('palette-summary'),
       
       timerBox: document.getElementById('timer-box'),
       timerDisplay: document.getElementById('timer-display'),
@@ -79,12 +83,12 @@ class MockTestEngine {
       reviewList: document.getElementById('review-list'),
       
       filterAllBtn: document.getElementById('filter-all'),
-      filterWrongBtn: document.getElementById('filter-wrong'),
+      filterWrongBtn: document.getElementById('filter-wrong') || document.getElementById('filter-incorrect'),
       filterReviewedBtn: document.getElementById('filter-reviewed'),
       filterCorrectBtn: document.getElementById('filter-correct'),
       
       retakeBtn: document.getElementById('btn-retake'),
-      printBtn: document.getElementById('btn-print'),
+      printBtn: document.getElementById('btn-print') || document.getElementById('btn-print-sheet'),
       statusContainer: document.getElementById('exam-status-bar')
     };
 
@@ -395,6 +399,7 @@ class MockTestEngine {
     if (this.dom.reviewBtn) this.dom.reviewBtn.addEventListener('click', () => this.toggleReview());
     if (this.dom.clearBtn) this.dom.clearBtn.addEventListener('click', () => this.clearResponse());
     if (this.dom.submitBtn) this.dom.submitBtn.addEventListener('click', () => this.confirmSubmit());
+    if (this.dom.openSubmitBtn) this.dom.openSubmitBtn.addEventListener('click', () => this.confirmSubmit());
     
     if (this.dom.modePracticeBtn) {
       this.dom.modePracticeBtn.addEventListener('click', () => this.setMode('practice'));
@@ -533,29 +538,48 @@ class MockTestEngine {
     const q = this.questions[index];
 
     // 1. Question Number & Badges
-    this.dom.qNumber.textContent = `Question ${index + 1} of ${this.questions.length}`;
+    if (this.dom.qNumber) {
+      this.dom.qNumber.textContent = `Question ${index + 1} of ${this.questions.length}`;
+    }
     
-    let badgesHtml = `<span class="badge badge-chapter">CBSE Class 10</span>`;
+    let chapterBadge = 'CBSE Class 10';
+    if (this.examType === 'sat') chapterBadge = 'Digital SAT®';
+    else if (this.examType === 'ap') chapterBadge = 'AP® College Board';
+    else if (this.examType === 'competitive') chapterBadge = 'SSC CGL Tier 1';
+    else if (this.examType === 'ielts') chapterBadge = 'IELTS® Academic';
+
+    let badgesHtml = `<span class="badge badge-chapter">${chapterBadge}</span>`;
     if (q.subtopic) badgesHtml += `<span class="badge badge-subtopic">${q.subtopic}</span>`;
     if (q.type === 'assertion_reasoning') badgesHtml += `<span class="badge badge-type-ar">Assertion & Reasoning</span>`;
     if (q.difficulty) badgesHtml += `<span class="badge badge-subtopic">${q.difficulty}</span>`;
-    this.dom.qBadges.innerHTML = badgesHtml;
+    
+    if (this.dom.qBadges) {
+      this.dom.qBadges.innerHTML = badgesHtml;
+    }
+    if (this.dom.qSubtopicBadge) {
+      this.dom.qSubtopicBadge.textContent = q.subtopic || 'Core Unit';
+    }
+    if (this.dom.qDiffBadge) {
+      this.dom.qDiffBadge.textContent = q.difficulty || 'Medium';
+    }
 
-    // 2. Question Text with Chemical Formatting
-    if (q.type === 'assertion_reasoning' && q.question.includes('Assertion (A):')) {
-      const parts = q.question.split('\nReason (R):');
-      const assertionPart = parts[0].replace('Assertion (A):', '').trim();
-      const reasonPart = parts[1] ? parts[1].trim() : '';
-      
-      this.dom.qTitle.innerHTML = `
-        <div style="margin-bottom:8px; font-weight:600;">Direction: The question below consists of an Assertion (A) and a Reason (R). Choose the correct option.</div>
-        <div class="ar-highlight-box">
-          <p><strong>Assertion (A):</strong> ${this.formatChemicalFormulas(assertionPart)}</p>
-          <p style="margin-top:8px;"><strong>Reason (R):</strong> ${this.formatChemicalFormulas(reasonPart)}</p>
-        </div>
-      `;
-    } else {
-      this.dom.qTitle.innerHTML = this.formatChemicalFormulas(q.question);
+    // 2. Question Text with Chemical / Math Formatting
+    if (this.dom.qTitle) {
+      if (q.type === 'assertion_reasoning' && q.question.includes('Assertion (A):')) {
+        const parts = q.question.split('\nReason (R):');
+        const assertionPart = parts[0].replace('Assertion (A):', '').trim();
+        const reasonPart = parts[1] ? parts[1].trim() : '';
+        
+        this.dom.qTitle.innerHTML = `
+          <div style="margin-bottom:8px; font-weight:600;">Direction: The question below consists of an Assertion (A) and a Reason (R). Choose the correct option.</div>
+          <div class="ar-highlight-box">
+            <p><strong>Assertion (A):</strong> ${this.formatChemicalFormulas(assertionPart)}</p>
+            <p style="margin-top:8px;"><strong>Reason (R):</strong> ${this.formatChemicalFormulas(reasonPart)}</p>
+          </div>
+        `;
+      } else {
+        this.dom.qTitle.innerHTML = this.formatChemicalFormulas(q.question);
+      }
     }
 
     // 3. Render Options with Shortcuts & Subtle Hover Lift
@@ -564,7 +588,7 @@ class MockTestEngine {
     const hasAnswered = chosenAnswer !== null;
 
     let optionsHtml = '';
-    q.options.forEach((optText, optIdx) => {
+    (q.options || []).forEach((optText, optIdx) => {
       let extraClass = '';
       if (chosenAnswer === optIdx) {
         extraClass = 'selected';
@@ -587,15 +611,17 @@ class MockTestEngine {
         </div>
       `;
     });
-    this.dom.optionsList.innerHTML = optionsHtml;
+    if (this.dom.optionsList) {
+      this.dom.optionsList.innerHTML = optionsHtml;
 
-    // Attach click listeners to options
-    this.dom.optionsList.querySelectorAll('.option-item').forEach(el => {
-      el.addEventListener('click', () => {
-        const selectedOpt = parseInt(el.getAttribute('data-index'), 10);
-        this.selectOption(selectedOpt);
+      // Attach click listeners to options
+      this.dom.optionsList.querySelectorAll('.option-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const selectedOpt = parseInt(el.getAttribute('data-index'), 10);
+          this.selectOption(selectedOpt);
+        });
       });
-    });
+    }
 
     // 4. Explanation Box (Practice Mode or after test submission)
     if (this.mode === 'practice' && hasAnswered) {
@@ -605,13 +631,19 @@ class MockTestEngine {
     }
 
     // 5. Update Review Button
-    const isReviewed = this.reviewedFlags[index];
-    this.dom.reviewBtn.classList.toggle('active', isReviewed);
-    this.dom.reviewBtn.innerHTML = isReviewed ? '🟣 Marked for Review' : '☆ Mark for Review';
+    if (this.dom.reviewBtn) {
+      const isReviewed = this.reviewedFlags[index];
+      this.dom.reviewBtn.classList.toggle('active', isReviewed);
+      this.dom.reviewBtn.innerHTML = isReviewed ? '<span>🟣</span> Marked for Review' : '<span>🚩</span> Mark for Review';
+    }
 
     // 6. Navigation Buttons
-    this.dom.prevBtn.disabled = (index === 0);
-    this.dom.nextBtn.disabled = (index === this.questions.length - 1);
+    if (this.dom.prevBtn) this.dom.prevBtn.disabled = (index === 0);
+    if (this.dom.nextBtn) this.dom.nextBtn.disabled = (index === this.questions.length - 1);
+    if (this.dom.submitBtn) {
+      // Keep submit button visible or highlight on final question
+      this.dom.submitBtn.style.display = (index === this.questions.length - 1) ? 'inline-flex' : 'inline-flex';
+    }
 
     // 7. Update Palette
     this.renderPalette();
@@ -650,14 +682,21 @@ class MockTestEngine {
 
   showExplanation(q) {
     if (!this.dom.explanationBox) return;
-    this.dom.explanationText.innerHTML = this.formatChemicalFormulas(q.explanation);
-    this.dom.citationTag.textContent = q.citation || 'Official NCERT Class 10 Syllabus';
+    if (this.dom.explanationText) {
+      this.dom.explanationText.innerHTML = this.formatChemicalFormulas(q.explanation);
+    }
+    if (this.dom.citationTag) {
+      const defaultCitation = (this.examType === 'sat') ? 'College Board SAT' : (this.examType === 'ap' ? 'College Board AP® CED' : 'Official NCERT Class 10 Syllabus');
+      this.dom.citationTag.textContent = q.citation || defaultCitation;
+    }
     this.dom.explanationBox.classList.add('active');
+    this.dom.explanationBox.style.display = 'block';
   }
 
   hideExplanation() {
     if (this.dom.explanationBox) {
       this.dom.explanationBox.classList.remove('active');
+      this.dom.explanationBox.style.display = 'none';
     }
   }
 
@@ -742,6 +781,7 @@ class MockTestEngine {
     if (this.dom.paletteReviewedCount) this.dom.paletteReviewedCount.textContent = countReviewed;
     if (this.dom.paletteAnsReviewedCount) this.dom.paletteAnsReviewedCount.textContent = countAnsReviewed;
     if (this.dom.paletteUnvisitedCount) this.dom.paletteUnvisitedCount.textContent = countUnvisited;
+    if (this.dom.paletteSummary) this.dom.paletteSummary.textContent = `${countAnswered} / ${this.questions.length} Answered`;
   }
 
   updateProgress() {
