@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "sat-math-061",
+      "type": "mcq",
+      "subtopic": "Quadratic Coefficients in Context (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "The height of an arch is modeled by h(x) = -0.05x(x - 40) where h(x) is height in meters and x is distance from the left base in meters. What is the maximum height of the arch?",
+      "options": [
+        "20 meters",
+        "40 meters",
+        "10 meters",
+        "15 meters"
+      ],
+      "answer": 0,
+      "explanation": "The x-intercepts are at x = 0 and x = 40. The axis of symmetry lies midway: x = (0 + 40)/2 = 20. Max height h(20) = -0.05(20)(20 - 40) = -1 * (-20) = 20 meters.",
+      "citation": "College Board Digital SAT Math Specification — Nonlinear Applications"
+    },
+    {
+      "id": "sat-math-062",
+      "type": "mcq",
+      "subtopic": "Linear Systems with No Solution (Algebra)",
+      "difficulty": "Hard",
+      "question": "For what value of constant p does the system of equations have no solution?\npx - 4y = 9\n3x - 2y = 5",
+      "options": [
+        "6",
+        "-6",
+        "4",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "For no solution, slopes must match while y-intercepts differ: p/3 = (-4)/(-2) = 2 → p = 6. With p = 6, 6x - 4y = 9 and 6x - 4y = 10, which are parallel and distinct.",
+      "citation": "College Board Digital SAT Math Specification — System Parameters"
+    },
+    {
+      "id": "sat-math-063",
+      "type": "mcq",
+      "subtopic": "Complex Numbers (Advanced Math)",
+      "difficulty": "Medium",
+      "question": "If i = √(-1), which of the following is equivalent to (3 + 2i)(4 - 5i)?",
+      "options": [
+        "22 - 7i",
+        "2 - 7i",
+        "12 - 10i",
+        "22 + 7i"
+      ],
+      "answer": 0,
+      "explanation": "FOIL: 3(4) + 3(-5i) + 2i(4) + 2i(-5i) = 12 - 15i + 8i - 10(i^2). Since i^2 = -1: 12 - 7i - 10(-1) = 12 - 7i + 10 = 22 - 7i.",
+      "citation": "College Board Digital SAT Math Specification — Complex Numbers"
+    },
+    {
+      "id": "sat-math-064",
+      "type": "mcq",
+      "subtopic": "Rational Function Asymptotes (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "What is the vertical asymptote of the rational function f(x) = (3x + 1) / (2x - 8)?",
+      "options": [
+        "x = 4",
+        "x = -4",
+        "y = 3/2",
+        "x = 8"
+      ],
+      "answer": 0,
+      "explanation": "Vertical asymptotes occur where denominator is zero and numerator is non-zero: 2x - 8 = 0 → 2x = 8 → x = 4. (Note: y = 3/2 is the horizontal asymptote).",
+      "citation": "College Board Digital SAT Math Specification — Rational Functions"
+    },
+    {
+      "id": "sat-math-065",
+      "type": "mcq",
+      "subtopic": "Circle Area with Inscribed Square (Geometry)",
+      "difficulty": "Hard",
+      "question": "A square is inscribed in a circle of radius 5√2 cm. What is the area of the square in square centimeters?",
+      "options": [
+        "100 cm^2",
+        "50 cm^2",
+        "200 cm^2",
+        "25 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "The diagonal of the inscribed square equals diameter of circle d = 2 * (5√2) = 10√2 cm. For square with side s: s√2 = 10√2 → s = 10 cm. Area = s^2 = 10^2 = 100 cm^2.",
+      "citation": "College Board Digital SAT Math Specification — Inscribed Polygons"
+    },
+    {
+      "id": "sat-math-066",
+      "type": "mcq",
+      "subtopic": "Weighted Averages (Problem Solving)",
+      "difficulty": "Medium",
+      "question": "In a physics course, midterm exams account for 40% of the course grade, homework accounts for 20%, and the final exam accounts for 40%. If Maya scores 85 on midterms and 95 on homework, what minimum score must she achieve on the final exam to attain an overall course average of 90?",
+      "options": [
+        "92.5",
+        "90.0",
+        "95.0",
+        "88.0"
+      ],
+      "answer": 0,
+      "explanation": "Overall Grade = 0.40(85) + 0.20(95) + 0.40(F) ≥ 90. 34 + 19 + 0.40F ≥ 90 → 53 + 0.40F ≥ 90 → 0.40F ≥ 37 → F ≥ 37 / 0.40 = 92.5.",
+      "citation": "College Board Digital SAT Math Specification — Weighted Statistics"
+    },
+    {
+      "id": "sat-math-067",
+      "type": "mcq",
+      "subtopic": "Exponential Decay Half-Life Equation (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "A medicine has a biological half-life of 6 hours in the bloodstream. If 200 mg is administered at t = 0, which equation models remaining medicine M(t) after t hours?",
+      "options": [
+        "M(t) = 200(0.5)^(t/6)",
+        "M(t) = 200(0.5)^(6t)",
+        "M(t) = 200(0.94)^t",
+        "M(t) = 200 - 6t"
+      ],
+      "answer": 0,
+      "explanation": "Half-life model: M(t) = M0 * (1/2)^(t / T_half). Substituting initial M0 = 200 and T_half = 6 yields M(t) = 200(0.5)^(t/6).",
+      "citation": "College Board Digital SAT Math Specification — Modeling Half-Life"
+    },
+    {
+      "id": "sat-math-068",
+      "type": "mcq",
+      "subtopic": "Sphere Volume and Surface Area (Geometry)",
+      "difficulty": "Medium",
+      "question": "If the surface area of a sphere is 64π square inches, what is the volume of the sphere in cubic inches?",
+      "options": [
+        "(256/3)π",
+        "(128/3)π",
+        "64π",
+        "32π"
+      ],
+      "answer": 0,
+      "explanation": "Surface area of sphere = 4πr^2 = 64π → r^2 = 16 → r = 4. Volume = (4/3)πr^3 = (4/3)π(4^3) = (4/3)π(64) = (256/3)π cubic inches.",
+      "citation": "College Board Digital SAT Math Specification — 3D Geometry"
+    },
+    {
+      "id": "sat-math-069",
+      "type": "mcq",
+      "subtopic": "Solving Fractional Exponent Equations (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "If (x + 2)^(3/2) = 27, what is the value of x?",
+      "options": [
+        "7",
+        "9",
+        "5",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "Raise both sides to the power of 2/3: x + 2 = 27^(2/3) = (27^(1/3))^2 = 3^2 = 9. Subtract 2: x = 7.",
+      "citation": "College Board Digital SAT Math Specification — Radical Equations"
+    },
+    {
+      "id": "sat-math-070",
+      "type": "mcq",
+      "subtopic": "Trigonometric Co-Functions (Trigonometry)",
+      "difficulty": "Easy",
+      "question": "If sin(x°) = cos(34°), where 0° < x < 90°, what is the value of x?",
+      "options": [
+        "56",
+        "34",
+        "66",
+        "146"
+      ],
+      "answer": 0,
+      "explanation": "Cofunction identity: sin(x) = cos(90° - x). Therefore, x + 34° = 90° → x = 90° - 34° = 56°.",
+      "citation": "College Board Digital SAT Math Specification — Cofunction Identities"
+    },
+    {
+      "id": "sat-math-071",
+      "type": "mcq",
+      "subtopic": "Standard Normal Distribution (Data Analysis)",
+      "difficulty": "Medium",
+      "question": "Exam scores are normally distributed with a mean of 75 and standard deviation of 8. Approximately what percentage of students scored between 67 and 83?",
+      "options": [
+        "68%",
+        "95%",
+        "50%",
+        "99.7%"
+      ],
+      "answer": 0,
+      "explanation": "67 is exactly 1 standard deviation below mean (75 - 8), and 83 is 1 standard deviation above mean (75 + 8). By the empirical rule (68-95-99.7 rule), approximately 68% of data falls within 1 standard deviation of the mean.",
+      "citation": "College Board Digital SAT Math Specification — Normal Distributions"
+    },
+    {
+      "id": "sat-math-072",
+      "type": "mcq",
+      "subtopic": "Linear Regression Residuals (Data Analysis)",
+      "difficulty": "Hard",
+      "question": "For a data point (5, 18), a linear regression model predicts a value of 15.2. What is the residual of this data point?",
+      "options": [
+        "2.8",
+        "-2.8",
+        "33.2",
+        "1.18"
+      ],
+      "answer": 0,
+      "explanation": "Residual = Actual y - Predicted y = 18 - 15.2 = 2.8. A positive residual indicates the actual data point lies above the regression line.",
+      "citation": "College Board Digital SAT Math Specification — Residual Analysis"
+    },
+    {
+      "id": "sat-math-073",
+      "type": "mcq",
+      "subtopic": "Perpendicular Bisector Equation (Geometry)",
+      "difficulty": "Hard",
+      "question": "What is the equation of the perpendicular bisector of the line segment connecting A(2, 4) and B(6, 12)?",
+      "options": [
+        "y = -0.5x + 10",
+        "y = 2x",
+        "y = -2x + 16",
+        "y = 0.5x + 6"
+      ],
+      "answer": 0,
+      "explanation": "Midpoint M = ((2+6)/2, (4+12)/2) = (4, 8). Slope AB = (12 - 4) / (6 - 2) = 8 / 4 = 2. Perpendicular slope m_perp = -1/2 = -0.5. Point-slope: y - 8 = -0.5(x - 4) → y - 8 = -0.5x + 2 → y = -0.5x + 10.",
+      "citation": "College Board Digital SAT Math Specification — Coordinate Geometry"
+    },
+    {
+      "id": "sat-math-074",
+      "type": "mcq",
+      "subtopic": "Factoring Sum of Cubes (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "Which of the following is equivalent to 8x^3 + 27y^3?",
+      "options": [
+        "(2x + 3y)(4x^2 - 6xy + 9y^2)",
+        "(2x + 3y)(4x^2 + 6xy + 9y^2)",
+        "(2x + 3y)^3",
+        "(4x + 9y)(2x^2 - 3xy + 3y^2)"
+      ],
+      "answer": 0,
+      "explanation": "Sum of cubes formula: a^3 + b^3 = (a + b)(a^2 - ab + b^2). Here a = 2x and b = 3y. Thus (2x + 3y)((2x)^2 - (2x)(3y) + (3y)^2) = (2x + 3y)(4x^2 - 6xy + 9y^2).",
+      "citation": "College Board Digital SAT Math Specification — Algebraic Factoring"
+    },
+    {
+      "id": "sat-math-075",
+      "type": "mcq",
+      "subtopic": "Circle Arc Length with Degrees (Geometry)",
+      "difficulty": "Easy",
+      "question": "In a circle with circumference 72 cm, an arc has a central angle of 45°. What is the length of the arc in cm?",
+      "options": [
+        "9 cm",
+        "8 cm",
+        "12 cm",
+        "6 cm"
+      ],
+      "answer": 0,
+      "explanation": "Arc length = (θ / 360°) * Circumference = (45 / 360) * 72 = (1/8) * 72 = 9 cm.",
+      "citation": "College Board Digital SAT Math Specification — Circumference and Arcs"
+    },
+    {
+      "id": "sat-math-076",
+      "type": "mcq",
+      "subtopic": "Linear Equation Infinite Solutions (Algebra)",
+      "difficulty": "Medium",
+      "question": "If 5(2x - 3) + 7 = ax + b is true for all real values of x, what is the value of a + b?",
+      "options": [
+        "2",
+        "18",
+        "-8",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "Expand left side: 10x - 15 + 7 = 10x - 8. For this to equal ax + b for all x: a = 10 and b = -8. Thus a + b = 10 + (-8) = 2.",
+      "citation": "College Board Digital SAT Math Specification — Equivalent Equations"
+    },
+    {
+      "id": "sat-math-077",
+      "type": "mcq",
+      "subtopic": "Discriminant Real World (Advanced Math)",
+      "difficulty": "Medium",
+      "question": "A business calculates daily profit P(x) = -2x^2 + 20x - 50, where x is price in dollars. How many price points result in exactly $0 profit?",
+      "options": [
+        "Exactly 1 price point (x = $5)",
+        "Exactly 2 price points",
+        "Zero price points",
+        "Infinitely many price points"
+      ],
+      "answer": 0,
+      "explanation": "Set P(x) = 0: -2x^2 + 20x - 50 = 0. Divide by -2: x^2 - 10x + 25 = 0 → (x - 5)^2 = 0. There is exactly one real root: x = 5.",
+      "citation": "College Board Digital SAT Math Specification — Quadratic Word Problems"
+    },
+    {
+      "id": "sat-math-078",
+      "type": "mcq",
+      "subtopic": "Median in Frequency Histogram (Data Analysis)",
+      "difficulty": "Medium",
+      "question": "A sample of 51 employees had years of experience recorded. In which interval must the median fall?",
+      "options": [
+        "The interval containing the 26th ordered observation",
+        "The interval containing the 25th ordered observation",
+        "The interval with the highest frequency",
+        "The middle numerical range between min and max"
+      ],
+      "answer": 0,
+      "explanation": "For n = 51 observations, the median position is (51 + 1) / 2 = 26th observation when ranked in ascending order.",
+      "citation": "College Board Digital SAT Math Specification — Histograms & Medians"
+    },
+    {
+      "id": "sat-math-079",
+      "type": "mcq",
+      "subtopic": "Pythagorean Distance in 3D (Geometry)",
+      "difficulty": "Hard",
+      "question": "A rectangular box has length 4 inches, width 3 inches, and height 12 inches. What is the length of the internal space diagonal in inches?",
+      "options": [
+        "13 inches",
+        "19 inches",
+        "15 inches",
+        "12.5 inches"
+      ],
+      "answer": 0,
+      "explanation": "3D space diagonal d = sqrt(l^2 + w^2 + h^2) = sqrt(4^2 + 3^2 + 12^2) = sqrt(16 + 9 + 144) = sqrt(169) = 13 inches.",
+      "citation": "College Board Digital SAT Math Specification — 3D Geometry"
+    },
+    {
+      "id": "sat-math-080",
+      "type": "mcq",
+      "subtopic": "Tangent to Circle (Geometry)",
+      "difficulty": "Medium",
+      "question": "A tangent line touches a circle of radius 7 at point P. An external point Q is 25 units from the center of the circle O. What is the length of tangent segment PQ?",
+      "options": [
+        "24",
+        "18",
+        "25",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "A line tangent to a circle is perpendicular to the radius at the point of tangency, creating right triangle OPQ where OP = 7, hypotenuse OQ = 25. By Pythagorean theorem: PQ = sqrt(25^2 - 7^2) = sqrt(625 - 49) = sqrt(576) = 24.",
+      "citation": "College Board Digital SAT Math Specification — Tangent Lines"
+    }
+  ]
+}

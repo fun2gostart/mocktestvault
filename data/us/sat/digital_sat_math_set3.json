@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "sat-math-041",
+      "type": "mcq",
+      "subtopic": "Work Rate Word Problems (Algebra)",
+      "difficulty": "Medium",
+      "question": "Pipe A can fill a reservoir in 4 hours, and Pipe B can fill the same reservoir in 6 hours. If both pipes are opened simultaneously, how many hours will it take to fill the reservoir?",
+      "options": [
+        "2.4 hours",
+        "5.0 hours",
+        "2.0 hours",
+        "3.2 hours"
+      ],
+      "answer": 0,
+      "explanation": "Combined rate per hour = 1/4 + 1/6 = 3/12 + 2/12 = 5/12 of the reservoir per hour. Time taken = 1 / (5/12) = 12/5 = 2.4 hours.",
+      "citation": "College Board Digital SAT Math Specification — Rational Rates"
+    },
+    {
+      "id": "sat-math-042",
+      "type": "mcq",
+      "subtopic": "Completing the Square (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "Which of the following are the exact real solutions to the equation x^2 - 10x + 14 = 0?",
+      "options": [
+        "5 ± √11",
+        "10 ± √11",
+        "5 ± √14",
+        "-5 ± √11"
+      ],
+      "answer": 0,
+      "explanation": "Complete the square: x^2 - 10x = -14. Add (10/2)^2 = 25 to both sides: x^2 - 10x + 25 = -14 + 25 → (x - 5)^2 = 11. Taking square roots: x - 5 = ±√11 → x = 5 ± √11.",
+      "citation": "College Board Digital SAT Math Specification — Quadratic Form and Roots"
+    },
+    {
+      "id": "sat-math-043",
+      "type": "mcq",
+      "subtopic": "Half-Life & Exponential Decay (Advanced Math)",
+      "difficulty": "Medium",
+      "question": "A radioactive isotope has a half-life of 8 days. If an initial laboratory sample contains 80 grams of this isotope, how many grams will remain after 24 days?",
+      "options": [
+        "10 grams",
+        "20 grams",
+        "5 grams",
+        "26.7 grams"
+      ],
+      "answer": 0,
+      "explanation": "Number of half-life cycles elapsed n = 24 / 8 = 3. Remaining mass = 80 * (1/2)^3 = 80 * 1/8 = 10 grams.",
+      "citation": "College Board Digital SAT Math Specification — Exponential Models"
+    },
+    {
+      "id": "sat-math-044",
+      "type": "mcq",
+      "subtopic": "Function Transformations (Advanced Math)",
+      "difficulty": "Easy",
+      "question": "The graph of g(x) is obtained by shifting the graph of f(x) = x^2 right by 3 units and upward by 5 units. Which equation defines g(x)?",
+      "options": [
+        "g(x) = (x - 3)^2 + 5",
+        "g(x) = (x + 3)^2 + 5",
+        "g(x) = (x - 3)^2 - 5",
+        "g(x) = (x + 5)^2 + 3"
+      ],
+      "answer": 0,
+      "explanation": "Horizontal shift right by h units replaces x with (x - h), so (x - 3)^2. Vertical shift upward by k units adds k, resulting in g(x) = (x - 3)^2 + 5.",
+      "citation": "College Board Digital SAT Math Specification — Function Notation"
+    },
+    {
+      "id": "sat-math-045",
+      "type": "mcq",
+      "subtopic": "Arc Length in Radians (Geometry)",
+      "difficulty": "Medium",
+      "question": "A circle has a radius of 12 cm. What is the length of an arc subtended by a central angle of π/3 radians?",
+      "options": [
+        "4π cm",
+        "2π cm",
+        "6π cm",
+        "8π cm"
+      ],
+      "answer": 0,
+      "explanation": "Arc length formula in radians: s = r * θ. Substituting r = 12 cm and θ = π/3 gives s = 12 * (π/3) = 4π cm.",
+      "citation": "College Board Digital SAT Math Specification — Radians & Arc Length"
+    },
+    {
+      "id": "sat-math-046",
+      "type": "mcq",
+      "subtopic": "Sector Area (Geometry)",
+      "difficulty": "Medium",
+      "question": "In a circle with radius 10 inches, a sector is defined by a central angle of 72°. What is the area of this sector in square inches?",
+      "options": [
+        "20π",
+        "10π",
+        "40π",
+        "5π"
+      ],
+      "answer": 0,
+      "explanation": "Sector area = (θ / 360°) * π * r^2. Here θ = 72°, so the fraction of the circle is 72 / 360 = 1/5. Area = (1/5) * π * (10^2) = (1/5) * 100π = 20π square inches.",
+      "citation": "College Board Digital SAT Math Specification — Circles & Sectors"
+    },
+    {
+      "id": "sat-math-047",
+      "type": "mcq",
+      "subtopic": "Interpreting Linear Coefficients (Algebra)",
+      "difficulty": "Easy",
+      "question": "A taxi company models the total fare C(m) in dollars for a ride of m miles as C(m) = 2.50m + 4.00. What is the real-world meaning of the constant 4.00?",
+      "options": [
+        "The initial pickup fee charged before any miles are traveled",
+        "The cost per mile driven",
+        "The maximum fare allowed for any single trip",
+        "The speed in miles per hour of the taxi"
+      ],
+      "answer": 0,
+      "explanation": "In C(m) = 2.50m + 4.00, m is miles traveled. When m = 0, C(0) = 4.00. This represents the base pickup fee charged regardless of distance.",
+      "citation": "College Board Digital SAT Math Specification — Linear Models"
+    },
+    {
+      "id": "sat-math-048",
+      "type": "mcq",
+      "subtopic": "Factoring by Grouping (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "What is the only real solution to the cubic equation x^3 - 3x^2 + 4x - 12 = 0?",
+      "options": [
+        "3",
+        "-3",
+        "2",
+        "-2"
+      ],
+      "answer": 0,
+      "explanation": "Factor by grouping: x^2(x - 3) + 4(x - 3) = 0 → (x^2 + 4)(x - 3) = 0. Setting factors to zero: x^2 + 4 = 0 yields non-real roots x = ±2i. Setting x - 3 = 0 yields real solution x = 3.",
+      "citation": "College Board Digital SAT Math Specification — Polynomial Roots"
+    },
+    {
+      "id": "sat-math-049",
+      "type": "mcq",
+      "subtopic": "Box Plot Analysis & IQR (Data Analysis)",
+      "difficulty": "Medium",
+      "question": "A box plot shows Dataset X has Q1 = 15, Median = 25, Q3 = 35. Dataset Y has Q1 = 20, Median = 25, Q3 = 45. Which of the following is true?",
+      "options": [
+        "The interquartile range (IQR) of Dataset Y is greater than Dataset X",
+        "Both datasets have identical IQRs",
+        "The median of Dataset Y is greater than Dataset X",
+        "The range of Dataset X must be greater than Dataset Y"
+      ],
+      "answer": 0,
+      "explanation": "IQR = Q3 - Q1. For Dataset X: IQR = 35 - 15 = 20. For Dataset Y: IQR = 45 - 20 = 25. Since 25 > 20, Dataset Y has a greater IQR.",
+      "citation": "College Board Digital SAT Math Specification — Five-Number Summary"
+    },
+    {
+      "id": "sat-math-050",
+      "type": "mcq",
+      "subtopic": "Outliers & Statistical Measures (Data Analysis)",
+      "difficulty": "Medium",
+      "question": "A dataset contains the numbers {2, 3, 4, 5, 6}. If an extreme outlier of 100 is added to this dataset, how will the mean and median be affected?",
+      "options": [
+        "The mean will increase significantly, while the median will change very little",
+        "The median will increase significantly, while the mean will remain unaffected",
+        "Both mean and median will increase by identical amounts",
+        "Neither mean nor median will change"
+      ],
+      "answer": 0,
+      "explanation": "The mean is non-resistant to outliers and pulls heavily toward extreme values (mean jumps from 4 to ~18). The median is resistant and only shifts slightly to the middle position (median shifts from 4 to 4.5).",
+      "citation": "College Board Digital SAT Math Specification — Measures of Center"
+    },
+    {
+      "id": "sat-math-051",
+      "type": "mcq",
+      "subtopic": "Inscribed Angles Theorem (Geometry)",
+      "difficulty": "Medium",
+      "question": "In a circle, an inscribed angle intercepts an arc of measure 140°. What is the measure of the inscribed angle in degrees?",
+      "options": [
+        "70°",
+        "140°",
+        "280°",
+        "35°"
+      ],
+      "answer": 0,
+      "explanation": "The Inscribed Angle Theorem states that the measure of an inscribed angle is exactly half the measure of its intercepted arc: Angle = 140° / 2 = 70°.",
+      "citation": "College Board Digital SAT Math Specification — Circles & Inscribed Angles"
+    },
+    {
+      "id": "sat-math-052",
+      "type": "mcq",
+      "subtopic": "Pythagorean Trigonometric Identity (Trigonometry)",
+      "difficulty": "Easy",
+      "question": "For an acute angle θ, if cos(θ) = 4/5, what is the value of sin(θ)?",
+      "options": [
+        "3/5",
+        "5/4",
+        "1/5",
+        "3/4"
+      ],
+      "answer": 0,
+      "explanation": "Using sin^2(θ) + cos^2(θ) = 1: sin^2(θ) + (4/5)^2 = 1 → sin^2(θ) + 16/25 = 1 → sin^2(θ) = 9/25. Since θ is acute, sin(θ) = 3/5.",
+      "citation": "College Board Digital SAT Math Specification — Trigonometric Identities"
+    },
+    {
+      "id": "sat-math-053",
+      "type": "mcq",
+      "subtopic": "Rational Equations & Extraneous Solutions (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "How many real solutions exist for the rational equation: 2/(x - 3) + 1/x = 6/(x(x - 3))?",
+      "options": [
+        "Zero real solutions (solution is extraneous)",
+        "Exactly one real solution: x = 3",
+        "Exactly two real solutions",
+        "Infinitely many solutions"
+      ],
+      "answer": 0,
+      "explanation": "Multiply all terms by common denominator x(x - 3): 2x + (x - 3) = 6 → 3x - 3 = 6 → 3x = 9 → x = 3. However, substituting x = 3 back into original equation produces division by zero (3 - 3 = 0). Thus, x = 3 is extraneous and no valid real solution exists.",
+      "citation": "College Board Digital SAT Math Specification — Extraneous Solutions"
+    },
+    {
+      "id": "sat-math-054",
+      "type": "mcq",
+      "subtopic": "System with No Solution (Algebra)",
+      "difficulty": "Medium",
+      "question": "Which of the following linear systems has no solution in the xy-plane?",
+      "options": [
+        "4x - 6y = 9 and 2x - 3y = 8",
+        "2x + 3y = 7 and 4x + 6y = 14",
+        "x - y = 5 and x + y = 5",
+        "3x + 2y = 8 and 2x + 3y = 8"
+      ],
+      "answer": 0,
+      "explanation": "In 4x - 6y = 9, dividing by 2 gives 2x - 3y = 4.5. The second equation is 2x - 3y = 8. The lines share the same slope (2/3) but have different y-intercepts (-1.5 vs -8/3). They are strictly parallel and never intersect.",
+      "citation": "College Board Digital SAT Math Specification — Linear Systems"
+    },
+    {
+      "id": "sat-math-055",
+      "type": "mcq",
+      "subtopic": "Volume of a Cone (Geometry)",
+      "difficulty": "Easy",
+      "question": "A right circular cone has a base radius of 6 cm and a vertical height of 8 cm. What is the volume of the cone in cubic centimeters?",
+      "options": [
+        "96π",
+        "288π",
+        "48π",
+        "144π"
+      ],
+      "answer": 0,
+      "explanation": "Volume of cone V = (1/3) * π * r^2 * h = (1/3) * π * (6^2) * 8 = (1/3) * π * 36 * 8 = 12 * 8 * π = 96π cubic cm.",
+      "citation": "College Board Digital SAT Math Specification — Geometric Volumes"
+    },
+    {
+      "id": "sat-math-056",
+      "type": "mcq",
+      "subtopic": "Quarterly Compounding (Problem Solving)",
+      "difficulty": "Medium",
+      "question": "An investment of $2,000 earns 8% nominal annual interest compounded quarterly. Which expression represents the account balance after t years?",
+      "options": [
+        "2,000(1.02)^(4t)",
+        "2,000(1.08)^(4t)",
+        "2,000(1.02)^t",
+        "2,000(1.08)^t"
+      ],
+      "answer": 0,
+      "explanation": "Formula: A = P(1 + r/n)^(nt). Here P = 2,000, r = 0.08, n = 4 (quarters/year). r/n = 0.08 / 4 = 0.02. Thus A = 2,000(1 + 0.02)^(4t) = 2,000(1.02)^(4t).",
+      "citation": "College Board Digital SAT Math Specification — Compound Interest"
+    },
+    {
+      "id": "sat-math-057",
+      "type": "mcq",
+      "subtopic": "Skewness and Center (Data Analysis)",
+      "difficulty": "Medium",
+      "question": "A salary distribution at a corporation is strongly right-skewed by a few high-earning executive salaries. Which statement is most likely true regarding this distribution?",
+      "options": [
+        "The mean salary is greater than the median salary",
+        "The median salary is greater than the mean salary",
+        "The mean and median salaries are identical",
+        "The standard deviation of salaries is zero"
+      ],
+      "answer": 0,
+      "explanation": "Right-skewed distributions have long right tails caused by high values. These extreme values pull the mean upward, while the median remains anchored to the 50th percentile, meaning Mean > Median.",
+      "citation": "College Board Digital SAT Math Specification — Distribution Shape"
+    },
+    {
+      "id": "sat-math-058",
+      "type": "mcq",
+      "subtopic": "Similar Solids & Volume Scaling (Geometry)",
+      "difficulty": "Hard",
+      "question": "Two solid cubes have edge lengths in the ratio 2:3. If the volume of the smaller cube is 64 cm^3, what is the volume of the larger cube?",
+      "options": [
+        "216 cm^3",
+        "96 cm^3",
+        "144 cm^3",
+        "128 cm^3"
+      ],
+      "answer": 0,
+      "explanation": "When linear scale factor is a:b, volumes scale as a^3:b^3. Here ratio is 2^3:3^3 = 8:27. Volume of larger = 64 * (27 / 8) = 8 * 27 = 216 cm^3.",
+      "citation": "College Board Digital SAT Math Specification — 3D Scaling"
+    },
+    {
+      "id": "sat-math-059",
+      "type": "mcq",
+      "subtopic": "Degrees to Radians (Trigonometry)",
+      "difficulty": "Easy",
+      "question": "What is the radian measure equivalent to an angle of 150°?",
+      "options": [
+        "5π/6",
+        "3π/4",
+        "7π/6",
+        "2π/3"
+      ],
+      "answer": 0,
+      "explanation": "To convert degrees to radians, multiply by π/180°: 150 * (π / 180) = (150/180)π = 5π/6 radians.",
+      "citation": "College Board Digital SAT Math Specification — Angles and Radians"
+    },
+    {
+      "id": "sat-math-060",
+      "type": "mcq",
+      "subtopic": "Circle Chords and Distance (Geometry)",
+      "difficulty": "Hard",
+      "question": "In a circle of radius 13 cm, a chord is located 5 cm away from the center along a perpendicular segment. What is the total length of the chord?",
+      "options": [
+        "24 cm",
+        "12 cm",
+        "18 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "The perpendicular line from the center bisects the chord. A right triangle is formed by the distance from center (5), half-chord (x), and radius (13): x^2 + 5^2 = 13^2 → x^2 + 25 = 169 → x^2 = 144 → x = 12 cm. Total chord length = 2x = 2(12) = 24 cm.",
+      "citation": "College Board Digital SAT Math Specification — Chords & Radii"
+    }
+  ]
+}
