@@ -426,6 +426,26 @@ body {
   color: var(--text-muted);
 }
 
+.set-btn.random-btn {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(168, 85, 247, 0.08));
+  border-color: rgba(147, 51, 234, 0.4);
+  color: #9333ea;
+  font-weight: 700;
+}
+
+.set-btn.random-btn:hover {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.18), rgba(168, 85, 247, 0.18));
+  border-color: #9333ea;
+  color: #7e22ce;
+}
+
+.set-btn.random-btn.active {
+  background: linear-gradient(135deg, #6366f1, #9333ea);
+  border-color: #9333ea;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(147, 51, 234, 0.4);
+}
+
 /* ==========================================================================
    Exam Status Bar (Timer & Progress)
    ========================================================================== */

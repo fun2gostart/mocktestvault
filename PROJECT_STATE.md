@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 86 Production Routes | 3,870+ Ground-Truth Verified Questions across 3 Focus Pillars | 5 Legal Trust Hubs  
+> **Current Scale:** 90 Production Routes | 3,870+ Ground-Truth Verified Questions across 3 Focus Pillars | 4 Dynamic Shuffled Random Mock Simulators | 5 Legal Trust Hubs  
 
 ---
 
@@ -82,31 +82,35 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter): Set 1
 * **Staff Selection Commission (SSC CGL Tier 1 — 200 Questions):**
   * Full Mock 01 (100 Questions, 60 Mins, 4 Sections, TCS iON Palette)
   * 4 Sectional Speed Drills: Reasoning (25 Qs), Quant (25 Qs), English (25 Qs), General Awareness (25 Qs)
-* **United States Pillar (400 Questions across 20 Production Routes — 100 Questions Per Exam):**
-  * **Digital SAT® Math (100 Questions — 5 Modules, 32 Mins each, Desmos methods):**
+* **United States Pillar (400 Questions across 24 Production Routes — 100 Questions Per Exam + 4 Dedicated Random Mocks):**
+  * **Digital SAT® Math (100 Questions — 5 Modules + Dynamic Random Mock, 32 Mins each, Desmos methods):**
     * Module 01: Core Diagnostic (`sat/math-practice-01.html`)
     * Module 02: Algebra & Functions (`sat/math-practice-02.html`)
     * Module 03: Advanced Math & Geometry (`sat/math-practice-03.html`)
     * Module 04: 700–800 Score Benchmark (`sat/math-practice-04.html`)
     * Module 05: 1600 Master Suite (`sat/math-practice-05.html`)
-  * **Digital SAT® Reading & Writing (100 Questions — 5 Modules, 32 Mins each, Passage-based):**
+    * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 100-Q pool (`sat/math-practice-random.html`)
+  * **Digital SAT® Reading & Writing (100 Questions — 5 Modules + Dynamic Random Mock, 32 Mins each, Passage-based):**
     * Module 01: Core Diagnostic (`sat/reading-practice-01.html`)
     * Module 02: Craft & Structure (`sat/reading-practice-02.html`)
     * Module 03: Information & Ideas (`sat/reading-practice-03.html`)
     * Module 04: Advanced English Conventions (`sat/reading-practice-04.html`)
     * Module 05: High-Percentile Mastery Suite (`sat/reading-practice-05.html`)
-  * **AP® Calculus AB (100 Questions — 5 Sets, 45 Mins each, College Board CED Units 1–8):**
+    * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 100-Q pool (`sat/reading-practice-random.html`)
+  * **AP® Calculus AB (100 Questions — 5 Sets + Dynamic Random Mock, 45 Mins each, College Board CED Units 1–8):**
     * Set 01: Limits, Continuity & Core Diagnostic (`ap/calculus-ab-diagnostic-01.html`)
     * Set 02: Derivatives & Differentiability (`ap/calculus-ab-diagnostic-02.html`)
     * Set 03: Applications of Derivatives & MVT (`ap/calculus-ab-diagnostic-03.html`)
     * Set 04: Integration & Accumulation of Change (`ap/calculus-ab-diagnostic-04.html`)
     * Set 05: Differential Equations, Areas & Volumes (`ap/calculus-ab-diagnostic-05.html`)
-  * **AP® Physics 1: Algebra-Based (100 Questions — 5 Sets, 40 Mins each, College Board CED Units 1–7):**
+    * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 100-Q pool (`ap/calculus-ab-diagnostic-random.html`)
+  * **AP® Physics 1: Algebra-Based (100 Questions — 5 Sets + Dynamic Random Mock, 40 Mins each, College Board CED Units 1–7):**
     * Set 01: Kinematics & Core Physics Diagnostic (`ap/physics-1-diagnostic-01.html`)
     * Set 02: Dynamics, Friction & Newton's Laws (`ap/physics-1-diagnostic-02.html`)
     * Set 03: Circular Motion, Gravity & Work-Energy (`ap/physics-1-diagnostic-03.html`)
     * Set 04: Momentum, Impulse & Collisions (`ap/physics-1-diagnostic-04.html`)
     * Set 05: SHM & Rotational Dynamics (`ap/physics-1-diagnostic-05.html`)
+    * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 100-Q pool (`ap/physics-1-diagnostic-random.html`)
 * **Global Standards (IELTS® Academic — 20 Questions):**
   * Academic Reading Practice 01 (20 Qs, 25 Mins, Band 7.5–9.0 conversion scale)
 
@@ -131,6 +135,11 @@ MockTestVault runs on a pure vanilla JavaScript state machine with zero external
 * **Flexible Data Layer:**
   * Supports direct arrays `[...]` or dictionary wrappers `{"questions": [...]}`.
   * Dynamically maps `answer`, `correct`, or `correctAnswer` schema fields.
+* **Dynamic Shuffled Random Mock Engine (`currentSet === 'random'`):**
+  * Aggregates all sets from `setSources` in browser memory via parallel asynchronous `Promise.all` fetches.
+  * Employs Fisher-Yates array shuffling to eliminate question bias and prevent duplicate questions within a test session.
+  * Slices a clean sample of 20 randomized questions per attempt from the 100-question pool.
+  * Hitting "Retake Test" dynamically re-shuffles a fresh set of 20 questions on the fly without page reloads.
 
 ---
 
@@ -142,8 +151,8 @@ MockTestVault runs on a pure vanilla JavaScript state machine with zero external
   * Every page defines a strict `<link rel="canonical" href="...">`.
   * `https://www.mocktestvault.com` 301-redirects to apex `https://mocktestvault.com`.
 * **XML Sitemap:**
-  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **86 production URLs** (81 Examination Suites + 5 Legal & Trust Hubs).
-  * Priority weights: `1.0` (Homepage), `0.95` (Regional Hubs), `0.9` (Primary Simulators), `0.85` (Progress Hub), `0.8` (Individual Chapter Tests & Legal Hubs).
+  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **90 production URLs** (85 Examination Suites + 5 Legal & Trust Hubs).
+  * Priority weights: `1.0` (Homepage), `0.95` (Regional Hubs), `0.9` (Primary Simulators & Random Mocks), `0.85` (Progress Hub), `0.8` (Individual Chapter Tests & Legal Hubs).
 * **Robots.txt Directives:**
   * Permissive `User-agent: * Allow: /` with explicit sitemap link.
 * **Schema.org Structured Data:**

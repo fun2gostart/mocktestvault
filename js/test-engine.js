@@ -13,6 +13,7 @@ class MockTestEngine {
     };
     this.dataSource = this.setSources[this.currentSet];
     this.timeLimitMinutes = options.timeLimitMinutes || 20;
+    this.randomSampleSize = options.randomSampleSize || 20;
     this.markingScheme = options.markingScheme || { correct: 1, wrong: 0 };
     this.examType = options.examType || 'board'; // 'board' or 'competitive'
     this.questions = [];
@@ -281,14 +282,50 @@ class MockTestEngine {
      ========================================================================== */
   async loadQuestions() {
     try {
-      const res = await fetch(this.dataSource);
-      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-      const rawData = await res.json();
-      const rawList = Array.isArray(rawData) ? rawData : (rawData.questions || []);
+      let rawList = [];
+
+      if (this.currentSet === 'random') {
+        // Aggregate all available sets into a combined question pool
+        const sources = Object.values(this.setSources);
+        const fetchPromises = sources.map(async src => {
+          try {
+            const res = await fetch(src);
+            if (!res.ok) return [];
+            const data = await res.json();
+            return Array.isArray(data) ? data : (data.questions || []);
+          } catch (e) {
+            console.warn('Failed to load set for random pool:', src, e);
+            return [];
+          }
+        });
+
+        const results = await Promise.all(fetchPromises);
+        let combinedPool = results.flat();
+
+        if (combinedPool.length === 0) {
+          throw new Error('No questions found in question bank for random selection.');
+        }
+
+        // Fisher-Yates Shuffle on the combined pool
+        for (let i = combinedPool.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [combinedPool[i], combinedPool[j]] = [combinedPool[j], combinedPool[i]];
+        }
+
+        // Sample requested number of random questions (default 20)
+        const sampleSize = this.randomSampleSize || 20;
+        rawList = combinedPool.slice(0, Math.min(sampleSize, combinedPool.length));
+      } else {
+        const res = await fetch(this.dataSource);
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+        const rawData = await res.json();
+        rawList = Array.isArray(rawData) ? rawData : (rawData.questions || []);
+      }
+
       this.questions = rawList.map(q => ({
         ...q,
         answer: q.answer !== undefined ? q.answer : (q.correct !== undefined ? q.correct : q.correctAnswer),
-        citation: q.citation || q.ncertRef || 'Official NCERT Class 10 Syllabus'
+        citation: q.citation || q.ncertRef || 'Official Syllabus Standard'
       }));
       
       // Initialize state arrays
@@ -319,16 +356,18 @@ class MockTestEngine {
   }
 
   async switchSet(setKey) {
-    if (this.currentSet === setKey || !this.setSources[setKey]) return;
+    if (setKey !== 'random' && (this.currentSet === setKey || !this.setSources[setKey])) return;
     
     if (!this.isSubmitted && this.userAnswers && this.userAnswers.some(a => a !== null)) {
-      if (!confirm("Switching sets will reset your current progress on this test. Continue?")) {
+      if (!confirm("Switching test sets will reset your current progress on this test. Continue?")) {
         return;
       }
     }
     
     this.currentSet = setKey;
-    this.dataSource = this.setSources[setKey];
+    if (setKey !== 'random') {
+      this.dataSource = this.setSources[setKey];
+    }
     
     // Update active button state
     document.querySelectorAll('.set-btn').forEach(btn => {
@@ -338,9 +377,11 @@ class MockTestEngine {
     });
 
     // Reset view if scorecard is shown
-    this.dom.scorecardView.classList.remove('active');
-    this.dom.testLayout.style.display = 'grid';
-    this.dom.statusContainer.style.display = 'block';
+    if (this.dom.scorecardView) this.dom.scorecardView.classList.remove('active');
+    if (this.dom.testLayout) this.dom.testLayout.style.display = 'grid';
+    if (this.dom.statusContainer) this.dom.statusContainer.style.display = 'block';
+
+    if (this.timerInterval) clearInterval(this.timerInterval);
 
     await this.loadQuestions();
   }
@@ -771,7 +812,45 @@ class MockTestEngine {
     let rankDesc = "Outstanding conceptual clarity! You performed exceptionally well.";
     let predictedGrade = `Predicted Grade: Top Percentile`;
 
-    if (this.examType === 'competitive') {
+    if (this.examType === 'sat') {
+      // Digital SAT scoring: 200 - 800 scaled per section
+      const scaledScore = Math.round((correct / Math.max(1, total)) * 600) + 200;
+      if (scorePct >= 85) {
+        rankBadge = "🏆 99th Percentile Benchmark!";
+        rankDesc = "Ivy League / Top 20 competitive score trajectory. Flawless execution across College Board domains.";
+        predictedGrade = `Estimated Section Score: ${scaledScore} / 800 (Percentile: 98th-99th)`;
+      } else if (scorePct >= 65) {
+        rankBadge = "🎯 Competitive College Benchmark";
+        rankDesc = "Strong performance. Review the few missed concepts to break into the 750+ score range.";
+        predictedGrade = `Estimated Section Score: ${scaledScore} / 800 (Percentile: 85th-92nd)`;
+      } else {
+        rankBadge = "📈 Diagnostic Baseline";
+        rankDesc = "Target core conceptual foundations and timing strategies to improve scaled score.";
+        predictedGrade = `Estimated Section Score: ${scaledScore} / 800 (Baseline Tier)`;
+      }
+    } else if (this.examType === 'ap') {
+      // AP Scoring 1 - 5
+      let apScore = 1;
+      if (scorePct >= 75) apScore = 5;
+      else if (scorePct >= 60) apScore = 4;
+      else if (scorePct >= 45) apScore = 3;
+      else if (scorePct >= 30) apScore = 2;
+      else apScore = 1;
+
+      if (apScore === 5) {
+        rankBadge = "🏆 AP® Score 5 (Extremely Well Qualified)";
+        rankDesc = "Eligible for college credit and advanced placement at the nation's most selective universities.";
+        predictedGrade = "Projected College Board AP Score: 5 (Top Tier)";
+      } else if (apScore >= 3) {
+        rankBadge = `🎯 AP® Score ${apScore} (Qualified for College Credit)`;
+        rankDesc = "Meets credit-granting threshold at thousands of US colleges and universities.";
+        predictedGrade = `Projected College Board AP Score: ${apScore} (Passing Tier)`;
+      } else {
+        rankBadge = `⚠️ AP® Score ${apScore} (Needs Review)`;
+        rankDesc = "Focus on unit formulas and diagnostic review to reach qualifying score range (3+).";
+        predictedGrade = `Projected College Board AP Score: ${apScore} (Revision Needed)`;
+      }
+    } else if (this.examType === 'competitive') {
       const accuracy = Math.round((correct / Math.max(1, correct + wrong)) * 100);
       if (scorePct >= 70) {
         rankBadge = "🎯 Tier 1 Cutoff Qualified!";
@@ -803,21 +882,23 @@ class MockTestEngine {
       }
     }
 
-    // Render Score Hero
+    // Render Score Hero if element exists
     const scoreCircleHtml = this.examType === 'competitive'
       ? `<span class="score-num">${marksObtained}</span><span class="score-total">/ ${maxMarks} Marks</span>`
       : `<span class="score-num">${correct}</span><span class="score-total">out of ${total}</span>`;
 
-    this.dom.scoreHero.innerHTML = `
-      <div class="score-circle">
-        ${scoreCircleHtml}
-      </div>
-      <h2 class="score-title">${rankBadge} (${scorePct}%)</h2>
-      <p style="font-weight:700; color:var(--primary); font-size:0.95rem; margin-bottom:8px;">${predictedGrade}</p>
-      <p class="score-desc">${rankDesc}</p>
-    `;
+    if (this.dom.scoreHero) {
+      this.dom.scoreHero.innerHTML = `
+        <div class="score-circle">
+          ${scoreCircleHtml}
+        </div>
+        <h2 class="score-title">${rankBadge} (${scorePct}%)</h2>
+        <p style="font-weight:700; color:var(--primary); font-size:0.95rem; margin-bottom:8px;">${predictedGrade}</p>
+        <p class="score-desc">${rankDesc}</p>
+      `;
+    }
 
-    // Render Stats Grid
+    // Render Stats Grid if element exists
     const penaltyCard = wrongPenalty !== 0 ? `
       <div class="stat-card">
         <div class="stat-val" style="color:var(--danger)">${(wrong * Math.abs(wrongPenalty)).toFixed(1)}</div>
@@ -830,21 +911,45 @@ class MockTestEngine {
       </div>
     `;
 
-    this.dom.statsGrid.innerHTML = `
-      <div class="stat-card">
-        <div class="stat-val" style="color:var(--success)">${correct}</div>
-        <div class="stat-label">Correct (+${correctWeight})</div>
-      </div>
-      ${penaltyCard}
-      <div class="stat-card">
-        <div class="stat-val" style="color:var(--text-muted)">${skipped}</div>
-        <div class="stat-label">Skipped (0)</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-val" style="color:var(--primary)">${timeSpentMins}m ${timeSpentRemSecs}s</div>
-        <div class="stat-label">Time Taken</div>
-      </div>
-    `;
+    if (this.dom.statsGrid) {
+      this.dom.statsGrid.innerHTML = `
+        <div class="stat-card">
+          <div class="stat-val" style="color:var(--success)">${correct}</div>
+          <div class="stat-label">Correct (+${correctWeight})</div>
+        </div>
+        ${penaltyCard}
+        <div class="stat-card">
+          <div class="stat-val" style="color:var(--text-muted)">${skipped}</div>
+          <div class="stat-label">Skipped (0)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val" style="color:var(--primary)">${timeSpentMins}m ${timeSpentRemSecs}s</div>
+          <div class="stat-label">Time Taken</div>
+        </div>
+      `;
+    }
+
+    // Support dedicated score tiles if present (US Runners layout)
+    const rawEl = document.getElementById('score-raw');
+    if (rawEl) rawEl.textContent = `${correct} / ${total}`;
+    const pctEl = document.getElementById('score-pct');
+    if (pctEl) pctEl.textContent = `${scorePct}%`;
+    const scaleEl = document.getElementById('score-sat-scale');
+    if (scaleEl) {
+      if (this.examType === 'sat') {
+        const scaledScore = Math.round((correct / Math.max(1, total)) * 600) + 200;
+        scaleEl.textContent = `${scaledScore} / 800`;
+      } else if (this.examType === 'ap') {
+        let apScore = 1;
+        if (scorePct >= 75) apScore = 5;
+        else if (scorePct >= 60) apScore = 4;
+        else if (scorePct >= 45) apScore = 3;
+        else if (scorePct >= 30) apScore = 2;
+        scaleEl.textContent = `Score ${apScore} / 5`;
+      }
+    }
+    const timeEl = document.getElementById('score-time');
+    if (timeEl) timeEl.textContent = `${timeSpentMins}m ${timeSpentRemSecs}s`;
 
     // Render Subtopic Mastery Bars
     let masteryHtml = `
@@ -882,20 +987,44 @@ class MockTestEngine {
       `;
     });
     masteryHtml += `</div></div>`;
-    this.dom.masteryContainer.innerHTML = masteryHtml;
+    if (this.dom.masteryContainer) {
+      this.dom.masteryContainer.innerHTML = masteryHtml;
+    }
 
     // Update Filter Pill Counts
     const reviewedCount = this.reviewedFlags.filter(f => f).length;
     const mistakesCount = wrong + skipped;
 
-    document.getElementById('filter-count-all').textContent = total;
-    document.getElementById('filter-count-wrong').textContent = mistakesCount;
-    document.getElementById('filter-count-reviewed').textContent = reviewedCount;
-    document.getElementById('filter-count-correct').textContent = correct;
+    const fAll = document.getElementById('filter-count-all');
+    if (fAll) fAll.textContent = total;
+    const fWrong = document.getElementById('filter-count-wrong') || document.getElementById('filter-count-incorrect');
+    if (fWrong) fWrong.textContent = mistakesCount;
+    const fRev = document.getElementById('filter-count-reviewed');
+    if (fRev) fRev.textContent = reviewedCount;
+    const fCorr = document.getElementById('filter-count-correct');
+    if (fCorr) fCorr.textContent = correct;
+    const fUnans = document.getElementById('filter-count-unanswered');
+    if (fUnans) fUnans.textContent = skipped;
 
     // Render Detailed Question by Question Review List
     const letters = ['A', 'B', 'C', 'D'];
     let reviewHtml = '';
+
+    const expTitle = this.examType === 'sat'
+      ? 'College Board Answer Rationale & Method'
+      : (this.examType === 'ap'
+        ? 'AP® CED Formula & Concept Analysis'
+        : (this.examType === 'competitive'
+          ? 'Official Solution & Shortcut'
+          : 'NCERT Conceptual Explanation'));
+
+    const defaultCitation = this.examType === 'sat'
+      ? 'College Board SAT'
+      : (this.examType === 'ap'
+        ? 'College Board AP® CED'
+        : (this.examType === 'competitive'
+          ? 'Official Pattern'
+          : 'NCERT Class 10'));
 
     this.questions.forEach((q, idx) => {
       const userChoice = this.userAnswers[idx];
@@ -908,9 +1037,11 @@ class MockTestEngine {
         ? `<span style="color:var(--success); font-weight:700;">✓ Correct (+1)</span>`
         : (isSkipped ? `<span style="color:var(--text-muted); font-weight:700;">— Skipped / Unanswered</span>` : `<span style="color:var(--danger); font-weight:700;">✗ Incorrect (0)</span>`);
 
+      const resultTag = isCorrect ? 'correct' : (isSkipped ? 'unanswered' : 'wrong');
+
       reviewHtml += `
         <div class="review-item ${itemStatusClass}" 
-             data-result="${isCorrect ? 'correct' : 'wrong'}" 
+             data-result="${resultTag}" 
              data-reviewed="${isReviewed ? 'true' : 'false'}"
              id="review-q-${idx}">
           <div class="review-q-header">
@@ -933,8 +1064,8 @@ class MockTestEngine {
           
           <div class="explanation-box active" style="margin-bottom:0;">
             <div class="explanation-header">
-              <span>NCERT Conceptual Explanation</span>
-              <span class="citation-tag">${q.citation || 'NCERT Class 10'}</span>
+              <span>${expTitle}</span>
+              <span class="citation-tag">${q.citation || defaultCitation}</span>
             </div>
             <div class="explanation-text">${this.formatChemicalFormulas(q.explanation)}</div>
           </div>
@@ -942,15 +1073,20 @@ class MockTestEngine {
       `;
     });
 
-    this.dom.reviewList.innerHTML = reviewHtml;
+    if (this.dom.reviewList) {
+      this.dom.reviewList.innerHTML = reviewHtml;
+    }
 
     // Reset filter to 'all'
     this.applyReviewFilter('all');
 
     // Switch Views
-    this.dom.testLayout.style.display = 'none';
-    this.dom.statusContainer.style.display = 'none';
-    this.dom.scorecardView.classList.add('active');
+    if (this.dom.testLayout) this.dom.testLayout.style.display = 'none';
+    if (this.dom.statusContainer) this.dom.statusContainer.style.display = 'none';
+    if (this.dom.scorecardView) {
+      this.dom.scorecardView.classList.add('active');
+      this.dom.scorecardView.style.display = 'block';
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -964,14 +1100,18 @@ class MockTestEngine {
 
     const items = document.querySelectorAll('.review-item');
     items.forEach(el => {
-      const isCorrect = el.getAttribute('data-result') === 'correct';
-      const isWrong = el.getAttribute('data-result') === 'wrong';
+      const res = el.getAttribute('data-result'); // 'correct', 'wrong', 'unanswered'
+      const isCorrect = (res === 'correct');
+      const isWrong = (res === 'wrong');
+      const isUnanswered = (res === 'unanswered');
       const isReviewed = el.getAttribute('data-reviewed') === 'true';
 
       if (filterType === 'all') {
         el.style.display = 'block';
-      } else if (filterType === 'wrong') {
-        el.style.display = isWrong ? 'block' : 'none';
+      } else if (filterType === 'wrong' || filterType === 'incorrect') {
+        el.style.display = (isWrong || isUnanswered) ? 'block' : 'none';
+      } else if (filterType === 'unanswered' || filterType === 'skipped') {
+        el.style.display = isUnanswered ? 'block' : 'none';
       } else if (filterType === 'correct') {
         el.style.display = isCorrect ? 'block' : 'none';
       } else if (filterType === 'reviewed') {
@@ -980,7 +1120,19 @@ class MockTestEngine {
     });
   }
 
-  retakeTest() {
+  async retakeTest() {
+    if (this.currentSet === 'random') {
+      if (this.timerInterval) clearInterval(this.timerInterval);
+      if (this.dom.scorecardView) {
+        this.dom.scorecardView.classList.remove('active');
+        this.dom.scorecardView.style.display = 'none';
+      }
+      if (this.dom.testLayout) this.dom.testLayout.style.display = 'grid';
+      if (this.dom.statusContainer) this.dom.statusContainer.style.display = 'block';
+      await this.loadQuestions();
+      return;
+    }
+
     this.userAnswers = new Array(this.questions.length).fill(null);
     this.reviewedFlags = new Array(this.questions.length).fill(false);
     this.visitedFlags = new Array(this.questions.length).fill(false);
@@ -989,9 +1141,12 @@ class MockTestEngine {
     this.currentIndex = 0;
     this.isSubmitted = false;
 
-    this.dom.scorecardView.classList.remove('active');
-    this.dom.testLayout.style.display = 'grid';
-    this.dom.statusContainer.style.display = 'block';
+    if (this.dom.scorecardView) {
+      this.dom.scorecardView.classList.remove('active');
+      this.dom.scorecardView.style.display = 'none';
+    }
+    if (this.dom.testLayout) this.dom.testLayout.style.display = 'grid';
+    if (this.dom.statusContainer) this.dom.statusContainer.style.display = 'block';
 
     this.renderPalette();
     this.renderQuestion(0);

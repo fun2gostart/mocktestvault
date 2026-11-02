@@ -79,27 +79,31 @@
   <!-- Section Info Bar -->
   <div class="set-switcher-bar">
     <div class="set-switcher-container">
-      <span class="set-label">Digital SAT® Reading & Writing Modules (100 Qs Total):</span>
+      <span class="set-label">Digital SAT® Reading & Writing Modules (100 Qs Pool):</span>
       <div class="set-btn-group" role="tablist">
         <a href="reading-practice-01.html" class="set-btn" role="tab" aria-selected="false">
           <span>📖 Set 01 (Diagnostic)</span>
-          <span class="set-badge-count">20 Qs • 32 Mins</span>
+          <span class="set-badge-count">20 Qs • 32M</span>
         </a>
         <a href="reading-practice-02.html" class="set-btn" role="tab" aria-selected="false">
           <span>🔍 Set 02 (Craft/Struct)</span>
-          <span class="set-badge-count">20 Qs • 32 Mins</span>
+          <span class="set-badge-count">20 Qs • 32M</span>
         </a>
         <a href="reading-practice-03.html" class="set-btn active" role="tab" aria-selected="true">
           <span>📊 Set 03 (Info/Ideas)</span>
-          <span class="set-badge-count">20 Qs • 32 Mins</span>
+          <span class="set-badge-count">20 Qs • 32M</span>
         </a>
         <a href="reading-practice-04.html" class="set-btn" role="tab" aria-selected="false">
           <span>✍️ Set 04 (Conventions)</span>
-          <span class="set-badge-count">20 Qs • 32 Mins</span>
+          <span class="set-badge-count">20 Qs • 32M</span>
         </a>
         <a href="reading-practice-05.html" class="set-btn" role="tab" aria-selected="false">
           <span>🎯 Set 05 (Mastery)</span>
-          <span class="set-badge-count">20 Qs • 32 Mins</span>
+          <span class="set-badge-count">20 Qs • 32M</span>
+        </a>
+        <a href="reading-practice-random.html" class="set-btn random-btn" role="tab" aria-selected="false" data-set="random">
+          <span>🎲 Random 20-Q Mock</span>
+          <span class="set-badge-count">Shuffled</span>
         </a>
       </div>
     </div>
@@ -287,12 +291,17 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       window.testEngine = new MockTestEngine({
-        initialSet: 'set1',
+        initialSet: 'set3',
         timeLimitMinutes: 32,
+        randomSampleSize: 20,
         markingScheme: { correct: 1, wrong: 0 },
         examType: 'sat',
         setSources: {
-          set1: '../../data/us/sat/digital_sat_reading_set3.json'
+          set1: '../../data/us/sat/digital_sat_reading_set1.json',
+          set2: '../../data/us/sat/digital_sat_reading_set2.json',
+          set3: '../../data/us/sat/digital_sat_reading_set3.json',
+          set4: '../../data/us/sat/digital_sat_reading_set4.json',
+          set5: '../../data/us/sat/digital_sat_reading_set5.json'
         }
       });
       window.testEngine.loadQuestions();

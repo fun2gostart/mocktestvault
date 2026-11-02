@@ -83,23 +83,27 @@
       <div class="set-btn-group" role="tablist">
         <a href="calculus-ab-diagnostic-01.html" class="set-btn" role="tab" aria-selected="false">
           <span>Set 01 (Limits/Diag)</span>
-          <span class="set-badge-count">20 Qs • 45M</span>
+          <span class="set-badge-count">20 Qs</span>
         </a>
         <a href="calculus-ab-diagnostic-02.html" class="set-btn" role="tab" aria-selected="false">
           <span>Set 02 (Derivatives)</span>
-          <span class="set-badge-count">20 Qs • 45M</span>
+          <span class="set-badge-count">20 Qs</span>
         </a>
         <a href="calculus-ab-diagnostic-03.html" class="set-btn active" role="tab" aria-selected="true">
           <span>Set 03 (Applications)</span>
-          <span class="set-badge-count">20 Qs • 45M</span>
+          <span class="set-badge-count">20 Qs</span>
         </a>
         <a href="calculus-ab-diagnostic-04.html" class="set-btn" role="tab" aria-selected="false">
           <span>Set 04 (Integration)</span>
-          <span class="set-badge-count">20 Qs • 45M</span>
+          <span class="set-badge-count">20 Qs</span>
         </a>
         <a href="calculus-ab-diagnostic-05.html" class="set-btn" role="tab" aria-selected="false">
           <span>Set 05 (DiffEq/Vols)</span>
-          <span class="set-badge-count">20 Qs • 45M</span>
+          <span class="set-badge-count">20 Qs</span>
+        </a>
+        <a href="calculus-ab-diagnostic-random.html" class="set-btn random-btn" role="tab" aria-selected="false" data-set="random">
+          <span>🎲 Random 20-Q Mock</span>
+          <span class="set-badge-count">Shuffled</span>
         </a>
       </div>
     </div>
@@ -287,12 +291,17 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       window.testEngine = new MockTestEngine({
-        initialSet: 'set1',
+        initialSet: 'set3',
         timeLimitMinutes: 45,
+        randomSampleSize: 20,
         markingScheme: { correct: 1, wrong: 0 },
-        examType: 'board',
+        examType: 'ap',
         setSources: {
-          set1: '../../data/us/ap/ap_calculus_ab_set3.json'
+          set1: '../../data/us/ap/ap_calculus_ab_set1.json',
+          set2: '../../data/us/ap/ap_calculus_ab_set2.json',
+          set3: '../../data/us/ap/ap_calculus_ab_set3.json',
+          set4: '../../data/us/ap/ap_calculus_ab_set4.json',
+          set5: '../../data/us/ap/ap_calculus_ab_set5.json'
         }
       });
       window.testEngine.loadQuestions();

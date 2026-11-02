@@ -83,23 +83,27 @@
       <div class="set-btn-group" role="tablist">
         <a href="physics-1-diagnostic-01.html" class="set-btn" role="tab" aria-selected="false">
           <span>Set 01 (Kinematics)</span>
-          <span class="set-badge-count">20 Qs • 40M</span>
+          <span class="set-badge-count">20 Qs</span>
         </a>
         <a href="physics-1-diagnostic-02.html" class="set-btn" role="tab" aria-selected="false">
           <span>Set 02 (Dynamics)</span>
-          <span class="set-badge-count">20 Qs • 40M</span>
+          <span class="set-badge-count">20 Qs</span>
         </a>
         <a href="physics-1-diagnostic-03.html" class="set-btn" role="tab" aria-selected="false">
           <span>Set 03 (Circ/Energy)</span>
-          <span class="set-badge-count">20 Qs • 40M</span>
+          <span class="set-badge-count">20 Qs</span>
         </a>
         <a href="physics-1-diagnostic-04.html" class="set-btn" role="tab" aria-selected="false">
           <span>Set 04 (Momentum)</span>
-          <span class="set-badge-count">20 Qs • 40M</span>
+          <span class="set-badge-count">20 Qs</span>
         </a>
         <a href="physics-1-diagnostic-05.html" class="set-btn active" role="tab" aria-selected="true">
           <span>Set 05 (Rotation/SHM)</span>
-          <span class="set-badge-count">20 Qs • 40M</span>
+          <span class="set-badge-count">20 Qs</span>
+        </a>
+        <a href="physics-1-diagnostic-random.html" class="set-btn random-btn" role="tab" aria-selected="false" data-set="random">
+          <span>🎲 Random 20-Q Mock</span>
+          <span class="set-badge-count">Shuffled</span>
         </a>
       </div>
     </div>
@@ -243,8 +247,8 @@
         <button id="btn-print-sheet" class="btn-scorecard btn-print">
           <span>🖨️</span> Print Revision Sheet (PDF)
         </button>
-        <a href="../index.html" class="btn-scorecard btn-next-ch">
-          <span>🎓</span> Return to US Exam Catalog →
+        <a href="physics-1-diagnostic-random.html" class="btn-scorecard btn-next-ch">
+          <span>🎲</span> Take Random 20-Q Mock Exam →
         </a>
       </div>
     </div>
@@ -287,12 +291,17 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       window.testEngine = new MockTestEngine({
-        initialSet: 'set1',
+        initialSet: 'set5',
         timeLimitMinutes: 40,
+        randomSampleSize: 20,
         markingScheme: { correct: 1, wrong: 0 },
-        examType: 'board',
+        examType: 'ap',
         setSources: {
-          set1: '../../data/us/ap/ap_physics_1_set5.json'
+          set1: '../../data/us/ap/ap_physics_1_set1.json',
+          set2: '../../data/us/ap/ap_physics_1_set2.json',
+          set3: '../../data/us/ap/ap_physics_1_set3.json',
+          set4: '../../data/us/ap/ap_physics_1_set4.json',
+          set5: '../../data/us/ap/ap_physics_1_set5.json'
         }
       });
       window.testEngine.loadQuestions();
