@@ -260,7 +260,7 @@ def generate_html_runner(subject_name, subject_slug, ch_num, ch_title, ch_slug, 
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Distraction-Free & Ad-Free. Aligned with official NCERT Class 10 {subject_name} standards.</p>
+      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official NCERT Class 10 {subject_name} standards.</p>
     </div>
   </footer>
 

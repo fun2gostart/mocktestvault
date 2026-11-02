@@ -461,7 +461,7 @@ def build_dashboard_html():
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Distraction-Free & Ad-Free. Aligned with official NCERT CBSE Class 10 standards.</p>
+      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official NCERT CBSE Class 10 standards.</p>
     </div>
   </footer>
 
