@@ -1,87 +1,87 @@
 [
   {
     "id": "cbse10-sci-ch12-s3-001",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Magnetic Field Line Topology",
     "difficulty": "Easy",
     "question": "Assertion (A): Two magnetic field lines can never cross or intersect each other in space.\nReason (R): If two magnetic field lines intersected, a compass needle placed at the intersection point would simultaneously point in two conflicting directions, which is physically impossible.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+      "(A) is false, but (R) is true."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "At any point in space, there is a single unique magnetic field vector. The direction of a magnetic field line at any location corresponds to the direction indicated by a compass needle's north pole. Two intersecting lines would imply two simultaneous field directions at one point, which is physically impossible.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.1 Magnetic Field and Field Lines"
   },
   {
     "id": "cbse10-sci-ch12-s3-002",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Solenoid Field Uniformity",
     "difficulty": "Medium",
     "question": "Assertion (A): The magnetic field inside a long current-carrying cylindrical solenoid is completely uniform.\nReason (R): Inside the solenoid, the magnetic field lines are represented by equidistant parallel straight lines running along the longitudinal axis.",
     "options": [
-      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). Equidistant parallel straight field lines indicate that the magnetic field has the exact same strength and direction at every point inside the interior of a long solenoid.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Magnetic Field due to a Current in a Solenoid"
   },
   {
     "id": "cbse10-sci-ch12-s3-003",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Force on Stationary Charges in Magnetic Field",
     "difficulty": "Medium",
     "question": "Assertion (A): A stationary electric charge placed inside a powerful permanent magnetic field experiences a strong deflecting Lorentz force.\nReason (R): Magnetic force on a charged particle is governed by F = q * v * B * sin(theta), meaning magnetic fields exert zero force on charges at rest (v = 0).",
     "options": [
-      "(A) is false, but (R) is true.",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is true, but (R) is false."
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Assertion (A) is false: a magnetic field exerts force ONLY on moving charges; stationary charges experience no magnetic force regardless of field intensity. Reason (R) is completely true: when v = 0, F = q * (0) * B = 0.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
   },
   {
     "id": "cbse10-sci-ch12-s3-004",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Electric Motor Mechanism",
     "difficulty": "Medium",
     "question": "Assertion (A): An electric motor converts electrical energy into rotational mechanical energy.\nReason (R): A rectangular current-carrying coil placed in a magnetic field experiences equal and opposite forces on its two parallel arms, creating a couple that exerts continuous rotational torque.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). By Fleming's Left-Hand Rule, the upward force on one arm and the downward force on the opposite arm form a couple that rotates the armature shaft, converting electrical power into mechanical work.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.4 Electric Motor"
   },
   {
     "id": "cbse10-sci-ch12-s3-005",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Safety Earthing Mechanism",
     "difficulty": "Easy",
     "question": "Assertion (A): The metallic chassis of high-power electrical appliances like washing machines and refrigerators must be connected to an earth ground wire.\nReason (R): Earthing provides an ultra-low resistance pathway for fault currents, ensuring user contact does not conduct dangerous currents through the human body.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Both statements are true and R explains A. If internal wiring insulation degrades and the live conductor contacts the metal body, current is shunted harmlessly to earth, instantly tripping the circuit breaker or blowing the fuse without shocking anyone touching the machine.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
   },
   {
     "id": "cbse10-sci-ch12-s3-006",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Electromagnet Core Composition",
     "difficulty": "Medium",
     "question": "Assertion (A): Copper rods are ideally chosen as the core material inside solenoids to manufacture powerful industrial electromagnets.\nReason (R): Soft iron has high magnetic permeability and loses its magnetism almost completely when the electric current is switched off, making it the ideal core material for temporary electromagnets.",
@@ -97,23 +97,23 @@
   },
   {
     "id": "cbse10-sci-ch12-s3-007",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Domestic AC Electrical Parameters",
     "difficulty": "Medium",
     "question": "Assertion (A): Domestic AC electric power in India is supplied at 220 V with an oscillation frequency of 50 Hz.\nReason (R): A frequency of 50 Hz means the alternating current reverses its direction of flow exactly 100 times every second (once every 1/100th of a second).",
     "options": [
-      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "In 1 complete AC cycle, the direction of current reverses twice (once during the positive half-cycle and once during the negative half-cycle). Therefore, at 50 Hz (50 cycles/sec), current changes direction 2 * 50 = 100 times per second.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
   },
   {
     "id": "cbse10-sci-ch12-s3-008",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Domestic Wiring Safety: Fuse in Live Conductor",
     "difficulty": "Medium",
     "question": "Assertion (A): An electric fuse must strictly be placed in the live wire of a household branch circuit.\nReason (R): If a fuse is placed in the neutral wire, blowing the fuse disconnects the return path, but the entire appliance remains energized at 220 V live voltage, creating a lethal shock hazard.",
@@ -129,33 +129,33 @@
   },
   {
     "id": "cbse10-sci-ch12-s3-009",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Motion of Charged Particle in Magnetic Field: Constant Kinetic Energy",
     "difficulty": "Hard",
     "question": "Assertion (A): When an electron enters a uniform magnetic field perpendicularly, its speed and kinetic energy remain strictly constant even though its direction changes.\nReason (R): The magnetic Lorentz force acts strictly perpendicular to the instantaneous velocity of the charged particle at all times, doing zero net mechanical work on it (W = F * d * cos 90° = 0).",
     "options": [
-      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Because magnetic force F is perpendicular to velocity v, work done W = delta(KE) = 0. The magnetic field alters the direction of motion (providing centripetal acceleration) without changing the speed or kinetic energy of the electron.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
   },
   {
     "id": "cbse10-sci-ch12-s3-010",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Magnetic Field Inversion upon Current Reversal",
     "difficulty": "Easy",
     "question": "Assertion (A): Reversing the direction of current in a straight conductor reduces the magnetic field strength at any nearby point to zero.\nReason (R): Reversing the current direction reverses the rotational direction of the magnetic field lines without altering the numerical magnitude of the magnetic field.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is false, but (R) is true.",
-      "(A) is true, but (R) is false."
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Assertion (A) is false: field strength B depends on current magnitude I and distance r; reversing current direction simply reverses field vector direction, leaving magnitude unchanged. Reason (R) is true.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.1 Magnetic Field due to a Current through a Straight Conductor"
   },

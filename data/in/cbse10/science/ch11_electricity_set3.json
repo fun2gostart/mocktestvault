@@ -1,39 +1,39 @@
 [
   {
     "id": "cbse10-sci-ch11-s3-001",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Joule Heating: Cord vs Element",
     "difficulty": "Easy",
     "question": "Assertion (A): The cord (supply lead) of an electric room heater does not glow hot, whereas its heating element glows bright red.\nReason (R): The heating element is made of high-resistance Nichrome wire, producing massive Joule heating (H = I^2 * R * t), while the cord is low-resistance copper wire.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). In a series circuit, current I is the same through both the cord and element. Heat generated per second is P = I^2 * R. Because Nichrome's resistance is hundreds of times greater than copper's, heat is heavily concentrated in the element, causing it to glow red-hot.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.7.1 Practical Applications of Heating Effect"
   },
   {
     "id": "cbse10-sci-ch11-s3-002",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Parallel Circuit Behavior: Voltage Drop Under Heavy Load",
     "difficulty": "Medium",
     "question": "Assertion (A): An incandescent bulb in a room temporarily dims slightly when a high-power 2000 W geyser is switched on in the household circuit.\nReason (R): High-power appliances draw large electric currents, creating a minor voltage drop across the internal resistance of the house service cable.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+      "(A) is false, but (R) is true."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Although household sockets are in parallel, the main supply wire leading into the house has non-zero resistance. Drawing a heavy current (approx. 9 A for a 2000 W geyser) causes an IR voltage drop in the service leads, slightly reducing voltage at the bulb and making it dim momentarily.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.6.2 Resistors in Parallel"
   },
   {
     "id": "cbse10-sci-ch11-s3-003",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Series Circuit Vulnerability",
     "difficulty": "Easy",
     "question": "Assertion (A): If one incandescent bulb in a series-connected chain of lamps burns out (fuses), all other lamps in the chain go off immediately.\nReason (R): In a series circuit, there is only one single continuous conducting path; an open fault at any point disconnects the entire circuit.",
@@ -49,71 +49,71 @@
   },
   {
     "id": "cbse10-sci-ch11-s3-004",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Standard Resistors: Alloy Construction",
     "difficulty": "Medium",
     "question": "Assertion (A): Standard precision laboratory resistance coils are manufactured from alloys like Constantan or Manganin rather than pure elemental metals.\nReason (R): These alloys possess high electrical resistivity and an almost negligible temperature coefficient of resistance, ensuring resistance remains stable during heating.",
     "options": [
-      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Pure metals exhibit significant increases in resistance as temperature rises. Constantan and Manganin are chosen for standard resistors because their resistance is virtually temperature-independent over normal working temperatures.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.5 Factors on which the Resistance of a Conductor Depends"
   },
   {
     "id": "cbse10-sci-ch11-s3-005",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Conductor Geometry and Resistance",
     "difficulty": "Easy",
     "question": "Assertion (A): Simply bending or curving a long copper wire into a zigzag shape without stretching it drastically alters its electrical resistance.\nReason (R): The electrical resistance of a uniform conductor is determined solely by its length, cross-sectional area, material composition, and temperature.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is false, but (R) is true.",
-      "(A) is true, but (R) is false."
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Assertion (A) is false: bending a wire into curves or loops without stretching or compressing does not change its length, cross-sectional area, material, or temperature, so its DC resistance remains completely unchanged. Reason (R) correctly specifies the governing factors.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.5 Factors on which the Resistance of a Conductor Depends"
   },
   {
     "id": "cbse10-sci-ch11-s3-006",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Ammeter Installation Principles",
     "difficulty": "Easy",
     "question": "Assertion (A): An ammeter must always be connected in series with the circuit branch whose current is to be measured.\nReason (R): In a series connection, the exact same electric current flows through the measuring instrument as through the circuit load.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+      "(A) is false, but (R) is true."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Both statements are true and Reason (R) explains Assertion (A). Current is identical at all points in a series loop, ensuring the ammeter accurately measures circuit current without altering branch flows.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.1 Electric Current and Circuit"
   },
   {
     "id": "cbse10-sci-ch11-s3-007",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Electrical Safety: Fuse Rating Upgrading Hazard",
     "difficulty": "Medium",
     "question": "Assertion (A): Replacing a frequently blowing 5 A fuse with a 20 A fuse is a recommended solution to eliminate nuisance tripping in residential lighting circuits.\nReason (R): An oversized 20 A fuse fails to melt during wiring overcurrents, allowing house wires to overheat to incendiary temperatures and cause house fires.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
-      "(A) is false, but (R) is true.",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is true, but (R) is false."
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Assertion (A) is completely false and dangerous: upgrading a 5 A fuse to 20 A defeats the safety mechanism. Reason (R) is completely true: lighting wires rated for 5 A will melt their insulation and start fires before a 20 A fuse trips.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.7.1 Practical Applications of Heating Effect"
   },
   {
     "id": "cbse10-sci-ch11-s3-008",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Material Conductivity: Silver vs Copper",
     "difficulty": "Easy",
     "question": "Assertion (A): Pure silver is the most electrically conductive metal known at room temperature.\nReason (R): Pure silver possesses the lowest electrical resistivity (approx. 1.60 * 10^-8 Omega m) among all metals.",
@@ -129,23 +129,23 @@
   },
   {
     "id": "cbse10-sci-ch11-s3-009",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Parallel Resistance Properties",
     "difficulty": "Medium",
     "question": "Assertion (A): The equivalent resistance of any parallel combination of resistors is always strictly less than the smallest individual resistance in that group.\nReason (R): Connecting resistors in parallel provides multiple alternate pathways for current to travel, thereby reducing the net opposition to current flow.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Both statements are true and Reason correctly explains Assertion. For example, 1 Omega and 1000 Omega in parallel yield R_p = 1000 / 1001 ≈ 0.999 Omega, which is less than 1 Omega, because each added branch increases total cross-sectional conducting pathway.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.6.2 Resistors in Parallel"
   },
   {
     "id": "cbse10-sci-ch11-s3-010",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Electric Power: Voltage Proportionality",
     "difficulty": "Medium",
     "question": "Assertion (A): If the potential difference applied across a fixed ohmic resistor is doubled, the electric power dissipated in it is also doubled.\nReason (R): Electric power dissipated in a constant resistance R is directly proportional to the square of the potential difference (P = V^2 / R).",

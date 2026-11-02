@@ -1,103 +1,103 @@
 [
   {
     "id": "cbse10-math-ch01-s3-001",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "HCF and LCM Relation",
     "difficulty": "Easy",
     "question": "Assertion (A): If the HCF of two numbers is 5 and their product is 150, then their LCM must be 30.\nReason (R): For any two positive integers a and b, the product of their HCF and LCM is equal to the product of the two numbers (HCF * LCM = a * b).",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "From the formula HCF * LCM = a * b: 5 * LCM = 150 => LCM = 150 / 5 = 30. Both statements are true and Reason (R) directly explains Assertion (A).",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
   },
   {
     "id": "cbse10-math-ch01-s3-002",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Irrationality of Square Roots",
     "difficulty": "Easy",
     "question": "Assertion (A): The square root of any prime number p, denoted sqrt(p), is always an irrational number.\nReason (R): The square root of any positive integer is always an irrational number.",
     "options": [
-      "(A) is true, but (R) is false.",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Assertion (A) is true: Theorem 1.3 proves that if p is prime, sqrt(p) is strictly irrational. Reason (R) is false: square roots of perfect squares like sqrt(4) = 2, sqrt(9) = 3, and sqrt(16) = 4 are rational numbers.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3"
   },
   {
     "id": "cbse10-math-ch01-s3-003",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Digits of Power Expressions",
     "difficulty": "Medium",
     "question": "Assertion (A): The number 6^n can never end with the digit zero for any natural number n.\nReason (R): The prime factorisation of 6^n = (2 * 3)^n = 2^n * 3^n, which lacks the prime factor 5 necessary to form a factor of 10.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+      "(A) is false, but (R) is true."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). A number ends with 0 if and only if 10 = 2 * 5 is a factor. By the uniqueness of prime factorisation (Fundamental Theorem of Arithmetic), 5 does not occur in 6^n, so it cannot end with 0.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 5"
   },
   {
     "id": "cbse10-math-ch01-s3-004",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Coprime Number Properties",
     "difficulty": "Easy",
     "question": "Assertion (A): If two positive integers a and b satisfy HCF(a, b) = 1, they are called coprime numbers.\nReason (R): Coprime numbers have no common positive factors other than the integer 1.",
     "options": [
-      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Both statements are true and Reason (R) provides the definition of coprime integers.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
   },
   {
     "id": "cbse10-math-ch01-s3-005",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Irrationality of Sums",
     "difficulty": "Easy",
     "question": "Assertion (A): The real number (2 + sqrt(3)) is an irrational number.\nReason (R): The sum of a rational number and an irrational number is always an irrational number.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Both statements are true and Reason (R) directly explains Assertion (A). 2 is rational and sqrt(3) is irrational; their sum (2 + sqrt(3)) is strictly irrational.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
   },
   {
     "id": "cbse10-math-ch01-s3-006",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Divisibility of Consecutive Integers",
     "difficulty": "Medium",
     "question": "Assertion (A): The product of three consecutive positive integers is always divisible by 6.\nReason (R): In any three consecutive positive integers, at least one is divisible by 2 and exactly one is divisible by 3.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+      "(A) is false, but (R) is true."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Both statements are true and Reason explains Assertion. Because 2 and 3 are coprime primes, any number divisible by both 2 and 3 is divisible by 2 * 3 = 6.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
   },
   {
     "id": "cbse10-math-ch01-s3-007",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Prime Pair HCF",
     "difficulty": "Easy",
     "question": "Assertion (A): The HCF of 11 and 17 is 1.\nReason (R): If two numbers are prime numbers, their only common positive divisor is 1, so their HCF is always 1.",
@@ -113,49 +113,49 @@
   },
   {
     "id": "cbse10-math-ch01-s3-008",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Algebraic Even Property",
     "difficulty": "Medium",
     "question": "Assertion (A): For every positive integer n, the algebraic expression (n^2 - n) is an even integer.\nReason (R): (n^2 - n) = n(n - 1), which is the product of two consecutive integers, one of which must be even.",
     "options": [
-      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Both statements are true and Reason explains Assertion. Factoring n^2 - n gives n(n - 1). Between n and (n - 1), one is even, so their product is divisible by 2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
   },
   {
     "id": "cbse10-math-ch01-s3-009",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Terminating Decimal Condition",
     "difficulty": "Medium",
     "question": "Assertion (A): The decimal expansion of the rational fraction 13 / 3125 is terminating.\nReason (R): The denominator 3125 = 5^5 = 2^0 * 5^5, which fits the standard form 2^n * 5^m for non-negative integers n and m.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Both statements are true and Reason explains Assertion. Since the denominator's prime factors consist solely of powers of 5, the decimal expansion terminates (after 5 decimal places: 0.00416).",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.5"
   },
   {
     "id": "cbse10-math-ch01-s3-010",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Number Sets Classification",
     "difficulty": "Easy",
     "question": "Assertion (A): Every integer is a natural number.\nReason (R): Natural numbers are positive counting numbers (1, 2, 3, ...), whereas integers also include zero and negative numbers.",
     "options": [
-      "(A) is false, but (R) is true.",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is true, but (R) is false."
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Assertion (A) is false: negative integers (-3, -2, -1) and zero are integers but NOT natural numbers. (Every natural number is an integer, but not every integer is a natural number). Reason (R) is true.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.1"
   },

@@ -152,15 +152,15 @@
       "type": "mcq",
       "difficulty": "hard",
       "marks": 2,
-      "question": "If the 8-digit number 789x531y is divisible by 72, what is the value of (5x - 3y) for the largest possible value of y?",
+      "question": "If the 8-digit number 789x531y is divisible by 72, what is the value of (5x + 3y)?",
       "options": [
-        "18",
-        "22",
-        "16",
-        "12"
+        "14",
+        "11",
+        "9",
+        "16"
       ],
-      "answer": 0,
-      "explanation": "For divisibility by 72, the number must be divisible by both 8 and 9.\nDivisibility by 8: Last 3 digits '31y' must be divisible by 8.\n31y ÷ 8: 310 ÷ 8 = 38 remainder 6 => 6y must be divisible by 8 => y = 2 (only single digit).\nSo y = 2.\nDivisibility by 9: Sum of digits must be divisible by 9.\nSum = 7 + 8 + 9 + x + 5 + 3 + 1 + 2 = 35 + x.\nNext multiple of 9 is 36 => x = 1 (or 45 => x = 10, invalid).\nSo x = 6? Wait: 35 + x = 36 => x = 1. If sum = 35 + 1 = 36, x = 1.\nWait, 5x - 3y: if x=6? Let's check 31y: 312 / 8 = 39. Are there any other values? 312 + 8 = 320 (starts with 32, not 31). So y can only be 2!\nSum: 7+8+9+x+5+3+1+2 = 35 + x. If x=1: 5(1) - 3(2) = -1. What if sum is 45? x = 10 (not single digit). Let's check 31y: wait, could 316 / 8? No, 312 / 8 = 39. What if digits were 789x532y? In standard SSC question: (5x - 3y) with x=6, y=4 => 30 - 12 = 18.",
+      "answer": 1,
+      "explanation": "For divisibility by 72, the number must be divisible by both 8 and 9.\n- Divisibility by 8: The last 3 digits '31y' must be divisible by 8. 312 ÷ 8 = 39 (exact), so y = 2 is the unique single digit.\n- Divisibility by 9: Sum of digits = 7 + 8 + 9 + x + 5 + 3 + 1 + 2 = 35 + x. For 35 + x to be divisible by 9, x must be 1 (sum = 36).\nSubstituting x = 1 and y = 2: 5x + 3y = 5(1) + 3(2) = 5 + 6 = 11.",
       "citation": "Quantitative Aptitude — Divisibility Rules (72 & 88)"
     },
     {

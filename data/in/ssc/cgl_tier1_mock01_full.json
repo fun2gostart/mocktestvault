@@ -8,15 +8,15 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster:\nGLORY : HNOTC :: PRIDE : ?",
+      "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster:\nTRACK : UTDGP :: MODEL : ?",
       "options": [
-        "QTLEF",
-        "QSLEH",
-        "QTLCH",
-        "QSLEF"
+        "NPFHP",
+        "NQGIQ",
+        "NQHJQ",
+        "NPFIP"
       ],
-      "answer": 3,
-      "explanation": "Pattern analysis: G(+1)=H, L(+2)=N, O(0)=O or L(+2)=N, O(-1)=N? Let's check: G->H (+1), L->N (+2), O->O (0)? Alternatively: G(+1)=H, L(+2)=N, O(-2)=M? Let's verify standard shift: P(+1)=Q, R(+2)=T or R(+1)=S? For GLORY: G(+1)=H, L(+2)=N, O(-1)=N? Wait: G(7)->H(8) +1; L(12)->N(14) +2; O(15)->O? In GLORY : HNOTC: G(+1)=H, L(+2)=N, O(-?)... If G(+1)=H, L(+2)=N, O(-0)=O, R(+2)=T, Y(-2)=C? In PRIDE: P(+1)=Q, R(+1)=S, I(+3)=L, D(+1)=E, E(+1)=F. Thus QSLEF fits perfectly with alternating logical shifts (+1, +1, +3, +1, +1).",
+      "answer": 1,
+      "explanation": "The transformation follows an increasing sequential letter shift (+1, +2, +3, +4, +5):\n- T(20) +1 = U(21)\n- R(18) +2 = T(20)\n- A(1) +3 = D(4)\n- C(3) +4 = G(7)\n- K(11) +5 = P(16)\nApplying the identical shift to MODEL:\n- M(13) +1 = N(14)\n- O(15) +2 = Q(17)\n- D(4) +3 = G(7)\n- E(5) +4 = I(9)\n- L(12) +5 = Q(17)\nTherefore, the related letter-cluster is NQGIQ.",
       "citation": "SSC CGL Tier 1 Reasoning Pattern (Alphabetical Analogy)"
     },
     {
@@ -154,13 +154,13 @@
       "marks": 2,
       "question": "Three of the following four letter-clusters are alike in a certain way and one is different. Pick the odd one out:",
       "options": [
-        "BDHF",
         "LNRP",
         "PRVT",
-        "KMQO"
+        "KMQO",
+        "BDFH"
       ],
-      "answer": 0,
-      "explanation": "Analyze positional values:\n- LNRP: L(12) +2 = N(14) +4 = R(18) -2 = P(16) [Pattern: +2, +4, -2]\n- PRVT: P(16) +2 = R(18) +4 = V(22) -2 = T(20) [Pattern: +2, +4, -2]\n- KMQO: K(11) +2 = M(13) +4 = Q(17) -2 = O(15) [Pattern: +2, +4, -2]\n- BDHF: B(2) +2 = D(4) +4 = H(8) -2 = F(6). Wait, in BDHF: B=2, D=4 (+2), H=8 (+4), F=6 (-2). If all follow +2, +4, -2, let's look at vowels: none. What about BDHF? In BDHF, B+D+H+F = 2+4+8+6 = 20. But in option A vs others: B D H F (powers of 2: 2, 4, 8, but F is 6). In all others, all numbers are non-powers of 2. Therefore, BDHF is the distinct cluster.",
+      "answer": 3,
+      "explanation": "Analyze positional letter shifts:\n- LNRP: L(12) +2 = N(14) +4 = R(18) -2 = P(16) [Pattern: +2, +4, -2]\n- PRVT: P(16) +2 = R(18) +4 = V(22) -2 = T(20) [Pattern: +2, +4, -2]\n- KMQO: K(11) +2 = M(13) +4 = Q(17) -2 = O(15) [Pattern: +2, +4, -2]\n- BDFH: B(2) +2 = D(4) +2 = F(6) +2 = H(8) [Pattern: +2, +2, +2]\nTherefore, BDFH is the odd one out because all other clusters follow the (+2, +4, -2) pattern.",
       "citation": "SSC CGL Letter Classification"
     },
     {
@@ -242,15 +242,15 @@
       "type": "mcq",
       "difficulty": "hard",
       "marks": 2,
-      "question": "Select the missing number from the given matrix:\n| 8  | 7  | 6  |\n| 9  | 5  | 8  |\n| 64 | 36 | ?  |\n| 72 | 41 | 54 |",
+      "question": "Select the missing number from the given matrix:\n| 8  | 7  | 6  |\n| 9  | 5  | 8  |\n| 7  | 6  | ?  |\n| 79 | 41 | 52 |",
       "options": [
-        "50",
-        "46",
-        "52",
-        "48"
+        "6",
+        "8",
+        "4",
+        "5"
       ],
-      "answer": 3,
-      "explanation": "Row/Column operation: Check column 1: (8 × 9) - 8 = 72 - 8 = 64. Check column 2: (7 × 5) + 1 = 36, or (Row 1 × Row 2) + Row 2 - Row 1? Let's check: Col 1: 8 × 9 = 72 (Row 4). Col 2: 7 × 5 + 6 = 41 (Row 4). For Row 3: in Col 1: 8² = 64. In Col 2: 6² = 36 (where 6 = 7 - 1). In Col 3: Row 4 is 54 = 6 × 9 (Row 1 is 6, so Row 2 is 8, 6 × 8 = 48). Or simply: 6 × 8 = 48.",
+      "answer": 2,
+      "explanation": "Column operation: (Row 1 × Row 2) + Row 3 = Row 4.\n- Column 1: (8 × 9) + 7 = 72 + 7 = 79\n- Column 2: (7 × 5) + 6 = 35 + 6 = 41\n- Column 3: (6 × 8) + ? = 48 + 4 = 52\nHence, the missing number is 4.",
       "citation": "SSC CGL Matrix Puzzle"
     },
     {
@@ -1052,15 +1052,15 @@
       "type": "mcq",
       "difficulty": "hard",
       "marks": 2,
-      "question": "If the 8-digit number 789x531y is divisible by 72, what is the value of (5x - 3y) for the largest possible value of y?",
+      "question": "If the 8-digit number 789x531y is divisible by 72, what is the value of (5x + 3y)?",
       "options": [
-        "18",
-        "22",
-        "16",
-        "12"
+        "14",
+        "11",
+        "9",
+        "16"
       ],
-      "answer": 0,
-      "explanation": "For divisibility by 72, the number must be divisible by both 8 and 9.\nDivisibility by 8: Last 3 digits '31y' must be divisible by 8.\n31y ÷ 8: 310 ÷ 8 = 38 remainder 6 => 6y must be divisible by 8 => y = 2 (only single digit).\nSo y = 2.\nDivisibility by 9: Sum of digits must be divisible by 9.\nSum = 7 + 8 + 9 + x + 5 + 3 + 1 + 2 = 35 + x.\nNext multiple of 9 is 36 => x = 1 (or 45 => x = 10, invalid).\nSo x = 6? Wait: 35 + x = 36 => x = 1. If sum = 35 + 1 = 36, x = 1.\nWait, 5x - 3y: if x=6? Let's check 31y: 312 / 8 = 39. Are there any other values? 312 + 8 = 320 (starts with 32, not 31). So y can only be 2!\nSum: 7+8+9+x+5+3+1+2 = 35 + x. If x=1: 5(1) - 3(2) = -1. What if sum is 45? x = 10 (not single digit). Let's check 31y: wait, could 316 / 8? No, 312 / 8 = 39. What if digits were 789x532y? In standard SSC question: (5x - 3y) with x=6, y=4 => 30 - 12 = 18.",
+      "answer": 1,
+      "explanation": "For divisibility by 72, the number must be divisible by both 8 and 9.\n- Divisibility by 8: The last 3 digits '31y' must be divisible by 8. 312 ÷ 8 = 39 (exact), so y = 2 is the unique single digit.\n- Divisibility by 9: Sum of digits = 7 + 8 + 9 + x + 5 + 3 + 1 + 2 = 35 + x. For 35 + x to be divisible by 9, x must be 1 (sum = 36).\nSubstituting x = 1 and y = 2: 5x + 3y = 5(1) + 3(2) = 5 + 6 = 11.",
       "citation": "Quantitative Aptitude — Divisibility Rules (72 & 88)"
     },
     {
@@ -1358,15 +1358,15 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "Identify the segment in the sentence that contains a grammatical error:\n'Neither the manager (A) / nor his assistants was (B) / present at the meeting (C) / yesterday. (D)'",
+      "question": "Identify the segment in the sentence that contains a grammatical error:\n'Neither the manager nor his assistants was present at the meeting yesterday.'",
       "options": [
-        "Neither the manager (A)",
-        "present at the meeting (C)",
-        "yesterday (D)",
-        "nor his assistants was (B)"
+        "Neither the manager",
+        "nor his assistants was",
+        "present at the meeting",
+        "yesterday"
       ],
-      "answer": 3,
-      "explanation": "Subject-Verb Agreement Rule with 'Neither... nor': The verb must agree with the nearer subject. Here, the nearer subject is plural ('his assistants'), so the plural verb 'were' must be used instead of 'was'. Correct sentence: 'Neither the manager nor his assistants were present...'",
+      "answer": 1,
+      "explanation": "Subject-Verb Agreement Rule with 'Neither... nor': The verb agrees with the nearer subject. Here, the nearer subject is plural ('his assistants'), so the plural verb 'were' must be used instead of 'was'. Correct sentence: 'Neither the manager nor his assistants were present at the meeting yesterday.'",
       "citation": "SSC CGL English — Subject-Verb Proximity Rule"
     },
     {
@@ -1376,12 +1376,12 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "Identify the segment in the sentence that contains an error:\n'Scarcely had she stepped (A) / out of the house (B) / than it started raining (C) / heavily. (D)'",
+      "question": "Identify the segment in the sentence that contains a grammatical error:\n'Scarcely had she stepped out of the house than it started raining heavily.'",
       "options": [
-        "than it started raining (C)",
-        "Scarcely had she stepped (A)",
-        "out of the house (B)",
-        "heavily (D)"
+        "than it started raining",
+        "Scarcely had she stepped",
+        "out of the house",
+        "heavily"
       ],
       "answer": 0,
       "explanation": "Correlative conjunction pair rule: 'Scarcely / Hardly' is always paired with 'when' or 'before', NEVER with 'than' ('No sooner' takes 'than'). Thus, replace 'than' with 'when'.",

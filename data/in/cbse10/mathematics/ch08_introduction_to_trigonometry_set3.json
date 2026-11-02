@@ -2,23 +2,23 @@
   "questions": [
     {
       "id": "cbse10-math-ch08-s3-001",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Sine Monotonicity in Quadrant I",
       "difficulty": "Easy",
       "question": "Assertion (A): The value of sin theta increases as theta increases from 0 deg to 90 deg.\nReason (R): In a right-angled triangle, as the acute angle theta increases, the opposite side (perpendicular) increases while the hypotenuse remains fixed, causing sin theta = opp/hyp to increase from 0 to 1.",
       "options": [
-        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "sin 0 deg = 0, sin 30 deg = 0.5, sin 45 deg = 1/sqrt(2) approx 0.707, sin 60 deg = sqrt(3)/2 approx 0.866, sin 90 deg = 1. The ratio strictly increases. Reason (R) provides the geometric proof for Assertion (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3"
     },
     {
       "id": "cbse10-math-ch08-s3-002",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Cosine Monotonicity in Quadrant I",
       "difficulty": "Easy",
       "question": "Assertion (A): The value of cos theta decreases as theta increases from 0 deg to 90 deg.\nReason (R): As the acute angle theta increases in a right-angled triangle, the adjacent side decreases relative to the hypotenuse, causing cos theta = adj/hyp to decrease from 1 to 0.",
@@ -34,129 +34,129 @@
     },
     {
       "id": "cbse10-math-ch08-s3-003",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Fundamental Identity Invariance",
       "difficulty": "Easy",
       "question": "Assertion (A): The equality sin^2 theta + cos^2 theta = 1 holds true for all angles theta between 0 deg and 90 deg.\nReason (R): In any right triangle with sides a, b and hypotenuse c, by Pythagoras theorem a^2 + b^2 = c^2; dividing by c^2 yields (a/c)^2 + (b/c)^2 = 1, which is sin^2 theta + cos^2 theta = 1.",
       "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "This is the direct geometric deduction of the fundamental Pythagorean identity from Pythagoras theorem. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4"
     },
     {
       "id": "cbse10-math-ch08-s3-004",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Secant Range Lower Bound",
       "difficulty": "Medium",
       "question": "Assertion (A): The value of sec theta can never be less than 1 for any acute angle theta.\nReason (R): sec theta = hypotenuse / adjacent side, and in any right-angled triangle, the hypotenuse is the longest side, so hypotenuse >= adjacent side.",
       "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true.",
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+        "(A) is false, but (R) is true."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Since hypotenuse is strictly greater than or equal to adjacent side, sec theta >= 1 always for acute angles. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
     },
     {
       "id": "cbse10-math-ch08-s3-005",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Sine Value Upper Bound Falsehood",
       "difficulty": "Easy",
       "question": "Assertion (A): For an acute angle theta, sin theta can be equal to 4/3.\nReason (R): For any acute angle theta, sin theta = opposite/hypotenuse <= 1, because the hypotenuse is always longer than the opposite side in a right-angled triangle.",
       "options": [
-        "(A) is false, but (R) is true.",
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-        "(A) is true, but (R) is false."
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Assertion (A) is FALSE: 4/3 > 1, and sin theta cannot exceed 1. Reason (R) is TRUE: hypotenuse is the longest side so opposite/hypotenuse <= 1. Hence (A) is false, but (R) is true.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
     },
     {
       "id": "cbse10-math-ch08-s3-006",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Tangent as Ratio of Sine and Cosine",
       "difficulty": "Easy",
       "question": "Assertion (A): tan theta = sin theta / cos theta for all acute angles theta < 90 deg.\nReason (R): tan theta = opposite/adjacent = (opposite/hypotenuse) / (adjacent/hypotenuse) = sin theta / cos theta.",
       "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "This quotient identity follows directly from dividing the definitions of sin theta and cos theta. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
     },
     {
       "id": "cbse10-math-ch08-s3-007",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Tangent at 90 Degrees Undefined",
       "difficulty": "Medium",
       "question": "Assertion (A): tan 90 deg is not defined.\nReason (R): As theta approaches 90 deg, cos theta approaches 0, and division by zero is mathematically undefined.",
       "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true.",
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+        "(A) is false, but (R) is true."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "tan 90 deg = sin 90 deg / cos 90 deg = 1 / 0. Division by zero is undefined. Both statements are true and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1"
     },
     {
       "id": "cbse10-math-ch08-s3-008",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Secant Tangent Reciprocal Pair",
       "difficulty": "Medium",
       "question": "Assertion (A): If sec theta + tan theta = 5, then sec theta - tan theta = 1/5.\nReason (R): The identity sec^2 theta - tan^2 theta = 1 can be factored as (sec theta + tan theta)(sec theta - tan theta) = 1.",
       "options": [
-        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Since (sec theta + tan theta)(sec theta - tan theta) = sec^2 theta - tan^2 theta = 1, (sec theta - tan theta) = 1 / (sec theta + tan theta) = 1/5. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4"
     },
     {
       "id": "cbse10-math-ch08-s3-009",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Cotangent Cosecant Identity",
       "difficulty": "Easy",
       "question": "Assertion (A): cosec^2 theta - cot^2 theta = 1 for all 0 deg < theta <= 90 deg.\nReason (R): Dividing each term of the identity sin^2 theta + cos^2 theta = 1 by sin^2 theta gives 1 + cot^2 theta = cosec^2 theta.",
       "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true.",
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+        "(A) is false, but (R) is true."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Dividing sin^2 theta + cos^2 theta = 1 by sin^2 theta gives 1 + (cos theta/sin theta)^2 = (1/sin theta)^2 => 1 + cot^2 theta = cosec^2 theta => cosec^2 theta - cot^2 theta = 1. Both statements are true and (R) proves (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4"
     },
     {
       "id": "cbse10-math-ch08-s3-010",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Sum of Tangents Fallacy",
       "difficulty": "Easy",
       "question": "Assertion (A): tan(30 deg + 60 deg) = tan 30 deg + tan 60 deg.\nReason (R): Trigonometric functions do not follow the distributive law of algebra over angle addition.",
       "options": [
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-        "(A) is false, but (R) is true.",
-        "(A) is true, but (R) is false."
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Assertion (A) is FALSE: tan(30 + 60) = tan 90 deg (undefined). But tan 30 + tan 60 = 1/sqrt(3) + sqrt(3) = 4/sqrt(3) (a finite real number). Reason (R) is TRUE: trig operators are non-linear and not distributive over angles. Thus (A) is false, but (R) is true.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3"
     },

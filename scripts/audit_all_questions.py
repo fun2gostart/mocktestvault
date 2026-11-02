@@ -99,11 +99,11 @@ for root, _, files in os.walk(DATA_DIR):
             if not isinstance(opts, list):
                 issues.append(f"{prefix} 'options' is not a list")
                 continue
-            # Allow 4 options normally, or 5 options for GRE
-            expected_count = 5 if 'gre' in rel_path.lower() else 4
-            if len(opts) not in [4, 5]:
-                issues.append(f"{prefix} Expected 4 or 5 options, found {len(opts)}")
-            elif 'gre' not in rel_path.lower() and len(opts) != 4:
+            # Allow 4 options normally, 5 options for GRE, or 3 options for IELTS True/False/Not Given
+            is_ielts_tfng = 'ielts' in rel_path.lower() and len(opts) == 3
+            if not is_ielts_tfng and len(opts) not in [4, 5]:
+                issues.append(f"{prefix} Expected 4 or 5 options (or 3 for IELTS TFNG), found {len(opts)}")
+            elif 'gre' not in rel_path.lower() and not is_ielts_tfng and len(opts) != 4:
                 issues.append(f"{prefix} Non-GRE test expected 4 options, found {len(opts)}")
             else:
                 for o_idx, opt in enumerate(opts):

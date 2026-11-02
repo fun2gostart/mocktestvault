@@ -5,15 +5,15 @@
       "type": "mcq",
       "subtopic": "Finding Missing Frequency",
       "difficulty": "Hard",
-      "question": "The mean of the following distribution is 18: Classes: 11-13 (f=3), 13-15 (f=6), 15-17 (f=9), 17-19 (f=13), 19-21 (f=f_k), 21-23 (f=5), 23-25 (f=4). What is the value of the missing frequency f_k?",
+      "question": "The mean of the following distribution is 18: Classes: 11-13 (f=7), 13-15 (f=6), 15-17 (f=9), 17-19 (f=13), 19-21 (f=f_k), 21-23 (f=5), 23-25 (f=4). What is the value of the missing frequency f_k?",
       "options": [
-        "20",
         "18",
         "15",
+        "20",
         "22"
       ],
-      "answer": 0,
-      "explanation": "Class marks xi: 12, 14, 16, 18, 20, 22, 24. Assumed mean a = 18. di = xi - 18: -6, -4, -2, 0, 2, 4, 6. fi*di: 3(-6)=-18, 6(-4)=-24, 9(-2)=-18, 13(0)=0, f_k(2)=2*f_k, 5(4)=20, 4(6)=24. sum(fi) = 40 + f_k. sum(fi*di) = (-18 - 24 - 18 + 0 + 20 + 24) + 2*f_k = -16 + 2*f_k. Mean = a + sum(fi*di)/sum(fi) => 18 = 18 + (-16 + 2*f_k)/(40 + f_k) => -16 + 2*f_k = 0 => f_k = 8. Wait! Let's recompute: 3+6+9+13+5+4 = 40. For f_k=20: sum(fi*xi): 3*12=36, 6*14=84, 9*16=144, 13*18=234, 20*20=400, 5*22=110, 4*24=96. Total sum = 1104. Total f = 60. Mean = 1104/60 = 18.4. Let's find exact f_k for NCERT problem: In NCERT Ex 13.1 Q3, frequencies are 7, 6, 9, 13, f, 5, 4. Here sum without f is 7+6+9+13+5+4=44. sum(fi*di): 7(-6)=-42, 6(-4)=-24, 9(-2)=-18, 13(0)=0, 5(4)=20, 4(6)=24. Total = -40 + 2f = 0 => 2f = 40 => f = 20. That is the classic NCERT problem with initial f1=7!",
+      "answer": 2,
+      "explanation": "Class marks xi: 12, 14, 16, 18, 20, 22, 24. Assumed mean a = 18.\ndi = xi - 18: -6, -4, -2, 0, 2, 4, 6.\nfi*di: 7(-6)=-42, 6(-4)=-24, 9(-2)=-18, 13(0)=0, f_k(2)=2*f_k, 5(4)=20, 4(6)=24.\nsum(fi) = 44 + f_k.\nsum(fi*di) = (-42 - 24 - 18 + 0 + 20 + 24) + 2*f_k = -40 + 2*f_k.\nMean = a + sum(fi*di)/sum(fi) => 18 = 18 + (-40 + 2*f_k)/(44 + f_k) => -40 + 2*f_k = 0 => 2*f_k = 40 => f_k = 20.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.1 Question 3"
     },
     {

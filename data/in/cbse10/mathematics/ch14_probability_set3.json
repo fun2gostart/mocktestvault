@@ -2,63 +2,63 @@
   "questions": [
     {
       "id": "cbse10-math-ch14-s3-001",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Probability Range Bound",
       "difficulty": "Easy",
       "question": "Assertion (A): The probability of an event E can never be -0.01 or 1.05.\\nReason (R): For any random event E, the number of favourable outcomes m is bounded between 0 and total outcomes n (0 <= m <= n), so 0 <= P(E) <= 1.",
       "options": [
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "(A) is false but (R) is true"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Since m is a subset of n, 0 <= m <= n. Dividing by n gives 0 <= P(E) <= 1. Therefore, probability cannot be negative or strictly greater than 1. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
     {
       "id": "cbse10-math-ch14-s3-002",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Complementary Probability Sum",
       "difficulty": "Easy",
       "question": "Assertion (A): If the probability of raining tomorrow is 0.35, then the probability of not raining tomorrow is 0.65.\\nReason (R): For any event E, E and not E are complementary events and P(E) + P(not E) = 1.",
       "options": [
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "(A) is false but (R) is true",
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "P(not raining) = 1 - P(raining) = 1 - 0.35 = 0.65. Both (A) and (R) are true and (R) is the exact algebraic reasoning for (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
     {
       "id": "cbse10-math-ch14-s3-003",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Equally Likely Outcomes",
       "difficulty": "Medium",
       "question": "Assertion (A): In throwing a die, the probability of getting an odd number is equal to the probability of getting an even number.\\nReason (R): There are 3 odd numbers {1, 3, 5} and 3 even numbers {2, 4, 6} out of 6 equally likely outcomes.",
       "options": [
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "P(odd) = 3/6 = 1/2 and P(even) = 3/6 = 1/2. They are equal because each set contains exactly 3 equally likely outcomes. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 13"
     },
     {
       "id": "cbse10-math-ch14-s3-004",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Sure Event Probability",
       "difficulty": "Easy",
       "question": "Assertion (A): In a single roll of a standard die, the probability of getting a number less than 7 is 1.\\nReason (R): An event whose occurrence is certain is called a sure or certain event, and its probability is always 1.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
       "answer": 0,
       "explanation": "All numbers on a die {1, 2, 3, 4, 5, 6} are strictly less than 7. Favourable = 6, Total = 6, P = 6/6 = 1. This is a sure event. Both (A) and (R) are true and (R) explains (A).",
@@ -66,97 +66,97 @@
     },
     {
       "id": "cbse10-math-ch14-s3-005",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Impossible Event Number Greater than 6",
       "difficulty": "Easy",
       "question": "Assertion (A): The probability of getting a number 8 in a single throw of a die is 0.\\nReason (R): Number 8 is an impossible event for a standard 6-faced die.",
       "options": [
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "(A) is false but (R) is true",
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "A standard die has faces numbered 1 to 6. Number 8 cannot appear, so favourable outcomes = 0 and P = 0. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
     {
       "id": "cbse10-math-ch14-s3-006",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Face Card Probability in Cards",
       "difficulty": "Medium",
       "question": "Assertion (A): If an ace is drawn from a pack of cards, it is a face card.\\nReason (R): A standard deck contains 12 face cards: 4 Kings, 4 Queens, and 4 Jacks.",
       "options": [
-        "(A) is false but (R) is true",
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "(A) is true but (R) is false"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Assertion (A) is FALSE: an Ace has the letter 'A' and is not a face card (picture card). Reason (R) is TRUE: only Kings, Queens, and Jacks are face cards, giving 3 * 4 = 12 face cards in total.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
     {
       "id": "cbse10-math-ch14-s3-007",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Two Dice Sum Minimum Value",
       "difficulty": "Medium",
       "question": "Assertion (A): When two dice are thrown together, the minimum possible sum of numbers is 2.\\nReason (R): The minimum number on each die is 1, so the smallest sum is 1 + 1 = 2.",
       "options": [
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Since each die takes values from {1, 2, 3, 4, 5, 6}, the minimum possible sum is 1 + 1 = 2, with outcome (1, 1). Both statements are true and (R) is the correct explanation of (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
     {
       "id": "cbse10-math-ch14-s3-008",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Leap Year 53 Sundays Probability",
       "difficulty": "Hard",
       "question": "Assertion (A): The probability of having 53 Sundays in a leap year is 2/7.\\nReason (R): A leap year has 366 days which contains 52 complete weeks and 2 extra days.",
       "options": [
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "(A) is false but (R) is true"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "366 = 52 * 7 + 2. The 2 extra days can form 7 consecutive pairs, out of which 2 pairs contain Sunday: (Saturday, Sunday) and (Sunday, Monday). Hence P = 2/7. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exemplar Problem"
     },
     {
       "id": "cbse10-math-ch14-s3-009",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Geometric Probability Ratio",
       "difficulty": "Medium",
       "question": "Assertion (A): In geometric probability, the probability of an event is defined as the ratio of the favourable measure (length, area, or volume) to the total measure of the sample space.\\nReason (R): All points in the continuous target region are assumed to be equally likely to be selected.",
       "options": [
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Geometric probability extends classical probability to continuous regions assuming uniform distribution (equally likely points). P(E) = Area(favourable) / Area(total). Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
     {
       "id": "cbse10-math-ch14-s3-010",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Coin Toss Football Match",
       "difficulty": "Easy",
       "question": "Assertion (A): If an unbiased coin is tossed 10 times and turns up heads 10 times, the 11th toss is more likely to be tails.\\nReason (R): Each toss of a fair coin is an independent event with probability 1/2 for head and 1/2 for tail.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "(A) is false but (R) is true",
-        "(A) is true but (R) is false"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Assertion (A) is FALSE (this is the Gambler's Fallacy). The coin has no memory of past tosses. Reason (R) is TRUE: each coin toss is an independent event with P(head) = P(tail) = 1/2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },

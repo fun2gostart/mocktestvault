@@ -1,7 +1,7 @@
 [
   {
     "id": "cbse10-math-ch02-s3-001",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Discriminant and Real Zeroes",
     "difficulty": "Easy",
     "question": "Assertion (A): The quadratic polynomial p(x) = x^2 + 4x + 5 has no real zeroes.\nReason (R): For any quadratic polynomial ax^2 + bx + c, if the discriminant D = b^2 - 4ac is negative (D < 0), the polynomial has no real zeroes.",
@@ -17,55 +17,55 @@
   },
   {
     "id": "cbse10-math-ch02-s3-002",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Degree of Quadratic Polynomial",
     "difficulty": "Easy",
     "question": "Assertion (A): The algebraic expression p(x) = 3x^2 - 5x + 4 is a quadratic polynomial of degree 2.\nReason (R): The degree of a polynomial is the highest exponent of the variable x appearing with a non-zero coefficient.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+      "(A) is false, but (R) is true."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). In p(x), the highest power of x is 2, defining it as a polynomial of degree 2 (quadratic).",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1 Introduction"
   },
   {
     "id": "cbse10-math-ch02-s3-003",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Graph Zeroes Intersections and Contacts",
     "difficulty": "Medium",
     "question": "Assertion (A): If the curve of a polynomial y = p(x) intersects the x-axis at 3 distinct points and touches the x-axis at 1 point, p(x) has a total of 4 real zeroes.\nReason (R): The number of real zeroes of any polynomial y = p(x) is equal to the total number of points where its graph intersects or touches the x-axis.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Both statements are true and Reason explains Assertion. Every intersection point represents a real zero, and every tangency (touching) point represents a repeated real zero. 3 crossing points + 1 touching point = 4 real zeroes.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
   {
     "id": "cbse10-math-ch02-s3-004",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Conjugate Irrational Roots",
     "difficulty": "Medium",
     "question": "Assertion (A): If one zero of a quadratic polynomial with rational coefficients is (3 - sqrt(2)), its second zero must be (3 + sqrt(2)).\nReason (R): In any polynomial with rational coefficients, irrational roots containing square roots always occur in conjugate radical pairs.",
     "options": [
-      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Both statements are true and Reason explains Assertion. If one zero is (p - sqrt(q)), the conjugate (p + sqrt(q)) must be the second zero so that their sum 2p and product (p^2 - q) are rational numbers.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },
   {
     "id": "cbse10-math-ch02-s3-005",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Real Zeroes of x^2 + 1",
     "difficulty": "Easy",
     "question": "Assertion (A): The polynomial p(x) = x^2 + 1 has two distinct real zeroes: x = 1 and x = -1.\nReason (R): Setting x^2 + 1 = 0 yields x^2 = -1, which has no real solution because the square of any real number cannot be negative.",
@@ -81,39 +81,39 @@
   },
   {
     "id": "cbse10-math-ch02-s3-006",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Reciprocal Zeroes Equality of a and c",
     "difficulty": "Medium",
     "question": "Assertion (A): If one zero of the quadratic polynomial p(x) = ax^2 + bx + c is the reciprocal of the other, then c = a.\nReason (R): The product of zeroes of a quadratic polynomial ax^2 + bx + c is given by c / a.",
     "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Both statements are true and Reason (R) directly explains Assertion (A). If zeroes are alpha and 1/alpha, their product is alpha * (1/alpha) = 1. Since product = c / a, we have c / a = 1 => c = a.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },
   {
     "id": "cbse10-math-ch02-s3-007",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Linear Polynomial Single Zero",
     "difficulty": "Easy",
     "question": "Assertion (A): The graph of any linear polynomial p(x) = ax + b (where a != 0) is a straight line that intersects the x-axis at exactly one point.\nReason (R): A linear polynomial of degree 1 has exactly one real zero, given by x = -b / a.",
     "options": [
-      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Both statements are true and Reason explains Assertion. A linear polynomial has exactly one root (x = -b/a), meaning its straight-line graph intersects the x-axis at exactly one point (-b/a, 0).",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
   {
     "id": "cbse10-math-ch02-s3-008",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Sum of Zeroes Formula",
     "difficulty": "Easy",
     "question": "Assertion (A): If the sum of zeroes of the quadratic polynomial p(x) = x^2 - kx + 6 is equal to 4, then k = 4.\nReason (R): For the polynomial x^2 - kx + 6, the sum of zeroes is equal to -(-k) / 1 = k.",
@@ -129,7 +129,7 @@
   },
   {
     "id": "cbse10-math-ch02-s3-009",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Zeroes Verification",
     "difficulty": "Easy",
     "question": "Assertion (A): The numbers 1 and 3 are the zeroes of the quadratic polynomial p(x) = 2x^2 - 8x + 6.\nReason (R): The sum of these zeroes is 1 + 3 = 4 = -(-8)/2, and their product is 1 * 3 = 3 = 6/2.",
@@ -145,7 +145,7 @@
   },
   {
     "id": "cbse10-math-ch02-s3-010",
-    "type": "assertion-reason",
+    "type": "assertion_reasoning",
     "subtopic": "Equal Zeroes Geometry",
     "difficulty": "Medium",
     "question": "Assertion (A): If a quadratic polynomial has two equal real zeroes, its parabolic graph crosses the x-axis at two distinct points.\nReason (R): When a quadratic polynomial has equal real zeroes (discriminant D = 0), the vertex of its parabola touches the x-axis at exactly one point.",

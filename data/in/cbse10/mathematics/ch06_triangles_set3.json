@@ -2,55 +2,55 @@
   "questions": [
     {
       "id": "cbse10-math-ch06-s3-001",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Congruence Implies Similarity",
       "difficulty": "Easy",
       "question": "Assertion (A): All congruent triangles are similar, but all similar triangles are not necessarily congruent.\nReason (R): Congruent triangles have identical shape and identical size (ratio of sides 1 : 1), while similar triangles have identical shape but may differ in size.",
       "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Congruent figures satisfy the definition of similarity with a scale factor of 1. Similar figures with scale factor != 1 are not congruent. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1"
     },
     {
       "id": "cbse10-math-ch06-s3-002",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Basic Proportionality Theorem",
       "difficulty": "Easy",
       "question": "Assertion (A): In triangle ABC, if a line DE is drawn parallel to BC intersecting AB at D and AC at E, then AD / DB = AE / EC.\nReason (R): If a line is drawn parallel to one side of a triangle intersecting the other two sides, then it divides the two sides in the same ratio.",
       "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true.",
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+        "(A) is false, but (R) is true."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "This is the exact statement of Theorem 6.1 (Basic Proportionality Theorem / Thales Theorem). Both (A) and (R) are true and (R) directly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Theorem 6.1"
     },
     {
       "id": "cbse10-math-ch06-s3-003",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Equilateral Triangles Similarity",
       "difficulty": "Easy",
       "question": "Assertion (A): Any two equilateral triangles are always similar.\nReason (R): In any two equilateral triangles, all interior angles are equal to 60 degrees, satisfying the AAA similarity criterion.",
       "options": [
-        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Every equilateral triangle has three 60 degree angles. Since all corresponding angles are equal, any two equilateral triangles are similar by AAA criterion. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1"
     },
     {
       "id": "cbse10-math-ch06-s3-004",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Converse of Thales Theorem",
       "difficulty": "Medium",
       "question": "Assertion (A): In triangle ABC, if D and E are points on AB and AC such that AD = 2 cm, BD = 3 cm, AE = 4 cm, and CE = 6 cm, then DE is parallel to BC.\nReason (R): If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.",
@@ -66,55 +66,55 @@
     },
     {
       "id": "cbse10-math-ch06-s3-005",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Perimeter Ratio Invariance",
       "difficulty": "Medium",
       "question": "Assertion (A): If triangle ABC ~ triangle PQR with AB / PQ = 2 / 5, then Perimeter(ABC) / Perimeter(PQR) = 2 / 5.\nReason (R): For any two similar triangles, the ratio of their perimeters is equal to the square of the ratio of their corresponding sides.",
       "options": [
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
-        "(A) is true, but (R) is false.",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Assertion (A) is TRUE: Perimeter ratio = side ratio = 2/5. Reason (R) is FALSE: The ratio of perimeters is equal to the first power of the ratio of sides (NOT the square). The ratio of AREAS is equal to the square of the ratio of sides. Thus (A) is true, but (R) is false.",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
     },
     {
       "id": "cbse10-math-ch06-s3-006",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Right Triangle Vertex Altitude",
       "difficulty": "Medium",
       "question": "Assertion (A): In a right triangle ABC right-angled at B, if BD is perpendicular to AC, then triangle ADB is similar to triangle BDC.\nReason (R): If a perpendicular is drawn from the vertex of the right angle of a right triangle to the hypotenuse, then triangles on both sides of the perpendicular are similar to the whole triangle and to each other.",
       "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "This is Theorem 6.7 in NCERT Class 10. By AA similarity, both sub-triangles are similar to triangle ABC, and hence similar to each other. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Theorem 6.7"
     },
     {
       "id": "cbse10-math-ch06-s3-007",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "SAS Similarity Angle Requirement",
       "difficulty": "Hard",
       "question": "Assertion (A): If in triangle ABC and triangle DEF, AB/DE = BC/EF and angle A = angle D, the triangles are NOT necessarily similar.\nReason (R): Under the SAS similarity criterion, the equal angle must be the INCLUDED angle between the two proportional sides (i.e., angle B = angle E).",
       "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true.",
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
+        "(A) is false, but (R) is true."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "In SAS similarity, the angle must strictly be included between the proportional sides. For AB and BC, the included angle is angle B (not angle A). Therefore, without angle B = angle E, similarity cannot be guaranteed. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
     },
     {
       "id": "cbse10-math-ch06-s3-008",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Pythagoras Converse Right Angle",
       "difficulty": "Easy",
       "question": "Assertion (A): In triangle ABC, if AB = 6 cm, BC = 8 cm, and AC = 10 cm, then angle B = 90 degrees.\nReason (R): In a triangle, if the square of one side is equal to the sum of the squares of the other two sides, then the angle opposite the first side is a right angle.",
@@ -130,7 +130,7 @@
     },
     {
       "id": "cbse10-math-ch06-s3-009",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Midpoint Theorem via BPT",
       "difficulty": "Easy",
       "question": "Assertion (A): The line segment joining the midpoints of any two sides of a triangle is parallel to the third side.\nReason (R): If D and E are midpoints of AB and AC, then AD/DB = 1/1 = 1 and AE/EC = 1/1 = 1; by the converse of BPT, DE || BC.",
@@ -146,17 +146,17 @@
     },
     {
       "id": "cbse10-math-ch06-s3-010",
-      "type": "assertion-reason",
+      "type": "assertion_reasoning",
       "subtopic": "Similar Figures Area Scale Paradox",
       "difficulty": "Medium",
       "question": "Assertion (A): If the sides of two similar triangles are in the ratio 3 : 5, their altitudes are in the ratio 9 : 25.\nReason (R): Corresponding altitudes of two similar triangles are proportional to their corresponding sides.",
       "options": [
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-        "(A) is false, but (R) is true.",
-        "(A) is true, but (R) is false."
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Assertion (A) is FALSE: Altitudes are one-dimensional linear measures, so their ratio is strictly equal to the side ratio (3 : 5), NOT squared (9 : 25). Reason (R) is TRUE: corresponding altitudes are proportional to corresponding sides. Thus (A) is false, but (R) is true.",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
     },
