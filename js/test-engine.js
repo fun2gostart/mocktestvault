@@ -285,12 +285,14 @@ class MockTestEngine {
      Data Loading & Set Management
      ========================================================================== */
   async loadQuestions() {
+    if (this.isLoading) return;
+    this.isLoading = true;
     try {
       let rawList = [];
 
       if (this.currentSet === 'random') {
         // Aggregate all available sets into a combined question pool
-        const sources = Object.values(this.setSources);
+        const sources = Object.values(this.setSources || {});
         const fetchPromises = sources.map(async src => {
           try {
             const res = await fetch(src);
@@ -320,6 +322,9 @@ class MockTestEngine {
         const sampleSize = this.randomSampleSize || 20;
         rawList = combinedPool.slice(0, Math.min(sampleSize, combinedPool.length));
       } else {
+        if (!this.dataSource) {
+          throw new Error(`Data source not configured for set '${this.currentSet}'.`);
+        }
         const res = await fetch(this.dataSource);
         if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
         const rawData = await res.json();
@@ -356,11 +361,14 @@ class MockTestEngine {
       if (this.dom.qTitle) {
         this.dom.qTitle.innerHTML = `<span style="color:red">Failed to load questions: ${err.message}. Please refresh.</span>`;
       }
+    } finally {
+      this.isLoading = false;
     }
   }
 
   async switchSet(setKey) {
-    if (setKey !== 'random' && (this.currentSet === setKey || !this.setSources[setKey])) return;
+    if (!setKey) return;
+    if (setKey !== 'random' && (this.currentSet === setKey || !this.setSources || !this.setSources[setKey])) return;
     
     if (!this.isSubmitted && this.userAnswers && this.userAnswers.some(a => a !== null)) {
       if (!confirm("Switching test sets will reset your current progress on this test. Continue?")) {
@@ -431,8 +439,14 @@ class MockTestEngine {
 
     // Set Switcher Buttons (Set 1, Set 2, Set 3)
     document.querySelectorAll('.set-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', (e) => {
         const targetSet = btn.getAttribute('data-set');
+        if (!targetSet) return;
+        if (btn.tagName === 'A' && btn.getAttribute('href') && btn.getAttribute('href') !== '#') {
+          // Allow normal navigation when clicking an <a> tag linking to another runner page
+          return;
+        }
+        e.preventDefault();
         this.switchSet(targetSet);
       });
     });
@@ -1207,11 +1221,3 @@ class MockTestEngine {
       .replace(/'/g, "&#039;");
   }
 }
-
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', () => {
-  window.testEngine = new MockTestEngine({
-    initialSet: 'set1',
-    timeLimitMinutes: 20
-  });
-});
