@@ -24,41 +24,44 @@
 <body>
 
   <!-- Site Navigation Header -->
-  <header class="site-header">
-    <div class="home-container nav-inner">
-      <a href="../index.html" class="brand-badge" aria-label="MockTestVault Home">
-        <div class="brand-shield">🛡️</div>
-        <div class="brand-text-block">
-          <span class="brand-name">MockTestVault</span>
-          <span class="brand-tagline">US Standardized Exam Vault</span>
-        </div>
-      </a>
+  <header class="global-nav">
+    <div class="home-container">
+      <div class="nav-wrapper">
+        <a href="../index.html" class="brand-group" aria-label="MockTestVault Home">
+          <div class="brand-icon">🛡️</div>
+          <div class="brand-title">
+            <span>MockTestVault</span>
+            <span class="brand-badge">US Vault</span>
+          </div>
+        </a>
 
-      <!-- Region Switcher Navigation -->
-      <nav class="nav-links" aria-label="Regional Portals">
-        <div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
-          <a href="index.html" class="nav-link active" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🇺🇸 United States</a>
-          <a href="../in/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇮🇳 India</a>
-          <a href="../global/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🌐 Global Tests</a>
-        </div>
-      </nav>
+        <!-- Region Switcher Navigation -->
+        <nav class="nav-links" aria-label="Regional Portals">
+          <div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
+            <a href="index.html" class="nav-link active" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🇺🇸 United States</a>
+            <a href="../in/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇮🇳 India</a>
+            <a href="../global/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🌐 Global Tests</a>
+          </div>
+        </nav>
 
-      <div class="nav-right">
-        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
-          <span class="theme-icon">🌙</span>
-        </button>
+        <div class="nav-actions">
+          <button id="theme-toggle-btn" class="theme-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">🌙</button>
+          <a href="sat/math-practice-01.html" class="cta-header-btn">
+            <span>⚡ Start SAT Math</span>
+          </a>
+        </div>
       </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero-block">
+  <section class="hero-section">
     <div class="home-container">
       <div class="hero-grid">
         
         <div class="hero-content">
           <div class="hero-badge">
-            <span class="badge-dot"></span>
+            <span class="hero-badge-dot"></span>
             <span>College Board® Calibrated • 100% Free & Ad-Free</span>
           </div>
 
@@ -70,12 +73,11 @@
             Experience realistic computer-based testing calibrated to official US college admissions standards. Features adaptive module timing, Desmos-aligned math methods, comprehensive answer rationales, and zero paywalls.
           </p>
 
-          <div class="hero-cta-group">
-            <a href="sat/math-practice-01.html" class="btn-primary">
+          <div class="hero-actions">
+            <a href="sat/math-practice-01.html" class="btn-primary-hero">
               <span>🚀 Launch SAT® Math Module 01</span>
-              <span class="btn-arrow">→</span>
             </a>
-            <a href="sat/reading-practice-01.html" class="btn-secondary">
+            <a href="sat/reading-practice-01.html" class="btn-secondary-hero">
               <span>📖 Reading & Writing Module</span>
             </a>
           </div>

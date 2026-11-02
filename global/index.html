@@ -24,41 +24,44 @@
 <body>
 
   <!-- Site Navigation Header -->
-  <header class="site-header">
-    <div class="home-container nav-inner">
-      <a href="../index.html" class="brand-badge" aria-label="MockTestVault Home">
-        <div class="brand-shield">🛡️</div>
-        <div class="brand-text-block">
-          <span class="brand-name">MockTestVault</span>
-          <span class="brand-tagline">Global Standards Vault</span>
-        </div>
-      </a>
+  <header class="global-nav">
+    <div class="home-container">
+      <div class="nav-wrapper">
+        <a href="../index.html" class="brand-group" aria-label="MockTestVault Home">
+          <div class="brand-icon">🛡️</div>
+          <div class="brand-title">
+            <span>MockTestVault</span>
+            <span class="brand-badge">Global Vault</span>
+          </div>
+        </a>
 
-      <!-- Region Switcher Navigation -->
-      <nav class="nav-links" aria-label="Regional Portals">
-        <div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
-          <a href="../us/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇺🇸 United States</a>
-          <a href="../in/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇮🇳 India</a>
-          <a href="index.html" class="nav-link active" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🌐 Global Tests</a>
-        </div>
-      </nav>
+        <!-- Region Switcher Navigation -->
+        <nav class="nav-links" aria-label="Regional Portals">
+          <div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
+            <a href="../us/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇺🇸 United States</a>
+            <a href="../in/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇮🇳 India</a>
+            <a href="index.html" class="nav-link active" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🌐 Global Tests</a>
+          </div>
+        </nav>
 
-      <div class="nav-right">
-        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
-          <span class="theme-icon">🌙</span>
-        </button>
+        <div class="nav-actions">
+          <button id="theme-toggle-btn" class="theme-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">🌙</button>
+          <a href="ielts/reading-practice-01.html" class="cta-header-btn">
+            <span>⚡ Start IELTS Drill</span>
+          </a>
+        </div>
       </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero-block">
+  <section class="hero-section">
     <div class="home-container">
       <div class="hero-grid">
         
         <div class="hero-content">
           <div class="hero-badge">
-            <span class="badge-dot"></span>
+            <span class="hero-badge-dot"></span>
             <span>International Standardized Exams • 100% Free & Ad-Free</span>
           </div>
 
@@ -70,12 +73,11 @@
             Prepare for global university admissions, immigration, and international career credentials on our distraction-free exam simulator. Features authentic reading comprehension drills, True/False/Not Given logic, Band 9 rationales, and zero popups.
           </p>
 
-          <div class="hero-cta-group">
-            <a href="ielts/reading-practice-01.html" class="btn-primary">
-              <span>🚀 Launch IELTS® Academic Reading Drill</span>
-              <span class="btn-arrow">→</span>
+          <div class="hero-actions">
+            <a href="ielts/reading-practice-01.html" class="btn-primary-hero">
+              <span>🚀 Launch IELTS® Reading Drill</span>
             </a>
-            <a href="#tracks" class="btn-secondary">
+            <a href="#tracks" class="btn-secondary-hero">
               <span>🌐 View All Global Tracks</span>
             </a>
           </div>

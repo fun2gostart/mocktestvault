@@ -55,16 +55,16 @@
 
         <nav class="nav-links">
           <a href="#catalog" class="nav-link"><span>📋</span> All Exams</a>
-          <a href="us/index.html" class="nav-link"><span>🇺🇸</span> US Vault (SAT/AP)</a>
-          <a href="in/index.html" class="nav-link hot-link"><span>🇮🇳</span> India Vault (CBSE/SSC)</a>
-          <a href="global/index.html" class="nav-link"><span>🌐</span> Global Vault (IELTS/GRE)</a>
+          <a href="us/index.html" class="nav-link"><span>🇺🇸</span> United States</a>
+          <a href="in/index.html" class="nav-link"><span>🇮🇳</span> India</a>
+          <a href="global/index.html" class="nav-link"><span>🌐</span> Global Standards</a>
           <a href="progress.html" class="nav-link"><span>📊</span> Progress</a>
         </nav>
 
         <div class="nav-actions">
           <button id="theme-toggle-btn" class="theme-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">🌙</button>
-          <a href="us/sat/math-practice-01.html" class="cta-header-btn">
-            <span>⚡ SAT Practice</span>
+          <a href="#catalog" class="cta-header-btn">
+            <span>⚡ Start Practice</span>
           </a>
         </div>
       </div>
@@ -92,35 +92,35 @@
           </p>
 
           <!-- 3-Pillar Regional Hub Switcher -->
-          <div class="region-portals-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:12px; margin-bottom:20px;">
-            <a href="us/index.html" class="region-portal-card" style="display:flex; align-items:center; gap:10px; padding:10px 14px; background:var(--bg-surface); border:1px solid var(--border-color); border-radius:var(--radius-md); text-decoration:none; color:var(--text-primary); transition:all 0.2s ease; box-shadow:var(--shadow-sm);">
-              <span style="font-size:1.6rem; line-height:1;">🇺🇸</span>
-              <div>
-                <div style="font-weight:750; font-size:0.88rem; display:flex; align-items:center; gap:6px;">
+          <div class="region-portals-grid">
+            <a href="us/index.html" class="region-portal-card">
+              <span class="region-portal-flag">🇺🇸</span>
+              <div class="region-portal-info">
+                <div class="region-portal-title">
                   <span>United States</span>
-                  <span style="font-size:0.62rem; padding:1px 5px; border-radius:var(--radius-full); background:var(--primary-light); color:var(--primary); font-weight:700;">Live</span>
+                  <span class="region-portal-status status-badge-live">Live</span>
                 </div>
-                <div style="font-size:0.72rem; color:var(--text-muted);">Digital SAT® & AP®</div>
+                <div class="region-portal-sub">Digital SAT® & AP® Exams</div>
               </div>
             </a>
-            <a href="in/index.html" class="region-portal-card" style="display:flex; align-items:center; gap:10px; padding:10px 14px; background:var(--bg-surface); border:1px solid var(--border-color); border-radius:var(--radius-md); text-decoration:none; color:var(--text-primary); transition:all 0.2s ease; box-shadow:var(--shadow-sm);">
-              <span style="font-size:1.6rem; line-height:1;">🇮🇳</span>
-              <div>
-                <div style="font-weight:750; font-size:0.88rem; display:flex; align-items:center; gap:6px;">
+            <a href="in/index.html" class="region-portal-card">
+              <span class="region-portal-flag">🇮🇳</span>
+              <div class="region-portal-info">
+                <div class="region-portal-title">
                   <span>India</span>
-                  <span style="font-size:0.62rem; padding:1px 5px; border-radius:var(--radius-full); background:var(--accent-emerald-light); color:var(--accent-emerald); font-weight:700;">100% Live</span>
+                  <span class="region-portal-status status-badge-complete">100% Live</span>
                 </div>
-                <div style="font-size:0.72rem; color:var(--text-muted);">CBSE 10 (48 Ch) & SSC</div>
+                <div class="region-portal-sub">CBSE 10 (48 Ch) & SSC CGL</div>
               </div>
             </a>
-            <a href="global/index.html" class="region-portal-card" style="display:flex; align-items:center; gap:10px; padding:10px 14px; background:var(--bg-surface); border:1px solid var(--border-color); border-radius:var(--radius-md); text-decoration:none; color:var(--text-primary); transition:all 0.2s ease; box-shadow:var(--shadow-sm);">
-              <span style="font-size:1.6rem; line-height:1;">🌐</span>
-              <div>
-                <div style="font-weight:750; font-size:0.88rem; display:flex; align-items:center; gap:6px;">
+            <a href="global/index.html" class="region-portal-card">
+              <span class="region-portal-flag">🌐</span>
+              <div class="region-portal-info">
+                <div class="region-portal-title">
                   <span>Global Standards</span>
-                  <span style="font-size:0.62rem; padding:1px 5px; border-radius:var(--radius-full); background:var(--primary-light); color:var(--primary); font-weight:700;">Live</span>
+                  <span class="region-portal-status status-badge-live">Live</span>
                 </div>
-                <div style="font-size:0.72rem; color:var(--text-muted);">IELTS® & GRE®</div>
+                <div class="region-portal-sub">IELTS® Academic & GRE®</div>
               </div>
             </a>
           </div>
@@ -134,20 +134,23 @@
 
           <!-- Quick Category Filter Chips -->
           <div class="filter-chips-row">
-            <span class="filter-chip-label">Focus Track:</span>
-            <button class="filter-chip active" data-category="all">All Focus Tracks</button>
-            <button class="filter-chip" data-category="us">🇺🇸 United States (SAT / AP)</button>
-            <button class="filter-chip" data-category="in">🇮🇳 India (CBSE / SSC)</button>
-            <button class="filter-chip" data-category="global">🌐 Global Standards (IELTS / GRE)</button>
+            <span class="filter-chip-label">Focus:</span>
+            <button class="filter-chip active" data-category="all">All Tracks</button>
+            <button class="filter-chip" data-category="us">🇺🇸 United States</button>
+            <button class="filter-chip" data-category="in">🇮🇳 India</button>
+            <button class="filter-chip" data-category="global">🌐 Global Standards</button>
           </div>
 
           <!-- Hero Action Buttons -->
           <div class="hero-actions">
             <a href="us/sat/math-practice-01.html" class="btn-primary-hero">
-              <span>🚀 Launch Digital SAT® Math 01</span>
+              <span>🇺🇸 SAT® Math 01</span>
+            </a>
+            <a href="cbse-class-10/index.html" class="btn-secondary-hero">
+              <span>🇮🇳 CBSE Class 10</span>
             </a>
             <a href="global/ielts/reading-practice-01.html" class="btn-secondary-hero">
-              <span>🌐 Launch IELTS® Academic</span>
+              <span>🌐 IELTS® Academic</span>
             </a>
           </div>
         </div>
@@ -227,9 +230,9 @@
       <!-- Category Filter Tabs -->
       <div class="catalog-tabs" role="tablist">
         <button class="catalog-tab-btn active" data-category="all" role="tab">All Focus Tracks</button>
-        <button class="catalog-tab-btn" data-category="us" role="tab">🇺🇸 United States (SAT / AP)</button>
-        <button class="catalog-tab-btn" data-category="in" role="tab">🇮🇳 India (CBSE / SSC)</button>
-        <button class="catalog-tab-btn" data-category="global" role="tab">🌐 Global Standards (IELTS / GRE)</button>
+        <button class="catalog-tab-btn" data-category="us" role="tab">🇺🇸 United States</button>
+        <button class="catalog-tab-btn" data-category="in" role="tab">🇮🇳 India</button>
+        <button class="catalog-tab-btn" data-category="global" role="tab">🌐 Global Standards</button>
       </div>
 
       <!-- Exam Cards Grid -->
@@ -453,7 +456,6 @@
           <div class="exam-card-actions">
             <a href="us/sat/math-practice-01.html" class="exam-launch-btn"><span>🚀 Launch SAT Math</span></a>
             <a href="us/sat/reading-practice-01.html" class="exam-secondary-btn">Reading Module →</a>
-            <a href="us/index.html" class="exam-secondary-btn" title="View US Hub">US Hub</a>
           </div>
         </article>
 
@@ -525,28 +527,6 @@
           </div>
           <div class="exam-card-actions">
             <a href="global/index.html" class="exam-launch-btn"><span>🌐 Explore Global Hub</span></a>
-          </div>
-        </article>
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">☁️</div>
-              <span class="exam-status-tag status-roadmap">⏳ Roadmap Q1</span>
-            </div>
-            <div class="exam-category-title">Professional Certification • Cloud Computing</div>
-            <h3 class="exam-title">AWS Cloud Practitioner (CLF-C02)</h3>
-            <p class="exam-desc">
-              Realistic certification scenarios covering AWS global infrastructure, core services (EC2, S3, RDS, Lambda), security, and pricing models.
-            </p>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>☁️</span> CLF-C02 Syllabus</span>
-              <span class="meta-pill"><span>🛡️</span> Shared Responsibility</span>
-              <span class="meta-pill"><span>💵</span> Billing & Pricing</span>
-            </div>
-          </div>
-          <div class="exam-card-actions">
-            <button class="exam-launch-btn" style="background:var(--bg-subtle); color:var(--text-secondary); border:1px solid var(--border-color); cursor:default;">
-              <span>⏳ In Active Generation</span>
-            </button>
           </div>
         </article>
 

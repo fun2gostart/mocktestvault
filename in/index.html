@@ -24,41 +24,44 @@
 <body>
 
   <!-- Site Navigation Header -->
-  <header class="site-header">
-    <div class="home-container nav-inner">
-      <a href="../index.html" class="brand-badge" aria-label="MockTestVault Home">
-        <div class="brand-shield">🛡️</div>
-        <div class="brand-text-block">
-          <span class="brand-name">MockTestVault</span>
-          <span class="brand-tagline">India Examination Vault</span>
-        </div>
-      </a>
+  <header class="global-nav">
+    <div class="home-container">
+      <div class="nav-wrapper">
+        <a href="../index.html" class="brand-group" aria-label="MockTestVault Home">
+          <div class="brand-icon">🛡️</div>
+          <div class="brand-title">
+            <span>MockTestVault</span>
+            <span class="brand-badge">India Vault</span>
+          </div>
+        </a>
 
-      <!-- Region Switcher Navigation -->
-      <nav class="nav-links" aria-label="Regional Portals">
-        <div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
-          <a href="../us/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇺🇸 United States</a>
-          <a href="index.html" class="nav-link active" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🇮🇳 India</a>
-          <a href="../global/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🌐 Global Tests</a>
-        </div>
-      </nav>
+        <!-- Region Switcher Navigation -->
+        <nav class="nav-links" aria-label="Regional Portals">
+          <div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
+            <a href="../us/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇺🇸 United States</a>
+            <a href="index.html" class="nav-link active" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🇮🇳 India</a>
+            <a href="../global/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🌐 Global Tests</a>
+          </div>
+        </nav>
 
-      <div class="nav-right">
-        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
-          <span class="theme-icon">🌙</span>
-        </button>
+        <div class="nav-actions">
+          <button id="theme-toggle-btn" class="theme-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">🌙</button>
+          <a href="../cbse-class-10/index.html" class="cta-header-btn">
+            <span>📚 CBSE 10 Vault</span>
+          </a>
+        </div>
       </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero-block">
+  <section class="hero-section">
     <div class="home-container">
       <div class="hero-grid">
         
         <div class="hero-content">
           <div class="hero-badge">
-            <span class="badge-dot"></span>
+            <span class="hero-badge-dot"></span>
             <span>48 / 48 Chapters 100% Live • 2,880 Verified Questions • Zero Ads</span>
           </div>
 
@@ -70,12 +73,11 @@
             Prepare for CBSE Class 10 Board Exams and SSC CGL Tier 1 on an authentic CBT simulator. Built with official TCS iON 5-state question palettes, timer countdowns, negative marking logic, step-by-step NCERT citations, and zero advertisements.
           </p>
 
-          <div class="hero-cta-group">
-            <a href="../cbse-class-10/index.html" class="btn-primary">
+          <div class="hero-actions">
+            <a href="../cbse-class-10/index.html" class="btn-primary-hero">
               <span>📚 Open CBSE Class 10 Vault (48 Ch)</span>
-              <span class="btn-arrow">→</span>
             </a>
-            <a href="../ssc-cgl/mock-01.html" class="btn-secondary">
+            <a href="../ssc-cgl/mock-01.html" class="btn-secondary-hero">
               <span>🎯 SSC CGL Tier 1 Full Mock 01</span>
             </a>
           </div>
