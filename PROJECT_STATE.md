@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 95 Production Routes | 3,970+ Ground-Truth Verified Questions across 3 Focus Pillars | 5 Dynamic Shuffled Random Mock Simulators | 5 Legal Trust Hubs  
+> **Current Scale:** 101 Production Routes | 4,070+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 5 Legal Trust Hubs  
 
 ---
 
@@ -111,6 +111,13 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
     * Set 04: Momentum, Impulse & Collisions (`ap/physics-1-diagnostic-04.html`)
     * Set 05: SHM & Rotational Dynamics (`ap/physics-1-diagnostic-05.html`)
     * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 100-Q pool (`ap/physics-1-diagnostic-random.html`)
+  * **AP® U.S. History (APUSH) (100 Questions — 5 Sets + Dynamic Random Mock, 45 Mins each, Periods 1–9 Stimulus-Based):**
+    * Set 01: Periods 1 & 2 (1491–1754: Pre-Columbian Societies, Colonization & Atlantic World: `ap/us-history-diagnostic-01.html`)
+    * Set 02: Periods 3 & 4 (1754–1848: Revolution, Constitution, Early Republic & Market Revolution: `ap/us-history-diagnostic-02.html`)
+    * Set 03: Periods 5 & 6 (1844–1898: Manifest Destiny, Civil War, Reconstruction & Gilded Age: `ap/us-history-diagnostic-03.html`)
+    * Set 04: Periods 7 & 8 (1890–1980: Imperialism, WWI, New Deal, WWII, Cold War & Civil Rights: `ap/us-history-diagnostic-04.html`)
+    * Set 05: Period 9 & Thematic Review (1980–Present: Modern America & Comprehensive Synthesis: `ap/us-history-diagnostic-05.html`)
+    * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 100-Q pool (`ap/us-history-diagnostic-random.html`)
 * **Global Standards Pillar (100 Questions Live across 6 Production Routes):**
   * **IELTS® Academic Reading (60 Questions — 3 Practice Suites + Dynamic Random Mock, 25 Mins each, Band 7.5–9.0 conversion scale):**
     * Practice 01: Biophilic Architecture & Marine Acoustics (`global/ielts/reading-practice-01.html`)
@@ -185,12 +192,13 @@ In direct alignment with Google AdSense Publisher Policies, Quality Rater Guidel
 
 ## 7. Next Expansion Roadmap
 
-1. **United States Pillar (100 Questions Per Exam Completed — 400 Qs Total):**
-   * ✅ Digital SAT® Math: Sets 01 to 05 (100 Questions Live across 5 suites).
-   * ✅ Digital SAT® Reading & Writing: Sets 01 to 05 (100 Questions Live across 5 suites).
-   * ✅ AP® Calculus AB: Sets 01 to 05 (100 Questions Live across 5 suites).
-   * ✅ AP® Physics 1: Sets 01 to 05 (100 Questions Live across 5 suites).
-   * **Total: 400 Questions across 20 Dedicated Exam Routes.**
+1. **United States Pillar (100 Questions Per Exam Completed — 500 Qs Total across 30 Routes):**
+   * ✅ Digital SAT® Math: Sets 01 to 05 + Random Mock (100 Questions Live across 6 routes).
+   * ✅ Digital SAT® Reading & Writing: Sets 01 to 05 + Random Mock (100 Questions Live across 6 routes).
+   * ✅ AP® Calculus AB: Sets 01 to 05 + Random Mock (100 Questions Live across 6 routes).
+   * ✅ AP® Physics 1: Sets 01 to 05 + Random Mock (100 Questions Live across 6 routes).
+   * ✅ AP® U.S. History (APUSH): Sets 01 to 05 + Random Mock (100 Questions Live across 6 routes).
+   * **Total: 500 Questions across 30 Dedicated Exam Routes.**
 2. **Global Standards Pillar (+6 to 8 Pages):**
    * IELTS® Academic Reading Practice Tests 02, 03, 04.
    * GRE® Quantitative Reasoning Drills 01 & 02.
