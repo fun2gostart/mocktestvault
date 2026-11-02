@@ -5,13 +5,19 @@
 
 class MockTestEngine {
   constructor(options = {}) {
-    this.currentSet = options.initialSet || 'set1';
+    const urlParams = (typeof window !== 'undefined' && window.location) ? new URLSearchParams(window.location.search) : null;
+    const setParam = urlParams ? urlParams.get('set') : null;
     this.setSources = options.setSources || {
       set1: 'data/in/cbse10/science_ch01_chemical_reactions_set1.json',
       set2: 'data/in/cbse10/science_ch01_chemical_reactions_set2.json',
       set3: 'data/in/cbse10/science_ch01_chemical_reactions_set3.json'
     };
-    this.dataSource = this.setSources[this.currentSet];
+    if (setParam && (setParam === 'random' || this.setSources[setParam])) {
+      this.currentSet = setParam;
+    } else {
+      this.currentSet = options.initialSet || 'set1';
+    }
+    this.dataSource = this.currentSet === 'random' ? null : this.setSources[this.currentSet];
     this.timeLimitMinutes = options.timeLimitMinutes || 20;
     this.randomSampleSize = options.randomSampleSize || 20;
     this.markingScheme = options.markingScheme || { correct: 1, wrong: 0 };
@@ -100,7 +106,16 @@ class MockTestEngine {
     this.setupFontSize();
     this.updateSoundIcon();
     this.bindEvents();
+    this.syncActiveSetButton();
     await this.loadQuestions();
+  }
+
+  syncActiveSetButton() {
+    document.querySelectorAll('.set-btn').forEach(btn => {
+      const isMatch = (btn.getAttribute('data-set') === this.currentSet);
+      btn.classList.toggle('active', isMatch);
+      btn.setAttribute('aria-selected', isMatch);
+    });
   }
 
   /* ==========================================================================
@@ -563,6 +578,7 @@ class MockTestEngine {
     else if (this.examType === 'ielts') chapterBadge = 'IELTS® Academic';
 
     let badgesHtml = `<span class="badge badge-chapter">${chapterBadge}</span>`;
+    if (this.currentSet === 'random') badgesHtml += `<span class="badge" style="background:linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.15)); color:#9333ea; font-weight:700; border:1px solid rgba(147,51,234,0.3);">🎲 Shuffled Mock</span>`;
     if (q.subtopic) badgesHtml += `<span class="badge badge-subtopic">${q.subtopic}</span>`;
     if (q.type === 'assertion_reasoning') badgesHtml += `<span class="badge badge-type-ar">Assertion & Reasoning</span>`;
     if (q.difficulty) badgesHtml += `<span class="badge badge-subtopic">${q.difficulty}</span>`;

@@ -38,8 +38,8 @@ MockTestVault deploys a structured 3-pillar international architecture with dedi
 
 ## 3. Curriculum & Examination Inventory (2,940+ Questions Live)
 
-### A. CBSE Class 10 Board Vault (100% Complete — 48 Chapters, 2,880 Questions)
-Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter): Set 1 (Core Concepts & Board PYQs), Set 2 (NCERT Exemplar & Numericals), Set 3 (Assertion-Reasoning & Case Studies).
+### A. CBSE Class 10 Board Vault (100% Complete — 48 Chapters, 2,880 Questions + 48 Dynamic Random Mocks)
+Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS an integrated dynamic 🎲 Random 20-Q Shuffled Mock: Set 1 (Core Concepts & Board PYQs), Set 2 (NCERT Exemplar & Numericals), Set 3 (Assertion-Reasoning & Case Studies), and Random Mock (Dynamic Fisher-Yates shuffle sampled from the 60-question pool with infinite re-shuffled retakes).
 
 * **Science (13 Chapters — 39 Sets, 780 Questions):**
   * Ch 1: Chemical Reactions & Equations (Pgs 1–16)
