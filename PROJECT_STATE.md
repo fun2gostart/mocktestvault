@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 63 Production Routes | 2,940+ Ground-Truth Verified Questions across 3 Focus Pillars  
+> **Current Scale:** 68 Production Routes | 2,940+ Ground-Truth Verified Questions across 3 Focus Pillars | 5 Legal Trust Hubs  
 
 ---
 
@@ -120,18 +120,32 @@ MockTestVault runs on a pure vanilla JavaScript state machine with zero external
   * Every page defines a strict `<link rel="canonical" href="...">`.
   * `https://www.mocktestvault.com` 301-redirects to apex `https://mocktestvault.com`.
 * **XML Sitemap:**
-  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **63 production URLs**.
-  * Priority weights: `1.0` (Homepage), `0.95` (Regional Hubs), `0.9` (Primary Simulators), `0.8` (Individual Chapter Tests).
+  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **68 production URLs** (63 Examination Suites + 5 Legal & Trust Hubs).
+  * Priority weights: `1.0` (Homepage), `0.95` (Regional Hubs), `0.9` (Primary Simulators), `0.85` (Progress Hub), `0.8` (Individual Chapter Tests & Legal Hubs).
 * **Robots.txt Directives:**
   * Permissive `User-agent: * Allow: /` with explicit sitemap link.
 * **Schema.org Structured Data:**
   * `EducationalOrganization` on Homepage and Regional Hubs.
   * Country targeting metadata: `areaServed: "United States"` on `/us/` and `areaServed: "India"` on `/in/`.
+  * `AboutPage` and `ContactPage` JSON-LD schemas.
   * `Quiz` and `Question` JSON-LD schemas across test runners.
 
 ---
 
-## 6. Next 4-Day Expansion Roadmap (+20 to 30 Pages)
+## 6. AdSense Compliance & Legal Trust Infrastructure
+
+In direct alignment with Google AdSense Publisher Policies, Quality Rater Guidelines (QRG), and Help Content Systems, MockTestVault deploys an airtight trust and compliance suite:
+
+* **About Us ([`about.html`](https://mocktestvault.com/about.html)):** Complete academic disclosures regarding our Zero-Distraction Exam Philosophy, statutory NCERT grounding methodologies, progressive 3-set pedagogical strategy, and E-E-A-T editorial verification standards.
+* **Privacy Policy ([`privacy.html`](https://mocktestvault.com/privacy.html)):** Comprehensive GDPR, UK Data Protection Act, and CCPA/CPRA disclosures detailing 100% in-browser RAM execution, non-identifying `localStorage` usage, and explicit Google AdSense, DoubleClick DART, and AboutAds/NAI opt-out clauses.
+* **Terms of Service ([`terms.html`](https://mocktestvault.com/terms.html)):** Permitted educational licensing, intellectual property safeguards, and clear trademark attributions (CBSE, SSC, College Board, Cambridge, ETS, TCS iON).
+* **Academic Disclaimer ([`disclaimer.html`](https://mocktestvault.com/disclaimer.html)):** Educational simulation boundaries, explicit non-affiliation notices, score estimation limits, and statutory board key precedence.
+* **Contact & Discrepancy Desk ([`contact.html`](https://mocktestvault.com/contact.html)):** Multi-channel support including dedicated editorial email (`contact@mocktestvault.com`), open GitHub issue tracking, and an interactive discrepancy submission form with a guaranteed 24–48 hour turnaround SLA.
+* **Authorized Digital Sellers (`ads.txt`):** Pre-configured `ads.txt` deployed to root domain, ready for immediate AdSense Publisher ID injection upon approval.
+
+---
+
+## 7. Next 4-Day Expansion Roadmap (+20 to 30 Pages)
 
 To scale catalog depth while staying within Googlebot's optimal discovery velocity (5–8 pages/day), the following test suites are scheduled:
 
@@ -152,7 +166,7 @@ To scale catalog depth while staying within Googlebot's optimal discovery veloci
 
 ---
 
-## 7. Deployment Protocol
+## 8. Deployment Protocol
 
 To push updates across all live nodes simultaneously:
 

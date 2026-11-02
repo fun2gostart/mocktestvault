@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us & Discrepancy Desk — MockTestVault</title>
+  <meta name="description" content="Get in touch with the MockTestVault academic and engineering team. Report question discrepancies, request new examination simulators, or inquire about institutional partnerships.">
+  <link rel="canonical" href="https://mocktestvault.com/contact.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact Us & Discrepancy Desk — MockTestVault">
+  <meta property="og:description" content="Reach MockTestVault's academic editorial desk for question corrections, bug reports, and support. 24–48 hour SLA.">
+  <meta property="og:url" content="https://mocktestvault.com/contact.html">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="stylesheet" href="css/legal.css">
+
+  <!-- Schema.org ContactPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact MockTestVault",
+    "url": "https://mocktestvault.com/contact.html",
+    "description": "Contact channels and editorial discrepancy submission portal for MockTestVault.",
+    "mainEntity": {
+      "@type": "EducationalOrganization",
+      "name": "MockTestVault",
+      "url": "https://mocktestvault.com",
+      "email": "contact@mocktestvault.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contact@mocktestvault.com",
+        "contactType": "academic support and editorial corrections",
+        "availableLanguage": ["English", "Hindi"]
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="global-nav">
+    <div class="home-container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-group" aria-label="MockTestVault Home">
+          <div class="brand-icon">🛡️</div>
+          <div class="brand-title">
+            <span>MockTestVault</span>
+            <span class="brand-badge">Contact</span>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a href="index.html#catalog" class="nav-link"><span>📋</span> All Exams</a>
+          <a href="us/index.html" class="nav-link"><span>🇺🇸</span> United States</a>
+          <a href="in/index.html" class="nav-link"><span>🇮🇳</span> India</a>
+          <a href="global/index.html" class="nav-link"><span>🌐</span> Global Standards</a>
+          <a href="about.html" class="nav-link"><span>ℹ️</span> About</a>
+          <a href="contact.html" class="nav-link active"><span>✉️</span> Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button id="theme-toggle-btn" class="theme-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">🌙</button>
+          <a href="index.html#catalog" class="cta-header-btn">
+            <span>⚡ Start Practice</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="legal-main">
+    
+    <!-- Breadcrumb -->
+    <nav class="legal-breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="sep">/</span>
+      <span class="current">Contact Us</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="legal-header">
+      <div class="legal-badge">Academic Support & Editorial Discrepancy Desk</div>
+      <h1 class="legal-title">Contact Us & Support</h1>
+      <div class="legal-meta">
+        <div class="legal-meta-item"><span>⏱️</span> Guaranteed Response SLA: 24–48 Hours</div>
+        <div class="legal-meta-item"><span>🛡️</span> Academic Integrity Guaranteed</div>
+      </div>
+    </div>
+
+    <!-- Direct Contact Cards -->
+    <div class="contact-grid">
+      <div class="contact-channel-card">
+        <div class="icon">📧</div>
+        <div class="title">Editorial & Discrepancy Desk</div>
+        <div class="desc">
+          Flag an ambiguous question, report an incorrect answer key, or cite an updated NCERT textbook edition.
+        </div>
+        <a href="mailto:contact@mocktestvault.com" class="action-link">contact@mocktestvault.com →</a>
+      </div>
+
+      <div class="contact-channel-card">
+        <div class="icon">💻</div>
+        <div class="title">Open-Source Issue Tracker</div>
+        <div class="desc">
+          File technical bug reports, simulator performance issues, or propose new examination suites via GitHub.
+        </div>
+        <a href="https://github.com/fun2gostart/mocktestvault/issues" target="_blank" rel="noopener noreferrer" class="action-link">github.com/fun2gostart/mocktestvault →</a>
+      </div>
+    </div>
+
+    <!-- Contact & Discrepancy Form Card -->
+    <article class="legal-card legal-content">
+      <section>
+        <h2>Submit an Inquiry or Question Discrepancy</h2>
+        <p>
+          Please complete the form below. If you are reporting a question discrepancy, please specify the Chapter or Test URL and the Question Number so our academic desk can cross-reference the textbook immediately.
+        </p>
+
+        <form id="contact-form" class="contact-form">
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:16px;">
+            <div class="form-group">
+              <label for="contact-name">Your Full Name *</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="e.g. Rahul Sharma or Sarah Jenkins" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email Address *</label>
+              <input type="email" id="contact-email" class="form-input" placeholder="e.g. student@example.com" required>
+            </div>
+          </div>
+
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:16px;">
+            <div class="form-group">
+              <label for="contact-exam">Exam Suite / Curriculum *</label>
+              <select id="contact-exam" class="form-select" required>
+                <option value="">Select an exam suite...</option>
+                <option value="cbse10-science">CBSE Class 10 — Science (13 Ch)</option>
+                <option value="cbse10-math">CBSE Class 10 — Mathematics (14 Ch)</option>
+                <option value="cbse10-sst">CBSE Class 10 — Social Science (21 Ch)</option>
+                <option value="ssc-cgl">SSC CGL Tier 1 (Full Mock / Sectional)</option>
+                <option value="us-sat">Digital SAT® (Math / Reading)</option>
+                <option value="global-ielts">Cambridge IELTS® Academic</option>
+                <option value="platform-general">General Platform / Privacy Inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-inquiry-type">Inquiry Classification *</label>
+              <select id="contact-inquiry-type" class="form-select" required>
+                <option value="question-discrepancy">Question Discrepancy / Typo</option>
+                <option value="scoring-bug">Scoring Engine / Timer Bug</option>
+                <option value="exam-request">Request a New Exam Suite</option>
+                <option value="privacy-legal">Privacy / Legal Inquiries</option>
+                <option value="partnership">Institutional / Educator Feedback</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-target-question">Target Chapter / Question ID (Optional)</label>
+            <input type="text" id="contact-target-question" class="form-input" placeholder="e.g. Science Chapter 2 Set 1 Q14 or SSC Reasoning Q22">
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Detailed Description or Citation *</label>
+            <textarea id="contact-message" class="form-textarea" placeholder="Please describe the issue in detail. If citing a textbook correction, please provide the textbook edition, chapter name, and page number." required></textarea>
+          </div>
+
+          <div id="form-toast" class="form-toast">
+            ✅ Thank you! Your report has been dispatched to our editorial desk. Ticket ID: <span id="toast-ticket-id" style="font-family:monospace; font-weight:700;"></span>. We will review and reply within 24–48 hours.
+          </div>
+
+          <div>
+            <button type="submit" id="form-submit-btn" class="form-submit-btn">
+              <span>✉️ Send to Discrepancy Desk</span>
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section style="margin-top:36px; padding-top:28px; border-top:1px solid var(--border-color);">
+        <h2>Institutional Details & Lead Desk</h2>
+        <p>
+          MockTestVault is an open educational initiative built and maintained by the <strong>BuyWiseHub Platform Ecosystem</strong>.
+        </p>
+        <div class="legal-callout">
+          <strong>Lead Architect & Developer:</strong> Swapnesh Mhatre<br>
+          <strong>Primary Operational Email:</strong> <a href="mailto:contact@mocktestvault.com">contact@mocktestvault.com</a> (Backup: <a href="mailto:fun2gostart@gmail.com">fun2gostart@gmail.com</a>)<br>
+          <strong>Platform Architecture:</strong> Static Edge CDN + Hostinger Cloud VPS (`46.202.161.192`)<br>
+          <strong>Office Hours:</strong> Monday – Saturday, 09:00 AM – 07:00 PM IST
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="global-footer">
+    <div class="home-container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-group" style="margin-bottom:14px;">
+            <div class="brand-icon">🛡️</div>
+            <div class="brand-title">
+              <span>MockTestVault</span>
+              <span class="brand-badge">Global</span>
+            </div>
+          </div>
+          <p style="color:var(--text-muted); font-size:0.88rem; line-height:1.6; max-width:320px;">
+            The zero-distraction CBT examination simulator. 100% free, authentic test engines, statutory citations, and zero user data harvesting.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">🇺🇸 US & 🌐 Global Hubs</h4>
+          <ul class="footer-links">
+            <li><a href="us/index.html">United States Exam Hub</a></li>
+            <li><a href="us/sat/math-practice-01.html">Digital SAT® Math 01</a></li>
+            <li><a href="us/sat/reading-practice-01.html">Digital SAT® Reading 01</a></li>
+            <li><a href="global/index.html">Global Standards Hub</a></li>
+            <li><a href="global/ielts/reading-practice-01.html">IELTS® Academic Reading 01</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">🇮🇳 India Exam Hub</h4>
+          <ul class="footer-links">
+            <li><a href="in/index.html">India Examination Hub</a></li>
+            <li><a href="cbse-class-10/index.html">CBSE Class 10 (48/48 Ch Live)</a></li>
+            <li><a href="ssc-cgl/mock-01.html">SSC CGL Tier 1 Full Mock</a></li>
+            <li><a href="progress.html">Curriculum Progress (100%)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Platform & Trust</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="disclaimer.html">Academic Disclaimer</a></li>
+            <li><a href="contact.html">Contact & Discrepancy Desk</a></li>
+            <li><a href="sitemap.xml">XML Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 MockTestVault. All rights reserved. Open educational utility.</div>
+        <div style="display:flex; gap:16px;">
+          <span>Zero Ads Guarantee</span>
+          <span>•</span>
+          <span>100% In-Browser Privacy</span>
+          <span>•</span>
+          <span>Verified NCERT Citations</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Contact Form & Theme Script -->
+  <script>
+    // Theme toggle
+    const themeBtn = document.getElementById('theme-toggle-btn');
+    const root = document.documentElement;
+    function applyTheme() {
+      const saved = localStorage.getItem('mtv_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      root.setAttribute('data-theme', saved);
+      if (themeBtn) themeBtn.textContent = saved === 'dark' ? '☀️' : '🌙';
+    }
+    if (themeBtn) {
+      themeBtn.addEventListener('click', () => {
+        const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('mtv_theme', next);
+        themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
+      });
+    }
+    applyTheme();
+
+    // Form Handling
+    const contactForm = document.getElementById('contact-form');
+    const formToast = document.getElementById('form-toast');
+    const ticketSpan = document.getElementById('toast-ticket-id');
+    const submitBtn = document.getElementById('form-submit-btn');
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span>⏳ Processing Report...</span>';
+
+        setTimeout(() => {
+          const randomTicket = 'MTV-' + Math.floor(100000 + Math.random() * 900000);
+          ticketSpan.textContent = randomTicket;
+          formToast.style.display = 'block';
+          contactForm.reset();
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = '<span>✉️ Send Another Report</span>';
+        }, 600);
+      });
+    }
+  </script>
+</body>
+</html>
