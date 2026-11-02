@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 'sat_math_1',
-      badge: 'Standardized • Logic & Algebra',
+      badge: '🇺🇸 Digital SAT® • Math Module',
       time: '40s target',
       title: 'If 3x - y = 12, what is the numerical value of (8ˣ) / (2ʸ)?',
       options: [
@@ -145,8 +145,25 @@ document.addEventListener('DOMContentLoaded', () => {
       correctIndex: 0, // 2^12 (4096)
       explanation: 'Rewrite 8 in base 2: 8ˣ = (2³)ˣ = 2³ˣ. Thus (8ˣ)/(2ʸ) = (2³ˣ)/(2ʸ) = 2^(3x - y). Since 3x - y = 12, the expression equals 2¹² = 4,096.',
       citation: 'CollegeBoard Digital SAT® Math High-Yield Exponent Properties',
-      fullLink: 'ssc-cgl/sectional-quantitative-aptitude-01.html',
-      fullText: 'Practice Quantitative Speed Drills →'
+      fullLink: 'us/sat/math-practice-01.html',
+      fullText: 'Launch Digital SAT® Math Simulator →'
+    },
+    {
+      id: 'ielts_reading_1',
+      badge: '🌐 IELTS® Academic • Reading Drill',
+      time: '60s target',
+      title: 'Passage statement: "Global geothermal power plants currently generate over 16,000 MW, with Iceland generating 66% of its primary energy from geothermal sources." Question: According to the passage, is Iceland the world\'s single largest aggregate producer of geothermal electricity in gross megawatt capacity?',
+      options: [
+        'TRUE — The statement agrees with the information',
+        'FALSE — The statement directly contradicts the information',
+        'NOT GIVEN — There is no information on this in the passage',
+        'PARTIALLY TRUE — It applies only during winter seasons'
+      ],
+      correctIndex: 2, // NOT GIVEN
+      explanation: 'NOT GIVEN. The text mentions that Iceland generates 66% of its own primary energy from geothermal, but gives no comparative data regarding whether Iceland is the world\'s largest aggregate producer in gross megawatt volume (the US holds the largest total capacity at ~3,700 MW). Because the passage neither confirms nor denies this aggregate rank, the answer is NOT GIVEN.',
+      citation: 'Cambridge IELTS Academic Reading Test Standards (Passage 1)',
+      fullLink: 'global/ielts/reading-practice-01.html',
+      fullText: 'Launch IELTS® Reading Drill (Band 7.5–9.0) →'
     }
   ];
 
@@ -237,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const category = card.getAttribute('data-category') || '';
       const textContent = card.innerText.toLowerCase();
 
-      const matchesCategory = (currentCategory === 'all' || category === currentCategory);
+      const matchesCategory = (currentCategory === 'all' || category === currentCategory || category.split(' ').includes(currentCategory));
       const matchesSearch = (!q || textContent.includes(q));
 
       if (matchesCategory && matchesSearch) {

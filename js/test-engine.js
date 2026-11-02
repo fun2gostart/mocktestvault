@@ -287,7 +287,7 @@ class MockTestEngine {
       const rawList = Array.isArray(rawData) ? rawData : (rawData.questions || []);
       this.questions = rawList.map(q => ({
         ...q,
-        answer: q.answer !== undefined ? q.answer : q.correctAnswer,
+        answer: q.answer !== undefined ? q.answer : (q.correct !== undefined ? q.correct : q.correctAnswer),
         citation: q.citation || q.ncertRef || 'Official NCERT Class 10 Syllabus'
       }));
       

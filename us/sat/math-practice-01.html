@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital SAT® Math Module 1 Practice Test (20 Questions) | MockTestVault US</title>
+  <meta name="description" content="Free official-style Digital SAT Math Practice Test with instant step-by-step solutions, Algebra, Advanced Math, Geometry, Desmos formulas, and zero ads.">
+
+  <link rel="stylesheet" href="../../css/test-engine.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Digital SAT® Math Module 1 Practice Test",
+    "description": "Timed College Board style Digital SAT Math simulator covering Heart of Algebra, Problem Solving and Data Analysis, Passport to Advanced Math, and Additional Topics in Math.",
+    "educationalLevel": "High School Grade 11-12",
+    "learningResourceType": "Practice Quiz",
+    "provider": {
+      "@type": "Organization",
+      "name": "MockTestVault",
+      "url": "https://mocktestvault.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Print Only Header -->
+  <div class="print-only-header">
+    <h1>MockTestVault US — Digital SAT® Math Practice Test 01</h1>
+    <p>College Board Specification: Algebra, Advanced Math, Problem Solving, Geometry & Trigonometry | mocktestvault.com</p>
+  </div>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../index.html" class="brand-link">
+        <div class="brand-logo">🇺🇸</div>
+        <div class="brand-text">
+          <h1>MockTestVault <span class="vault-pill">Digital SAT®</span></h1>
+          <p>US College Admissions Exam Simulator</p>
+        </div>
+      </a>
+
+      <div class="header-controls">
+        <div class="mode-pill-group" role="group" aria-label="Test Mode Selection">
+          <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and step-by-step College Board rationales">
+            <span>🎓</span> Practice
+          </button>
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 32-min official Digital SAT simulation">
+            <span>⏱️</span> Exam
+          </button>
+        </div>
+
+        <div style="display:flex; gap:6px;">
+          <button id="btn-font-dec" class="tool-btn" title="Decrease Font Size">A-</button>
+          <button id="btn-font-inc" class="tool-btn" title="Increase Font Size">A+</button>
+          <button id="btn-sound-toggle" class="tool-btn" title="Toggle Sound Feedback">🔊</button>
+          <button id="btn-fullscreen-toggle" class="tool-btn" title="Toggle Fullscreen Focus">⛶</button>
+        </div>
+
+        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+    <div class="breadcrumb-container">
+      <a href="../../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html">US Exam Vault</a>
+      <span class="sep">/</span>
+      <span class="current">Digital SAT® Math Module 01</span>
+    </div>
+  </nav>
+
+  <!-- Section Info Bar -->
+  <div class="set-switcher-bar">
+    <div class="set-switcher-container">
+      <span class="set-label">Digital SAT Track:</span>
+      <div class="set-btn-group" role="tablist">
+        <button class="set-btn active" data-set="set1" id="set-btn-set1" role="tab" aria-selected="true">
+          <span>📐 Math Module 01 (Core Diagnostic)</span>
+          <span class="set-badge-count">20 Qs • 32 Mins</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Exam Live Status Bar -->
+  <div id="exam-status-bar" class="exam-status-bar">
+    <div class="status-container">
+      <div id="timer-box" class="timer-box">
+        <span>⏱️</span>
+        <span id="timer-display">32:00</span>
+      </div>
+
+      <div class="progress-info">
+        <span id="progress-text" class="progress-text">Loading College Board questions...</span>
+        <div class="progress-bar-track">
+          <div id="progress-bar-fill" class="progress-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Test Layout -->
+  <main class="test-layout" id="test-layout">
+    
+    <!-- Left Column: Question Area -->
+    <section class="question-column">
+      <div class="question-card" id="question-card">
+        <div class="q-header">
+          <span class="q-number-badge" id="q-number-badge">Question 1</span>
+          <div class="q-meta-group">
+            <span class="q-badge" id="q-subtopic-badge">Algebra</span>
+            <span class="q-badge" id="q-diff-badge">Medium</span>
+          </div>
+        </div>
+
+        <div class="q-body" id="q-body">
+          <p id="q-text">Loading question text...</p>
+        </div>
+
+        <div class="options-group" id="options-group" role="radiogroup" aria-label="Answer Options">
+          <!-- Dynamically populated options A, B, C, D -->
+        </div>
+
+        <!-- Practice Mode Explanation Box -->
+        <div class="explanation-box" id="explanation-box" style="display: none;">
+          <div class="exp-title">
+            <span>💡</span> College Board Answer Rationale & Formula Method:
+          </div>
+          <div class="exp-body" id="exp-text"></div>
+          <div class="exp-citation" id="exp-citation"></div>
+        </div>
+
+        <!-- Question Card Action Controls -->
+        <div class="q-actions-bar">
+          <div class="action-left">
+            <button id="btn-review" class="btn-action btn-review" title="Flag this question to review later">
+              <span>🚩</span> Mark for Review
+            </button>
+            <button id="btn-clear" class="btn-action btn-clear" title="Clear chosen answer option">
+              Clear Choice
+            </button>
+          </div>
+
+          <div class="action-right">
+            <button id="btn-prev" class="btn-nav btn-prev" disabled>
+              ← Previous
+            </button>
+            <button id="btn-next" class="btn-nav btn-next">
+              Next Question →
+            </button>
+            <button id="btn-submit" class="btn-nav btn-submit" style="display:none;">
+              Finish Module
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right Column: Navigation Palette & Overview -->
+    <aside class="palette-column" aria-label="Question Navigation Palette">
+      <div class="palette-card">
+        <div class="palette-header">
+          <h3>Question Palette</h3>
+          <span class="palette-count" id="palette-summary">0 / 20 Answered</span>
+        </div>
+
+        <!-- Official Status Legend -->
+        <div class="palette-legend">
+          <div class="legend-item"><span class="legend-dot dot-not-visited"></span> Not Visited</div>
+          <div class="legend-item"><span class="legend-dot dot-not-answered"></span> Unanswered</div>
+          <div class="legend-item"><span class="legend-dot dot-answered"></span> Answered</div>
+          <div class="legend-item"><span class="legend-dot dot-review"></span> Marked Review</div>
+        </div>
+
+        <!-- Grid of Question Buttons -->
+        <div class="palette-grid" id="palette-grid">
+          <!-- 1 to 20 dynamically populated -->
+        </div>
+
+        <div class="palette-footer">
+          <button id="btn-open-submit" class="btn-palette-submit">
+            <span>🏁</span> Submit Test & Scorecard
+          </button>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Comprehensive Scorecard View (Shown on Submission) -->
+  <section id="scorecard-view" class="scorecard-view" style="display: none;">
+    <div class="scorecard-hero">
+      <div class="scorecard-badge">Module 1 Performance Summary</div>
+      <h2 id="scorecard-greeting">Test Complete!</h2>
+      <p id="scorecard-subtext">Here is your detailed breakdown according to College Board SAT scoring benchmarks.</p>
+
+      <div class="score-tiles-grid">
+        <div class="score-tile">
+          <div class="tile-label">Raw Score</div>
+          <div class="tile-val" id="score-raw">0 / 20</div>
+        </div>
+        <div class="score-tile">
+          <div class="tile-label">Accuracy</div>
+          <div class="tile-val" id="score-pct">0%</div>
+        </div>
+        <div class="score-tile">
+          <div class="tile-label">Est. SAT Math Section</div>
+          <div class="tile-val" id="score-sat-scale">680 - 750</div>
+        </div>
+        <div class="score-tile">
+          <div class="tile-label">Time Elapsed</div>
+          <div class="tile-val" id="score-time">00:00</div>
+        </div>
+      </div>
+
+      <div class="scorecard-actions">
+        <button id="btn-retake" class="btn-scorecard btn-retake">
+          <span>🔄</span> Retake Test
+        </button>
+        <button id="btn-print-sheet" class="btn-scorecard btn-print">
+          <span>🖨️</span> Print Revision Sheet (PDF)
+        </button>
+        <a href="reading-practice-01.html" class="btn-scorecard btn-next-ch">
+          <span>📖</span> Take Reading & Writing Module →
+        </a>
+      </div>
+    </div>
+
+    <!-- Review Section with Filter Pills -->
+    <div class="scorecard-filter-bar">
+      <h3>Detailed Solution Review</h3>
+      <div class="filter-pills-group" role="tablist">
+        <button class="filter-pill active" data-filter="all" id="filter-all">
+          All (<span id="filter-count-all">20</span>)
+        </button>
+        <button class="filter-pill filter-incorrect" data-filter="incorrect" id="filter-incorrect">
+          ✗ Incorrect (<span id="filter-count-incorrect">0</span>)
+        </button>
+        <button class="filter-pill filter-unanswered" data-filter="unanswered" id="filter-unanswered">
+          ⚪ Unanswered (<span id="filter-count-unanswered">0</span>)
+        </button>
+        <button class="filter-pill filter-reviewed" data-filter="reviewed" id="filter-reviewed">
+          🟣 Review (<span id="filter-count-reviewed">0</span>)
+        </button>
+        <button class="filter-pill filter-correct" data-filter="correct" id="filter-correct">
+          ✓ Correct (<span id="filter-count-correct">0</span>)
+        </button>
+      </div>
+    </div>
+
+    <!-- Full Review List -->
+    <div id="review-list"></div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Standardized Exam Simulators.</p>
+      <p style="font-size:0.75rem;">100% Distraction-Free & Ad-Free. Aligned with official College Board Digital SAT® standards. SAT® is a registered trademark of the College Board, which is not affiliated with this website.</p>
+    </div>
+  </footer>
+
+  <script src="../../js/test-engine.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      window.testEngine = new MockTestEngine({
+        initialSet: 'set1',
+        timeLimitMinutes: 32,
+        markingScheme: { correct: 1, wrong: 0 },
+        examType: 'sat',
+        setSources: {
+          set1: '../../data/us/sat/digital_sat_math_set1.json'
+        }
+      });
+      window.testEngine.loadQuestions();
+    });
+  </script>
+</body>
+</html>

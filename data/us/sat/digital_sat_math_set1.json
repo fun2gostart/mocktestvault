@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "sat-math-001",
+      "type": "mcq",
+      "subtopic": "Linear Equations in One Variable (Algebra)",
+      "difficulty": "Easy",
+      "question": "If 4(x - 3) + 7 = 3x - 1, what is the value of x?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "-4"
+      ],
+      "answer": 0,
+      "explanation": "Expand the left side: 4x - 12 + 7 = 3x - 1 -> 4x - 5 = 3x - 1. Subtract 3x from both sides: x - 5 = -1. Add 5 to both sides: x = 4.",
+      "citation": "College Board Digital SAT Math Specification — Heart of Algebra"
+    },
+    {
+      "id": "sat-math-002",
+      "type": "mcq",
+      "subtopic": "Linear Functions & Slope-Intercept Form (Algebra)",
+      "difficulty": "Easy",
+      "question": "A line in the xy-plane passes through the points (2, 5) and (6, 17). What is the y-intercept of the line?",
+      "options": [
+        "(0, -1)",
+        "(0, 1)",
+        "(0, 3)",
+        "(0, -3)"
+      ],
+      "answer": 0,
+      "explanation": "Slope m = (17 - 5) / (6 - 2) = 12 / 4 = 3. Using point-slope form with (2, 5): y - 5 = 3(x - 2) -> y = 3x - 6 + 5 -> y = 3x - 1. The y-intercept is (0, -1).",
+      "citation": "College Board Digital SAT Math Specification — Linear Functions"
+    },
+    {
+      "id": "sat-math-003",
+      "type": "mcq",
+      "subtopic": "Systems of Linear Equations (Algebra)",
+      "difficulty": "Medium",
+      "question": "Consider the system of equations:\n2x + 3y = 13\n5x - y = 7\nWhat is the value of x + y?",
+      "options": [
+        "5",
+        "3",
+        "7",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "From the second equation, y = 5x - 7. Substitute into the first equation: 2x + 3(5x - 7) = 13 -> 2x + 15x - 21 = 13 -> 17x = 34 -> x = 2. Then y = 5(2) - 7 = 3. Therefore, x + y = 2 + 3 = 5.",
+      "citation": "College Board Digital SAT Math Specification — Systems of Linear Equations"
+    },
+    {
+      "id": "sat-math-004",
+      "type": "mcq",
+      "subtopic": "Equivalent Expressions & Exponents (Advanced Math)",
+      "difficulty": "Medium",
+      "question": "For all positive values of x, which of the following is equivalent to (x^(3/4)) * (x^(1/2))?",
+      "options": [
+        "x^(5/4)",
+        "x^(3/8)",
+        "x^(7/4)",
+        "x^(2/3)"
+      ],
+      "answer": 0,
+      "explanation": "When multiplying terms with the same base, add their exponents: 3/4 + 1/2 = 3/4 + 2/4 = 5/4. Hence, x^(3/4) * x^(1/2) = x^(5/4).",
+      "citation": "College Board Digital SAT Math Specification — Exponents and Radicals"
+    },
+    {
+      "id": "sat-math-005",
+      "type": "mcq",
+      "subtopic": "Quadratic Equations & Roots (Advanced Math)",
+      "difficulty": "Medium",
+      "question": "If x^2 - 8x + k = 0 has exactly one distinct real solution, what is the value of k?",
+      "options": [
+        "16",
+        "64",
+        "8",
+        "-16"
+      ],
+      "answer": 0,
+      "explanation": "A quadratic ax^2 + bx + c = 0 has exactly one distinct real solution when its discriminant b^2 - 4ac = 0. Here a = 1, b = -8, c = k. Thus (-8)^2 - 4(1)(k) = 0 -> 64 - 4k = 0 -> 4k = 64 -> k = 16.",
+      "citation": "College Board Digital SAT Math Specification — Passport to Advanced Math"
+    },
+    {
+      "id": "sat-math-006",
+      "type": "mcq",
+      "subtopic": "Vertex Form of a Parabola (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "The function f(x) = 2(x - 3)^2 - 8 is graphed in the xy-plane. Which of the following is true?",
+      "options": [
+        "The minimum value of f(x) is -8, and it occurs at x = 3",
+        "The maximum value of f(x) is -8, and it occurs at x = 3",
+        "The minimum value of f(x) is 3, and it occurs at x = -8",
+        "The line of symmetry is y = 3"
+      ],
+      "answer": 0,
+      "explanation": "In vertex form f(x) = a(x - h)^2 + k, the vertex is (h, k) = (3, -8). Since a = 2 > 0, the parabola opens upward, meaning the vertex is the absolute minimum point: minimum value is -8 at x = 3.",
+      "citation": "College Board Digital SAT Math Specification — Quadratic Functions"
+    },
+    {
+      "id": "sat-math-007",
+      "type": "mcq",
+      "subtopic": "Percentages & Ratios (Problem Solving)",
+      "difficulty": "Easy",
+      "question": "The original price of a laptop was $800. The price was discounted by 20%, and then an additional 10% coupon was applied to the discounted price. What was the final purchase price before tax?",
+      "options": [
+        "$576",
+        "$560",
+        "$600",
+        "$640"
+      ],
+      "answer": 0,
+      "explanation": "First discount of 20%: $800 * (1 - 0.20) = $800 * 0.80 = $640. Second discount of 10%: $640 * (1 - 0.10) = $640 * 0.90 = $576. Note that sequential percentage discounts are multiplicative, not additive.",
+      "citation": "College Board Digital SAT Math Specification — Problem Solving & Data Analysis"
+    },
+    {
+      "id": "sat-math-008",
+      "type": "mcq",
+      "subtopic": "Unit Conversion & Rates (Problem Solving)",
+      "difficulty": "Medium",
+      "question": "A high-speed train travels at a constant speed of 180 miles per hour. How many feet does the train travel in 1 second? (1 mile = 5,280 feet)",
+      "options": [
+        "264 feet",
+        "300 feet",
+        "180 feet",
+        "528 feet"
+      ],
+      "answer": 0,
+      "explanation": "Speed = 180 miles / 1 hour = (180 * 5,280 feet) / (3,600 seconds) = 950,400 / 3,600 = 264 feet per second.",
+      "citation": "College Board Digital SAT Math Specification — Rates and Proportions"
+    },
+    {
+      "id": "sat-math-009",
+      "type": "mcq",
+      "subtopic": "Scatterplots & Line of Best Fit (Data Analysis)",
+      "difficulty": "Medium",
+      "question": "A line of best fit for a scatterplot relating weekly study hours (x) to final exam scores (y) is given by the equation y = 2.4x + 58. According to this model, what is the predicted score for a student who studies 15 hours per week?",
+      "options": [
+        "94",
+        "88",
+        "90",
+        "92"
+      ],
+      "answer": 0,
+      "explanation": "Substitute x = 15 into the line of best fit: y = 2.4(15) + 58 = 36 + 58 = 94.",
+      "citation": "College Board Digital SAT Math Specification — Two-Variable Data"
+    },
+    {
+      "id": "sat-math-010",
+      "type": "mcq",
+      "subtopic": "Standard Deviation & Spread (Data Analysis)",
+      "difficulty": "Hard",
+      "question": "Dataset A contains the numbers {10, 10, 10, 10, 10}. Dataset B contains the numbers {8, 9, 10, 11, 12}. Which statement correctly compares their standard deviations?",
+      "options": [
+        "The standard deviation of Dataset A is 0, which is less than the standard deviation of Dataset B",
+        "Both datasets have identical standard deviations because their means are both 10",
+        "The standard deviation of Dataset A is greater than Dataset B",
+        "Standard deviation cannot be determined without knowing the sample variance"
+      ],
+      "answer": 0,
+      "explanation": "Standard deviation measures the spread of data points from the mean. In Dataset A, all values are equal to the mean (10), so spread is 0. In Dataset B, values vary from 8 to 12, so standard deviation is greater than 0.",
+      "citation": "College Board Digital SAT Math Specification — One-Variable Statistics"
+    },
+    {
+      "id": "sat-math-011",
+      "type": "mcq",
+      "subtopic": "Right Triangle Trigonometry (Geometry)",
+      "difficulty": "Easy",
+      "question": "In right triangle ABC, angle C is 90 degrees and sin(A) = 3/5. What is the value of cos(B)?",
+      "options": [
+        "3/5",
+        "4/5",
+        "5/3",
+        "4/3"
+      ],
+      "answer": 0,
+      "explanation": "In any right triangle where C = 90°, angles A and B are complementary (A + B = 90°). By the cofunction identity, sin(A) = cos(90° - A) = cos(B). Since sin(A) = 3/5, cos(B) = 3/5.",
+      "citation": "College Board Digital SAT Math Specification — Trigonometry & Complementary Angles"
+    },
+    {
+      "id": "sat-math-012",
+      "type": "mcq",
+      "subtopic": "Circle Equation in Standard Form (Geometry)",
+      "difficulty": "Hard",
+      "question": "In the xy-plane, the graph of x^2 + y^2 - 6x + 8y = 11 is a circle. What is the radius of this circle?",
+      "options": [
+        "6",
+        "11",
+        "36",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Complete the square: (x^2 - 6x + 9) + (y^2 + 8y + 16) = 11 + 9 + 16 -> (x - 3)^2 + (y + 4)^2 = 36. In standard form (x - h)^2 + (y - k)^2 = r^2, r^2 = 36, so radius r = 6.",
+      "citation": "College Board Digital SAT Math Specification — Circles in the Coordinate Plane"
+    },
+    {
+      "id": "sat-math-013",
+      "type": "mcq",
+      "subtopic": "Exponential Growth Functions (Advanced Math)",
+      "difficulty": "Medium",
+      "question": "A colony of bacteria begins with an initial population of 500 and doubles every 3 hours. Which function P(t) models the population after t hours?",
+      "options": [
+        "P(t) = 500 * (2)^(t/3)",
+        "P(t) = 500 * (3)^(t/2)",
+        "P(t) = 500 + 2t/3",
+        "P(t) = 500 * (2)^(3t)"
+      ],
+      "answer": 0,
+      "explanation": "The standard exponential growth model is P(t) = P_0 * (growth factor)^(t / doubling period). Here P_0 = 500, growth factor = 2, and period = 3 hours, giving P(t) = 500 * (2)^(t/3).",
+      "citation": "College Board Digital SAT Math Specification — Non-linear Functions"
+    },
+    {
+      "id": "sat-math-014",
+      "type": "mcq",
+      "subtopic": "Arc Length & Radians (Geometry)",
+      "difficulty": "Medium",
+      "question": "A circle with radius 12 cm has a central angle measuring (5*pi/6) radians. What is the length of the intercepted arc?",
+      "options": [
+        "10*pi cm",
+        "5*pi cm",
+        "12*pi cm",
+        "20*pi cm"
+      ],
+      "answer": 0,
+      "explanation": "Arc length s = r * theta (when theta is in radians). Here r = 12 cm and theta = 5*pi/6. Thus s = 12 * (5*pi / 6) = 2 * 5*pi = 10*pi cm.",
+      "citation": "College Board Digital SAT Math Specification — Radians and Arc Length"
+    },
+    {
+      "id": "sat-math-015",
+      "type": "mcq",
+      "subtopic": "Rational Equations (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "If (2 / x) + (3 / (2x)) = 7/8, what is the value of x?",
+      "options": [
+        "4",
+        "2",
+        "6",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Find common denominator on the left: (4 / 2x) + (3 / 2x) = 7 / 2x. Set equal to 7/8: 7 / 2x = 7 / 8. Cross-multiplying: 7(8) = 7(2x) -> 56 = 14x -> x = 4.",
+      "citation": "College Board Digital SAT Math Specification — Rational Expressions"
+    },
+    {
+      "id": "sat-math-016",
+      "type": "mcq",
+      "subtopic": "Linear Inequalities in Two Variables (Algebra)",
+      "difficulty": "Medium",
+      "question": "Which of the following points (x, y) lies in the solution set of the system of inequalities y > 2x - 4 and y < -x + 3?",
+      "options": [
+        "(0, 1)",
+        "(2, 5)",
+        "(4, -2)",
+        "(-1, -7)"
+      ],
+      "answer": 0,
+      "explanation": "Test point (0, 1): For inequality 1: 1 > 2(0) - 4 -> 1 > -4 (True). For inequality 2: 1 < -(0) + 3 -> 1 < 3 (True). Both inequalities are satisfied, so (0, 1) lies in the solution set.",
+      "citation": "College Board Digital SAT Math Specification — Systems of Inequalities"
+    },
+    {
+      "id": "sat-math-017",
+      "type": "mcq",
+      "subtopic": "Volume & Dimensional Geometry (Geometry)",
+      "difficulty": "Medium",
+      "question": "A right circular cylinder has a radius of 4 inches and a height of 9 inches. What is the volume of the cylinder in terms of pi?",
+      "options": [
+        "144*pi cubic inches",
+        "72*pi cubic inches",
+        "36*pi cubic inches",
+        "288*pi cubic inches"
+      ],
+      "answer": 0,
+      "explanation": "Volume of a cylinder V = pi * r^2 * h. Here r = 4 and h = 9: V = pi * (4^2) * 9 = pi * 16 * 9 = 144*pi cubic inches.",
+      "citation": "College Board Digital SAT Math Specification — 3D Geometry and Volume"
+    },
+    {
+      "id": "sat-math-018",
+      "type": "mcq",
+      "subtopic": "Conditional Probability (Data Analysis)",
+      "difficulty": "Hard",
+      "question": "In a survey of 100 high school students, 60 participate in athletics, 40 participate in music, and 20 participate in both. If a student who participates in athletics is selected at random, what is the probability that this student also participates in music?",
+      "options": [
+        "1/3",
+        "1/2",
+        "1/5",
+        "2/3"
+      ],
+      "answer": 0,
+      "explanation": "This is conditional probability P(Music | Athletics) = P(Athletics and Music) / P(Athletics) = 20 / 60 = 1/3.",
+      "citation": "College Board Digital SAT Math Specification — Probability & Relative Frequencies"
+    },
+    {
+      "id": "sat-math-019",
+      "type": "mcq",
+      "subtopic": "Complex Polynomial Factors (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "If (x - 2) is a factor of the polynomial P(x) = x^3 - 3x^2 + kx - 6, what is the value of k?",
+      "options": [
+        "5",
+        "2",
+        "-5",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "By the Factor Theorem, if (x - 2) is a factor, then P(2) = 0. P(2) = (2)^3 - 3(2)^2 + k(2) - 6 = 8 - 12 + 2k - 6 = -10 + 2k = 0 -> 2k = 10 -> k = 5.",
+      "citation": "College Board Digital SAT Math Specification — Remainder and Factor Theorems"
+    },
+    {
+      "id": "sat-math-020",
+      "type": "mcq",
+      "subtopic": "Nonlinear Systems of Equations (Advanced Math)",
+      "difficulty": "Hard",
+      "question": "At how many points do the graphs of y = x^2 - 4x + 3 and y = 2x - 6 intersect in the xy-plane?",
+      "options": [
+        "Exactly 1 point (the line is tangent to the parabola)",
+        "Exactly 2 distinct points",
+        "0 points (they do not intersect)",
+        "Infinitely many points"
+      ],
+      "answer": 0,
+      "explanation": "Set the equations equal: x^2 - 4x + 3 = 2x - 6 -> x^2 - 6x + 9 = 0 -> (x - 3)^2 = 0 -> x = 3. Since there is exactly one real root, the line intersects the parabola at exactly one tangent point: (3, 0).",
+      "citation": "College Board Digital SAT Math Specification — Nonlinear Systems"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+#!/usr/bin/env python3
+"""
+Generates authentic IELTS Academic Reading question set for the Global Portal:
+data/global/ielts/ielts_reading_set1.json (20 Questions)
+Aligned with Cambridge IELTS Academic Standard (Band 7.0–9.0).
+"""
+
+import json, os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+GLOBAL_DATA_DIR = os.path.join(BASE_DIR, "data", "global", "ielts")
+os.makedirs(GLOBAL_DATA_DIR, exist_ok=True)
+
+ielts_questions = [
+  {
+    "id": "ielts-read-001",
+    "type": "mcq",
+    "subtopic": "True / False / Not Given (Passage 1: Urban Architecture)",
+    "difficulty": "Medium",
+    "question": "Passage Statement: 'Biophilic architecture integrates natural lighting, living foliage, and natural ventilation systems into high-density commercial towers to counteract sensory fatigue in office workers.'\n\nQuestion: Does biophilic architecture incorporate living plants into tower designs to reduce mental exhaustion among office occupants?",
+    "options": [
+      "TRUE (The statement agrees with the information in the text)",
+      "FALSE (The statement contradicts the information in the text)",
+      "NOT GIVEN (There is no information on this in the text)",
+      "INSUFFICIENT DATA"
+    ],
+    "answer": 0,
+    "explanation": "The text states that biophilic architecture incorporates 'living foliage' (living plants) to 'counteract sensory fatigue in office workers' (reduce mental exhaustion). The assertion is directly supported: TRUE.",
+    "citation": "Cambridge IELTS Academic Reading — Question Type: True/False/Not Given"
+  },
+  {
+    "id": "ielts-read-002",
+    "type": "mcq",
+    "subtopic": "True / False / Not Given (Passage 1: Urban Architecture)",
+    "difficulty": "Medium",
+    "question": "Passage Statement: 'Early architectural experiments in vertical forests began in Milan in 2014, requiring specialized crane systems for seasonal arborist maintenance.'\n\nQuestion: Vertical forest towers were cheaper to maintain than traditional glass-clad skyscrapers.",
+    "options": [
+      "NOT GIVEN (The text does not state or compare the financial maintenance costs against traditional glass skyscrapers)",
+      "TRUE (The statement agrees with the text)",
+      "FALSE (The statement directly contradicts the text)",
+      "CANNOT BE DETERMINED"
+    ],
+    "answer": 0,
+    "explanation": "The passage mentions that specialized crane systems were needed for maintenance, but never discusses or compares the overall financial cost against traditional glass skyscrapers. Hence, it is NOT GIVEN.",
+    "citation": "Cambridge IELTS Academic Reading — Question Type: True/False/Not Given"
+  },
+  {
+    "id": "ielts-read-003",
+    "type": "mcq",
+    "subtopic": "Matching Headings (Passage 2: Marine Cetacean Acoustics)",
+    "difficulty": "Hard",
+    "question": "Paragraph: 'Baleen whales produce low-frequency infrasonic vocalisations capable of travelling thousands of kilometres through oceanic deep-sound channels. However, the relentless proliferation of commercial container shipping, seismic oil exploration, and naval sonar has elevated baseline ambient marine noise by over ten decibels across temperate oceans, severely shrinking the effective communication distance of mating pairs.'\n\nWhich heading best encapsulates the central theme of this paragraph?",
+    "options": [
+      "Anthropogenic noise pollution disrupting long-distance marine vocal networks",
+      "Evolutionary advantages of infrasonic communication in baleen calves",
+      "Technological breakthroughs in satellite monitoring of commercial shipping lanes",
+      "The global distribution of offshore petroleum seismic exploration"
+    ],
+    "answer": 0,
+    "explanation": "The paragraph explains that whale sounds travel long distances, but human activity (shipping, exploration, sonar) has increased ambient noise and reduced their communication distance. 'Anthropogenic noise pollution disrupting long-distance marine vocal networks' captures this main idea precisely.",
+    "citation": "Cambridge IELTS Academic Reading — Question Type: Matching Headings"
+  },
+  {
+    "id": "ielts-read-004",
+    "type": "mcq",
+    "subtopic": "Vocabulary in Context (Lexical Resource)",
+    "difficulty": "Medium",
+    "question": "Passage Sentence: 'The sudden influx of cheap synthetic textiles proved **detrimental** to regional cottage weavers who could not match automated mass-production prices.'\n\nIn this context, the word 'detrimental' is closest in meaning to:",
+    "options": ["Damaging or harmful", "Lucrative or profitable", "Negligible or imperceptible", "Inconsequential"],
+    "answer": 0,
+    "explanation": "'Detrimental' means causing damage or injury. The context shows regional weavers suffered economic loss and could not compete with factory prices, meaning the impact was damaging and harmful.",
+    "citation": "Cambridge IELTS Academic Reading — Lexical Resource: Band 8+ Vocabulary"
+  },
+  {
+    "id": "ielts-read-005",
+    "type": "mcq",
+    "subtopic": "Summary Completion (Passage 3: Renewable Energy Grids)",
+    "difficulty": "Medium",
+    "question": "Passage: 'Unlike coal-fired thermal generators which provide steady baseload power, photovoltaic and wind generation are inherently intermittent. To prevent severe grid frequency fluctuations when clouds pass or wind gusts subside, power utilities are installing massive utility-scale lithium iron phosphate (LFP) battery reserves alongside pumped-storage hydroelectric dams.'\n\nComplete the summary: Electrical utilities deploy large-scale energy storage solutions primarily to mitigate the _______ of renewable generation.",
+    "options": ["Intermittent and volatile nature", "Astronomical construction costs", "Low public acceptance", "Chemical toxic emissions"],
+    "answer": 0,
+    "explanation": "The passage identifies the core problem as solar and wind being 'inherently intermittent' (fluctuating with clouds and wind), which battery and pumped-hydro storage solve.",
+    "citation": "Cambridge IELTS Academic Reading — Summary Completion"
+  },
+  {
+    "id": "ielts-read-006",
+    "type": "mcq",
+    "subtopic": "Multiple Choice: Author's Claim",
+    "difficulty": "Hard",
+    "question": "Passage: 'While techno-optimists claim that artificial intelligence will eliminate all clerical labor within a decade, historical precedents like the advent of the spreadsheet in the 1980s suggest a more nuanced outcome. Rather than wiping out accountants, spreadsheet software reduced mundane calculation costs, which actually expanded the demand for strategic financial advisory services.'\n\nWhat is the author's primary perspective on the employment impact of AI?",
+    "options": [
+      "Technological automation often shifts workers from repetitive tasks to higher-level analytical roles rather than simply eradicating employment entirely",
+      "Computer spreadsheets were more disruptive to white-collar jobs than modern artificial intelligence",
+      "Artificial intelligence will cause catastrophic permanent unemployment across all sectors",
+      "Accountants in the 1980s actively protested against computerized calculations"
+    ],
+    "answer": 0,
+    "explanation": "The author cites the spreadsheet analogy to argue that automation reduces mundane costs while creating new demand for higher-level strategic roles, rejecting the apocalyptic zero-sum view.",
+    "citation": "Cambridge IELTS Academic Reading — Identifying Writer's Views / Claims"
+  },
+  {
+    "id": "ielts-read-007",
+    "type": "mcq",
+    "subtopic": "Sentence Completion (Passage 4: Cognitive Neuroscience)",
+    "difficulty": "Medium",
+    "question": "Passage: 'During slow-wave non-REM sleep, the brain activates the glymphatic system, a convective waste clearance mechanism that flushes cerebrospinal fluid through brain tissue to clear metabolic debris, including toxic beta-amyloid proteins implicated in neurodegenerative diseases.'\n\nQuestion: The glymphatic system cleanses brain tissue primarily during _______.",
+    "options": [
+      "Slow-wave non-REM sleep stages",
+      "Intense physical cardiovascular exercise",
+      "Rapid eye movement (REM) dreaming sleep",
+      "Prolonged periods of daytime fasting"
+    ],
+    "answer": 0,
+    "explanation": "The passage explicitly states that the glymphatic convective waste clearance mechanism operates 'During slow-wave non-REM sleep'.",
+    "citation": "Cambridge IELTS Academic Reading — Sentence Completion"
+  },
+  {
+    "id": "ielts-read-008",
+    "type": "mcq",
+    "subtopic": "Yes / No / Not Given (Passage 5: Agricultural Domestication)",
+    "difficulty": "Hard",
+    "question": "Passage Statement: 'Archaeobotanical excavations in the Fertile Crescent indicate that early Neolithic farmers cultivated wild einkorn wheat for several centuries before identifiable morphological genetic mutations—such as non-shattering rachis—became fixed in domesticated populations.'\n\nQuestion: Did the physical traits that distinguish domestic wheat from wild species appear immediately upon initial cultivation?",
+    "options": [
+      "NO (The statement contradicts the writer's assertion that it took centuries for mutations to fix)",
+      "YES (The statement agrees with the writer's assertion)",
+      "NOT GIVEN (The writer does not provide information on this timing)",
+      "INCONCLUSIVE"
+    ],
+    "answer": 0,
+    "explanation": "The passage states that farmers grew wheat 'for several centuries before' genetic traits like non-shattering rachis became fixed. The question asks if they appeared immediately, which directly contradicts the text: NO.",
+    "citation": "Cambridge IELTS Academic Reading — Question Type: Yes/No/Not Given"
+  },
+  {
+    "id": "ielts-read-009",
+    "type": "mcq",
+    "subtopic": "Vocabulary in Context (Lexical Resource)",
+    "difficulty": "Medium",
+    "question": "Passage Sentence: 'The diplomat's speech was remarkably **conciliatory**, explicitly praising the rival nation's humanitarian contributions in an effort to de-escalate simmering border tensions.'\n\nIn this sentence, 'conciliatory' most nearly means:",
+    "options": [
+      "Intended to placate, pacify, or reconcile",
+      "Aggressive and confrontational",
+      "Ambiguous and intentionally misleading",
+      "Boring and repetitive"
+    ],
+    "answer": 0,
+    "explanation": "'Conciliatory' means intended to gain goodwill or reduce hostility. Praising a rival to de-escalate tensions exemplifies a conciliatory posture.",
+    "citation": "Cambridge IELTS Academic Reading — Lexical Resource: Band 8+ Vocabulary"
+  },
+  {
+    "id": "ielts-read-010",
+    "type": "mcq",
+    "subtopic": "Matching Information to Paragraphs",
+    "difficulty": "Hard",
+    "question": "Which paragraph would logically contain information about the 'economic consequences of ocean acidification on commercial shellfish aquaculture'?",
+    "options": [
+      "A section discussing how reduced carbonate ion concentrations impair larval oyster shell formation and diminish hatchery yields for coastal seafood industries",
+      "A section describing satellite tracking of pelagic bluefin tuna migration routes",
+      "A section analyzing deep-sea manganese nodule robotic mining contracts",
+      "A section detailing international maritime piracy laws in the Gulf of Aden"
+    ],
+    "answer": 0,
+    "explanation": "Ocean acidification depletes carbonate ions essential for oyster/clam shells, directly damaging commercial shellfish hatcheries and aquaculture revenue.",
+    "citation": "Cambridge IELTS Academic Reading — Matching Information to Paragraphs"
+  },
+  {
+    "id": "ielts-read-011",
+    "type": "mcq",
+    "subtopic": "Multiple Choice: Main Purpose",
+    "difficulty": "Medium",
+    "question": "Passage: 'For over a millennium, the Polynesians navigated across millions of square kilometers of open Pacific Ocean without magnetic compasses or sextants. By reading swell patterns caused by distant archipelagos, tracking star paths along the celestial horizon, and observing seasonal seabird flight corridors, master navigators reached isolated islands with astonishing precision.'\n\nWhat is the primary function of this passage?",
+    "options": [
+      "To illustrate the sophisticated indigenous empirical knowledge underpinning Polynesian wayfinding",
+      "To argue that magnetic compasses are inferior to celestial astronomy",
+      "To prove that European explorers plagiarized Polynesian oceanic maps",
+      "To catalog all species of pelagic seabirds inhabiting the central Pacific"
+    ],
+    "answer": 0,
+    "explanation": "The passage details the complex empirical techniques (wave swells, star paths, bird migrations) used to traverse the Pacific, highlighting their sophisticated wayfinding expertise.",
+    "citation": "Cambridge IELTS Academic Reading — Identifying Author's Purpose"
+  },
+  {
+    "id": "ielts-read-012",
+    "type": "mcq",
+    "subtopic": "True / False / Not Given (Passage 6: Linguistic Evolution)",
+    "difficulty": "Medium",
+    "question": "Passage Statement: 'Glottochronology attempts to estimate the chronological point at which two related languages diverged from a common ancestral proto-language by calculating the percentage of conserved core cognates.'\n\nQuestion: Glottochronology relies on lexical comparisons of core vocabulary words across related languages.",
+    "options": [
+      "TRUE (The statement agrees with the information in the text)",
+      "FALSE (The statement contradicts the information in the text)",
+      "NOT GIVEN (There is no mention of vocabulary words in the text)",
+      "INCORRECT"
+    ],
+    "answer": 0,
+    "explanation": "'Cognates' are words derived from a common ancestral language (lexical items). Calculating the percentage of conserved core cognates is comparing core vocabulary words: TRUE.",
+    "citation": "Cambridge IELTS Academic Reading — True/False/Not Given"
+  },
+  {
+    "id": "ielts-read-013",
+    "type": "mcq",
+    "subtopic": "Vocabulary in Context (Lexical Resource)",
+    "difficulty": "Hard",
+    "question": "Passage Sentence: 'The volcanic eruption spewed copious volumes of sulfur aerosols into the stratosphere, causing an **ephemeral** cooling effect that dissipated within three calendar years.'\n\nWhat is the precise meaning of 'ephemeral'?",
+    "options": [
+      "Lasting for a very short duration; transient",
+      "Permanent and irreversible",
+      "Catastrophic and apocalyptic",
+      "Artificially engineered"
+    ],
+    "answer": 0,
+    "explanation": "'Ephemeral' means lasting for a very short time. The sentence states the cooling effect 'dissipated within three calendar years', indicating its transient, temporary nature.",
+    "citation": "Cambridge IELTS Academic Reading — Lexical Resource: Band 8+ Vocabulary"
+  },
+  {
+    "id": "ielts-read-014",
+    "type": "mcq",
+    "subtopic": "Matching Features (Scientific Theories)",
+    "difficulty": "Hard",
+    "question": "Match the biological mechanism with its correct description:\n(1) Symbiogenesis (Endosymbiotic Theory)\n\nDescription:",
+    "options": [
+      "Mitochondria and chloroplasts originated as free-living prokaryotes engulfed by ancestral eukaryotic host cells",
+      "Species evolve exclusively through gradual accumulative point mutations in non-coding DNA",
+      "Genetic drift occurs only in catastrophic population bottlenecks in isolated islands",
+      "Organisms inherit physical traits acquired through voluntary exercise during their adult lifespan"
+    ],
+    "answer": 0,
+    "explanation": "Lynn Margulis's endosymbiotic theory (symbiogenesis) posited that eukaryotic organelles (mitochondria and chloroplasts) evolved from symbiotic engulfed prokaryotes.",
+    "citation": "Cambridge IELTS Academic Reading — Matching Features"
+  },
+  {
+    "id": "ielts-read-015",
+    "type": "mcq",
+    "subtopic": "Sentence Completion (Passage 7: Urban Heat Island)",
+    "difficulty": "Medium",
+    "question": "Passage: 'Urban Heat Island (UHI) intensity is exacerbated by dark impermeable pavements and dark roofing materials which possess a low albedo, absorbing solar thermal radiation during peak daytime hours and re-radiating it as infrared heat into nocturnal urban street canyons.'\n\nQuestion: Pavements with low albedo intensify urban heat because they _______.",
+    "options": [
+      "Absorb high amounts of solar radiation and release it as infrared heat at night",
+      "Reflect 90% of incoming sunlight back into outer space",
+      "Evaporate large volumes of underground groundwater into the air",
+      "Generate electrical static charges that block coastal breezes"
+    ],
+    "answer": 0,
+    "explanation": "The text states that materials with low albedo absorb solar thermal radiation during the day and re-radiate it as infrared heat during the night into urban streets.",
+    "citation": "Cambridge IELTS Academic Reading — Sentence Completion"
+  },
+  {
+    "id": "ielts-read-016",
+    "type": "mcq",
+    "subtopic": "Multiple Choice: Inference",
+    "difficulty": "Hard",
+    "question": "Passage: 'Unlike commercial antibiotics which target general bacterial metabolic pathways and inadvertently eradicate beneficial gut microbiota, bacteriophage therapy employs highly specific viruses that infect and lyse only targeted pathogenic strains, leaving surrounding commensal bacteria intact.'\n\nIt can be inferred from the passage that bacteriophage therapy offers which significant clinical advantage over broad-spectrum antibiotics?",
+    "options": [
+      "It minimizes disruptive collateral damage to the patient's healthy microbiome",
+      "It can be produced at zero monetary cost using common household tap water",
+      "It completely eliminates the human immune system's need to produce white blood cells",
+      "It cures viral infections like influenza more effectively than bacterial infections"
+    ],
+    "answer": 0,
+    "explanation": "Broad-spectrum antibiotics kill beneficial gut bacteria; phages target only specific pathogens while leaving commensal bacteria intact, thus preserving microbiome health.",
+    "citation": "Cambridge IELTS Academic Reading — Making Inferences"
+  },
+  {
+    "id": "ielts-read-017",
+    "type": "mcq",
+    "subtopic": "True / False / Not Given (Passage 8: Medieval Trade Guilds)",
+    "difficulty": "Medium",
+    "question": "Passage Statement: 'Medieval craft guilds established stringent apprentice indentures to maintain workmanship quality standards, but in doing so, they enforced monopolistic price controls that prohibited non-guild artisans from selling goods within city walls.'\n\nQuestion: Medieval guild regulations prevented independent craftsman outside the guild from engaging in urban trade.",
+    "options": [
+      "TRUE (The statement matches the information in the text)",
+      "FALSE (The statement contradicts the information in the text)",
+      "NOT GIVEN (The text does not mention non-guild craftsmen)",
+      "UNVERIFIABLE"
+    ],
+    "answer": 0,
+    "explanation": "The passage states that guilds 'prohibited non-guild artisans from selling goods within city walls', which means non-guild artisans were barred from urban trade: TRUE.",
+    "citation": "Cambridge IELTS Academic Reading — True/False/Not Given"
+  },
+  {
+    "id": "ielts-read-018",
+    "type": "mcq",
+    "subtopic": "Vocabulary in Context (Lexical Resource)",
+    "difficulty": "Medium",
+    "question": "Passage Sentence: 'The board members were initially skeptical of the merger, but the chief executive presented an **unassailable** quantitative audit demonstrating undeniable cost synergies.'\n\nIn this context, 'unassailable' means:",
+    "options": [
+      "Impossible to dispute or disprove; impregnable",
+      "Fictitious and fraudulent",
+      "Hastily assembled and incomplete",
+      "Open to widespread criticism"
+    ],
+    "answer": 0,
+    "explanation": "'Unassailable' means unable to be attacked, questioned, or defeated. An unassailable audit is one that is so rigorous and factual that it cannot be refuted.",
+    "citation": "Cambridge IELTS Academic Reading — Lexical Resource: Band 8+ Vocabulary"
+  },
+  {
+    "id": "ielts-read-019",
+    "type": "mcq",
+    "subtopic": "Summary Completion (Passage 9: Glaciology)",
+    "difficulty": "Hard",
+    "question": "Passage: 'As polar ice sheets retreat, underlying landmasses experience post-glacial rebound (isostatic adjustment), gradually rising as the enormous gravitational weight of thousands of meters of ice is removed over millenary timescales.'\n\nComplete the summary: Isostatic adjustment refers to the gradual _______ of continental crust following the deglaciation of massive ice sheets.",
+    "options": [
+      "Uplift or elevation",
+      "Subsidence or sinking",
+      "Subduction into tectonic trenches",
+      "Volcanic liquefaction"
+    ],
+    "answer": 0,
+    "explanation": "The passage describes the landmasses 'gradually rising' as ice weight is removed; 'uplift or elevation' accurately completes the geological summary.",
+    "citation": "Cambridge IELTS Academic Reading — Summary Completion"
+  },
+  {
+    "id": "ielts-read-020",
+    "type": "mcq",
+    "subtopic": "Multiple Choice: Writer's Tone",
+    "difficulty": "Medium",
+    "question": "Passage: 'To assume that technological geoengineering alone can reverse climate breakdown without urgent decarbonization is akin to treating severe internal hemorrhage with a cosmetic adhesive bandage.'\n\nWhich adjective best characterizes the writer's attitude toward relying exclusively on geoengineering?",
+    "options": [
+      "Critical and dismissive",
+      "Enthusiastic and supportive",
+      "Completely neutral and detached",
+      "Ambivalent and indecisive"
+    ],
+    "answer": 0,
+    "explanation": "Comparing geoengineering alone to using a tiny bandage for internal bleeding is a vivid, scathing analogy expressing a strongly critical and dismissive perspective.",
+    "citation": "Cambridge IELTS Academic Reading — Tone and Attitude Analysis"
+  }
+]
+
+with open(os.path.join(GLOBAL_DATA_DIR, "ielts_reading_set1.json"), "w", encoding="utf-8") as f:
+    json.dump({"questions": ielts_questions}, f, indent=2, ensure_ascii=False)
+
+print("Generated IELTS Academic Reading Set 1 (20 Qs) successfully!")
