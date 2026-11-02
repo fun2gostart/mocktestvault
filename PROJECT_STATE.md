@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 101 Production Routes | 4,070+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 5 Legal Trust Hubs  
+> **Current Scale:** 105 Production Routes | 4,310+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 5 Legal Trust Hubs  
 
 ---
 
@@ -78,11 +78,17 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
   * *Political Science:* Ch 13 (Power Sharing), Ch 14 (Federalism), Ch 15 (Gender, Religion & Caste), Ch 16 (Political Parties), Ch 17 (Outcomes of Democracy).
   * *Economics:* Ch 18 (Development), Ch 19 (Sectors of Indian Economy), Ch 20 (Money & Credit), Ch 21 (Globalisation & Indian Economy).
 
-### B. Competitive & Standardized Simulators (620 Questions Live)
+* **CBSE Class 10 Full 80-Mark Board Mock Papers (3 Papers, 240 Questions across 4 Production Routes):**
+  * Dedicated Portal: [`cbse-class-10/sample-papers/index.html`](https://mocktestvault.com/cbse-class-10/sample-papers/)
+  * Class 10 Science Full 80-Mark Paper 01 (80 Qs, 180 Mins: Chem, Bio, Phy, Env: `cbse-class-10/sample-papers/science-board-mock-01.html`)
+  * Class 10 Mathematics Standard & Basic Full 80-Mark Paper 01 (80 Qs, 180 Mins: Algebra, Geometry, Trig, Stats: `cbse-class-10/sample-papers/mathematics-board-mock-01.html`)
+  * Class 10 Social Science Full 80-Mark Paper 01 (80 Qs, 180 Mins: History, Geography, Civics, Economics: `cbse-class-10/sample-papers/social-science-board-mock-01.html`)
+
+### B. Competitive & Standardized Simulators (800 Questions Live)
 * **Staff Selection Commission (SSC CGL Tier 1 — 200 Questions):**
   * Full Mock 01 (100 Questions, 60 Mins, 4 Sections, TCS iON Palette)
   * 4 Sectional Speed Drills: Reasoning (25 Qs), Quant (25 Qs), English (25 Qs), General Awareness (25 Qs)
-* **United States Pillar (400 Questions across 24 Production Routes — 100 Questions Per Exam + 4 Dedicated Random Mocks):**
+* **United States Pillar (500 Questions across 30 Production Routes — 100 Questions Per Exam + 5 Dedicated Random Mocks):**
   * **Digital SAT® Math (100 Questions — 5 Modules + Dynamic Random Mock, 32 Mins each, Desmos methods):**
     * Module 01: Core Diagnostic (`sat/math-practice-01.html`)
     * Module 02: Algebra & Functions (`sat/math-practice-02.html`)
@@ -205,9 +211,9 @@ In direct alignment with Google AdSense Publisher Policies, Quality Rater Guidel
    * GRE® Verbal Reasoning Multi-Blank Drill 01.
    * TOEFL® iBT Academic Reading Diagnostic 01.
 3. **India Pillar (+8 to 10 Pages):**
+   * ✅ CBSE Class 10 Full 80-Mark Board Mock Papers (Science, Mathematics, Social Science live across 4 routes).
    * SSC CGL Tier 1 Full-Length 100-Q Mocks 02 & 03.
    * SSC CGL Sectional Drills Batch 02 (Reasoning 02, Quant 02, English 02, GA 02).
-   * CBSE Class 10 Full 80-Mark Board Mock Papers (Science, Math, SST).
 
 ---
 

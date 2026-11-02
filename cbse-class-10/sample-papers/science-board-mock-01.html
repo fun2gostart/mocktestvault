@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 10 Science Official 80-Mark Board Mock Paper 01 | MockTestVault</title>
+  <meta name="description" content="Free 80-question full-syllabus CBSE Class 10 Science Board Mock Paper with 3-hour timer, Chemistry, Biology & Physics section tabs, instant NCERT rationales, and printable PDF sheet.">
+
+  <link rel="stylesheet" href="../../css/test-engine.css">
+
+  <style>
+    .cgl-section-tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 16px;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-color);
+    }
+    .cgl-sec-btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-subtle);
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .cgl-sec-btn:hover {
+      background: var(--primary-light);
+      border-color: var(--primary-border);
+      color: var(--primary);
+    }
+    .cgl-sec-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    .cgl-sec-badge {
+      font-size: 0.72rem;
+      padding: 2px 6px;
+      border-radius: 9999px;
+      background: rgba(0, 0, 0, 0.15);
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "CBSE Class 10 Science Official 80-Mark Board Mock Paper 01",
+    "description": "Free 80-question full-syllabus CBSE Class 10 Science Board Mock Paper with 3-hour timer, Chemistry, Biology & Physics section tabs, instant NCERT rationales, and printable PDF sheet.",
+    "educationalLevel": "Grade 10 / Secondary School Examination",
+    "learningResourceType": "Full Mock Exam",
+    "provider": {
+      "@type": "Organization",
+      "name": "MockTestVault",
+      "url": "https://mocktestvault.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Print Only Header -->
+  <div class="print-only-header">
+    <h1>MockTestVault — CBSE Class 10 Science Official 80-Mark Board Mock Paper 01</h1>
+    <p>Full Syllabus 80-Question Solved Examination (Code 086) | 80 Marks • 180 Mins | mocktestvault.com</p>
+  </div>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../index.html" class="brand-link">
+        <div class="brand-logo">🧪</div>
+        <div class="brand-text">
+          <h1>MockTestVault <span class="vault-pill">CBSE Class 10</span></h1>
+          <p>Science Full 80-Mark Board Exam Simulator</p>
+        </div>
+      </a>
+
+      <div class="header-controls">
+        <div class="mode-pill-group" role="group" aria-label="Test Mode Selection">
+          <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant step-by-step NCERT rationales">
+            <span>🎓</span> Practice
+          </button>
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Official 3-Hour Board Simulation">
+            <span>⏱️</span> Exam
+          </button>
+        </div>
+
+        <div style="display:flex; gap:6px;">
+          <button id="btn-font-dec" class="tool-btn" title="Decrease Font Size">A-</button>
+          <button id="btn-font-inc" class="tool-btn" title="Increase Font Size">A+</button>
+          <button id="btn-sound-toggle" class="tool-btn" title="Toggle Sound Feedback">🔊</button>
+          <button id="btn-fullscreen-toggle" class="tool-btn" title="Toggle Fullscreen Focus">⛶</button>
+        </div>
+
+        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+    <div class="breadcrumb-container">
+      <a href="../../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../../in/index.html">India Exam Vault</a>
+      <span class="sep">/</span>
+      <a href="../index.html">CBSE Class 10</a>
+      <span class="sep">/</span>
+      <a href="index.html">Sample Papers</a>
+      <span class="sep">/</span>
+      <span class="current">Science 80-Mark Mock 01</span>
+    </div>
+  </nav>
+
+  <!-- Section Tabs Bar -->
+  <div class="cgl-section-tabs" role="tablist" aria-label="Examination Syllabus Sections">
+    <button class="cgl-sec-btn active" data-start="0" data-end="24" onclick="jumpToSection(0, this)"><span>🧪 Sec A: Chemistry</span> <span class="cgl-sec-badge">Q 1–25</span></button>
+    <button class="cgl-sec-btn" data-start="25" data-end="52" onclick="jumpToSection(25, this)"><span>🧬 Sec B: Biology</span> <span class="cgl-sec-badge">Q 26–53</span></button>
+    <button class="cgl-sec-btn" data-start="53" data-end="75" onclick="jumpToSection(53, this)"><span>⚡ Sec C: Physics</span> <span class="cgl-sec-badge">Q 54–76</span></button>
+    <button class="cgl-sec-btn" data-start="76" data-end="79" onclick="jumpToSection(76, this)"><span>🌿 Sec D: Environment</span> <span class="cgl-sec-badge">Q 77–80</span></button>
+  </div>
+
+  <!-- Exam Live Status Bar -->
+  <div id="exam-status-bar" class="exam-status-bar">
+    <div class="status-container">
+      <div id="timer-box" class="timer-box">
+        <span>⏱️</span>
+        <span id="timer-display">180:00</span>
+      </div>
+
+      <div class="progress-info">
+        <span id="progress-text" class="progress-text">Loading CBSE Class 10 Science Paper...</span>
+        <div class="progress-bar-track">
+          <div id="progress-bar-fill" class="progress-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Split Layout -->
+  <main class="test-layout" id="test-layout">
+    
+    <!-- Question Card -->
+    <section class="question-card" id="question-card" aria-label="Active Board Question">
+      <div class="meta-badges-row" id="q-badges">
+        <span class="badge badge-chapter">CBSE Class 10 Science</span>
+        <span class="badge badge-subtopic" id="q-subtopic-badge">Board Syllabus</span>
+        <span class="badge badge-subtopic" id="q-diff-badge">Standard</span>
+      </div>
+
+      <div class="question-text-box">
+        <div class="question-number" id="q-number">Question 1 of 80</div>
+        <div class="question-title" id="q-title">Loading question...</div>
+      </div>
+
+      <!-- Interactive Options -->
+      <div class="options-list" id="options-list" role="radiogroup" aria-label="Answer Options"></div>
+
+      <!-- Explanation Box -->
+      <div class="explanation-box" id="explanation-box" style="display:none;">
+        <div class="explanation-header">
+          <span>💡 NCERT Step-by-Step Conceptual Rationale</span>
+          <span class="citation-tag" id="citation-tag">Official NCERT Class 10 Textbook</span>
+        </div>
+        <p class="explanation-text" id="explanation-text"></p>
+      </div>
+
+      <!-- Action Buttons Row -->
+      <div class="card-action-bar">
+        <button id="btn-prev" class="nav-btn" disabled>
+          <span>⬅️</span> Previous
+        </button>
+
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <button id="btn-review" class="nav-btn btn-review" title="Flag question to review later">
+            <span>🚩</span> Mark for Review
+          </button>
+          <button id="btn-clear" class="nav-btn" title="Clear chosen answer option">
+            <span>🧹</span> Clear Choice
+          </button>
+        </div>
+
+        <div style="display:flex; gap:10px;">
+          <button id="btn-next" class="nav-btn btn-primary">
+            Next <span>➡️</span>
+          </button>
+          <button id="btn-submit" class="nav-btn btn-submit-test">
+            Submit Test <span>🏁</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CBT Question Palette -->
+    <aside class="palette-card" aria-label="Question Navigation Grid">
+      <div class="palette-title">
+        <span>Question Palette (80 Questions)</span>
+        <span id="palette-summary" style="font-size:0.75rem; color:var(--text-muted); font-weight:normal;">0 / 80 Answered</span>
+      </div>
+
+      <div class="palette-grid" id="palette-grid">
+        <!-- 1 to 80 dynamically populated -->
+      </div>
+
+      <div class="palette-legend">
+        <div class="legend-item">
+          <div class="legend-dot dot-answered"></div>
+          <span>Answered (<strong id="count-answered">0</strong>)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-not-answered"></div>
+          <span>Not Answered (<strong id="count-not-answered">0</strong>)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-reviewed"></div>
+          <span>Marked Review (<strong id="count-reviewed">0</strong>)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-unvisited"></div>
+          <span>Not Visited (<strong id="count-unvisited">80</strong>)</span>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;">
+        <button id="btn-open-submit" class="nav-btn btn-submit-test" style="width:100%; justify-content:center;">
+          <span>🏁</span> Submit Test & View Scorecard
+        </button>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Scorecard View -->
+  <section class="scorecard-view" id="scorecard-view" style="max-width:960px; margin:24px auto; padding:32px 24px;">
+    <div class="score-hero" id="score-hero"></div>
+    <div class="stats-grid" id="stats-grid"></div>
+
+    <div class="scorecard-actions" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin:24px 0;">
+      <button id="btn-retake" class="nav-btn btn-primary">
+        <span>🔄</span> Retake Examination
+      </button>
+      <button id="btn-print" class="nav-btn">
+        <span>🖨️</span> Print / PDF Revision Sheet
+      </button>
+      <a href="mathematics-board-mock-01.html" class="nav-btn" style="text-decoration:none; background:var(--primary); color:#fff;">
+        <span>📐</span> Take Mathematics 80-Mark Mock Paper 01 →
+      </a>
+      <a href="index.html" class="nav-btn" style="text-decoration:none;">
+        <span>📚</span> View All 80-Mark Sample Papers
+      </a>
+    </div>
+
+    <div id="mastery-container"></div>
+
+    <div class="review-filter-bar" style="margin-top:28px;">
+      <div class="filter-pills" role="tablist" style="display:flex; gap:8px; flex-wrap:wrap;">
+        <button class="filter-pill active" data-filter="all" id="filter-all">All (<span id="filter-count-all">80</span>)</button>
+        <button class="filter-pill filter-wrong" data-filter="wrong" id="filter-wrong">❌ Mistakes (<span id="filter-count-wrong">0</span>)</button>
+        <button class="filter-pill filter-reviewed" data-filter="reviewed" id="filter-reviewed">🟣 Review (<span id="filter-count-reviewed">0</span>)</button>
+        <button class="filter-pill filter-correct" data-filter="correct" id="filter-correct">✓ Correct (<span id="filter-count-correct">0</span>)</button>
+      </div>
+    </div>
+
+    <div id="review-list"></div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
+      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official Central Board of Secondary Education (CBSE) Class 10 Examination specifications.</p>
+    </div>
+  </footer>
+
+  <script src="../../js/test-engine.js"></script>
+  <script>
+    function jumpToSection(idx, btn) {
+      if (window.testEngine) {
+        window.testEngine.jumpToQuestion(idx);
+        document.querySelectorAll('.cgl-sec-btn').forEach(b => b.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+      }
+    }
+
+    function syncActiveSection(qIndex) {
+      const tabs = document.querySelectorAll('.cgl-sec-btn');
+      tabs.forEach(tab => {
+        const start = parseInt(tab.getAttribute('data-start') || '0', 10);
+        const end = parseInt(tab.getAttribute('data-end') || '999', 10);
+        if (qIndex >= start && qIndex <= end) {
+          tab.classList.add('active');
+        } else {
+          tab.classList.remove('active');
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      window.testEngine = new MockTestEngine({
+        initialSet: 'set1',
+        timeLimitMinutes: 180,
+        markingScheme: { correct: 1, wrong: 0 },
+        examType: 'board',
+        setSources: {
+          set1: '../../data/in/cbse10/sample-papers/science_board_mock01.json'
+        }
+      });
+      window.testEngine.loadQuestions();
+
+      // Automatically keep the active section tab synchronized
+      const qNumEl = document.getElementById('q-number');
+      if (qNumEl) {
+        const observer = new MutationObserver(() => {
+          if (window.testEngine) {
+            syncActiveSection(window.testEngine.currentIndex);
+          }
+        });
+        observer.observe(qNumEl, { childList: true, characterData: true, subtree: true });
+      }
+    });
+  </script>
+</body>
+</html>
