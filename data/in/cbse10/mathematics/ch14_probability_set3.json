@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The probability of an event E can never be -0.01 or 1.05.\\nReason (R): For any random event E, the number of favourable outcomes m is bounded between 0 and total outcomes n (0 <= m <= n), so 0 <= P(E) <= 1.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Since m is a subset of n, 0 <= m <= n. Dividing by n gives 0 <= P(E) <= 1. Therefore, probability cannot be negative or strictly greater than 1. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): If the probability of raining tomorrow is 0.35, then the probability of not raining tomorrow is 0.65.\\nReason (R): For any event E, E and not E are complementary events and P(E) + P(not E) = 1.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "(A) is false but (R) is true",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "P(not raining) = 1 - P(raining) = 1 - 0.35 = 0.65. Both (A) and (R) are true and (R) is the exact algebraic reasoning for (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): In throwing a die, the probability of getting an odd number is equal to the probability of getting an even number.\\nReason (R): There are 3 odd numbers {1, 3, 5} and 3 even numbers {2, 4, 6} out of 6 equally likely outcomes.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "(A) is true but (R) is false",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "P(odd) = 3/6 = 1/2 and P(even) = 3/6 = 1/2. They are equal because each set contains exactly 3 equally likely outcomes. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 13"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The probability of getting a number 8 in a single throw of a die is 0.\\nReason (R): Number 8 is an impossible event for a standard 6-faced die.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "(A) is false but (R) is true",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "A standard die has faces numbered 1 to 6. Number 8 cannot appear, so favourable outcomes = 0 and P = 0. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): When two dice are thrown together, the minimum possible sum of numbers is 2.\\nReason (R): The minimum number on each die is 1, so the smallest sum is 1 + 1 = 2.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "(A) is true but (R) is false",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Since each die takes values from {1, 2, 3, 4, 5, 6}, the minimum possible sum is 1 + 1 = 2, with outcome (1, 1). Both statements are true and (R) is the correct explanation of (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Hard",
       "question": "Assertion (A): The probability of having 53 Sundays in a leap year is 2/7.\\nReason (R): A leap year has 366 days which contains 52 complete weeks and 2 extra days.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "366 = 52 * 7 + 2. The 2 extra days can form 7 consecutive pairs, out of which 2 pairs contain Sunday: (Saturday, Sunday) and (Sunday, Monday). Hence P = 2/7. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exemplar Problem"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): In geometric probability, the probability of an event is defined as the ratio of the favourable measure (length, area, or volume) to the total measure of the sample space.\\nReason (R): All points in the continuous target region are assumed to be equally likely to be selected.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "(A) is true but (R) is false",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Geometric probability extends classical probability to continuous regions assuming uniform distribution (equally likely points). P(E) = Area(favourable) / Area(total). Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): If an unbiased coin is tossed 10 times and turns up heads 10 times, the 11th toss is more likely to be tails.\\nReason (R): Each toss of a fair coin is an independent event with probability 1/2 for head and 1/2 for tail.",
       "options": [
-        "(A) is false but (R) is true",
         "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is false but (R) is true",
         "(A) is true but (R) is false"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Assertion (A) is FALSE (this is the Gambler's Fallacy). The coin has no memory of past tosses. Reason (R) is TRUE: each coin toss is an independent event with P(head) = P(tail) = 1/2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Medium",
       "question": "Case Study 1 (Continued): In the same lot of 500 bulbs (20 defective, 480 non-defective):\\n\\nQ12: What is the probability that a selected bulb is non-defective (good)?",
       "options": [
-        "24/25",
         "1/25",
         "48/50",
-        "23/25"
+        "23/25",
+        "24/25"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Non-defective bulbs = 500 - 20 = 480. P(good) = 480 / 500 = 24 / 25 = 0.96.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 17"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Hard",
       "question": "Case Study 1 (Continued): Suppose 1 good bulb is tested and found non-defective, and is packed away (not replaced). Now a second bulb is drawn at random from the remaining lot.\\n\\nQ13: What is the probability that the second bulb drawn is defective?",
       "options": [
-        "20/499",
         "19/499",
         "20/500",
+        "20/499",
         "1/25"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "After 1 good bulb is removed without replacement, remaining total bulbs = 499. The number of defective bulbs is still 20. P(second is defective) = 20 / 499.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 17 (Part ii)"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Medium",
       "question": "Case Study 2 (Continued): On the same 12-sector spinner (1 to 12):\\n\\nQ15: What is the probability that the spinner lands on a prime number?",
       "options": [
-        "5/12",
         "1/2",
         "1/3",
-        "7/12"
+        "7/12",
+        "5/12"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Prime numbers between 1 and 12 are: 2, 3, 5, 7, 11 (5 primes; note 1 is neither prime nor composite). Total outcomes = 12. P(prime) = 5/12.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 12"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Hard",
       "question": "Case Study 2 (Continued): After spinning, the player rolls two dice simultaneously. To win extra coins, the sum of the two dice must be greater than 9.\\n\\nQ16: What is the probability that the sum of the two dice is greater than 9?",
       "options": [
-        "1/6",
         "5/36",
+        "1/6",
         "1/4",
         "1/9"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Sums greater than 9 are 10, 11, 12. Sum 10: (4,6), (5,5), (6,4) [3]. Sum 11: (5,6), (6,5) [2]. Sum 12: (6,6) [1]. Total favourable = 3 + 2 + 1 = 6. P(sum > 9) = 6/36 = 1/6.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 22"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Medium",
       "question": "Case Study 3 (Q17-Q18): A magician asks an audience member to pick a card at random from a standard deck of 52 playing cards.\\n\\nQ17: What is the probability that the chosen card is a red card or a king?",
       "options": [
-        "7/13",
         "1/2",
+        "7/13",
         "15/26",
         "8/13"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Number of red cards = 26. Number of kings = 4 (2 red, 2 black). Cards that are red OR kings = 26 red cards + 2 black kings = 28 cards. P = 28/52 = 7/13.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 14"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Hard",
       "question": "Case Study 3 (Continued): If all 4 aces are secretly removed by the magician before the volunteer draws a card from the remaining 48 cards:\\n\\nQ18: What is the probability that the card drawn is a diamond?",
       "options": [
-        "1/4",
         "12/48",
         "13/48",
+        "1/4",
         "3/13"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Originally 13 diamonds including the Ace of Diamonds. After 4 aces (one of which is the Ace of Diamonds) are removed, remaining diamonds = 13 - 1 = 12. Total remaining cards = 52 - 4 = 48. P(diamond) = 12 / 48 = 1/4.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 14"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Medium",
       "question": "Case Study 4 (Q19-Q20): An annual school charity fair sold 1,000 raffle tickets numbered 1 to 1000. Exactly 5 grand prizes and 20 consolation prizes are to be drawn.\\n\\nQ19: What is the probability that a person holding 1 ticket wins ANY prize (grand or consolation)?",
       "options": [
-        "1/40",
         "1/200",
         "1/50",
-        "1/100"
+        "1/100",
+        "1/40"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Total tickets = 1000. Total prize winning tickets = 5 + 20 = 25. P(winning any prize) = 25 / 1000 = 1 / 40 (or 0.025).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exemplar Problem"
     },

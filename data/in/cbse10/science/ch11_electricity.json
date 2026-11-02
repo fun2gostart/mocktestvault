@@ -7,11 +7,11 @@
     "question": "A cylindrical metal wire of resistance R is stretched uniformly until its length is doubled. What will be the new resistance of the stretched wire?",
     "options": [
       "2 R",
-      "4 R",
       "R / 2",
+      "4 R",
       "R / 4"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "When stretched to double length (L' = 2L), its volume (V = A × L) remains constant, so the cross-sectional area halves (A' = A/2). New resistance R' = ρ (L' / A') = ρ (2L / (A/2)) = 4 × (ρL / A) = 4R.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.3 (Example 11.6)"
   },
@@ -38,12 +38,12 @@
     "difficulty": "Medium",
     "question": "According to Joule's law of heating, the heat produced in a resistor is directly proportional to:",
     "options": [
-      "The square of the electric current (I²)",
       "The square root of resistance (√R)",
       "Inversely proportional to time (1/t)",
-      "Inversely proportional to potential difference"
+      "Inversely proportional to potential difference",
+      "The square of the electric current (I²)"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "H = I²Rt. Heat generated in a conductor is directly proportional to: (1) square of current (I²), (2) resistance (R), and (3) time of current flow (t).",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.6"
   },

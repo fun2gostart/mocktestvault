@@ -22,12 +22,12 @@
     "difficulty": "Medium",
     "question": "A pea plant has the heterozygous dihybrid genotype RrYy (Round Yellow). How many genetically distinct types of gametes will it produce, and in what percentage?",
     "options": [
-      "4 types of gametes (RY, Ry, rY, ry) in equal 25% proportions each",
       "2 types of gametes (RY and ry) at 50% each",
       "Only 1 type of gamete (RrYy) at 100%",
+      "4 types of gametes (RY, Ry, rY, ry) in equal 25% proportions each",
       "8 types of gametes in variable percentages"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Because alleles R/r and Y/y assort independently during meiosis, the possible allele combinations in gametes are RY, Ry, rY, and ry, each produced with an equal probability of 1/4 (25%).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   },
@@ -38,12 +38,12 @@
     "difficulty": "Hard",
     "question": "In Mendel's dihybrid cross between Round Yellow (RRYY) and Wrinkled Green (rryy) seeds, what fraction of the total 16 F2 progeny exhibit new recombinant phenotypes (phenotypes different from both original parents)?",
     "options": [
-      "6 / 16 (Round Green + Wrinkled Yellow)",
       "10 / 16",
+      "6 / 16 (Round Green + Wrinkled Yellow)",
       "9 / 16",
       "1 / 16"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Total F2 ratio is 9 Round Yellow (parental) : 3 Round Green (recombinant) : 3 Wrinkled Yellow (recombinant) : 1 Wrinkled Green (parental). The new recombinant phenotypes are 3 + 3 = 6 out of 16 (or 3/8).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   },
@@ -54,12 +54,12 @@
     "difficulty": "Easy",
     "question": "In pea plants, tallness (T) is dominant over shortness (t). Phenotypically, how does a homozygous tall plant (TT) compare visually to a heterozygous tall plant (Tt)?",
     "options": [
-      "They look identical in height because a single dominant 'T' allele is sufficient to express full tallness",
       "TT is twice as tall as Tt",
       "Tt is medium-height (intermediate)",
-      "Tt has short leaves while TT has long leaves"
+      "Tt has short leaves while TT has long leaves",
+      "They look identical in height because a single dominant 'T' allele is sufficient to express full tallness"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "In complete dominance, the presence of one dominant allele (T) produces the identical outward phenotype as two dominant alleles (TT). Thus, TT and Tt plants are indistinguishable in physical height.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2"
   },
@@ -86,12 +86,12 @@
     "difficulty": "Hard",
     "question": "A dwarf pea plant (tt) is short in stature because a mutation in the height gene causes:",
     "options": [
-      "An enzyme involved in plant growth hormone synthesis to be less efficient or non-functional, resulting in insufficient hormone production",
       "Cell walls to become completely impervious to sunlight",
+      "An enzyme involved in plant growth hormone synthesis to be less efficient or non-functional, resulting in insufficient hormone production",
       "Photosynthesis to operate in reverse",
       "The plant to lose all its root hairs"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Genes synthesize enzymes that catalyze biochemical pathways. If the gene has an alteration (mutation), the enzyme synthesized is less efficient, producing less growth hormone (gibberellin), so the plant remains short (dwarf).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   },
@@ -102,12 +102,12 @@
     "difficulty": "Easy",
     "question": "In a normal human skin epithelial cell, how many total autosomes are present?",
     "options": [
-      "44 autosomes (22 pairs)",
       "2 autosomes (1 pair)",
       "23 autosomes",
-      "46 autosomes"
+      "46 autosomes",
+      "44 autosomes (22 pairs)"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Human diploid somatic cells have 46 chromosomes (23 pairs): 22 pairs (44 chromosomes) are autosomes that control general body characteristics, and 1 pair (2 chromosomes) are sex chromosomes.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4"
   },
@@ -118,12 +118,12 @@
     "difficulty": "Hard",
     "question": "In birds, the mechanism of sex determination is ZZ-ZW. Male birds have two identical sex chromosomes (ZZ) and females have two different sex chromosomes (ZW). In birds, which parent determines the sex of the chick?",
     "options": [
-      "The mother (female bird), because female ova carry either a Z or a W chromosome",
       "The father, identical to humans",
       "Environmental nest temperature alone",
+      "The mother (female bird), because female ova carry either a Z or a W chromosome",
       "The first hatched egg in the nest"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "In birds, the female is heterogametic (ZW) producing two types of eggs (50% Z and 50% W), while the male is homogametic (ZZ) producing only Z sperms. Thus, in birds, the female parent determines the sex of the offspring.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4"
   },
@@ -134,12 +134,12 @@
     "difficulty": "Hard",
     "question": "A father has blood group A (genotype Iᴬi) and a mother has blood group B (genotype Iᴮi). What are the possible blood groups of their biological children?",
     "options": [
-      "All four blood groups are possible: A, B, AB, or O (25% chance each)",
       "Only blood group AB",
       "Only blood group A and B",
+      "All four blood groups are possible: A, B, AB, or O (25% chance each)",
       "Only blood group O"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The father produces gametes with Iᴬ and i; the mother produces gametes with Iᴮ and i. The four possible zygotic genotypes are IᴬIᴮ (group AB), Iᴬi (group A), Iᴮi (group B), and ii (group O), each with a 25% statistical probability.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2 (In-text questions)"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Medium",
     "question": "In Figure 8.1 of NCERT showing asexual reproduction over three successive generations, how do variations accumulate over time?",
     "options": [
-      "Each daughter generation inherits all the ancestral variations from previous generations plus new unique mutations created during its own DNA replication",
       "Variations disappear after two generations",
       "All variations revert back to the original ancestor DNA",
-      "Only male offspring inherit variations"
+      "Only male offspring inherit variations",
+      "Each daughter generation inherits all the ancestral variations from previous generations plus new unique mutations created during its own DNA replication"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Diversity arises during asexual reproduction due to minor errors in DNA copying. In the next generation, daughter cells inherit these established differences and accumulate additional new variations, resulting in increasing diversity over generations.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.1 (Figure 8.1: Creation of diversity over succeeding generations)"
   },
@@ -182,12 +182,12 @@
     "difficulty": "Easy",
     "question": "Unlike male sperms which are of two chromosomal types (X or Y), all normal human ova (eggs) produced by a woman are chromosomally:",
     "options": [
-      "Identical: 22 autosomes + one X chromosome (22 + X)",
       "50% carry Y and 50% carry X",
+      "Identical: 22 autosomes + one X chromosome (22 + X)",
       "44 autosomes + XX",
       "De-nucleated with no chromosomes"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Human females have two X chromosomes (XX). During oogenesis meiosis, every ovum receives 22 autosomes and one X chromosome. Females are therefore homogametic.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4"
   },
@@ -198,12 +198,12 @@
     "difficulty": "Medium",
     "question": "How did Mendel establish 'pure-breeding' (true-breeding) lines of pea plants before starting his hybridization crosses?",
     "options": [
-      "By self-pollinating pea plants over several successive generations until offspring showed constant, unvarying trait expression",
       "By irradiating seeds with X-rays",
+      "By self-pollinating pea plants over several successive generations until offspring showed constant, unvarying trait expression",
       "By growing plants in nutrient-free sand",
       "By cross-pollinating with different species"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "A true-breeding line is one that, having undergone continuous self-pollination, shows stable trait inheritance and expression through several generations. This ensured homozygous parental genotypes (TT or tt).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Hard",
     "question": "What is the specific genetic function of the Y chromosome in determining male development in human embryos?",
     "options": [
-      "It carries the SRY gene which triggers the indifferent embryonic gonads to develop into testes instead of ovaries",
       "It manufactures testosterone inside maternal blood",
       "It dissolves the mother's X chromosome",
-      "It prevents the embryo from implanting in the uterus"
+      "It prevents the embryo from implanting in the uterus",
+      "It carries the SRY gene which triggers the indifferent embryonic gonads to develop into testes instead of ovaries"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The human Y chromosome carries the SRY (Sex-determining Region Y) gene. In early embryonic development, the SRY protein acts as a master switch that directs the bipotential gonads to differentiate into testes.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4"
   },
@@ -230,12 +230,12 @@
     "difficulty": "Medium",
     "question": "What does Mendel's First Law (Law of Segregation) state regarding the distribution of alleles into gametes?",
     "options": [
-      "The two alleles of a gene pair separate during gamete formation so that each gamete carries only one allele for that trait",
       "All alleles blend together like mixed paint",
       "Dominant alleles destroy recessive alleles inside gametes",
+      "The two alleles of a gene pair separate during gamete formation so that each gamete carries only one allele for that trait",
       "Alleles cannot separate once brought together"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The Law of Segregation states that during meiosis, the two alleles of each gene locus segregate from each other so that each gamete receives only one allele with equal probability.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2"
   },
@@ -278,12 +278,12 @@
     "difficulty": "Easy",
     "question": "Which seed color in pea plants is dominant, and which is recessive according to Mendel's experiments?",
     "options": [
-      "Yellow seed color is dominant; Green seed color is recessive",
       "Green seed color is dominant; Yellow seed color is recessive",
+      "Yellow seed color is dominant; Green seed color is recessive",
       "Both are codominant yielding striped seeds",
       "Seed color in peas is completely random"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "In garden peas, Yellow seed color (Y) is dominant over Green seed color (y).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   },
@@ -294,12 +294,12 @@
     "difficulty": "Easy",
     "question": "Which seed shape in pea plants is dominant, and which is recessive according to Mendel's experiments?",
     "options": [
-      "Round seed shape is dominant; Wrinkled seed shape is recessive",
       "Wrinkled seed shape is dominant; Round seed shape is recessive",
       "Oval seed shape is dominant over square seeds",
-      "Both round and wrinkled are dominant"
+      "Both round and wrinkled are dominant",
+      "Round seed shape is dominant; Wrinkled seed shape is recessive"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Round seed shape (R) is dominant over Wrinkled seed shape (r).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   },
@@ -310,12 +310,12 @@
     "difficulty": "Hard",
     "question": "A man with blood group A and tall stature marries a woman with blood group O and short stature. The inheritance of blood group and height in their children will be:",
     "options": [
-      "Completely independent of each other because the gene for blood group and the gene for height are located on different chromosomes",
       "Strictly linked so that tall children must always have blood group O",
       "Blended into a single intermediate trait",
+      "Completely independent of each other because the gene for blood group and the gene for height are located on different chromosomes",
       "Expressed only in male children"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Traits governed by genes situated on different chromosomes assort independently during meiosis (Mendel's Law of Independent Assortment). Thus, height and blood group are inherited without influencing each other.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   }

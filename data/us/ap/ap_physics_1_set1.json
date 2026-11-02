@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "A cart moves along a straight horizontal track. Its velocity-time graph is a straight line decreasing from v = +10 m/s at t = 0 to v = -10 m/s at t = 4 s. What is the cart's acceleration?",
       "options": [
-        "-5.0 m/s^2",
         "+5.0 m/s^2",
+        "-5.0 m/s^2",
         "0 m/s^2",
         "-2.5 m/s^2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Acceleration is the slope of the velocity-time graph: a = Δv / Δt = (-10 - 10) / (4 - 0) = -20 / 4 = -5.0 m/s^2.",
       "citation": "College Board AP® Physics 1 CED — Topic 1.2 Representations of Motion"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Medium",
       "question": "A projectile is launched with initial velocity v0 at an angle θ above the horizontal on level ground. Neglecting air resistance, what happens to the projectile's horizontal velocity component during its flight?",
       "options": [
-        "It remains constant at v0 * cos(θ) because there is zero net horizontal force",
         "It decreases to zero at the peak of the trajectory and then increases",
         "It constantly accelerates at 9.8 m/s^2 downward",
-        "It increases continuously until the projectile impacts the ground"
+        "It increases continuously until the projectile impacts the ground",
+        "It remains constant at v0 * cos(θ) because there is zero net horizontal force"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Because air resistance is neglected, gravity acts purely in the vertical direction (ay = -g). There is zero net force horizontally (ax = 0), so horizontal velocity vx = v0 * cos(θ) remains strictly constant throughout flight.",
       "citation": "College Board AP® Physics 1 CED — Topic 1.3 Projectile Motion"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Easy",
       "question": "The Earth exerts an attractive gravitational force of magnitude F_E on the Moon. What gravitational force does the Moon exert on the Earth?",
       "options": [
-        "An equal force of magnitude F_E directed toward the Moon",
         "A much smaller force because the Moon's mass is smaller than Earth's",
         "Zero force because the Earth's gravitational field dominates",
+        "An equal force of magnitude F_E directed toward the Moon",
         "A force that varies inversely with the Moon's orbital period"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "According to Newton's Third Law of Motion, every action force produces an equal and opposite reaction force between the two interacting bodies. Thus, the Moon exerts an identical force F_E on the Earth directed toward the Moon.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.7 Newton's Third Law"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Hard",
       "question": "A crate of mass M rests on a rough inclined ramp. As the ramp's inclination angle θ is gradually increased, the crate begins to slip when θ reaches 30°. What is the coefficient of static friction μ_s between crate and ramp?",
       "options": [
-        "tan(30°) ≈ 0.577",
         "sin(30°) = 0.500",
+        "tan(30°) ≈ 0.577",
         "cos(30°) ≈ 0.866",
         "1 / tan(30°) ≈ 1.732"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "At the threshold of impending slipping: F_gravity_parallel = F_friction_max → M*g*sin(θ) = μ_s * (M*g*cos(θ)). Dividing both sides by M*g*cos(θ) gives μ_s = sin(θ) / cos(θ) = tan(θ). At θ = 30°, μ_s = tan(30°) ≈ 0.577.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.6 Friction"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Medium",
       "question": "A car of mass m rounds an unbanked flat circular curve of radius R at constant speed v. What physical force provides the necessary centripetal acceleration toward the center of the curve?",
       "options": [
-        "The static friction force exerted by the roadway on the car's tires",
         "The kinetic friction force between tires and asphalt",
         "The normal force acting vertically upward from the road",
-        "The centrifugal force pushing outward on the vehicle"
+        "The centrifugal force pushing outward on the vehicle",
+        "The static friction force exerted by the roadway on the car's tires"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "On an unbanked curve, the normal force and gravity act vertically and balance out. The only horizontal force directed toward the center of the circular path is the static friction force between the tire treads and the road surface.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.2 Centripetal Acceleration and Force"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Easy",
       "question": "Two spherical satellites are separated by center-to-center distance r and experience gravitational attraction F. If the separation distance between the satellites is doubled to 2r, what is the new gravitational force?",
       "options": [
-        "F / 4",
         "F / 2",
         "2F",
+        "F / 4",
         "4F"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Newton's Law of Universal Gravitation: F = G * (m1 * m2) / r^2. If r is replaced by 2r: F_new = G * (m1 * m2) / (2r)^2 = F / 4. Gravitational force follows an inverse-square law.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.3 Gravitational Fields"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Hard",
       "question": "A roller coaster car of mass m rolls without friction into a vertical circular loop of radius R. What is the minimum speed the car must have at the top of the loop so it does not lose contact with the track?",
       "options": [
-        "√(g * R)",
         "√(2 * g * R)",
         "√(5 * g * R)",
+        "√(g * R)",
         "g * R"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "At the very top of the loop, the minimum speed occurs when the normal force drops to zero (N = 0). Gravity alone supplies the centripetal force: m*g = m*v^2 / R → g = v^2 / R → v = √(g * R).",
       "citation": "College Board AP® Physics 1 CED — Topic 4.3 Conservation of Energy"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Easy",
       "question": "An electric crane lifts a 500 kg steel girder vertically at a constant speed of 2.0 m/s. Assuming g = 10 m/s^2, what is the power output delivered by the crane motor?",
       "options": [
-        "10,000 W",
         "5,000 W",
+        "10,000 W",
         "1,000 W",
         "20,000 W"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Lifting at constant velocity requires upward force equal to weight: F = m*g = 500 kg * 10 m/s^2 = 5,000 N. Power P = F * v = 5,000 N * 2.0 m/s = 10,000 Watts (10 kW).",
       "citation": "College Board AP® Physics 1 CED — Topic 4.4 Power"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Medium",
       "question": "A 2.0 kg cart traveling to the right at 6.0 m/s collides with and sticks to a stationary 4.0 kg cart on a frictionless track. What is the velocity of the combined carts after the collision?",
       "options": [
-        "2.0 m/s to the right",
         "3.0 m/s to the right",
         "1.0 m/s to the right",
-        "4.0 m/s to the right"
+        "4.0 m/s to the right",
+        "2.0 m/s to the right"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Conservation of linear momentum: m1*v1 + m2*v2 = (m1 + m2)*v_final. (2.0)(6.0) + (4.0)(0) = (2.0 + 4.0)*v_final → 12.0 = 6.0 * v_final → v_final = 2.0 m/s to the right.",
       "citation": "College Board AP® Physics 1 CED — Topic 5.2 Momentum and Impulse"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Medium",
       "question": "A baseball of mass 0.15 kg traveling horizontally at 40 m/s is struck by a bat and rebounds horizontally in the opposite direction at 50 m/s. What is the magnitude of the impulse delivered to the ball?",
       "options": [
-        "13.5 N·s",
         "1.5 N·s",
         "7.5 N·s",
-        "15.0 N·s"
+        "15.0 N·s",
+        "13.5 N·s"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Impulse J = Δp = m * (v_final - v_initial). Setting initial direction as positive (+40 m/s), final velocity is -50 m/s: J = 0.15 * (-50 - 40) = 0.15 * (-90) = -13.5 N·s. The magnitude of the impulse is 13.5 N·s.",
       "citation": "College Board AP® Physics 1 CED — Topic 5.1 Momentum and Impulse"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Easy",
       "question": "Two particles of masses m1 = 1.0 kg and m2 = 3.0 kg are located along the x-axis at x1 = 0 m and x2 = 8.0 m. Where is the center of mass of the system located?",
       "options": [
-        "x = 6.0 m",
         "x = 4.0 m",
+        "x = 6.0 m",
         "x = 2.0 m",
         "x = 5.0 m"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Center of mass x_cm = (m1*x1 + m2*x2) / (m1 + m2) = ((1.0 * 0) + (3.0 * 8.0)) / (1.0 + 3.0) = 24.0 / 4.0 = 6.0 m.",
       "citation": "College Board AP® Physics 1 CED — Topic 5.3 Conservation of Linear Momentum"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Hard",
       "question": "A solid cylinder (I = (1/2)MR^2) and a thin-walled hollow hoop (I = MR^2) of identical mass M and radius R are released simultaneously from rest at the top of an inclined ramp and roll down without slipping. Which reaches the bottom first?",
       "options": [
-        "The solid cylinder reaches the bottom first because it has a smaller rotational inertia fraction",
         "The hollow hoop reaches the bottom first because it has greater rotational kinetic energy",
         "Both reach the bottom at the exact same instant because their masses and radii are identical",
+        "The solid cylinder reaches the bottom first because it has a smaller rotational inertia fraction",
         "It depends on the value of static friction between the objects and the ramp"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Acceleration of a rolling object down an incline is a = (g*sin(θ)) / (1 + I/(MR^2)). For solid cylinder, I/(MR^2) = 0.5 (a = g*sin(θ)/1.5). For hollow hoop, I/(MR^2) = 1.0 (a = g*sin(θ)/2.0). The solid cylinder accelerates faster and reaches the bottom first.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.3 Rotational Dynamics and Energy"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Medium",
       "question": "A figure skater spinning on frictionless ice pulls her outstretched arms inward toward her torso. What happens to her rotational inertia (I), angular velocity (ω), and rotational kinetic energy (K_rot)?",
       "options": [
-        "I decreases, ω increases, and K_rot increases due to internal work done by her muscles",
         "I decreases, ω increases, and K_rot remains constant",
         "I increases, ω decreases, and K_rot decreases",
-        "I remains constant, while ω and K_rot both double"
+        "I remains constant, while ω and K_rot both double",
+        "I decreases, ω increases, and K_rot increases due to internal work done by her muscles"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Pulling arms inward brings mass closer to rotation axis, reducing rotational inertia I. Because net external torque is zero, angular momentum L = I*ω is conserved, so ω must increase. Rotational kinetic energy K_rot = L^2 / (2I); as I decreases, K_rot increases because the skater does internal mechanical work pulling against centrifugal effects.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.4 Conservation of Angular Momentum"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Easy",
       "question": "An ideal mass-spring system on a frictionless horizontal surface oscillates with period T. If the attached mass m is quadrupled to 4m while keeping spring constant k unchanged, what is the new oscillation period?",
       "options": [
-        "2T",
         "4T",
         "T / 2",
+        "2T",
         "T * √2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Period of a mass-spring system is T = 2π * √(m / k). If mass becomes 4m: T_new = 2π * √(4m / k) = 2 * (2π * √(m / k)) = 2T. The period doubles.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Period of Simple Harmonic Oscillators"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Medium",
       "question": "A guitar string of length L is fixed at both ends and vibrates in its fundamental mode (first harmonic). What is the wavelength λ of the standing wave on the string?",
       "options": [
-        "2L",
         "L",
+        "2L",
         "L / 2",
         "4L"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "In the fundamental mode of a string fixed at both ends, nodes occur at the ends and an antinode at the center, representing half a wavelength: L = λ / 2 → λ = 2L.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.3 Wave Properties & Standing Waves"
     }

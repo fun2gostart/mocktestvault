@@ -6,12 +6,12 @@
     "difficulty": "Easy",
     "question": "For any random event E, the probability P(E) satisfies which mandatory inequality?",
     "options": [
-      "0 ≤ P(E) ≤ 1",
       "-1 ≤ P(E) ≤ 1",
       "0 < P(E) < 1",
-      "1 ≤ P(E) ≤ 100"
+      "1 ≤ P(E) ≤ 100",
+      "0 ≤ P(E) ≤ 1"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The probability of an impossible event is 0, and the probability of a sure (certain) event is 1. The probability of any event always lies within the inclusive range: 0 ≤ P(E) ≤ 1. It can never be negative or exceed 1.",
     "citation": "NCERT Class 10 Mathematics, Chapter 14, Section 14.1"
   },
@@ -22,12 +22,12 @@
     "difficulty": "Medium",
     "question": "A card is drawn at random from a well-shuffled standard deck of 52 playing cards. What is the probability of drawing a red face card?",
     "options": [
-      "3 / 26",
       "3 / 13",
+      "3 / 26",
       "1 / 2",
       "6 / 13"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Total cards = 52. Face cards are Jacks, Queens, and Kings (3 per suit). Red suits are Hearts (3) and Diamonds (3), giving a total of 6 red face cards. Probability = 6 / 52 = 3 / 26.",
     "citation": "NCERT Class 10 Mathematics, Chapter 14, Section 14.1 (Exercise 14.1 Q14)"
   },

@@ -23,11 +23,11 @@
     "question": "What is the quadratic polynomial whose sum of zeroes is -3 and product of zeroes is 2?",
     "options": [
       "x^2 - 3x + 2",
-      "x^2 + 3x + 2",
       "x^2 + 3x - 2",
-      "x^2 - 3x - 2"
+      "x^2 - 3x - 2",
+      "x^2 + 3x + 2"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A quadratic polynomial is given by k[x^2 - (Sum of zeroes)x + (Product of zeroes)]. Here, sum = -3 and product = 2. Substituting gives k[x^2 - (-3)x + 2] = k(x^2 + 3x + 2). For k = 1, the polynomial is x^2 + 3x + 2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },
@@ -39,11 +39,11 @@
     "question": "The number of real zeroes of a polynomial y = p(x) is equal to:",
     "options": [
       "The number of times the graph intersects or touches the y-axis",
-      "The number of times the graph intersects or touches the x-axis",
       "The degree of the polynomial minus 1",
+      "The number of times the graph intersects or touches the x-axis",
       "The value of the constant term"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The zeroes of a polynomial p(x) are the x-coordinates of the points where the graph y = p(x) intersects or touches the x-axis (where y = 0).",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2 Geometrical Meaning of the Zeroes of a Polynomial"
   },
@@ -86,12 +86,12 @@
     "difficulty": "Medium",
     "question": "If alpha and beta are the zeroes of the quadratic polynomial p(x) = x^2 - 5x + 6, what is the value of (1/alpha + 1/beta)?",
     "options": [
-      "5/6",
       "-5/6",
       "6/5",
+      "5/6",
       "1/6"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Sum of zeroes (alpha + beta) = -(-5)/1 = 5. Product of zeroes (alpha * beta) = 6/1 = 6. Then: 1/alpha + 1/beta = (alpha + beta) / (alpha * beta) = 5/6.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },
@@ -102,12 +102,12 @@
     "difficulty": "Medium",
     "question": "What are the zeroes of the quadratic polynomial p(s) = 4s^2 - 4s + 1?",
     "options": [
-      "1/2 and 1/2 (two coincident real zeroes)",
       "-1/2 and -1/2",
       "1 and 4",
-      "-1 and 1"
+      "-1 and 1",
+      "1/2 and 1/2 (two coincident real zeroes)"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Factoring: 4s^2 - 4s + 1 = (2s - 1)^2 = 0 => 2s - 1 = 0 => s = 1/2. The two zeroes are coincident: s = 1/2, 1/2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Exercise 2.2 Question 1(ii)"
   },
@@ -118,12 +118,12 @@
     "difficulty": "Easy",
     "question": "What are the zeroes of the quadratic polynomial p(t) = t^2 - 15?",
     "options": [
-      "sqrt(15) and -sqrt(15)",
       "15 and -15",
+      "sqrt(15) and -sqrt(15)",
       "sqrt(15) and sqrt(15)",
       "0 and 15"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Setting t^2 - 15 = 0 gives t^2 = 15 => t = +-sqrt(15). Sum of zeroes = sqrt(15) + (-sqrt(15)) = 0 = -b/a (since b = 0). Product of zeroes = -15 = c/a.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Exercise 2.2 Question 1(v)"
   },
@@ -134,12 +134,12 @@
     "difficulty": "Medium",
     "question": "Find the zeroes of the quadratic polynomial p(x) = 6x^2 - 3 - 7x.",
     "options": [
-      "3/2 and -1/3",
       "-3/2 and 1/3",
       "3 and -2",
-      "7/6 and -3/6"
+      "7/6 and -3/6",
+      "3/2 and -1/3"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "First rewrite in standard form: 6x^2 - 7x - 3. Factoring by splitting the middle term: 6 * (-3) = -18. Numbers are -9 and +2: 6x^2 - 9x + 2x - 3 = 3x(2x - 3) + 1(2x - 3) = (2x - 3)(3x + 1) = 0. Thus x = 3/2 or x = -1/3.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Exercise 2.2 Question 1(iii)"
   },
@@ -150,12 +150,12 @@
     "difficulty": "Easy",
     "question": "A polynomial p(x) of degree n can have at most how many real zeroes?",
     "options": [
-      "n - 1",
       "n",
+      "n - 1",
       "n + 1",
       "Infinite"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "By the Fundamental Theorem of Algebra, a polynomial of degree n has at most n real zeroes.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Medium",
     "question": "What is the quadratic polynomial whose zeroes are sqrt(2) and -sqrt(2)?",
     "options": [
-      "x^2 - 2",
       "x^2 + 2",
+      "x^2 - 2",
       "x^2 - 4",
       "x^2 - 2x + 2"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Sum of zeroes = sqrt(2) + (-sqrt(2)) = 0. Product of zeroes = sqrt(2) * (-sqrt(2)) = -2. The polynomial is x^2 - (Sum)x + (Product) = x^2 - (0)x + (-2) = x^2 - 2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },
@@ -183,11 +183,11 @@
     "question": "If one of the zeroes of the quadratic polynomial p(x) = x^2 + 3x + k is 2, what is the value of k?",
     "options": [
       "10",
-      "-10",
       "-7",
+      "-10",
       "-2"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Since 2 is a zero of p(x), p(2) = 0: (2)^2 + 3(2) + k = 0 => 4 + 6 + k = 0 => 10 + k = 0 => k = -10.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q1"
   },
@@ -232,10 +232,10 @@
     "options": [
       "0",
       "1",
-      "Not defined",
-      "Infinity"
+      "Infinity",
+      "Not defined"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "The degree of the zero polynomial p(x) = 0 is not defined because 0 can be written as 0*x^1, 0*x^2, 0*x^100, etc., with arbitrary powers.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
   },
@@ -246,12 +246,12 @@
     "difficulty": "Medium",
     "question": "If one zero of the quadratic polynomial p(x) = 3x^2 + 8x + k is the reciprocal of the other, what is the value of k?",
     "options": [
-      "3",
       "-3",
+      "3",
       "1/3",
       "8"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Let the zeroes be alpha and 1/alpha. Their product is alpha * (1/alpha) = 1. By relationship between zeroes and coefficients: Product = c / a => k / 3 = 1 => k = 3.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },
@@ -262,12 +262,12 @@
     "difficulty": "Easy",
     "question": "What is the zero of the general linear polynomial p(x) = ax + b (where a != 0)?",
     "options": [
-      "-b / a",
       "b / a",
       "-a / b",
-      "a * b"
+      "a * b",
+      "-b / a"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Setting ax + b = 0 gives ax = -b => x = -b/a. Thus, a linear polynomial has exactly one zero: x = -b/a.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
   },
@@ -278,12 +278,12 @@
     "difficulty": "Easy",
     "question": "What is the numerical value of the polynomial p(x) = 5x^2 - 3x + 7 at x = 1?",
     "options": [
-      "9",
       "5",
+      "9",
       "15",
       "7"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Substitute x = 1: p(1) = 5(1)^2 - 3(1) + 7 = 5 - 3 + 7 = 9.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
   },
@@ -294,12 +294,12 @@
     "difficulty": "Easy",
     "question": "Which of the following is a quadratic polynomial whose zeroes are -4 and 3?",
     "options": [
-      "x^2 + x - 12",
       "x^2 - x - 12",
       "x^2 + 7x + 12",
+      "x^2 + x - 12",
       "x^2 - 7x + 12"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Sum of zeroes = -4 + 3 = -1. Product of zeroes = (-4) * 3 = -12. Polynomial is x^2 - (Sum)x + (Product) = x^2 - (-1)x + (-12) = x^2 + x - 12.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },

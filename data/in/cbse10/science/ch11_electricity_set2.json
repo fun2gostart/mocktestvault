@@ -24,10 +24,10 @@
     "options": [
       "It becomes double (2R)",
       "It becomes one-half (R/2)",
-      "It becomes one-fourth (R/4)",
-      "It becomes four times (4R)"
+      "It becomes four times (4R)",
+      "It becomes one-fourth (R/4)"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Area A = pi * (d/2)^2 = (pi * d^2) / 4. When diameter is doubled (d' = 2d), the cross-sectional area increases by a factor of 2^2 = 4 (A' = 4A). Since resistance R is inversely proportional to area (R proportional to 1/A), the new resistance becomes R' = R / 4.",
     "citation": "NCERT Class 10 Science, Chapter 11, Example 11.6"
   },
@@ -39,11 +39,11 @@
     "question": "A piece of uniform resistance wire having total resistance R is cut into 5 equal parts. These 5 pieces are then connected in parallel. If the equivalent resistance of this parallel combination is R', what is the ratio R / R'?",
     "options": [
       "1/25",
+      "25",
       "1/5",
-      "5",
-      "25"
+      "5"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "When cut into 5 equal parts, the resistance of each piece is r = R / 5. When these 5 equal pieces are connected in parallel, the equivalent resistance R' is r / 5 = (R / 5) / 5 = R / 25. Therefore, the ratio R / R' = R / (R / 25) = 25.",
     "citation": "NCERT Class 10 Science, Chapter 11, NCERT Exercise Question 1"
   },
@@ -54,12 +54,12 @@
     "difficulty": "Medium",
     "question": "What are the maximum and minimum equivalent resistances that can be achieved using four identical resistors, each of resistance 4 Omega?",
     "options": [
-      "Max = 16 Omega (all series); Min = 1 Omega (all parallel)",
       "Max = 8 Omega; Min = 2 Omega",
       "Max = 4 Omega; Min = 0.25 Omega",
+      "Max = 16 Omega (all series); Min = 1 Omega (all parallel)",
       "Max = 16 Omega; Min = 4 Omega"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Maximum resistance is obtained when all resistors are connected in series: R_max = 4 + 4 + 4 + 4 = 16 Omega. Minimum resistance is obtained when all are in parallel: 1/R_min = 1/4 + 1/4 + 1/4 + 1/4 = 4/4 = 1 => R_min = 1 Omega.",
     "citation": "NCERT Class 10 Science, Chapter 11, NCERT Exercise Question 5"
   },
@@ -70,12 +70,12 @@
     "difficulty": "Hard",
     "question": "How should three resistors, each of resistance 6 Omega, be arranged to achieve a total equivalent resistance of 9 Omega?",
     "options": [
+      "Two connected in parallel, with the third connected in series with the combination",
       "All three connected in series",
       "All three connected in parallel",
-      "Two connected in parallel, with the third connected in series with the combination",
       "Two connected in series, with the third connected in parallel with the combination"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Connecting two 6 Omega resistors in parallel gives R_p = (6 * 6)/(6 + 6) = 36 / 12 = 3 Omega. Connecting the third 6 Omega resistor in series with this parallel pair gives R_total = 3 + 6 = 9 Omega.",
     "citation": "NCERT Class 10 Science, Chapter 11, NCERT Exercise Question 11"
   },
@@ -87,11 +87,11 @@
     "question": "How should three 6 Omega resistors be connected to produce an effective equivalent resistance of 4 Omega?",
     "options": [
       "All three in parallel",
-      "Two connected in series, and this series pair connected in parallel across the third resistor",
       "All three in series",
+      "Two connected in series, and this series pair connected in parallel across the third resistor",
       "Two in parallel and one in series"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Connect two 6 Omega resistors in series: R_s = 6 + 6 = 12 Omega. Now connect this 12 Omega combination in parallel with the third 6 Omega resistor: R_p = (12 * 6) / (12 + 6) = 72 / 18 = 4 Omega.",
     "citation": "NCERT Class 10 Science, Chapter 11, NCERT Exercise Question 11"
   },
@@ -102,12 +102,12 @@
     "difficulty": "Medium",
     "question": "Three resistors of 5 Omega, 10 Omega, and 30 Omega are connected in parallel across a 12 V storage battery. What is the total current drawn from the battery?",
     "options": [
-      "4.0 A",
       "2.4 A",
       "1.2 A",
-      "0.4 A"
+      "0.4 A",
+      "4.0 A"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "In parallel, potential across each branch is 12 V. Current in 5 Omega branch: I1 = 12/5 = 2.4 A. Current in 10 Omega branch: I2 = 12/10 = 1.2 A. Current in 30 Omega branch: I3 = 12/30 = 0.4 A. Total current I = I1 + I2 + I3 = 2.4 + 1.2 + 0.4 = 4.0 A.",
     "citation": "NCERT Class 10 Science, Chapter 11, Example 11.8"
   },
@@ -136,10 +136,10 @@
     "options": [
       "1 : 1",
       "1 : 2",
-      "1 : 4",
-      "4 : 1"
+      "4 : 1",
+      "1 : 4"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Heat per second P = V^2 / R_eq. In series, R_series = 2R, so P_series = V^2 / (2R). In parallel, R_parallel = R / 2, so P_parallel = V^2 / (R/2) = 2V^2 / R. The ratio P_series / P_parallel = [V^2 / (2R)] / [2V^2 / R] = 1/4. Heat produced in parallel is 4 times that in series.",
     "citation": "NCERT Class 10 Science, Chapter 11, NCERT Exercise Question 4"
   },
@@ -148,15 +148,15 @@
     "type": "mcq",
     "subtopic": "Commercial Electricity Bill Calculation",
     "difficulty": "Hard",
-    "question": "An electric refrigerator rated 400 W operates for 8 hours every day. What is the total cost of operating this refrigerator for the month of June (30 days) at a tariff rate of \u20b95.00 per kilowatt-hour (kWh)?",
+    "question": "An electric refrigerator rated 400 W operates for 8 hours every day. What is the total cost of operating this refrigerator for the month of June (30 days) at a tariff rate of ₹5.00 per kilowatt-hour (kWh)?",
     "options": [
-      "\u20b9240",
-      "\u20b9480",
-      "\u20b9960",
-      "\u20b9120"
+      "₹240",
+      "₹960",
+      "₹480",
+      "₹120"
     ],
-    "answer": 1,
-    "explanation": "Daily energy consumption = 400 W * 8 h = 3200 Wh = 3.2 kWh. Monthly consumption (30 days) = 3.2 kWh/day * 30 days = 96 kWh (units). At \u20b95.00 per unit, total cost = 96 * 5 = \u20b9480.",
+    "answer": 2,
+    "explanation": "Daily energy consumption = 400 W * 8 h = 3200 Wh = 3.2 kWh. Monthly consumption (30 days) = 3.2 kWh/day * 30 days = 96 kWh (units). At ₹5.00 per unit, total cost = 96 * 5 = ₹480.",
     "citation": "NCERT Class 10 Science, Chapter 11, Example 11.14"
   },
   {
@@ -188,7 +188,7 @@
       "Neither bulb glows because current cannot pass through two filaments"
     ],
     "answer": 1,
-    "explanation": "Filament resistance R = V^2 / P. Thus, B1 (60 W) has higher resistance than B2 (100 W): R1 = 220^2/60 \u2248 807 Omega, while R2 = 220^2/100 = 484 Omega. In a series circuit, current I is the same through both. Power dissipated is P = I^2 * R. Because R1 > R2, the 60 W bulb dissipates more power and glows brighter in series.",
+    "explanation": "Filament resistance R = V^2 / P. Thus, B1 (60 W) has higher resistance than B2 (100 W): R1 = 220^2/60 ≈ 807 Omega, while R2 = 220^2/100 = 484 Omega. In a series circuit, current I is the same through both. Power dissipated is P = I^2 * R. Because R1 > R2, the 60 W bulb dissipates more power and glows brighter in series.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.8 Electric Power"
   },
   {
@@ -198,12 +198,12 @@
     "difficulty": "Easy",
     "question": "If the two lamps B1 (60 W, 220 V) and B2 (100 W, 220 V) are now connected in PARALLEL across the standard 220 V mains, which bulb will glow brighter?",
     "options": [
-      "The 100 W bulb glows brighter",
       "The 60 W bulb glows brighter",
       "Both glow with equal brightness",
-      "The 60 W bulb burns out immediately"
+      "The 60 W bulb burns out immediately",
+      "The 100 W bulb glows brighter"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "In parallel, both bulbs receive the full 220 V. Power consumed is P = V^2 / R, which matches their rated values. Therefore, the 100 W bulb consumes 100 W and glows brighter than the 60 W bulb.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.8 Electric Power"
   },
@@ -215,12 +215,12 @@
     "question": "An inexperienced student accidentally connects an ammeter in parallel across the terminals of a 12 V car battery. What immediate catastrophic event will occur?",
     "options": [
       "The ammeter reads zero and no current flows",
-      "A massive short-circuit current flows through the ammeter's near-zero resistance, potentially burning its coil or blowing its protective fuse",
       "The battery voltage doubles to 24 V",
+      "A massive short-circuit current flows through the ammeter's near-zero resistance, potentially burning its coil or blowing its protective fuse",
       "The ammeter functions normally as a voltmeter"
     ],
-    "answer": 1,
-    "explanation": "An ammeter has virtually zero internal resistance. Connecting it in parallel across a voltage source causes a direct short circuit: I = V / R \u2248 12 / 0 = huge current, causing immediate overheating and destruction of the instrument unless fuse-protected.",
+    "answer": 2,
+    "explanation": "An ammeter has virtually zero internal resistance. Connecting it in parallel across a voltage source causes a direct short circuit: I = V / R ≈ 12 / 0 = huge current, causing immediate overheating and destruction of the instrument unless fuse-protected.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.1 Electric Current and Circuit"
   },
   {
@@ -246,12 +246,12 @@
     "difficulty": "Medium",
     "question": "100 Joules of heat energy is produced each second in a 4 Omega resistor. What is the potential difference across the resistor?",
     "options": [
-      "10 V",
       "20 V",
+      "10 V",
       "25 V",
       "40 V"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Heat produced per second is power: P = H / t = 100 J / 1 s = 100 W. Power is related to voltage and resistance by P = V^2 / R. Rearranging gives V^2 = P * R = 100 * 4 = 400. Thus, V = sqrt(400) = 20 V.",
     "citation": "NCERT Class 10 Science, Chapter 11, Example 11.11"
   },
@@ -262,13 +262,13 @@
     "difficulty": "Medium",
     "question": "An electric iron consumes 1 kW (1000 W) of electric power when operated on 220 V mains. Which of the following standard fuse ratings should be installed in its circuit?",
     "options": [
+      "5 A fuse",
       "1 A fuse",
       "2 A fuse",
-      "3 A fuse",
-      "5 A fuse"
+      "3 A fuse"
     ],
-    "answer": 3,
-    "explanation": "The current drawn under normal operation is I = P / V = 1000 W / 220 V \u2248 4.55 A. A fuse rated lower than 4.55 A (1 A, 2 A, 3 A) will blow during normal use. The next standard higher rating is a 5 A fuse, which carries the normal 4.55 A load but blows if fault current exceeds 5 A.",
+    "answer": 0,
+    "explanation": "The current drawn under normal operation is I = P / V = 1000 W / 220 V ≈ 4.55 A. A fuse rated lower than 4.55 A (1 A, 2 A, 3 A) will blow during normal use. The next standard higher rating is a 5 A fuse, which carries the normal 4.55 A load but blows if fault current exceeds 5 A.",
     "citation": "NCERT Class 10 Science, Chapter 11, Example 11.13"
   },
   {
@@ -278,12 +278,12 @@
     "difficulty": "Medium",
     "question": "As the temperature of a pure metallic conductor (such as copper or silver) increases, how does its electrical resistance respond?",
     "options": [
-      "Resistance increases because thermal vibrations of lattice ions increase electron collisions",
       "Resistance decreases because free electrons move faster",
+      "Resistance increases because thermal vibrations of lattice ions increase electron collisions",
       "Resistance drops abruptly to zero",
       "Resistance remains strictly constant"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "In pure metals, rising temperature increases the amplitude of lattice ion vibrations. Conduction electrons experience more frequent collisions with vibrating ions, reducing their drift velocity and increasing the material's electrical resistance.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.5 Factors on which the Resistance of a Conductor Depends"
   },
@@ -296,10 +296,10 @@
     "options": [
       "2.0 kWh",
       "4.0 kWh",
-      "6.0 kWh",
-      "8.0 kWh"
+      "8.0 kWh",
+      "6.0 kWh"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Geyser energy = 2 kW * 2 h = 4.0 kWh. Four lamps energy = 4 * 100 W * 5 h = 2000 Wh = 2.0 kWh. Total daily electrical energy = 4.0 + 2.0 = 6.0 kWh (6 units).",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.8 Electric Power"
   },
@@ -311,11 +311,11 @@
     "question": "Why is electrical power transmitted from distant generating stations to cities at extraordinarily high voltages (e.g. 132 kV or 400 kV) rather than at 220 V?",
     "options": [
       "High voltage eliminates all resistance from aluminum transmission lines",
-      "For a given power (P = VI), higher voltage means lower current (I = P/V), which exponentially minimizes transmission line heat loss (H = I^2 * R * t)",
       "High voltage prevents birds from perching on wires",
+      "For a given power (P = VI), higher voltage means lower current (I = P/V), which exponentially minimizes transmission line heat loss (H = I^2 * R * t)",
       "Transformers can only handle high voltages"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Transmission line heat dissipation is governed by Joule's law (H = I^2 * R * t). Stepping up voltage by a factor of 1000 reduces current by 1000, which reduces line power losses by a factor of (1000)^2 = 1,000,000, making long-distance bulk power transmission highly efficient.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.7 Heating Effect of Electric Current"
   }

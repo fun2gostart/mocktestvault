@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "What is the 30th term of the arithmetic progression 10, 7, 4, ...?",
       "options": [
-        "-77",
         "77",
         "-87",
-        "97"
+        "97",
+        "-77"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Here first term a = 10, common difference d = 7 - 10 = -3. a_30 = a + (30 - 1)d = 10 + 29(-3) = 10 - 87 = -77.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 2(i)"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Easy",
       "question": "In an arithmetic progression, the common difference 'd' can be:",
       "options": [
-        "Positive, negative, or zero",
         "Positive only",
         "Positive or negative, but never zero",
+        "Positive, negative, or zero",
         "Rational numbers only"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The common difference d = a_(k+1) - a_k can be positive (increasing AP), negative (decreasing AP), or zero (constant AP like 4, 4, 4...).",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.1"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Easy",
       "question": "In the arithmetic progression: 2, [ ], 26, what is the missing term in the box?",
       "options": [
-        "14",
         "12",
+        "14",
         "16",
         "13"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "For three consecutive terms a, b, c in AP, the middle term b = (a + c)/2 (arithmetic mean). Here b = (2 + 26)/2 = 28/2 = 14.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 3(i)"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Easy",
       "question": "How many terms are there in the AP: 7, 13, 19, ..., 205?",
       "options": [
-        "34",
         "33",
         "35",
+        "34",
         "36"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "a = 7, d = 13 - 7 = 6, a_n = 205. 205 = 7 + (n - 1)(6) => 198 = 6(n - 1) => n - 1 = 33 => n = 34.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 7"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Medium",
       "question": "Is -150 a term of the AP: 11, 8, 5, 2, ...?",
       "options": [
-        "No, because 'n' is not a positive integer (n = 164/3)",
         "Yes, it is the 54th term",
         "Yes, it is the 55th term",
-        "No, because an AP cannot have negative terms"
+        "No, because an AP cannot have negative terms",
+        "No, because 'n' is not a positive integer (n = 164/3)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Here a = 11, d = -3. Let a_n = -150: -150 = 11 + (n - 1)(-3) => -161 = -3(n - 1) => n - 1 = 161/3 => n = 164/3 = 54.67. Since n must be a positive integer, -150 is NOT a term of this AP.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 6"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Easy",
       "question": "What is the sum of the first 20 terms of the AP: 1, 4, 7, 10, ...?",
       "options": [
-        "590",
         "600",
+        "590",
         "580",
         "610"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "a = 1, d = 3, n = 20. S_20 = (20/2) [2(1) + 19(3)] = 10 [2 + 57] = 10 * 59 = 590.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Medium",
       "question": "Find the 20th term from the last term of the AP: 3, 8, 13, ..., 253.",
       "options": [
-        "158",
         "148",
         "168",
-        "153"
+        "153",
+        "158"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The nth term from the end is given by l - (n - 1)d, where l is the last term. Here l = 253, d = 5, n = 20. 20th term from end = 253 - (20 - 1)(5) = 253 - 19(5) = 253 - 95 = 158.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 17"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Medium",
       "question": "How many two-digit numbers are divisible by 3?",
       "options": [
-        "30",
         "29",
+        "30",
         "31",
         "33"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The two-digit numbers divisible by 3 form the AP: 12, 15, 18, ..., 99. Here a = 12, d = 3, l = 99. 99 = 12 + (n - 1)(3) => 87 = 3(n - 1) => n - 1 = 29 => n = 30.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.2, Example 7"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Easy",
       "question": "What is the sum of the first 'n' odd natural numbers (1 + 3 + 5 + ... + (2n - 1))?",
       "options": [
-        "n^2",
         "2n^2",
         "n(n + 1)",
+        "n^2",
         "n^2 - 1"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Here a = 1, d = 2, number of terms = n. S_n = (n/2)[2(1) + (n - 1)(2)] = (n/2)[2 + 2n - 2] = (n/2)(2n) = n^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 14"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Medium",
       "question": "Determine the AP whose 3rd term is 5 and the 7th term is 9.",
       "options": [
-        "3, 4, 5, 6, 7, ...",
         "1, 3, 5, 7, 9, ...",
         "2, 4, 6, 8, 10, ...",
+        "3, 4, 5, 6, 7, ...",
         "3, 5, 7, 9, 11, ..."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "a_3 = a + 2d = 5, and a_7 = a + 6d = 9. Subtracting: 4d = 4 => d = 1. Then a + 2(1) = 5 => a = 3. The AP is 3, 4, 5, 6, ...",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.2, Example 4"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Easy",
       "question": "Which of the following lists of numbers forms an AP?",
       "options": [
-        "sqrt(2), sqrt(8), sqrt(18), sqrt(32), ...",
         "1, 3, 9, 27, ...",
+        "sqrt(2), sqrt(8), sqrt(18), sqrt(32), ...",
         "0.2, 0.22, 0.222, ...",
         "1^2, 3^2, 5^2, 7^2, ..."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Simplifying: sqrt(2) = 1*sqrt(2), sqrt(8) = 2*sqrt(2), sqrt(18) = 3*sqrt(2), sqrt(32) = 4*sqrt(2). The difference between consecutive terms is consistently sqrt(2), which is an AP.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.1 Question 4(xii)"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Easy",
       "question": "For the AP: 2, 7, 12, ..., what is the value of (a_30 - a_20)?",
       "options": [
-        "50",
         "45",
         "55",
-        "40"
+        "40",
+        "50"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "a_30 - a_20 = [a + 29d] - [a + 19d] = 10d. Here common difference d = 7 - 2 = 5. So 10d = 10 * 5 = 50.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.2"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Medium",
       "question": "Which term of the AP: 21, 18, 15, ... is 0?",
       "options": [
-        "8th term",
         "7th term",
         "9th term",
-        "10th term"
+        "10th term",
+        "8th term"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Here a = 21, d = 18 - 21 = -3. Let a_n = 0: 0 = 21 + (n - 1)(-3) => 3(n - 1) = 21 => n - 1 = 7 => n = 8.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.2, Example 5"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Easy",
       "question": "What is the sum of an AP having 15 terms, whose first term is 5 and the last term is 75?",
       "options": [
-        "600",
         "550",
         "650",
+        "600",
         "500"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Formula S_n = (n/2)[a + l]. S_15 = (15/2)[5 + 75] = (15/2)(80) = 15 * 40 = 600.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Medium",
       "question": "Which term of the AP: 121, 117, 113, ... is its first negative term?",
       "options": [
-        "32nd term",
         "31st term",
+        "32nd term",
         "33rd term",
         "30th term"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Here a = 121, d = 117 - 121 = -4. We want a_n < 0 => 121 + (n - 1)(-4) < 0 => 121 - 4n + 4 < 0 => 125 < 4n => n > 125/4 = 31.25. The smallest integer greater than 31.25 is n = 32. So the 32nd term is the first negative term.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 1"
     },

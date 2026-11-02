@@ -6,12 +6,12 @@
     "difficulty": "Hard",
     "question": "For any natural number n, the expression (6^n - 5^n) always ends with which digit?",
     "options": [
-      "1",
       "0",
+      "1",
       "5",
       "6"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "For any natural number n, 6^n always ends with the digit 6 (6^1 = 6, 6^2 = 36, 6^3 = 216...), and 5^n always ends with the digit 5 (5^1 = 5, 5^2 = 25, 5^3 = 125...). Therefore, (6^n - 5^n) ends in 6 - 5 = 1.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
   },
@@ -23,11 +23,11 @@
     "question": "What is the HCF of the smallest prime number and the smallest composite number?",
     "options": [
       "1",
-      "2",
       "4",
+      "2",
       "6"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The smallest prime number is 2, and the smallest composite number is 4. HCF(2, 4) = 2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q4"
   },
@@ -38,12 +38,12 @@
     "difficulty": "Easy",
     "question": "What is the LCM of the smallest prime number and the smallest composite number?",
     "options": [
-      "2",
       "4",
+      "2",
       "8",
       "1"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The smallest prime number is 2, and the smallest composite number is 4. LCM(2, 4) = 4.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
   },
@@ -54,12 +54,12 @@
     "difficulty": "Medium",
     "question": "The product of two consecutive positive integers n and (n + 1) is always divisible by which integer?",
     "options": [
-      "2",
       "3",
       "4",
-      "6"
+      "6",
+      "2"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Out of any two consecutive integers n and (n + 1), one must be even and one must be odd. Therefore, their product n(n + 1) is always a multiple of 2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
   },
@@ -71,11 +71,11 @@
     "question": "The product of any three consecutive positive integers n(n + 1)(n + 2) is always divisible by:",
     "options": [
       "4",
-      "6",
       "12",
-      "24"
+      "24",
+      "6"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Among three consecutive integers, at least one is divisible by 2 and exactly one is divisible by 3. Since 2 and 3 are coprime, the product is always divisible by 2 * 3 = 6.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
   },
@@ -86,12 +86,12 @@
     "difficulty": "Medium",
     "question": "If HCF(a, 8) = 4 and LCM(a, 8) = 24 for a positive integer a, what is the value of a?",
     "options": [
-      "12",
       "16",
+      "12",
       "6",
       "8"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Using HCF(a, b) * LCM(a, b) = a * b: 4 * 24 = a * 8 => 96 = 8a => a = 96 / 8 = 12.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
   },
@@ -103,11 +103,11 @@
     "question": "If the HCF of 65 and 117 is expressible in the linear form (65m - 117), what is the value of m?",
     "options": [
       "1",
-      "2",
       "3",
+      "2",
       "4"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "65 = 5 * 13, and 117 = 9 * 13. Thus HCF(65, 117) = 13. Given 65m - 117 = 13 => 65m = 13 + 117 = 130 => m = 130 / 65 = 2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q5"
   },
@@ -150,12 +150,12 @@
     "difficulty": "Easy",
     "question": "For what values of natural number n will the number 12^n end with the digit zero?",
     "options": [
+      "For no value of n, because 12^n = (2^2 * 3)^n has no prime factor 5",
       "For n = 5",
       "For all even numbers n",
-      "For no value of n, because 12^n = (2^2 * 3)^n has no prime factor 5",
       "For n = 10"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "A number ends with 0 if and only if it has both 2 and 5 as prime factors. The prime factors of 12 are 2 and 3. Since 5 is missing, 12^n can never end with the digit 0 for any natural number n.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 5"
   },
@@ -167,11 +167,11 @@
     "question": "If three numbers are a = 2^3 * 3, b = 2 * 3 * 5, and c = 3^n * 5, and their LCM is LCM(a, b, c) = 2^3 * 3^2 * 5, what is the value of n?",
     "options": [
       "1",
-      "2",
       "3",
+      "2",
       "4"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "LCM takes the highest power of each prime factor involved. The prime factor 3 appears as 3^1 in a, 3^1 in b, and 3^n in c. The LCM has 3^2. Therefore, the highest exponent of 3 must come from c, meaning n = 2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q8"
   },
@@ -182,12 +182,12 @@
     "difficulty": "Hard",
     "question": "If p and q are two coprime positive integers (HCF(p, q) = 1), what are the only possible values of HCF(p + q, p - q)?",
     "options": [
-      "1 or 2",
       "Always 1",
       "Always 4",
-      "Any prime number"
+      "Any prime number",
+      "1 or 2"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Let d = HCF(p + q, p - q). Then d divides (p + q) + (p - q) = 2p, and d divides (p + q) - (p - q) = 2q. Hence d must divide HCF(2p, 2q) = 2 * HCF(p, q) = 2 * 1 = 2. Since divisors of 2 are 1 and 2, d can only be 1 or 2 (e.g. For 3 and 5, HCF(8, 2) = 2; for 2 and 3, HCF(5, 1) = 1).",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
   },
@@ -198,12 +198,12 @@
     "difficulty": "Medium",
     "question": "There is a circular sports track. Sonia takes 18 minutes to drive one round of the track, while Ravi takes 12 minutes for the same. Suppose they both start at the same point and at the same time, and go in the same direction. After how many minutes will they meet again at the starting point?",
     "options": [
+      "36 minutes",
       "6 minutes",
       "24 minutes",
-      "36 minutes",
       "72 minutes"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "They will meet again at the starting point at a time that is the LCM of their individual lap times: LCM(18, 12). 18 = 2 * 3^2, 12 = 2^2 * 3. LCM = 2^2 * 3^2 = 4 * 9 = 36 minutes.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 7"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Medium",
     "question": "A sweetseller has 420 kaju barfis and 130 badam barfis. She wants to stack them in trays such that each stack has the same number of barfis and they occupy the least area of the tray. What is the maximum number of barfis that can be placed in each stack?",
     "options": [
-      "10",
       "20",
       "15",
+      "10",
       "5"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "To minimize tray area, the number of barfis in each stack must be maximized, which is given by HCF(420, 130). 420 = 10 * 42 = 2^2 * 3 * 5 * 7. 130 = 10 * 13 = 2 * 5 * 13. HCF = 2 * 5 = 10 barfis per stack.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 4"
   },
@@ -295,11 +295,11 @@
     "question": "Which of the following methods is used in NCERT to rigorously prove that (3 + 2*sqrt(5)) is an irrational number?",
     "options": [
       "Proof by induction",
-      "Proof by contradiction (reductio ad absurdum), by assuming it is rational and showing sqrt(5) equals a rational number",
       "Direct decimal expansion measurement",
-      "Geometrical compass construction"
+      "Geometrical compass construction",
+      "Proof by contradiction (reductio ad absurdum), by assuming it is rational and showing sqrt(5) equals a rational number"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "We assume 3 + 2*sqrt(5) is rational = a/b (coprime b != 0). Then 2*sqrt(5) = a/b - 3 = (a - 3b)/b => sqrt(5) = (a - 3b)/(2b). Since a and b are integers, the RHS is rational, implying sqrt(5) is rational, which contradicts the established theorem that sqrt(5) is irrational.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.4"
   },
@@ -311,11 +311,11 @@
     "question": "Can the difference of two irrational numbers ever be a rational number?",
     "options": [
       "No, the difference of two irrationals is strictly always irrational",
-      "Yes, for example (sqrt(3) + 5) - sqrt(3) = 5, which is a rational number",
       "Only when both irrationals are negative",
+      "Yes, for example (sqrt(3) + 5) - sqrt(3) = 5, which is a rational number",
       "Only when both irrationals are equal to pi"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Yes, while the sum or difference of a rational and an irrational is always irrational, the difference between two irrational numbers can be rational (e.g. (2 + sqrt(7)) - sqrt(7) = 2, which is rational).",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
   }

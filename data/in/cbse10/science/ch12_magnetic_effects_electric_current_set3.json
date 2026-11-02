@@ -6,12 +6,12 @@
     "difficulty": "Easy",
     "question": "Assertion (A): Two magnetic field lines can never cross or intersect each other in space.\nReason (R): If two magnetic field lines intersected, a compass needle placed at the intersection point would simultaneously point in two conflicting directions, which is physically impossible.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true."
+      "(A) is false, but (R) is true.",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "At any point in space, there is a single unique magnetic field vector. The direction of a magnetic field line at any location corresponds to the direction indicated by a compass needle's north pole. Two intersecting lines would imply two simultaneous field directions at one point, which is physically impossible.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.1 Magnetic Field and Field Lines"
   },
@@ -22,12 +22,12 @@
     "difficulty": "Medium",
     "question": "Assertion (A): The magnetic field inside a long current-carrying cylindrical solenoid is completely uniform.\nReason (R): Inside the solenoid, the magnetic field lines are represented by equidistant parallel straight lines running along the longitudinal axis.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). Equidistant parallel straight field lines indicate that the magnetic field has the exact same strength and direction at every point inside the interior of a long solenoid.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Magnetic Field due to a Current in a Solenoid"
   },
@@ -38,12 +38,12 @@
     "difficulty": "Medium",
     "question": "Assertion (A): A stationary electric charge placed inside a powerful permanent magnetic field experiences a strong deflecting Lorentz force.\nReason (R): Magnetic force on a charged particle is governed by F = q * v * B * sin(theta), meaning magnetic fields exert zero force on charges at rest (v = 0).",
     "options": [
+      "(A) is false, but (R) is true.",
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true."
+      "(A) is true, but (R) is false."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Assertion (A) is false: a magnetic field exerts force ONLY on moving charges; stationary charges experience no magnetic force regardless of field intensity. Reason (R) is completely true: when v = 0, F = q * (0) * B = 0.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
   },
@@ -54,12 +54,12 @@
     "difficulty": "Medium",
     "question": "Assertion (A): An electric motor converts electrical energy into rotational mechanical energy.\nReason (R): A rectangular current-carrying coil placed in a magnetic field experiences equal and opposite forces on its two parallel arms, creating a couple that exerts continuous rotational torque.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). By Fleming's Left-Hand Rule, the upward force on one arm and the downward force on the opposite arm form a couple that rotates the armature shaft, converting electrical power into mechanical work.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.4 Electric Motor"
   },
@@ -70,12 +70,12 @@
     "difficulty": "Easy",
     "question": "Assertion (A): The metallic chassis of high-power electrical appliances like washing machines and refrigerators must be connected to an earth ground wire.\nReason (R): Earthing provides an ultra-low resistance pathway for fault currents, ensuring user contact does not conduct dangerous currents through the human body.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Both statements are true and R explains A. If internal wiring insulation degrades and the live conductor contacts the metal body, current is shunted harmlessly to earth, instantly tripping the circuit breaker or blowing the fuse without shocking anyone touching the machine.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
   },
@@ -102,12 +102,12 @@
     "difficulty": "Medium",
     "question": "Assertion (A): Domestic AC electric power in India is supplied at 220 V with an oscillation frequency of 50 Hz.\nReason (R): A frequency of 50 Hz means the alternating current reverses its direction of flow exactly 100 times every second (once every 1/100th of a second).",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "In 1 complete AC cycle, the direction of current reverses twice (once during the positive half-cycle and once during the negative half-cycle). Therefore, at 50 Hz (50 cycles/sec), current changes direction 2 * 50 = 100 times per second.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
   },
@@ -132,14 +132,14 @@
     "type": "assertion-reason",
     "subtopic": "Motion of Charged Particle in Magnetic Field: Constant Kinetic Energy",
     "difficulty": "Hard",
-    "question": "Assertion (A): When an electron enters a uniform magnetic field perpendicularly, its speed and kinetic energy remain strictly constant even though its direction changes.\nReason (R): The magnetic Lorentz force acts strictly perpendicular to the instantaneous velocity of the charged particle at all times, doing zero net mechanical work on it (W = F * d * cos 90\u00b0 = 0).",
+    "question": "Assertion (A): When an electron enters a uniform magnetic field perpendicularly, its speed and kinetic energy remain strictly constant even though its direction changes.\nReason (R): The magnetic Lorentz force acts strictly perpendicular to the instantaneous velocity of the charged particle at all times, doing zero net mechanical work on it (W = F * d * cos 90° = 0).",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Because magnetic force F is perpendicular to velocity v, work done W = delta(KE) = 0. The magnetic field alters the direction of motion (providing centripetal acceleration) without changing the speed or kinetic energy of the electron.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
   },
@@ -152,10 +152,10 @@
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true."
+      "(A) is false, but (R) is true.",
+      "(A) is true, but (R) is false."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Assertion (A) is false: field strength B depends on current magnitude I and distance r; reversing current direction simply reverses field vector direction, leaving magnitude unchanged. Reason (R) is true.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.1 Magnetic Field due to a Current through a Straight Conductor"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Medium",
     "question": "A scrap yard crane uses an enormous electromagnet with a soft iron core to lift several tons of discarded iron automobile frames. When the crane operator swings the load over a recycling hopper and turns off the electric switch, the iron scrap falls instantly into the bin. Why does the scrap detach immediately upon switching off the current?",
     "options": [
-      "A reverse electrostatic pulse repels the iron scrap",
       "Soft iron has very low magnetic retentivity and loses its magnetism almost completely the instant the magnetizing current ceases",
+      "A reverse electrostatic pulse repels the iron scrap",
       "The gravity of the scrap increases tenfold",
       "The scrap yard crane inverts the poles of Earth's magnetic field"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Soft iron is a magnetically 'soft' material: it magnetizes intensely in the presence of current, but possesses virtually zero residual magnetism (retentivity) when current is turned off. As a result, the magnetic field drops to zero immediately, dropping the scrap into the hopper.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Electromagnet"
   },
@@ -182,12 +182,12 @@
     "difficulty": "Medium",
     "question": "Modern magnetic levitation (Maglev) bullet trains reach speeds exceeding 500 km/h without touching physical rails. Which magnetic effect is harnessed to suspend and propel these trains frictionlessly?",
     "options": [
-      "Electromagnetic repulsion between onboard superconducting magnets and electromagnets embedded along the guideway track",
       "Electrostatic charging of train wheels",
       "Aerodynamic vacuum suction below the carriage",
-      "Geomagnetic gravitational cancellation"
+      "Geomagnetic gravitational cancellation",
+      "Electromagnetic repulsion between onboard superconducting magnets and electromagnets embedded along the guideway track"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Maglev trains use powerful onboard electromagnets that interact with guideway coils. Magnetic repulsion lifts the train 10-15 mm above the track, eliminating mechanical rolling friction, while computerized alternating fields propel it smoothly forward.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Electromagnet"
   },
@@ -199,11 +199,11 @@
     "question": "A user notices a severe electric shock whenever touching the metal exterior of an electric toaster plugged into an ungrounded two-pin outlet. What specific electrical malfunction is present, and why does replacing it with a properly grounded three-pin plug eliminate the hazard?",
     "options": [
       "The toaster element is cold; earthing heats it",
-      "The live internal conductor is touching the metal casing; an earth wire provides a safe near-zero resistance path directly to ground, draining leakage current and tripping the circuit breaker",
       "The toaster needs higher supply frequency",
-      "The neutral wire was conducting too much magnetic flux"
+      "The neutral wire was conducting too much magnetic flux",
+      "The live internal conductor is touching the metal casing; an earth wire provides a safe near-zero resistance path directly to ground, draining leakage current and tripping the circuit breaker"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "When internal insulation fails and the live element contacts the metal frame, the chassis becomes energized at 220 V. An ungrounded appliance shocks anyone who touches it. When connected to a 3-pin grounded outlet, the low-resistance earth wire carries the leakage current to ground, immediately blowing the fuse or tripping the breaker.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Hard",
     "question": "In a cyclotron particle accelerator, a beam of high-speed protons enters a uniform magnetic field directed perpendicularly out of the chamber floor. Why does the proton beam curve into a circular orbit rather than traveling along a parabolic trajectory?",
     "options": [
-      "The magnetic Lorentz force is constantly directed perpendicular to the velocity vector, acting as a true centripetal force of constant magnitude (F = q * v * B)",
       "Protons lose mass inside a magnetic field",
       "The magnetic field creates nuclear fusion forces",
+      "The magnetic Lorentz force is constantly directed perpendicular to the velocity vector, acting as a true centripetal force of constant magnitude (F = q * v * B)",
       "Electric fields repel the protons in spirals"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Because the magnetic force F is always perpendicular to velocity v (F = q * v * B), it cannot change the particle's speed, only its direction. This constant perpendicular force acts as a centripetal force (q * v * B = m * v^2 / r), bending the path into a perfect circle of radius r = m * v / (q * B).",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
   },
@@ -262,12 +262,12 @@
     "difficulty": "Hard",
     "question": "The spectacular Aurora Borealis (Northern Lights) and Aurora Australis (Southern Lights) are seen primarily in polar latitudes and rarely near the equator. Why does Earth's magnetic field concentrate auroral displays near the poles?",
     "options": [
-      "The poles are cold, freezing atmospheric nitrogen",
       "Earth's dipolar magnetic field lines converge and enter the upper atmosphere near the magnetic poles, funneling high-energy solar wind charged particles into the dense polar atmosphere to trigger luminous gas collisions",
+      "The poles are cold, freezing atmospheric nitrogen",
       "The ozone hole allows solar wind through only at the poles",
       "Earth's magnetic field is zero at the equator"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Earth's geomagnetic field acts as a protective shield (magnetosphere) that deflects incoming solar wind particles away at equatorial latitudes. Near the magnetic poles, however, the field lines bend downward and dip into the upper atmosphere, guiding energetic protons and electrons to collide with oxygen and nitrogen atoms, producing colorful auroral light.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.1 Magnetic Field and Field Lines"
   },
@@ -279,11 +279,11 @@
     "question": "An induction stove transfers thermal energy directly to a cooking vessel without heating the ceramic glass cooktop itself. Why will a cast-iron skillet heat rapidly on an induction hob, while an all-aluminum pan or glass pot fails to heat?",
     "options": [
       "Aluminum is completely non-conductive to electric currents",
-      "Induction heating relies on high-frequency alternating magnetic fields inducing intense eddy currents and magnetic hysteresis losses, which require ferromagnetic materials with high magnetic permeability and suitable electrical resistance",
       "Cast iron reflects magnetic fields while aluminum absorbs them",
+      "Induction heating relies on high-frequency alternating magnetic fields inducing intense eddy currents and magnetic hysteresis losses, which require ferromagnetic materials with high magnetic permeability and suitable electrical resistance",
       "Glass is too heavy for magnetic induction to penetrate"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Induction cooktops use high-frequency alternating magnetic fields (approx. 25 kHz). A ferromagnetic pan (cast iron, stainless steel) concentrates the magnetic flux due to high permeability, generating massive localized eddy currents and hysteresis losses that produce Joule heat directly within the pan base. Aluminum has very low magnetic permeability and high electrical conductivity, while glass is an insulator.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.5 Electromagnetic Induction"
   },
@@ -311,11 +311,11 @@
     "question": "When an airline passenger carrying a concealed steel wrench walks through an airport security portal arch, an audible alarm triggers. What electromagnetic principle enables the portal to detect the concealed tool?",
     "options": [
       "Radioactive gamma radiation emission",
-      "The transmitter coil creates a pulsed magnetic field; conducting metal moving through it generates eddy currents with secondary magnetic fields that are sensed by the receiver coil",
       "Infrared thermal body imaging",
-      "Static electricity buildup on the passenger's shoes"
+      "Static electricity buildup on the passenger's shoes",
+      "The transmitter coil creates a pulsed magnetic field; conducting metal moving through it generates eddy currents with secondary magnetic fields that are sensed by the receiver coil"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Walk-through metal detectors utilize electromagnetic induction. A transmitter coil generates a time-varying magnetic field. When a metallic object passes through, the changing field induces eddy currents in the metal. These eddy currents generate their own secondary magnetic field, which is detected by receiver coils, triggering the electronic alarm.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.5 Electromagnetic Induction"
   }

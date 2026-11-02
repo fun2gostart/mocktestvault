@@ -6,12 +6,12 @@
     "difficulty": "Easy",
     "question": "Carbon forms covalent bonds rather than ionic bonds because forming C⁴⁺ or C⁴⁻ ions is energetically unfavorable. Which of the following properties are characteristic of covalent carbon compounds?",
     "options": [
-      "High melting points and conduct electricity in solid state",
       "Low melting/boiling points and are poor conductors of electricity",
+      "High melting points and conduct electricity in solid state",
       "High electrical conductivity in molten state",
       "Soluble exclusively in inorganic polar solvents"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Covalent compounds share electrons between atoms, so no free ions or charged particles are present, making them poor conductors of electricity. Their intermolecular forces are relatively weak, leading to low melting and boiling points.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.1"
   },
@@ -23,11 +23,11 @@
     "question": "Which allotrope of carbon consists of carbon atoms arranged in layers of hexagonal arrays held by weak van der Waals forces, making it soft, slippery, and a good conductor of electricity?",
     "options": [
       "Diamond",
-      "Graphite",
       "Buckminsterfullerene (C-60)",
-      "Carbon nanotube"
+      "Carbon nanotube",
+      "Graphite"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "In graphite, each carbon atom is bonded to three other carbons in the same plane giving a hexagonal array. One valence electron remains delocalized, allowing graphite to conduct electricity. The slippery layers make it an effective solid lubricant.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.1.1 (Allotropes Box)"
   },
@@ -39,11 +39,11 @@
     "question": "In a homologous series of organic compounds, two successive members differ in their molecular formula and molecular mass respectively by:",
     "options": [
       "-CH₃ and 15 u",
-      "-CH₂- and 14 u",
       "-CH- and 13 u",
+      "-CH₂- and 14 u",
       "-C₂H₄ and 28 u"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Consecutive members of any homologous series (e.g. CH₄ and C₂H₆, or CH₃OH and C₂H₅OH) differ by one carbon atom and two hydrogen atoms (-CH₂- unit). Carbon mass = 12 u, 2×H = 2 u; total mass difference is 14 u.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.2.2"
   },
@@ -87,11 +87,11 @@
     "question": "How many structural isomers are possible for butane (C₄H₁₀)?",
     "options": [
       "1",
-      "2",
       "3",
-      "4"
+      "4",
+      "2"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Butane (C₄H₁₀) has two structural isomers: n-butane (unbranched straight chain: CH₃-CH₂-CH₂-CH₃) and isobutane / 2-methylpropane (branched chain: CH₃-CH(CH₃)-CH₃). Both possess identical molecular formulas but different carbon chain skeletal structures.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.2.1"
   },
@@ -103,11 +103,11 @@
     "question": "Which of the following represents the correct general molecular formula for the homologous series of alkynes containing a triple bond?",
     "options": [
       "CₙH₂ₙ₊₂",
-      "CₙH₂ₙ",
       "CₙH₂ₙ₋₂",
+      "CₙH₂ₙ",
       "CₙH₂ₙ₋₄"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Alkanes have the general formula CₙH₂ₙ₊₂, alkenes (with a double bond) have CₙH₂ₙ, and alkynes (containing a carbon-carbon triple bond) have the formula CₙH₂ₙ₋₂. For propyne (n=3), formula is C₃H₄.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.2.1"
   },
@@ -134,12 +134,12 @@
     "difficulty": "Medium",
     "question": "When ethanol (CH₃CH₂OH) is warmed with alkaline potassium permanganate (KMnO₄) or acidified potassium dichromate (K₂Cr₂O₇), it is converted into:",
     "options": [
+      "Ethanoic acid",
       "Ethene",
       "Ethanal",
-      "Ethanoic acid",
       "Methane"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Alkaline KMnO₄ or acidified K₂Cr₂O₇ are strong oxidizing agents. They supply nascent oxygen to oxidize ethanol into ethanoic acid: CH₃CH₂OH + 2[O] → CH₃COOH + H₂O.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.3.2"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Medium",
     "question": "Ethanoic acid reacts with absolute ethanol in the presence of an acid catalyst to produce a sweet-smelling substance used in perfumes and flavoring agents. What is this reaction called?",
     "options": [
-      "Saponification",
       "Esterification",
+      "Saponification",
       "Fermentation",
       "Decarboxylation"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "CH₃COOH (Ethanoic acid) + C₂H₅OH (Ethanol) —[Acid]→ CH₃COOC₂H₅ (Ethyl ethanoate ester) + H₂O. The reaction between a carboxylic acid and an alcohol to form a sweet-smelling ester is known as esterification.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.4.2"
   },
@@ -183,11 +183,11 @@
     "question": "When ethyl ethanoate ester is treated with an aqueous solution of sodium hydroxide (NaOH), it is converted back into ethanol and sodium ethanoate. This alkaline hydrolysis is called:",
     "options": [
       "Esterification",
-      "Saponification",
       "Hydrogenation",
-      "Combustion"
+      "Combustion",
+      "Saponification"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "CH₃COOC₂H₅ + NaOH → C₂H₅OH + CH₃COONa. Esters react in the presence of an alkali to give back the alcohol and sodium salt of carboxylic acid. This reaction is known as saponification because it is used in the preparation of soap.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.4.2"
   },
@@ -198,12 +198,12 @@
     "difficulty": "Hard",
     "question": "Which reagent is used in the laboratory to distinguish chemically between a cooking vegetable oil (unsaturated) and butter (saturated)?",
     "options": [
-      "Bromine water (or alkaline KMnO₄)",
       "Universal indicator paper",
       "Sodium chloride solution",
+      "Bromine water (or alkaline KMnO₄)",
       "Dilute hydrochloric acid"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Unsaturated hydrocarbons (like cooking vegetable oil) contain double or triple bonds and decolorize reddish-brown bromine water due to an addition reaction. Saturated compounds (like butter) do not undergo addition and do not decolorize bromine water.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.3.3"
   },
@@ -215,11 +215,11 @@
     "question": "When ethanoic acid is added to sodium carbonate (Na₂CO₃) or sodium hydrogencarbonate (NaHCO₃), brisk effervescence is produced. Which gas is evolved?",
     "options": [
       "Hydrogen (H₂)",
-      "Oxygen (O₂)",
       "Carbon dioxide (CO₂)",
+      "Oxygen (O₂)",
       "Sulfur dioxide (SO₂)"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑. Ethanoic acid reacts with carbonates and hydrogencarbonates to liberate carbon dioxide gas with brisk effervescence, which turns lime water milky.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.4.2"
   },
@@ -230,12 +230,12 @@
     "difficulty": "Medium",
     "question": "Why do soaps form an insoluble sticky precipitate (scum) when used with hard water?",
     "options": [
-      "Soap reacts with dissolved Ca²⁺ and Mg²⁺ ions to form insoluble calcium and magnesium salts of fatty acids",
       "Soap undergoes complete combustion in the presence of dissolved oxygen",
       "Soap dissolves the dirt but hard water instantly evaporates",
+      "Soap reacts with dissolved Ca²⁺ and Mg²⁺ ions to form insoluble calcium and magnesium salts of fatty acids",
       "Soap decomposes into gaseous sodium vapor"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Hard water contains dissolved calcium and magnesium hydrogencarbonates, chlorides, or sulphates. Soap molecules react with these Ca²⁺ and Mg²⁺ ions to form insoluble calcium and magnesium stearate/palmitate (scum), wasting soap before lather can form.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.5"
   },
@@ -262,12 +262,12 @@
     "difficulty": "Easy",
     "question": "Saturated hydrocarbons generally burn in air with a clean blue flame. Why do unsaturated hydrocarbons (like ethene and ethyne) burn with a yellow flame producing lots of black smoke?",
     "options": [
-      "They contain a higher percentage of carbon, leading to incomplete combustion of unburnt carbon particles",
       "They contain no carbon atoms in their molecular backbone",
       "They absorb all ambient oxygen without reacting chemically",
-      "They have significantly higher boiling points than alkanes"
+      "They have significantly higher boiling points than alkanes",
+      "They contain a higher percentage of carbon, leading to incomplete combustion of unburnt carbon particles"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Unsaturated hydrocarbons have a higher percentage of carbon than saturated hydrocarbons. As a result, they do not undergo complete oxidation in atmospheric oxygen and produce luminous yellow sooty flames containing glowing unburnt carbon particles.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.3.1"
   },
@@ -278,12 +278,12 @@
     "difficulty": "Medium",
     "question": "In the presence of sunlight, methane reacts with chlorine to form chloromethane and hydrogen chloride: CH₄ + Cl₂ → CH₃Cl + HCl. This reaction is classified as a:",
     "options": [
-      "Addition reaction",
       "Substitution reaction",
+      "Addition reaction",
       "Decomposition reaction",
       "Esterification reaction"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Saturated hydrocarbons are fairly unreactive in the presence of most reagents. However, in the presence of sunlight, chlorine replaces the hydrogen atoms of methane one by one. This type of reaction is called a substitution reaction.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.3.4"
   },
@@ -311,11 +311,11 @@
     "question": "Pure ethanoic acid has a melting point of 290 K (17°C) and often freezes during cold winters in temperate climates. Because of this property, pure ethanoic acid is commonly called:",
     "options": [
       "Vinegar",
-      "Glacial acetic acid",
       "Carbolic acid",
-      "Formic acid"
+      "Formic acid",
+      "Glacial acetic acid"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "5-8% solution of acetic acid in water is called vinegar. The melting point of pure ethanoic acid is 290 K, and hence it often freezes during winter in cold climates, giving it the name glacial acetic acid.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.4.2"
   }

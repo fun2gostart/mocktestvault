@@ -14,7 +14,7 @@
       ],
       "answer": 0,
       "explanation": "Factor Quantity A: x^4 - 1 = (x^2 + 1)(x^2 - 1) = (x^2 + 1)(x + 1)(x - 1).\nQuantity B is (x^2 + 1)(x - 1)^2 = (x^2 + 1)(x - 1)(x - 1).\nSince x > 1, both (x^2 + 1) > 0 and (x - 1) > 0. Divide both quantities by the positive term (x^2 + 1)(x - 1):\nQuantity A becomes (x + 1).\nQuantity B becomes (x - 1).\nSince x + 1 > x - 1 for all real numbers x, Quantity A is strictly greater.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Algebra"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Algebra"
     },
     {
       "id": "gre-quant-002",
@@ -23,14 +23,14 @@
       "difficulty": "Medium",
       "question": "A circle is inscribed in a square of side length 2s, and a smaller square is inscribed inside the same circle.\n\nQuantity A: Area of the region inside the circle but outside the smaller square\nQuantity B: Area of the region inside the larger square but outside the circle\n\nCompare Quantity A and Quantity B.",
       "options": [
-        "Quantity A is greater.",
         "Quantity B is greater.",
+        "Quantity A is greater.",
         "The two quantities are equal.",
         "The relationship cannot be determined from the information given."
       ],
-      "answer": 0,
-      "explanation": "Side of large square = 2s, so its area = 4s^2.\nThe circle has diameter = 2s, so radius r = s. Area of circle = \u03c0s^2 \u2248 3.1416s^2.\nThe smaller square has diagonal = circle diameter = 2s. Area of smaller square = (diagonal^2)/2 = (4s^2)/2 = 2s^2.\nQuantity A = Area(Circle) - Area(Small Square) = \u03c0s^2 - 2s^2 = s^2(\u03c0 - 2) \u2248 1.1416s^2.\nQuantity B = Area(Large Square) - Area(Circle) = 4s^2 - \u03c0s^2 = s^2(4 - \u03c0) \u2248 0.8584s^2.\nSince 1.1416 > 0.8584, Quantity A is greater.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Geometry"
+      "answer": 1,
+      "explanation": "Side of large square = 2s, so its area = 4s^2.\nThe circle has diameter = 2s, so radius r = s. Area of circle = πs^2 ≈ 3.1416s^2.\nThe smaller square has diagonal = circle diameter = 2s. Area of smaller square = (diagonal^2)/2 = (4s^2)/2 = 2s^2.\nQuantity A = Area(Circle) - Area(Small Square) = πs^2 - 2s^2 = s^2(π - 2) ≈ 1.1416s^2.\nQuantity B = Area(Large Square) - Area(Circle) = 4s^2 - πs^2 = s^2(4 - π) ≈ 0.8584s^2.\nSince 1.1416 > 0.8584, Quantity A is greater.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Geometry"
     },
     {
       "id": "gre-quant-003",
@@ -39,14 +39,14 @@
       "difficulty": "Hard",
       "question": "Given: k is an integer such that 10 < k < 30, and k has exactly 3 positive factors.\n\nQuantity A: k\nQuantity B: 25\n\nCompare Quantity A and Quantity B.",
       "options": [
-        "The two quantities are equal.",
         "Quantity A is greater.",
         "Quantity B is greater.",
+        "The two quantities are equal.",
         "The relationship cannot be determined from the information given."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "A positive integer has exactly 3 positive factors if and only if it is the square of a prime number p (its factors being 1, p, and p^2).\nIn the range 10 < k < 30:\nSquares of primes are: 2^2 = 4 (out of range), 3^2 = 9 (out of range), 5^2 = 25 (in range, 10 < 25 < 30), 7^2 = 49 (out of range).\nThus, k must be 25. Therefore, Quantity A = 25 and Quantity B = 25. The two quantities are equal.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Number Theory"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Number Theory"
     },
     {
       "id": "gre-quant-004",
@@ -55,21 +55,21 @@
       "difficulty": "Medium",
       "question": "Line L passes through points (-3, 2) and (1, 6). Line M is perpendicular to Line L and passes through the origin (0, 0).\n\nQuantity A: The slope of Line M\nQuantity B: -1\n\nCompare Quantity A and Quantity B.",
       "options": [
-        "The two quantities are equal.",
         "Quantity A is greater.",
         "Quantity B is greater.",
-        "The relationship cannot be determined from the information given."
+        "The relationship cannot be determined from the information given.",
+        "The two quantities are equal."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Slope of Line L: m_L = (6 - 2) / (1 - (-3)) = 4 / 4 = 1.\nSince Line M is perpendicular to Line L, its slope is the negative reciprocal: m_M = -1 / m_L = -1 / 1 = -1.\nQuantity A = -1 and Quantity B = -1. The two quantities are equal.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Coordinate Geometry"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Coordinate Geometry"
     },
     {
       "id": "gre-quant-005",
       "type": "mcq",
       "subtopic": "Quantitative Comparison: Absolute Value & Inequalities",
       "difficulty": "Hard",
-      "question": "Given: |2y - 5| \u2264 7\n\nQuantity A: y\nQuantity B: 6\n\nCompare Quantity A and Quantity B.",
+      "question": "Given: |2y - 5| ≤ 7\n\nQuantity A: y\nQuantity B: 6\n\nCompare Quantity A and Quantity B.",
       "options": [
         "The relationship cannot be determined from the information given.",
         "Quantity A is greater.",
@@ -77,8 +77,8 @@
         "The two quantities are equal."
       ],
       "answer": 0,
-      "explanation": "|2y - 5| \u2264 7 means -7 \u2264 2y - 5 \u2264 7.\nAdd 5: -2 \u2264 2y \u2264 12.\nDivide by 2: -1 \u2264 y \u2264 6.\nIf y = 6, Quantity A = Quantity B.\nIf y = 0, Quantity A < Quantity B.\nSince y can be equal to or less than 6, the relationship cannot be uniquely determined.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Inequalities"
+      "explanation": "|2y - 5| ≤ 7 means -7 ≤ 2y - 5 ≤ 7.\nAdd 5: -2 ≤ 2y ≤ 12.\nDivide by 2: -1 ≤ y ≤ 6.\nIf y = 6, Quantity A = Quantity B.\nIf y = 0, Quantity A < Quantity B.\nSince y can be equal to or less than 6, the relationship cannot be uniquely determined.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Inequalities"
     },
     {
       "id": "gre-quant-006",
@@ -87,30 +87,30 @@
       "difficulty": "Medium",
       "question": "Set S consists of the integers: {12, 14, 16, 18, 20}.\nSet T is created by multiplying every element of Set S by -3.\n\nQuantity A: The standard deviation of Set T\nQuantity B: 3 times the standard deviation of Set S\n\nCompare Quantity A and Quantity B.",
       "options": [
-        "The two quantities are equal.",
         "Quantity A is greater.",
         "Quantity B is greater.",
-        "The relationship cannot be determined from the information given."
+        "The relationship cannot be determined from the information given.",
+        "The two quantities are equal."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "When all elements of a dataset are multiplied by a constant c, the standard deviation is multiplied by |c|.\nHere c = -3, so the standard deviation of Set T is |-3| * SD(S) = 3 * SD(S).\nQuantity A = 3 * SD(S) and Quantity B = 3 * SD(S). The two quantities are equal.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Statistics"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Statistics"
     },
     {
       "id": "gre-quant-007",
       "type": "mcq",
       "subtopic": "Quantitative Comparison: Triangles & Trigonometry",
       "difficulty": "Medium",
-      "question": "In right-angled triangle ABC with right angle at B, hypotenuse AC = 10, and angle BAC = 30\u00b0.\n\nQuantity A: The area of triangle ABC\nQuantity B: 25\n\nCompare Quantity A and Quantity B.",
+      "question": "In right-angled triangle ABC with right angle at B, hypotenuse AC = 10, and angle BAC = 30°.\n\nQuantity A: The area of triangle ABC\nQuantity B: 25\n\nCompare Quantity A and Quantity B.",
       "options": [
-        "Quantity B is greater.",
         "Quantity A is greater.",
         "The two quantities are equal.",
+        "Quantity B is greater.",
         "The relationship cannot be determined from the information given."
       ],
-      "answer": 0,
-      "explanation": "In a 30\u00b0-60\u00b0-90\u00b0 right triangle with hypotenuse 10:\nThe side opposite the 30\u00b0 angle (BC) = 10 / 2 = 5.\nThe side adjacent to 30\u00b0 (AB) = 5 * \u221a3 \u2248 5 * 1.732 = 8.66.\nArea = (1/2) * AB * BC = (1/2) * (5\u221a3) * 5 = 12.5\u221a3 \u2248 12.5 * 1.732 \u2248 21.65.\nQuantity A is approximately 21.65, which is strictly less than 25 (Quantity B). Thus, Quantity B is greater.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Geometry"
+      "answer": 2,
+      "explanation": "In a 30°-60°-90° right triangle with hypotenuse 10:\nThe side opposite the 30° angle (BC) = 10 / 2 = 5.\nThe side adjacent to 30° (AB) = 5 * √3 ≈ 5 * 1.732 = 8.66.\nArea = (1/2) * AB * BC = (1/2) * (5√3) * 5 = 12.5√3 ≈ 12.5 * 1.732 ≈ 21.65.\nQuantity A is approximately 21.65, which is strictly less than 25 (Quantity B). Thus, Quantity B is greater.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Geometry"
     },
     {
       "id": "gre-quant-008",
@@ -119,14 +119,14 @@
       "difficulty": "Hard",
       "question": "A fair six-sided die is rolled 3 independent times.\n\nQuantity A: The probability that at least one roll results in a 6\nQuantity B: 1/2\n\nCompare Quantity A and Quantity B.",
       "options": [
-        "Quantity B is greater.",
         "Quantity A is greater.",
+        "Quantity B is greater.",
         "The two quantities are equal.",
         "The relationship cannot be determined from the information given."
       ],
-      "answer": 0,
-      "explanation": "P(at least one 6) = 1 - P(no 6s in 3 rolls).\nProbability of not rolling a 6 on one roll = 5/6.\nP(no 6s in 3 rolls) = (5/6)^3 = 125 / 216.\nP(at least one 6) = 1 - 125/216 = 91 / 216 \u2248 0.4213.\nQuantity B is 1/2 = 0.500.\nSince 0.4213 < 0.500, Quantity B is greater.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Probability"
+      "answer": 1,
+      "explanation": "P(at least one 6) = 1 - P(no 6s in 3 rolls).\nProbability of not rolling a 6 on one roll = 5/6.\nP(no 6s in 3 rolls) = (5/6)^3 = 125 / 216.\nP(at least one 6) = 1 - 125/216 = 91 / 216 ≈ 0.4213.\nQuantity B is 1/2 = 0.500.\nSince 0.4213 < 0.500, Quantity B is greater.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Probability"
     },
     {
       "id": "gre-quant-009",
@@ -135,15 +135,15 @@
       "difficulty": "Medium",
       "question": "Machine A can produce 500 widgets in 4 hours, and Machine B can produce 500 widgets in 6 hours. If both machines operate simultaneously at their respective constant rates, how many hours will it take to produce 1,500 widgets?",
       "options": [
-        "7.2 hours",
         "6.0 hours",
         "7.5 hours",
         "8.0 hours",
-        "9.6 hours"
+        "9.6 hours",
+        "7.2 hours"
       ],
-      "answer": 0,
+      "answer": 4,
       "explanation": "Rate of Machine A = 500 / 4 = 125 widgets/hr.\nRate of Machine B = 500 / 6 = 250/3 widgets/hr.\nCombined rate = 125 + 250/3 = (375 + 250)/3 = 625/3 widgets/hr.\nTime needed for 1,500 widgets = 1,500 / (625/3) = (1,500 * 3) / 625 = 4,500 / 625 = 7.2 hours.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Rates"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Rates"
     },
     {
       "id": "gre-quant-010",
@@ -159,25 +159,25 @@
         "330"
       ],
       "answer": 0,
-      "explanation": "Committee size = 4. Conditions: \u2265 2 biochemists (B) and \u2265 1 mathematician (M).\nTwo valid compositions:\nCase 1: 2 Biochemists and 2 Mathematicians:\nC(6, 2) * C(5, 2) = 15 * 10 = 150.\nCase 2: 3 Biochemists and 1 Mathematician:\nC(6, 3) * C(5, 1) = 20 * 5 = 100.\nTotal valid committees = 150 + 100 = 250.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Combinatorics"
+      "explanation": "Committee size = 4. Conditions: ≥ 2 biochemists (B) and ≥ 1 mathematician (M).\nTwo valid compositions:\nCase 1: 2 Biochemists and 2 Mathematicians:\nC(6, 2) * C(5, 2) = 15 * 10 = 150.\nCase 2: 3 Biochemists and 1 Mathematician:\nC(6, 3) * C(5, 1) = 20 * 5 = 100.\nTotal valid committees = 150 + 100 = 250.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Combinatorics"
     },
     {
       "id": "gre-quant-011",
       "type": "mcq",
       "subtopic": "Problem Solving: Sequences & Series",
       "difficulty": "Medium",
-      "question": "For all integers n \u2265 1, sequence a_n is defined by a_1 = 3 and a_(n+1) = 2*a_n - 1. What is the value of a_5?",
+      "question": "For all integers n ≥ 1, sequence a_n is defined by a_1 = 3 and a_(n+1) = 2*a_n - 1. What is the value of a_5?",
       "options": [
-        "33",
         "29",
+        "33",
         "31",
         "35",
         "37"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Compute terms sequentially:\na_1 = 3\na_2 = 2(3) - 1 = 5\na_3 = 2(5) - 1 = 9\na_4 = 2(9) - 1 = 17\na_5 = 2(17) - 1 = 33.\nGeneral closed form is a_n = 2^n + 1: for n=5, 2^5 + 1 = 32 + 1 = 33.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Sequences"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Sequences"
     },
     {
       "id": "gre-quant-012",
@@ -186,15 +186,15 @@
       "difficulty": "Medium",
       "question": "An investor bought shares at $80 each. The stock increased in value by 25% in the first quarter, then dropped by 20% in the second quarter, and finally increased by 15% in the third quarter. What was the final value of each share?",
       "options": [
-        "$92.00",
         "$88.00",
         "$90.00",
+        "$92.00",
         "$94.50",
         "$96.00"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Initial price = $80.\nAfter +25%: 80 * 1.25 = $100.\nAfter -20%: 100 * 0.80 = $80.\nAfter +15%: 80 * 1.15 = $92.00.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Percentages"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Percentages"
     },
     {
       "id": "gre-quant-013",
@@ -203,15 +203,15 @@
       "difficulty": "Hard",
       "question": "A solid right circular cylinder has radius r and height h. If the radius is doubled and the height is halved, by what factor does the total surface area increase if h = 2r?",
       "options": [
-        "1.33 (increases by 4/3)",
         "1.50 (increases by 3/2)",
         "2.00 (doubles)",
         "1.25 (increases by 5/4)",
+        "1.33 (increases by 4/3)",
         "Remains unchanged"
       ],
-      "answer": 0,
-      "explanation": "Initial Total Surface Area: A_1 = 2\u03c0r^2 + 2\u03c0rh. Since h = 2r, A_1 = 2\u03c0r^2 + 2\u03c0r(2r) = 2\u03c0r^2 + 4\u03c0r^2 = 6\u03c0r^2.\nNew cylinder: radius r' = 2r, height h' = h/2 = r.\nNew Total Surface Area: A_2 = 2\u03c0(r')^2 + 2\u03c0r'h' = 2\u03c0(2r)^2 + 2\u03c0(2r)(r) = 8\u03c0r^2 + 4\u03c0r^2 = 12\u03c0r^2.\nRatio = 12\u03c0r^2 / 6\u03c0r^2 = 2.0 (factor of 2). Let's review: the question asks factor increase: 12 / 6 = 2.0 (doubles).",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 3D Geometry"
+      "answer": 3,
+      "explanation": "Initial Total Surface Area: A_1 = 2πr^2 + 2πrh. Since h = 2r, A_1 = 2πr^2 + 2πr(2r) = 2πr^2 + 4πr^2 = 6πr^2.\nNew cylinder: radius r' = 2r, height h' = h/2 = r.\nNew Total Surface Area: A_2 = 2π(r')^2 + 2πr'h' = 2π(2r)^2 + 2π(2r)(r) = 8πr^2 + 4πr^2 = 12πr^2.\nRatio = 12πr^2 / 6πr^2 = 2.0 (factor of 2). Let's review: the question asks factor increase: 12 / 6 = 2.0 (doubles).",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — 3D Geometry"
     },
     {
       "id": "gre-quant-014",
@@ -228,7 +228,7 @@
       ],
       "answer": 0,
       "explanation": "For any real argument u, f(u) = (u - 3)^2 + 4.\nSince (u - 3)^2 is a real square, its minimum possible value is 0 (which occurs when u = 3, i.e., 2t + 1 = 3 => t = 1).\nTherefore, the minimum value of f(2t + 1) is 0 + 4 = 4.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Functions"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Functions"
     },
     {
       "id": "gre-quant-015",
@@ -237,15 +237,15 @@
       "difficulty": "Medium",
       "question": "A chemist mixes 40 liters of a 15% acid solution with 60 liters of a 35% acid solution. What is the acid concentration of the resulting mixture?",
       "options": [
-        "27%",
         "25%",
         "28%",
         "30%",
-        "24%"
+        "24%",
+        "27%"
       ],
-      "answer": 0,
+      "answer": 4,
       "explanation": "Pure acid in Solution 1 = 40 * 0.15 = 6 liters.\nPure acid in Solution 2 = 60 * 0.35 = 21 liters.\nTotal pure acid = 6 + 21 = 27 liters.\nTotal volume = 40 + 60 = 100 liters.\nConcentration = (27 / 100) * 100% = 27%.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Mixtures"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Mixtures"
     },
     {
       "id": "gre-quant-016",
@@ -254,15 +254,15 @@
       "difficulty": "Hard",
       "question": "When positive integer n is divided by 7, the remainder is 5. When n is divided by 5, the remainder is 3. What is the remainder when n is divided by 35?",
       "options": [
-        "33",
         "12",
         "18",
         "23",
+        "33",
         "28"
       ],
-      "answer": 0,
-      "explanation": "n \u2261 5 (mod 7) => possible values of n: 5, 12, 19, 26, 33, 40...\nCheck each modulo 5:\n5 mod 5 = 0\n12 mod 5 = 2\n19 mod 5 = 4\n26 mod 5 = 1\n33 mod 5 = 3 (Matches!).\nBy Chinese Remainder Theorem, n \u2261 33 (mod 35). Thus the remainder is 33.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Modular Arithmetic"
+      "answer": 3,
+      "explanation": "n ≡ 5 (mod 7) => possible values of n: 5, 12, 19, 26, 33, 40...\nCheck each modulo 5:\n5 mod 5 = 0\n12 mod 5 = 2\n19 mod 5 = 4\n26 mod 5 = 1\n33 mod 5 = 3 (Matches!).\nBy Chinese Remainder Theorem, n ≡ 33 (mod 35). Thus the remainder is 33.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Modular Arithmetic"
     },
     {
       "id": "gre-quant-017",
@@ -271,15 +271,15 @@
       "difficulty": "Medium",
       "question": "Data: In 2024, a biomedical firm allocated its $80 million R&D budget across four divisions:\n- Oncology: 45%\n- Neurology: 25%\n- Immunology: 20%\n- Rare Diseases: 10%\n\nHow much more funding did the Oncology division receive than the Immunology division?",
       "options": [
-        "$20 million",
         "$16 million",
         "$18 million",
+        "$20 million",
         "$24 million",
         "$12 million"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Percentage difference between Oncology and Immunology = 45% - 20% = 25%.\nDollar difference = 25% of $80M = 0.25 * 80 = $20 million.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Data Interpretation"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Data Interpretation"
     },
     {
       "id": "gre-quant-018",
@@ -288,15 +288,15 @@
       "difficulty": "Hard",
       "question": "Data (Continued): In 2025, total R&D budget increases by 15%, but the Rare Diseases allocation percentage increases from 10% to 14%. What is the percent increase in funding for the Rare Diseases division from 2024 to 2025?",
       "options": [
-        "61%",
         "40%",
+        "61%",
         "52%",
         "58%",
         "65%"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "2024 Rare Diseases funding = 10% of $80M = $8.0M.\n2025 Total Budget = $80M * 1.15 = $92.0M.\n2025 Rare Diseases funding = 14% of $92.0M = 0.14 * 92 = $12.88M.\nPercent increase = [($12.88M - $8.0M) / $8.0M] * 100% = (4.88 / 8.0) * 100% = 61%.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Data Interpretation"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Data Interpretation"
     },
     {
       "id": "gre-quant-019",
@@ -305,15 +305,15 @@
       "difficulty": "Medium",
       "question": "Data: Five retail branches reported unit sales in Q1:\n- Branch A: 1,200\n- Branch B: 1,800\n- Branch C: 1,500\n- Branch D: 2,100\n- Branch E: 1,400\n\nWhat is the median number of units sold across the five branches?",
       "options": [
-        "1,500 units",
         "1,600 units",
         "1,450 units",
+        "1,500 units",
         "1,800 units",
         "1,550 units"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Arrange unit sales in ascending order: 1,200, 1,400, 1,500, 1,800, 2,100.\nWith n = 5, the median is the 3rd element: 1,500 units.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Statistics"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Statistics"
     },
     {
       "id": "gre-quant-020",
@@ -322,15 +322,15 @@
       "difficulty": "Hard",
       "question": "Data: If each unit in Branch D was sold for an average price of $45 and produced an 18% profit margin on cost, what was the total cost of goods sold for Branch D's 2,100 units (rounded to the nearest thousand)?",
       "options": [
-        "$80,000",
         "$78,000",
         "$82,000",
         "$85,000",
-        "$75,000"
+        "$75,000",
+        "$80,000"
       ],
-      "answer": 0,
-      "explanation": "Total Revenue = 2,100 units * $45 = $94,500.\nRevenue = Cost * (1 + 0.18) = 1.18 * Cost.\nCost = $94,500 / 1.18 \u2248 $80,084.75.\nRounded to the nearest thousand: $80,000.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Business Analytics"
+      "answer": 4,
+      "explanation": "Total Revenue = 2,100 units * $45 = $94,500.\nRevenue = Cost * (1 + 0.18) = 1.18 * Cost.\nCost = $94,500 / 1.18 ≈ $80,084.75.\nRounded to the nearest thousand: $80,000.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Business Analytics"
     }
   ]
 }

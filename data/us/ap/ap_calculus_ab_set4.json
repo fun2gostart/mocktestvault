@@ -7,12 +7,12 @@
       "difficulty": "Medium",
       "question": "Approximate ∫[0 to 4] x^2 dx using the trapezoidal rule with 4 subintervals of equal width.",
       "options": [
-        "22",
         "21.33",
         "20",
+        "22",
         "24"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Subinterval width Δx = (4 - 0) / 4 = 1. Grid points: 0, 1, 2, 3, 4. Function values: f(0)=0, f(1)=1, f(2)=4, f(3)=9, f(4)=16. Trapezoidal sum = (Δx/2) * [f(0) + 2f(1) + 2f(2) + 2f(3) + f(4)] = (1/2) * [0 + 2(1) + 2(4) + 2(9) + 16] = (1/2) * [0 + 2 + 8 + 18 + 16] = (1/2) * 44 = 22.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.2 Approximating Areas with Riemann Sums and Trapezoidal Rule"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Easy",
       "question": "If ∫[1 to 5] f(x) dx = 12 and ∫[1 to 3] f(x) dx = 4, what is the value of ∫[3 to 5] (2f(x) - 3) dx?",
       "options": [
-        "10",
         "16",
+        "10",
         "8",
         "13"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "∫[3 to 5] f(x) dx = ∫[1 to 5] f(x) dx - ∫[1 to 3] f(x) dx = 12 - 4 = 8. Now evaluate ∫[3 to 5] (2f(x) - 3) dx = 2 * ∫[3 to 5] f(x) dx - ∫[3 to 5] 3 dx = 2(8) - 3(5 - 3) = 16 - 6 = 10.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Hard",
       "question": "If F(x) = ∫[x to 2x] (3t + 1) dt, what is F'(x)?",
       "options": [
-        "9x + 1",
         "6x + 2",
         "3x",
-        "12x + 1"
+        "12x + 1",
+        "9x + 1"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Split the integral: F(x) = ∫[0 to 2x] (3t + 1) dt - ∫[0 to x] (3t + 1) dt. Differentiate with respect to x using FTC Part 1 and chain rule: F'(x) = [3(2x) + 1] * (2) - [3(x) + 1] * (1) = (6x + 1)(2) - (3x + 1) = 12x + 2 - 3x - 1 = 9x + 1.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.4 Fundamental Theorem of Calculus Part 1"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Medium",
       "question": "Evaluate the definite integral: ∫[0 to 1] x * e^(x^2) dx.",
       "options": [
-        "(e - 1) / 2",
         "e - 1",
+        "(e - 1) / 2",
         "(e + 1) / 2",
         "e / 2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let u = x^2, then du = 2x dx → x dx = du/2. When x = 0, u = 0; when x = 1, u = 1. Integral becomes (1/2) * ∫[0 to 1] e^u du = (1/2)[e^u]_0^1 = (1/2)(e^1 - e^0) = (e - 1) / 2.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Hard",
       "question": "What is the value of ∫[0 to 2] [1 / (4 + x^2)] dx?",
       "options": [
-        "π / 8",
         "π / 4",
         "π / 2",
-        "1 / 4"
+        "1 / 4",
+        "π / 8"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Standard integral form: ∫ [1 / (a^2 + x^2)] dx = (1/a) * arctan(x/a) + C. Here a = 2. Value = [(1/2) * arctan(x/2)]_0^2 = (1/2) * [arctan(1) - arctan(0)] = (1/2) * (π/4 - 0) = π / 8.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.10 Integrating Functions Using Long Division or Completing the Square"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Hard",
       "question": "Evaluate the indefinite integral: ∫ x * √(x - 1) dx.",
       "options": [
-        "(2/5)(x - 1)^(5/2) + (2/3)(x - 1)^(3/2) + C",
         "(2/5)(x - 1)^(5/2) - (2/3)(x - 1)^(3/2) + C",
         "(1/2)x^2 * (2/3)(x - 1)^(3/2) + C",
+        "(2/5)(x - 1)^(5/2) + (2/3)(x - 1)^(3/2) + C",
         "(2/3)(x - 1)^(3/2) + C"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let u = x - 1 → x = u + 1 and dx = du. The integral becomes ∫ (u + 1) * u^(1/2) du = ∫ (u^(3/2) + u^(1/2)) du = (2/5)u^(5/2) + (2/3)u^(3/2) + C = (2/5)(x - 1)^(5/2) + (2/3)(x - 1)^(3/2) + C.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Easy",
       "question": "What is the value of ∫[-π to π] [x^3 * cos(x) + 5] dx?",
       "options": [
-        "10π",
         "0",
+        "10π",
         "5π",
         "20π"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Break into two integrals: ∫[-π to π] x^3 * cos(x) dx + ∫[-π to π] 5 dx. The function g(x) = x^3 * cos(x) is odd (since (-x)^3 * cos(-x) = -x^3 * cos(x)). The integral of any odd continuous function over a symmetric interval [-a, a] is strictly 0. ∫[-π to π] 5 dx = 5 * [π - (-π)] = 5 * 2π = 10π. Total = 0 + 10π = 10π.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals and Symmetry"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Medium",
       "question": "A reservoir contains 500 gallons of water at t = 0. Water flows into the reservoir at a rate of r(t) = 100 * e^(-0.2t) gallons per hour. How much water is in the reservoir at t = 5 hours?",
       "options": [
-        "500 + 500(1 - e^-1) gallons",
         "500 + 100(1 - e^-1) gallons",
         "500 - 500e^-1 gallons",
+        "500 + 500(1 - e^-1) gallons",
         "1,000 gallons"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Total water at t = 5: W(5) = W(0) + ∫[0 to 5] r(t) dt = 500 + ∫[0 to 5] 100 * e^(-0.2t) dt. Antiderivative is 100 / (-0.2) * e^(-0.2t) = -500 * e^(-0.2t). Evaluate from 0 to 5: -500(e^-1 - e^0) = 500(1 - e^-1). Total = 500 + 500(1 - e^-1) gallons.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.3 The Fundamental Theorem of Calculus and Accumulation Functions"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Medium",
       "question": "Use a Midpoint Riemann Sum with n = 2 subintervals of equal width to approximate ∫[0 to 4] (x^3 + 1) dx.",
       "options": [
-        "60",
         "68",
         "34",
-        "72"
+        "72",
+        "60"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Interval [0, 4] with n = 2 has subinterval width Δx = 2. Subintervals: [0, 2] with midpoint 1; [2, 4] with midpoint 3. f(1) = 1 + 1 = 2. f(3) = 27 + 1 = 28. Midpoint sum = 2 * (2 + 28) = 2 * 30 = 60.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.2 Midpoint Riemann Sums"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Easy",
       "question": "What is the value of ∫[1 to e^3] (1 / x) dx?",
       "options": [
-        "3",
         "e^3 - 1",
         "ln(3)",
+        "3",
         "1/3"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Antiderivative of 1/x is ln|x|. Evaluated from 1 to e^3: ln(e^3) - ln(1) = 3 - 0 = 3.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Medium",
       "question": "If g(x) = ∫[2 to x] √(t^3 + 1) dt, what is the value of g'(2)?",
       "options": [
-        "3",
         "0",
+        "3",
         "9",
         "Undefined"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "By FTC Part 1, g'(x) = √(x^3 + 1). Evaluating at x = 2 gives g'(2) = √(2^3 + 1) = √(8 + 1) = √9 = 3.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.4 Accumulation Functions"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Medium",
       "question": "What is the value of ∫[-2 to 3] |x| dx?",
       "options": [
-        "13/2",
         "5/2",
         "5",
-        "13"
+        "13",
+        "13/2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Split the integral at x = 0: ∫[-2 to 0] (-x) dx + ∫[0 to 3] (x) dx = [-x^2/2]_{-2}^0 + [x^2/2]_0^3 = (0 - (-4/2)) + (9/2 - 0) = 2 + 9/2 = 4/2 + 9/2 = 13/2.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals and Piecewise Integrals"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Medium",
       "question": "Evaluate: ∫ cos(x) * sin^4(x) dx.",
       "options": [
-        "(1/5) * sin^5(x) + C",
         "(1/5) * cos^5(x) + C",
+        "(1/5) * sin^5(x) + C",
         "-(1/5) * sin^5(x) + C",
         "sin^5(x) + C"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let u = sin(x), then du = cos(x) dx. The integral becomes ∫ u^4 du = (1/5)u^5 + C = (1/5) * sin^5(x) + C.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Medium",
       "question": "The graph of f consists of a semicircle of radius 2 centered at (2, 0) above the x-axis on [0, 4] and a triangle with vertices (4, 0), (6, -3), and (8, 0) below the x-axis. What is ∫[0 to 8] f(x) dx?",
       "options": [
-        "2π - 6",
         "4π - 6",
         "2π - 12",
-        "4π - 12"
+        "4π - 12",
+        "2π - 6"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Area above x-axis on [0, 4]: semicircle of radius r = 2 has area (1/2)πr^2 = (1/2)π(4) = 2π. Area below x-axis on [4, 8]: triangle has base = 8 - 4 = 4 and height = 3, area = (1/2)(4)(3) = 6. Since it is below the x-axis, its integral is -6. Total ∫[0 to 8] f(x) dx = 2π - 6.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.6 Definite Integrals as Geometric Area"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Medium",
       "question": "Evaluate the definite integral: ∫[0 to 3] [x / √(x^2 + 16)] dx.",
       "options": [
-        "1",
         "5",
         "4",
+        "1",
         "2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let u = x^2 + 16, du = 2x dx → x dx = du/2. When x = 0, u = 16; when x = 3, u = 25. The integral becomes (1/2) ∫[16 to 25] u^(-1/2) du = (1/2) * [2u^(1/2)]_16^25 = [√u]_16^25 = √25 - √16 = 5 - 4 = 1.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
     }

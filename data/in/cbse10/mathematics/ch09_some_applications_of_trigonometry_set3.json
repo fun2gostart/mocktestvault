@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The angle of elevation of an object viewed from a ground point is always equal to the angle of depression of the ground point viewed from the object.\nReason (R): The line of sight forms alternate interior angles between two parallel horizontal lines passing through the observer's eye and the ground point.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Because the horizontal line of observation at the top is parallel to the ground horizontal, the line of sight acts as a transversal line making alternate interior angles equal. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): If the angles of elevation of the top of a tower from two points at distances 9 m and 16 m from the base are complementary, the height of the tower is 12 m.\nReason (R): For any tower of height h with complementary angles of elevation from distances a and b on the same side, h = sqrt(ab).",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Here h = sqrt(9 * 16) = sqrt(144) = 12 m. Reason (R) states the general formula h = sqrt(ab) for complementary angles of elevation. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 16"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): When calculating the height of a tall mountain from the ground, the height of the observer is often neglected, but for a 10 m building, it must be included.\nReason (R): An observer height of ~1.5 m is negligible compared to a mountain of 5000 m, but constitutes 15% of a 10 m building.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "In engineering and survey trigonometry, small heights can be neglected when the total scale is thousands of times larger, but must be accounted for when the scale is comparable. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
@@ -72,11 +72,11 @@
       "question": "Assertion (A): The angle of depression of an object can be greater than 90 degrees.\nReason (R): The angle of depression is measured downward from the horizontal line of sight to the line of sight, ranging strictly from 0 deg to 90 deg.",
       "options": [
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "(A) is false, but (R) is true.",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-        "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is true, but (R) is false."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Assertion (A) is FALSE: An angle of depression cannot exceed 90 degrees (which would be straight down beneath the observer). Reason (R) is TRUE: it ranges strictly between 0 and 90 degrees. Thus (A) is false, but (R) is true.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): Two identical street poles of height h stand on opposite sides of a road. If the angle of elevation from the exact center of the road to both tops is equal, then the center is equidistant from both poles.\nReason (R): In a right-angled triangle, if height h and elevation angle theta are identical, the base distance d = h / tan theta must be identical.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Since d = h / tan theta, identical h and identical theta uniquely define identical distance d. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): If the angle of elevation of a tower from a distance of 50 m is 45 degrees, the tower is exactly 50 m high.\nReason (R): tan 45 deg = 1, which implies that the opposite side (height) equals the adjacent side (base distance).",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Height = distance * tan 45 deg = 50 * 1 = 50 m. Reason (R) states the identity tan 45 deg = 1 which directly explains Assertion (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): For a 30-degree angle of elevation, the base distance is always greater than the height.\nReason (R): tan 30 deg = 1 / sqrt(3) < 1, which means height / base < 1, so base > height.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Since 1/sqrt(3) approx 0.577 < 1, height = 0.577 * base, making base approx 1.732 * height > height. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
@@ -153,10 +153,10 @@
       "options": [
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-        "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "(A) is true, but (R) is false."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Assertion (A) is FALSE: If theta = 45 deg, doubling distance makes tan theta' = 1/2 = 0.5 => theta' approx 26.57 deg (not 22.5 deg!). Reason (R) is TRUE: trigonometric tangent is non-linear. Thus (A) is false, but (R) is true.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Easy",
       "question": "Case Study 1 (Continued): Driven by wind, the balloon drifts horizontally away. A minute later, its angle of elevation drops to 30 degrees. What is its new horizontal distance from the observer?",
       "options": [
-        "90 sqrt(3) metres (~155.88 m)",
         "30 sqrt(3) metres",
+        "90 sqrt(3) metres (~155.88 m)",
         "90 metres",
         "120 metres"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "tan 30 deg = 90 / d2 => 1 / sqrt(3) = 90 / d2 => d2 = 90*sqrt(3) metres.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 14"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Medium",
       "question": "Case Study 1 (Continued): What total horizontal distance did the hot air balloon travel during this one-minute interval?",
       "options": [
-        "60 sqrt(3) metres (~103.92 m)",
         "90 sqrt(3) metres",
+        "60 sqrt(3) metres (~103.92 m)",
         "30 sqrt(3) metres",
         "50 sqrt(3) metres"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Distance drifted = d2 - d1 = 90*sqrt(3) - 30*sqrt(3) = 60*sqrt(3) metres (approx 103.92 m).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 14"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Easy",
       "question": "Case Study 2 (Maritime Safety): A lighthouse keeper at the top of a 100 m cliff monitors two cargo ships approaching a harbor along the same line of sight. The angle of depression of the closer ship is 45 degrees. How far is this closer ship from the base of the cliff?",
       "options": [
-        "100 metres",
         "50 metres",
         "100 sqrt(3) metres",
-        "141.4 metres"
+        "141.4 metres",
+        "100 metres"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Angle of depression 45 deg = angle of elevation from ship. Distance = 100 / tan 45 deg = 100 / 1 = 100 metres.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 13"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Easy",
       "question": "Case Study 2 (Continued): The angle of depression of the second ship farther away is 30 degrees. What is the distance of the second ship from the base of the cliff?",
       "options": [
-        "100 sqrt(3) metres (~173.2 m)",
         "100 metres",
         "200 metres",
+        "100 sqrt(3) metres (~173.2 m)",
         "50 sqrt(3) metres"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Distance = 100 / tan 30 deg = 100 / (1/sqrt(3)) = 100*sqrt(3) metres (approx 173.2 m).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 13"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Medium",
       "question": "Case Study 3 (Continued): How high above the drone's hovering level is the rooftop mast?",
       "options": [
-        "30 sqrt(3) metres (~51.96 m)",
         "30 metres",
+        "30 sqrt(3) metres (~51.96 m)",
         "60 metres",
         "45 metres"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Looking up at 45 deg: tan 45 deg = h_mast / d => 1 = h_mast / (30*sqrt(3)) => h_mast = 30*sqrt(3) metres.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Competency Focused Question"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Medium",
       "question": "Case Study 4 (Survey of India): Surveyors set up two observation stations A and B on a level plateau, 1000 metres apart along a straight line pointing towards an inaccessible Himalayan ridge. At station B (nearer to ridge), the angle of elevation of the summit peak is 60 degrees. At station A (farther), the angle of elevation is 30 degrees. If 'h' is the height of the summit above the plateau and 'x' is the ground distance from B to the point directly below the peak, which relation between h and x is obtained at station B?",
       "options": [
-        "h = x sqrt(3)",
         "h = x / sqrt(3)",
         "h = x + 1000",
-        "h = 2x"
+        "h = 2x",
+        "h = x sqrt(3)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "At station B: tan 60 deg = h / x => sqrt(3) = h / x => h = x*sqrt(3).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Competency Focused Question"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Hard",
       "question": "Case Study 4 (Continued): What is the height of the Himalayan summit peak above the plateau?",
       "options": [
-        "500 sqrt(3) metres (~866 m)",
         "1000 sqrt(3) metres",
         "750 metres",
+        "500 sqrt(3) metres (~866 m)",
         "600 sqrt(3) metres"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "At station A: tan 30 deg = h / (x + 1000) => 1/sqrt(3) = (x*sqrt(3)) / (x + 1000) => x + 1000 = 3x => 2x = 1000 => x = 500 metres. Summit height h = x*sqrt(3) = 500*sqrt(3) metres (approx 866 m).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Competency Focused Question"
     }

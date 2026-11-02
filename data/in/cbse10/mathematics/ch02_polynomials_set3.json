@@ -22,12 +22,12 @@
     "difficulty": "Easy",
     "question": "Assertion (A): The algebraic expression p(x) = 3x^2 - 5x + 4 is a quadratic polynomial of degree 2.\nReason (R): The degree of a polynomial is the highest exponent of the variable x appearing with a non-zero coefficient.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true."
+      "(A) is false, but (R) is true.",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). In p(x), the highest power of x is 2, defining it as a polynomial of degree 2 (quadratic).",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1 Introduction"
   },
@@ -38,12 +38,12 @@
     "difficulty": "Medium",
     "question": "Assertion (A): If the curve of a polynomial y = p(x) intersects the x-axis at 3 distinct points and touches the x-axis at 1 point, p(x) has a total of 4 real zeroes.\nReason (R): The number of real zeroes of any polynomial y = p(x) is equal to the total number of points where its graph intersects or touches the x-axis.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Both statements are true and Reason explains Assertion. Every intersection point represents a real zero, and every tangency (touching) point represents a repeated real zero. 3 crossing points + 1 touching point = 4 real zeroes.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
@@ -54,12 +54,12 @@
     "difficulty": "Medium",
     "question": "Assertion (A): If one zero of a quadratic polynomial with rational coefficients is (3 - sqrt(2)), its second zero must be (3 + sqrt(2)).\nReason (R): In any polynomial with rational coefficients, irrational roots containing square roots always occur in conjugate radical pairs.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Both statements are true and Reason explains Assertion. If one zero is (p - sqrt(q)), the conjugate (p + sqrt(q)) must be the second zero so that their sum 2p and product (p^2 - q) are rational numbers.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },
@@ -86,12 +86,12 @@
     "difficulty": "Medium",
     "question": "Assertion (A): If one zero of the quadratic polynomial p(x) = ax^2 + bx + c is the reciprocal of the other, then c = a.\nReason (R): The product of zeroes of a quadratic polynomial ax^2 + bx + c is given by c / a.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Both statements are true and Reason (R) directly explains Assertion (A). If zeroes are alpha and 1/alpha, their product is alpha * (1/alpha) = 1. Since product = c / a, we have c / a = 1 => c = a.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },
@@ -102,12 +102,12 @@
     "difficulty": "Easy",
     "question": "Assertion (A): The graph of any linear polynomial p(x) = ax + b (where a != 0) is a straight line that intersects the x-axis at exactly one point.\nReason (R): A linear polynomial of degree 1 has exactly one real zero, given by x = -b / a.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Both statements are true and Reason explains Assertion. A linear polynomial has exactly one root (x = -b/a), meaning its straight-line graph intersects the x-axis at exactly one point (-b/a, 0).",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Hard",
     "question": "A civil engineer models the curved suspension cable of a footbridge using the quadratic polynomial y = x^2 - 6x + 8, where x is horizontal distance in meters and y is vertical height above the bridge deck. At what horizontal coordinates does the suspension cable meet the bridge deck (y = 0), and what is the horizontal span between these anchor points?",
     "options": [
-      "Anchor points at x = 2 m and x = 4 m; horizontal span = 2 metres",
       "Anchor points at x = 1 m and x = 8 m; horizontal span = 7 metres",
       "Anchor points at x = -2 m and x = -4 m; horizontal span = 6 metres",
+      "Anchor points at x = 2 m and x = 4 m; horizontal span = 2 metres",
       "Anchor points at x = 3 m and x = 5 m; horizontal span = 2 metres"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Setting y = 0: x^2 - 6x + 8 = 0 => (x - 2)(x - 4) = 0 => x = 2 and x = 4. The cable touches the deck at x = 2 m and x = 4 m. The horizontal span between anchor points is 4 - 2 = 2 metres.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
@@ -182,12 +182,12 @@
     "difficulty": "Medium",
     "question": "A festive fireworks rocket is launched from ground level. Its altitude h(t) in meters after t seconds is modeled by the polynomial h(t) = -5t^2 + 20t. What are the zeroes of this polynomial, and what do they physically represent?",
     "options": [
-      "t = 0 and t = 4; representing the launch time (t = 0 s) and the splashdown/landing time (t = 4 s)",
       "t = 2 and t = 5; representing the time of maximum velocity",
+      "t = 0 and t = 4; representing the launch time (t = 0 s) and the splashdown/landing time (t = 4 s)",
       "t = 0 and t = 20; representing total propellant burn duration",
       "t = 4 and t = -4; representing flight range"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Setting h(t) = 0: -5t^2 + 20t = 0 => -5t(t - 4) = 0 => t = 0 s or t = 4 s. At t = 0, the rocket is at ground level before takeoff; at t = 4 s, it returns to ground level at the end of its parabolic trajectory.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
@@ -198,12 +198,12 @@
     "difficulty": "Medium",
     "question": "The cross-section of a mountain highway tunnel is shaped as a parabola given by p(x) = -x^2 + 4, where y = p(x) is height in meters and x is horizontal distance from the tunnel midline in meters. What is the total width of the road inside the tunnel at floor level (y = 0), and what is the maximum vertical clearance at the center?",
     "options": [
-      "Road width = 4 metres; maximum center clearance = 4 metres",
       "Road width = 2 metres; maximum center clearance = 2 metres",
+      "Road width = 4 metres; maximum center clearance = 4 metres",
       "Road width = 8 metres; maximum center clearance = 4 metres",
       "Road width = 4 metres; maximum center clearance = 2 metres"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "At road level y = 0: -x^2 + 4 = 0 => x^2 = 4 => x = +-2 m. The tunnel walls meet the road at x = -2 and x = +2, giving a total road width of 2 - (-2) = 4 metres. The maximum clearance at the center (x = 0) is p(0) = -(0)^2 + 4 = 4 metres.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Hard",
     "question": "A electronics corporation models its net operating profit P(x) in lakhs of rupees for producing x thousand smartphones with the quadratic polynomial P(x) = -2x^2 + 12x - 10. What are the break-even production levels where profit is zero (P(x) = 0)?",
     "options": [
-      "x = 1 thousand and x = 5 thousand units",
       "x = 2 thousand and x = 6 thousand units",
       "x = 3 thousand units only",
-      "x = 0 and x = 10 thousand units"
+      "x = 0 and x = 10 thousand units",
+      "x = 1 thousand and x = 5 thousand units"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Break-even occurs when P(x) = 0: -2x^2 + 12x - 10 = 0. Divide by -2: x^2 - 6x + 5 = 0 => (x - 1)(x - 5) = 0 => x = 1 or x = 5. The company breaks even at 1,000 units and 5,000 units.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
   },
@@ -230,12 +230,12 @@
     "difficulty": "Hard",
     "question": "A soccer striker kicks a ball whose trajectory is described by y = -0.1x^2 + x, where x is horizontal distance in meters and y is height above the pitch in meters. What is the total horizontal range of the kick before touching the turf, and what is the maximum height achieved by the ball?",
     "options": [
-      "Range = 10 metres; Maximum height = 2.5 metres",
       "Range = 20 metres; Maximum height = 5.0 metres",
       "Range = 10 metres; Maximum height = 1.0 metre",
+      "Range = 10 metres; Maximum height = 2.5 metres",
       "Range = 5 metres; Maximum height = 2.5 metres"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Touchdown occurs when y = 0: -0.1x^2 + x = 0 => x(-0.1x + 1) = 0 => x = 0 m (kick point) or x = 1 / 0.1 = 10 m (landing point). Maximum height occurs at the midpoint x = 5 m: y = -0.1(5)^2 + 5 = -0.1(25) + 5 = -2.5 + 5 = 2.5 metres.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
@@ -262,12 +262,12 @@
     "difficulty": "Medium",
     "question": "An agricultural irrigation sprinkler sprays water along a parabolic stream given by y = -0.2x^2 + 0.8x + 2.4, where x is horizontal distance in meters from the pole and y is height in meters. What is the height of the sprinkler head mounted on the pole (at x = 0)?",
     "options": [
-      "2.4 metres",
       "0.8 metres",
       "3.2 metres",
-      "1.6 metres"
+      "1.6 metres",
+      "2.4 metres"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "At the pole, horizontal distance x = 0. Substituting x = 0 into y = -0.2(0)^2 + 0.8(0) + 2.4 yields y = 2.4 metres.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
   },
@@ -278,12 +278,12 @@
     "difficulty": "Hard",
     "question": "An Olympic diver springs upward from a 10-meter platform. The diver's height h(t) in meters above water after t seconds is given by h(t) = -5t^2 + 5t + 10. How many seconds does the diver spend in the air before hitting the water surface (h(t) = 0)?",
     "options": [
-      "2 seconds",
       "1 second",
       "3 seconds",
+      "2 seconds",
       "2.5 seconds"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Set h(t) = 0: -5t^2 + 5t + 10 = 0. Divide by -5: t^2 - t - 2 = 0 => (t - 2)(t + 1) = 0. Since time cannot be negative (t >= 0), t = 2 seconds.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
@@ -294,12 +294,12 @@
     "difficulty": "Hard",
     "question": "A satellite dish antenna has a parabolic cross-section modeled by y = ax^2. The dish is 8 meters wide at its rim (x spans from -4 to +4) and has a depth of 2 meters at the rim (y = 2 when x = 4). What is the value of the curvature coefficient a?",
     "options": [
-      "1/8 (or 0.125)",
       "1/4",
+      "1/8 (or 0.125)",
       "1/16",
       "1/2"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "The rim coordinates are (4, 2). Substituting into y = ax^2 gives 2 = a(4)^2 => 2 = 16a => a = 2 / 16 = 1/8 = 0.125.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },

@@ -23,12 +23,12 @@
       "difficulty": "Medium",
       "question": "A block of mass m slides down an incline tilted at angle θ above the horizontal at a constant velocity. What is the coefficient of kinetic friction μk between the block and the incline?",
       "options": [
-        "tan(θ)",
         "sin(θ)",
         "cos(θ)",
+        "tan(θ)",
         "1 / tan(θ)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "At constant velocity, acceleration a = 0. Forces parallel to incline: mg * sin(θ) - f_k = 0 → f_k = mg * sin(θ). Normal force F_N = mg * cos(θ). Since f_k = μk * F_N: μk * mg * cos(θ) = mg * sin(θ) → μk = sin(θ) / cos(θ) = tan(θ).",
       "citation": "College Board AP® Physics 1 CED — Topic 2.6 Inclined Planes"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Medium",
       "question": "An ideal Atwood machine consists of two masses m1 = 3 kg and m2 = 5 kg connected by a light string over a frictionless, massless pulley. What is the acceleration of the system? (Use g = 9.8 m/s^2)",
       "options": [
-        "2.45 m/s^2",
         "4.90 m/s^2",
+        "2.45 m/s^2",
         "1.23 m/s^2",
         "9.80 m/s^2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "System acceleration a = (m2 - m1) * g / (m1 + m2) = (5 - 3) * 9.8 / (5 + 3) = 2 * 9.8 / 8 = 19.6 / 8 = 2.45 m/s^2.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.7 Two-Body Systems and Connected Objects"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Hard",
       "question": "For the Atwood machine in the previous problem (m1 = 3 kg, m2 = 5 kg, g = 9.8 m/s^2, a = 2.45 m/s^2), what is the tension in the connecting string?",
       "options": [
-        "36.75 N",
         "49.0 N",
         "29.4 N",
-        "19.6 N"
+        "19.6 N",
+        "36.75 N"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Consider the lighter mass m1 accelerating upward: T - m1*g = m1*a → T = m1(g + a) = 3 kg * (9.8 + 2.45) m/s^2 = 3 * 12.25 = 36.75 N. (Check with m2: m2*g - T = m2*a → T = 5(9.8 - 2.45) = 5(7.35) = 36.75 N).",
       "citation": "College Board AP® Physics 1 CED — Topic 2.7 Two-Body Systems and Connected Objects"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Medium",
       "question": "A 60 kg student stands on a scale in an elevator. What does the scale read, in Newtons, when the elevator accelerates upward at 2.5 m/s^2? (Use g = 9.8 m/s^2)",
       "options": [
-        "738 N",
         "588 N",
         "438 N",
+        "738 N",
         "150 N"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The scale measures normal force F_N. Applying Newton's Second Law: F_N - mg = ma → F_N = m(g + a) = 60 kg * (9.8 + 2.5) m/s^2 = 60 * 12.3 = 738 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Newton's First and Second Laws"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Hard",
       "question": "A 4 kg block rests on a frictionless horizontal table and is attached to a 1 kg hanging mass by a light cord over a frictionless pulley. What is the acceleration of the 4 kg block? (Use g = 10 m/s^2)",
       "options": [
-        "2.0 m/s^2",
         "2.5 m/s^2",
         "10.0 m/s^2",
-        "8.0 m/s^2"
+        "8.0 m/s^2",
+        "2.0 m/s^2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The net external pulling force on the total system is the weight of the hanging mass: F_net = m_hang * g = 1 kg * 10 m/s^2 = 10 N. Total system mass = m_table + m_hang = 4 kg + 1 kg = 5 kg. a = F_net / m_total = 10 N / 5 kg = 2.0 m/s^2.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.7 Two-Body Systems"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Medium",
       "question": "Two blocks, A (mass 6 kg) and B (mass 4 kg), sit in contact on a frictionless surface. A horizontal force F = 30 N pushes block A toward block B. What is the magnitude of the contact force that block A exerts on block B?",
       "options": [
-        "12 N",
         "18 N",
+        "12 N",
         "30 N",
         "6 N"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Total system acceleration a = F / (m_A + m_B) = 30 N / (6 + 4) kg = 3.0 m/s^2. Block B is accelerated purely by the contact force F_AB: F_AB = m_B * a = 4 kg * 3.0 m/s^2 = 12 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Newton's Second Law and Systems"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Hard",
       "question": "A sled of mass 20 kg is pulled across level snow by a rope with tension T = 50 N directed at an angle of 37° above the horizontal (cos 37° ≈ 0.8, sin 37° ≈ 0.6). What is the normal force exerted by the snow on the sled? (Use g = 10 m/s^2)",
       "options": [
-        "170 N",
         "200 N",
         "230 N",
-        "160 N"
+        "160 N",
+        "170 N"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Vertical forces: F_N + T*sin(37°) - mg = 0. T*sin(37°) = 50 * 0.6 = 30 N. mg = 20 * 10 = 200 N. F_N = 200 N - 30 N = 170 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.1 Systems and Free-Body Diagrams"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Medium",
       "question": "An object of mass m falls through air where air resistance is modeled by F_drag = b*v. What is the terminal velocity of the falling object?",
       "options": [
-        "mg / b",
         "b / (mg)",
         "√(mg / b)",
+        "mg / b",
         "m / (bg)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "At terminal velocity, the net force is zero and acceleration a = 0. mg - F_drag = 0 → mg - b*v_term = 0 → v_term = mg / b.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Forces and Terminal Velocity"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Medium",
       "question": "Mass A (2 kg) hangs by a string from the ceiling. Mass B (3 kg) hangs by a second string from the bottom of Mass A. What is the tension in the string connecting Mass A to the ceiling? (Use g = 9.8 m/s^2)",
       "options": [
-        "49.0 N",
         "29.4 N",
+        "49.0 N",
         "19.6 N",
         "9.8 N"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The top string supports both masses (m_total = 2 + 3 = 5 kg). In static equilibrium: T_top = m_total * g = 5 kg * 9.8 m/s^2 = 49.0 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Equilibrium Systems"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Hard",
       "question": "A frictionless wedge of angle θ is accelerated horizontally with acceleration a such that a small block resting on the incline does not slide up or down. What must acceleration a equal?",
       "options": [
-        "g * tan(θ)",
         "g * sin(θ)",
         "g * cos(θ)",
+        "g * tan(θ)",
         "g / tan(θ)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The normal force F_N has vertical component F_N * cos(θ) = mg and horizontal component F_N * sin(θ) = ma. Divide the horizontal equation by the vertical equation: tan(θ) = ma / mg = a / g → a = g * tan(θ).",
       "citation": "College Board AP® Physics 1 CED — Topic 2.6 Inclined Planes in Non-Inertial/Accelerating Frames"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Medium",
       "question": "A car travelling on a flat road at speed v0 slams on its brakes and skids to a stop with locked wheels. If the coefficient of kinetic friction is μk, which expression gives the stopping distance d?",
       "options": [
-        "v0^2 / (2 * μk * g)",
         "v0^2 / (μk * g)",
         "2 * v0^2 / (μk * g)",
-        "v0 / (μk * g)"
+        "v0 / (μk * g)",
+        "v0^2 / (2 * μk * g)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Frictional deceleration a = f_k / m = (μk * mg) / m = μk * g. Using kinematics v^2 = v0^2 - 2ad with final v = 0: 0 = v0^2 - 2(μk * g)d → d = v0^2 / (2 * μk * g).",
       "citation": "College Board AP® Physics 1 CED — Topic 2.5 Friction and Kinematics"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Medium",
       "question": "A 5 kg block is held stationary on a frictionless 30° incline by a rope parallel to the incline. What is the tension in the rope? (Use g = 9.8 m/s^2)",
       "options": [
-        "24.5 N",
         "49.0 N",
+        "24.5 N",
         "42.4 N",
         "12.25 N"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "For equilibrium parallel to the incline: T = mg * sin(θ) = 5 kg * 9.8 m/s^2 * sin(30°) = 49 * 0.5 = 24.5 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.6 Inclined Planes"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Hard",
       "question": "Two masses m1 = 4 kg and m2 = 4 kg sit on a double frictionless ramp. m1 is on a 30° slope and m2 is on a 60° slope, connected by a light string over the peak pulley. Which way will the system accelerate?",
       "options": [
-        "m2 accelerates down the 60° slope because mg*sin(60°) > mg*sin(30°)",
         "m1 accelerates down the 30° slope because it has greater mechanical advantage",
+        "m2 accelerates down the 60° slope because mg*sin(60°) > mg*sin(30°)",
         "The system remains in static equilibrium because both masses are 4 kg",
         "The system oscillates back and forth perpetually"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The gravitational force pulling parallel to the slope on m2 is m2*g*sin(60°) = 4g * 0.866 = 3.464g. For m1, m1*g*sin(30°) = 4g * 0.5 = 2.0g. Because 3.464g > 2.0g, m2 accelerates down the 60° slope.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.7 Two-Body Systems on Inclines"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Medium",
       "question": "A constant net horizontal force F is applied to a cart. As the cart moves, sand leaks out of a hole in the bottom of the cart at a steady rate. What happens to the acceleration of the cart?",
       "options": [
-        "The acceleration increases continuously because the total mass decreases",
         "The acceleration remains constant because force F is constant",
         "The acceleration decreases because momentum is carried away by the sand",
-        "The acceleration drops to zero"
+        "The acceleration drops to zero",
+        "The acceleration increases continuously because the total mass decreases"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "By Newton's Second Law, a = F_net / m. If the net force F_net is held constant while mass m decreases due to leaking sand, the denominator decreases, causing acceleration a to increase continuously.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Newton's Second Law"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Medium",
       "question": "An elevator accelerates downward at a rate of a = 2.0 m/s^2. If a passenger has a mass of 50 kg, what is the normal force exerted on the passenger? (Use g = 9.8 m/s^2)",
       "options": [
-        "390 N",
         "490 N",
         "590 N",
+        "390 N",
         "100 N"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Downward acceleration: mg - F_N = ma → F_N = m(g - a) = 50 kg * (9.8 - 2.0) m/s^2 = 50 * 7.8 = 390 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Apparent Weight"
     }

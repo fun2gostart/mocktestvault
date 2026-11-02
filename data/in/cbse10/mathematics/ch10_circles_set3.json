@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): No tangent can be drawn to a circle from a point lying inside it.\nReason (R): Every straight line passing through an interior point of a circle must intersect the circle in two distinct points, forming a secant rather than a tangent.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "A tangent touches a circle at exactly one point. Any line through an internal point cuts the circle twice, making it impossible to be a tangent. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.2"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The lengths of tangents drawn from an external point to a circle are equal.\nReason (R): The two right-angled triangles formed by the tangents, radii, and the common line segment connecting the external point to the centre are congruent by RHS congruence criterion.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "This is the exact proof of Theorem 10.2: triangle OPA is congruent to triangle OPB by RHS (hypotenuse OP common, radius OA = OB, right angles at A and B). Thus PA = PB. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Theorem 10.2"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): If a chord of a larger circle touches an inner concentric circle, the point of contact bisects the chord.\nReason (R): The radius of the inner circle to the point of contact is perpendicular to the tangent chord, and the perpendicular from the centre of a circle to a chord bisects the chord.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "OP is perpendicular to AB (by Theorem 10.1). Since AB is also a chord of the outer circle with centre O, the perpendicular from the centre bisects the chord (AP = PB). Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 7"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): If two tangents drawn from an external point to a circle of radius 4 cm are mutually perpendicular, the distance of the external point from the centre is 4 sqrt(2) cm.\nReason (R): The quadrilateral formed by the two tangents and the two radii through the points of contact is a square of side 4 cm.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "All four angles are 90 deg and adjacent sides equal radius 4 cm, making OAPB a square of side 4 cm. The distance OP is the diagonal of the square = side * sqrt(2) = 4*sqrt(2) cm. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Exemplar Problem"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): Tangents drawn at the ends of any diameter of a circle are parallel.\nReason (R): The radii drawn to the endpoints of a diameter are collinear, making the two tangents perpendicular to the same straight line.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Two lines perpendicular to the same transversal line (the diameter) are parallel to each other. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 4"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The angle between the two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line-segment joining the points of contact at the centre.\nReason (R): The sum of all four interior angles of a convex quadrilateral is 360 degrees, and the two angles at the points of contact are 90 degrees each.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "In quadrilateral OPTQ: angle P + angle Q = 90 + 90 = 180 deg. Therefore, angle PTQ + angle POQ = 360 - 180 = 180 deg (supplementary). Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 2"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): If tangents PA and PB are drawn to a circle with centre O, the line OP bisects chord AB.\nReason (R): In kite OAPB, the diagonal connecting the vertices of equal angles (OP) is the perpendicular bisector of the transverse diagonal (AB).",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Since OA = OB and PA = PB, OP is the axis of symmetry of kite OAPB, bisecting chord AB perpendicularly. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.2"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Easy",
       "question": "Case Study 1 (Mechanical Engineering): An electric motor drives an industrial compressor using a drive belt wrapped around two pulleys of radii 12 cm and 4 cm. The distance between the centres of the two pulley shafts is 17 cm. The straight free span of the drive belt forms an external common tangent to the two circular pulleys. Which geometric property ensures the belt touches each pulley perpendicularly to its radius?",
       "options": [
-        "Theorem 10.1 (Tangent is perpendicular to radius at point of contact)",
         "Theorem 10.2 (Lengths of tangents from external point are equal)",
         "BPT (Thales Theorem)",
+        "Theorem 10.1 (Tangent is perpendicular to radius at point of contact)",
         "Pythagoras Theorem only"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Theorem 10.1 states that the tangent to a circle at any point is perpendicular to the radius through the point of contact, ensuring the belt is normal to the radius at contact.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Theorem 10.1"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Hard",
       "question": "Case Study 1 (Continued): What is the length of the straight taut portion (external common tangent) of the drive belt between the two pulleys?",
       "options": [
-        "15 cm",
         "13 cm",
         "sqrt(225) cm",
-        "14 cm"
+        "14 cm",
+        "15 cm"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Length of direct common tangent = sqrt(d^2 - (r1 - r2)^2) = sqrt(17^2 - (12 - 4)^2) = sqrt(289 - 8^2) = sqrt(289 - 64) = sqrt(225) = 15 cm.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Competency Focused Question"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Medium",
       "question": "Case Study 1 (Continued): If both pulleys had identical radii of 10 cm each with centre distance 17 cm, what would be the length of the straight tangent span of the belt?",
       "options": [
-        "17 cm",
         "15 cm",
         "20 cm",
-        "14 cm"
+        "14 cm",
+        "17 cm"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "When r1 = r2, r1 - r2 = 0. Tangent span = sqrt(17^2 - 0) = 17 cm (the tangent lines and line of centres form a rectangle).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Competency Focused Question"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Easy",
       "question": "Case Study 2 (Traffic Engineering): A circular central island in a city roundabout has a radius of 20 metres. Two straight feeder avenues PA and PB branch off from traffic junction P situated 29 metres from the center of the circular island O, entering the island tangentially at points A and B. What is the length of tangent avenue PA?",
       "options": [
-        "21 metres",
         "20 metres",
+        "21 metres",
         "25 metres",
         "23 metres"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "In right triangle OAP (right angle at A): PA = sqrt(OP^2 - OA^2) = sqrt(29^2 - 20^2) = sqrt(841 - 400) = sqrt(441) = 21 metres.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.2"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Easy",
       "question": "Case Study 2 (Continued): Without doing additional trigonometry, what is the length of the other tangential approach avenue PB?",
       "options": [
-        "21 metres, because lengths of tangents from an external point are equal",
         "29 metres",
         "20 metres",
+        "21 metres, because lengths of tangents from an external point are equal",
         "Cannot be determined without angle"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "By Theorem 10.2, the lengths of tangents drawn from an external point P to a circle are equal. Since PA = 21 m, PB = 21 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Theorem 10.2"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Medium",
       "question": "Case Study 3 (Continued): What is the length of the tangent segment from the right-angled vertex to the point of contact on either leg?",
       "options": [
-        "6 cm (equal to the inradius)",
         "12 cm",
+        "6 cm (equal to the inradius)",
         "9 cm",
         "8 cm"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "At the right-angled vertex, the two tangent segments and two radii form a square of side r. Therefore, the tangent segment from the right-angled vertex to either contact point is exactly equal to the inradius r = 6 cm.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Competency Focused Question"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Medium",
       "question": "Case Study 4 (Space Exploration): A communication satellite S orbits Earth (radius R = 6400 km) at an altitude of 1600 km above the surface. A radar beam from the satellite touches the Earth's horizon tangentially at point T. What is the distance SO from the satellite to the centre of the Earth?",
       "options": [
-        "8000 km",
         "6400 km",
         "4800 km",
-        "9600 km"
+        "9600 km",
+        "8000 km"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Distance to Earth centre SO = Earth radius R + Satellite altitude = 6400 + 1600 = 8000 km.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Competency Focused Question"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Hard",
       "question": "Case Study 4 (Continued): What is the line-of-sight distance ST from the satellite to the Earth's horizon point of tangency T?",
       "options": [
-        "4800 km",
         "5000 km",
         "4500 km",
+        "4800 km",
         "5200 km"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "In right triangle STO (angle STO = 90 deg by Theorem 10.1): ST = sqrt(SO^2 - OT^2) = sqrt(8000^2 - 6400^2) = sqrt((8000 - 6400)(8000 + 6400)) = sqrt(1600 * 14400) = 40 * 120 = 4800 km.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Competency Focused Question"
     }

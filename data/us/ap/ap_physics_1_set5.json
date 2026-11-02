@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "A block of mass m is attached to a horizontal ideal spring of spring constant k. If the mass of the block is quadrupled (4m), what happens to the period of oscillation T?",
       "options": [
-        "The period doubles (2T)",
         "The period quadruples (4T)",
+        "The period doubles (2T)",
         "The period is halved (T / 2)",
         "The period remains unchanged"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Period of a mass-spring system is T = 2π * √(m / k). If mass m is multiplied by 4, T' = 2π * √(4m / k) = 2 * (2π * √(m/k)) = 2T.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Period of Simple Harmonic Oscillators"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Medium",
       "question": "A simple pendulum of length L has period T on Earth (surface gravity g). The pendulum is taken to the Moon, where gravitational acceleration is g / 6. What is the new period of the pendulum?",
       "options": [
-        "T * √6",
         "T / √6",
         "6T",
-        "T / 6"
+        "T / 6",
+        "T * √6"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Period of a simple pendulum is T = 2π * √(L / g). On the Moon, T_moon = 2π * √(L / (g/6)) = 2π * √(6L / g) = √6 * T.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Period of Simple Harmonic Oscillators"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Easy",
       "question": "A mass on a horizontal spring oscillates between x = -A and x = +A. At the instant the mass reaches x = +A, what are its velocity and acceleration?",
       "options": [
-        "Velocity is zero; acceleration is at its maximum magnitude directed toward equilibrium",
         "Velocity is at its maximum magnitude; acceleration is zero",
         "Both velocity and acceleration are at their maximum values",
+        "Velocity is zero; acceleration is at its maximum magnitude directed toward equilibrium",
         "Both velocity and acceleration are zero"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "At the turning points (x = ±A), the mass momentarily stops, so velocity v = 0. Spring force is at maximum F = -kA, producing maximum acceleration a = -kA/m directed back toward equilibrium (x = 0).",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Simple Harmonic Motion Kinematics"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Easy",
       "question": "A grinding wheel accelerates from rest with a constant angular acceleration α = 4.0 rad/s^2 for 5.0 seconds. Through what total angular displacement does the wheel rotate?",
       "options": [
-        "50 radians",
         "20 radians",
         "100 radians",
-        "25 radians"
+        "25 radians",
+        "50 radians"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Rotational kinematic equation: θ = ω0*t + (1/2)α*t^2. With ω0 = 0: θ = (1/2) * 4.0 rad/s^2 * (5.0 s)^2 = 2.0 * 25 = 50 radians.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.1 Rotational Kinematics"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Easy",
       "question": "A mechanic applies a force of 80 N perpendicular to the end of a 0.25-meter-long wrench. What torque is produced about the bolt axis?",
       "options": [
-        "20 N·m",
         "320 N·m",
+        "20 N·m",
         "40 N·m",
         "10 N·m"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Torque τ = r * F * sin(θ). For perpendicular force (θ = 90°, sin 90° = 1): τ = 0.25 m * 80 N * 1 = 20 N·m.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.2 Torque and Angular Acceleration"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Medium",
       "question": "A net torque of 12 N·m is applied to a flywheel having rotational inertia I = 3.0 kg·m^2. What is the angular acceleration of the flywheel?",
       "options": [
-        "4.0 rad/s^2",
         "36.0 rad/s^2",
         "0.25 rad/s^2",
+        "4.0 rad/s^2",
         "2.0 rad/s^2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Rotational equivalent of Newton's Second Law: τ_net = I * α → α = τ_net / I = 12 N·m / 3.0 kg·m^2 = 4.0 rad/s^2.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.2 Torque and Angular Acceleration"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Medium",
       "question": "A solid sphere and a thin spherical shell have the identical mass M and outer radius R. How do their moments of inertia about a central axis compare?",
       "options": [
-        "The thin spherical shell has a larger moment of inertia (2/3 MR^2 > 2/5 MR^2)",
         "The solid sphere has a larger moment of inertia (2/5 MR^2 > 2/3 MR^2)",
         "They have identical moments of inertia because their masses and radii are equal",
-        "It depends on the material density of each sphere"
+        "It depends on the material density of each sphere",
+        "The thin spherical shell has a larger moment of inertia (2/3 MR^2 > 2/5 MR^2)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Rotational inertia depends on how mass is distributed relative to the axis of rotation: I = Σ m*r^2. In a thin shell, all mass is located at the maximum radius R (I_shell = 2/3 MR^2 ≈ 0.67 MR^2). In a solid sphere, mass is distributed throughout the volume closer to the axis (I_solid = 2/5 MR^2 = 0.40 MR^2). Thus the shell has greater rotational inertia.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.2 Rotational Inertia"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Hard",
       "question": "A solid cylinder (I = 1/2 MR^2) and a hoop (I = MR^2) of identical mass M and radius R are released simultaneously from rest at the top of an incline and roll down without slipping. Which reaches the bottom first?",
       "options": [
-        "The solid cylinder reaches the bottom first because it has a smaller rotational inertia fraction",
         "The hoop reaches the bottom first because it has greater angular momentum",
+        "The solid cylinder reaches the bottom first because it has a smaller rotational inertia fraction",
         "Both reach the bottom at the exact same instant",
         "Whichever object has the greater radius reaches first"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Conservation of energy for rolling without slipping: Mgh = (1/2)Mv^2 + (1/2)Iω^2 = (1/2)Mv^2 + (1/2)(c*MR^2)(v/R)^2 = (1/2)Mv^2(1 + c) → v = √(2gh / (1 + c)). For the cylinder, c = 0.5 → v = √(2gh / 1.5). For the hoop, c = 1.0 → v = √(2gh / 2.0). The smaller the rotational inertia fraction c, the greater the linear acceleration and final speed. Thus the cylinder wins the race.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.3 Rotational Kinetic Energy and Rolling"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Medium",
       "question": "A figure skater spins with arms outstretched at angular speed ω0 with rotational inertia I0. She pulls her arms inward, reducing her rotational inertia to I0 / 3. Assuming no external torque, what is her new angular speed?",
       "options": [
-        "3 * ω0",
         "ω0 / 3",
         "9 * ω0",
+        "3 * ω0",
         "√3 * ω0"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Conservation of angular momentum: L_initial = L_final → I0 * ω0 = I_f * ω_f → I0 * ω0 = (I0 / 3) * ω_f → ω_f = 3 * ω0.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.4 Conservation of Angular Momentum"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Hard",
       "question": "A bowling ball (solid sphere, I = 2/5 MR^2) of mass M rolls along a level floor without slipping with center-of-mass velocity v. What is its total kinetic energy?",
       "options": [
-        "7/10 * M * v^2",
         "1/2 * M * v^2",
+        "7/10 * M * v^2",
         "2/5 * M * v^2",
         "9/10 * M * v^2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Total kinetic energy is the sum of translational and rotational kinetic energies: K_tot = K_trans + K_rot = (1/2)Mv^2 + (1/2)Iω^2. With I = 2/5 MR^2 and ω = v/R: K_tot = (1/2)Mv^2 + (1/2)(2/5 MR^2)(v/R)^2 = (1/2)Mv^2 + (1/5)Mv^2 = (5/10 + 2/10)Mv^2 = 7/10 M v^2.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.3 Rotational Kinetic Energy"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Medium",
       "question": "A particle of mass m moves in a straight line at constant velocity v along the line y = d. What is the magnitude of the particle's angular momentum with respect to the origin (0, 0)?",
       "options": [
-        "m * v * d",
         "0",
         "m * v / d",
+        "m * v * d",
         "m * v * d^2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Angular momentum of a point particle about an origin is L = r_perp * p = d * (m * v) = m * v * d. Since perpendicular distance d is constant along y = d, angular momentum about the origin is constant.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.4 Angular Momentum of Point Particles"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Medium",
       "question": "A 0.25 kg block on a spring (k = 100 N/m) oscillates with amplitude A = 0.05 m. What is the maximum speed of the block?",
       "options": [
-        "1.0 m/s",
         "0.5 m/s",
         "2.0 m/s",
-        "5.0 m/s"
+        "5.0 m/s",
+        "1.0 m/s"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Maximum speed in SHM is v_max = A * ω = A * √(k / m) = 0.05 m * √(100 / 0.25) = 0.05 * √400 = 0.05 * 20 = 1.0 m/s.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Simple Harmonic Motion"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Easy",
       "question": "A simple pendulum oscillates with period T at small angular displacement θ0 = 4°. If the amplitude is doubled to θ0 = 8° (still small angle), what happens to the period of oscillation?",
       "options": [
-        "The period remains essentially unchanged at T",
         "The period doubles to 2T",
         "The period is halved to T / 2",
-        "The period increases by √2"
+        "The period increases by √2",
+        "The period remains essentially unchanged at T"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Under the small-angle approximation (sin θ ≈ θ for angles ≤ 15°), the period of a simple pendulum T = 2π√(L/g) is independent of the oscillation amplitude (isochronism). Thus the period remains unchanged.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Simple Pendulums and Small Angle Approximation"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Hard",
       "question": "A horizontal uniform beam of weight W and length L is hinged to a wall at one end and supported by a cable at the other end making angle 30° above the beam. What is the tension in the supporting cable?",
       "options": [
-        "W",
         "W / 2",
         "2W",
+        "W",
         "W / √3"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Take torques about the wall hinge: counterclockwise torque from cable is τ_cable = (T * sin(30°)) * L = T * (1/2) * L. Clockwise torque from the uniform beam's weight acting at its center of mass (L/2) is τ_gravity = W * (L/2). In static equilibrium: T * (1/2) * L = W * (1/2) * L → T = W.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.2 Static Equilibrium"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Hard",
       "question": "A horizontal turntable of rotational inertia I1 rotates freely with angular velocity ω0. A non-rotating disk of rotational inertia I2 is dropped coaxially onto the turntable. The two disks stick together and rotate as one unit. What is their common final angular velocity?",
       "options": [
-        "[I1 / (I1 + I2)] * ω0",
         "ω0",
+        "[I1 / (I1 + I2)] * ω0",
         "[(I1 + I2) / I1] * ω0",
         "1/2 * ω0"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Because there are zero external torques on the system about the vertical axis, angular momentum is conserved: L_initial = I1 * ω0 = L_final = (I1 + I2) * ω_f → ω_f = [I1 / (I1 + I2)] * ω0.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.4 Conservation of Angular Momentum"
     }

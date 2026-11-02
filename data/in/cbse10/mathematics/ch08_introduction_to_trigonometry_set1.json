@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "What is the numerical value of (sin 30 deg + cos 60 deg)?",
       "options": [
-        "1",
         "1/2",
         "sqrt(3)",
-        "0"
+        "0",
+        "1"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "sin 30 deg = 1/2 and cos 60 deg = 1/2. Therefore, sin 30 deg + cos 60 deg = 1/2 + 1/2 = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Easy",
       "question": "What is the value of 9 sec^2 A - 9 tan^2 A?",
       "options": [
-        "9",
         "1",
         "0",
+        "9",
         "8"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "9 sec^2 A - 9 tan^2 A = 9(sec^2 A - tan^2 A). Since sec^2 A - tan^2 A = 1, 9 * 1 = 9.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 4(i)"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Easy",
       "question": "Given 15 cot A = 8, what is the value of sin A?",
       "options": [
-        "15/17",
         "8/17",
+        "15/17",
         "17/15",
         "8/15"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "cot A = 8/15 = adjacent / opposite. Hypotenuse = sqrt(8^2 + 15^2) = sqrt(64 + 225) = sqrt(289) = 17. Therefore, sin A = opposite / hypotenuse = 15/17.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.1 Question 4"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Easy",
       "question": "Evaluate: 2 tan^2 45 deg + cos^2 30 deg - sin^2 60 deg.",
       "options": [
-        "2",
         "1",
         "0",
+        "2",
         "sqrt(3)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "tan 45 deg = 1, cos 30 deg = sqrt(3)/2, sin 60 deg = sqrt(3)/2. 2(1)^2 + (sqrt(3)/2)^2 - (sqrt(3)/2)^2 = 2 + 3/4 - 3/4 = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.2 Question 1(ii)"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Medium",
       "question": "What is the simplified form of (sec A + tan A)(1 - sin A)?",
       "options": [
-        "cos A",
         "sin A",
+        "cos A",
         "sec A",
         "cosec A"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "(1/cos A + sin A/cos A)(1 - sin A) = [(1 + sin A)/cos A] * (1 - sin A) = (1 - sin^2 A) / cos A = cos^2 A / cos A = cos A.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 4(iii)"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Medium",
       "question": "If tan(A + B) = sqrt(3) and tan(A - B) = 1/sqrt(3), where 0 deg < A + B <= 90 deg and A > B, find A and B.",
       "options": [
-        "A = 45 deg, B = 15 deg",
         "A = 60 deg, B = 30 deg",
         "A = 50 deg, B = 10 deg",
-        "A = 40 deg, B = 20 deg"
+        "A = 40 deg, B = 20 deg",
+        "A = 45 deg, B = 15 deg"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "tan(A + B) = sqrt(3) => A + B = 60 deg. tan(A - B) = 1/sqrt(3) => A - B = 30 deg. Adding equations: 2A = 90 deg => A = 45 deg. Then B = 60 - 45 = 15 deg.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.2 Question 3"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Easy",
       "question": "What is the value of (2 tan 30 deg) / (1 + tan^2 30 deg)?",
       "options": [
-        "sin 60 deg",
         "cos 60 deg",
         "tan 60 deg",
+        "sin 60 deg",
         "sin 30 deg"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "2(1/sqrt(3)) / [1 + (1/sqrt(3))^2] = (2/sqrt(3)) / (1 + 1/3) = (2/sqrt(3)) / (4/3) = (2/sqrt(3)) * (3/4) = 3 / (2*sqrt(3)) = sqrt(3)/2 = sin 60 deg.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.2 Question 2(i)"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Medium",
       "question": "What is the value of (1 - tan^2 45 deg) / (1 + tan^2 45 deg)?",
       "options": [
-        "0",
         "1",
         "tan 90 deg",
-        "sin 45 deg"
+        "sin 45 deg",
+        "0"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "tan 45 deg = 1. (1 - 1^2)/(1 + 1^2) = (1 - 1)/(1 + 1) = 0/2 = 0.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.2 Question 2(ii)"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Easy",
       "question": "For any acute angle theta (0 deg <= theta <= 90 deg), what is the maximum possible value of sin theta and cos theta?",
       "options": [
-        "1",
         "sqrt(2)",
+        "1",
         "2",
         "Infinity"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "In any right triangle, hypotenuse is the longest side. Since sin theta = opposite/hypotenuse <= 1 and cos theta = adjacent/hypotenuse <= 1, their maximum value is 1 (occurring at 90 deg and 0 deg respectively).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Medium",
       "question": "What is sqrt((1 + sin A) / (1 - sin A)) equal to?",
       "options": [
-        "sec A + tan A",
         "sec A - tan A",
         "cosec A + cot A",
+        "sec A + tan A",
         "1 + sin A"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Multiply numerator and denominator inside root by (1 + sin A): sqrt[(1 + sin A)^2 / (1 - sin^2 A)] = sqrt[(1 + sin A)^2 / cos^2 A] = (1 + sin A) / cos A = 1/cos A + sin A/cos A = sec A + tan A.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 5(vi)"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Easy",
       "question": "For what acute angle theta is sin theta = cos theta?",
       "options": [
-        "45 deg",
         "30 deg",
         "60 deg",
-        "0 deg"
+        "0 deg",
+        "45 deg"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "sin theta = cos theta => sin theta / cos theta = 1 => tan theta = 1. Since tan 45 deg = 1, theta = 45 deg.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Easy",
       "question": "Express tan A in terms of sec A (where A is an acute angle):",
       "options": [
-        "sqrt(sec^2 A - 1)",
         "sqrt(1 + sec^2 A)",
+        "sqrt(sec^2 A - 1)",
         "1 / sec A",
         "sqrt(1 - sec^2 A)"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "From 1 + tan^2 A = sec^2 A, tan^2 A = sec^2 A - 1 => tan A = sqrt(sec^2 A - 1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4, Example 12"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Easy",
       "question": "What is the value of (tan theta * cot theta)?",
       "options": [
-        "1",
         "0",
         "sin theta",
+        "1",
         "cos theta"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "cot theta = 1 / tan theta. Therefore tan theta * cot theta = tan theta * (1/tan theta) = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Easy",
       "question": "Which of the following trigonometric ratios is NOT defined (tends to infinity)?",
       "options": [
-        "tan 90 deg and sec 90 deg",
         "sin 90 deg and cos 0 deg",
+        "tan 90 deg and sec 90 deg",
         "cot 90 deg and cosec 90 deg",
         "tan 0 deg and sec 0 deg"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "tan 90 deg = sin 90 / cos 90 = 1/0 (not defined). sec 90 deg = 1 / cos 90 = 1/0 (not defined).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Medium",
       "question": "In right triangle ABC right-angled at B, angle C = 30 deg and AB = 5 cm. What is the length of hypotenuse AC?",
       "options": [
-        "10 cm",
         "5 sqrt(3) cm",
         "15 cm",
-        "5/2 cm"
+        "5/2 cm",
+        "10 cm"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "sin C = AB / AC => sin 30 deg = 5 / AC => 1/2 = 5 / AC => AC = 5 * 2 = 10 cm.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Example 7"
     }

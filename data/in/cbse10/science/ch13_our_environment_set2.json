@@ -6,12 +6,12 @@
     "difficulty": "Hard",
     "question": "If 20,000 Joules of solar energy falls onto the leaves of trees in a forest ecosystem, how much of this energy is transferred to a tiger in the food chain: Plants -> Deer -> Tiger?",
     "options": [
-      "2 Joules",
       "20 Joules",
       "200 Joules",
+      "2 Joules",
       "2,000 Joules"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Plants capture only 1% of incident solar energy: 1% of 20,000 J = 200 J. In the food chain, 10% is transferred to the next level: Deer receives 10% of 200 J = 20 J. The tiger (secondary consumer) receives 10% of 20 J = 2 Joules.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1.1 Food Chains and Webs"
   },
@@ -23,11 +23,11 @@
     "question": "In a terrestrial grassland food chain: Grass -> Grasshopper -> Frog -> Snake -> Hawk, if 5 Joules of energy is available to the Hawk, how much energy was originally manufactured at the producer (Grass) trophic level?",
     "options": [
       "50 Joules",
+      "50,000 Joules",
       "500 Joules",
-      "5,000 Joules",
-      "50,000 Joules"
+      "5,000 Joules"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Working backwards using Lindeman's 10% rule: Hawk = 5 J; Snake = 5 / 0.1 = 50 J; Frog = 50 / 0.1 = 500 J; Grasshopper = 500 / 0.1 = 5,000 J; Grass (Producers) = 5,000 / 0.1 = 50,000 Joules.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1.1 Food Chains and Webs"
   },
@@ -38,12 +38,12 @@
     "difficulty": "Medium",
     "question": "In a contaminated lake ecosystem receiving runoff with pesticide DDT, which organism will exhibit the HIGHEST concentration of DDT in its tissues?\nFood chain: Phytoplankton -> Zooplankton -> Small Fish -> Large Fish -> Fish-eating Bird (Osprey)",
     "options": [
+      "Fish-eating Bird (Osprey)",
       "Phytoplankton",
       "Zooplankton",
-      "Small Fish",
-      "Fish-eating Bird (Osprey)"
+      "Small Fish"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Because DDT is fat-soluble and non-biodegradable, it cannot be broken down or excreted. It progressively magnifies at each trophic step. The top predator (fish-eating bird) consumes thousands of fish, accumulating the highest concentration of the chemical.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1.1 Food Chains and Webs"
   },
@@ -55,13 +55,13 @@
     "question": "Why does a home aquarium require frequent artificial cleaning and water changes, whereas a natural pond does not require manual cleaning?",
     "options": [
       "Aquarium fish eat more food than pond fish",
-      "An aquarium is an incomplete artificial ecosystem lacking natural decomposers and self-sustaining biogeochemical cycles; toxic metabolic wastes accumulate without artificial filtration",
       "Pond water contains chlorine that sterilizes waste automatically",
-      "Sunlight dissolves fish excreta in ponds"
+      "Sunlight dissolves fish excreta in ponds",
+      "An aquarium is an incomplete artificial ecosystem lacking natural decomposers and self-sustaining biogeochemical cycles; toxic metabolic wastes accumulate without artificial filtration"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Natural ponds are complete ecosystems with aquatic plants, herbivores, carnivores, and decomposer bacteria that continuously recycle organic matter. Aquaria lack sufficient decomposer populations to break down uneaten food and toxic ammonia waste, requiring manual cleaning.",
-    "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1 Ecosystem \u2014 What are its Components?"
+    "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1 Ecosystem — What are its Components?"
   },
   {
     "id": "cbse10-sci-ch13-s2-005",
@@ -70,12 +70,12 @@
     "difficulty": "Hard",
     "question": "In an open ocean marine ecosystem, why is the Pyramid of Biomass frequently INVERTED (narrow at the producer base and wide at the consumer top)?",
     "options": [
-      "Phytoplankton have a very low standing crop biomass at any single moment, but possess an extraordinarily rapid reproduction and turnover rate that sustains larger fish biomass",
       "Marine fish are autotrophic and synthesize their own food",
       "Decomposers are absent in deep sea waters",
+      "Phytoplankton have a very low standing crop biomass at any single moment, but possess an extraordinarily rapid reproduction and turnover rate that sustains larger fish biomass",
       "Ocean water exerts buoyant force that compresses plant matter"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The instantaneous standing crop biomass of microscopic phytoplankton is very small compared to the biomass of longer-lived zooplankton and predatory fish. However, phytoplankton reproduce so rapidly that their high turnover rate supports the larger consumer biomass, creating an inverted biomass pyramid.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1.1 Food Chains and Webs"
   },
@@ -86,12 +86,12 @@
     "difficulty": "Medium",
     "question": "Why is ozone (O3) described scientifically as 'good up high, bad nearby'?",
     "options": [
-      "In the stratosphere it shields Earth from mutagenic UV rays, but in the troposphere (ground level) it is a toxic pollutant and component of photochemical smog",
       "In the stratosphere it creates rain, but near ground it absorbs oxygen",
       "Ozone is an explosive gas that only ignites at ground level",
-      "Ground-level ozone turns oceans acidic"
+      "Ground-level ozone turns oceans acidic",
+      "In the stratosphere it shields Earth from mutagenic UV rays, but in the troposphere (ground level) it is a toxic pollutant and component of photochemical smog"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Ozone in the stratosphere (15-35 km altitude) performs the vital role of absorbing damaging UV-B radiation. At ground level in the troposphere, ozone is a potent oxidant that damages human lung tissue, triggers asthma, and harms crops.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.2.1 Ozone Layer and How it is Getting Depleted"
   },
@@ -100,7 +100,7 @@
     "type": "mcq",
     "subtopic": "Solid Waste Management: High-Temperature Incineration",
     "difficulty": "Medium",
-    "question": "Which category of waste is specifically disposed of via high-temperature Incineration (above 1000\u00b0C) rather than composting or landfills?",
+    "question": "Which category of waste is specifically disposed of via high-temperature Incineration (above 1000°C) rather than composting or landfills?",
     "options": [
       "Agricultural crop stubble",
       "Infectious hospital and biomedical waste (used needles, surgical swabs, contaminated cultures)",
@@ -118,12 +118,12 @@
     "difficulty": "Medium",
     "question": "Why is segregated aerobic composting of organic kitchen waste environmentally superior to dumping mixed garbage into open municipal landfills?",
     "options": [
-      "Composting eliminates the need for Earth's magnetic field",
       "Landfills undergo anaerobic decomposition that generates dangerous flammable methane (a potent greenhouse gas) and toxic leachate that poisons groundwater",
+      "Composting eliminates the need for Earth's magnetic field",
       "Composting converts plastic into water vapor",
       "Open landfills consume too much electrical energy"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "In compacted, unsegregated landfills, organic waste is buried without oxygen, producing methane gas (CH4, 25 times more potent than CO2 as a greenhouse gas) and toxic liquid leachate. Aerobic composting safely converts organics into nutrient-rich soil humus without methane.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.2.2 Managing the Garbage we Produce"
   },
@@ -135,11 +135,11 @@
     "question": "In a forest ecosystem, if all the deer (herbivores) are suddenly eradicated by poachers, what immediate cascading ecological consequence will be observed?",
     "options": [
       "The tiger population will increase because trees grow taller",
-      "Vegetation and grass cover will grow unchecked initially, while the carnivore (tiger) population will starve and crash due to absence of food",
       "Decomposers will permanently disappear from the forest",
-      "Rainfall will cease immediately"
+      "Rainfall will cease immediately",
+      "Vegetation and grass cover will grow unchecked initially, while the carnivore (tiger) population will starve and crash due to absence of food"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Herbivores bridge the gap between primary producers and carnivores. Removing deer leaves the vegetation ungrazed, leading to overgrowth, while secondary consumers (tigers) lose their prey base, leading to starvation, population collapse, or migration into human settlements.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1.1 Food Chains and Webs"
   },
@@ -151,11 +151,11 @@
     "question": "From an ecological thermodynamics perspective, why can a given agricultural acreage sustain a vastly larger human population if people consume a plant-based diet rather than meat-based diet?",
     "options": [
       "Meat takes less energy to chew",
-      "Consuming crops directly places humans at the 2nd trophic level, capturing 10 times more of the original solar food energy than feeding grain to livestock and eating meat at the 3rd trophic level",
       "Animals synthesize energy from gravity",
+      "Consuming crops directly places humans at the 2nd trophic level, capturing 10 times more of the original solar food energy than feeding grain to livestock and eating meat at the 3rd trophic level",
       "Livestock eliminate the 10% law through respiration"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "By Lindeman's 10% law, livestock lose 90% of food energy to metabolism and heat. Eating livestock at the 3rd trophic level wastes 90% of the crop energy. Eating grain directly at the 2nd level retains 10 times more available food energy, sustaining far more people.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1.1 Food Chains and Webs"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Medium",
     "question": "Why is the use of biological control agents (such as ladybird beetles to control crop aphids) preferred by organic farmers over synthetic organochlorine chemical sprays?",
     "options": [
-      "Biological predators kill all weeds simultaneously",
       "Biological control targets specific pest species without leaving non-biodegradable toxic residues that cause biomagnification across food chains",
+      "Biological predators kill all weeds simultaneously",
       "Ladybird beetles produce synthetic fertilizer in soil",
       "Chemical sprays attract insect swarms"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Synthetic pesticides (like DDT) wash into water bodies and biomagnify up food chains, poisoning non-target wildlife and humans. Biological pest control uses natural predator-prey dynamics, avoiding toxic bioaccumulating residues entirely.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1.1 Food Chains and Webs"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Medium",
     "question": "In a rural household biogas plant, animal dung and organic slurry are digested anaerobically. What are the two valuable end products of this process?",
     "options": [
-      "Pure oxygen gas and charcoal",
       "Clean methane gas (biogas, approx. 75% CH4) for fuel, and nutrient-rich organic sludge used as high-grade agricultural fertilizer",
+      "Pure oxygen gas and charcoal",
       "Ethanol fuel and radioactive isotopes",
       "Chlorine gas and plastic resin"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Anaerobic methanogenic bacteria digest animal dung without oxygen, producing biogas containing up to 75% methane (an excellent smokeless fuel). The spent slurry is rich in nitrogen and phosphorus, serving as superior organic manure.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.2.2 Managing the Garbage we Produce"
   },
@@ -231,13 +231,13 @@
     "question": "Agricultural runoff carrying synthetic nitrate and phosphate fertilizers flows into a freshwater pond, sparking excessive algal growth (algal bloom). Why does this event result in widespread fish mortality?",
     "options": [
       "Algae produce toxic neurotoxins that stun fish",
-      "When the dense algae die, massive populations of aerobic decomposers multiply and consume nearly all dissolved oxygen in the water, suffocating fish",
-      "Algal blooms raise the water temperature above 80\u00b0C",
-      "Fish choke on excessive oxygen gas"
+      "Algal blooms raise the water temperature above 80°C",
+      "Fish choke on excessive oxygen gas",
+      "When the dense algae die, massive populations of aerobic decomposers multiply and consume nearly all dissolved oxygen in the water, suffocating fish"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Excess nutrients trigger an algal bloom (eutrophication). When the algae die, aerobic bacteria decompose the massive organic matter, consuming virtually all dissolved oxygen (DO). This causes biological oxygen demand (BOD) to spike and suffocates aquatic fauna.",
-    "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1 Ecosystem \u2014 What are its Components?"
+    "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1 Ecosystem — What are its Components?"
   },
   {
     "id": "cbse10-sci-ch13-s2-016",
@@ -262,12 +262,12 @@
     "difficulty": "Hard",
     "question": "How does a single chlorofluorocarbon (CFC) molecule destroy thousands of stratospheric ozone molecules?",
     "options": [
-      "CFCs explode on contact with ozone",
       "UV radiation breaks CFCs to release chlorine free radicals (Cl); the chlorine radical reacts with ozone to form ClO, then regenerates as a free Cl radical to attack ozone repeatedly in a catalytic chain reaction",
+      "CFCs explode on contact with ozone",
       "CFCs convert stratospheric ozone directly into carbon monoxide",
       "CFCs form an impervious molecular blanket that blocks solar photolysis"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Chlorine acts as a catalyst: Cl + O3 -> ClO + O2, followed by ClO + O -> Cl + O2. The free chlorine radical (Cl) is regenerated intact and can break down up to 100,000 ozone molecules before being deactivated, explaining the severe potency of CFCs.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.2.1 Ozone Layer and How it is Getting Depleted"
   },
@@ -279,11 +279,11 @@
     "question": "In terms of ecological trophic level classification, where do omnivorous human beings reside?",
     "options": [
       "Strictly at the primary producer level (1st level)",
-      "They can occupy both the second trophic level (when eating plants/grains) and the third or fourth trophic level (when eating fish or meat)",
       "Strictly at the decomposer level",
-      "Outside all ecological trophic structures"
+      "Outside all ecological trophic structures",
+      "They can occupy both the second trophic level (when eating plants/grains) and the third or fourth trophic level (when eating fish or meat)"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Because humans are omnivores, their trophic position shifts depending on diet: eating fruits, vegetables, or rice places humans at the second trophic level (primary consumers). Eating mutton, chicken, or predatory fish places humans at the third or fourth trophic level.",
     "citation": "NCERT Class 10 Science, Chapter 13, Section 13.1.1 Food Chains and Webs"
   },
@@ -295,11 +295,11 @@
     "question": "In a school science project, a student buries a piece of banana skin, a newspaper sheet, a plastic bottle cap, and a cotton cloth swatch in damp garden soil for 6 weeks. Which item will remain completely unchanged and intact when dug up?",
     "options": [
       "Banana skin",
-      "Newspaper sheet",
       "Plastic bottle cap",
+      "Newspaper sheet",
       "Cotton cloth swatch"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Banana skin, newspaper, and cotton cloth are natural organic biodegradable substances composed of cellulose and plant matter that soil bacteria decompose easily. The plastic bottle cap is synthetic and non-biodegradable, remaining intact without decaying.",
     "citation": "NCERT Class 10 Science, Chapter 13, Activity 13.5"
   },

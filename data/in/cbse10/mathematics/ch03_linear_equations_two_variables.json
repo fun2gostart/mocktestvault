@@ -22,12 +22,12 @@
     "difficulty": "Medium",
     "question": "For what value of 'k' will the equations x + 2y - 3 = 0 and 5x + ky + 7 = 0 have NO solution?",
     "options": [
-      "k = 10",
       "k = -10",
       "k = 5",
-      "k = 15"
+      "k = 15",
+      "k = 10"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "For no solution: a₁/a₂ = b₁/b₂ ≠ c₁/c₂ ⇒ 1/5 = 2/k ⇒ k = 10. (And 2/10 ≠ -3/7, which holds).",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
   },

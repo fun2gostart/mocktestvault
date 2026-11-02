@@ -166,12 +166,12 @@
     "difficulty": "Board Standard",
     "question": "CASE STUDY 1 (Thermal Decomposition of Ferrous Sulphate):\nA student takes 2 g of ferrous sulphate crystals in a dry boiling tube and heats it over a burner. What is the initial colour of the crystals, and what colour does the residue turn after strong heating?",
     "options": [
-      "Initial: Pale Green; Final residue: Reddish-brown",
       "Initial: White; Final residue: Pale yellow",
+      "Initial: Pale Green; Final residue: Reddish-brown",
       "Initial: Blue; Final residue: Black",
       "Initial: Reddish-brown; Final residue: Green"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Ferrous sulphate crystals (FeSO₄·7H₂O) are pale green. Upon heating, they lose water of crystallization and decompose to form ferric oxide (Fe₂O₃), which is reddish-brown in colour.",
     "citation": "NCERT Class 10 Science, Chapter 1, Activity 1.5"
   },
@@ -183,11 +183,11 @@
     "question": "CASE STUDY 1 (Continued):\nIn the thermal decomposition of ferrous sulphate, two gases are evolved. What is the chemical nature of these gases and how are they identified by smell?",
     "options": [
       "Oxygen and Hydrogen; odorless and flammable",
-      "SO₂ and SO₃; acidic gases with the choking smell of burning sulphur",
       "Carbon monoxide and CO₂; odorless toxic gases",
-      "Ammonia and Nitrogen; pungent alkaline gases"
+      "Ammonia and Nitrogen; pungent alkaline gases",
+      "SO₂ and SO₃; acidic gases with the choking smell of burning sulphur"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The gases evolved are sulphur dioxide (SO₂) and sulphur trioxide (SO₃). Both are acidic oxides (they turn moist blue litmus red) and possess the characteristic pungent, suffocating smell of burning sulphur.",
     "citation": "NCERT Class 10 Science, Chapter 1, Activity 1.5"
   },
@@ -199,11 +199,11 @@
     "question": "CASE STUDY 2 (Iron Nail in Copper Sulphate):\nAn iron nail cleaned with sandpaper is immersed in 10 mL of blue copper sulphate solution for 25 minutes. Why does the intense blue colour of the solution gradually fade to a light greenish hue?",
     "options": [
       "Copper sulphate evaporates into the room",
-      "Iron displaces copper, forming ferrous sulphate (FeSO₄) which has a light green colour",
       "Water molecules are oxidized to hydrogen peroxide",
+      "Iron displaces copper, forming ferrous sulphate (FeSO₄) which has a light green colour",
       "The solution becomes strongly alkaline forming copper hydroxide"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Fe + CuSO₄(blue) → FeSO₄(light green) + Cu. The fading of the blue colour is directly caused by the consumption of Cu²⁺ ions and the progressive formation of Fe²⁺ ions (ferrous sulphate), which has a characteristic pale green colour.",
     "citation": "NCERT Class 10 Science, Chapter 1, Activity 1.9"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Board Standard",
     "question": "CASE STUDY 2 (Continued):\nWhat is the appearance and identity of the physical coating deposited on the surface of the iron nail after 25 minutes?",
     "options": [
+      "A reddish-brown solid deposit of metallic copper",
       "A black coating of magnetic iron oxide",
       "A shiny silver coating of zinc metal",
-      "A reddish-brown solid deposit of metallic copper",
       "A yellow coating of lead iodide"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Elemental copper displaced from the aqueous solution deposits directly on the surface of the iron nail as a soft reddish-brown metallic coating.",
     "citation": "NCERT Class 10 Science, Chapter 1, Activity 1.9"
   },
@@ -231,11 +231,11 @@
     "question": "CASE STUDY 3 (Quicklime and Water):\nA student places 5 g of quicklime (calcium oxide) in a beaker and slowly adds water. The student touches the beaker from the outside. What observation is recorded regarding temperature?",
     "options": [
       "The beaker becomes freezing cold as heat is absorbed",
-      "The beaker becomes very hot because a large amount of heat is liberated",
       "The beaker shows no perceptible temperature change",
+      "The beaker becomes very hot because a large amount of heat is liberated",
       "The beaker cracks immediately due to endothermic condensation"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "CaO(s) + H₂O(l) → Ca(OH)₂(aq) + Heat. The reaction is intensely exothermic. The liberation of thermal energy heats the beaker noticeably.",
     "citation": "NCERT Class 10 Science, Chapter 1, Activity 1.4"
   },
@@ -246,12 +246,12 @@
     "difficulty": "Board Standard",
     "question": "CASE STUDY 3 (Continued):\nThe clear filtered solution of slaked lime is tested with phenolphthalein indicator. What colour change takes place and what does it reveal about the solution's chemical nature?",
     "options": [
-      "Turns deep pink; confirms the solution is basic (alkaline)",
       "Remains colourless; confirms the solution is neutral",
       "Turns bright yellow; confirms the solution is strongly acidic",
-      "Turns dark blue; confirms presence of copper ions"
+      "Turns dark blue; confirms presence of copper ions",
+      "Turns deep pink; confirms the solution is basic (alkaline)"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Calcium hydroxide [Ca(OH)₂] dissociates in water to release OH⁻ ions, making lime water a basic solution. Phenolphthalein indicator turns pink in basic solutions (pH > 8.2).",
     "citation": "NCERT Class 10 Science, Chapter 1, Section 1.1.1 & Chapter 2 Reference"
   },
@@ -262,12 +262,12 @@
     "difficulty": "Board Standard",
     "question": "CASE STUDY 4 (Electrolysis of Water):\nA voltameter is operated for 20 minutes. Test tube A contains 30 mL of gas, while test tube B contains 15 mL of gas. Which gas is in test tube A, and what standard laboratory test confirms it?",
     "options": [
-      "Oxygen gas; rekindles a glowing wooden splint",
       "Hydrogen gas; burns with a sharp 'pop' sound when a burning splinter is brought near",
+      "Oxygen gas; rekindles a glowing wooden splint",
       "Chlorine gas; bleaches moist litmus paper",
       "Carbon dioxide; turns lime water milky"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Water produces double the volume of hydrogen compared to oxygen (2H₂ : 1O₂). Therefore, the tube with the larger volume (30 mL) contains Hydrogen gas (H₂). Bringing a burning candle or splinter near its mouth produces a characteristic 'pop' sound.",
     "citation": "NCERT Class 10 Science, Chapter 1, Activity 1.7"
   },

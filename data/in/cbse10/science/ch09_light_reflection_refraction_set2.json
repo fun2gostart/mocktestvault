@@ -7,12 +7,12 @@
     "question": "Why does a ray of light passing through the center of curvature (C) of a concave mirror retrace its path back along the same line after reflection?",
     "options": [
       "The speed of light doubles at the center of curvature",
-      "The ray strikes the spherical surface along the normal, making angle of incidence i = 0\u00b0 and angle of reflection r = 0\u00b0",
+      "The ray strikes the spherical surface along the normal, making angle of incidence i = 0° and angle of reflection r = 0°",
       "The mirror surface at the center of curvature is perfectly flat",
       "Total internal reflection occurs at the focal boundary"
     ],
     "answer": 1,
-    "explanation": "Any line joining the center of curvature to any point on the spherical mirror is perpendicular (normal) to the reflecting surface at that point. Hence, a ray passing through C falls normally on the mirror (angle of incidence i = 0\u00b0), and by the law of reflection (r = i = 0\u00b0), it reflects straight back along the same path.",
+    "explanation": "Any line joining the center of curvature to any point on the spherical mirror is perpendicular (normal) to the reflecting surface at that point. Hence, a ray passing through C falls normally on the mirror (angle of incidence i = 0°), and by the law of reflection (r = i = 0°), it reflects straight back along the same path.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.1 Representation of Images Formed by Spherical Mirrors Using Ray Diagrams"
   },
   {
@@ -28,7 +28,7 @@
       "v = -2.50 m, real and inverted"
     ],
     "answer": 0,
-    "explanation": "Radius of curvature R = +3.0 m, so focal length f = R / 2 = +1.5 m. Object distance u = -5.0 m. Using the mirror formula 1/v + 1/u = 1/f: 1/v = 1/f - 1/u = 1/(1.5) - 1/(-5.0) = 1/1.5 + 1/5.0 = (10/15) + (3/15) = 13/15. Thus v = +15/13 \u2248 +1.15 m. The positive sign indicates the image is formed behind the mirror (virtual and erect).",
+    "explanation": "Radius of curvature R = +3.0 m, so focal length f = R / 2 = +1.5 m. Object distance u = -5.0 m. Using the mirror formula 1/v + 1/u = 1/f: 1/v = 1/f - 1/u = 1/(1.5) - 1/(-5.0) = 1/1.5 + 1/5.0 = (10/15) + (3/15) = 13/15. Thus v = +15/13 ≈ +1.15 m. The positive sign indicates the image is formed behind the mirror (virtual and erect).",
     "citation": "NCERT Class 10 Science, Chapter 9, Example 9.1"
   },
   {
@@ -39,11 +39,11 @@
     "question": "A concave mirror produces a real inverted image of magnification m = -1 when an object is placed at a distance of 30 cm in front of it. What is the focal length of this concave mirror?",
     "options": [
       "-30 cm",
-      "-15 cm",
       "+15 cm",
-      "-60 cm"
+      "-60 cm",
+      "-15 cm"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "When m = -1, the object is positioned at the center of curvature (C), so the radius of curvature R = 30 cm. Focal length f = - R / 2 = - 30 / 2 = -15 cm (negative according to Cartesian sign convention for concave mirror).",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.4 Mirror Formula and Magnification"
   },
@@ -55,11 +55,11 @@
     "question": "When a ray of light travels obliquely from an optically denser medium into an optically rarer medium, what happens to its speed and direction?",
     "options": [
       "Its speed decreases and it bends towards the normal",
-      "Its speed increases and it bends away from the normal",
       "Its speed increases and it bends towards the normal",
+      "Its speed increases and it bends away from the normal",
       "Its speed remains unchanged and it travels undeflected"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "In an optically rarer medium, light travels faster than in an optically denser medium. As light speeds up across the interface into the rarer medium, the wave front pivots such that the refracted ray bends away from the normal.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3 Refraction of Light"
   },
@@ -68,15 +68,15 @@
     "type": "mcq",
     "subtopic": "Refraction: Normal Incidence",
     "difficulty": "Easy",
-    "question": "A ray of light enters normally (at angle of incidence i = 0\u00b0) from air into a flat glass slab. What is the angle of refraction (r)?",
+    "question": "A ray of light enters normally (at angle of incidence i = 0°) from air into a flat glass slab. What is the angle of refraction (r)?",
     "options": [
-      "0\u00b0 (no deviation occurs)",
-      "90\u00b0",
-      "45\u00b0",
-      "30\u00b0"
+      "0° (no deviation occurs)",
+      "90°",
+      "45°",
+      "30°"
     ],
     "answer": 0,
-    "explanation": "According to Snell's law, sin(i) / sin(r) = n. When the ray strikes along the normal, i = 0\u00b0, so sin(i) = 0. Therefore sin(r) = 0, giving angle of refraction r = 0\u00b0. The ray enters without any deviation in its path, though its speed decreases.",
+    "explanation": "According to Snell's law, sin(i) / sin(r) = n. When the ray strikes along the normal, i = 0°, so sin(i) = 0. Therefore sin(r) = 0, giving angle of refraction r = 0°. The ray enters without any deviation in its path, though its speed decreases.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.1 Laws of Refraction of Light"
   },
   {
@@ -102,12 +102,12 @@
     "difficulty": "Hard",
     "question": "A convex lens forms a real and inverted image of a needle at a distance of 50 cm from it. If the image is the same size as the needle, where is the needle placed in front of the lens, and what is the power of the lens?",
     "options": [
-      "Object distance = -50 cm, Power = +4.0 D",
       "Object distance = -25 cm, Power = +2.0 D",
       "Object distance = -50 cm, Power = -4.0 D",
-      "Object distance = -100 cm, Power = +1.0 D"
+      "Object distance = -100 cm, Power = +1.0 D",
+      "Object distance = -50 cm, Power = +4.0 D"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Same size real inverted image means magnification m = -1. For a lens, m = v / u = -1, so u = -v = -50 cm. The needle is placed at 2F1, so 2f = 50 cm, meaning focal length f = +25 cm = +0.25 m. Power P = 1 / f = 1 / (+0.25 m) = +4.0 D.",
     "citation": "NCERT Class 10 Science, Chapter 9, NCERT Exercise Question 16"
   },
@@ -118,12 +118,12 @@
     "difficulty": "Hard",
     "question": "A concave lens has a focal length of 15 cm. At what distance should an object be placed from the lens so that it forms an image at 10 cm from the lens?",
     "options": [
-      "-30 cm",
       "-20 cm",
       "-15 cm",
+      "-30 cm",
       "-60 cm"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "For a concave lens, focal length f = -15 cm and image distance v = -10 cm (since virtual image is formed on the same side). From lens formula: 1/f = 1/v - 1/u => 1/u = 1/v - 1/f = -1/10 - (-1/15) = -1/10 + 1/15 = (-3 + 2)/30 = -1/30. Thus, u = -30 cm.",
     "citation": "NCERT Class 10 Science, Chapter 9, Example 9.3"
   },
@@ -134,12 +134,12 @@
     "difficulty": "Medium",
     "question": "A student focuses the sharp image of a distant tree on a paper screen using a concave mirror in a laboratory experiment. What does the measured distance between the mirror and the screen represent?",
     "options": [
-      "Radius of curvature of the mirror",
       "Approximate focal length of the mirror",
+      "Radius of curvature of the mirror",
       "Twice the focal length of the mirror",
       "Aperture of the concave mirror"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Rays coming from a distant object (like a faraway tree) are parallel to the principal axis. After reflection from a concave mirror, parallel incident rays converge at the principal focus. Hence, the distance between the mirror and the screen where the sharp image is formed equals the focal length (f).",
     "citation": "NCERT Class 10 Science, Chapter 9, Activity 9.2"
   },
@@ -168,10 +168,10 @@
     "options": [
       "Plane mirror only (virtual and erect)",
       "Convex mirror only (virtual and erect)",
-      "Concave mirror or Convex lens (virtual, erect, and magnified)",
-      "Concave lens only (virtual and erect)"
+      "Concave lens only (virtual and erect)",
+      "Concave mirror or Convex lens (virtual, erect, and magnified)"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "A positive magnification (m > 0) means the image is erect and virtual. A magnitude greater than 1 (|m| = 1.5 > 1) means the image is magnified. Neither a plane mirror (m = +1) nor a convex mirror/concave lens (always m < 1) can produce a magnified virtual image. Only a concave mirror (object between P and F) or a convex lens (object between O and F1) produces m > +1.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.4 & 9.3.7"
   },
@@ -183,11 +183,11 @@
     "question": "One-half of a convex lens is wrapped in opaque black paper. Will this lens still produce a complete image of an object, and what change will be observed in the image?",
     "options": [
       "Only half the image will be formed, but with full brightness",
-      "A complete image will still be formed, but its brightness and intensity will be reduced",
       "No image will be formed at all because symmetry is broken",
+      "A complete image will still be formed, but its brightness and intensity will be reduced",
       "The image will become virtual and inverted"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Light rays from every single point of the object pass through all parts of the lens. Covering the lower (or upper) half still allows rays passing through the unblocked half to converge at the focal plane, forming a complete image. However, because half of the incoming light energy is blocked, the brightness (intensity) of the image is reduced.",
     "citation": "NCERT Class 10 Science, Chapter 9, NCERT Exercise Question 9"
   },
@@ -196,15 +196,15 @@
     "type": "mcq",
     "subtopic": "Refraction: Time of Light Transit",
     "difficulty": "Hard",
-    "question": "Light enters from vacuum into a glass sheet of thickness 2 mm (2 \u00d7 10^-3 m) and refractive index n = 1.5. If the speed of light in vacuum is 3 \u00d7 10^8 m/s, how long does light take to travel perpendicularly across the glass sheet?",
+    "question": "Light enters from vacuum into a glass sheet of thickness 2 mm (2 × 10^-3 m) and refractive index n = 1.5. If the speed of light in vacuum is 3 × 10^8 m/s, how long does light take to travel perpendicularly across the glass sheet?",
     "options": [
-      "1.0 \u00d7 10^-11 seconds",
-      "1.5 \u00d7 10^-11 seconds",
-      "1.0 \u00d7 10^-8 seconds",
-      "6.0 \u00d7 10^-12 seconds"
+      "1.5 × 10^-11 seconds",
+      "1.0 × 10^-8 seconds",
+      "6.0 × 10^-12 seconds",
+      "1.0 × 10^-11 seconds"
     ],
-    "answer": 0,
-    "explanation": "Speed of light in glass v = c / n = (3 \u00d7 10^8 m/s) / 1.5 = 2 \u00d7 10^8 m/s. The time taken to traverse thickness d = 2 \u00d7 10^-3 m is t = d / v = (2 \u00d7 10^-3 m) / (2 \u00d7 10^8 m/s) = 1.0 \u00d7 10^-11 s.",
+    "answer": 3,
+    "explanation": "Speed of light in glass v = c / n = (3 × 10^8 m/s) / 1.5 = 2 × 10^8 m/s. The time taken to traverse thickness d = 2 × 10^-3 m is t = d / v = (2 × 10^-3 m) / (2 × 10^8 m/s) = 1.0 × 10^-11 s.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.2 Refractive Index"
   },
   {
@@ -214,12 +214,12 @@
     "difficulty": "Easy",
     "question": "Which group of optical devices strictly has a POSITIVE focal length (+f) under the New Cartesian Sign Convention?",
     "options": [
-      "Concave mirror and concave lens",
       "Convex mirror and convex lens",
+      "Concave mirror and concave lens",
       "Concave mirror and convex lens",
       "Convex mirror and concave lens"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Under Cartesian convention, the focus of a convex mirror lies behind the reflecting surface (to the right of the pole), and the principal focus of a convex lens lies to the right of the optical center. Hence, both convex mirrors and convex lenses have positive focal lengths (+f).",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.3 & 9.3.7"
   },
@@ -230,12 +230,12 @@
     "difficulty": "Easy",
     "question": "A student measures a negative focal length (f = -20 cm) for an optical component. Which optical component could this be?",
     "options": [
-      "Either a concave mirror or a concave lens",
       "Either a convex mirror or a convex lens",
+      "Either a concave mirror or a concave lens",
       "Plane mirror only",
       "Glass slab only"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Under Cartesian convention, the focus of both a concave mirror and a concave lens lies to the left of the optical origin (against incident light), making their focal lengths negative.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.3 & 9.3.7"
   },
@@ -247,11 +247,11 @@
     "question": "The bottom of a water tank or swimming pool appears to be raised when viewed from above. This apparent depth illusion occurs due to:",
     "options": [
       "Total internal reflection of ambient light",
-      "Refraction of light rays bending away from the normal as they emerge from water into air",
       "Scattering of blue light by water molecules",
+      "Refraction of light rays bending away from the normal as they emerge from water into air",
       "Dispersion of light inside the water medium"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Light rays originating from the tank bottom travel from optically denser water into rarer air. Upon reaching the surface, they bend away from the normal. An observer tracing these refracted rays backward sees a virtual image of the bottom at an elevated position, making the tank appear shallower.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3 Refraction of Light"
   },
@@ -262,12 +262,12 @@
     "difficulty": "Medium",
     "question": "For any real object positioned anywhere in front of a convex mirror (between infinity and the pole), where is the image ALWAYS formed?",
     "options": [
-      "In front of the mirror between F and C",
       "Behind the mirror between the pole (P) and the principal focus (F)",
+      "In front of the mirror between F and C",
       "Behind the mirror beyond 2F",
       "At the center of curvature (C)"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "For any object placed in front of a convex mirror at a finite distance, the image is formed behind the mirror between the pole (P) and the principal focus (F). It is always virtual, erect, and diminished.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.2 Image Formation by a Convex Mirror"
   },
@@ -278,12 +278,12 @@
     "difficulty": "Easy",
     "question": "A student with nearsightedness is prescribed a corrective lens of power P = -4.0 D. What is the focal length and nature of the prescribed lens?",
     "options": [
-      "f = -25 cm, concave (diverging) lens",
       "f = +25 cm, convex (converging) lens",
+      "f = -25 cm, concave (diverging) lens",
       "f = -40 cm, concave (diverging) lens",
       "f = +40 cm, convex (converging) lens"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Focal length f = 1 / P = 1 / (-4.0 D) = -0.25 m = -25 cm. The negative focal length indicates a concave (diverging) lens, which diverges light rays to correct myopia.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.8 Power of a Lens"
   },
@@ -295,12 +295,12 @@
     "question": "An optical system combines two thin lenses with powers +2.5 D and -1.0 D in close contact. How does this combined lens system behave toward an incident parallel beam of light?",
     "options": [
       "It acts as a diverging system with net power -1.5 D",
-      "It acts as a converging system with net power +1.5 D and focal length +66.7 cm",
       "It acts as a plane glass plate with zero net power",
+      "It acts as a converging system with net power +1.5 D and focal length +66.7 cm",
       "It completely absorbs all transmitted light"
     ],
-    "answer": 1,
-    "explanation": "Net power P = P1 + P2 = +2.5 D + (-1.0 D) = +1.5 D. Since the net power is positive, the system acts as a converging lens with focal length f = 1 / 1.5 \u2248 +0.667 m = +66.7 cm.",
+    "answer": 2,
+    "explanation": "Net power P = P1 + P2 = +2.5 D + (-1.0 D) = +1.5 D. Since the net power is positive, the system acts as a converging lens with focal length f = 1 / 1.5 ≈ +0.667 m = +66.7 cm.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.8 Power of a Lens"
   },
   {
@@ -308,14 +308,14 @@
     "type": "mcq",
     "subtopic": "Medium Comparison: Optical Density Comparison Table",
     "difficulty": "Hard",
-    "question": "The refractive indices of four media A, B, C, and D are: nA = 1.33, nB = 1.44, nC = 1.52, and nD = 1.65. In which medium does light travel with the HIGHEST speed, and in which does it bend the MOST towards the normal when entering from air at 45\u00b0?",
+    "question": "The refractive indices of four media A, B, C, and D are: nA = 1.33, nB = 1.44, nC = 1.52, and nD = 1.65. In which medium does light travel with the HIGHEST speed, and in which does it bend the MOST towards the normal when entering from air at 45°?",
     "options": [
       "Highest speed in D; bends most in A",
-      "Highest speed in A; bends most in D",
       "Highest speed in C; bends most in B",
-      "Speed and bending are identical in all four media"
+      "Speed and bending are identical in all four media",
+      "Highest speed in A; bends most in D"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Speed of light v = c / n. Therefore, light travels fastest in the medium with the lowest refractive index (medium A with n = 1.33). Conversely, greater refractive index causes greater reduction in speed and greater bending towards the normal; hence light bends the most in medium D (n = 1.65).",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.2 Refractive Index"
   }

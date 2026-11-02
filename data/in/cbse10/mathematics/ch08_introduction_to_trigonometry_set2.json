@@ -7,12 +7,12 @@
       "difficulty": "Hard",
       "question": "If sin theta + sin^2 theta = 1, then what is the value of the expression (cos^2 theta + cos^4 theta)?",
       "options": [
-        "1",
         "0",
+        "1",
         "2",
         "1/2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "sin theta + sin^2 theta = 1 => sin theta = 1 - sin^2 theta = cos^2 theta. Squaring both sides: sin^2 theta = cos^4 theta. Substituting into the expression: cos^2 theta + cos^4 theta = cos^2 theta + sin^2 theta = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Hard",
       "question": "If sin theta + cos theta = sqrt(2) cos theta, what is the value of (cos theta - sin theta)?",
       "options": [
-        "sqrt(2) sin theta",
         "sqrt(2) cos theta",
         "-sqrt(2) sin theta",
-        "sin theta"
+        "sin theta",
+        "sqrt(2) sin theta"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "cos theta - sin theta = x. Consider (sin theta + cos theta)^2 + (cos theta - sin theta)^2 = [sin^2 theta + cos^2 theta + 2 sin theta cos theta] + [cos^2 theta + sin^2 theta - 2 sin theta cos theta] = 1 + 1 = 2. Given sin theta + cos theta = sqrt(2) cos theta => (sqrt(2) cos theta)^2 + x^2 = 2 => 2 cos^2 theta + x^2 = 2 => x^2 = 2 - 2 cos^2 theta = 2(1 - cos^2 theta) = 2 sin^2 theta => x = sqrt(2) sin theta.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Hard",
       "question": "If sec theta + tan theta = p, what is the value of sin theta?",
       "options": [
-        "(p^2 - 1) / (p^2 + 1)",
         "(p^2 + 1) / (p^2 - 1)",
         "2p / (p^2 + 1)",
+        "(p^2 - 1) / (p^2 + 1)",
         "2p / (p^2 - 1)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Subtracting the two equations: 2 tan theta = p - 1/p = (p^2 - 1)/p => tan theta = (p^2 - 1)/(2p). From previous problem, sec theta = (p^2 + 1)/(2p). Then sin theta = tan theta / sec theta = [(p^2 - 1)/(2p)] / [(p^2 + 1)/(2p)] = (p^2 - 1) / (p^2 + 1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Hard",
       "question": "Simplify: (sin theta - 2 sin^3 theta) / (2 cos^3 theta - cos theta).",
       "options": [
-        "tan theta",
         "cot theta",
         "sin theta cos theta",
+        "tan theta",
         "1"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "[sin theta(1 - 2 sin^2 theta)] / [cos theta(2 cos^2 theta - 1)]. Note that 1 - 2 sin^2 theta = (sin^2 theta + cos^2 theta) - 2 sin^2 theta = cos^2 theta - sin^2 theta. Similarly 2 cos^2 theta - 1 = 2 cos^2 theta - (sin^2 theta + cos^2 theta) = cos^2 theta - sin^2 theta. The bracketed terms cancel completely, leaving sin theta / cos theta = tan theta.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 5(vii)"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Hard",
       "question": "If x = a cos theta and y = b sin theta, eliminate theta to obtain the relation between x and y.",
       "options": [
-        "x^2/a^2 + y^2/b^2 = 1",
         "x^2/a^2 - y^2/b^2 = 1",
+        "x^2/a^2 + y^2/b^2 = 1",
         "x^2 + y^2 = a^2 + b^2",
         "a^2 x^2 + b^2 y^2 = 1"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "cos theta = x/a, sin theta = y/b. Since cos^2 theta + sin^2 theta = 1, (x/a)^2 + (y/b)^2 = 1 => x^2/a^2 + y^2/b^2 = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Medium",
       "question": "If tan theta + cot theta = 2, find the value of (tan^2 theta + cot^2 theta).",
       "options": [
-        "2",
         "4",
         "0",
-        "1"
+        "1",
+        "2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Squaring both sides: (tan theta + cot theta)^2 = 2^2 => tan^2 theta + cot^2 theta + 2 tan theta cot theta = 4. Since tan theta * cot theta = 1: tan^2 theta + cot^2 theta + 2(1) = 4 => tan^2 theta + cot^2 theta = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Hard",
       "question": "Simplify: (sin^4 theta - cos^4 theta + 1) cosec^2 theta.",
       "options": [
-        "2",
         "1",
         "0",
-        "2 sin^2 theta"
+        "2 sin^2 theta",
+        "2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "sin^4 theta - cos^4 theta = (sin^2 theta - cos^2 theta)(sin^2 theta + cos^2 theta) = sin^2 theta - cos^2 theta. Then (sin^2 theta - cos^2 theta + 1) = sin^2 theta + (1 - cos^2 theta) = sin^2 theta + sin^2 theta = 2 sin^2 theta. Multiplying by cosec^2 theta: (2 sin^2 theta)(1 / sin^2 theta) = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Hard",
       "question": "Simplify: (sin A + cosec A)^2 + (cos A + sec A)^2.",
       "options": [
-        "7 + tan^2 A + cot^2 A",
         "5 + tan^2 A + cot^2 A",
         "7 + sec^2 A + cosec^2 A",
+        "7 + tan^2 A + cot^2 A",
         "9 + tan^2 A + cot^2 A"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Expanding: [sin^2 A + cosec^2 A + 2 sin A cosec A] + [cos^2 A + sec^2 A + 2 cos A sec A] = (sin^2 A + cos^2 A) + 2(1) + 2(1) + cosec^2 A + sec^2 A = 1 + 4 + (1 + cot^2 A) + (1 + tan^2 A) = 7 + tan^2 A + cot^2 A.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 5(viii)"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Medium",
       "question": "What is sqrt((1 - cos A) / (1 + cos A)) equal to?",
       "options": [
-        "cosec A - cot A",
         "cosec A + cot A",
+        "cosec A - cot A",
         "sec A - tan A",
         "1 - cos A"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Multiply numerator and denominator inside root by (1 - cos A): sqrt[(1 - cos A)^2 / (1 - cos^2 A)] = sqrt[(1 - cos A)^2 / sin^2 A] = (1 - cos A)/sin A = 1/sin A - cos A/sin A = cosec A - cot A.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Hard",
       "question": "If a cos theta + b sin theta = m and a sin theta - b cos theta = n, what is m^2 + n^2 equal to?",
       "options": [
-        "a^2 + b^2",
         "a^2 - b^2",
         "(a + b)^2",
+        "a^2 + b^2",
         "a^2 b^2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "m^2 = a^2 cos^2 theta + b^2 sin^2 theta + 2ab sin theta cos theta. n^2 = a^2 sin^2 theta + b^2 cos^2 theta - 2ab sin theta cos theta. Adding m^2 + n^2 = a^2(cos^2 theta + sin^2 theta) + b^2(sin^2 theta + cos^2 theta) = a^2(1) + b^2(1) = a^2 + b^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Medium",
       "question": "If cot theta = 7/8, evaluate: (1 + sin theta)(1 - sin theta) / [(1 + cos theta)(1 - cos theta)].",
       "options": [
-        "49/64",
         "64/49",
+        "49/64",
         "7/8",
         "8/7"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "(1 - sin^2 theta) / (1 - cos^2 theta) = cos^2 theta / sin^2 theta = cot^2 theta. Given cot theta = 7/8, cot^2 theta = (7/8)^2 = 49/64.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.1 Question 7"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Hard",
       "question": "What is the value of (sec^4 theta - sec^2 theta)?",
       "options": [
-        "tan^4 theta + tan^2 theta",
         "tan^4 theta - tan^2 theta",
         "1 + tan^4 theta",
-        "2 tan^2 theta"
+        "2 tan^2 theta",
+        "tan^4 theta + tan^2 theta"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "sec^4 theta - sec^2 theta = sec^2 theta(sec^2 theta - 1) = (1 + tan^2 theta)(tan^2 theta) = tan^2 theta + tan^4 theta.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Hard",
       "question": "Simplify: (1 + tan theta + sec theta)(1 + cot theta - cosec theta).",
       "options": [
-        "2",
         "1",
         "0",
+        "2",
         "-1"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Convert to sin and cos: [1 + sin/cos + 1/cos][1 + cos/sin - 1/sin] = [(cos + sin + 1)/cos] * [(sin + cos - 1)/sin] = [((sin + cos) + 1)((sin + cos) - 1)] / (sin cos) = [(sin + cos)^2 - 1] / (sin cos) = [sin^2 + cos^2 + 2 sin cos - 1] / (sin cos) = [1 + 2 sin cos - 1] / (sin cos) = 2 sin cos / (sin cos) = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 4(ii)"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Hard",
       "question": "If tan theta + sin theta = m and tan theta - sin theta = n, what is (m^2 - n^2)^2 equal to?",
       "options": [
-        "16 mn",
         "4 mn",
+        "16 mn",
         "8 mn",
         "mn"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "m^2 - n^2 = (m + n)(m - n) = (2 tan theta)(2 sin theta) = 4 tan theta sin theta. mn = (tan theta + sin theta)(tan theta - sin theta) = tan^2 theta - sin^2 theta = sin^2 theta/cos^2 theta - sin^2 theta = sin^2 theta(1/cos^2 theta - 1) = sin^2 theta tan^2 theta. Thus 4 sqrt(mn) = 4 sin theta tan theta = m^2 - n^2. Squaring both sides: (m^2 - n^2)^2 = 16 mn.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Medium",
       "question": "What is (1 / (1 + sin^2 A) + 1 / (1 + cosec^2 A)) equal to?",
       "options": [
-        "1",
         "2",
         "sin^2 A",
-        "cosec^2 A"
+        "cosec^2 A",
+        "1"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "1/(1 + cosec^2 A) = 1/(1 + 1/sin^2 A) = sin^2 A / (sin^2 A + 1). Adding them: 1/(1 + sin^2 A) + sin^2 A/(1 + sin^2 A) = (1 + sin^2 A)/(1 + sin^2 A) = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem"
     }

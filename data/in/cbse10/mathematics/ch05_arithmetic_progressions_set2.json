@@ -7,12 +7,12 @@
       "difficulty": "Hard",
       "question": "If the mth term of an AP is 1/n and the nth term is 1/m, what is the value of its (mn)th term?",
       "options": [
-        "1",
         "0",
+        "1",
         "1/(mn)",
         "m + n"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "a + (m - 1)d = 1/n, and a + (n - 1)d = 1/m. Subtracting gives (m - n)d = (m - n)/(mn) => d = 1/(mn). Then a = 1/n - (m - 1)/(mn) = 1/(mn). Thus a_mn = a + (mn - 1)d = 1/(mn) + (mn - 1)/(mn) = mn/(mn) = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Hard",
       "question": "Find the sum of all three-digit natural numbers which are divisible by 7.",
       "options": [
-        "70,336",
         "70,300",
         "69,850",
+        "70,336",
         "71,204"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "First 3-digit number divisible by 7 is 105. Last is 994. 994 = 105 + (n - 1)(7) => 889 = 7(n - 1) => n - 1 = 127 => n = 128 terms. S_128 = (128/2)[105 + 994] = 64 * 1099 = 70,336.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 13"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Hard",
       "question": "The ratio of the sums of m and n terms of an AP is m^2 : n^2. Show that the ratio of the mth and nth terms is:",
       "options": [
-        "(2m - 1) : (2n - 1)",
         "(2m + 1) : (2n + 1)",
         "(m - 1) : (n - 1)",
-        "(m + 1) : (n + 1)"
+        "(m + 1) : (n + 1)",
+        "(2m - 1) : (2n - 1)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "S_m / S_n = [m/2 (2a + (m-1)d)] / [n/2 (2a + (n-1)d)] = m^2 / n^2 => [2a + (m-1)d] / [2a + (n-1)d] = m / n. To find a_m / a_n = [a + (m-1)d] / [a + (n-1)d], replace m by (2m - 1) and n by (2n - 1). This gives [2a + (2m - 2)d] / [2a + (2n - 2)d] = (2m - 1)/(2n - 1) => a_m / a_n = (2m - 1)/(2n - 1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Hard",
       "question": "If the pth term of an AP is q and the qth term is p, what is its (p + q)th term?",
       "options": [
-        "0",
         "p + q",
         "-(p + q)",
+        "0",
         "pq"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "a + (p - 1)d = q, and a + (q - 1)d = p. Subtracting gives (p - q)d = q - p = -(p - q) => d = -1. Then a = q - (p - 1)(-1) = p + q - 1. The (p + q)th term is a_(p+q) = a + (p + q - 1)d = (p + q - 1) + (p + q - 1)(-1) = 0.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Hard",
       "question": "If S_1, S_2, S_3 are the sums of first n, 2n, and 3n terms of an AP respectively, then which relation is true?",
       "options": [
-        "S_3 = 3(S_2 - S_1)",
         "S_3 = 2(S_2 - S_1)",
         "S_3 = S_1 + S_2",
-        "S_3 = 3(S_1 + S_2)"
+        "S_3 = 3(S_1 + S_2)",
+        "S_3 = 3(S_2 - S_1)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "S_1 = n/2 [2a + (n-1)d], S_2 = 2n/2 [2a + (2n-1)d] = n[2a + (2n-1)d]. S_2 - S_1 = n[2a + (2n-1)d] - n/2[2a + (n-1)d] = n/2 [4a + 4nd - 2d - 2a - nd + d] = n/2 [2a + (3n-1)d]. Thus 3(S_2 - S_1) = (3n/2)[2a + (3n-1)d] = S_3.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 3"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Hard",
       "question": "The interior angles of a polygon are in AP. The smallest angle is 120 degrees and the common difference is 5 degrees. Find the number of sides of the polygon.",
       "options": [
-        "9",
         "16",
+        "9",
         "9 or 16",
         "12"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Sum of interior angles of n-gon = (n - 2)*180. By AP formula: S_n = (n/2)[2(120) + (n - 1)5] = (n/2)[240 + 5n - 5] = (n/2)[5n + 235]. Equating: (n/2)[5n + 235] = 180(n - 2) => 5n^2 + 235n = 360n - 720 => 5n^2 - 125n + 720 = 0 => n^2 - 25n + 144 = 0 => (n - 9)(n - 16) = 0. For n = 16, largest angle a_16 = 120 + 15(5) = 195 degrees > 180 degrees (impossible in a convex polygon). Thus n = 9.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Medium",
       "question": "A ladder has rungs 25 cm apart. The rungs decrease uniformly in length from 45 cm at the bottom to 25 cm at the top. If the top and bottom rungs are 2.5 m apart, what is the total length of wood required for all rungs?",
       "options": [
-        "385 cm (3.85 m)",
         "350 cm (3.50 m)",
         "420 cm (4.20 m)",
+        "385 cm (3.85 m)",
         "400 cm (4.00 m)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Distance between top and bottom = 2.5 m = 250 cm. Number of rungs n = (250 / 25) + 1 = 10 + 1 = 11 rungs. Bottom rung a = 45 cm, top rung l = 25 cm. Total wood = S_11 = (11/2)[a + l] = (11/2)[45 + 25] = (11/2)(70) = 11 * 35 = 385 cm.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 3"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Hard",
       "question": "The sum of four consecutive numbers in an AP is 32 and the ratio of the product of the first and the last term to the product of the two middle terms is 7 : 15. What are the numbers?",
       "options": [
-        "2, 6, 10, 14",
         "4, 6, 8, 14",
         "1, 5, 9, 17",
-        "3, 7, 11, 15"
+        "3, 7, 11, 15",
+        "2, 6, 10, 14"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let terms be (a - 3d), (a - d), (a + d), (a + 3d). Sum = 4a = 32 => a = 8. Ratio: [(a - 3d)(a + 3d)] / [(a - d)(a + d)] = 7/15 => (64 - 9d^2)/(64 - d^2) = 7/15 => 15(64 - 9d^2) = 7(64 - d^2) => 960 - 135d^2 = 448 - 7d^2 => 128d^2 = 512 => d^2 = 4 => d = +-2. Numbers are 8 - 6 = 2, 8 - 2 = 6, 8 + 2 = 10, 8 + 6 = 14.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 2"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Medium",
       "question": "A contract on construction job specifies a penalty for delay of completion beyond a certain date as follows: Rs 200 for the 1st day, Rs 250 for the 2nd day, Rs 300 for the 3rd day, etc. How much money does a delay of 30 days cost the contractor?",
       "options": [
-        "Rs 27,750",
         "Rs 25,500",
+        "Rs 27,750",
         "Rs 28,000",
         "Rs 30,000"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "a = 200, d = 50, n = 30. S_30 = (30/2) [2(200) + 29(50)] = 15 [400 + 1450] = 15 [1850] = Rs 27,750.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 15"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Easy",
       "question": "What is the sum of the first 'n' positive even integers (2 + 4 + 6 + ... + 2n)?",
       "options": [
-        "n(n + 1)",
         "n^2",
         "n(n - 1)",
+        "n(n + 1)",
         "2n(n + 1)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Here a = 2, d = 2. S_n = (n/2)[2(2) + (n - 1)2] = (n/2)[4 + 2n - 2] = (n/2)[2n + 2] = n(n + 1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 14"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Hard",
       "question": "In a potato race, a bucket is placed at the starting point, 5 m from the first potato, and subsequent potatoes are placed 3 m apart in a straight line. There are 10 potatoes. A competitor runs from the bucket to pick up each potato and drops it back into the bucket. What is the total distance run?",
       "options": [
-        "370 metres",
         "350 metres",
+        "370 metres",
         "360 metres",
         "380 metres"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "For 1st potato: 2 * 5 = 10 m. For 2nd potato: 2 * (5 + 3) = 16 m. For 3rd potato: 2 * (5 + 6) = 22 m. This forms an AP: 10, 16, 22, ... with a = 10, d = 6, n = 10. S_10 = (10/2)[2(10) + 9(6)] = 5[20 + 54] = 5 * 74 = 370 metres.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 20"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Medium",
       "question": "The angles of a triangle are in AP. If the greatest angle is twice the smallest angle, find all three angles.",
       "options": [
-        "40 deg, 60 deg, 80 deg",
         "30 deg, 60 deg, 90 deg",
         "45 deg, 60 deg, 75 deg",
-        "50 deg, 60 deg, 70 deg"
+        "50 deg, 60 deg, 70 deg",
+        "40 deg, 60 deg, 80 deg"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let angles be a - d, a, a + d. Sum = 3a = 180 => a = 60 degrees. Greatest angle is 60 + d, smallest is 60 - d. (60 + d) = 2(60 - d) => 60 + d = 120 - 2d => 3d = 60 => d = 20 degrees. The angles are 40 deg, 60 deg, 80 deg.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Medium",
       "question": "How many terms of the AP: 24, 21, 18, ... must be taken so that their sum is 78?",
       "options": [
-        "4 or 13",
         "4 only",
         "13 only",
-        "6 or 9"
+        "6 or 9",
+        "4 or 13"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Here a = 24, d = -3, S_n = 78. (n/2)[48 + (n - 1)(-3)] = 78 => n(51 - 3n) = 156 => 3n^2 - 51n + 156 = 0 => n^2 - 17n + 52 = 0 => (n - 4)(n - 13) = 0. Both n = 4 and n = 13 give sum 78 because the sum of terms from 5th to 13th is exactly 0.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3, Example 13"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Easy",
       "question": "How many multiples of 4 lie between 10 and 250?",
       "options": [
-        "60",
         "59",
+        "60",
         "61",
         "62"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The first multiple of 4 above 10 is 12. The last multiple below 250 is 248. The AP is 12, 16, ..., 248. 248 = 12 + (n - 1)(4) => 236 = 4(n - 1) => n - 1 = 59 => n = 60.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 14"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Medium",
       "question": "For what value of 'n' are the nth terms of two APs: 63, 65, 67, ... and 3, 10, 17, ... equal?",
       "options": [
-        "13",
         "15",
         "12",
+        "13",
         "14"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "For first AP: a_n = 63 + (n - 1)(2) = 63 + 2n - 2 = 2n + 61. For second AP: b_n = 3 + (n - 1)(7) = 3 + 7n - 7 = 7n - 4. Equating them: 2n + 61 = 7n - 4 => 5n = 65 => n = 13.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 15"
     }

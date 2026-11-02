@@ -7,11 +7,11 @@
     "question": "A student wants to obtain a virtual, erect, and magnified image of an object using a concave mirror. Where must the object be positioned along the principal axis?",
     "options": [
       "At the center of curvature (C)",
+      "Between the pole (P) and the principal focus (F)",
       "Between the center of curvature (C) and the principal focus (F)",
-      "At the principal focus (F)",
-      "Between the pole (P) and the principal focus (F)"
+      "At the principal focus (F)"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "When an object is placed between the pole (P) and principal focus (F) of a concave mirror, the reflected rays diverge. When produced backward behind the mirror, they meet to form a virtual, erect, and enlarged image. This is the optical principle used in dentist mirrors and shaving mirrors.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.1 Image Formation by Spherical Mirrors"
   },
@@ -23,11 +23,11 @@
     "question": "Why are convex mirrors universally preferred as rear-view (wing) mirrors in automobiles?",
     "options": [
       "They produce an inverted and magnified image of following traffic",
-      "They always produce an erect, diminished image and provide a much wider field of view",
       "They absorb glare and eliminate all blind spots completely",
+      "They always produce an erect, diminished image and provide a much wider field of view",
       "They have a real focus in front of the mirror allowing accurate distance measurement"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Convex mirrors always form an erect and diminished image irrespective of object distance. Furthermore, because their reflective surface curves outward, they offer a significantly wider field of view compared to plane mirrors, enabling drivers to view larger traffic areas behind them.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.2 Uses of Convex Mirrors"
   },
@@ -39,12 +39,12 @@
     "question": "The absolute refractive index of diamond is 2.42. What is the physical meaning of this statement with respect to the speed of light?",
     "options": [
       "Light travels 2.42 times faster in diamond than in vacuum",
-      "The speed of light in diamond is 1/2.42 times the speed of light in vacuum",
       "Diamond reflects 2.42% of incident visible light rays",
-      "The critical angle of light inside diamond is exactly 2.42 degrees"
+      "The critical angle of light inside diamond is exactly 2.42 degrees",
+      "The speed of light in diamond is 1/2.42 times the speed of light in vacuum"
     ],
-    "answer": 1,
-    "explanation": "The refractive index n = c / v, where c is the speed of light in vacuum and v is the speed of light in the medium. A refractive index of 2.42 means that v = c / 2.42, which means light travels 2.42 times slower in diamond than in vacuum (approximately 1.24 \u00d7 10^8 m/s).",
+    "answer": 3,
+    "explanation": "The refractive index n = c / v, where c is the speed of light in vacuum and v is the speed of light in the medium. A refractive index of 2.42 means that v = c / 2.42, which means light travels 2.42 times slower in diamond than in vacuum (approximately 1.24 × 10^8 m/s).",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.2 Refractive Index"
   },
   {
@@ -54,12 +54,12 @@
     "difficulty": "Easy",
     "question": "An optometrist prescribes a corrective eyeglass lens of power P = +2.0 D. What is the focal length and type of this lens?",
     "options": [
-      "Focal length = -0.5 m, Concave lens",
       "Focal length = +0.5 m (+50 cm), Convex lens",
+      "Focal length = -0.5 m, Concave lens",
       "Focal length = +2.0 m, Convex lens",
       "Focal length = -2.0 m, Concave lens"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Power of a lens P = 1 / f (in metres). Thus, f = 1 / P = 1 / (+2.0 D) = +0.5 m = +50 cm. Since the focal length and power are positive, the prescribed corrective lens is a converging (convex) lens.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.8 Power of a Lens"
   },
@@ -72,10 +72,10 @@
     "options": [
       "Focal length of a convex lens",
       "Image distance for a real inverted image",
-      "Object distance (u) for a real object placed in front of the mirror/lens",
-      "Height of an erect virtual image"
+      "Height of an erect virtual image",
+      "Object distance (u) for a real object placed in front of the mirror/lens"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "By convention, the object is always placed to the left of the mirror or lens. Distances measured against the direction of incident light (to the left of origin/pole) are taken as negative. Therefore, object distance (u) is always negative.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.3 Sign Convention for Reflection by Spherical Mirrors"
   },
@@ -102,12 +102,12 @@
     "difficulty": "Medium",
     "question": "The linear magnification (m) produced by a spherical mirror is related to object distance (u) and image distance (v) by which expression?",
     "options": [
-      "m = + v / u",
       "m = - v / u",
+      "m = + v / u",
       "m = - u / v",
       "m = + u / v"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Magnification produced by a spherical mirror is the ratio of image height (h') to object height (h): m = h' / h = - (v / u). The negative sign indicates that for a real, inverted image (where h' is negative and v is negative), magnification is negative.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.4 Mirror Formula and Magnification"
   },
@@ -119,11 +119,11 @@
     "question": "In contrast to spherical mirrors, what is the formula for linear magnification (m) produced by a spherical lens?",
     "options": [
       "m = - v / u",
-      "m = + v / u",
       "m = 1 / (u * v)",
+      "m = + v / u",
       "m = - (u / v)"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "For spherical lenses, linear magnification m = h' / h = + (v / u). Note the distinction: mirrors have m = -v/u, while lenses have m = +v/u.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.7 Lens Formula and Magnification"
   },
@@ -134,12 +134,12 @@
     "difficulty": "Medium",
     "question": "Which of the following represents the correct Lens Formula?",
     "options": [
-      "1/f = 1/v + 1/u",
       "1/f = 1/v - 1/u",
+      "1/f = 1/v + 1/u",
       "1/u = 1/f + 1/v",
       "f = v - u"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The lens formula is 1/f = 1/v - 1/u. It expresses the relationship between object distance (u), image distance (v), and focal length (f) of a spherical lens.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.7 Lens Formula and Magnification"
   },
@@ -151,11 +151,11 @@
     "question": "What is the relationship between the radius of curvature (R) and the focal length (f) of a spherical mirror of small aperture?",
     "options": [
       "R = f",
-      "R = 2f (or f = R/2)",
       "R = f / 2",
+      "R = 2f (or f = R/2)",
       "R = 4f"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "For spherical mirrors of small aperture, the principal focus F lies midway between the pole P and the center of curvature C. Therefore, R = 2f, or f = R / 2.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2 Spherical Mirrors"
   },
@@ -168,10 +168,10 @@
     "options": [
       "At infinity",
       "Between F and C",
-      "At the center of curvature (C)",
-      "Beyond C"
+      "Beyond C",
+      "At the center of curvature (C)"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "When an object is placed at the center of curvature (C) of a concave mirror, the image is formed at C itself. The image is real, inverted, and exactly equal in size to the object (m = -1).",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.1 Image Formation by Spherical Mirrors"
   },
@@ -199,11 +199,11 @@
     "question": "Where should an object be placed in front of a convex lens to obtain a real, inverted, and magnified image on a screen?",
     "options": [
       "Between optical center O and focus F1",
-      "Between focus F1 and 2F1",
       "At 2F1",
+      "Between focus F1 and 2F1",
       "At infinity"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "When an object is placed between F1 and 2F1 in front of a convex lens, a real, inverted, and magnified image is formed beyond 2F2 on the opposite side of the lens.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.4 Image Formation by Lenses"
   },
@@ -216,10 +216,10 @@
     "options": [
       "Beyond 2F1",
       "At 2F1",
-      "Between the optical center (O) and the principal focus (F1)",
-      "At infinity"
+      "At infinity",
+      "Between the optical center (O) and the principal focus (F1)"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "A convex lens acts as a magnifying glass when the object is held between its optical center (O) and principal focus (F1). In this position, it produces an erect, magnified, virtual image on the same side as the object.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.4 Image Formation by Lenses"
   },
@@ -231,11 +231,11 @@
     "question": "Which of the following statements is ALWAYS true for the image formed by a concave (diverging) lens?",
     "options": [
       "It is always real, inverted, and diminished",
-      "It is always virtual, erect, and magnified",
       "It is always virtual, erect, and diminished",
+      "It is always virtual, erect, and magnified",
       "It can be real or virtual depending on object distance"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "A concave lens always diverges incident light rays. As a result, regardless of the object's position, the image formed by a concave lens is always virtual, erect, diminished, and located on the same side as the object between the optical center and the focus.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.5 Nature, Position and Relative Size of Image Formed by a Concave Lens"
   },
@@ -246,12 +246,12 @@
     "difficulty": "Medium",
     "question": "According to Snell's Law of refraction, what is the mathematical relation between the angle of incidence (i) and the angle of refraction (r)?",
     "options": [
-      "sin(i) + sin(r) = constant",
       "sin(i) / sin(r) = constant",
+      "sin(i) + sin(r) = constant",
       "tan(i) / tan(r) = constant",
       "cos(i) * cos(r) = constant"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The second law of refraction, known as Snell's law, states that the ratio of the sine of angle of incidence to the sine of angle of refraction is a constant for a given pair of media and given color of light: sin(i) / sin(r) = constant = n21.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.1 Laws of Refraction of Light"
   },
@@ -276,15 +276,15 @@
     "type": "mcq",
     "subtopic": "Refractive Index and Speed of Light Calculation",
     "difficulty": "Medium",
-    "question": "If the refractive index of glass with respect to vacuum is 1.5 and the speed of light in vacuum is 3.0 \u00d7 10^8 m/s, what is the speed of light in glass?",
+    "question": "If the refractive index of glass with respect to vacuum is 1.5 and the speed of light in vacuum is 3.0 × 10^8 m/s, what is the speed of light in glass?",
     "options": [
-      "4.5 \u00d7 10^8 m/s",
-      "2.0 \u00d7 10^8 m/s",
-      "1.5 \u00d7 10^8 m/s",
-      "0.5 \u00d7 10^8 m/s"
+      "4.5 × 10^8 m/s",
+      "1.5 × 10^8 m/s",
+      "0.5 × 10^8 m/s",
+      "2.0 × 10^8 m/s"
     ],
-    "answer": 1,
-    "explanation": "Refractive index n = c / v. Rearranging gives v = c / n = (3.0 \u00d7 10^8 m/s) / 1.5 = 2.0 \u00d7 10^8 m/s.",
+    "answer": 3,
+    "explanation": "Refractive index n = c / v. Rearranging gives v = c / n = (3.0 × 10^8 m/s) / 1.5 = 2.0 × 10^8 m/s.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.2 Refractive Index"
   },
   {
@@ -295,11 +295,11 @@
     "question": "Two thin lenses of powers P1 = +3.5 D and P2 = -1.5 D are placed in close contact. What is the net power and net focal length of the optical combination?",
     "options": [
       "Power = +5.0 D, Focal length = +0.2 m",
-      "Power = +2.0 D, Focal length = +0.5 m (+50 cm)",
       "Power = -2.0 D, Focal length = -0.5 m",
+      "Power = +2.0 D, Focal length = +0.5 m (+50 cm)",
       "Power = +2.0 D, Focal length = +2.0 m"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The net power of thin lenses in contact is the algebraic sum: P = P1 + P2 = (+3.5 D) + (-1.5 D) = +2.0 D. The effective focal length is f = 1 / P = 1 / (+2.0 D) = +0.5 m = +50 cm.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.8 Power of a Lens"
   },
@@ -310,12 +310,12 @@
     "difficulty": "Medium",
     "question": "The refractive index of water is 4/3 and that of glass is 3/2. What is the refractive index of glass with respect to water (wng)?",
     "options": [
-      "8/9",
       "9/8 (1.125)",
+      "8/9",
       "2",
       "1/2"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The refractive index of glass with respect to water is wng = ng / nw = (3/2) / (4/3) = (3/2) * (3/4) = 9/8 = 1.125.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.2 Refractive Index"
   }

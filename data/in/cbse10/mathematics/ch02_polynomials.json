@@ -6,12 +6,12 @@
     "difficulty": "Easy",
     "question": "If α and β are the zeroes of the quadratic polynomial p(x) = ax² + bx + c (a ≠ 0), what are the sum and product of zeroes?",
     "options": [
-      "α + β = -b/a;  αβ = c/a",
       "α + β = b/a;   αβ = -c/a",
       "α + β = c/a;   αβ = b/a",
-      "α + β = -c/a;  αβ = -b/a"
+      "α + β = -c/a;  αβ = -b/a",
+      "α + β = -b/a;  αβ = c/a"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "For any quadratic polynomial ax² + bx + c: Sum of zeroes (α + β) = -(coefficient of x) / (coefficient of x²) = -b/a; Product of zeroes (αβ) = constant term / (coefficient of x²) = c/a.",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
   },
@@ -38,12 +38,12 @@
     "difficulty": "Easy",
     "question": "The number of real zeroes of a polynomial y = p(x) is equal to the number of points where the graph of y = p(x) intersects which axis?",
     "options": [
-      "The x-axis",
       "The y-axis",
       "Both x and y axes",
+      "The x-axis",
       "The origin only"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The zeroes of y = p(x) are precisely the x-coordinates of the points where the curve intersects the x-axis (where y = 0).",
     "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
   },

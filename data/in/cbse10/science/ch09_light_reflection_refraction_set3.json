@@ -6,12 +6,12 @@
     "difficulty": "Medium",
     "question": "Assertion (A): Convex mirrors are commonly fitted as passenger-side rear-view mirrors in cars and trucks.\nReason (R): Convex mirrors always produce an erect, diminished virtual image and have an outward curved surface that provides a substantially wider field of view than a plane mirror.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Both statements are true and (R) correctly explains (A). Convex mirrors curve outwards, capturing light from a broader visual field while always forming an erect, miniature image of trailing traffic.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.2 Uses of Convex Mirrors"
   },
@@ -40,11 +40,11 @@
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true."
+      "(A) is false, but (R) is true.",
+      "(A) is true, but (R) is false."
     ],
-    "answer": 2,
-    "explanation": "Assertion (A) is true: glass is optically denser than air, so light bends toward the normal. Reason (R) is false: the speed of light in glass (2.0 \u00d7 10^8 m/s) is slower than in air/vacuum (3.0 \u00d7 10^8 m/s). It is this deceleration that causes bending toward the normal.",
+    "answer": 3,
+    "explanation": "Assertion (A) is true: glass is optically denser than air, so light bends toward the normal. Reason (R) is false: the speed of light in glass (2.0 × 10^8 m/s) is slower than in air/vacuum (3.0 × 10^8 m/s). It is this deceleration that causes bending toward the normal.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3 Refraction of Light"
   },
   {
@@ -54,12 +54,12 @@
     "difficulty": "Medium",
     "question": "Assertion (A): A concave mirror can produce both real inverted images and virtual erect images.\nReason (R): The nature, size, and orientation of the image formed by a concave mirror depend entirely on the distance of the object from its pole.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Both statements are true and R explains A. When placed beyond focus F, the concave mirror forms a real and inverted image. When placed between pole P and focus F, it forms a virtual, erect, and magnified image.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.1 Image Formation by Spherical Mirrors"
   },
@@ -72,10 +72,10 @@
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true."
+      "(A) is false, but (R) is true.",
+      "(A) is true, but (R) is false."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Assertion (A) is false: optical power P = 1 / f. Since a concave lens has a negative focal length, its power is always negative (-P). Reason (R) correctly explains that concave lenses diverge light and have negative focal lengths.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.8 Power of a Lens"
   },
@@ -86,12 +86,12 @@
     "difficulty": "Easy",
     "question": "Assertion (A): The linear magnification produced by an ordinary flat plane mirror is exactly equal to +1.\nReason (R): A plane mirror forms an erect, virtual image whose height is identical to the height of the object and at an equal distance behind the reflecting plane.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true."
+      "(A) is false, but (R) is true.",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Magnification m = h' / h. For a plane mirror, image height equals object height (h' = h), so |m| = 1. Since the image is virtual and erect, the sign is positive, giving m = +1. Reason (R) accurately explains this.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.1 Reflection of Light"
   },
@@ -108,7 +108,7 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Speed in a medium v = c / n. Because diamond has a much higher refractive index (2.42) than water (1.33), speed in diamond (\u2248 1.24 \u00d7 10^8 m/s) is much less than speed in water (\u2248 2.25 \u00d7 10^8 m/s). Hence light travels faster in water, and R correctly explains A.",
+    "explanation": "Speed in a medium v = c / n. Because diamond has a much higher refractive index (2.42) than water (1.33), speed in diamond (≈ 1.24 × 10^8 m/s) is much less than speed in water (≈ 2.25 × 10^8 m/s). Hence light travels faster in water, and R correctly explains A.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.2 Refractive Index"
   },
   {
@@ -116,15 +116,15 @@
     "type": "assertion-reason",
     "subtopic": "Refraction: Perpendicular Ray Transmission",
     "difficulty": "Medium",
-    "question": "Assertion (A): A ray of light incident perpendicular to the surface of a rectangular glass block passes into the glass along a completely straight line without any deviation.\nReason (R): When angle of incidence is i = 0\u00b0, Snell's law (sin i / sin r = n) requires sin r = 0, meaning angle of refraction r = 0\u00b0.",
+    "question": "Assertion (A): A ray of light incident perpendicular to the surface of a rectangular glass block passes into the glass along a completely straight line without any deviation.\nReason (R): When angle of incidence is i = 0°, Snell's law (sin i / sin r = n) requires sin r = 0, meaning angle of refraction r = 0°.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "(A) is true, but (R) is false.",
       "(A) is false, but (R) is true."
     ],
-    "answer": 0,
-    "explanation": "For normal incidence, the ray strikes parallel to the normal (i = 0\u00b0). From Snell's law, sin r = (sin 0\u00b0) / n = 0, so r = 0\u00b0. Thus, the ray does not bend at all.",
+    "answer": 1,
+    "explanation": "For normal incidence, the ray strikes parallel to the normal (i = 0°). From Snell's law, sin r = (sin 0°) / n = 0, so r = 0°. Thus, the ray does not bend at all.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.1 Laws of Refraction of Light"
   },
   {
@@ -135,11 +135,11 @@
     "question": "Assertion (A): A convex mirror can produce a magnified virtual image when the object is held extremely close to its pole.\nReason (R): The focal length of a convex mirror is positive under the New Cartesian Sign Convention.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "(A) is false, but (R) is true.",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-      "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true."
+      "(A) is true, but (R) is false."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Assertion (A) is false: a convex mirror NEVER produces a magnified image regardless of where the object is placed; it always forms a diminished virtual image (m < 1). Reason (R) is true: the focus of a convex mirror is behind the mirror, so f is positive.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.2 Uses of Convex Mirrors"
   },
@@ -150,12 +150,12 @@
     "difficulty": "Hard",
     "question": "Assertion (A): If the lower half of a convex lens is covered with black paper, the upper half continues to form a complete, unbroken image of an object on a screen.\nReason (R): Every fraction of a lens receives light rays diverging from all points of the object and refracts them to converge at the corresponding image points.",
     "options": [
-      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
       "(A) is true, but (R) is false.",
-      "(A) is false, but (R) is true."
+      "(A) is false, but (R) is true.",
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Both statements are true and R explains A. Each point on an object emits rays in all forward directions. Even with half the lens blocked, sufficient rays pass through the clear half to form the complete image, though with reduced brightness.",
     "citation": "NCERT Class 10 Science, Chapter 9, NCERT Exercise Question 9"
   },
@@ -183,11 +183,11 @@
     "question": "An environmental engineering team installs a large concave parabolic solar concentrator with a radius of curvature R = 2.4 m to power a community solar water heater. At what exact distance from the center (pole) of the reflector must the water boiler pot be mounted to capture the maximum concentrated heat?",
     "options": [
       "2.4 m from the mirror",
-      "1.2 m from the mirror",
       "0.6 m from the mirror",
+      "1.2 m from the mirror",
       "4.8 m from the mirror"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Sunlight consists of parallel rays traveling from infinity. A concave mirror converges parallel rays precisely at its principal focus F. Since focal length f = R / 2 = 2.4 / 2 = 1.2 m, placing the boiler at f = 1.2 m captures the maximum concentration of solar thermal energy.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.1 Uses of Concave Mirrors"
   },
@@ -196,14 +196,14 @@
     "type": "case-study",
     "subtopic": "Experimental Case Study: Lateral Displacement in Glass Slabs",
     "difficulty": "Hard",
-    "question": "A student shines a green laser beam at an incident angle of 45\u00b0 onto a rectangular glass block of thickness t = 2.0 cm and measures the lateral displacement (sideways shift) of the emergent ray. If the experiment is repeated using a thicker glass block of t = 5.0 cm with identical refractive index and angle of incidence, what will happen to the lateral displacement?",
+    "question": "A student shines a green laser beam at an incident angle of 45° onto a rectangular glass block of thickness t = 2.0 cm and measures the lateral displacement (sideways shift) of the emergent ray. If the experiment is repeated using a thicker glass block of t = 5.0 cm with identical refractive index and angle of incidence, what will happen to the lateral displacement?",
     "options": [
-      "Lateral displacement will remain unchanged because the angle of incidence is unchanged",
       "Lateral displacement will increase proportionally with the increase in slab thickness",
+      "Lateral displacement will remain unchanged because the angle of incidence is unchanged",
       "Lateral displacement will decrease because light spends more time in glass",
       "Lateral displacement will reduce to zero due to double refraction"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Lateral displacement (d) produced by a parallel-sided slab is directly proportional to its thickness (t): d = [t * sin(i - r)] / cos(r). Increasing thickness from 2 cm to 5 cm gives light a longer path inside the slab, resulting in a proportionally greater sideways shift upon emergence.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3 Refraction of Light"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Hard",
     "question": "In a laboratory demonstration, a teacher wishes to project a sharp, real, and inverted image of an illuminated slide onto a wall screen placed at a fixed distance of 90 cm from the slide. If a convex lens of focal length f = 20 cm is used, where should the lens be positioned between the slide and the screen?",
     "options": [
-      "30 cm from the slide (or 60 cm from the slide)",
       "45 cm from the slide",
+      "30 cm from the slide (or 60 cm from the slide)",
       "20 cm from the slide",
       "15 cm from the slide"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Let distance from slide to lens be u. Then image distance v = 90 - u. By Cartesian convention, object distance is -u and image distance is +(90 - u). Lens formula: 1/f = 1/v - 1/u => 1/20 = 1/(90 - u) - (-1/u) = 1/(90 - u) + 1/u = 90 / [u(90 - u)]. Cross-multiplying: u(90 - u) = 1800 => u^2 - 90u + 1800 = 0 => (u - 30)(u - 60) = 0. Thus the lens can be placed at 30 cm or 60 cm from the slide.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.7 Lens Formula"
   },
@@ -230,13 +230,13 @@
     "difficulty": "Hard",
     "question": "A glass convex lens has a focal length of 20 cm in air (n_glass = 1.5). When this lens is completely submerged in a clear water tank (n_water = 1.33), what happens to its focal length and optical power?",
     "options": [
-      "Focal length increases, optical power decreases",
       "Focal length decreases, optical power increases",
       "Both focal length and optical power remain completely unaffected",
+      "Focal length increases, optical power decreases",
       "The convex lens turns into a diverging concave lens"
     ],
-    "answer": 0,
-    "explanation": "The bending power of a lens depends on the relative refractive index between lens material and surrounding medium. In water, the relative refractive index n_rel = 1.5 / 1.33 \u2248 1.13, which is much lower than in air (1.5 / 1.0 = 1.5). Because the difference in refractive index is smaller, light refracts less, the focal length increases significantly (roughly quadruples), and its power (P = 1/f) decreases.",
+    "answer": 2,
+    "explanation": "The bending power of a lens depends on the relative refractive index between lens material and surrounding medium. In water, the relative refractive index n_rel = 1.5 / 1.33 ≈ 1.13, which is much lower than in air (1.5 / 1.0 = 1.5). Because the difference in refractive index is smaller, light refracts less, the focal length increases significantly (roughly quadruples), and its power (P = 1/f) decreases.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3.2 Refractive Index & 9.3.8 Power of a Lens"
   },
   {
@@ -246,13 +246,13 @@
     "difficulty": "Hard",
     "question": "A departmental store installs a convex surveillance mirror of radius of curvature R = 2.0 m (f = +1.0 m) at an aisle junction. A shopper stands at a distance of 5.0 m from the mirror. What is the magnification and nature of the shopper's image in the mirror?",
     "options": [
-      "m = +0.17 (virtual, erect, diminished)",
       "m = -0.17 (real, inverted)",
       "m = +0.50 (virtual, erect)",
-      "m = +1.20 (virtual, magnified)"
+      "m = +1.20 (virtual, magnified)",
+      "m = +0.17 (virtual, erect, diminished)"
     ],
-    "answer": 0,
-    "explanation": "Focal length f = +1.0 m, u = -5.0 m. Mirror formula: 1/v = 1/f - 1/u = 1/1.0 - (-1/5.0) = 1 + 0.2 = 1.2 = 6/5. Thus v = +5/6 m \u2248 +0.833 m. Magnification m = -v / u = - (+5/6) / (-5) = +1/6 \u2248 +0.167 (+0.17). The image is erect, virtual, and diminished to about 17% of actual size.",
+    "answer": 3,
+    "explanation": "Focal length f = +1.0 m, u = -5.0 m. Mirror formula: 1/v = 1/f - 1/u = 1/1.0 - (-1/5.0) = 1 + 0.2 = 1.2 = 6/5. Thus v = +5/6 m ≈ +0.833 m. Magnification m = -v / u = - (+5/6) / (-5) = +1/6 ≈ +0.167 (+0.17). The image is erect, virtual, and diminished to about 17% of actual size.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.2 Uses of Convex Mirrors"
   },
   {
@@ -262,12 +262,12 @@
     "difficulty": "Medium",
     "question": "A lighthouse engineer needs to produce an intense, narrow, parallel beam of light that projects tens of kilometers across the night sea. Which optical setup accomplishes this requirement in accordance with NCERT principles?",
     "options": [
-      "Place a powerful lamp at the principal focus of a large concave reflector",
       "Place a powerful lamp at the center of curvature of a convex mirror",
       "Place a powerful lamp at the optical center of a diverging concave lens",
+      "Place a powerful lamp at the principal focus of a large concave reflector",
       "Place a flat plane mirror inclined at 45 degrees"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "By the reversibility of light and reflection laws of concave mirrors, rays of light originating from a point source positioned at the principal focus (F) reflect from the concave surface parallel to the principal axis, creating a concentrated, powerful beam of light.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.2.1 Uses of Concave Mirrors"
   },
@@ -278,12 +278,12 @@
     "difficulty": "Medium",
     "question": "An elderly patient needs bifocal spectacles: the upper portion allows clear distant vision while driving, and the lower portion allows reading books at close range. Which types of lenses form the upper and lower sections respectively?",
     "options": [
-      "Upper: Concave lens (diverging); Lower: Convex lens (converging)",
       "Upper: Convex lens; Lower: Concave lens",
+      "Upper: Concave lens (diverging); Lower: Convex lens (converging)",
       "Upper: Cylindrical lens; Lower: Concave lens",
       "Both upper and lower are concave lenses with different powers"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "A person suffering from both myopia (short-sightedness) and presbyopia (aging long-sightedness) requires bifocal lenses. The upper part consists of a concave lens to facilitate distant vision, while the lower part consists of a convex lens to facilitate near reading vision.",
     "citation": "NCERT Class 10 Science, Chapter 9 & Chapter 10, Section 10.2 Defects of Vision and Their Correction"
   },
@@ -292,15 +292,15 @@
     "type": "case-study",
     "subtopic": "Multi-Interface Refraction Case Study: Air-Water-Glass System",
     "difficulty": "Hard",
-    "question": "A ray of light in air enters water (n = 1.33) at an angle of incidence of 40\u00b0, travels through the water layer, enters a submerged parallel glass slab (n = 1.50), and finally exits back into air from the bottom of the glass. What is the angle of emergence of the ray into air?",
+    "question": "A ray of light in air enters water (n = 1.33) at an angle of incidence of 40°, travels through the water layer, enters a submerged parallel glass slab (n = 1.50), and finally exits back into air from the bottom of the glass. What is the angle of emergence of the ray into air?",
     "options": [
-      "40\u00b0 (identical to initial angle of incidence in air)",
-      "28\u00b0",
-      "19\u00b0",
-      "90\u00b0"
+      "40° (identical to initial angle of incidence in air)",
+      "28°",
+      "19°",
+      "90°"
     ],
     "answer": 0,
-    "explanation": "For any set of medium layers with mutually parallel boundaries, the principle of reversibility and Snell's law state that n_air * sin(i_air) = n_water * sin(r_water) = n_glass * sin(r_glass) = n_air * sin(e_air). Since the initial medium is air and the final medium is air, sin(e_air) = sin(i_air), meaning the angle of emergence is strictly 40\u00b0.",
+    "explanation": "For any set of medium layers with mutually parallel boundaries, the principle of reversibility and Snell's law state that n_air * sin(i_air) = n_water * sin(r_water) = n_glass * sin(r_glass) = n_air * sin(e_air). Since the initial medium is air and the final medium is air, sin(e_air) = sin(i_air), meaning the angle of emergence is strictly 40°.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3 Refraction of Light"
   },
   {
@@ -310,12 +310,12 @@
     "difficulty": "Hard",
     "question": "A solid glass paperweight of thickness 6.0 cm and refractive index n = 1.5 is placed over a stamp on a table. When viewed from directly above in air, by how many centimeters does the stamp appear to be raised (apparent shift)?",
     "options": [
-      "2.0 cm",
       "4.0 cm",
       "1.5 cm",
-      "3.0 cm"
+      "3.0 cm",
+      "2.0 cm"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Apparent depth = real depth / n = 6.0 / 1.5 = 4.0 cm. The apparent shift (the distance by which the stamp appears raised) = real depth - apparent depth = 6.0 cm - 4.0 cm = 2.0 cm.",
     "citation": "NCERT Class 10 Science, Chapter 9, Section 9.3 Refraction of Light"
   }

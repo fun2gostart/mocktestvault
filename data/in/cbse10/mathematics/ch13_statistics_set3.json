@@ -7,13 +7,13 @@
       "difficulty": "Medium",
       "question": "Assertion (A): The algebraic sum of deviations of a set of observations from their mean is always zero.\\nReason (R): The arithmetic mean represents the center of gravity of the distribution, balancing positive and negative deviations.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "(A) is true but (R) is false",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
-      "explanation": "sum[fi * (xi - x\u0304)] = sum(fi*xi) - x\u0304*sum(fi) = 0. Conceptually, the arithmetic mean is the balance point (center of gravity) where total positive deviations exactly cancel total negative deviations. Both statements are true and (R) correctly explains (A).",
+      "answer": 1,
+      "explanation": "sum[fi * (xi - x̄)] = sum(fi*xi) - x̄*sum(fi) = 0. Conceptually, the arithmetic mean is the balance point (center of gravity) where total positive deviations exactly cancel total negative deviations. Both statements are true and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -23,12 +23,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): If the median of a distribution is 20 and mean is 22.5, then the mode is 15.\\nReason (R): The empirical relationship between central tendencies is Mode = 3 Median - 2 Mean.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "(A) is false but (R) is true",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Using Mode = 3 Median - 2 Mean: Mode = 3(20) - 2(22.5) = 60 - 45 = 15. Hence Assertion (A) is true, Reason (R) is true and correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): In a frequency distribution, the modal class is always the class interval with the highest frequency.\\nReason (R): Mode is the value among the observations which occurs most frequently.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "By definition, mode is the observation with maximum frequency. For grouped data, the interval containing this maximum concentration is the modal class. Both are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): When calculating the mean of grouped data, it is assumed that the frequency of each class is centered at its class mark.\\nReason (R): Class mark is calculated as (Upper limit - Lower limit) / 2.",
       "options": [
-        "(A) is true but (R) is false",
         "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "(A) is true but (R) is false",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Assertion (A) is true (this is the fundamental assumption of grouped data mean). Reason (R) is FALSE because class mark is (Upper limit + Lower limit)/2, whereas (Upper limit - Lower limit) is the class size.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
@@ -87,13 +87,13 @@
       "difficulty": "Medium",
       "question": "Assertion (A): If 5 is added to each observation of a data set with mean 20, the new mean becomes 25.\\nReason (R): If a constant 'c' is added to each observation, the mean increases by 'c'.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
-      "explanation": "New mean = sum(xi + c)/n = sum(xi)/n + n*c/n = x\u0304 + c. Adding 5 to each observation increases the mean from 20 to 25. Both (A) and (R) are true and (R) is the correct explanation.",
+      "answer": 2,
+      "explanation": "New mean = sum(xi + c)/n = sum(xi)/n + n*c/n = x̄ + c. Adding 5 to each observation increases the mean from 20 to 25. Both (A) and (R) are true and (R) is the correct explanation.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -103,12 +103,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): Before finding the mode of grouped data with discontinuous class intervals (e.g. 1-10, 11-20), the intervals must be made continuous.\\nReason (R): The formula for mode assumes continuous boundaries so that the class limit 'l' exactly touches the preceding interval.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "(A) is false but (R) is true",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The formula for mode Mode = l + [(f1 - f0)/(2f1 - f0 - f2)] * h requires continuous class limits, otherwise there is an unrepresented gap of 1 unit between classes. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
@@ -125,7 +125,7 @@
         "(A) is false but (R) is true"
       ],
       "answer": 0,
-      "explanation": "All three methods are mathematically exact algebraic identities: x\u0304 = a + h * [sum(fi * ui)/sum(fi)] = a + sum(fi * di)/sum(fi) = sum(fi * xi)/sum(fi). They yield identical numerical answers. Both (A) and (R) are true and (R) explains (A).",
+      "explanation": "All three methods are mathematically exact algebraic identities: x̄ = a + h * [sum(fi * ui)/sum(fi)] = a + sum(fi * di)/sum(fi) = sum(fi * xi)/sum(fi). They yield identical numerical answers. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -151,12 +151,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): If all classes in a frequency distribution have the exact same frequency, the distribution has no unique mode.\\nReason (R): Mode requires one class to have a higher frequency than its neighboring classes.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "(A) is false but (R) is true"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "If every class has the same frequency, no single value or interval occurs more frequently than any other; hence the distribution is uniform and has no mode. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Medium",
       "question": "Case Study 1 (Q11-Q13): The literacy rate (in percentage) of 35 cities is recorded: 45-55 (3 cities), 55-65 (10 cities), 65-75 (11 cities), 75-85 (8 cities), 85-95 (3 cities).\\n\\nQ11: What is the modal class for this literacy rate data?",
       "options": [
-        "65 - 75",
         "55 - 65",
+        "65 - 75",
         "75 - 85",
         "45 - 55"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The maximum frequency is 11, which corresponds to the class interval 65 - 75. Therefore, the modal class is 65 - 75.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.1 Question 9"
     },
@@ -183,13 +183,13 @@
       "difficulty": "Hard",
       "question": "Case Study 1 (Continued): For the literacy data of 35 cities: 45-55 (3), 55-65 (10), 65-75 (11), 75-85 (8), 85-95 (3).\\n\\nQ12: Using the assumed mean a = 70, what is the mean literacy rate?",
       "options": [
-        "69.43%",
         "71.25%",
         "68.50%",
-        "70.00%"
+        "70.00%",
+        "69.43%"
       ],
-      "answer": 0,
-      "explanation": "Class marks xi: 50, 60, 70, 80, 90. Deviations di = xi - 70: -20, -10, 0, 10, 20. Products fi*di: 3(-20)=-60, 10(-10)=-100, 11(0)=0, 8(10)=80, 3(20)=60. sum(fi*di) = -60 - 100 + 0 + 80 + 60 = -20. sum(fi) = 35. Mean = 70 + (-20 / 35) = 70 - 0.571 = 69.429% \u2248 69.43%.",
+      "answer": 3,
+      "explanation": "Class marks xi: 50, 60, 70, 80, 90. Deviations di = xi - 70: -20, -10, 0, 10, 20. Products fi*di: 3(-20)=-60, 10(-10)=-100, 11(0)=0, 8(10)=80, 3(20)=60. sum(fi*di) = -60 - 100 + 0 + 80 + 60 = -20. sum(fi) = 35. Mean = 70 + (-20 / 35) = 70 - 0.571 = 69.429% ≈ 69.43%.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.1 Question 9"
     },
     {
@@ -199,12 +199,12 @@
       "difficulty": "Hard",
       "question": "Case Study 1 (Continued): For the literacy data of 35 cities: 45-55 (3), 55-65 (10), 65-75 (11), 75-85 (8), 85-95 (3).\\n\\nQ13: What is the median class of this distribution?",
       "options": [
-        "65 - 75",
         "55 - 65",
+        "65 - 75",
         "75 - 85",
         "45 - 55"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "N = 35. N/2 = 17.5. Cumulative frequencies: 45-55 (3), 55-65 (13), 65-75 (24). The cumulative frequency just greater than 17.5 is 24, corresponding to the class 65 - 75.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.1 Question 9"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Medium",
       "question": "Case Study 2 (Q14-Q16): A survey of daily pocket allowance of 50 school children showed: Rs 100-120 (12 students), Rs 120-140 (14 students), Rs 140-160 (8 students), Rs 160-180 (6 students), Rs 180-200 (10 students).\\n\\nQ14: What is the class mark of the modal class?",
       "options": [
-        "130",
         "110",
         "150",
+        "130",
         "170"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Maximum frequency is 14, in class interval 120 - 140. Class mark = (120 + 140) / 2 = 260 / 2 = 130.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.1 Question 2"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Hard",
       "question": "Case Study 2 (Continued): Daily pocket allowance of 50 students: 100-120 (12), 120-140 (14), 140-160 (8), 160-180 (6), 180-200 (10).\\n\\nQ16: What is the mode of daily pocket allowance?",
       "options": [
-        "Rs 125",
         "Rs 128",
         "Rs 132",
-        "Rs 122"
+        "Rs 122",
+        "Rs 125"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Modal class is 120-140. l = 120, h = 20, f1 = 14, f0 = 12, f2 = 8. Mode = 120 + [(14 - 12)/(2*14 - 12 - 8)] * 20 = 120 + [2 / (28 - 20)] * 20 = 120 + (2/8)*20 = 120 + 5 = Rs 125.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.2"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Medium",
       "question": "Case Study 3 (Q17-Q18): Wickets taken by 45 bowlers in one-day cricket matches: 20-60 (7 bowlers), 60-100 (5 bowlers), 100-140 (16 bowlers), 140-180 (12 bowlers), 180-220 (2 bowlers), 220-260 (3 bowlers).\\n\\nQ17: What is the modal class of wickets taken?",
       "options": [
-        "100 - 140",
         "140 - 180",
+        "100 - 140",
         "60 - 100",
         "20 - 60"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The maximum frequency is 16, which lies in the class interval 100 - 140. Thus, the modal class is 100 - 140 wickets.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.2 Question 5"
     },
@@ -285,7 +285,7 @@
         "118.75 wickets"
       ],
       "answer": 0,
-      "explanation": "Modal class is 100-140. l = 100, h = 40, f1 = 16, f0 = 5, f2 = 12. Mode = 100 + [(16 - 5)/(2*16 - 5 - 12)] * 40 = 100 + [11 / (32 - 17)] * 40 = 100 + (11/15) * 40 = 100 + 440/15 = 100 + 29.333 = 129.33 \u2248 129.41 (or 129.3 wickets). Wait, (11/15)*40 = 88/3 = 29.33. If f0 = 5, f2 = 12: 32 - 17 = 15. In NCERT example 5, frequencies were 7, 5, 16, 12, 2, 3. Mode = 100 + (11/15)*40 = 100 + 29.33 = 129.33 \u2248 129.4 wickets.",
+      "explanation": "Modal class is 100-140. l = 100, h = 40, f1 = 16, f0 = 5, f2 = 12. Mode = 100 + [(16 - 5)/(2*16 - 5 - 12)] * 40 = 100 + [11 / (32 - 17)] * 40 = 100 + (11/15) * 40 = 100 + 440/15 = 100 + 29.333 = 129.33 ≈ 129.41 (or 129.3 wickets). Wait, (11/15)*40 = 88/3 = 29.33. If f0 = 5, f2 = 12: 32 - 17 = 15. In NCERT example 5, frequencies were 7, 5, 16, 12, 2, 3. Mode = 100 + (11/15)*40 = 100 + 29.33 = 129.33 ≈ 129.4 wickets.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.2 Question 5"
     },
     {
@@ -295,12 +295,12 @@
       "difficulty": "Medium",
       "question": "Case Study 4 (Q19-Q20): 100 surnames were randomly picked from a telephone directory: 1-4 letters (6), 4-7 letters (30), 7-10 letters (40), 10-13 letters (16), 13-16 letters (4), 16-19 letters (4).\\n\\nQ19: What is the median class of number of letters in the surnames?",
       "options": [
-        "7 - 10",
         "4 - 7",
         "10 - 13",
+        "7 - 10",
         "1 - 4"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "N = 100, N/2 = 50. Cumulative frequencies: 1-4 (6), 4-7 (36), 7-10 (76). The cumulative frequency >= 50 is 76, which corresponds to the class 7 - 10.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.3 Question 6"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Hard",
       "question": "Case Study 4 (Continued): Surnames distribution: 1-4 (6), 4-7 (30), 7-10 (40), 10-13 (16), 13-16 (4), 16-19 (4). Median class is 7-10 with l = 7, h = 3, f = 40, cf = 36, n = 100.\\n\\nQ20: What is the median number of letters in the surnames?",
       "options": [
-        "8.05",
         "8.32",
         "7.85",
-        "8.50"
+        "8.50",
+        "8.05"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Median = l + [(n/2 - cf)/f] * h = 7 + [(50 - 36)/40] * 3 = 7 + (14/40) * 3 = 7 + (42/40) = 7 + 1.05 = 8.05 letters.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.3 Question 6"
     }

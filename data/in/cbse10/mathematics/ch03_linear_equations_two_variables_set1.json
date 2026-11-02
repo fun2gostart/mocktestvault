@@ -6,12 +6,12 @@
     "difficulty": "Easy",
     "question": "If the pair of linear equations a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0 represents two lines that intersect at a single point, which algebraic condition must hold true?",
     "options": [
-      "a1 / a2 != b1 / b2",
       "a1 / a2 = b1 / b2 = c1 / c2",
       "a1 / a2 = b1 / b2 != c1 / c2",
-      "a1 * a2 = b1 * b2"
+      "a1 * a2 = b1 * b2",
+      "a1 / a2 != b1 / b2"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Two straight lines intersect at exactly one point if and only if their slopes are distinct: a1 / a2 != b1 / b2. In this case, the system has a unique solution and is consistent.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.4"
   },
@@ -22,12 +22,12 @@
     "difficulty": "Easy",
     "question": "A pair of linear equations in two variables has NO solution if their graph consists of two parallel lines. What is the algebraic ratio condition for this case?",
     "options": [
-      "a1 / a2 = b1 / b2 != c1 / c2",
       "a1 / a2 != b1 / b2",
+      "a1 / a2 = b1 / b2 != c1 / c2",
       "a1 / a2 = b1 / b2 = c1 / c2",
       "a1 * b2 + a2 * b1 = 0"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "When a1 / a2 = b1 / b2 != c1 / c2, the lines are parallel and never meet. Therefore, there is no common solution, and the pair of equations is called inconsistent.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.4"
   },
@@ -38,12 +38,12 @@
     "difficulty": "Easy",
     "question": "Under what condition will the lines represented by a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0 be coincident, yielding infinitely many solutions?",
     "options": [
-      "a1 / a2 = b1 / b2 = c1 / c2",
       "a1 / a2 != b1 / b2",
       "a1 / a2 = b1 / b2 != c1 / c2",
+      "a1 / a2 = b1 / b2 = c1 / c2",
       "c1 = c2 = 0"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "When all three coefficient ratios are identical: a1 / a2 = b1 / b2 = c1 / c2, every point on one line also lies on the other. The lines coincide, giving infinitely many solutions (consistent and dependent).",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.4"
   },
@@ -86,12 +86,12 @@
     "difficulty": "Hard",
     "question": "For what value of k will the equations 2x + 3y = 7 and (k + 1)x + (2k - 1)y = 4k + 1 have infinitely many solutions?",
     "options": [
-      "5",
       "1",
+      "5",
       "-5",
       "3"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "For infinitely many solutions: 2 / (k + 1) = 3 / (2k - 1) = 7 / (4k + 1). From first pair: 2(2k - 1) = 3(k + 1) => 4k - 2 = 3k + 3 => k = 5. Verify second pair: 3 / (2*5 - 1) = 3/9 = 1/3; 7 / (4*5 + 1) = 7/21 = 1/3. Both match, so k = 5.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Example 16"
   },
@@ -102,12 +102,12 @@
     "difficulty": "Easy",
     "question": "Find the values of x and y that satisfy the pair of linear equations: x + y = 14 and x - y = 4.",
     "options": [
-      "x = 9, y = 5",
       "x = 5, y = 9",
       "x = 10, y = 4",
+      "x = 9, y = 5",
       "x = 8, y = 6"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Adding both equations: (x + y) + (x - y) = 14 + 4 => 2x = 18 => x = 9. Substituting x = 9 into first equation: 9 + y = 14 => y = 5.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 1(i)"
   },
@@ -118,12 +118,12 @@
     "difficulty": "Medium",
     "question": "Solve 2x + 3y = 11 and 2x - 4y = -24, and hence find the value of 'm' for which y = mx + 3.",
     "options": [
-      "m = -1 (where x = -2, y = 5)",
       "m = 1 (where x = 2, y = 5)",
       "m = -2 (where x = -1, y = 5)",
-      "m = 2 (where x = 1, y = 5)"
+      "m = 2 (where x = 1, y = 5)",
+      "m = -1 (where x = -2, y = 5)"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Subtracting second equation from first: (2x + 3y) - (2x - 4y) = 11 - (-24) => 7y = 35 => y = 5. Then 2x + 3(5) = 11 => 2x = -4 => x = -2. Substituting into y = mx + 3: 5 = m(-2) + 3 => 2 = -2m => m = -1.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 2"
   },
@@ -134,12 +134,12 @@
     "difficulty": "Easy",
     "question": "The graph of the linear equation x = c (where c is a non-zero constant) represents a line that is:",
     "options": [
-      "Parallel to the y-axis",
       "Parallel to the x-axis",
       "Passing through the origin",
+      "Parallel to the y-axis",
       "Inclined at 45 degrees to both axes"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "An equation of the form x = c has a constant x-coordinate for all values of y, which forms a vertical line strictly parallel to the y-axis at distance |c|.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
   },
@@ -150,12 +150,12 @@
     "difficulty": "Easy",
     "question": "The graph of the equation y = c (where c is a constant) is a straight line:",
     "options": [
-      "Parallel to the x-axis",
       "Parallel to the y-axis",
+      "Parallel to the x-axis",
       "Perpendicular to the x-axis",
       "Passing through (c, c)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "The equation y = c has a constant y-coordinate for all x, forming a horizontal line parallel to the x-axis.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Easy",
     "question": "What is the point of intersection of the two straight lines x = 2 and y = -3?",
     "options": [
-      "(2, -3)",
       "(-3, 2)",
       "(2, 0)",
-      "(0, -3)"
+      "(0, -3)",
+      "(2, -3)"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The vertical line x = 2 and horizontal line y = -3 intersect at the unique Cartesian point (2, -3).",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
   },
@@ -198,12 +198,12 @@
     "difficulty": "Easy",
     "question": "If the digit at the tens place of a two-digit number is x and the digit at the units place is y, what is the standard algebraic representation of the number?",
     "options": [
-      "10x + y",
       "10y + x",
+      "10x + y",
       "x + y",
       "x * y"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "In place value notation, the tens digit contributes 10 * x and the units digit contributes 1 * y. Therefore, the two-digit number is represented by (10x + y).",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.4"
   },
@@ -215,11 +215,11 @@
     "question": "If a pair of linear equations is known to be CONSISTENT, what can be stated about their graphical representation?",
     "options": [
       "The lines must be strictly parallel",
-      "The lines are either intersecting (one solution) or coincident (infinitely many solutions)",
       "The lines are always perpendicular",
+      "The lines are either intersecting (one solution) or coincident (infinitely many solutions)",
       "The lines must both pass through the origin"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A system is consistent if it has at least one solution. This corresponds to either intersecting lines (unique solution) or coincident lines (infinitely many solutions).",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, NCERT Exemplar Q1"
   },
@@ -230,12 +230,12 @@
     "difficulty": "Easy",
     "question": "If a pair of linear equations is INCONSISTENT, the lines represented by them on a graph will be:",
     "options": [
-      "Parallel",
       "Coincident",
       "Intersecting at one point",
-      "Intersecting at two points"
+      "Intersecting at two points",
+      "Parallel"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "An inconsistent pair has no solution, which graphically means the lines do not intersect at any point; they are strictly parallel.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, NCERT Exemplar Q2"
   },
@@ -244,12 +244,12 @@
     "type": "mcq",
     "subtopic": "Cost of Articles Problem",
     "difficulty": "Medium",
-    "question": "5 pencils and 7 pens together cost \u20b950, whereas 7 pencils and 5 pens together cost \u20b946. What is the cost of 1 pencil and 1 pen?",
+    "question": "5 pencils and 7 pens together cost ₹50, whereas 7 pencils and 5 pens together cost ₹46. What is the cost of 1 pencil and 1 pen?",
     "options": [
-      "Cost of 1 pencil = \u20b93, Cost of 1 pen = \u20b95",
-      "Cost of 1 pencil = \u20b95, Cost of 1 pen = \u20b93",
-      "Cost of 1 pencil = \u20b94, Cost of 1 pen = \u20b94",
-      "Cost of 1 pencil = \u20b92, Cost of 1 pen = \u20b96"
+      "Cost of 1 pencil = ₹3, Cost of 1 pen = ₹5",
+      "Cost of 1 pencil = ₹5, Cost of 1 pen = ₹3",
+      "Cost of 1 pencil = ₹4, Cost of 1 pen = ₹4",
+      "Cost of 1 pencil = ₹2, Cost of 1 pen = ₹6"
     ],
     "answer": 0,
     "explanation": "Let pencil cost be x and pen cost be y: 5x + 7y = 50 and 7x + 5y = 46. Adding: 12x + 12y = 96 => x + y = 8. Subtracting: -2x + 2y = 4 => -x + y = 2. Adding x + y = 8 and -x + y = 2 gives 2y = 10 => y = 5. Then x = 8 - 5 = 3.",
@@ -262,13 +262,13 @@
     "difficulty": "Medium",
     "question": "The larger of two supplementary angles exceeds the smaller angle by 18 degrees. What are the measures of the two angles?",
     "options": [
-      "99\u00b0 and 81\u00b0",
-      "100\u00b0 and 80\u00b0",
-      "98\u00b0 and 82\u00b0",
-      "108\u00b0 and 72\u00b0"
+      "99° and 81°",
+      "100° and 80°",
+      "98° and 82°",
+      "108° and 72°"
     ],
     "answer": 0,
-    "explanation": "Supplementary angles sum to 180\u00b0: x + y = 180. Given x - y = 18. Adding equations: 2x = 198 => x = 99\u00b0. Then y = 180 - 99 = 81\u00b0.",
+    "explanation": "Supplementary angles sum to 180°: x + y = 180. Given x - y = 18. Adding equations: 2x = 198 => x = 99°. Then y = 180 - 99 = 81°.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(ii)"
   },
   {
@@ -278,12 +278,12 @@
     "difficulty": "Medium",
     "question": "Half the perimeter of a rectangular garden, whose length is 4 meters more than its width, is 36 meters. What are the dimensions (length and width) of the garden?",
     "options": [
-      "Length = 20 m, Width = 16 m",
       "Length = 24 m, Width = 12 m",
       "Length = 22 m, Width = 14 m",
-      "Length = 18 m, Width = 18 m"
+      "Length = 18 m, Width = 18 m",
+      "Length = 20 m, Width = 16 m"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Half perimeter = l + w = 36. Given l = w + 4 => l - w = 4. Adding gives 2l = 40 => l = 20 m. Width w = 36 - 20 = 16 m.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.2 Question 5"
   },
@@ -294,12 +294,12 @@
     "difficulty": "Hard",
     "question": "If the pair of equations ax + by = a^2 - b^2 and bx + ay = 0 is solved, what is the value of (x + y)?",
     "options": [
-      "a - b",
       "a + b",
+      "a - b",
       "a^2 + b^2",
       "0"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "From bx + ay = 0 => y = -(b/a)x. Substitute into first equation: ax + b(-bx/a) = a^2 - b^2 => (a^2 - b^2)x / a = a^2 - b^2 => x = a. Then y = -(b/a)(a) = -b. Therefore, x + y = a + (-b) = a - b.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.4"
   },
@@ -310,12 +310,12 @@
     "difficulty": "Medium",
     "question": "How many solutions exist for the pair of linear equations: x + 2y + 5 = 0 and -3x - 6y + 1 = 0?",
     "options": [
-      "No solution",
       "Exactly one unique solution",
       "Infinitely many solutions",
+      "No solution",
       "Exactly two solutions"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Calculate ratios: a1/a2 = 1 / (-3) = -1/3. b1/b2 = 2 / (-6) = -1/3. c1/c2 = 5 / 1 = 5. Since a1/a2 = b1/b2 != c1/c2, the lines are parallel and have NO solution.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, NCERT Exemplar Q3"
   }

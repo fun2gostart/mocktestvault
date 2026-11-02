@@ -166,12 +166,12 @@
     "difficulty": "Board Standard",
     "question": "In a textbook laboratory investigation (Activity 3.14), clean iron nails are placed in three sealed test tubes:\n- Tube A: Water and air\n- Tube B: Boiled distilled water covered with a layer of oil\n- Tube C: Dry air with anhydrous calcium chloride (CaCl₂)\nIn which tube(s) will rusting occur after a week?",
     "options": [
-      "Only in Tube A",
       "In both Tube A and Tube B",
       "In both Tube A and Tube C",
-      "In all three tubes"
+      "In all three tubes",
+      "Only in Tube A"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Rusting requires both oxygen (air) and moisture (water). In Tube A, both are present, so nails rust. In Tube B, boiled water is free of dissolved air and oil prevents air entry, so no rust. In Tube C, anhydrous CaCl₂ absorbs all moisture leaving dry air, so no rust.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5 (Activity 3.14)"
   },
@@ -182,12 +182,12 @@
     "difficulty": "Hard",
     "question": "Ocean-going cargo vessels have heavy blocks of zinc attached to their steel hulls below the water level. Why are these zinc blocks periodically replaced?",
     "options": [
-      "Zinc corrodes sacrificially in seawater instead of the iron hull; once consumed, fresh zinc blocks must be installed to maintain cathodic protection",
       "Zinc reacts with seawater to generate electrical propulsion",
+      "Zinc corrodes sacrificially in seawater instead of the iron hull; once consumed, fresh zinc blocks must be installed to maintain cathodic protection",
       "Zinc dissolves barnacles and seaweeds by releasing chlorine gas",
       "Zinc attracts fish away from the ship's propellers"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Steel hulls are made of iron, which rusts rapidly in saline seawater. Zinc is more electropositive (more reactive) than iron, acting as a sacrificial anode. Zinc oxidizes into Zn²⁺ while iron remains protected. Once consumed, the zinc blocks must be replaced.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5.1"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Medium",
     "question": "An electrical technician uses an electric soldering iron to attach copper wires to a printed circuit board. The solder alloy (Pb + Sn) melts at approximately 183°C. Why is pure lead (m.p. 327°C) or pure tin (m.p. 232°C) not used alone?",
     "options": [
-      "The alloy has a significantly lower melting point than either pure metal, allowing quick joining without burning sensitive electronic components",
       "Pure lead is an electrical insulator",
       "Pure tin corrodes violently when exposed to solder flux",
+      "The alloy has a significantly lower melting point than either pure metal, allowing quick joining without burning sensitive electronic components",
       "The alloy expands to 500 times its original volume upon cooling"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Alloying lowers the melting point of metals. Solder is an alloy of lead and tin (50% Pb, 50% Sn) whose melting point is substantially lower than either component alone, permitting clean joints without heat damage to delicate electronics.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5.1"
   },
@@ -246,12 +246,12 @@
     "difficulty": "Easy",
     "question": "A student adds copper turnings into a test tube containing dilute hydrochloric acid at room temperature. What observation is recorded?",
     "options": [
-      "No reaction occurs; no gas bubbles are evolved and thermometer shows no temperature rise",
       "Brisk effervescence of hydrogen gas",
+      "No reaction occurs; no gas bubbles are evolved and thermometer shows no temperature rise",
       "Solution immediately turns dark blue with white smoke",
       "Copper dissolves completely in 10 seconds"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "In the reactivity series, copper is placed below hydrogen. Therefore, copper cannot displace hydrogen from dilute non-oxidizing acids like HCl or dilute H₂SO₄, so no reaction occurs.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.2.3"
   },
@@ -262,12 +262,12 @@
     "difficulty": "Medium",
     "question": "Calamine ore (zinc carbonate, ZnCO₃) is heated strongly in the absence of air to produce zinc oxide, which is subsequently reduced by heating with coke. What are the two metallurgical processes involved?",
     "options": [
-      "Calcination followed by Carbon Reduction",
       "Roasting followed by Electrolysis",
       "Smelting followed by Anodising",
-      "Liquation followed by Hydraulic Washing"
+      "Liquation followed by Hydraulic Washing",
+      "Calcination followed by Carbon Reduction"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Step 1 (Calcination): ZnCO₃(s) —[Heat, no air]→ ZnO(s) + CO₂(g). Step 2 (Reduction by carbon): ZnO(s) + C(s) —[Heat]→ Zn(s) + CO(g).",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.4.3"
   },
@@ -278,12 +278,12 @@
     "difficulty": "Easy",
     "question": "Surgical instruments and modern kitchen cutlery are made of stainless steel rather than carbon steel. What elements are alloyed with iron to produce stainless steel?",
     "options": [
-      "Nickel and Chromium",
       "Copper and Zinc",
       "Tin and Lead",
+      "Nickel and Chromium",
       "Aluminium and Magnesium"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "When iron is mixed with nickel (Ni) and chromium (Cr), we obtain stainless steel, which is hard and does not rust even under continuous moisture exposure.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5.1"
   },
@@ -294,12 +294,12 @@
     "difficulty": "Hard",
     "question": "In a commercial copper refinery treating 1,000 tonnes of blister copper, the recovery of anode mud pays for a major fraction of the refinery's electricity bill. Why is anode mud economically valuable?",
     "options": [
-      "It contains un-ionized noble metals like gold (Au), silver (Ag), and platinum (Pt) that do not dissolve in the acidified copper sulphate electrolyte",
       "It contains radioactive radium used in nuclear reactors",
+      "It contains un-ionized noble metals like gold (Au), silver (Ag), and platinum (Pt) that do not dissolve in the acidified copper sulphate electrolyte",
       "It is pure synthetic diamond powder",
       "It consists of highly pressurized liquid nitrogen"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Noble metals (Ag, Au, Pt) are less reactive than copper and do not oxidize into solution at the anode voltage. They drop to the bottom of the electrolytic cell as insoluble anode mud, where they are filtered and refined as precious metals.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.4.5"
   },
@@ -310,12 +310,12 @@
     "difficulty": "Medium",
     "question": "Food storage cans are coated with tin (Sn) rather than zinc (Zn). Why?",
     "options": [
-      "Zinc is more reactive than tin and could react with organic acids in food to produce toxic compounds",
       "Zinc has a lower melting point than tin",
       "Tin is magnetic while zinc is not",
+      "Zinc is more reactive than tin and could react with organic acids in food to produce toxic compounds",
       "Tin is significantly cheaper than iron"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Zinc is more reactive than tin (Zn is higher in the reactivity series than Sn). If food cans were coated with zinc, acidic foods (like fruits and tomatoes) would react with zinc to form toxic zinc salts, whereas tin is far less reactive and safe for food packaging.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5.1 (Chapter End Exercise Q3)"
   }

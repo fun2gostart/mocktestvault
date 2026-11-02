@@ -482,11 +482,12 @@ class MockTestEngine {
 
       const key = e.key.toUpperCase();
 
-      // Options Selection: A, B, C, D or 1, 2, 3, 4
+      // Options Selection: A, B, C, D, E or 1, 2, 3, 4, 5
       if (['A', '1'].includes(key)) this.selectOption(0);
       else if (['B', '2'].includes(key)) this.selectOption(1);
       else if (['C', '3'].includes(key)) this.selectOption(2);
       else if (['D', '4'].includes(key)) this.selectOption(3);
+      else if (['E', '5'].includes(key)) this.selectOption(4);
       // Navigation: ArrowRight or Enter for Next, ArrowLeft for Prev
       else if (e.key === 'ArrowRight' || e.key === 'Enter') {
         if (this.currentIndex < this.questions.length - 1) this.nextQuestion();
@@ -614,7 +615,7 @@ class MockTestEngine {
     }
 
     // 3. Render Options with Shortcuts & Subtle Hover Lift
-    const letters = ['A', 'B', 'C', 'D'];
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
     const chosenAnswer = this.userAnswers[index];
     const hasAnswered = chosenAnswer !== null;
 
@@ -1101,7 +1102,7 @@ class MockTestEngine {
     if (fUnans) fUnans.textContent = skipped;
 
     // Render Detailed Question by Question Review List
-    const letters = ['A', 'B', 'C', 'D'];
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
     let reviewHtml = '';
 
     const expTitle = this.examType === 'sat'

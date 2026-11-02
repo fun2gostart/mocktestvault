@@ -22,12 +22,12 @@
     "difficulty": "Medium",
     "question": "A fraction becomes 1/3 when 1 is subtracted from the numerator, and it becomes 1/4 when 8 is added to its denominator. What is the original fraction?",
     "options": [
-      "5/12",
       "3/8",
+      "5/12",
       "7/15",
       "4/11"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Let the fraction be x/y: (x - 1)/y = 1/3 => 3x - y = 3. Next: x/(y + 8) = 1/4 => 4x - y = 8. Subtracting the two equations gives (4x - y) - (3x - y) = 8 - 3 => x = 5. Then y = 3(5) - 3 = 12. The fraction is 5/12.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(v)"
   },
@@ -38,12 +38,12 @@
     "difficulty": "Medium",
     "question": "Five years hence, the age of Jacob will be three times that of his son. Five years ago, Jacob's age was seven times that of his son. What are their present ages?",
     "options": [
-      "Jacob = 40 years, Son = 10 years",
       "Jacob = 45 years, Son = 15 years",
       "Jacob = 35 years, Son = 5 years",
-      "Jacob = 50 years, Son = 20 years"
+      "Jacob = 50 years, Son = 20 years",
+      "Jacob = 40 years, Son = 10 years"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Let Jacob's age be x and son's age be y. (x + 5) = 3(y + 5) => x - 3y = 10. (x - 5) = 7(y - 5) => x - 7y = -30. Subtracting equations: 4y = 40 => y = 10 years. Then x = 3(10) + 10 = 40 years.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(vi)"
   },
@@ -54,12 +54,12 @@
     "difficulty": "Hard",
     "question": "A motorboat covers 30 km upstream and 44 km downstream in 10 hours. In 13 hours, it can cover 40 km upstream and 55 km downstream. What is the speed of the boat in still water and the speed of the water stream?",
     "options": [
-      "Boat speed = 8 km/h, Stream speed = 3 km/h",
       "Boat speed = 10 km/h, Stream speed = 2 km/h",
       "Boat speed = 9 km/h, Stream speed = 4 km/h",
+      "Boat speed = 8 km/h, Stream speed = 3 km/h",
       "Boat speed = 12 km/h, Stream speed = 3 km/h"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Let boat speed = u, stream speed = v. Upstream speed = u - v, downstream = u + v. Let 1/(u - v) = x and 1/(u + v) = y: 30x + 44y = 10 and 40x + 55y = 13. Solving yields x = 1/5 and y = 1/11. Thus u - v = 5 and u + v = 11. Adding gives 2u = 16 => u = 8 km/h. Stream speed v = 11 - 8 = 3 km/h.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Example 19"
   },
@@ -70,12 +70,12 @@
     "difficulty": "Hard",
     "question": "The sum of the digits of a two-digit number is 9. Also, 9 times this number is equal to twice the number obtained by reversing the order of its digits. What is the number?",
     "options": [
-      "18",
       "27",
       "36",
-      "45"
+      "45",
+      "18"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Let tens digit be x and units digit be y. Number = 10x + y. Sum of digits: x + y = 9. Condition: 9(10x + y) = 2(10y + x) => 90x + 9y = 20y + 2x => 88x = 11y => y = 8x. Substituting: x + 8x = 9 => 9x = 9 => x = 1, so y = 8. The number is 18.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.4 Question 2(iii)"
   },
@@ -84,15 +84,15 @@
     "type": "mcq",
     "subtopic": "Library Fixed and Daily Lending Charges",
     "difficulty": "Medium",
-    "question": "A lending library has a fixed charge for the first three days and an additional charge for each day thereafter. Saritha paid \u20b927 for a book kept for seven days, while Susy paid \u20b921 for the book kept for five days. What are the fixed charge and the per-day charge?",
+    "question": "A lending library has a fixed charge for the first three days and an additional charge for each day thereafter. Saritha paid ₹27 for a book kept for seven days, while Susy paid ₹21 for the book kept for five days. What are the fixed charge and the per-day charge?",
     "options": [
-      "Fixed charge = \u20b915, Charge per day = \u20b93",
-      "Fixed charge = \u20b912, Charge per day = \u20b94",
-      "Fixed charge = \u20b910, Charge per day = \u20b95",
-      "Fixed charge = \u20b918, Charge per day = \u20b92"
+      "Fixed charge = ₹12, Charge per day = ₹4",
+      "Fixed charge = ₹15, Charge per day = ₹3",
+      "Fixed charge = ₹10, Charge per day = ₹5",
+      "Fixed charge = ₹18, Charge per day = ₹2"
     ],
-    "answer": 0,
-    "explanation": "Let fixed charge for 3 days be x and extra per-day charge be y: Saritha (7 days = 3 + 4 days): x + 4y = 27. Susy (5 days = 3 + 2 days): x + 2y = 21. Subtracting: 2y = 6 => y = \u20b93 per day. Then x + 2(3) = 21 => x = \u20b915 fixed charge.",
+    "answer": 1,
+    "explanation": "Let fixed charge for 3 days be x and extra per-day charge be y: Saritha (7 days = 3 + 4 days): x + 4y = 27. Susy (5 days = 3 + 2 days): x + 2y = 21. Subtracting: 2y = 6 => y = ₹3 per day. Then x + 2(3) = 21 => x = ₹15 fixed charge.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.4 Question 2(v)"
   },
   {
@@ -100,15 +100,15 @@
     "type": "mcq",
     "subtopic": "Taxi Fare Calculation",
     "difficulty": "Medium",
-    "question": "The taxi charges in a city consist of a fixed charge together with the charge for the distance traveled. For a distance of 10 km, the charge paid is \u20b9105, and for a journey of 15 km, the charge paid is \u20b9155. What will a passenger pay for traveling a distance of 25 km?",
+    "question": "The taxi charges in a city consist of a fixed charge together with the charge for the distance traveled. For a distance of 10 km, the charge paid is ₹105, and for a journey of 15 km, the charge paid is ₹155. What will a passenger pay for traveling a distance of 25 km?",
     "options": [
-      "\u20b9255",
-      "\u20b9260",
-      "\u20b9250",
-      "\u20b9245"
+      "₹260",
+      "₹250",
+      "₹255",
+      "₹245"
     ],
-    "answer": 0,
-    "explanation": "Let fixed charge = x and rate/km = y: x + 10y = 105 and x + 15y = 155. Subtracting: 5y = 50 => y = \u20b910/km. Then x + 10(10) = 105 => x = \u20b95. For 25 km: Cost = x + 25y = 5 + 25(10) = 5 + 250 = \u20b9255.",
+    "answer": 2,
+    "explanation": "Let fixed charge = x and rate/km = y: x + 10y = 105 and x + 15y = 155. Subtracting: 5y = 50 => y = ₹10/km. Then x + 10(10) = 105 => x = ₹5. For 25 km: Cost = x + 25y = 5 + 25(10) = 5 + 250 = ₹255.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(iv)"
   },
   {
@@ -136,10 +136,10 @@
     "options": [
       "c = 3",
       "c = -3",
-      "c = 12",
-      "No value of c exists"
+      "No value of c exists",
+      "c = 12"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "For infinitely many solutions: c / 6 = -1 / (-2) = 2 / 3 => c / 6 = 1/2 = 2/3. But 1/2 != 2/3 (since 3 != 4). Therefore, the third ratio can never equal the first two, meaning no value of c can ever make the system have infinitely many solutions.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, NCERT Exemplar Q4"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Hard",
     "question": "If 2^(x + y) = 2^(x - y) = sqrt(8), what are the values of x and y?",
     "options": [
-      "x = 3/2, y = 0",
       "x = 3/4, y = 3/4",
       "x = 3, y = 0",
-      "x = 1, y = 1/2"
+      "x = 1, y = 1/2",
+      "x = 3/2, y = 0"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Note that sqrt(8) = 8^(1/2) = (2^3)^(1/2) = 2^(3/2). Equating exponents: x + y = 3/2 and x - y = 3/2. Adding gives 2x = 3 => x = 3/2. Subtracting gives 2y = 0 => y = 0.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.3"
   },
@@ -198,12 +198,12 @@
     "difficulty": "Medium",
     "question": "The sum of the numerator and denominator of a fraction is 12. If the denominator is increased by 3, the fraction becomes 1/2. What is the fraction?",
     "options": [
-      "5/7",
       "4/8",
       "3/9",
+      "5/7",
       "1/11"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Let fraction be x/y: x + y = 12 => y = 12 - x. Given x / (y + 3) = 1/2 => 2x = y + 3. Substitute y: 2x = (12 - x) + 3 => 3x = 15 => x = 5. Then y = 12 - 5 = 7. The fraction is 5/7.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.4"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Easy",
     "question": "The difference between two positive numbers is 26, and one number is three times the other. What are the two numbers?",
     "options": [
-      "39 and 13",
       "36 and 10",
+      "39 and 13",
       "42 and 16",
       "30 and 4"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Let the numbers be x and y (x > y): x - y = 26 and x = 3y. Substitute x: 3y - y = 26 => 2y = 26 => y = 13. Then x = 3(13) = 39.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(i)"
   },
@@ -244,15 +244,15 @@
     "type": "mcq",
     "subtopic": "Cyclic Quadrilateral Linear System",
     "difficulty": "Hard",
-    "question": "In a cyclic quadrilateral ABCD, angle A = (4y + 20)\u00b0, angle B = (3y - 5)\u00b0, angle C = (-4x)\u00b0, and angle D = (-7x + 5)\u00b0. What are the angles of the cyclic quadrilateral?",
+    "question": "In a cyclic quadrilateral ABCD, angle A = (4y + 20)°, angle B = (3y - 5)°, angle C = (-4x)°, and angle D = (-7x + 5)°. What are the angles of the cyclic quadrilateral?",
     "options": [
-      "A = 120\u00b0, B = 70\u00b0, C = 60\u00b0, D = 110\u00b0",
-      "A = 110\u00b0, B = 80\u00b0, C = 70\u00b0, D = 100\u00b0",
-      "A = 100\u00b0, B = 75\u00b0, C = 80\u00b0, D = 105\u00b0",
-      "A = 130\u00b0, B = 65\u00b0, C = 50\u00b0, D = 115\u00b0"
+      "A = 110°, B = 80°, C = 70°, D = 100°",
+      "A = 100°, B = 75°, C = 80°, D = 105°",
+      "A = 130°, B = 65°, C = 50°, D = 115°",
+      "A = 120°, B = 70°, C = 60°, D = 110°"
     ],
-    "answer": 0,
-    "explanation": "Opposite angles sum to 180\u00b0: A + C = 180 => 4y + 20 - 4x = 180 => -4x + 4y = 160 => -x + y = 40. B + D = 180 => 3y - 5 - 7x + 5 = 180 => -7x + 3y = 180. Multiplying first equation by 3: -3x + 3y = 120. Subtracting: -4x = 60 => x = -15. Then y = 40 + x = 40 - 15 = 25. Angles: A = 4(25) + 20 = 120\u00b0; B = 3(25) - 5 = 70\u00b0; C = -4(-15) = 60\u00b0; D = -7(-15) + 5 = 110\u00b0.",
+    "answer": 3,
+    "explanation": "Opposite angles sum to 180°: A + C = 180 => 4y + 20 - 4x = 180 => -4x + 4y = 160 => -x + y = 40. B + D = 180 => 3y - 5 - 7x + 5 = 180 => -7x + 3y = 180. Multiplying first equation by 3: -3x + 3y = 120. Subtracting: -4x = 60 => x = -15. Then y = 40 + x = 40 - 15 = 25. Angles: A = 4(25) + 20 = 120°; B = 3(25) - 5 = 70°; C = -4(-15) = 60°; D = -7(-15) + 5 = 110°.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.7 Question 8"
   },
   {
@@ -262,12 +262,12 @@
     "difficulty": "Hard",
     "question": "Roohi travels 300 km to her home partly by train and partly by bus. She takes 4 hours if she travels 60 km by train and the remaining by bus. If she travels 100 km by train and the remaining by bus, she takes 4 hours and 10 minutes. What are the speeds of the train and the bus respectively?",
     "options": [
-      "Train speed = 60 km/h, Bus speed = 80 km/h",
       "Train speed = 80 km/h, Bus speed = 60 km/h",
       "Train speed = 50 km/h, Bus speed = 75 km/h",
-      "Train speed = 70 km/h, Bus speed = 90 km/h"
+      "Train speed = 70 km/h, Bus speed = 90 km/h",
+      "Train speed = 60 km/h, Bus speed = 80 km/h"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Let train speed = x, bus speed = y. 60/x + 240/y = 4. 100/x + 200/y = 25/6. Setting 1/x = u and 1/y = v: 15u + 60v = 1, and 24u + 48v = 1. Solving gives u = 1/60 => x = 60 km/h; and v = 1/80 => y = 80 km/h.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.6 Question 2(iii)"
   },
@@ -294,12 +294,12 @@
     "difficulty": "Medium",
     "question": "What is the area of the triangle formed by the line 2x + 3y = 6 with the coordinate axes?",
     "options": [
-      "3 square units",
       "6 square units",
       "12 square units",
+      "3 square units",
       "1.5 square units"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Find intercepts: when y = 0, 2x = 6 => x = 3 (x-intercept is (3, 0)). When x = 0, 3y = 6 => y = 2 (y-intercept is (0, 2)). The triangle has vertices (0, 0), (3, 0), and (0, 2). Area = (1/2) * base * height = (1/2) * 3 * 2 = 3 sq units.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
   },
@@ -310,12 +310,12 @@
     "difficulty": "Easy",
     "question": "Two numbers are in the ratio 5 : 6. If 8 is subtracted from each of the numbers, the ratio becomes 4 : 5. What are the numbers?",
     "options": [
-      "40 and 48",
       "30 and 36",
+      "40 and 48",
       "50 and 60",
       "25 and 30"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Let numbers be 5k and 6k. (5k - 8) / (6k - 8) = 4/5 => 5(5k - 8) = 4(6k - 8) => 25k - 40 = 24k - 32 => k = 8. The numbers are 5(8) = 40 and 6(8) = 48.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.4"
   }

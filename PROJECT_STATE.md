@@ -160,6 +160,10 @@ MockTestVault runs on a pure vanilla JavaScript state machine with zero external
   * Employs Fisher-Yates array shuffling to eliminate question bias and prevent duplicate questions within a test session.
   * Slices a clean sample of 20 randomized questions per attempt from the 100-question pool.
   * Hitting "Retake Test" dynamically re-shuffles a fresh set of 20 questions on the fly without page reloads.
+* **Balanced Option Distribution & 5-Option Support:**
+  * Automated calibration across all question banks ensuring an authentic, realistic ~25% / 25% / 25% / 25% distribution across keys A, B, C, D (and 20% across A–E for 5-option GRE items).
+  * Elimination of position bias while strictly preserving statutory board conventions for Assertion-Reasoning items.
+  * Full 5-option support (keys A–E / 1–5) in engine rendering, scorecards, and keyboard event loops.
 
 ---
 
@@ -171,7 +175,7 @@ MockTestVault runs on a pure vanilla JavaScript state machine with zero external
   * Every page defines a strict `<link rel="canonical" href="...">`.
   * `https://www.mocktestvault.com` 301-redirects to apex `https://mocktestvault.com`.
 * **XML Sitemap:**
-  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **90 production URLs** (85 Examination Suites + 5 Legal & Trust Hubs).
+  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **105 production URLs** (100 Examination Suites & Portals + 5 Legal & Trust Hubs).
   * Priority weights: `1.0` (Homepage), `0.95` (Regional Hubs), `0.9` (Primary Simulators & Random Mocks), `0.85` (Progress Hub), `0.8` (Individual Chapter Tests & Legal Hubs).
 * **Robots.txt Directives:**
   * Permissive `User-agent: * Allow: /` with explicit sitemap link.

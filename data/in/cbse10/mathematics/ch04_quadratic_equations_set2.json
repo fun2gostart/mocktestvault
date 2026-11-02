@@ -7,12 +7,12 @@
       "difficulty": "Hard",
       "question": "Solve for x: 1/(x - 1) - 1/(x + 5) = 6/7, where x != 1, -5.",
       "options": [
-        "x = 2 or x = -6",
         "x = -2 or x = 6",
+        "x = 2 or x = -6",
         "x = 3 or x = -4",
         "x = 4 or x = -2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Combine fractions: [(x + 5) - (x - 1)] / [(x - 1)(x + 5)] = 6/7 => 6 / (x^2 + 4x - 5) = 6/7 => x^2 + 4x - 5 = 7 => x^2 + 4x - 12 = 0 => (x + 6)(x - 2) = 0. Hence x = 2 or x = -6.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exemplar Problem"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Hard",
       "question": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less for the same journey. What is the original speed of the train?",
       "options": [
-        "40 km/h",
         "45 km/h",
         "50 km/h",
-        "35 km/h"
+        "35 km/h",
+        "40 km/h"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let original speed be s km/h. Time difference: 360/s - 360/(s + 5) = 1 => 360[(s + 5 - s)] / [s(s + 5)] = 1 => 1800 = s^2 + 5s => s^2 + 5s - 1800 = 0 => (s + 45)(s - 40) = 0. Speed must be positive, so s = 40 km/h.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.3 Question 8"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Hard",
       "question": "Solve the quadratic equation: 4x^2 - 4a^2 x + (a^4 - b^4) = 0.",
       "options": [
-        "x = (a^2 + b^2)/2 or x = (a^2 - b^2)/2",
         "x = a^2 + b^2 or x = a^2 - b^2",
         "x = (a^2 + b^2)/4 or x = (a^2 - b^2)/4",
+        "x = (a^2 + b^2)/2 or x = (a^2 - b^2)/2",
         "x = (a + b)/2 or x = (a - b)/2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Using quadratic formula: a_coeff = 4, b_coeff = -4a^2, c_coeff = a^4 - b^4. D = (-4a^2)^2 - 4(4)(a^4 - b^4) = 16a^4 - 16a^4 + 16b^4 = 16b^4. sqrt(D) = 4b^2. Roots: x = (4a^2 +- 4b^2)/(2*4) = (a^2 +- b^2)/2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, NCERT Exemplar"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Hard",
       "question": "A motor boat whose speed is 18 km/h in still water takes 1 hour more to go 24 km upstream than to return downstream to the same spot. What is the speed of the stream?",
       "options": [
-        "6 km/h",
         "8 km/h",
         "5 km/h",
+        "6 km/h",
         "4 km/h"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let stream speed be v km/h. Upstream speed = 18 - v; downstream speed = 18 + v. Time difference: 24/(18 - v) - 24/(18 + v) = 1 => 24[(18 + v) - (18 - v)] / (324 - v^2) = 1 => 48v = 324 - v^2 => v^2 + 48v - 324 = 0 => (v + 54)(v - 6) = 0. Speed cannot be negative, so v = 6 km/h.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.4, Example 15"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Medium",
       "question": "For what values of p does the quadratic equation px^2 + 6x + 1 = 0 have real roots?",
       "options": [
-        "p <= 9 and p != 0",
         "p >= 9",
         "p < 9",
-        "p <= 3"
+        "p <= 3",
+        "p <= 9 and p != 0"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "For real roots, D >= 0 => b^2 - 4ac >= 0 => 6^2 - 4(p)(1) >= 0 => 36 - 4p >= 0 => 4p <= 36 => p <= 9. Also for the equation to be quadratic, p != 0.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Medium",
       "question": "If one root of the quadratic equation 5x^2 + 13x + k = 0 is reciprocal of the other, what is the value of k?",
       "options": [
-        "5",
         "13",
+        "5",
         "1/5",
         "-5"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let roots be alpha and 1/alpha. Product of roots = alpha * (1/alpha) = 1. By formula, product of roots = c/a = k/5. Therefore k/5 = 1 => k = 5.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.4"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Hard",
       "question": "Solve for x: (2x / (x - 5))^2 + 5(2x / (x - 5)) - 24 = 0 (where x != 5).",
       "options": [
-        "x = 15 or x = 4",
         "x = 3 or x = -8",
         "x = 5 or x = -4",
+        "x = 15 or x = 4",
         "x = 10/3 or x = 15/2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let y = 2x / (x - 5). The equation becomes y^2 + 5y - 24 = 0 => (y + 8)(y - 3) = 0 => y = 3 or y = -8. If y = 3: 2x/(x - 5) = 3 => 2x = 3x - 15 => x = 15. If y = -8: 2x/(x - 5) = -8 => 2x = -8x + 40 => 10x = 40 => x = 4. Hence x = 15 or x = 4.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exemplar Problem"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Hard",
       "question": "If alpha and beta are roots of x^2 - 6x + 8 = 0, find the value of (alpha^2 + beta^2).",
       "options": [
-        "20",
         "28",
+        "20",
         "36",
         "12"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Here alpha + beta = 6 and alpha * beta = 8. (alpha^2 + beta^2) = (alpha + beta)^2 - 2*alpha*beta = 6^2 - 2(8) = 36 - 16 = 20.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.4"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Hard",
       "question": "An aircraft was delayed by 30 minutes due to bad weather and in order to reach its destination 1500 km away on time, it had to increase its speed by 250 km/h from its usual speed. Find its usual speed.",
       "options": [
-        "750 km/h",
         "500 km/h",
         "600 km/h",
-        "800 km/h"
+        "800 km/h",
+        "750 km/h"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let usual speed = v km/h. Time difference: 1500/v - 1500/(v + 250) = 1/2 hour => 1500[250] / [v(v + 250)] = 1/2 => 375000 * 2 = v^2 + 250v => v^2 + 250v - 750000 = 0 => (v + 1000)(v - 750) = 0. Since speed > 0, v = 750 km/h.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exemplar Problem"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Medium",
       "question": "For what value of k will the equation (k - 12)x^2 + 2(k - 12)x + 2 = 0 have equal roots?",
       "options": [
-        "k = 14",
         "k = 12",
         "k = 12 or 14",
-        "k = 16"
+        "k = 16",
+        "k = 14"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "For equal roots, D = 0 => [2(k - 12)]^2 - 4(k - 12)(2) = 0 => 4(k - 12)^2 - 8(k - 12) = 0 => 4(k - 12)[(k - 12) - 2] = 0 => 4(k - 12)(k - 14) = 0. If k = 12, the coefficient of x^2 becomes 0 (not quadratic). Therefore, k must be 14.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exemplar Problem"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Hard",
       "question": "The denominator of a fraction is 1 more than twice the numerator. If the sum of the fraction and its reciprocal is 2 16/21 (58/21), find the fraction.",
       "options": [
-        "3/7",
         "7/3",
+        "3/7",
         "2/5",
         "4/9"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let fraction be u. Then u + 1/u = 58/21 => (u^2 + 1)/u = 58/21 => 21u^2 - 58u + 21 = 0 => (3u - 7)(7u - 3) = 0 => u = 3/7 or 7/3. Since denominator = 2*(numerator) + 1: for 3/7, denominator = 2(3) + 1 = 7, which matches! Hence the fraction is 3/7.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exemplar Problem"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Medium",
       "question": "Find two consecutive odd positive integers, sum of whose squares is 290.",
       "options": [
-        "11 and 13",
         "9 and 11",
         "13 and 15",
+        "11 and 13",
         "7 and 9"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let integers be x and x + 2. x^2 + (x + 2)^2 = 290 => 2x^2 + 4x + 4 = 290 => 2x^2 + 4x - 286 = 0 => x^2 + 2x - 143 = 0 => (x + 13)(x - 11) = 0. Since positive integers are required, x = 11, and x + 2 = 13.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.4, Example 11"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Medium",
       "question": "Is it possible to design a rectangular mango grove whose length is twice its breadth, and the area is 800 m^2? If so, find its length and breadth.",
       "options": [
-        "Yes; Length = 40 m, Breadth = 20 m",
         "Yes; Length = 20 m, Breadth = 10 m",
         "No; Discriminant is negative",
+        "Yes; Length = 40 m, Breadth = 20 m",
         "Yes; Length = 50 m, Breadth = 25 m"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let breadth = b. Length = 2b. Area = 2b * b = 2b^2 = 800 => b^2 = 400 => b = 20 m (positive root). Length = 2(20) = 40 m. Since b is a real number, it is possible.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.4 Question 3"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Hard",
       "question": "For what values of 'a' does the equation 2x^2 + ax + 2 = 0 have rational roots?",
       "options": [
-        "When a^2 - 16 is a perfect square",
         "When a^2 - 16 = 0 only",
         "When a = 4 only",
-        "When a is any even integer"
+        "When a is any even integer",
+        "When a^2 - 16 is a perfect square"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Roots are rational if the discriminant D = b^2 - 4ac = a^2 - 4(2)(2) = a^2 - 16 is a non-negative perfect square (and coefficients are rational).",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Medium",
       "question": "The sum of the ages of two friends is 20 years. Four years ago, the product of their ages in years was 48. Is this situation possible?",
       "options": [
-        "No, because discriminant D = -48 < 0",
         "Yes, their present ages are 12 and 8",
+        "No, because discriminant D = -48 < 0",
         "Yes, their present ages are 14 and 6",
         "Yes, their present ages are 10 and 10"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let friend 1 age be x; friend 2 age is 20 - x. Four years ago: (x - 4)(16 - x) = 48 => 16x - x^2 - 64 + 4x = 48 => -x^2 + 20x - 112 = 0 => x^2 - 20x + 112 = 0. Discriminant D = (-20)^2 - 4(1)(112) = 400 - 448 = -48 < 0. Since D < 0, no real roots exist, so this situation is impossible.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.4 Question 4"
     }

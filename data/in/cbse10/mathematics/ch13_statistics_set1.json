@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "What is the class mark of the class interval 25 - 40?",
       "options": [
-        "32.5",
         "30",
         "35",
-        "15"
+        "15",
+        "32.5"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Class mark = (Upper class limit + Lower class limit) / 2 = (40 + 25) / 2 = 65 / 2 = 32.5.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Easy",
       "question": "What is the empirical relationship between the three measures of central tendency?",
       "options": [
-        "Mode = 3 Median - 2 Mean",
         "Mode = 2 Median - 3 Mean",
+        "Mode = 3 Median - 2 Mean",
         "Mode = 3 Mean - 2 Median",
         "Median = 3 Mode - 2 Mean"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The empirical relationship connecting the three measures of central tendency is Mode = 3 Median - 2 Mean (or 3 Median = Mode + 2 Mean).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Easy",
       "question": "For a moderately skewed distribution, if the mean is 24 and the median is 26, what is the value of the mode?",
       "options": [
-        "30",
         "28",
         "25",
+        "30",
         "32"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Using Mode = 3 Median - 2 Mean: Mode = 3(26) - 2(24) = 78 - 48 = 30.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Medium",
       "question": "In the formula for the mode of grouped data: Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] * h, what does 'f0' represent?",
       "options": [
-        "Frequency of the class preceding the modal class",
         "Frequency of the modal class",
         "Frequency of the class succeeding the modal class",
+        "Frequency of the class preceding the modal class",
         "Cumulative frequency of the modal class"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "In the mode formula: l is the lower limit of the modal class, h is the class size, f1 is the frequency of the modal class, f0 is the frequency of the class preceding the modal class, and f2 is the frequency of the class succeeding the modal class.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Medium",
       "question": "A distribution has total frequency N = 60. The cumulative frequencies are: (10-20: 8), (20-30: 22), (30-40: 38), (40-50: 52), (50-60: 60). What is the median class?",
       "options": [
-        "30 - 40",
         "20 - 30",
+        "30 - 40",
         "40 - 50",
         "10 - 20"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "N = 60, so N/2 = 30. The cumulative frequency just greater than 30 is 38, which corresponds to the class interval 30 - 40. Hence, the median class is 30 - 40.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
@@ -119,13 +119,13 @@
       "difficulty": "Easy",
       "question": "If sum(fi * xi) = 1860 and sum(fi) = 50, what is the mean of the distribution?",
       "options": [
-        "37.2",
         "36.8",
         "38.4",
-        "35.5"
+        "35.5",
+        "37.2"
       ],
-      "answer": 0,
-      "explanation": "Mean x\u0304 = sum(fi * xi) / sum(fi) = 1860 / 50 = 37.2.",
+      "answer": 3,
+      "explanation": "Mean x̄ = sum(fi * xi) / sum(fi) = 1860 / 50 = 37.2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -135,12 +135,12 @@
       "difficulty": "Medium",
       "question": "For a distribution, modal class is 10-20 with l = 10, h = 10, f1 = 12, f0 = 8, and f2 = 4. What is the mode?",
       "options": [
-        "13.33",
         "14.50",
         "12.67",
-        "15.00"
+        "15.00",
+        "13.33"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Mode = l + [(f1 - f0)/(2f1 - f0 - f2)] * h = 10 + [(12 - 8)/(2(12) - 8 - 4)] * 10 = 10 + [4 / (24 - 12)] * 10 = 10 + (4/12)*10 = 10 + 3.33 = 13.33.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.2"
     },
@@ -165,15 +165,15 @@
       "type": "mcq",
       "subtopic": "Sum of Deviations from Mean",
       "difficulty": "Medium",
-      "question": "For any frequency distribution, what is the sum of deviations of individual observations xi from their arithmetic mean x\u0304, i.e., sum[fi * (xi - x\u0304)]?",
+      "question": "For any frequency distribution, what is the sum of deviations of individual observations xi from their arithmetic mean x̄, i.e., sum[fi * (xi - x̄)]?",
       "options": [
-        "0",
         "1",
         "sum(fi)",
-        "x\u0304"
+        "0",
+        "x̄"
       ],
-      "answer": 0,
-      "explanation": "sum[fi * (xi - x\u0304)] = sum(fi * xi) - x\u0304 * sum(fi). Since x\u0304 = sum(fi * xi)/sum(fi), this equals sum(fi * xi) - sum(fi * xi) = 0. The algebraic sum of deviations from the mean is always zero.",
+      "answer": 2,
+      "explanation": "sum[fi * (xi - x̄)] = sum(fi * xi) - x̄ * sum(fi). Since x̄ = sum(fi * xi)/sum(fi), this equals sum(fi * xi) - sum(fi * xi) = 0. The algebraic sum of deviations from the mean is always zero.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -183,13 +183,13 @@
       "difficulty": "Medium",
       "question": "If each observation of a statistical data set having mean 35 is multiplied by 3 and then increased by 5, what is the new mean?",
       "options": [
-        "110",
         "105",
+        "110",
         "115",
         "40"
       ],
-      "answer": 0,
-      "explanation": "If y_i = a * x_i + b, then the new mean y\u0304 = a * x\u0304 + b. Here, new mean = 3 * 35 + 5 = 105 + 5 = 110.",
+      "answer": 1,
+      "explanation": "If y_i = a * x_i + b, then the new mean ȳ = a * x̄ + b. Here, new mean = 3 * 35 + 5 = 105 + 5 = 110.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -199,12 +199,12 @@
       "difficulty": "Medium",
       "question": "If class intervals are given as discontinuous: 1-10, 11-20, 21-30, what are the continuous class boundaries for the interval 11-20?",
       "options": [
-        "10.5 - 20.5",
         "11 - 20",
         "10 - 21",
-        "11.5 - 20.5"
+        "11.5 - 20.5",
+        "10.5 - 20.5"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The gap between upper limit of one class and lower limit of next is 11 - 10 = 1. Adjustment factor = 1/2 = 0.5. Subtract 0.5 from lower limit (11 - 0.5 = 10.5) and add 0.5 to upper limit (20 + 0.5 = 20.5). Boundaries: 10.5 - 20.5.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Medium",
       "question": "For a grouped distribution with median class 20-30, l = 20, n = 50, cf = 18, f = 10, and h = 10, what is the median?",
       "options": [
-        "27",
         "25",
+        "27",
         "28",
         "26"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Median = l + [(n/2 - cf) / f] * h = 20 + [(25 - 18) / 10] * 10 = 20 + 7 = 27.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
@@ -229,7 +229,7 @@
       "type": "mcq",
       "subtopic": "Assumed Mean Formula",
       "difficulty": "Easy",
-      "question": "In the assumed mean method, what is the formula for calculating the mean x\u0304?",
+      "question": "In the assumed mean method, what is the formula for calculating the mean x̄?",
       "options": [
         "a + [sum(fi * di) / sum(fi)]",
         "a - [sum(fi * di) / sum(fi)]",
@@ -237,7 +237,7 @@
         "[sum(fi * di) / sum(fi)] - a"
       ],
       "answer": 0,
-      "explanation": "The assumed mean formula is x\u0304 = a + [sum(fi * di) / sum(fi)], where di = xi - a.",
+      "explanation": "The assumed mean formula is x̄ = a + [sum(fi * di) / sum(fi)], where di = xi - a.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -247,12 +247,12 @@
       "difficulty": "Easy",
       "question": "In a 'less than' cumulative frequency distribution, the upper limits of the classes are plotted against:",
       "options": [
-        "Their respective cumulative frequencies",
         "Their respective frequencies",
         "Class marks",
+        "Their respective cumulative frequencies",
         "Lower limits"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "In a 'less than' cumulative frequency table, frequencies are accumulated up to the upper limit of each class interval, so upper limits correspond to the cumulative frequencies.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Medium",
       "question": "The abscissa (x-coordinate) of the point of intersection of the 'less than' and 'more than' cumulative frequency curves (ogives) represents the:",
       "options": [
-        "Median",
         "Mean",
         "Mode",
-        "Class size"
+        "Class size",
+        "Median"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The point where the 'less than' ogive and 'more than' ogive intersect has coordinates (Median, N/2). Therefore, the x-coordinate (abscissa) gives the median of the distribution.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Easy",
       "question": "Which measure of central tendency can be located graphically from a histogram?",
       "options": [
-        "Mode",
         "Mean",
+        "Mode",
         "Median",
         "Weighted Mean"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The mode can be determined graphically from a histogram by drawing diagonal lines across the highest bar to adjacent bars, whereas the median is determined from cumulative frequency curves (ogives).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Easy",
       "question": "If the class mark of a class interval is 47 and its class size is 10, what is the lower limit of the class?",
       "options": [
-        "42",
         "40",
         "45",
+        "42",
         "47"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Lower limit = Class mark - (Class size / 2) = 47 - (10 / 2) = 47 - 5 = 42. (The interval is 42 - 52).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     }

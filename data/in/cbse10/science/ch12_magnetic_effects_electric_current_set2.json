@@ -23,11 +23,11 @@
     "question": "An electron moves vertically downwards into a horizontal magnetic field directed towards the East. In which direction is the mechanical force acting on the electron directed?",
     "options": [
       "Towards the North",
-      "Towards the South",
       "Vertically upwards",
+      "Towards the South",
       "Towards the West"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Electrons carry negative charge, so the direction of conventional current is OPPOSITE to electron movement: electron moves downwards, so current is directed vertically upwards. Applying Fleming's Left-Hand Rule: Forefinger points East, Middle finger points upwards; the thumb points toward the South.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
   },
@@ -71,11 +71,11 @@
     "question": "What is the primary technical advantage of Alternating Current (AC) over Direct Current (DC) in national electrical grids?",
     "options": [
       "AC is completely safe to touch without shock",
-      "Electric power can be stepped up to extraordinarily high voltages by transformers and transmitted over long distances with minimal transmission losses",
       "AC generates zero heat in household appliances",
-      "AC circuits do not require switches or fuses"
+      "AC circuits do not require switches or fuses",
+      "Electric power can be stepped up to extraordinarily high voltages by transformers and transmitted over long distances with minimal transmission losses"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "An important advantage of AC over DC is that electric power can be transmitted over very long distances without much loss of energy by stepping up the voltage with high-efficiency transformers, dramatically reducing line current and I^2*R transmission line heating.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
   },
@@ -86,12 +86,12 @@
     "difficulty": "Easy",
     "question": "Michael Faraday discovered electromagnetic induction in 1831. What is the fundamental principle of electromagnetic induction?",
     "options": [
-      "A permanent magnet dissolves when exposed to alternating current",
       "Relative motion between a conductor and a magnetic field changes the magnetic flux linked with the conductor, inducing an electric current in it",
+      "A permanent magnet dissolves when exposed to alternating current",
       "Electrons generate nuclear fission when passed through a solenoid",
       "Electrostatic charges attract iron filings"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Electromagnetic induction is the phenomenon of generating an induced electric current in a closed circuit by changing the magnetic field lines (magnetic flux) linked with the circuit, such as by moving a magnet relative to a coil.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.5 Electromagnetic Induction"
   },
@@ -119,11 +119,11 @@
     "question": "What is the primary function of a Galvanometer in an electrical laboratory experiment?",
     "options": [
       "To step down 220 V mains voltage",
-      "To detect the presence and sense the direction of even tiny electric currents in a circuit",
       "To convert AC into DC",
+      "To detect the presence and sense the direction of even tiny electric currents in a circuit",
       "To measure electrical resistance directly in megaohms"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A galvanometer is a sensitive instrument that can detect the presence of current in a circuit. Its pointer remains at zero (the center of the scale) for zero current. Depending on the direction of current, the pointer deflects either to the left or to the right.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.5 Electromagnetic Induction"
   },
@@ -135,11 +135,11 @@
     "question": "Why must an electric fuse ALWAYS be connected in series with the LIVE wire and NEVER in the neutral wire?",
     "options": [
       "The neutral wire carries no electric current at all",
-      "If connected in the neutral wire, when the fuse blows due to a fault, the appliance remains connected to the 220 V live wire, presenting a lethal shock risk to anyone touching it",
       "Fuses can only conduct positive electric charges",
+      "If connected in the neutral wire, when the fuse blows due to a fault, the appliance remains connected to the 220 V live wire, presenting a lethal shock risk to anyone touching it",
       "The neutral wire operates at higher temperature than the live wire"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "If a fuse is installed in the neutral line and blows, the connection to ground through neutral is broken, but the appliance remains energized at 220 V live potential. Touching the metal chassis will cause current to pass through the human body to ground, causing lethal shock. Placing it in the live wire isolates the appliance completely upon blowing.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
   },
@@ -151,11 +151,11 @@
     "question": "Why do heavy appliances like electric geysers and refrigerators require a three-pin plug with a thicker top pin, while mobile chargers and plastic hair dryers use two-pin plugs?",
     "options": [
       "Mobile chargers operate on 440 V",
-      "Metal-bodied appliances have exposed conducting frames requiring earthing for safety; plastic appliances are 'double insulated' and have no exposed metal parts to carry shock",
       "The third pin is only used to charge batteries",
-      "Two-pin plugs prevent high electricity bills"
+      "Two-pin plugs prevent high electricity bills",
+      "Metal-bodied appliances have exposed conducting frames requiring earthing for safety; plastic appliances are 'double insulated' and have no exposed metal parts to carry shock"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Appliances with metallic enclosures must have the earth wire bonded to their chassis via the third (longer and thicker) earth pin. If internal insulation fails, leakage current shunts to earth safely. Plastic-cased ('double insulated') devices have non-conducting exteriors that cannot become live, so a two-pin plug suffices.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Hard",
     "question": "A stationary alpha particle (charge +2e, velocity v = 0) is placed inside an extremely powerful 10 Tesla uniform magnetic field. What is the magnitude of the magnetic force acting on the alpha particle?",
     "options": [
-      "20 Newtons",
       "Zero Newtons",
+      "20 Newtons",
       "3.2 * 10^-18 Newtons",
       "Infinite force"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Magnetic force on a charged particle is given by Lorentz magnetic force F = q * v * B * sin(theta). A magnetic field only exerts force on MOVING charges (v > 0). Because the particle is stationary (v = 0), the magnetic force acting on it is strictly zero.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
   },
@@ -215,11 +215,11 @@
     "question": "A current-carrying solenoid is suspended freely by a thin thread so that it can rotate horizontally. How does it align itself when coming to rest?",
     "options": [
       "It spins continuously without stopping",
-      "It aligns itself in the geographic North-South direction, exactly like a suspended bar magnet",
       "It aligns strictly along the East-West line",
-      "It points vertically toward the center of the Earth"
+      "It points vertically toward the center of the Earth",
+      "It aligns itself in the geographic North-South direction, exactly like a suspended bar magnet"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A current-carrying solenoid behaves identical to a cylindrical bar magnet, having a North magnetic pole at one end and a South magnetic pole at the other. When suspended freely, it aligns in the Earth's geographic North-South direction.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Magnetic Field due to a Current in a Solenoid"
   },
@@ -231,11 +231,11 @@
     "question": "Which medical imaging modality relies on the extremely weak magnetic fields naturally produced by neural ion currents inside the human body (especially the brain and heart)?",
     "options": [
       "X-ray Radiography",
-      "Magnetic Resonance Imaging (MRI)",
       "Ultrasound Sonography",
+      "Magnetic Resonance Imaging (MRI)",
       "Positron Emission Tomography (PET)"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Nerve impulses travel along neurons as ionic currents, producing tiny endogenous magnetic fields in organs such as the heart and brain. In hospital MRI scans, these internal biological fields interact with external superconducting magnets to construct detailed, high-resolution diagnostic cross-sections.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3.1 Magnetism in Medicine"
   },
@@ -246,12 +246,12 @@
     "difficulty": "Medium",
     "question": "Which specialized alloy is typically chosen for the industrial manufacture of powerful permanent magnets (such as those in audio loudspeakers)?",
     "options": [
-      "Soft annealed iron",
       "Alnico (alloy of aluminum, nickel, cobalt, and iron)",
+      "Soft annealed iron",
       "Brass (copper and zinc)",
       "Solder (lead and tin)"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Permanent magnets require materials with high retentivity and high coercivity so they do not lose their magnetism over time or under mechanical shocks. Special ferromagnetic alloys like Alnico (Aluminum-Nickel-Cobalt) and Carbon Steel are used.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Electromagnet"
   },
@@ -295,11 +295,11 @@
     "question": "If the direction of electric current in a vertical wire is reversed from downwards to upwards, what happens to the direction of the magnetic field lines encircling the wire?",
     "options": [
       "The field lines disappear permanently",
-      "The direction of the circular field lines reverses (e.g. from clockwise to anticlockwise when viewed from above)",
       "The field lines transform into straight radial spokes",
-      "The field strength increases tenfold"
+      "The field strength increases tenfold",
+      "The direction of the circular field lines reverses (e.g. from clockwise to anticlockwise when viewed from above)"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "By the Right-Hand Thumb Rule, reversing the direction of current reverses the sense of circulation of the concentric magnetic field lines (from clockwise to anticlockwise as viewed from above).",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.1 Magnetic Field due to a Current through a Straight Conductor"
   },
@@ -310,12 +310,12 @@
     "difficulty": "Easy",
     "question": "What is the frequency of direct current (DC) supplied by a dry chemical cell or storage battery?",
     "options": [
-      "50 Hz",
       "0 Hz (zero cycles per second)",
+      "50 Hz",
       "60 Hz",
       "100 Hz"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Direct current (DC) flows continuously in one direction with constant polarity; it does not oscillate or alternate. Therefore, its frequency of alternation is exactly 0 Hz.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
   }

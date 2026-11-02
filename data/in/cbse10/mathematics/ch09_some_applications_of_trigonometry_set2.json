@@ -7,12 +7,12 @@
       "difficulty": "Hard",
       "question": "The angles of elevation of the top of a tower from two points on the ground at distances 'a' and 'b' (where a > b) from the base of the tower and in the same straight line are complementary. What is the height of the tower?",
       "options": [
-        "sqrt(ab)",
         "ab",
+        "sqrt(ab)",
         "a/b",
         "(a + b)/2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let height be h. Angle 1 is theta, angle 2 is (90 - theta). tan theta = h / a. tan(90 - theta) = cot theta = h / b. Multiplying: tan theta * cot theta = (h/a) * (h/b) => 1 = h^2 / (ab) => h^2 = ab => h = sqrt(ab).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 16"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Hard",
       "question": "Two poles of equal heights stand on either side of an 80 m wide road. From a point between them on the road, the angles of elevation of the tops are 60 degrees and 30 degrees. Find the height of the poles and the distances of the point from the poles.",
       "options": [
-        "Height = 20 sqrt(3) m, distances = 20 m and 60 m",
         "Height = 40 m, distances = 40 m and 40 m",
         "Height = 20 m, distances = 30 m and 50 m",
+        "Height = 20 sqrt(3) m, distances = 20 m and 60 m",
         "Height = 30 sqrt(3) m, distances = 25 m and 55 m"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let point be at distance x from pole 1 and (80 - x) from pole 2. h = x * tan 60 deg = x*sqrt(3). Also h = (80 - x) * tan 30 deg = (80 - x)/sqrt(3). Equating: x*sqrt(3) = (80 - x)/sqrt(3) => 3x = 80 - x => 4x = 80 => x = 20 m. Distances are 20 m and 60 m. Height h = 20*sqrt(3) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 10"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Hard",
       "question": "A straight highway leads to the foot of a tower. A man standing at the top observes a car at an angle of depression of 30 degrees, which is approaching the foot of the tower with uniform speed. Six seconds later, the angle of depression of the car is found to be 60 degrees. Find the time taken by the car to reach the foot of the tower from this point.",
       "options": [
-        "3 seconds",
         "6 seconds",
         "4 seconds",
-        "2 seconds"
+        "2 seconds",
+        "3 seconds"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let tower height be h. At 60 deg, distance x = h / tan 60 = h/sqrt(3). At 30 deg, distance y = h / tan 30 = h*sqrt(3) = 3x. Distance traveled in 6 s = y - x = 3x - x = 2x. Speed = 2x / 6 = x / 3 per second. Remaining distance to foot is x. Time required = x / (x/3) = 3 seconds.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 15"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Hard",
       "question": "If the angle of elevation of a cloud from a point 'h' metres above a lake is alpha and the angle of depression of its reflection in the lake is beta, what is the height of the cloud above the lake surface?",
       "options": [
-        "h (tan beta + tan alpha) / (tan beta - tan alpha)",
         "h (tan beta - tan alpha) / (tan beta + tan alpha)",
         "h (cot alpha + cot beta)",
+        "h (tan beta + tan alpha) / (tan beta - tan alpha)",
         "h tan alpha tan beta"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let height of cloud above lake be H. Cloud is H - h above observation point; its reflection is H + h below observation point. Horizontal distance d = (H - h)/tan alpha = (H + h)/tan beta. (H - h) tan beta = (H + h) tan alpha => H(tan beta - tan alpha) = h(tan beta + tan alpha) => H = h(tan beta + tan alpha) / (tan beta - tan alpha).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Medium",
       "question": "The angles of elevation of the top of a tower from two points on the ground at distances of 4 m and 9 m from the base of the tower and in the same straight line with it are complementary. What is the height of the tower?",
       "options": [
-        "6 m",
         "sqrt(13) m",
         "5 m",
-        "36 m"
+        "36 m",
+        "6 m"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Using formula h = sqrt(ab): h = sqrt(4 * 9) = sqrt(36) = 6 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 16"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Hard",
       "question": "From the top of a multi-storeyed building, the angles of depression of the top and bottom of an 8 m tall building are 30 degrees and 45 degrees respectively. Find the height of the multi-storeyed building.",
       "options": [
-        "4(3 + sqrt(3)) m (~18.93 m)",
         "4(3 - sqrt(3)) m",
+        "4(3 + sqrt(3)) m (~18.93 m)",
         "8 sqrt(3) m",
         "16 m"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let multi-storeyed height be H, ground distance be d. To bottom: tan 45 deg = H / d => d = H. To top: tan 30 deg = (H - 8)/d = (H - 8)/H => 1/sqrt(3) = (H - 8)/H => H = sqrt(3)H - 8*sqrt(3) => H(sqrt(3) - 1) = 8*sqrt(3) => H = 8*sqrt(3) / (sqrt(3) - 1) = 8*sqrt(3)(sqrt(3) + 1)/2 = 4*sqrt(3)(sqrt(3) + 1) = 4(3 + sqrt(3)) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1, Example 6"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Medium",
       "question": "From a point on a bridge across a river, the angles of depression of the banks on opposite sides of the river are 30 degrees and 45 degrees respectively. If the bridge is at a height of 3 m from the banks, find the width of the river.",
       "options": [
-        "3(sqrt(3) + 1) m (~8.20 m)",
         "3(sqrt(3) - 1) m",
         "6 sqrt(3) m",
+        "3(sqrt(3) + 1) m (~8.20 m)",
         "9 m"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Distance to bank 1 = 3 / tan 30 = 3*sqrt(3) m. Distance to bank 2 = 3 / tan 45 = 3 m. Total river width = 3*sqrt(3) + 3 = 3(sqrt(3) + 1) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1, Example 7"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Hard",
       "question": "An aeroplane flying at an altitude of 1 km observes two consecutive kilometre stones on a road below on opposite sides of the plane. If the angles of depression are 45 degrees and 60 degrees, what is the distance between the two stones?",
       "options": [
-        "1 + 1/sqrt(3) km (~1.577 km)",
         "1 km",
+        "1 + 1/sqrt(3) km (~1.577 km)",
         "sqrt(3) km",
         "2 km"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Distance to stone 1 = 1 / tan 45 = 1 km. Distance to stone 2 = 1 / tan 60 = 1/sqrt(3) km. Total distance = 1 + 1/sqrt(3) km.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Medium",
       "question": "A ladder rests against a vertical wall at an inclination alpha to the horizontal. Its foot is pulled away through a distance 'a' so that it slides down a distance 'b' on the wall, making an angle beta with the horizontal. Which relation is correct?",
       "options": [
-        "a/b = (cos beta - cos alpha) / (sin alpha - sin beta)",
         "a/b = (sin alpha - sin beta) / (cos beta - cos alpha)",
         "a/b = tan alpha / tan beta",
-        "a*b = 1"
+        "a*b = 1",
+        "a/b = (cos beta - cos alpha) / (sin alpha - sin beta)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let ladder length be L. Foot initially = L cos alpha, top = L sin alpha. Foot after = L cos beta, top = L sin beta. Slide a = L(cos beta - cos alpha). Drop b = L(sin alpha - sin beta). Ratio a/b = (cos beta - cos alpha)/(sin alpha - sin beta).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Hard",
       "question": "The angle of elevation of the top of a vertical tower from a point on the ground is 60 degrees. From another point 10 m vertically above the first, its angle of elevation is 45 degrees. Find the height of the tower.",
       "options": [
-        "5(3 + sqrt(3)) m (~23.66 m)",
         "10(sqrt(3) + 1) m",
         "15 sqrt(3) m",
+        "5(3 + sqrt(3)) m (~23.66 m)",
         "25 m"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let tower height be H, ground distance be d. From ground: tan 60 deg = H / d => d = H / sqrt(3). From 10 m above: tan 45 deg = (H - 10) / d => d = H - 10. Equating d: H / sqrt(3) = H - 10 => H = sqrt(3)H - 10*sqrt(3) => H(sqrt(3) - 1) = 10*sqrt(3) => H = 10*sqrt(3) / (sqrt(3) - 1) = 10*sqrt(3)(sqrt(3) + 1)/2 = 5*sqrt(3)(sqrt(3) + 1) = 5(3 + sqrt(3)) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Medium",
       "question": "The angle of elevation of the top of a building from the foot of a tower is 30 degrees and the angle of elevation of the top of the tower from the foot of the building is 60 degrees. If the tower is 50 m high, find the height of the building.",
       "options": [
-        "16 2/3 m (50/3 m)",
         "25 m",
         "15 sqrt(3) m",
-        "20 m"
+        "20 m",
+        "16 2/3 m (50/3 m)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let ground distance between them be d. From foot of building to tower: tan 60 deg = 50 / d => d = 50 / sqrt(3). From foot of tower to building: tan 30 deg = h / d => 1/sqrt(3) = h / (50/sqrt(3)) => h = 50 / 3 = 16 2/3 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 9"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Hard",
       "question": "A round balloon of radius 'r' subtends an angle alpha at the eye of the observer, while the angle of elevation of its centre is beta. What is the height of the centre of the balloon from the ground?",
       "options": [
-        "r sin beta cosec(alpha / 2)",
         "r cos beta cosec(alpha / 2)",
+        "r sin beta cosec(alpha / 2)",
         "r sin beta sin(alpha / 2)",
         "r tan beta cosec alpha"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let centre of balloon be C and observer be O. The angle subtended by the balloon is alpha, so the half angle between line of sight to centre and tangent is alpha/2. In right triangle formed by tangent: sin(alpha/2) = r / OC => OC = r / sin(alpha/2) = r cosec(alpha/2). In right triangle for height of centre: sin beta = Height / OC => Height = OC * sin beta = r sin beta cosec(alpha/2).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Easy",
       "question": "The angle of elevation of the top of a rock from two points A and B on the ground at distances 16 m and 25 m from its base are complementary. Find the height of the rock.",
       "options": [
-        "20 m",
         "25 m",
+        "20 m",
         "15 m",
         "18 m"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "h = sqrt(a * b) = sqrt(16 * 25) = sqrt(400) = 20 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 16"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Medium",
       "question": "If the angle of elevation of the sun changes from 45 degrees to 30 degrees, by what factor does the shadow of a vertical tower increase?",
       "options": [
-        "sqrt(3) times (~1.732 times)",
         "2 times",
         "1/sqrt(3) times",
-        "sqrt(2) times"
+        "sqrt(2) times",
+        "sqrt(3) times (~1.732 times)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "At 45 deg: shadow s1 = h / tan 45 = h. At 30 deg: shadow s2 = h / tan 30 = h*sqrt(3). The ratio s2 / s1 = (h*sqrt(3)) / h = sqrt(3).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Medium",
       "question": "A tree stands vertically on the bank of a river. From a point directly opposite on the other bank, the angle of elevation of the top is 60 degrees. If the tree is 15 m high, find the width of the river.",
       "options": [
-        "5 sqrt(3) m (~8.66 m)",
         "15 sqrt(3) m",
         "10 m",
+        "5 sqrt(3) m (~8.66 m)",
         "7.5 m"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "tan 60 deg = 15 / width => sqrt(3) = 15 / w => w = 15 / sqrt(3) = 5*sqrt(3) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },

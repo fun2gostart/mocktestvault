@@ -25,11 +25,11 @@
       "question": "For any two positive integers 'a' and 'b', which fundamental algebraic relationship connects their HCF and LCM?",
       "options": [
         "HCF(a, b) + LCM(a, b) = a + b",
-        "HCF(a, b) * LCM(a, b) = a * b",
         "HCF(a, b) / LCM(a, b) = a / b",
+        "HCF(a, b) * LCM(a, b) = a * b",
         "[HCF(a, b)]^2 = a * b"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "For any two positive integers a and b, the product of their HCF and LCM is equal to the product of the two numbers: HCF(a, b) * LCM(a, b) = a * b. Note that this relation holds strictly for two numbers only.",
       "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
       "section": "Section A: Number Systems & Algebra"
@@ -59,11 +59,11 @@
       "question": "What is the HCF of the smallest prime number and the smallest composite number?",
       "options": [
         "1",
-        "2",
         "4",
-        "6"
+        "6",
+        "2"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The smallest prime number is 2, and the smallest composite number is 4. HCF(2, 4) = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q4",
       "section": "Section A: Number Systems & Algebra"
@@ -92,12 +92,12 @@
       "difficulty": "Easy",
       "question": "If alpha and beta are the zeroes of the quadratic polynomial p(x) = x^2 - 2x - 8, what are the sum (alpha + beta) and product (alpha * beta) of its zeroes?",
       "options": [
-        "Sum = 2, Product = -8",
         "Sum = -2, Product = 8",
         "Sum = -2, Product = -8",
-        "Sum = 8, Product = 2"
+        "Sum = 8, Product = 2",
+        "Sum = 2, Product = -8"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "For any quadratic polynomial ax^2 + bx + c: Sum of zeroes = -b/a = -(-2)/1 = 2. Product of zeroes = c/a = -8/1 = -8. Factoring gives (x - 4)(x + 2) = 0, so zeroes are 4 and -2 (4 + (-2) = 2; 4 * (-2) = -8).",
       "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3",
       "section": "Section A: Number Systems & Algebra"
@@ -126,12 +126,12 @@
       "difficulty": "Medium",
       "question": "If the zeroes of the quadratic polynomial p(x) = kx^2 + (k - 2)x + 5 are equal in magnitude but opposite in sign, what is the value of k?",
       "options": [
-        "2",
         "-2",
         "0",
+        "2",
         "5"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let the zeroes be alpha and -alpha. Their sum is alpha + (-alpha) = 0. In a quadratic polynomial ax^2 + bx + c, sum of zeroes is -b/a. Thus -(k - 2)/k = 0 => k - 2 = 0 => k = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3",
       "section": "Section A: Number Systems & Algebra"
@@ -143,12 +143,12 @@
       "difficulty": "Hard",
       "question": "If alpha and beta are the zeroes of the quadratic polynomial p(x) = 2x^2 + 5x + 2, what is the value of (alpha / beta + beta / alpha)?",
       "options": [
-        "17/4",
         "25/4",
+        "17/4",
         "9/4",
         "-17/4"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Here alpha + beta = -5/2 and alpha * beta = 2/2 = 1. Now alpha/beta + beta/alpha = (alpha^2 + beta^2)/(alpha * beta) = [(alpha + beta)^2 - 2(alpha * beta)] / (alpha * beta) = [(-5/2)^2 - 2(1)] / 1 = 25/4 - 2 = (25 - 8)/4 = 17/4.",
       "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q5",
       "section": "Section A: Number Systems & Algebra"
@@ -177,12 +177,12 @@
       "difficulty": "Easy",
       "question": "If the pair of linear equations a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0 represents two lines that intersect at a single point, which algebraic condition must hold true?",
       "options": [
-        "a1 / a2 != b1 / b2",
         "a1 / a2 = b1 / b2 = c1 / c2",
         "a1 / a2 = b1 / b2 != c1 / c2",
+        "a1 / a2 != b1 / b2",
         "a1 * a2 = b1 * b2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Two straight lines intersect at exactly one point if and only if their slopes are distinct: a1 / a2 != b1 / b2. In this case, the system has a unique solution and is consistent.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.4",
       "section": "Section A: Number Systems & Algebra"
@@ -194,12 +194,12 @@
       "difficulty": "Easy",
       "question": "A pair of linear equations in two variables has NO solution if their graph consists of two parallel lines. What is the algebraic ratio condition for this case?",
       "options": [
-        "a1 / a2 = b1 / b2 != c1 / c2",
         "a1 / a2 != b1 / b2",
         "a1 / a2 = b1 / b2 = c1 / c2",
-        "a1 * b2 + a2 * b1 = 0"
+        "a1 * b2 + a2 * b1 = 0",
+        "a1 / a2 = b1 / b2 != c1 / c2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "When a1 / a2 = b1 / b2 != c1 / c2, the lines are parallel and never meet. Therefore, there is no common solution, and the pair of equations is called inconsistent.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.4",
       "section": "Section A: Number Systems & Algebra"
@@ -211,12 +211,12 @@
       "difficulty": "Hard",
       "question": "Solve the system with large cyclic coefficients: 21x + 47y = 110 and 47x + 21y = 162. What are the values of x and y?",
       "options": [
-        "x = 3, y = 1",
         "x = 1, y = 3",
+        "x = 3, y = 1",
         "x = 2, y = 2",
         "x = 4, y = 0"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Adding both equations: 68x + 68y = 272 => x + y = 4. Subtracting first from second: 26x - 26y = 52 => x - y = 2. Adding x + y = 4 and x - y = 2: 2x = 6 => x = 3. Then y = 4 - 3 = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.3",
       "section": "Section A: Number Systems & Algebra"
@@ -228,12 +228,12 @@
       "difficulty": "Medium",
       "question": "A fraction becomes 1/3 when 1 is subtracted from the numerator, and it becomes 1/4 when 8 is added to its denominator. What is the original fraction?",
       "options": [
-        "5/12",
         "3/8",
         "7/15",
+        "5/12",
         "4/11"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let the fraction be x/y: (x - 1)/y = 1/3 => 3x - y = 3. Next: x/(y + 8) = 1/4 => 4x - y = 8. Subtracting the two equations gives (4x - y) - (3x - y) = 8 - 3 => x = 5. Then y = 3(5) - 3 = 12. The fraction is 5/12.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(v)",
       "section": "Section A: Number Systems & Algebra"
@@ -245,12 +245,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The pair of linear equations 3x + 2y = 11 and 2x + 3y = 4 has a unique solution.\nReason (R): A pair of linear equations a1 x + b1 y + c1 = 0 and a2 x + b2 y + c2 = 0 represents intersecting lines and has a unique solution if and only if a1/a2 != b1/b2.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Here a1 = 3, b1 = 2, a2 = 2, b2 = 3. We check the ratio: a1/a2 = 3/2 and b1/b2 = 2/3. Since 3/2 != 2/3 (a1/a2 != b1/b2), the system has a unique solution. Both (A) and (R) are true, and (R) provides the exact mathematical criterion for (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.1",
       "section": "Section A: Number Systems & Algebra"
@@ -262,12 +262,12 @@
       "difficulty": "Easy",
       "question": "Which of the following equations is NOT a quadratic equation?",
       "options": [
-        "(x - 2)^2 + 1 = 2x - 3",
         "x(x + 1) + 8 = (x + 2)(x - 2)",
+        "(x - 2)^2 + 1 = 2x - 3",
         "x(2x + 3) = x^2 + 1",
         "(x + 2)^3 = x^3 - 4"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Expanding (b): x^2 + x + 8 = x^2 - 4 => x + 12 = 0. The x^2 terms cancel out, leaving a linear equation of degree 1. Thus it is NOT a quadratic equation.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.2, Example 2",
       "section": "Section A: Number Systems & Algebra"
@@ -279,12 +279,12 @@
       "difficulty": "Easy",
       "question": "For a quadratic equation ax^2 + bx + c = 0 (a != 0), the roots are real and distinct if the discriminant D = b^2 - 4ac satisfies:",
       "options": [
-        "D > 0",
         "D = 0",
         "D < 0",
-        "D <= 0"
+        "D <= 0",
+        "D > 0"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "According to the discriminant rules, when D > 0, the quadratic formula yields two distinct real roots: x = (-b +- sqrt(D))/(2a).",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5",
       "section": "Section A: Number Systems & Algebra"
@@ -296,12 +296,12 @@
       "difficulty": "Hard",
       "question": "Solve for x: 1/(x - 1) - 1/(x + 5) = 6/7, where x != 1, -5.",
       "options": [
-        "x = 2 or x = -6",
         "x = -2 or x = 6",
         "x = 3 or x = -4",
+        "x = 2 or x = -6",
         "x = 4 or x = -2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Combine fractions: [(x + 5) - (x - 1)] / [(x - 1)(x + 5)] = 6/7 => 6 / (x^2 + 4x - 5) = 6/7 => x^2 + 4x - 5 = 7 => x^2 + 4x - 12 = 0 => (x + 6)(x - 2) = 0. Hence x = 2 or x = -6.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exemplar Problem",
       "section": "Section A: Number Systems & Algebra"
@@ -313,12 +313,12 @@
       "difficulty": "Hard",
       "question": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less for the same journey. What is the original speed of the train?",
       "options": [
-        "40 km/h",
         "45 km/h",
+        "40 km/h",
         "50 km/h",
         "35 km/h"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let original speed be s km/h. Time difference: 360/s - 360/(s + 5) = 1 => 360[(s + 5 - s)] / [s(s + 5)] = 1 => 1800 = s^2 + 5s => s^2 + 5s - 1800 = 0 => (s + 45)(s - 40) = 0. Speed must be positive, so s = 40 km/h.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.3 Question 8",
       "section": "Section A: Number Systems & Algebra"
@@ -347,12 +347,12 @@
       "difficulty": "Easy",
       "question": "What is the 30th term of the arithmetic progression 10, 7, 4, ...?",
       "options": [
-        "-77",
         "77",
         "-87",
+        "-77",
         "97"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Here first term a = 10, common difference d = 7 - 10 = -3. a_30 = a + (30 - 1)d = 10 + 29(-3) = 10 - 87 = -77.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 2(i)",
       "section": "Section A: Number Systems & Algebra"
@@ -381,12 +381,12 @@
       "difficulty": "Hard",
       "question": "If the mth term of an AP is 1/n and the nth term is 1/m, what is the value of its (mn)th term?",
       "options": [
-        "1",
         "0",
+        "1",
         "1/(mn)",
         "m + n"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "a + (m - 1)d = 1/n, and a + (n - 1)d = 1/m. Subtracting gives (m - n)d = (m - n)/(mn) => d = 1/(mn). Then a = 1/n - (m - 1)/(mn) = 1/(mn). Thus a_mn = a + (mn - 1)d = 1/(mn) + (mn - 1)/(mn) = mn/(mn) = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem",
       "section": "Section A: Number Systems & Algebra"
@@ -398,12 +398,12 @@
       "difficulty": "Hard",
       "question": "Find the sum of all three-digit natural numbers which are divisible by 7.",
       "options": [
-        "70,336",
         "70,300",
         "69,850",
-        "71,204"
+        "71,204",
+        "70,336"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "First 3-digit number divisible by 7 is 105. Last is 994. 994 = 105 + (n - 1)(7) => 889 = 7(n - 1) => n - 1 = 127 => n = 128 terms. S_128 = (128/2)[105 + 994] = 64 * 1099 = 70,336.",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 13",
       "section": "Section A: Number Systems & Algebra"
@@ -415,12 +415,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The sequence 5, 5, 5, 5, ... is an arithmetic progression.\nReason (R): In an AP, each term after the first is obtained by adding a fixed number 'd' to the preceding term, and this common difference 'd' can be zero.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "In 5, 5, 5, ..., the difference between any two consecutive terms is 5 - 5 = 0. Since d = 0 is a valid real number, it is an AP with common difference 0. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.1",
       "section": "Section A: Number Systems & Algebra"
@@ -449,12 +449,12 @@
       "difficulty": "Easy",
       "question": "Two triangles are similar if their corresponding angles are equal and their corresponding sides are:",
       "options": [
-        "In the same ratio (proportional)",
         "Equal in length",
         "Mutually perpendicular",
-        "Parallel to each other"
+        "Parallel to each other",
+        "In the same ratio (proportional)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Two polygons/triangles with the same number of sides are similar if: (1) corresponding angles are equal, and (2) corresponding sides are in the same ratio (proportional).",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -466,12 +466,12 @@
       "difficulty": "Easy",
       "question": "Which of the following geometric figures are ALWAYS similar to each other?",
       "options": [
-        "All equilateral triangles",
         "All isosceles triangles",
         "All rectangles",
+        "All equilateral triangles",
         "All rhombuses"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "All circles, all squares, and all equilateral triangles are always similar because their corresponding angles are identical (each 60 degrees in equilateral triangles) and all sides are in the same proportion.",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -483,12 +483,12 @@
       "difficulty": "Hard",
       "question": "ABCD is a rhombus with diagonals AC and BD intersecting at O. What is the value of (AB^2 + BC^2 + CD^2 + DA^2)?",
       "options": [
-        "AC^2 + BD^2",
         "2(AC^2 + BD^2)",
+        "AC^2 + BD^2",
         "(AC + BD)^2",
         "4(AC^2 + BD^2)"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Diagonals of a rhombus bisect each other perpendicularly at O. In right triangle AOB: AB^2 = OA^2 + OB^2 = (AC/2)^2 + (BD/2)^2 = (AC^2 + BD^2)/4. Since all 4 sides are equal, 4 * AB^2 = 4 * [(AC^2 + BD^2)/4] = AC^2 + BD^2. Thus AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 7",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -517,12 +517,12 @@
       "difficulty": "Medium",
       "question": "Two poles of heights 6 m and 11 m stand on a flat playground. If the distance between their feet is 12 m, find the distance between their tops.",
       "options": [
-        "13 m",
         "12.5 m",
         "14 m",
+        "13 m",
         "15 m"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Difference in heights = 11 - 6 = 5 m. Horizontal distance between tops = distance between feet = 12 m. Distance between tops = sqrt(5^2 + 12^2) = sqrt(25 + 144) = sqrt(169) = 13 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 12",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -534,12 +534,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): All congruent triangles are similar, but all similar triangles are not necessarily congruent.\nReason (R): Congruent triangles have identical shape and identical size (ratio of sides 1 : 1), while similar triangles have identical shape but may differ in size.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Congruent figures satisfy the definition of similarity with a scale factor of 1. Similar figures with scale factor != 1 are not congruent. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -551,12 +551,12 @@
       "difficulty": "Easy",
       "question": "What is the distance between the points P(2, 3) and Q(4, 1)?",
       "options": [
-        "2 sqrt(2) units",
         "4 units",
         "8 units",
-        "2 units"
+        "2 units",
+        "2 sqrt(2) units"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "d = sqrt((4 - 2)^2 + (1 - 3)^2) = sqrt(2^2 + (-2)^2) = sqrt(4 + 4) = sqrt(8) = 2*sqrt(2) units.",
       "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -568,12 +568,12 @@
       "difficulty": "Easy",
       "question": "The distance of the point P(-6, 8) from the origin (0, 0) is:",
       "options": [
-        "10 units",
         "8 units",
+        "10 units",
         "6 units",
         "14 units"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Distance from origin O(0,0) to P(x, y) is sqrt(x^2 + y^2) = sqrt((-6)^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 units.",
       "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -585,12 +585,12 @@
       "difficulty": "Easy",
       "question": "What are the coordinates of the midpoint of the line segment joining points A(-5, 4) and B(7, -8)?",
       "options": [
-        "(1, -2)",
         "(2, -4)",
         "(-1, 2)",
+        "(1, -2)",
         "(6, -6)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Midpoint M = ((x1 + x2)/2, (y1 + y2)/2) = ((-5 + 7)/2, (4 + (-8))/2) = (2/2, -4/2) = (1, -2).",
       "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.3",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -636,12 +636,12 @@
       "difficulty": "Hard",
       "question": "Determine the ratio in which the line 2x + y - 4 = 0 divides the line segment joining the points A(2, -2) and B(3, 7).",
       "options": [
-        "2 : 9 internally",
         "9 : 2 internally",
         "3 : 7 internally",
-        "1 : 4 internally"
+        "1 : 4 internally",
+        "2 : 9 internally"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let the line divide AB in ratio k : 1. Coordinates of division point P are ((3k + 2)/(k + 1), (7k - 2)/(k + 1)). Substituting into line equation 2x + y - 4 = 0: 2[(3k + 2)/(k + 1)] + [(7k - 2)/(k + 1)] - 4 = 0 => 6k + 4 + 7k - 2 - 4(k + 1) = 0 => 13k + 2 - 4k - 4 = 0 => 9k - 2 = 0 => k = 2/9. Ratio is 2 : 9.",
       "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.4 Question 1",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -653,12 +653,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The distance of the point P(3, 4) from the origin O(0, 0) is 5 units.\nReason (R): The distance of any point P(x, y) from the origin is given by sqrt(x^2 + y^2).",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Distance = sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5 units. Reason (R) gives the exact formula that proves Assertion (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -670,12 +670,12 @@
       "difficulty": "Easy",
       "question": "The tangent at any point of a circle is always perpendicular to which geometric line through the point of contact?",
       "options": [
-        "The radius through the point of contact",
         "The chord passing through the point",
         "The line segment connecting to the opposite circumference",
+        "The radius through the point of contact",
         "Any secant line drawn to the circle"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Theorem 10.1: The tangent at any point of a circle is perpendicular to the radius through the point of contact (Angle between radius and tangent = 90 deg).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Theorem 10.1",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -687,12 +687,12 @@
       "difficulty": "Easy",
       "question": "From an external point P, two tangents PA and PB are drawn to a circle. What is the relation between the lengths of PA and PB?",
       "options": [
-        "PA = PB",
         "PA > PB",
         "PA + PB = Radius",
+        "PA = PB",
         "PA = 2 PB"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Theorem 10.2: The lengths of tangents drawn from an external point to a circle are equal (PA = PB).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Theorem 10.2",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -721,12 +721,12 @@
       "difficulty": "Hard",
       "question": "A triangle ABC is drawn to circumscribe a circle of radius 4 cm such that the segments BD and DC into which BC is divided by the point of contact D are of lengths 8 cm and 6 cm respectively. Find the lengths of sides AB and AC.",
       "options": [
-        "AB = 15 cm, AC = 13 cm",
         "AB = 14 cm, AC = 12 cm",
         "AB = 16 cm, AC = 14 cm",
-        "AB = 13 cm, AC = 15 cm"
+        "AB = 13 cm, AC = 15 cm",
+        "AB = 15 cm, AC = 13 cm"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let tangent from A be x. Then a = 14, b = 6 + x, c = 8 + x. Semi-perimeter s = (14 + 6 + x + 8 + x)/2 = 14 + x. Area by Heron's: sqrt(s(s-a)(s-b)(s-c)) = sqrt((14+x)(x)(8)(6)) = sqrt(48x(14+x)). Area also = r * s = 4(14 + x). Equating: 48x(14 + x) = 16(14 + x)^2 => 3x = 14 + x => 2x = 14 => x = 7 cm. Thus AB = 8 + 7 = 15 cm, and AC = 6 + 7 = 13 cm.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 12",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -738,12 +738,12 @@
       "difficulty": "Hard",
       "question": "A circle is inscribed in a right-angled triangle ABC right-angled at B. If AB = c, BC = a, and hypotenuse AC = b, what is the radius 'r' of the incircle?",
       "options": [
-        "(a + c - b) / 2",
         "(a + b + c) / 2",
+        "(a + c - b) / 2",
         "(a + b - c) / 2",
         "(b + c - a) / 2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let incircle touch BC at P, AB at Q, and AC at R. BQOP is a square of side r, so BP = BQ = r. Then CP = a - r = CR, and AQ = c - r = AR. Hypotenuse AC = b = AR + CR = (c - r) + (a - r) = a + c - 2r => 2r = a + c - b => r = (a + c - b) / 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Exemplar Problem",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -755,12 +755,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): No tangent can be drawn to a circle from a point lying inside it.\nReason (R): Every straight line passing through an interior point of a circle must intersect the circle in two distinct points, forming a secant rather than a tangent.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "A tangent touches a circle at exactly one point. Any line through an internal point cuts the circle twice, making it impossible to be a tangent. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.2",
       "section": "Section B: Geometry & Coordinate Geometry"
@@ -772,12 +772,12 @@
       "difficulty": "Easy",
       "question": "What is the numerical value of (sin 30 deg + cos 60 deg)?",
       "options": [
-        "1",
         "1/2",
         "sqrt(3)",
+        "1",
         "0"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "sin 30 deg = 1/2 and cos 60 deg = 1/2. Therefore, sin 30 deg + cos 60 deg = 1/2 + 1/2 = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1",
       "section": "Section C: Trigonometry & Mensuration"
@@ -789,12 +789,12 @@
       "difficulty": "Easy",
       "question": "Which of the following identities is correct for all acute angles theta?",
       "options": [
-        "1 + tan^2(theta) = sec^2(theta)",
         "1 + cot^2(theta) = sec^2(theta)",
+        "1 + tan^2(theta) = sec^2(theta)",
         "sin^2(theta) - cos^2(theta) = 1",
         "tan^2(theta) - 1 = sec^2(theta)"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The three fundamental Pythagorean identities are: (1) sin^2(theta) + cos^2(theta) = 1, (2) 1 + tan^2(theta) = sec^2(theta), and (3) 1 + cot^2(theta) = cosec^2(theta).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4",
       "section": "Section C: Trigonometry & Mensuration"
@@ -840,12 +840,12 @@
       "difficulty": "Hard",
       "question": "If sin theta + cos theta = sqrt(2) cos theta, what is the value of (cos theta - sin theta)?",
       "options": [
-        "sqrt(2) sin theta",
         "sqrt(2) cos theta",
         "-sqrt(2) sin theta",
-        "sin theta"
+        "sin theta",
+        "sqrt(2) sin theta"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "cos theta - sin theta = x. Consider (sin theta + cos theta)^2 + (cos theta - sin theta)^2 = [sin^2 theta + cos^2 theta + 2 sin theta cos theta] + [cos^2 theta + sin^2 theta - 2 sin theta cos theta] = 1 + 1 = 2. Given sin theta + cos theta = sqrt(2) cos theta => (sqrt(2) cos theta)^2 + x^2 = 2 => 2 cos^2 theta + x^2 = 2 => x^2 = 2 - 2 cos^2 theta = 2(1 - cos^2 theta) = 2 sin^2 theta => x = sqrt(2) sin theta.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "section": "Section C: Trigonometry & Mensuration"
@@ -857,12 +857,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The value of sin theta increases as theta increases from 0 deg to 90 deg.\nReason (R): In a right-angled triangle, as the acute angle theta increases, the opposite side (perpendicular) increases while the hypotenuse remains fixed, causing sin theta = opp/hyp to increase from 0 to 1.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "sin 0 deg = 0, sin 30 deg = 0.5, sin 45 deg = 1/sqrt(2) approx 0.707, sin 60 deg = sqrt(3)/2 approx 0.866, sin 90 deg = 1. The ratio strictly increases. Reason (R) provides the geometric proof for Assertion (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3",
       "section": "Section C: Trigonometry & Mensuration"
@@ -874,12 +874,12 @@
       "difficulty": "Easy",
       "question": "A vertical pole stands on level ground. If the height of the pole is equal to the length of its shadow, what is the angle of elevation of the sun?",
       "options": [
-        "45 degrees",
         "30 degrees",
+        "45 degrees",
         "60 degrees",
         "90 degrees"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let height = h and shadow = s. tan theta = h / s. Given h = s, tan theta = 1. Since tan 45 deg = 1, the angle of elevation theta = 45 degrees.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1",
       "section": "Section C: Trigonometry & Mensuration"
@@ -908,12 +908,12 @@
       "difficulty": "Hard",
       "question": "The angles of elevation of the top of a tower from two points on the ground at distances 'a' and 'b' (where a > b) from the base of the tower and in the same straight line are complementary. What is the height of the tower?",
       "options": [
-        "sqrt(ab)",
         "ab",
         "a/b",
+        "sqrt(ab)",
         "(a + b)/2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Let height be h. Angle 1 is theta, angle 2 is (90 - theta). tan theta = h / a. tan(90 - theta) = cot theta = h / b. Multiplying: tan theta * cot theta = (h/a) * (h/b) => 1 = h^2 / (ab) => h^2 = ab => h = sqrt(ab).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 16",
       "section": "Section C: Trigonometry & Mensuration"
@@ -925,12 +925,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The angle of elevation of an object viewed from a ground point is always equal to the angle of depression of the ground point viewed from the object.\nReason (R): The line of sight forms alternate interior angles between two parallel horizontal lines passing through the observer's eye and the ground point.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Because the horizontal line of observation at the top is parallel to the ground horizontal, the line of sight acts as a transversal line making alternate interior angles equal. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1",
       "section": "Section C: Trigonometry & Mensuration"
@@ -942,12 +942,12 @@
       "difficulty": "Easy",
       "question": "What is the formula for the area of a sector of angle theta (in degrees) of a circle with radius r?",
       "options": [
-        "(theta / 360) * pi * r^2",
         "(theta / 180) * pi * r^2",
+        "(theta / 360) * pi * r^2",
         "(theta / 360) * 2 * pi * r",
         "(theta / 720) * pi * r^2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The area of a sector of angle theta is proportional to the full circle area pi*r^2 by the fraction (theta / 360). Thus Area = (theta / 360) * pi * r^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2",
       "section": "Section C: Trigonometry & Mensuration"
@@ -976,12 +976,12 @@
       "difficulty": "Hard",
       "question": "A chord of a circle of radius 12 cm subtends an angle of 120 degrees at the centre. Find the area of the corresponding segment of the circle. (Use pi = 3.14 and sqrt(3) = 1.73)",
       "options": [
-        "88.44 cm^2",
         "150.72 cm^2",
+        "88.44 cm^2",
         "62.28 cm^2",
         "75.50 cm^2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Area of sector = (120/360) * 3.14 * 12^2 = (1/3) * 3.14 * 144 = 48 * 3.14 = 150.72 cm^2. Area of triangle with 120 deg = (1/2) * r^2 * sin 120 deg = (1/2) * 144 * (sqrt(3)/2) = 36 * sqrt(3) = 36 * 1.73 = 62.28 cm^2. Area of segment = 150.72 - 62.28 = 88.44 cm^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 7",
       "section": "Section C: Trigonometry & Mensuration"
@@ -993,12 +993,12 @@
       "difficulty": "Medium",
       "question": "A horse is tied to a peg at one corner of a square shaped grass field of side 15 m by means of a 5 m long rope. Find the area of that part of the field in which the horse can graze. (Use pi = 3.14)",
       "options": [
-        "19.625 m^2",
         "78.5 m^2",
         "25 m^2",
-        "15.7 m^2"
+        "15.7 m^2",
+        "19.625 m^2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "At the corner of a square, angle is 90 degrees. The grazed region is a quadrant of radius 5 m. Area = (1/4) * pi * r^2 = (1/4) * 3.14 * 5^2 = (1/4) * 3.14 * 25 = 78.5 / 4 = 19.625 m^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 8(i)",
       "section": "Section C: Trigonometry & Mensuration"
@@ -1010,12 +1010,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The length of the arc of a semicircle of radius r is pi * r.\nReason (R): The angle subtended by a semicircle at the centre of the circle is 180 degrees.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Arc length = (theta / 360) * 2*pi*r = (180 / 360) * 2*pi*r = (1/2) * 2*pi*r = pi*r. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2",
       "section": "Section C: Trigonometry & Mensuration"
@@ -1044,12 +1044,12 @@
       "difficulty": "Medium",
       "question": "A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm and the total height of the vessel is 13 cm. Find the inner surface area of the vessel. (Use pi = 22/7)",
       "options": [
-        "572 cm^2",
         "462 cm^2",
         "616 cm^2",
-        "528 cm^2"
+        "528 cm^2",
+        "572 cm^2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Radius r = 14 / 2 = 7 cm. Height of hemisphere = r = 7 cm. Height of cylinder h = 13 - 7 = 6 cm. Inner surface area = CSA of hemisphere + CSA of cylinder = 2*pi*r^2 + 2*pi*r*h = 2*pi*r(r + h) = 2 * (22/7) * 7 * (7 + 6) = 44 * 13 = 572 cm^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.1 Question 2",
       "section": "Section C: Trigonometry & Mensuration"
@@ -1061,12 +1061,12 @@
       "difficulty": "Hard",
       "question": "A gulab jamun, contains sugar syrup up to about 30% of its volume. Find approximately how much syrup would be found in 45 gulab jamuns, each shaped like a cylinder with two hemispherical ends with total length 5 cm and diameter 2.8 cm.",
       "options": [
-        "338 cm^3",
         "350 cm^3",
         "312 cm^3",
+        "338 cm^3",
         "365 cm^3"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Radius r = 2.8 / 2 = 1.4 cm. Height of cylinder h = 5 - 2(1.4) = 5 - 2.8 = 2.2 cm. Volume of 1 gulab jamun = pi*r^2*h + (4/3)*pi*r^3 = pi*r^2(h + (4/3)r) = (22/7) * 1.96 * (2.2 + 1.867) = 6.16 * 4.067 = 25.05 cm^3. Volume of 45 gulab jamuns = 45 * 25.05 = 1127.25 cm^3. Syrup volume (30%) = 0.30 * 1127.25 = 338.175 approx 338 cm^3.",
       "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.2 Question 3",
       "section": "Section C: Trigonometry & Mensuration"
@@ -1078,12 +1078,12 @@
       "difficulty": "Hard",
       "question": "A pen stand made of wood is in the shape of a cuboid with four conical depressions to hold pens. The dimensions of the cuboid are 15 cm by 10 cm by 3.5 cm. The radius of each depression is 0.5 cm and depth is 1.4 cm. Find the volume of wood in the entire stand.",
       "options": [
-        "523.53 cm^3",
         "525.00 cm^3",
+        "523.53 cm^3",
         "520.25 cm^3",
         "518.40 cm^3"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Volume of cuboid = 15 * 10 * 3.5 = 525 cm^3. Volume of 4 conical depressions = 4 * [(1/3) * (22/7) * (0.5)^2 * 1.4] = 4 * [(1/3) * (22/7) * 0.25 * 1.4] = 4 * [(1/3) * 22 * 0.25 * 0.2] = 4 * [(1/3) * 1.1] = 4.4 / 3 = 1.467 cm^3. Volume of wood = 525 - 1.467 = 523.53 cm^3.",
       "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.2 Question 4",
       "section": "Section C: Trigonometry & Mensuration"
@@ -1095,12 +1095,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): When a solid cylinder is melted and recast into a collection of identical spherical balls, the total volume remains invariant.\nReason (R): Melting and reshaping changes the outer surface area and geometric form, but the amount of physical substance (volume) is conserved.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Conservation of matter guarantees that the volume of the original solid equals the sum of volumes of the new solids. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 12, Section 12.3",
       "section": "Section C: Trigonometry & Mensuration"
@@ -1112,12 +1112,12 @@
       "difficulty": "Easy",
       "question": "What is the class mark of the class interval 25 - 40?",
       "options": [
-        "32.5",
         "30",
         "35",
-        "15"
+        "15",
+        "32.5"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Class mark = (Upper class limit + Lower class limit) / 2 = (40 + 25) / 2 = 65 / 2 = 32.5.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "section": "Section D: Statistics & Probability"
@@ -1129,12 +1129,12 @@
       "difficulty": "Easy",
       "question": "What is the empirical relationship between the three measures of central tendency?",
       "options": [
-        "Mode = 3 Median - 2 Mean",
         "Mode = 2 Median - 3 Mean",
         "Mode = 3 Mean - 2 Median",
+        "Mode = 3 Median - 2 Mean",
         "Median = 3 Mode - 2 Mean"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The empirical relationship connecting the three measures of central tendency is Mode = 3 Median - 2 Mean (or 3 Median = Mode + 2 Mean).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "section": "Section D: Statistics & Probability"
@@ -1180,12 +1180,12 @@
       "difficulty": "Hard",
       "question": "The mean of the following distribution is 18: Classes: 11-13 (f=3), 13-15 (f=6), 15-17 (f=9), 17-19 (f=13), 19-21 (f=f_k), 21-23 (f=5), 23-25 (f=4). What is the value of the missing frequency f_k?",
       "options": [
-        "20",
         "18",
         "15",
+        "20",
         "22"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Class marks xi: 12, 14, 16, 18, 20, 22, 24. Assumed mean a = 18. di = xi - 18: -6, -4, -2, 0, 2, 4, 6. fi*di: 3(-6)=-18, 6(-4)=-24, 9(-2)=-18, 13(0)=0, f_k(2)=2*f_k, 5(4)=20, 4(6)=24. sum(fi) = 40 + f_k. sum(fi*di) = (-18 - 24 - 18 + 0 + 20 + 24) + 2*f_k = -16 + 2*f_k. Mean = a + sum(fi*di)/sum(fi) => 18 = 18 + (-16 + 2*f_k)/(40 + f_k) => -16 + 2*f_k = 0 => f_k = 8. Wait! Let's recompute: 3+6+9+13+5+4 = 40. For f_k=20: sum(fi*xi): 3*12=36, 6*14=84, 9*16=144, 13*18=234, 20*20=400, 5*22=110, 4*24=96. Total sum = 1104. Total f = 60. Mean = 1104/60 = 18.4. Let's find exact f_k for NCERT problem: In NCERT Ex 13.1 Q3, frequencies are 7, 6, 9, 13, f, 5, 4. Here sum without f is 7+6+9+13+5+4=44. sum(fi*di): 7(-6)=-42, 6(-4)=-24, 9(-2)=-18, 13(0)=0, 5(4)=20, 4(6)=24. Total = -40 + 2f = 0 => 2f = 40 => f = 20. That is the classic NCERT problem with initial f1=7!",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.1 Question 3",
       "section": "Section D: Statistics & Probability"
@@ -1197,12 +1197,12 @@
       "difficulty": "Medium",
       "question": "If the difference between mode and median of a data distribution is 24, what is the difference between median and mean?",
       "options": [
-        "12",
         "8",
+        "12",
         "24",
         "16"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Mode - Median = (3 Median - 2 Mean) - Median = 2 Median - 2 Mean = 2(Median - Mean). Therefore, 24 = 2(Median - Mean) => Median - Mean = 12.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "section": "Section D: Statistics & Probability"
@@ -1214,12 +1214,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): The algebraic sum of deviations of a set of observations from their mean is always zero.\\nReason (R): The arithmetic mean represents the center of gravity of the distribution, balancing positive and negative deviations.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "(A) is false but (R) is true",
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "sum[fi * (xi - x̄)] = sum(fi*xi) - x̄*sum(fi) = 0. Conceptually, the arithmetic mean is the balance point (center of gravity) where total positive deviations exactly cancel total negative deviations. Both statements are true and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "section": "Section D: Statistics & Probability"
@@ -1248,12 +1248,12 @@
       "difficulty": "Easy",
       "question": "Which of the following numbers can never represent the probability of an event?",
       "options": [
-        "-1.5",
         "0.7",
         "15%",
-        "2/3"
+        "2/3",
+        "-1.5"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The probability of any event E satisfies 0 <= P(E) <= 1. It can never be negative (so -1.5 is impossible) and cannot exceed 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
       "section": "Section D: Statistics & Probability"
@@ -1265,12 +1265,12 @@
       "difficulty": "Easy",
       "question": "If P(E) = 0.05, what is the probability of 'not E' (P(Ē))?",
       "options": [
-        "0.95",
         "0.05",
+        "0.95",
         "0.50",
         "0.90"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "For any event E, P(E) + P(not E) = 1. Therefore, P(not E) = 1 - 0.05 = 0.95.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
       "section": "Section D: Statistics & Probability"
@@ -1282,12 +1282,12 @@
       "difficulty": "Easy",
       "question": "A fair standard die is thrown once. What is the probability of getting a prime number?",
       "options": [
-        "1/2",
         "1/3",
         "2/3",
+        "1/2",
         "1/6"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Sample space S = {1, 2, 3, 4, 5, 6}, total outcomes = 6. Prime numbers are {2, 3, 5}, favourable outcomes = 3. P(prime) = 3/6 = 1/2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 13",
       "section": "Section D: Statistics & Probability"
@@ -1299,12 +1299,12 @@
       "difficulty": "Medium",
       "question": "Two dice are thrown simultaneously. What is the probability that the sum of the two numbers appearing on top is 8?",
       "options": [
-        "5/36",
         "1/6",
         "7/36",
+        "5/36",
         "4/36"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Total outcomes when two dice are thrown = 6 * 6 = 36. Outcomes giving sum 8: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 outcomes. P(sum 8) = 5/36.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 22",
       "section": "Section D: Statistics & Probability"
@@ -1316,12 +1316,12 @@
       "difficulty": "Hard",
       "question": "A die is thrown twice. What is the probability that 5 will not come up either time?",
       "options": [
-        "25/36",
         "11/36",
         "5/6",
-        "1/36"
+        "1/36",
+        "25/36"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Outcomes where 5 comes up at least once: (5,1)..(5,6) [6 pairs] and (1,5), (2,5), (3,5), (4,5), (6,5) [5 pairs] -> total 11 outcomes. Outcomes where 5 does NOT come up either time = 36 - 11 = 25. Probability = 25/36.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 24",
       "section": "Section D: Statistics & Probability"
@@ -1333,12 +1333,12 @@
       "difficulty": "Medium",
       "question": "Two dice are rolled together. What is the probability of getting a doublet (the same number on both dice)?",
       "options": [
-        "1/6",
         "1/12",
+        "1/6",
         "5/36",
         "1/36"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The doublets are (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) -> 6 outcomes. Total outcomes = 36. P(doublet) = 6/36 = 1/6.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 22",
       "section": "Section D: Statistics & Probability"

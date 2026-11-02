@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "A race car travels around a flat circular track of radius 200 meters at a constant speed of 40 m/s. What is the magnitude of the car's centripetal acceleration?",
       "options": [
-        "8.0 m/s^2",
         "0.2 m/s^2",
         "16.0 m/s^2",
-        "4.0 m/s^2"
+        "4.0 m/s^2",
+        "8.0 m/s^2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Centripetal acceleration a_c = v^2 / r = (40 m/s)^2 / 200 m = 1600 / 200 = 8.0 m/s^2.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.1 Centripetal Acceleration and Centripetal Force"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Medium",
       "question": "A car rounds an unbanked circular curve of radius r on a level road with static coefficient of friction μs. What is the maximum speed the car can achieve without skidding outward?",
       "options": [
-        "√(μs * g * r)",
         "μs * g * r",
         "√(g * r / μs)",
+        "√(μs * g * r)",
         "2 * √(μs * g * r)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Centripetal force is provided entirely by static friction: f_s,max = m*v^2 / r → μs * m * g = m * v^2 / r → v^2 = μs * g * r → v_max = √(μs * g * r).",
       "citation": "College Board AP® Physics 1 CED — Topic 3.2 Centripetal Force and Friction"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Easy",
       "question": "If the distance between two spherical masses in deep space is doubled, what happens to the magnitude of the gravitational attraction between them?",
       "options": [
-        "It decreases to 1/4 of its original value",
         "It decreases to 1/2 of its original value",
+        "It decreases to 1/4 of its original value",
         "It remains constant",
         "It quadruples"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Newton's Law of Universal Gravitation: F_g = G * m1 * m2 / r^2. Since gravitational force is inversely proportional to the square of the distance (1/r^2), doubling r multiplies the force by 1/(2^2) = 1/4.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.3 Gravitational Fields and Universal Gravitation"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Easy",
       "question": "A 50 kg trunk slides horizontally across a level floor for 8 meters. What is the work done by the normal force on the trunk?",
       "options": [
-        "0 J",
         "3,920 J",
+        "0 J",
         "400 J",
         "-3,920 J"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The normal force acts vertically upward (θ = 90° relative to horizontal displacement). Work W = F_N * d * cos(90°) = 0 J. Forces perpendicular to displacement do zero work.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.1 Work"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Medium",
       "question": "A 2 kg cart has initial kinetic energy of 25 J. A net force does 75 J of work on the cart. What is the final speed of the cart?",
       "options": [
-        "10 m/s",
         "5 m/s",
         "7.07 m/s",
-        "14.1 m/s"
+        "14.1 m/s",
+        "10 m/s"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Work-Energy Theorem: W_net = ΔK = K_f - K_i → 75 J = K_f - 25 J → K_f = 100 J. Kinetic energy K_f = (1/2) * m * v_f^2 → 100 = (1/2)(2) * v_f^2 = v_f^2 → v_f = √100 = 10 m/s.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.2 Work-Energy Theorem"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Medium",
       "question": "A spring with spring constant k = 400 N/m is compressed by 0.15 m from its equilibrium length. How much elastic potential energy is stored in the spring?",
       "options": [
-        "4.5 J",
         "9.0 J",
         "30.0 J",
+        "4.5 J",
         "60.0 J"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Elastic potential energy U_s = (1/2) * k * x^2 = 0.5 * 400 N/m * (0.15 m)^2 = 200 * 0.0225 = 4.5 J.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.2 Potential Energy and Conservation"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Medium",
       "question": "A roller coaster cart of mass m starts from rest at the top of a hill of height h = 45 meters. Neglecting friction and air resistance, what is the speed of the cart at the bottom of the hill? (Use g = 10 m/s^2)",
       "options": [
-        "30 m/s",
         "45 m/s",
         "21.2 m/s",
+        "30 m/s",
         "15 m/s"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Conservation of mechanical energy: mgh = (1/2)mv^2 → v = √(2gh) = √(2 * 10 m/s^2 * 45 m) = √900 = 30 m/s.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.3 Conservation of Energy"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Hard",
       "question": "An engineer designs an icy (frictionless) road turn with radius r = 100 m banked at angle θ = 45°. At what design speed can cars safely negotiate the curve? (Use g = 9.8 m/s^2, tan 45° = 1.0)",
       "options": [
-        "31.3 m/s",
         "980 m/s",
+        "31.3 m/s",
         "22.1 m/s",
         "14.0 m/s"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "On a frictionless banked turn: F_N * sin(θ) = mv^2/r and F_N * cos(θ) = mg. Dividing yields tan(θ) = v^2 / (rg) → v = √(r * g * tan(θ)) = √(100 * 9.8 * 1) = √980 ≈ 31.3 m/s.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.2 Banked Curves"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Medium",
       "question": "A force parallel to the x-axis acts on a particle. The force increases linearly from F = 0 N at x = 0 m to F = 20 N at x = 4 m. How much work is done on the particle between x = 0 and x = 4 m?",
       "options": [
-        "40 J",
         "80 J",
         "20 J",
-        "10 J"
+        "10 J",
+        "40 J"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Work is the area under the F vs x graph. The area is a triangle with base 4 m and height 20 N: Area = (1/2) * base * height = (1/2) * 4 m * 20 N = 40 J.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.1 Work Calculated from Force-Displacement Graphs"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Hard",
       "question": "A bucket of water of mass m is swung in a vertical circle of radius R. What is the minimum speed v_top at the highest point of the loop required for the water to stay in the bucket without falling out?",
       "options": [
-        "√(g * R)",
         "√(2 * g * R)",
         "g * R",
+        "√(g * R)",
         "2 * √(g * R)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "At the top of the vertical loop: F_N + mg = m * v^2 / R. For the water to barely stay in contact, the normal force F_N approaches 0. Thus mg = m * v_top^2 / R → v_top = √(g * R).",
       "citation": "College Board AP® Physics 1 CED — Topic 3.2 Vertical Circular Motion"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Medium",
       "question": "Earth has radius R_E. At an altitude h = R_E above Earth's surface (distance 2R_E from Earth's center), what is the acceleration due to gravity compared to surface gravity g?",
       "options": [
-        "g / 4",
         "g / 2",
+        "g / 4",
         "g / 8",
         "g"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Gravitational acceleration g(r) = G * M_E / r^2. At distance r = 2R_E, g(2R_E) = G * M_E / (2R_E)^2 = (G * M_E / R_E^2) / 4 = g / 4.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.3 Gravitational Fields"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Hard",
       "question": "A 2 kg block slides down a rough incline from a height of 5 meters. Its speed at the bottom is 8 m/s. How much mechanical energy was dissipated into thermal energy by friction? (Use g = 10 m/s^2)",
       "options": [
-        "36 J",
         "64 J",
         "100 J",
-        "18 J"
+        "18 J",
+        "36 J"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Initial mechanical energy E_i = mgh = 2 kg * 10 m/s^2 * 5 m = 100 J. Final mechanical energy E_f = (1/2)mv^2 = 0.5 * 2 kg * (8 m/s)^2 = 64 J. Energy dissipated = E_i - E_f = 100 J - 64 J = 36 J.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.3 Conservation of Energy with Non-Conservative Forces"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Medium",
       "question": "A 0.5 kg ball is compressed against a horizontal spring (k = 200 N/m) by 0.2 m on a frictionless tabletop. When released, what is the speed of the ball as it leaves the spring?",
       "options": [
-        "4.0 m/s",
         "2.0 m/s",
         "8.0 m/s",
+        "4.0 m/s",
         "1.41 m/s"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Conservation of energy: (1/2)kx^2 = (1/2)mv^2 → kx^2 = mv^2 → v = x * √(k / m) = 0.2 m * √(200 N/m / 0.5 kg) = 0.2 * √400 = 0.2 * 20 = 4.0 m/s.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.3 Conservation of Energy"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Hard",
       "question": "A conical pendulum of length L and mass m sweeps out a horizontal circle at angle θ with the vertical. What provides the centripetal force keeping the mass in horizontal circular motion?",
       "options": [
-        "The horizontal component of the string tension, T * sin(θ)",
         "The vertical component of the string tension, T * cos(θ)",
         "The gravitational force, mg",
-        "The centrifugal force acting outward"
+        "The centrifugal force acting outward",
+        "The horizontal component of the string tension, T * sin(θ)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The string tension T has a vertical component T*cos(θ) which balances gravity mg, and a horizontal component T*sin(θ) pointing toward the center of the circular orbit, which provides the centripetal force (T*sin(θ) = m*v^2 / r).",
       "citation": "College Board AP® Physics 1 CED — Topic 3.2 Circular Motion Dynamics"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Hard",
       "question": "A car cruises at constant speed v against aerodynamic drag force F_drag = c*v^2. If the driver doubles the cruising speed to 2v, by what factor must the engine power output increase?",
       "options": [
-        "8",
         "4",
+        "8",
         "2",
         "16"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Power P = F * v. With aerodynamic drag F = c*v^2, power required is P = (c*v^2) * v = c*v^3. If velocity is doubled (2v), power required becomes c*(2v)^3 = 8 * c*v^3, requiring an 8-fold increase in power.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.4 Power and Velocity Dependencies"
     }

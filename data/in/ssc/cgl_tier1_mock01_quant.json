@@ -10,12 +10,12 @@
       "marks": 2,
       "question": "If the price of petrol increases by 25%, by what percentage must a car owner reduce petrol consumption so that their monthly expenditure remains unchanged?",
       "options": [
-        "20%",
         "25%",
         "16.67%",
-        "15%"
+        "15%",
+        "20%"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Formula: Reduction % = [r / (100 + r)] × 100%.\nHere r = 25%.\nReduction = [25 / (100 + 25)] × 100% = [25 / 125] × 100% = (1/5) × 100% = 20%.",
       "citation": "Quantitative Aptitude — Percentage Applications"
     },
@@ -46,12 +46,12 @@
       "marks": 2,
       "question": "The difference between compound interest (compounded annually) and simple interest on a certain principal sum at 10% per annum for 2 years is ₹144. Find the principal sum.",
       "options": [
-        "₹14,400",
         "₹12,000",
         "₹15,000",
+        "₹14,400",
         "₹16,000"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Formula for 2-year difference: D = P(r / 100)².\n144 = P × (10 / 100)²\n144 = P × (1 / 10)² = P / 100\nP = 144 × 100 = ₹14,400.",
       "citation": "Quantitative Aptitude — Interest Differences"
     },
@@ -64,12 +64,12 @@
       "marks": 2,
       "question": "What is the mean proportional between 9 and 64?",
       "options": [
-        "24",
         "21",
+        "24",
         "27",
         "36"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The mean proportional (x) between a and b is given by x = √(a × b).\nx = √(9 × 64) = √9 × √64 = 3 × 8 = 24.",
       "citation": "Quantitative Aptitude — Proportions"
     },
@@ -82,12 +82,12 @@
       "marks": 2,
       "question": "A can complete a piece of work in 12 days, and B can complete the same work in 18 days. If they work together, in how many days will the entire work be completed?",
       "options": [
-        "7.2 days (36/5 days)",
         "8 days",
         "6.5 days",
-        "9 days"
+        "9 days",
+        "7.2 days (36/5 days)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "LCM of 12 and 18 = 36 units (total work).\nA's efficiency = 36 / 12 = 3 units/day.\nB's efficiency = 36 / 18 = 2 units/day.\nCombined efficiency = 3 + 2 = 5 units/day.\nTime taken = 36 / 5 = 7.2 days (7 days and 4.8 hours).",
       "citation": "Quantitative Aptitude — Time and Work Efficiency"
     },
@@ -118,12 +118,12 @@
       "marks": 2,
       "question": "A boat can travel 36 km downstream in 3 hours and 24 km upstream in 4 hours. What is the speed of the stream?",
       "options": [
-        "3 km/h",
         "6 km/h",
+        "3 km/h",
         "9 km/h",
         "2 km/h"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Downstream speed (v + u) = 36 / 3 = 12 km/h.\nUpstream speed (v - u) = 24 / 4 = 6 km/h.\nSpeed of stream (u) = (Downstream - Upstream) / 2 = (12 - 6) / 2 = 6 / 2 = 3 km/h.",
       "citation": "Quantitative Aptitude — Boats & Streams"
     },
@@ -136,12 +136,12 @@
       "marks": 2,
       "question": "The average age of 24 students in a classroom is 15 years. If the teacher's age is included, the overall average increases by 1 year. What is the age of the teacher?",
       "options": [
-        "40 years",
         "38 years",
         "39 years",
+        "40 years",
         "42 years"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Initial total age = 24 × 15 = 360 years.\nNew total members = 25.\nNew average age = 15 + 1 = 16 years.\nNew total age = 25 × 16 = 400 years.\nTeacher's age = 400 - 360 = 40 years.\nDirect formula: New Member Age = Old Average + (New Count × Increase) = 15 + (25 × 1) = 40 years.",
       "citation": "Quantitative Aptitude — Average Deviation"
     },
@@ -172,12 +172,12 @@
       "marks": 2,
       "question": "If x + (1/x) = 5, what is the value of x² + (1/x²)?",
       "options": [
-        "23",
         "25",
         "27",
+        "23",
         "21"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Squaring both sides:\n[x + (1/x)]² = 5²\nx² + (1/x²) + 2·x·(1/x) = 25\nx² + (1/x²) + 2 = 25\nx² + (1/x²) = 25 - 2 = 23.",
       "citation": "Quantitative Aptitude — Algebraic Identities"
     },
@@ -190,12 +190,12 @@
       "marks": 2,
       "question": "If a + b + c = 0, what is the value of (a³ + b³ + c³) / (3abc)? (Given a, b, c ≠ 0)",
       "options": [
-        "1",
         "3",
+        "1",
         "0",
         "-1"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Standard algebraic identity:\na³ + b³ + c³ - 3abc = (a + b + c)(a² + b² + c² - ab - bc - ca).\nWhen a + b + c = 0, the right-hand side becomes 0, so a³ + b³ + c³ = 3abc.\nTherefore, (a³ + b³ + c³) / (3abc) = 3abc / 3abc = 1.",
       "citation": "Quantitative Aptitude — Symmetric Polynomials"
     },
@@ -208,12 +208,12 @@
       "marks": 2,
       "question": "What is the numerical value of (1 + tan θ + sec θ)(1 + cot θ - cosec θ)?",
       "options": [
-        "2",
         "1",
         "0",
-        "-1"
+        "-1",
+        "2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Substitute θ = 45°:\ntan 45° = 1, sec 45° = √2\ncot 45° = 1, cosec 45° = √2\nExpression = (1 + 1 + √2)(1 + 1 - √2) = (2 + √2)(2 - √2) = 2² - (√2)² = 4 - 2 = 2.\nThis holds universally for all valid values of θ.",
       "citation": "Quantitative Aptitude — Trigonometric Identities"
     },
@@ -244,12 +244,12 @@
       "marks": 2,
       "question": "Two concentric circles have radii of 13 cm and 5 cm. What is the length of the chord of the larger circle that touches the smaller circle as a tangent?",
       "options": [
-        "24 cm",
         "20 cm",
+        "24 cm",
         "26 cm",
         "18 cm"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The radius to the point of contact is perpendicular to the tangent chord and bisects it.\nIn the right-angled triangle formed by the radius of the outer circle (hypotenuse R = 13 cm), the radius of the inner circle (r = 5 cm), and half the chord (x):\nx² + r² = R²\nx² + 5² = 13² => x² + 25 = 169 => x² = 144 => x = 12 cm.\nTotal length of chord = 2x = 2 × 12 = 24 cm.",
       "citation": "Quantitative Aptitude — Circles & Pythogorean Triplets"
     },
@@ -262,12 +262,12 @@
       "marks": 2,
       "question": "In a right-angled triangle with sides 6 cm, 8 cm, and 10 cm, what is the length of the inradius (r)?",
       "options": [
-        "2 cm",
         "3 cm",
         "2.5 cm",
+        "2 cm",
         "1.5 cm"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "For any right-angled triangle with perpendicular legs a and b and hypotenuse c:\nInradius r = (a + b - c) / 2 = (6 + 8 - 10) / 2 = (14 - 10) / 2 = 4 / 2 = 2 cm.",
       "citation": "Quantitative Aptitude — Right Triangle Inradius Formula"
     },
@@ -280,12 +280,12 @@
       "marks": 2,
       "question": "The perimeter of a circular field is 880 m. What is the radius of the field? (Take π = 22/7)",
       "options": [
-        "140 m",
         "70 m",
         "280 m",
-        "105 m"
+        "105 m",
+        "140 m"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Circumference = 2πr = 880 m\n2 × (22 / 7) × r = 880\n(44 / 7) × r = 880\nr = (880 × 7) / 44 = 20 × 7 = 140 m.",
       "citation": "Quantitative Aptitude — Circles Mensuration"
     },
@@ -316,12 +316,12 @@
       "marks": 2,
       "question": "What is the Total Surface Area (TSA) of a solid hemisphere of radius 7 cm? (Take π = 22/7)",
       "options": [
-        "462 cm²",
         "308 cm²",
+        "462 cm²",
         "616 cm²",
         "154 cm²"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Total surface area of a solid hemisphere includes curved surface + flat circular base:\nTSA = 2πr² + πr² = 3πr²\nTSA = 3 × (22 / 7) × 7² = 3 × 22 × 7 = 66 × 7 = 462 cm².",
       "citation": "Quantitative Aptitude — Surface Areas of Solids"
     },
@@ -334,12 +334,12 @@
       "marks": 2,
       "question": "The HCF and LCM of two numbers are 12 and 240 respectively. If one of the numbers is 48, find the other number.",
       "options": [
-        "60",
         "40",
         "80",
+        "60",
         "72"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Property: Product of two numbers = HCF × LCM\n48 × Other Number = 12 × 240\nOther Number = (12 × 240) / 48 = 240 / 4 = 60.",
       "citation": "Quantitative Aptitude — HCF & LCM Properties"
     },
@@ -352,12 +352,12 @@
       "marks": 2,
       "question": "Pipe A can fill a tank in 8 hours, and Pipe B can empty the full tank in 12 hours. If both pipes are opened together, how long will it take to fill the empty tank?",
       "options": [
-        "24 hours",
         "20 hours",
         "16 hours",
-        "18 hours"
+        "18 hours",
+        "24 hours"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Let tank capacity = LCM(8, 12) = 24 units.\nInlet efficiency of Pipe A = +24 / 8 = +3 units/hour.\nOutlet efficiency of Pipe B = -24 / 12 = -2 units/hour.\nNet filling rate = +3 - 2 = +1 unit/hour.\nTime required = 24 / 1 = 24 hours.",
       "citation": "Quantitative Aptitude — Pipes & Cisterns"
     },
@@ -370,12 +370,12 @@
       "marks": 2,
       "question": "Five years ago, the ratio of the ages of Father and Son was 5 : 1. Five years hence, the ratio will become 5 : 2. What is the current age of the father?",
       "options": [
-        "35 years",
         "40 years",
+        "35 years",
         "45 years",
         "30 years"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Let ages 5 years ago be 5x and 1x.\nCurrent ages = 5x + 5 and x + 5.\nAges 5 years hence = 5x + 10 and x + 10.\nGiven: (5x + 10) / (x + 10) = 5 / 2\n2(5x + 10) = 5(x + 10)\n10x + 20 = 5x + 50 => 5x = 30 => x = 6.\nFather's current age = 5x + 5 = 5(6) + 5 = 30 + 5 = 35 years.",
       "citation": "Quantitative Aptitude — Age Problems"
     },
@@ -388,12 +388,12 @@
       "marks": 2,
       "question": "What is the distance of the point P(-6, 8) from the origin (0, 0)?",
       "options": [
-        "10 units",
         "12 units",
         "14 units",
-        "8 units"
+        "8 units",
+        "10 units"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Distance formula from origin: d = √(x² + y²)\nd = √((-6)² + 8²) = √(36 + 64) = √100 = 10 units.",
       "citation": "Quantitative Aptitude — Coordinate Distance Formula"
     },
@@ -424,12 +424,12 @@
       "marks": 2,
       "question": "In a family's monthly budget pie chart, 30% of total expenditure is spent on Food. What central angle does the sector representing Food subtend at the center of the pie chart?",
       "options": [
-        "108°",
         "90°",
         "120°",
+        "108°",
         "72°"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Total central angle of a circle = 360°.\nCentral angle for 30% = (30 / 100) × 360° = 0.30 × 360° = 108°.",
       "citation": "Quantitative Aptitude — Pie Chart Calculations"
     },
@@ -442,12 +442,12 @@
       "marks": 2,
       "question": "Simplify the expression: (256)^(0.16) × (256)^(0.09) = ?",
       "options": [
-        "4",
         "16",
         "2",
+        "4",
         "8"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Using exponent rule a^m × a^n = a^(m+n):\n(256)^(0.16 + 0.09) = (256)^(0.25)\nSince 0.25 = 1/4:\n(256)^(1/4) = (4^4)^(1/4) = 4.",
       "citation": "Quantitative Aptitude — Indices & Powers"
     }

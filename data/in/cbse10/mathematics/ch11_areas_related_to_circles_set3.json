@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The length of the arc of a semicircle of radius r is pi * r.\nReason (R): The angle subtended by a semicircle at the centre of the circle is 180 degrees.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Arc length = (theta / 360) * 2*pi*r = (180 / 360) * 2*pi*r = (1/2) * 2*pi*r = pi*r. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The area of a minor segment is always equal to the area of the corresponding sector minus the area of the corresponding triangle.\nReason (R): A circular segment is defined as the region bounded by a chord and its corresponding intercepted arc.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Geometrically, decomposing the sector along the chord yields the triangle and the segment. Thus Area(Segment) = Area(Sector) - Area(Triangle). Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): The area of a sector of a circle can be calculated using the formula A = (1/2) * l * r, where l is arc length and r is radius.\nReason (R): A circular sector of radius r and arc length l can be approximated as a triangle with base l and altitude r.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Since l = (theta/360)*2*pi*r, (1/2)*l*r = (1/2)*((theta/360)*2*pi*r)*r = (theta/360)*pi*r^2. Analytically this mirrors a triangle of base l and height r. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): If the radius of a circle is doubled, its area is quadrupled.\nReason (R): The area of a circle is directly proportional to the square of its radius (A = pi * r^2).",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "A' = pi * (2r)^2 = 4 * pi * r^2 = 4A. Quadrupling occurs because area scales with the square of the radius. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
     },
@@ -119,12 +119,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): In 1 minute, the minute hand of a clock rotates through an angle of 6 degrees.\nReason (R): The minute hand completes one full revolution (360 degrees) in 60 minutes, so its angular rate is 360 / 60 = 6 degrees per minute.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "360 deg / 60 min = 6 deg/min. Both (A) and (R) are true and (R) directly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): In 1 minute, the hour hand of a clock rotates through an angle of 0.5 degrees.\nReason (R): The hour hand completes one full rotation (360 degrees) in 12 hours (720 minutes), so its rate is 360 / 720 = 0.5 degrees per minute.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "12 hours = 720 minutes. 360 deg / 720 min = 0.5 deg/min. Both statements are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): If the angle of a minor sector of a circle is 75 degrees, the angle of the corresponding major sector is 285 degrees.\nReason (R): The sum of the angles of the minor sector and the major sector at the centre of a circle is 360 degrees.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Major sector angle = 360 - 75 = 285 degrees. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Medium",
       "question": "Case Study 1 (Continued): What is the total area of farmland irrigated by this 28-metre arm sweeping through 90 degrees? (Use pi = 22/7)",
       "options": [
-        "616 m^2",
         "1232 m^2",
         "308 m^2",
-        "2464 m^2"
+        "2464 m^2",
+        "616 m^2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Area = (1/4) * pi * r^2 = (1/4) * (22/7) * 28 * 28 = (1/4) * 22 * 4 * 28 = 22 * 28 = 616 m^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Easy",
       "question": "Case Study 1 (Continued): What distance does the outermost sprinkler nozzle travel along the arc during one full sweep from one boundary to the other? (Use pi = 22/7)",
       "options": [
-        "44 metres",
         "88 metres",
         "22 metres",
-        "56 metres"
+        "56 metres",
+        "44 metres"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Arc length = (90/360) * 2 * (22/7) * 28 = (1/4) * 2 * 22 * 4 = 44 metres.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Medium",
       "question": "Case Study 2 (Navigational Lighting): A harbour lighthouse sweeps a searchlight beam through an angle of 60 degrees. The beam effectively reaches ships up to a distance of 14 nautical miles. What is the sea surface area swept by this lighthouse beam? (Use pi = 22/7)",
       "options": [
-        "308/3 sq nautical miles (~102.67 sq NM)",
         "616/3 sq nautical miles",
         "154 sq nautical miles",
+        "308/3 sq nautical miles (~102.67 sq NM)",
         "308 sq nautical miles"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Area = (60/360) * (22/7) * 14 * 14 = (1/6) * (22/7) * 196 = (1/6) * 616 = 308/3 sq nautical miles (approx 102.67 sq NM).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Easy",
       "question": "Case Study 2 (Continued): What is the length of the outer circular horizon arc illuminated by the 14-nautical-mile beacon at 60 degrees? (Use pi = 22/7)",
       "options": [
-        "44/3 nautical miles (~14.67 NM)",
         "22 nautical miles",
+        "44/3 nautical miles (~14.67 NM)",
         "88/3 nautical miles",
         "14 nautical miles"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Arc length = (60/360) * 2 * (22/7) * 14 = (1/6) * 88 = 44/3 nautical miles (approx 14.67 NM).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Medium",
       "question": "Case Study 3 (Continued): What is the area of glass in each of the 12 sectors of radius 140 cm? (Use pi = 22/7)",
       "options": [
-        "15400/3 cm^2 (~5133.33 cm^2)",
         "15400 cm^2",
         "30800/3 cm^2",
-        "7700 cm^2"
+        "7700 cm^2",
+        "15400/3 cm^2 (~5133.33 cm^2)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Area of each sector = (30/360) * (22/7) * 140 * 140 = (1/12) * 22 * 20 * 140 = (1/12) * 61600 = 15400 / 3 cm^2 (approx 0.513 m^2).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Easy",
       "question": "Case Study 4 (Heritage Conservation): An ancient square floor mosaic has side length 20 cm. A circular central medallion of maximum possible size is inscribed inside the square tile. What is the radius of this inscribed circular medallion?",
       "options": [
-        "10 cm",
         "20 cm",
+        "10 cm",
         "10 sqrt(2) cm",
         "5 cm"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The diameter of the inscribed circle equals the side length of the square = 20 cm. Radius = 20 / 2 = 10 cm.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Medium",
       "question": "Case Study 4 (Continued): What is the total area of the four corner regions outside the inscribed circular medallion but inside the square tile? (Use pi = 3.14)",
       "options": [
-        "86 cm^2",
         "100 cm^2",
         "72 cm^2",
+        "86 cm^2",
         "94 cm^2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Area of square tile = 20 * 20 = 400 cm^2. Area of inscribed circle = pi * r^2 = 3.14 * 10^2 = 314 cm^2. Total area of four corner regions = 400 - 314 = 86 cm^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     }

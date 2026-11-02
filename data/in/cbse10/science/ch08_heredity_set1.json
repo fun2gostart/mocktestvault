@@ -7,11 +7,11 @@
     "question": "In a classical Mendelian monohybrid cross between a homozygous pure tall pea plant (TT) and a homozygous pure short dwarf plant (tt), what is the phenotypic ratio obtained in the F2 generation?",
     "options": [
       "1 Tall : 1 Short",
-      "3 Tall : 1 Short",
       "9 Tall : 3 Short : 3 Wrinkled : 1 Round",
+      "3 Tall : 1 Short",
       "All Tall (100%)"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "F1 generation (Tt) self-pollinates (Tt × Tt). The resulting F2 offspring are TT (Tall), Tt (Tall), Tt (Tall), and tt (Short), yielding a phenotypic ratio of 3 Tall : 1 Short (genotypic ratio 1 : 2 : 1).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2"
   },
@@ -23,11 +23,11 @@
     "question": "In human beings, how is the biological sex of a newborn child genetically determined?",
     "options": [
       "Entirely by the mother's X chromosome",
-      "By whether the father's fertilizing sperm cell carries an X or a Y chromosome",
       "By the ambient temperature during incubation",
-      "By the nutritional health of the placenta"
+      "By the nutritional health of the placenta",
+      "By whether the father's fertilizing sperm cell carries an X or a Y chromosome"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Females produce eggs containing only X chromosomes (22 + X). Males produce two types of sperms in equal 50:50 ratio: (22 + X) and (22 + Y). Fertilization by an X-sperm gives a female child (XX), and by a Y-sperm gives a male child (XY).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4"
   },
@@ -54,12 +54,12 @@
     "difficulty": "Easy",
     "question": "How many total chromosomes and how many pairs of autosomes are present in the somatic cells of a normal human being?",
     "options": [
-      "23 chromosomes; 11 pairs autosomes",
       "46 chromosomes (23 pairs); 22 pairs autosomes",
+      "23 chromosomes; 11 pairs autosomes",
       "48 chromosomes; 24 pairs autosomes",
       "44 chromosomes; 21 pairs autosomes"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Human cells have 46 chromosomes (23 pairs). Of these, 22 pairs are autosomes (identical in males and females), and 1 pair is sex chromosomes (XX in females, XY in males).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4"
   },
@@ -86,12 +86,12 @@
     "difficulty": "Easy",
     "question": "In human populations, the lowest part of the ear (earlobe) is closely attached to the side of the head in some people, and free in others. Which of these is an inherited trait?",
     "options": [
-      "Both free and attached earlobes are inherited traits; free earlobe is dominant over attached earlobe",
       "Only attached earlobe is genetic; free earlobe is caused by injury",
       "Earlobe attachment depends entirely on atmospheric pressure",
-      "Neither is inherited; both are learned behaviors"
+      "Neither is inherited; both are learned behaviors",
+      "Both free and attached earlobes are inherited traits; free earlobe is dominant over attached earlobe"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The lowest part of the ear, called the earlobe, is closely attached to the side of the head in some of us, and not in others. Free and attached earlobes are two types of inherited traits found in human populations, with free earlobe being dominant.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2"
   },
@@ -118,12 +118,12 @@
     "difficulty": "Medium",
     "question": "What is the precise genotypic ratio in the F2 generation of a monohybrid cross between heterozygous tall pea plants (Tt × Tt)?",
     "options": [
-      "1 TT : 2 Tt : 1 tt (1 : 2 : 1)",
       "3 TT : 1 tt",
       "1 TT : 1 tt",
+      "1 TT : 2 Tt : 1 tt (1 : 2 : 1)",
       "9 TT : 3 Tt : 3 tt : 1 t"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "When Tt self-pollinates, the genotypic combinations are 1 homozygous dominant (TT), 2 heterozygous dominant (Tt), and 1 homozygous recessive (tt), yielding the ratio 1 : 2 : 1.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2"
   },
@@ -134,12 +134,12 @@
     "difficulty": "Easy",
     "question": "In modern molecular genetics, what is a gene?",
     "options": [
-      "A specific section of cellular DNA that provides biochemical instructions for synthesizing a particular protein",
       "A complete cell membrane unit",
+      "A specific section of cellular DNA that provides biochemical instructions for synthesizing a particular protein",
       "A type of carbohydrate used for energy storage",
       "A red blood cell protein that carries oxygen"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Cellular DNA is the information source for making proteins in the cell. A section of DNA that provides information for one protein is called the gene for that protein.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   },
@@ -150,12 +150,12 @@
     "difficulty": "Hard",
     "question": "How do genes control the physical trait of tallness in a pea plant?",
     "options": [
-      "The gene provides instructions for an enzyme; if the enzyme functions efficiently, ample growth hormone is synthesized, producing a tall plant",
       "The gene physically pulls the stem upward during the night",
       "The gene absorbs nitrogen directly from air",
+      "The gene provides instructions for an enzyme; if the enzyme functions efficiently, ample growth hormone is synthesized, producing a tall plant",
       "The gene converts all water inside xylem into solid wood"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Plant height depends on the amount of a particular plant hormone. The amount of the plant hormone made will depend on the efficiency of the process for making it. If an enzyme that is important for this process works efficiently, a lot of hormone will be made, and the plant will be tall.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   },
@@ -166,12 +166,12 @@
     "difficulty": "Medium",
     "question": "In some animals like certain turtles and lizards, sex determination is NOT genetic. How is the sex of the offspring determined in these reptiles?",
     "options": [
-      "By the ambient temperature at which fertilized eggs are incubated",
       "By the salinity of the ocean water",
+      "By the ambient temperature at which fertilized eggs are incubated",
       "By the phase of the moon during mating",
       "By the amount of sunlight received by adult females"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "In some animals, the temperature at which fertilised eggs are kept determines whether the animals developing in the eggs will be male or female (temperature-dependent sex determination).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4"
   },
@@ -182,12 +182,12 @@
     "difficulty": "Easy",
     "question": "In snails, individuals can alter their sex during their lifetime. What does this biological fact demonstrate about sex determination in snails?",
     "options": [
-      "Sex is not genetically determined in snails",
       "Snails have 100 pairs of sex chromosomes",
       "Snails do not reproduce sexually",
-      "Male snails are sterile clones"
+      "Male snails are sterile clones",
+      "Sex is not genetically determined in snails"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "In other animals, such as snails, individuals can change sex, indicating that sex is not genetically determined.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4"
   },
@@ -214,12 +214,12 @@
     "difficulty": "Easy",
     "question": "What is the exact theoretical probability that a human pregnancy will result in a female baby rather than a male baby?",
     "options": [
-      "50% (1 in 2)",
       "75% (3 in 4)",
       "25% (1 in 4)",
+      "50% (1 in 2)",
       "100% (dependent on maternal age)"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "All children will inherit an X chromosome from their mother regardless of whether they are boys or girls. Thus, half the children will inherit an X chromosome from their father and become girls, and half will inherit a Y chromosome and become boys. The probability is exactly 50% (1/2).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4"
   },
@@ -230,12 +230,12 @@
     "difficulty": "Hard",
     "question": "Why must sexually reproducing organisms produce haploid gametes containing only half the normal number of chromosomes (n)?",
     "options": [
-      "To ensure that when male and female gametes fuse at fertilization (n + n), the original species-specific diploid chromosome number (2n) is restored",
       "Because gametes do not have enough cellular space to hold full chromosomes",
+      "To ensure that when male and female gametes fuse at fertilization (n + n), the original species-specific diploid chromosome number (2n) is restored",
       "To make gametes lighter so they float in air",
       "To prevent gametes from producing cellular proteins"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "If each generation were to combine full sets of chromosomes from two parents, the chromosome number would double every generation, upsetting the entire cellular apparatus. Meiosis halves the chromosome number in germ cells so fertilization restores the stable diploid number.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   },
@@ -262,12 +262,12 @@
     "difficulty": "Hard",
     "question": "When Mendel crossed pea plants differing in two traits (Round Yellow seeds × Wrinkled Green seeds), he obtained novel combinations in F2: Round Green and Wrinkled Yellow. What fundamental principle did this establish?",
     "options": [
-      "The Law of Independent Assortment: Two pairs of traits segregate independently of each other during gamete formation",
       "The Law of Incomplete Dominance",
       "The Law of Acquired Inheritance",
-      "The Law of Genetic Mutation"
+      "The Law of Genetic Mutation",
+      "The Law of Independent Assortment: Two pairs of traits segregate independently of each other during gamete formation"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "When two pairs of traits are combined in a hybrid, segregation of one pair of characters is independent of the other pair of characters. This is the Law of Independent Assortment, producing the new recombinant phenotypes Round Green and Wrinkled Yellow.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3"
   },
@@ -278,12 +278,12 @@
     "difficulty": "Easy",
     "question": "If you observe a field of sugarcane grown by vegetative propagation, you will find very little variation among individual plants. Why?",
     "options": [
-      "Asexual reproduction involves only mitotic replication of parental DNA with minor copying inaccuracies, generating minimal variation",
       "Sugarcane plants have no DNA",
+      "Asexual reproduction involves only mitotic replication of parental DNA with minor copying inaccuracies, generating minimal variation",
       "Sugarcane farmers spray chemicals to destroy mutant genes",
       "Sugarcane reproduces by underground seeds only"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "If we observe a field of sugarcane, there is very little variation among the individual plants because asexual reproduction generates very little diversity (only minor biochemical copying errors occur).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.1"
   },
@@ -294,12 +294,12 @@
     "difficulty": "Easy",
     "question": "Alternative forms of a given gene located at the same locus on homologous chromosomes that govern contrasting expressions of a trait (e.g. 'T' for tallness and 't' for dwarfness) are called:",
     "options": [
-      "Alleles",
       "Gametes",
       "Plasmids",
+      "Alleles",
       "Centromeres"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Alleles are alternative forms of a gene that account for variations in inherited characters, such as T (tall) and t (dwarf).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2"
   },

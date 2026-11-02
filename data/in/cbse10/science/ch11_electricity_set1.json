@@ -6,12 +6,12 @@
     "difficulty": "Medium",
     "question": "A cylindrical metal wire of resistance R is stretched uniformly so that its length becomes twice its original length (l' = 2l). Assuming its density and volume remain constant, what is the new resistance of the wire?",
     "options": [
-      "2R",
       "4R",
+      "2R",
       "R/2",
       "R/4"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Because volume is conserved (V = A * l = constant), doubling the length (l' = 2l) causes the cross-sectional area to be halved (A' = A/2). New resistance R' = rho * l' / A' = rho * (2l) / (A/2) = 4 * (rho * l / A) = 4R.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.5 Factors on which the Resistance of a Conductor Depends"
   },
@@ -39,11 +39,11 @@
     "question": "According to Joule's law of heating, the heat energy (H) produced in a resistor of resistance R carrying steady current I for time t is given by:",
     "options": [
       "H = I * R * t",
-      "H = I^2 * R * t",
       "H = I * R^2 * t",
+      "H = I^2 * R * t",
       "H = I^2 * R / t"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Joule's law states that heat generated in a resistor is directly proportional to the square of current (I^2), directly proportional to resistance (R), and directly proportional to the time (t) for which current flows: H = I^2 * R * t (or H = V * I * t = V^2 * t / R).",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.7 Heating Effect of Electric Current"
   },
@@ -55,11 +55,11 @@
     "question": "What is the commercial unit of electrical energy, and how many Joules does 1 unit represent?",
     "options": [
       "1 Watt-hour = 3600 Joules",
-      "1 kilowatt-hour (kWh) = 3.6 * 10^6 Joules",
       "1 megawatt-hour = 10^9 Joules",
-      "1 Joule/second = 1000 Joules"
+      "1 Joule/second = 1000 Joules",
+      "1 kilowatt-hour (kWh) = 3.6 * 10^6 Joules"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The commercial unit of electrical energy is 1 kilowatt-hour (kWh), commonly known as 1 'unit'. Since 1 kW = 1000 W and 1 hour = 3600 seconds: 1 kWh = 1000 W * 3600 s = 3.6 * 10^6 Joules (J).",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.8 Electric Power"
   },
@@ -71,11 +71,11 @@
     "question": "What are the essential thermal and electrical properties required for a reliable electric fuse wire in domestic circuits?",
     "options": [
       "High melting point and zero resistance",
-      "Low melting point alloy (e.g. tin-lead) and appropriate resistance to melt promptly when current exceeds rated limit",
       "High melting point and infinite conductivity",
-      "Material that expands into an insulator when heated"
+      "Material that expands into an insulator when heated",
+      "Low melting point alloy (e.g. tin-lead) and appropriate resistance to melt promptly when current exceeds rated limit"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A fuse is a safety device placed in series with the live wire. It consists of a piece of wire having a suitable low melting point. If excessive current flows due to short-circuiting or overloading, Joule heating raises the temperature above the melting point, melting the wire and cleanly breaking the circuit.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.7.1 Practical Applications of Heating Effect"
   },
@@ -86,13 +86,13 @@
     "difficulty": "Easy",
     "question": "Electric current (I) is defined as the rate of flow of electric charges. If charge Q flows through a conductor cross-section in time t, what is the SI unit of current?",
     "options": [
-      "Coulomb (C)",
       "Ampere (A), where 1 A = 1 C/s",
+      "Coulomb (C)",
       "Volt (V)",
       "Ohm (Omega)"
     ],
-    "answer": 1,
-    "explanation": "Electric current I = Q / t. The SI unit of electric charge is Coulomb (C) and time is second (s), giving the unit Ampere (A), named after Andr\u00e9-Marie Amp\u00e8re. 1 Ampere is defined as the flow of 1 Coulomb of charge per second.",
+    "answer": 0,
+    "explanation": "Electric current I = Q / t. The SI unit of electric charge is Coulomb (C) and time is second (s), giving the unit Ampere (A), named after André-Marie Ampère. 1 Ampere is defined as the flow of 1 Coulomb of charge per second.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.1 Electric Current and Circuit"
   },
   {
@@ -103,11 +103,11 @@
     "question": "How much work (W) is done in moving a charge of 4 Coulombs across two points having a potential difference of 12 Volts?",
     "options": [
       "3 Joules",
-      "16 Joules",
       "48 Joules",
+      "16 Joules",
       "8 Joules"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Potential difference V = W / Q. Therefore, work done W = V * Q = 12 V * 4 C = 48 Joules (J).",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.2 Electric Potential and Potential Difference"
   },
@@ -119,11 +119,11 @@
     "question": "Ohm's law states that the electric current (I) flowing through a metallic conductor is directly proportional to the potential difference (V) across its ends, provided which physical condition remains strictly constant?",
     "options": [
       "Atmospheric humidity",
-      "Temperature and physical dimensions",
       "Color of the insulation",
+      "Temperature and physical dimensions",
       "Magnetic field of Earth"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Ohm's law (V = IR) holds true strictly at constant temperature. If temperature changes, the resistance of the metallic conductor increases, altering the linear V-I proportionality.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.4 Ohm's Law"
   },
@@ -135,11 +135,11 @@
     "question": "Which of the following physical factors determines the electrical resistivity (rho) of a metallic conductor?",
     "options": [
       "Length of the wire",
-      "Cross-sectional area of the wire",
       "Nature of the material and its temperature",
+      "Cross-sectional area of the wire",
       "Shape of the cross-section (round vs square)"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Resistivity (rho) is an intrinsic characteristic property of the material that depends solely on the nature of the substance and its temperature. It does not change with alterations in length or cross-sectional area of the conductor.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.5 Factors on which the Resistance of a Conductor Depends"
   },
@@ -151,12 +151,12 @@
     "question": "Why are electrical heating elements of domestic appliances (such as electric irons, geysers, and toasters) made of alloys such as Nichrome rather than pure copper?",
     "options": [
       "Alloys have lower resistance and conduct electricity faster",
-      "Alloys have higher resistivity and do not oxidize (burn) readily at high red-hot temperatures",
       "Alloys are transparent to magnetic lines of force",
+      "Alloys have higher resistivity and do not oxidize (burn) readily at high red-hot temperatures",
       "Pure copper has a higher melting point than Nichrome"
     ],
-    "answer": 1,
-    "explanation": "The resistivity of an alloy is generally higher than that of its constituent metals. Moreover, alloys like Nichrome (nickel, chromium, manganese, iron) do not oxidize or burn easily at high temperatures (up to 1000\u00b0C), making them ideal for heating elements.",
+    "answer": 2,
+    "explanation": "The resistivity of an alloy is generally higher than that of its constituent metals. Moreover, alloys like Nichrome (nickel, chromium, manganese, iron) do not oxidize or burn easily at high temperatures (up to 1000°C), making them ideal for heating elements.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.5 Factors on which the Resistance of a Conductor Depends"
   },
   {
@@ -166,12 +166,12 @@
     "difficulty": "Easy",
     "question": "Three resistors of resistances 2 Omega, 4 Omega, and 6 Omega are connected in series with a 12 V battery. What is the equivalent resistance of the circuit and the current flowing through each resistor?",
     "options": [
-      "R_eq = 12 Omega, Current = 1 A through each",
       "R_eq = 1.09 Omega, Current = 11 A",
       "R_eq = 12 Omega, Current = 2 A through first and 0.5 A through last",
-      "R_eq = 6 Omega, Current = 2 A"
+      "R_eq = 6 Omega, Current = 2 A",
+      "R_eq = 12 Omega, Current = 1 A through each"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "In series, total resistance is R_s = R1 + R2 + R3 = 2 + 4 + 6 = 12 Omega. By Ohm's law, total current I = V / R_s = 12 V / 12 Omega = 1 A. In a series circuit, the current flowing through each individual resistor is identical (1 A).",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.6.1 Resistors in Series"
   },
@@ -182,12 +182,12 @@
     "difficulty": "Medium",
     "question": "Two resistors of 6 Omega and 12 Omega are connected in parallel across a battery. What is their combined equivalent resistance?",
     "options": [
-      "18 Omega",
       "4 Omega",
+      "18 Omega",
       "9 Omega",
       "2 Omega"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "For two resistors in parallel: 1/R_p = 1/R1 + 1/R2 = 1/6 + 1/12 = (2 + 1)/12 = 3/12 = 1/4. Thus R_p = 4 Omega (or using product over sum: R_p = (6 * 12) / (6 + 12) = 72 / 18 = 4 Omega).",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.6.2 Resistors in Parallel"
   },
@@ -199,12 +199,12 @@
     "question": "Why is Tungsten exclusively used for making the incandescent filaments of traditional electric bulbs?",
     "options": [
       "It has a very low melting point and melts quickly when switched on",
-      "It has a very high melting point (3380\u00b0C) and can be heated to incandescence without melting",
       "It is a liquid metal that flows easily into filaments",
-      "It reflects 100% of incident light"
+      "It reflects 100% of incident light",
+      "It has a very high melting point (3380°C) and can be heated to incandescence without melting"
     ],
-    "answer": 1,
-    "explanation": "To emit visible light, a filament must reach extremely high temperatures (over 2500\u00b0C) without melting. Tungsten has the highest melting point of all metals (3380\u00b0C) and high flexibility, making it the premier choice for lamp filaments.",
+    "answer": 3,
+    "explanation": "To emit visible light, a filament must reach extremely high temperatures (over 2500°C) without melting. Tungsten has the highest melting point of all metals (3380°C) and high flexibility, making it the premier choice for lamp filaments.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.7.1 Practical Applications of Heating Effect"
   },
   {
@@ -215,11 +215,11 @@
     "question": "Why are electric incandescent bulbs usually filled with chemically inactive gases like nitrogen and argon?",
     "options": [
       "To produce colored neon illumination",
-      "To prevent oxidation/burning of the hot tungsten filament and prolong its operational lifespan",
       "To make the glass bulb unbreakable",
+      "To prevent oxidation/burning of the hot tungsten filament and prolong its operational lifespan",
       "To conduct electrical current across the filament gap"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "If air were present, oxygen would rapidly oxidize and burn away the white-hot tungsten filament. Filling bulbs with unreactive gases like argon and nitrogen prevents oxidation and retards tungsten evaporation, prolonging filament life.",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.7.1 Practical Applications of Heating Effect"
   },
@@ -264,10 +264,10 @@
     "options": [
       "100 W",
       "50 W",
-      "25 W",
-      "75 W"
+      "75 W",
+      "25 W"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Filament resistance R = V^2 / P = (220)^2 / 100 = 48400 / 100 = 484 Omega. When connected across 110 V, power consumed is P' = V'^2 / R = (110)^2 / 484 = 12100 / 484 = 25 W.",
     "citation": "NCERT Class 10 Science, Chapter 11, NCERT Exercise Question 3"
   },
@@ -294,12 +294,12 @@
     "difficulty": "Easy",
     "question": "From the relation R = rho * l / A, what is the SI unit of electrical resistivity (rho)?",
     "options": [
-      "Ohm / metre (Omega / m)",
       "Ohm metre (Omega m)",
+      "Ohm / metre (Omega / m)",
       "Ohm / metre^2 (Omega / m^2)",
       "Volt / Ampere (V / A)"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Rearranging gives rho = R * A / l. Substituting units: (Omega * m^2) / m = Omega m (Ohm-metre).",
     "citation": "NCERT Class 10 Science, Chapter 11, Section 11.5 Factors on which the Resistance of a Conductor Depends"
   },
@@ -310,12 +310,12 @@
     "difficulty": "Easy",
     "question": "In an external closed metallic electric circuit, what is the relationship between the direction of conventional electric current and the direction of actual electron flow?",
     "options": [
-      "Conventional current flows from positive to negative terminal, which is OPPOSITE to the flow of electrons (negative to positive)",
       "Conventional current and electron flow are in the exact same direction",
+      "Conventional current flows from positive to negative terminal, which is OPPOSITE to the flow of electrons (negative to positive)",
       "Electrons remain stationary while protons travel along the wire",
       "Conventional current travels perpendicularly outwards from the conductor surface"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Historically, current was assumed to be the flow of positive charges from positive to negative terminal. Since electrons carry negative charge, electrons actually drift from negative to positive terminal; thus conventional current direction is opposite to electron drift.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 11.1 Electric Current and Circuit"
   }

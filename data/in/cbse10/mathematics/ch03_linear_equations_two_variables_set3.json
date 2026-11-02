@@ -7,12 +7,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The pair of linear equations 3x + 2y = 11 and 2x + 3y = 4 has a unique solution.\nReason (R): A pair of linear equations a1 x + b1 y + c1 = 0 and a2 x + b2 y + c2 = 0 represents intersecting lines and has a unique solution if and only if a1/a2 != b1/b2.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Here a1 = 3, b1 = 2, a2 = 2, b2 = 3. We check the ratio: a1/a2 = 3/2 and b1/b2 = 2/3. Since 3/2 != 2/3 (a1/a2 != b1/b2), the system has a unique solution. Both (A) and (R) are true, and (R) provides the exact mathematical criterion for (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.1"
     },
@@ -23,12 +23,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The system of equations 2x + 4y = 7 and 3x + 6y = 10 is inconsistent.\nReason (R): If a1/a2 = b1/b2 != c1/c2, the lines are parallel and have no common solution, making the system inconsistent.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "For the given equations: a1/a2 = 2/3, b1/b2 = 4/6 = 2/3, c1/c2 = -7/-10 = 7/10. Since a1/a2 = b1/b2 != c1/c2 (2/3 = 2/3 != 7/10), the lines are parallel and yield no point of intersection. Hence, the system is inconsistent. (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): The pair of equations x + 2y - 5 = 0 and 2x + 4y - 10 = 0 has infinitely many solutions.\nReason (R): Whenever a pair of linear equations has infinitely many solutions, the two graphical lines are coincident and the pair is called dependent consistent.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Here a1/a2 = 1/2, b1/b2 = 2/4 = 1/2, and c1/c2 = -5/-10 = 1/2. Because a1/a2 = b1/b2 = c1/c2, the lines coincide completely, yielding infinite common points (solutions). Such a system is dependent and consistent. Both (A) and (R) are true, and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Easy",
       "question": "Assertion (A): The graphs of equations x = 0 and y = 0 intersect at the origin (0, 0).\nReason (R): The equation x = 0 represents the y-axis, and the equation y = 0 represents the x-axis, which are mutually perpendicular and intersect exclusively at (0, 0).",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A)."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The y-axis has the equation x = 0 and the x-axis has the equation y = 0. Their unique point of intersection is (0, 0). Thus both (A) and (R) are true and (R) directly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Medium",
       "question": "Assertion (A): The lines x = 3 and x = -4 do not intersect at any point on the Cartesian plane.\nReason (R): Any two vertical lines of the form x = c1 and x = c2 (where c1 != c2) are parallel to each other and to the y-axis.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is true, but (R) is false.",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Both lines x = 3 and x = -4 are parallel to the y-axis. Since they have different x-intercepts, they are distinct parallel vertical lines and therefore never intersect. Both (A) and (R) are true and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Hard",
       "question": "Assertion (A): The pair of equations kx + 3y = k - 3 and 12x + ky = k has no solution when k = -6.\nReason (R): For no solution, we require a1/a2 = b1/b2 != c1/c2. Here k/12 = 3/k gives k^2 = 36 => k = 6 or -6. For k = -6, (-6)/12 = 3/(-6) != (-9)/(-6), which satisfies the condition.",
       "options": [
-        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
         "(A) is true, but (R) is false.",
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "(A) is false, but (R) is true."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "For k = 6: a1/a2 = 6/12 = 1/2, b1/b2 = 3/6 = 1/2, c1/c2 = (6-3)/6 = 3/6 = 1/2. All ratios are equal, so k = 6 gives infinitely many solutions. For k = -6: a1/a2 = -1/2, b1/b2 = -1/2, but c1/c2 = (-9)/(-6) = 3/2 != -1/2. Hence k = -6 gives no solution. Both statements are true and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Example 15"
     },
@@ -153,10 +153,10 @@
       "options": [
         "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
-        "(A) is true, but (R) is false.",
-        "(A) is false, but (R) is true."
+        "(A) is false, but (R) is true.",
+        "(A) is true, but (R) is false."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Assertion (A) is FALSE: Here a1/a2 = 2/4 = 1/2 and b1/b2 = -3/-6 = 1/2. Since a1/a2 = b1/b2 (1/2 = 1/2 != 8/9), these lines are strictly parallel and never intersect. Reason (R) is a TRUE mathematical condition for unique intersection. Hence (A) is false, but (R) is true.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.1"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Medium",
       "question": "Case Study 1 (City Cab Mobility): The taxi charges in New Delhi comprise a fixed base charge together with the charge for the distance traveled. For a journey of 10 km, the charge paid is Rs 105, and for a journey of 15 km, the charge paid is Rs 155. If 'x' denotes the fixed charge (in Rs) and 'y' denotes the rate per km (in Rs/km), which pair of linear equations models this situation?",
       "options": [
-        "x + 10y = 105 and x + 15y = 155",
         "10x + y = 105 and 15x + y = 155",
+        "x + 10y = 105 and x + 15y = 155",
         "x + y = 105 and 10x + 15y = 155",
         "x - 10y = 105 and x - 15y = 155"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Total fare = Fixed charge + (distance * per km charge) = x + d*y. For 10 km: x + 10y = 105. For 15 km: x + 15y = 155.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(iv)"
     },
@@ -183,12 +183,12 @@
       "difficulty": "Medium",
       "question": "Case Study 1 (Continued): What is the fixed base charge (x) and the running charge per kilometer (y)?",
       "options": [
-        "Fixed charge = Rs 5, Charge per km = Rs 10",
         "Fixed charge = Rs 10, Charge per km = Rs 5",
         "Fixed charge = Rs 7, Charge per km = Rs 9.80",
-        "Fixed charge = Rs 15, Charge per km = Rs 9"
+        "Fixed charge = Rs 15, Charge per km = Rs 9",
+        "Fixed charge = Rs 5, Charge per km = Rs 10"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Subtracting (x + 10y = 105) from (x + 15y = 155): (15 - 10)y = 155 - 105 => 5y = 50 => y = Rs 10 per km. Substituting into the first equation: x + 10(10) = 105 => x + 100 = 105 => x = Rs 5.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(iv)"
     },
@@ -199,12 +199,12 @@
       "difficulty": "Medium",
       "question": "Case Study 1 (Continued): A commuter books this taxi service to travel a distance of 25 km from the airport to Gurgaon. How much fare will the commuter have to pay?",
       "options": [
-        "Rs 255",
         "Rs 250",
+        "Rs 255",
         "Rs 265",
         "Rs 275"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Fare for 25 km = x + 25y = 5 + 25(10) = 5 + 250 = Rs 255.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(iv)"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Medium",
       "question": "Case Study 2 (Public Library): A community lending library has a fixed charge for the first three days and an additional charge for each day thereafter. Saritha paid Rs 27 for a book kept for seven days, while Susy paid Rs 21 for the book she kept for five days. If x represents the fixed charge for the first 3 days and y represents the charge for each subsequent day, which equations represent this scenario?",
       "options": [
-        "x + 4y = 27 and x + 2y = 21",
         "x + 7y = 27 and x + 5y = 21",
         "3x + 4y = 27 and 3x + 2y = 21",
+        "x + 4y = 27 and x + 2y = 21",
         "x + 3y = 27 and x + 2y = 21"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "For Saritha: 7 days total = first 3 days (charge x) + 4 extra days (charge 4y). Equation: x + 4y = 27. For Susy: 5 days total = first 3 days (charge x) + 2 extra days (charge 2y). Equation: x + 2y = 21.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.4 Question 2(v)"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Medium",
       "question": "Case Study 2 (Continued): If a student retains a reference textbook for a total of 10 days, what is the total charge that the student must pay to the library?",
       "options": [
-        "Rs 36",
         "Rs 42",
         "Rs 30",
-        "Rs 45"
+        "Rs 45",
+        "Rs 36"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "For 10 days, the student has 3 fixed days + (10 - 3) = 7 extra days. Total fee = x + 7y = 15 + 7(3) = 15 + 21 = Rs 36.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.4 Question 2(v)"
     },
@@ -263,12 +263,12 @@
       "difficulty": "Hard",
       "question": "Case Study 3 (River Navigation): Ritu can row downstream 20 km in 2 hours, and upstream 4 km in 2 hours. Let x be her rowing speed in still water (in km/h) and y be the speed of the river current (in km/h). Which system of linear equations describes her motion?",
       "options": [
-        "x + y = 10 and x - y = 2",
         "x + y = 20 and x - y = 4",
         "2(x - y) = 10 and 2(x + y) = 2",
+        "x + y = 10 and x - y = 2",
         "x - y = 10 and x + y = 2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Downstream speed = x + y = distance/time = 20/2 = 10 km/h. Upstream speed = x - y = distance/time = 4/2 = 2 km/h. Thus the equations are x + y = 10 and x - y = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.6 Question 1"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Medium",
       "question": "Case Study 3 (Continued): What is Ritu's rowing speed in still water and the speed of the water current?",
       "options": [
-        "Speed in still water = 6 km/h, Current speed = 4 km/h",
         "Speed in still water = 8 km/h, Current speed = 2 km/h",
         "Speed in still water = 7 km/h, Current speed = 3 km/h",
-        "Speed in still water = 5 km/h, Current speed = 5 km/h"
+        "Speed in still water = 5 km/h, Current speed = 5 km/h",
+        "Speed in still water = 6 km/h, Current speed = 4 km/h"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Adding both equations: (x + y) + (x - y) = 10 + 2 => 2x = 12 => x = 6 km/h. Subtracting: (x + y) - (x - y) = 10 - 2 => 2y = 8 => y = 4 km/h.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.6 Question 1"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Hard",
       "question": "Case Study 4 (Continued): What are the exact dimensions (length and breadth) of the rectangular badminton court?",
       "options": [
-        "Length = 17 metres, Breadth = 9 metres",
         "Length = 19 metres, Breadth = 11 metres",
+        "Length = 17 metres, Breadth = 9 metres",
         "Length = 15 metres, Breadth = 8 metres",
         "Length = 20 metres, Breadth = 10 metres"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "From 3x - 5y = 6 (Eq 1) and 2x + 3y = 61 (Eq 2): Multiply Eq 1 by 3: 9x - 15y = 18. Multiply Eq 2 by 5: 10x + 15y = 305. Adding them: 19x = 323 => x = 17 metres. Substitute into Eq 1: 3(17) - 5y = 6 => 51 - 5y = 6 => 5y = 45 => y = 9 metres.",
       "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.4 Question 2(iv)"
     }

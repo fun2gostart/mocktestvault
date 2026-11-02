@@ -6,12 +6,12 @@
     "difficulty": "Easy",
     "question": "What is the formula for the area of a sector of angle θ of a circle with radius r?",
     "options": [
-      "(θ / 360°) × πr²",
       "(θ / 180°) × πr²",
+      "(θ / 360°) × πr²",
       "(θ / 360°) × 2πr",
       "(θ / 720°) × 2πr²"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Area of a sector of angle θ = (θ / 360°) × πr². Length of corresponding arc = (θ / 360°) × 2πr.",
     "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
   },
@@ -22,12 +22,12 @@
     "difficulty": "Medium",
     "question": "The minute hand of a clock is 14 cm long. What is the area swept by the minute hand in 5 minutes? (Use π = 22/7)",
     "options": [
-      "154 / 3 cm²",
       "154 cm²",
       "77 / 3 cm²",
-      "308 / 3 cm²"
+      "308 / 3 cm²",
+      "154 / 3 cm²"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "In 60 mins, minute hand sweeps 360°. In 5 mins, angle θ = (360° / 60) × 5 = 30°. Area = (30/360) × (22/7) × 14 × 14 = (1/12) × 22 × 2 × 14 = (1/12) × 616 = 154 / 3 cm² ≈ 51.33 cm².",
     "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2 (Exercise 11.1 Q2)"
   },

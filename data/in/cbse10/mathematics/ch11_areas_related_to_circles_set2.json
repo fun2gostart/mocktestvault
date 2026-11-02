@@ -23,12 +23,12 @@
       "difficulty": "Medium",
       "question": "A horse is tied to a peg at one corner of a square shaped grass field of side 15 m by means of a 5 m long rope. Find the area of that part of the field in which the horse can graze. (Use pi = 3.14)",
       "options": [
-        "19.625 m^2",
         "78.5 m^2",
+        "19.625 m^2",
         "25 m^2",
         "15.7 m^2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "At the corner of a square, angle is 90 degrees. The grazed region is a quadrant of radius 5 m. Area = (1/4) * pi * r^2 = (1/4) * 3.14 * 5^2 = (1/4) * 3.14 * 25 = 78.5 / 4 = 19.625 m^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 8(i)"
     },
@@ -39,12 +39,12 @@
       "difficulty": "Medium",
       "question": "For the horse in Question 2, find the increase in the grazing area if the rope were 10 m long instead of 5 m. (Use pi = 3.14)",
       "options": [
-        "58.875 m^2",
         "78.5 m^2",
         "19.625 m^2",
-        "62.8 m^2"
+        "62.8 m^2",
+        "58.875 m^2"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "With 10 m rope: Area = (1/4) * 3.14 * 10^2 = 78.5 m^2. Increase in grazing area = 78.5 - 19.625 = 58.875 m^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 8(ii)"
     },
@@ -55,12 +55,12 @@
       "difficulty": "Medium",
       "question": "A circular brooch is made with silver wire in the form of a circle with diameter 35 mm. The wire is also used in making 5 diameters which divide the circle into 10 equal sectors. What is the total length of the silver wire required? (Use pi = 22/7)",
       "options": [
-        "285 mm",
         "110 mm",
         "175 mm",
+        "285 mm",
         "300 mm"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Circumference = pi * d = (22/7) * 35 = 110 mm. Wire used in 5 diameters = 5 * 35 = 175 mm. Total wire length = 110 + 175 = 285 mm.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 9(i)"
     },
@@ -71,12 +71,12 @@
       "difficulty": "Medium",
       "question": "For the brooch in Question 4 (diameter 35 mm, 10 equal sectors), find the area of each sector of the brooch. (Use pi = 22/7)",
       "options": [
-        "385/4 mm^2 (~96.25 mm^2)",
         "385/2 mm^2",
+        "385/4 mm^2 (~96.25 mm^2)",
         "192.5 mm^2",
         "77 mm^2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Radius r = 35/2 mm. Total area of circle = pi * r^2 = (22/7) * (35/2) * (35/2) = 11 * 5 * 35 / 2 = 1925 / 2 mm^2. Area of each of 10 equal sectors = (1925 / 2) / 10 = 1925 / 20 = 385 / 4 mm^2 = 96.25 mm^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 9(ii)"
     },
@@ -87,12 +87,12 @@
       "difficulty": "Medium",
       "question": "An umbrella has 8 ribs which are equally spaced. Assuming the umbrella to be a flat circle of radius 45 cm, find the area between two consecutive ribs of the umbrella. (Use pi = 22/7)",
       "options": [
-        "22275/28 cm^2 (~795.54 cm^2)",
         "22275/14 cm^2",
         "11137.5 cm^2",
+        "22275/28 cm^2 (~795.54 cm^2)",
         "750 cm^2"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Since there are 8 equally spaced ribs, the circle is divided into 8 equal sectors. Each sector angle = 360 / 8 = 45 deg. Area = (1/8) * pi * r^2 = (1/8) * (22/7) * 45 * 45 = (11/28) * 2025 = 22275 / 28 cm^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 10"
     },
@@ -103,12 +103,12 @@
       "difficulty": "Hard",
       "question": "A car has two wipers which do not overlap. Each wiper has a blade of length 25 cm sweeping through an angle of 115 degrees. Find the total area cleaned at each sweep of the blades. (Use pi = 22/7)",
       "options": [
-        "158125/126 cm^2 (~1254.96 cm^2)",
         "158125/252 cm^2",
         "1250 cm^2",
-        "316250/126 cm^2"
+        "316250/126 cm^2",
+        "158125/126 cm^2 (~1254.96 cm^2)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Area swept by 1 blade = (115/360) * (22/7) * 25 * 25 = (23/72) * (22/7) * 625 = (23/36) * (11/7) * 625 = 158125 / 252 cm^2. Total area cleaned by both wipers = 2 * (158125 / 252) = 158125 / 126 cm^2 (approx 1254.96 cm^2).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 11"
     },
@@ -135,12 +135,12 @@
       "difficulty": "Hard",
       "question": "A round table cover has six equal designs as shown in the figure. If the radius of the cover is 28 cm, find the total area of the six designed segments. (Use pi = 22/7, sqrt(3) = 1.7)",
       "options": [
-        "464.8 cm^2",
         "512.4 cm^2",
+        "464.8 cm^2",
         "430.5 cm^2",
         "485.6 cm^2"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Each design corresponds to a segment of angle 360 / 6 = 60 degrees. Area of 1 sector = (60/360) * (22/7) * 28 * 28 = (1/6) * 22 * 4 * 28 = 2464 / 6 = 1232 / 3 cm^2. Area of 1 equilateral triangle = (sqrt(3)/4) * 28^2 = (1.7 / 4) * 784 = 1.7 * 196 = 333.2 cm^2. Area of 1 design segment = 1232/3 - 333.2 = 410.67 - 333.2 = 77.47 cm^2. Total area of 6 designs = 6 * (1232/3 - 333.2) = 2464 - 1999.2 = 464.8 cm^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 13"
     },
@@ -151,12 +151,12 @@
       "difficulty": "Medium",
       "question": "For the round table cover in Question 9 (area of designs = 464.8 cm^2), find the cost of making the designs at the rate of Rs 0.35 per cm^2.",
       "options": [
-        "Rs 162.68",
         "Rs 180.50",
         "Rs 150.25",
+        "Rs 162.68",
         "Rs 172.40"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Cost = Area * Rate = 464.8 cm^2 * Rs 0.35 = Rs 162.68.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 13"
     },
@@ -167,12 +167,12 @@
       "difficulty": "Hard",
       "question": "A running track has left and right ends as semicircles. The distance between the two inner parallel line segments is 60 m and they are each 106 m long. If the track is 10 m wide everywhere, what is the distance around the track along its inner edge?",
       "options": [
-        "2804/7 m (~400.57 m)",
         "412 m",
         "390 m",
-        "425.5 m"
+        "425.5 m",
+        "2804/7 m (~400.57 m)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Inner straightaways = 2 * 106 = 212 m. Two semicircles of inner diameter 60 m form one complete circle of radius 30 m: Circumference = 2 * (22/7) * 30 = 1320 / 7 m. Total inner distance = 212 + 1320/7 = (1484 + 1320)/7 = 2804 / 7 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exemplar Problem"
     },
@@ -215,12 +215,12 @@
       "difficulty": "Medium",
       "question": "A square circumscribes a circle of radius r. What is the ratio of the area of the circle to the area of the circumscribed square?",
       "options": [
-        "pi : 4",
         "pi : 2",
         "4 : pi",
+        "pi : 4",
         "pi : 1"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Side of circumscribed square = diameter of circle = 2r. Area of square = (2r)^2 = 4r^2. Area of circle = pi*r^2. Ratio = (pi * r^2) / (4r^2) = pi : 4.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exemplar Problem"
     },
@@ -231,12 +231,12 @@
       "difficulty": "Hard",
       "question": "What is the ratio of the area of an equilateral triangle of side 'a' to the area of its incircle?",
       "options": [
-        "3 sqrt(3) : pi",
         "sqrt(3) : pi",
+        "3 sqrt(3) : pi",
         "3 : pi",
         "6 sqrt(3) : pi"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Area of equilateral triangle = (sqrt(3)/4) a^2. Inradius r = a / (2*sqrt(3)). Area of incircle = pi * r^2 = pi * (a^2 / 12). Ratio = [(sqrt(3)/4) a^2] / [pi * a^2 / 12] = (sqrt(3)/4) * (12/pi) = 3*sqrt(3) / pi.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exemplar Problem"
     },
@@ -247,12 +247,12 @@
       "difficulty": "Medium",
       "question": "The wheels of a car are of diameter 80 cm each. How many complete revolutions does each wheel make in 10 minutes when the car is travelling at a speed of 66 km/h? (Use pi = 22/7)",
       "options": [
-        "4375 revolutions",
         "4500 revolutions",
         "4250 revolutions",
-        "4000 revolutions"
+        "4000 revolutions",
+        "4375 revolutions"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Speed = 66 km/h = 66 * 1000 * 100 / 60 cm/min = 110,000 cm/min. Distance in 10 mins = 1,100,000 cm. Wheel diameter = 80 cm => Circumference = pi * d = (22/7) * 80 = 1760 / 7 cm. Revolutions = 1,100,000 / (1760 / 7) = (1,100,000 * 7) / 1760 = 4375 revolutions.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 4"
     },
@@ -279,12 +279,12 @@
       "difficulty": "Easy",
       "question": "What is the total perimeter of a sector of angle theta and radius r?",
       "options": [
-        "(theta / 360) * 2 * pi * r + 2r",
         "(theta / 360) * 2 * pi * r",
         "(theta / 360) * pi * r^2 + 2r",
-        "(theta / 180) * pi * r + r"
+        "(theta / 180) * pi * r + r",
+        "(theta / 360) * 2 * pi * r + 2r"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "A sector is bounded by the arc of length (theta/360)*2*pi*r and the two bounding radial edges (2r). Total perimeter = arc length + 2r.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
@@ -295,12 +295,12 @@
       "difficulty": "Medium",
       "question": "The area of a sector of a circle of radius 36 cm is 54 pi cm^2. Find the length of the corresponding arc of the sector.",
       "options": [
-        "3 pi cm",
         "6 pi cm",
         "4 pi cm",
+        "3 pi cm",
         "2 pi cm"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Area = (1/2) * l * r => 54 pi = (1/2) * l * 36 => 54 pi = 18 l => l = 54 pi / 18 = 3 pi cm.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exemplar Problem"
     },
@@ -311,12 +311,12 @@
       "difficulty": "Medium",
       "question": "If the radius of a circle is increased by 50%, by what percentage does the area of the circle increase?",
       "options": [
-        "125%",
         "100%",
+        "125%",
         "50%",
         "150%"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "New radius R = 1.5 r. New area = pi * R^2 = pi * (1.5 r)^2 = 2.25 * pi * r^2. Increase = 2.25 - 1.0 = 1.25 times the original area = 125% increase.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exemplar Problem"
     }
