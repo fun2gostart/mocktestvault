@@ -83,14 +83,22 @@
     </div>
   </nav>
 
-  <!-- Multi-Set Selector Bar -->
+    <!-- Multi-Set Selector Bar (60 Total Questions) -->
   <div class="set-switcher-bar">
     <div class="set-switcher-container">
-      <span class="set-label">Test Sets (Chapter 7):</span>
+      <span class="set-label">Test Sets (60 Qs):</span>
       <div class="set-btn-group" role="tablist">
         <button class="set-btn active" data-set="set1" id="set-btn-set1" role="tab" aria-selected="true">
-          <span>Set 1: Board Mock Test</span>
-          <span class="set-badge-count">Live</span>
+          <span>Set 1: Board Foundation</span>
+          <span class="set-badge-count">20 Qs</span>
+        </button>
+        <button class="set-btn" data-set="set2" id="set-btn-set2" role="tab" aria-selected="false">
+          <span>Set 2: NCERT Exemplar & Applications</span>
+          <span class="set-badge-count">20 Qs</span>
+        </button>
+        <button class="set-btn" data-set="set3" id="set-btn-set3" role="tab" aria-selected="false">
+          <span>Set 3: Assertion-Reason & Case Studies</span>
+          <span class="set-badge-count">20 Qs</span>
         </button>
       </div>
     </div>
@@ -251,18 +259,18 @@
     </div>
   </footer>
 
-  <script src="../../js/test-engine.js"></script>
+    <script src="../../js/test-engine.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       window.testEngine = new MockTestEngine({
         initialSet: 'set1',
-        timeLimitMinutes: 20
+        timeLimitMinutes: 20,
+        setSources: {
+          set1: '../../data/in/cbse10/social-science/ch12_lifelines_of_national_economy_set1.json',
+          set2: '../../data/in/cbse10/social-science/ch12_lifelines_of_national_economy_set2.json',
+          set3: '../../data/in/cbse10/social-science/ch12_lifelines_of_national_economy_set3.json'
+        }
       });
-      window.testEngine.setSources = {
-        set1: '../../data/in/cbse10/social-science/ch12_lifelines_of_national_economy.json'
-      };
-      window.testEngine.dataSource = window.testEngine.setSources.set1;
-      window.testEngine.loadQuestions();
     });
   </script>
 </body>

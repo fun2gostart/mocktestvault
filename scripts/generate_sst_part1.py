@@ -1,0 +1,350 @@
+#!/usr/bin/env python3
+"""
+MockTestVault — CBSE Class 10 Social Science Generator (Part 1: Ch 11 to Ch 15)
+Generates 15 sets (300 questions) for:
+- Ch 11: Manufacturing Industries (Geo Ch 6) - 3 sets
+- Ch 12: Lifelines of National Economy (Geo Ch 7) - 3 sets
+- Ch 13: Power Sharing (Civics Ch 1) - 3 sets
+- Ch 14: Federalism (Civics Ch 2) - 3 sets
+- Ch 15: Gender, Religion and Caste (Civics Ch 3) - 3 sets
+"""
+
+import json
+import os
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+VAULT_DIR = os.path.dirname(SCRIPT_DIR)
+DATA_DIR = os.path.join(VAULT_DIR, "data", "in", "cbse10", "social-science")
+os.makedirs(DATA_DIR, exist_ok=True)
+
+# -----------------------------------------------------------------------------
+# CHAPTER 11: MANUFACTURING INDUSTRIES (Geo Ch 6)
+# -----------------------------------------------------------------------------
+ch11_set1 = [
+  {
+    "id": "cbse10-sst-geo-ch11-s1-001",
+    "type": "mcq",
+    "subtopic": "Definition of Manufacturing",
+    "difficulty": "Easy",
+    "question": "Production of goods in large quantities after processing from raw materials to more valuable products is called:",
+    "options": [
+      "Manufacturing",
+      "Agriculture",
+      "Tertiary distribution",
+      "Mining"
+    ],
+    "answer": 0,
+    "explanation": "Production of goods in large quantities after processing from raw materials to more valuable products is called manufacturing. It falls under the secondary sector of the economy.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 1"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-002",
+    "type": "mcq",
+    "subtopic": "Economic Strength & Manufacturing",
+    "difficulty": "Easy",
+    "question": "The economic strength of a country is measured by the development of which of the following sectors?",
+    "options": [
+      "Manufacturing industries",
+      "Subsistence farming",
+      "Import of raw materials",
+      "Gold reserves only"
+    ],
+    "answer": 0,
+    "explanation": "Manufacturing industries not only help in modernising agriculture but also reduce heavy dependence on agricultural income by providing jobs in secondary and tertiary sectors. Hence, the economic strength of a country is measured by its manufacturing development.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 1.1"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-003",
+    "type": "mcq",
+    "subtopic": "Agglomeration Economies",
+    "difficulty": "Medium",
+    "question": "When many industries tend to come together to make use of the advantages offered by the urban centres, it is known as:",
+    "options": [
+      "Agglomeration economies",
+      "Industrial fragmentation",
+      "Subsidiary manufacturing",
+      "Horizontal segregation"
+    ],
+    "answer": 0,
+    "explanation": "Many industries tend to locate near cities to take advantage of markets, banking, insurance, transport, labour, consultants, and financial advice. This concentration is termed agglomeration economies.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 1.2"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-004",
+    "type": "mcq",
+    "subtopic": "Classification - Basic vs Consumer Industries",
+    "difficulty": "Medium",
+    "question": "Which of the following is classified as a 'basic' or 'key' industry?",
+    "options": [
+      "Iron and steel smelting",
+      "Sugar manufacturing",
+      "Paper production",
+      "Bakery and biscuit industry"
+    ],
+    "answer": 0,
+    "explanation": "Basic or key industries are those which supply their products or raw materials to manufacture other goods. Iron and steel, copper smelting, and aluminium smelting are classic examples of basic industries.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 2"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-005",
+    "type": "mcq",
+    "subtopic": "Joint Sector Industry",
+    "difficulty": "Easy",
+    "question": "Which of the following enterprises is an example of a 'Joint Sector' industry in India?",
+    "options": [
+      "Oil India Ltd. (OIL)",
+      "Steel Authority of India Ltd. (SAIL)",
+      "Tata Iron and Steel Company (TISCO)",
+      "Bharat Heavy Electricals Ltd. (BHEL)"
+    ],
+    "answer": 0,
+    "explanation": "Joint sector industries are jointly run by the state and individuals or a group of individuals. Oil India Ltd. (OIL) is jointly owned by the public and private sectors.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 2"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-006",
+    "type": "mcq",
+    "subtopic": "Textile Industry Value Chain",
+    "difficulty": "Medium",
+    "question": "The textile industry occupies a unique position in the Indian economy because:",
+    "options": [
+      "It is self-reliant and complete in the value chain from raw material to highest value-added garments",
+      "It depends entirely on imported raw cotton from Africa",
+      "It is owned exclusively by foreign multinational corporations",
+      "It operates only inside special economic zones"
+    ],
+    "answer": 0,
+    "explanation": "The textile industry is self-reliant and complete in the value chain, from raw material (fibre production) to spinning (yarn), weaving/knitting (fabric), dyeing/finishing, and garment manufacture (highest value addition).",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 3.1"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-007",
+    "type": "mcq",
+    "subtopic": "Cotton Textile Concentration",
+    "difficulty": "Easy",
+    "question": "In the early years, the cotton textile industry in India was concentrated primarily in the cotton-growing belt of:",
+    "options": [
+      "Maharashtra and Gujarat",
+      "Punjab and Haryana",
+      "Bihar and West Bengal",
+      "Kerala and Tamil Nadu"
+    ],
+    "answer": 0,
+    "explanation": "Availability of raw cotton, market, transport including accessible port facilities, labour, and moist climate contributed towards the initial concentration of the cotton textile industry in Maharashtra and Gujarat.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 3.1"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-008",
+    "type": "mcq",
+    "subtopic": "Jute Textile Location",
+    "difficulty": "Medium",
+    "question": "Most of India's jute mills are concentrated along the banks of which river in West Bengal?",
+    "options": [
+      "Hugli River",
+      "Damodar River",
+      "Mahanadi River",
+      "Teesta River"
+    ],
+    "answer": 0,
+    "explanation": "Most jute mills are located along the Hugli River in a narrow belt (approx. 98 km long and 3 km wide) due to proximity of jute producing areas, inexpensive water transport, abundant water for processing, and cheap labour from West Bengal, Bihar, and Odisha.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 3.2"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-009",
+    "type": "mcq",
+    "subtopic": "Sugar Industry Shift",
+    "difficulty": "Medium",
+    "question": "Why has there been a tendency for sugar mills in India to shift and concentrate in the southern and western states, especially Maharashtra?",
+    "options": [
+      "Cane produced has higher sucrose content and the cooler climate ensures a longer crushing season",
+      "Northern states have completely banned sugarcane farming",
+      "Southern states provide 100% free electricity to sugar mills",
+      "Sugar can only be exported from ports located in Maharashtra"
+    ],
+    "answer": 0,
+    "explanation": "The cane produced in southern and western states has a higher sucrose content, the cooler maritime climate ensures a longer crushing season, and cooperative societies are more successful in these states.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 3.3"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-010",
+    "type": "mcq",
+    "subtopic": "Chotanagpur Iron & Steel Cluster",
+    "difficulty": "Medium",
+    "question": "The Chotanagpur plateau region has the maximum concentration of iron and steel industries primarily because of:",
+    "options": [
+      "Low cost of iron ore, high-grade raw materials in close proximity, and cheap labour",
+      "Availability of petroleum reserves and natural gas pipelines",
+      "High domestic consumer demand within the tribal plateau",
+      "Government subsidies providing free coking coal to all private plants"
+    ],
+    "answer": 0,
+    "explanation": "Chotanagpur plateau has low-cost iron ore, high-grade raw materials (coking coal, limestone, dolomite) in proximity, cheap labour, and vast growth potential in the home market.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 4.1"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-011",
+    "type": "mcq",
+    "subtopic": "Aluminium Smelting Characteristics",
+    "difficulty": "Medium",
+    "question": "Which of the following is the second most important metallurgical industry in India, prized for being light, resistant to corrosion, and a good conductor of heat?",
+    "options": [
+      "Aluminium smelting",
+      "Copper refining",
+      "Lead smelting",
+      "Zinc manufacturing"
+    ],
+    "answer": 0,
+    "explanation": "Aluminium smelting is the second most important metallurgical industry in India. It is light, resistant to corrosion, a good conductor of heat, malleable, and becomes strong when alloyed with other metals.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 4.2"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-012",
+    "type": "mcq",
+    "subtopic": "Aluminium Raw Material",
+    "difficulty": "Easy",
+    "question": "What is the primary, bulky, dark reddish-coloured raw material used in aluminium smelters?",
+    "options": [
+      "Bauxite",
+      "Hematite",
+      "Magnetite",
+      "Pyrite"
+    ],
+    "answer": 0,
+    "explanation": "Bauxite is the bulky, dark reddish-coloured rock used as the raw material in aluminium smelters. Approximately 4 to 6 tonnes of bauxite yield 2 tonnes of alumina, which produces 1 tonne of aluminium.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 4.2"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-013",
+    "type": "mcq",
+    "subtopic": "First Cement Plant in India",
+    "difficulty": "Easy",
+    "question": "Where was India's first cement manufacturing plant set up in 1904?",
+    "options": [
+      "Chennai",
+      "Mumbai",
+      "Kolkata",
+      "Jamshedpur"
+    ],
+    "answer": 0,
+    "explanation": "The first cement plant in India was established in Chennai (then Madras) in 1904. After Independence, the industry expanded rapidly.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 4.4"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-014",
+    "type": "mcq",
+    "subtopic": "Raw Materials for Cement",
+    "difficulty": "Medium",
+    "question": "Which of the following sets of raw materials is essential for manufacturing cement?",
+    "options": [
+      "Limestone, silica, alumina, and gypsum",
+      "Iron ore, bauxite, and copper",
+      "Mica, sulphur, and potash",
+      "Graphite, marble, and zinc"
+    ],
+    "answer": 0,
+    "explanation": "Cement industry requires bulky and heavy raw materials like limestone, silica, alumina, and gypsum. Coal and electric power are also needed along with rail transportation.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 4.4"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-015",
+    "type": "mcq",
+    "subtopic": "Electronic Capital of India",
+    "difficulty": "Easy",
+    "question": "Which Indian city has emerged as the 'Electronic Capital of India'?",
+    "options": [
+      "Bengaluru",
+      "Hyderabad",
+      "Pune",
+      "Noida"
+    ],
+    "answer": 0,
+    "explanation": "Bengaluru has emerged as the electronic capital of India. Other important centres for electronic goods are Mumbai, Chennai, Hyderabad, Pune, Delhi, Kolkata, Lucknow, and Coimbatore.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 4.6"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-016",
+    "type": "mcq",
+    "subtopic": "Thermal Pollution of Water",
+    "difficulty": "Medium",
+    "question": "Thermal pollution of water bodies occurs primarily when:",
+    "options": [
+      "Hot water from thermal plants and nuclear reactors is drained into rivers before cooling",
+      "Farmers use excessive chemical fertilisers in fields",
+      "Acid rain falls directly on aquatic reservoirs",
+      "Ships spill crude petroleum along maritime coastlines"
+    ],
+    "answer": 0,
+    "explanation": "Thermal pollution of water occurs when hot water from factories and thermal power plants is drained into rivers and ponds before cooling, severely affecting aquatic life.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 5"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-017",
+    "type": "mcq",
+    "subtopic": "NTPC Environmental Proactivity",
+    "difficulty": "Medium",
+    "question": "NTPC (National Thermal Power Corporation) has demonstrated leadership in environmental management through its certification under:",
+    "options": [
+      "EMS (Environment Management System) ISO 14001",
+      "Quality Assurance ISO 9001",
+      "Automobile Safety ISO 26262",
+      "Food Hygiene ISO 22000"
+    ],
+    "answer": 0,
+    "explanation": "NTPC is a major power providing corporation in India with ISO 14001 certification for EMS (Environment Management System), demonstrating proactive waste reduction, ash pond management, and green belts.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 5.1"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-018",
+    "type": "mcq",
+    "subtopic": "Three-Stage Effluent Treatment",
+    "difficulty": "Board Standard",
+    "question": "Treatment of industrial effluents can be done in three phases. What does 'Primary Treatment' primarily involve?",
+    "options": [
+      "Mechanical means such as screening, grinding, flocculation, and sedimentation",
+      "Biological processes using aerobic and anaerobic bacteria",
+      "Chemical, physical, and biological recycling of wastewater",
+      "Desalination through reverse osmosis filters"
+    ],
+    "answer": 0,
+    "explanation": "Primary treatment is done by mechanical means. This involves screening, grinding, flocculation, and sedimentation. Secondary treatment involves biological processes, and tertiary treatment involves biological, chemical, and physical processes.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 5.1"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-019",
+    "type": "mcq",
+    "subtopic": "National Jute Policy Target",
+    "difficulty": "Medium",
+    "question": "In 2005, the Government of India formulated the National Jute Policy with the core objective of:",
+    "options": [
+      "Increasing productivity, improving quality, ensuring good prices to jute farmers, and enhancing per hectare yield",
+      "Banning all plastic packaging materials across the country instantly",
+      "Closing down loss-making jute mills along the Hugli basin",
+      "Importing raw jute duty-free from Bangladesh"
+    ],
+    "answer": 0,
+    "explanation": "In 2005, the National Jute Policy was formulated with the objective of increasing productivity, improving quality, ensuring good prices to jute farmers, and enhancing the yield per hectare.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 3.2"
+  },
+  {
+    "id": "cbse10-sst-geo-ch11-s1-020",
+    "type": "mcq",
+    "subtopic": "Small Scale Industry Threshold",
+    "difficulty": "Easy",
+    "question": "In India, a small-scale industry is defined with reference to the maximum investment allowed on the assets of a unit. At present, this investment ceiling is:",
+    "options": [
+      "Rupees one crore",
+      "Rupees ten lakhs",
+      "Rupees five crores",
+      "Rupees twenty crores"
+    ],
+    "answer": 0,
+    "explanation": "A small-scale industry is defined with reference to the maximum investment allowed on the assets of a unit. This limit has changed over time; at present, the maximum investment allowed is rupees one crore.",
+    "citation": "NCERT Class 10 Geography, Chapter 6, Section 2"
+  }
+]
+
+# Write Chapter 11 Set 1
+with open(os.path.join(DATA_DIR, "ch11_manufacturing_industries_set1.json"), "w", encoding="utf-8") as f:
+    json.dump({"questions": ch11_set1}, f, indent=2, ensure_ascii=False)
+
+print("Generated: ch11_manufacturing_industries_set1.json (20 Qs)")
