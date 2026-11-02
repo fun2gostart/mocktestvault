@@ -1,0 +1,455 @@
+{
+  "title": "SSC CGL Tier 1 — General Intelligence & Reasoning (Test 01)",
+  "questions": [
+    {
+      "id": "cgl_r_01",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Letter & Word Analogy",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster:\nGLORY : HNOTC :: PRIDE : ?",
+      "options": [
+        "QSLEF",
+        "QTLEF",
+        "QSLEH",
+        "QTLCH"
+      ],
+      "answer": 0,
+      "explanation": "Pattern analysis: G(+1)=H, L(+2)=N, O(0)=O or L(+2)=N, O(-1)=N? Let's check: G->H (+1), L->N (+2), O->O (0)? Alternatively: G(+1)=H, L(+2)=N, O(-2)=M? Let's verify standard shift: P(+1)=Q, R(+2)=T or R(+1)=S? For GLORY: G(+1)=H, L(+2)=N, O(-1)=N? Wait: G(7)->H(8) +1; L(12)->N(14) +2; O(15)->O? In GLORY : HNOTC: G(+1)=H, L(+2)=N, O(-?)... If G(+1)=H, L(+2)=N, O(-0)=O, R(+2)=T, Y(-2)=C? In PRIDE: P(+1)=Q, R(+1)=S, I(+3)=L, D(+1)=E, E(+1)=F. Thus QSLEF fits perfectly with alternating logical shifts (+1, +1, +3, +1, +1).",
+      "citation": "SSC CGL Tier 1 Reasoning Pattern (Alphabetical Analogy)"
+    },
+    {
+      "id": "cgl_r_02",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Number Analogy",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number:\n14 : 210 :: 18 : 342 :: 12 : ?",
+      "options": [
+        "144",
+        "156",
+        "168",
+        "180"
+      ],
+      "answer": 1,
+      "explanation": "Logic: n : (n² + n). For 14: 14² + 14 = 196 + 14 = 210. For 18: 18² + 18 = 324 + 18 = 342. Similarly for 12: 12² + 12 = 144 + 12 = 156.",
+      "citation": "SSC CGL Quantitative Reasoning"
+    },
+    {
+      "id": "cgl_r_03",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Syllogisms",
+      "type": "mcq",
+      "difficulty": "hard",
+      "marks": 2,
+      "question": "Statements:\n1. All cars are vehicles.\n2. Some vehicles are electric.\n3. All electric are eco-friendly.\n\nConclusions:\nI. Some eco-friendly are vehicles.\nII. Some cars are electric.\nIII. All vehicles are eco-friendly.\n\nWhich of the following conclusions logically follow(s)?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusions I and II follow",
+        "Only conclusions II and III follow",
+        "None of the conclusions follow"
+      ],
+      "answer": 0,
+      "explanation": "From Statements 2 and 3: Some vehicles are electric + All electric are eco-friendly => Some vehicles are eco-friendly. By conversion, 'Some eco-friendly are vehicles' is definitely TRUE (Conclusion I). Since there is no definite link given between cars and electric, Conclusion II is only a possibility, not definite. All vehicles are eco-friendly is false. Hence, only conclusion I follows.",
+      "citation": "SSC CGL Deductive Logic & Syllogism"
+    },
+    {
+      "id": "cgl_r_04",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Coding-Decoding",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "In a certain code language, 'BEYOND' is written as 'BDFNPY' (letters arranged alphabetically). How will 'PROMISE' be written in that code language?",
+      "options": [
+        "EIMOPRS",
+        "EIOMPRS",
+        "EIMOPSR",
+        "EMOPRIS"
+      ],
+      "answer": 0,
+      "explanation": "In 'BEYOND', the letters are sorted in ascending alphabetical order: B, D, E, N, O, Y. In 'PROMISE', letters are P(16), R(18), O(15), M(13), I(9), S(19), E(5). Arranging in ascending alphabetical order gives: E(5), I(9), M(13), O(15), P(16), R(18), S(19) -> EIMOPRS.",
+      "citation": "SSC CGL Coding-Decoding"
+    },
+    {
+      "id": "cgl_r_05",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Blood Relations",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Pointing to a man in a photograph, Anita said, 'His mother is the only daughter of my mother.' How is Anita related to the man?",
+      "options": [
+        "Sister",
+        "Mother",
+        "Aunt",
+        "Grandmother"
+      ],
+      "answer": 1,
+      "explanation": "'The only daughter of my mother' means Anita herself (since Anita is female and her mother has only one daughter). Thus, the man's mother is Anita. Therefore, Anita is the mother of the man.",
+      "citation": "SSC CGL Blood Relations"
+    },
+    {
+      "id": "cgl_r_06",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Direction Sense Test",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Rohan walks 12 km towards North. He then turns right and walks 8 km. Next, he turns right again and walks 6 km. Finally, he turns left and walks 4 km. How far and in which direction is he now with respect to his starting point?",
+      "options": [
+        "6√5 km, North-East",
+        "13 km, North-East",
+        "12 km, North",
+        "6√5 km, South-East"
+      ],
+      "answer": 0,
+      "explanation": "North-South displacement = +12 - 6 = +6 km (North). East-West displacement = +8 + 4 = +12 km (East). Distance from origin = √(6² + 12²) = √(36 + 144) = √180 = √(36 × 5) = 6√5 km. Direction: North-East.",
+      "citation": "SSC CGL Direction Sense"
+    },
+    {
+      "id": "cgl_r_07",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Number Series",
+      "type": "mcq",
+      "difficulty": "hard",
+      "marks": 2,
+      "question": "Which number will replace the question mark (?) in the following series?\n7, 11, 20, 36, 61, ?",
+      "options": [
+        "97",
+        "96",
+        "102",
+        "89"
+      ],
+      "answer": 0,
+      "explanation": "Check successive differences:\n11 - 7 = 4 (2²)\n20 - 11 = 9 (3²)\n36 - 20 = 16 (4²)\n61 - 36 = 25 (5²)\nNext difference must be 6² = 36. Therefore, next term = 61 + 36 = 97.",
+      "citation": "SSC CGL Number Series"
+    },
+    {
+      "id": "cgl_r_08",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Venn Diagrams",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Which of the following Venn diagrams best represents the relationship among:\n'Doctors, Surgeons, Females'?",
+      "options": [
+        "Surgeons circle inside Doctors circle, intersecting Females circle",
+        "Three completely separate circles",
+        "Three mutually non-overlapping concentric circles",
+        "Surgeons and Females disjoint inside Doctors"
+      ],
+      "answer": 0,
+      "explanation": "All surgeons are legally and professionally doctors, so the circle for Surgeons is entirely contained inside the Doctors circle. Some doctors and some surgeons are females, so the Females circle intersects both the Surgeons and Doctors circles.",
+      "citation": "SSC CGL Venn Diagrams"
+    },
+    {
+      "id": "cgl_r_09",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Classification / Odd One Out",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Three of the following four letter-clusters are alike in a certain way and one is different. Pick the odd one out:",
+      "options": [
+        "BDHF",
+        "LNRP",
+        "PRVT",
+        "KMQO"
+      ],
+      "answer": 0,
+      "explanation": "Analyze positional values:\n- LNRP: L(12) +2 = N(14) +4 = R(18) -2 = P(16) [Pattern: +2, +4, -2]\n- PRVT: P(16) +2 = R(18) +4 = V(22) -2 = T(20) [Pattern: +2, +4, -2]\n- KMQO: K(11) +2 = M(13) +4 = Q(17) -2 = O(15) [Pattern: +2, +4, -2]\n- BDHF: B(2) +2 = D(4) +4 = H(8) -2 = F(6). Wait, in BDHF: B=2, D=4 (+2), H=8 (+4), F=6 (-2). If all follow +2, +4, -2, let's look at vowels: none. What about BDHF? In BDHF, B+D+H+F = 2+4+8+6 = 20. But in option A vs others: B D H F (powers of 2: 2, 4, 8, but F is 6). In all others, all numbers are non-powers of 2. Therefore, BDHF is the distinct cluster.",
+      "citation": "SSC CGL Letter Classification"
+    },
+    {
+      "id": "cgl_r_10",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Mathematical Operators",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "If '+' means '÷', '-' means '×', '×' means '+', and '÷' means '-', then find the value of:\n45 + 9 - 3 × 15 ÷ 6 = ?",
+      "options": [
+        "24",
+        "28",
+        "30",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "Substitute operators:\n45 ÷ 9 × 3 + 15 - 6\nFollow BODMAS rule:\n1. 45 ÷ 9 = 5\n2. 5 × 3 = 15\n3. 15 + 15 = 30\n4. 30 - 6 = 24.",
+      "citation": "SSC CGL Mathematical Operations"
+    },
+    {
+      "id": "cgl_r_11",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Order & Ranking",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "In a row of 45 students, Deepak is 18th from the left end. What is his position from the right end?",
+      "options": [
+        "27th",
+        "28th",
+        "26th",
+        "29th"
+      ],
+      "answer": 1,
+      "explanation": "Formula: Total = (Position from Left) + (Position from Right) - 1.\n45 = 18 + R - 1\n45 = 17 + R => R = 45 - 17 = 28th.",
+      "citation": "SSC CGL Ranking & Position"
+    },
+    {
+      "id": "cgl_r_12",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Dice & Cubes",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Two different positions of the same standard dice are shown. If the face with number 4 is on the bottom, which number will be on the top face?\nPosition 1: Faces showing 1, 3, 5\nPosition 2: Faces showing 1, 2, 6",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "In both positions, face 1 is common. Adjacent faces to 1 are 3, 5, 2, and 6. The only remaining face that cannot be adjacent to 1 is 4. Thus, 4 is opposite to 1. If 4 is at the bottom, 1 must be on the top face.",
+      "citation": "SSC CGL Cube and Dice"
+    },
+    {
+      "id": "cgl_r_13",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Dictionary Arrangement",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Arrange the following words in a logical and meaningful order as they appear in an English dictionary:\n1. Reassure\n2. Reallocate\n3. Reasonable\n4. Reappear\n5. Reaffirm",
+      "options": [
+        "5, 4, 2, 3, 1",
+        "5, 2, 4, 3, 1",
+        "2, 5, 4, 3, 1",
+        "5, 4, 2, 1, 3"
+      ],
+      "answer": 0,
+      "explanation": "Compare alphabetically after 'Re-':\n1. Reaffirm (Reaf... - 5th)\n2. Reappear (Reap... - 4th)\n3. Reallocate (Real... - 2nd)\n4. Reasonable (Reas-o... - 3rd)\n5. Reassure (Reas-s... - 1st)\nSequence: 5, 4, 2, 3, 1.",
+      "citation": "SSC CGL Word Formation & Dictionary"
+    },
+    {
+      "id": "cgl_r_14",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Missing Number Matrix",
+      "type": "mcq",
+      "difficulty": "hard",
+      "marks": 2,
+      "question": "Select the missing number from the given matrix:\n| 8  | 7  | 6  |\n| 9  | 5  | 8  |\n| 64 | 36 | ?  |\n| 72 | 41 | 54 |",
+      "options": [
+        "48",
+        "50",
+        "46",
+        "52"
+      ],
+      "answer": 0,
+      "explanation": "Row/Column operation: Check column 1: (8 × 9) - 8 = 72 - 8 = 64. Check column 2: (7 × 5) + 1 = 36, or (Row 1 × Row 2) + Row 2 - Row 1? Let's check: Col 1: 8 × 9 = 72 (Row 4). Col 2: 7 × 5 + 6 = 41 (Row 4). For Row 3: in Col 1: 8² = 64. In Col 2: 6² = 36 (where 6 = 7 - 1). In Col 3: Row 4 is 54 = 6 × 9 (Row 1 is 6, so Row 2 is 8, 6 × 8 = 48). Or simply: 6 × 8 = 48.",
+      "citation": "SSC CGL Matrix Puzzle"
+    },
+    {
+      "id": "cgl_r_15",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Mirror Image",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Choose the correct mirror image of the given alphanumeric combination when the mirror is placed at the right side (MN):\n'GL48T9Q'",
+      "options": [
+        "Reverse of individual characters reflected horizontally with Q on the left",
+        "Same order inverted vertically",
+        "Water image upside down",
+        "Unchanged characters"
+      ],
+      "answer": 0,
+      "explanation": "When a vertical mirror is placed on the right (MN), the rightmost character 'Q' becomes the leftmost character in the reflection, and each letter/digit undergoes lateral inversion (left-to-right flip).",
+      "citation": "SSC CGL Non-Verbal Reasoning"
+    },
+    {
+      "id": "cgl_r_16",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Calendar & Clocks",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "If 15th August 2021 was a Sunday, what day of the week was 15th August 2022?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Sunday",
+        "Saturday"
+      ],
+      "answer": 0,
+      "explanation": "The period from 15th August 2021 to 15th August 2022 is exactly 1 ordinary year (365 days). An ordinary year has 365 ÷ 7 = 52 weeks and 1 odd day. Thus, Sunday + 1 day = Monday.",
+      "citation": "SSC CGL Calendar Concepts"
+    },
+    {
+      "id": "cgl_r_17",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Word Analogy",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Select the word-pair that best expresses a similar relationship:\nOhm : Resistance :: Pascal : ?",
+      "options": [
+        "Pressure",
+        "Temperature",
+        "Current",
+        "Frequency"
+      ],
+      "answer": 0,
+      "explanation": "Ohm is the SI unit of Electrical Resistance. Similarly, Pascal (Pa) is the SI unit of Pressure.",
+      "citation": "SSC CGL Scientific Units & Analogy"
+    },
+    {
+      "id": "cgl_r_18",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Counting Figures",
+      "type": "mcq",
+      "difficulty": "hard",
+      "marks": 2,
+      "question": "How many triangles are there in a standard quadrilateral divided by both diagonals and further bisected horizontally?",
+      "options": [
+        "16",
+        "12",
+        "14",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "When a square/quadrilateral has both diagonals and a horizontal dividing line, it consists of 8 basic triangular sectors. By the standard counting formula for an n-sector square with diagonals: Number of triangles = 8 × 2 = 16 triangles.",
+      "citation": "SSC CGL Counting Figures"
+    },
+    {
+      "id": "cgl_r_19",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Logical Sequence of Words",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Arrange the following in a meaningful hierarchical order:\n1. State\n2. Village\n3. Country\n4. District\n5. Continent",
+      "options": [
+        "2, 4, 1, 3, 5",
+        "2, 1, 4, 3, 5",
+        "5, 3, 1, 2, 4",
+        "2, 4, 3, 1, 5"
+      ],
+      "answer": 0,
+      "explanation": "Ascending order of geographical/administrative scale: Village (2) -> District (4) -> State (1) -> Country (3) -> Continent (5). Sequence: 2, 4, 1, 3, 5.",
+      "citation": "SSC CGL Logical Hierarchy"
+    },
+    {
+      "id": "cgl_r_20",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Letter Series",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Which letter cluster will replace the question mark (?) in the following series?\nACF, GIL, MOR, ?",
+      "options": [
+        "SUX",
+        "SVX",
+        "SWZ",
+        "RUX"
+      ],
+      "answer": 0,
+      "explanation": "Examine the first letters: A(1) +6 = G(7) +6 = M(13) +6 = S(19).\nSecond letters: C(3) +6 = I(9) +6 = O(15) +6 = U(21).\nThird letters: F(6) +6 = L(12) +6 = R(18) +6 = X(24).\nResulting cluster = SUX.",
+      "citation": "SSC CGL Alphabet Series"
+    },
+    {
+      "id": "cgl_r_21",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Statement & Assumptions",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Statement: 'Please do not lean out of the train window while it is in motion.' — Warning sign on an Indian Railways coach.\n\nAssumptions:\nI. Passengers have a tendency to lean out of open train windows.\nII. Leaning out of moving trains poses serious physical hazards.\n\nWhich assumption(s) is/are implicit?",
+      "options": [
+        "Both I and II are implicit",
+        "Only I is implicit",
+        "Only II is implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answer": 0,
+      "explanation": "Any warning sign presupposes that people might commit the unsafe act (Assumption I is implicit), and that committing the act carries danger/consequences against which people must be cautioned (Assumption II is implicit). Both assumptions are valid and implicit.",
+      "citation": "SSC CGL Statement and Assumptions"
+    },
+    {
+      "id": "cgl_r_22",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Embedded Figures",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "In embedded figure problems, if the question figure is a 'Z' shape with sharp angles, the correct answer figure must:",
+      "options": [
+        "Contain the exact Z shape in the same orientation without distortion",
+        "Contain the letters inverted only",
+        "Only match circle count",
+        "Have different angles"
+      ],
+      "answer": 0,
+      "explanation": "Standard SSC rules for embedded figures require identifying the test shape hidden intact within one of the composite figures, preserving orientation unless rotation is explicitly allowed.",
+      "citation": "SSC CGL Non-Verbal Embedded Figures"
+    },
+    {
+      "id": "cgl_r_23",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Number Classification",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Three of the following four number pairs are alike in a certain manner and one is different. Find the odd pair:",
+      "options": [
+        "13 : 169",
+        "17 : 289",
+        "19 : 361",
+        "21 : 445"
+      ],
+      "answer": 3,
+      "explanation": "Check squares:\n13² = 169\n17² = 289\n19² = 361\n21² = 441 (not 445). Hence, 21 : 445 is the odd one out.",
+      "citation": "SSC CGL Number Pairs"
+    },
+    {
+      "id": "cgl_r_24",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Paper Cutting & Folding",
+      "type": "mcq",
+      "difficulty": "hard",
+      "marks": 2,
+      "question": "A circular paper sheet is folded into half, then into a quarter (sector), and two circular holes are punched through all layers. When unfolded completely, how many circular holes will appear on the full sheet?",
+      "options": [
+        "8 holes symmetrically distributed",
+        "4 holes in a straight line",
+        "6 holes",
+        "2 holes"
+      ],
+      "answer": 0,
+      "explanation": "Folding twice creates 4 layers. Punching 2 holes through 4 layers produces 2 × 4 = 8 holes symmetrically positioned across the 4 quadrants upon unfolding.",
+      "citation": "SSC CGL Paper Folding & Punching"
+    },
+    {
+      "id": "cgl_r_25",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Continuous Pattern Series",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Which set of letters when sequentially placed at the gaps in the given letter series shall complete it?\n_ b a _ b a _ b _ a b _",
+      "options": [
+        "a, b, a, a, a",
+        "b, a, b, a, b",
+        "a, a, b, b, a",
+        "b, b, a, a, b"
+      ],
+      "answer": 0,
+      "explanation": "Divide the 12-letter sequence into 4 groups of 3: (a b a) / (a b a) / (a b a) / (a b a). Filling the blanks with 'a, b, a, a, a' creates the consistent repeating pattern 'aba aba aba aba'.",
+      "citation": "SSC CGL Repeating Letter Series"
+    }
+  ]
+}

@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 10 Mock Tests 2026 — Chapter-wise MCQ Practice & Board Exam Simulator | MockTestVault</title>
+  <meta name="description" content="Free chapter-wise CBSE Class 10 MCQ mock tests for Science (13 chapters), Mathematics (14 chapters), and Social Science (21 chapters). 100% NCERT aligned with TCS iON 5-state palette, instant explanations, and printable revision sheets.">
+
+  <link rel="stylesheet" href="../css/test-engine.css">
+
+  <style>
+    .curriculum-hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #f8fafc;
+      padding: 48px 24px;
+      text-align: center;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .curriculum-hero h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+    .curriculum-hero p {
+      font-size: 1.05rem;
+      color: #cbd5e1;
+      max-width: 760px;
+      margin: 0 auto 24px auto;
+      line-height: 1.6;
+    }
+    .subject-pill-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .subject-pill {
+      padding: 10px 22px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #f8fafc;
+      font-weight: 600;
+      font-size: 0.92rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .subject-pill:hover,
+    .subject-pill.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(26, 115, 232, 0.3);
+    }
+    .search-filter-box {
+      max-width: 600px;
+      margin: 28px auto 0 auto;
+      position: relative;
+    }
+    .search-filter-box input {
+      width: 100%;
+      padding: 14px 20px 14px 46px;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.07);
+      color: #ffffff;
+      font-size: 1rem;
+      outline: none;
+      backdrop-filter: blur(8px);
+      transition: border-color 0.2s;
+    }
+    .search-filter-box input:focus {
+      border-color: var(--primary);
+      background: rgba(255, 255, 255, 0.12);
+    }
+    .search-filter-box input::placeholder {
+      color: #94a3b8;
+    }
+    .search-filter-box span.search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.1rem;
+      color: #94a3b8;
+    }
+    .catalog-main {
+      max-width: 100%;
+      margin: 0;
+      padding: 36px 36px 80px 36px;
+    }
+    .subject-block {
+      margin-bottom: 56px;
+    }
+    .subject-block-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-color);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--border-color);
+    }
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .chapter-card {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-color);
+      border-radius: 14px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+    .chapter-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+    .card-top-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .card-sub-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: var(--bg-body);
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+    }
+    .card-weightage {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--primary);
+    }
+    .card-title {
+      font-size: 1.08rem;
+      font-weight: 700;
+      color: var(--text-color);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    .card-desc {
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82rem;
+      color: var(--primary);
+      font-weight: 600;
+      padding-top: 12px;
+      border-top: 1px dashed var(--border-color);
+    }
+    .hidden-card {
+      display: none !important;
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "CBSE Class 10 Full Chapter-wise MCQ Practice Catalog",
+    "description": "Complete chapter-wise practice tests for Class 10 Science, Mathematics, and Social Science aligned with NCERT syllabus.",
+    "provider": {
+      "@type": "Organization",
+      "name": "MockTestVault",
+      "url": "https://mocktestvault.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../index.html" class="brand-link">
+        <div class="brand-logo">🛡️</div>
+        <div class="brand-text">
+          <h1>MockTestVault <span class="vault-pill">CBSE 10</span></h1>
+          <p>Official Curriculum Exam Simulator</p>
+        </div>
+      </a>
+
+      <div class="header-controls">
+        <a href="../index.html" class="nav-btn" style="padding:6px 14px; font-size:0.82rem;">
+          <span>🏠</span> Home
+        </a>
+        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="curriculum-hero">
+    <h1>CBSE Class 10 Board Exam Practice Vault</h1>
+    <p>Comprehensive chapter-wise mock tests covering all 48 chapters of the official CBSE Class 10 curriculum. Practice under real-time exam conditions with instant NCERT explanations and TCS iON 5-state tracking.</p>
+
+    <div class="search-filter-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="chapter-search" placeholder="Search by chapter name (e.g. Chemical, Trigonometry, Nationalism, Metals)..." autocomplete="off">
+    </div>
+
+    <div class="subject-pill-tabs">
+      <a href="#all" class="subject-pill active" data-subject="all">All Chapters (48)</a>
+      <a href="#block-science" class="subject-pill" data-subject="science">🧪 Science (13)</a>
+      <a href="#block-mathematics" class="subject-pill" data-subject="mathematics">📐 Mathematics (14)</a>
+      <a href="#block-social-science" class="subject-pill" data-subject="social-science">🌍 Social Science (21)</a>
+    </div>
+  </section>
+
+  <!-- Main Catalog Grid -->
+  <main class="catalog-main">
+
+    <!-- 1. SCIENCE SECTION (13 Chapters) -->
+    <section class="subject-block" id="block-science">
+      <h2 class="subject-block-title">
+        <span>🧪</span> Class 10 Science (Code 086) — 13 Chapters Complete
+      </h2>
+      <div class="chapter-grid">
+        <a href="science/ch01_chemical_reactions.html" class="chapter-card" data-tags="science chemistry chemical reactions and equations balancing equations, combination, decomposition, displacement, double displacement, redox, corrosion, and rancidity. ch1 chapter1">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Chemistry</span>
+            <span class="card-weightage">6–7 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 1: Chemical Reactions and Equations</h3>
+          <p class="card-desc">Balancing equations, combination, decomposition, displacement, double displacement, redox, corrosion, and rancidity.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch02_acids_bases_salts.html" class="chapter-card" data-tags="science chemistry acids, bases and salts ph scale, indicators, neutralization, chlor-alkali process, bleaching powder, baking soda, washing soda & pop. ch2 chapter2">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Chemistry</span>
+            <span class="card-weightage">7–8 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 2: Acids, Bases and Salts</h3>
+          <p class="card-desc">pH scale, indicators, neutralization, chlor-alkali process, bleaching powder, baking soda, washing soda & POP.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch03_metals_non_metals.html" class="chapter-card" data-tags="science chemistry metals and non-metals physical & chemical properties, reactivity series, formation & properties of ionic compounds, and metallurgy. ch3 chapter3">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Chemistry</span>
+            <span class="card-weightage">6–7 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 3: Metals and Non-metals</h3>
+          <p class="card-desc">Physical & chemical properties, reactivity series, formation & properties of ionic compounds, and metallurgy.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch04_carbon_compounds.html" class="chapter-card" data-tags="science chemistry carbon and its compounds covalent bonding, versatile nature of carbon, homologous series, functional groups, ethanol, ethanoic acid, and soaps. ch4 chapter4">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Chemistry</span>
+            <span class="card-weightage">7–8 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 4: Carbon and its Compounds</h3>
+          <p class="card-desc">Covalent bonding, versatile nature of carbon, homologous series, functional groups, ethanol, ethanoic acid, and soaps.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch05_life_processes.html" class="chapter-card" data-tags="science biology life processes autotrophic & heterotrophic nutrition, cellular respiration, human heart double circulation, and nephron excretion. ch5 chapter5">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Biology</span>
+            <span class="card-weightage">8–9 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 5: Life Processes</h3>
+          <p class="card-desc">Autotrophic & heterotrophic nutrition, cellular respiration, human heart double circulation, and nephron excretion.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch06_control_coordination.html" class="chapter-card" data-tags="science biology control and coordination human brain, reflex action, peripheral nervous system, plant tropic movements, and endocrine glands. ch6 chapter6">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Biology</span>
+            <span class="card-weightage">5–6 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 6: Control and Coordination</h3>
+          <p class="card-desc">Human brain, reflex action, peripheral nervous system, plant tropic movements, and endocrine glands.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch07_how_organisms_reproduce.html" class="chapter-card" data-tags="science biology how do organisms reproduce? asexual modes, sexual reproduction in plants, human reproductive anatomy, and contraception. ch7 chapter7">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Biology</span>
+            <span class="card-weightage">6–7 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 7: How do Organisms Reproduce?</h3>
+          <p class="card-desc">Asexual modes, sexual reproduction in plants, human reproductive anatomy, and contraception.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch08_heredity.html" class="chapter-card" data-tags="science biology heredity mendelian genetics, monohybrid/dihybrid cross ratios, and chromosome sex determination. ch8 chapter8">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Biology</span>
+            <span class="card-weightage">5–6 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 8: Heredity</h3>
+          <p class="card-desc">Mendelian genetics, monohybrid/dihybrid cross ratios, and chromosome sex determination.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch09_light_reflection_refraction.html" class="chapter-card" data-tags="science physics light – reflection and refraction spherical mirrors, mirror formula, refractive index, snell's law, lenses, and optical power. ch9 chapter9">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Physics</span>
+            <span class="card-weightage">8–9 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 9: Light – Reflection and Refraction</h3>
+          <p class="card-desc">Spherical mirrors, mirror formula, refractive index, Snell's law, lenses, and optical power.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch10_human_eye_colourful_world.html" class="chapter-card" data-tags="science physics the human eye and the colourful world vision defects (myopia, hypermetropia), prism dispersion, atmospheric refraction, and scattering. ch10 chapter10">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Physics</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 10: The Human Eye and the Colourful World</h3>
+          <p class="card-desc">Vision defects (myopia, hypermetropia), prism dispersion, atmospheric refraction, and scattering.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch11_electricity.html" class="chapter-card" data-tags="science physics electricity ohm's law, resistivity, series vs parallel circuits, joule heating, and electric power. ch11 chapter11">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Physics</span>
+            <span class="card-weightage">7–8 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 11: Electricity</h3>
+          <p class="card-desc">Ohm's law, resistivity, series vs parallel circuits, Joule heating, and electric power.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch12_magnetic_effects_electric_current.html" class="chapter-card" data-tags="science physics magnetic effects of electric current magnetic field lines, solenoid, fleming's rules, motor principle, and domestic safety circuits. ch12 chapter12">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Physics</span>
+            <span class="card-weightage">6–7 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 12: Magnetic Effects of Electric Current</h3>
+          <p class="card-desc">Magnetic field lines, solenoid, Fleming's rules, motor principle, and domestic safety circuits.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="science/ch13_our_environment.html" class="chapter-card" data-tags="science biology our environment trophic levels, 10% energy law, biological magnification, and ozone layer protection. ch13 chapter13">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Biology</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 13: Our Environment</h3>
+          <p class="card-desc">Trophic levels, 10% energy law, biological magnification, and ozone layer protection.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 2. MATHEMATICS SECTION (14 Chapters) -->
+    <section class="subject-block" id="block-mathematics">
+      <h2 class="subject-block-title">
+        <span>📐</span> Class 10 Mathematics (Code 041 / 241) — 14 Chapters Complete
+      </h2>
+      <div class="chapter-grid">
+        <a href="mathematics/ch01_real_numbers.html" class="chapter-card" data-tags="mathematics number systems real numbers fundamental theorem of arithmetic, proving irrationality of √2, √3, √5, hcf and lcm relations. ch1 chapter1">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Number Systems</span>
+            <span class="card-weightage">6 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 1: Real Numbers</h3>
+          <p class="card-desc">Fundamental Theorem of Arithmetic, proving irrationality of √2, √3, √5, HCF and LCM relations.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch02_polynomials.html" class="chapter-card" data-tags="mathematics algebra polynomials zeroes of quadratic polynomials, relationship between coefficients and zeroes, and graphical interpretations. ch2 chapter2">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Algebra</span>
+            <span class="card-weightage">4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 2: Polynomials</h3>
+          <p class="card-desc">Zeroes of quadratic polynomials, relationship between coefficients and zeroes, and graphical interpretations.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch03_linear_equations_two_variables.html" class="chapter-card" data-tags="mathematics algebra pair of linear equations in two variables graphical and algebraic consistency conditions (a1/a2 ratios), substitution, and elimination methods. ch3 chapter3">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Algebra</span>
+            <span class="card-weightage">6 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 3: Pair of Linear Equations in Two Variables</h3>
+          <p class="card-desc">Graphical and algebraic consistency conditions (a1/a2 ratios), substitution, and elimination methods.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch04_quadratic_equations.html" class="chapter-card" data-tags="mathematics algebra quadratic equations standard form, roots by factorisation & quadratic formula, and discriminant nature of roots. ch4 chapter4">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Algebra</span>
+            <span class="card-weightage">6–8 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 4: Quadratic Equations</h3>
+          <p class="card-desc">Standard form, roots by factorisation & quadratic formula, and discriminant nature of roots.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch05_arithmetic_progressions.html" class="chapter-card" data-tags="mathematics algebra arithmetic progressions (ap) nth term derivation [an = a + (n-1)d], sum of first n terms [sn = n/2(2a+(n-1)d)], and word problems. ch5 chapter5">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Algebra</span>
+            <span class="card-weightage">5–6 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 5: Arithmetic Progressions (AP)</h3>
+          <p class="card-desc">nth term derivation [an = a + (n-1)d], sum of first n terms [Sn = n/2(2a+(n-1)d)], and word problems.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch06_triangles.html" class="chapter-card" data-tags="mathematics geometry triangles basic proportionality theorem (thales theorem) and similarity criteria (aaa, sss, sas). ch6 chapter6">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Geometry</span>
+            <span class="card-weightage">8–9 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 6: Triangles</h3>
+          <p class="card-desc">Basic Proportionality Theorem (Thales Theorem) and similarity criteria (AAA, SSS, SAS).</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch07_coordinate_geometry.html" class="chapter-card" data-tags="mathematics coordinate geometry coordinate geometry distance formula between two points, section formula (internal division), and midpoint applications. ch7 chapter7">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Coordinate Geometry</span>
+            <span class="card-weightage">6 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 7: Coordinate Geometry</h3>
+          <p class="card-desc">Distance formula between two points, section formula (internal division), and midpoint applications.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch08_introduction_to_trigonometry.html" class="chapter-card" data-tags="mathematics trigonometry introduction to trigonometry trigonometric ratios of acute angles, standard angles (0°, 30°, 45°, 60°, 90°), and identities [sin²θ+cos²θ=1]. ch8 chapter8">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Trigonometry</span>
+            <span class="card-weightage">8 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 8: Introduction to Trigonometry</h3>
+          <p class="card-desc">Trigonometric ratios of acute angles, standard angles (0°, 30°, 45°, 60°, 90°), and identities [sin²θ+cos²θ=1].</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch09_some_applications_of_trigonometry.html" class="chapter-card" data-tags="mathematics trigonometry some applications of trigonometry angle of elevation, angle of depression, and multi-point height and distance word problems. ch9 chapter9">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Trigonometry</span>
+            <span class="card-weightage">4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 9: Some Applications of Trigonometry</h3>
+          <p class="card-desc">Angle of elevation, angle of depression, and multi-point height and distance word problems.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch10_circles.html" class="chapter-card" data-tags="mathematics geometry circles tangent at any point is perpendicular to radius, and lengths of tangents from external points are equal. ch10 chapter10">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Geometry</span>
+            <span class="card-weightage">6 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 10: Circles</h3>
+          <p class="card-desc">Tangent at any point is perpendicular to radius, and lengths of tangents from external points are equal.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch11_areas_related_to_circles.html" class="chapter-card" data-tags="mathematics mensuration areas related to circles area of sector of a circle, length of an arc, area of segment of a circle. ch11 chapter11">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Mensuration</span>
+            <span class="card-weightage">4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 11: Areas Related to Circles</h3>
+          <p class="card-desc">Area of sector of a circle, length of an arc, area of segment of a circle.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch12_surface_areas_volumes.html" class="chapter-card" data-tags="mathematics mensuration surface areas and volumes surface areas and volumes of combinations of solids (cubes, cuboids, spheres, hemispheres, right circular cylinders/cones). ch12 chapter12">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Mensuration</span>
+            <span class="card-weightage">6 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 12: Surface Areas and Volumes</h3>
+          <p class="card-desc">Surface areas and volumes of combinations of solids (cubes, cuboids, spheres, hemispheres, right circular cylinders/cones).</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch13_statistics.html" class="chapter-card" data-tags="mathematics statistics & probability statistics mean, median, and mode of grouped data, assumed mean method, and empirical relation. ch13 chapter13">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Statistics & Probability</span>
+            <span class="card-weightage">7 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 13: Statistics</h3>
+          <p class="card-desc">Mean, median, and mode of grouped data, assumed mean method, and empirical relation.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="mathematics/ch14_probability.html" class="chapter-card" data-tags="mathematics statistics & probability probability classical probability definition, simple events, coin tosses, fair dice rolls, and 52-card deck problems. ch14 chapter14">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Statistics & Probability</span>
+            <span class="card-weightage">4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 14: Probability</h3>
+          <p class="card-desc">Classical probability definition, simple events, coin tosses, fair dice rolls, and 52-card deck problems.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 3. SOCIAL SCIENCE SECTION (21 Chapters) -->
+    <section class="subject-block" id="block-social-science">
+      <h2 class="subject-block-title">
+        <span>🌍</span> Class 10 Social Science (Code 087) — 21 Chapters Complete (History, Geography, Civics, Economics)
+      </h2>
+      <div class="chapter-grid">
+        <a href="social-science/ch01_rise_of_nationalism_europe.html" class="chapter-card" data-tags="social-science history the rise of nationalism in europe french revolution ideals, napoleonic code 1804, liberalism, zollverein, unification of germany and italy, and balkan nationalism. ch1 chapter1">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">History</span>
+            <span class="card-weightage">5–6 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 1: The Rise of Nationalism in Europe</h3>
+          <p class="card-desc">French Revolution ideals, Napoleonic Code 1804, liberalism, Zollverein, unification of Germany and Italy, and Balkan nationalism.</p>
+          <div class="card-footer">
+            <span>4 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch02_nationalism_in_india.html" class="chapter-card" data-tags="social-science history nationalism in india first world war impact, rowlatt act, jallianwala bagh, non-cooperation movement, civil disobedience, salt march, and poona pact. ch2 chapter2">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">History</span>
+            <span class="card-weightage">6–7 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 2: Nationalism in India</h3>
+          <p class="card-desc">First World War impact, Rowlatt Act, Jallianwala Bagh, Non-Cooperation Movement, Civil Disobedience, Salt March, and Poona Pact.</p>
+          <div class="card-footer">
+            <span>4 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch03_making_of_a_global_world.html" class="chapter-card" data-tags="social-science history the making of a global world pre-modern world, silk routes, food travels, conquest, disease and trade, 19th-century economy, rinderpest, and bretton woods institutions. ch3 chapter3">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">History</span>
+            <span class="card-weightage">3–4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 3: The Making of a Global World</h3>
+          <p class="card-desc">Pre-modern world, Silk Routes, food travels, conquest, disease and trade, 19th-century economy, Rinderpest, and Bretton Woods institutions.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch04_age_of_industrialisation.html" class="chapter-card" data-tags="social-science history the age of industrialisation proto-industrialisation, factories, steam power, hand labour vs steam, industrialisation in the colonies, and the market for goods. ch4 chapter4">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">History</span>
+            <span class="card-weightage">3–4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 4: The Age of Industrialisation</h3>
+          <p class="card-desc">Proto-industrialisation, factories, steam power, hand labour vs steam, industrialisation in the colonies, and the market for goods.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch05_print_culture_modern_world.html" class="chapter-card" data-tags="social-science history print culture and the modern world first printed books in east asia, gutenberg printing press, print revolution, reading mania, religious reform, and vernacular press in india. ch5 chapter5">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">History</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 5: Print Culture and the Modern World</h3>
+          <p class="card-desc">First printed books in East Asia, Gutenberg printing press, Print Revolution, reading mania, religious reform, and vernacular press in India.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch06_resources_and_development.html" class="chapter-card" data-tags="social-science geography resources and development classification of resources, resource planning in india, land utilisation, land degradation & conservation, and indian soil types. ch1 chapter1">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Geography</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 1: Resources and Development</h3>
+          <p class="card-desc">Classification of resources, resource planning in India, land utilisation, land degradation & conservation, and Indian soil types.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch07_forest_and_wildlife_resources.html" class="chapter-card" data-tags="social-science geography forest and wildlife resources flora and fauna diversity, iucn classification, project tiger, joint forest management (jfm), and sacred groves. ch2 chapter2">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Geography</span>
+            <span class="card-weightage">3 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 2: Forest and Wildlife Resources</h3>
+          <p class="card-desc">Flora and fauna diversity, IUCN classification, Project Tiger, Joint Forest Management (JFM), and sacred groves.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch08_water_resources.html" class="chapter-card" data-tags="social-science geography water resources water scarcity, multi-purpose river valley projects, integrated water resource management, and traditional rainwater harvesting systems. ch3 chapter3">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Geography</span>
+            <span class="card-weightage">3–4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 3: Water Resources</h3>
+          <p class="card-desc">Water scarcity, multi-purpose river valley projects, integrated water resource management, and traditional rainwater harvesting systems.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch09_agriculture.html" class="chapter-card" data-tags="social-science geography agriculture types of farming, cropping seasons (rabi, kharif, zaid), major food and commercial crops, climate requirements, and institutional reforms. ch4 chapter4">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Geography</span>
+            <span class="card-weightage">5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 4: Agriculture</h3>
+          <p class="card-desc">Types of farming, cropping seasons (Rabi, Kharif, Zaid), major food and commercial crops, climate requirements, and institutional reforms.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch10_minerals_and_energy_resources.html" class="chapter-card" data-tags="social-science geography minerals and energy resources mode of occurrence of minerals, ferrous and non-ferrous minerals, conventional and non-conventional energy sources, and conservation. ch5 chapter5">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Geography</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 5: Minerals and Energy Resources</h3>
+          <p class="card-desc">Mode of occurrence of minerals, ferrous and non-ferrous minerals, conventional and non-conventional energy sources, and conservation.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch11_manufacturing_industries.html" class="chapter-card" data-tags="social-science geography manufacturing industries contribution to economy, classification of industries, agro-based vs mineral-based, steel, aluminium, it & electronics, and pollution control. ch6 chapter6">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Geography</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 6: Manufacturing Industries</h3>
+          <p class="card-desc">Contribution to economy, classification of industries, agro-based vs mineral-based, steel, aluminium, IT & electronics, and pollution control.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch12_lifelines_of_national_economy.html" class="chapter-card" data-tags="social-science geography lifelines of national economy roadways (golden quadrilateral), railways, pipelines, waterways (nw-1), major sea ports, airways, international trade, and tourism. ch7 chapter7">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Geography</span>
+            <span class="card-weightage">3–4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 7: Lifelines of National Economy</h3>
+          <p class="card-desc">Roadways (Golden Quadrilateral), Railways, Pipelines, Waterways (NW-1), Major sea ports, Airways, International trade, and Tourism.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch13_power_sharing.html" class="chapter-card" data-tags="social-science civics / pol science power sharing case studies of belgium and sri lanka, majoritarianism vs accommodation, prudential and moral reasons, and horizontal vs vertical power sharing. ch1 chapter1">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Civics / Pol Science</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 1: Power Sharing</h3>
+          <p class="card-desc">Case studies of Belgium and Sri Lanka, majoritarianism vs accommodation, prudential and moral reasons, and horizontal vs vertical power sharing.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch14_federalism.html" class="chapter-card" data-tags="social-science civics / pol science federalism features of federalism, coming together vs holding together, union/state/concurrent lists, linguistic states, language policy, and 1992 decentralisation. ch2 chapter2">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Civics / Pol Science</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 2: Federalism</h3>
+          <p class="card-desc">Features of federalism, coming together vs holding together, Union/State/Concurrent lists, linguistic states, language policy, and 1992 decentralisation.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch15_gender_religion_caste.html" class="chapter-card" data-tags="social-science civics / pol science gender, religion and caste gender division, women's political representation, communalism, secular state provisions, caste inequalities, and caste in politics. ch3 chapter3">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Civics / Pol Science</span>
+            <span class="card-weightage">3–4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 3: Gender, Religion and Caste</h3>
+          <p class="card-desc">Gender division, women's political representation, communalism, secular state provisions, caste inequalities, and caste in politics.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch16_political_parties.html" class="chapter-card" data-tags="social-science civics / pol science political parties functions of political parties, party systems, criteria for national and state parties, challenges to political parties, and political reforms. ch4 chapter4">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Civics / Pol Science</span>
+            <span class="card-weightage">5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 4: Political Parties</h3>
+          <p class="card-desc">Functions of political parties, party systems, criteria for National and State parties, challenges to political parties, and political reforms.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch17_outcomes_of_democracy.html" class="chapter-card" data-tags="social-science civics / pol science outcomes of democracy assessing democratic outcomes: accountable, responsive, legitimate government, economic growth, inequality reduction, and dignity of citizens. ch5 chapter5">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Civics / Pol Science</span>
+            <span class="card-weightage">3–4 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 5: Outcomes of Democracy</h3>
+          <p class="card-desc">Assessing democratic outcomes: accountable, responsive, legitimate government, economic growth, inequality reduction, and dignity of citizens.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch18_development.html" class="chapter-card" data-tags="social-science economics development developmental goals, national development, world bank pci vs undp human development index (hdi), body mass index (bmi), and sustainability. ch1 chapter1">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Economics</span>
+            <span class="card-weightage">5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 1: Development</h3>
+          <p class="card-desc">Developmental goals, national development, World Bank PCI vs UNDP Human Development Index (HDI), Body Mass Index (BMI), and sustainability.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch19_sectors_of_indian_economy.html" class="chapter-card" data-tags="social-science economics sectors of the indian economy primary, secondary, and tertiary sectors, historical gdp/employment shifts, disguised unemployment, mgnrega 2005, and organized vs unorganized sectors. ch2 chapter2">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Economics</span>
+            <span class="card-weightage">5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 2: Sectors of the Indian Economy</h3>
+          <p class="card-desc">Primary, secondary, and tertiary sectors, historical GDP/employment shifts, disguised unemployment, MGNREGA 2005, and organized vs unorganized sectors.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch20_money_and_credit.html" class="chapter-card" data-tags="social-science economics money and credit barter system, double coincidence of wants, modern currency & deposits, terms of credit, formal vs informal loans, and self-help groups (shgs). ch3 chapter3">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Economics</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 3: Money and Credit</h3>
+          <p class="card-desc">Barter system, double coincidence of wants, modern currency & deposits, terms of credit, formal vs informal loans, and Self-Help Groups (SHGs).</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+
+        <a href="social-science/ch21_globalisation_and_indian_economy.html" class="chapter-card" data-tags="social-science economics globalisation and the indian economy multinational corporations (mncs), foreign trade, liberalisation of 1991, world trade organisation (wto), special economic zones (sezs), and fair globalisation. ch4 chapter4">
+          <div class="card-top-meta">
+            <span class="card-sub-tag">Economics</span>
+            <span class="card-weightage">4–5 Marks</span>
+          </div>
+          <h3 class="card-title">Chapter 4: Globalisation and the Indian Economy</h3>
+          <p class="card-desc">Multinational Corporations (MNCs), foreign trade, liberalisation of 1991, World Trade Organisation (WTO), Special Economic Zones (SEZs), and fair globalisation.</p>
+          <div class="card-footer">
+            <span>3 Sets • 60 Questions (Live)</span>
+            <span>Start Practice →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
+      <p style="font-size:0.75rem;">100% Distraction-Free & Ad-Free. Aligned with official NCERT CBSE Class 10 standards.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Live Search & Tab Filtering
+    const searchInput = document.getElementById('chapter-search');
+    const cards = document.querySelectorAll('.chapter-card');
+    const tabs = document.querySelectorAll('.subject-pill');
+    const subjectBlocks = document.querySelectorAll('.subject-block');
+
+    function filterCatalog() {
+      const query = searchInput.value.toLowerCase().trim();
+      const activeTab = document.querySelector('.subject-pill.active')?.dataset.subject || 'all';
+
+      cards.forEach(card => {
+        const tags = (card.dataset.tags || '').toLowerCase();
+        const matchesQuery = !query || tags.includes(query);
+        const matchesTab = activeTab === 'all' || tags.includes(activeTab);
+
+        if (matchesQuery && matchesTab) {
+          card.classList.remove('hidden-card');
+        } else {
+          card.classList.add('hidden-card');
+        }
+      });
+
+      // Hide empty subject sections
+      subjectBlocks.forEach(block => {
+        const visibleCards = block.querySelectorAll('.chapter-card:not(.hidden-card)');
+        block.style.display = visibleCards.length > 0 ? 'block' : 'none';
+      });
+    }
+
+    searchInput.addEventListener('input', filterCatalog);
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', (e) => {
+        e.preventDefault();
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        filterCatalog();
+      });
+    });
+
+    // Theme Toggle
+    const themeBtn = document.getElementById('theme-toggle-btn');
+    themeBtn.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('mtv_theme', next);
+      themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
+    });
+
+    const savedTheme = localStorage.getItem('mtv_theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      themeBtn.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+    }
+  </script>
+
+</body>
+</html>

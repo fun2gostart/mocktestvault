@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch04-s3-001",
+      "type": "assertion-reason",
+      "subtopic": "Discriminant Zero and Equal Roots",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The equation 4x^2 - 12x + 9 = 0 has two equal real roots.\nReason (R): If the discriminant D = b^2 - 4ac of a quadratic equation ax^2 + bx + c = 0 is zero, both roots are equal to -b / (2a).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here a = 4, b = -12, c = 9. Discriminant D = (-12)^2 - 4(4)(9) = 144 - 144 = 0. Since D = 0, roots are real and equal (-b/(2a) = 12/8 = 3/2). Both statements are true and (R) correctly explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-002",
+      "type": "assertion-reason",
+      "subtopic": "Linear vs Quadratic Identification",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The equation (x + 1)^2 = 2(x - 3) is a quadratic equation.\nReason (R): Any equation that can be reduced to the form ax^2 + bx + c = 0, where a, b, c are real numbers and a != 0, is a quadratic equation.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Expanding: x^2 + 2x + 1 = 2x - 6 => x^2 + 7 = 0. Here degree is 2 and a = 1 != 0, so it is a quadratic equation. Both statements are true and Reason (R) defines what constitutes a quadratic equation.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.2"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-003",
+      "type": "assertion-reason",
+      "subtopic": "Complex/Non-Real Roots Criterion",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The equation x^2 + 2x + 5 = 0 has no real roots.\nReason (R): For any quadratic equation ax^2 + bx + c = 0, if the discriminant D = b^2 - 4ac < 0, the square root of D is not real, hence there are no real roots.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here a = 1, b = 2, c = 5. D = 2^2 - 4(1)(5) = 4 - 20 = -16 < 0. Since D < 0, there are no real roots. Reason correctly explains Assertion.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-004",
+      "type": "assertion-reason",
+      "subtopic": "Opposite Signed Coefficients",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The quadratic equation 3x^2 - 7x - 4 = 0 definitely has two distinct real roots.\nReason (R): If 'a' and 'c' have opposite signs, then -4ac is strictly positive, guaranteeing that D = b^2 - 4ac > 0 for all real values of b.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here a = 3 and c = -4. Since a and c have opposite signs, -4ac = -4(3)(-4) = +48 > 0. Since b^2 = (-7)^2 = 49 >= 0, D = 49 + 48 = 97 > 0, ensuring two distinct real roots. (R) correctly explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-005",
+      "type": "assertion-reason",
+      "subtopic": "Zero Linear Coefficient Symmetry",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If b = 0 in ax^2 + bx + c = 0 and ac < 0, the roots are numerically equal in magnitude but opposite in sign.\nReason (R): When b = 0, ax^2 + c = 0 gives x = +- sqrt(-c/a). If ac < 0, -c/a is positive, yielding two symmetric real roots +sqrt(-c/a) and -sqrt(-c/a).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "If b = 0, x^2 = -c/a. Since ac < 0, -c/a > 0. The roots are x = sqrt(-c/a) and x = -sqrt(-c/a), which are equal in magnitude and opposite in sign. Both statements are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.2"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-006",
+      "type": "assertion-reason",
+      "subtopic": "Cubic Expansion False Quadratic",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The equation (x + 2)^3 = x^3 - 4 is a quadratic equation.\nReason (R): An equation of degree 3 can never be a quadratic equation under any algebraic simplification.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 2,
+      "explanation": "Assertion (A) is TRUE: Expanding (x + 2)^3 = x^3 + 6x^2 + 12x + 8. Thus x^3 + 6x^2 + 12x + 8 = x^3 - 4 => 6x^2 + 12x + 12 = 0 => x^2 + 2x + 2 = 0. The x^3 terms cancel, leaving a quadratic equation of degree 2! Reason (R) is FALSE because algebraic cancellation can reduce an expression with cubic terms into a quadratic form. Hence (A) is true, but (R) is false.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.2, Example 2(iv)"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-007",
+      "type": "assertion-reason",
+      "subtopic": "Irrational Conjugate Roots",
+      "difficulty": "Hard",
+      "question": "Assertion (A): If one root of the quadratic equation x^2 - 4x + 1 = 0 is 2 + sqrt(3), then the other root is 2 - sqrt(3).\nReason (R): For quadratic equations with rational coefficients, irrational roots always occur in conjugate radical pairs (m + sqrt(n)) and (m - sqrt(n)).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "For x^2 - 4x + 1 = 0, roots are x = (-(-4) +- sqrt(16 - 4))/2 = (4 +- sqrt(12))/2 = 2 +- sqrt(3). The roots are indeed conjugate irrational pairs. Both (A) and (R) are true, and (R) correctly explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.4"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-008",
+      "type": "assertion-reason",
+      "subtopic": "Zero Root Criterion",
+      "difficulty": "Easy",
+      "question": "Assertion (A): In the quadratic equation ax^2 + bx = 0 (c = 0), one root is always zero.\nReason (R): Factoring ax^2 + bx = 0 yields x(ax + b) = 0, which directly gives x = 0 or x = -b/a.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "When the constant term c = 0, x is a common factor: x(ax + b) = 0. Therefore, x = 0 is always one of the solutions. Both statements are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.3"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-009",
+      "type": "assertion-reason",
+      "subtopic": "Equal Roots Parameter Invalidation",
+      "difficulty": "Hard",
+      "question": "Assertion (A): For the equation (k - 1)x^2 + 2(k - 1)x + 1 = 0 to have equal roots, k must be 2.\nReason (R): Equal roots require D = 0 => 4(k - 1)^2 - 4(k - 1)(1) = 0 => 4(k - 1)(k - 2) = 0. While k = 1 and k = 2 satisfy D = 0, k = 1 reduces the coefficient of x^2 to 0, destroying the quadratic property.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "If k = 1, (k - 1) = 0, so the x^2 term vanishes and the expression becomes 0 = -1 (impossible), not a quadratic equation. Hence k = 1 is invalid. The only admissible value is k = 2. Both (A) and (R) are true, and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-010",
+      "type": "assertion-reason",
+      "subtopic": "Factorisation Middle Term Splitting",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The quadratic equation x^2 + 5x + 6 = 0 factors into (x + 2)(x + 3) = 0.\nReason (R): To factor ax^2 + bx + c = 0, we look for two numbers whose sum is b and whose product is ac.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here b = 5 and ac = 1 * 6 = 6. The numbers 2 and 3 satisfy 2 + 3 = 5 and 2 * 3 = 6. Thus x^2 + 5x + 6 = (x + 2)(x + 3). Both (A) and (R) are true and (R) is the standard method explaining (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.3"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-011",
+      "type": "mcq",
+      "subtopic": "Case Study 1: Arch Bridge Height Equation",
+      "difficulty": "Medium",
+      "question": "Case Study 1 (Architectural Design): A civil engineer designs a parabolic pedestrian bridge arch over a canal. The vertical height h (in metres) of the arch at a horizontal distance x (in metres) from one bank is modeled by the equation: h(x) = -x^2 + 8x - 7. At what horizontal distances from the bank does the arch touch the ground level (h = 0)?",
+      "options": [
+        "x = 1 metre and x = 7 metres",
+        "x = 2 metres and x = 6 metres",
+        "x = 0 metres and x = 8 metres",
+        "x = 3 metres and x = 5 metres"
+      ],
+      "answer": 0,
+      "explanation": "Setting h = 0: -x^2 + 8x - 7 = 0 => x^2 - 8x + 7 = 0 => (x - 7)(x - 1) = 0. Therefore, x = 1 m and x = 7 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-012",
+      "type": "mcq",
+      "subtopic": "Case Study 1: Arch Bridge Span Width",
+      "difficulty": "Easy",
+      "question": "Case Study 1 (Continued): What is the total horizontal span of the pedestrian arch between its two ground contact points?",
+      "options": [
+        "6 metres",
+        "7 metres",
+        "8 metres",
+        "5 metres"
+      ],
+      "answer": 0,
+      "explanation": "The arch touches the ground at x = 1 m and x = 7 m. The total horizontal span = 7 - 1 = 6 metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-013",
+      "type": "mcq",
+      "subtopic": "Case Study 1: Maximum Arch Clearance",
+      "difficulty": "Hard",
+      "question": "Case Study 1 (Continued): What is the maximum vertical clearance (peak height) of this arch above the ground?",
+      "options": [
+        "9 metres",
+        "8 metres",
+        "7 metres",
+        "10 metres"
+      ],
+      "answer": 0,
+      "explanation": "The maximum occurs at the midpoint of the span, x = (1 + 7)/2 = 4 metres. Substituting x = 4 into h(x): h(4) = -(4)^2 + 8(4) - 7 = -16 + 32 - 7 = 9 metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-014",
+      "type": "mcq",
+      "subtopic": "Case Study 2: Express Train Time Gap Equation",
+      "difficulty": "Medium",
+      "question": "Case Study 2 (Railway Transit): An express train takes 1 hour less than a passenger train to travel 132 km between Mysore and Bangalore. If the average speed of the express train is 11 km/h more than that of the passenger train, let 'x' be the average speed of the passenger train (in km/h). Which quadratic equation correctly models this situation?",
+      "options": [
+        "x^2 + 11x - 1452 = 0",
+        "x^2 - 11x - 1452 = 0",
+        "x^2 + 11x + 1452 = 0",
+        "x^2 + 22x - 1452 = 0"
+      ],
+      "answer": 0,
+      "explanation": "Time difference: 132/x - 132/(x + 11) = 1 => 132[(x + 11 - x)] / [x(x + 11)] = 1 => 132 * 11 = x^2 + 11x => 1452 = x^2 + 11x => x^2 + 11x - 1452 = 0.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.3 Question 10"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-015",
+      "type": "mcq",
+      "subtopic": "Case Study 2: Train Speeds Solution",
+      "difficulty": "Hard",
+      "question": "Case Study 2 (Continued): What are the average speeds of the passenger train and the express train respectively?",
+      "options": [
+        "Passenger train = 33 km/h, Express train = 44 km/h",
+        "Passenger train = 30 km/h, Express train = 41 km/h",
+        "Passenger train = 36 km/h, Express train = 47 km/h",
+        "Passenger train = 44 km/h, Express train = 55 km/h"
+      ],
+      "answer": 0,
+      "explanation": "From x^2 + 11x - 1452 = 0: Discriminant D = 11^2 - 4(1)(-1452) = 121 + 5808 = 5929. sqrt(5929) = 77. x = (-11 + 77)/2 = 66/2 = 33 km/h. Express train speed = x + 11 = 33 + 11 = 44 km/h.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.3 Question 10"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-016",
+      "type": "mcq",
+      "subtopic": "Case Study 2: Travel Duration Ratio",
+      "difficulty": "Medium",
+      "question": "Case Study 2 (Continued): How much time does the express train take to cover the 132 km route?",
+      "options": [
+        "3 hours",
+        "4 hours",
+        "2.5 hours",
+        "3.5 hours"
+      ],
+      "answer": 0,
+      "explanation": "Time taken by express train = Distance / Speed = 132 / 44 = 3 hours. (Passenger train took 132/33 = 4 hours, exactly 1 hour more).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.3 Question 10"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-017",
+      "type": "mcq",
+      "subtopic": "Case Study 3: Solar Park Perimeter & Area",
+      "difficulty": "Hard",
+      "question": "Case Study 3 (Solar Energy Park): A solar company plans to set up a rectangular array of photovoltaic panels. The perimeter of the fenced plot is 80 metres and its total surface area is 400 square metres. Is it possible to design such a park, and what would be its dimensions?",
+      "options": [
+        "Yes, it is a square plot of side 20 m x 20 m",
+        "Yes, a rectangular plot of dimensions 25 m x 15 m",
+        "No, because the discriminant is negative",
+        "Yes, a rectangular plot of dimensions 30 m x 10 m"
+      ],
+      "answer": 0,
+      "explanation": "Perimeter = 2(length + breadth) = 80 => length + breadth = 40 => length = 40 - b. Area = b(40 - b) = 400 => 40b - b^2 = 400 => b^2 - 40b + 400 = 0 => (b - 20)^2 = 0 => b = 20 m. Length = 40 - 20 = 20 m. It is a square plot of 20 m x 20 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.4 Question 5"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-018",
+      "type": "mcq",
+      "subtopic": "Case Study 3: Diagonal Cabling Length",
+      "difficulty": "Medium",
+      "question": "Case Study 3 (Continued): High-voltage grounding cables run diagonally across the rectangular solar plot from opposite corners. What is the length of this diagonal cable?",
+      "options": [
+        "20 sqrt(2) metres (~28.28 m)",
+        "40 metres",
+        "25 metres",
+        "30 sqrt(2) metres"
+      ],
+      "answer": 0,
+      "explanation": "By Pythagoras theorem, Diagonal = sqrt(length^2 + breadth^2) = sqrt(20^2 + 20^2) = sqrt(400 + 400) = sqrt(800) = 20*sqrt(2) metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.4 Question 5"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-019",
+      "type": "mcq",
+      "subtopic": "Case Study 4: Drone Descent Model",
+      "difficulty": "Hard",
+      "question": "Case Study 4 (Automated Logistics): An autonomous delivery drone descends toward a drop zone. Its altitude y (in metres) after t seconds is given by y = 200 - 5t^2. At what time t does the drone touch down at ground level (y = 0)?",
+      "options": [
+        "t = 6.32 seconds (approx sqrt(40))",
+        "t = 10 seconds",
+        "t = 8 seconds",
+        "t = 5 seconds"
+      ],
+      "answer": 0,
+      "explanation": "At ground level y = 0: 200 - 5t^2 = 0 => 5t^2 = 200 => t^2 = 40 => t = sqrt(40) = 2*sqrt(10) approx 6.32 seconds.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch04-s3-020",
+      "type": "mcq",
+      "subtopic": "Case Study 4: Safe Deceleration Window",
+      "difficulty": "Medium",
+      "question": "Case Study 4 (Continued): The safety protocol requires the drone thrusters to enter soft-landing mode when its altitude drops below 75 metres. At what time t does the drone reach this threshold altitude?",
+      "options": [
+        "t = 5 seconds",
+        "t = 4 seconds",
+        "t = 6 seconds",
+        "t = 4.5 seconds"
+      ],
+      "answer": 0,
+      "explanation": "Set y = 75: 200 - 5t^2 = 75 => 5t^2 = 125 => t^2 = 25 => t = 5 seconds.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Competency Focused Question"
+    }
+  ]
+}

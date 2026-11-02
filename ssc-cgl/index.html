@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSC CGL 2025–2026 Tier 1 Mock Tests & Sectional Speed Tests | MockTestVault</title>
+  <meta name="description" content="Free online SSC CGL and CHSL Tier 1 mock tests and 25-question sectional speed drills. 100% exam pattern: 100 Qs, 60 mins, +2/-0.5 marking, TCS iON palette, instant solutions, and zero ads.">
+  <meta name="keywords" content="ssc cgl mock test, ssc cgl tier 1 online test series, ssc reasoning mock, ssc quant speed test, ssc chsl practice test, free ssc testbook alternative">
+
+  <link rel="stylesheet" href="../css/test-engine.css">
+
+  <style>
+    .ssc-hero {
+      background: linear-gradient(135deg, #091e3a 0%, #173862 50%, #1e293b 100%);
+      color: #f8fafc;
+      padding: 54px 24px 44px;
+      text-align: center;
+      border-bottom: 1px solid var(--border-color);
+      position: relative;
+    }
+    .ssc-hero h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+    .ssc-hero p {
+      font-size: 1.08rem;
+      color: #cbd5e1;
+      max-width: 780px;
+      margin: 0 auto 24px auto;
+      line-height: 1.6;
+    }
+    .hero-meta-badges {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #e2e8f0;
+    }
+    .exam-stats-banner {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      max-width: 900px;
+      margin: 24px auto 0;
+      text-align: left;
+    }
+    .exam-stat-pill {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 14px 18px;
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+    }
+    .exam-stat-pill span {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #94a3b8;
+    }
+    .exam-stat-pill strong {
+      font-size: 1.25rem;
+      color: #38bdf8;
+      font-weight: 800;
+    }
+
+    .test-series-container {
+      max-width: 100%;
+      margin: 0;
+      padding: 36px 36px 80px 36px;
+    }
+    .section-heading-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .section-heading-bar h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .series-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+      margin-bottom: 48px;
+    }
+
+    .test-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-col;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+      box-shadow: var(--shadow-sm);
+    }
+    .test-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--primary);
+    }
+    .test-card.featured {
+      border: 2px solid #3b82f6;
+      background: linear-gradient(180deg, var(--bg-surface) 0%, rgba(59, 130, 246, 0.03) 100%);
+    }
+
+    .card-top-tag-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .tag-category {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      background: var(--primary-light);
+      color: var(--primary);
+      border: 1px solid var(--primary-border);
+    }
+    .tag-status-live {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      background: var(--success-light);
+      color: var(--success-text);
+      border: 1px solid var(--success-border);
+    }
+
+    .card-title {
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      line-height: 1.35;
+    }
+    .card-desc {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+
+    .card-spec-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 20px;
+      padding: 10px 14px;
+      background: var(--bg-subtle);
+      border-radius: 10px;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      flex-wrap: wrap;
+    }
+    .card-spec-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .card-spec-item strong {
+      color: var(--text-primary);
+    }
+
+    .card-cta-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.92rem;
+      background: var(--primary);
+      color: white;
+      transition: background 0.2s ease;
+      text-align: center;
+    }
+    .test-card:hover .card-cta-btn {
+      background: var(--primary-hover);
+    }
+
+    .info-features-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 28px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../index.html" class="brand-link">
+        <div class="brand-logo">🛡️</div>
+        <div class="brand-text">
+          <h1>MockTestVault <span class="vault-pill">SSC CGL Tier 1</span></h1>
+          <p>Official Exam Simulation & Practice Vault</p>
+        </div>
+      </a>
+
+      <div class="header-controls">
+        <a href="../cbse-class-10/index.html" class="nav-btn" style="padding:6px 14px; font-size:0.82rem; text-decoration:none; background:var(--bg-surface); border:1px solid var(--border-color); color:var(--text-color); border-radius:8px; display:inline-flex; align-items:center; gap:6px;">
+          <span>📚</span> CBSE Class 10
+        </a>
+        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="ssc-hero">
+    <div class="hero-meta-badges">
+      <span class="hero-badge">🎯 SSC CGL / CHSL 2025–2026</span>
+      <span class="hero-badge">⚡ TCS iON Real Exam Pattern</span>
+      <span class="hero-badge">🚫 100% Ad-Free & Distraction-Free</span>
+    </div>
+
+    <h1>SSC CGL Tier 1 Full Mocks & Sectional Speed Tests</h1>
+    <p>
+      Practice with high-precision mock papers matching the official SSC pattern. Choose between comprehensive 60-minute full exams or 25-question sectional speed drills with instant solutions and negative marking analysis.
+    </p>
+
+    <!-- Key Exam Stats Grid -->
+    <div class="exam-stats-banner">
+      <div class="exam-stat-pill">
+        <span>Full Exam Duration</span>
+        <strong>60 Minutes</strong>
+      </div>
+      <div class="exam-stat-pill">
+        <span>Questions / Marks</span>
+        <strong>100 Qs • 200 Marks</strong>
+      </div>
+      <div class="exam-stat-pill">
+        <span>Marking Scheme</span>
+        <strong>+2.00 / -0.50 Mark</strong>
+      </div>
+      <div class="exam-stat-pill">
+        <span>Format</span>
+        <strong>TCS iON CBT Engine</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="test-series-container">
+
+    <!-- Section 1: Full-Length Tier 1 Mock Tests -->
+    <div class="section-heading-bar">
+      <h2><span>🏆</span> Full-Length Tier 1 Mocks (100 Questions • 60 Mins)</h2>
+      <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Full 4 Sections Combined • Real Exam Simulation</span>
+    </div>
+
+    <div class="series-grid">
+      <!-- Full Mock 01 -->
+      <a href="mock-01.html" class="test-card featured">
+        <div>
+          <div class="card-top-tag-row">
+            <span class="tag-category">All 4 Sections</span>
+            <span class="tag-status-live">● Live Now</span>
+          </div>
+          <h3 class="card-title">SSC CGL Tier 1 Official Full Mock Test 01</h3>
+          <p class="card-desc">
+            Complete exam replica: 25 Reasoning + 25 General Awareness + 25 Quantitative Aptitude + 25 English Comprehension. Full sectional navigation, 60-min timer, and detailed solutions.
+          </p>
+        </div>
+
+        <div>
+          <div class="card-spec-row">
+            <div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
+            <div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
+            <div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
+            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+          </div>
+          <div class="card-cta-btn">
+            <span>Start Full Mock Test</span>
+            <span>→</span>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Section 2: 25-Question Sectional Speed Tests -->
+    <div class="section-heading-bar">
+      <h2><span>⚡</span> Sectional Speed Drills (25 Questions Each)</h2>
+      <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Bite-sized 10–20 min practice for daily target building</span>
+    </div>
+
+    <div class="series-grid">
+
+      <!-- Sectional 1: Reasoning -->
+      <a href="sectional-reasoning-01.html" class="test-card">
+        <div>
+          <div class="card-top-tag-row">
+            <span class="tag-category">Reasoning</span>
+            <span class="tag-status-live">● Live</span>
+          </div>
+          <h3 class="card-title">General Intelligence & Reasoning — Speed Drill 01</h3>
+          <p class="card-desc">
+            Syllogisms, Analogies, Number & Letter Series, Blood Relations, Direction Sense, Coding-Decoding, Venn Diagrams, and Mirror Images.
+          </p>
+        </div>
+
+        <div>
+          <div class="card-spec-row">
+            <div class="card-spec-item"><span>⏱️</span> <strong>15 Mins</strong></div>
+            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+          </div>
+          <div class="card-cta-btn">
+            <span>Start Reasoning Drill</span>
+            <span>→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Sectional 2: Quantitative Aptitude -->
+      <a href="sectional-quantitative-aptitude-01.html" class="test-card">
+        <div>
+          <div class="card-top-tag-row">
+            <span class="tag-category">Quant</span>
+            <span class="tag-status-live">● Live</span>
+          </div>
+          <h3 class="card-title">Quantitative Aptitude — Speed Drill 01</h3>
+          <p class="card-desc">
+            Percentages, Profit & Loss, CI/SI Differences, Time & Work, Speed Time Distance, Boats & Streams, Algebra Identities, Trigonometry, and Circles.
+          </p>
+        </div>
+
+        <div>
+          <div class="card-spec-row">
+            <div class="card-spec-item"><span>⏱️</span> <strong>20 Mins</strong></div>
+            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+          </div>
+          <div class="card-cta-btn">
+            <span>Start Quant Drill</span>
+            <span>→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Sectional 3: English Comprehension -->
+      <a href="sectional-english-01.html" class="test-card">
+        <div>
+          <div class="card-top-tag-row">
+            <span class="tag-category">English</span>
+            <span class="tag-status-live">● Live</span>
+          </div>
+          <h3 class="card-title">English Comprehension — Speed Drill 01</h3>
+          <p class="card-desc">
+            Spotting Errors, Fixed Prepositions, Synonyms & Antonyms, Idioms & Phrases, One-Word Substitutions, Active/Passive Voice, and Cloze Test.
+          </p>
+        </div>
+
+        <div>
+          <div class="card-spec-row">
+            <div class="card-spec-item"><span>⏱️</span> <strong>12 Mins</strong></div>
+            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+          </div>
+          <div class="card-cta-btn">
+            <span>Start English Drill</span>
+            <span>→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Sectional 4: General Awareness -->
+      <a href="sectional-general-awareness-01.html" class="test-card">
+        <div>
+          <div class="card-top-tag-row">
+            <span class="tag-category">General Awareness</span>
+            <span class="tag-status-live">● Live</span>
+          </div>
+          <h3 class="card-title">General Awareness & Static GK — Speed Drill 01</h3>
+          <p class="card-desc">
+            Indian Constitution & Polity, Modern & Ancient History, Drainage & Mountains, Repo Rate, General Science (Physics, Chemistry, Biology), and Static GK.
+          </p>
+        </div>
+
+        <div>
+          <div class="card-spec-row">
+            <div class="card-spec-item"><span>⏱️</span> <strong>10 Mins</strong></div>
+            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+          </div>
+          <div class="card-cta-btn">
+            <span>Start GK Drill</span>
+            <span>→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Exam Strategy & Quality Commitment -->
+    <div class="info-features-box">
+      <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:12px; color:var(--text-primary);">
+        🛡️ Why Practice on MockTestVault?
+      </h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:20px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
+        <div>
+          <strong style="color:var(--text-primary); display:block; margin-bottom:4px;">100% Ad-Free Focus</strong>
+          No pop-ups, no banner ads, and no subscription paywalls. Designed for serious aspirants aiming for 150+ raw scores.
+        </div>
+        <div>
+          <strong style="color:var(--text-primary); display:block; margin-bottom:4px;">Real TCS iON 5-State Palette</strong>
+          Color-coded question states (Answered, Not Answered, Marked for Review) give you true exam-hall muscle memory.
+        </div>
+        <div>
+          <strong style="color:var(--text-primary); display:block; margin-bottom:4px;">Negative Marking Analytics</strong>
+          Tracks your +2 bonus and -0.5 penalty per question to compute accurate raw scores and cutoff qualification odds.
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Competitive Exam Simulators.</p>
+      <p style="font-size:0.75rem;">Ad-Free • Distraction-Free • High-Precision Question Standards.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle handler
+    const themeBtn = document.getElementById('theme-toggle-btn');
+    if (themeBtn) {
+      themeBtn.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', nextTheme);
+        themeBtn.textContent = nextTheme === 'light' ? '🌙' : '☀️';
+        localStorage.setItem('mtv_theme', nextTheme);
+      });
+      const savedTheme = localStorage.getItem('mtv_theme');
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        themeBtn.textContent = savedTheme === 'light' ? '🌙' : '☀️';
+      }
+    }
+  </script>
+</body>
+</html>

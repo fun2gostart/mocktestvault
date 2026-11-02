@@ -1,0 +1,1281 @@
+"""
+Social Science Question Vaults for CBSE Class 10 (Code 087)
+Covers all 21 chapters across:
+- History: India and the Contemporary World - II (Chapters 1 to 5)
+- Geography: Contemporary India - II (Chapters 1 to 7)
+- Political Science / Civics: Democratic Politics - II (Chapters 1 to 5)
+- Economics: Understanding Economic Development (Chapters 1 to 4)
+"""
+
+SST_CHAPTERS = [
+  # ---------------------------------------------------------
+  # HISTORY (Chapters 1 to 5)
+  # ---------------------------------------------------------
+  {
+    "slug": "ch01_rise_of_nationalism_europe",
+    "num": 1,
+    "title": "The Rise of Nationalism in Europe",
+    "sub": "History",
+    "marks": "5–6 Marks",
+    "desc": "French Revolution ideals, Napoleonic Code 1804, liberalism, Zollverein, unification of Germany and Italy, and Balkan nationalism.",
+    "questions": [
+      {
+        "id": "cbse10-sst-hist-ch01-001",
+        "type": "mcq",
+        "subtopic": "Napoleonic Code",
+        "difficulty": "Easy",
+        "question": "What was the primary feature of the Civil Code of 1804 (Napoleonic Code) in France and its conquered territories?",
+        "options": [
+          "It abolished all privileges based on birth and established equality before the law",
+          "It granted universal adult franchise to all men and women",
+          "It reintroduced the feudal manorial dues for peasants",
+          "It abolished the metric system and restored regional currencies"
+        ],
+        "answer": 0,
+        "explanation": "The Civil Code of 1804, usually known as the Napoleonic Code, did away with all privileges based on birth, established equality before the law, and secured the right to property. It also simplified administrative divisions, abolished the feudal system, and freed peasants from serfdom.",
+        "citation": "NCERT Class 10 History, Chapter 1, Section 1.1"
+      },
+      {
+        "id": "cbse10-sst-hist-ch01-002",
+        "type": "mcq",
+        "subtopic": "Economic Nationalism & Zollverein",
+        "difficulty": "Medium",
+        "question": "The customs union named 'Zollverein', formed in 1834 at the initiative of Prussia, was established to:",
+        "options": [
+          "Abolish tariff barriers and reduce the number of currencies from over thirty to two",
+          "Impose strict trade sanctions against Britain and Russia",
+          "Enforce military conscription across all German-speaking states",
+          "Re-establish the Holy Roman Empire under Austrian dominance"
+        ],
+        "answer": 0,
+        "explanation": "In 1834, a customs union or Zollverein was formed at the initiative of Prussia and joined by most German states. The union abolished tariff barriers and reduced the number of currencies from over thirty to two, creating a unified economic territory.",
+        "citation": "NCERT Class 10 History, Chapter 1, Section 1.2"
+      },
+      {
+        "id": "cbse10-sst-hist-ch01-003",
+        "type": "assertion_reasoning",
+        "subtopic": "Assertion & Reasoning - Unification of Italy",
+        "difficulty": "Board Standard",
+        "question": "Assertion (A): Giuseppe Garibaldi is celebrated as one of the key figures in the unification of Italy through his expedition of the 'Red Shirts'.\nReason (R): In 1860, Garibaldi led the Expedition of the Thousand into South Italy and the Kingdom of the Two Sicilies, winning the support of local peasants to drive out the Spanish rulers.",
+        "options": [
+          "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+          "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+          "(A) is true, but (R) is false.",
+          "(A) is false, but (R) is true."
+        ],
+        "answer": 0,
+        "explanation": "Garibaldi's armed volunteers ('Red Shirts') marched into South Italy and the Kingdom of the Two Sicilies in 1860, rallying the peasantry against Spanish Bourbon rule, directly securing southern Italy's accession to unified Italy under Victor Emmanuel II.",
+        "citation": "NCERT Class 10 History, Chapter 1, Section 3.2"
+      },
+      {
+        "id": "cbse10-sst-hist-ch01-004",
+        "type": "mcq",
+        "subtopic": "Allegory of the Nation",
+        "difficulty": "Easy",
+        "question": "Which female allegory represented the German nation, wearing a crown of oak leaves signifying heroism?",
+        "options": [
+          "Germania",
+          "Marianne",
+          "Britannia",
+          "Columbia"
+        ],
+        "answer": 0,
+        "explanation": "Germania became the allegory of the German nation. In visual representations, Germania wears a crown of oak leaves, as the German oak stands for heroism.",
+        "citation": "NCERT Class 10 History, Chapter 1, Section 4"
+      }
+    ]
+  },
+  {
+    "slug": "ch02_nationalism_in_india",
+    "num": 2,
+    "title": "Nationalism in India",
+    "sub": "History",
+    "marks": "6–7 Marks",
+    "desc": "First World War impact, Rowlatt Act, Jallianwala Bagh, Non-Cooperation Movement, Civil Disobedience, Salt March, and Poona Pact.",
+    "questions": [
+      {
+        "id": "cbse10-sst-hist-ch02-001",
+        "type": "mcq",
+        "subtopic": "Rowlatt Act & Satyagraha",
+        "difficulty": "Easy",
+        "question": "Why did Mahatma Gandhi organise a nationwide Satyagraha against the Rowlatt Act passed by the Imperial Legislative Council in 1919?",
+        "options": [
+          "It gave the British government enormous powers to repress political activities and detain political prisoners without trial for two years",
+          "It banned Indian cotton exports to European markets",
+          "It made English education mandatory in all primary schools",
+          "It increased land revenue taxes on Champaran indigo farmers by 50%"
+        ],
+        "answer": 0,
+        "explanation": "The Rowlatt Act had been hurriedly passed despite united opposition from Indian members. It gave the colonial government enormous powers to repress political activities and allowed detention of political prisoners without trial for up to two years.",
+        "citation": "NCERT Class 10 History, Chapter 2, Section 1.2"
+      },
+      {
+        "id": "cbse10-sst-hist-ch02-002",
+        "type": "mcq",
+        "subtopic": "Civil Disobedience & Salt March",
+        "difficulty": "Medium",
+        "question": "Mahatma Gandhi chose salt as the central symbol to launch the Civil Disobedience Movement in 1930 primarily because:",
+        "options": [
+          "Salt was an essential dietary item consumed by rich and poor alike, making the British salt monopoly and tax an oppressive symbol of colonial rule",
+          "Salt production was completely controlled by French trading companies",
+          "Salt was the only commodity exempted from import duties",
+          "Indian salt workers were demanding the introduction of mechanized machinery"
+        ],
+        "answer": 0,
+        "explanation": "Mahatma Gandhi found in salt a powerful symbol that could unite the nation. Salt was something consumed by the rich and the poor alike, and was one of the most essential food items. The tax on salt and the government monopoly over its manufacture revealed the most oppressive face of British rule.",
+        "citation": "NCERT Class 10 History, Chapter 2, Section 3.1"
+      },
+      {
+        "id": "cbse10-sst-hist-ch02-003",
+        "type": "mcq",
+        "subtopic": "Poona Pact 1932",
+        "difficulty": "Board Standard",
+        "question": "What was the key compromise agreed upon in the Poona Pact of September 1932 between Mahatma Gandhi and Dr. B.R. Ambedkar?",
+        "options": [
+          "Depressed Classes were given reserved seats in provincial and central legislative councils, but they were to be voted in by a general electorate",
+          "Depressed Classes were granted completely separate electorates in both councils",
+          "Dr. Ambedkar agreed to withdraw all claims for reservation in government jobs",
+          "Mahatma Gandhi agreed to abandon the Civil Disobedience Movement permanently"
+        ],
+        "answer": 0,
+        "explanation": "The Poona Pact of September 1932 resolved the dispute between Gandhi and Ambedkar. It gave the Depressed Classes (later known as the Scheduled Castes) reserved seats in provincial and central legislative councils, but they were to be voted in by the general electorate rather than separate electorates.",
+        "citation": "NCERT Class 10 History, Chapter 2, Section 3.3"
+      },
+      {
+        "id": "cbse10-sst-hist-ch02-004",
+        "type": "assertion_reasoning",
+        "subtopic": "Assertion & Reasoning - Non-Cooperation Withdrawal",
+        "difficulty": "Board Standard",
+        "question": "Assertion (A): Mahatma Gandhi decided to call off the Non-Cooperation Movement in February 1922.\nReason (R): At Chauri Chaura in Gorakhpur, a peaceful demonstration in a bazaar turned into a violent clash with the police, leading to the burning of a police station and death of 22 policemen.",
+        "options": [
+          "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+          "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+          "(A) is true, but (R) is false.",
+          "(A) is false, but (R) is true."
+        ],
+        "answer": 0,
+        "explanation": "Gandhiji felt the movement was turning violent in many places and satyagrahis needed to be properly trained before they would be ready for mass struggles. The violent incident at Chauri Chaura in Feb 1922 was the immediate reason he halted the movement.",
+        "citation": "NCERT Class 10 History, Chapter 2, Section 2.1"
+      }
+    ]
+  },
+  {
+    "slug": "ch03_making_of_a_global_world",
+    "num": 3,
+    "title": "The Making of a Global World",
+    "sub": "History",
+    "marks": "3–4 Marks",
+    "desc": "Pre-modern world, Silk Routes, food travels, conquest, disease and trade, 19th-century economy, Rinderpest, and Bretton Woods institutions.",
+    "questions": [
+      {
+        "id": "cbse10-sst-hist-ch03-001",
+        "type": "mcq",
+        "subtopic": "Silk Routes",
+        "difficulty": "Easy",
+        "question": "The name 'Silk Routes' points to the historical importance of which trade dynamic?",
+        "options": [
+          "West-bound Chinese silk cargoes travelling across vast overland and maritime networks linking Asia with Europe and northern Africa",
+          "The export of Indian silk to the Americas during the 18th century",
+          "Exclusive Mediterranean trade routes between Italian city-states",
+          "The African trans-Saharan gold trade routes"
+        ],
+        "answer": 0,
+        "explanation": "The silk routes are a good example of vibrant pre-modern trade and cultural links between distant parts of the world. Historians identify several silk routes, over land and by sea, knitting together vast regions of Asia and linking Asia with Europe and northern Africa.",
+        "citation": "NCERT Class 10 History, Chapter 3, Section 1.1"
+      },
+      {
+        "id": "cbse10-sst-hist-ch03-002",
+        "type": "mcq",
+        "subtopic": "Biological Warfare & Smallpox",
+        "difficulty": "Medium",
+        "question": "The most powerful weapon of the Spanish conquerors in colonizing America in the mid-16th century was:",
+        "options": [
+          "Germs such as smallpox carried on their person, to which native Americans had no immunity",
+          "Superior long-range gunpowder and cannon artillery",
+          "Fast-sailing naval caravels with armed steam engines",
+          "Enormous cavalry brigades of domesticated war elephants"
+        ],
+        "answer": 0,
+        "explanation": "The Portuguese and Spanish conquest and colonization of America was decisively under way by the mid-sixteenth century. The most powerful weapon of the Spanish conquerors was not conventional military weapons, but germs like smallpox that they carried on their person. Because of their long isolation, America's original inhabitants had no immunity against these diseases.",
+        "citation": "NCERT Class 10 History, Chapter 3, Section 1.3"
+      },
+      {
+        "id": "cbse10-sst-hist-ch03-003",
+        "type": "mcq",
+        "subtopic": "Bretton Woods System",
+        "difficulty": "Board Standard",
+        "question": "Which two international financial institutions are famously referred to as the 'Bretton Woods Twins' established in 1944?",
+        "options": [
+          "The International Monetary Fund (IMF) and the World Bank (IBRD)",
+          "The United Nations and the World Trade Organization (WTO)",
+          "The Asian Development Bank and the Federal Reserve",
+          "The Bank of England and the Bank of International Settlements"
+        ],
+        "answer": 0,
+        "explanation": "The Bretton Woods conference in July 1944 established the International Monetary Fund (IMF) to deal with external surpluses and deficits of its member nations, and the International Bank for Reconstruction and Development (popularly known as the World Bank) to finance post-war reconstruction.",
+        "citation": "NCERT Class 10 History, Chapter 3, Section 4.1"
+      }
+    ]
+  },
+  {
+    "slug": "ch04_age_of_industrialisation",
+    "num": 4,
+    "title": "The Age of Industrialisation",
+    "sub": "History",
+    "marks": "3–4 Marks",
+    "desc": "Proto-industrialisation, factories, steam power, hand labour vs steam, industrialisation in the colonies, and the market for goods.",
+    "questions": [
+      {
+        "id": "cbse10-sst-hist-ch04-001",
+        "type": "mcq",
+        "subtopic": "Proto-industrialisation",
+        "difficulty": "Medium",
+        "question": "What does the term 'Proto-industrialisation' refer to in European economic history?",
+        "options": [
+          "A phase of decentralised industrial production for an international market before the establishment of modern steam-powered factories",
+          "The introduction of robotic assembly lines in early 20th century Britain",
+          "The rapid shift from heavy iron metallurgy to computerised electronics",
+          "The period of state-controlled handicraft workshops under the French monarchy"
+        ],
+        "answer": 0,
+        "explanation": "Proto-industrialisation refers to the period before factories began to dot the landscape in England and Europe. There was large-scale industrial production for an international market that was not based on factories, where merchants supplied raw materials to rural cottage artisans.",
+        "citation": "NCERT Class 10 History, Chapter 4, Section 1"
+      },
+      {
+        "id": "cbse10-sst-hist-ch04-002",
+        "type": "mcq",
+        "subtopic": "Hand Labour vs Machines",
+        "difficulty": "Medium",
+        "question": "Why did Victorian British industrialists in the 19th century prefer hand labour over expensive steam-powered machines in many seasonal industries?",
+        "options": [
+          "Labour was abundant and cheap, and many industries had seasonal demand requiring diverse designs that machines could not produce",
+          "Steam engines were legally prohibited by the British Parliament until 1880",
+          "Coal was unavailable in Britain during the Victorian era",
+          "Trade unions had completely banned the installation of automated machinery"
+        ],
+        "answer": 0,
+        "explanation": "In Victorian Britain there was no shortage of human labour. Poor peasants and tramps moved to cities in large numbers searching for jobs. Wages were low. Moreover, in many seasonal industries (like gas works, breweries, and printing), industrialists preferred hand labour.",
+        "citation": "NCERT Class 10 History, Chapter 4, Section 2"
+      },
+      {
+        "id": "cbse10-sst-hist-ch04-003",
+        "type": "mcq",
+        "subtopic": "Role of Gomasthas",
+        "difficulty": "Board Standard",
+        "question": "Who were the 'Gomasthas' appointed by the English East India Company in India?",
+        "options": [
+          "Paid servants appointed to supervise weavers, collect supplies, and examine the quality of cloth",
+          "Indian merchants who financed export trade to Southeast Asia",
+          "British tax magistrates stationed in provincial revenue collectorates",
+          "Spiritual advisers to rural artisan guilds"
+        ],
+        "answer": 0,
+        "explanation": "The East India Company appointed paid servants called Gomasthas to supervise weavers, collect supplies, and examine the quality of cloth, cutting out the traditional Indian middlemen and brokers.",
+        "citation": "NCERT Class 10 History, Chapter 4, Section 3.1"
+      }
+    ]
+  },
+  {
+    "slug": "ch05_print_culture_modern_world",
+    "num": 5,
+    "title": "Print Culture and the Modern World",
+    "sub": "History",
+    "marks": "4–5 Marks",
+    "desc": "First printed books in East Asia, Gutenberg printing press, Print Revolution, reading mania, religious reform, and vernacular press in India.",
+    "questions": [
+      {
+        "id": "cbse10-sst-hist-ch05-001",
+        "type": "mcq",
+        "subtopic": "Gutenberg Printing Press",
+        "difficulty": "Easy",
+        "question": "Johannes Gutenberg invented the first printing press with movable metal type in the 1430s in Strasbourg, Germany. What was the first book he printed?",
+        "options": [
+          "The Bible",
+          "The Divine Comedy",
+          "The Canterbury Tales",
+          "The Principia Mathematica"
+        ],
+        "answer": 0,
+        "explanation": "The first book Gutenberg printed was the Bible. About 180 copies were printed and it took three years to produce them. By the standards of the time, this was fast production.",
+        "citation": "NCERT Class 10 History, Chapter 5, Section 2"
+      },
+      {
+        "id": "cbse10-sst-hist-ch05-002",
+        "type": "mcq",
+        "subtopic": "Martin Luther & Reformation",
+        "difficulty": "Medium",
+        "question": "Martin Luther's 'Ninety-Five Theses' (1517) criticizing Roman Catholic Church practices sparked the Protestant Reformation. Luther famously proclaimed that:",
+        "options": [
+          "'Printing is the ultimate gift of God and the greatest one'",
+          "'The pen is mightier than the sword of the kings'",
+          "'Books are instruments of intellectual enslavement'",
+          "'Vernacular translation of scripture should be outlawed'"
+        ],
+        "answer": 0,
+        "explanation": "Deeply grateful to print, Luther wrote: 'Printing is the ultimate gift of God and the greatest one.' His translated New Testament sold 5,000 copies in just a few weeks and led to the Protestant Reformation.",
+        "citation": "NCERT Class 10 History, Chapter 5, Section 3.1"
+      },
+      {
+        "id": "cbse10-sst-hist-ch05-003",
+        "type": "mcq",
+        "subtopic": "Vernacular Press Act 1878",
+        "difficulty": "Board Standard",
+        "question": "The British colonial government in India enacted the Vernacular Press Act in 1878 modelled after which legislation?",
+        "options": [
+          "The Irish Press Laws",
+          "The American Sedition Act",
+          "The Australian Censorship Statute",
+          "The French Press Code of 1848"
+        ],
+        "answer": 0,
+        "explanation": "In 1878, the Vernacular Press Act was passed, modelled on the Irish Press Laws. It provided the colonial government with extensive rights to censor reports and editorials in the vernacular press.",
+        "citation": "NCERT Class 10 History, Chapter 5, Section 8"
+      }
+    ]
+  },
+
+  # ---------------------------------------------------------
+  # GEOGRAPHY (Chapters 6 to 12)
+  # ---------------------------------------------------------
+  {
+    "slug": "ch06_resources_and_development",
+    "num": 1,
+    "title": "Resources and Development",
+    "sub": "Geography",
+    "marks": "4–5 Marks",
+    "desc": "Classification of resources, resource planning in India, land utilisation, land degradation & conservation, and Indian soil types.",
+    "questions": [
+      {
+        "id": "cbse10-sst-geo-ch01-001",
+        "type": "mcq",
+        "subtopic": "Black Soil Characteristics",
+        "difficulty": "Easy",
+        "question": "Which soil type is also known as 'Regur soil', is ideal for growing cotton, and has high moisture retention capacity?",
+        "options": [
+          "Black soil",
+          "Alluvial soil",
+          "Laterite soil",
+          "Arid soil"
+        ],
+        "answer": 0,
+        "explanation": "Black soils are black in colour and are also known as regur soils. Since black soil is ideal for growing cotton, it is also known as black cotton soil. It is made up of extremely fine clayey material and is well-known for its capacity to hold moisture.",
+        "citation": "NCERT Class 10 Geography, Chapter 1, Section 1.5"
+      },
+      {
+        "id": "cbse10-sst-geo-ch01-002",
+        "type": "mcq",
+        "subtopic": "Sustainable Development & Rio Summit",
+        "difficulty": "Medium",
+        "question": "The first United Nations Conference on Environment and Development (Earth Summit) held in Rio de Janeiro in June 1992 adopted which global action plan?",
+        "options": [
+          "Agenda 21",
+          "Kyoto Protocol",
+          "Paris Climate Pact",
+          "Montreal Protocol"
+        ],
+        "answer": 0,
+        "explanation": "The Rio de Janeiro Earth Summit in June 1992 endorsed the global Forest Principles and adopted 'Agenda 21' for achieving Sustainable Development in the 21st century.",
+        "citation": "NCERT Class 10 Geography, Chapter 1, Section 1.2"
+      },
+      {
+        "id": "cbse10-sst-geo-ch01-003",
+        "type": "assertion_reasoning",
+        "subtopic": "Assertion & Reasoning - Soil Conservation",
+        "difficulty": "Board Standard",
+        "question": "Assertion (A): Contour ploughing and terrace farming in hilly tracts effectively reduce soil erosion caused by running water.\nReason (R): Ploughing along the contour lines decelerates the flow of water down the slopes, while steps cut out on slopes break the force of the wind and water.",
+        "options": [
+          "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+          "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+          "(A) is true, but (R) is false.",
+          "(A) is false, but (R) is true."
+        ],
+        "answer": 0,
+        "explanation": "Contour ploughing decelerates the speed of water rushing downhill. Terrace cultivation restricts erosion extensively in the Western and Central Himalayas.",
+        "citation": "NCERT Class 10 Geography, Chapter 1, Section 1.6"
+      }
+    ]
+  },
+  {
+    "slug": "ch07_forest_and_wildlife_resources",
+    "num": 2,
+    "title": "Forest and Wildlife Resources",
+    "sub": "Geography",
+    "marks": "3 Marks",
+    "desc": "Flora and fauna diversity, IUCN classification, Project Tiger, Joint Forest Management (JFM), and sacred groves.",
+    "questions": [
+      {
+        "id": "cbse10-sst-geo-ch02-001",
+        "type": "mcq",
+        "subtopic": "Project Tiger",
+        "difficulty": "Easy",
+        "question": "When was 'Project Tiger', one of the well-publicised wildlife conservation initiatives in the world, launched in India?",
+        "options": [
+          "1973",
+          "1986",
+          "1992",
+          "2001"
+        ],
+        "answer": 0,
+        "explanation": "'Project Tiger', one of the well-publicised wildlife campaigns in the world, was launched in 1973 after the tiger population dropped drastically to 1,827 from an estimated 55,000 at the turn of the century.",
+        "citation": "NCERT Class 10 Geography, Chapter 2, Section 2.2"
+      },
+      {
+        "id": "cbse10-sst-geo-ch02-002",
+        "type": "mcq",
+        "subtopic": "Reserved & Protected Forests",
+        "difficulty": "Medium",
+        "question": "Which category of forests is regarded as the most valuable as far as the conservation of forest and wildlife resources is concerned, covering more than half of India's total forest land?",
+        "options": [
+          "Reserved Forests",
+          "Protected Forests",
+          "Unclassed Forests",
+          "Private Woodland Groves"
+        ],
+        "answer": 0,
+        "explanation": "More than half of the total forest land has been declared Reserved Forests. Reserved forests are regarded as the most valuable as far as the conservation of forest and wildlife resources are concerned.",
+        "citation": "NCERT Class 10 Geography, Chapter 2, Section 2.3"
+      },
+      {
+        "id": "cbse10-sst-geo-ch02-003",
+        "type": "mcq",
+        "subtopic": "Community Conservation",
+        "difficulty": "Board Standard",
+        "question": "Villagers in five villages of Alwar district in Rajasthan declared 1,200 hectares of forest as the 'Bhairodev Dakav Sonchuri' to:",
+        "options": [
+          "Formulate their own rules banning hunting and protecting wildlife against outside encroachments",
+          "Clear the forest for commercial limestone mining",
+          "Establish an eco-resort for international tourism",
+          "Hand over total management to private paper mill corporations"
+        ],
+        "answer": 0,
+        "explanation": "The inhabitants of five villages in the Alwar district of Rajasthan have declared 1,200 hectares of forest as the Bhairodev Dakav 'Sonchuri', declaring their own set of rules and regulations which do not allow hunting, and are protecting the wildlife against any outside encroachments.",
+        "citation": "NCERT Class 10 Geography, Chapter 2, Section 2.4"
+      }
+    ]
+  },
+  {
+    "slug": "ch08_water_resources",
+    "num": 3,
+    "title": "Water Resources",
+    "sub": "Geography",
+    "marks": "3–4 Marks",
+    "desc": "Water scarcity, multi-purpose river valley projects, integrated water resource management, and traditional rainwater harvesting systems.",
+    "questions": [
+      {
+        "id": "cbse10-sst-geo-ch03-001",
+        "type": "mcq",
+        "subtopic": "Rainwater Harvesting Systems",
+        "difficulty": "Medium",
+        "question": "Which state in India was the first to make rooftop rainwater harvesting compulsory for all houses across the state by law?",
+        "options": [
+          "Tamil Nadu",
+          "Rajasthan",
+          "Gujarat",
+          "Karnataka"
+        ],
+        "answer": 0,
+        "explanation": "Tamil Nadu is the first state in India which has made rooftop rainwater harvesting structure compulsory to all houses across the state. There are legal provisions to punish defaulters.",
+        "citation": "NCERT Class 10 Geography, Chapter 3, Section 3.2"
+      },
+      {
+        "id": "cbse10-sst-geo-ch03-002",
+        "type": "mcq",
+        "subtopic": "Traditional Water Systems",
+        "difficulty": "Medium",
+        "question": "In the semi-arid and arid regions of Rajasthan, particularly in Bikaner, Phalodi and Barmer, drinking water was traditionally stored in large underground tanks called:",
+        "options": [
+          "Tankas",
+          "Guls or Kuls",
+          "Johads",
+          "Baolis"
+        ],
+        "answer": 0,
+        "explanation": "In the semi-arid and arid regions of Rajasthan, particularly in Bikaner, Phalodi and Barmer, almost all the houses traditionally had underground tanks or 'tankas' for storing drinking water.",
+        "citation": "NCERT Class 10 Geography, Chapter 3, Section 3.2"
+      },
+      {
+        "id": "cbse10-sst-geo-ch03-003",
+        "type": "assertion_reasoning",
+        "subtopic": "Assertion & Reasoning - Multipurpose Dams",
+        "difficulty": "Board Standard",
+        "question": "Assertion (A): Jawaharlal Nehru proudly proclaimed multi-purpose river dams as the 'temples of modern India'.\nReason (R): Multi-purpose dams integrate the development of agriculture and the village economy with rapid industrialisation and growth of the urban economy.",
+        "options": [
+          "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+          "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+          "(A) is true, but (R) is false.",
+          "(A) is false, but (R) is true."
+        ],
+        "answer": 0,
+        "explanation": "Jawaharlal Nehru proclaimed dams as temples of modern India because they would integrate agricultural irrigation with electric power generation, flood control, and industrial expansion.",
+        "citation": "NCERT Class 10 Geography, Chapter 3, Section 3.1"
+      }
+    ]
+  },
+  {
+    "slug": "ch09_agriculture",
+    "num": 4,
+    "title": "Agriculture",
+    "sub": "Geography",
+    "marks": "5 Marks",
+    "desc": "Types of farming, cropping seasons (Rabi, Kharif, Zaid), major food and commercial crops, climate requirements, and institutional reforms.",
+    "questions": [
+      {
+        "id": "cbse10-sst-geo-ch04-001",
+        "type": "mcq",
+        "subtopic": "Cropping Seasons",
+        "difficulty": "Easy",
+        "question": "Which of the following is a Rabi crop sown in winter from October to December and harvested in summer from April to June?",
+        "options": [
+          "Wheat",
+          "Rice (Paddy)",
+          "Jowar",
+          "Cotton"
+        ],
+        "answer": 0,
+        "explanation": "Rabi crops are sown in winter from October to December and harvested in summer from April to June. Important rabi crops are wheat, barley, peas, gram and mustard.",
+        "citation": "NCERT Class 10 Geography, Chapter 4, Section 4.2"
+      },
+      {
+        "id": "cbse10-sst-geo-ch04-002",
+        "type": "mcq",
+        "subtopic": "Climatic Conditions for Tea",
+        "difficulty": "Medium",
+        "question": "Tea cultivation in India requires which specific climatic and soil conditions?",
+        "options": [
+          "Tropical and sub-tropical climate, deep fertile well-drained soil rich in humus and organic matter, and warm moist frost-free climate all year round",
+          "Semi-arid climate with dry cold winds and shallow sandy soil",
+          "Heavy clayey soils with standing water throughout the vegetative cycle",
+          "Extremely dry desert climate with seasonal frost"
+        ],
+        "answer": 0,
+        "explanation": "Tea grows well in tropical and sub-tropical climates endowed with deep and fertile well-drained soil, rich in humus and organic matter. Tea bushes require warm and moist frost-free climate throughout the year.",
+        "citation": "NCERT Class 10 Geography, Chapter 4, Section 4.3"
+      },
+      {
+        "id": "cbse10-sst-geo-ch04-003",
+        "type": "mcq",
+        "subtopic": "Bhoodan - Gramdan",
+        "difficulty": "Board Standard",
+        "question": "The voluntary land gift movement initiated by Vinoba Bhave in Pochampalli, Andhra Pradesh, known as the 'Blood-less Revolution', was called:",
+        "options": [
+          "Bhoodan–Gramdan movement",
+          "Chipko Movement",
+          "Narmada Bachao Andolan",
+          "Operation Flood"
+        ],
+        "answer": 0,
+        "explanation": "Vinoba Bhave initiated the Bhoodan (land gift) movement when Shri Ram Chandra Reddy offered 80 acres of land to landless villagers in Pochampalli. When some zamindars offered entire villages, it was termed Gramdan. This is known as the 'Blood-less Revolution'.",
+        "citation": "NCERT Class 10 Geography, Chapter 4, Section 4.5"
+      }
+    ]
+  },
+  {
+    "slug": "ch10_minerals_and_energy_resources",
+    "num": 5,
+    "title": "Minerals and Energy Resources",
+    "sub": "Geography",
+    "marks": "4–5 Marks",
+    "desc": "Mode of occurrence of minerals, ferrous and non-ferrous minerals, conventional and non-conventional energy sources, and conservation.",
+    "questions": [
+      {
+        "id": "cbse10-sst-geo-ch05-001",
+        "type": "mcq",
+        "subtopic": "Iron Ore Varieties",
+        "difficulty": "Easy",
+        "question": "Which is the finest quality iron ore having a very high iron content up to 70% and excellent magnetic qualities?",
+        "options": [
+          "Magnetite",
+          "Hematite",
+          "Limonite",
+          "Siderite"
+        ],
+        "answer": 0,
+        "explanation": "Magnetite is the finest iron ore with a very high content of iron up to 70 percent. It has excellent magnetic qualities, especially valuable in the electrical industry. Hematite is the most important industrial iron ore in terms of quantity used (50-60% iron).",
+        "citation": "NCERT Class 10 Geography, Chapter 5, Section 5.2"
+      },
+      {
+        "id": "cbse10-sst-geo-ch05-002",
+        "type": "mcq",
+        "subtopic": "Nuclear / Atomic Power",
+        "difficulty": "Medium",
+        "question": "Which minerals found in the Monazite sands of Kerala and the Aravalli ranges of Rajasthan are used for generating nuclear or atomic power?",
+        "options": [
+          "Uranium and Thorium",
+          "Copper and Bauxite",
+          "Mica and Gypsum",
+          "Manganese and Chromium"
+        ],
+        "answer": 0,
+        "explanation": "Uranium and Thorium, which are available in Jharkhand and the Aravalli ranges of Rajasthan, are used for generating atomic or nuclear power. The Monazite sands of Kerala are also rich in Thorium.",
+        "citation": "NCERT Class 10 Geography, Chapter 5, Section 5.3"
+      },
+      {
+        "id": "cbse10-sst-geo-ch05-003",
+        "type": "mcq",
+        "subtopic": "Non-conventional Energy - Biogas",
+        "difficulty": "Board Standard",
+        "question": "Biogas plants in rural India, popularly known as 'Gobar gas plants', provide twin benefits to farmers by providing:",
+        "options": [
+          "Clean energy for lighting/cooking and improved quality of organic manure",
+          "Chemical pesticides and synthetic fertilizers",
+          "Compressed natural gas for industrial steel furnaces",
+          "Potable distilled drinking water"
+        ],
+        "answer": 0,
+        "explanation": "Biogas plants set up by municipal, cooperative, and individual levels are known as 'Gobar gas plants' in rural India. These provide twin benefits to the farmer in the form of energy and improved quality of organic manure without destroying trees and dung cakes.",
+        "citation": "NCERT Class 10 Geography, Chapter 5, Section 5.3"
+      }
+    ]
+  },
+  {
+    "slug": "ch11_manufacturing_industries",
+    "num": 6,
+    "title": "Manufacturing Industries",
+    "sub": "Geography",
+    "marks": "4–5 Marks",
+    "desc": "Contribution to economy, classification of industries, agro-based vs mineral-based, steel, aluminium, IT & electronics, and pollution control.",
+    "questions": [
+      {
+        "id": "cbse10-sst-geo-ch06-001",
+        "type": "mcq",
+        "subtopic": "Electronic Capital of India",
+        "difficulty": "Easy",
+        "question": "Which city has emerged as the 'Electronic Capital of India' and the major hub of the Information Technology (IT) industry?",
+        "options": [
+          "Bengaluru",
+          "Hyderabad",
+          "Pune",
+          "Noida"
+        ],
+        "answer": 0,
+        "explanation": "Bengaluru has emerged as the electronic capital of India. Other important centres for electronic goods are Mumbai, Delhi, Hyderabad, Pune, Chennai, Kolkata and Lucknow.",
+        "citation": "NCERT Class 10 Geography, Chapter 6, Section 6.5"
+      },
+      {
+        "id": "cbse10-sst-geo-ch06-002",
+        "type": "mcq",
+        "subtopic": "Basic / Heavy Industry",
+        "difficulty": "Medium",
+        "question": "Why is the Iron and Steel industry classified as a 'basic' or 'heavy' industry?",
+        "options": [
+          "All other light, medium, and heavy industries depend on it for their machinery and raw materials, and both raw materials and finished goods are heavy and bulky",
+          "It uses only agricultural crops as raw inputs",
+          "It employs only government civil servants",
+          "It does not require any transport infrastructure"
+        ],
+        "answer": 0,
+        "explanation": "The iron and steel industry is the basic industry since all the other industries — heavy, medium and light, depend on it for their machinery. It is also a heavy industry because all the raw materials as well as finished goods are heavy and bulky entailing heavy transportation costs.",
+        "citation": "NCERT Class 10 Geography, Chapter 6, Section 6.4"
+      },
+      {
+        "id": "cbse10-sst-geo-ch06-003",
+        "type": "mcq",
+        "subtopic": "Industrial Water Pollution Treatment",
+        "difficulty": "Board Standard",
+        "question": "Treatment of industrial effluents to minimize water pollution can be carried out in three phases. What does 'Secondary Treatment' involve?",
+        "options": [
+          "Biological process involving aeration and microbial decomposition",
+          "Mechanical screening, grinding, and sedimentation",
+          "Chemical precipitation of heavy metals by chlorine",
+          "Recycling through reverse osmosis membranes only"
+        ],
+        "answer": 0,
+        "explanation": "Treatment of industrial effluents can be done in three phases: (i) Primary treatment by mechanical means (screening, sedimentation), (ii) Secondary treatment by biological process (aeration tanks and microbial breakdown), and (iii) Tertiary treatment by biological, chemical and physical processes.",
+        "citation": "NCERT Class 10 Geography, Chapter 6, Section 6.6"
+      }
+    ]
+  },
+  {
+    "slug": "ch12_lifelines_of_national_economy",
+    "num": 7,
+    "title": "Lifelines of National Economy",
+    "sub": "Geography",
+    "marks": "3–4 Marks",
+    "desc": "Roadways (Golden Quadrilateral), Railways, Pipelines, Waterways (NW-1), Major sea ports, Airways, International trade, and Tourism.",
+    "questions": [
+      {
+        "id": "cbse10-sst-geo-ch07-001",
+        "type": "mcq",
+        "subtopic": "Golden Quadrilateral Super Highways",
+        "difficulty": "Easy",
+        "question": "The Golden Quadrilateral Super Highway project connects which four major metropolitan cities of India?",
+        "options": [
+          "Delhi – Mumbai – Chennai – Kolkata",
+          "Delhi – Ahmedabad – Bengaluru – Hyderabad",
+          "Kolkata – Varanasi – Nagpur – Mumbai",
+          "Srinagar – Kanyakumari – Silchar – Porbandar"
+        ],
+        "answer": 0,
+        "explanation": "The government launched a major road development project linking Delhi-Kolkata-Chennai-Mumbai and Delhi by six-lane Super Highways, implemented by the National Highways Authority of India (NHAI).",
+        "citation": "NCERT Class 10 Geography, Chapter 7, Section 7.1"
+      },
+      {
+        "id": "cbse10-sst-geo-ch07-002",
+        "type": "mcq",
+        "subtopic": "Tidal Sea Port",
+        "difficulty": "Medium",
+        "question": "Which port in the Gulf of Kachchh was the first port developed soon after Indian independence to ease the volume of trade on Mumbai port after Karachi went to Pakistan?",
+        "options": [
+          "Kandla (Deendayal Port)",
+          "Marmagao Port",
+          "Paradip Port",
+          "Tuticorin Port"
+        ],
+        "answer": 0,
+        "explanation": "Kandla in Kuchchh was the first port developed soon after Independence to ease the volume of trade on the Mumbai port, in the wake of loss of Karachi port to Pakistan after Partition. Kandla is a tidal port, also known as Deendayal Port.",
+        "citation": "NCERT Class 10 Geography, Chapter 7, Section 7.2"
+      },
+      {
+        "id": "cbse10-sst-geo-ch07-003",
+        "type": "mcq",
+        "subtopic": "National Waterway 1",
+        "difficulty": "Board Standard",
+        "question": "National Waterway No. 1 (NW-1), one of India's most significant inland navigable waterways, stretches across which river stretch?",
+        "options": [
+          "The Ganga river between Allahabad (Prayagraj) and Haldia (1,620 km)",
+          "The Brahmaputra river between Sadiya and Dhubri (891 km)",
+          "The West-Coast Canal in Kerala between Kottapuram and Kollam (205 km)",
+          "The Godavari and Krishna rivers along Buckingham Canal"
+        ],
+        "answer": 0,
+        "explanation": "The Ganga river between Allahabad and Haldia covering a distance of 1,620 km was declared National Waterway No. 1 by the Inland Waterways Authority of India.",
+        "citation": "NCERT Class 10 Geography, Chapter 7, Section 7.2"
+      }
+    ]
+  },
+
+  # ---------------------------------------------------------
+  # POLITICAL SCIENCE / CIVICS (Chapters 13 to 17)
+  # ---------------------------------------------------------
+  {
+    "slug": "ch13_power_sharing",
+    "num": 1,
+    "title": "Power Sharing",
+    "sub": "Civics / Pol Science",
+    "marks": "4–5 Marks",
+    "desc": "Case studies of Belgium and Sri Lanka, majoritarianism vs accommodation, prudential and moral reasons, and horizontal vs vertical power sharing.",
+    "questions": [
+      {
+        "id": "cbse10-sst-civ-ch01-001",
+        "type": "mcq",
+        "subtopic": "Sri Lanka Majoritarianism",
+        "difficulty": "Easy",
+        "question": "Which Act passed in Sri Lanka in 1956 recognized Sinhala as the only official language, disregarding Tamil and fueling civil conflict?",
+        "options": [
+          "The Official Language Act of 1956",
+          "The Citizenship Act of 1948",
+          "The Provincial Council Act of 1987",
+          "The Federal Union Ordinance of 1960"
+        ],
+        "answer": 0,
+        "explanation": "In 1956, an Act was passed in Sri Lanka to recognise Sinhala as the only official language, thus disregarding Tamil. The governments followed preferential policies that favoured Sinhala applicants for university positions and government jobs, sparking alienation among Sri Lankan Tamils.",
+        "citation": "NCERT Class 10 Political Science, Chapter 1, Section 1.2"
+      },
+      {
+        "id": "cbse10-sst-civ-ch01-002",
+        "type": "mcq",
+        "subtopic": "Horizontal Distribution of Power",
+        "difficulty": "Medium",
+        "question": "The distribution of power between different organs of government at the same level—the Legislature, Executive, and Judiciary—is called:",
+        "options": [
+          "Horizontal distribution of power (System of checks and balances)",
+          "Vertical distribution of power (Federal division)",
+          "Community government division",
+          "Coalition power arrangement"
+        ],
+        "answer": 0,
+        "explanation": "Power is shared among different organs of government, such as the legislature, executive and judiciary. Let us call this horizontal distribution of power because it allows different organs of government placed at the same level to exercise different powers. This results in a system of checks and balances.",
+        "citation": "NCERT Class 10 Political Science, Chapter 1, Section 1.4"
+      },
+      {
+        "id": "cbse10-sst-civ-ch01-003",
+        "type": "assertion_reasoning",
+        "subtopic": "Assertion & Reasoning - Prudential Reasons",
+        "difficulty": "Board Standard",
+        "question": "Assertion (A): Power sharing is good because it helps to reduce the possibility of conflict between social groups.\nReason (R): Imposing the will of a majority community over others undermines the unity of the nation in the long run.",
+        "options": [
+          "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+          "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+          "(A) is true, but (R) is false.",
+          "(A) is false, but (R) is true."
+        ],
+        "answer": 0,
+        "explanation": "Prudential reasons stress that power sharing will bring out better outcomes by preventing violent social conflict and political instability. Tyranny of the majority is not just oppressive for the minority; it often brings ruin to the majority as well.",
+        "citation": "NCERT Class 10 Political Science, Chapter 1, Section 1.3"
+      }
+    ]
+  },
+  {
+    "slug": "ch14_federalism",
+    "num": 2,
+    "title": "Federalism",
+    "sub": "Civics / Pol Science",
+    "marks": "4–5 Marks",
+    "desc": "Features of federalism, coming together vs holding together, Union/State/Concurrent lists, linguistic states, language policy, and 1992 decentralisation.",
+    "questions": [
+      {
+        "id": "cbse10-sst-civ-ch02-001",
+        "type": "mcq",
+        "subtopic": "Seventh Schedule Lists",
+        "difficulty": "Easy",
+        "question": "Which of the following subjects is included in the 'Concurrent List' where both the Union Government and State Governments can legislate?",
+        "options": [
+          "Education",
+          "Defense of the nation",
+          "Foreign Affairs",
+          "Police and Public Order"
+        ],
+        "answer": 0,
+        "explanation": "The Concurrent List includes subjects of common interest to both the Union and the States, such as education, forests, trade unions, marriage, adoption and succession. Defense and Foreign Affairs are on the Union List, while Police is on the State List.",
+        "citation": "NCERT Class 10 Political Science, Chapter 2, Section 2.2"
+      },
+      {
+        "id": "cbse10-sst-civ-ch02-002",
+        "type": "mcq",
+        "subtopic": "Constitutional Amendment 1992",
+        "difficulty": "Medium",
+        "question": "What major step toward decentralisation was taken in India through the 73rd and 74th Constitutional Amendments in 1992?",
+        "options": [
+          "It made holding regular elections to local government bodies mandatory and reserved at least one-third of all positions for women",
+          "It dissolved the Panchayati Raj institutions in favour of central administrative commissioners",
+          "It gave all taxation powers exclusively to the Central Finance Ministry",
+          "It made Hindi the sole national language of local administration"
+        ],
+        "answer": 0,
+        "explanation": "A major step towards decentralisation was taken in 1992. The Constitution was amended to make the third-tier of democracy more powerful and effective: regular local elections became mandatory, seats were reserved for SC/ST/OBC, at least one-third of seats were reserved for women, and State Election Commissions were created.",
+        "citation": "NCERT Class 10 Political Science, Chapter 2, Section 2.4"
+      },
+      {
+        "id": "cbse10-sst-civ-ch02-003",
+        "type": "mcq",
+        "subtopic": "Federation Types",
+        "difficulty": "Board Standard",
+        "question": "India, Spain, and Belgium are prime examples of which type of federation?",
+        "options": [
+          "'Holding Together' Federations",
+          "'Coming Together' Federations",
+          "Unitary Confederations",
+          "Presidential Republics"
+        ],
+        "answer": 0,
+        "explanation": "In 'holding together' federations, a large country decides to divide its power between the constituent States and the national government. India, Spain and Belgium are examples of this kind of 'holding together' federations, where the central government tends to be more powerful vis-à-vis the states.",
+        "citation": "NCERT Class 10 Political Science, Chapter 2, Section 2.1"
+      }
+    ]
+  },
+  {
+    "slug": "ch15_gender_religion_caste",
+    "num": 3,
+    "title": "Gender, Religion and Caste",
+    "sub": "Civics / Pol Science",
+    "marks": "3–4 Marks",
+    "desc": "Gender division, women's political representation, communalism, secular state provisions, caste inequalities, and caste in politics.",
+    "questions": [
+      {
+        "id": "cbse10-sst-civ-ch03-001",
+        "type": "mcq",
+        "subtopic": "Secular State Provisions",
+        "difficulty": "Easy",
+        "question": "Which of the following constitutional provisions reflects that India is a secular state?",
+        "options": [
+          "There is no official religion for the Indian state, and the Constitution gives all individuals freedom to profess, practice, and propagate any religion",
+          "The Constitution declares Hinduism as the state religion with minority safeguards",
+          "Only religious leaders are eligible to contest parliamentary elections",
+          "Religious instruction is compulsory in all government schools"
+        ],
+        "answer": 0,
+        "explanation": "The Indian Constitution chose a secular model: there is no official religion for the Indian state; the Constitution provides to all individuals and communities freedom to profess, practice and propagate any religion, or not to follow any; and it prohibits discrimination on grounds of religion.",
+        "citation": "NCERT Class 10 Political Science, Chapter 3, Section 3.2"
+      },
+      {
+        "id": "cbse10-sst-civ-ch03-002",
+        "type": "mcq",
+        "subtopic": "Women Representation in Local Bodies",
+        "difficulty": "Medium",
+        "question": "In India, one-third of all seats in local government bodies (Panchayats and Municipalities) are reserved for:",
+        "options": [
+          "Women",
+          "Religious minorities",
+          "Non-resident Indians",
+          "Retired military personnel"
+        ],
+        "answer": 0,
+        "explanation": "One way to ensure that women get a fair proportion in power was legally established in Panchayats and Municipalities: one-third of seats in local government bodies are now reserved for women. Now there are more than 10 lakh elected women representatives in rural and urban local bodies.",
+        "citation": "NCERT Class 10 Political Science, Chapter 3, Section 3.1"
+      },
+      {
+        "id": "cbse10-sst-civ-ch03-003",
+        "type": "mcq",
+        "subtopic": "Caste in Politics",
+        "difficulty": "Board Standard",
+        "question": "Why is it incorrect to assume that Indian elections are all about caste and nothing else?",
+        "options": [
+          "No single parliamentary constituency in the country has a clear majority of one single caste, so candidates need the trust of more than one community to win",
+          "Political parties are prohibited by law from nominating candidates based on social groups",
+          "Caste identities were completely eradicated from Indian society in 1950",
+          "Voters always cast ballots exclusively based on the religion of the party president"
+        ],
+        "answer": 0,
+        "explanation": "No parliamentary constituency in the country has a clear majority of one single caste. So, every candidate and party needs to win the confidence of more than one caste and community to win an election. Also, no party wins the votes of all the voters of a caste or community.",
+        "citation": "NCERT Class 10 Political Science, Chapter 3, Section 3.3"
+      }
+    ]
+  },
+  {
+    "slug": "ch16_political_parties",
+    "num": 4,
+    "title": "Political Parties",
+    "sub": "Civics / Pol Science",
+    "marks": "5 Marks",
+    "desc": "Functions of political parties, party systems, criteria for National and State parties, challenges to political parties, and political reforms.",
+    "questions": [
+      {
+        "id": "cbse10-sst-civ-ch04-001",
+        "type": "mcq",
+        "subtopic": "National Party Criteria",
+        "difficulty": "Board Standard",
+        "question": "According to the Election Commission of India, what is the mandatory requirement for a political party to be recognized as a 'National Party'?",
+        "options": [
+          "Securing at least 6% of total votes in Lok Sabha elections or Assembly elections in four states, and winning at least 4 seats in the Lok Sabha",
+          "Winning a majority of 272 seats in the Lok Sabha in a single general election",
+          "Operating active party branch offices in all 28 Indian states",
+          "Securing at least 15% of votes in at least two municipal corporations"
+        ],
+        "answer": 0,
+        "explanation": "A party that secures at least 6 percent of the total votes in Lok Sabha elections or Assembly elections in four States and wins at least four seats in the Lok Sabha is recognised as a National Party by the Election Commission.",
+        "citation": "NCERT Class 10 Political Science, Chapter 4, Section 4.3"
+      },
+      {
+        "id": "cbse10-sst-civ-ch04-002",
+        "type": "mcq",
+        "subtopic": "Anti-Defection Law",
+        "difficulty": "Medium",
+        "question": "The Constitution of India was amended to prevent 'defection'. What does defection mean in the context of political parties?",
+        "options": [
+          "Changing party allegiance from the party on which a person got elected to a different party",
+          "Refusing to participate in general parliamentary election campaigns",
+          "Holding press conferences without prior clearance from the party whip",
+          "Appointing family members to executive positions in the party hierarchy"
+        ],
+        "answer": 0,
+        "explanation": "The Constitution was amended to prevent elected MLAs and MPs from changing parties. This was done because many elected representatives were indulging in defection in order to become ministers or for cash rewards. Defection means changing party allegiance from the party on which a person got elected to a different party.",
+        "citation": "NCERT Class 10 Political Science, Chapter 4, Section 4.5"
+      },
+      {
+        "id": "cbse10-sst-civ-ch04-003",
+        "type": "mcq",
+        "subtopic": "Challenges to Political Parties",
+        "difficulty": "Medium",
+        "question": "Which of the following is recognized as a major challenge faced by political parties worldwide?",
+        "options": [
+          "Lack of internal democracy, dynastic succession, and the growing influence of money and muscle power",
+          "Too many internal democratic elections holding up party administration",
+          "Complete lack of differences between ideologies of major coalitions",
+          "Constitutional ban on fielding women candidates in provincial assemblies"
+        ],
+        "answer": 0,
+        "explanation": "The four central challenges faced by political parties are: 1) Lack of internal democracy within parties, 2) Dynastic succession (leaders in positions of power favour people close to them or family members), 3) Growing role of money and muscle power, and 4) Parties do not seem to offer a meaningful choice to voters.",
+        "citation": "NCERT Class 10 Political Science, Chapter 4, Section 4.4"
+      }
+    ]
+  },
+  {
+    "slug": "ch17_outcomes_of_democracy",
+    "num": 5,
+    "title": "Outcomes of Democracy",
+    "sub": "Civics / Pol Science",
+    "marks": "3–4 Marks",
+    "desc": "Assessing democratic outcomes: accountable, responsive, legitimate government, economic growth, inequality reduction, and dignity of citizens.",
+    "questions": [
+      {
+        "id": "cbse10-sst-civ-ch05-001",
+        "type": "mcq",
+        "subtopic": "Legitimate Government",
+        "difficulty": "Easy",
+        "question": "In which aspect is democratic government universally considered undeniably superior to non-democratic alternatives?",
+        "options": [
+          "It is a legitimate government because it is the people's own elected government",
+          "It takes instantaneous economic decisions without any consultation or delay",
+          "It completely eliminates all economic poverty in less than five years",
+          "It ensures 100% corruption-free bureaucracy at every level"
+        ],
+        "answer": 0,
+        "explanation": "A democratic government may be slow, less efficient, and not always very responsive or clean. But a democratic government is the people's own government. That is why there is an overwhelming support for the idea of democracy all over the world; it is a legitimate government.",
+        "citation": "NCERT Class 10 Political Science, Chapter 5, Section 5.1"
+      },
+      {
+        "id": "cbse10-sst-civ-ch05-002",
+        "type": "mcq",
+        "subtopic": "Dignity and Freedom of Citizens",
+        "difficulty": "Medium",
+        "question": "Democracy stands much superior to any other form of government in promoting:",
+        "options": [
+          "Dignity and freedom of the individual, particularly for women and disadvantaged castes",
+          "Rapid militarisation and territorial annexation",
+          "Immediate abolition of all direct and indirect taxes",
+          "Uniform religious worship in public institutions"
+        ],
+        "answer": 0,
+        "explanation": "Democracy stands much superior to any other form of government in promoting dignity and freedom of the individual. The passion for respect and freedom are the basis of democracy. This has helped women and disadvantaged castes wage legal and moral struggles for equal rights.",
+        "citation": "NCERT Class 10 Political Science, Chapter 5, Section 5.4"
+      },
+      {
+        "id": "cbse10-sst-civ-ch05-003",
+        "type": "assertion_reasoning",
+        "subtopic": "Assertion & Reasoning - Deliberation & Negotiation",
+        "difficulty": "Board Standard",
+        "question": "Assertion (A): Decisions taken by a democratic government are generally more acceptable to the people and more effective than decisions taken by dictatorships.\nReason (R): Democratic decision-making is based on the idea of deliberation and negotiation, following established constitutional procedures.",
+        "options": [
+          "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+          "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+          "(A) is true, but (R) is false.",
+          "(A) is false, but (R) is true."
+        ],
+        "answer": 0,
+        "explanation": "Because a democratic government follows procedures, its decisions may be both more acceptable to the people and more effective. A non-democratic ruler can take quick decisions, but decisions taken without public consultation may not be accepted by the people.",
+        "citation": "NCERT Class 10 Political Science, Chapter 5, Section 5.1"
+      }
+    ]
+  },
+
+  # ---------------------------------------------------------
+  # ECONOMICS (Chapters 18 to 21)
+  # ---------------------------------------------------------
+  {
+    "slug": "ch18_development",
+    "num": 1,
+    "title": "Development",
+    "sub": "Economics",
+    "marks": "5 Marks",
+    "desc": "Developmental goals, national development, World Bank PCI vs UNDP Human Development Index (HDI), Body Mass Index (BMI), and sustainability.",
+    "questions": [
+      {
+        "id": "cbse10-sst-eco-ch01-001",
+        "type": "mcq",
+        "subtopic": "Per Capita Income Limitations",
+        "difficulty": "Easy",
+        "question": "The World Bank's World Development Report uses Per Capita Income to classify countries. What is the main limitation of Per Capita Income as a development indicator?",
+        "options": [
+          "It hides disparities and does not tell us how income is distributed among the citizens",
+          "It cannot be calculated in international US dollars",
+          "It ignores the industrial manufacturing output of a country",
+          "It only measures agricultural grain production"
+        ],
+        "answer": 0,
+        "explanation": "While averages are useful for comparison, they also hide disparities. Per capita income does not tell us how income is distributed between the rich and poor. Two countries may have identical per capita income, but in one, wealth may be equitably distributed while in the other, a tiny minority holds almost all the wealth.",
+        "citation": "NCERT Class 10 Economics, Chapter 1, Section 1.3"
+      },
+      {
+        "id": "cbse10-sst-eco-ch01-002",
+        "type": "mcq",
+        "subtopic": "Human Development Index (UNDP)",
+        "difficulty": "Medium",
+        "question": "The Human Development Report published by the United Nations Development Programme (UNDP) compares countries based on which three broad criteria?",
+        "options": [
+          "Educational levels of people, health status (life expectancy), and per capita income",
+          "Military expenditure, agricultural acreage, and total export volume",
+          "Population growth rate, highway network density, and gold reserves",
+          "Steel production, electricity generation, and number of universities"
+        ],
+        "answer": 0,
+        "explanation": "UNDP's Human Development Report compares countries based on: (1) Educational levels of the people (mean and expected years of schooling), (2) Health status (life expectancy at birth), and (3) Per capita income (Gross National Income in PPP dollars).",
+        "citation": "NCERT Class 10 Economics, Chapter 1, Section 1.4"
+      },
+      {
+        "id": "cbse10-sst-eco-ch01-003",
+        "type": "mcq",
+        "subtopic": "Sustainable Development",
+        "difficulty": "Board Standard",
+        "question": "The rapid depletion of groundwater reserves across Punjab and Western Uttar Pradesh illustrates which fundamental economic principle?",
+        "options": [
+          "Non-renewable exploitation of renewable resources when rate of extraction exceeds natural replenishment",
+          "The law of diminishing marginal returns in financial banking",
+          "Disguised unemployment in heavy manufacturing",
+          "Horizontal power distribution between municipal bodies"
+        ],
+        "answer": 0,
+        "explanation": "Groundwater is an example of renewable resources. These resources are replenished by nature as in the case of crops and plants. However, even these resources may be overused. If we use more than what is being replenished by rain, then we are overusing this resource, threatening sustainable development.",
+        "citation": "NCERT Class 10 Economics, Chapter 1, Section 1.5"
+      }
+    ]
+  },
+  {
+    "slug": "ch19_sectors_of_indian_economy",
+    "num": 2,
+    "title": "Sectors of the Indian Economy",
+    "sub": "Economics",
+    "marks": "5 Marks",
+    "desc": "Primary, secondary, and tertiary sectors, historical GDP/employment shifts, disguised unemployment, MGNREGA 2005, and organized vs unorganized sectors.",
+    "questions": [
+      {
+        "id": "cbse10-sst-eco-ch02-001",
+        "type": "mcq",
+        "subtopic": "Disguised Unemployment",
+        "difficulty": "Easy",
+        "question": "What is 'disguised unemployment' (or underemployment) which is predominantly observed in the Indian agricultural sector?",
+        "options": [
+          "A situation where more people are working in an activity than necessary, and removing some workers does not reduce total production",
+          "Workers remaining unemployed during off-monsoon winter months",
+          "Educated youth unable to find jobs in multinational corporate firms",
+          "Factory workers temporarily laid off due to machine breakdowns"
+        ],
+        "answer": 0,
+        "explanation": "Underemployment or disguised unemployment is a situation where people are apparently working but all of them are made to work less than their potential. If a few people are moved out of agriculture, production will not be affected because they were surplus workers.",
+        "citation": "NCERT Class 10 Economics, Chapter 2, Section 2.2"
+      },
+      {
+        "id": "cbse10-sst-eco-ch02-002",
+        "type": "mcq",
+        "subtopic": "MGNREGA 2005",
+        "difficulty": "Medium",
+        "question": "Under the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA 2005), the central government guarantees:",
+        "options": [
+          "100 days of guaranteed wage employment in a year to all rural households who are willing to do unskilled manual work, with unemployment allowance if not provided within 15 days",
+          "Free agricultural land and tractors to small and marginal farmers",
+          "300 days of guaranteed employment in urban IT technology parks",
+          "Full pension and medical insurance to all factory supervisors"
+        ],
+        "answer": 0,
+        "explanation": "Under MGNREGA 2005, all those who are able to, and are in need of, work in rural areas are guaranteed 100 days of employment in a year by the government. If the government fails in its duty to provide employment within 15 days, it gives unemployment allowances to the people.",
+        "citation": "NCERT Class 10 Economics, Chapter 2, Section 2.3"
+      },
+      {
+        "id": "cbse10-sst-eco-ch02-003",
+        "type": "mcq",
+        "subtopic": "Organised vs Unorganised Sector",
+        "difficulty": "Board Standard",
+        "question": "Which of the following is a characteristic feature of employment in the 'Organised Sector' in India?",
+        "options": [
+          "Terms of employment are regular, jobs have formal appointment letters, security of employment, and statutory benefits like provident fund and paid leave",
+          "Wages are paid in cash with no records, and workers can be asked to leave at any time without reason",
+          "Units are outside the control of the government and do not follow Factory Acts",
+          "No provision for overtime pay, medical leaves, or safe working environment"
+        ],
+        "answer": 0,
+        "explanation": "Organised sector covers those enterprises or places of work where the terms of employment are regular and people have assured work. They are registered by the government and have to follow its rules and regulations (Factories Act, Minimum Wages Act, Payment of Gratuity Act). Workers enjoy security of employment, paid leave, and provident fund.",
+        "citation": "NCERT Class 10 Economics, Chapter 2, Section 2.4"
+      }
+    ]
+  },
+  {
+    "slug": "ch20_money_and_credit",
+    "num": 3,
+    "title": "Money and Credit",
+    "sub": "Economics",
+    "marks": "4–5 Marks",
+    "desc": "Barter system, double coincidence of wants, modern currency & deposits, terms of credit, formal vs informal loans, and Self-Help Groups (SHGs).",
+    "questions": [
+      {
+        "id": "cbse10-sst-eco-ch03-001",
+        "type": "mcq",
+        "subtopic": "Double Coincidence of Wants",
+        "difficulty": "Easy",
+        "question": "In a barter economy without money, what essential condition must exist for an exchange to take place?",
+        "options": [
+          "Double coincidence of wants (both parties have to agree to sell and buy each other's commodities)",
+          "An official credit letter issued by the village panchayat",
+          "Gold bullion deposits kept in a central escrow account",
+          "A barter tariff rate set by the Reserve Bank"
+        ],
+        "answer": 0,
+        "explanation": "Double coincidence of wants is an essential feature of a barter system: what a person desires to sell is exactly what the other wishes to buy. Money eliminates the need for double coincidence of wants by acting as an intermediate in the exchange process.",
+        "citation": "NCERT Class 10 Economics, Chapter 3, Section 3.1"
+      },
+      {
+        "id": "cbse10-sst-eco-ch03-002",
+        "type": "mcq",
+        "subtopic": "Formal Credit & RBI Supervision",
+        "difficulty": "Medium",
+        "question": "Why does the Reserve Bank of India (RBI) supervise the functioning of formal sources of loans like commercial banks?",
+        "options": [
+          "To ensure that banks maintain a minimum cash balance and give loans not just to profit-making businesses and rich traders, but also to small cultivators and small borrowers",
+          "To force all banks to charge a 50% interest rate on rural loans",
+          "To eliminate all commercial bank branches from village areas",
+          "To replace Indian Rupee currency with international corporate bonds"
+        ],
+        "answer": 0,
+        "explanation": "The Reserve Bank of India supervises the functioning of formal sources of loans. The RBI monitors that the banks actually maintain a cash balance, and that banks give loans not just to profit-making businesses and traders but also to small cultivators, small scale industries, and small borrowers.",
+        "citation": "NCERT Class 10 Economics, Chapter 3, Section 3.4"
+      },
+      {
+        "id": "cbse10-sst-eco-ch03-003",
+        "type": "mcq",
+        "subtopic": "Self-Help Groups (SHGs)",
+        "difficulty": "Board Standard",
+        "question": "How do Self-Help Groups (SHGs) help rural poor women overcome the major hurdle of lack of collateral when seeking bank loans?",
+        "options": [
+          "After regular savings for a year or two, the group becomes eligible for bank loans sanctioned in the name of the group without demanding individual asset collateral",
+          "The group purchases sovereign gold bonds on margin from the World Bank",
+          "Members mortgage their ancestral village farmland to private moneylenders",
+          "The Reserve Bank directly distributes free cash handouts to each member"
+        ],
+        "answer": 0,
+        "explanation": "A typical SHG has 15-20 members, usually belonging to one neighbourhood, who meet and save regularly. If the group is regular in savings, it becomes eligible for availing loan from the bank. The loan is sanctioned in the name of the group, which helps women overcome the problem of lack of collateral.",
+        "citation": "NCERT Class 10 Economics, Chapter 3, Section 3.5"
+      }
+    ]
+  },
+  {
+    "slug": "ch21_globalisation_and_indian_economy",
+    "num": 4,
+    "title": "Globalisation and the Indian Economy",
+    "sub": "Economics",
+    "marks": "4–5 Marks",
+    "desc": "Multinational Corporations (MNCs), foreign trade, liberalisation of 1991, World Trade Organisation (WTO), Special Economic Zones (SEZs), and fair globalisation.",
+    "questions": [
+      {
+        "id": "cbse10-sst-eco-ch04-001",
+        "type": "mcq",
+        "subtopic": "Liberalisation Policy 1991",
+        "difficulty": "Easy",
+        "question": "What major economic policy shift took place in India around 1991 regarding foreign trade and investment?",
+        "options": [
+          "The government removed trade barriers and restrictions on foreign investment, allowing goods to be imported and exported easily (Liberalisation)",
+          "The government nationalised all foreign-owned private factories",
+          "India completely withdrew from international sea trade",
+          "A 200% tariff was levied on all foreign industrial machinery"
+        ],
+        "answer": 0,
+        "explanation": "Around 1991, far reaching changes in policy were made in India. The government decided that the time had come for Indian producers to compete with producers around the globe. Removing barriers or restrictions set by the government is what is known as liberalisation.",
+        "citation": "NCERT Class 10 Economics, Chapter 4, Section 4.3"
+      },
+      {
+        "id": "cbse10-sst-eco-ch04-002",
+        "type": "mcq",
+        "subtopic": "Special Economic Zones (SEZs)",
+        "difficulty": "Medium",
+        "question": "Why did Central and State governments in India set up Special Economic Zones (SEZs) with world-class facilities and tax exemptions?",
+        "options": [
+          "To attract foreign companies to invest in India by offering world-class infrastructure and exemption from taxes for an initial period of five years",
+          "To resettle displaced rural artisans in government handloom communes",
+          "To restrict multinational companies from selling products in Indian markets",
+          "To ban the use of modern internet technologies in factory operations"
+        ],
+        "answer": 0,
+        "explanation": "In recent years, the central and state governments in India are taking special steps to attract foreign companies to invest in India. Industrial zones, called Special Economic Zones (SEZs), are being set up with world class facilities (electricity, water, roads, transport). Companies who set up production units in the SEZs do not have to pay taxes for an initial period of five years.",
+        "citation": "NCERT Class 10 Economics, Chapter 4, Section 4.4"
+      },
+      {
+        "id": "cbse10-sst-eco-ch04-003",
+        "type": "mcq",
+        "subtopic": "World Trade Organisation (WTO)",
+        "difficulty": "Board Standard",
+        "question": "What is the primary stated objective of the World Trade Organisation (WTO)?",
+        "options": [
+          "To liberalise international trade and establish rules regarding international trade among member nations",
+          "To set uniform minimum wage rates across all sovereign nations",
+          "To provide direct military defense to developing nations",
+          "To issue international currency notes replacing the US dollar"
+        ],
+        "answer": 0,
+        "explanation": "World Trade Organisation (WTO) is an organisation whose aim is to liberalise international trade. Started at the initiative of developed countries, WTO establishes rules regarding international trade, and sees that these rules are obeyed.",
+        "citation": "NCERT Class 10 Economics, Chapter 4, Section 4.3"
+      }
+    ]
+  }
+]
+
+if __name__ == "__main__":
+    print(f"Loaded {len(SST_CHAPTERS)} Social Science chapters.")
+    total_q = sum(len(c["questions"]) for c in SST_CHAPTERS)
+    print(f"Total questions in SST catalog: {total_q}")

@@ -1,0 +1,1022 @@
+/**
+ * MockTestVault — Advanced Interactive CBT Test Engine
+ * Incorporating Industry Best Practices from Testbook (TCS iON), Quizlet & Brilliant.org
+ */
+
+class MockTestEngine {
+  constructor(options = {}) {
+    this.currentSet = options.initialSet || 'set1';
+    this.setSources = options.setSources || {
+      set1: 'data/in/cbse10/science_ch01_chemical_reactions_set1.json',
+      set2: 'data/in/cbse10/science_ch01_chemical_reactions_set2.json',
+      set3: 'data/in/cbse10/science_ch01_chemical_reactions_set3.json'
+    };
+    this.dataSource = this.setSources[this.currentSet];
+    this.timeLimitMinutes = options.timeLimitMinutes || 20;
+    this.markingScheme = options.markingScheme || { correct: 1, wrong: 0 };
+    this.examType = options.examType || 'board'; // 'board' or 'competitive'
+    this.questions = [];
+    
+    // State
+    this.currentIndex = 0;
+    this.userAnswers = [];
+    this.reviewedFlags = [];
+    this.visitedFlags = [];
+    this.mode = 'exam'; // 'exam' or 'practice'
+    this.timeRemaining = this.timeLimitMinutes * 60;
+    this.timerInterval = null;
+    this.isSubmitted = false;
+    this.startTime = null;
+    this.currentReviewFilter = 'all';
+
+    // User Preferences
+    this.soundEnabled = localStorage.getItem('mtv_sound') !== 'false';
+    this.fontSizeScale = parseFloat(localStorage.getItem('mtv_font_scale')) || 1.0;
+
+    // DOM Elements
+    this.dom = {
+      questionCard: document.getElementById('question-card'),
+      qNumber: document.getElementById('q-number'),
+      qBadges: document.getElementById('q-badges'),
+      qTitle: document.getElementById('q-title'),
+      optionsList: document.getElementById('options-list'),
+      explanationBox: document.getElementById('explanation-box'),
+      explanationText: document.getElementById('explanation-text'),
+      citationTag: document.getElementById('citation-tag'),
+      
+      prevBtn: document.getElementById('btn-prev'),
+      nextBtn: document.getElementById('btn-next'),
+      reviewBtn: document.getElementById('btn-review'),
+      clearBtn: document.getElementById('btn-clear'),
+      submitBtn: document.getElementById('btn-submit'),
+      
+      paletteGrid: document.getElementById('palette-grid'),
+      paletteAnsweredCount: document.getElementById('count-answered'),
+      paletteNotAnsweredCount: document.getElementById('count-not-answered'),
+      paletteReviewedCount: document.getElementById('count-reviewed'),
+      paletteAnsReviewedCount: document.getElementById('count-ans-reviewed'),
+      paletteUnvisitedCount: document.getElementById('count-unvisited'),
+      
+      timerBox: document.getElementById('timer-box'),
+      timerDisplay: document.getElementById('timer-display'),
+      progressBarFill: document.getElementById('progress-bar-fill'),
+      progressText: document.getElementById('progress-text'),
+      
+      modePracticeBtn: document.getElementById('mode-practice-btn'),
+      modeExamBtn: document.getElementById('mode-exam-btn'),
+      themeToggleBtn: document.getElementById('theme-toggle-btn'),
+      fontDecBtn: document.getElementById('btn-font-dec'),
+      fontIncBtn: document.getElementById('btn-font-inc'),
+      soundToggleBtn: document.getElementById('btn-sound-toggle'),
+      fullscreenToggleBtn: document.getElementById('btn-fullscreen-toggle'),
+      
+      testLayout: document.getElementById('test-layout'),
+      scorecardView: document.getElementById('scorecard-view'),
+      scoreHero: document.getElementById('score-hero'),
+      statsGrid: document.getElementById('stats-grid'),
+      masteryContainer: document.getElementById('mastery-container'),
+      reviewList: document.getElementById('review-list'),
+      
+      filterAllBtn: document.getElementById('filter-all'),
+      filterWrongBtn: document.getElementById('filter-wrong'),
+      filterReviewedBtn: document.getElementById('filter-reviewed'),
+      filterCorrectBtn: document.getElementById('filter-correct'),
+      
+      retakeBtn: document.getElementById('btn-retake'),
+      printBtn: document.getElementById('btn-print'),
+      statusContainer: document.getElementById('exam-status-bar')
+    };
+
+    this.init();
+  }
+
+  async init() {
+    this.setupTheme();
+    this.setupFontSize();
+    this.updateSoundIcon();
+    this.bindEvents();
+    await this.loadQuestions();
+  }
+
+  /* ==========================================================================
+     Theme & Display Settings
+     ========================================================================== */
+  setupTheme() {
+    const savedTheme = localStorage.getItem('mtv_theme') || 
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    this.updateThemeIcon(savedTheme);
+  }
+
+  toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('mtv_theme', next);
+    this.updateThemeIcon(next);
+  }
+
+  updateThemeIcon(theme) {
+    if (this.dom.themeToggleBtn) {
+      this.dom.themeToggleBtn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+      this.dom.themeToggleBtn.setAttribute('title', `Switch to ${theme === 'dark' ? 'Light' : 'Dark'} Mode`);
+    }
+  }
+
+  setupFontSize() {
+    document.documentElement.style.fontSize = `${this.fontSizeScale * 100}%`;
+  }
+
+  adjustFontSize(delta) {
+    this.fontSizeScale = Math.min(1.25, Math.max(0.85, this.fontSizeScale + delta));
+    localStorage.setItem('mtv_font_scale', this.fontSizeScale);
+    this.setupFontSize();
+  }
+
+  toggleSound() {
+    this.soundEnabled = !this.soundEnabled;
+    localStorage.setItem('mtv_sound', this.soundEnabled);
+    this.updateSoundIcon();
+    if (this.soundEnabled) this.playTone('click');
+  }
+
+  updateSoundIcon() {
+    if (this.dom.soundToggleBtn) {
+      this.dom.soundToggleBtn.innerHTML = this.soundEnabled ? '🔊' : '🔇';
+      this.dom.soundToggleBtn.setAttribute('title', this.soundEnabled ? 'Mute Sound Effects' : 'Enable Sound Effects');
+    }
+  }
+
+  toggleFullscreen() {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(() => {});
+    } else {
+      if (document.exitFullscreen) document.exitFullscreen();
+    }
+  }
+
+  /* ==========================================================================
+     Native Web Audio Synthesizer (Instant, Zero External Assets)
+     ========================================================================== */
+  playTone(type) {
+    if (!this.soundEnabled) return;
+    try {
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContext) return;
+      const ctx = new AudioContext();
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      if (type === 'click') {
+        osc.frequency.setValueAtTime(480, ctx.currentTime);
+        gain.gain.setValueAtTime(0.04, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.06);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.06);
+      } else if (type === 'correct') {
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(523.25, ctx.currentTime); // C5
+        osc.frequency.setValueAtTime(783.99, ctx.currentTime + 0.08); // G5
+        gain.gain.setValueAtTime(0.06, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.22);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.22);
+      } else if (type === 'wrong') {
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(220, ctx.currentTime);
+        osc.frequency.setValueAtTime(185, ctx.currentTime + 0.08);
+        gain.gain.setValueAtTime(0.06, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.2);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.2);
+      } else if (type === 'fanfare') {
+        // Test finished arpeggio
+        [523.25, 659.25, 783.99, 1046.50].forEach((freq, i) => {
+          const noteOsc = ctx.createOscillator();
+          const noteGain = ctx.createGain();
+          noteOsc.connect(noteGain);
+          noteGain.connect(ctx.destination);
+          noteOsc.frequency.setValueAtTime(freq, ctx.currentTime + (i * 0.09));
+          noteGain.gain.setValueAtTime(0.05, ctx.currentTime + (i * 0.09));
+          noteGain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + (i * 0.09) + 0.18);
+          noteOsc.start(ctx.currentTime + (i * 0.09));
+          noteOsc.stop(ctx.currentTime + (i * 0.09) + 0.18);
+        });
+      }
+    } catch (e) {
+      // AudioContext policy fallback
+    }
+  }
+
+  /* ==========================================================================
+     Chemical Formula Typographic Formatter (Subscript Converter)
+     ========================================================================== */
+  formatChemicalFormulas(text) {
+    if (!text) return '';
+    // Escape HTML first
+    let s = this.escapeHtml(text);
+
+    // List of common Class 10 chemical formulas to format with exact <sub> tags
+    const formulaMap = [
+      [/FeSO4·7H2O/g, 'FeSO<sub>4</sub>·7H<sub>2</sub>O'],
+      [/FeSO4/g, 'FeSO<sub>4</sub>'],
+      [/Fe2O3/g, 'Fe<sub>2</sub>O<sub>3</sub>'],
+      [/Fe3O4/g, 'Fe<sub>3</sub>O<sub>4</sub>'],
+      [/Ca\(OH\)2/g, 'Ca(OH)<sub>2</sub>'],
+      [/CaCO3/g, 'CaCO<sub>3</sub>'],
+      [/CuSO4/g, 'CuSO<sub>4</sub>'],
+      [/CuCO3·Cu\(OH\)2/g, 'CuCO<sub>3</sub>·Cu(OH)<sub>2</sub>'],
+      [/CuCl2/g, 'CuCl<sub>2</sub>'],
+      [/H2SO4/g, 'H<sub>2</sub>SO<sub>4</sub>'],
+      [/ZnSO4/g, 'ZnSO<sub>4</sub>'],
+      [/ZnCl2/g, 'ZnCl<sub>2</sub>'],
+      [/Na2SO4/g, 'Na<sub>2</sub>SO<sub>4</sub>'],
+      [/BaSO4/g, 'BaSO<sub>4</sub>'],
+      [/BaCl2/g, 'BaCl<sub>2</sub>'],
+      [/Pb\(NO3\)2/g, 'Pb(NO<sub>3</sub>)<sub>2</sub>'],
+      [/Pb\(CH3COO\)2/g, 'Pb(CH<sub>3</sub>COO)<sub>2</sub>'],
+      [/PbI2/g, 'PbI<sub>2</sub>'],
+      [/Al2O3/g, 'Al<sub>2</sub>O<sub>3</sub>'],
+      [/MnO2/g, 'MnO<sub>2</sub>'],
+      [/MnCl2/g, 'MnCl<sub>2</sub>'],
+      [/C6H12O6/g, 'C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>'],
+      [/SO2/g, 'SO<sub>2</sub>'],
+      [/SO3/g, 'SO<sub>3</sub>'],
+      [/NO2/g, 'NO<sub>2</sub>'],
+      [/CO2/g, 'CO<sub>2</sub>'],
+      [/H2O\(g\)/g, 'H<sub>2</sub>O(g)'],
+      [/H2O/g, 'H<sub>2</sub>O'],
+      [/H2S/g, 'H<sub>2</sub>S'],
+      [/H2/g, 'H<sub>2</sub>'],
+      [/O2/g, 'O<sub>2</sub>'],
+      [/N2/g, 'N<sub>2</sub>'],
+      [/Cl2/g, 'Cl<sub>2</sub>'],
+      [/Br2/g, 'Br<sub>2</sub>'],
+      [/Ag2S/g, 'Ag<sub>2</sub>S'],
+      [/AgCl/g, 'AgCl'],
+      [/AgBr/g, 'AgBr'],
+      [/NH4Cl/g, 'NH<sub>4</sub>Cl'],
+      [/\(NH4\)2SO4/g, '(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>'],
+      [/SO4²⁻/g, 'SO<sub>4</sub><sup>2-</sup>'],
+      [/Ba²⁺/g, 'Ba<sup>2+</sup>'],
+      [/Cu²⁺/g, 'Cu<sup>2+</sup>'],
+      [/Fe²⁺/g, 'Fe<sup>2+</sup>'],
+      [/Pb²⁺/g, 'Pb<sup>2+</sup>'],
+      [/H⁺/g, 'H<sup>+</sup>'],
+      [/OH⁻/g, 'OH<sup>-</sup>'],
+      [/O²⁻/g, 'O<sup>2-</sup>']
+    ];
+
+    formulaMap.forEach(([regex, replacement]) => {
+      s = s.replace(regex, replacement);
+    });
+
+    return s;
+  }
+
+  /* ==========================================================================
+     Data Loading & Set Management
+     ========================================================================== */
+  async loadQuestions() {
+    try {
+      const res = await fetch(this.dataSource);
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      const rawData = await res.json();
+      const rawList = Array.isArray(rawData) ? rawData : (rawData.questions || []);
+      this.questions = rawList.map(q => ({
+        ...q,
+        answer: q.answer !== undefined ? q.answer : q.correctAnswer,
+        citation: q.citation || q.ncertRef || 'Official NCERT Class 10 Syllabus'
+      }));
+      
+      // Initialize state arrays
+      this.userAnswers = new Array(this.questions.length).fill(null);
+      this.reviewedFlags = new Array(this.questions.length).fill(false);
+      this.visitedFlags = new Array(this.questions.length).fill(false);
+      this.timeRemaining = this.timeLimitMinutes * 60;
+      this.currentIndex = 0;
+      this.isSubmitted = false;
+      this.startTime = Date.now();
+
+      // Mark first question as visited
+      this.visitedFlags[0] = true;
+
+      this.renderPalette();
+      this.renderQuestion(0);
+      this.updateProgress();
+
+      if (this.mode === 'exam') {
+        this.startTimer();
+      }
+    } catch (err) {
+      console.error('Failed to load test questions:', err);
+      if (this.dom.qTitle) {
+        this.dom.qTitle.innerHTML = `<span style="color:red">Failed to load questions: ${err.message}. Please refresh.</span>`;
+      }
+    }
+  }
+
+  async switchSet(setKey) {
+    if (this.currentSet === setKey || !this.setSources[setKey]) return;
+    
+    if (!this.isSubmitted && this.userAnswers && this.userAnswers.some(a => a !== null)) {
+      if (!confirm("Switching sets will reset your current progress on this test. Continue?")) {
+        return;
+      }
+    }
+    
+    this.currentSet = setKey;
+    this.dataSource = this.setSources[setKey];
+    
+    // Update active button state
+    document.querySelectorAll('.set-btn').forEach(btn => {
+      const isMatch = (btn.getAttribute('data-set') === setKey);
+      btn.classList.toggle('active', isMatch);
+      btn.setAttribute('aria-selected', isMatch);
+    });
+
+    // Reset view if scorecard is shown
+    this.dom.scorecardView.classList.remove('active');
+    this.dom.testLayout.style.display = 'grid';
+    this.dom.statusContainer.style.display = 'block';
+
+    await this.loadQuestions();
+  }
+
+  /* ==========================================================================
+     Event Listeners & Hotkeys
+     ========================================================================== */
+  bindEvents() {
+    if (this.dom.prevBtn) this.dom.prevBtn.addEventListener('click', () => this.prevQuestion());
+    if (this.dom.nextBtn) this.dom.nextBtn.addEventListener('click', () => this.nextQuestion());
+    if (this.dom.reviewBtn) this.dom.reviewBtn.addEventListener('click', () => this.toggleReview());
+    if (this.dom.clearBtn) this.dom.clearBtn.addEventListener('click', () => this.clearResponse());
+    if (this.dom.submitBtn) this.dom.submitBtn.addEventListener('click', () => this.confirmSubmit());
+    
+    if (this.dom.modePracticeBtn) {
+      this.dom.modePracticeBtn.addEventListener('click', () => this.setMode('practice'));
+    }
+    if (this.dom.modeExamBtn) {
+      this.dom.modeExamBtn.addEventListener('click', () => this.setMode('exam'));
+    }
+    if (this.dom.themeToggleBtn) {
+      this.dom.themeToggleBtn.addEventListener('click', () => this.toggleTheme());
+    }
+    if (this.dom.fontDecBtn) {
+      this.dom.fontDecBtn.addEventListener('click', () => this.adjustFontSize(-0.05));
+    }
+    if (this.dom.fontIncBtn) {
+      this.dom.fontIncBtn.addEventListener('click', () => this.adjustFontSize(0.05));
+    }
+    if (this.dom.soundToggleBtn) {
+      this.dom.soundToggleBtn.addEventListener('click', () => this.toggleSound());
+    }
+    if (this.dom.fullscreenToggleBtn) {
+      this.dom.fullscreenToggleBtn.addEventListener('click', () => this.toggleFullscreen());
+    }
+    if (this.dom.retakeBtn) {
+      this.dom.retakeBtn.addEventListener('click', () => this.retakeTest());
+    }
+    if (this.dom.printBtn) {
+      this.dom.printBtn.addEventListener('click', () => window.print());
+    }
+
+    // Set Switcher Buttons (Set 1, Set 2, Set 3)
+    document.querySelectorAll('.set-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetSet = btn.getAttribute('data-set');
+        this.switchSet(targetSet);
+      });
+    });
+
+    // Scorecard Review Filter Buttons
+    document.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+        this.applyReviewFilter(filter);
+      });
+    });
+
+    // Quizlet-Style Power User Keyboard Shortcuts
+    document.addEventListener('keydown', (e) => {
+      // Don't trigger if user is in an input or test is submitted
+      if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+      if (this.isSubmitted) return;
+
+      const key = e.key.toUpperCase();
+
+      // Options Selection: A, B, C, D or 1, 2, 3, 4
+      if (['A', '1'].includes(key)) this.selectOption(0);
+      else if (['B', '2'].includes(key)) this.selectOption(1);
+      else if (['C', '3'].includes(key)) this.selectOption(2);
+      else if (['D', '4'].includes(key)) this.selectOption(3);
+      // Navigation: ArrowRight or Enter for Next, ArrowLeft for Prev
+      else if (e.key === 'ArrowRight' || e.key === 'Enter') {
+        if (this.currentIndex < this.questions.length - 1) this.nextQuestion();
+      } else if (e.key === 'ArrowLeft') {
+        if (this.currentIndex > 0) this.prevQuestion();
+      }
+      // Mark for Review: M
+      else if (key === 'M') {
+        this.toggleReview();
+      }
+      // Clear Response: C
+      else if (key === 'C') {
+        this.clearResponse();
+      }
+    });
+  }
+
+  setMode(newMode) {
+    if (this.mode === newMode) return;
+    this.mode = newMode;
+    this.playTone('click');
+    
+    if (this.dom.modePracticeBtn) this.dom.modePracticeBtn.classList.toggle('active', newMode === 'practice');
+    if (this.dom.modeExamBtn) this.dom.modeExamBtn.classList.toggle('active', newMode === 'exam');
+    
+    if (newMode === 'practice') {
+      this.stopTimer();
+      if (this.dom.timerBox) this.dom.timerBox.style.display = 'none';
+    } else {
+      if (this.dom.timerBox) this.dom.timerBox.style.display = 'flex';
+      if (!this.isSubmitted) this.startTimer();
+    }
+    
+    this.renderQuestion(this.currentIndex);
+  }
+
+  startTimer() {
+    this.stopTimer();
+    this.updateTimerDisplay();
+    this.timerInterval = setInterval(() => {
+      this.timeRemaining--;
+      this.updateTimerDisplay();
+      if (this.timeRemaining <= 0) {
+        this.stopTimer();
+        alert("Time is up! Your test will now be automatically submitted.");
+        this.submitTest();
+      }
+    }, 1000);
+  }
+
+  stopTimer() {
+    if (this.timerInterval) {
+      clearInterval(this.timerInterval);
+      this.timerInterval = null;
+    }
+  }
+
+  updateTimerDisplay() {
+    if (!this.dom.timerDisplay) return;
+    const mins = Math.floor(this.timeRemaining / 60);
+    const secs = this.timeRemaining % 60;
+    this.dom.timerDisplay.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    
+    if (this.timeRemaining <= 180) { // under 3 mins
+      this.dom.timerBox.classList.add('warning');
+    } else {
+      this.dom.timerBox.classList.remove('warning');
+    }
+  }
+
+  /* ==========================================================================
+     Question Rendering & Actions
+     ========================================================================== */
+  renderQuestion(index) {
+    if (!this.questions || index < 0 || index >= this.questions.length) return;
+    this.currentIndex = index;
+    this.visitedFlags[index] = true;
+    const q = this.questions[index];
+
+    // 1. Question Number & Badges
+    this.dom.qNumber.textContent = `Question ${index + 1} of ${this.questions.length}`;
+    
+    let badgesHtml = `<span class="badge badge-chapter">CBSE Class 10</span>`;
+    if (q.subtopic) badgesHtml += `<span class="badge badge-subtopic">${q.subtopic}</span>`;
+    if (q.type === 'assertion_reasoning') badgesHtml += `<span class="badge badge-type-ar">Assertion & Reasoning</span>`;
+    if (q.difficulty) badgesHtml += `<span class="badge badge-subtopic">${q.difficulty}</span>`;
+    this.dom.qBadges.innerHTML = badgesHtml;
+
+    // 2. Question Text with Chemical Formatting
+    if (q.type === 'assertion_reasoning' && q.question.includes('Assertion (A):')) {
+      const parts = q.question.split('\nReason (R):');
+      const assertionPart = parts[0].replace('Assertion (A):', '').trim();
+      const reasonPart = parts[1] ? parts[1].trim() : '';
+      
+      this.dom.qTitle.innerHTML = `
+        <div style="margin-bottom:8px; font-weight:600;">Direction: The question below consists of an Assertion (A) and a Reason (R). Choose the correct option.</div>
+        <div class="ar-highlight-box">
+          <p><strong>Assertion (A):</strong> ${this.formatChemicalFormulas(assertionPart)}</p>
+          <p style="margin-top:8px;"><strong>Reason (R):</strong> ${this.formatChemicalFormulas(reasonPart)}</p>
+        </div>
+      `;
+    } else {
+      this.dom.qTitle.innerHTML = this.formatChemicalFormulas(q.question);
+    }
+
+    // 3. Render Options with Shortcuts & Subtle Hover Lift
+    const letters = ['A', 'B', 'C', 'D'];
+    const chosenAnswer = this.userAnswers[index];
+    const hasAnswered = chosenAnswer !== null;
+
+    let optionsHtml = '';
+    q.options.forEach((optText, optIdx) => {
+      let extraClass = '';
+      if (chosenAnswer === optIdx) {
+        extraClass = 'selected';
+      }
+
+      // In Practice mode, give immediate green/red feedback
+      if (this.mode === 'practice' && hasAnswered) {
+        if (optIdx === q.answer) {
+          extraClass = 'correct';
+        } else if (chosenAnswer === optIdx) {
+          extraClass = 'wrong';
+        }
+      }
+
+      optionsHtml += `
+        <div class="option-item ${extraClass}" data-index="${optIdx}" role="radio" aria-checked="${chosenAnswer === optIdx}">
+          <div class="option-key">${letters[optIdx]}</div>
+          <div class="option-text">${this.formatChemicalFormulas(optText)}</div>
+          <span class="option-shortcut" title="Press key ${letters[optIdx]} on keyboard">${letters[optIdx]}</span>
+        </div>
+      `;
+    });
+    this.dom.optionsList.innerHTML = optionsHtml;
+
+    // Attach click listeners to options
+    this.dom.optionsList.querySelectorAll('.option-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const selectedOpt = parseInt(el.getAttribute('data-index'), 10);
+        this.selectOption(selectedOpt);
+      });
+    });
+
+    // 4. Explanation Box (Practice Mode or after test submission)
+    if (this.mode === 'practice' && hasAnswered) {
+      this.showExplanation(q);
+    } else {
+      this.hideExplanation();
+    }
+
+    // 5. Update Review Button
+    const isReviewed = this.reviewedFlags[index];
+    this.dom.reviewBtn.classList.toggle('active', isReviewed);
+    this.dom.reviewBtn.innerHTML = isReviewed ? '🟣 Marked for Review' : '☆ Mark for Review';
+
+    // 6. Navigation Buttons
+    this.dom.prevBtn.disabled = (index === 0);
+    this.dom.nextBtn.disabled = (index === this.questions.length - 1);
+
+    // 7. Update Palette
+    this.renderPalette();
+    this.updateProgress();
+  }
+
+  selectOption(optIndex) {
+    if (this.isSubmitted) return;
+    this.userAnswers[this.currentIndex] = optIndex;
+    
+    // Play subtle audio tone
+    if (this.mode === 'practice') {
+      const isCorrect = (optIndex === this.questions[this.currentIndex].answer);
+      this.playTone(isCorrect ? 'correct' : 'wrong');
+    } else {
+      this.playTone('click');
+    }
+    
+    this.renderQuestion(this.currentIndex);
+  }
+
+  clearResponse() {
+    if (this.isSubmitted) return;
+    if (this.userAnswers[this.currentIndex] !== null) {
+      this.userAnswers[this.currentIndex] = null;
+      this.playTone('click');
+      this.renderQuestion(this.currentIndex);
+    }
+  }
+
+  toggleReview() {
+    this.reviewedFlags[this.currentIndex] = !this.reviewedFlags[this.currentIndex];
+    this.playTone('click');
+    this.renderQuestion(this.currentIndex);
+  }
+
+  showExplanation(q) {
+    if (!this.dom.explanationBox) return;
+    this.dom.explanationText.innerHTML = this.formatChemicalFormulas(q.explanation);
+    this.dom.citationTag.textContent = q.citation || 'Official NCERT Class 10 Syllabus';
+    this.dom.explanationBox.classList.add('active');
+  }
+
+  hideExplanation() {
+    if (this.dom.explanationBox) {
+      this.dom.explanationBox.classList.remove('active');
+    }
+  }
+
+  prevQuestion() {
+    if (this.currentIndex > 0) {
+      this.playTone('click');
+      this.renderQuestion(this.currentIndex - 1);
+    }
+  }
+
+  nextQuestion() {
+    if (this.currentIndex < this.questions.length - 1) {
+      this.playTone('click');
+      this.renderQuestion(this.currentIndex + 1);
+    }
+  }
+
+  jumpToQuestion(index) {
+    if (index >= 0 && index < this.questions.length) {
+      this.playTone('click');
+      this.renderQuestion(index);
+    }
+  }
+
+  /* ==========================================================================
+     TCS iON 5-State Question Palette Logic
+     ========================================================================== */
+  renderPalette() {
+    if (!this.dom.paletteGrid) return;
+    let gridHtml = '';
+    
+    let countAnswered = 0;
+    let countNotAnswered = 0;
+    let countReviewed = 0;
+    let countAnsReviewed = 0;
+    let countUnvisited = 0;
+
+    this.questions.forEach((_, idx) => {
+      const isAnswered = this.userAnswers[idx] !== null;
+      const isReviewed = this.reviewedFlags[idx];
+      const isVisited = this.visitedFlags[idx];
+      const isCurrent = (this.currentIndex === idx);
+
+      let statusClass = 'unvisited';
+
+      if (isAnswered && isReviewed) {
+        statusClass = 'answered-reviewed';
+        countAnsReviewed++;
+      } else if (isAnswered) {
+        statusClass = 'answered';
+        countAnswered++;
+      } else if (isReviewed) {
+        statusClass = 'reviewed';
+        countReviewed++;
+      } else if (isVisited) {
+        statusClass = 'not-answered';
+        countNotAnswered++;
+      } else {
+        statusClass = 'unvisited';
+        countUnvisited++;
+      }
+
+      let btnClass = `palette-btn ${statusClass}`;
+      if (isCurrent) btnClass += ' current';
+
+      gridHtml += `<button class="${btnClass}" data-jump="${idx}" title="Question ${idx + 1}">${idx + 1}</button>`;
+    });
+
+    this.dom.paletteGrid.innerHTML = gridHtml;
+    
+    // Attach jump listeners
+    this.dom.paletteGrid.querySelectorAll('.palette-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const jumpIdx = parseInt(btn.getAttribute('data-jump'), 10);
+        this.jumpToQuestion(jumpIdx);
+      });
+    });
+
+    // Update Counts in Legend
+    if (this.dom.paletteAnsweredCount) this.dom.paletteAnsweredCount.textContent = countAnswered;
+    if (this.dom.paletteNotAnsweredCount) this.dom.paletteNotAnsweredCount.textContent = countNotAnswered;
+    if (this.dom.paletteReviewedCount) this.dom.paletteReviewedCount.textContent = countReviewed;
+    if (this.dom.paletteAnsReviewedCount) this.dom.paletteAnsReviewedCount.textContent = countAnsReviewed;
+    if (this.dom.paletteUnvisitedCount) this.dom.paletteUnvisitedCount.textContent = countUnvisited;
+  }
+
+  updateProgress() {
+    const answeredCount = this.userAnswers.filter(a => a !== null).length;
+    const total = this.questions.length;
+    const pct = Math.round((answeredCount / total) * 100);
+
+    if (this.dom.progressBarFill) {
+      this.dom.progressBarFill.style.width = `${Math.max(pct, 5)}%`;
+    }
+    if (this.dom.progressText) {
+      this.dom.progressText.textContent = `${answeredCount} of ${total} answered (${pct}%)`;
+    }
+  }
+
+  confirmSubmit() {
+    const unanswered = this.userAnswers.filter(a => a === null).length;
+    let msg = "Are you sure you want to finish and submit your test?";
+    if (unanswered > 0) {
+      msg = `You still have ${unanswered} unanswered question(s). Do you want to submit anyway?`;
+    }
+    if (confirm(msg)) {
+      this.submitTest();
+    }
+  }
+
+  /* ==========================================================================
+     Scorecard, Subtopic Mastery & Review Filtering
+     ========================================================================== */
+  submitTest() {
+    this.stopTimer();
+    this.isSubmitted = true;
+    this.playTone('fanfare');
+
+    // Calculate score
+    let correct = 0;
+    let wrong = 0;
+    let skipped = 0;
+    const subtopicScores = {};
+
+    this.questions.forEach((q, idx) => {
+      const userChoice = this.userAnswers[idx];
+      const sub = q.subtopic || 'General Reactions';
+      if (!subtopicScores[sub]) subtopicScores[sub] = { correct: 0, total: 0 };
+      subtopicScores[sub].total++;
+
+      if (userChoice === null) {
+        skipped++;
+      } else if (userChoice === q.answer) {
+        correct++;
+        subtopicScores[sub].correct++;
+      } else {
+        wrong++;
+      }
+    });
+
+    const total = this.questions.length;
+    const correctWeight = this.markingScheme.correct;
+    const wrongPenalty = this.markingScheme.wrong; // e.g. -0.5
+    const marksObtained = Math.max(0, parseFloat(((correct * correctWeight) + (wrong * wrongPenalty)).toFixed(2)));
+    const maxMarks = total * correctWeight;
+    const scorePct = maxMarks > 0 ? Math.round((marksObtained / maxMarks) * 100) : 0;
+    const timeSpentSecs = Math.max(0, (this.timeLimitMinutes * 60) - this.timeRemaining);
+    const timeSpentMins = Math.floor(timeSpentSecs / 60);
+    const timeSpentRemSecs = timeSpentSecs % 60;
+
+    let rankBadge = "🏆 Distinction!";
+    let rankDesc = "Outstanding conceptual clarity! You performed exceptionally well.";
+    let predictedGrade = `Predicted Grade: Top Percentile`;
+
+    if (this.examType === 'competitive') {
+      const accuracy = Math.round((correct / Math.max(1, correct + wrong)) * 100);
+      if (scorePct >= 70) {
+        rankBadge = "🎯 Tier 1 Cutoff Qualified!";
+        rankDesc = "Excellent speed and precision. You are well above the expected Tier 1 cutoff marks.";
+        predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Accuracy: ${accuracy}%`;
+      } else if (scorePct >= 50) {
+        rankBadge = "👍 Competitive Attempt — Borderline Cutoff";
+        rankDesc = "Good core knowledge. Work on reducing negative marking in reasoning and general awareness to clear the cutoff safely.";
+        predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Accuracy: ${accuracy}%`;
+      } else {
+        rankBadge = "⚠️ Needs Practice & Negative Control";
+        rankDesc = "High negative penalties reduced your net score. Focus on high-accuracy attempts and sectional shortcuts.";
+        predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Below Cutoff`;
+      }
+    } else {
+      // Board default
+      if (scorePct < 40) {
+        rankBadge = "⚠️ Needs Revision";
+        rankDesc = "Review NCERT concepts, definitions, and key textbook examples.";
+        predictedGrade = "Predicted CBSE Grade: C1 — Revise Key Activities";
+      } else if (scorePct < 75) {
+        rankBadge = "👍 Good Foundation!";
+        rankDesc = "Solid grasp of core concepts. Practice NCERT Exemplar and Assertion-Reasoning to reach 95%+ marks.";
+        predictedGrade = "Predicted CBSE Grade: B1 / A2 Target";
+      } else {
+        rankBadge = "🏆 Board Distinction!";
+        rankDesc = "Outstanding conceptual clarity! Thoroughly prepared for the CBSE Board examination.";
+        predictedGrade = "Predicted CBSE Grade: A1 (95%+ Target)";
+      }
+    }
+
+    // Render Score Hero
+    const scoreCircleHtml = this.examType === 'competitive'
+      ? `<span class="score-num">${marksObtained}</span><span class="score-total">/ ${maxMarks} Marks</span>`
+      : `<span class="score-num">${correct}</span><span class="score-total">out of ${total}</span>`;
+
+    this.dom.scoreHero.innerHTML = `
+      <div class="score-circle">
+        ${scoreCircleHtml}
+      </div>
+      <h2 class="score-title">${rankBadge} (${scorePct}%)</h2>
+      <p style="font-weight:700; color:var(--primary); font-size:0.95rem; margin-bottom:8px;">${predictedGrade}</p>
+      <p class="score-desc">${rankDesc}</p>
+    `;
+
+    // Render Stats Grid
+    const penaltyCard = wrongPenalty !== 0 ? `
+      <div class="stat-card">
+        <div class="stat-val" style="color:var(--danger)">${(wrong * Math.abs(wrongPenalty)).toFixed(1)}</div>
+        <div class="stat-label">Penalty (-${Math.abs(wrongPenalty)})</div>
+      </div>
+    ` : `
+      <div class="stat-card">
+        <div class="stat-val" style="color:var(--danger)">${wrong}</div>
+        <div class="stat-label">Incorrect</div>
+      </div>
+    `;
+
+    this.dom.statsGrid.innerHTML = `
+      <div class="stat-card">
+        <div class="stat-val" style="color:var(--success)">${correct}</div>
+        <div class="stat-label">Correct (+${correctWeight})</div>
+      </div>
+      ${penaltyCard}
+      <div class="stat-card">
+        <div class="stat-val" style="color:var(--text-muted)">${skipped}</div>
+        <div class="stat-label">Skipped (0)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" style="color:var(--primary)">${timeSpentMins}m ${timeSpentRemSecs}s</div>
+        <div class="stat-label">Time Taken</div>
+      </div>
+    `;
+
+    // Render Subtopic Mastery Bars
+    let masteryHtml = `
+      <div class="mastery-card">
+        <div class="mastery-card-header">
+          <span>📊 Subtopic Mastery Breakdown</span>
+          <span style="font-size:0.8rem; color:var(--text-muted); font-weight:normal;">Target: 80%+ per section</span>
+        </div>
+        <div class="mastery-grid">
+    `;
+
+    Object.keys(subtopicScores).forEach(sub => {
+      const stats = subtopicScores[sub];
+      const subPct = Math.round((stats.correct / stats.total) * 100);
+      let fillColor = '#10b981';
+      let tag = 'Mastered 🌟';
+      if (subPct < 50) {
+        fillColor = '#ef4444';
+        tag = 'Revise ⚠️';
+      } else if (subPct < 80) {
+        fillColor = '#3b82f6';
+        tag = 'Good 👍';
+      }
+
+      masteryHtml += `
+        <div class="mastery-row">
+          <div class="mastery-meta">
+            <span>${this.escapeHtml(sub)} (${stats.correct}/${stats.total})</span>
+            <span style="color:${fillColor}">${subPct}% — ${tag}</span>
+          </div>
+          <div class="mastery-track">
+            <div class="mastery-fill" style="width:${subPct}%; background:${fillColor};"></div>
+          </div>
+        </div>
+      `;
+    });
+    masteryHtml += `</div></div>`;
+    this.dom.masteryContainer.innerHTML = masteryHtml;
+
+    // Update Filter Pill Counts
+    const reviewedCount = this.reviewedFlags.filter(f => f).length;
+    const mistakesCount = wrong + skipped;
+
+    document.getElementById('filter-count-all').textContent = total;
+    document.getElementById('filter-count-wrong').textContent = mistakesCount;
+    document.getElementById('filter-count-reviewed').textContent = reviewedCount;
+    document.getElementById('filter-count-correct').textContent = correct;
+
+    // Render Detailed Question by Question Review List
+    const letters = ['A', 'B', 'C', 'D'];
+    let reviewHtml = '';
+
+    this.questions.forEach((q, idx) => {
+      const userChoice = this.userAnswers[idx];
+      const isCorrect = (userChoice === q.answer);
+      const isSkipped = (userChoice === null);
+      const isReviewed = this.reviewedFlags[idx];
+      
+      let itemStatusClass = isCorrect ? 'review-correct' : (isSkipped ? 'review-skipped' : 'review-wrong');
+      let statusBadge = isCorrect 
+        ? `<span style="color:var(--success); font-weight:700;">✓ Correct (+1)</span>`
+        : (isSkipped ? `<span style="color:var(--text-muted); font-weight:700;">— Skipped / Unanswered</span>` : `<span style="color:var(--danger); font-weight:700;">✗ Incorrect (0)</span>`);
+
+      reviewHtml += `
+        <div class="review-item ${itemStatusClass}" 
+             data-result="${isCorrect ? 'correct' : 'wrong'}" 
+             data-reviewed="${isReviewed ? 'true' : 'false'}"
+             id="review-q-${idx}">
+          <div class="review-q-header">
+            <span>Q${idx + 1}. ${q.subtopic || 'General'} ${isReviewed ? '🟣' : ''}</span>
+            ${statusBadge}
+          </div>
+          <p style="font-weight:600; margin-bottom:12px; line-height:1.5;">${this.formatChemicalFormulas(q.question)}</p>
+          
+          <div style="font-size:0.9rem; margin-bottom:12px;">
+            ${userChoice !== null ? `
+              <div style="margin-bottom:6px;">
+                <strong>Your Answer:</strong> (${letters[userChoice]}) ${this.formatChemicalFormulas(q.options[userChoice])}
+              </div>
+            ` : `<div style="margin-bottom:6px; color:var(--text-muted);"><strong>Your Answer:</strong> Not attempted</div>`}
+            
+            <div style="color:var(--success-text); font-weight:600;">
+              <strong>Correct Answer:</strong> (${letters[q.answer]}) ${this.formatChemicalFormulas(q.options[q.answer])}
+            </div>
+          </div>
+          
+          <div class="explanation-box active" style="margin-bottom:0;">
+            <div class="explanation-header">
+              <span>NCERT Conceptual Explanation</span>
+              <span class="citation-tag">${q.citation || 'NCERT Class 10'}</span>
+            </div>
+            <div class="explanation-text">${this.formatChemicalFormulas(q.explanation)}</div>
+          </div>
+        </div>
+      `;
+    });
+
+    this.dom.reviewList.innerHTML = reviewHtml;
+
+    // Reset filter to 'all'
+    this.applyReviewFilter('all');
+
+    // Switch Views
+    this.dom.testLayout.style.display = 'none';
+    this.dom.statusContainer.style.display = 'none';
+    this.dom.scorecardView.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  applyReviewFilter(filterType) {
+    this.currentReviewFilter = filterType;
+
+    // Update active filter pill
+    document.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-filter') === filterType);
+    });
+
+    const items = document.querySelectorAll('.review-item');
+    items.forEach(el => {
+      const isCorrect = el.getAttribute('data-result') === 'correct';
+      const isWrong = el.getAttribute('data-result') === 'wrong';
+      const isReviewed = el.getAttribute('data-reviewed') === 'true';
+
+      if (filterType === 'all') {
+        el.style.display = 'block';
+      } else if (filterType === 'wrong') {
+        el.style.display = isWrong ? 'block' : 'none';
+      } else if (filterType === 'correct') {
+        el.style.display = isCorrect ? 'block' : 'none';
+      } else if (filterType === 'reviewed') {
+        el.style.display = isReviewed ? 'block' : 'none';
+      }
+    });
+  }
+
+  retakeTest() {
+    this.userAnswers = new Array(this.questions.length).fill(null);
+    this.reviewedFlags = new Array(this.questions.length).fill(false);
+    this.visitedFlags = new Array(this.questions.length).fill(false);
+    this.visitedFlags[0] = true;
+    this.timeRemaining = this.timeLimitMinutes * 60;
+    this.currentIndex = 0;
+    this.isSubmitted = false;
+
+    this.dom.scorecardView.classList.remove('active');
+    this.dom.testLayout.style.display = 'grid';
+    this.dom.statusContainer.style.display = 'block';
+
+    this.renderPalette();
+    this.renderQuestion(0);
+    this.updateProgress();
+
+    if (this.mode === 'exam') {
+      this.startTimer();
+    }
+  }
+
+  escapeHtml(text) {
+    if (!text) return '';
+    return text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+}
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', () => {
+  window.testEngine = new MockTestEngine({
+    initialSet: 'set1',
+    timeLimitMinutes: 20
+  });
+});

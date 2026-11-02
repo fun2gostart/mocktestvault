@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cbse10-math-ch02-s1-001",
+    "type": "mcq",
+    "subtopic": "Zeroes of Quadratic Polynomial",
+    "difficulty": "Easy",
+    "question": "If α and β are the zeroes of the quadratic polynomial p(x) = ax² + bx + c (a ≠ 0), what are the sum and product of zeroes?",
+    "options": [
+      "α + β = -b/a;  αβ = c/a",
+      "α + β = b/a;   αβ = -c/a",
+      "α + β = c/a;   αβ = b/a",
+      "α + β = -c/a;  αβ = -b/a"
+    ],
+    "answer": 0,
+    "explanation": "For any quadratic polynomial ax² + bx + c: Sum of zeroes (α + β) = -(coefficient of x) / (coefficient of x²) = -b/a; Product of zeroes (αβ) = constant term / (coefficient of x²) = c/a.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
+  },
+  {
+    "id": "cbse10-math-ch02-s1-002",
+    "type": "mcq",
+    "subtopic": "Formation of Quadratic Polynomial",
+    "difficulty": "Medium",
+    "question": "What is the quadratic polynomial whose sum of zeroes is -3 and product of zeroes is 2?",
+    "options": [
+      "x² - 3x + 2",
+      "x² + 3x + 2",
+      "x² - 3x - 2",
+      "x² + 3x - 2"
+    ],
+    "answer": 1,
+    "explanation": "p(x) = k [x² - (Sum of zeroes)x + (Product of zeroes)] = k [x² - (-3)x + 2] = x² + 3x + 2.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
+  },
+  {
+    "id": "cbse10-math-ch02-s1-003",
+    "type": "mcq",
+    "subtopic": "Geometric Meaning of Zeroes",
+    "difficulty": "Easy",
+    "question": "The number of real zeroes of a polynomial y = p(x) is equal to the number of points where the graph of y = p(x) intersects which axis?",
+    "options": [
+      "The x-axis",
+      "The y-axis",
+      "Both x and y axes",
+      "The origin only"
+    ],
+    "answer": 0,
+    "explanation": "The zeroes of y = p(x) are precisely the x-coordinates of the points where the curve intersects the x-axis (where y = 0).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
+  },
+  {
+    "id": "cbse10-math-ch02-s1-004",
+    "type": "assertion_reasoning",
+    "subtopic": "Assertion & Reasoning",
+    "difficulty": "Board Standard",
+    "question": "Assertion (A): The polynomial p(x) = x² + 4x + 5 has no real zeroes.\nReason (R): For p(x) = ax² + bx + c, if discriminant D = b² - 4ac < 0, the parabola does not cut the x-axis.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Here a=1, b=4, c=5. D = b² - 4ac = 16 - 20 = -4 < 0. When D < 0, there are no real zeroes. Reason correctly explains Assertion.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
+  }
+]

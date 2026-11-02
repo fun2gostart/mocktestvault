@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cbse10-math-ch01-s1-001",
+    "type": "mcq",
+    "subtopic": "Fundamental Theorem of Arithmetic",
+    "difficulty": "Easy",
+    "question": "According to the Fundamental Theorem of Arithmetic, every composite number can be uniquely expressed as a product of prime numbers, apart from:",
+    "options": [
+      "The magnitude of the prime factors",
+      "The order in which the prime factors occur",
+      "The sign of the number",
+      "The number of decimal digits"
+    ],
+    "answer": 1,
+    "explanation": "The Fundamental Theorem of Arithmetic states that every composite number can be factored uniquely as a product of primes, except for the order in which the prime factors are written (for example, 12 = 2^2 * 3 = 3 * 2^2).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2 The Fundamental Theorem of Arithmetic"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-002",
+    "type": "mcq",
+    "subtopic": "HCF and LCM Relation",
+    "difficulty": "Easy",
+    "question": "For any two positive integers 'a' and 'b', which fundamental algebraic relationship connects their HCF and LCM?",
+    "options": [
+      "HCF(a, b) + LCM(a, b) = a + b",
+      "HCF(a, b) * LCM(a, b) = a * b",
+      "HCF(a, b) / LCM(a, b) = a / b",
+      "[HCF(a, b)]^2 = a * b"
+    ],
+    "answer": 1,
+    "explanation": "For any two positive integers a and b, the product of their HCF and LCM is equal to the product of the two numbers: HCF(a, b) * LCM(a, b) = a * b. Note that this relation holds strictly for two numbers only.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-003",
+    "type": "mcq",
+    "subtopic": "Prime Factorisation with Exponents",
+    "difficulty": "Medium",
+    "question": "If two positive integers a and b are expressed as a = x^3 * y^2 and b = x * y^3, where x and y are distinct prime numbers, what is HCF(a, b)?",
+    "options": [
+      "x * y",
+      "x * y^2",
+      "x^3 * y^3",
+      "x^2 * y^2"
+    ],
+    "answer": 1,
+    "explanation": "HCF is the product of the smallest power of each common prime factor involved in the numbers. Common prime factors are x and y; the smallest exponent of x is 1 and of y is 2. Therefore, HCF(a, b) = x * y^2.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q1"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-004",
+    "type": "mcq",
+    "subtopic": "Prime Factorisation with Exponents: LCM",
+    "difficulty": "Medium",
+    "question": "If two positive integers p and q are given by p = a * b^2 and q = a^3 * b, where a and b are prime numbers, what is LCM(p, q)?",
+    "options": [
+      "a * b",
+      "a^2 * b^2",
+      "a^3 * b^2",
+      "a^4 * b^3"
+    ],
+    "answer": 2,
+    "explanation": "LCM is the product of the greatest power of each prime factor involved in the numbers. The highest power of a is a^3, and the highest power of b is b^2. Therefore, LCM(p, q) = a^3 * b^2.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q2"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-005",
+    "type": "mcq",
+    "subtopic": "Irrational Numbers",
+    "difficulty": "Easy",
+    "question": "Which of the following real numbers is an IRRATIONAL number?",
+    "options": [
+      "3.141414... (non-terminating repeating decimal)",
+      "22 / 7 (ratio of two integers)",
+      "sqrt(5) (square root of a prime number)",
+      "sqrt(25) (equal to positive integer 5)"
+    ],
+    "answer": 2,
+    "explanation": "For any prime number p, sqrt(p) is always irrational. Repeating decimals like 3.1414... are rational (can be written as p/q), 22/7 is rational, and sqrt(25) = 5 is an integer. Thus sqrt(5) is irrational.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-006",
+    "type": "mcq",
+    "subtopic": "Nature of Real Numbers",
+    "difficulty": "Easy",
+    "question": "The sum or difference of a rational number and an irrational number is always:",
+    "options": [
+      "Always a rational number",
+      "Always an irrational number",
+      "Always an integer",
+      "Zero"
+    ],
+    "answer": 1,
+    "explanation": "The sum or difference of a rational number and an irrational number is always irrational (e.g., 3 + sqrt(2) or 5 - sqrt(3)). Similarly, the product and quotient of a non-zero rational and an irrational number are irrational.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3 Revisiting Irrational Numbers"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-007",
+    "type": "mcq",
+    "subtopic": "Digits of Power Expressions",
+    "difficulty": "Medium",
+    "question": "Can the number 4^n, where n is any natural number, ever end with the digit zero?",
+    "options": [
+      "Yes, for n = 5",
+      "Yes, for any even value of n",
+      "No, because the prime factorisation of 4^n = (2^2)^n = 2^(2n) contains only the prime factor 2 and lacks the prime factor 5",
+      "Yes, for n = 10"
+    ],
+    "answer": 2,
+    "explanation": "For a number to end with the digit 0, it must be divisible by 10, meaning its prime factorisation must contain both 2 and 5 (10 = 2 * 5). Since 4^n = 2^(2n), the only prime factor is 2. By the uniqueness of the Fundamental Theorem of Arithmetic, 5 cannot be a factor, so 4^n can never end with 0.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 5"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-008",
+    "type": "mcq",
+    "subtopic": "HCF Application: Division with Remainders",
+    "difficulty": "Medium",
+    "question": "What is the largest positive integer that divides 70 and 125, leaving remainders 5 and 8 respectively?",
+    "options": [
+      "13",
+      "65",
+      "875",
+      "1750"
+    ],
+    "answer": 0,
+    "explanation": "The required number divides (70 - 5 = 65) and (125 - 8 = 117) exactly. Thus it is HCF(65, 117). Factoring: 65 = 5 * 13, and 117 = 9 * 13 = 3^2 * 13. The common prime factor is 13. Hence, the largest divisor is 13.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q3"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-009",
+    "type": "mcq",
+    "subtopic": "LCM Application: Smallest Common Divisible Number",
+    "difficulty": "Medium",
+    "question": "What is the least natural number that is divisible by all numbers from 1 to 10 (both inclusive)?",
+    "options": [
+      "10",
+      "100",
+      "504",
+      "2520"
+    ],
+    "answer": 3,
+    "explanation": "The required number is LCM(1, 2, 3, 4, 5, 6, 7, 8, 9, 10). Finding highest powers of all prime factors: 2^3 = 8, 3^2 = 9, 5^1 = 5, 7^1 = 7. LCM = 8 * 9 * 5 * 7 = 2520.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q7"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-010",
+    "type": "mcq",
+    "subtopic": "HCF & LCM Numerical: Direct Calculation",
+    "difficulty": "Medium",
+    "question": "If HCF(306, 657) = 9, what is the value of LCM(306, 657)?",
+    "options": [
+      "22,338",
+      "18,224",
+      "2,754",
+      "33,456"
+    ],
+    "answer": 0,
+    "explanation": "Using HCF(a, b) * LCM(a, b) = a * b: LCM(306, 657) = (306 * 657) / 9 = 34 * 657 = 22,338.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 4"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-011",
+    "type": "mcq",
+    "subtopic": "HCF of 96 and 404",
+    "difficulty": "Medium",
+    "question": "What is the HCF of 96 and 404 by the prime factorisation method?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "Prime factorisation: 96 = 2^5 * 3, and 404 = 2^2 * 101. The common factor with lowest exponent is 2^2 = 4. Hence, HCF(96, 404) = 4 (and LCM = 9696).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 7"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-012",
+    "type": "mcq",
+    "subtopic": "HCF Divisibility Rule for LCM",
+    "difficulty": "Medium",
+    "question": "Can two numbers have 18 as their HCF and 380 as their LCM?",
+    "options": [
+      "Yes, for any two even numbers",
+      "No, because the HCF must always be a factor of the LCM, and 380 is not exactly divisible by 18",
+      "Yes, if one of the numbers is 18",
+      "Cannot be determined without knowing the numbers"
+    ],
+    "answer": 1,
+    "explanation": "The HCF is the highest common factor and must completely divide the LCM. Dividing 380 by 18 gives 21 with a remainder of 2 (380 = 18 * 21 + 2). Since 18 does not divide 380, no two numbers can have HCF = 18 and LCM = 380.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-013",
+    "type": "mcq",
+    "subtopic": "Army Contingent March: Max Columns",
+    "difficulty": "Medium",
+    "question": "An army contingent of 616 members is to march behind an army band of 32 members in a Republic Day parade. The two groups are to march in the same number of columns. What is the maximum number of columns in which they can march?",
+    "options": [
+      "4 columns",
+      "8 columns",
+      "16 columns",
+      "32 columns"
+    ],
+    "answer": 1,
+    "explanation": "The maximum number of columns is given by HCF(616, 32). Prime factors: 616 = 2^3 * 7 * 11, and 32 = 2^5. Common factor is 2^3 = 8. Hence, the maximum number of columns is 8.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.1 Question 3"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-014",
+    "type": "mcq",
+    "subtopic": "LCM Word Problem: Simultaneous Bell Chimes",
+    "difficulty": "Medium",
+    "question": "Two school bells toll at intervals of 20 minutes and 25 minutes respectively. If they toll together at 12:00 noon, at what time will they next toll together?",
+    "options": [
+      "12:45 PM",
+      "1:40 PM",
+      "2:00 PM",
+      "1:00 PM"
+    ],
+    "answer": 1,
+    "explanation": "The bells toll together after a time interval equal to LCM(20, 25). 20 = 2^2 * 5, and 25 = 5^2. LCM = 2^2 * 5^2 = 4 * 25 = 100 minutes. 100 minutes = 1 hour 40 minutes. 12:00 noon + 1 hr 40 min = 1:40 PM.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 7"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-015",
+    "type": "mcq",
+    "subtopic": "Ratio of LCM to HCF",
+    "difficulty": "Medium",
+    "question": "What is the ratio of the LCM to the HCF for the numbers 5, 15, and 20?",
+    "options": [
+      "1 : 12",
+      "12 : 1",
+      "6 : 1",
+      "4 : 3"
+    ],
+    "answer": 1,
+    "explanation": "Factoring: 5 = 5; 15 = 3 * 5; 20 = 2^2 * 5. HCF = 5. LCM = 2^2 * 3 * 5 = 60. Ratio LCM : HCF = 60 : 5 = 12 : 1.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-016",
+    "type": "mcq",
+    "subtopic": "Divisibility Theorem for Irrationality Proofs",
+    "difficulty": "Easy",
+    "question": "Theorem 1.3 states: Let p be a prime number. If p divides a^2 (where a is a positive integer), then which of the following is necessarily true?",
+    "options": [
+      "p divides a",
+      "p divides 2a",
+      "a divides p",
+      "p^2 divides a"
+    ],
+    "answer": 0,
+    "explanation": "Theorem 1.3 of NCERT establishes that if a prime number p divides a^2, then p must divide a. This fundamental lemma forms the core backbone of proving the irrationality of numbers like sqrt(2), sqrt(3), and sqrt(5).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-017",
+    "type": "mcq",
+    "subtopic": "Product of Rational and Irrational",
+    "difficulty": "Easy",
+    "question": "What is the product of any non-zero rational number (r) and an irrational number (s)?",
+    "options": [
+      "Always an integer",
+      "Always a rational number",
+      "Always an irrational number",
+      "Always zero"
+    ],
+    "answer": 2,
+    "explanation": "If r is a non-zero rational and s is irrational, their product r * s is always irrational. If r * s were rational (say q), then s = q / r would be the quotient of two rationals, which is rational, contradicting the fact that s is irrational.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-018",
+    "type": "mcq",
+    "subtopic": "Coprime Integers Definition",
+    "difficulty": "Easy",
+    "question": "Two positive integers 'a' and 'b' are defined to be COPRIME (relatively prime) if and only if:",
+    "options": [
+      "Both a and b are prime numbers",
+      "HCF(a, b) = 1",
+      "LCM(a, b) = 1",
+      "a + b is a prime number"
+    ],
+    "answer": 1,
+    "explanation": "Two positive integers are coprime if they share no common positive divisor other than 1, which means HCF(a, b) = 1 (for example, 8 and 9 are composite numbers, but they are coprime because HCF(8, 9) = 1).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-019",
+    "type": "mcq",
+    "subtopic": "Factors of a Prime Number",
+    "difficulty": "Easy",
+    "question": "How many total positive factors does any prime number p have?",
+    "options": [
+      "Only 1 factor",
+      "Exactly 2 factors (1 and the number p itself)",
+      "Infinite factors",
+      "3 factors"
+    ],
+    "answer": 1,
+    "explanation": "By definition, a prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s1-020",
+    "type": "mcq",
+    "subtopic": "Composite Expression Verification",
+    "difficulty": "Medium",
+    "question": "Why is the mathematical expression (7 * 11 * 13 + 13) classified as a COMPOSITE number?",
+    "options": [
+      "It is an odd number",
+      "It can be factored as 13 * (7 * 11 + 1) = 13 * 78 = 13 * 13 * 6, having more than two distinct factors",
+      "It ends with digit 3",
+      "It is divisible by 5"
+    ],
+    "answer": 1,
+    "explanation": "Factoring out 13: 7 * 11 * 13 + 13 = 13 * (7 * 11 + 1) = 13 * (77 + 1) = 13 * 78 = 13 * 2 * 3 * 13. Since it has factors other than 1 and itself, it is a composite number.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 6"
+  }
+]

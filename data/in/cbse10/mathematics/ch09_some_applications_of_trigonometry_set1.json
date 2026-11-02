@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch09-s1-001",
+      "type": "mcq",
+      "subtopic": "Sun's Elevation Angle Equality",
+      "difficulty": "Easy",
+      "question": "A vertical pole stands on level ground. If the height of the pole is equal to the length of its shadow, what is the angle of elevation of the sun?",
+      "options": [
+        "45 degrees",
+        "30 degrees",
+        "60 degrees",
+        "90 degrees"
+      ],
+      "answer": 0,
+      "explanation": "Let height = h and shadow = s. tan theta = h / s. Given h = s, tan theta = 1. Since tan 45 deg = 1, the angle of elevation theta = 45 degrees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-002",
+      "type": "mcq",
+      "subtopic": "Height of Tower from Ground Distance",
+      "difficulty": "Easy",
+      "question": "From a point on the ground 30 m away from the foot of a tower, the angle of elevation of the top of the tower is 30 degrees. What is the height of the tower?",
+      "options": [
+        "10 sqrt(3) m (~17.32 m)",
+        "30 sqrt(3) m",
+        "15 m",
+        "20 sqrt(3) m"
+      ],
+      "answer": 0,
+      "explanation": "tan 30 deg = Height / 30 => 1 / sqrt(3) = h / 30 => h = 30 / sqrt(3) = 10*sqrt(3) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 4"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-003",
+      "type": "mcq",
+      "subtopic": "Circus Rope Climbing Angle",
+      "difficulty": "Easy",
+      "question": "A circus artist is climbing a 20 m long rope, which is tightly stretched and tied from the top of a vertical pole to the ground. If the angle made by the rope with the ground level is 30 degrees, find the height of the pole.",
+      "options": [
+        "10 m",
+        "20 m",
+        "10 sqrt(3) m",
+        "5 m"
+      ],
+      "answer": 0,
+      "explanation": "In right triangle formed: rope is hypotenuse = 20 m, pole is opposite side h. sin 30 deg = h / 20 => 1/2 = h / 20 => h = 10 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-004",
+      "type": "mcq",
+      "subtopic": "Broken Tree Touching Ground",
+      "difficulty": "Medium",
+      "question": "A tree breaks due to storm and the broken part bends so that the top of the tree touches the ground making an angle of 30 degrees with it. The distance between the foot of the tree to the point where the top touches the ground is 8 m. Find the original total height of the tree.",
+      "options": [
+        "8 sqrt(3) m (~13.86 m)",
+        "16 sqrt(3) m",
+        "12 m",
+        "8 m"
+      ],
+      "answer": 0,
+      "explanation": "Let standing part be h and broken part be c. tan 30 deg = h / 8 => 1/sqrt(3) = h / 8 => h = 8 / sqrt(3). cos 30 deg = 8 / c => sqrt(3)/2 = 8 / c => c = 16 / sqrt(3). Total height = h + c = 8/sqrt(3) + 16/sqrt(3) = 24 / sqrt(3) = 8*sqrt(3) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-005",
+      "type": "mcq",
+      "subtopic": "Kite Flying String Length",
+      "difficulty": "Easy",
+      "question": "A kite is flying at a height of 60 m above the ground. The string attached to the kite is temporarily tied to a point on the ground inclined at 60 degrees. Assuming no slack in the string, what is the length of the string?",
+      "options": [
+        "40 sqrt(3) m (~69.28 m)",
+        "30 sqrt(3) m",
+        "120 m",
+        "60 sqrt(3) m"
+      ],
+      "answer": 0,
+      "explanation": "sin 60 deg = Height / String Length => sqrt(3)/2 = 60 / L => L = (60 * 2) / sqrt(3) = 120 / sqrt(3) = 40*sqrt(3) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 5"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-006",
+      "type": "mcq",
+      "subtopic": "Observer Height Included",
+      "difficulty": "Medium",
+      "question": "An observer 1.5 m tall is 28.5 m away from a chimney. The angle of elevation of the top of the chimney from her eyes is 45 degrees. What is the total height of the chimney?",
+      "options": [
+        "30 m",
+        "28.5 m",
+        "27 m",
+        "31.5 m"
+      ],
+      "answer": 0,
+      "explanation": "Let chimney height above eye level be h. tan 45 deg = h / 28.5 => 1 = h / 28.5 => h = 28.5 m. Total height of chimney = h + observer height = 28.5 + 1.5 = 30 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1, Example 3"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-007",
+      "type": "mcq",
+      "subtopic": "Sun Elevation when Shadow is Radical Multiple",
+      "difficulty": "Easy",
+      "question": "If the length of the shadow of a tower is sqrt(3) times the height of the tower, what is the angle of elevation of the sun?",
+      "options": [
+        "30 degrees",
+        "60 degrees",
+        "45 degrees",
+        "15 degrees"
+      ],
+      "answer": 0,
+      "explanation": "tan theta = Height / Shadow = h / (sqrt(3) h) = 1 / sqrt(3). Since tan 30 deg = 1/sqrt(3), theta = 30 degrees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-008",
+      "type": "mcq",
+      "subtopic": "Sun Elevation when Height is Radical Multiple",
+      "difficulty": "Easy",
+      "question": "If the height of a pole is sqrt(3) times the length of its shadow, what is the angle of elevation of the sun?",
+      "options": [
+        "60 degrees",
+        "30 degrees",
+        "45 degrees",
+        "75 degrees"
+      ],
+      "answer": 0,
+      "explanation": "tan theta = Height / Shadow = (sqrt(3) s) / s = sqrt(3). Since tan 60 deg = sqrt(3), theta = 60 degrees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-009",
+      "type": "mcq",
+      "subtopic": "Angle of Depression Definition",
+      "difficulty": "Easy",
+      "question": "An observer standing on a 50 m high cliff looks down at a boat on the sea. The angle made between the line of sight and the horizontal line from the observer's eye is called:",
+      "options": [
+        "Angle of depression",
+        "Angle of elevation",
+        "Angle of refraction",
+        "Azimuth angle"
+      ],
+      "answer": 0,
+      "explanation": "When an observer views an object placed below the horizontal line of sight, the angle between the horizontal line and the line of sight is called the angle of depression.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-010",
+      "type": "mcq",
+      "subtopic": "Boat Distance from Cliff",
+      "difficulty": "Easy",
+      "question": "From the top of a 75 m high cliff, the angle of depression of a boat on the water is 30 degrees. How far is the boat from the base of the cliff?",
+      "options": [
+        "75 sqrt(3) m (~129.9 m)",
+        "75 m",
+        "25 sqrt(3) m",
+        "150 m"
+      ],
+      "answer": 0,
+      "explanation": "Angle of depression = angle of elevation from boat = 30 deg. tan 30 deg = 75 / d => 1/sqrt(3) = 75 / d => d = 75*sqrt(3) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-011",
+      "type": "mcq",
+      "subtopic": "Playground Slide Dimensions",
+      "difficulty": "Medium",
+      "question": "A contractor plans to install two slides for children in a park. For elder children, she wants to have a steep slide at a height of 3 m, inclined at an angle of 60 degrees to the ground. What is the length of this slide?",
+      "options": [
+        "2 sqrt(3) m (~3.46 m)",
+        "4 sqrt(3) m",
+        "6 m",
+        "3 sqrt(3) m"
+      ],
+      "answer": 0,
+      "explanation": "sin 60 deg = Height / Slide Length => sqrt(3)/2 = 3 / L => L = (3 * 2)/sqrt(3) = 6/sqrt(3) = 2*sqrt(3) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 3"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-012",
+      "type": "mcq",
+      "subtopic": "Pedestal and Statue Elevation",
+      "difficulty": "Hard",
+      "question": "A 1.6 m tall statue stands on the top of a pedestal. From a point on the ground, the angle of elevation of the top of the statue is 60 degrees and from the same point the angle of elevation of the top of the pedestal is 45 degrees. Find the height of the pedestal.",
+      "options": [
+        "0.8(sqrt(3) + 1) m",
+        "1.6(sqrt(3) - 1) m",
+        "0.8(sqrt(3) - 1) m",
+        "1.2(sqrt(3) + 1) m"
+      ],
+      "answer": 0,
+      "explanation": "Let pedestal height be h, ground distance be d. tan 45 deg = h/d => d = h. For statue top: tan 60 deg = (h + 1.6)/d = (h + 1.6)/h => sqrt(3)*h = h + 1.6 => h(sqrt(3) - 1) = 1.6 => h = 1.6 / (sqrt(3) - 1) = 1.6(sqrt(3) + 1) / 2 = 0.8(sqrt(3) + 1) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 8"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-013",
+      "type": "mcq",
+      "subtopic": "Flagstaff on Tower Height",
+      "difficulty": "Medium",
+      "question": "From a point P on the ground the angle of elevation of the top of a 10 m tall building is 30 degrees. A flag is hoisted at the top of the building and the angle of elevation of the top of the flagstaff from P is 45 degrees. Find the length of the flagstaff. (Use sqrt(3) = 1.732)",
+      "options": [
+        "7.32 m",
+        "10 m",
+        "5.77 m",
+        "8.50 m"
+      ],
+      "answer": 0,
+      "explanation": "tan 30 deg = 10 / d => d = 10*sqrt(3) m. tan 45 deg = (10 + flag) / d => 1 = (10 + flag) / (10*sqrt(3)) => 10 + flag = 10*sqrt(3) => flag = 10(sqrt(3) - 1) = 10(1.732 - 1) = 10(0.732) = 7.32 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1, Example 4"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-014",
+      "type": "mcq",
+      "subtopic": "Line of Sight Geometry",
+      "difficulty": "Easy",
+      "question": "The straight line drawn from the eye of an observer to the point in the object viewed by the observer is called the:",
+      "options": [
+        "Line of sight",
+        "Horizontal level",
+        "Axis of elevation",
+        "Normal line"
+      ],
+      "answer": 0,
+      "explanation": "By NCERT definition, the line of sight is the straight ray drawn from the eye of the observer to the target point on the object viewed.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-015",
+      "type": "mcq",
+      "subtopic": "Angle of Elevation Change with Distance",
+      "difficulty": "Easy",
+      "question": "As an observer moves closer to the foot of a vertical tower along level ground, the angle of elevation of the top of the tower:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "First increases then decreases"
+      ],
+      "answer": 0,
+      "explanation": "tan theta = height / distance. As distance decreases, tan theta increases, which means the angle of elevation theta increases.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-016",
+      "type": "mcq",
+      "subtopic": "Cable Tower from Building Top",
+      "difficulty": "Hard",
+      "question": "From the top of a 7 m high building, the angle of elevation of the top of a cable tower is 60 degrees and the angle of depression of its foot is 45 degrees. Find the height of the tower.",
+      "options": [
+        "7(sqrt(3) + 1) m (~19.12 m)",
+        "7(sqrt(3) - 1) m",
+        "14 sqrt(3) m",
+        "21 m"
+      ],
+      "answer": 0,
+      "explanation": "Let distance between building and tower be d. Angle of depression to foot = 45 deg => tan 45 deg = 7 / d => d = 7 m. Angle of elevation to top = 60 deg => tan 60 deg = h_above / d => h_above = 7 * tan 60 deg = 7*sqrt(3) m. Total height of cable tower = 7 + 7*sqrt(3) = 7(sqrt(3) + 1) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 12"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-017",
+      "type": "mcq",
+      "subtopic": "Lighthouse Viewing Two Ships",
+      "difficulty": "Hard",
+      "question": "As observed from the top of a 75 m high lighthouse from sea level, the angles of depression of two ships are 30 degrees and 45 degrees. If one ship is exactly behind the other on the same side of the lighthouse, find the distance between the two ships.",
+      "options": [
+        "75(sqrt(3) - 1) m (~54.9 m)",
+        "75(sqrt(3) + 1) m",
+        "50 sqrt(3) m",
+        "75 m"
+      ],
+      "answer": 0,
+      "explanation": "Distance to nearer ship (45 deg): d1 = 75 / tan 45 deg = 75 m. Distance to farther ship (30 deg): d2 = 75 / tan 30 deg = 75*sqrt(3) m. Distance between ships = d2 - d1 = 75*sqrt(3) - 75 = 75(sqrt(3) - 1) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 13"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-018",
+      "type": "mcq",
+      "subtopic": "TV Tower on Canal Bank",
+      "difficulty": "Medium",
+      "question": "A TV tower stands vertically on a bank of a canal. From a point on the other bank directly opposite the tower, the angle of elevation of the top is 60 degrees. From another point 20 m away from this point on the line joining this point to the foot of the tower, the angle of elevation is 30 degrees. Find the height of the tower and width of the canal.",
+      "options": [
+        "Height = 10 sqrt(3) m, Canal width = 10 m",
+        "Height = 20 sqrt(3) m, Canal width = 20 m",
+        "Height = 15 m, Canal width = 15 m",
+        "Height = 10 m, Canal width = 10 sqrt(3) m"
+      ],
+      "answer": 0,
+      "explanation": "Let canal width be w. Height h = w * tan 60 deg = w*sqrt(3). From 20 m away: tan 30 deg = h / (w + 20) => 1/sqrt(3) = (w*sqrt(3)) / (w + 20) => w + 20 = 3w => 2w = 20 => w = 10 m. Then h = 10*sqrt(3) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 10"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-019",
+      "type": "mcq",
+      "subtopic": "Shadow Length Increments",
+      "difficulty": "Medium",
+      "question": "The shadow of a tower standing on level ground is found to be 40 m longer when the sun's altitude is 30 degrees than when it is 60 degrees. What is the height of the tower?",
+      "options": [
+        "20 sqrt(3) m (~34.64 m)",
+        "40 sqrt(3) m",
+        "20 m",
+        "30 sqrt(3) m"
+      ],
+      "answer": 0,
+      "explanation": "Let original shadow at 60 deg be x. Then h = x*sqrt(3) => x = h/sqrt(3). At 30 deg: shadow = x + 40 = h*sqrt(3) => h/sqrt(3) + 40 = h*sqrt(3) => 40 = h(sqrt(3) - 1/sqrt(3)) = h(2/sqrt(3)) => h = (40 * sqrt(3)) / 2 = 20*sqrt(3) m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1, Example 5"
+    },
+    {
+      "id": "cbse10-math-ch09-s1-020",
+      "type": "mcq",
+      "subtopic": "Alternate Angles Elevation Depression Equivalence",
+      "difficulty": "Easy",
+      "question": "Why is the angle of elevation of an object viewed from point A equal to the angle of depression of point A viewed from the object?",
+      "options": [
+        "They form alternate interior angles between two parallel horizontal lines",
+        "They are vertically opposite angles",
+        "They are corresponding angles",
+        "They are linear pair angles"
+      ],
+      "answer": 0,
+      "explanation": "The horizontal line through the eye of the observer at the top is parallel to the horizontal line on the ground. The line of sight acts as a transversal, making angle of elevation equal to angle of depression as alternate interior angles.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
+    }
+  ]
+}

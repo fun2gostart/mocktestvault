@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cbse10-sci-ch10-s2-001",
+    "type": "mcq",
+    "subtopic": "Myopia Numerical: Far Point Correction",
+    "difficulty": "Hard",
+    "question": "The far point of a myopic person is 80 cm in front of the eye. What is the nature and optical power of the corrective lens required to restore normal distant vision?",
+    "options": [
+      "Concave lens of power -1.25 D",
+      "Convex lens of power +1.25 D",
+      "Concave lens of power -0.80 D",
+      "Convex lens of power +2.50 D"
+    ],
+    "answer": 0,
+    "explanation": "To enable the person to see distant objects at infinity (u = -infinity), the corrective lens must form a virtual image of the distant object at their far point (v = -80 cm = -0.8 m). Using lens formula: 1/f = 1/v - 1/u = 1/(-0.8) - 1/(-infinity) = -1/0.8. Thus focal length f = -0.8 m. Power P = 1 / f = 1 / (-0.8 m) = -1.25 D. A concave lens of -1.25 D is required.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Example 10.1"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-002",
+    "type": "mcq",
+    "subtopic": "Hypermetropia Numerical: Near Point Correction",
+    "difficulty": "Hard",
+    "question": "The near point of a hypermetropic eye is 1.0 m (100 cm). What is the optical power of the lens required to read a book held at the normal near point of 25 cm?",
+    "options": [
+      "+3.0 D (Convex lens)",
+      "-3.0 D (Concave lens)",
+      "+1.5 D (Convex lens)",
+      "+4.0 D (Convex lens)"
+    ],
+    "answer": 0,
+    "explanation": "The book is held at u = -25 cm = -0.25 m. The corrective lens must produce its virtual image at the eye's defective near point v = -1.0 m. Lens formula: 1/f = 1/v - 1/u = 1/(-1.0) - 1/(-0.25) = -1.0 + 4.0 = +3.0 D. Since P = +3.0 D, a convex lens of power +3.0 D is prescribed.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Example 10.2"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-003",
+    "type": "mcq",
+    "subtopic": "Prism Optics: Angle of Deviation",
+    "difficulty": "Medium",
+    "question": "In a triangular glass prism, what is the precise definition of the Angle of Deviation (D)?",
+    "options": [
+      "The angle between the two triangular bases of the prism",
+      "The angle between the direction of the incident ray produced forward and the emergent ray produced backward",
+      "The angle between the incident ray and the first refracting surface normal",
+      "The angle between the refracted ray and the second surface normal"
+    ],
+    "answer": 1,
+    "explanation": "When light passes through a triangular prism, it bends at both refracting surfaces. The angle between the incident ray's forward trajectory and the emergent ray's backward trajectory is defined as the Angle of Deviation (D).",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.3 Refraction of Light Through a Prism"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-004",
+    "type": "mcq",
+    "subtopic": "Prism Optics: Relation between Angles",
+    "difficulty": "Hard",
+    "question": "For a ray of light passing through a triangular glass prism with angle of prism A, angle of incidence i, angle of emergence e, and angle of deviation D, which mathematical relationship strictly holds true?",
+    "options": [
+      "A + D = i + e",
+      "A + i = D + e",
+      "A * D = i * e",
+      "D = i - e + A"
+    ],
+    "answer": 0,
+    "explanation": "From the geometry of prism refraction, the sum of the angle of incidence and the angle of emergence is equal to the sum of the angle of the prism and the angle of deviation: i + e = A + D.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.3 Refraction of Light Through a Prism"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-005",
+    "type": "mcq",
+    "subtopic": "Rainbow Optics: Observer Positioning",
+    "difficulty": "Easy",
+    "question": "Under what geometric conditions can an observer on the ground view a rainbow in the sky?",
+    "options": [
+      "The Sun must be directly overhead at solar noon",
+      "The Sun must be behind the observer, with suspended rain droplets in front of them",
+      "The observer must look directly toward the Sun through falling rain",
+      "The sky must be completely dark and overcast"
+    ],
+    "answer": 1,
+    "explanation": "A rainbow is always formed in a direction opposite to that of the Sun. To see a rainbow, the Sun must be behind the observer while rain showers or water droplets are in front of the observer.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.4 Rainbow"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-006",
+    "type": "mcq",
+    "subtopic": "Scattering: Why Clouds Appear White",
+    "difficulty": "Medium",
+    "question": "While the clear sky appears deep blue, fluffy rain clouds appear white. What optical difference explains this contrast?",
+    "options": [
+      "Clouds contain radioactive aerosols that radiate white light",
+      "Water droplets in clouds are much larger than visible wavelengths, causing all colors to scatter almost equally regardless of wavelength",
+      "Clouds reflect light exclusively via specular plane reflection",
+      "Ice crystals inside clouds totally absorb blue light"
+    ],
+    "answer": 1,
+    "explanation": "Rayleigh scattering (where blue scatters more than red) only applies when scatterer size is much smaller than wavelength (a << lambda). In clouds, water droplets and dust are much larger than visible wavelengths (a >> lambda). In this regime, scattering is non-selective and all visible wavelengths scatter with equal efficiency, combining to produce white light.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.6 Scattering of Light"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-007",
+    "type": "mcq",
+    "subtopic": "Atmospheric Refraction: Apparent Position of Stars",
+    "difficulty": "Medium",
+    "question": "Due to atmospheric refraction, how does the apparent position of a star in the night sky compare to its actual physical position?",
+    "options": [
+      "The apparent position is slightly lower than the actual position",
+      "The apparent position is slightly higher than the actual position",
+      "The apparent position shifts horizontally east to west",
+      "Both positions are strictly identical"
+    ],
+    "answer": 1,
+    "explanation": "As starlight enters Earth's atmosphere, it travels from rarer upper air into progressively denser lower layers with increasing refractive index. Consequently, starlight continuously bends toward the normal. When traced backward, the star appears slightly higher (elevated) above the horizon than its true position.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.5 Atmospheric Refraction"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-008",
+    "type": "mcq",
+    "subtopic": "Atmospheric Refraction: Oval Shape of Sun at Horizon",
+    "difficulty": "Hard",
+    "question": "At dawn and dusk, the disk of the Sun appears flattened or oval rather than circular. What is the physical cause of this distortion?",
+    "options": [
+      "Solar gravitational tidal pull on the atmosphere",
+      "Differential atmospheric refraction: light from the lower rim passes through denser air and bends more upward than light from the upper rim",
+      "The Sun expands mechanically due to cooling",
+      "Optical aberration of the human crystalline lens"
+    ],
+    "answer": 1,
+    "explanation": "Light rays from the lower edge of the Sun's disk travel through slightly denser atmosphere than rays from the upper edge, undergoing greater upward bending. This differential refraction compresses the vertical diameter of the Sun, making it appear flattened or oval.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.5.1 Advance Sunrise and Delayed Sunset"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-009",
+    "type": "mcq",
+    "subtopic": "Defects of Vision: Astigmatism and Cylindrical Lenses",
+    "difficulty": "Medium",
+    "question": "A patient cannot simultaneously focus on horizontal and vertical lines placed at the same distance. What refractive defect of the eye is this, and what lens corrects it?",
+    "options": [
+      "Myopia, corrected by concave lens",
+      "Astigmatism, corrected by cylindrical lenses of specified axis",
+      "Presbyopia, corrected by bifocal lens",
+      "Hypermetropia, corrected by convex lens"
+    ],
+    "answer": 1,
+    "explanation": "Astigmatism is caused by irregular, non-spherical curvature of the cornea or crystalline lens (having different radii of curvature in different planes). As a result, points focus as lines, blurring horizontal or vertical details. It is corrected using cylindrical lenses.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.2 Defects of Vision"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-010",
+    "type": "mcq",
+    "subtopic": "Physiology of Vision: Persistence of Vision",
+    "difficulty": "Easy",
+    "question": "The optical impression of an image formed on the retina lingers in the human brain for approximately what fraction of a second after the light stimulus has stopped?",
+    "options": [
+      "1/16th of a second",
+      "1 second",
+      "1/100th of a second",
+      "1/2 of a second"
+    ],
+    "answer": 0,
+    "explanation": "Persistence of vision is the phenomenon where visual perception on the retina persists for approximately 1/16th of a second after removal of the object. Cinematography and video displays project 24 or more static frames per second, causing successive images to blend seamlessly into smooth continuous motion.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.1 The Human Eye"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-011",
+    "type": "mcq",
+    "subtopic": "Retina Anatomy: Blind Spot (Optic Disc)",
+    "difficulty": "Easy",
+    "question": "Why is an image falling on the Blind Spot of the retina completely invisible to the brain?",
+    "options": [
+      "The area is covered with blood vessels that absorb all incoming light",
+      "It is the site where the optic nerve leaves the eyeball and is completely devoid of photoreceptor rod and cone cells",
+      "The vitreous humour is opaque at this focal location",
+      "Only ultraviolet radiation can trigger photoreceptors there"
+    ],
+    "answer": 1,
+    "explanation": "The blind spot (optic disc) is the anatomical junction where sensory nerve fibers converge to form the optic nerve exiting the eye toward the brain. This exact region contains neither rods nor cones; hence, any light falling on it cannot be converted into nerve impulses.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.1 The Human Eye"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-012",
+    "type": "mcq",
+    "subtopic": "Retina Anatomy: Yellow Spot (Fovea Centralis)",
+    "difficulty": "Medium",
+    "question": "Which specialized central area of the human retina provides the highest visual acuity and sharpest color resolution?",
+    "options": [
+      "Corneal limbus",
+      "Yellow Spot (Macula / Fovea Centralis)",
+      "Ciliary body",
+      "Sclera"
+    ],
+    "answer": 1,
+    "explanation": "The yellow spot (macula lutea) with its central depression, the fovea centralis, is densely packed with cone cells and free of blood vessels, providing maximum spatial resolution, sharpness, and vibrant color perception.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.1 The Human Eye"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-013",
+    "type": "mcq",
+    "subtopic": "NCERT Activity 10.3: Colloidal Sulfur Precipitation Experiment",
+    "difficulty": "Hard",
+    "question": "In NCERT Activity 10.3, dilute sulfuric acid is added to sodium thiosulfate solution in a clear glass tank with a light beam passed through it. What optical observation is recorded as fine microscopic sulfur particles precipitate?",
+    "options": [
+      "A brilliant green glow radiates uniformly in all directions",
+      "Bluish light is scattered sideways from the tank, while the light transmitted through the tank onto a screen turns orange-red",
+      "The light beam turns completely black and is absorbed 100%",
+      "The solution undergoes sudden phosphorescent emission"
+    ],
+    "answer": 1,
+    "explanation": "As microscopic sulfur particles form, they act as fine colloidal scatterers. They preferentially scatter shorter blue wavelengths sideways (making the tank glow bluish from the sides). The transmitted light reaching the screen is depleted of blue and therefore appears orange-red, mirroring atmospheric sunset optics.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Activity 10.3"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-014",
+    "type": "mcq",
+    "subtopic": "Genetics & Optics: Color Blindness",
+    "difficulty": "Medium",
+    "question": "Color blindness is a hereditary visual deficiency where a person cannot distinguish between certain colors (typically red and green). What physiological cause underlies this condition?",
+    "options": [
+      "Ciliary muscles fail to contract",
+      "Genetic absence or defect in specific cone cell photopigments in the retina",
+      "Opacity of the vitreous humour",
+      "Total absence of rod photoreceptor cells"
+    ],
+    "answer": 1,
+    "explanation": "Color blindness is a genetic condition (usually X-linked recessive) where one or more types of cone photoreceptors are absent or function abnormally, preventing the neural differentiation of red and green spectral bands.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.1 The Human Eye"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-015",
+    "type": "mcq",
+    "subtopic": "Power of Accommodation: Focal Length Variation",
+    "difficulty": "Hard",
+    "question": "When the eye shifts focus from a faraway mountain (at infinity) to read a textbook at 25 cm, how do the ciliary muscles and the focal length of the crystalline lens respond?",
+    "options": [
+      "Ciliary muscles contract, lens becomes thicker, and focal length decreases",
+      "Ciliary muscles relax, lens becomes flatter, and focal length increases",
+      "Ciliary muscles relax, lens becomes thicker, and focal length remains constant",
+      "Ciliary muscles contract, lens becomes thinner, and focal length increases"
+    ],
+    "answer": 0,
+    "explanation": "For distant vision, ciliary muscles relax, lens is thin, and focal length is maximal (about 2.5 cm). To focus on a near object at 25 cm, rays are strongly diverging, so greater converging power is needed: ciliary muscles contract, lens thickens, curvature increases, and focal length decreases.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.1.1 Power of Accommodation"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-016",
+    "type": "mcq",
+    "subtopic": "Prism Optics: Dual Prism in Parallel Orientation",
+    "difficulty": "Medium",
+    "question": "If two identical triangular glass prisms are placed next to each other in the SAME orientation (parallel bases on bottom, not inverted), what happens to a white light beam passing through both?",
+    "options": [
+      "The spectrum recombines into white light",
+      "The angular dispersion and separation of colors doubles",
+      "All colors are absorbed completely",
+      "Total internal reflection traps light permanently inside the second prism"
+    ],
+    "answer": 1,
+    "explanation": "In an identical non-inverted orientation, the second prism continues refracting the already dispersed colors in the same angular direction, doubling the dispersion and color spread (unlike Newton's inverted configuration which cancels dispersion).",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.3 Refraction of Light Through a Prism"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-017",
+    "type": "mcq",
+    "subtopic": "Atmospheric Optics: Secondary Rainbow Features",
+    "difficulty": "Hard",
+    "question": "Occasionally, a faint secondary rainbow is observed above the bright primary rainbow. What internal optical process within raindrops gives rise to the secondary rainbow?",
+    "options": [
+      "Two internal reflections inside the raindrops, reversing the spectral order (red on inside, violet on outside)",
+      "Diffraction by atmospheric nitrogen molecules",
+      "Scattering by ozone layers in the stratosphere",
+      "Three consecutive total external reflections"
+    ],
+    "answer": 0,
+    "explanation": "A secondary rainbow is formed by two refractions and TWO internal reflections inside raindrops. Because of the second reflection, the color sequence is reversed (violet on the outside, red on the inside) and light intensity is considerably weaker due to reflection losses.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.4 Rainbow"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-018",
+    "type": "mcq",
+    "subtopic": "Atmospheric Refraction: Solar Angle Shift",
+    "difficulty": "Medium",
+    "question": "What is the approximate angular shift in the apparent position of the Sun near the horizon caused by atmospheric refraction?",
+    "options": [
+      "About 0.5 degrees (roughly equal to the apparent diameter of the Sun)",
+      "About 5.0 degrees",
+      "About 0.05 degrees",
+      "Exactly 15.0 degrees"
+    ],
+    "answer": 0,
+    "explanation": "Atmospheric refraction shifts the apparent elevation of the Sun at the horizon by about 0.5 degrees. Since the angular diameter of the Sun's disk is also about 0.5 degrees, this shift makes the entire disk visible even when it has technically sunk below the horizon.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.5.1 Advance Sunrise and Delayed Sunset"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-019",
+    "type": "mcq",
+    "subtopic": "Defects of Vision: Bifocal Eyeglass Composition",
+    "difficulty": "Easy",
+    "question": "A presbyopic person requires bifocal spectacles. What are the specific functions and optical configurations of the top and bottom lenses?",
+    "options": [
+      "Upper lens is concave for distant vision; lower lens is convex for near reading vision",
+      "Upper lens is convex for near vision; lower lens is concave for distant vision",
+      "Upper lens is cylindrical; lower lens is plane glass",
+      "Both lenses are concave with identical focal lengths"
+    ],
+    "answer": 0,
+    "explanation": "In bifocal spectacles, the upper portion consists of a concave (diverging) lens to correct myopia and facilitate distant vision, while the lower portion consists of a convex (converging) lens to correct presbyopia and facilitate comfortable reading.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.2 Defects of Vision and Their Correction"
+  },
+  {
+    "id": "cbse10-sci-ch10-s2-020",
+    "type": "mcq",
+    "subtopic": "Optical Phenomenon: Red Light Transmission through Smoke and Fog",
+    "difficulty": "Medium",
+    "question": "Why can red tail-lights and hazard beacons on motor vehicles be seen clearly through dense winter smog or smoke when blue and green lights become completely blurred and invisible?",
+    "options": [
+      "Red light has the longest wavelength and suffers the least Rayleigh scattering (I proportional to 1/lambda^4)",
+      "Red light is absorbed by smog particles and re-emitted coherently",
+      "Red light is accelerated by smoke particles",
+      "Smog contains chemicals that exclusively filter out red light"
+    ],
+    "answer": 0,
+    "explanation": "Rayleigh scattering is inversely proportional to lambda^4. Because red light has the longest wavelength in the visible spectrum (about 700 nm), its scattering cross-section is the lowest, allowing it to penetrate through smoke and fog with minimal scattering losses.",
+    "citation": "NCERT Class 10 Science, Chapter 10, Section 10.6.3 Colour of the Sun at Sunrise and Sunset"
+  }
+]

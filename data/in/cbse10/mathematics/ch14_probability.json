@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cbse10-math-ch14-s1-001",
+    "type": "mcq",
+    "subtopic": "Range of Probability",
+    "difficulty": "Easy",
+    "question": "For any random event E, the probability P(E) satisfies which mandatory inequality?",
+    "options": [
+      "0 ≤ P(E) ≤ 1",
+      "-1 ≤ P(E) ≤ 1",
+      "0 < P(E) < 1",
+      "1 ≤ P(E) ≤ 100"
+    ],
+    "answer": 0,
+    "explanation": "The probability of an impossible event is 0, and the probability of a sure (certain) event is 1. The probability of any event always lies within the inclusive range: 0 ≤ P(E) ≤ 1. It can never be negative or exceed 1.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 14, Section 14.1"
+  },
+  {
+    "id": "cbse10-math-ch14-s1-002",
+    "type": "mcq",
+    "subtopic": "Cards Probability",
+    "difficulty": "Medium",
+    "question": "A card is drawn at random from a well-shuffled standard deck of 52 playing cards. What is the probability of drawing a red face card?",
+    "options": [
+      "3 / 26",
+      "3 / 13",
+      "1 / 2",
+      "6 / 13"
+    ],
+    "answer": 0,
+    "explanation": "Total cards = 52. Face cards are Jacks, Queens, and Kings (3 per suit). Red suits are Hearts (3) and Diamonds (3), giving a total of 6 red face cards. Probability = 6 / 52 = 3 / 26.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 14, Section 14.1 (Exercise 14.1 Q14)"
+  },
+  {
+    "id": "cbse10-math-ch14-s1-003",
+    "type": "assertion_reasoning",
+    "subtopic": "Assertion & Reasoning",
+    "difficulty": "Board Standard",
+    "question": "Assertion (A): If P(E) = 0.05, then the probability of 'not E', P(Ē), is 0.95.\nReason (R): For any event E, P(E) + P(Ē) = 1 (complementary events).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "P(Ē) = 1 - P(E) = 1 - 0.05 = 0.95. Reason is the fundamental complementary event rule that directly verifies Assertion.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 14, Section 14.1"
+  }
+]

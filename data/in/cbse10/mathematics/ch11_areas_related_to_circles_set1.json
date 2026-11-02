@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch11-s1-001",
+      "type": "mcq",
+      "subtopic": "Sector Area Formula",
+      "difficulty": "Easy",
+      "question": "What is the formula for the area of a sector of angle theta (in degrees) of a circle with radius r?",
+      "options": [
+        "(theta / 360) * pi * r^2",
+        "(theta / 180) * pi * r^2",
+        "(theta / 360) * 2 * pi * r",
+        "(theta / 720) * pi * r^2"
+      ],
+      "answer": 0,
+      "explanation": "The area of a sector of angle theta is proportional to the full circle area pi*r^2 by the fraction (theta / 360). Thus Area = (theta / 360) * pi * r^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-002",
+      "type": "mcq",
+      "subtopic": "Length of an Arc Formula",
+      "difficulty": "Easy",
+      "question": "What is the length of an arc of a sector of angle theta of a circle with radius r?",
+      "options": [
+        "(theta / 360) * 2 * pi * r",
+        "(theta / 180) * 2 * pi * r",
+        "(theta / 360) * pi * r^2",
+        "(theta / 720) * 2 * pi * r"
+      ],
+      "answer": 0,
+      "explanation": "The arc length corresponds to the fraction (theta / 360) of the total circumference 2*pi*r: Length = (theta / 360) * 2 * pi * r.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-003",
+      "type": "mcq",
+      "subtopic": "Circumference Equals Area Numerically",
+      "difficulty": "Easy",
+      "question": "If the perimeter and the area of a circle are numerically equal, then the radius of the circle is:",
+      "options": [
+        "2 units",
+        "pi units",
+        "4 units",
+        "7 units"
+      ],
+      "answer": 0,
+      "explanation": "2 * pi * r = pi * r^2. Dividing by pi * r (since r > 0): 2 = r. The radius is 2 units.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 5"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-004",
+      "type": "mcq",
+      "subtopic": "Sector Area of 60 Degrees",
+      "difficulty": "Easy",
+      "question": "Find the area of a sector of a circle with radius 6 cm if angle of the sector is 60 degrees. (Use pi = 22/7)",
+      "options": [
+        "132/7 cm^2 (~18.86 cm^2)",
+        "144/7 cm^2",
+        "120/7 cm^2",
+        "154/7 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Area = (60/360) * (22/7) * 6 * 6 = (1/6) * (22/7) * 36 = 6 * (22/7) = 132/7 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-005",
+      "type": "mcq",
+      "subtopic": "Area of a Quadrant of Circle",
+      "difficulty": "Medium",
+      "question": "Find the area of a quadrant of a circle whose circumference is 22 cm. (Use pi = 22/7)",
+      "options": [
+        "77/8 cm^2 (~9.625 cm^2)",
+        "77/4 cm^2",
+        "35/4 cm^2",
+        "154/8 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "2 * (22/7) * r = 22 => r = 7/2 cm. A quadrant has angle 90 degrees (1/4 of circle). Area = (1/4) * pi * r^2 = (1/4) * (22/7) * (7/2) * (7/2) = (1/4) * 11 * (7/2) = 77/8 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-006",
+      "type": "mcq",
+      "subtopic": "Clock Minute Hand in 5 Minutes",
+      "difficulty": "Easy",
+      "question": "The length of the minute hand of a clock is 14 cm. Find the area swept by the minute hand in 5 minutes. (Use pi = 22/7)",
+      "options": [
+        "154/3 cm^2 (~51.33 cm^2)",
+        "154 cm^2",
+        "77/3 cm^2",
+        "308/3 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "In 60 minutes, the minute hand sweeps 360 deg. In 5 minutes, angle = (360/60) * 5 = 30 deg. Area = (30/360) * (22/7) * 14 * 14 = (1/12) * 22 * 2 * 14 = 616 / 12 = 154/3 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 3"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-007",
+      "type": "mcq",
+      "subtopic": "Arc Length with 60 Degree Angle",
+      "difficulty": "Easy",
+      "question": "In a circle of radius 21 cm, an arc subtends an angle of 60 degrees at the centre. Find the length of the arc. (Use pi = 22/7)",
+      "options": [
+        "22 cm",
+        "44 cm",
+        "11 cm",
+        "33 cm"
+      ],
+      "answer": 0,
+      "explanation": "Arc length = (60/360) * 2 * (22/7) * 21 = (1/6) * 2 * 22 * 3 = (1/6) * 132 = 22 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 5(i)"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-008",
+      "type": "mcq",
+      "subtopic": "Sector Formed by 60 Degree Arc",
+      "difficulty": "Easy",
+      "question": "In a circle of radius 21 cm, an arc subtends an angle of 60 degrees at the centre. What is the area of the sector formed by the arc? (Use pi = 22/7)",
+      "options": [
+        "231 cm^2",
+        "462 cm^2",
+        "115.5 cm^2",
+        "308 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Area = (60/360) * (22/7) * 21 * 21 = (1/6) * 22 * 3 * 21 = (1/6) * 1386 = 231 cm^2. (Alternatively: (1/2) * arc * r = (1/2) * 22 * 21 = 231 cm^2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 5(ii)"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-009",
+      "type": "mcq",
+      "subtopic": "Right Angle Central Sector Chord Segment",
+      "difficulty": "Medium",
+      "question": "A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of the minor segment. (Use pi = 3.14)",
+      "options": [
+        "28.5 cm^2",
+        "78.5 cm^2",
+        "50 cm^2",
+        "35 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Area of sector = (90/360) * 3.14 * 10 * 10 = (1/4) * 314 = 78.5 cm^2. Area of right triangle = (1/2) * 10 * 10 = 50 cm^2. Area of minor segment = Area of sector - Area of triangle = 78.5 - 50 = 28.5 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 4"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-010",
+      "type": "mcq",
+      "subtopic": "Major Sector Area with Right Angle",
+      "difficulty": "Medium",
+      "question": "A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of the corresponding major sector. (Use pi = 3.14)",
+      "options": [
+        "235.5 cm^2",
+        "285.5 cm^2",
+        "314 cm^2",
+        "200 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Major sector angle = 360 - 90 = 270 degrees. Area = (270/360) * 3.14 * 100 = (3/4) * 314 = 235.5 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 4(ii)"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-011",
+      "type": "mcq",
+      "subtopic": "Sector Area Arc Length Relation",
+      "difficulty": "Easy",
+      "question": "If 'l' is the length of the arc of a sector of radius 'r', the area of the sector can also be expressed as:",
+      "options": [
+        "(1/2) * l * r",
+        "l * r",
+        "2 * l * r",
+        "(1/4) * l * r^2"
+      ],
+      "answer": 0,
+      "explanation": "Area = (theta/360) * pi * r^2 = (1/2) * [(theta/360) * 2 * pi * r] * r = (1/2) * l * r.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-012",
+      "type": "mcq",
+      "subtopic": "Minor Segment of 60 Degree Angle",
+      "difficulty": "Medium",
+      "question": "A chord of a circle of radius 15 cm subtends an angle of 60 degrees at the centre. Find the area of the corresponding minor segment. (Use pi = 3.14, sqrt(3) = 1.73)",
+      "options": [
+        "20.4375 cm^2",
+        "25.50 cm^2",
+        "18.75 cm^2",
+        "22.15 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Area of sector = (60/360) * 3.14 * 15^2 = (1/6) * 3.14 * 225 = 117.75 cm^2. Area of equilateral triangle = (sqrt(3)/4) * 15^2 = (1.73/4) * 225 = 97.3125 cm^2. Area of minor segment = 117.75 - 97.3125 = 20.4375 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 6"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-013",
+      "type": "mcq",
+      "subtopic": "Ring Area Between Concentric Circles",
+      "difficulty": "Easy",
+      "question": "The radii of two concentric circles are 19 cm and 9 cm. What is the area of the circular ring bounded between them? (Use pi = 22/7)",
+      "options": [
+        "880 cm^2",
+        "800 cm^2",
+        "780 cm^2",
+        "920 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Area of ring = pi * (R^2 - r^2) = (22/7) * (19^2 - 9^2) = (22/7) * (19 - 9)(19 + 9) = (22/7) * 10 * 28 = 22 * 10 * 4 = 880 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-014",
+      "type": "mcq",
+      "subtopic": "Circle with Sum of Circumferences",
+      "difficulty": "Easy",
+      "question": "The radii of two circles are 19 cm and 9 cm. Find the radius of the circle which has circumference equal to the sum of the circumferences of the two circles.",
+      "options": [
+        "28 cm",
+        "26 cm",
+        "30 cm",
+        "24 cm"
+      ],
+      "answer": 0,
+      "explanation": "2*pi*R = 2*pi*r1 + 2*pi*r2 => R = r1 + r2 = 19 + 9 = 28 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-015",
+      "type": "mcq",
+      "subtopic": "Circle with Sum of Areas",
+      "difficulty": "Easy",
+      "question": "The radii of two circles are 8 cm and 6 cm. Find the radius of the circle having area equal to the sum of the areas of the two circles.",
+      "options": [
+        "10 cm",
+        "14 cm",
+        "12 cm",
+        "9 cm"
+      ],
+      "answer": 0,
+      "explanation": "pi*R^2 = pi*r1^2 + pi*r2^2 => R^2 = 8^2 + 6^2 = 64 + 36 = 100 => R = 10 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-016",
+      "type": "mcq",
+      "subtopic": "Perimeter of a Semicircular Protractor",
+      "difficulty": "Medium",
+      "question": "What is the perimeter of a semicircular protractor of radius r?",
+      "options": [
+        "pi*r + 2r",
+        "pi*r",
+        "2*pi*r",
+        "pi*r + r"
+      ],
+      "answer": 0,
+      "explanation": "A semicircular protractor includes both the semicircular curved boundary (pi * r) and the straight diameter base (2r). Total perimeter = pi*r + 2r = r(pi + 2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-017",
+      "type": "mcq",
+      "subtopic": "Perimeter of Semicircle Numerical Evaluation",
+      "difficulty": "Medium",
+      "question": "If the perimeter of a semicircular protractor is 36 cm, what is its diameter? (Use pi = 22/7)",
+      "options": [
+        "14 cm",
+        "7 cm",
+        "21 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "Perimeter = r(pi + 2) = r(22/7 + 2) = r(36/7) = 36 => r = 7 cm. Diameter = 2r = 2 * 7 = 14 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-018",
+      "type": "mcq",
+      "subtopic": "Minute Hand in 15 Minutes (Quarter Circle)",
+      "difficulty": "Easy",
+      "question": "What fraction of the total circular clock face is swept by the minute hand in 15 minutes?",
+      "options": [
+        "1/4 (90 degrees)",
+        "1/6 (60 degrees)",
+        "1/3 (120 degrees)",
+        "1/2 (180 degrees)"
+      ],
+      "answer": 0,
+      "explanation": "In 15 minutes, angle swept = (360 / 60) * 15 = 90 degrees. Fraction = 90 / 360 = 1/4 (one quadrant).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-019",
+      "type": "mcq",
+      "subtopic": "Semicircle Arc Length",
+      "difficulty": "Easy",
+      "question": "What is the length of the arc of a semicircle of radius r?",
+      "options": [
+        "pi * r",
+        "2 * pi * r",
+        "(1/2) * pi * r^2",
+        "pi * r + 2r"
+      ],
+      "answer": 0,
+      "explanation": "For a semicircle, theta = 180 deg. Arc length = (180/360) * 2*pi*r = (1/2) * 2*pi*r = pi*r.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
+    },
+    {
+      "id": "cbse10-math-ch11-s1-020",
+      "type": "mcq",
+      "subtopic": "Ratio of Circumferences to Ratio of Areas",
+      "difficulty": "Easy",
+      "question": "If the circumferences of two circles are in the ratio 2 : 3, what is the ratio of their areas?",
+      "options": [
+        "4 : 9",
+        "2 : 3",
+        "16 : 81",
+        "sqrt(2) : sqrt(3)"
+      ],
+      "answer": 0,
+      "explanation": "Circumference ratio C1/C2 = r1/r2 = 2/3. Area ratio A1/A2 = (r1/r2)^2 = (2/3)^2 = 4/9.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
+    }
+  ]
+}

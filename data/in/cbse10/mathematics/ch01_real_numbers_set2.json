@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cbse10-math-ch01-s2-001",
+    "type": "mcq",
+    "subtopic": "Exponent Properties: Ending Digit",
+    "difficulty": "Hard",
+    "question": "For any natural number n, the expression (6^n - 5^n) always ends with which digit?",
+    "options": [
+      "1",
+      "0",
+      "5",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "For any natural number n, 6^n always ends with the digit 6 (6^1 = 6, 6^2 = 36, 6^3 = 216...), and 5^n always ends with the digit 5 (5^1 = 5, 5^2 = 25, 5^3 = 125...). Therefore, (6^n - 5^n) ends in 6 - 5 = 1.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-002",
+    "type": "mcq",
+    "subtopic": "Smallest Prime and Composite Numbers: HCF",
+    "difficulty": "Easy",
+    "question": "What is the HCF of the smallest prime number and the smallest composite number?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "The smallest prime number is 2, and the smallest composite number is 4. HCF(2, 4) = 2.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q4"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-003",
+    "type": "mcq",
+    "subtopic": "Smallest Prime and Composite Numbers: LCM",
+    "difficulty": "Easy",
+    "question": "What is the LCM of the smallest prime number and the smallest composite number?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "The smallest prime number is 2, and the smallest composite number is 4. LCM(2, 4) = 4.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-004",
+    "type": "mcq",
+    "subtopic": "Consecutive Integers Divisibility",
+    "difficulty": "Medium",
+    "question": "The product of two consecutive positive integers n and (n + 1) is always divisible by which integer?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "Out of any two consecutive integers n and (n + 1), one must be even and one must be odd. Therefore, their product n(n + 1) is always a multiple of 2.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-005",
+    "type": "mcq",
+    "subtopic": "Three Consecutive Integers Divisibility",
+    "difficulty": "Medium",
+    "question": "The product of any three consecutive positive integers n(n + 1)(n + 2) is always divisible by:",
+    "options": [
+      "4",
+      "6",
+      "12",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "Among three consecutive integers, at least one is divisible by 2 and exactly one is divisible by 3. Since 2 and 3 are coprime, the product is always divisible by 2 * 3 = 6.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-006",
+    "type": "mcq",
+    "subtopic": "HCF and LCM Algebraic Finding",
+    "difficulty": "Medium",
+    "question": "If HCF(a, 8) = 4 and LCM(a, 8) = 24 for a positive integer a, what is the value of a?",
+    "options": [
+      "12",
+      "16",
+      "6",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "Using HCF(a, b) * LCM(a, b) = a * b: 4 * 24 = a * 8 => 96 = 8a => a = 96 / 8 = 12.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-007",
+    "type": "mcq",
+    "subtopic": "HCF Linear Combination Form",
+    "difficulty": "Hard",
+    "question": "If the HCF of 65 and 117 is expressible in the linear form (65m - 117), what is the value of m?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "65 = 5 * 13, and 117 = 9 * 13. Thus HCF(65, 117) = 13. Given 65m - 117 = 13 => 65m = 13 + 117 = 130 => m = 130 / 65 = 2.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q5"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-008",
+    "type": "mcq",
+    "subtopic": "Remainder Division: Large Numbers",
+    "difficulty": "Hard",
+    "question": "What is the largest number that divides 2053 and 367, leaving remainders 5 and 7 respectively?",
+    "options": [
+      "8",
+      "16",
+      "32",
+      "64"
+    ],
+    "answer": 0,
+    "explanation": "Subtract the remainders: 2053 - 5 = 2048 and 367 - 7 = 360. Factoring: 2048 = 2^11, and 360 = 2^3 * 3^2 * 5 = 8 * 45. The highest common factor is 2^3 = 8. (Since 8 > 7, it satisfies the remainder condition).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-009",
+    "type": "mcq",
+    "subtopic": "Book Stacking Problem: Equal Height",
+    "difficulty": "Hard",
+    "question": "A school librarian has 336 English books, 240 Hindi books, and 96 Mathematics books. The books have to be stacked in stacks of equal height such that each stack consists of books of only one subject. What is the maximum number of books that can be placed in each stack?",
+    "options": [
+      "24",
+      "48",
+      "96",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "The maximum number of books in each stack is HCF(336, 240, 96). 336 = 2^4 * 3 * 7 = 16 * 21. 240 = 2^4 * 3 * 5 = 16 * 15. 96 = 2^5 * 3 = 32 * 3. Common factors: 2^4 * 3 = 16 * 3 = 48. Hence, each stack has 48 books.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-010",
+    "type": "mcq",
+    "subtopic": "Power Prime Factors: Ending in Zero",
+    "difficulty": "Easy",
+    "question": "For what values of natural number n will the number 12^n end with the digit zero?",
+    "options": [
+      "For n = 5",
+      "For all even numbers n",
+      "For no value of n, because 12^n = (2^2 * 3)^n has no prime factor 5",
+      "For n = 10"
+    ],
+    "answer": 2,
+    "explanation": "A number ends with 0 if and only if it has both 2 and 5 as prime factors. The prime factors of 12 are 2 and 3. Since 5 is missing, 12^n can never end with the digit 0 for any natural number n.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 5"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-011",
+    "type": "mcq",
+    "subtopic": "Exponent Determination from LCM",
+    "difficulty": "Hard",
+    "question": "If three numbers are a = 2^3 * 3, b = 2 * 3 * 5, and c = 3^n * 5, and their LCM is LCM(a, b, c) = 2^3 * 3^2 * 5, what is the value of n?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "LCM takes the highest power of each prime factor involved. The prime factor 3 appears as 3^1 in a, 3^1 in b, and 3^n in c. The LCM has 3^2. Therefore, the highest exponent of 3 must come from c, meaning n = 2.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q8"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-012",
+    "type": "mcq",
+    "subtopic": "HCF of Sum and Difference of Coprimes",
+    "difficulty": "Hard",
+    "question": "If p and q are two coprime positive integers (HCF(p, q) = 1), what are the only possible values of HCF(p + q, p - q)?",
+    "options": [
+      "1 or 2",
+      "Always 1",
+      "Always 4",
+      "Any prime number"
+    ],
+    "answer": 0,
+    "explanation": "Let d = HCF(p + q, p - q). Then d divides (p + q) + (p - q) = 2p, and d divides (p + q) - (p - q) = 2q. Hence d must divide HCF(2p, 2q) = 2 * HCF(p, q) = 2 * 1 = 2. Since divisors of 2 are 1 and 2, d can only be 1 or 2 (e.g. For 3 and 5, HCF(8, 2) = 2; for 2 and 3, HCF(5, 1) = 1).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-013",
+    "type": "mcq",
+    "subtopic": "Circular Track Racing Problem",
+    "difficulty": "Medium",
+    "question": "There is a circular sports track. Sonia takes 18 minutes to drive one round of the track, while Ravi takes 12 minutes for the same. Suppose they both start at the same point and at the same time, and go in the same direction. After how many minutes will they meet again at the starting point?",
+    "options": [
+      "6 minutes",
+      "24 minutes",
+      "36 minutes",
+      "72 minutes"
+    ],
+    "answer": 2,
+    "explanation": "They will meet again at the starting point at a time that is the LCM of their individual lap times: LCM(18, 12). 18 = 2 * 3^2, 12 = 2^2 * 3. LCM = 2^2 * 3^2 = 4 * 9 = 36 minutes.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 7"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-014",
+    "type": "mcq",
+    "subtopic": "Sweets Packaging Optimization",
+    "difficulty": "Medium",
+    "question": "A sweetseller has 420 kaju barfis and 130 badam barfis. She wants to stack them in trays such that each stack has the same number of barfis and they occupy the least area of the tray. What is the maximum number of barfis that can be placed in each stack?",
+    "options": [
+      "10",
+      "20",
+      "15",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "To minimize tray area, the number of barfis in each stack must be maximized, which is given by HCF(420, 130). 420 = 10 * 42 = 2^2 * 3 * 5 * 7. 130 = 10 * 13 = 2 * 5 * 13. HCF = 2 * 5 = 10 barfis per stack.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 4"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-015",
+    "type": "mcq",
+    "subtopic": "Decimal Terminating Condition",
+    "difficulty": "Easy",
+    "question": "For a rational number p/q in lowest terms, its decimal expansion TERMINATES if and only if the prime factorisation of the denominator q is of the form:",
+    "options": [
+      "2^n * 3^m",
+      "2^n * 5^m, where n and m are non-negative integers",
+      "3^n * 5^m",
+      "7^n * 11^m"
+    ],
+    "answer": 1,
+    "explanation": "A rational number p/q has a terminating decimal expansion if and only if the prime factorisation of q is exclusively of the form 2^n * 5^m, where n and m are non-negative integers.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.5"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-016",
+    "type": "mcq",
+    "subtopic": "Decimal Places to Termination Calculation",
+    "difficulty": "Medium",
+    "question": "After how many decimal places will the decimal expansion of the rational number 14587 / 1250 terminate?",
+    "options": [
+      "1 decimal place",
+      "2 decimal places",
+      "3 decimal places",
+      "4 decimal places"
+    ],
+    "answer": 3,
+    "explanation": "Denominator 1250 = 2 * 625 = 2^1 * 5^4. The number of decimal places before termination is max(n, m) = max(1, 4) = 4. Indeed, 14587 / 1250 = 11.6696 (4 decimal places).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.4"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-017",
+    "type": "mcq",
+    "subtopic": "Prime Pair Relations",
+    "difficulty": "Easy",
+    "question": "If alpha and beta are two distinct prime numbers, what are HCF(alpha, beta) and LCM(alpha, beta)?",
+    "options": [
+      "HCF = 1, LCM = alpha * beta",
+      "HCF = alpha * beta, LCM = 1",
+      "HCF = 2, LCM = alpha + beta",
+      "HCF = 0, LCM = alpha / beta"
+    ],
+    "answer": 0,
+    "explanation": "Because distinct prime numbers have no common factors other than 1, their HCF is always 1, and their LCM is simply their product alpha * beta.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-018",
+    "type": "mcq",
+    "subtopic": "Distinct Prime Factor Counting",
+    "difficulty": "Medium",
+    "question": "How many distinct prime factors are in the prime factorisation of the number 1001?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "Factoring 1001: 1001 = 7 * 143 = 7 * 11 * 13. All three factors (7, 11, and 13) are distinct prime numbers. Thus, 1001 has exactly 3 distinct prime factors.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-019",
+    "type": "mcq",
+    "subtopic": "Irrationality of Combined Radical Expressions",
+    "difficulty": "Medium",
+    "question": "Which of the following methods is used in NCERT to rigorously prove that (3 + 2*sqrt(5)) is an irrational number?",
+    "options": [
+      "Proof by induction",
+      "Proof by contradiction (reductio ad absurdum), by assuming it is rational and showing sqrt(5) equals a rational number",
+      "Direct decimal expansion measurement",
+      "Geometrical compass construction"
+    ],
+    "answer": 1,
+    "explanation": "We assume 3 + 2*sqrt(5) is rational = a/b (coprime b != 0). Then 2*sqrt(5) = a/b - 3 = (a - 3b)/b => sqrt(5) = (a - 3b)/(2b). Since a and b are integers, the RHS is rational, implying sqrt(5) is rational, which contradicts the established theorem that sqrt(5) is irrational.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.4"
+  },
+  {
+    "id": "cbse10-math-ch01-s2-020",
+    "type": "mcq",
+    "subtopic": "Difference of Two Irrationals",
+    "difficulty": "Medium",
+    "question": "Can the difference of two irrational numbers ever be a rational number?",
+    "options": [
+      "No, the difference of two irrationals is strictly always irrational",
+      "Yes, for example (sqrt(3) + 5) - sqrt(3) = 5, which is a rational number",
+      "Only when both irrationals are negative",
+      "Only when both irrationals are equal to pi"
+    ],
+    "answer": 1,
+    "explanation": "Yes, while the sum or difference of a rational and an irrational is always irrational, the difference between two irrational numbers can be rational (e.g. (2 + sqrt(7)) - sqrt(7) = 2, which is rational).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
+  }
+]

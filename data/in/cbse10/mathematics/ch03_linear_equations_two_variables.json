@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cbse10-math-ch03-s1-001",
+    "type": "mcq",
+    "subtopic": "Consistency Conditions",
+    "difficulty": "Easy",
+    "question": "If the pair of linear equations a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 satisfies a₁/a₂ = b₁/b₂ ≠ c₁/c₂, what is the geometric nature of the lines and the number of solutions?",
+    "options": [
+      "Intersecting lines with unique solution",
+      "Parallel lines with no solution (inconsistent)",
+      "Coincident lines with infinitely many solutions (dependent consistent)",
+      "Perpendicular lines with two solutions"
+    ],
+    "answer": 1,
+    "explanation": "When a₁/a₂ = b₁/b₂ ≠ c₁/c₂, the lines are parallel and never meet, meaning the system has no solution and is inconsistent.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2 (Table 3.1)"
+  },
+  {
+    "id": "cbse10-math-ch03-s1-002",
+    "type": "mcq",
+    "subtopic": "Infinite Solutions",
+    "difficulty": "Medium",
+    "question": "For what value of 'k' will the equations x + 2y - 3 = 0 and 5x + ky + 7 = 0 have NO solution?",
+    "options": [
+      "k = 10",
+      "k = -10",
+      "k = 5",
+      "k = 15"
+    ],
+    "answer": 0,
+    "explanation": "For no solution: a₁/a₂ = b₁/b₂ ≠ c₁/c₂ ⇒ 1/5 = 2/k ⇒ k = 10. (And 2/10 ≠ -3/7, which holds).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
+  },
+  {
+    "id": "cbse10-math-ch03-s1-003",
+    "type": "assertion_reasoning",
+    "subtopic": "Assertion & Reasoning",
+    "difficulty": "Board Standard",
+    "question": "Assertion (A): The pair of equations 2x + 3y = 7 and 4x + 6y = 14 represents coincident lines.\nReason (R): If a₁/a₂ = b₁/b₂ = c₁/c₂, the pair of linear equations has infinitely many solutions.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Here 2/4 = 3/6 = 7/14 = 1/2. Because all three ratios are equal, the lines coincide and have infinite solutions. Reason explains Assertion.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
+  }
+]

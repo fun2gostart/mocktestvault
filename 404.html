@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Page Not Found | MockTestVault</title>
+  <link rel="stylesheet" href="/css/test-engine.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+    }
+    .not-found-card {
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 40px;
+      text-align: center;
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-md);
+    }
+    .not-found-card h1 {
+      font-size: 3.5rem;
+      margin: 0 0 12px;
+      color: var(--primary);
+      font-weight: 900;
+    }
+    .not-found-card p {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .action-links {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="not-found-card">
+    <h1>404</h1>
+    <h2>Question Paper or Page Not Found</h2>
+    <p>The test link or resource you are looking for might have moved or is temporarily unavailable.</p>
+    <div class="action-links">
+      <a href="/" class="nav-btn btn-primary" style="text-decoration:none; padding:10px 20px; font-weight:700;">
+        <span>🏠</span> Return to Homepage
+      </a>
+      <a href="/ssc-cgl/" class="nav-btn" style="text-decoration:none; padding:10px 20px; font-weight:700; background:var(--bg-subtle); border:1px solid var(--border-color); color:var(--text-primary);">
+        <span>🎯</span> SSC CGL Tests
+      </a>
+      <a href="/cbse-class-10/" class="nav-btn" style="text-decoration:none; padding:10px 20px; font-weight:700; background:var(--bg-subtle); border:1px solid var(--border-color); color:var(--text-primary);">
+        <span>📚</span> CBSE Class 10
+      </a>
+    </div>
+  </div>
+</body>
+</html>

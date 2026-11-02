@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch14-s2-001",
+      "type": "mcq",
+      "subtopic": "Two Dice Sum Equal to 8",
+      "difficulty": "Medium",
+      "question": "Two dice are thrown simultaneously. What is the probability that the sum of the two numbers appearing on top is 8?",
+      "options": [
+        "5/36",
+        "1/6",
+        "7/36",
+        "4/36"
+      ],
+      "answer": 0,
+      "explanation": "Total outcomes when two dice are thrown = 6 * 6 = 36. Outcomes giving sum 8: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 outcomes. P(sum 8) = 5/36.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 22"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-002",
+      "type": "mcq",
+      "subtopic": "Two Dice 5 Will Not Come Up",
+      "difficulty": "Hard",
+      "question": "A die is thrown twice. What is the probability that 5 will not come up either time?",
+      "options": [
+        "25/36",
+        "11/36",
+        "5/6",
+        "1/36"
+      ],
+      "answer": 0,
+      "explanation": "Outcomes where 5 comes up at least once: (5,1)..(5,6) [6 pairs] and (1,5), (2,5), (3,5), (4,5), (6,5) [5 pairs] -> total 11 outcomes. Outcomes where 5 does NOT come up either time = 36 - 11 = 25. Probability = 25/36.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 24"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-003",
+      "type": "mcq",
+      "subtopic": "Two Dice Doublet",
+      "difficulty": "Medium",
+      "question": "Two dice are rolled together. What is the probability of getting a doublet (the same number on both dice)?",
+      "options": [
+        "1/6",
+        "1/12",
+        "5/36",
+        "1/36"
+      ],
+      "answer": 0,
+      "explanation": "The doublets are (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) -> 6 outcomes. Total outcomes = 36. P(doublet) = 6/36 = 1/6.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 22"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-004",
+      "type": "mcq",
+      "subtopic": "Three Coins Exactly Two Heads",
+      "difficulty": "Medium",
+      "question": "Three unbiased coins are tossed together. What is the probability of getting exactly two heads?",
+      "options": [
+        "3/8",
+        "1/8",
+        "1/2",
+        "5/8"
+      ],
+      "answer": 0,
+      "explanation": "Total outcomes = 2^3 = 8: {HHH, HHT, HTH, HTT, THH, THT, TTH, TTT}. Exactly two heads: {HHT, HTH, THH} -> 3 outcomes. P(exactly 2 heads) = 3/8.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 23"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-005",
+      "type": "mcq",
+      "subtopic": "Three Coins Hanif Game",
+      "difficulty": "Hard",
+      "question": "A game consists of tossing a one-rupee coin 3 times. Hanif wins if all the tosses give the same result (three heads or three tails), and loses otherwise. What is the probability that Hanif loses the game?",
+      "options": [
+        "3/4",
+        "1/4",
+        "1/2",
+        "5/8"
+      ],
+      "answer": 0,
+      "explanation": "Winning outcomes: {HHH, TTT} = 2 outcomes out of 8. Losing outcomes = 8 - 2 = 6 outcomes. P(Hanif loses) = 6/8 = 3/4.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 23"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-006",
+      "type": "mcq",
+      "subtopic": "Cards Without Replacement",
+      "difficulty": "Hard",
+      "question": "Five cards \u2014 the ten, jack, queen, king and ace of diamonds \u2014 are well-shuffled with their face downwards. If the queen is drawn and put aside, what is the probability that the second card picked is an ace?",
+      "options": [
+        "1/4",
+        "1/5",
+        "0",
+        "2/5"
+      ],
+      "answer": 0,
+      "explanation": "Initially 5 cards: 10, J, Q, K, A of diamonds. When Queen is drawn and put aside, remaining cards = 4 (10, J, K, A). There is 1 ace among the 4 remaining cards. P(Ace) = 1/4.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 15"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-007",
+      "type": "mcq",
+      "subtopic": "Cards Without Replacement Queen",
+      "difficulty": "Medium",
+      "question": "From the same 4 remaining cards (10, J, K, A of diamonds) after Queen was put aside, what is the probability that the second card picked is a queen?",
+      "options": [
+        "0",
+        "1/4",
+        "1/5",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Since the queen was already set aside, there are no queens left among the remaining 4 cards. Favourable outcomes = 0. P(Queen) = 0/4 = 0.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 15"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-008",
+      "type": "mcq",
+      "subtopic": "Leap Year 53 Sundays",
+      "difficulty": "Hard",
+      "question": "What is the probability that a leap year selected at random contains 53 Sundays?",
+      "options": [
+        "2/7",
+        "1/7",
+        "53/366",
+        "3/7"
+      ],
+      "answer": 0,
+      "explanation": "A leap year has 366 days = 52 weeks + 2 odd days. 52 weeks guarantee 52 Sundays. The 2 consecutive extra days can be: (Sun, Mon), (Mon, Tue), (Tue, Wed), (Wed, Thu), (Thu, Fri), (Fri, Sat), (Sat, Sun) -> 7 possible pairs. Sunday occurs in 2 pairs: (Sun, Mon) and (Sat, Sun). P(53 Sundays) = 2/7.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-009",
+      "type": "mcq",
+      "subtopic": "Non-Leap Year 53 Sundays",
+      "difficulty": "Medium",
+      "question": "What is the probability that a non-leap year has 53 Sundays?",
+      "options": [
+        "1/7",
+        "2/7",
+        "53/365",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "A non-leap year has 365 days = 52 weeks + 1 odd day. The extra day can be any of the 7 days of the week. Favourable outcome for Sunday is 1. P(53 Sundays in non-leap year) = 1/7.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-010",
+      "type": "mcq",
+      "subtopic": "Defective Pens Mixed with Good",
+      "difficulty": "Medium",
+      "question": "12 defective pens are accidentally mixed with 132 good ones. One pen is taken out at random. What is the probability that the pen taken out is a good one?",
+      "options": [
+        "11/12",
+        "1/12",
+        "132/144",
+        "12/132"
+      ],
+      "answer": 0,
+      "explanation": "Total pens = 12 + 132 = 144. Good pens = 132. P(good pen) = 132 / 144 = 11 / 12.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 16"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-011",
+      "type": "mcq",
+      "subtopic": "Geometric Probability Dartboard",
+      "difficulty": "Hard",
+      "question": "Suppose you drop a die at random on a rectangular region of dimensions 3 m by 2 m with a circle of diameter 1 m inscribed in it. What is the probability that it lands inside the circle?",
+      "options": [
+        "pi / 24",
+        "pi / 12",
+        "pi / 6",
+        "pi / 4"
+      ],
+      "answer": 0,
+      "explanation": "Area of rectangle = 3 * 2 = 6 m^2. Circle diameter = 1 m => radius r = 0.5 m = 1/2 m. Area of circle = pi * r^2 = pi * (1/2)^2 = pi / 4 m^2. P(lands inside circle) = (Area of circle) / (Area of rectangle) = (pi / 4) / 6 = pi / 24.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 20"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-012",
+      "type": "mcq",
+      "subtopic": "Piggy Bank Coins",
+      "difficulty": "Hard",
+      "question": "A piggy bank contains 100 50p coins, 50 Rs 1 coins, 20 Rs 2 coins and 10 Rs 5 coins. When turned upside down, one coin falls out. What is the probability that the coin will NOT be a Rs 5 coin?",
+      "options": [
+        "17/18",
+        "1/18",
+        "1/9",
+        "8/9"
+      ],
+      "answer": 0,
+      "explanation": "Total coins = 100 + 50 + 20 + 10 = 180 coins. Number of Rs 5 coins = 10. Coins that are not Rs 5 = 180 - 10 = 170. P(not Rs 5 coin) = 170 / 180 = 17/18.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 10"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-013",
+      "type": "mcq",
+      "subtopic": "Two Dice Sum at Least 10",
+      "difficulty": "Medium",
+      "question": "Two dice are thrown together. What is the probability that the sum of numbers is at least 10?",
+      "options": [
+        "1/6",
+        "1/12",
+        "5/36",
+        "1/4"
+      ],
+      "answer": 0,
+      "explanation": "Sum at least 10 means sum is 10, 11, or 12. Sum 10: (4,6), (5,5), (6,4) [3]. Sum 11: (5,6), (6,5) [2]. Sum 12: (6,6) [1]. Total favourable = 3 + 2 + 1 = 6. P(sum >= 10) = 6/36 = 1/6.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 22"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-014",
+      "type": "mcq",
+      "subtopic": "Two Dice Product Even",
+      "difficulty": "Hard",
+      "question": "Two fair dice are thrown simultaneously. What is the probability that the product of the numbers obtained is an odd number?",
+      "options": [
+        "1/4",
+        "3/4",
+        "1/2",
+        "1/6"
+      ],
+      "answer": 0,
+      "explanation": "Product of two integers is odd if and only if both numbers are odd. Odd numbers on a die: {1, 3, 5} (3 choices). Pairs of odd numbers = 3 * 3 = 9. Total pairs = 36. P(product is odd) = 9/36 = 1/4.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-015",
+      "type": "mcq",
+      "subtopic": "Card Drawn All Red Face Cards Removed",
+      "difficulty": "Hard",
+      "question": "All the 6 red face cards (kings, queens, jacks of hearts and diamonds) are removed from a deck of 52 cards. A card is drawn at random from the remaining cards. What is the probability of drawing a face card?",
+      "options": [
+        "3/23",
+        "6/46",
+        "6/52",
+        "1/8"
+      ],
+      "answer": 0,
+      "explanation": "Original deck: 52 cards, 12 face cards (6 red, 6 black). After removing 6 red face cards, remaining cards = 52 - 6 = 46. Remaining face cards = 12 - 6 = 6 (all black). P(face card) = 6/46 = 3/23.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-016",
+      "type": "mcq",
+      "subtopic": "Game of Chance Arrow Pointing",
+      "difficulty": "Medium",
+      "question": "A game of chance consists of spinning an arrow which comes to rest pointing at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8. What is the probability that it will point at a number greater than 2?",
+      "options": [
+        "3/4",
+        "5/8",
+        "1/2",
+        "7/8"
+      ],
+      "answer": 0,
+      "explanation": "Numbers greater than 2 are: 3, 4, 5, 6, 7, 8 (6 numbers). Total numbers = 8. P(number > 2) = 6/8 = 3/4.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 12"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-017",
+      "type": "mcq",
+      "subtopic": "Game of Chance Odd Number",
+      "difficulty": "Easy",
+      "question": "In the same spinning arrow game with numbers 1 to 8, what is the probability that it points at an odd number?",
+      "options": [
+        "1/2",
+        "3/8",
+        "5/8",
+        "1/4"
+      ],
+      "answer": 0,
+      "explanation": "Odd numbers from 1 to 8 are: 1, 3, 5, 7 (4 numbers). P(odd number) = 4/8 = 1/2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 12"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-018",
+      "type": "mcq",
+      "subtopic": "Birthday Probability",
+      "difficulty": "Medium",
+      "question": "Two friends Savita and Hamida have birthdays in the same non-leap year. What is the probability that they have the same birthday?",
+      "options": [
+        "1/365",
+        "2/365",
+        "364/365",
+        "1/7"
+      ],
+      "answer": 0,
+      "explanation": "Total number of days in a non-leap year = 365. For both to share the exact same birthday, Hamida's birthday must fall on the exact 1 specific day that Savita was born. P(same birthday) = 1/365.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Example 7"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-019",
+      "type": "mcq",
+      "subtopic": "Cards Jack of Hearts",
+      "difficulty": "Easy",
+      "question": "One card is drawn from a well-shuffled pack of 52 cards. What is the probability of getting the jack of hearts?",
+      "options": [
+        "1/52",
+        "1/13",
+        "1/26",
+        "4/52"
+      ],
+      "answer": 0,
+      "explanation": "There is only one Jack of Hearts in the entire pack of 52 cards. P(Jack of Hearts) = 1/52.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 14"
+    },
+    {
+      "id": "cbse10-math-ch14-s2-020",
+      "type": "mcq",
+      "subtopic": "Lottery Tickets Probability",
+      "difficulty": "Medium",
+      "question": "A lottery has 10 prizes and 25 blanks. A ticket is drawn at random. What is the probability of getting a prize?",
+      "options": [
+        "2/7",
+        "5/7",
+        "10/25",
+        "1/10"
+      ],
+      "answer": 0,
+      "explanation": "Total tickets = 10 prizes + 25 blanks = 35 tickets. Number of prize tickets = 10. P(getting a prize) = 10 / 35 = 2/7.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exemplar Problem"
+    }
+  ]
+}

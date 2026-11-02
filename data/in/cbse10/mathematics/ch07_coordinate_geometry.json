@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cbse10-math-ch07-s1-001",
+    "type": "mcq",
+    "subtopic": "Distance Formula",
+    "difficulty": "Easy",
+    "question": "What is the straight-line distance between the points P(2, 3) and Q(4, 1)?",
+    "options": [
+      "2√2 units",
+      "4 units",
+      "8 units",
+      "2 units"
+    ],
+    "answer": 0,
+    "explanation": "d = √[(x₂ - x₁)² + (y₂ - y₁)²] = √[(4 - 2)² + (1 - 3)²] = √[2² + (-2)²] = √[4 + 4] = √8 = 2√2 units.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2"
+  },
+  {
+    "id": "cbse10-math-ch07-s1-002",
+    "type": "mcq",
+    "subtopic": "Midpoint Formula",
+    "difficulty": "Easy",
+    "question": "What are the coordinates of the midpoint of the line segment joining points A(-5, 4) and B(7, -8)?",
+    "options": [
+      "(1, -2)",
+      "(2, -4)",
+      "(-1, 2)",
+      "(6, -6)"
+    ],
+    "answer": 0,
+    "explanation": "Midpoint M = [(x₁ + x₂)/2, (y₁ + y₂)/2] = [(-5 + 7)/2, (4 - 8)/2] = [2/2, -4/2] = (1, -2).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.3"
+  },
+  {
+    "id": "cbse10-math-ch07-s1-003",
+    "type": "assertion_reasoning",
+    "subtopic": "Assertion & Reasoning",
+    "difficulty": "Board Standard",
+    "question": "Assertion (A): The distance of the point P(3, 4) from the origin O(0, 0) is 5 units.\nReason (R): The distance of any point P(x, y) from the origin is given by √(x² + y²).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Distance from origin = √(3² + 4²) = √(9 + 16) = √25 = 5. Reason is the exact formula that verifies Assertion.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2"
+  }
+]

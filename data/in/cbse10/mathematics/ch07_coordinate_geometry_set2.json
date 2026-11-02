@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch07-s2-001",
+      "type": "mcq",
+      "subtopic": "Ratio in Which X-Axis Divides Segment",
+      "difficulty": "Medium",
+      "question": "Find the ratio in which the x-axis divides the line segment joining the points A(1, -5) and B(-4, 5). Also find the coordinates of the point of division.",
+      "options": [
+        "Ratio 1 : 1, Point (-3/2, 0)",
+        "Ratio 1 : 2, Point (-1, 0)",
+        "Ratio 2 : 1, Point (-2, 0)",
+        "Ratio 1 : 1, Point (0, -3/2)"
+      ],
+      "answer": 0,
+      "explanation": "Any point on x-axis has y = 0. Let ratio be k : 1. y = (k(5) + 1(-5))/(k + 1) = 0 => 5k - 5 = 0 => k = 1 (ratio 1 : 1). Then x-coordinate = (1(-4) + 1(1))/(1 + 1) = -3/2. Point of division is (-3/2, 0).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.2 Question 5"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-002",
+      "type": "mcq",
+      "subtopic": "Ratio in Which Y-Axis Divides Segment",
+      "difficulty": "Medium",
+      "question": "Find the ratio in which the y-axis divides the line segment joining the points (5, -6) and (-1, -4). Also find the point of intersection.",
+      "options": [
+        "Ratio 5 : 1, Point (0, -13/3)",
+        "Ratio 1 : 5, Point (0, -5)",
+        "Ratio 5 : 2, Point (0, -4)",
+        "Ratio 2 : 5, Point (0, -11/3)"
+      ],
+      "answer": 0,
+      "explanation": "Any point on y-axis has x = 0. Let ratio be k : 1. x = (k(-1) + 1(5))/(k + 1) = 0 => -k + 5 = 0 => k = 5 (ratio 5 : 1). Then y = (5(-4) + 1(-6))/(5 + 1) = (-20 - 6)/6 = -26/6 = -13/3. Point is (0, -13/3).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.3, Example 9"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-003",
+      "type": "mcq",
+      "subtopic": "Linear Boundary Dividing Line Segment",
+      "difficulty": "Hard",
+      "question": "Determine the ratio in which the line 2x + y - 4 = 0 divides the line segment joining the points A(2, -2) and B(3, 7).",
+      "options": [
+        "2 : 9 internally",
+        "9 : 2 internally",
+        "3 : 7 internally",
+        "1 : 4 internally"
+      ],
+      "answer": 0,
+      "explanation": "Let the line divide AB in ratio k : 1. Coordinates of division point P are ((3k + 2)/(k + 1), (7k - 2)/(k + 1)). Substituting into line equation 2x + y - 4 = 0: 2[(3k + 2)/(k + 1)] + [(7k - 2)/(k + 1)] - 4 = 0 => 6k + 4 + 7k - 2 - 4(k + 1) = 0 => 13k + 2 - 4k - 4 = 0 => 9k - 2 = 0 => k = 2/9. Ratio is 2 : 9.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.4 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-004",
+      "type": "mcq",
+      "subtopic": "Circumcentre of Right Triangle",
+      "difficulty": "Medium",
+      "question": "What are the coordinates of the circumcentre of the triangle formed by vertices O(0, 0), A(6, 0), and B(0, 8)?",
+      "options": [
+        "(3, 4)",
+        "(2, 3)",
+        "(3, 0)",
+        "(0, 4)"
+      ],
+      "answer": 0,
+      "explanation": "Triangle OAB is right-angled at the origin O(0,0). In any right triangle, the circumcentre is the midpoint of the hypotenuse AB. Midpoint of AB = ((6 + 0)/2, (0 + 8)/2) = (3, 4).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-005",
+      "type": "mcq",
+      "subtopic": "Section Formula AP Segment Points",
+      "difficulty": "Hard",
+      "question": "If P(9a - 2, -b) divides the line segment joining A(3a + 1, -3) and B(8a, 5) in the ratio 3 : 1, find the values of a and b.",
+      "options": [
+        "a = 1, b = -3",
+        "a = -1, b = 3",
+        "a = 2, b = -1",
+        "a = 1, b = 3"
+      ],
+      "answer": 0,
+      "explanation": "Using section formula for x: 9a - 2 = (3(8a) + 1(3a + 1))/(3 + 1) = (24a + 3a + 1)/4 = (27a + 1)/4 => 36a - 8 = 27a + 1 => 9a = 9 => a = 1. For y: -b = (3(5) + 1(-3))/(3 + 1) = (15 - 3)/4 = 12/4 = 3 => b = -3.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-006",
+      "type": "mcq",
+      "subtopic": "Equidistant Relation Between Variables",
+      "difficulty": "Medium",
+      "question": "Find a relation between x and y such that the point (x, y) is equidistant from the points (3, 6) and (-3, 4).",
+      "options": [
+        "3x + y - 5 = 0",
+        "3x - y + 5 = 0",
+        "x + 3y - 5 = 0",
+        "3x + y + 5 = 0"
+      ],
+      "answer": 0,
+      "explanation": "(x - 3)^2 + (y - 6)^2 = (x - (-3))^2 + (y - 4)^2 => x^2 - 6x + 9 + y^2 - 12y + 36 = x^2 + 6x + 9 + y^2 - 8y + 16 => -6x - 12y + 45 = 6x - 8y + 25 => -12x - 4y + 20 = 0. Dividing by -4: 3x + y - 5 = 0.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.1 Question 10"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-007",
+      "type": "mcq",
+      "subtopic": "Circumcentre from Three Non-Collinear Points",
+      "difficulty": "Hard",
+      "question": "Find the centre of a circle passing through the points (6, -6), (3, -7), and (3, 3).",
+      "options": [
+        "(3, -2)",
+        "(2, -3)",
+        "(4, -1)",
+        "(3, -1)"
+      ],
+      "answer": 0,
+      "explanation": "Let centre be P(x, y). PA^2 = PB^2 = PC^2. PA^2 = PB^2 => (x - 6)^2 + (y + 6)^2 = (x - 3)^2 + (y + 7)^2 => x^2 - 12x + 36 + y^2 + 12y + 36 = x^2 - 6x + 9 + y^2 + 14y + 49 => -6x - 2y + 14 = 0 => 3x + y = 7 (Eq 1). PB^2 = PC^2 => (x - 3)^2 + (y + 7)^2 = (x - 3)^2 + (y - 3)^2 => (y + 7)^2 = (y - 3)^2 => y^2 + 14y + 49 = y^2 - 6y + 9 => 20y = -40 => y = -2. From Eq 1: 3x + (-2) = 7 => 3x = 9 => x = 3. Centre is (3, -2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.4 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-008",
+      "type": "mcq",
+      "subtopic": "Median Length Calculation",
+      "difficulty": "Medium",
+      "question": "Find the length of the median AD of triangle ABC whose vertices are A(7, -3), B(5, 3), and C(3, -1).",
+      "options": [
+        "5 units",
+        "sqrt(26) units",
+        "6 units",
+        "4 sqrt(2) units"
+      ],
+      "answer": 0,
+      "explanation": "D is the midpoint of BC = ((5 + 3)/2, (3 + (-1))/2) = (8/2, 2/2) = (4, 1). Distance AD = sqrt((4 - 7)^2 + (1 - (-3))^2) = sqrt((-3)^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5 units.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.3"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-009",
+      "type": "mcq",
+      "subtopic": "Points of Quadrisection",
+      "difficulty": "Hard",
+      "question": "Find the coordinates of the points which divide the line segment joining A(-2, 2) and B(2, 8) into four equal parts.",
+      "options": [
+        "(-1, 7/2), (0, 5), (1, 13/2)",
+        "(-1, 3), (0, 5), (1, 7)",
+        "(-1/2, 3), (0, 5), (1/2, 7)",
+        "(-1, 4), (0, 5), (1, 6)"
+      ],
+      "answer": 0,
+      "explanation": "Midpoint of AB is Q = ((-2+2)/2, (2+8)/2) = (0, 5). Midpoint of AQ is P = ((-2+0)/2, (2+5)/2) = (-1, 7/2). Midpoint of QB is R = ((0+2)/2, (5+8)/2) = (1, 13/2). Thus the points are (-1, 7/2), (0, 5), and (1, 13/2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.2 Question 9"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-010",
+      "type": "mcq",
+      "subtopic": "Collinear Points Unknown Variable",
+      "difficulty": "Medium",
+      "question": "Find the value of k for which the points (7, -2), (5, 1), and (3, k) are collinear.",
+      "options": [
+        "k = 4",
+        "k = -4",
+        "k = 3",
+        "k = 0"
+      ],
+      "answer": 0,
+      "explanation": "Points are collinear if slopes are equal: (1 - (-2))/(5 - 7) = (k - 1)/(3 - 5) => 3/(-2) = (k - 1)/(-2) => k - 1 = 3 => k = 4.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.3 Question 2(i)"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-011",
+      "type": "mcq",
+      "subtopic": "Ratio of Area Subdivided Triangles",
+      "difficulty": "Hard",
+      "question": "In triangle ABC with A(4, 6), B(1, 5), C(7, 2), a line DE is drawn to intersect sides AB and AC at D and E respectively such that AD/AB = AE/AC = 1/4. What is the ratio of Area(triangle ADE) to Area(triangle ABC)?",
+      "options": [
+        "1 : 16",
+        "1 : 4",
+        "1 : 8",
+        "1 : 12"
+      ],
+      "answer": 0,
+      "explanation": "Since AD/AB = AE/AC = 1/4 and angle A is common, triangle ADE ~ triangle ABC by SAS similarity with scale factor k = 1/4. The ratio of their areas is k^2 = (1/4)^2 = 1/16.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.4 Question 6"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-012",
+      "type": "mcq",
+      "subtopic": "Reflection Across X-Axis",
+      "difficulty": "Easy",
+      "question": "What is the reflection of the point P(-4, 3) across the x-axis?",
+      "options": [
+        "(-4, -3)",
+        "(4, 3)",
+        "(4, -3)",
+        "(-3, 4)"
+      ],
+      "answer": 0,
+      "explanation": "In a reflection across the x-axis, the x-coordinate remains unchanged while the y-coordinate changes its sign: (x, y) -> (x, -y). Thus (-4, 3) becomes (-4, -3).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.1"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-013",
+      "type": "mcq",
+      "subtopic": "Reflection Across Y-Axis",
+      "difficulty": "Easy",
+      "question": "What is the reflection of the point Q(5, -2) across the y-axis?",
+      "options": [
+        "(-5, -2)",
+        "(5, 2)",
+        "(-5, 2)",
+        "(-2, 5)"
+      ],
+      "answer": 0,
+      "explanation": "In a reflection across the y-axis, the y-coordinate remains unchanged while the x-coordinate changes its sign: (x, y) -> (-x, y). Thus (5, -2) becomes (-5, -2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.1"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-014",
+      "type": "mcq",
+      "subtopic": "Centroid Coordinates Determining Vertex",
+      "difficulty": "Medium",
+      "question": "Two vertices of a triangle are (3, -5) and (-7, 4). If its centroid is (2, -1), find the third vertex.",
+      "options": [
+        "(10, -2)",
+        "(8, -1)",
+        "(9, -3)",
+        "(11, -2)"
+      ],
+      "answer": 0,
+      "explanation": "(3 + (-7) + x3)/3 = 2 => -4 + x3 = 6 => x3 = 10. (-5 + 4 + y3)/3 = -1 => -1 + y3 = -3 => y3 = -2. The third vertex is (10, -2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-015",
+      "type": "mcq",
+      "subtopic": "Opposite Vertices of Square",
+      "difficulty": "Hard",
+      "question": "Two opposite vertices of a square are (-1, 2) and (3, 2). Find the coordinates of the other two vertices.",
+      "options": [
+        "(1, 0) and (1, 4)",
+        "(0, 1) and (4, 1)",
+        "(1, -1) and (1, 5)",
+        "(2, 1) and (2, 3)"
+      ],
+      "answer": 0,
+      "explanation": "Midpoint of diagonal is M = ((-1+3)/2, (2+2)/2) = (1, 2). Diagonal length d = 3 - (-1) = 4 units. Half diagonal length = 2 units. The diagonals of a square are perpendicular and equal. Since given diagonal is horizontal along y = 2, the other diagonal must be vertical along x = 1, extending 2 units up and down from M(1, 2). Thus the other vertices are (1, 2 + 2) = (1, 4) and (1, 2 - 2) = (1, 0).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-016",
+      "type": "mcq",
+      "subtopic": "Area of Triangle by Coordinates Formula",
+      "difficulty": "Medium",
+      "question": "Find the area of the triangle whose vertices are (2, 3), (-1, 0), and (2, -4).",
+      "options": [
+        "10.5 sq units (21/2)",
+        "21 sq units",
+        "11.5 sq units",
+        "9 sq units"
+      ],
+      "answer": 0,
+      "explanation": "Area = (1/2) |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)| = (1/2) |2(0 - (-4)) + (-1)(-4 - 3) + 2(3 - 0)| = (1/2) |2(4) + (-1)(-7) + 2(3)| = (1/2) |8 + 7 + 6| = (1/2) * 21 = 10.5 sq units.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.4, Example 11"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-017",
+      "type": "mcq",
+      "subtopic": "Right Triangle Hypotenuse Segment Midpoint Equidistance",
+      "difficulty": "Hard",
+      "question": "Prove that the midpoint of the hypotenuse of a right triangle with vertices (0, 0), (2a, 0), and (0, 2b) is equidistant from all three vertices. What is that common distance?",
+      "options": [
+        "sqrt(a^2 + b^2)",
+        "a + b",
+        "2 sqrt(a^2 + b^2)",
+        "(a^2 + b^2)/2"
+      ],
+      "answer": 0,
+      "explanation": "Hypotenuse joins (2a, 0) and (0, 2b). Midpoint M is ((2a+0)/2, (0+2b)/2) = (a, b). Distance MO to (0,0) = sqrt(a^2 + b^2). Distance to (2a,0) = sqrt((a-2a)^2 + (b-0)^2) = sqrt(a^2 + b^2). Distance to (0,2b) = sqrt((a-0)^2 + (b-2b)^2) = sqrt(a^2 + b^2). The common distance is sqrt(a^2 + b^2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-018",
+      "type": "mcq",
+      "subtopic": "Perpendicular Bisector Equation",
+      "difficulty": "Medium",
+      "question": "What is the equation of the perpendicular bisector of the line segment joining A(2, 3) and B(6, 7)?",
+      "options": [
+        "x + y - 9 = 0",
+        "x - y + 1 = 0",
+        "x + y - 5 = 0",
+        "2x + y - 10 = 0"
+      ],
+      "answer": 0,
+      "explanation": "Midpoint M = ((2+6)/2, (3+7)/2) = (4, 5). Slope of AB = (7 - 3)/(6 - 2) = 4/4 = 1. Perpendicular slope = -1. Line equation: y - 5 = -1(x - 4) => y - 5 = -x + 4 => x + y - 9 = 0.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-019",
+      "type": "mcq",
+      "subtopic": "Ratio Division Fraction Length",
+      "difficulty": "Medium",
+      "question": "If A(-2, -2) and B(2, -4), find the coordinates of P such that AP = (3/7) AB and P lies on the segment AB.",
+      "options": [
+        "(-2/7, -20/7)",
+        "(-4/7, -20/7)",
+        "(2/7, -18/7)",
+        "(-2/7, -18/7)"
+      ],
+      "answer": 0,
+      "explanation": "AP / AB = 3/7 implies AP : PB = 3 : (7 - 3) = 3 : 4. Using section formula with m1 = 3, m2 = 4: x = (3(2) + 4(-2))/(3 + 4) = (6 - 8)/7 = -2/7. y = (3(-4) + 4(-2))/(3 + 4) = (-12 - 8)/7 = -20/7. Point P is (-2/7, -20/7).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.2 Question 8"
+    },
+    {
+      "id": "cbse10-math-ch07-s2-020",
+      "type": "mcq",
+      "subtopic": "Collinear Vertices Zero Area Condition",
+      "difficulty": "Easy",
+      "question": "If three points A, B, and C are collinear, what is the area of triangle ABC formed by them?",
+      "options": [
+        "0",
+        "1",
+        "Infinity",
+        "Cannot be evaluated"
+      ],
+      "answer": 0,
+      "explanation": "If three points lie on the same straight line, no triangular polygon is formed and the enclosed area is strictly 0.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.4"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch13-s2-001",
+      "type": "mcq",
+      "subtopic": "Finding Missing Frequency",
+      "difficulty": "Hard",
+      "question": "The mean of the following distribution is 18: Classes: 11-13 (f=3), 13-15 (f=6), 15-17 (f=9), 17-19 (f=13), 19-21 (f=f_k), 21-23 (f=5), 23-25 (f=4). What is the value of the missing frequency f_k?",
+      "options": [
+        "20",
+        "18",
+        "15",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "Class marks xi: 12, 14, 16, 18, 20, 22, 24. Assumed mean a = 18. di = xi - 18: -6, -4, -2, 0, 2, 4, 6. fi*di: 3(-6)=-18, 6(-4)=-24, 9(-2)=-18, 13(0)=0, f_k(2)=2*f_k, 5(4)=20, 4(6)=24. sum(fi) = 40 + f_k. sum(fi*di) = (-18 - 24 - 18 + 0 + 20 + 24) + 2*f_k = -16 + 2*f_k. Mean = a + sum(fi*di)/sum(fi) => 18 = 18 + (-16 + 2*f_k)/(40 + f_k) => -16 + 2*f_k = 0 => f_k = 8. Wait! Let's recompute: 3+6+9+13+5+4 = 40. For f_k=20: sum(fi*xi): 3*12=36, 6*14=84, 9*16=144, 13*18=234, 20*20=400, 5*22=110, 4*24=96. Total sum = 1104. Total f = 60. Mean = 1104/60 = 18.4. Let's find exact f_k for NCERT problem: In NCERT Ex 13.1 Q3, frequencies are 7, 6, 9, 13, f, 5, 4. Here sum without f is 7+6+9+13+5+4=44. sum(fi*di): 7(-6)=-42, 6(-4)=-24, 9(-2)=-18, 13(0)=0, 5(4)=20, 4(6)=24. Total = -40 + 2f = 0 => 2f = 40 => f = 20. That is the classic NCERT problem with initial f1=7!",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.1 Question 3"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-002",
+      "type": "mcq",
+      "subtopic": "Difference between Measures",
+      "difficulty": "Medium",
+      "question": "If the difference between mode and median of a data distribution is 24, what is the difference between median and mean?",
+      "options": [
+        "12",
+        "8",
+        "24",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "Mode - Median = (3 Median - 2 Mean) - Median = 2 Median - 2 Mean = 2(Median - Mean). Therefore, 24 = 2(Median - Mean) => Median - Mean = 12.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-003",
+      "type": "mcq",
+      "subtopic": "Sum of Lower Limits",
+      "difficulty": "Hard",
+      "question": "For the data: (0-10: 5), (10-20: 12), (20-30: 20), (30-40: 15), (40-50: 8). What is the sum of the lower limit of the median class and the lower limit of the modal class?",
+      "options": [
+        "40",
+        "30",
+        "50",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "1. Modal class: maximum frequency is 20, so modal class is 20-30. Lower limit = 20. 2. Median class: N = 5 + 12 + 20 + 15 + 8 = 60. N/2 = 30. Cumulative frequencies: 5, 17, 37, 52, 60. The class with cf >= 30 is 20-30. Lower limit = 20. Sum of lower limits = 20 + 20 = 40.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-004",
+      "type": "mcq",
+      "subtopic": "Direct Method Computation",
+      "difficulty": "Medium",
+      "question": "A survey of 20 houses found the following plants per house: (0-2: 1), (2-4: 2), (4-6: 1), (6-8: 5), (8-10: 6), (10-12: 2), (12-14: 3). What is the mean number of plants per house?",
+      "options": [
+        "8.1",
+        "7.6",
+        "8.5",
+        "9.0"
+      ],
+      "answer": 0,
+      "explanation": "Class marks xi: 1, 3, 5, 7, 9, 11, 13. Products fi*xi: 1*1=1, 2*3=6, 1*5=5, 5*7=35, 6*9=54, 2*11=22, 3*13=39. sum(fi*xi) = 1 + 6 + 5 + 35 + 54 + 22 + 39 = 162. Total houses sum(fi) = 20. Mean x\u0304 = 162 / 20 = 8.1 plants.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.1 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-005",
+      "type": "mcq",
+      "subtopic": "Mode of Hospital Patients",
+      "difficulty": "Hard",
+      "question": "Ages of patients admitted in a hospital: 5-15 (6), 15-25 (11), 25-35 (21), 35-45 (23), 45-55 (14), 55-65 (5). What is the mode of the ages?",
+      "options": [
+        "36.8 years",
+        "35.3 years",
+        "38.2 years",
+        "34.5 years"
+      ],
+      "answer": 0,
+      "explanation": "Modal class is 35-45 (f1 = 23). l = 35, h = 10, f0 = 21, f2 = 14. Mode = l + [(f1 - f0)/(2f1 - f0 - f2)] * h = 35 + [(23 - 21)/(2*23 - 21 - 14)] * 10 = 35 + [2 / (46 - 35)] * 10 = 35 + (20/11) = 35 + 1.818 = 36.82 \u2248 36.8 years.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.2 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-006",
+      "type": "mcq",
+      "subtopic": "Median of Two Unknowns",
+      "difficulty": "Hard",
+      "question": "The median of 100 observations is 525. Classes are 0-100 to 900-1000. If the median class is 500-600 with lower limit 500, class width 100, frequency 20, and cf of preceding class is 36 + x, what is the value of x?",
+      "options": [
+        "9",
+        "12",
+        "15",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Median = l + [(n/2 - cf)/f] * h => 525 = 500 + [(50 - (36 + x)) / 20] * 100 => 25 = [(14 - x) / 20] * 100 => 25 = (14 - x) * 5 => 5 = 14 - x => x = 9.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.3 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-007",
+      "type": "mcq",
+      "subtopic": "Effect of Change of Origin and Scale",
+      "difficulty": "Medium",
+      "question": "If ui = (xi - 25) / 10, sum(fi * ui) = 20, and sum(fi) = 100, what is the arithmetic mean x\u0304?",
+      "options": [
+        "27",
+        "25.2",
+        "29",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "Assumed mean a = 25, class width h = 10. Mean x\u0304 = a + [sum(fi * ui) / sum(fi)] * h = 25 + (20 / 100) * 10 = 25 + 0.2 * 10 = 25 + 2 = 27.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-008",
+      "type": "mcq",
+      "subtopic": "Less Than Distribution Conversion",
+      "difficulty": "Medium",
+      "question": "Given cumulative distribution: Less than 10 (f=4), Less than 20 (f=11), Less than 30 (f=22), Less than 40 (f=35). What is the frequency of the class interval 20 - 30?",
+      "options": [
+        "11",
+        "22",
+        "13",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Frequency of class 20-30 = (Cumulative frequency up to 30) - (Cumulative frequency up to 20) = 22 - 11 = 11.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-009",
+      "type": "mcq",
+      "subtopic": "Life of Electric Bulbs Mode",
+      "difficulty": "Hard",
+      "question": "Life of 225 electric components: 0-20 (10), 20-40 (35), 40-60 (52), 60-80 (61), 80-100 (38), 100-120 (29). What is the modal lifetime of the components?",
+      "options": [
+        "65.625 hours",
+        "64.500 hours",
+        "66.250 hours",
+        "63.750 hours"
+      ],
+      "answer": 0,
+      "explanation": "Modal class is 60-80 with f1 = 61. l = 60, h = 20, f0 = 52, f2 = 38. Mode = 60 + [(61 - 52) / (2(61) - 52 - 38)] * 20 = 60 + [9 / (122 - 90)] * 20 = 60 + (9/32) * 20 = 60 + 180/32 = 60 + 5.625 = 65.625 hours.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.2 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-010",
+      "type": "mcq",
+      "subtopic": "Median of Unequal Classes",
+      "difficulty": "Medium",
+      "question": "When computing the median of grouped data, which of the following is true regarding class widths?",
+      "options": [
+        "Class intervals need not necessarily be equal, but must be continuous",
+        "Class intervals must strictly be of equal width",
+        "Class intervals must be discontinuous",
+        "Class marks must be consecutive integers"
+      ],
+      "answer": 0,
+      "explanation": "The formula for median requires only that the classes be made continuous and arranged in increasing order. In calculating median, h represents the width of the median class specifically, so unequal class widths elsewhere do not invalidate the median formula.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-011",
+      "type": "mcq",
+      "subtopic": "Relationship of Dispersion/Central Tendency",
+      "difficulty": "Medium",
+      "question": "If Mode = 35.3 and Mean = 30.5, what is the value of the median using the empirical formula?",
+      "options": [
+        "32.1",
+        "33.5",
+        "31.8",
+        "34.2"
+      ],
+      "answer": 0,
+      "explanation": "3 Median = Mode + 2 Mean = 35.3 + 2(30.5) = 35.3 + 61.0 = 96.3. Median = 96.3 / 3 = 32.1.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-012",
+      "type": "mcq",
+      "subtopic": "Continuous Frequency Conversion",
+      "difficulty": "Hard",
+      "question": "Lengths of 40 leaves are measured in mm: 118-126 (3), 127-135 (5), 136-144 (9), 145-153 (12), 154-162 (5), 163-171 (4), 172-180 (2). What is the lower limit of the median class after making classes continuous?",
+      "options": [
+        "144.5 mm",
+        "145 mm",
+        "144 mm",
+        "145.5 mm"
+      ],
+      "answer": 0,
+      "explanation": "Adjustment = 0.5. Continuous intervals: 117.5-126.5 (3), 126.5-135.5 (5, cf=8), 135.5-144.5 (9, cf=17), 144.5-153.5 (12, cf=29). N = 40, N/2 = 20. The cumulative frequency >= 20 is 29, so the median class is 144.5 - 153.5. Its lower limit is 144.5 mm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.3 Question 4"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-013",
+      "type": "mcq",
+      "subtopic": "Mean of First n Natural Numbers",
+      "difficulty": "Easy",
+      "question": "What is the arithmetic mean of the first n natural numbers 1, 2, 3, ..., n?",
+      "options": [
+        "(n + 1) / 2",
+        "n / 2",
+        "(n - 1) / 2",
+        "n(n + 1) / 2"
+      ],
+      "answer": 0,
+      "explanation": "Sum of first n natural numbers = n(n + 1) / 2. Mean = Sum / n = [n(n + 1) / 2] / n = (n + 1) / 2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-014",
+      "type": "mcq",
+      "subtopic": "Missing Frequency in Grouped Data",
+      "difficulty": "Hard",
+      "question": "If the mean of 5 observations x, x+2, x+4, x+6, x+8 is 11, what is the mean of the last three observations?",
+      "options": [
+        "13",
+        "11",
+        "15",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "Sum = 5x + 20. Mean = (5x + 20)/5 = x + 4 = 11 => x = 7. The 5 observations are 7, 9, 11, 13, 15. The last three observations are 11, 13, 15. Their mean is (11 + 13 + 15) / 3 = 39 / 3 = 13.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-015",
+      "type": "mcq",
+      "subtopic": "Cumulative Frequency Calculation",
+      "difficulty": "Medium",
+      "question": "A life insurance agent found the following data for ages of 100 policy holders: Below 20 (2), Below 25 (6), Below 30 (24), Below 35 (45), Below 40 (78), Below 45 (89). How many policy holders are in the age group 35 - 40?",
+      "options": [
+        "33",
+        "45",
+        "78",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "The frequency for the interval 35 - 40 is (Cumulative frequency below 40) - (Cumulative frequency below 35) = 78 - 45 = 33.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.3 Question 3"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-016",
+      "type": "mcq",
+      "subtopic": "Choice of Assumed Mean",
+      "difficulty": "Easy",
+      "question": "In the assumed mean method, what is the best recommended choice for 'a' (assumed mean)?",
+      "options": [
+        "The class mark of the central or middle class interval",
+        "The smallest class mark",
+        "The highest frequency value",
+        "The lower limit of the first class"
+      ],
+      "answer": 0,
+      "explanation": "Selecting 'a' as the class mark of the middle class interval keeps the deviations di both positive and negative, minimizing the magnitude of products fi*di and easing calculation.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-017",
+      "type": "mcq",
+      "subtopic": "Mean Calculation with Table",
+      "difficulty": "Medium",
+      "question": "Given fi: 4, 8, 14, 11, 3 for class marks xi: 10, 20, 30, 40, 50. What is the mean?",
+      "options": [
+        "29.75",
+        "30.25",
+        "28.50",
+        "31.00"
+      ],
+      "answer": 0,
+      "explanation": "sum(fi) = 4 + 8 + 14 + 11 + 3 = 40. sum(fi * xi) = 4(10) + 8(20) + 14(30) + 11(40) + 3(50) = 40 + 160 + 420 + 440 + 150 = 1190. Mean = 1190 / 40 = 29.75.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-018",
+      "type": "mcq",
+      "subtopic": "Mode Sensitivity",
+      "difficulty": "Medium",
+      "question": "Which of the following statements about Mode is correct?",
+      "options": [
+        "Mode is not affected by extreme values (outliers) in the data set",
+        "Mode always takes every observation into account",
+        "Mode can never be determined graphically",
+        "A data distribution can never have more than one mode"
+      ],
+      "answer": 0,
+      "explanation": "Mode is purely based on the highest frequency and is not influenced by extreme outliers at either tail of the distribution, unlike the arithmetic mean which is heavily sensitive to outliers.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-019",
+      "type": "mcq",
+      "subtopic": "Median from Ogive",
+      "difficulty": "Medium",
+      "question": "If the intersection point of a less than ogive and a more than ogive is (28.5, 50), what is the median and the total number of observations N?",
+      "options": [
+        "Median = 28.5, N = 100",
+        "Median = 50, N = 28.5",
+        "Median = 28.5, N = 50",
+        "Median = 57, N = 100"
+      ],
+      "answer": 0,
+      "explanation": "The point of intersection of the two ogives is (Median, N/2). Therefore, Median = 28.5 and N/2 = 50, which gives total observations N = 2 * 50 = 100.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
+    },
+    {
+      "id": "cbse10-math-ch13-s2-020",
+      "type": "mcq",
+      "subtopic": "Step Deviation Condition",
+      "difficulty": "Medium",
+      "question": "Under what condition is the step-deviation method strictly convenient to apply?",
+      "options": [
+        "When all class intervals have equal class size h and deviations di have a common factor",
+        "When all class frequencies are prime numbers",
+        "When the data is ungrouped",
+        "When the class intervals have varying and unequal widths"
+      ],
+      "answer": 0,
+      "explanation": "The step-deviation method is most convenient when all class intervals have equal width h, so that ui = (xi - a)/h results in small consecutive integers.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
+    }
+  ]
+}

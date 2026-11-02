@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch05-s3-001",
+      "type": "assertion-reason",
+      "subtopic": "AP Common Difference Uniqueness",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The sequence 5, 5, 5, 5, ... is an arithmetic progression.\nReason (R): In an AP, each term after the first is obtained by adding a fixed number 'd' to the preceding term, and this common difference 'd' can be zero.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "In 5, 5, 5, ..., the difference between any two consecutive terms is 5 - 5 = 0. Since d = 0 is a valid real number, it is an AP with common difference 0. Both statements are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.1"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-002",
+      "type": "assertion-reason",
+      "subtopic": "Linear Expression of General Term",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If the nth term of a sequence is given by a_n = 5n - 3, the sequence is an AP with common difference 5.\nReason (R): Any sequence whose nth term is a linear expression in 'n' of the form an + b is an AP, and the coefficient of 'n' is its common difference.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "a_(n+1) - a_n = [5(n+1) - 3] - [5n - 3] = 5n + 5 - 3 - 5n + 3 = 5 (constant). Thus it is an AP with common difference 5. Reason (R) states this general algebraic theorem correctly.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.2"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-003",
+      "type": "assertion-reason",
+      "subtopic": "Quadratic Sum Expression Criterion",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The sum of n terms of a sequence is S_n = 2n^2 + 3n + 1. This sequence is an AP.\nReason (R): The sum of the first n terms of an AP is always a quadratic polynomial in 'n' with NO constant term (i.e., S_n = An^2 + Bn).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is FALSE: If S_n has a constant term (like +1), then S_0 != 0 (S_0 = 1). Then a_1 = S_1 = 6. a_2 = S_2 - S_1 = 15 - 6 = 9. a_3 = S_3 - S_2 = 28 - 15 = 13. The differences are a_2 - a_1 = 3, while a_3 - a_2 = 4 (not constant!). Reason (R) is TRUE: for an AP, S_n must have the form An^2 + Bn with constant term 0. Thus (A) is false, but (R) is true.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-004",
+      "type": "assertion-reason",
+      "subtopic": "Common Difference Formula from Sums",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In any arithmetic progression, the common difference 'd' can be calculated using the formula d = S_2 - 2*S_1.\nReason (R): S_1 = a_1 and S_2 = a_1 + a_2. Hence S_2 - 2*S_1 = (a_1 + a_2) - 2*a_1 = a_2 - a_1 = d.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Since S_1 is the first term a, and S_2 is the sum of the first two terms a + (a + d) = 2a + d. Then S_2 - 2*S_1 = (2a + d) - 2a = d. Both statements are true and Reason (R) proves Assertion (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-005",
+      "type": "assertion-reason",
+      "subtopic": "Arithmetic Mean Condition",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If 10, x, 20 are in AP, then x = 15.\nReason (R): If three numbers a, b, c are in AP, then the middle term b is the arithmetic mean of a and c, given by b = (a + c) / 2.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here x = (10 + 20)/2 = 30/2 = 15. Both (A) and (R) are true and (R) is the exact algebraic theorem explaining (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.1"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-006",
+      "type": "assertion-reason",
+      "subtopic": "Linear Scale Factor Invariance",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If each term of an AP is multiplied by a constant k, the resulting sequence is also an AP with common difference k*d.\nReason (R): If a_1, a_2, a_3, ... has common difference d, then ka_2 - ka_1 = k(a_2 - a_1) = kd.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Multiplying each term by k scales the difference between any two successive terms by k: ka_(n+1) - ka_n = k(a_(n+1) - a_n) = kd. Both (A) and (R) are true and (R) proves (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.1"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-007",
+      "type": "assertion-reason",
+      "subtopic": "Subtracted Term Difference Invariance",
+      "difficulty": "Easy",
+      "question": "Assertion (A): For any AP, the value of (a_25 - a_15) is equal to 10d, regardless of the value of the first term 'a'.\nReason (R): The nth term of an AP is a_n = a + (n - 1)d, so (a_p - a_q) = (p - q)d.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "a_p - a_q = [a + (p - 1)d] - [a + (q - 1)d] = (p - q)d. For p = 25, q = 15: a_25 - a_15 = (25 - 15)d = 10d. The first term 'a' completely cancels out. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.2"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-008",
+      "type": "assertion-reason",
+      "subtopic": "Sum of First n Natural Numbers Parity",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The sum of the first 50 natural numbers is 1275.\nReason (R): The sum of the first n positive integers is given by the formula S_n = n(n + 1) / 2.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Using S_n = n(n + 1)/2 for n = 50: S_50 = 50 * 51 / 2 = 25 * 51 = 1275. Both statements are true and (R) directly explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-009",
+      "type": "assertion-reason",
+      "subtopic": "End Term Counting Verification",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In an AP with total n terms, the mth term from the end is equal to the (n - m + 1)th term from the beginning.\nReason (R): If there are n items in a row, counting m places backward from the nth position arrives at position n - m + 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "The last term is the nth term (1st from end = n - 1 + 1 = n). The 2nd from end is (n - 2 + 1) = (n - 1)th term. In general, the mth term from the end is the (n - m + 1)th term from the beginning. Both statements are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.2"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-010",
+      "type": "assertion-reason",
+      "subtopic": "Radical Sequence AP Validity",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The sequence sqrt(3), sqrt(6), sqrt(9), sqrt(12), ... does NOT form an arithmetic progression.\nReason (R): The differences between consecutive terms: (sqrt(6) - sqrt(3)) and (sqrt(9) - sqrt(6)) are not equal.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "sqrt(6) - sqrt(3) = sqrt(3)(sqrt(2) - 1) approx 1.732 * 0.414 = 0.717. sqrt(9) - sqrt(6) = 3 - 2.449 = 0.551. Since these differences are not equal, the sequence is not an AP. Both (A) and (R) are true and (R) correctly explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.1 Question 4(xiii)"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-011",
+      "type": "mcq",
+      "subtopic": "Case Study 1: EV Production - Uniform Growth Model",
+      "difficulty": "Medium",
+      "question": "Case Study 1 (EV Manufacturing): An electric scooter manufacturer in Bengaluru increases production uniformly by a fixed number of units every year. The factory produced 600 scooters in the 3rd year and 700 scooters in the 7th year. What is the annual increment in production (d) and the production in the 1st year (a)?",
+      "options": [
+        "Annual increment = 25 scooters, 1st year production = 550 scooters",
+        "Annual increment = 30 scooters, 1st year production = 540 scooters",
+        "Annual increment = 20 scooters, 1st year production = 560 scooters",
+        "Annual increment = 25 scooters, 1st year production = 525 scooters"
+      ],
+      "answer": 0,
+      "explanation": "a_3 = a + 2d = 600. a_7 = a + 6d = 700. Subtracting: 4d = 100 => d = 25 scooters/year. Then a + 2(25) = 600 => a + 50 = 600 => a = 550 scooters in the 1st year.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3, Example 16"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-012",
+      "type": "mcq",
+      "subtopic": "Case Study 1: EV Production - Target Year Forecast",
+      "difficulty": "Easy",
+      "question": "Case Study 1 (Continued): How many electric scooters will the factory produce in its 10th year of operations?",
+      "options": [
+        "775 scooters",
+        "750 scooters",
+        "800 scooters",
+        "825 scooters"
+      ],
+      "answer": 0,
+      "explanation": "a_10 = a + 9d = 550 + 9(25) = 550 + 225 = 775 scooters.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3, Example 16"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-013",
+      "type": "mcq",
+      "subtopic": "Case Study 1: EV Production - Cumulative Fleet Output",
+      "difficulty": "Medium",
+      "question": "Case Study 1 (Continued): What is the total cumulative production of scooters during the first 7 years?",
+      "options": [
+        "4375 scooters",
+        "4200 scooters",
+        "4550 scooters",
+        "4300 scooters"
+      ],
+      "answer": 0,
+      "explanation": "S_7 = (7/2)[a + a_7] = (7/2)[550 + 700] = (7/2)[1250] = 7 * 625 = 4375 scooters.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3, Example 16"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-014",
+      "type": "mcq",
+      "subtopic": "Case Study 2: Spiral Arc Lengths - AP Formation",
+      "difficulty": "Medium",
+      "question": "Case Study 2 (Decorative Spiral): A decorative gold spiral is made of successive semicircles, with centres alternately at A and B, starting with centre at A, of radii 0.5 cm, 1.0 cm, 1.5 cm, 2.0 cm, ... What are the lengths of the first three consecutive semicircular arcs (take pi = 22/7)?",
+      "options": [
+        "0.5*pi, 1.0*pi, 1.5*pi cm",
+        "pi, 2*pi, 3*pi cm",
+        "0.25*pi, 0.5*pi, 0.75*pi cm",
+        "0.5*pi, 2.0*pi, 4.5*pi cm"
+      ],
+      "answer": 0,
+      "explanation": "The perimeter of a semicircle of radius r is pi * r. For r_1 = 0.5 cm, l_1 = 0.5*pi. For r_2 = 1.0 cm, l_2 = 1.0*pi. For r_3 = 1.5 cm, l_3 = 1.5*pi. These lengths form an AP with a = 0.5*pi and d = 0.5*pi.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 18"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-015",
+      "type": "mcq",
+      "subtopic": "Case Study 2: Spiral Total Length (13 Consecutive Semicircles)",
+      "difficulty": "Hard",
+      "question": "Case Study 2 (Continued): What is the total length of such a spiral made up of 13 consecutive semicircles? (Use pi = 22/7)",
+      "options": [
+        "143 cm",
+        "132 cm",
+        "154 cm",
+        "121 cm"
+      ],
+      "answer": 0,
+      "explanation": "Total length S_13 = (13/2)[2(0.5*pi) + 12(0.5*pi)] = (13/2)[pi + 6*pi] = (13/2)[7*pi] = (13/2) * 7 * (22/7) = (13/2) * 22 = 13 * 11 = 143 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 18"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-016",
+      "type": "mcq",
+      "subtopic": "Case Study 2: Radius of Final Semicircle",
+      "difficulty": "Easy",
+      "question": "Case Study 2 (Continued): What is the radius of the 13th semicircular arc in this spiral?",
+      "options": [
+        "6.5 cm",
+        "7.0 cm",
+        "6.0 cm",
+        "5.5 cm"
+      ],
+      "answer": 0,
+      "explanation": "The radii form an AP: 0.5, 1.0, 1.5, ... with a = 0.5 and d = 0.5. The 13th radius r_13 = 0.5 + 12(0.5) = 0.5 + 6.0 = 6.5 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 18"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-017",
+      "type": "mcq",
+      "subtopic": "Case Study 3: Afforestation Drive - Section Model",
+      "difficulty": "Medium",
+      "question": "Case Study 3 (Environmental Drive): In a school in Bhopal, students decided to plant trees around the campus to reduce air pollution. Each section of each class will plant twice as many trees as the class number (Class 1 plants 2 trees per section, Class 2 plants 4 trees per section, etc.). If there are 3 sections in each class from Class 1 to Class 12, how many trees will Class 1, Class 2, and Class 3 plant in total?",
+      "options": [
+        "Class 1 = 6 trees, Class 2 = 12 trees, Class 3 = 18 trees",
+        "Class 1 = 3 trees, Class 2 = 6 trees, Class 3 = 9 trees",
+        "Class 1 = 2 trees, Class 2 = 4 trees, Class 3 = 6 trees",
+        "Class 1 = 8 trees, Class 2 = 16 trees, Class 3 = 24 trees"
+      ],
+      "answer": 0,
+      "explanation": "Each section of Class k plants 2k trees. Since there are 3 sections: Total trees by Class k = 3 * (2k) = 6k trees. For Class 1: 6(1) = 6 trees. For Class 2: 6(2) = 12 trees. For Class 3: 6(3) = 18 trees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 17"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-018",
+      "type": "mcq",
+      "subtopic": "Case Study 3: Afforestation Drive - Grand Total",
+      "difficulty": "Hard",
+      "question": "Case Study 3 (Continued): How many trees will be planted in total by all students from Class 1 to Class 12?",
+      "options": [
+        "468 trees",
+        "234 trees",
+        "512 trees",
+        "480 trees"
+      ],
+      "answer": 0,
+      "explanation": "The trees planted by classes form an AP: 6, 12, 18, ..., with a = 6, d = 6, n = 12. S_12 = (12/2)[2(6) + 11(6)] = 6[12 + 66] = 6 * 78 = 468 trees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 17"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-019",
+      "type": "mcq",
+      "subtopic": "Case Study 4: Brick Steps Construction - Volume per Step",
+      "difficulty": "Hard",
+      "question": "Case Study 4 (Terrace Construction): A soccer stadium terrace consists of 15 steps, each of which is 50 m long and built of solid concrete. Each step has a rise of 1/4 m and a tread of 1/2 m. What is the volume of concrete required to build the first step?",
+      "options": [
+        "6.25 m^3 (25/4 m^3)",
+        "12.5 m^3 (25/2 m^3)",
+        "3.125 m^3 (25/8 m^3)",
+        "25 m^3"
+      ],
+      "answer": 0,
+      "explanation": "Volume of concrete for 1st step = length * rise * tread = 50 * (1/4) * (1/2) = 50 / 8 = 25/4 = 6.25 m^3.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 5"
+    },
+    {
+      "id": "cbse10-math-ch05-s3-020",
+      "type": "mcq",
+      "subtopic": "Case Study 4: Brick Steps Construction - Total Terrace Volume",
+      "difficulty": "Hard",
+      "question": "Case Study 4 (Continued): What is the total volume of concrete required to construct all 15 steps of the stadium terrace?",
+      "options": [
+        "750 m^3",
+        "625 m^3",
+        "800 m^3",
+        "720 m^3"
+      ],
+      "answer": 0,
+      "explanation": "Volume for 1st step = (1/4)*(1/2)*50 = 25/4 m^3. For 2nd step = (2/4)*(1/2)*50 = 2*(25/4) m^3. This is an AP with a = 25/4, d = 25/4, n = 15. Total volume S_15 = (15/2)[2(25/4) + 14(25/4)] = (15/2)[16 * (25/4)] = (15/2)[4 * 25] = (15/2) * 100 = 15 * 50 = 750 m^3.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 5"
+    }
+  ]
+}

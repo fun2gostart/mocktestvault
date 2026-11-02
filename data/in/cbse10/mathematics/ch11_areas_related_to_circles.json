@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cbse10-math-ch11-s1-001",
+    "type": "mcq",
+    "subtopic": "Sector Area",
+    "difficulty": "Easy",
+    "question": "What is the formula for the area of a sector of angle θ of a circle with radius r?",
+    "options": [
+      "(θ / 360°) × πr²",
+      "(θ / 180°) × πr²",
+      "(θ / 360°) × 2πr",
+      "(θ / 720°) × 2πr²"
+    ],
+    "answer": 0,
+    "explanation": "Area of a sector of angle θ = (θ / 360°) × πr². Length of corresponding arc = (θ / 360°) × 2πr.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
+  },
+  {
+    "id": "cbse10-math-ch11-s1-002",
+    "type": "mcq",
+    "subtopic": "Clock Problem",
+    "difficulty": "Medium",
+    "question": "The minute hand of a clock is 14 cm long. What is the area swept by the minute hand in 5 minutes? (Use π = 22/7)",
+    "options": [
+      "154 / 3 cm²",
+      "154 cm²",
+      "77 / 3 cm²",
+      "308 / 3 cm²"
+    ],
+    "answer": 0,
+    "explanation": "In 60 mins, minute hand sweeps 360°. In 5 mins, angle θ = (360° / 60) × 5 = 30°. Area = (30/360) × (22/7) × 14 × 14 = (1/12) × 22 × 2 × 14 = (1/12) × 616 = 154 / 3 cm² ≈ 51.33 cm².",
+    "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2 (Exercise 11.1 Q2)"
+  },
+  {
+    "id": "cbse10-math-ch11-s1-003",
+    "type": "assertion_reasoning",
+    "subtopic": "Assertion & Reasoning",
+    "difficulty": "Board Standard",
+    "question": "Assertion (A): The length of the arc of a semicircle of radius r is πr.\nReason (R): The angle subtended by a semicircle at the center is 180°.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Arc length = (θ / 360°) × 2πr = (180° / 360°) × 2πr = (1/2) × 2πr = πr. Reason explains Assertion.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
+  }
+]

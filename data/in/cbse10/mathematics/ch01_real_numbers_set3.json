@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cbse10-math-ch01-s3-001",
+    "type": "assertion-reason",
+    "subtopic": "HCF and LCM Relation",
+    "difficulty": "Easy",
+    "question": "Assertion (A): If the HCF of two numbers is 5 and their product is 150, then their LCM must be 30.\nReason (R): For any two positive integers a and b, the product of their HCF and LCM is equal to the product of the two numbers (HCF * LCM = a * b).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "From the formula HCF * LCM = a * b: 5 * LCM = 150 => LCM = 150 / 5 = 30. Both statements are true and Reason (R) directly explains Assertion (A).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-002",
+    "type": "assertion-reason",
+    "subtopic": "Irrationality of Square Roots",
+    "difficulty": "Easy",
+    "question": "Assertion (A): The square root of any prime number p, denoted sqrt(p), is always an irrational number.\nReason (R): The square root of any positive integer is always an irrational number.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 2,
+    "explanation": "Assertion (A) is true: Theorem 1.3 proves that if p is prime, sqrt(p) is strictly irrational. Reason (R) is false: square roots of perfect squares like sqrt(4) = 2, sqrt(9) = 3, and sqrt(16) = 4 are rational numbers.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-003",
+    "type": "assertion-reason",
+    "subtopic": "Digits of Power Expressions",
+    "difficulty": "Medium",
+    "question": "Assertion (A): The number 6^n can never end with the digit zero for any natural number n.\nReason (R): The prime factorisation of 6^n = (2 * 3)^n = 2^n * 3^n, which lacks the prime factor 5 necessary to form a factor of 10.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). A number ends with 0 if and only if 10 = 2 * 5 is a factor. By the uniqueness of prime factorisation (Fundamental Theorem of Arithmetic), 5 does not occur in 6^n, so it cannot end with 0.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 5"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-004",
+    "type": "assertion-reason",
+    "subtopic": "Coprime Number Properties",
+    "difficulty": "Easy",
+    "question": "Assertion (A): If two positive integers a and b satisfy HCF(a, b) = 1, they are called coprime numbers.\nReason (R): Coprime numbers have no common positive factors other than the integer 1.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Both statements are true and Reason (R) provides the definition of coprime integers.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-005",
+    "type": "assertion-reason",
+    "subtopic": "Irrationality of Sums",
+    "difficulty": "Easy",
+    "question": "Assertion (A): The real number (2 + sqrt(3)) is an irrational number.\nReason (R): The sum of a rational number and an irrational number is always an irrational number.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Both statements are true and Reason (R) directly explains Assertion (A). 2 is rational and sqrt(3) is irrational; their sum (2 + sqrt(3)) is strictly irrational.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-006",
+    "type": "assertion-reason",
+    "subtopic": "Divisibility of Consecutive Integers",
+    "difficulty": "Medium",
+    "question": "Assertion (A): The product of three consecutive positive integers is always divisible by 6.\nReason (R): In any three consecutive positive integers, at least one is divisible by 2 and exactly one is divisible by 3.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Both statements are true and Reason explains Assertion. Because 2 and 3 are coprime primes, any number divisible by both 2 and 3 is divisible by 2 * 3 = 6.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-007",
+    "type": "assertion-reason",
+    "subtopic": "Prime Pair HCF",
+    "difficulty": "Easy",
+    "question": "Assertion (A): The HCF of 11 and 17 is 1.\nReason (R): If two numbers are prime numbers, their only common positive divisor is 1, so their HCF is always 1.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Both statements are true and Reason explains Assertion. Both 11 and 17 are prime numbers, so HCF(11, 17) = 1.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-008",
+    "type": "assertion-reason",
+    "subtopic": "Algebraic Even Property",
+    "difficulty": "Medium",
+    "question": "Assertion (A): For every positive integer n, the algebraic expression (n^2 - n) is an even integer.\nReason (R): (n^2 - n) = n(n - 1), which is the product of two consecutive integers, one of which must be even.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Both statements are true and Reason explains Assertion. Factoring n^2 - n gives n(n - 1). Between n and (n - 1), one is even, so their product is divisible by 2.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-009",
+    "type": "assertion-reason",
+    "subtopic": "Terminating Decimal Condition",
+    "difficulty": "Medium",
+    "question": "Assertion (A): The decimal expansion of the rational fraction 13 / 3125 is terminating.\nReason (R): The denominator 3125 = 5^5 = 2^0 * 5^5, which fits the standard form 2^n * 5^m for non-negative integers n and m.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Both statements are true and Reason explains Assertion. Since the denominator's prime factors consist solely of powers of 5, the decimal expansion terminates (after 5 decimal places: 0.00416).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.5"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-010",
+    "type": "assertion-reason",
+    "subtopic": "Number Sets Classification",
+    "difficulty": "Easy",
+    "question": "Assertion (A): Every integer is a natural number.\nReason (R): Natural numbers are positive counting numbers (1, 2, 3, ...), whereas integers also include zero and negative numbers.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 3,
+    "explanation": "Assertion (A) is false: negative integers (-3, -2, -1) and zero are integers but NOT natural numbers. (Every natural number is an integer, but not every integer is a natural number). Reason (R) is true.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.1"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-011",
+    "type": "case-study",
+    "subtopic": "Case Study: Army Republic Day Parade March",
+    "difficulty": "Medium",
+    "question": "An army contingent of 616 soldiers is to march behind an army band of 32 musicians in a parade. Both groups must march in the same number of columns. After determining the maximum number of columns (HCF = 8), how many soldiers and how many band musicians march in each individual column?",
+    "options": [
+      "77 soldiers and 4 band musicians per column",
+      "80 soldiers and 8 band musicians per column",
+      "64 soldiers and 2 band musicians per column",
+      "32 soldiers and 16 band musicians per column"
+    ],
+    "answer": 0,
+    "explanation": "HCF(616, 32) = 8 columns. Band musicians per column = 32 / 8 = 4 musicians. Contingent soldiers per column = 616 / 8 = 77 soldiers.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.1 Question 3"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-012",
+    "type": "case-study",
+    "subtopic": "Case Study: Traffic Lights Synchronization",
+    "difficulty": "Hard",
+    "question": "The traffic lights at three consecutive road intersections change after every 48 seconds, 72 seconds, and 108 seconds respectively. If all three lights change simultaneously at 7:00:00 AM, at what time will they next change simultaneously?",
+    "options": [
+      "7:07:12 AM",
+      "7:12:00 AM",
+      "7:04:36 AM",
+      "7:14:24 AM"
+    ],
+    "answer": 0,
+    "explanation": "The simultaneous change interval is LCM(48, 72, 108). 48 = 2^4 * 3; 72 = 2^3 * 3^2; 108 = 2^2 * 3^3. LCM = 2^4 * 3^3 = 16 * 27 = 432 seconds. 432 seconds = 7 minutes and 12 seconds. Adding to 7:00:00 AM gives 7:07:12 AM.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q6"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-013",
+    "type": "case-study",
+    "subtopic": "Case Study: Inter-School Academic Seminar",
+    "difficulty": "Hard",
+    "question": "In an inter-school academic symposium, the number of participants in Hindi, English, and Mathematics are 60, 84, and 108 respectively. In each room, the same number of participants are to be seated, and all participants in any one room must be of the same subject. What is the MINIMUM number of rooms required?",
+    "options": [
+      "12 rooms",
+      "21 rooms",
+      "28 rooms",
+      "18 rooms"
+    ],
+    "answer": 1,
+    "explanation": "To minimize the number of rooms, the capacity of each room must be maximized: HCF(60, 84, 108) = 12 participants per room. Total participants = 60 + 84 + 108 = 252. Minimum rooms required = 252 / 12 = 21 rooms (Hindi: 5 rooms, English: 7 rooms, Math: 9 rooms).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-014",
+    "type": "case-study",
+    "subtopic": "Case Study: Confectionery Barfi Stacking Total Stacks",
+    "difficulty": "Medium",
+    "question": "A sweetseller has 420 kaju barfis and 130 badam barfis. She stacks them in stacks of equal height with maximum barfis per stack (HCF = 10 barfis). What is the total number of stacks formed in the display tray?",
+    "options": [
+      "10 stacks",
+      "55 stacks",
+      "42 stacks",
+      "65 stacks"
+    ],
+    "answer": 1,
+    "explanation": "Each stack has 10 barfis. Number of kaju barfi stacks = 420 / 10 = 42. Number of badam barfi stacks = 130 / 10 = 13. Total stacks = 42 + 13 = 55 stacks.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 4"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-015",
+    "type": "case-study",
+    "subtopic": "Case Study: Tiling a Rectangular Courtyard",
+    "difficulty": "Hard",
+    "question": "A rectangular courtyard is 18 m 72 cm long (1872 cm) and 13 m 20 cm broad (1320 cm). It is to be paved with identical square tiles of maximum possible size. What is the side length of the square tile, and what is the minimum number of tiles required?",
+    "options": [
+      "Tile side = 24 cm; Minimum tiles = 4,290",
+      "Tile side = 12 cm; Minimum tiles = 17,160",
+      "Tile side = 48 cm; Minimum tiles = 1,072",
+      "Tile side = 36 cm; Minimum tiles = 2,500"
+    ],
+    "answer": 0,
+    "explanation": "Tile side = HCF(1872, 1320) = 24 cm. Number of tiles along length = 1872 / 24 = 78. Number of tiles along breadth = 1320 / 24 = 55. Total tiles required = 78 * 55 = 4,290 tiles.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-016",
+    "type": "case-study",
+    "subtopic": "Case Study: Track Racing Lap Counts",
+    "difficulty": "Medium",
+    "question": "Sonia takes 18 minutes and Ravi takes 12 minutes to complete one lap of a circular track. Both start together at the same time and direction. When they meet again at the starting point for the first time after 36 minutes, how many laps has each person completed?",
+    "options": [
+      "Sonia: 2 laps; Ravi: 3 laps",
+      "Sonia: 3 laps; Ravi: 2 laps",
+      "Sonia: 4 laps; Ravi: 6 laps",
+      "Both completed 1 lap"
+    ],
+    "answer": 0,
+    "explanation": "LCM(18, 12) = 36 minutes. Laps completed by Sonia = 36 / 18 = 2 laps. Laps completed by Ravi = 36 / 12 = 3 laps.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 7"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-017",
+    "type": "case-study",
+    "subtopic": "Case Study: Relief Fruit Hamper Distribution",
+    "difficulty": "Hard",
+    "question": "A humanitarian NGO receives 144 apples, 180 oranges, and 216 bananas to prepare identical fruit relief hampers. Each hamper must contain the exact same composition of fruits with none left over. What is the maximum number of hampers that can be assembled, and how many bananas are in each hamper?",
+    "options": [
+      "36 hampers; 6 bananas per hamper",
+      "18 hampers; 12 bananas per hamper",
+      "72 hampers; 3 bananas per hamper",
+      "12 hampers; 18 bananas per hamper"
+    ],
+    "answer": 0,
+    "explanation": "Max hampers = HCF(144, 180, 216). 144 = 36 * 4; 180 = 36 * 5; 216 = 36 * 6. HCF = 36 hampers. Bananas per hamper = 216 / 36 = 6 bananas (along with 4 apples and 5 oranges).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-018",
+    "type": "case-study",
+    "subtopic": "Case Study: Educational Stationery Kits",
+    "difficulty": "Medium",
+    "question": "A charitable foundation donates 120 pens, 180 pencils, and 240 erasers to an elementary school. The principal wishes to pack them into identical student gift pouches. What is the maximum number of pouches that can be packed, and how many pencils will each pouch contain?",
+    "options": [
+      "60 pouches; 3 pencils per pouch",
+      "30 pouches; 6 pencils per pouch",
+      "120 pouches; 1 pencil per pouch",
+      "40 pouches; 4 pencils per pouch"
+    ],
+    "answer": 0,
+    "explanation": "Max pouches = HCF(120, 180, 240) = 60 pouches. Pencils per pouch = 180 / 60 = 3 pencils (with 2 pens and 4 erasers).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-019",
+    "type": "case-study",
+    "subtopic": "Proof by Contradiction: Core Mathematical Step",
+    "difficulty": "Hard",
+    "question": "In the standard NCERT proof by contradiction demonstrating that sqrt(3) is irrational, we assume sqrt(3) = a/b where a and b are coprime integers (b != 0). What contradiction is reached that disproves this rational assumption?",
+    "options": [
+      "We prove that 3 divides both a and b, which contradicts the initial assumption that a and b are coprime",
+      "We prove that a and b are negative numbers",
+      "We prove that b = 0",
+      "We prove that 3 is an even number"
+    ],
+    "answer": 0,
+    "explanation": "Squaring 3 = a^2 / b^2 => 3b^2 = a^2. By Theorem 1.3, 3 divides a^2, so 3 divides a. Substituting a = 3c gives 3b^2 = 9c^2 => b^2 = 3c^2, so 3 divides b. Thus 3 is a common factor of both a and b, directly contradicting that a and b share no common factor other than 1.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.4"
+  },
+  {
+    "id": "cbse10-math-ch01-s3-020",
+    "type": "case-study",
+    "subtopic": "Decimal Expansion Computation without Long Division",
+    "difficulty": "Medium",
+    "question": "Without performing long division, what is the exact decimal value of the rational fraction 23 / (2^3 * 5^2)?",
+    "options": [
+      "0.115",
+      "0.0115",
+      "0.230",
+      "1.150"
+    ],
+    "answer": 0,
+    "explanation": "Multiply numerator and denominator by 5^1 to equalize powers of 2 and 5 in the denominator: 23 / (2^3 * 5^2) = (23 * 5) / (2^3 * 5^3) = 115 / 10^3 = 115 / 1000 = 0.115.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 9"
+  }
+]

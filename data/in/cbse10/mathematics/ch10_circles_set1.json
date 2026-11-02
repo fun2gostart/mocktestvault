@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch10-s1-001",
+      "type": "mcq",
+      "subtopic": "Theorem 10.1 Radius Tangent Perpendicularity",
+      "difficulty": "Easy",
+      "question": "The tangent at any point of a circle is always perpendicular to which geometric line through the point of contact?",
+      "options": [
+        "The radius through the point of contact",
+        "The chord passing through the point",
+        "The line segment connecting to the opposite circumference",
+        "Any secant line drawn to the circle"
+      ],
+      "answer": 0,
+      "explanation": "Theorem 10.1: The tangent at any point of a circle is perpendicular to the radius through the point of contact (Angle between radius and tangent = 90 deg).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Theorem 10.1"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-002",
+      "type": "mcq",
+      "subtopic": "Theorem 10.2 External Tangent Length Equality",
+      "difficulty": "Easy",
+      "question": "From an external point P, two tangents PA and PB are drawn to a circle. What is the relation between the lengths of PA and PB?",
+      "options": [
+        "PA = PB",
+        "PA > PB",
+        "PA + PB = Radius",
+        "PA = 2 PB"
+      ],
+      "answer": 0,
+      "explanation": "Theorem 10.2: The lengths of tangents drawn from an external point to a circle are equal (PA = PB).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Theorem 10.2"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-003",
+      "type": "mcq",
+      "subtopic": "Tangent Length Calculation from Distance",
+      "difficulty": "Easy",
+      "question": "A tangent PQ at a point P of a circle of radius 5 cm meets a line through the centre O at a point Q so that OQ = 12 cm. What is the length of PQ?",
+      "options": [
+        "sqrt(119) cm (~10.91 cm)",
+        "13 cm",
+        "8.5 cm",
+        "sqrt(169) cm"
+      ],
+      "answer": 0,
+      "explanation": "Since OP is perpendicular to PQ, triangle OPQ is a right-angled triangle with hypotenuse OQ. PQ = sqrt(OQ^2 - OP^2) = sqrt(12^2 - 5^2) = sqrt(144 - 25) = sqrt(119) cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.1 Question 3"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-004",
+      "type": "mcq",
+      "subtopic": "Tangent Length with Standard Pythagorean Triplet",
+      "difficulty": "Easy",
+      "question": "From a point Q, the length of the tangent to a circle is 24 cm and the distance of Q from the centre is 25 cm. What is the radius of the circle?",
+      "options": [
+        "7 cm",
+        "12 cm",
+        "15 cm",
+        "24.5 cm"
+      ],
+      "answer": 0,
+      "explanation": "In right triangle OPQ: radius r = sqrt(OQ^2 - PQ^2) = sqrt(25^2 - 24^2) = sqrt(625 - 576) = sqrt(49) = 7 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-005",
+      "type": "mcq",
+      "subtopic": "Supplementary Angles Between Tangents and Centre",
+      "difficulty": "Easy",
+      "question": "If TP and TQ are the two tangents to a circle with centre O so that angle POQ = 110 degrees, then what is angle PTQ?",
+      "options": [
+        "70 degrees",
+        "60 degrees",
+        "80 degrees",
+        "90 degrees"
+      ],
+      "answer": 0,
+      "explanation": "In quadrilateral OPTQ, angle OPT = 90 deg and angle OQT = 90 deg. Sum of angles of quadrilateral = 360 deg => angle PTQ + angle POQ = 180 deg (supplementary). Thus angle PTQ = 180 - 110 = 70 degrees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-006",
+      "type": "mcq",
+      "subtopic": "Angle Between Tangents Bisector",
+      "difficulty": "Medium",
+      "question": "If tangents PA and PB from a point P to a circle with centre O are inclined to each other at an angle of 80 degrees, then what is angle POA?",
+      "options": [
+        "50 degrees",
+        "60 degrees",
+        "70 degrees",
+        "80 degrees"
+      ],
+      "answer": 0,
+      "explanation": "Angle AOB = 180 - 80 = 100 degrees. Line OP bisects angle AOB, so angle POA = 100 / 2 = 50 degrees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 3"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-007",
+      "type": "mcq",
+      "subtopic": "Maximum Parallel Tangents",
+      "difficulty": "Easy",
+      "question": "What is the maximum number of parallel tangents that a circle can have at any given time?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "Infinitely many"
+      ],
+      "answer": 0,
+      "explanation": "Parallel tangents must occur at the opposite endpoints of a diameter. Since a diameter has only two endpoints, a circle can have at most 2 parallel tangents in any given direction.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.1"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-008",
+      "type": "mcq",
+      "subtopic": "Tangents at Diameter Endpoints",
+      "difficulty": "Easy",
+      "question": "The tangents drawn at the endpoints of a diameter of a circle are always:",
+      "options": [
+        "Parallel to each other",
+        "Perpendicular to each other",
+        "Intersecting at 60 degrees",
+        "Coincident"
+      ],
+      "answer": 0,
+      "explanation": "The radius to each endpoint is perpendicular to the tangent (both angles = 90 deg). These form equal alternate interior angles, proving that the two tangents are parallel.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 4"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-009",
+      "type": "mcq",
+      "subtopic": "Concentric Circles Chord Length",
+      "difficulty": "Medium",
+      "question": "Two concentric circles are of radii 5 cm and 3 cm. Find the length of the chord of the larger circle which touches the smaller circle.",
+      "options": [
+        "8 cm",
+        "4 cm",
+        "10 cm",
+        "6 cm"
+      ],
+      "answer": 0,
+      "explanation": "The radius of the inner circle is perpendicular to the chord and bisects it. In the right triangle: half chord = sqrt(5^2 - 3^2) = sqrt(25 - 9) = sqrt(16) = 4 cm. Total chord length = 2 * 4 = 8 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 7"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-010",
+      "type": "mcq",
+      "subtopic": "Secant Line Definition",
+      "difficulty": "Easy",
+      "question": "A straight line that intersects a circle at two distinct points is called a:",
+      "options": [
+        "Secant",
+        "Tangent",
+        "Diameter",
+        "Segment"
+      ],
+      "answer": 0,
+      "explanation": "By definition, a line that cuts a circle at two distinct points is called a secant. (A tangent intersects at exactly one point).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.1"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-011",
+      "type": "mcq",
+      "subtopic": "Number of Tangents from Point on Circle",
+      "difficulty": "Easy",
+      "question": "How many tangents can be drawn to a circle passing through a specific point lying ON the circle?",
+      "options": [
+        "Exactly 1",
+        "2",
+        "0",
+        "Infinitely many"
+      ],
+      "answer": 0,
+      "explanation": "At any single point on the circumference of a circle, exactly one unique tangent can be drawn.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.2"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-012",
+      "type": "mcq",
+      "subtopic": "Number of Tangents from Inside Point",
+      "difficulty": "Easy",
+      "question": "How many tangents can be drawn to a circle from a point lying strictly inside the circle?",
+      "options": [
+        "0 (No tangent)",
+        "1",
+        "2",
+        "Infinitely many"
+      ],
+      "answer": 0,
+      "explanation": "Any line passing through an interior point of a circle must intersect the circle at two points, forming a secant. Thus, no tangent can be drawn from inside a circle.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.2"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-013",
+      "type": "mcq",
+      "subtopic": "Number of Tangents from Outside Point",
+      "difficulty": "Easy",
+      "question": "How many tangents can be drawn to a circle from a point lying outside the circle?",
+      "options": [
+        "Exactly 2",
+        "1",
+        "0",
+        "Infinitely many"
+      ],
+      "answer": 0,
+      "explanation": "From any external point outside a circle, exactly two distinct tangents can be drawn to touch the circle.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.2"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-014",
+      "type": "mcq",
+      "subtopic": "Angle Between Tangent and Chord Relation",
+      "difficulty": "Medium",
+      "question": "If two tangents TP and TQ are drawn to a circle with centre O from an external point T, then angle PTQ is equal to:",
+      "options": [
+        "2 * angle OPQ",
+        "angle OPQ",
+        "(1/2) * angle OPQ",
+        "90 deg - angle OPQ"
+      ],
+      "answer": 0,
+      "explanation": "In isosceles triangle TPQ: TP = TQ => angle TPQ = angle TQP = (180 - angle PTQ)/2 = 90 - (1/2) angle PTQ. Also angle OPT = 90 deg. angle OPQ = angle OPT - angle TPQ = 90 - [90 - (1/2) angle PTQ] = (1/2) angle PTQ. Therefore, angle PTQ = 2 * angle OPQ.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.2, Example 2"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-015",
+      "type": "mcq",
+      "subtopic": "Chord of Contact Length",
+      "difficulty": "Hard",
+      "question": "PQ is a chord of length 8 cm of a circle of radius 5 cm. The tangents at P and Q intersect at a point T. Find the length of tangent TP.",
+      "options": [
+        "20/3 cm (~6.67 cm)",
+        "15/4 cm",
+        "7 cm",
+        "25/3 cm"
+      ],
+      "answer": 0,
+      "explanation": "OT bisects PQ at R. PR = 8/2 = 4 cm. In right triangle OPR: OR = sqrt(5^2 - 4^2) = sqrt(25 - 16) = 3 cm. Triangle TRP ~ triangle PRO: TP / PO = RP / RO => TP / 5 = 4 / 3 => TP = 20/3 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.2, Example 3"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-016",
+      "type": "mcq",
+      "subtopic": "Point of Contact Definition",
+      "difficulty": "Easy",
+      "question": "The common point where a tangent line touches the circle is called the:",
+      "options": [
+        "Point of contact",
+        "Point of tangency or intersection",
+        "Origin of tangent",
+        "Node point"
+      ],
+      "answer": 0,
+      "explanation": "By NCERT definition, the unique common point shared between the tangent line and the circumference of the circle is called the point of contact.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Section 10.1"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-017",
+      "type": "mcq",
+      "subtopic": "Quadrilateral Circumscribing Circle Side Identity",
+      "difficulty": "Medium",
+      "question": "A quadrilateral ABCD is drawn to circumscribe a circle. Which of the following relationships is ALWAYS true?",
+      "options": [
+        "AB + CD = AD + BC",
+        "AB + BC = CD + DA",
+        "AB * CD = AD * BC",
+        "AB^2 + CD^2 = AD^2 + BC^2"
+      ],
+      "answer": 0,
+      "explanation": "By Theorem 10.2, tangents from each vertex are equal: AP = AS, BP = BQ, CR = CQ, DR = DS. Adding them: (AP + BP) + (CR + DR) = (AS + DS) + (BQ + CQ) => AB + CD = AD + BC.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 8"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-018",
+      "type": "mcq",
+      "subtopic": "Parallelogram Circumscribing Circle",
+      "difficulty": "Medium",
+      "question": "If a parallelogram ABCD circumscribes a circle, what special type of quadrilateral must ABCD be?",
+      "options": [
+        "Rhombus",
+        "Rectangle",
+        "Trapezium",
+        "Square only"
+      ],
+      "answer": 0,
+      "explanation": "Since ABCD is a parallelogram, AB = CD and AD = BC. From circumscribing property: AB + CD = AD + BC => 2 AB = 2 AD => AB = AD. A parallelogram with adjacent sides equal is a rhombus.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 11"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-019",
+      "type": "mcq",
+      "subtopic": "Angle Subtended by Intercepted Tangent",
+      "difficulty": "Hard",
+      "question": "XY and X'Y' are two parallel tangents to a circle with centre O and another tangent AB with point of contact C intersects XY at A and X'Y' at B. What is the measure of angle AOB?",
+      "options": [
+        "90 degrees",
+        "60 degrees",
+        "120 degrees",
+        "180 degrees"
+      ],
+      "answer": 0,
+      "explanation": "OA bisects angle PAC, and OB bisects angle QBC. Since angle PAC + angle QBC = 180 deg (consecutive interior angles of parallel lines): (1/2) angle PAC + (1/2) angle QBC = 90 deg => angle OAB + angle OBA = 90 deg. In triangle AOB, angle AOB = 180 - 90 = 90 degrees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 9"
+    },
+    {
+      "id": "cbse10-math-ch10-s1-020",
+      "type": "mcq",
+      "subtopic": "Perpendicular to Tangent Passes Through Centre",
+      "difficulty": "Easy",
+      "question": "The perpendicular drawn to a tangent at its point of contact passes through:",
+      "options": [
+        "The centre of the circle",
+        "The midpoint of the tangent",
+        "The point of another tangent",
+        "An external point"
+      ],
+      "answer": 0,
+      "explanation": "By Theorem 10.1, the radius through the point of contact is perpendicular to the tangent. Therefore, the unique perpendicular line at the point of contact must pass through the centre of the circle.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 10, Exercise 10.2 Question 5"
+    }
+  ]
+}

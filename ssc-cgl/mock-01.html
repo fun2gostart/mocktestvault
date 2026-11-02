@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSC CGL Tier 1 Official Full Mock Test 01 (100 Qs • 200 Marks) | MockTestVault</title>
+  <meta name="description" content="Free 100-question SSC CGL Tier 1 full-length mock exam with 60-min timer, TCS iON palette, sectional jump tabs, +2/-0.5 negative marking, and instant solutions. 100% ad-free.">
+
+  <link rel="stylesheet" href="../css/test-engine.css">
+
+  <style>
+    .cgl-section-tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 16px;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-color);
+    }
+    .cgl-sec-btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-subtle);
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .cgl-sec-btn:hover {
+      background: var(--primary-light);
+      border-color: var(--primary-border);
+      color: var(--primary);
+    }
+    .cgl-sec-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    .cgl-sec-badge {
+      font-size: 0.72rem;
+      padding: 2px 6px;
+      border-radius: 9999px;
+      background: rgba(0, 0, 0, 0.15);
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "SSC CGL 2025–2026 Tier 1 Official Full Mock Test 01",
+    "description": "Full-length 100-question timed mock exam matching the exact SSC CGL Tier 1 computer-based test pattern.",
+    "educationalLevel": "Competitive Examination",
+    "learningResourceType": "Full Mock Exam",
+    "provider": {
+      "@type": "Organization",
+      "name": "MockTestVault",
+      "url": "https://mocktestvault.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Print Only Header -->
+  <div class="print-only-header">
+    <h1>MockTestVault — SSC CGL Tier 1 Official Full Mock Test 01</h1>
+    <p>Complete 100-Question Solved Paper (200 Marks) | mocktestvault.com</p>
+  </div>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-link">
+        <div class="brand-logo">🛡️</div>
+        <div class="brand-text">
+          <h1>MockTestVault <span class="vault-pill">SSC CGL Tier 1</span></h1>
+          <p>Full 100-Question Board Simulation</p>
+        </div>
+      </a>
+
+      <div class="header-controls">
+        <div class="mode-pill-group" role="group" aria-label="Test Mode Selection">
+          <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and detailed solutions">
+            <span>🎓</span> Practice
+          </button>
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 60-min official simulation with negative marking">
+            <span>⏱️</span> Exam
+          </button>
+        </div>
+
+        <div style="display:flex; gap:6px;">
+          <button id="btn-font-dec" class="tool-btn" title="Decrease Font Size">A-</button>
+          <button id="btn-font-inc" class="tool-btn" title="Increase Font Size">A+</button>
+          <button id="btn-sound-toggle" class="tool-btn" title="Toggle Sound Feedback">🔊</button>
+          <button id="btn-fullscreen-toggle" class="tool-btn" title="Toggle Fullscreen Focus">⛶</button>
+        </div>
+
+        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+    <div class="breadcrumb-container">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="index.html">SSC CGL & CHSL</a>
+      <span class="sep">/</span>
+      <span class="current">Full Mock Test 01 (100 Qs)</span>
+    </div>
+  </nav>
+
+  <!-- Section Quick Jump Toolbar (SSC Official 4 Sections) -->
+  <div class="cgl-section-tabs" role="tablist" aria-label="Exam Sections">
+    <button class="cgl-sec-btn active" id="tab-sec-1" onclick="jumpToSection(0, this)">
+      <span>🧠 Reasoning</span>
+      <span class="cgl-sec-badge">Q 1–25</span>
+    </button>
+    <button class="cgl-sec-btn" id="tab-sec-2" onclick="jumpToSection(25, this)">
+      <span>🌍 General Awareness</span>
+      <span class="cgl-sec-badge">Q 26–50</span>
+    </button>
+    <button class="cgl-sec-btn" id="tab-sec-3" onclick="jumpToSection(50, this)">
+      <span>📐 Quantitative Aptitude</span>
+      <span class="cgl-sec-badge">Q 51–75</span>
+    </button>
+    <button class="cgl-sec-btn" id="tab-sec-4" onclick="jumpToSection(75, this)">
+      <span>📖 English Comprehension</span>
+      <span class="cgl-sec-badge">Q 76–100</span>
+    </button>
+  </div>
+
+  <!-- Exam Live Status Bar -->
+  <div id="exam-status-bar" class="exam-status-bar">
+    <div class="status-container">
+      <div id="timer-box" class="timer-box">
+        <span>⏱️</span>
+        <span id="timer-display">60:00</span>
+      </div>
+
+      <div class="progress-info">
+        <span id="progress-text" class="progress-text">0 of 100 answered (0%)</span>
+        <div class="progress-bar-track">
+          <div id="progress-bar-fill" class="progress-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Split Layout -->
+  <main class="test-layout" id="test-layout">
+    
+    <!-- Question Card -->
+    <section class="question-card" id="question-card" aria-label="Active Test Question">
+      <div class="meta-badges-row" id="q-badges"></div>
+
+      <div class="question-text-box">
+        <div class="question-number" id="q-number">Question 1 of 100</div>
+        <div class="question-title" id="q-title">Loading questions...</div>
+      </div>
+
+      <div class="options-list" id="options-list" role="radiogroup"></div>
+
+      <div class="explanation-box" id="explanation-box">
+        <div class="explanation-header">
+          <span>✓ Official Solution & Conceptual Breakdown</span>
+          <span class="citation-tag" id="citation-tag">SSC Pattern Reference</span>
+        </div>
+        <p class="explanation-text" id="explanation-text"></p>
+      </div>
+
+      <div class="card-action-bar">
+        <button id="btn-prev" class="nav-btn" disabled>
+          <span>⬅️</span> Previous
+        </button>
+
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <button id="btn-review" class="nav-btn btn-review">
+            <span>☆</span> Mark for Review
+          </button>
+          <button id="btn-clear" class="nav-btn" title="Clear selection">
+            <span>🧹</span> Clear
+          </button>
+        </div>
+
+        <div style="display:flex; gap:10px;">
+          <button id="btn-next" class="nav-btn btn-primary">
+            Next <span>➡️</span>
+          </button>
+          <button id="btn-submit" class="nav-btn btn-submit-test">
+            Submit Test <span>🏁</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CBT Palette -->
+    <aside class="palette-card" aria-label="Question Navigation Grid">
+      <div class="palette-title">
+        <span>Question Palette</span>
+        <span style="font-size:0.75rem; color:var(--text-muted); font-weight:normal;">100 Questions</span>
+      </div>
+
+      <div class="palette-grid" id="palette-grid" style="max-height:360px; overflow-y:auto;"></div>
+
+      <div class="palette-legend">
+        <div class="legend-item">
+          <div class="legend-dot dot-answered"></div>
+          <span>Answered (<strong id="count-answered">0</strong>)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-not-answered"></div>
+          <span>Not Answered (<strong id="count-not-answered">0</strong>)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-reviewed"></div>
+          <span>Marked for Review (<strong id="count-reviewed">0</strong>)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-answered-reviewed"></div>
+          <span>Ans & Marked for Review (<strong id="count-ans-reviewed">0</strong>)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot dot-unvisited"></div>
+          <span>Not Visited (<strong id="count-unvisited">100</strong>)</span>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Scorecard View -->
+  <section class="scorecard-view" id="scorecard-view" style="max-width:960px; margin:24px auto; padding:32px 24px;">
+    <div class="score-hero" id="score-hero"></div>
+    <div class="stats-grid" id="stats-grid"></div>
+
+    <div class="scorecard-actions">
+      <button id="btn-retake" class="nav-btn btn-primary">
+        <span>🔄</span> Retake Exam
+      </button>
+      <a href="index.html" class="nav-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:6px;">
+        <span>📋</span> Back to SSC Hub
+      </a>
+      <button id="btn-print" class="nav-btn">
+        <span>🖨️</span> Print / PDF Sheet
+      </button>
+    </div>
+
+    <div id="mastery-container"></div>
+
+    <div class="review-filter-bar">
+      <div class="filter-pills" role="tablist">
+        <button class="filter-pill active" data-filter="all" id="filter-all">All Questions (100)</button>
+        <button class="filter-pill filter-wrong" data-filter="wrong" id="filter-wrong">❌ Mistakes (<span id="filter-count-wrong">0</span>)</button>
+        <button class="filter-pill filter-reviewed" data-filter="reviewed" id="filter-reviewed">🟣 Review (<span id="filter-count-reviewed">0</span>)</button>
+        <button class="filter-pill filter-correct" data-filter="correct" id="filter-correct">✓ Correct (<span id="filter-count-correct">0</span>)</button>
+      </div>
+    </div>
+
+    <div id="review-list"></div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Competitive Exam Simulators.</p>
+      <p style="font-size:0.75rem;">100% Distraction-Free & Ad-Free. Aligned with official Staff Selection Commission (SSC) standards.</p>
+    </div>
+  </footer>
+
+  <script src="../js/test-engine.js"></script>
+  <script>
+    function jumpToSection(idx, btn) {
+      if (window.testEngine) {
+        window.testEngine.jumpToQuestion(idx);
+        document.querySelectorAll('.cgl-sec-btn').forEach(b => b.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      window.testEngine = new MockTestEngine({
+        initialSet: 'set1',
+        timeLimitMinutes: 60,
+        markingScheme: { correct: 2, wrong: -0.5 },
+        examType: 'competitive',
+        setSources: {
+          set1: '../data/in/ssc/cgl_tier1_mock01_full.json'
+        }
+      });
+      window.testEngine.loadQuestions();
+    });
+  </script>
+</body>
+</html>

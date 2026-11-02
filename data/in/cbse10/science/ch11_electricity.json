@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cbse10-sci-ch11-s1-001",
+    "type": "mcq",
+    "subtopic": "Resistance & Resistivity",
+    "difficulty": "Medium",
+    "question": "A cylindrical metal wire of resistance R is stretched uniformly until its length is doubled. What will be the new resistance of the stretched wire?",
+    "options": [
+      "2 R",
+      "4 R",
+      "R / 2",
+      "R / 4"
+    ],
+    "answer": 1,
+    "explanation": "When stretched to double length (L' = 2L), its volume (V = A × L) remains constant, so the cross-sectional area halves (A' = A/2). New resistance R' = ρ (L' / A') = ρ (2L / (A/2)) = 4 × (ρL / A) = 4R.",
+    "citation": "NCERT Class 10 Science, Chapter 11, Section 11.3 (Example 11.6)"
+  },
+  {
+    "id": "cbse10-sci-ch11-s1-002",
+    "type": "mcq",
+    "subtopic": "Parallel vs Series Circuits",
+    "difficulty": "Easy",
+    "question": "Why are domestic household lighting circuits connected in parallel rather than in series?",
+    "options": [
+      "In parallel, if one electrical appliance fails, all other appliances continue working normally",
+      "Series circuits have zero electrical resistance",
+      "Parallel circuits require high voltage fuses on every appliance",
+      "To force identical electrical current through appliances of varying power ratings"
+    ],
+    "answer": 0,
+    "explanation": "In a parallel circuit: (1) each appliance receives full supply voltage (220 V), (2) appliances can be switched on/off independently, and (3) if one bulb fuses, the other parallel branches remain unbroken.",
+    "citation": "NCERT Class 10 Science, Chapter 11, Section 11.5"
+  },
+  {
+    "id": "cbse10-sci-ch11-s1-003",
+    "type": "mcq",
+    "subtopic": "Joule's Heating Effect",
+    "difficulty": "Medium",
+    "question": "According to Joule's law of heating, the heat produced in a resistor is directly proportional to:",
+    "options": [
+      "The square of the electric current (I²)",
+      "The square root of resistance (√R)",
+      "Inversely proportional to time (1/t)",
+      "Inversely proportional to potential difference"
+    ],
+    "answer": 0,
+    "explanation": "H = I²Rt. Heat generated in a conductor is directly proportional to: (1) square of current (I²), (2) resistance (R), and (3) time of current flow (t).",
+    "citation": "NCERT Class 10 Science, Chapter 11, Section 11.6"
+  },
+  {
+    "id": "cbse10-sci-ch11-s1-004",
+    "type": "mcq",
+    "subtopic": "Commercial Energy Unit",
+    "difficulty": "Easy",
+    "question": "What is the commercial unit of electrical energy, and how many Joules does 1 unit (1 kWh) equal?",
+    "options": [
+      "1 kWh = 3.6 × 10⁵ J",
+      "1 kWh = 3.6 × 10⁶ J",
+      "1 kWh = 1.0 × 10³ J",
+      "1 kWh = 3.6 × 10³ J"
+    ],
+    "answer": 1,
+    "explanation": "1 kWh = 1 kW × 1 hour = 1000 W × 3600 seconds = 3,600,000 Joules = 3.6 × 10⁶ J.",
+    "citation": "NCERT Class 10 Science, Chapter 11, Section 11.7"
+  },
+  {
+    "id": "cbse10-sci-ch11-s1-005",
+    "type": "assertion_reasoning",
+    "subtopic": "Assertion & Reasoning",
+    "difficulty": "Board Standard",
+    "question": "Assertion (A): An electric fuse wire is made of a lead-tin alloy having a low melting point.\nReason (R): When an excessive electric current flows during a short-circuit, Joule heating melts the fuse wire, breaking the circuit.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "A fuse is a safety device designed to melt quickly when current exceeds safe amperage limits, protecting expensive domestic appliances from fires. Reason correctly explains Assertion.",
+    "citation": "NCERT Class 10 Science, Chapter 11, Section 11.6.1"
+  }
+]

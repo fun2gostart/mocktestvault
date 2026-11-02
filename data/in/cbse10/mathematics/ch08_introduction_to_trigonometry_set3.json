@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch08-s3-001",
+      "type": "assertion-reason",
+      "subtopic": "Sine Monotonicity in Quadrant I",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The value of sin theta increases as theta increases from 0 deg to 90 deg.\nReason (R): In a right-angled triangle, as the acute angle theta increases, the opposite side (perpendicular) increases while the hypotenuse remains fixed, causing sin theta = opp/hyp to increase from 0 to 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "sin 0 deg = 0, sin 30 deg = 0.5, sin 45 deg = 1/sqrt(2) approx 0.707, sin 60 deg = sqrt(3)/2 approx 0.866, sin 90 deg = 1. The ratio strictly increases. Reason (R) provides the geometric proof for Assertion (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-002",
+      "type": "assertion-reason",
+      "subtopic": "Cosine Monotonicity in Quadrant I",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The value of cos theta decreases as theta increases from 0 deg to 90 deg.\nReason (R): As the acute angle theta increases in a right-angled triangle, the adjacent side decreases relative to the hypotenuse, causing cos theta = adj/hyp to decrease from 1 to 0.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "cos 0 deg = 1 and cos 90 deg = 0. The value of cos theta strictly decreases from 1 to 0 across acute angles. Reason (R) directly explains Assertion (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-003",
+      "type": "assertion-reason",
+      "subtopic": "Fundamental Identity Invariance",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The equality sin^2 theta + cos^2 theta = 1 holds true for all angles theta between 0 deg and 90 deg.\nReason (R): In any right triangle with sides a, b and hypotenuse c, by Pythagoras theorem a^2 + b^2 = c^2; dividing by c^2 yields (a/c)^2 + (b/c)^2 = 1, which is sin^2 theta + cos^2 theta = 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "This is the direct geometric deduction of the fundamental Pythagorean identity from Pythagoras theorem. Both statements are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-004",
+      "type": "assertion-reason",
+      "subtopic": "Secant Range Lower Bound",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The value of sec theta can never be less than 1 for any acute angle theta.\nReason (R): sec theta = hypotenuse / adjacent side, and in any right-angled triangle, the hypotenuse is the longest side, so hypotenuse >= adjacent side.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Since hypotenuse is strictly greater than or equal to adjacent side, sec theta >= 1 always for acute angles. Both statements are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-005",
+      "type": "assertion-reason",
+      "subtopic": "Sine Value Upper Bound Falsehood",
+      "difficulty": "Easy",
+      "question": "Assertion (A): For an acute angle theta, sin theta can be equal to 4/3.\nReason (R): For any acute angle theta, sin theta = opposite/hypotenuse <= 1, because the hypotenuse is always longer than the opposite side in a right-angled triangle.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is FALSE: 4/3 > 1, and sin theta cannot exceed 1. Reason (R) is TRUE: hypotenuse is the longest side so opposite/hypotenuse <= 1. Hence (A) is false, but (R) is true.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-006",
+      "type": "assertion-reason",
+      "subtopic": "Tangent as Ratio of Sine and Cosine",
+      "difficulty": "Easy",
+      "question": "Assertion (A): tan theta = sin theta / cos theta for all acute angles theta < 90 deg.\nReason (R): tan theta = opposite/adjacent = (opposite/hypotenuse) / (adjacent/hypotenuse) = sin theta / cos theta.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "This quotient identity follows directly from dividing the definitions of sin theta and cos theta. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-007",
+      "type": "assertion-reason",
+      "subtopic": "Tangent at 90 Degrees Undefined",
+      "difficulty": "Medium",
+      "question": "Assertion (A): tan 90 deg is not defined.\nReason (R): As theta approaches 90 deg, cos theta approaches 0, and division by zero is mathematically undefined.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "tan 90 deg = sin 90 deg / cos 90 deg = 1 / 0. Division by zero is undefined. Both statements are true and (R) correctly explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-008",
+      "type": "assertion-reason",
+      "subtopic": "Secant Tangent Reciprocal Pair",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If sec theta + tan theta = 5, then sec theta - tan theta = 1/5.\nReason (R): The identity sec^2 theta - tan^2 theta = 1 can be factored as (sec theta + tan theta)(sec theta - tan theta) = 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Since (sec theta + tan theta)(sec theta - tan theta) = sec^2 theta - tan^2 theta = 1, (sec theta - tan theta) = 1 / (sec theta + tan theta) = 1/5. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-009",
+      "type": "assertion-reason",
+      "subtopic": "Cotangent Cosecant Identity",
+      "difficulty": "Easy",
+      "question": "Assertion (A): cosec^2 theta - cot^2 theta = 1 for all 0 deg < theta <= 90 deg.\nReason (R): Dividing each term of the identity sin^2 theta + cos^2 theta = 1 by sin^2 theta gives 1 + cot^2 theta = cosec^2 theta.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Dividing sin^2 theta + cos^2 theta = 1 by sin^2 theta gives 1 + (cos theta/sin theta)^2 = (1/sin theta)^2 => 1 + cot^2 theta = cosec^2 theta => cosec^2 theta - cot^2 theta = 1. Both statements are true and (R) proves (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-010",
+      "type": "assertion-reason",
+      "subtopic": "Sum of Tangents Fallacy",
+      "difficulty": "Easy",
+      "question": "Assertion (A): tan(30 deg + 60 deg) = tan 30 deg + tan 60 deg.\nReason (R): Trigonometric functions do not follow the distributive law of algebra over angle addition.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is FALSE: tan(30 + 60) = tan 90 deg (undefined). But tan 30 + tan 60 = 1/sqrt(3) + sqrt(3) = 4/sqrt(3) (a finite real number). Reason (R) is TRUE: trig operators are non-linear and not distributive over angles. Thus (A) is false, but (R) is true.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-011",
+      "type": "mcq",
+      "subtopic": "Case Study 1: Solar Photovoltaics - Tilt Angle Elevation",
+      "difficulty": "Easy",
+      "question": "Case Study 1 (Solar Energy Engineering): A rooftop solar panel of length 2 metres is inclined at an angle theta to the horizontal roof surface to capture maximum winter solar irradiance. If the upper edge of the panel is raised 1 metre above the roof, what is the angle of inclination theta?",
+      "options": [
+        "30 degrees",
+        "45 degrees",
+        "60 degrees",
+        "15 degrees"
+      ],
+      "answer": 0,
+      "explanation": "In the right triangle formed by the panel: hypotenuse = length = 2 m, opposite side = vertical rise = 1 m. sin theta = 1 / 2. Since sin 30 deg = 1/2, theta = 30 degrees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-012",
+      "type": "mcq",
+      "subtopic": "Case Study 1: Solar Photovoltaics - Roof Footprint",
+      "difficulty": "Medium",
+      "question": "Case Study 1 (Continued): For the solar panel in Question 11 (length 2 m, inclined at 30 degrees), what horizontal base length does the panel occupy on the roof?",
+      "options": [
+        "sqrt(3) metres (~1.732 m)",
+        "1 metre",
+        "2 metres",
+        "1.5 metres"
+      ],
+      "answer": 0,
+      "explanation": "Horizontal base = hypotenuse * cos 30 deg = 2 * (sqrt(3)/2) = sqrt(3) metres (approx 1.732 m).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-013",
+      "type": "mcq",
+      "subtopic": "Case Study 1: Solar Photovoltaics - Steeper Angle Adjustment",
+      "difficulty": "Medium",
+      "question": "Case Study 1 (Continued): In deep winter, the engineer increases the tilt angle to 60 degrees. What is the new vertical height of the upper edge of the 2-metre panel?",
+      "options": [
+        "sqrt(3) metres (~1.732 m)",
+        "1.5 metres",
+        "1 metre",
+        "1.85 metres"
+      ],
+      "answer": 0,
+      "explanation": "Vertical height = hypotenuse * sin 60 deg = 2 * (sqrt(3)/2) = sqrt(3) metres (approx 1.732 m).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-014",
+      "type": "mcq",
+      "subtopic": "Case Study 2: Aviation Climb - Altitude from Slant Range",
+      "difficulty": "Easy",
+      "question": "Case Study 2 (Aviation Tracking): An air traffic controller tracks a passenger flight climbing at a constant angle of 30 degrees. The radar indicates that the direct slant range (line-of-sight distance) from the radar station to the airplane is 12 km. What is the current altitude of the airplane above the ground?",
+      "options": [
+        "6 km",
+        "6 sqrt(3) km",
+        "4 km",
+        "8 km"
+      ],
+      "answer": 0,
+      "explanation": "Altitude = Slant range * sin 30 deg = 12 * (1/2) = 6 km.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-015",
+      "type": "mcq",
+      "subtopic": "Case Study 2: Aviation Climb - Ground Distance",
+      "difficulty": "Medium",
+      "question": "Case Study 2 (Continued): What is the horizontal ground distance from the radar station to the point directly below the airplane?",
+      "options": [
+        "6 sqrt(3) km (~10.39 km)",
+        "6 km",
+        "10 km",
+        "12 km"
+      ],
+      "answer": 0,
+      "explanation": "Ground distance = Slant range * cos 30 deg = 12 * (sqrt(3)/2) = 6*sqrt(3) km (approx 10.39 km).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-016",
+      "type": "mcq",
+      "subtopic": "Case Study 2: Aviation Climb - Angle Verification",
+      "difficulty": "Easy",
+      "question": "Case Study 2 (Continued): Which trigonometric ratio directly expresses the ratio of the airplane's altitude to its horizontal ground distance?",
+      "options": [
+        "tan theta",
+        "sin theta",
+        "cos theta",
+        "sec theta"
+      ],
+      "answer": 0,
+      "explanation": "tan theta = opposite side / adjacent side = altitude / horizontal ground distance.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-017",
+      "type": "mcq",
+      "subtopic": "Case Study 3: Universal Design Ramp - Incline Angle",
+      "difficulty": "Medium",
+      "question": "Case Study 3 (Inclusive Architecture): The accessibility building code specifies that a public wheelchair ramp must have a slope ratio of 1 : 12 (vertical rise : horizontal run). If a hospital entrance requires a ramp to reach a porch 1 metre high, what is the length of the horizontal run?",
+      "options": [
+        "12 metres",
+        "10 metres",
+        "14 metres",
+        "15 metres"
+      ],
+      "answer": 0,
+      "explanation": "Slope = tan theta = rise / run = 1 / 12. If rise = 1 m: 1 / run = 1 / 12 => run = 12 metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-018",
+      "type": "mcq",
+      "subtopic": "Case Study 3: Universal Design Ramp - Slanted Ramp Length",
+      "difficulty": "Hard",
+      "question": "Case Study 3 (Continued): What is the exact length of the inclined ramp surface required for this 1-metre vertical rise with 12-metre horizontal run?",
+      "options": [
+        "sqrt(145) metres (~12.04 m)",
+        "13 metres",
+        "12.5 metres",
+        "sqrt(143) metres"
+      ],
+      "answer": 0,
+      "explanation": "By Pythagoras theorem, Ramp length = sqrt(rise^2 + run^2) = sqrt(1^2 + 12^2) = sqrt(1 + 144) = sqrt(145) metres (approx 12.042 m).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.2"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-019",
+      "type": "mcq",
+      "subtopic": "Case Study 4: Clock Geometry - Angle of Hands at 2:00",
+      "difficulty": "Easy",
+      "question": "Case Study 4 (Horology & Geometry): In an antique city clock tower, the face is divided into 12 equal hour sectors. What is the angle between the minute hand and the hour hand at 2:00 o'clock?",
+      "options": [
+        "60 degrees",
+        "30 degrees",
+        "45 degrees",
+        "90 degrees"
+      ],
+      "answer": 0,
+      "explanation": "Each hour represents 360 deg / 12 = 30 degrees. At 2:00 o'clock, the angle is 2 * 30 deg = 60 degrees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch08-s3-020",
+      "type": "mcq",
+      "subtopic": "Case Study 4: Clock Geometry - Exact Cosine Value",
+      "difficulty": "Easy",
+      "question": "Case Study 4 (Continued): What is the cosine of the angle between the clock hands at 2:00 o'clock?",
+      "options": [
+        "1/2",
+        "sqrt(3)/2",
+        "1/sqrt(2)",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "The angle between the hands is 60 degrees. cos 60 deg = 1/2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1"
+    }
+  ]
+}

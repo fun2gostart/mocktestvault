@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch06-s2-001",
+      "type": "mcq",
+      "subtopic": "Rhombus Sides and Diagonals Identity",
+      "difficulty": "Hard",
+      "question": "ABCD is a rhombus with diagonals AC and BD intersecting at O. What is the value of (AB^2 + BC^2 + CD^2 + DA^2)?",
+      "options": [
+        "AC^2 + BD^2",
+        "2(AC^2 + BD^2)",
+        "(AC + BD)^2",
+        "4(AC^2 + BD^2)"
+      ],
+      "answer": 0,
+      "explanation": "Diagonals of a rhombus bisect each other perpendicularly at O. In right triangle AOB: AB^2 = OA^2 + OB^2 = (AC/2)^2 + (BD/2)^2 = (AC^2 + BD^2)/4. Since all 4 sides are equal, 4 * AB^2 = 4 * [(AC^2 + BD^2)/4] = AC^2 + BD^2. Thus AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 7"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-002",
+      "type": "mcq",
+      "subtopic": "Airport Bearing and Pythagoras Distance",
+      "difficulty": "Hard",
+      "question": "An aeroplane leaves an airport and flies due north at a speed of 1000 km/h. At the same time, another aeroplane leaves the same airport and flies due west at 1200 km/h. How far apart will the two planes be after 1.5 hours?",
+      "options": [
+        "300 sqrt(61) km",
+        "250 sqrt(61) km",
+        "300 sqrt(59) km",
+        "2000 km"
+      ],
+      "answer": 0,
+      "explanation": "Distance north OA = 1000 * 1.5 = 1500 km. Distance west OB = 1200 * 1.5 = 1800 km. Since North and West are mutually perpendicular (angle AOB = 90 deg): AB = sqrt(1500^2 + 1800^2) = sqrt(2250000 + 3240000) = sqrt(5490000) = sqrt(90000 * 61) = 300*sqrt(61) km.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 11"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-003",
+      "type": "mcq",
+      "subtopic": "Poles on Flat Ground Distance Between Tops",
+      "difficulty": "Medium",
+      "question": "Two poles of heights 6 m and 11 m stand on a flat playground. If the distance between their feet is 12 m, find the distance between their tops.",
+      "options": [
+        "13 m",
+        "12.5 m",
+        "14 m",
+        "15 m"
+      ],
+      "answer": 0,
+      "explanation": "Difference in heights = 11 - 6 = 5 m. Horizontal distance between tops = distance between feet = 12 m. Distance between tops = sqrt(5^2 + 12^2) = sqrt(25 + 144) = sqrt(169) = 13 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 12"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-004",
+      "type": "mcq",
+      "subtopic": "Right Triangle Hypotenuse Segment Proportions",
+      "difficulty": "Hard",
+      "question": "In triangle ABC right-angled at C, let p be the length of perpendicular from C to AB and a, b, c be the lengths of the sides opposite to A, B, C respectively. Which relation is correct?",
+      "options": [
+        "1/p^2 = 1/a^2 + 1/b^2",
+        "1/p^2 = 1/a^2 - 1/b^2",
+        "p^2 = a^2 + b^2",
+        "p = a + b - c"
+      ],
+      "answer": 0,
+      "explanation": "Area of triangle ABC = (1/2)*a*b = (1/2)*c*p => cp = ab => c = ab/p. By Pythagoras: c^2 = a^2 + b^2 => (ab/p)^2 = a^2 + b^2 => (a^2 b^2)/p^2 = a^2 + b^2. Dividing both sides by a^2 b^2 gives: 1/p^2 = 1/b^2 + 1/a^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-005",
+      "type": "mcq",
+      "subtopic": "Perpendicular from Vertex of Right Triangle",
+      "difficulty": "Hard",
+      "question": "In right triangle ABC right-angled at B, BD is perpendicular to AC. Which of the following is equal to AB^2?",
+      "options": [
+        "AD * AC",
+        "CD * AC",
+        "AD * CD",
+        "BD * AC"
+      ],
+      "answer": 0,
+      "explanation": "triangle ADB ~ triangle ABC (by AA similarity since angle A is common and angle ADB = angle ABC = 90 deg). Therefore, AD / AB = AB / AC => AB^2 = AD * AC.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Theorem 6.7"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-006",
+      "type": "mcq",
+      "subtopic": "Internal Angle Bisector Analogy",
+      "difficulty": "Medium",
+      "question": "In triangle ABC, AD is the bisector of angle BAC meeting BC at D. If AB = 6 cm, AC = 8 cm, and BD = 3 cm, what is the length of DC?",
+      "options": [
+        "4 cm",
+        "3.5 cm",
+        "4.5 cm",
+        "5 cm"
+      ],
+      "answer": 0,
+      "explanation": "By the Angle Bisector Theorem: BD / DC = AB / AC => 3 / DC = 6 / 8 => 3 / DC = 3 / 4 => DC = 4 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-007",
+      "type": "mcq",
+      "subtopic": "Equilateral Triangle Point Trisecting Base",
+      "difficulty": "Hard",
+      "question": "In an equilateral triangle ABC, D is a point on side BC such that BD = (1/3) BC. Which relationship is correct?",
+      "options": [
+        "9 AD^2 = 7 AB^2",
+        "7 AD^2 = 9 AB^2",
+        "4 AD^2 = 3 AB^2",
+        "3 AD^2 = 4 AB^2"
+      ],
+      "answer": 0,
+      "explanation": "Draw AE perpendicular to BC. E is midpoint, so BE = BC/2 = a/2. Given BD = a/3. Then DE = BE - BD = a/2 - a/3 = a/6. AE is altitude = (sqrt(3)/2)a. In right triangle ADE: AD^2 = AE^2 + DE^2 = ((sqrt(3)/2)a)^2 + (a/6)^2 = (3/4)a^2 + a^2/36 = (27a^2 + a^2)/36 = 28a^2 / 36 = 7/9 a^2 => 9 AD^2 = 7 AB^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 15"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-008",
+      "type": "mcq",
+      "subtopic": "Diagonals Cyclic Intercepts",
+      "difficulty": "Medium",
+      "question": "If chords AB and CD of a circle intersect internally at point P, which equation follows directly from the similarity of triangles PAC and PDB?",
+      "options": [
+        "PA * PB = PC * PD",
+        "PA + PB = PC + PD",
+        "PA / PB = PC / PD",
+        "PA * PC = PB * PD"
+      ],
+      "answer": 0,
+      "explanation": "Angles PAC and PDB are subtended by the same arc CB, so angle PAC = angle PDB. Vertically opposite angles APC = DPB. Thus triangle PAC ~ triangle PDB by AA. Therefore: PA / PD = PC / PB => PA * PB = PC * PD.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-009",
+      "type": "mcq",
+      "subtopic": "Right Triangle Hypotenuse Segment Altitude Product",
+      "difficulty": "Medium",
+      "question": "In right triangle ABC right-angled at C, CD is perpendicular to AB. If BC = a, AC = b, and AB = c, CD is equal to:",
+      "options": [
+        "ab / c",
+        "(a + b) / c",
+        "c / (ab)",
+        "sqrt(ab)"
+      ],
+      "answer": 0,
+      "explanation": "Area of triangle ABC = (1/2)*base*height = (1/2)*a*b. Also Area = (1/2)*AB*CD = (1/2)*c*CD. Equating areas: (1/2)*a*b = (1/2)*c*CD => CD = ab / c.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-010",
+      "type": "mcq",
+      "subtopic": "Trapezium Parallel Segment Mid-Ratio",
+      "difficulty": "Hard",
+      "question": "In trapezium ABCD with AB || DC, a line EF is drawn parallel to AB intersecting AD at E and BC at F such that AE/ED = 3/2. If DC = 10 cm and AB = 20 cm, what is the length of EF?",
+      "options": [
+        "14 cm",
+        "15 cm",
+        "16 cm",
+        "13.5 cm"
+      ],
+      "answer": 0,
+      "explanation": "Using weighted section formula for parallel lines: EF = (AE * DC + ED * AB) / (AE + ED) = (3 * 10 + 2 * 20) / (3 + 2) = (30 + 40) / 5 = 70 / 5 = 14 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-011",
+      "type": "mcq",
+      "subtopic": "Right Triangle Points on Legs Identity",
+      "difficulty": "Hard",
+      "question": "D and E are points on the sides CA and CB respectively of a triangle ABC right-angled at C. Which equation is always true?",
+      "options": [
+        "AE^2 + BD^2 = AB^2 + DE^2",
+        "AE^2 + BD^2 = AB^2 - DE^2",
+        "AE^2 - BD^2 = AB^2 - DE^2",
+        "AE + BD = AB + DE"
+      ],
+      "answer": 0,
+      "explanation": "In right triangle ACE: AE^2 = AC^2 + CE^2. In right triangle BCD: BD^2 = BC^2 + CD^2. Adding them: AE^2 + BD^2 = (AC^2 + BC^2) + (CD^2 + CE^2). Since AC^2 + BC^2 = AB^2 and CD^2 + CE^2 = DE^2, we get AE^2 + BD^2 = AB^2 + DE^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 13"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-012",
+      "type": "mcq",
+      "subtopic": "Square Inscribed in Right Triangle",
+      "difficulty": "Hard",
+      "question": "A square DEFG is inscribed in a right triangle ABC right-angled at C such that D and E lie on hypotenuse AB, G on AC, and F on BC. Which relationship holds?",
+      "options": [
+        "DE^2 = AD * EB",
+        "DE^2 = AD + EB",
+        "DE = (AD * EB) / 2",
+        "DE^2 = 2(AD * EB)"
+      ],
+      "answer": 0,
+      "explanation": "By angle tracking, triangle ADG ~ triangle FEB. Thus AD / FE = DG / EB => AD * EB = FE * DG. Since DEFG is a square, FE = DG = DE. Therefore DE * DE = AD * EB => DE^2 = AD * EB.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-013",
+      "type": "mcq",
+      "subtopic": "Median Apollonius Connection",
+      "difficulty": "Hard",
+      "question": "In triangle ABC, AD is a median to side BC. What is the relation between AB^2 + AC^2 and AD?",
+      "options": [
+        "AB^2 + AC^2 = 2(AD^2 + BD^2)",
+        "AB^2 + AC^2 = AD^2 + BD^2",
+        "AB^2 + AC^2 = 4(AD^2 + BD^2)",
+        "AB^2 + AC^2 = 2 AD^2 + BD^2"
+      ],
+      "answer": 0,
+      "explanation": "By Apollonius Theorem (derived directly from Pythagoras theorem with altitude): The sum of squares of any two sides of a triangle is twice the square on half the third side together with twice the square on the median bisecting the third side: AB^2 + AC^2 = 2(AD^2 + BD^2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.4"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-014",
+      "type": "mcq",
+      "subtopic": "Ladder Sliding Down Wall Rate",
+      "difficulty": "Hard",
+      "question": "A ladder 25 m long leans against a wall with its foot 7 m away from the wall. If the top of the ladder slips down 4 m, how much further does the foot slide away from the wall?",
+      "options": [
+        "8 m (new distance is 15 m)",
+        "7 m",
+        "9 m",
+        "6 m"
+      ],
+      "answer": 0,
+      "explanation": "Initial height on wall h_1 = sqrt(25^2 - 7^2) = sqrt(625 - 49) = sqrt(576) = 24 m. When top slips down 4 m, new height h_2 = 24 - 4 = 20 m. New foot distance d_2 = sqrt(25^2 - 20^2) = sqrt(625 - 400) = sqrt(225) = 15 m. Distance the foot slides further = 15 - 7 = 8 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-015",
+      "type": "mcq",
+      "subtopic": "Perimeter Ratio of Similar Triangles",
+      "difficulty": "Easy",
+      "question": "The perimeter of two similar triangles ABC and PQR are 35 cm and 28 cm respectively. If PQ = 8 cm, what is the length of AB?",
+      "options": [
+        "10 cm",
+        "9 cm",
+        "12 cm",
+        "11 cm"
+      ],
+      "answer": 0,
+      "explanation": "Perimeter(ABC) / Perimeter(PQR) = AB / PQ => 35 / 28 = AB / 8 => 5 / 4 = AB / 8 => AB = (5 * 8) / 4 = 10 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-016",
+      "type": "mcq",
+      "subtopic": "Similar Triangles Altitude Ratio",
+      "difficulty": "Medium",
+      "question": "Two triangles ABC and DEF are similar. The altitudes AL and DM are 4 cm and 6 cm respectively. If BC = 6 cm, what is the length of EF?",
+      "options": [
+        "9 cm",
+        "8 cm",
+        "10 cm",
+        "7.5 cm"
+      ],
+      "answer": 0,
+      "explanation": "In similar triangles, the ratio of corresponding sides equals the ratio of corresponding altitudes: BC / EF = AL / DM => 6 / EF = 4 / 6 => 4*EF = 36 => EF = 9 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-017",
+      "type": "mcq",
+      "subtopic": "BPT on Parallel Transversals",
+      "difficulty": "Medium",
+      "question": "In triangle ABC, DE || BC and CD || EF where F is on AB and D on AC. Which proportionality relation holds?",
+      "options": [
+        "AD^2 = AB * AF",
+        "AD^2 = AB * AE",
+        "AD = (AB + AF)/2",
+        "AD * AF = AB^2"
+      ],
+      "answer": 0,
+      "explanation": "In triangle ABC with DE || BC: AD/AB = AE/AC. In triangle ADC with EF || CD: AF/AD = AE/AC. Equating ratios: AD/AB = AF/AD => AD^2 = AB * AF.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 4"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-018",
+      "type": "mcq",
+      "subtopic": "Right Triangle Hypotenuse Bisector Angle",
+      "difficulty": "Easy",
+      "question": "In a right triangle ABC with right angle at C, if AC = BC, then AB^2 is equal to:",
+      "options": [
+        "2 AC^2",
+        "4 AC^2",
+        "sqrt(2) AC^2",
+        "AC^2 / 2"
+      ],
+      "answer": 0,
+      "explanation": "By Pythagoras theorem: AB^2 = AC^2 + BC^2. Since AC = BC, AB^2 = AC^2 + AC^2 = 2 AC^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 4"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-019",
+      "type": "mcq",
+      "subtopic": "Trapezium Non-Parallel Sides Midpoints",
+      "difficulty": "Medium",
+      "question": "ABCD is a trapezium with AB || CD. If E and F are midpoints of non-parallel sides AD and BC respectively, what is the length of EF?",
+      "options": [
+        "(AB + CD) / 2",
+        "AB - CD",
+        "sqrt(AB * CD)",
+        "(AB + CD) / 4"
+      ],
+      "answer": 0,
+      "explanation": "The line segment connecting the midpoints of the non-parallel legs of a trapezium is parallel to the bases, and its length is the arithmetic mean of the bases: EF = (AB + CD) / 2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2"
+    },
+    {
+      "id": "cbse10-math-ch06-s2-020",
+      "type": "mcq",
+      "subtopic": "Similar Triangles Area Ratio Foundation",
+      "difficulty": "Medium",
+      "question": "If the ratio of the corresponding sides of two similar triangles is 4 : 9, what is the ratio of their perimeters and corresponding altitudes?",
+      "options": [
+        "Both are 4 : 9",
+        "Perimeters 16 : 81, Altitudes 4 : 9",
+        "Both are 16 : 81",
+        "Both are 2 : 3"
+      ],
+      "answer": 0,
+      "explanation": "For any two similar triangles, the ratio of their perimeters, the ratio of their corresponding altitudes, and the ratio of their corresponding medians are all strictly EQUAL to the ratio of their corresponding sides (4 : 9).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    }
+  ]
+}

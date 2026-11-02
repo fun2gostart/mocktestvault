@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch07-s1-001",
+      "type": "mcq",
+      "subtopic": "Distance Formula Standard Calculation",
+      "difficulty": "Easy",
+      "question": "What is the distance between the points P(2, 3) and Q(4, 1)?",
+      "options": [
+        "2 sqrt(2) units",
+        "4 units",
+        "8 units",
+        "2 units"
+      ],
+      "answer": 0,
+      "explanation": "d = sqrt((4 - 2)^2 + (1 - 3)^2) = sqrt(2^2 + (-2)^2) = sqrt(4 + 4) = sqrt(8) = 2*sqrt(2) units.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-002",
+      "type": "mcq",
+      "subtopic": "Distance from Origin",
+      "difficulty": "Easy",
+      "question": "The distance of the point P(-6, 8) from the origin (0, 0) is:",
+      "options": [
+        "10 units",
+        "8 units",
+        "6 units",
+        "14 units"
+      ],
+      "answer": 0,
+      "explanation": "Distance from origin O(0,0) to P(x, y) is sqrt(x^2 + y^2) = sqrt((-6)^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 units.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-003",
+      "type": "mcq",
+      "subtopic": "Midpoint Coordinates Calculation",
+      "difficulty": "Easy",
+      "question": "What are the coordinates of the midpoint of the line segment joining points A(-5, 4) and B(7, -8)?",
+      "options": [
+        "(1, -2)",
+        "(2, -4)",
+        "(-1, 2)",
+        "(6, -6)"
+      ],
+      "answer": 0,
+      "explanation": "Midpoint M = ((x1 + x2)/2, (y1 + y2)/2) = ((-5 + 7)/2, (4 + (-8))/2) = (2/2, -4/2) = (1, -2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.3"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-004",
+      "type": "mcq",
+      "subtopic": "Distance with Negative Coordinates",
+      "difficulty": "Easy",
+      "question": "Find the distance between the points (-5, 7) and (-1, 3).",
+      "options": [
+        "4 sqrt(2) units",
+        "2 sqrt(2) units",
+        "16 units",
+        "4 units"
+      ],
+      "answer": 0,
+      "explanation": "d = sqrt((-1 - (-5))^2 + (3 - 7)^2) = sqrt(4^2 + (-4)^2) = sqrt(16 + 16) = sqrt(32) = 4*sqrt(2) units.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.1 Question 1(ii)"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-005",
+      "type": "mcq",
+      "subtopic": "Distance with Algebraic Coordinates",
+      "difficulty": "Medium",
+      "question": "What is the distance between the points (a, b) and (-a, -b)?",
+      "options": [
+        "2 sqrt(a^2 + b^2)",
+        "sqrt(a^2 + b^2)",
+        "2(a + b)",
+        "4(a^2 + b^2)"
+      ],
+      "answer": 0,
+      "explanation": "d = sqrt((-a - a)^2 + (-b - b)^2) = sqrt((-2a)^2 + (-2b)^2) = sqrt(4a^2 + 4b^2) = 2*sqrt(a^2 + b^2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.1 Question 1(iii)"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-006",
+      "type": "mcq",
+      "subtopic": "Equidistant Point on X-Axis",
+      "difficulty": "Medium",
+      "question": "Find the point on the x-axis which is equidistant from (2, -5) and (-2, 9).",
+      "options": [
+        "(-7, 0)",
+        "(7, 0)",
+        "(0, -7)",
+        "(-5, 0)"
+      ],
+      "answer": 0,
+      "explanation": "Let the point on x-axis be P(x, 0). PA^2 = PB^2 => (x - 2)^2 + (0 - (-5))^2 = (x - (-2))^2 + (0 - 9)^2 => x^2 - 4x + 4 + 25 = x^2 + 4x + 4 + 81 => -4x + 29 = 4x + 85 => -8x = 56 => x = -7. Thus P is (-7, 0).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.1 Question 7"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-007",
+      "type": "mcq",
+      "subtopic": "Equidistant Point on Y-Axis",
+      "difficulty": "Medium",
+      "question": "Find a point on the y-axis which is equidistant from the points A(6, 5) and B(-4, 3).",
+      "options": [
+        "(0, 9)",
+        "(0, -9)",
+        "(9, 0)",
+        "(0, 6)"
+      ],
+      "answer": 0,
+      "explanation": "Let point on y-axis be P(0, y). PA^2 = PB^2 => (0 - 6)^2 + (y - 5)^2 = (0 - (-4))^2 + (y - 3)^2 => 36 + y^2 - 10y + 25 = 16 + y^2 - 6y + 9 => y^2 - 10y + 61 = y^2 - 6y + 25 => -4y = -36 => y = 9. Point is (0, 9).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2, Example 5"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-008",
+      "type": "mcq",
+      "subtopic": "Section Formula Internal Division",
+      "difficulty": "Easy",
+      "question": "Find the coordinates of the point which divides the join of (-1, 7) and (4, -3) in the ratio 2 : 3.",
+      "options": [
+        "(1, 3)",
+        "(3, 1)",
+        "(2, 4)",
+        "(1, -3)"
+      ],
+      "answer": 0,
+      "explanation": "x = (m1*x2 + m2*x1)/(m1 + m2) = (2(4) + 3(-1))/(2 + 3) = (8 - 3)/5 = 5/5 = 1. y = (m1*y2 + m2*y1)/(m1 + m2) = (2(-3) + 3(7))/(2 + 3) = (-6 + 21)/5 = 15/5 = 3. Point is (1, 3).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.2 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-009",
+      "type": "mcq",
+      "subtopic": "Trisection Points of a Line Segment",
+      "difficulty": "Medium",
+      "question": "Find the coordinates of the points of trisection of the line segment joining (4, -1) and (-2, -3).",
+      "options": [
+        "(2, -5/3) and (0, -7/3)",
+        "(1, -2) and (-1, -3)",
+        "(2, -2) and (0, -3)",
+        "(3, -1) and (1, -2)"
+      ],
+      "answer": 0,
+      "explanation": "Trisection points divide the segment in ratio 1:2 and 2:1. For 1:2: x = (1(-2) + 2(4))/3 = 6/3 = 2, y = (1(-3) + 2(-1))/3 = -5/3. For 2:1: x = (2(-2) + 1(4))/3 = 0/3 = 0, y = (2(-3) + 1(-1))/3 = -7/3. Points are (2, -5/3) and (0, -7/3).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.2 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-010",
+      "type": "mcq",
+      "subtopic": "Perpendicular Distance from Y-Axis",
+      "difficulty": "Easy",
+      "question": "What is the perpendicular distance of the point P(-3, 5) from the y-axis?",
+      "options": [
+        "3 units",
+        "5 units",
+        "-3 units",
+        "sqrt(34) units"
+      ],
+      "answer": 0,
+      "explanation": "The perpendicular distance of any point (x, y) from the y-axis is the absolute value of its x-coordinate, |x| = |-3| = 3 units.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.1"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-011",
+      "type": "mcq",
+      "subtopic": "Perpendicular Distance from X-Axis",
+      "difficulty": "Easy",
+      "question": "What is the perpendicular distance of the point P(4, -7) from the x-axis?",
+      "options": [
+        "7 units",
+        "4 units",
+        "-7 units",
+        "sqrt(65) units"
+      ],
+      "answer": 0,
+      "explanation": "The perpendicular distance of any point (x, y) from the x-axis is the absolute value of its y-coordinate, |y| = |-7| = 7 units.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.1"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-012",
+      "type": "mcq",
+      "subtopic": "Finding Ordinate from Distance",
+      "difficulty": "Medium",
+      "question": "Find the values of y for which the distance between the points P(2, -3) and Q(10, y) is 10 units.",
+      "options": [
+        "3 or -9",
+        "-3 or 9",
+        "5 or -7",
+        "6 or -8"
+      ],
+      "answer": 0,
+      "explanation": "PQ^2 = (10 - 2)^2 + (y - (-3))^2 = 10^2 => 8^2 + (y + 3)^2 = 100 => 64 + (y + 3)^2 = 100 => (y + 3)^2 = 36 => y + 3 = +-6. If y + 3 = 6 => y = 3. If y + 3 = -6 => y = -9.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.1 Question 8"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-013",
+      "type": "mcq",
+      "subtopic": "Collinear Points Check",
+      "difficulty": "Medium",
+      "question": "Determine if the points (1, 5), (2, 3), and (-2, -11) are collinear.",
+      "options": [
+        "No, because AB + BC != AC (sum of two distances does not equal the third)",
+        "Yes, because AB + BC = AC",
+        "Yes, because they form a right triangle",
+        "Cannot be determined without slope"
+      ],
+      "answer": 0,
+      "explanation": "Let A(1,5), B(2,3), C(-2,-11). AB = sqrt((2-1)^2 + (3-5)^2) = sqrt(5). BC = sqrt((-2-2)^2 + (-11-3)^2) = sqrt(212). AC = sqrt((-2-1)^2 + (-11-5)^2) = sqrt(265). Since AB + BC != AC, the points are not collinear.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.1 Question 3"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-014",
+      "type": "mcq",
+      "subtopic": "Centroid of a Triangle",
+      "difficulty": "Easy",
+      "question": "What are the coordinates of the centroid of a triangle whose vertices are (3, -5), (-7, 4), and (10, -2)?",
+      "options": [
+        "(2, -1)",
+        "(3, -1)",
+        "(2, -2)",
+        "(1, -1)"
+      ],
+      "answer": 0,
+      "explanation": "Centroid G = ((x1 + x2 + x3)/3, (y1 + y2 + y3)/3) = ((3 - 7 + 10)/3, (-5 + 4 - 2)/3) = (6/3, -3/3) = (2, -1).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.3"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-015",
+      "type": "mcq",
+      "subtopic": "Circle Diameter Endpoints",
+      "difficulty": "Medium",
+      "question": "Find the coordinates of a point A, where AB is the diameter of a circle whose centre is (2, -3) and B is (1, 4).",
+      "options": [
+        "(3, -10)",
+        "(3, 10)",
+        "(-3, 10)",
+        "(1.5, 0.5)"
+      ],
+      "answer": 0,
+      "explanation": "The centre C(2, -3) is the midpoint of diameter AB. Let A be (x, y). (x + 1)/2 = 2 => x + 1 = 4 => x = 3. (y + 4)/2 = -3 => y + 4 = -6 => y = -10. Point A is (3, -10).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.2 Question 7"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-016",
+      "type": "mcq",
+      "subtopic": "Isosceles Triangle Verification",
+      "difficulty": "Medium",
+      "question": "Check whether the points (5, -2), (6, 4), and (7, -2) are vertices of an isosceles triangle.",
+      "options": [
+        "Yes, because two sides are equal to sqrt(37) units",
+        "No, all three sides are unequal",
+        "No, it is an equilateral triangle",
+        "Yes, all three sides are equal to 6 units"
+      ],
+      "answer": 0,
+      "explanation": "Let points be A(5, -2), B(6, 4), C(7, -2). AB = sqrt((6-5)^2 + (4 - (-2))^2) = sqrt(1 + 36) = sqrt(37). BC = sqrt((7-6)^2 + (-2-4)^2) = sqrt(1 + 36) = sqrt(37). AC = sqrt((7-5)^2 + (-2 - (-2))^2) = sqrt(4 + 0) = 2. Since AB = BC = sqrt(37), it is an isosceles triangle.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.1 Question 4"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-017",
+      "type": "mcq",
+      "subtopic": "Fourth Vertex of Parallelogram",
+      "difficulty": "Hard",
+      "question": "If (1, 2), (4, y), (x, 6), and (3, 5) are the vertices of a parallelogram taken in order, find x and y.",
+      "options": [
+        "x = 6, y = 3",
+        "x = 3, y = 6",
+        "x = 5, y = 4",
+        "x = 4, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "Diagonals of a parallelogram bisect each other, so Midpoint of AC = Midpoint of BD. ((1 + x)/2, (2 + 6)/2) = ((4 + 3)/2, (y + 5)/2). Equating x-coordinates: (1 + x)/2 = 7/2 => 1 + x = 7 => x = 6. Equating y-coordinates: 8/2 = (y + 5)/2 => 8 = y + 5 => y = 3.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.2 Question 6"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-018",
+      "type": "mcq",
+      "subtopic": "Area of Rhombus by Coordinates",
+      "difficulty": "Medium",
+      "question": "Find the area of a rhombus if its vertices are (3, 0), (4, 5), (-1, 4), and (-2, -1) taken in order.",
+      "options": [
+        "24 sq units",
+        "48 sq units",
+        "12 sq units",
+        "36 sq units"
+      ],
+      "answer": 0,
+      "explanation": "Diagonals: d1 = distance from (3, 0) to (-1, 4) = sqrt((-1-3)^2 + (4-0)^2) = sqrt(16 + 16) = 4*sqrt(2). d2 = distance from (4, 5) to (-2, -1) = sqrt((-2-4)^2 + (-1-5)^2) = sqrt(36 + 36) = 6*sqrt(2). Area of rhombus = (1/2)*d1*d2 = (1/2) * 4*sqrt(2) * 6*sqrt(2) = (1/2) * 48 = 24 sq units.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Exercise 7.2 Question 10"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-019",
+      "type": "mcq",
+      "subtopic": "Square Vertices Classification",
+      "difficulty": "Hard",
+      "question": "The points A(1, 7), B(4, 2), C(-1, -1), and D(-4, 4) form which type of quadrilateral?",
+      "options": [
+        "Square",
+        "Rectangle but not square",
+        "Rhombus but not square",
+        "Parallelogram with unequal diagonals"
+      ],
+      "answer": 0,
+      "explanation": "AB^2 = (4-1)^2 + (2-7)^2 = 9 + 25 = 34. BC^2 = (-1-4)^2 + (-1-2)^2 = 25 + 9 = 34. CD^2 = (-4-(-1))^2 + (4-(-1))^2 = 9 + 25 = 34. DA^2 = (1-(-4))^2 + (7-4)^2 = 25 + 9 = 34. All 4 sides equal sqrt(34). Diagonal AC^2 = (-1-1)^2 + (-1-7)^2 = 4 + 64 = 68. Diagonal BD^2 = (-4-4)^2 + (4-2)^2 = 64 + 4 = 68. Both diagonals are equal (sqrt(68)). Thus ABCD is a square.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2, Example 2"
+    },
+    {
+      "id": "cbse10-math-ch07-s1-020",
+      "type": "mcq",
+      "subtopic": "Linear Distance Between Two Real Variables",
+      "difficulty": "Easy",
+      "question": "If the distance between the points (x, -1) and (3, 2) is 5 units, what are the possible values of x?",
+      "options": [
+        "7 or -1",
+        "-7 or 1",
+        "4 or -2",
+        "5 or -1"
+      ],
+      "answer": 0,
+      "explanation": "(x - 3)^2 + (-1 - 2)^2 = 5^2 => (x - 3)^2 + (-3)^2 = 25 => (x - 3)^2 + 9 = 25 => (x - 3)^2 = 16 => x - 3 = +-4. If x - 3 = 4 => x = 7. If x - 3 = -4 => x = -1.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2"
+    }
+  ]
+}

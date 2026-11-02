@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cbse10-math-ch02-s2-001",
+    "type": "mcq",
+    "subtopic": "Zeroes Opposite in Sign",
+    "difficulty": "Medium",
+    "question": "If the zeroes of the quadratic polynomial p(x) = kx^2 + (k - 2)x + 5 are equal in magnitude but opposite in sign, what is the value of k?",
+    "options": [
+      "2",
+      "-2",
+      "0",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "Let the zeroes be alpha and -alpha. Their sum is alpha + (-alpha) = 0. In a quadratic polynomial ax^2 + bx + c, sum of zeroes is -b/a. Thus -(k - 2)/k = 0 => k - 2 = 0 => k = 2.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-002",
+    "type": "mcq",
+    "subtopic": "Symmetric Rational Function of Zeroes",
+    "difficulty": "Hard",
+    "question": "If alpha and beta are the zeroes of the quadratic polynomial p(x) = 2x^2 + 5x + 2, what is the value of (alpha / beta + beta / alpha)?",
+    "options": [
+      "17/4",
+      "25/4",
+      "9/4",
+      "-17/4"
+    ],
+    "answer": 0,
+    "explanation": "Here alpha + beta = -5/2 and alpha * beta = 2/2 = 1. Now alpha/beta + beta/alpha = (alpha^2 + beta^2)/(alpha * beta) = [(alpha + beta)^2 - 2(alpha * beta)] / (alpha * beta) = [(-5/2)^2 - 2(1)] / 1 = 25/4 - 2 = (25 - 8)/4 = 17/4.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q5"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-003",
+    "type": "mcq",
+    "subtopic": "Sum Equal to Product of Zeroes",
+    "difficulty": "Medium",
+    "question": "If the sum of the zeroes of the quadratic polynomial kx^2 + 2x + 3k is equal to their product, what is the value of k?",
+    "options": [
+      "-2/3",
+      "2/3",
+      "-3/2",
+      "3/2"
+    ],
+    "answer": 0,
+    "explanation": "Sum of zeroes = -2 / k. Product of zeroes = 3k / k = 3. Given Sum = Product: -2 / k = 3 => 3k = -2 => k = -2/3.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-004",
+    "type": "mcq",
+    "subtopic": "Difference of Zeroes Identity",
+    "difficulty": "Hard",
+    "question": "If the difference between the zeroes of the quadratic polynomial p(x) = x^2 - 5x + k is equal to 1, what is the value of k?",
+    "options": [
+      "6",
+      "4",
+      "24",
+      "-6"
+    ],
+    "answer": 0,
+    "explanation": "Let zeroes be alpha and beta, with |alpha - beta| = 1. We know (alpha - beta)^2 = (alpha + beta)^2 - 4(alpha * beta). Here alpha + beta = 5 and alpha * beta = k. Substituting: (1)^2 = (5)^2 - 4k => 1 = 25 - 4k => 4k = 24 => k = 6.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-005",
+    "type": "mcq",
+    "subtopic": "Conjugate Radical Zeroes",
+    "difficulty": "Medium",
+    "question": "If one zero of the quadratic polynomial p(x) = x^2 - 4x + 1 is (2 + sqrt(3)), what is the other zero?",
+    "options": [
+      "2 - sqrt(3)",
+      "-2 + sqrt(3)",
+      "-2 - sqrt(3)",
+      "4 - sqrt(3)"
+    ],
+    "answer": 0,
+    "explanation": "Sum of zeroes is -(-4)/1 = 4. Let the other zero be beta. Then (2 + sqrt(3)) + beta = 4 => beta = 4 - 2 - sqrt(3) = 2 - sqrt(3). (Irrational roots of polynomials with rational coefficients always occur in conjugate pairs).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-006",
+    "type": "mcq",
+    "subtopic": "Compound Zero Expression",
+    "difficulty": "Hard",
+    "question": "If alpha and beta are the zeroes of the polynomial p(x) = x^2 - x - 4, what is the value of (1/alpha + 1/beta - alpha * beta)?",
+    "options": [
+      "15/4",
+      "-15/4",
+      "17/4",
+      "-17/4"
+    ],
+    "answer": 0,
+    "explanation": "Here alpha + beta = 1 and alpha * beta = -4. 1/alpha + 1/beta = (alpha + beta)/(alpha * beta) = 1/(-4) = -1/4. Now (1/alpha + 1/beta - alpha * beta) = -1/4 - (-4) = -1/4 + 4 = 15/4.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-007",
+    "type": "mcq",
+    "subtopic": "Signs of Coefficients: Opposite Sign Zeroes",
+    "difficulty": "Medium",
+    "question": "If the zeroes of a quadratic polynomial ax^2 + bx + c (a != 0) are of OPPOSITE signs, which condition must hold true regarding the coefficients?",
+    "options": [
+      "a and c must have opposite signs (ac < 0)",
+      "a and c must have the same sign (ac > 0)",
+      "b must be strictly zero",
+      "b and c must have the same sign"
+    ],
+    "answer": 0,
+    "explanation": "If the zeroes have opposite signs, their product alpha * beta is negative: alpha * beta < 0. Since alpha * beta = c / a, we must have c / a < 0, which means a and c must have opposite signs (ac < 0).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q6"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-008",
+    "type": "mcq",
+    "subtopic": "Signs of Coefficients: Both Zeroes Negative",
+    "difficulty": "Hard",
+    "question": "If both zeroes of the quadratic polynomial ax^2 + bx + c are NEGATIVE, what can be stated about the signs of a, b, and c?",
+    "options": [
+      "a, b, and c all have the same sign",
+      "b and c are negative, while a is positive",
+      "c and a have opposite signs",
+      "b is zero"
+    ],
+    "answer": 0,
+    "explanation": "If alpha < 0 and beta < 0, then Sum = alpha + beta < 0 => -b/a < 0 => b/a > 0 (a and b have same sign). Product = alpha * beta > 0 => c/a > 0 (a and c have same sign). Thus, a, b, and c all have the same sign.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q7"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-009",
+    "type": "mcq",
+    "subtopic": "Signs of Coefficients: Both Zeroes Positive",
+    "difficulty": "Hard",
+    "question": "If both zeroes of a quadratic polynomial ax^2 + bx + c are POSITIVE, which of the following is correct?",
+    "options": [
+      "a and c have the same sign, and b has the opposite sign",
+      "a, b, and c all have positive signs",
+      "c is negative",
+      "b is positive"
+    ],
+    "answer": 0,
+    "explanation": "If alpha > 0 and beta > 0, then Product = c/a > 0 (a and c have the same sign). Sum = alpha + beta > 0 => -b/a > 0 => b/a < 0 (b and a have opposite signs). Therefore, a and c have the same sign, while b has the opposite sign.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q8"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-010",
+    "type": "mcq",
+    "subtopic": "Transformed Polynomial Formation: Doubled Zeroes",
+    "difficulty": "Medium",
+    "question": "If alpha and beta are the zeroes of x^2 - 3x + 2, what is the quadratic polynomial whose zeroes are 2*alpha and 2*beta?",
+    "options": [
+      "x^2 - 6x + 8",
+      "x^2 + 6x + 8",
+      "x^2 - 3x + 4",
+      "x^2 - 12x + 16"
+    ],
+    "answer": 0,
+    "explanation": "Old zeroes: (x - 1)(x - 2) = 0 => alpha = 1, beta = 2. New zeroes are 2(1) = 2 and 2(2) = 4. New sum = 2 + 4 = 6. New product = 2 * 4 = 8. New polynomial is x^2 - 6x + 8.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-011",
+    "type": "mcq",
+    "subtopic": "Transformed Polynomial: Inverted Zeroes",
+    "difficulty": "Hard",
+    "question": "If alpha and beta are the zeroes of the quadratic polynomial ax^2 + bx + c (c != 0), what is the polynomial whose zeroes are 1/alpha and 1/beta?",
+    "options": [
+      "cx^2 + bx + a",
+      "cx^2 - bx + a",
+      "ax^2 + cx + b",
+      "bx^2 + ax + c"
+    ],
+    "answer": 0,
+    "explanation": "New sum = 1/alpha + 1/beta = (alpha + beta)/(alpha * beta) = (-b/a)/(c/a) = -b/c. New product = 1/(alpha * beta) = 1/(c/a) = a/c. Polynomial is k[x^2 - (-b/c)x + a/c] = (k/c)[cx^2 + bx + a]. Setting k = c yields cx^2 + bx + a.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-012",
+    "type": "mcq",
+    "subtopic": "Sum of Cubes of Zeroes",
+    "difficulty": "Hard",
+    "question": "If alpha and beta are the zeroes of the quadratic polynomial p(x) = x^2 + 7x + 12, what is the value of (alpha^3 + beta^3)?",
+    "options": [
+      "-91",
+      "91",
+      "-343",
+      "252"
+    ],
+    "answer": 0,
+    "explanation": "Here alpha + beta = -7 and alpha * beta = 12. Using identity: alpha^3 + beta^3 = (alpha + beta)^3 - 3(alpha * beta)(alpha + beta) = (-7)^3 - 3(12)(-7) = -343 + 252 = -91.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-013",
+    "type": "mcq",
+    "subtopic": "Count of Polynomials with Specified Zeroes",
+    "difficulty": "Medium",
+    "question": "How many distinct quadratic polynomials can have -2 and 5 as their zeroes?",
+    "options": [
+      "Only 1",
+      "Only 2",
+      "Only 3",
+      "More than 3 (infinitely many)"
+    ],
+    "answer": 3,
+    "explanation": "Any polynomial of the form k(x + 2)(x - 5) = k(x^2 - 3x - 10), where k is any non-zero real number (e.g. k = 1, 2, 1/2, -5, etc.), has zeroes -2 and 5. Hence, there are infinitely many such polynomials.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-014",
+    "type": "mcq",
+    "subtopic": "Non-Intersecting Graph Zeroes",
+    "difficulty": "Easy",
+    "question": "If the graph of a quadratic polynomial y = p(x) lies entirely above the x-axis and does not intersect or touch the x-axis at any point, how many real zeroes does p(x) possess?",
+    "options": [
+      "Zero real zeroes",
+      "One real zero",
+      "Two real zeroes",
+      "Infinitely many"
+    ],
+    "answer": 0,
+    "explanation": "Since the graph does not cross or touch the x-axis, p(x) is never equal to 0 for any real x. Therefore, it has zero real zeroes (its discriminant D = b^2 - 4ac < 0).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-015",
+    "type": "mcq",
+    "subtopic": "Equal Zeroes Condition for Constant Term",
+    "difficulty": "Medium",
+    "question": "If the quadratic polynomial ax^2 + bx + c has two equal real zeroes, what is the value of the constant term c in terms of a and b?",
+    "options": [
+      "c = b^2 / (4a)",
+      "c = -b / (2a)",
+      "c = 4a / b^2",
+      "c = b^2 / (2a)"
+    ],
+    "answer": 0,
+    "explanation": "Two equal real zeroes occur when the discriminant D = 0: b^2 - 4ac = 0 => 4ac = b^2 => c = b^2 / (4a).",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-016",
+    "type": "mcq",
+    "subtopic": "Cubic Polynomial: Product of Zeroes",
+    "difficulty": "Medium",
+    "question": "For the cubic polynomial p(x) = 2x^3 - 5x^2 - 14x + 8, what is the product of all three zeroes (alpha * beta * gamma)?",
+    "options": [
+      "-4",
+      "4",
+      "-7",
+      "5/2"
+    ],
+    "answer": 0,
+    "explanation": "For any cubic polynomial ax^3 + bx^2 + cx + d: Product of zeroes alpha * beta * gamma = -d / a = -(8) / 2 = -4.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-017",
+    "type": "mcq",
+    "subtopic": "Sum Equal to Half Product Condition",
+    "difficulty": "Hard",
+    "question": "Find the value of k such that the polynomial p(x) = x^2 - (k + 6)x + 2(2k - 1) has its sum of zeroes equal to half of their product.",
+    "options": [
+      "7",
+      "-7",
+      "5",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "Sum of zeroes = k + 6. Product of zeroes = 2(2k - 1) = 4k - 2. Given: Sum = (1/2) * Product => k + 6 = (1/2)(4k - 2) => k + 6 = 2k - 1 => 2k - k = 6 + 1 => k = 7.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-018",
+    "type": "mcq",
+    "subtopic": "Radical Conjugates Polynomial",
+    "difficulty": "Medium",
+    "question": "What is the quadratic polynomial whose zeroes are (3 + sqrt(5)) and (3 - sqrt(5))?",
+    "options": [
+      "x^2 - 6x + 4",
+      "x^2 + 6x + 4",
+      "x^2 - 6x - 4",
+      "x^2 - 4x + 6"
+    ],
+    "answer": 0,
+    "explanation": "Sum of zeroes = (3 + sqrt(5)) + (3 - sqrt(5)) = 6. Product of zeroes = (3 + sqrt(5))(3 - sqrt(5)) = 3^2 - (sqrt(5))^2 = 9 - 5 = 4. The polynomial is x^2 - 6x + 4.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-019",
+    "type": "mcq",
+    "subtopic": "Vertex of Parabola",
+    "difficulty": "Medium",
+    "question": "For the quadratic polynomial p(x) = ax^2 + bx + c, at what x-coordinate does the turning point (vertex) of the parabola occur?",
+    "options": [
+      "x = -b / (2a)",
+      "x = -b / a",
+      "x = c / a",
+      "x = -d / (4a)"
+    ],
+    "answer": 0,
+    "explanation": "The axis of symmetry and vertex of the parabola y = ax^2 + bx + c is located at x = -b / (2a). This represents the minimum point if a > 0, or maximum point if a < 0.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
+  },
+  {
+    "id": "cbse10-math-ch02-s2-020",
+    "type": "mcq",
+    "subtopic": "Zeroes of Reciprocal Ratio Polynomial",
+    "difficulty": "Hard",
+    "question": "If alpha and beta are the zeroes of the polynomial p(x) = x^2 - 6x + a, and 3*alpha + 2*beta = 20, what is the value of a?",
+    "options": [
+      "-16",
+      "16",
+      "-8",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "We know alpha + beta = 6 => beta = 6 - alpha. Substitute into 3*alpha + 2*beta = 20: 3*alpha + 2(6 - alpha) = 20 => 3*alpha + 12 - 2*alpha = 20 => alpha = 8. Then beta = 6 - 8 = -2. The product of zeroes is alpha * beta = a => a = 8 * (-2) = -16.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+  }
+]

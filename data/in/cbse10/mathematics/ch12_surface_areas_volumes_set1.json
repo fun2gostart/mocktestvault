@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch12-s1-001",
+      "type": "mcq",
+      "subtopic": "Two Cubes Joined End to End",
+      "difficulty": "Easy",
+      "question": "2 cubes each of volume 64 cm^3 are joined end to end. What is the surface area of the resulting cuboid?",
+      "options": [
+        "160 cm^2",
+        "128 cm^2",
+        "192 cm^2",
+        "144 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Side of each cube a = (64)^(1/3) = 4 cm. When joined end to end, the cuboid has length l = 4 + 4 = 8 cm, breadth b = 4 cm, height h = 4 cm. Surface area = 2(lb + bh + hl) = 2(8*4 + 4*4 + 4*8) = 2(32 + 16 + 32) = 2(80) = 160 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.1 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-002",
+      "type": "mcq",
+      "subtopic": "Hollow Cylinder on Hemisphere",
+      "difficulty": "Medium",
+      "question": "A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm and the total height of the vessel is 13 cm. Find the inner surface area of the vessel. (Use pi = 22/7)",
+      "options": [
+        "572 cm^2",
+        "462 cm^2",
+        "616 cm^2",
+        "528 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Radius r = 14 / 2 = 7 cm. Height of hemisphere = r = 7 cm. Height of cylinder h = 13 - 7 = 6 cm. Inner surface area = CSA of hemisphere + CSA of cylinder = 2*pi*r^2 + 2*pi*r*h = 2*pi*r(r + h) = 2 * (22/7) * 7 * (7 + 6) = 44 * 13 = 572 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.1 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-003",
+      "type": "mcq",
+      "subtopic": "Toy Cone Surmounted on Hemisphere",
+      "difficulty": "Medium",
+      "question": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy. (Use pi = 22/7)",
+      "options": [
+        "214.5 cm^2",
+        "231 cm^2",
+        "198 cm^2",
+        "220.5 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Radius r = 3.5 cm. Height of cone h = 15.5 - 3.5 = 12 cm. Slant height l = sqrt(r^2 + h^2) = sqrt(3.5^2 + 12^2) = sqrt(12.25 + 144) = sqrt(156.25) = 12.5 cm. Total surface area = CSA of cone + CSA of hemisphere = pi*r*l + 2*pi*r^2 = pi*r(l + 2r) = (22/7) * 3.5 * (12.5 + 7) = 11 * 19.5 = 214.5 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.1 Question 3"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-004",
+      "type": "mcq",
+      "subtopic": "Cube Surmounted by Hemisphere",
+      "difficulty": "Medium",
+      "question": "A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Also find the total surface area of the solid. (Use pi = 22/7)",
+      "options": [
+        "Greatest diameter = 7 cm, Surface area = 332.5 cm^2",
+        "Greatest diameter = 14 cm, Surface area = 350 cm^2",
+        "Greatest diameter = 7 cm, Surface area = 294 cm^2",
+        "Greatest diameter = 3.5 cm, Surface area = 310.5 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Greatest diameter = edge of cube = 7 cm (radius = 3.5 cm). Surface area = Total surface area of cube - Base area of hemisphere + Curved surface area of hemisphere = 6a^2 - pi*r^2 + 2*pi*r^2 = 6a^2 + pi*r^2 = 6(7^2) + (22/7)*(3.5)^2 = 6(49) + 38.5 = 294 + 38.5 = 332.5 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.1 Question 4"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-005",
+      "type": "mcq",
+      "subtopic": "Medicine Capsule Surface Area",
+      "difficulty": "Medium",
+      "question": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter is 5 mm. Find its surface area. (Use pi = 22/7)",
+      "options": [
+        "220 mm^2",
+        "240 mm^2",
+        "210 mm^2",
+        "230 mm^2"
+      ],
+      "answer": 0,
+      "explanation": "Radius r = 5/2 = 2.5 mm. Length of cylinder h = 14 - 2(2.5) = 14 - 5 = 9 mm. Surface area = CSA of cylinder + 2 * (CSA of hemisphere) = 2*pi*r*h + 4*pi*r^2 = 2*pi*r(h + 2r) = 2 * (22/7) * (5/2) * (9 + 5) = (110 / 7) * 14 = 220 mm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.1 Question 6"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-006",
+      "type": "mcq",
+      "subtopic": "Cone Standing on Hemisphere Volume",
+      "difficulty": "Easy",
+      "question": "A solid is in the shape of a cone standing on a hemisphere with both their radii being equal to 1 cm and the height of the cone is equal to its radius. Find the volume of the solid in terms of pi.",
+      "options": [
+        "pi cm^3",
+        "2 pi cm^3",
+        "(4/3) pi cm^3",
+        "(2/3) pi cm^3"
+      ],
+      "answer": 0,
+      "explanation": "Volume = Volume of cone + Volume of hemisphere = (1/3)*pi*r^2*h + (2/3)*pi*r^3 = (1/3)*pi*(1)^2*(1) + (2/3)*pi*(1)^3 = pi/3 + 2pi/3 = 3pi/3 = pi cm^3.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.2 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-007",
+      "type": "mcq",
+      "subtopic": "Solid Cylinder Conical Depression Scoop",
+      "difficulty": "Hard",
+      "question": "From a solid cylinder whose height is 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of the remaining solid. (Use pi = 22/7)",
+      "options": [
+        "17.6 cm^2 (approx 18 cm^2)",
+        "15.4 cm^2",
+        "21.2 cm^2",
+        "16.8 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "r = 0.7 cm, h = 2.4 cm. Slant height of cone l = sqrt(0.7^2 + 2.4^2) = sqrt(0.49 + 5.76) = sqrt(6.25) = 2.5 cm. Total surface area of remaining solid = CSA of cylinder + Base area of cylinder + CSA of conical cavity = 2*pi*r*h + pi*r^2 + pi*r*l = pi*r(2h + r + l) = (22/7) * 0.7 * (2*2.4 + 0.7 + 2.5) = 2.2 * (4.8 + 0.7 + 2.5) = 2.2 * 8.0 = 17.6 cm^2 (to the nearest cm^2, 18 cm^2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.1 Question 8"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-008",
+      "type": "mcq",
+      "subtopic": "Wooden Article Hemispherical Scoops",
+      "difficulty": "Medium",
+      "question": "A wooden article was made by scooping out a hemisphere from each end of a solid cylinder. If the height of the cylinder is 10 cm and its base is of radius 3.5 cm, find the total surface area of the article. (Use pi = 22/7)",
+      "options": [
+        "374 cm^2",
+        "330 cm^2",
+        "396 cm^2",
+        "352 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "TSA = CSA of cylinder + 2 * (CSA of hemisphere) = 2*pi*r*h + 4*pi*r^2 = 2*pi*r(h + 2r) = 2 * (22/7) * 3.5 * (10 + 2*3.5) = 22 * (10 + 7) = 22 * 17 = 374 cm^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exercise 12.1 Question 9"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-009",
+      "type": "mcq",
+      "subtopic": "Metallic Sphere Recast into Cylinder",
+      "difficulty": "Easy",
+      "question": "A metallic sphere of radius 4.2 cm is melted and recast into the shape of a cylinder of radius 6 cm. Find the height of the cylinder.",
+      "options": [
+        "2.74 cm",
+        "3.14 cm",
+        "2.50 cm",
+        "3.50 cm"
+      ],
+      "answer": 0,
+      "explanation": "Volume of sphere = Volume of cylinder => (4/3)*pi*R^3 = pi*r^2*h => (4/3)*(4.2)^3 = 6^2 * h => (4/3) * 74.088 = 36 h => 98.784 = 36 h => h = 98.784 / 36 = 2.744 cm approx 2.74 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Section 12.3"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-010",
+      "type": "mcq",
+      "subtopic": "Three Spheres Melted into Single Sphere",
+      "difficulty": "Medium",
+      "question": "Metallic spheres of radii 6 cm, 8 cm, and 10 cm respectively are melted to form a single solid sphere. Find the radius of the resulting sphere.",
+      "options": [
+        "12 cm",
+        "14 cm",
+        "11 cm",
+        "13 cm"
+      ],
+      "answer": 0,
+      "explanation": "(4/3)*pi*R^3 = (4/3)*pi*(6^3 + 8^3 + 10^3) => R^3 = 216 + 512 + 1000 = 1728 => R = (1728)^(1/3) = 12 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Section 12.3"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-011",
+      "type": "mcq",
+      "subtopic": "Ratio of Volumes from Ratio of Radii",
+      "difficulty": "Easy",
+      "question": "If the radii of two spheres are in the ratio 1 : 2, what is the ratio of their volumes?",
+      "options": [
+        "1 : 8",
+        "1 : 4",
+        "1 : 2",
+        "1 : 16"
+      ],
+      "answer": 0,
+      "explanation": "Volume of sphere is proportional to r^3: V1 / V2 = (r1 / r2)^3 = (1/2)^3 = 1/8.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Section 12.3"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-012",
+      "type": "mcq",
+      "subtopic": "Ratio of Surface Areas from Ratio of Volumes",
+      "difficulty": "Easy",
+      "question": "If the volumes of two spheres are in the ratio 27 : 64, what is the ratio of their surface areas?",
+      "options": [
+        "9 : 16",
+        "3 : 4",
+        "27 : 64",
+        "81 : 256"
+      ],
+      "answer": 0,
+      "explanation": "V1/V2 = (r1/r2)^3 = 27/64 => r1/r2 = 3/4. Surface area ratio S1/S2 = (r1/r2)^2 = (3/4)^2 = 9/16.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Section 12.3"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-013",
+      "type": "mcq",
+      "subtopic": "Hemisphere Total Surface Area Formula",
+      "difficulty": "Easy",
+      "question": "What is the total surface area (TSA) of a solid hemisphere of radius r?",
+      "options": [
+        "3 pi r^2",
+        "2 pi r^2",
+        "4 pi r^2",
+        "(2/3) pi r^3"
+      ],
+      "answer": 0,
+      "explanation": "A solid hemisphere has a curved surface (2*pi*r^2) and a flat circular base (pi*r^2). Total Surface Area = 2*pi*r^2 + pi*r^2 = 3*pi*r^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Section 12.1"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-014",
+      "type": "mcq",
+      "subtopic": "Cone Slant Height Relation",
+      "difficulty": "Easy",
+      "question": "For a right circular cone of base radius r and vertical height h, what is its slant height 'l'?",
+      "options": [
+        "sqrt(r^2 + h^2)",
+        "r + h",
+        "sqrt(h^2 - r^2)",
+        "2(r + h)"
+      ],
+      "answer": 0,
+      "explanation": "The radius, vertical height, and slant height form a right triangle with slant height as hypotenuse. By Pythagoras theorem, l = sqrt(r^2 + h^2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Section 12.1"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-015",
+      "type": "mcq",
+      "subtopic": "Solid Cone Volume Formula",
+      "difficulty": "Easy",
+      "question": "How does the volume of a right circular cone compare to the volume of a right circular cylinder having the same base radius and height?",
+      "options": [
+        "Volume of cone is 1/3 of the volume of cylinder",
+        "Volume of cone is 1/2 of the volume of cylinder",
+        "Volume of cone is 2/3 of the volume of cylinder",
+        "Volume of cone is equal to volume of cylinder"
+      ],
+      "answer": 0,
+      "explanation": "Volume of cylinder = pi*r^2*h. Volume of cone = (1/3)*pi*r^2*h. Therefore, the cone volume is exactly one-third (1/3) of the cylinder volume.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Section 12.1"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-016",
+      "type": "mcq",
+      "subtopic": "Cuboid Diagonal Length",
+      "difficulty": "Easy",
+      "question": "What is the length of the longest rod that can be placed in a room of dimensions 10 m x 10 m x 5 m?",
+      "options": [
+        "15 m",
+        "25 m",
+        "12 m",
+        "20 m"
+      ],
+      "answer": 0,
+      "explanation": "Longest rod = Diagonal of cuboid = sqrt(l^2 + b^2 + h^2) = sqrt(10^2 + 10^2 + 5^2) = sqrt(100 + 100 + 25) = sqrt(225) = 15 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Section 12.1"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-017",
+      "type": "mcq",
+      "subtopic": "Cube Volume from Diagonal",
+      "difficulty": "Medium",
+      "question": "If the diagonal of a cube is 6 sqrt(3) cm, what is the volume of the cube?",
+      "options": [
+        "216 cm^3",
+        "108 cm^3",
+        "72 cm^3",
+        "144 cm^3"
+      ],
+      "answer": 0,
+      "explanation": "Diagonal of cube of side 'a' is a*sqrt(3). a*sqrt(3) = 6*sqrt(3) => a = 6 cm. Volume = a^3 = 6^3 = 216 cm^3.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-018",
+      "type": "mcq",
+      "subtopic": "Number of Cones from Sphere",
+      "difficulty": "Medium",
+      "question": "A solid metallic sphere of radius 10.5 cm is melted and recast into a number of smaller cones, each of radius 3.5 cm and height 3 cm. Find the number of cones so formed.",
+      "options": [
+        "126",
+        "120",
+        "132",
+        "140"
+      ],
+      "answer": 0,
+      "explanation": "Volume of sphere = (4/3)*pi*(10.5)^3. Volume of 1 cone = (1/3)*pi*(3.5)^2 * 3. Number of cones = [(4/3)*pi*(10.5)^3] / [(1/3)*pi*(3.5)^2 * 3] = [4 * (10.5)^3] / [3 * (3.5)^2] = [4 * 1157.625] / [3 * 12.25] = 4630.5 / 36.75 = 126 cones.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-019",
+      "type": "mcq",
+      "subtopic": "Hollow Sphere Metal Volume",
+      "difficulty": "Medium",
+      "question": "The internal and external diameters of a hollow hemispherical vessel are 12 cm and 16 cm respectively. Find the volume of metal used in making the vessel.",
+      "options": [
+        "(2/3) pi * (512 - 216) cm^3 = (592/3) pi cm^3",
+        "(4/3) pi * 296 cm^3",
+        "296 pi cm^3",
+        "(1/3) pi * 592 cm^3"
+      ],
+      "answer": 0,
+      "explanation": "External radius R = 8 cm, internal radius r = 6 cm. Volume of metal = (2/3)*pi*(R^3 - r^3) = (2/3)*pi*(8^3 - 6^3) = (2/3)*pi*(512 - 216) = (2/3)*pi*(296) = (592/3) pi cm^3.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exemplar Problem"
+    },
+    {
+      "id": "cbse10-math-ch12-s1-020",
+      "type": "mcq",
+      "subtopic": "Cylinder Water Rise from Sphere",
+      "difficulty": "Medium",
+      "question": "A cylindrical vessel of radius 4 cm contains water. A solid sphere of radius 3 cm is completely immersed in the water. By how much does the water level rise in the cylinder?",
+      "options": [
+        "2.25 cm (9/4 cm)",
+        "3.00 cm",
+        "1.75 cm",
+        "2.50 cm"
+      ],
+      "answer": 0,
+      "explanation": "Volume of displaced water = Volume of immersed sphere: pi * r_cyl^2 * h_rise = (4/3) * pi * r_sph^3 => pi * 4^2 * h = (4/3) * pi * 3^3 => 16 h = 4 * 9 = 36 => h = 36 / 16 = 9/4 = 2.25 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 12, Exemplar Problem"
+    }
+  ]
+}

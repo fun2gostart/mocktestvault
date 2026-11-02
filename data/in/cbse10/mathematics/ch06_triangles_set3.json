@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch06-s3-001",
+      "type": "assertion-reason",
+      "subtopic": "Congruence Implies Similarity",
+      "difficulty": "Easy",
+      "question": "Assertion (A): All congruent triangles are similar, but all similar triangles are not necessarily congruent.\nReason (R): Congruent triangles have identical shape and identical size (ratio of sides 1 : 1), while similar triangles have identical shape but may differ in size.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Congruent figures satisfy the definition of similarity with a scale factor of 1. Similar figures with scale factor != 1 are not congruent. Both statements are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-002",
+      "type": "assertion-reason",
+      "subtopic": "Basic Proportionality Theorem",
+      "difficulty": "Easy",
+      "question": "Assertion (A): In triangle ABC, if a line DE is drawn parallel to BC intersecting AB at D and AC at E, then AD / DB = AE / EC.\nReason (R): If a line is drawn parallel to one side of a triangle intersecting the other two sides, then it divides the two sides in the same ratio.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "This is the exact statement of Theorem 6.1 (Basic Proportionality Theorem / Thales Theorem). Both (A) and (R) are true and (R) directly explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Theorem 6.1"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-003",
+      "type": "assertion-reason",
+      "subtopic": "Equilateral Triangles Similarity",
+      "difficulty": "Easy",
+      "question": "Assertion (A): Any two equilateral triangles are always similar.\nReason (R): In any two equilateral triangles, all interior angles are equal to 60 degrees, satisfying the AAA similarity criterion.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Every equilateral triangle has three 60 degree angles. Since all corresponding angles are equal, any two equilateral triangles are similar by AAA criterion. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-004",
+      "type": "assertion-reason",
+      "subtopic": "Converse of Thales Theorem",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In triangle ABC, if D and E are points on AB and AC such that AD = 2 cm, BD = 3 cm, AE = 4 cm, and CE = 6 cm, then DE is parallel to BC.\nReason (R): If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "AD / BD = 2/3. AE / CE = 4/6 = 2/3. Since AD/BD = AE/CE, by Theorem 6.2 (Converse of BPT), DE || BC. Both (A) and (R) are true and (R) is the theorem that explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Theorem 6.2"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-005",
+      "type": "assertion-reason",
+      "subtopic": "Perimeter Ratio Invariance",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If triangle ABC ~ triangle PQR with AB / PQ = 2 / 5, then Perimeter(ABC) / Perimeter(PQR) = 2 / 5.\nReason (R): For any two similar triangles, the ratio of their perimeters is equal to the square of the ratio of their corresponding sides.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 2,
+      "explanation": "Assertion (A) is TRUE: Perimeter ratio = side ratio = 2/5. Reason (R) is FALSE: The ratio of perimeters is equal to the first power of the ratio of sides (NOT the square). The ratio of AREAS is equal to the square of the ratio of sides. Thus (A) is true, but (R) is false.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-006",
+      "type": "assertion-reason",
+      "subtopic": "Right Triangle Vertex Altitude",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In a right triangle ABC right-angled at B, if BD is perpendicular to AC, then triangle ADB is similar to triangle BDC.\nReason (R): If a perpendicular is drawn from the vertex of the right angle of a right triangle to the hypotenuse, then triangles on both sides of the perpendicular are similar to the whole triangle and to each other.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "This is Theorem 6.7 in NCERT Class 10. By AA similarity, both sub-triangles are similar to triangle ABC, and hence similar to each other. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Theorem 6.7"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-007",
+      "type": "assertion-reason",
+      "subtopic": "SAS Similarity Angle Requirement",
+      "difficulty": "Hard",
+      "question": "Assertion (A): If in triangle ABC and triangle DEF, AB/DE = BC/EF and angle A = angle D, the triangles are NOT necessarily similar.\nReason (R): Under the SAS similarity criterion, the equal angle must be the INCLUDED angle between the two proportional sides (i.e., angle B = angle E).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "In SAS similarity, the angle must strictly be included between the proportional sides. For AB and BC, the included angle is angle B (not angle A). Therefore, without angle B = angle E, similarity cannot be guaranteed. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-008",
+      "type": "assertion-reason",
+      "subtopic": "Pythagoras Converse Right Angle",
+      "difficulty": "Easy",
+      "question": "Assertion (A): In triangle ABC, if AB = 6 cm, BC = 8 cm, and AC = 10 cm, then angle B = 90 degrees.\nReason (R): In a triangle, if the square of one side is equal to the sum of the squares of the other two sides, then the angle opposite the first side is a right angle.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "6^2 + 8^2 = 36 + 64 = 100 = 10^2 (AC^2 = AB^2 + BC^2). By the converse of Pythagoras Theorem (Theorem 6.9), the angle opposite AC (which is angle B) is 90 degrees. Both statements are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Theorem 6.9"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-009",
+      "type": "assertion-reason",
+      "subtopic": "Midpoint Theorem via BPT",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The line segment joining the midpoints of any two sides of a triangle is parallel to the third side.\nReason (R): If D and E are midpoints of AB and AC, then AD/DB = 1/1 = 1 and AE/EC = 1/1 = 1; by the converse of BPT, DE || BC.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Since AD/DB = AE/EC = 1, by the converse of Thales theorem, DE || BC. This provides a rigorous proof of the Midpoint Theorem using BPT. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2, Theorem 6.2"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-010",
+      "type": "assertion-reason",
+      "subtopic": "Similar Figures Area Scale Paradox",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If the sides of two similar triangles are in the ratio 3 : 5, their altitudes are in the ratio 9 : 25.\nReason (R): Corresponding altitudes of two similar triangles are proportional to their corresponding sides.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is FALSE: Altitudes are one-dimensional linear measures, so their ratio is strictly equal to the side ratio (3 : 5), NOT squared (9 : 25). Reason (R) is TRUE: corresponding altitudes are proportional to corresponding sides. Thus (A) is false, but (R) is true.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-011",
+      "type": "mcq",
+      "subtopic": "Case Study 1: Lamp Post Shadow - Walking Distance",
+      "difficulty": "Easy",
+      "question": "Case Study 1 (Optical Shadows): A municipal street light is mounted at the top of a 4-metre tall vertical post. A student of height 1.5 metres walks away from the base of the lamp post along a straight sidewalk at a uniform speed of 1.2 m/s. What distance does the student cover in 5 seconds?",
+      "options": [
+        "6 metres",
+        "5 metres",
+        "7.5 metres",
+        "4.8 metres"
+      ],
+      "answer": 0,
+      "explanation": "Distance = Speed * Time = 1.2 m/s * 5 s = 6 metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3, Example 7"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-012",
+      "type": "mcq",
+      "subtopic": "Case Study 1: Lamp Post Shadow - Shadow Length",
+      "difficulty": "Medium",
+      "question": "Case Study 1 (Continued): What is the length of the student's shadow cast on the ground after 5 seconds of walking?",
+      "options": [
+        "3.6 metres",
+        "3.0 metres",
+        "4.0 metres",
+        "2.5 metres"
+      ],
+      "answer": 0,
+      "explanation": "Let shadow length be s. Distance from lamp base = 6 m. By similar triangles: (Lamp height) / (Student height) = (Total base) / (Shadow length) => 4 / 1.5 = (6 + s) / s => 4s = 1.5(6 + s) => 4s = 9 + 1.5s => 2.5s = 9 => s = 9 / 2.5 = 3.6 metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3, Example 7"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-013",
+      "type": "mcq",
+      "subtopic": "Case Study 1: Lamp Post Shadow - Shadow Tip Speed",
+      "difficulty": "Hard",
+      "question": "Case Study 1 (Continued): At what speed is the tip of the student's shadow moving away from the base of the lamp post?",
+      "options": [
+        "1.92 m/s",
+        "1.60 m/s",
+        "2.10 m/s",
+        "1.80 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Tip distance from post = 6 + 3.6 = 9.6 m in 5 seconds. Speed of shadow tip = Total distance / Time = 9.6 / 5 = 1.92 m/s. (Alternatively: (4/1.5)*x_tip' => x_tip = (8/5) * student_dist => 1.6 * 1.2 = 1.92 m/s).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-014",
+      "type": "mcq",
+      "subtopic": "Case Study 2: River Survey - Thales Triangulation Model",
+      "difficulty": "Medium",
+      "question": "Case Study 2 (Civil Surveying): To measure the width of a river without crossing it, a surveyor marks points A and B on opposite banks. On the accessible bank, the surveyor extends AB to point D, and lays out parallel baseline segments BC and DE perpendicular to AD such that C, B, A and E, D, A lie on straight lines. Which similarity theorem allows calculating the width of the river AB?",
+      "options": [
+        "AA Similarity Criterion (triangle ABC ~ triangle ADE)",
+        "SSS Similarity Criterion",
+        "RHS Congruence Criterion",
+        "Pythagoras Theorem only"
+      ],
+      "answer": 0,
+      "explanation": "Since BC || DE, angle ABC = angle ADE = 90 deg, and angle A is common to both triangles. Thus triangle ABC ~ triangle ADE by AA similarity.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-015",
+      "type": "mcq",
+      "subtopic": "Case Study 2: River Survey - Width Calculation",
+      "difficulty": "Hard",
+      "question": "Case Study 2 (Continued): If baseline BC = 15 metres, baseline DE = 25 metres, and the offset distance on the bank BD = 20 metres, what is the exact width of the river AB?",
+      "options": [
+        "30 metres",
+        "25 metres",
+        "35 metres",
+        "40 metres"
+      ],
+      "answer": 0,
+      "explanation": "Let river width AB = w. Then AD = w + BD = w + 20. By similarity of triangle ABC and triangle ADE: AB / AD = BC / DE => w / (w + 20) = 15 / 25 = 3 / 5 => 5w = 3(w + 20) => 5w = 3w + 60 => 2w = 60 => w = 30 metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-016",
+      "type": "mcq",
+      "subtopic": "Case Study 2: River Survey - Line of Sight Distance",
+      "difficulty": "Medium",
+      "question": "Case Study 2 (Continued): What is the direct line-of-sight distance AC from surveyor mark C to bank point A across the river?",
+      "options": [
+        "15 sqrt(5) metres (~33.54 m)",
+        "35 metres",
+        "45 metres",
+        "25 sqrt(2) metres"
+      ],
+      "answer": 0,
+      "explanation": "In right triangle ABC: AB = 30 m, BC = 15 m. By Pythagoras theorem: AC = sqrt(AB^2 + BC^2) = sqrt(30^2 + 15^2) = sqrt(900 + 225) = sqrt(1125) = sqrt(225 * 5) = 15*sqrt(5) metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.4"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-017",
+      "type": "mcq",
+      "subtopic": "Case Study 3: Aerial Mapping - Scale Factor",
+      "difficulty": "Easy",
+      "question": "Case Study 3 (GIS & Satellite Mapping): A mapping drone flying at an altitude of 500 m captures a triangular sports field. On the sensor image, the sides of the triangle measure 6 cm, 8 cm, and 10 cm. On the actual ground, the shortest side measures 120 metres. What is the scale factor between the photo and the actual ground?",
+      "options": [
+        "1 : 2,000",
+        "1 : 1,000",
+        "1 : 5,000",
+        "1 : 500"
+      ],
+      "answer": 0,
+      "explanation": "Shortest side on photo = 6 cm. Shortest side on ground = 120 m = 12,000 cm. Scale factor = 6 / 12,000 = 1 / 2,000.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-018",
+      "type": "mcq",
+      "subtopic": "Case Study 3: Aerial Mapping - Actual Perimeter",
+      "difficulty": "Medium",
+      "question": "Case Study 3 (Continued): What is the actual perimeter of the triangular sports ground?",
+      "options": [
+        "480 metres",
+        "400 metres",
+        "520 metres",
+        "600 metres"
+      ],
+      "answer": 0,
+      "explanation": "Perimeter on photo = 6 + 8 + 10 = 24 cm. Actual perimeter on ground = 24 cm * 2,000 = 48,000 cm = 480 metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Competency Focused Question"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-019",
+      "type": "mcq",
+      "subtopic": "Case Study 4: Timber Roof Truss - Horizontal Collar Tie",
+      "difficulty": "Medium",
+      "question": "Case Study 4 (Timber Construction): An equilateral A-frame roof truss ABC has side rafters of length 6 metres each and a base tie of 6 metres. A horizontal collar tie DE is installed parallel to the base BC at half the rafter height (dividing AB and AC in the ratio 1 : 1). What is the length of the horizontal collar beam DE?",
+      "options": [
+        "3 metres",
+        "2.5 metres",
+        "3.5 metres",
+        "4 metres"
+      ],
+      "answer": 0,
+      "explanation": "Since DE connects midpoints of AB and AC, by the Midpoint Theorem (or BPT): DE || BC and DE = (1/2) * BC = (1/2) * 6 = 3 metres.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2"
+    },
+    {
+      "id": "cbse10-math-ch06-s3-020",
+      "type": "mcq",
+      "subtopic": "Case Study 4: Timber Roof Truss - Vertical Apex Height",
+      "difficulty": "Hard",
+      "question": "Case Study 4 (Continued): What is the total vertical height from the base BC to the apex peak A of this equilateral roof truss?",
+      "options": [
+        "3 sqrt(3) metres (~5.20 m)",
+        "6 metres",
+        "4 sqrt(2) metres",
+        "5 metres"
+      ],
+      "answer": 0,
+      "explanation": "In an equilateral triangle of side a = 6 m, the vertical height is the altitude AD = (sqrt(3)/2) * a = (sqrt(3)/2) * 6 = 3*sqrt(3) metres (approx 5.196 m).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.4"
+    }
+  ]
+}

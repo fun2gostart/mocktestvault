@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch06-s1-001",
+      "type": "mcq",
+      "subtopic": "Basic Proportionality Theorem (BPT)",
+      "difficulty": "Easy",
+      "question": "In triangle ABC, DE is parallel to BC with D on AB and E on AC. If AD = 1.5 cm, DB = 3 cm, and AE = 1 cm, what is the length of EC?",
+      "options": [
+        "2 cm",
+        "2.5 cm",
+        "3 cm",
+        "1.5 cm"
+      ],
+      "answer": 0,
+      "explanation": "By BPT (Thales Theorem): AD / DB = AE / EC => 1.5 / 3 = 1 / EC => 1/2 = 1 / EC => EC = 2 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2, Theorem 6.1"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-002",
+      "type": "mcq",
+      "subtopic": "Similarity Criteria Definition",
+      "difficulty": "Easy",
+      "question": "Two triangles are similar if their corresponding angles are equal and their corresponding sides are:",
+      "options": [
+        "In the same ratio (proportional)",
+        "Equal in length",
+        "Mutually perpendicular",
+        "Parallel to each other"
+      ],
+      "answer": 0,
+      "explanation": "Two polygons/triangles with the same number of sides are similar if: (1) corresponding angles are equal, and (2) corresponding sides are in the same ratio (proportional).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-003",
+      "type": "mcq",
+      "subtopic": "Universal Similarity of Polygons",
+      "difficulty": "Easy",
+      "question": "Which of the following geometric figures are ALWAYS similar to each other?",
+      "options": [
+        "All equilateral triangles",
+        "All isosceles triangles",
+        "All rectangles",
+        "All rhombuses"
+      ],
+      "answer": 0,
+      "explanation": "All circles, all squares, and all equilateral triangles are always similar because their corresponding angles are identical (each 60 degrees in equilateral triangles) and all sides are in the same proportion.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-004",
+      "type": "mcq",
+      "subtopic": "BPT Finding Unknown Side Segment",
+      "difficulty": "Medium",
+      "question": "In triangle ABC, DE || BC. If AD = x, DB = x - 2, AE = x + 2, and EC = x - 1, find the value of x.",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "By Thales theorem: AD / DB = AE / EC => x / (x - 2) = (x + 2) / (x - 1) => x(x - 1) = (x - 2)(x + 2) => x^2 - x = x^2 - 4 => -x = -4 => x = 4.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-005",
+      "type": "mcq",
+      "subtopic": "Trapezium Diagonals Proportionality",
+      "difficulty": "Medium",
+      "question": "ABCD is a trapezium with AB || DC. Diagonals AC and BD intersect at O. If AO = 3x - 1, OC = 5x - 3, BO = 2x + 1, and OD = 6x - 5, what is the value of x?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "1/2"
+      ],
+      "answer": 0,
+      "explanation": "In trapezium ABCD with AB || DC, AO / OC = BO / OD. (3x - 1)/(5x - 3) = (2x + 1)/(6x - 5) => (3x - 1)(6x - 5) = (2x + 1)(5x - 3) => 18x^2 - 21x + 5 = 10x^2 - x - 3 => 8x^2 - 20x + 8 = 0 => 2x^2 - 5x + 2 = 0 => (2x - 1)(x - 2) = 0. If x = 1/2, AO = 1/2, but OD = 6(1/2) - 5 = -2 (length cannot be negative!). Thus x = 2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 9"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-006",
+      "type": "mcq",
+      "subtopic": "Shadow Method for Flagpole Height",
+      "difficulty": "Medium",
+      "question": "A vertical pole of length 6 m casts a shadow 4 m long on the ground, and at the same time a tower casts a shadow 28 m long. What is the height of the tower?",
+      "options": [
+        "42 m",
+        "40 m",
+        "36 m",
+        "48 m"
+      ],
+      "answer": 0,
+      "explanation": "At the same time, the sun's angle of elevation is identical for both objects. By AA similarity: Height of pole / Shadow of pole = Height of tower / Shadow of tower => 6 / 4 = H / 28 => H = (6 * 28) / 4 = 6 * 7 = 42 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.3 Question 15"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-007",
+      "type": "mcq",
+      "subtopic": "Ratio of Perimeters of Similar Triangles",
+      "difficulty": "Easy",
+      "question": "If triangle ABC is similar to triangle DEF such that AB = 3 cm, DE = 4 cm, and the perimeter of triangle ABC is 18 cm, what is the perimeter of triangle DEF?",
+      "options": [
+        "24 cm",
+        "21 cm",
+        "27 cm",
+        "32 cm"
+      ],
+      "answer": 0,
+      "explanation": "The ratio of perimeters of two similar triangles equals the ratio of their corresponding sides: Perimeter(ABC) / Perimeter(DEF) = AB / DE => 18 / Perimeter(DEF) = 3 / 4 => Perimeter(DEF) = (18 * 4) / 3 = 24 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-008",
+      "type": "mcq",
+      "subtopic": "AA Similarity Missing Angle",
+      "difficulty": "Easy",
+      "question": "If triangle ABC ~ triangle PQR, angle A = 47 degrees, and angle Q = 83 degrees, what is angle C?",
+      "options": [
+        "50 degrees",
+        "60 degrees",
+        "45 degrees",
+        "55 degrees"
+      ],
+      "answer": 0,
+      "explanation": "Since triangle ABC ~ triangle PQR, corresponding angles are equal: angle B = angle Q = 83 degrees. Sum of angles in triangle ABC = 180 degrees => angle C = 180 - (47 + 83) = 180 - 130 = 50 degrees.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-009",
+      "type": "mcq",
+      "subtopic": "Converse of BPT Application",
+      "difficulty": "Easy",
+      "question": "In triangle PQR, E and F are points on sides PQ and PR respectively. If PE = 3.9 cm, EQ = 3 cm, PF = 3.6 cm, and FR = 2.4 cm, is EF parallel to QR?",
+      "options": [
+        "No, because PE/EQ = 1.3 while PF/FR = 1.5",
+        "Yes, because both ratios are equal to 1.3",
+        "Yes, by Thales theorem",
+        "Cannot be determined without knowing angles"
+      ],
+      "answer": 0,
+      "explanation": "PE/EQ = 3.9 / 3 = 1.3. PF/FR = 3.6 / 2.4 = 1.5. Since PE/EQ != PF/FR, by the converse of BPT, EF is NOT parallel to QR.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 2(i)"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-010",
+      "type": "mcq",
+      "subtopic": "SAS Similarity Criterion",
+      "difficulty": "Medium",
+      "question": "In triangles ABC and DEF, angle B = angle E, AB = 5 cm, BC = 7.5 cm, and DE = 2 cm. What must be the length of EF for triangle ABC to be similar to triangle DEF by SAS criterion?",
+      "options": [
+        "3 cm",
+        "2.5 cm",
+        "3.5 cm",
+        "4 cm"
+      ],
+      "answer": 0,
+      "explanation": "By SAS similarity: BC / EF = AB / DE => 7.5 / EF = 5 / 2 => 5*EF = 15 => EF = 3 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-011",
+      "type": "mcq",
+      "subtopic": "Girl Walking Away from Street Light",
+      "difficulty": "Hard",
+      "question": "A girl of height 90 cm is walking away from the base of a lamp post at a speed of 1.2 m/s. If the lamp is 3.6 m above the ground, find the length of her shadow after 4 seconds.",
+      "options": [
+        "1.6 m",
+        "1.2 m",
+        "2.0 m",
+        "1.8 m"
+      ],
+      "answer": 0,
+      "explanation": "Distance walked in 4 s = 1.2 m/s * 4 s = 4.8 m. Lamp height = 3.6 m = 360 cm. Girl height = 90 cm. Let shadow length be s. By similar triangles: 360 / 90 = (4.8 + s) / s => 4 = (4.8 + s) / s => 4s = 4.8 + s => 3s = 4.8 => s = 1.6 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3, Example 7"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-012",
+      "type": "mcq",
+      "subtopic": "Midpoint Segment and Parallel Line",
+      "difficulty": "Easy",
+      "question": "If D and E are the midpoints of sides AB and AC of triangle ABC respectively, then by BPT, DE is parallel to BC and DE / BC is:",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "2/3"
+      ],
+      "answer": 0,
+      "explanation": "Since D and E are midpoints, AD/AB = 1/2 and AE/AC = 1/2. By SAS similarity, triangle ADE ~ triangle ABC, which means DE/BC = AD/AB = 1/2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-013",
+      "type": "mcq",
+      "subtopic": "Equilateral Triangle Altitude Property",
+      "difficulty": "Medium",
+      "question": "In an equilateral triangle ABC of side 'a', what is the length of its altitude AD?",
+      "options": [
+        "(sqrt(3)/2) * a",
+        "(sqrt(3)/4) * a",
+        "(1/2) * a",
+        "sqrt(3) * a"
+      ],
+      "answer": 0,
+      "explanation": "In an equilateral triangle, altitude AD bisects BC, so BD = a/2. In right triangle ABD: AD^2 = AB^2 - BD^2 = a^2 - (a/2)^2 = a^2 - a^2/4 = (3/4)a^2. Taking square root: AD = (sqrt(3)/2) a.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.4"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-014",
+      "type": "mcq",
+      "subtopic": "Right Triangle Hypotenuse Check",
+      "difficulty": "Easy",
+      "question": "Which of the following sets of side lengths forms a right-angled triangle?",
+      "options": [
+        "7 cm, 24 cm, 25 cm",
+        "3 cm, 8 cm, 6 cm",
+        "50 cm, 80 cm, 100 cm",
+        "13 cm, 12 cm, 4 cm"
+      ],
+      "answer": 0,
+      "explanation": "Check Pythagoras theorem: 7^2 + 24^2 = 49 + 576 = 625 = 25^2. Since sum of squares of two sides equals square of the longest side, 7, 24, 25 forms a right triangle.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 1"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-015",
+      "type": "mcq",
+      "subtopic": "Diagonals of Quadrilateral BPT Converse",
+      "difficulty": "Medium",
+      "question": "The diagonals of a quadrilateral ABCD intersect each other at the point O such that AO/BO = CO/DO. What type of quadrilateral is ABCD?",
+      "options": [
+        "Trapezium",
+        "Parallelogram",
+        "Rhombus",
+        "Rectangle"
+      ],
+      "answer": 0,
+      "explanation": "AO/BO = CO/DO can be rewritten as AO/CO = BO/DO. By the converse of the trapezium proportionality theorem, this condition proves that AB || DC, making ABCD a trapezium.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 10"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-016",
+      "type": "mcq",
+      "subtopic": "SSS Similarity Ratio Verification",
+      "difficulty": "Easy",
+      "question": "In triangle ABC and triangle PQR, AB = 3.8 cm, BC = 6 cm, CA = 3 sqrt(3) cm, PQ = 6 sqrt(3) cm, QR = 7.6 cm, and PR = 12 cm. What is the ratio of their corresponding sides?",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "1/4"
+      ],
+      "answer": 0,
+      "explanation": "AB / QR = 3.8 / 7.6 = 1/2. BC / PR = 6 / 12 = 1/2. CA / PQ = 3*sqrt(3) / 6*sqrt(3) = 1/2. Since all three ratios are equal to 1/2, the triangles are similar by SSS similarity.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3, Example 5"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-017",
+      "type": "mcq",
+      "subtopic": "Altitude to Hypotenuse Theorem",
+      "difficulty": "Hard",
+      "question": "In a right triangle ABC right-angled at B, BD is drawn perpendicular to AC. If AD = 4 cm and CD = 9 cm, what is the length of altitude BD?",
+      "options": [
+        "6 cm",
+        "5 cm",
+        "6.5 cm",
+        "7 cm"
+      ],
+      "answer": 0,
+      "explanation": "Since triangle ADB ~ triangle BDC, we have BD / CD = AD / BD => BD^2 = AD * CD. BD^2 = 4 * 9 = 36 => BD = 6 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.4, Theorem 6.7"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-018",
+      "type": "mcq",
+      "subtopic": "Equilateral Triangle Altitude Identity",
+      "difficulty": "Medium",
+      "question": "In an equilateral triangle ABC, AD is an altitude perpendicular to BC. Which of the following relationships is correct?",
+      "options": [
+        "3 AB^2 = 4 AD^2",
+        "4 AB^2 = 3 AD^2",
+        "2 AB^2 = 3 AD^2",
+        "AB^2 = 2 AD^2"
+      ],
+      "answer": 0,
+      "explanation": "In right triangle ABD: AB^2 = AD^2 + BD^2. Since D bisects BC, BD = BC/2 = AB/2. AB^2 = AD^2 + (AB/2)^2 => AB^2 - AB^2/4 = AD^2 => (3/4)AB^2 = AD^2 => 3 AB^2 = 4 AD^2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 16"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-019",
+      "type": "mcq",
+      "subtopic": "Ladder Leaning on Wall",
+      "difficulty": "Easy",
+      "question": "A ladder 10 m long reaches a window 8 m above the ground. How far is the foot of the ladder from the base of the wall?",
+      "options": [
+        "6 m",
+        "7 m",
+        "5 m",
+        "4 m"
+      ],
+      "answer": 0,
+      "explanation": "By Pythagoras theorem: (Distance)^2 + 8^2 = 10^2 => d^2 + 64 = 100 => d^2 = 36 => d = 6 m.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 9"
+    },
+    {
+      "id": "cbse10-math-ch06-s1-020",
+      "type": "mcq",
+      "subtopic": "Corresponding Median Ratio",
+      "difficulty": "Medium",
+      "question": "If triangle ABC ~ triangle DEF, and AM and DN are the medians of triangle ABC and triangle DEF respectively, then AB / DE is equal to:",
+      "options": [
+        "AM / DN",
+        "(AM / DN)^2",
+        "2(AM / DN)",
+        "sqrt(AM / DN)"
+      ],
+      "answer": 0,
+      "explanation": "In two similar triangles, the ratio of any two corresponding sides is equal to the ratio of their corresponding medians, altitudes, and angle bisectors. Thus AB / DE = AM / DN.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+    }
+  ]
+}

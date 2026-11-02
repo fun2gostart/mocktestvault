@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cbse10-sci-ch12-s2-001",
+    "type": "mcq",
+    "subtopic": "Fleming's Left-Hand Rule: Alpha Particle Deflection",
+    "difficulty": "Hard",
+    "question": "A positively charged particle (alpha particle) projected toward the West is deflected toward the North by a magnetic field. What is the direction of the magnetic field?",
+    "options": [
+      "Towards the South",
+      "Towards the East",
+      "Downwards into the page",
+      "Upwards (out of the page)"
+    ],
+    "answer": 3,
+    "explanation": "Since the alpha particle has a positive charge, the direction of current is along its motion (West). The deflection force is towards the North. Applying Fleming's Left-Hand Rule: align middle finger (current) to West, thumb (force) to North. The forefinger (magnetic field) points vertically upwards (out of the page).",
+    "citation": "NCERT Class 10 Science, Chapter 12, NCERT In-Text Question Section 12.3"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-002",
+    "type": "mcq",
+    "subtopic": "Electron Deflection in Magnetic Field",
+    "difficulty": "Hard",
+    "question": "An electron moves vertically downwards into a horizontal magnetic field directed towards the East. In which direction is the mechanical force acting on the electron directed?",
+    "options": [
+      "Towards the North",
+      "Towards the South",
+      "Vertically upwards",
+      "Towards the West"
+    ],
+    "answer": 1,
+    "explanation": "Electrons carry negative charge, so the direction of conventional current is OPPOSITE to electron movement: electron moves downwards, so current is directed vertically upwards. Applying Fleming's Left-Hand Rule: Forefinger points East, Middle finger points upwards; the thumb points toward the South.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-003",
+    "type": "mcq",
+    "subtopic": "Circular Coil: Multi-Turn Field Scaling",
+    "difficulty": "Medium",
+    "question": "A circular coil of wire having N tightly wound turns carries an electric current I. How does the magnetic field produced at its center compare to that produced by a single turn of the same radius carrying the same current?",
+    "options": [
+      "It is N times as large as that produced by a single turn",
+      "It is 1/N of the single turn field",
+      "It is N^2 times as large",
+      "It is identical to the single turn field because fields cancel"
+    ],
+    "answer": 0,
+    "explanation": "This is because the current in each circular turn has the exact same direction. As a result, the magnetic fields produced by the individual turns add up constructively (B_total = N * B_single).",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.2 Magnetic Field due to a Current through a Circular Loop"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-004",
+    "type": "mcq",
+    "subtopic": "Straight Wire: Field vs Radial Distance",
+    "difficulty": "Medium",
+    "question": "How does the magnitude of the magnetic field (B) at a point vary with perpendicular distance (r) from a long straight current-carrying wire?",
+    "options": [
+      "Directly proportional to distance (B proportional to r)",
+      "Inversely proportional to distance (B proportional to 1/r)",
+      "Inversely proportional to square of distance (B proportional to 1/r^2)",
+      "Independent of distance r"
+    ],
+    "answer": 1,
+    "explanation": "The strength of the magnetic field produced by a straight wire is directly proportional to current (B proportional to I) and inversely proportional to radial distance (B proportional to 1/r). As one moves farther away, the concentric field lines become wider apart, indicating weakening field.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.1 Magnetic Field due to a Current through a Straight Conductor"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-005",
+    "type": "mcq",
+    "subtopic": "Power Transmission: AC vs DC Long-Distance Advantage",
+    "difficulty": "Easy",
+    "question": "What is the primary technical advantage of Alternating Current (AC) over Direct Current (DC) in national electrical grids?",
+    "options": [
+      "AC is completely safe to touch without shock",
+      "Electric power can be stepped up to extraordinarily high voltages by transformers and transmitted over long distances with minimal transmission losses",
+      "AC generates zero heat in household appliances",
+      "AC circuits do not require switches or fuses"
+    ],
+    "answer": 1,
+    "explanation": "An important advantage of AC over DC is that electric power can be transmitted over very long distances without much loss of energy by stepping up the voltage with high-efficiency transformers, dramatically reducing line current and I^2*R transmission line heating.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-006",
+    "type": "mcq",
+    "subtopic": "Electromagnetic Induction: Discovery by Faraday",
+    "difficulty": "Easy",
+    "question": "Michael Faraday discovered electromagnetic induction in 1831. What is the fundamental principle of electromagnetic induction?",
+    "options": [
+      "A permanent magnet dissolves when exposed to alternating current",
+      "Relative motion between a conductor and a magnetic field changes the magnetic flux linked with the conductor, inducing an electric current in it",
+      "Electrons generate nuclear fission when passed through a solenoid",
+      "Electrostatic charges attract iron filings"
+    ],
+    "answer": 1,
+    "explanation": "Electromagnetic induction is the phenomenon of generating an induced electric current in a closed circuit by changing the magnetic field lines (magnetic flux) linked with the circuit, such as by moving a magnet relative to a coil.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.5 Electromagnetic Induction"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-007",
+    "type": "mcq",
+    "subtopic": "Induced Current: Fleming's Right-Hand Rule",
+    "difficulty": "Easy",
+    "question": "Which rule is specifically applied to determine the direction of the INDUCED electric current in a moving conductor within a magnetic field?",
+    "options": [
+      "Fleming's Left-Hand Rule",
+      "Fleming's Right-Hand Rule",
+      "Maxwell's Corkscrew Rule",
+      "Ampere's Swimming Rule"
+    ],
+    "answer": 1,
+    "explanation": "Fleming's Right-Hand Rule determines the direction of induced current: stretch thumb (motion of conductor), forefinger (magnetic field), and middle finger (direction of induced current) mutually at right angles.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.5 Electromagnetic Induction"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-008",
+    "type": "mcq",
+    "subtopic": "Circuit Instruments: Galvanometer Role",
+    "difficulty": "Easy",
+    "question": "What is the primary function of a Galvanometer in an electrical laboratory experiment?",
+    "options": [
+      "To step down 220 V mains voltage",
+      "To detect the presence and sense the direction of even tiny electric currents in a circuit",
+      "To convert AC into DC",
+      "To measure electrical resistance directly in megaohms"
+    ],
+    "answer": 1,
+    "explanation": "A galvanometer is a sensitive instrument that can detect the presence of current in a circuit. Its pointer remains at zero (the center of the scale) for zero current. Depending on the direction of current, the pointer deflects either to the left or to the right.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.5 Electromagnetic Induction"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-009",
+    "type": "mcq",
+    "subtopic": "Fuse Placement: Mandatory Live Wire Installation",
+    "difficulty": "Hard",
+    "question": "Why must an electric fuse ALWAYS be connected in series with the LIVE wire and NEVER in the neutral wire?",
+    "options": [
+      "The neutral wire carries no electric current at all",
+      "If connected in the neutral wire, when the fuse blows due to a fault, the appliance remains connected to the 220 V live wire, presenting a lethal shock risk to anyone touching it",
+      "Fuses can only conduct positive electric charges",
+      "The neutral wire operates at higher temperature than the live wire"
+    ],
+    "answer": 1,
+    "explanation": "If a fuse is installed in the neutral line and blows, the connection to ground through neutral is broken, but the appliance remains energized at 220 V live potential. Touching the metal chassis will cause current to pass through the human body to ground, causing lethal shock. Placing it in the live wire isolates the appliance completely upon blowing.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-010",
+    "type": "mcq",
+    "subtopic": "Plug Standards: Three-Pin vs Two-Pin Classification",
+    "difficulty": "Medium",
+    "question": "Why do heavy appliances like electric geysers and refrigerators require a three-pin plug with a thicker top pin, while mobile chargers and plastic hair dryers use two-pin plugs?",
+    "options": [
+      "Mobile chargers operate on 440 V",
+      "Metal-bodied appliances have exposed conducting frames requiring earthing for safety; plastic appliances are 'double insulated' and have no exposed metal parts to carry shock",
+      "The third pin is only used to charge batteries",
+      "Two-pin plugs prevent high electricity bills"
+    ],
+    "answer": 1,
+    "explanation": "Appliances with metallic enclosures must have the earth wire bonded to their chassis via the third (longer and thicker) earth pin. If internal insulation fails, leakage current shunts to earth safely. Plastic-cased ('double insulated') devices have non-conducting exteriors that cannot become live, so a two-pin plug suffices.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-011",
+    "type": "mcq",
+    "subtopic": "Force on Stationary vs Moving Charges",
+    "difficulty": "Hard",
+    "question": "A stationary alpha particle (charge +2e, velocity v = 0) is placed inside an extremely powerful 10 Tesla uniform magnetic field. What is the magnitude of the magnetic force acting on the alpha particle?",
+    "options": [
+      "20 Newtons",
+      "Zero Newtons",
+      "3.2 * 10^-18 Newtons",
+      "Infinite force"
+    ],
+    "answer": 1,
+    "explanation": "Magnetic force on a charged particle is given by Lorentz magnetic force F = q * v * B * sin(theta). A magnetic field only exerts force on MOVING charges (v > 0). Because the particle is stationary (v = 0), the magnetic force acting on it is strictly zero.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-012",
+    "type": "mcq",
+    "subtopic": "Overhead Power Line: Magnetic Field Direction",
+    "difficulty": "Hard",
+    "question": "A horizontal high-voltage transmission line carries a heavy direct current from East to West. What is the direction of the magnetic field at a point situated directly BELOW the wire?",
+    "options": [
+      "Towards the North",
+      "Towards the South",
+      "Towards the East",
+      "Towards the West"
+    ],
+    "answer": 1,
+    "explanation": "Apply the Right-Hand Thumb Rule: point the right thumb toward the West (direction of current). Below the wire, the curled fingers wrap and point toward the South (and above the wire, they point toward the North).",
+    "citation": "NCERT Class 10 Science, Chapter 12, Example 12.1"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-013",
+    "type": "mcq",
+    "subtopic": "Field Line Density: Measurement of Field Strength",
+    "difficulty": "Easy",
+    "question": "In a magnetic field line diagram, how is the relative strength (magnitude) of the magnetic field visually indicated?",
+    "options": [
+      "By the thickness and color of the ink",
+      "By the degree of closeness (crowding) of the field lines",
+      "By the length of the straight segments",
+      "By the number of arrowheads drawn on each line"
+    ],
+    "answer": 1,
+    "explanation": "The relative strength of the magnetic field is shown by the degree of closeness of the field lines. Where the field lines are crowded close together (such as near the poles of a magnet), the magnetic field is strongest; where they are spaced widely apart, the field is weak.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.1 Magnetic Field and Field Lines"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-014",
+    "type": "mcq",
+    "subtopic": "Freely Suspended Solenoid: Alignment in Earth's Field",
+    "difficulty": "Medium",
+    "question": "A current-carrying solenoid is suspended freely by a thin thread so that it can rotate horizontally. How does it align itself when coming to rest?",
+    "options": [
+      "It spins continuously without stopping",
+      "It aligns itself in the geographic North-South direction, exactly like a suspended bar magnet",
+      "It aligns strictly along the East-West line",
+      "It points vertically toward the center of the Earth"
+    ],
+    "answer": 1,
+    "explanation": "A current-carrying solenoid behaves identical to a cylindrical bar magnet, having a North magnetic pole at one end and a South magnetic pole at the other. When suspended freely, it aligns in the Earth's geographic North-South direction.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Magnetic Field due to a Current in a Solenoid"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-015",
+    "type": "mcq",
+    "subtopic": "Biomagnetism & Medical Imaging: MRI Technology",
+    "difficulty": "Medium",
+    "question": "Which medical imaging modality relies on the extremely weak magnetic fields naturally produced by neural ion currents inside the human body (especially the brain and heart)?",
+    "options": [
+      "X-ray Radiography",
+      "Magnetic Resonance Imaging (MRI)",
+      "Ultrasound Sonography",
+      "Positron Emission Tomography (PET)"
+    ],
+    "answer": 1,
+    "explanation": "Nerve impulses travel along neurons as ionic currents, producing tiny endogenous magnetic fields in organs such as the heart and brain. In hospital MRI scans, these internal biological fields interact with external superconducting magnets to construct detailed, high-resolution diagnostic cross-sections.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3.1 Magnetism in Medicine"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-016",
+    "type": "mcq",
+    "subtopic": "Permanent Magnet Alloys: Alnico and Ferrite",
+    "difficulty": "Medium",
+    "question": "Which specialized alloy is typically chosen for the industrial manufacture of powerful permanent magnets (such as those in audio loudspeakers)?",
+    "options": [
+      "Soft annealed iron",
+      "Alnico (alloy of aluminum, nickel, cobalt, and iron)",
+      "Brass (copper and zinc)",
+      "Solder (lead and tin)"
+    ],
+    "answer": 1,
+    "explanation": "Permanent magnets require materials with high retentivity and high coercivity so they do not lose their magnetism over time or under mechanical shocks. Special ferromagnetic alloys like Alnico (Aluminum-Nickel-Cobalt) and Carbon Steel are used.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Electromagnet"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-017",
+    "type": "mcq",
+    "subtopic": "Overloading Triggers in Domestic Wiring",
+    "difficulty": "Medium",
+    "question": "Which of the following events can trigger an dangerous electrical overloading condition in a residential installation?",
+    "options": [
+      "Connecting multiple high-power electrical appliances to a single multiple-socket adapter",
+      "A sudden unpredicted surge in the utility supply voltage",
+      "Direct accidental physical contact between the live wire and neutral wire",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Overloading occurs when total current drawn exceeds circuit capacity. This can be caused by plugging too many appliances into one socket, an unexpected supply voltage surge, or when live and neutral wires touch directly (short circuit), causing an extreme current surge.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-018",
+    "type": "mcq",
+    "subtopic": "Neutral Points in Magnetic Fields",
+    "difficulty": "Hard",
+    "question": "What is a 'Neutral Point' in a magnetic field mapping experiment?",
+    "options": [
+      "A point where a compass needle spins rapidly at 1000 rpm",
+      "A point where the magnetic field of the bar magnet is exactly equal in magnitude and opposite in direction to the horizontal component of Earth's magnetic field, making the resultant net field zero",
+      "A point located exactly at the geometric center of the bar magnet",
+      "A point where gravity cancels magnetic attraction"
+    ],
+    "answer": 1,
+    "explanation": "At a neutral point, the magnetic field produced by the magnet is completely balanced and canceled out by Earth's horizontal magnetic field (B_net = 0). A compass needle placed at a neutral point experiences no orienting magnetic torque and can point in any arbitrary direction.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.1 Magnetic Field and Field Lines"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-019",
+    "type": "mcq",
+    "subtopic": "Magnetic Field of Straight Wire: Field Reversal",
+    "difficulty": "Easy",
+    "question": "If the direction of electric current in a vertical wire is reversed from downwards to upwards, what happens to the direction of the magnetic field lines encircling the wire?",
+    "options": [
+      "The field lines disappear permanently",
+      "The direction of the circular field lines reverses (e.g. from clockwise to anticlockwise when viewed from above)",
+      "The field lines transform into straight radial spokes",
+      "The field strength increases tenfold"
+    ],
+    "answer": 1,
+    "explanation": "By the Right-Hand Thumb Rule, reversing the direction of current reverses the sense of circulation of the concentric magnetic field lines (from clockwise to anticlockwise as viewed from above).",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.1 Magnetic Field due to a Current through a Straight Conductor"
+  },
+  {
+    "id": "cbse10-sci-ch12-s2-020",
+    "type": "mcq",
+    "subtopic": "AC vs DC Frequency in Electricity",
+    "difficulty": "Easy",
+    "question": "What is the frequency of direct current (DC) supplied by a dry chemical cell or storage battery?",
+    "options": [
+      "50 Hz",
+      "0 Hz (zero cycles per second)",
+      "60 Hz",
+      "100 Hz"
+    ],
+    "answer": 1,
+    "explanation": "Direct current (DC) flows continuously in one direction with constant polarity; it does not oscillate or alternate. Therefore, its frequency of alternation is exactly 0 Hz.",
+    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits"
+  }
+]

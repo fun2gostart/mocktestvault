@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CBSE Class 10 Mock Test Vault — Current Curriculum Progress</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(150, 150, 150, 0.3); border-radius: 4px; }
+    .badge-done { background: rgba(34, 197, 94, 0.15); color: #16a34a; border: 1px solid rgba(34, 197, 94, 0.3); }
+    .badge-pending { background: rgba(234, 179, 8, 0.15); color: #ca8a04; border: 1px solid rgba(234, 179, 8, 0.3); }
+  </style>
+</head>
+<body class="bg-[#0f172a] text-[#f8fafc] antialiased p-4 md:p-6 font-sans">
+
+  <div class="w-full space-y-6">
+
+    <!-- Header Banner -->
+    <div class="bg-[#1e293b] border border-[#334155] rounded-2xl p-6 md:p-8 shadow-xl">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <span class="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+              ● Curriculum Status: Paused for Review
+            </span>
+            <span class="px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-400 border border-blue-500/30">
+              Port 8085 Active
+            </span>
+          </div>
+          <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight text-white">
+            CBSE Class 10 Board Test Vault
+          </h1>
+          <p class="text-sm md:text-base text-[#94a3b8] mt-1">
+            Programmatic 60-Question Chapter Packs • 3 Distinct Pedagogical Sets • Zero Ads • 100% NCERT Grounding
+          </p>
+        </div>
+
+        <!-- Local Server Quick Launch Button -->
+        <div class="flex items-center gap-3">
+          <a href="/cbse-class-10/index.html"
+             class="px-5 py-2.5 rounded-xl font-semibold text-sm bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white shadow-lg shadow-blue-500/25 transition-all transform hover:-translate-y-0.5 text-center flex items-center gap-2">
+            <span>🚀 Open Full CBSE Class 10 Portal</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- High-Level Metric Tiles -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6 pt-6 border-t border-[#334155]">
+        <div class="bg-[#0f172a]/60 rounded-xl p-4 border border-[#334155]">
+          <span class="text-xs uppercase tracking-wider text-[#94a3b8]">Total Progress</span>
+          <div class="text-2xl font-black text-emerald-400 mt-1">77.1%</div>
+          <span class="text-xs text-[#94a3b8]">37 of 48 Chapters</span>
+        </div>
+
+        <div class="bg-[#0f172a]/60 rounded-xl p-4 border border-[#334155]">
+          <span class="text-xs uppercase tracking-wider text-[#94a3b8]">Live Questions</span>
+          <div class="text-2xl font-black text-blue-400 mt-1">2,220</div>
+          <span class="text-xs text-[#94a3b8]">Target: 2,880 Qs</span>
+        </div>
+
+        <div class="bg-[#0f172a]/60 rounded-xl p-4 border border-[#334155]">
+          <span class="text-xs uppercase tracking-wider text-[#94a3b8]">Science & Math</span>
+          <div class="text-2xl font-black text-purple-400 mt-1">100%</div>
+          <span class="text-xs text-[#94a3b8]">27 / 27 Chapters Live</span>
+        </div>
+
+        <div class="bg-[#0f172a]/60 rounded-xl p-4 border border-[#334155]">
+          <span class="text-xs uppercase tracking-wider text-[#94a3b8]">Social Science</span>
+          <div class="text-2xl font-black text-amber-400 mt-1">10 / 21</div>
+          <span class="text-xs text-[#94a3b8]">600 Qs Live (11 Pending)</span>
+        </div>
+      </div>
+
+      <!-- Overall Visual Progress Bar -->
+      <div class="mt-6">
+        <div class="flex justify-between text-xs font-medium text-[#94a3b8] mb-2">
+          <span>Overall Curriculum Completion (2,220 / 2,880 Questions)</span>
+          <span class="font-bold text-emerald-400">77.1%</span>
+        </div>
+        <div class="w-full bg-[#0f172a] rounded-full h-3 border border-[#334155] overflow-hidden flex">
+          <div class="bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-400 h-full rounded-full transition-all duration-500" style="width: 77.1%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subject Filter Tabs & Search -->
+    <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div class="flex bg-[#1e293b] p-1.5 rounded-xl border border-[#334155] gap-1 w-full sm:w-auto overflow-x-auto" id="subject-tabs">
+        <button onclick="filterSubject('all')" class="tab-btn px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all bg-blue-600 text-white" data-target="all">
+          All Subjects (48)
+        </button>
+        <button onclick="filterSubject('science')" class="tab-btn px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all text-[#94a3b8] hover:text-white" data-target="science">
+          🔬 Science (13/13)
+        </button>
+        <button onclick="filterSubject('mathematics')" class="tab-btn px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all text-[#94a3b8] hover:text-white" data-target="mathematics">
+          📐 Mathematics (14/14)
+        </button>
+        <button onclick="filterSubject('social-science')" class="tab-btn px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all text-[#94a3b8] hover:text-white" data-target="social-science">
+          🌍 Social Science (10/21)
+        </button>
+      </div>
+
+      <div class="relative w-full sm:w-72">
+        <input type="text" id="chapter-search" placeholder="Search chapters, topics..."
+               oninput="searchChapters(this.value)"
+               class="w-full px-4 py-2 rounded-xl text-sm bg-[#1e293b] border border-[#334155] text-white focus:outline-none focus:border-blue-500" />
+        <span class="absolute right-3 top-2.5 text-xs text-[#94a3b8]">🔍</span>
+      </div>
+    </div>
+
+    <!-- Chapter Grid -->
+    <div id="chapter-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <!-- Set Structure Explainer Card -->
+    <div class="bg-[#1e293b] border border-[#334155] rounded-2xl p-6 shadow-md">
+      <h3 class="text-base font-bold text-white mb-3 flex items-center gap-2">
+        <span>📚</span> Every Live Chapter Includes 3 Standardised Pedagogical Sets (60 Qs Total)
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+        <div class="p-3.5 rounded-xl bg-[#0f172a]/50 border border-blue-500/20">
+          <div class="font-bold text-blue-400 text-sm mb-1">Set 1: Board Foundation (20 Qs)</div>
+          <p class="text-[#94a3b8] leading-relaxed">
+            Core definitions, fundamental equations, direct textbook NCERT diagrams, key formulas, and foundational memory recall.
+          </p>
+        </div>
+        <div class="p-3.5 rounded-xl bg-[#0f172a]/50 border border-purple-500/20">
+          <div class="font-bold text-purple-400 text-sm mb-1">Set 2: NCERT Exemplar & Applications (20 Qs)</div>
+          <p class="text-[#94a3b8] leading-relaxed">
+            High Order Thinking Skills (HOTS), multi-step mathematical calculations, conceptual boundary conditions, and experimental setups.
+          </p>
+        </div>
+        <div class="p-3.5 rounded-xl bg-[#0f172a]/50 border border-emerald-500/20">
+          <div class="font-bold text-emerald-400 text-sm mb-1">Set 3: Assertion-Reason & Case Studies (20 Qs)</div>
+          <p class="text-[#94a3b8] leading-relaxed">
+            Standard board Assertion & Reason format (A/R relationships) plus paragraph-based competency comprehension questions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const CHAPTERS = [
+      // SCIENCE (13/13)
+      { id: 'sci_01', sub: 'science', title: 'Ch 1: Chemical Reactions and Equations', url: 'science/ch01_chemical_reactions.html', sets: 3, qs: 60, status: 'DONE', topics: 'Balancing, redox, displacement, corrosion, rancidity' },
+      { id: 'sci_02', sub: 'science', title: 'Ch 2: Acids, Bases and Salts', url: 'science/ch02_acids_bases_salts.html', sets: 3, qs: 60, status: 'DONE', topics: 'pH scale, chlor-alkali process, POP, bleaching powder' },
+      { id: 'sci_03', sub: 'science', title: 'Ch 3: Metals and Non-Metals', url: 'science/ch03_metals_non_metals.html', sets: 3, qs: 60, status: 'DONE', topics: 'Reactivity series, ionic bonding, metallurgy, thermite' },
+      { id: 'sci_04', sub: 'science', title: 'Ch 4: Carbon and Its Compounds', url: 'science/ch04_carbon_compounds.html', sets: 3, qs: 60, status: 'DONE', topics: 'Covalent bonding, homologous series, saponification' },
+      { id: 'sci_05', sub: 'science', title: 'Ch 5: Life Processes', url: 'science/ch05_life_processes.html', sets: 3, qs: 60, status: 'DONE', topics: 'Photosynthesis, double circulation, nephron, respiration' },
+      { id: 'sci_06', sub: 'science', title: 'Ch 6: Control and Coordination', url: 'science/ch06_control_coordination.html', sets: 3, qs: 60, status: 'DONE', topics: 'Neuron, reflex arc, brain anatomy, phytohormones' },
+      { id: 'sci_07', sub: 'science', title: 'Ch 7: How do Organisms Reproduce?', url: 'science/ch07_how_organisms_reproduce.html', sets: 3, qs: 60, status: 'DONE', topics: 'Fission, budding, flower structure, double fertilization' },
+      { id: 'sci_08', sub: 'science', title: 'Ch 8: Heredity', url: 'science/ch08_heredity.html', sets: 3, qs: 60, status: 'DONE', topics: 'Mendel laws, monohybrid/dihybrid, sex determination' },
+      { id: 'sci_09', sub: 'science', title: 'Ch 9: Light — Reflection and Refraction', url: 'science/ch09_light_reflection_refraction.html', sets: 3, qs: 60, status: 'DONE', topics: 'Mirror & lens formulas, ray diagrams, refractive index' },
+      { id: 'sci_10', sub: 'science', title: 'Ch 10: Human Eye and Colourful World', url: 'science/ch10_human_eye_colourful_world.html', sets: 3, qs: 60, status: 'DONE', topics: 'Myopia, hypermetropia, dispersion, atmospheric refraction' },
+      { id: 'sci_11', sub: 'science', title: 'Ch 11: Electricity', url: 'science/ch11_electricity.html', sets: 3, qs: 60, status: 'DONE', topics: 'Ohm law, series/parallel combinations, Joule heating' },
+      { id: 'sci_12', sub: 'science', title: 'Ch 12: Magnetic Effects of Electric Current', url: 'science/ch12_magnetic_effects_electric_current.html', sets: 3, qs: 60, status: 'DONE', topics: 'Right hand thumb rule, solenoid, Fleming left hand rule' },
+      { id: 'sci_13', sub: 'science', title: 'Ch 13: Our Environment', url: 'science/ch13_our_environment.html', sets: 3, qs: 60, status: 'DONE', topics: 'Trophic levels, 10% law, biomagnification, ozone depletion' },
+
+      // MATHEMATICS (14/14)
+      { id: 'math_01', sub: 'mathematics', title: 'Ch 1: Real Numbers', url: 'mathematics/ch01_real_numbers.html', sets: 3, qs: 60, status: 'DONE', topics: 'Fundamental Theorem of Arithmetic, irrationality proofs' },
+      { id: 'math_02', sub: 'mathematics', title: 'Ch 2: Polynomials', url: 'mathematics/ch02_polynomials.html', sets: 3, qs: 60, status: 'DONE', topics: 'Zeroes of quadratic polynomials, coefficient relations' },
+      { id: 'math_03', sub: 'mathematics', title: 'Ch 3: Linear Equations in Two Variables', url: 'mathematics/ch03_linear_equations_two_variables.html', sets: 3, qs: 60, status: 'DONE', topics: 'Substitution, elimination, consistency conditions' },
+      { id: 'math_04', sub: 'mathematics', title: 'Ch 4: Quadratic Equations', url: 'mathematics/ch04_quadratic_equations.html', sets: 3, qs: 60, status: 'DONE', topics: 'Factorisation, quadratic formula, nature of roots' },
+      { id: 'math_05', sub: 'mathematics', title: 'Ch 5: Arithmetic Progressions', url: 'mathematics/ch05_arithmetic_progressions.html', sets: 3, qs: 60, status: 'DONE', topics: 'nth term, sum of first n terms, practical applications' },
+      { id: 'math_06', sub: 'mathematics', title: 'Ch 6: Triangles', url: 'mathematics/ch06_triangles.html', sets: 3, qs: 60, status: 'DONE', topics: 'Basic Proportionality Theorem (BPT), AAA, SAS, SSS' },
+      { id: 'math_07', sub: 'mathematics', title: 'Ch 7: Coordinate Geometry', url: 'mathematics/ch07_coordinate_geometry.html', sets: 3, qs: 60, status: 'DONE', topics: 'Distance formula, section formula, midpoint formula' },
+      { id: 'math_08', sub: 'mathematics', title: 'Ch 8: Introduction to Trigonometry', url: 'mathematics/ch08_introduction_to_trigonometry.html', sets: 3, qs: 60, status: 'DONE', topics: 'Trigonometric ratios, values for 0, 30, 45, 60, 90, identities' },
+      { id: 'math_09', sub: 'mathematics', title: 'Ch 9: Some Applications of Trigonometry', url: 'mathematics/ch09_some_applications_of_trigonometry.html', sets: 3, qs: 60, status: 'DONE', topics: 'Angles of elevation & depression, heights & distances' },
+      { id: 'math_10', sub: 'mathematics', title: 'Ch 10: Circles', url: 'mathematics/ch10_circles.html', sets: 3, qs: 60, status: 'DONE', topics: 'Tangent perpendicular to radius, equal tangents from external point' },
+      { id: 'math_11', sub: 'mathematics', title: 'Ch 11: Areas Related to Circles', url: 'mathematics/ch11_areas_related_to_circles.html', sets: 3, qs: 60, status: 'DONE', topics: 'Sectors, segments, combinations of plane figures' },
+      { id: 'math_12', sub: 'mathematics', title: 'Ch 12: Surface Areas and Volumes', url: 'mathematics/ch12_surface_areas_volumes.html', sets: 3, qs: 60, status: 'DONE', topics: 'Combinations of solids: cubes, cones, cylinders, spheres' },
+      { id: 'math_13', sub: 'mathematics', title: 'Ch 13: Statistics', url: 'mathematics/ch13_statistics.html', sets: 3, qs: 60, status: 'DONE', topics: 'Mean (direct/assumed), mode of grouped data, median' },
+      { id: 'math_14', sub: 'mathematics', title: 'Ch 14: Probability', url: 'mathematics/ch14_probability.html', sets: 3, qs: 60, status: 'DONE', topics: 'Classical theoretical probability, cards, coins, dice' },
+
+      // SOCIAL SCIENCE (10 Done, 11 Pending)
+      { id: 'sst_01', sub: 'social-science', title: 'History Ch 1: Rise of Nationalism in Europe', url: 'social-science/ch01_rise_of_nationalism_europe.html', sets: 3, qs: 60, status: 'DONE', topics: 'Frederic Sorrieu, Napoleonic Code, Treaty of Vienna, Mazzini' },
+      { id: 'sst_02', sub: 'social-science', title: 'History Ch 2: Nationalism in India', url: 'social-science/ch02_nationalism_in_india.html', sets: 3, qs: 60, status: 'DONE', topics: 'Rowlatt Act, Non-Cooperation, Dandi March, Poona Pact' },
+      { id: 'sst_03', sub: 'social-science', title: 'History Ch 3: Making of a Global World', url: 'social-science/ch03_making_of_a_global_world.html', sets: 3, qs: 60, status: 'DONE', topics: 'Silk Routes, Rinderpest, Great Depression, Bretton Woods' },
+      { id: 'sst_04', sub: 'social-science', title: 'History Ch 4: Age of Industrialisation', url: 'social-science/ch04_age_of_industrialisation.html', sets: 3, qs: 60, status: 'DONE', topics: 'Proto-industrialisation, steam power, Indian weavers, market for goods' },
+      { id: 'sst_05', sub: 'social-science', title: 'History Ch 5: Print Culture & Modern World', url: 'social-science/ch05_print_culture_modern_world.html', sets: 3, qs: 60, status: 'DONE', topics: 'Gutenberg press, Martin Luther, Vernacular Press Act 1878' },
+      { id: 'sst_06', sub: 'social-science', title: 'Geography Ch 1: Resources & Development', url: 'social-science/ch06_resources_and_development.html', sets: 3, qs: 60, status: 'DONE', topics: 'Resource planning, land degradation, Indian soils (Alluvial, Black, Red)' },
+      { id: 'sst_07', sub: 'social-science', title: 'Geography Ch 2: Forest & Wildlife Resources', url: 'social-science/ch07_forest_and_wildlife_resources.html', sets: 3, qs: 60, status: 'DONE', topics: 'IUCN categories, Project Tiger, Joint Forest Management (JFM)' },
+      { id: 'sst_08', sub: 'social-science', title: 'Geography Ch 3: Water Resources', url: 'social-science/ch08_water_resources.html', sets: 3, qs: 60, status: 'DONE', topics: 'Dams/multipurpose projects, rainwater harvesting (Kuls, Tankas)' },
+      { id: 'sst_09', sub: 'social-science', title: 'Geography Ch 4: Agriculture', url: 'social-science/ch09_agriculture.html', sets: 3, qs: 60, status: 'DONE', topics: 'Rabi/Kharif/Zaid crops, rice, wheat, cotton, Green Revolution' },
+      { id: 'sst_10', sub: 'social-science', title: 'Geography Ch 5: Minerals & Energy Resources', url: 'social-science/ch10_minerals_and_energy_resources.html', sets: 3, qs: 60, status: 'DONE', topics: 'Ferrous/non-ferrous, coal belts, petroleum basins, non-conventional' },
+
+      // PENDING SST CHAPTERS
+      { id: 'sst_11', sub: 'social-science', title: 'Geography Ch 6: Manufacturing Industries', url: 'social-science/ch11_manufacturing_industries.html', sets: 0, qs: 0, status: 'PENDING', topics: 'Agro vs mineral industries, steel, aluminium, NTPC pollution control' },
+      { id: 'sst_12', sub: 'social-science', title: 'Geography Ch 7: Lifelines of National Economy', url: 'social-science/ch12_lifelines_of_national_economy.html', sets: 0, qs: 0, status: 'PENDING', topics: 'Golden Quadrilateral, 12 major ports, NW1 Ganga, trade balance' },
+      { id: 'sst_13', sub: 'social-science', title: 'Civics Ch 1: Power Sharing', url: 'social-science/ch13_power_sharing.html', sets: 0, qs: 0, status: 'PENDING', topics: 'Belgium model, Sri Lanka majoritarianism, horizontal/vertical sharing' },
+      { id: 'sst_14', sub: 'social-science', title: 'Civics Ch 2: Federalism', url: 'social-science/ch14_federalism.html', sets: 0, qs: 0, status: 'PENDING', topics: 'Union/State/Concurrent lists, decentralisation, 1992 amendment' },
+      { id: 'sst_15', sub: 'social-science', title: 'Civics Ch 3: Gender, Religion and Caste', url: 'social-science/ch15_gender_religion_caste.html', sets: 0, qs: 0, status: 'PENDING', topics: 'Sexual division of labour, secular state model, caste inequalities' },
+      { id: 'sst_16', sub: 'social-science', title: 'Civics Ch 4: Political Parties', url: 'social-science/ch16_political_parties.html', sets: 0, qs: 0, status: 'PENDING', topics: 'Functions, party systems, national vs state party criteria, reforms' },
+      { id: 'sst_17', sub: 'social-science', title: 'Civics Ch 5: Outcomes of Democracy', url: 'social-science/ch17_outcomes_of_democracy.html', sets: 0, qs: 0, status: 'PENDING', topics: 'Accountable/responsive governance, economic growth, dignity of citizens' },
+      { id: 'sst_18', sub: 'social-science', title: 'Economics Ch 1: Development', url: 'social-science/ch18_development.html', sets: 0, qs: 0, status: 'PENDING', topics: 'World Bank PCI, UNDP HDI, infant mortality, public facilities' },
+      { id: 'sst_19', sub: 'social-science', title: 'Economics Ch 2: Sectors of the Indian Economy', url: 'social-science/ch19_sectors_of_indian_economy.html', sets: 0, qs: 0, status: 'PENDING', topics: 'Primary/Secondary/Tertiary, disguised unemployment, MGNREGA 2005' },
+      { id: 'sst_20', sub: 'social-science', title: 'Economics Ch 3: Money and Credit', url: 'social-science/ch20_money_and_credit.html', sets: 0, qs: 0, status: 'PENDING', topics: 'Double coincidence, modern money, terms of credit, SHGs, RBI role' },
+      { id: 'sst_21', sub: 'social-science', title: 'Economics Ch 4: Globalisation & Indian Economy', url: 'social-science/ch21_globalisation_and_indian_economy.html', sets: 0, qs: 0, status: 'PENDING', topics: 'MNC operations, foreign trade, WTO, SEZs, fair globalisation' }
+    ];
+
+    let currentFilter = 'all';
+    let searchQuery = '';
+
+    function renderChapters() {
+      const container = document.getElementById('chapter-grid');
+      const filtered = CHAPTERS.filter(ch => {
+        const matchesSub = currentFilter === 'all' || ch.sub === currentFilter;
+        const matchesSearch = !searchQuery ||
+          ch.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          ch.topics.toLowerCase().includes(searchQuery.toLowerCase());
+        return matchesSub && matchesSearch;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="col-span-full py-12 text-center text-[#94a3b8]">
+            No chapters match your search or filter criteria.
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filtered.map(ch => {
+        const isDone = ch.status === 'DONE';
+        const badgeClass = isDone ? 'badge-done' : 'badge-pending';
+        const badgeLabel = isDone ? `${ch.sets} Sets • 60 Qs Live` : 'Pending Generation';
+        const testUrl = `/cbse-class-10/${ch.url}`;
+
+        return `
+          <div class="bg-[#1e293b] border border-[#334155] hover:border-blue-500/50 rounded-2xl p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all group">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full ${badgeClass}">
+                  ${badgeLabel}
+                </span>
+                <span class="text-[11px] text-[#94a3b8] capitalize">
+                  ${ch.sub.replace('-', ' ')}
+                </span>
+              </div>
+              <h4 class="font-bold text-white text-sm md:text-base leading-snug group-hover:text-blue-400 transition-colors">
+                ${ch.title}
+              </h4>
+              <p class="text-xs text-[#94a3b8] mt-2 line-clamp-2 leading-relaxed">
+                ${ch.topics}
+              </p>
+            </div>
+
+            <div class="mt-4 pt-4 border-t border-[#334155] flex items-center justify-between gap-2">
+              ${isDone ? `
+                <a href="${testUrl}" target="_blank"
+                   class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-600/20 hover:bg-blue-600 text-blue-400 hover:text-white border border-blue-500/30 transition-all">
+                  <span>Start Test Simulator</span>
+                  <span>→</span>
+                </a>
+                <span class="text-[11px] text-emerald-400 font-medium">✓ Verified</span>
+              ` : `
+                <span class="text-xs text-[#94a3b8] italic">Next in pipeline</span>
+                <span class="text-[11px] text-amber-400 font-medium">On Hold</span>
+              `}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function filterSubject(sub) {
+      currentFilter = sub;
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        if (btn.getAttribute('data-target') === sub) {
+          btn.className = 'tab-btn px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all bg-blue-600 text-white';
+        } else {
+          btn.className = 'tab-btn px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all text-[#94a3b8] hover:text-white';
+        }
+      });
+      renderChapters();
+    }
+
+    function searchChapters(val) {
+      searchQuery = val.trim();
+      renderChapters();
+    }
+
+    renderChapters();
+  </script>
+</body>
+</html>

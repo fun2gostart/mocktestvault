@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "cbse10-math-ch04-s1-001",
+      "type": "mcq",
+      "subtopic": "Standard Form of Quadratic Equation",
+      "difficulty": "Easy",
+      "question": "Which of the following equations is NOT a quadratic equation?",
+      "options": [
+        "(x - 2)^2 + 1 = 2x - 3",
+        "x(x + 1) + 8 = (x + 2)(x - 2)",
+        "x(2x + 3) = x^2 + 1",
+        "(x + 2)^3 = x^3 - 4"
+      ],
+      "answer": 1,
+      "explanation": "Expanding (b): x^2 + x + 8 = x^2 - 4 => x + 12 = 0. The x^2 terms cancel out, leaving a linear equation of degree 1. Thus it is NOT a quadratic equation.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.2, Example 2"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-002",
+      "type": "mcq",
+      "subtopic": "Discriminant & Nature of Roots",
+      "difficulty": "Easy",
+      "question": "For a quadratic equation ax^2 + bx + c = 0 (a != 0), the roots are real and distinct if the discriminant D = b^2 - 4ac satisfies:",
+      "options": [
+        "D > 0",
+        "D = 0",
+        "D < 0",
+        "D <= 0"
+      ],
+      "answer": 0,
+      "explanation": "According to the discriminant rules, when D > 0, the quadratic formula yields two distinct real roots: x = (-b +- sqrt(D))/(2a).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-003",
+      "type": "mcq",
+      "subtopic": "Condition for Equal Roots",
+      "difficulty": "Medium",
+      "question": "If the quadratic equation 2x^2 - kx + 2 = 0 has two equal real roots, what are the possible values of k?",
+      "options": [
+        "k = +-4",
+        "k = +-2",
+        "k = +-8",
+        "k = +-16"
+      ],
+      "answer": 0,
+      "explanation": "For equal roots, D = 0 => b^2 - 4ac = 0 => (-k)^2 - 4(2)(2) = 0 => k^2 - 16 = 0 => k^2 = 16 => k = +-4.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.4 Question 2"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-004",
+      "type": "mcq",
+      "subtopic": "Factorisation Method",
+      "difficulty": "Easy",
+      "question": "What are the roots of the quadratic equation x^2 - 3x - 10 = 0?",
+      "options": [
+        "5 and -2",
+        "-5 and 2",
+        "5 and 2",
+        "-5 and -2"
+      ],
+      "answer": 0,
+      "explanation": "Splitting the middle term: x^2 - 5x + 2x - 10 = 0 => x(x - 5) + 2(x - 5) = 0 => (x - 5)(x + 2) = 0. Therefore, x = 5 or x = -2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.3"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-005",
+      "type": "mcq",
+      "subtopic": "Radical Factorisation",
+      "difficulty": "Medium",
+      "question": "Find the roots of the equation sqrt(2) x^2 + 7x + 5 sqrt(2) = 0.",
+      "options": [
+        "-sqrt(2) and -5/sqrt(2)",
+        "sqrt(2) and 5/sqrt(2)",
+        "-2 and -5",
+        "-sqrt(2) and 5"
+      ],
+      "answer": 0,
+      "explanation": "Product of a and c = sqrt(2) * 5*sqrt(2) = 10. Split 7 into 5 and 2: sqrt(2)x^2 + 2x + 5x + 5*sqrt(2) = 0 => sqrt(2)x(x + sqrt(2)) + 5(x + sqrt(2)) = 0 => (x + sqrt(2))(sqrt(2)x + 5) = 0. Hence x = -sqrt(2) or x = -5/sqrt(2).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.2 Question 1(iii)"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-006",
+      "type": "mcq",
+      "subtopic": "Quadratic Formula",
+      "difficulty": "Easy",
+      "question": "Which of the following expressions represents the quadratic formula for ax^2 + bx + c = 0?",
+      "options": [
+        "x = (-b +- sqrt(b^2 - 4ac)) / (2a)",
+        "x = (-b +- sqrt(b^2 + 4ac)) / (2a)",
+        "x = (b +- sqrt(b^2 - 4ac)) / (2a)",
+        "x = (-b +- sqrt(b^2 - 4ac)) / a"
+      ],
+      "answer": 0,
+      "explanation": "The quadratic formula discovered by Indian mathematician Sridharacharya states x = (-b +- sqrt(b^2 - 4ac)) / (2a).",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.4"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-007",
+      "type": "mcq",
+      "subtopic": "Discriminant Evaluation",
+      "difficulty": "Easy",
+      "question": "The discriminant of the quadratic equation 2x^2 - 4x + 3 = 0 is:",
+      "options": [
+        "-8",
+        "8",
+        "-40",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "Discriminant D = b^2 - 4ac = (-4)^2 - 4(2)(3) = 16 - 24 = -8.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-008",
+      "type": "mcq",
+      "subtopic": "No Real Roots Condition",
+      "difficulty": "Easy",
+      "question": "A quadratic equation ax^2 + bx + c = 0 has NO real roots if:",
+      "options": [
+        "b^2 - 4ac < 0",
+        "b^2 - 4ac > 0",
+        "b^2 - 4ac = 0",
+        "b^2 - 4ac >= 0"
+      ],
+      "answer": 0,
+      "explanation": "When the discriminant D = b^2 - 4ac is negative (< 0), the square root of D is not a real number, meaning there are no real roots.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-009",
+      "type": "mcq",
+      "subtopic": "Root Verification",
+      "difficulty": "Easy",
+      "question": "Which of the following is a root of the quadratic equation 6x^2 - x - 2 = 0?",
+      "options": [
+        "2/3",
+        "3/2",
+        "1/2",
+        "-2/3"
+      ],
+      "answer": 0,
+      "explanation": "6x^2 - x - 2 = 6x^2 - 4x + 3x - 2 = 2x(3x - 2) + 1(3x - 2) = (3x - 2)(2x + 1) = 0. The roots are x = 2/3 and x = -1/2. Thus 2/3 is a root.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.2 Question 1(iv)"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-010",
+      "type": "mcq",
+      "subtopic": "Consecutive Positive Integers",
+      "difficulty": "Medium",
+      "question": "The product of two consecutive positive integers is 306. What is the quadratic equation to determine the smaller integer x?",
+      "options": [
+        "x^2 + x - 306 = 0",
+        "x^2 - x - 306 = 0",
+        "x^2 + 2x - 306 = 0",
+        "x^2 + x + 306 = 0"
+      ],
+      "answer": 0,
+      "explanation": "Let the consecutive positive integers be x and x + 1. Their product is x(x + 1) = 306 => x^2 + x - 306 = 0.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.1"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-011",
+      "type": "mcq",
+      "subtopic": "Sum and Product of Roots",
+      "difficulty": "Medium",
+      "question": "If alpha and beta are the roots of the quadratic equation 3x^2 - 5x + 2 = 0, what is the value of alpha + beta and alpha * beta?",
+      "options": [
+        "alpha + beta = 5/3, alpha * beta = 2/3",
+        "alpha + beta = -5/3, alpha * beta = 2/3",
+        "alpha + beta = 5/3, alpha * beta = -2/3",
+        "alpha + beta = 2/3, alpha * beta = 5/3"
+      ],
+      "answer": 0,
+      "explanation": "For ax^2 + bx + c = 0, sum of roots alpha + beta = -b/a = -(-5)/3 = 5/3. Product of roots alpha * beta = c/a = 2/3.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.4"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-012",
+      "type": "mcq",
+      "subtopic": "Solving Fractional Equation",
+      "difficulty": "Medium",
+      "question": "Find the roots of the equation x + 1/x = 3 (x != 0).",
+      "options": [
+        "(3 +- sqrt(5)) / 2",
+        "(3 +- sqrt(13)) / 2",
+        "(-3 +- sqrt(5)) / 2",
+        "(3 +- sqrt(5)) / 4"
+      ],
+      "answer": 0,
+      "explanation": "Multiplying by x: x^2 + 1 = 3x => x^2 - 3x + 1 = 0. Here a = 1, b = -3, c = 1. By quadratic formula: x = (-(-3) +- sqrt((-3)^2 - 4(1)(1))) / (2*1) = (3 +- sqrt(9 - 4)) / 2 = (3 +- sqrt(5)) / 2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Example 9"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-013",
+      "type": "mcq",
+      "subtopic": "Determining Coefficient from Given Root",
+      "difficulty": "Medium",
+      "question": "If x = 2 is a root of the quadratic equation kx^2 + 2x - 3 = 0, find the value of k.",
+      "options": [
+        "-1/4",
+        "1/4",
+        "-1/2",
+        "1/2"
+      ],
+      "answer": 0,
+      "explanation": "Since x = 2 is a root, it must satisfy the equation: k(2)^2 + 2(2) - 3 = 0 => 4k + 4 - 3 = 0 => 4k + 1 = 0 => k = -1/4.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.2"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-014",
+      "type": "mcq",
+      "subtopic": "Right Triangle Dimensions",
+      "difficulty": "Medium",
+      "question": "The altitude of a right triangle is 7 cm less than its base. If the hypotenuse is 13 cm, what is the length of the base?",
+      "options": [
+        "12 cm",
+        "5 cm",
+        "9 cm",
+        "15 cm"
+      ],
+      "answer": 0,
+      "explanation": "Let base = x cm. Then altitude = (x - 7) cm. By Pythagoras theorem: x^2 + (x - 7)^2 = 13^2 => x^2 + x^2 - 14x + 49 = 169 => 2x^2 - 14x - 120 = 0 => x^2 - 7x - 60 = 0 => (x - 12)(x + 5) = 0. Since length cannot be negative, base x = 12 cm.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.2 Question 5"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-015",
+      "type": "mcq",
+      "subtopic": "Equal Roots Parameter with Product Term",
+      "difficulty": "Medium",
+      "question": "Find the value of k for which the equation kx(x - 2) + 6 = 0 has two equal real roots.",
+      "options": [
+        "k = 6",
+        "k = 0 or 6",
+        "k = -6",
+        "k = 4"
+      ],
+      "answer": 0,
+      "explanation": "kx(x - 2) + 6 = 0 => kx^2 - 2kx + 6 = 0. Here a = k, b = -2k, c = 6. For equal roots, D = 0 => (-2k)^2 - 4(k)(6) = 0 => 4k^2 - 24k = 0 => 4k(k - 6) = 0. Since k cannot be 0 (otherwise not quadratic), k = 6.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.4 Question 2(ii)"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-016",
+      "type": "mcq",
+      "subtopic": "Pure Quadratic Equation",
+      "difficulty": "Easy",
+      "question": "What are the roots of the equation 3x^2 - 12 = 0?",
+      "options": [
+        "x = +-2",
+        "x = +-4",
+        "x = 2 only",
+        "x = +-sqrt(2)"
+      ],
+      "answer": 0,
+      "explanation": "3x^2 = 12 => x^2 = 4 => x = +-sqrt(4) = +-2.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.2"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-017",
+      "type": "mcq",
+      "subtopic": "Forming Quadratic from Roots",
+      "difficulty": "Easy",
+      "question": "Which quadratic equation has roots 3 and -4?",
+      "options": [
+        "x^2 + x - 12 = 0",
+        "x^2 - x - 12 = 0",
+        "x^2 + 7x - 12 = 0",
+        "x^2 - 7x + 12 = 0"
+      ],
+      "answer": 0,
+      "explanation": "A quadratic equation is given by x^2 - (sum)x + product = 0. Sum = 3 + (-4) = -1. Product = 3 * (-4) = -12. Equation: x^2 - (-1)x + (-12) = 0 => x^2 + x - 12 = 0.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.3"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-018",
+      "type": "mcq",
+      "subtopic": "Discriminant Sign Check",
+      "difficulty": "Medium",
+      "question": "What is the nature of the roots of the quadratic equation 3x^2 - 2x + 1/3 = 0?",
+      "options": [
+        "Real and equal",
+        "Real and distinct",
+        "No real roots",
+        "Cannot be determined"
+      ],
+      "answer": 0,
+      "explanation": "Here a = 3, b = -2, c = 1/3. D = b^2 - 4ac = (-2)^2 - 4(3)(1/3) = 4 - 4 = 0. When D = 0, the equation has real and equal roots.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.4 Question 1(iii)"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-019",
+      "type": "mcq",
+      "subtopic": "Cottage Industry Production Cost",
+      "difficulty": "Medium",
+      "question": "A cottage industry produces pottery articles. The cost of production of each article (in Rs) was 3 more than twice the number of articles produced on that day. If the total cost was Rs 90, what is the number of articles produced?",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "Let number of articles be x. Cost per article = 2x + 3. Total cost = x(2x + 3) = 90 => 2x^2 + 3x - 90 = 0. Factoring: 2x^2 + 15x - 12x - 90 = 0 => x(2x + 15) - 6(2x + 15) = 0 => (2x + 15)(x - 6) = 0. Since articles cannot be negative, x = 6.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Exercise 4.2 Question 6"
+    },
+    {
+      "id": "cbse10-math-ch04-s1-020",
+      "type": "mcq",
+      "subtopic": "Number of Real Roots Maximum",
+      "difficulty": "Easy",
+      "question": "What is the maximum number of real roots that a quadratic equation can have?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "Infinitely many"
+      ],
+      "answer": 0,
+      "explanation": "By the Fundamental Theorem of Algebra, a polynomial equation of degree 2 can have at most 2 roots (real or complex). Thus, a quadratic equation can have at most 2 real roots.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.2"
+    }
+  ]
+}
