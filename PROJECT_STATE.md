@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 76 Production Routes | 3,670+ Ground-Truth Verified Questions across 3 Focus Pillars | 5 Legal Trust Hubs  
+> **Current Scale:** 86 Production Routes | 3,870+ Ground-Truth Verified Questions across 3 Focus Pillars | 5 Legal Trust Hubs  
 
 ---
 
@@ -78,23 +78,35 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter): Set 1
   * *Political Science:* Ch 13 (Power Sharing), Ch 14 (Federalism), Ch 15 (Gender, Religion & Caste), Ch 16 (Political Parties), Ch 17 (Outcomes of Democracy).
   * *Economics:* Ch 18 (Development), Ch 19 (Sectors of Indian Economy), Ch 20 (Money & Credit), Ch 21 (Globalisation & Indian Economy).
 
-### B. Competitive & Standardized Simulators (420 Questions Live)
+### B. Competitive & Standardized Simulators (620 Questions Live)
 * **Staff Selection Commission (SSC CGL Tier 1 — 200 Questions):**
   * Full Mock 01 (100 Questions, 60 Mins, 4 Sections, TCS iON Palette)
   * 4 Sectional Speed Drills: Reasoning (25 Qs), Quant (25 Qs), English (25 Qs), General Awareness (25 Qs)
-* **United States (Digital SAT® & AP® Exams — 200 Questions Across 10 Routes):**
-  * Digital SAT® Math Suite (4 Modules, 80 Qs, 32 Mins each, Desmos methods):
+* **United States Pillar (400 Questions across 20 Production Routes — 100 Questions Per Exam):**
+  * **Digital SAT® Math (100 Questions — 5 Modules, 32 Mins each, Desmos methods):**
     * Module 01: Core Diagnostic (`sat/math-practice-01.html`)
     * Module 02: Algebra & Functions (`sat/math-practice-02.html`)
     * Module 03: Advanced Math & Geometry (`sat/math-practice-03.html`)
     * Module 04: 700–800 Score Benchmark (`sat/math-practice-04.html`)
-  * Digital SAT® Reading & Writing Suite (4 Modules, 80 Qs, 32 Mins each, Passage-based):
+    * Module 05: 1600 Master Suite (`sat/math-practice-05.html`)
+  * **Digital SAT® Reading & Writing (100 Questions — 5 Modules, 32 Mins each, Passage-based):**
     * Module 01: Core Diagnostic (`sat/reading-practice-01.html`)
     * Module 02: Craft & Structure (`sat/reading-practice-02.html`)
     * Module 03: Information & Ideas (`sat/reading-practice-03.html`)
     * Module 04: Advanced English Conventions (`sat/reading-practice-04.html`)
-  * AP® Calculus AB Diagnostic 01 (20 Qs, 45 Mins, College Board CED Unit 1–8, Non-Calc Drills: `ap/calculus-ab-diagnostic-01.html`)
-  * AP® Physics 1 Diagnostic 01 (20 Qs, 40 Mins, College Board CED Kinematics, Dynamics, Energy & SHM: `ap/physics-1-diagnostic-01.html`)
+    * Module 05: High-Percentile Mastery Suite (`sat/reading-practice-05.html`)
+  * **AP® Calculus AB (100 Questions — 5 Sets, 45 Mins each, College Board CED Units 1–8):**
+    * Set 01: Limits, Continuity & Core Diagnostic (`ap/calculus-ab-diagnostic-01.html`)
+    * Set 02: Derivatives & Differentiability (`ap/calculus-ab-diagnostic-02.html`)
+    * Set 03: Applications of Derivatives & MVT (`ap/calculus-ab-diagnostic-03.html`)
+    * Set 04: Integration & Accumulation of Change (`ap/calculus-ab-diagnostic-04.html`)
+    * Set 05: Differential Equations, Areas & Volumes (`ap/calculus-ab-diagnostic-05.html`)
+  * **AP® Physics 1: Algebra-Based (100 Questions — 5 Sets, 40 Mins each, College Board CED Units 1–7):**
+    * Set 01: Kinematics & Core Physics Diagnostic (`ap/physics-1-diagnostic-01.html`)
+    * Set 02: Dynamics, Friction & Newton's Laws (`ap/physics-1-diagnostic-02.html`)
+    * Set 03: Circular Motion, Gravity & Work-Energy (`ap/physics-1-diagnostic-03.html`)
+    * Set 04: Momentum, Impulse & Collisions (`ap/physics-1-diagnostic-04.html`)
+    * Set 05: SHM & Rotational Dynamics (`ap/physics-1-diagnostic-05.html`)
 * **Global Standards (IELTS® Academic — 20 Questions):**
   * Academic Reading Practice 01 (20 Qs, 25 Mins, Band 7.5–9.0 conversion scale)
 
@@ -130,7 +142,7 @@ MockTestVault runs on a pure vanilla JavaScript state machine with zero external
   * Every page defines a strict `<link rel="canonical" href="...">`.
   * `https://www.mocktestvault.com` 301-redirects to apex `https://mocktestvault.com`.
 * **XML Sitemap:**
-  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **76 production URLs** (71 Examination Suites + 5 Legal & Trust Hubs).
+  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **86 production URLs** (81 Examination Suites + 5 Legal & Trust Hubs).
   * Priority weights: `1.0` (Homepage), `0.95` (Regional Hubs), `0.9` (Primary Simulators), `0.85` (Progress Hub), `0.8` (Individual Chapter Tests & Legal Hubs).
 * **Robots.txt Directives:**
   * Permissive `User-agent: * Allow: /` with explicit sitemap link.
@@ -157,11 +169,12 @@ In direct alignment with Google AdSense Publisher Policies, Quality Rater Guidel
 
 ## 7. Next Expansion Roadmap
 
-1. **United States Pillar (COMPLETED):**
-   * ✅ Digital SAT® Math Practice Sets 02, 03, 04 (Live).
-   * ✅ Digital SAT® Reading & Writing Practice Sets 02, 03, 04 (Live).
-   * ✅ AP® Calculus AB Diagnostic Test 01 (Live).
-   * ✅ AP® Physics 1 Diagnostic Test 01 (Live).
+1. **United States Pillar (100 Questions Per Exam Completed — 400 Qs Total):**
+   * ✅ Digital SAT® Math: Sets 01 to 05 (100 Questions Live across 5 suites).
+   * ✅ Digital SAT® Reading & Writing: Sets 01 to 05 (100 Questions Live across 5 suites).
+   * ✅ AP® Calculus AB: Sets 01 to 05 (100 Questions Live across 5 suites).
+   * ✅ AP® Physics 1: Sets 01 to 05 (100 Questions Live across 5 suites).
+   * **Total: 400 Questions across 20 Dedicated Exam Routes.**
 2. **Global Standards Pillar (+6 to 8 Pages):**
    * IELTS® Academic Reading Practice Tests 02, 03, 04.
    * GRE® Quantitative Reasoning Drills 01 & 02.

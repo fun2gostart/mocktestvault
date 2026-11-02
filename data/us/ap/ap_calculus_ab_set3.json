@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "ap-calc-041",
+      "type": "mcq",
+      "subtopic": "Related Rates: Expanding Circle Area (Unit 4)",
+      "difficulty": "Medium",
+      "question": "The radius of a circular oil slick is expanding at a constant rate of 3 meters per hour. At what rate, in square meters per hour, is the area of the slick increasing when the radius is 10 meters?",
+      "options": [
+        "60π m^2/hr",
+        "30π m^2/hr",
+        "90π m^2/hr",
+        "20π m^2/hr"
+      ],
+      "answer": 0,
+      "explanation": "Area A = πr^2. Differentiate with respect to time t: dA/dt = 2πr * (dr/dt). Given dr/dt = 3 m/hr and r = 10 m: dA/dt = 2π(10)(3) = 60π m^2/hr.",
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+    },
+    {
+      "id": "ap-calc-042",
+      "type": "mcq",
+      "subtopic": "Related Rates: Sliding Ladder (Unit 4)",
+      "difficulty": "Hard",
+      "question": "A 13-foot ladder leans against a vertical wall. The base of the ladder slides away from the wall at a rate of 2 ft/sec. How fast is the top of the ladder sliding down the wall when the base is 5 feet from the wall?",
+      "options": [
+        "-5/6 ft/sec",
+        "-6/5 ft/sec",
+        "-2 ft/sec",
+        "-5/12 ft/sec"
+      ],
+      "answer": 0,
+      "explanation": "By Pythagorean theorem: x^2 + y^2 = 13^2 = 169. When x = 5, y = √(169 - 25) = √144 = 12. Differentiate with respect to t: 2x(dx/dt) + 2y(dy/dt) = 0 → dy/dt = -x(dx/dt) / y. With x = 5, dx/dt = 2, y = 12: dy/dt = -5(2)/12 = -10/12 = -5/6 ft/sec.",
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+    },
+    {
+      "id": "ap-calc-043",
+      "type": "mcq",
+      "subtopic": "Mean Value Theorem (Unit 5)",
+      "difficulty": "Medium",
+      "question": "The function f(x) = x^3 - 3x satisfies the hypotheses of the Mean Value Theorem on the interval [0, 3]. What is the value of c in (0, 3) that satisfies the conclusion of the theorem?",
+      "options": [
+        "√3",
+        "1.5",
+        "1",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "MVT states f'(c) = [f(b) - f(a)] / (b - a). Here f(3) = 27 - 9 = 18 and f(0) = 0. Average rate of change = (18 - 0) / (3 - 0) = 6. Set f'(c) = 3c^2 - 3 = 6 → 3c^2 = 9 → c^2 = 3 → c = √3 (since √3 ≈ 1.732 is in (0, 3)).",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.1 Using the Mean Value Theorem"
+    },
+    {
+      "id": "ap-calc-044",
+      "type": "mcq",
+      "subtopic": "Rolle's Theorem (Unit 5)",
+      "difficulty": "Medium",
+      "question": "For f(x) = x^2 - 6x + 8 on the interval [2, 4], at what value of c does f'(c) = 0, as guaranteed by Rolle's Theorem?",
+      "options": [
+        "3",
+        "2.5",
+        "3.5",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Check hypotheses: f is continuous on [2, 4], differentiable on (2, 4), and f(2) = 4 - 12 + 8 = 0 = f(4) = 16 - 24 + 8 = 0. f'(x) = 2x - 6 = 0 → 2x = 6 → c = 3 ∈ (2, 4).",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.1 Rolle's Theorem"
+    },
+    {
+      "id": "ap-calc-045",
+      "type": "mcq",
+      "subtopic": "Extreme Value Theorem on Closed Interval (Unit 5)",
+      "difficulty": "Medium",
+      "question": "What is the absolute maximum value of f(x) = 2x^3 - 3x^2 - 12x + 1 on the closed interval [-2, 3]?",
+      "options": [
+        "8",
+        "1",
+        "-8",
+        "-19"
+      ],
+      "answer": 0,
+      "explanation": "Critical points: f'(x) = 6x^2 - 6x - 12 = 6(x^2 - x - 2) = 6(x - 2)(x + 1) = 0 → x = 2 and x = -1. Test candidates: Endpoints and critical points: f(-2) = 2(-8) - 3(4) - 12(-2) + 1 = -16 - 12 + 24 + 1 = -3; f(-1) = 2(-1) - 3(1) - 12(-1) + 1 = -2 - 3 + 12 + 1 = 8; f(2) = 2(8) - 3(4) - 12(2) + 1 = 16 - 12 - 24 + 1 = -19; f(3) = 2(27) - 3(9) - 12(3) + 1 = 54 - 27 - 36 + 1 = -8. Absolute maximum is 8 (at x = -1).",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.2 Extreme Value Theorem and Candidates Test"
+    },
+    {
+      "id": "ap-calc-046",
+      "type": "mcq",
+      "subtopic": "First Derivative Test for Local Extrema (Unit 5)",
+      "difficulty": "Easy",
+      "question": "The derivative of a function f is given by f'(x) = (x - 1)^2 * (x + 3). At which value of x does f have a relative minimum?",
+      "options": [
+        "x = -3",
+        "x = 1",
+        "x = 3",
+        "f has no relative minimum"
+      ],
+      "answer": 0,
+      "explanation": "Critical points are x = 1 and x = -3. For x < -3: (x-1)^2 is (+), (x+3) is (-) → f' < 0. For -3 < x < 1: (x-1)^2 is (+), (x+3) is (+) → f' > 0. For x > 1: f' > 0. Since f' changes from negative to positive at x = -3, f has a relative minimum at x = -3. At x = 1, f' does not change sign (no extremum).",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.4 Using the First Derivative Test to Determine Extrema"
+    },
+    {
+      "id": "ap-calc-047",
+      "type": "mcq",
+      "subtopic": "Points of Inflection and Concavity (Unit 5)",
+      "difficulty": "Medium",
+      "question": "At what x-coordinate does the graph of y = x^4 - 6x^2 + 5 have a point of inflection?",
+      "options": [
+        "x = 1 and x = -1",
+        "x = √3 and x = -√3",
+        "x = 0 only",
+        "x = 2 and x = -2"
+      ],
+      "answer": 0,
+      "explanation": "First derivative: y' = 4x^3 - 12x. Second derivative: y'' = 12x^2 - 12 = 12(x^2 - 1) = 12(x - 1)(x + 1). Set y'' = 0 → x = ±1. For x < -1, y'' > 0 (concave up). For -1 < x < 1, y'' < 0 (concave down). For x > 1, y'' > 0 (concave up). Because the concavity changes at both x = -1 and x = 1, both are inflection points.",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.6 Determining Concavity and Points of Inflection"
+    },
+    {
+      "id": "ap-calc-048",
+      "type": "mcq",
+      "subtopic": "Second Derivative Test for Local Extrema (Unit 5)",
+      "difficulty": "Easy",
+      "question": "Suppose f is a function with f'(4) = 0 and f''(4) = -5. What conclusion can be drawn about the graph of f at x = 4?",
+      "options": [
+        "f has a relative maximum at x = 4",
+        "f has a relative minimum at x = 4",
+        "f has a point of inflection at x = 4",
+        "No conclusion can be drawn"
+      ],
+      "answer": 0,
+      "explanation": "By the Second Derivative Test: if f'(c) = 0 and f''(c) < 0, the curve has a horizontal tangent and is concave down at c, indicating a relative maximum at c.",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.7 Using the Second Derivative Test to Determine Extrema"
+    },
+    {
+      "id": "ap-calc-049",
+      "type": "mcq",
+      "subtopic": "Straight-Line Particle Motion: Speeding Up (Unit 4)",
+      "difficulty": "Hard",
+      "question": "The position of a particle moving along the x-axis is s(t) = t^3 - 6t^2 + 9t for t ≥ 0. On which interval of t is the particle's speed increasing?",
+      "options": [
+        "(1, 2) and (3, ∞)",
+        "(0, 1) and (2, 3)",
+        "(1, 3)",
+        "(0, 2)"
+      ],
+      "answer": 0,
+      "explanation": "Speed is increasing when velocity v(t) and acceleration a(t) have the same sign. Velocity v(t) = 3t^2 - 12t + 9 = 3(t - 1)(t - 3). a(t) = 6t - 12 = 6(t - 2). Signs: On (0, 1): v > 0, a < 0 (different sign). On (1, 2): v < 0, a < 0 (both negative → speeding up). On (2, 3): v < 0, a > 0 (different sign). On (3, ∞): v > 0, a > 0 (both positive → speeding up). Thus speed increases on (1, 2) and (3, ∞).",
+      "citation": "College Board AP® Calculus AB CED — Topic 4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration"
+    },
+    {
+      "id": "ap-calc-050",
+      "type": "mcq",
+      "subtopic": "Optimization: Maximum Rectangular Area (Unit 5)",
+      "difficulty": "Medium",
+      "question": "A farmer has 120 meters of fencing to enclose a rectangular pen with one side bordering a straight river (requiring no fencing on that side). What is the maximum area that can be enclosed?",
+      "options": [
+        "1,800 m^2",
+        "1,200 m^2",
+        "900 m^2",
+        "2,400 m^2"
+      ],
+      "answer": 0,
+      "explanation": "Let width perpendicular to river be x and length along river be y. Fencing: 2x + y = 120 → y = 120 - 2x. Area A(x) = x * y = x(120 - 2x) = 120x - 2x^2. Set A'(x) = 120 - 4x = 0 → x = 30 m. Length y = 120 - 60 = 60 m. Max Area = 30 * 60 = 1,800 m^2.",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.11 Solving Optimization Problems"
+    },
+    {
+      "id": "ap-calc-051",
+      "type": "mcq",
+      "subtopic": "L'Hôpital's Rule with Transcendental Functions (Unit 4)",
+      "difficulty": "Medium",
+      "question": "What is the value of lim(x→0) [(e^(2x) - 1 - 2x) / x^2]?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Evaluating at x = 0 gives (1 - 1 - 0) / 0 = 0/0 (indeterminate). Apply L'Hôpital's rule: lim(x→0) [2e^(2x) - 2] / (2x) = 0/0. Apply L'Hôpital's rule a second time: lim(x→0) [4e^(2x)] / 2 = 4(1) / 2 = 2.",
+      "citation": "College Board AP® Calculus AB CED — Topic 4.7 Using L'Hôpital's Rule for Determining Limits of Indeterminate Forms"
+    },
+    {
+      "id": "ap-calc-052",
+      "type": "mcq",
+      "subtopic": "Connecting Graph of f' to Features of f (Unit 5)",
+      "difficulty": "Hard",
+      "question": "If the graph of f' is an inverted parabola that intersects the x-axis at x = -2 and x = 4, which of the following is true about f?",
+      "options": [
+        "f is concave down on (-∞, 1) and concave up on (1, ∞)",
+        "f has a relative maximum at x = 4 and a relative minimum at x = -2",
+        "f has a relative minimum at x = 4 and a relative maximum at x = -2",
+        "f is increasing on (-∞, -2) and decreasing on (-2, 4)"
+      ],
+      "answer": 1,
+      "explanation": "For an inverted parabola with roots -2 and 4: f' < 0 for x < -2, f' > 0 for -2 < x < 4, and f' < 0 for x > 4. At x = -2, f' changes from (-) to (+) → relative minimum at x = -2. At x = 4, f' changes from (+) to (-) → relative maximum at x = 4. Option 1 states this accurately.",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.8 Sketching Graphs of Functions and Their Derivatives"
+    },
+    {
+      "id": "ap-calc-053",
+      "type": "mcq",
+      "subtopic": "Related Rates: Conical Tank (Unit 4)",
+      "difficulty": "Hard",
+      "question": "Water is poured into an inverted right circular cone of base radius 4 m and height 8 m at a rate of 2 m^3/min. At what rate is the water level rising when the water depth is 4 m?",
+      "options": [
+        "1 / (2π) m/min",
+        "1 / π m/min",
+        "2 / π m/min",
+        "1 / (4π) m/min"
+      ],
+      "answer": 0,
+      "explanation": "By similar triangles, r / h = 4 / 8 = 1/2 → r = h/2. Volume V = (1/3)πr^2 * h = (1/3)π(h/2)^2 * h = (π/12)h^3. Differentiate with respect to t: dV/dt = (π/4)h^2 * (dh/dt). Given dV/dt = 2 and h = 4: 2 = (π/4)(16) * (dh/dt) → 2 = 4π * (dh/dt) → dh/dt = 2 / (4π) = 1 / (2π) m/min.",
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+    },
+    {
+      "id": "ap-calc-054",
+      "type": "mcq",
+      "subtopic": "Optimization: Minimum Surface Area Box (Unit 5)",
+      "difficulty": "Hard",
+      "question": "An open-top rectangular box with a square base has a fixed volume of 32 cubic inches. What dimensions of the base minimize the total surface area?",
+      "options": [
+        "4 in by 4 in",
+        "2 in by 2 in",
+        "8 in by 8 in",
+        "√32 in by √32 in"
+      ],
+      "answer": 0,
+      "explanation": "Let side of square base be x and height be h. Volume V = x^2 * h = 32 → h = 32 / x^2. Surface area S = x^2 + 4xh = x^2 + 4x(32/x^2) = x^2 + 128/x. Differentiate: S'(x) = 2x - 128/x^2 = 0 → 2x^3 = 128 → x^3 = 64 → x = 4 inches.",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.11 Solving Optimization Problems"
+    },
+    {
+      "id": "ap-calc-055",
+      "type": "mcq",
+      "subtopic": "Total Distance Traveled by Particle (Unit 4)",
+      "difficulty": "Hard",
+      "question": "A particle moves along a straight line with velocity v(t) = 2t - 4 m/s on the time interval [0, 4]. What is the total distance traveled by the particle?",
+      "options": [
+        "8 meters",
+        "0 meters",
+        "4 meters",
+        "12 meters"
+      ],
+      "answer": 0,
+      "explanation": "Total distance is ∫[0 to 4] |v(t)| dt. v(t) = 0 at t = 2. On [0, 2], v(t) ≤ 0: distance = |∫[0 to 2] (2t - 4) dt| = |[t^2 - 4t]_0^2| = |4 - 8| = 4 m. On [2, 4], v(t) ≥ 0: distance = ∫[2 to 4] (2t - 4) dt = [t^2 - 4t]_2^4 = (16 - 16) - (4 - 8) = 4 m. Total distance = 4 + 4 = 8 meters. (Displacement is 0 m).",
+      "citation": "College Board AP® Calculus AB CED — Topic 4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration"
+    },
+    {
+      "id": "ap-calc-056",
+      "type": "mcq",
+      "subtopic": "L'Hôpital's Rule with Logarithms (Unit 4)",
+      "difficulty": "Medium",
+      "question": "What is the value of lim(x→1) [ln(x) / (x^2 - 1)]?",
+      "options": [
+        "1/2",
+        "1",
+        "0",
+        "Does not exist"
+      ],
+      "answer": 0,
+      "explanation": "Direct substitution gives ln(1) / (1 - 1) = 0/0. Apply L'Hôpital's rule: derivative of numerator is 1/x; derivative of denominator is 2x. lim(x→1) [(1/x) / (2x)] = 1 / (2*1) = 1/2.",
+      "citation": "College Board AP® Calculus AB CED — Topic 4.7 Using L'Hôpital's Rule for Indeterminate Forms"
+    },
+    {
+      "id": "ap-calc-057",
+      "type": "mcq",
+      "subtopic": "Related Rates: Moving Shadow (Unit 4)",
+      "difficulty": "Hard",
+      "question": "A person 6 feet tall walks away from a 15-foot lamppost at a speed of 5 ft/s. At what rate is the length of the person's shadow increasing?",
+      "options": [
+        "10/3 ft/s",
+        "5/2 ft/s",
+        "15/4 ft/s",
+        "5 ft/s"
+      ],
+      "answer": 0,
+      "explanation": "Let x be distance from post and s be length of shadow. By similar triangles: 15 / (x + s) = 6 / s → 15s = 6x + 6s → 9s = 6x → s = (2/3)x. Differentiate: ds/dt = (2/3)(dx/dt) = (2/3)(5) = 10/3 ft/s.",
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+    },
+    {
+      "id": "ap-calc-058",
+      "type": "mcq",
+      "subtopic": "Concavity and Point of Inflection Criteria (Unit 5)",
+      "difficulty": "Medium",
+      "question": "If f''(c) = 0, which condition guarantees that (c, f(c)) is a point of inflection?",
+      "options": [
+        "f''(x) changes sign from positive to negative or negative to positive at x = c",
+        "f'(c) = 0",
+        "f''(x) > 0 for all x > c",
+        "f(x) has a horizontal tangent at x = c"
+      ],
+      "answer": 0,
+      "explanation": "A point of inflection is defined as a point where the concavity of the graph changes. Having f''(c) = 0 is a necessary condition for a twice-differentiable function, but an inflection point occurs if and only if f'' changes sign across x = c.",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.6 Determining Concavity and Points of Inflection"
+    },
+    {
+      "id": "ap-calc-059",
+      "type": "mcq",
+      "subtopic": "Rate of Change of Volume of a Sphere (Unit 4)",
+      "difficulty": "Easy",
+      "question": "The volume of a sphere is expanding. If the radius is 5 cm and is increasing at a rate of 2 cm/s, how fast is the volume increasing?",
+      "options": [
+        "200π cm^3/s",
+        "100π cm^3/s",
+        "50π cm^3/s",
+        "400π cm^3/s"
+      ],
+      "answer": 0,
+      "explanation": "Volume V = (4/3)πr^3. dV/dt = 4πr^2 * (dr/dt). With r = 5 and dr/dt = 2: dV/dt = 4π(25)(2) = 200π cm^3/s.",
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+    },
+    {
+      "id": "ap-calc-060",
+      "type": "mcq",
+      "subtopic": "Critical Numbers vs Local Extrema (Unit 5)",
+      "difficulty": "Medium",
+      "question": "Which of the following functions has a critical number at x = 0 that is neither a local maximum nor a local minimum?",
+      "options": [
+        "f(x) = x^3",
+        "f(x) = x^2",
+        "f(x) = -x^2",
+        "f(x) = |x|"
+      ],
+      "answer": 0,
+      "explanation": "For f(x) = x^3, f'(x) = 3x^2. f'(0) = 0 (so x = 0 is a critical point). However, f'(x) > 0 for both x < 0 and x > 0. Since f' does not change sign, x = 0 is a point of inflection with a horizontal tangent, not an extremum.",
+      "citation": "College Board AP® Calculus AB CED — Topic 5.4 First Derivative Test"
+    }
+  ]
+}

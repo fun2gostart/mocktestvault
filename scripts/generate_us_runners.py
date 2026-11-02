@@ -1,19 +1,12 @@
 #!/usr/bin/env python3
 """
-Generates and updates all 10 US examination runner HTML pages:
-- SAT Math Practice 01, 02, 03, 04
-- SAT Reading & Writing Practice 01, 02, 03, 04
-- AP Calculus AB Diagnostic 01
-- AP Physics 1 Diagnostic 01
+Generates and updates all 20 US examination runner HTML pages (100 Questions per exam across 5 sets):
+- SAT Math Practice 01, 02, 03, 04, 05 (100 Qs Total)
+- SAT Reading & Writing Practice 01, 02, 03, 04, 05 (100 Qs Total)
+- AP Calculus AB Diagnostic 01, 02, 03, 04, 05 (100 Qs Total)
+- AP Physics 1 Diagnostic 01, 02, 03, 04, 05 (100 Qs Total)
 
-Maintains 100% adherence to:
-- Test Engine architecture (../../css/test-engine.css, ../../js/test-engine.js)
-- JSON-LD Quiz Schema markup
-- 4-module tab navigation in SAT runners
-- Multi-exam tab navigation in AP runners
-- Interlinked next-test scorecard CTA funnels
-- Distraction-Free exam engine policy (Zero Ads claims purged)
-- Canonical breadcrumbs & College Board citations
+Total: 400 Questions across 20 Production Routes.
 """
 
 import os
@@ -26,7 +19,7 @@ os.makedirs(US_SAT_DIR, exist_ok=True)
 os.makedirs(US_AP_DIR, exist_ok=True)
 
 # ----------------------------------------------------------------------
-# SAT Math Runner Configurations
+# SAT Math Runners (5 Sets = 100 Questions)
 # ----------------------------------------------------------------------
 SAT_MATH_RUNNERS = [
   {
@@ -85,14 +78,29 @@ SAT_MATH_RUNNERS = [
     "quiz_name": "Digital SAT® Math Module 04 Practice Test (700-800 Score Benchmark)",
     "json_path": "../../data/us/sat/digital_sat_math_set4.json",
     "time_mins": 32,
+    "next_url": "math-practice-05.html",
+    "next_text": "<span>🏆</span> Take Math Module 05 (1600 Master Suite) →",
+    "score_label": "Est. SAT Math Section"
+  },
+  {
+    "filename": "math-practice-05.html",
+    "set_key": "05",
+    "title": "Digital SAT® Math Practice Test 05 (1600 Master Suite) | MockTestVault US",
+    "desc": "The ultimate 1600 benchmark Digital SAT Math practice test: comprehensive Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math, and Geometry.",
+    "h1": "Digital SAT® Math Module 05",
+    "print_title": "Digital SAT® Math Practice Test 05",
+    "print_sub": "College Board Specification: 1600 Benchmark Master Suite across all 4 Math Domains | mocktestvault.com",
+    "quiz_name": "Digital SAT® Math Module 05 Practice Test (1600 Master Suite)",
+    "json_path": "../../data/us/sat/digital_sat_math_set5.json",
+    "time_mins": 32,
     "next_url": "reading-practice-01.html",
-    "next_text": "<span>📖</span> Take Reading & Writing Module 01 →",
+    "next_text": "<span>📖</span> Start Digital SAT® Reading & Writing Suite →",
     "score_label": "Est. SAT Math Section"
   }
 ]
 
 # ----------------------------------------------------------------------
-# SAT Reading & Writing Runner Configurations
+# SAT Reading & Writing Runners (5 Sets = 100 Questions)
 # ----------------------------------------------------------------------
 SAT_READING_RUNNERS = [
   {
@@ -151,49 +159,176 @@ SAT_READING_RUNNERS = [
     "quiz_name": "Digital SAT® Reading & Writing Practice Test 04 (Advanced Conventions)",
     "json_path": "../../data/us/sat/digital_sat_reading_set4.json",
     "time_mins": 32,
+    "next_url": "reading-practice-05.html",
+    "next_text": "<span>🎯</span> Take Reading Module 05 (High-Percentile Mastery) →",
+    "score_label": "Est. SAT RW Section"
+  },
+  {
+    "filename": "reading-practice-05.html",
+    "set_key": "05",
+    "title": "Digital SAT® Reading & Writing Practice Test 05 (Mastery Suite) | MockTestVault US",
+    "desc": "High-percentile Digital SAT Reading & Writing practice test with dual passages, scientific data analysis, complex grammar, and rhetorical synthesis.",
+    "h1": "Digital SAT® Reading & Writing Module 05",
+    "print_title": "Digital SAT® Reading & Writing Practice Test 05",
+    "print_sub": "College Board Specification: High-Percentile Comprehensive Mastery across all RW domains | mocktestvault.com",
+    "quiz_name": "Digital SAT® Reading & Writing Practice Test 05 (Mastery Suite)",
+    "json_path": "../../data/us/sat/digital_sat_reading_set5.json",
+    "time_mins": 32,
     "next_url": "../ap/calculus-ab-diagnostic-01.html",
-    "next_text": "<span>∫</span> Try AP® Calculus AB Diagnostic Test →",
+    "next_text": "<span>∫</span> Start AP® Calculus AB 100-Question Vault →",
     "score_label": "Est. SAT RW Section"
   }
 ]
 
 # ----------------------------------------------------------------------
-# AP Exam Runner Configurations
+# AP Calculus AB Runners (5 Sets = 100 Questions)
 # ----------------------------------------------------------------------
-AP_RUNNERS = [
+AP_CALC_RUNNERS = [
   {
     "filename": "calculus-ab-diagnostic-01.html",
     "set_key": "01",
-    "title": "AP® Calculus AB Diagnostic Practice Test 01 | MockTestVault US",
-    "desc": "Free timed AP Calculus AB diagnostic test (20 Multiple Choice Questions) covering Limits, Continuity, Differentiation Rules, FTC, and Integration by Substitution.",
-    "h1": "AP® Calculus AB Diagnostic 01",
-    "print_title": "AP® Calculus AB Practice Diagnostic Test 01",
+    "title": "AP® Calculus AB Section I Diagnostic 01 (Limits & Fundamentals) | MockTestVault US",
+    "desc": "Free timed AP Calculus AB diagnostic test 01 (20 Multiple Choice Questions) covering Limits, Continuity, Differentiation Rules, FTC, and Integration by Substitution.",
+    "h1": "AP® Calculus AB Set 01 (Diagnostic)",
+    "print_title": "AP® Calculus AB Practice Diagnostic 01",
     "print_sub": "Official College Board AP® CED Specification: Limits, Derivatives, Integration, and Differential Equations | mocktestvault.com",
-    "quiz_name": "AP® Calculus AB Section I Diagnostic Practice Test 01",
+    "quiz_name": "AP® Calculus AB Section I Diagnostic 01",
     "json_path": "../../data/us/ap/ap_calculus_ab_set1.json",
     "time_mins": 45,
-    "next_url": "physics-1-diagnostic-01.html",
-    "next_text": "<span>⚡</span> Take AP® Physics 1 Diagnostic Test →",
-    "score_label": "AP Scaled Score Projection",
-    "course_name": "AP® Calculus AB",
-    "icon": "∫"
+    "next_url": "calculus-ab-diagnostic-02.html",
+    "next_text": "<span>📐</span> Take AP Calculus Set 02 (Derivatives & Differentiability) →"
   },
+  {
+    "filename": "calculus-ab-diagnostic-02.html",
+    "set_key": "02",
+    "title": "AP® Calculus AB Set 02 (Derivatives & Differentiability) | MockTestVault US",
+    "desc": "Practice 20 official-style AP Calculus AB questions on Product, Quotient, Chain Rule, Implicit Differentiation, and Inverse Function Derivatives.",
+    "h1": "AP® Calculus AB Set 02 (Derivatives)",
+    "print_title": "AP® Calculus AB Practice Test 02",
+    "print_sub": "Official College Board AP® CED Specification: Differentiation and Differentiability Rules | mocktestvault.com",
+    "quiz_name": "AP® Calculus AB Set 02 (Derivatives & Differentiability)",
+    "json_path": "../../data/us/ap/ap_calculus_ab_set2.json",
+    "time_mins": 45,
+    "next_url": "calculus-ab-diagnostic-03.html",
+    "next_text": "<span>📈</span> Take AP Calculus Set 03 (Applications of Derivatives) →"
+  },
+  {
+    "filename": "calculus-ab-diagnostic-03.html",
+    "set_key": "03",
+    "title": "AP® Calculus AB Set 03 (Applications of Derivatives) | MockTestVault US",
+    "desc": "Practice 20 AP Calculus AB questions on Related Rates, Mean Value Theorem, First & Second Derivative Tests, Concavity, Inflection Points, and Optimization.",
+    "h1": "AP® Calculus AB Set 03 (Applications)",
+    "print_title": "AP® Calculus AB Practice Test 03",
+    "print_sub": "Official College Board AP® CED Specification: Analytical and Contextual Applications of Derivatives | mocktestvault.com",
+    "quiz_name": "AP® Calculus AB Set 03 (Applications of Derivatives)",
+    "json_path": "../../data/us/ap/ap_calculus_ab_set3.json",
+    "time_mins": 45,
+    "next_url": "calculus-ab-diagnostic-04.html",
+    "next_text": "<span>∫</span> Take AP Calculus Set 04 (Integration & Accumulation) →"
+  },
+  {
+    "filename": "calculus-ab-diagnostic-04.html",
+    "set_key": "04",
+    "title": "AP® Calculus AB Set 04 (Integration & Accumulation) | MockTestVault US",
+    "desc": "Practice 20 AP Calculus AB questions on Riemann Sums, Trapezoidal Rule, FTC Parts 1 & 2, U-Substitution, and Average Value of a Function.",
+    "h1": "AP® Calculus AB Set 04 (Integration)",
+    "print_title": "AP® Calculus AB Practice Test 04",
+    "print_sub": "Official College Board AP® CED Specification: Integration and Accumulation of Change | mocktestvault.com",
+    "quiz_name": "AP® Calculus AB Set 04 (Integration & Accumulation)",
+    "json_path": "../../data/us/ap/ap_calculus_ab_set4.json",
+    "time_mins": 45,
+    "next_url": "calculus-ab-diagnostic-05.html",
+    "next_text": "<span>🔄</span> Take AP Calculus Set 05 (Diff Eq & Volumes) →"
+  },
+  {
+    "filename": "calculus-ab-diagnostic-05.html",
+    "set_key": "05",
+    "title": "AP® Calculus AB Set 05 (Differential Equations & Volumes) | MockTestVault US",
+    "desc": "Master 20 AP Calculus AB questions on Slope Fields, Separation of Variables, Area Between Curves, and Volumes by Disk, Washer, and Cross-Sections.",
+    "h1": "AP® Calculus AB Set 05 (Diff Eq & Volumes)",
+    "print_title": "AP® Calculus AB Practice Test 05",
+    "print_sub": "Official College Board AP® CED Specification: Differential Equations and Applications of Integration | mocktestvault.com",
+    "quiz_name": "AP® Calculus AB Set 05 (Differential Equations & Volumes)",
+    "json_path": "../../data/us/ap/ap_calculus_ab_set5.json",
+    "time_mins": 45,
+    "next_url": "physics-1-diagnostic-01.html",
+    "next_text": "<span>⚡</span> Start AP® Physics 1 100-Question Vault →"
+  }
+]
+
+# ----------------------------------------------------------------------
+# AP Physics 1 Runners (5 Sets = 100 Questions)
+# ----------------------------------------------------------------------
+AP_PHYSICS_RUNNERS = [
   {
     "filename": "physics-1-diagnostic-01.html",
     "set_key": "01",
-    "title": "AP® Physics 1: Algebra-Based Diagnostic Test 01 | MockTestVault US",
+    "title": "AP® Physics 1 Diagnostic 01 (Kinematics & Core Physics) | MockTestVault US",
     "desc": "Free timed AP Physics 1 diagnostic test (20 Multiple Choice Questions) covering Kinematics, Newton's Laws, Work & Energy, Momentum, Torque, and SHM.",
-    "h1": "AP® Physics 1 Diagnostic 01",
+    "h1": "AP® Physics 1 Set 01 (Diagnostic)",
     "print_title": "AP® Physics 1: Algebra-Based Diagnostic Test 01",
     "print_sub": "Official College Board AP® CED Specification: Kinematics, Dynamics, Energy, Momentum, and Rotation | mocktestvault.com",
     "quiz_name": "AP® Physics 1: Algebra-Based Section I Diagnostic Test 01",
     "json_path": "../../data/us/ap/ap_physics_1_set1.json",
     "time_mins": 40,
-    "next_url": "../sat/math-practice-01.html",
-    "next_text": "<span>📐</span> Practice Digital SAT® Math Modules →",
-    "score_label": "AP Scaled Score Projection",
-    "course_name": "AP® Physics 1",
-    "icon": "⚡"
+    "next_url": "physics-1-diagnostic-02.html",
+    "next_text": "<span>🧲</span> Take AP Physics Set 02 (Dynamics & Newton's Laws) →"
+  },
+  {
+    "filename": "physics-1-diagnostic-02.html",
+    "set_key": "02",
+    "title": "AP® Physics 1 Set 02 (Dynamics & Newton's Laws of Motion) | MockTestVault US",
+    "desc": "Practice 20 official AP Physics 1 questions on Free-Body Diagrams, Static & Kinetic Friction, Inclines, Atwood Machines, and Apparent Weight.",
+    "h1": "AP® Physics 1 Set 02 (Dynamics)",
+    "print_title": "AP® Physics 1 Practice Test 02",
+    "print_sub": "Official College Board AP® CED Specification: Dynamics and Newton's Laws of Motion | mocktestvault.com",
+    "quiz_name": "AP® Physics 1 Set 02 (Dynamics & Newton's Laws)",
+    "json_path": "../../data/us/ap/ap_physics_1_set2.json",
+    "time_mins": 40,
+    "next_url": "physics-1-diagnostic-03.html",
+    "next_text": "<span>🔄</span> Take AP Physics Set 03 (Circular Motion & Energy) →"
+  },
+  {
+    "filename": "physics-1-diagnostic-03.html",
+    "set_key": "03",
+    "title": "AP® Physics 1 Set 03 (Circular Motion, Gravitation & Energy) | MockTestVault US",
+    "desc": "Practice 20 AP Physics 1 questions on Centripetal Force, Universal Gravitation, Orbits, Work-Energy Theorem, and Mechanical Power.",
+    "h1": "AP® Physics 1 Set 03 (Circular Motion & Energy)",
+    "print_title": "AP® Physics 1 Practice Test 03",
+    "print_sub": "Official College Board AP® CED Specification: Circular Motion, Gravitation, and Work-Energy | mocktestvault.com",
+    "quiz_name": "AP® Physics 1 Set 03 (Circular Motion, Gravitation & Energy)",
+    "json_path": "../../data/us/ap/ap_physics_1_set3.json",
+    "time_mins": 40,
+    "next_url": "physics-1-diagnostic-04.html",
+    "next_text": "<span>💥</span> Take AP Physics Set 04 (Momentum & Collisions) →"
+  },
+  {
+    "filename": "physics-1-diagnostic-04.html",
+    "set_key": "04",
+    "title": "AP® Physics 1 Set 04 (Momentum, Impulse & Collisions) | MockTestVault US",
+    "desc": "Practice 20 AP Physics 1 questions on Impulse-Momentum Theorem, 1D & 2D Elastic and Inelastic Collisions, and Center of Mass Velocity.",
+    "h1": "AP® Physics 1 Set 04 (Momentum & Collisions)",
+    "print_title": "AP® Physics 1 Practice Test 04",
+    "print_sub": "Official College Board AP® CED Specification: Linear Momentum, Impulse, and Collisions | mocktestvault.com",
+    "quiz_name": "AP® Physics 1 Set 04 (Momentum & Collisions)",
+    "json_path": "../../data/us/ap/ap_physics_1_set4.json",
+    "time_mins": 40,
+    "next_url": "physics-1-diagnostic-05.html",
+    "next_text": "<span>🌀</span> Take AP Physics Set 05 (SHM & Rotational Dynamics) →"
+  },
+  {
+    "filename": "physics-1-diagnostic-05.html",
+    "set_key": "05",
+    "title": "AP® Physics 1 Set 05 (SHM & Rotational Dynamics) | MockTestVault US",
+    "desc": "Master 20 AP Physics 1 questions on Mass-Spring Oscillators, Simple Pendulums, Torque, Static Equilibrium, Rolling Without Slipping, and Angular Momentum.",
+    "h1": "AP® Physics 1 Set 05 (SHM & Rotation)",
+    "print_title": "AP® Physics 1 Practice Test 05",
+    "print_sub": "Official College Board AP® CED Specification: Simple Harmonic Motion and Rotational Dynamics | mocktestvault.com",
+    "quiz_name": "AP® Physics 1 Set 05 (SHM & Rotational Dynamics)",
+    "json_path": "../../data/us/ap/ap_physics_1_set5.json",
+    "time_mins": 40,
+    "next_url": "../index.html",
+    "next_text": "<span>🎓</span> Return to US Exam Catalog →"
   }
 ]
 
@@ -202,22 +337,23 @@ def generate_sat_template(runner, category="math"):
     track_title = "Digital SAT® Math" if is_math else "Digital SAT® Reading & Writing"
     
     modules_math = [
-      ("math-practice-01.html", "📐 Math Module 01 (Core Diagnostic)"),
-      ("math-practice-02.html", "📊 Math Module 02 (Algebra & Functions)"),
-      ("math-practice-03.html", "📐 Math Module 03 (Advanced Math & Geom)"),
-      ("math-practice-04.html", "🎯 Math Module 04 (700-800 Benchmark)")
+      ("math-practice-01.html", "📐 Set 01 (Diagnostic)"),
+      ("math-practice-02.html", "📊 Set 02 (Algebra)"),
+      ("math-practice-03.html", "📐 Set 03 (Adv Math)"),
+      ("math-practice-04.html", "🎯 Set 04 (700-800)"),
+      ("math-practice-05.html", "🏆 Set 05 (1600 Master)")
     ]
     
     modules_reading = [
-      ("reading-practice-01.html", "📖 Reading Module 01 (Core Diagnostic)"),
-      ("reading-practice-02.html", "🔍 Reading Module 02 (Craft & Structure)"),
-      ("reading-practice-03.html", "📊 Reading Module 03 (Information & Ideas)"),
-      ("reading-practice-04.html", "✍️ Reading Module 04 (Advanced Conventions)")
+      ("reading-practice-01.html", "📖 Set 01 (Diagnostic)"),
+      ("reading-practice-02.html", "🔍 Set 02 (Craft/Struct)"),
+      ("reading-practice-03.html", "📊 Set 03 (Info/Ideas)"),
+      ("reading-practice-04.html", "✍️ Set 04 (Conventions)"),
+      ("reading-practice-05.html", "🎯 Set 05 (Mastery)")
     ]
     
     modules = modules_math if is_math else modules_reading
     
-    # Build switcher buttons
     switcher_btns = []
     for fn, label in modules:
         active_cls = " active" if fn == runner["filename"] else ""
@@ -309,7 +445,7 @@ def generate_sat_template(runner, category="math"):
   <!-- Section Info Bar -->
   <div class="set-switcher-bar">
     <div class="set-switcher-container">
-      <span class="set-label">{track_title} Modules:</span>
+      <span class="set-label">{track_title} Modules (100 Qs Total):</span>
       <div class="set-btn-group" role="tablist">
 {switcher_html}
       </div>
@@ -513,19 +649,35 @@ def generate_sat_template(runner, category="math"):
 </html>"""
     return html
 
-def generate_ap_template(runner):
-    ap_tabs = [
-      ("calculus-ab-diagnostic-01.html", "📐 AP® Calculus AB Diagnostic 01", "20 Qs • 45 Mins"),
-      ("physics-1-diagnostic-01.html", "⚡ AP® Physics 1 Diagnostic 01", "20 Qs • 40 Mins")
+def generate_ap_template(runner, exam_type="calc"):
+    is_calc = (exam_type == "calc")
+    course_name = "AP® Calculus AB" if is_calc else "AP® Physics 1"
+    
+    tabs_calc = [
+      ("calculus-ab-diagnostic-01.html", "Set 01 (Limits/Diag)", "20 Qs"),
+      ("calculus-ab-diagnostic-02.html", "Set 02 (Derivatives)", "20 Qs"),
+      ("calculus-ab-diagnostic-03.html", "Set 03 (Applications)", "20 Qs"),
+      ("calculus-ab-diagnostic-04.html", "Set 04 (Integration)", "20 Qs"),
+      ("calculus-ab-diagnostic-05.html", "Set 05 (DiffEq/Vols)", "20 Qs")
     ]
     
+    tabs_phys = [
+      ("physics-1-diagnostic-01.html", "Set 01 (Kinematics)", "20 Qs"),
+      ("physics-1-diagnostic-02.html", "Set 02 (Dynamics)", "20 Qs"),
+      ("physics-1-diagnostic-03.html", "Set 03 (Circ/Energy)", "20 Qs"),
+      ("physics-1-diagnostic-04.html", "Set 04 (Momentum)", "20 Qs"),
+      ("physics-1-diagnostic-05.html", "Set 05 (Rotation/SHM)", "20 Qs")
+    ]
+    
+    tabs = tabs_calc if is_calc else tabs_phys
+    
     switcher_btns = []
-    for fn, label, meta in ap_tabs:
+    for fn, label, meta in tabs:
         active_cls = " active" if fn == runner["filename"] else ""
         aria_sel = "true" if fn == runner["filename"] else "false"
         switcher_btns.append(f"""        <a href="{fn}" class="set-btn{active_cls}" role="tab" aria-selected="{aria_sel}">
           <span>{label}</span>
-          <span class="set-badge-count">{meta}</span>
+          <span class="set-badge-count">{meta} • {runner['time_mins']}M</span>
         </a>""")
     switcher_html = "\n".join(switcher_btns)
 
@@ -569,8 +721,8 @@ def generate_ap_template(runner):
       <a href="../index.html" class="brand-link">
         <div class="brand-logo">🇺🇸</div>
         <div class="brand-text">
-          <h1>MockTestVault <span class="vault-pill">{runner['course_name']}</span></h1>
-          <p>Advanced Placement Examination Simulator</p>
+          <h1>MockTestVault <span class="vault-pill">{course_name}</span></h1>
+          <p>Advanced Placement Examination Simulator (100 Questions Vault)</p>
         </div>
       </a>
 
@@ -610,7 +762,7 @@ def generate_ap_template(runner):
   <!-- Section Info Bar -->
   <div class="set-switcher-bar">
     <div class="set-switcher-container">
-      <span class="set-label">College Board AP Track:</span>
+      <span class="set-label">{course_name} 100-Question Modules:</span>
       <div class="set-btn-group" role="tablist">
 {switcher_html}
       </div>
@@ -726,7 +878,7 @@ def generate_ap_template(runner):
   <section id="scorecard-view" class="scorecard-view" style="display: none;">
     <div class="scorecard-hero">
       <div class="scorecard-badge">{runner['h1']} Performance Summary</div>
-      <h2 id="scorecard-greeting">Diagnostic Complete!</h2>
+      <h2 id="scorecard-greeting">Exam Complete!</h2>
       <p id="scorecard-subtext">Here is your detailed breakdown according to College Board AP scoring benchmarks.</p>
 
       <div class="score-tiles-grid">
@@ -814,7 +966,7 @@ def generate_ap_template(runner):
 </html>"""
     return html
 
-# Generate SAT Math Runners
+# Generate SAT Math Runners (5 Sets)
 for r in SAT_MATH_RUNNERS:
     target_path = os.path.join(US_SAT_DIR, r["filename"])
     content = generate_sat_template(r, category="math")
@@ -822,7 +974,7 @@ for r in SAT_MATH_RUNNERS:
         f.write(content)
     print(f"Generated: us/sat/{r['filename']}")
 
-# Generate SAT Reading Runners
+# Generate SAT Reading Runners (5 Sets)
 for r in SAT_READING_RUNNERS:
     target_path = os.path.join(US_SAT_DIR, r["filename"])
     content = generate_sat_template(r, category="reading")
@@ -830,12 +982,20 @@ for r in SAT_READING_RUNNERS:
         f.write(content)
     print(f"Generated: us/sat/{r['filename']}")
 
-# Generate AP Runners
-for r in AP_RUNNERS:
+# Generate AP Calc Runners (5 Sets)
+for r in AP_CALC_RUNNERS:
     target_path = os.path.join(US_AP_DIR, r["filename"])
-    content = generate_ap_template(r)
+    content = generate_ap_template(r, exam_type="calc")
     with open(target_path, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"Generated: us/ap/{r['filename']}")
 
-print("All 10 US examination runners generated/updated successfully!")
+# Generate AP Physics Runners (5 Sets)
+for r in AP_PHYSICS_RUNNERS:
+    target_path = os.path.join(US_AP_DIR, r["filename"])
+    content = generate_ap_template(r, exam_type="phys")
+    with open(target_path, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"Generated: us/ap/{r['filename']}")
+
+print("\nAll 20 US examination runners generated/updated successfully!")

@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "ap-phys-061",
+      "type": "mcq",
+      "subtopic": "Impulse-Momentum Theorem (Unit 5)",
+      "difficulty": "Easy",
+      "question": "A 0.145 kg baseball traveling horizontally at 40 m/s is struck by a bat and flies straight back toward the pitcher at 50 m/s. What is the magnitude of the impulse delivered to the baseball?",
+      "options": [
+        "13.05 N·s",
+        "1.45 N·s",
+        "7.25 N·s",
+        "29.0 N·s"
+      ],
+      "answer": 0,
+      "explanation": "Impulse J = Δp = m(v_f - v_i). Choosing the initial direction as positive (v_i = +40 m/s), the rebound velocity is v_f = -50 m/s. J = 0.145 kg * (-50 - (+40)) m/s = 0.145 * (-90) = -13.05 N·s. Magnitude = 13.05 N·s.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.1 Momentum and Impulse"
+    },
+    {
+      "id": "ap-phys-062",
+      "type": "mcq",
+      "subtopic": "Area Under Force-Time Graph (Unit 5)",
+      "difficulty": "Medium",
+      "question": "A force acts on a 2.0 kg cart initially at rest. The force increases linearly from 0 N at t = 0 s to 30 N at t = 4 s, then drops to 0. What is the final speed of the cart at t = 4 s?",
+      "options": [
+        "30 m/s",
+        "60 m/s",
+        "15 m/s",
+        "120 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Impulse J is the area under the F vs t graph. The area is a triangle: J = (1/2) * base * height = (1/2) * 4 s * 30 N = 60 N·s. By Impulse-Momentum: J = m * Δv = m(v_f - 0) → 60 = 2.0 * v_f → v_f = 30 m/s.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.1 Momentum and Impulse"
+    },
+    {
+      "id": "ap-phys-063",
+      "type": "mcq",
+      "subtopic": "Completely Inelastic Collision (Unit 5)",
+      "difficulty": "Medium",
+      "question": "A 1,200 kg car traveling east at 20 m/s collides and locks bumpers with a stationary 800 kg truck. What is the velocity of the combined wreckage immediately after impact?",
+      "options": [
+        "12 m/s east",
+        "15 m/s east",
+        "10 m/s east",
+        "8 m/s east"
+      ],
+      "answer": 0,
+      "explanation": "Conservation of linear momentum: m1*v1 + m2*v2 = (m1 + m2)*v_f. (1200 kg * 20 m/s) + 0 = (1200 + 800) kg * v_f → 24,000 = 2,000 * v_f → v_f = 12 m/s east.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.2 Conservation of Linear Momentum and Inelastic Collisions"
+    },
+    {
+      "id": "ap-phys-064",
+      "type": "mcq",
+      "subtopic": "Kinetic Energy Loss in Inelastic Collision (Unit 5)",
+      "difficulty": "Hard",
+      "question": "In the collision from the previous question (1,200 kg at 20 m/s colliding with stationary 800 kg to form 2,000 kg at 12 m/s), how much kinetic energy was converted into thermal energy and deformation?",
+      "options": [
+        "96,000 J",
+        "144,000 J",
+        "240,000 J",
+        "48,000 J"
+      ],
+      "answer": 0,
+      "explanation": "Initial kinetic energy K_i = (1/2)(1200)(20^2) = 600 * 400 = 240,000 J. Final kinetic energy K_f = (1/2)(2000)(12^2) = 1000 * 144 = 144,000 J. Kinetic energy dissipated = K_i - K_f = 240,000 - 144,000 = 96,000 J.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.3 Elastic and Inelastic Collisions"
+    },
+    {
+      "id": "ap-phys-065",
+      "type": "mcq",
+      "subtopic": "1D Elastic Collision with Equal Masses (Unit 5)",
+      "difficulty": "Easy",
+      "question": "A billiard ball of mass m moving with velocity v undergoes a head-on, perfectly elastic collision with an identical stationary billiard ball of mass m. What are the velocities of the balls immediately after the collision?",
+      "options": [
+        "The first ball comes to rest, and the second ball moves forward with velocity v",
+        "Both balls move forward together with velocity v / 2",
+        "The first ball rebounds with velocity -v, and the second ball remains at rest",
+        "Both balls rebound in opposite directions with velocity v / 2"
+      ],
+      "answer": 0,
+      "explanation": "In a 1D head-on perfectly elastic collision between two equal masses where one is initially stationary, the two objects completely exchange velocities: the incident ball stops (v1 = 0) and the target ball moves with the initial velocity of the first ball (v2 = v).",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.3 Elastic Collisions"
+    },
+    {
+      "id": "ap-phys-066",
+      "type": "mcq",
+      "subtopic": "Recoil and Explosion (Unit 5)",
+      "difficulty": "Medium",
+      "question": "A 60 kg ice skater at rest on frictionless ice throws a 3.0 kg medicine ball horizontally forward at 8.0 m/s. What is the skater's recoil speed?",
+      "options": [
+        "0.40 m/s",
+        "0.20 m/s",
+        "0.80 m/s",
+        "1.60 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Total initial momentum is zero. Conservation of momentum: m_skater * v_skater + m_ball * v_ball = 0 → 60 * v_skater + (3.0 * 8.0) = 0 → 60 * v_skater = -24 → v_skater = -0.40 m/s (recoil speed is 0.40 m/s).",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.2 Conservation of Linear Momentum"
+    },
+    {
+      "id": "ap-phys-067",
+      "type": "mcq",
+      "subtopic": "Ballistic Pendulum Calculation (Unit 5)",
+      "difficulty": "Hard",
+      "question": "A bullet of mass m = 0.02 kg is fired horizontally into a wooden block of mass M = 1.98 kg suspended as a pendulum. The bullet embeds into the block, and the block swings upward to a maximum vertical height h = 0.05 m. What was the initial speed of the bullet? (Use g = 9.8 m/s^2)",
+      "options": [
+        "99 m/s",
+        "49.5 m/s",
+        "198 m/s",
+        "14 m/s"
+      ],
+      "answer": 0,
+      "explanation": "During swing, mechanical energy is conserved: (1/2)(m + M)V^2 = (m + M)gh → V = √(2gh) = √(2 * 9.8 * 0.05) = √0.98 ≈ 0.99 m/s. During collision, momentum is conserved: m * v_bullet = (m + M) * V → 0.02 * v_bullet = (0.02 + 1.98) * 0.99 = 2.0 * 0.99 = 1.98 → v_bullet = 1.98 / 0.02 = 99 m/s.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.2 and 4.3 Combined Conservation Laws"
+    },
+    {
+      "id": "ap-phys-068",
+      "type": "mcq",
+      "subtopic": "2D Collision Momentum Conservation (Unit 5)",
+      "difficulty": "Hard",
+      "question": "A puck of mass m slides north at speed v on a frictionless air table. It strikes an identical stationary puck. After collision, the first puck moves northeast at angle 45° with speed v / √2. In what direction does the second puck move?",
+      "options": [
+        "Northwest at angle 45° with speed v / √2",
+        "Southeast at angle 45° with speed v / √2",
+        "Southwest at angle 45° with speed v / 2",
+        "Due east with speed v / 2"
+      ],
+      "answer": 0,
+      "explanation": "Initial momentum: p_x = 0, p_y = mv. Puck 1 moves northeast (45° between north and east): p_1x = m(v/√2)cos(45°) = mv/2; p_1y = m(v/√2)sin(45°) = mv/2. Conserving x-momentum: 0 = mv/2 + p_2x → p_2x = -mv/2 (westward). Conserving y-momentum: mv = mv/2 + p_2y → p_2y = mv/2 (northward). Combining components gives magnitude v2 = √((-v/2)^2 + (v/2)^2) = v/√2 directed northwest at 45°.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.2 Conservation of Momentum in Two Dimensions"
+    },
+    {
+      "id": "ap-phys-069",
+      "type": "mcq",
+      "subtopic": "Center of Mass Velocity of Closed System (Unit 5)",
+      "difficulty": "Medium",
+      "question": "Two carts on a frictionless track, A (mass 1 kg moving at +6 m/s) and B (mass 3 kg moving at -2 m/s), collide and bounce off each other. What is the velocity of the center of mass of the two-cart system after the collision?",
+      "options": [
+        "0 m/s",
+        "+2 m/s",
+        "-1 m/s",
+        "+4 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Because there are zero net external horizontal forces on the two-cart system, the velocity of the center of mass v_cm is strictly constant before, during, and after any collision. v_cm = (m_A*v_A + m_B*v_B) / (m_A + m_B) = (1*6 + 3*(-2)) / (1 + 3) = (6 - 6) / 4 = 0 m/s.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.4 Center of Mass"
+    },
+    {
+      "id": "ap-phys-070",
+      "type": "mcq",
+      "subtopic": "Impulse Comparison with Bouncing vs Sticking (Unit 5)",
+      "difficulty": "Medium",
+      "question": "Two identical rubber balls of mass m hit a rigid wall with speed v. Ball 1 sticks to the wall (comes to rest). Ball 2 bounces elastically back with speed v. Which ball experienced a greater impulse from the wall?",
+      "options": [
+        "Ball 2, because its change in momentum is 2mv, whereas Ball 1's is only mv",
+        "Ball 1, because all of its kinetic energy was absorbed by the wall",
+        "Both balls experienced the same impulse because their initial speeds were equal",
+        "Neither ball experienced an impulse because the wall did not move"
+      ],
+      "answer": 0,
+      "explanation": "Impulse equals change in momentum: J = m * Δv. Ball 1: Δv = 0 - v = -v → |J1| = mv. Ball 2: Δv = -v - v = -2v → |J2| = 2mv. Bouncing requires twice the change in momentum compared to simply coming to rest.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.1 Momentum and Impulse"
+    },
+    {
+      "id": "ap-phys-071",
+      "type": "mcq",
+      "subtopic": "Average Force during Collision (Unit 5)",
+      "difficulty": "Easy",
+      "question": "A 0.5 kg soccer ball arrives at 14 m/s and is kicked in the opposite direction at 26 m/s. The foot remains in contact with the ball for 0.02 seconds. What is the magnitude of the average force exerted on the ball?",
+      "options": [
+        "1,000 N",
+        "500 N",
+        "200 N",
+        "2,000 N"
+      ],
+      "answer": 0,
+      "explanation": "Δv = 26 - (-14) = 40 m/s. Impulse J = m * Δv = 0.5 kg * 40 m/s = 20 N·s. Average force F_avg = J / Δt = 20 N·s / 0.02 s = 1,000 N.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.1 Impulse and Force"
+    },
+    {
+      "id": "ap-phys-072",
+      "type": "mcq",
+      "subtopic": "Elastic Collision Kinetic Energy Conservation (Unit 5)",
+      "difficulty": "Easy",
+      "question": "Which of the following physical quantities is conserved in a perfectly elastic collision between two objects in an isolated system, but is NOT conserved in an inelastic collision?",
+      "options": [
+        "Total kinetic energy of the system",
+        "Total linear momentum of the system",
+        "Total mass of the system",
+        "Velocity of the center of mass"
+      ],
+      "answer": 0,
+      "explanation": "Total linear momentum is conserved in ALL collisions in an isolated system (elastic, inelastic, completely inelastic). Total kinetic energy is conserved ONLY in perfectly elastic collisions; in inelastic collisions, some kinetic energy is converted into heat, sound, or mechanical deformation.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.3 Elastic and Inelastic Collisions"
+    },
+    {
+      "id": "ap-phys-073",
+      "type": "mcq",
+      "subtopic": "Force-Time Curve Peak Force (Unit 5)",
+      "difficulty": "Medium",
+      "question": "A crash test dummy receives an impulse of 600 N·s during an impact lasting 0.04 s. If the force-time profile is a symmetric triangle peaking at F_max at t = 0.02 s, what is F_max?",
+      "options": [
+        "30,000 N",
+        "15,000 N",
+        "7,500 N",
+        "60,000 N"
+      ],
+      "answer": 0,
+      "explanation": "Area of triangle = (1/2) * base * height = (1/2) * Δt * F_max = Impulse J. 600 N·s = (1/2) * 0.04 s * F_max = 0.02 * F_max → F_max = 600 / 0.02 = 30,000 N.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.1 Momentum and Impulse"
+    },
+    {
+      "id": "ap-phys-074",
+      "type": "mcq",
+      "subtopic": "Head-on Collision with Stationary Wall (Unit 5)",
+      "difficulty": "Easy",
+      "question": "Why does an airbag in an automobile reduce passenger injury during a front-end crash?",
+      "options": [
+        "It increases the time duration of impact, thereby reducing the average force exerted on the passenger",
+        "It decreases the total momentum change required to bring the passenger to rest",
+        "It eliminates the impulse delivered to the passenger",
+        "It converts the passenger's kinetic energy into gravitational potential energy"
+      ],
+      "answer": 0,
+      "explanation": "Bringing a passenger of mass m from initial velocity v to rest requires a fixed change in momentum (fixed impulse J = Δp). Since J = F_avg * Δt, increasing the impact duration Δt dramatically reduces the peak and average force F_avg experienced by the passenger.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.1 Momentum and Impulse in Real-World Contexts"
+    },
+    {
+      "id": "ap-phys-075",
+      "type": "mcq",
+      "subtopic": "Momentum of Photons / Conceptual Relativity (Unit 5)",
+      "difficulty": "Medium",
+      "question": "Two carts of masses m and 2m are pushed apart by an internal compressed spring on a frictionless surface. What is the ratio of the kinetic energy of mass m to the kinetic energy of mass 2m?",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "4 : 1",
+        "1 : 1"
+      ],
+      "answer": 0,
+      "explanation": "By conservation of momentum, both carts acquire equal magnitudes of momentum p: p_1 = p_2 = p. Kinetic energy in terms of momentum is K = p^2 / (2m). Therefore K1 / K2 = [p^2 / (2m)] / [p^2 / (2*(2m))] = (2*2m) / (2m) = 2 / 1. The lighter cart receives twice the kinetic energy.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.2 Momentum and Kinetic Energy"
+    },
+    {
+      "id": "ap-phys-076",
+      "type": "mcq",
+      "subtopic": "Three-Piece Explosion in 2D (Unit 5)",
+      "difficulty": "Hard",
+      "question": "A stationary firework shell explodes into three pieces of equal mass. Piece A flies due North at 30 m/s. Piece B flies due East at 40 m/s. What is the velocity of Piece C?",
+      "options": [
+        "50 m/s in the Southwest direction",
+        "50 m/s in the Northeast direction",
+        "70 m/s in the Southwest direction",
+        "35 m/s in the West direction"
+      ],
+      "answer": 0,
+      "explanation": "Initial momentum is zero: p_total = 0 → p_C = -(p_A + p_B). Vector p_A = (0, 30m), p_B = (40m, 0). Vector p_C = (-40m, -30m). Magnitude of v_C = √((-40)^2 + (-30)^2) = √2500 = 50 m/s directed South and West (Southwest).",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.2 Two-Dimensional Explosions and Momentum"
+    },
+    {
+      "id": "ap-phys-077",
+      "type": "mcq",
+      "subtopic": "Elastic Collision Moving Toward Each Other (Unit 5)",
+      "difficulty": "Hard",
+      "question": "Cart 1 (mass 1 kg) moves right at 4 m/s. Cart 2 (mass 2 kg) moves left at 2 m/s. If the collision is perfectly elastic, what is the total momentum of the system after the collision?",
+      "options": [
+        "0 kg·m/s",
+        "8 kg·m/s",
+        "4 kg·m/s",
+        "2 kg·m/s"
+      ],
+      "answer": 0,
+      "explanation": "Total initial momentum p_total = m1*v1 + m2*v2 = (1 kg * 4 m/s) + (2 kg * (-2 m/s)) = 4 - 4 = 0 kg·m/s. Because linear momentum is strictly conserved in any closed system collision, the total momentum after the collision remains exactly 0 kg·m/s.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.2 Conservation of Linear Momentum"
+    },
+    {
+      "id": "ap-phys-078",
+      "type": "mcq",
+      "subtopic": "Center of Mass Position of Non-Uniform Rod (Unit 5)",
+      "difficulty": "Medium",
+      "question": "A light horizontal rod of negligible mass has length 2.0 meters. A 3.0 kg mass is attached at x = 0 m and a 1.0 kg mass is attached at x = 2.0 m. Where is the center of mass of the system located?",
+      "options": [
+        "0.5 meters from the 3.0 kg mass",
+        "1.0 meters from the 3.0 kg mass",
+        "0.75 meters from the 3.0 kg mass",
+        "1.5 meters from the 3.0 kg mass"
+      ],
+      "answer": 0,
+      "explanation": "x_cm = (m1*x1 + m2*x2) / (m1 + m2) = (3.0 kg * 0 m + 1.0 kg * 2.0 m) / (3.0 + 1.0) kg = 2.0 / 4.0 = 0.5 meters from x = 0 (the 3.0 kg mass).",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.4 Center of Mass"
+    },
+    {
+      "id": "ap-phys-079",
+      "type": "mcq",
+      "subtopic": "Coefficient of Restitution (Unit 5)",
+      "difficulty": "Medium",
+      "question": "A superball dropped from height h0 bounces back to height h1 = 0.64 * h0. What is the ratio of rebound speed to impact speed (coefficient of restitution e)?",
+      "options": [
+        "0.80",
+        "0.64",
+        "0.40",
+        "0.85"
+      ],
+      "answer": 0,
+      "explanation": "Impact speed v_impact = √(2g*h0). Rebound speed v_rebound = √(2g*h1). Ratio e = v_rebound / v_impact = √(h1 / h0) = √(0.64) = 0.80.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.3 Inelastic Collisions"
+    },
+    {
+      "id": "ap-phys-080",
+      "type": "mcq",
+      "subtopic": "Momentum of Glider Struck by Sand Dropper (Unit 5)",
+      "difficulty": "Hard",
+      "question": "An air-track glider of mass M moves frictionlessly at speed v0. Sand is dropped vertically into the open glider at a constant rate dm/dt = R. What is the horizontal speed of the glider when an amount of sand m has accumulated?",
+      "options": [
+        "[M / (M + m)] * v0",
+        "v0",
+        "[(M + m) / M] * v0",
+        "v0 * e^(-Rt/M)"
+      ],
+      "answer": 0,
+      "explanation": "Because the sand is dropped vertically, it carries zero initial horizontal momentum into the glider. Conserving horizontal momentum: p_i = M * v0 = p_f = (M + m) * v_f → v_f = [M / (M + m)] * v0.",
+      "citation": "College Board AP® Physics 1 CED — Topic 5.2 Open Systems and Mass Accumulation"
+    }
+  ]
+}

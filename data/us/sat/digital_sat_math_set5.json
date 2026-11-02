@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "sat-m-501",
+      "type": "mcq",
+      "subtopic": "Heart of Algebra: Absolute Value Equations",
+      "difficulty": "Medium",
+      "question": "What is the sum of the solutions to the equation |3x - 7| = 14?",
+      "options": [
+        "14/3",
+        "7/3",
+        "0",
+        "28/3"
+      ],
+      "answer": 0,
+      "explanation": "Break into two cases: Case 1: 3x - 7 = 14 → 3x = 21 → x = 7. Case 2: 3x - 7 = -14 → 3x = -7 → x = -7/3. Sum of solutions = 7 + (-7/3) = 21/3 - 7/3 = 14/3. Shortcut: for |ax - b| = c, the sum of roots is 2b/a = 2(7)/3 = 14/3.",
+      "citation": "College Board Digital SAT® Math Specifications — Heart of Algebra: Absolute Value Equations"
+    },
+    {
+      "id": "sat-m-502",
+      "type": "mcq",
+      "subtopic": "Heart of Algebra: Linear Inequality Word Problem",
+      "difficulty": "Medium",
+      "question": "A catering company charges a base setup fee of $120 plus $18.50 per guest for dinner. If an event planner has a budget of at most $750, what is the maximum number of guests that can be invited?",
+      "options": [
+        "34",
+        "35",
+        "33",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "Set up the inequality: 120 + 18.50g ≤ 750. Subtract 120: 18.50g ≤ 630. Divide by 18.50: g ≤ 630 / 18.50 ≈ 34.054. Since the number of guests must be a whole number, the maximum number is 34.",
+      "citation": "College Board Digital SAT® Math Specifications — Heart of Algebra: Linear Inequalities in One Variable"
+    },
+    {
+      "id": "sat-m-503",
+      "type": "mcq",
+      "subtopic": "Heart of Algebra: Perpendicular Lines",
+      "difficulty": "Medium",
+      "question": "In the xy-plane, line k passes through the points (2, -3) and (6, 5). Line m is perpendicular to line k. What is the slope of line m?",
+      "options": [
+        "-1/2",
+        "2",
+        "-2",
+        "1/2"
+      ],
+      "answer": 0,
+      "explanation": "Slope of line k: m_k = (5 - (-3)) / (6 - 2) = 8 / 4 = 2. Perpendicular lines have negative reciprocal slopes: m_m = -1 / m_k = -1/2.",
+      "citation": "College Board Digital SAT® Math Specifications — Heart of Algebra: Linear Equations and Slope Properties"
+    },
+    {
+      "id": "sat-m-504",
+      "type": "mcq",
+      "subtopic": "Heart of Algebra: Parallel Line Systems with No Solution",
+      "difficulty": "Hard",
+      "question": "The system of equations below has no solution: \n4x - 6y = 15 \n6x + ky = 22 \nWhat is the value of the constant k?",
+      "options": [
+        "-9",
+        "9",
+        "-4",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "A linear system has no solution if the lines are parallel (matching slopes but different y-intercepts). For a1*x + b1*y = c1 and a2*x + b2*y = c2 to be parallel: a1/a2 = b1/b2 → 4/6 = -6/k. Cross-multiply: 4k = -36 → k = -9. Check constant ratio: 4/6 ≠ 15/22, confirming no solution.",
+      "citation": "College Board Digital SAT® Math Specifications — Heart of Algebra: Systems of Linear Equations"
+    },
+    {
+      "id": "sat-m-505",
+      "type": "mcq",
+      "subtopic": "Heart of Algebra: Interpreting Intercepts",
+      "difficulty": "Easy",
+      "question": "The function C(m) = 45 + 0.20m models the monthly telephone bill C, in dollars, for m text messages sent. What does the value 45 represent in this model?",
+      "options": [
+        "The flat monthly subscription fee regardless of texts sent",
+        "The fee charged per individual text message sent",
+        "The maximum monthly bill allowed by the carrier",
+        "The total number of text messages included in the plan"
+      ],
+      "answer": 0,
+      "explanation": "In the linear function C(m) = 45 + 0.20m, 45 is the y-intercept (C(0) = 45), representing the fixed initial fee incurred when m = 0 text messages are sent.",
+      "citation": "College Board Digital SAT® Math Specifications — Heart of Algebra: Linear Function Interpretations"
+    },
+    {
+      "id": "sat-m-506",
+      "type": "mcq",
+      "subtopic": "Problem Solving: Percent Change & Successive Discounts",
+      "difficulty": "Medium",
+      "question": "A retail jacket originally priced at $160 is discounted by 25% during a weekend sale. A shopper uses a coupon for an additional 10% off the discounted price. What is the final price of the jacket before tax?",
+      "options": [
+        "$108",
+        "$104",
+        "$112",
+        "$120"
+      ],
+      "answer": 0,
+      "explanation": "Discount of 25% means paying 75%: 160 * 0.75 = $120. An additional 10% discount on $120 means paying 90%: 120 * 0.90 = $108. (Note: discounts do not simply add to 35%).",
+      "citation": "College Board Digital SAT® Math Specifications — Problem Solving: Percentages and Multi-Step Models"
+    },
+    {
+      "id": "sat-m-507",
+      "type": "mcq",
+      "subtopic": "Problem Solving: Unit Conversion & Rate",
+      "difficulty": "Medium",
+      "question": "A water pump fills a cistern at a rate of 15 gallons per minute. If 1 gallon is approximately 3.785 liters, approximately how many liters does the pump deliver in 2.5 hours?",
+      "options": [
+        "8,516 liters",
+        "3,407 liters",
+        "5,678 liters",
+        "14,194 liters"
+      ],
+      "answer": 0,
+      "explanation": "Calculate total minutes: 2.5 hours * 60 minutes/hour = 150 minutes. Total gallons = 150 min * 15 gal/min = 2,250 gallons. Convert to liters: 2,250 gallons * 3.785 L/gal = 8,516.25 liters ≈ 8,516 liters.",
+      "citation": "College Board Digital SAT® Math Specifications — Problem Solving: Rates, Proportions, and Unit Conversions"
+    },
+    {
+      "id": "sat-m-508",
+      "type": "mcq",
+      "subtopic": "Problem Solving: Two-Way Frequency Table Probability",
+      "difficulty": "Medium",
+      "question": "A survey of 200 high school students found that 120 students study Spanish, 50 study French, and 30 study both languages. If a student is selected at random from those who study Spanish, what is the probability that this student also studies French?",
+      "options": [
+        "1/4",
+        "3/20",
+        "3/5",
+        "1/6"
+      ],
+      "answer": 0,
+      "explanation": "This is conditional probability P(French | Spanish). The conditioning group is students who study Spanish (120 students). Of these, 30 study both languages. P = 30 / 120 = 1/4 (or 0.25).",
+      "citation": "College Board Digital SAT® Math Specifications — Problem Solving: Conditional Probability and Two-Way Tables"
+    },
+    {
+      "id": "sat-m-509",
+      "type": "mcq",
+      "subtopic": "Problem Solving: Mean, Median, and Outliers",
+      "difficulty": "Hard",
+      "question": "A dataset contains 9 distinct test scores with a mean of 82 and a median of 84. If a 10th student scores 98 and is added to the dataset, which of the following statements must be true?",
+      "options": [
+        "The mean of the dataset will increase",
+        "The median of the dataset will decrease",
+        "The standard deviation of the dataset will decrease",
+        "The range of the dataset will remain unchanged"
+      ],
+      "answer": 0,
+      "explanation": "Since the new score (98) is greater than the existing mean (82), the new mean = (9 * 82 + 98) / 10 = (738 + 98) / 10 = 83.6 > 82. Adding an observation strictly greater than the mean always increases the mean.",
+      "citation": "College Board Digital SAT® Math Specifications — Problem Solving: Center, Spread, and Shape of Distributions"
+    },
+    {
+      "id": "sat-m-510",
+      "type": "mcq",
+      "subtopic": "Problem Solving: Scatterplots and Line of Best Fit",
+      "difficulty": "Medium",
+      "question": "A line of best fit for a dataset relating advertising budget x (thousands of dollars) to sales revenue y (thousands of dollars) is y = 3.4x + 18.5. For an advertising budget of $20,000, the actual sales revenue was $91,000. What is the residual for this data point?",
+      "options": [
+        "$4.5 thousand",
+        "-$4.5 thousand",
+        "$5.5 thousand",
+        "$86.5 thousand"
+      ],
+      "answer": 0,
+      "explanation": "Residual = Actual y - Predicted y. Note units are in thousands, so x = 20, actual y = 91. Predicted y = 3.4(20) + 18.5 = 68 + 18.5 = 86.5. Residual = 91 - 86.5 = +4.5 (or $4,500).",
+      "citation": "College Board Digital SAT® Math Specifications — Problem Solving: Linear Regression and Residuals"
+    },
+    {
+      "id": "sat-m-511",
+      "type": "mcq",
+      "subtopic": "Passport to Advanced Math: Quadratic Discriminant",
+      "difficulty": "Medium",
+      "question": "For what value of c does the quadratic equation 3x^2 - 12x + c = 0 have exactly one real solution?",
+      "options": [
+        "12",
+        "6",
+        "18",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "A quadratic ax^2 + bx + c = 0 has exactly one real solution (a double root) when discriminant Δ = b^2 - 4ac = 0. Here a = 3, b = -12: (-12)^2 - 4(3)(c) = 0 → 144 - 12c = 0 → 12c = 144 → c = 12.",
+      "citation": "College Board Digital SAT® Math Specifications — Passport to Advanced Math: Quadratic Equations and Discriminants"
+    },
+    {
+      "id": "sat-m-512",
+      "type": "mcq",
+      "subtopic": "Passport to Advanced Math: Vertex Form Transformation",
+      "difficulty": "Medium",
+      "question": "The parabola f(x) = x^2 - 8x + 19 is graphed in the xy-plane. What are the coordinates of its vertex?",
+      "options": [
+        "(4, 3)",
+        "(-4, 3)",
+        "(4, 19)",
+        "(8, 3)"
+      ],
+      "answer": 0,
+      "explanation": "Complete the square or use h = -b / (2a): h = -(-8) / (2*1) = 4. Substitute x = 4: f(4) = (4)^2 - 8(4) + 19 = 16 - 32 + 19 = 3. Thus, the vertex is (4, 3).",
+      "citation": "College Board Digital SAT® Math Specifications — Passport to Advanced Math: Quadratic Vertex Forms"
+    },
+    {
+      "id": "sat-m-513",
+      "type": "mcq",
+      "subtopic": "Passport to Advanced Math: Rational Expression Simplification",
+      "difficulty": "Hard",
+      "question": "Which of the following expressions is equivalent to (x^2 - 25) / (2x^2 - 7x - 15) for all x where the expression is defined?",
+      "options": [
+        "(x + 5) / (2x + 3)",
+        "(x - 5) / (2x - 3)",
+        "(x + 5) / (2x - 5)",
+        "(x - 5) / (2x + 5)"
+      ],
+      "answer": 0,
+      "explanation": "Factor numerator: (x - 5)(x + 5). Factor denominator: find two numbers that multiply to 2*(-15) = -30 and sum to -7: -10 and +3. Rewrite 2x^2 - 10x + 3x - 15 = 2x(x - 5) + 3(x - 5) = (2x + 3)(x - 5). Cancel (x - 5): (x + 5) / (2x + 3).",
+      "citation": "College Board Digital SAT® Math Specifications — Passport to Advanced Math: Rational Expressions"
+    },
+    {
+      "id": "sat-m-514",
+      "type": "mcq",
+      "subtopic": "Passport to Advanced Math: Exponential Decay Half-Life",
+      "difficulty": "Hard",
+      "question": "A radioactive isotope has a half-life of 8 days. An initial sample contains 320 grams of the isotope. Which function models the remaining mass M(t), in grams, after t days?",
+      "options": [
+        "M(t) = 320 * (1/2)^(t/8)",
+        "M(t) = 320 * (1/2)^(8t)",
+        "M(t) = 320 * (8)^(t/2)",
+        "M(t) = 320 - (1/2)^(t/8)"
+      ],
+      "answer": 0,
+      "explanation": "Standard half-life model is M(t) = M0 * (1/2)^(t / T_half). With initial mass M0 = 320 and half-life T_half = 8 days, M(t) = 320 * (1/2)^(t/8).",
+      "citation": "College Board Digital SAT® Math Specifications — Passport to Advanced Math: Exponential Growth and Decay"
+    },
+    {
+      "id": "sat-m-515",
+      "type": "mcq",
+      "subtopic": "Passport to Advanced Math: Radical Equation with Extraneous Roots",
+      "difficulty": "Hard",
+      "question": "What is the solution set of the equation √(2x + 15) = x?",
+      "options": [
+        "{5}",
+        "{-3, 5}",
+        "{-3}",
+        "No real solutions"
+      ],
+      "answer": 0,
+      "explanation": "Square both sides: 2x + 15 = x^2 → x^2 - 2x - 15 = 0 → (x - 5)(x + 3) = 0 → candidate roots x = 5 and x = -3. Test x = 5: √(2(5) + 15) = √25 = 5 (valid). Test x = -3: √(2(-3) + 15) = √9 = 3 ≠ -3 (extraneous). Therefore, only {5} is a valid solution.",
+      "citation": "College Board Digital SAT® Math Specifications — Passport to Advanced Math: Radical and Polynomial Operations"
+    },
+    {
+      "id": "sat-m-516",
+      "type": "mcq",
+      "subtopic": "Additional Topics: Circle Equation and Radius",
+      "difficulty": "Medium",
+      "question": "In the xy-plane, the equation of a circle is x^2 + y^2 - 10x + 6y = 47. What is the radius of the circle?",
+      "options": [
+        "9",
+        "81",
+        "√47",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Complete the square for x and y: (x^2 - 10x + 25) + (y^2 + 6y + 9) = 47 + 25 + 9. (x - 5)^2 + (y + 3)^2 = 81. Since r^2 = 81, the radius r = √81 = 9.",
+      "citation": "College Board Digital SAT® Math Specifications — Additional Topics: Circle Equations in the Coordinate Plane"
+    },
+    {
+      "id": "sat-m-517",
+      "type": "mcq",
+      "subtopic": "Additional Topics: Right Triangle Trigonometric Identity",
+      "difficulty": "Medium",
+      "question": "In right triangle ABC, angle C is 90°. If sin(A) = 7/25, what is the value of cos(B)?",
+      "options": [
+        "7/25",
+        "24/25",
+        "25/7",
+        "24/7"
+      ],
+      "answer": 0,
+      "explanation": "In a right triangle where C = 90°, angles A and B are complementary (A + B = 90°). By the co-function identity, sin(A) = cos(90° - A) = cos(B). Thus, cos(B) = 7/25.",
+      "citation": "College Board Digital SAT® Math Specifications — Additional Topics: Right Triangle Trigonometry"
+    },
+    {
+      "id": "sat-m-518",
+      "type": "mcq",
+      "subtopic": "Additional Topics: Arc Length of a Circle",
+      "difficulty": "Hard",
+      "question": "A circle has a radius of 12 cm. What is the length of an arc intercepted by a central angle of 75°?",
+      "options": [
+        "5π cm",
+        "10π cm",
+        "2.5π cm",
+        "15π cm"
+      ],
+      "answer": 0,
+      "explanation": "Arc length s = 2πr * (θ / 360°). With r = 12 and θ = 75°: s = 2π(12) * (75/360) = 24π * (5/24) = 5π cm.",
+      "citation": "College Board Digital SAT® Math Specifications — Additional Topics: Radians and Sector Arc Lengths"
+    },
+    {
+      "id": "sat-m-519",
+      "type": "mcq",
+      "subtopic": "Additional Topics: Complex Numbers",
+      "difficulty": "Medium",
+      "question": "If i = √(-1), which of the following is equivalent to (4 + 3i)(2 - 5i)?",
+      "options": [
+        "23 - 14i",
+        "8 - 14i",
+        "23 + 14i",
+        "-7 - 14i"
+      ],
+      "answer": 0,
+      "explanation": "Expand using FOIL: 4(2) + 4(-5i) + 3i(2) + 3i(-5i) = 8 - 20i + 6i - 15(i^2). Since i^2 = -1, -15(i^2) = +15. Combine real and imaginary terms: (8 + 15) + (-20i + 6i) = 23 - 14i.",
+      "citation": "College Board Digital SAT® Math Specifications — Additional Topics: Complex Number Arithmetic"
+    },
+    {
+      "id": "sat-m-520",
+      "type": "mcq",
+      "subtopic": "Additional Topics: Similar Triangle Ratios",
+      "difficulty": "Hard",
+      "question": "Triangle PQR is similar to triangle STU, where vertices P, Q, and R correspond to S, T, and U, respectively. The length of PQ is 15 cm and the length of ST is 25 cm. If the area of triangle PQR is 54 cm^2, what is the area of triangle STU?",
+      "options": [
+        "150 cm^2",
+        "90 cm^2",
+        "125 cm^2",
+        "180 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Scale factor k of side lengths is ST / PQ = 25 / 15 = 5/3. The ratio of areas of similar geometric figures is the square of the linear scale factor: Area_STU / Area_PQR = (5/3)^2 = 25/9. Area_STU = 54 * (25/9) = 6 * 25 = 150 cm^2.",
+      "citation": "College Board Digital SAT® Math Specifications — Additional Topics: Geometric Proportions and Similar Figures"
+    }
+  ]
+}

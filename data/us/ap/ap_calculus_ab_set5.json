@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "ap-calc-081",
+      "type": "mcq",
+      "subtopic": "Slope Fields Matching (Unit 7)",
+      "difficulty": "Medium",
+      "question": "Which differential equation has a slope field where all tangent segments along the y-axis (where x = 0) are horizontal?",
+      "options": [
+        "dy/dx = x * y",
+        "dy/dx = y / x",
+        "dy/dx = x + y",
+        "dy/dx = y - x"
+      ],
+      "answer": 0,
+      "explanation": "Along the y-axis, x = 0. Tangent segments are horizontal when dy/dx = 0. For dy/dx = x * y, when x = 0, dy/dx = 0 * y = 0 for all y.",
+      "citation": "College Board AP® Calculus AB CED — Topic 7.3 Sketching and Interpreting Slope Fields"
+    },
+    {
+      "id": "ap-calc-082",
+      "type": "mcq",
+      "subtopic": "Separation of Variables with Initial Condition (Unit 7)",
+      "difficulty": "Hard",
+      "question": "Find the particular solution to the differential equation dy/dx = (3x^2) / y for y > 0, given the initial condition y(0) = 4.",
+      "options": [
+        "y = √(2x^3 + 16)",
+        "y = x^3 + 4",
+        "y = √(x^3 + 16)",
+        "y = 2x^3 + 16"
+      ],
+      "answer": 0,
+      "explanation": "Separate variables: y dy = 3x^2 dx. Integrate both sides: ∫ y dy = ∫ 3x^2 dx → y^2 / 2 = x^3 + C → y^2 = 2x^3 + 2C. Use y(0) = 4: 4^2 = 2(0) + 2C → 16 = 2C. Thus y^2 = 2x^3 + 16 → y = √(2x^3 + 16) (since y > 0).",
+      "citation": "College Board AP® Calculus AB CED — Topic 7.7 Particular Solutions Using Initial Conditions"
+    },
+    {
+      "id": "ap-calc-083",
+      "type": "mcq",
+      "subtopic": "Exponential Growth and Decay (Unit 7)",
+      "difficulty": "Medium",
+      "question": "The rate of growth of a bacteria population P(t) is directly proportional to its population: dP/dt = kP. If the initial population is 200 and the population doubles every 3 hours, what is the value of k?",
+      "options": [
+        "ln(2) / 3",
+        "3 * ln(2)",
+        "ln(3) / 2",
+        "2 / 3"
+      ],
+      "answer": 0,
+      "explanation": "The solution to dP/dt = kP is P(t) = P0 * e^(kt). Given P(3) = 2 * P0: P0 * e^(3k) = 2 * P0 → e^(3k) = 2 → 3k = ln(2) → k = ln(2) / 3.",
+      "citation": "College Board AP® Calculus AB CED — Topic 7.8 Exponential Models with Differential Equations"
+    },
+    {
+      "id": "ap-calc-084",
+      "type": "mcq",
+      "subtopic": "Area Between Two Curves (Unit 8)",
+      "difficulty": "Medium",
+      "question": "What is the area of the region in the first quadrant bounded by the curves y = √x and y = x^2?",
+      "options": [
+        "1/3",
+        "2/3",
+        "1/6",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Find intersections: √x = x^2 → x = x^4 → x(x^3 - 1) = 0 → x = 0 and x = 1. On [0, 1], √x ≥ x^2. Area = ∫[0 to 1] (x^(1/2) - x^2) dx = [(2/3)x^(3/2) - (1/3)x^3]_0^1 = (2/3 - 1/3) = 1/3.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.4 Finding the Area Between Curves Expressed as Functions of x"
+    },
+    {
+      "id": "ap-calc-085",
+      "type": "mcq",
+      "subtopic": "Area Between Curves Integrating with Respect to y (Unit 8)",
+      "difficulty": "Hard",
+      "question": "What is the area of the region bounded by x = y^2 - 2 and x = y?",
+      "options": [
+        "9/2",
+        "7/2",
+        "9/4",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Set curves equal to find y-limits: y^2 - 2 = y → y^2 - y - 2 = 0 → (y - 2)(y + 1) = 0 → y = -1 and y = 2. On [-1, 2], the right curve is x = y and the left curve is x = y^2 - 2. Area = ∫[-1 to 2] [y - (y^2 - 2)] dy = ∫[-1 to 2] (y - y^2 + 2) dy = [y^2/2 - y^3/3 + 2y]_{-1}^2 = (2 - 8/3 + 4) - (1/2 + 1/3 - 2) = (6 - 8/3) - (-3/2 + 1/3) = (10/3) - (-7/6) = 20/6 + 7/6 = 27/6 = 9/2.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.5 Finding the Area Between Curves Expressed as Functions of y"
+    },
+    {
+      "id": "ap-calc-086",
+      "type": "mcq",
+      "subtopic": "Volume of Solid: Disk Method (Unit 8)",
+      "difficulty": "Medium",
+      "question": "The region bounded by y = 2x, y = 0, and x = 3 is revolved around the x-axis. What is the volume of the resulting solid?",
+      "options": [
+        "36π",
+        "18π",
+        "54π",
+        "12π"
+      ],
+      "answer": 0,
+      "explanation": "Disk method formula: V = π ∫[a to b] [f(x)]^2 dx. V = π ∫[0 to 3] (2x)^2 dx = π ∫[0 to 3] 4x^2 dx = π [4x^3 / 3]_0^3 = π [4(27) / 3] = π(36) = 36π.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.9 Volume with Disc Method: Revolving Around the x- or y-Axis"
+    },
+    {
+      "id": "ap-calc-087",
+      "type": "mcq",
+      "subtopic": "Volume of Solid: Washer Method (Unit 8)",
+      "difficulty": "Hard",
+      "question": "The region bounded by y = x and y = x^2 is revolved around the x-axis. What is the volume of the generated solid?",
+      "options": [
+        "2π / 15",
+        "π / 15",
+        "2π / 5",
+        "π / 3"
+      ],
+      "answer": 0,
+      "explanation": "Intersections are at x = 0 and x = 1. On [0, 1], outer radius R(x) = x, inner radius r(x) = x^2. Washer formula: V = π ∫[0 to 1] ([R(x)]^2 - [r(x)]^2) dx = π ∫[0 to 1] (x^2 - x^4) dx = π [x^3/3 - x^5/5]_0^1 = π (1/3 - 1/5) = π (2/15) = 2π / 15.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.11 Volume with Washer Method: Revolving Around the x- or y-Axis"
+    },
+    {
+      "id": "ap-calc-088",
+      "type": "mcq",
+      "subtopic": "Volume of Solid with Square Cross-Sections (Unit 8)",
+      "difficulty": "Hard",
+      "question": "The base of a solid is the region bounded by y = 4 - x^2 and the x-axis. Cross-sections perpendicular to the x-axis are squares. What is the volume of the solid?",
+      "options": [
+        "512 / 15",
+        "256 / 15",
+        "128 / 5",
+        "64 / 3"
+      ],
+      "answer": 0,
+      "explanation": "Base extends from x = -2 to x = 2 (where 4 - x^2 = 0). The side length of each square cross-section is s(x) = y = 4 - x^2. Area of cross-section A(x) = s^2 = (4 - x^2)^2 = 16 - 8x^2 + x^4. Volume V = ∫[-2 to 2] (16 - 8x^2 + x^4) dx = 2 * ∫[0 to 2] (16 - 8x^2 + x^4) dx = 2 * [16x - (8/3)x^3 + x^5/5]_0^2 = 2 * [32 - 64/3 + 32/5] = 2 * 32 * [1 - 2/3 + 1/5] = 64 * [15/15 - 10/15 + 3/15] = 64 * (8/15) = 512 / 15.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.7 Volumes with Cross Sections: Squares and Rectangles"
+    },
+    {
+      "id": "ap-calc-089",
+      "type": "mcq",
+      "subtopic": "Volume with Semicircular Cross-Sections (Unit 8)",
+      "difficulty": "Hard",
+      "question": "The base of a solid is bounded by y = sin(x) and the x-axis on [0, π]. Each cross-section perpendicular to the x-axis is a semicircle with diameter lying in the base. What is the volume of the solid?",
+      "options": [
+        "π^2 / 16",
+        "π^2 / 8",
+        "π / 8",
+        "π^2 / 4"
+      ],
+      "answer": 0,
+      "explanation": "Diameter of semicircle d = sin(x) → radius r = (1/2)sin(x). Area of semicircle cross-section A(x) = (1/2)πr^2 = (1/2)π[(1/2)sin(x)]^2 = (π/8)sin^2(x). Recall ∫[0 to π] sin^2(x) dx = π/2. Volume = (π/8) * (π/2) = π^2 / 16.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.8 Volumes with Cross Sections: Triangles and Semicircles"
+    },
+    {
+      "id": "ap-calc-090",
+      "type": "mcq",
+      "subtopic": "Separation of Variables with Natural Log Solution (Unit 7)",
+      "difficulty": "Medium",
+      "question": "What is the general solution to dy/dx = 4x * (y - 1) for y > 1?",
+      "options": [
+        "y = 1 + C * e^(2x^2)",
+        "y = C * e^(4x) + 1",
+        "y = 2x^2 + C",
+        "y = 1 + e^(4x^2)"
+      ],
+      "answer": 0,
+      "explanation": "Separate variables: [1 / (y - 1)] dy = 4x dx. Integrate: ln(y - 1) = 2x^2 + C1 → y - 1 = e^(2x^2 + C1) = C * e^(2x^2) → y = 1 + C * e^(2x^2).",
+      "citation": "College Board AP® Calculus AB CED — Topic 7.6 Finding General Solutions Using Separation of Variables"
+    },
+    {
+      "id": "ap-calc-091",
+      "type": "mcq",
+      "subtopic": "Revolution Around a Non-Axis Line (Unit 8)",
+      "difficulty": "Hard",
+      "question": "The region bounded by y = √x, y = 0, and x = 4 is revolved around the vertical line x = 4. Which integral expression gives the volume using horizontal disks?",
+      "options": [
+        "π ∫[0 to 2] (4 - y^2)^2 dy",
+        "π ∫[0 to 4] (4 - √x)^2 dx",
+        "π ∫[0 to 2] (16 - y^4) dy",
+        "2π ∫[0 to 2] (4 - y^2) dy"
+      ],
+      "answer": 0,
+      "explanation": "In terms of y, curve is x = y^2, y ranges from 0 to √4 = 2. Revolved around the vertical line x = 4, horizontal disks have radius R(y) = 4 - x = 4 - y^2. Volume = π ∫[0 to 2] [R(y)]^2 dy = π ∫[0 to 2] (4 - y^2)^2 dy.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.12 Volume with Washer Method: Revolving Around Other Axes"
+    },
+    {
+      "id": "ap-calc-092",
+      "type": "mcq",
+      "subtopic": "Verifying Solutions to Differential Equations (Unit 7)",
+      "difficulty": "Easy",
+      "question": "Which of the following functions is a solution to the differential equation y'' + 9y = 0?",
+      "options": [
+        "y = 4 * cos(3x)",
+        "y = e^(3x)",
+        "y = 3 * sin(9x)",
+        "y = 9 * cos(x)"
+      ],
+      "answer": 0,
+      "explanation": "For y = 4*cos(3x): y' = -12*sin(3x) and y'' = -36*cos(3x). Substitute into equation: -36*cos(3x) + 9(4*cos(3x)) = -36*cos(3x) + 36*cos(3x) = 0.",
+      "citation": "College Board AP® Calculus AB CED — Topic 7.2 Verifying Solutions for Differential Equations"
+    },
+    {
+      "id": "ap-calc-093",
+      "type": "mcq",
+      "subtopic": "Newton's Law of Cooling Model (Unit 7)",
+      "difficulty": "Medium",
+      "question": "Newton's Law of Cooling states that the rate of change of temperature T(t) of an object is proportional to the difference between T(t) and the ambient temperature T_m. Which differential equation represents this law for a positive constant k?",
+      "options": [
+        "dT/dt = -k(T - T_m)",
+        "dT/dt = k(T + T_m)",
+        "dT/dt = -k * T * T_m",
+        "dT/dt = -k / (T - T_m)"
+      ],
+      "answer": 0,
+      "explanation": "Newton's Law of Cooling states dT/dt = -k(T - T_m) where k > 0, ensuring that an object hotter than ambient (T > T_m) has a negative rate of temperature change (cools down).",
+      "citation": "College Board AP® Calculus AB CED — Topic 7.8 Exponential Models with Differential Equations"
+    },
+    {
+      "id": "ap-calc-094",
+      "type": "mcq",
+      "subtopic": "Washer Method Around Horizontal Line (Unit 8)",
+      "difficulty": "Hard",
+      "question": "The region bounded by y = x^2 and y = 4 is revolved around the line y = 4. What is the volume of the resulting solid?",
+      "options": [
+        "256π / 15",
+        "128π / 15",
+        "64π / 5",
+        "512π / 15"
+      ],
+      "answer": 0,
+      "explanation": "Intersections with y = 4 are x = -2 and x = 2. Revolved around y = 4, disks are formed with radius R(x) = 4 - y = 4 - x^2. Disk formula: V = π ∫[-2 to 2] (4 - x^2)^2 dx = 2π ∫[0 to 2] (16 - 8x^2 + x^4) dx = 2π [16x - 8x^3/3 + x^5/5]_0^2 = 2π [32 - 64/3 + 32/5] = 2π * (128/15) = 256π / 15.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.10 Volume with Disc Method: Revolving Around Other Axes"
+    },
+    {
+      "id": "ap-calc-095",
+      "type": "mcq",
+      "subtopic": "Interpreting Slope Field Equilibrium Solutions (Unit 7)",
+      "difficulty": "Medium",
+      "question": "Given the autonomous differential equation dy/dx = (y - 3)(y + 2), what are the equilibrium solutions?",
+      "options": [
+        "y = 3 and y = -2",
+        "y = -3 and y = 2",
+        "y = 0 only",
+        "x = 3 and x = -2"
+      ],
+      "answer": 0,
+      "explanation": "Equilibrium solutions occur when dy/dx = 0 for all x (constant horizontal solution curves). Setting (y - 3)(y + 2) = 0 gives y = 3 and y = -2.",
+      "citation": "College Board AP® Calculus AB CED — Topic 7.3 Slope Fields and Equilibrium Solutions"
+    },
+    {
+      "id": "ap-calc-096",
+      "type": "mcq",
+      "subtopic": "Area Enclosed by Three Curves (Unit 8)",
+      "difficulty": "Hard",
+      "question": "What is the area of the region bounded by y = e^x, y = e^(-x), and the vertical line x = 1?",
+      "options": [
+        "e + 1/e - 2",
+        "e - 1/e",
+        "e + 1/e",
+        "2e - 2"
+      ],
+      "answer": 0,
+      "explanation": "The curves intersect at x = 0 (where e^0 = e^-0 = 1). On [0, 1], e^x ≥ e^(-x). Area = ∫[0 to 1] (e^x - e^(-x)) dx = [e^x + e^(-x)]_0^1 = (e^1 + e^-1) - (e^0 + e^0) = e + 1/e - (1 + 1) = e + 1/e - 2.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.4 Area Between Curves"
+    },
+    {
+      "id": "ap-calc-097",
+      "type": "mcq",
+      "subtopic": "Separation of Variables with Trig (Unit 7)",
+      "difficulty": "Hard",
+      "question": "Solve the initial value problem dy/dx = cos(x) / (2y) with y(0) = 2 for y > 0.",
+      "options": [
+        "y = √(sin(x) + 4)",
+        "y = sin(x) + 2",
+        "y = √(2*sin(x) + 4)",
+        "y = cos(x) + 1"
+      ],
+      "answer": 0,
+      "explanation": "Separate variables: 2y dy = cos(x) dx. Integrate: y^2 = sin(x) + C. Use y(0) = 2: 2^2 = sin(0) + C → 4 = 0 + C → C = 4. Thus y^2 = sin(x) + 4 → y = √(sin(x) + 4).",
+      "citation": "College Board AP® Calculus AB CED — Topic 7.7 Particular Solutions to Differential Equations"
+    },
+    {
+      "id": "ap-calc-098",
+      "type": "mcq",
+      "subtopic": "Volume with Equilateral Triangle Cross-Sections (Unit 8)",
+      "difficulty": "Hard",
+      "question": "The base of a solid is bounded by y = 2 - x^2 and the line y = 0. Cross-sections perpendicular to the y-axis are equilateral triangles. If side length of an equilateral triangle is s, its area is (√3/4)s^2. What integral gives the volume?",
+      "options": [
+        "(√3/4) ∫[0 to 2] (2 * √(2 - y))^2 dy",
+        "(√3/4) ∫[0 to 2] (2 - y)^2 dy",
+        "(√3/2) ∫[0 to √2] (2 - x^2)^2 dx",
+        "√3 ∫[0 to 2] (2 - y) dy"
+      ],
+      "answer": 0,
+      "explanation": "Cross-sections are perpendicular to the y-axis, so integrate with respect to y from y = 0 to y = 2. Bounding curve is x^2 = 2 - y → x = ±√(2 - y). Side length s is the horizontal distance between branches: s = 2*√(2 - y). Area A(y) = (√3/4)s^2 = (√3/4)[2*√(2 - y)]^2. Volume = (√3/4) ∫[0 to 2] (2 * √(2 - y))^2 dy.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.8 Volumes with Cross Sections: Triangles"
+    },
+    {
+      "id": "ap-calc-099",
+      "type": "mcq",
+      "subtopic": "Initial Value Problem with Inverse Tangent (Unit 7)",
+      "difficulty": "Hard",
+      "question": "Find the solution to dy/dx = (1 + y^2) with y(0) = 1.",
+      "options": [
+        "y = tan(x + π/4)",
+        "y = tan(x) + 1",
+        "y = arctan(x + 1)",
+        "y = e^x"
+      ],
+      "answer": 0,
+      "explanation": "Separate variables: [1 / (1 + y^2)] dy = dx. Integrate: arctan(y) = x + C. Use y(0) = 1: arctan(1) = 0 + C → C = π/4. Therefore arctan(y) = x + π/4 → y = tan(x + π/4).",
+      "citation": "College Board AP® Calculus AB CED — Topic 7.7 Particular Solutions to Differential Equations"
+    },
+    {
+      "id": "ap-calc-100",
+      "type": "mcq",
+      "subtopic": "Area Under Curve in Context (Unit 8)",
+      "difficulty": "Medium",
+      "question": "The power consumption of a research lab, in kilowatts, is modeled by P(t) = 80 + 20 * sin(πt / 12) for 0 ≤ t ≤ 24 hours. What is the total electrical energy consumed by the lab, in kilowatt-hours, over the 24-hour day?",
+      "options": [
+        "1,920 kWh",
+        "1,920 + 240/π kWh",
+        "2,400 kWh",
+        "960 kWh"
+      ],
+      "answer": 0,
+      "explanation": "Total energy is E = ∫[0 to 24] P(t) dt = ∫[0 to 24] [80 + 20 * sin(πt / 12)] dt = [80t - 20 * (12/π) * cos(πt / 12)]_0^24 = (80*24 - (240/π)*cos(2π)) - (0 - (240/π)*cos(0)) = 1920 - (240/π)(1) + (240/π)(1) = 1,920 kWh.",
+      "citation": "College Board AP® Calculus AB CED — Topic 8.1 Finding the Average Value and Net Accumulation of Change"
+    }
+  ]
+}
