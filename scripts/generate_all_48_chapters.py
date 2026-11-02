@@ -6,7 +6,7 @@ Generates complete, verified JSON question banks and HTML test runners for:
 - Mathematics: 14 Chapters (Number Systems, Algebra, Geometry, Trigonometry, Mensuration, Statistics & Probability)
 - Social Science: 21 Chapters (History, Geography, Civics, Economics)
 
-100% Distraction-Free, ZERO ADS, NCERT Grounded, TCS iON 5-State Palette.
+100% Distraction-Free, Authentic CBT Interface, NCERT Grounded, TCS iON 5-State Palette.
 """
 
 import os

@@ -13,11 +13,11 @@
 
 ## 1. Executive Summary & Philosophy
 
-**MockTestVault** is a free, open-access, zero-distraction Computer-Based Testing (CBT) mock examination simulator engineered for secondary school curriculums, national competitive exams, and global standardized tests.
+**MockTestVault** is a free, open-access, distraction-free Computer-Based Testing (CBT) mock examination simulator engineered for secondary school curriculums, national competitive exams, and global standardized tests.
 
-### The Zero-Distraction Manifesto
+### The Distraction-Free Academic Architecture
 Unlike traditional commercial test portals plagued with auto-playing video interstitials, paid subscription paywalls, and incorrect user-submitted keys:
-1. **Zero Ads Guarantee:** 0.00% banner ads, video popups, or sponsored tracking pixels.
+1. **Focused Examination Environment:** Zero video popups, zero countdown locks, and clean non-disruptive test layouts. Equipped with pre-engineered zero-CLS display ad wrappers ready for clean post-approval monetization.
 2. **Authentic CBT Engines:** Faithful reproduction of official testing interfaces (TCS iON for India, College Board / Desmos methods for US, Cambridge IELTS pattern for Global).
 3. **Statutory NCERT & Board Grounding:** Every question is cross-referenced against statutory textbooks with chapter and page citations.
 4. **100% In-Browser Privacy:** Runs entirely in browser memory with client-side state machines. No mandatory registration or phone number harvesting.
