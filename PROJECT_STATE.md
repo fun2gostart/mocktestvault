@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 90 Production Routes | 3,870+ Ground-Truth Verified Questions across 3 Focus Pillars | 4 Dynamic Shuffled Random Mock Simulators | 5 Legal Trust Hubs  
+> **Current Scale:** 95 Production Routes | 3,970+ Ground-Truth Verified Questions across 3 Focus Pillars | 5 Dynamic Shuffled Random Mock Simulators | 5 Legal Trust Hubs  
 
 ---
 
@@ -111,8 +111,15 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
     * Set 04: Momentum, Impulse & Collisions (`ap/physics-1-diagnostic-04.html`)
     * Set 05: SHM & Rotational Dynamics (`ap/physics-1-diagnostic-05.html`)
     * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 100-Q pool (`ap/physics-1-diagnostic-random.html`)
-* **Global Standards (IELTS® Academic — 20 Questions):**
-  * Academic Reading Practice 01 (20 Qs, 25 Mins, Band 7.5–9.0 conversion scale)
+* **Global Standards Pillar (100 Questions Live across 6 Production Routes):**
+  * **IELTS® Academic Reading (60 Questions — 3 Practice Suites + Dynamic Random Mock, 25 Mins each, Band 7.5–9.0 conversion scale):**
+    * Practice 01: Biophilic Architecture & Marine Acoustics (`global/ielts/reading-practice-01.html`)
+    * Practice 02: Early Agriculture, Deep-Sea Minerals & Bilingualism (`global/ielts/reading-practice-02.html`)
+    * Practice 03: The Voynich Manuscript, Cryosphere Albedo & Geckos (`global/ielts/reading-practice-03.html`)
+    * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 60-Q pool (`global/ielts/reading-practice-random.html`)
+  * **GRE® General Test Diagnostics (40 Questions across 2 Dedicated Suites, 130–170 Scaled Scoring):**
+    * Quantitative Reasoning Diagnostic 01 (20 Qs, 35 Mins: Quant Comparison, Problem Solving, Data Interpretation: `global/gre/quantitative-reasoning-01.html`)
+    * Verbal Reasoning Diagnostic 01 (20 Qs, 30 Mins: Text Completion, Sentence Equivalence, Reading Comprehension: `global/gre/verbal-reasoning-01.html`)
 
 ---
 

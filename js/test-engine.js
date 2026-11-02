@@ -576,6 +576,7 @@ class MockTestEngine {
     else if (this.examType === 'ap') chapterBadge = 'AP® College Board';
     else if (this.examType === 'competitive') chapterBadge = 'SSC CGL Tier 1';
     else if (this.examType === 'ielts') chapterBadge = 'IELTS® Academic';
+    else if (this.examType === 'gre') chapterBadge = 'ETS GRE® General';
 
     let badgesHtml = `<span class="badge badge-chapter">${chapterBadge}</span>`;
     if (this.currentSet === 'random') badgesHtml += `<span class="badge" style="background:linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.15)); color:#9333ea; font-weight:700; border:1px solid rgba(147,51,234,0.3);">🎲 Shuffled Mock</span>`;
@@ -935,6 +936,29 @@ class MockTestEngine {
         rankDesc = "High negative penalties reduced your net score. Focus on high-accuracy attempts and sectional shortcuts.";
         predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Below Cutoff`;
       }
+    } else if (this.examType === 'ielts') {
+      let band = "5.5";
+      let userLevel = "Competent User";
+      if (scorePct >= 90) { band = "8.5–9.0"; userLevel = "Expert User (C2 Level)"; }
+      else if (scorePct >= 75) { band = "7.5–8.0"; userLevel = "Very Good User (C1/C2 Level)"; }
+      else if (scorePct >= 60) { band = "6.5–7.0"; userLevel = "Good User (Global University Admission Standard)"; }
+      else if (scorePct >= 45) { band = "5.5–6.0"; userLevel = "Competent User (B2 Level)"; }
+      else { band = "< 5.0"; userLevel = "Modest User — Foundation Required"; }
+
+      rankBadge = `🎯 IELTS Reading Band ${band}`;
+      rankDesc = `${userLevel}. Calibrated to official Cambridge / British Council assessment rubrics.`;
+      predictedGrade = `Estimated Reading Band: Band ${band} • Raw: ${correct} / ${total} Correct`;
+    } else if (this.examType === 'gre') {
+      const greScaled = Math.round(130 + (correct / Math.max(1, total)) * 40);
+      let pctRange = "50th Percentile";
+      if (greScaled >= 165) pctRange = "96th–99th Percentile (Top Tier Masters/PhD)";
+      else if (greScaled >= 158) pctRange = "80th–92nd Percentile (Competitive Graduate Range)";
+      else if (greScaled >= 150) pctRange = "50th–70th Percentile (Baseline Admit Range)";
+      else pctRange = "Diagnostic Baseline";
+
+      rankBadge = `🏛️ GRE Scaled Score: ${greScaled} / 170`;
+      rankDesc = `Calibrated to official ETS GRE General Test scoring metrics (${pctRange}).`;
+      predictedGrade = `Estimated Scaled Score: ${greScaled} / 170 • Raw: ${correct} / ${total} Correct`;
     } else {
       // Board default
       if (scorePct < 40) {
@@ -1086,7 +1110,11 @@ class MockTestEngine {
         ? 'AP® CED Formula & Concept Analysis'
         : (this.examType === 'competitive'
           ? 'Official Solution & Shortcut'
-          : 'NCERT Conceptual Explanation'));
+          : (this.examType === 'ielts'
+            ? 'Band 9 Reading Justification & Lexical Analysis'
+            : (this.examType === 'gre'
+              ? 'Official GRE Detailed Solution & Etymological Rationale'
+              : 'NCERT Conceptual Explanation'))));
 
     const defaultCitation = this.examType === 'sat'
       ? 'College Board SAT'
@@ -1094,7 +1122,11 @@ class MockTestEngine {
         ? 'College Board AP® CED'
         : (this.examType === 'competitive'
           ? 'Official Pattern'
-          : 'NCERT Class 10'));
+          : (this.examType === 'ielts'
+            ? 'Cambridge IELTS Academic Framework'
+            : (this.examType === 'gre'
+              ? 'ETS GRE General Standard'
+              : 'NCERT Class 10'))));
 
     this.questions.forEach((q, idx) => {
       const userChoice = this.userAnswers[idx];
