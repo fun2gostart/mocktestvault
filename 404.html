@@ -3,6 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    (function() {
+      var path = window.location.pathname;
+      if (path && /[A-Z]/.test(path)) {
+        window.location.replace(path.toLowerCase() + window.location.search + window.location.hash);
+      }
+    })();
+  </script>
   <title>404 — Page Not Found | MockTestVault</title>
   <meta name="description" content="404 Page Not Found — Return to MockTestVault to practice high-stakes exams in authentic CBT environments with verified explanations.">
   <meta name="robots" content="noindex, follow">
