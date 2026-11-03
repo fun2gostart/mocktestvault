@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 122 Production Routes | 4,630+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
+> **Current Scale:** 124 Production Routes | 4,630+ Ground-Truth Verified Questions across 3 Focus Pillars | 2 High-Volume Evergreen Study Guides | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
 > **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs)  
 
 ---
@@ -191,7 +191,7 @@ MockTestVault runs on a pure vanilla JavaScript state machine with zero external
   * Every page defines a strict `<link rel="canonical" href="...">`.
   * `https://www.mocktestvault.com` 301-redirects to apex `https://mocktestvault.com`.
 * **XML Sitemap:**
-  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **122 production URLs** (117 Examination Suites & Portals + 5 Legal & Trust Hubs).
+  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **124 production URLs** (119 Examination Suites, Study Guides & Portals + 5 Legal & Trust Hubs).
   * Priority weights: `1.0` (Homepage), `0.95` (Regional Hubs), `0.9` (Primary Simulators & Random Mocks), `0.85` (Progress Hub), `0.8` (Individual Chapter Tests & Legal Hubs).
 * **Robots.txt Directives:**
   * Permissive `User-agent: * Allow: /` with explicit sitemap link.

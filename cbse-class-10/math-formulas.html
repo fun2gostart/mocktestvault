@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 10 Maths All Formulas & Theorems Revision Sheet (All 14 Chapters) | MockTestVault</title>
+  <meta name="description" content="Complete CBSE Class 10 Mathematics chapter-wise formula sheet, theorems, identities, and revision notes. 100% NCERT syllabus aligned with printable A4 quick-revision layout and direct chapter mock tests.">
+
+  <link rel="canonical" href="https://mocktestvault.com/cbse-class-10/math-formulas.html">
+  <link rel="stylesheet" href="../css/test-engine.css">
+
+  <style>
+    .guide-container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 20px 80px 20px;
+    }
+    .guide-hero {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      color: #ffffff;
+      padding: 44px 32px;
+      border-radius: var(--radius-lg);
+      margin-bottom: 32px;
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+    .guide-hero-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      background: rgba(59, 130, 246, 0.25);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      color: #93c5fd;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 14px;
+    }
+    .guide-hero h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+    .guide-hero p {
+      font-size: 1.05rem;
+      color: #cbd5e1;
+      line-height: 1.6;
+      max-width: 780px;
+      margin-bottom: 20px;
+    }
+    .hero-meta-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: #94a3b8;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 16px;
+    }
+
+    .toc-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-bottom: 36px;
+      box-shadow: var(--shadow-sm);
+    }
+    .toc-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .toc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 10px;
+    }
+    .toc-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: var(--radius-sm);
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      background: var(--bg-subtle);
+      transition: all 0.2s ease;
+    }
+    .toc-link:hover {
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+
+    .chapter-section {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: var(--shadow-sm);
+      scroll-margin-top: 80px;
+    }
+    .chapter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 2px solid var(--primary-light);
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .chapter-title-group h2 {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+    .chapter-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--primary);
+      background: var(--primary-light);
+      padding: 3px 10px;
+      border-radius: 9999px;
+      border: 1px solid var(--primary-border);
+    }
+    .chapter-cta-btn {
+      padding: 6px 14px;
+      background: var(--primary);
+      color: #ffffff;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s ease;
+    }
+    .chapter-cta-btn:hover {
+      background: var(--primary-hover);
+    }
+
+    .formula-card {
+      background: var(--bg-subtle);
+      border-left: 4px solid var(--primary);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 14px 18px;
+      margin-bottom: 14px;
+    }
+    .formula-card strong {
+      display: block;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
+    .formula-box {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1.02rem;
+      font-weight: 700;
+      background: var(--bg-surface);
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      display: inline-block;
+      margin: 4px 0;
+      color: #1e3a8a;
+    }
+    [data-theme="dark"] .formula-box {
+      color: #93c5fd;
+    }
+    .formula-desc {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin-top: 6px;
+    }
+
+    .table-custom {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0;
+      font-size: 0.88rem;
+    }
+    .table-custom th, .table-custom td {
+      border: 1px solid var(--border-color);
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .table-custom th {
+      background: var(--bg-subtle);
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .faq-item {
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      margin-bottom: 12px;
+      background: var(--bg-surface);
+      overflow: hidden;
+    }
+    .faq-question {
+      padding: 16px 20px;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--text-primary);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--bg-subtle);
+    }
+    .faq-answer {
+      padding: 16px 20px;
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      border-top: 1px solid var(--border-color);
+    }
+
+    @media print {
+      .site-header, .site-footer, .chapter-cta-btn, .toc-card, #theme-toggle-btn {
+        display: none !important;
+      }
+      .chapter-section {
+        page-break-inside: avoid;
+        border: 1px solid #ccc;
+      }
+    }
+  </style>
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "CBSE Class 10 Maths All Formulas & Theorem Revision Sheet (All 14 Chapters)",
+        "description": "Comprehensive chapter-wise formula sheet, algebraic identities, trigonometric values, and theorem proofs for CBSE Class 10 Board Examinations.",
+        "author": {
+          "@type": "Organization",
+          "name": "MockTestVault Editorial Board",
+          "url": "https://mocktestvault.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "MockTestVault",
+          "url": "https://mocktestvault.com"
+        },
+        "mainEntityOfPage": "https://mocktestvault.com/cbse-class-10/math-formulas.html"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://mocktestvault.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "CBSE Class 10",
+            "item": "https://mocktestvault.com/cbse-class-10/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Maths Formulas Sheet",
+            "item": "https://mocktestvault.com/cbse-class-10/math-formulas.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the empirical formula relating Mean, Median, and Mode in Class 10 Statistics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The empirical relationship between the three central tendencies is: 3 × Median = Mode + 2 × Mean."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the consistency conditions for a pair of linear equations in two variables?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For lines a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0: (1) Intersecting lines (Unique solution): a1/a2 ≠ b1/b2; (2) Coincident lines (Infinitely many solutions): a1/a2 = b1/b2 = c1/c2; (3) Parallel lines (No solution / Inconsistent): a1/a2 = b1/b2 ≠ c1/c2."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the relationship between zeroes and coefficients of a quadratic polynomial?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For a quadratic polynomial p(x) = ax² + bx + c with zeroes α and β: Sum of zeroes (α + β) = -b/a, and Product of zeroes (αβ) = c/a."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../index.html" class="brand-link">
+        <div class="brand-logo">🛡️</div>
+        <div class="brand-text">
+          <h1>MockTestVault <span class="vault-pill">CBSE 10 Revision</span></h1>
+          <p>Class 10 Mathematics Master Formula Sheet</p>
+        </div>
+      </a>
+
+      <div class="header-controls">
+        <a href="index.html" class="nav-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:6px;">
+          <span>📚</span> All 48 Chapter Tests
+        </a>
+        <button onclick="window.print()" class="nav-btn" title="Print this formula sheet to A4 PDF">
+          <span>🖨️</span> Print PDF
+        </button>
+        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+    <div class="breadcrumb-container">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="index.html">CBSE Class 10</a>
+      <span class="sep">/</span>
+      <span class="current">Maths Formulas & Theorems</span>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="guide-container">
+
+    <!-- Hero Header -->
+    <header class="guide-hero">
+      <span class="guide-hero-badge">CBSE Board Exam Revision • 2025–2026</span>
+      <h1>CBSE Class 10 Maths All Formulas & Theorems</h1>
+      <p>
+        Complete chapter-wise revision sheet covering all 14 NCERT chapters. Master every identity, discriminant case, trigonometric table value, surface area, and statistical formula with 1-click chapter mock test drills.
+      </p>
+      <div class="hero-meta-row">
+        <span>📖 Curriculum: NCERT Statutory Syllabus</span>
+        <span>🎯 Target: 100/100 Board Score</span>
+        <span>⚖️ Verified by MockTestVault Editorial Board</span>
+        <span>🖨️ Printable A4 Format</span>
+      </div>
+    </header>
+
+    <!-- Table of Contents -->
+    <section class="toc-card" aria-label="Table of Contents">
+      <div class="toc-title">
+        <span>📑</span> Quick Jump to Chapter Formulas:
+      </div>
+      <div class="toc-grid">
+        <a href="#ch1" class="toc-link"><span>1.</span> Real Numbers</a>
+        <a href="#ch2" class="toc-link"><span>2.</span> Polynomials</a>
+        <a href="#ch3" class="toc-link"><span>3.</span> Linear Equations in 2 Variables</a>
+        <a href="#ch4" class="toc-link"><span>4.</span> Quadratic Equations</a>
+        <a href="#ch5" class="toc-link"><span>5.</span> Arithmetic Progressions (AP)</a>
+        <a href="#ch6" class="toc-link"><span>6.</span> Triangles (BPT & Similarity)</a>
+        <a href="#ch7" class="toc-link"><span>7.</span> Coordinate Geometry</a>
+        <a href="#ch8" class="toc-link"><span>8.</span> Introduction to Trigonometry</a>
+        <a href="#ch9" class="toc-link"><span>9.</span> Applications of Trigonometry</a>
+        <a href="#ch10" class="toc-link"><span>10.</span> Circles (Tangents)</a>
+        <a href="#ch11" class="toc-link"><span>11.</span> Areas Related to Circles</a>
+        <a href="#ch12" class="toc-link"><span>12.</span> Surface Areas and Volumes</a>
+        <a href="#ch13" class="toc-link"><span>13.</span> Statistics</a>
+        <a href="#ch14" class="toc-link"><span>14.</span> Probability</a>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 1: Real Numbers -->
+    <!-- ====================================================================== -->
+    <section id="ch1" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 1</span>
+          <h2>Real Numbers</h2>
+        </div>
+        <a href="mathematics/ch01-real-numbers-set1.html" class="chapter-cta-btn">Practice Ch 1 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Fundamental Theorem of Arithmetic</strong>
+        <p class="formula-desc">Every composite number can be expressed (factorised) as a product of primes, and this factorisation is unique, apart from the order in which the prime factors occur.</p>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. HCF and LCM Product Rule</strong>
+        <div class="formula-box">HCF(a, b) × LCM(a, b) = a × b</div>
+        <p class="formula-desc">Applicable strictly to any two positive integers a and b. (Does NOT hold directly for three numbers: HCF(a,b,c) × LCM(a,b,c) ≠ a·b·c).</p>
+      </div>
+
+      <div class="formula-card">
+        <strong>3. Decimal Expansion of Rational Numbers</strong>
+        <p class="formula-desc">For rational number p/q in simplest form (where HCF(p, q) = 1):</p>
+        <div class="formula-box">Terminating Decimal ⟺ q = 2^n × 5^m (where n, m are non-negative integers)</div>
+        <p class="formula-desc">If prime factorisation of q contains any prime factor other than 2 or 5 (e.g., 3, 7, 11), the decimal expansion is <strong>non-terminating repeating (recurring)</strong>.</p>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 2: Polynomials -->
+    <!-- ====================================================================== -->
+    <section id="ch2" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 2</span>
+          <h2>Polynomials</h2>
+        </div>
+        <a href="mathematics/ch02-polynomials-set1.html" class="chapter-cta-btn">Practice Ch 2 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Quadratic Polynomial Zeroes & Coefficients</strong>
+        <p class="formula-desc">For standard quadratic polynomial p(x) = ax² + bx + c (a ≠ 0) with zeroes α and β:</p>
+        <div class="formula-box">Sum of Zeroes: α + β = -b / a = -(Coefficient of x) / (Coefficient of x²)</div>
+        <br>
+        <div class="formula-box">Product of Zeroes: α × β = c / a = (Constant term) / (Coefficient of x²)</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Forming a Quadratic Polynomial Given Zeroes</strong>
+        <div class="formula-box">p(x) = k [x² - (α + β)x + αβ] = k [x² - (Sum)x + (Product)]</div>
+        <p class="formula-desc">Where k is any non-zero real constant.</p>
+      </div>
+
+      <div class="formula-card">
+        <strong>3. Cubic Polynomial Relationships (Reference)</strong>
+        <p class="formula-desc">For p(x) = ax³ + bx² + cx + d with zeroes α, β, γ:</p>
+        <div class="formula-box">α + β + γ = -b/a  |  αβ + βγ + γα = c/a  |  αβγ = -d/a</div>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 3: Pair of Linear Equations in Two Variables -->
+    <!-- ====================================================================== -->
+    <section id="ch3" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 3</span>
+          <h2>Pair of Linear Equations in Two Variables</h2>
+        </div>
+        <a href="mathematics/ch03-linear-equations-set1.html" class="chapter-cta-btn">Practice Ch 3 Mocks →</a>
+      </div>
+
+      <p class="formula-desc">For two linear equations: a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0:</p>
+
+      <table class="table-custom">
+        <thead>
+          <tr>
+            <th>Ratio Comparison</th>
+            <th>Graphical Representation</th>
+            <th>Algebraic Interpretation</th>
+            <th>System Consistency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>a₁/a₂ ≠ b₁/b₂</strong></td>
+            <td>Intersecting Lines</td>
+            <td>Unique Solution (Exactly 1 point)</td>
+            <td>Consistent</td>
+          </tr>
+          <tr>
+            <td><strong>a₁/a₂ = b₁/b₂ = c₁/c₂</strong></td>
+            <td>Coincident Lines (Overlapping)</td>
+            <td>Infinitely Many Solutions</td>
+            <td>Consistent (Dependent)</td>
+          </tr>
+          <tr>
+            <td><strong>a₁/a₂ = b₁/b₂ ≠ c₁/c₂</strong></td>
+            <td>Parallel Lines</td>
+            <td>No Solution</td>
+            <td>Inconsistent</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 4: Quadratic Equations -->
+    <!-- ====================================================================== -->
+    <section id="ch4" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 4</span>
+          <h2>Quadratic Equations</h2>
+        </div>
+        <a href="mathematics/ch04-quadratic-equations-set1.html" class="chapter-cta-btn">Practice Ch 4 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Standard Form & Discriminant</strong>
+        <div class="formula-box">Standard Form: ax² + bx + c = 0 (a ≠ 0)</div>
+        <br>
+        <div class="formula-box">Discriminant: D = b² - 4ac</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Nature of Roots (Discriminant Cases)</strong>
+        <p class="formula-desc">• If <strong>D > 0</strong>: Two distinct real roots.</p>
+        <p class="formula-desc">• If <strong>D = 0</strong>: Two equal real roots (x = -b / 2a).</p>
+        <p class="formula-desc">• If <strong>D &lt; 0</strong>: No real roots (roots are imaginary / complex).</p>
+      </div>
+
+      <div class="formula-card">
+        <strong>3. Quadratic Formula (Shreedharacharya's Rule)</strong>
+        <div class="formula-box">x = [-b ± √(b² - 4ac)] / (2a) = [-b ± √D] / (2a)</div>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 5: Arithmetic Progressions (AP) -->
+    <!-- ====================================================================== -->
+    <section id="ch5" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 5</span>
+          <h2>Arithmetic Progressions (AP)</h2>
+        </div>
+        <a href="mathematics/ch05-arithmetic-progressions-set1.html" class="chapter-cta-btn">Practice Ch 5 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. General Term (n-th Term) of an AP</strong>
+        <div class="formula-box">aₙ = a + (n - 1)d</div>
+        <p class="formula-desc">Where a is first term, d is common difference (d = a₂ - a₁ = aₖ - aₖ₋₁), and n is term position.</p>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. n-th Term from the End of an AP</strong>
+        <div class="formula-box">aₙ (from end) = l - (n - 1)d</div>
+        <p class="formula-desc">Where l is the last term of the finite arithmetic progression.</p>
+      </div>
+
+      <div class="formula-card">
+        <strong>3. Sum of First n Terms of an AP</strong>
+        <div class="formula-box">Sₙ = (n / 2) [2a + (n - 1)d]  =  (n / 2) [a + l]</div>
+        <br>
+        <div class="formula-box">Sum of first n natural numbers: Sₙ = n(n + 1) / 2</div>
+        <br>
+        <div class="formula-box">Relationship: aₙ = Sₙ - Sₙ₋₁</div>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 6: Triangles -->
+    <!-- ====================================================================== -->
+    <section id="ch6" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 6</span>
+          <h2>Triangles</h2>
+        </div>
+        <a href="mathematics/ch06-triangles-set1.html" class="chapter-cta-btn">Practice Ch 6 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Basic Proportionality Theorem (Thales' Theorem 6.1)</strong>
+        <p class="formula-desc">If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio:</p>
+        <div class="formula-box">In ΔABC, if DE ∥ BC, then: AD / DB = AE / EC</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Criteria for Similarity of Triangles</strong>
+        <p class="formula-desc">• <strong>AAA (or AA) Similarity:</strong> If two angles of one triangle are respectively equal to two angles of another triangle, the triangles are similar.</p>
+        <p class="formula-desc">• <strong>SSS Similarity:</strong> If the corresponding sides of two triangles are proportional, their corresponding angles are equal, and hence the triangles are similar.</p>
+        <p class="formula-desc">• <strong>SAS Similarity:</strong> If one angle of a triangle is equal to one angle of another triangle and the sides including these angles are proportional, the triangles are similar.</p>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 7: Coordinate Geometry -->
+    <!-- ====================================================================== -->
+    <section id="ch7" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 7</span>
+          <h2>Coordinate Geometry</h2>
+        </div>
+        <a href="mathematics/ch07-coordinate-geometry-set1.html" class="chapter-cta-btn">Practice Ch 7 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Distance Formula</strong>
+        <div class="formula-box">d = √[(x₂ - x₁)² + (y₂ - y₁)²]</div>
+        <br>
+        <div class="formula-box">Distance from Origin (0, 0): d = √(x² + y²)</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Section Formula (Internal Division)</strong>
+        <p class="formula-desc">Coordinates of point P(x, y) dividing line segment AB joining A(x₁, y₁) and B(x₂, y₂) internally in ratio m₁ : m₂:</p>
+        <div class="formula-box">P(x, y) = [ (m₁x₂ + m₂x₁) / (m₁ + m₂), (m₁y₂ + m₂y₁) / (m₁ + m₂) ]</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>3. Midpoint Formula</strong>
+        <div class="formula-box">M(x, y) = [ (x₁ + x₂) / 2, (y₁ + y₂) / 2 ]</div>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 8: Introduction to Trigonometry -->
+    <!-- ====================================================================== -->
+    <section id="ch8" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 8</span>
+          <h2>Introduction to Trigonometry</h2>
+        </div>
+        <a href="mathematics/ch08-introduction-to-trigonometry-set1.html" class="chapter-cta-btn">Practice Ch 8 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Standard Trigonometric Ratios Table (0° to 90°)</strong>
+        <table class="table-custom">
+          <thead>
+            <tr>
+              <th>Ratio (θ)</th>
+              <th>0°</th>
+              <th>30°</th>
+              <th>45°</th>
+              <th>60°</th>
+              <th>90°</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>sin θ</strong></td>
+              <td>0</td>
+              <td>1/2</td>
+              <td>1/√2</td>
+              <td>√3/2</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td><strong>cos θ</strong></td>
+              <td>1</td>
+              <td>√3/2</td>
+              <td>1/√2</td>
+              <td>1/2</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td><strong>tan θ</strong></td>
+              <td>0</td>
+              <td>1/√3</td>
+              <td>1</td>
+              <td>√3</td>
+              <td>Not defined</td>
+            </tr>
+            <tr>
+              <td><strong>csc θ</strong></td>
+              <td>Not defined</td>
+              <td>2</td>
+              <td>√2</td>
+              <td>2/√3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td><strong>sec θ</strong></td>
+              <td>1</td>
+              <td>2/√3</td>
+              <td>√2</td>
+              <td>2</td>
+              <td>Not defined</td>
+            </tr>
+            <tr>
+              <td><strong>cot θ</strong></td>
+              <td>Not defined</td>
+              <td>√3</td>
+              <td>1</td>
+              <td>1/√3</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Fundamental Trigonometric Pythagorean Identities</strong>
+        <div class="formula-box">sin²θ + cos²θ = 1  ⟺  sin²θ = 1 - cos²θ  |  cos²θ = 1 - sin²θ</div>
+        <br>
+        <div class="formula-box">1 + tan²θ = sec²θ  ⟺  sec²θ - tan²θ = 1  |  (sec θ - tan θ)(sec θ + tan θ) = 1</div>
+        <br>
+        <div class="formula-box">1 + cot²θ = csc²θ  ⟺  csc²θ - cot²θ = 1  |  (csc θ - cot θ)(csc θ + cot θ) = 1</div>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 9: Some Applications of Trigonometry -->
+    <!-- ====================================================================== -->
+    <section id="ch9" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 9</span>
+          <h2>Some Applications of Trigonometry</h2>
+        </div>
+        <a href="mathematics/ch09-some-applications-of-trigonometry-set1.html" class="chapter-cta-btn">Practice Ch 9 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Angle of Elevation vs Angle of Depression</strong>
+        <p class="formula-desc">• <strong>Angle of Elevation:</strong> Angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal plane.</p>
+        <p class="formula-desc">• <strong>Angle of Depression:</strong> Angle formed by the line of sight with the horizontal when the point being viewed is below the horizontal plane.</p>
+        <div class="formula-box">Angle of Elevation from ground = Angle of Depression from top (Alternate Interior Angles)</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Two-Position Tower Distance Formula</strong>
+        <p class="formula-desc">When moving a distance d towards a tower of height h changing angle from θ₁ to θ₂:</p>
+        <div class="formula-box">h = d / (cot θ₁ - cot θ₂)</div>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 10: Circles -->
+    <!-- ====================================================================== -->
+    <section id="ch10" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 10</span>
+          <h2>Circles</h2>
+        </div>
+        <a href="mathematics/ch10-circles-set1.html" class="chapter-cta-btn">Practice Ch 10 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Tangent-Radius Perpendicularity (Theorem 10.1)</strong>
+        <p class="formula-desc">The tangent at any point of a circle is perpendicular to the radius through the point of contact:</p>
+        <div class="formula-box">OP ⊥ XY at Point of Contact P</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Lengths of Tangents from External Point (Theorem 10.2)</strong>
+        <p class="formula-desc">The lengths of tangents drawn from an external point to a circle are equal:</p>
+        <div class="formula-box">PA = PB</div>
+        <p class="formula-desc">Furthermore, tangents subtend equal angles at the center (∠AOP = ∠BOP) and are equally inclined to the line segment joining the center to that point (∠APO = ∠BPO).</p>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 11: Areas Related to Circles -->
+    <!-- ====================================================================== -->
+    <section id="ch11" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 11</span>
+          <h2>Areas Related to Circles</h2>
+        </div>
+        <a href="mathematics/ch11-areas-related-to-circles-set1.html" class="chapter-cta-btn">Practice Ch 11 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Circle Fundamentals</strong>
+        <div class="formula-box">Circumference = 2πr = πd  |  Area = πr² = (π/4)d²</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Sector Formulas (Angle θ in degrees)</strong>
+        <div class="formula-box">Length of Arc (l) = (θ / 360°) × 2πr</div>
+        <br>
+        <div class="formula-box">Area of Sector = (θ / 360°) × πr²  =  (1/2) × l × r</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>3. Segment of a Circle</strong>
+        <div class="formula-box">Area of Minor Segment = Area of Sector - Area of Corresponding ΔOAB</div>
+        <br>
+        <div class="formula-box">Area of ΔOAB with central angle θ: Area = (1/2) r² sin θ</div>
+        <br>
+        <div class="formula-box">Area of Major Segment = Total Circle Area - Area of Minor Segment</div>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 12: Surface Areas and Volumes -->
+    <!-- ====================================================================== -->
+    <section id="ch12" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 12</span>
+          <h2>Surface Areas and Volumes</h2>
+        </div>
+        <a href="mathematics/ch12-surface-areas-and-volumes-set1.html" class="chapter-cta-btn">Practice Ch 12 Mocks →</a>
+      </div>
+
+      <table class="table-custom">
+        <thead>
+          <tr>
+            <th>Solid Shape</th>
+            <th>Curved / Lateral Surface Area</th>
+            <th>Total Surface Area</th>
+            <th>Volume</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Cuboid (l, b, h)</strong></td>
+            <td>2h(l + b)</td>
+            <td>2(lb + bh + hl)</td>
+            <td>l × b × h</td>
+          </tr>
+          <tr>
+            <td><strong>Cube (side a)</strong></td>
+            <td>4a²</td>
+            <td>6a²</td>
+            <td>a³</td>
+          </tr>
+          <tr>
+            <td><strong>Right Circular Cylinder (r, h)</strong></td>
+            <td>2πrh</td>
+            <td>2πr(r + h)</td>
+            <td>πr²h</td>
+          </tr>
+          <tr>
+            <td><strong>Right Circular Cone (r, h, l)</strong></td>
+            <td>πrl  [where l = √(r² + h²)]</td>
+            <td>πr(r + l)</td>
+            <td>(1/3) πr²h</td>
+          </tr>
+          <tr>
+            <td><strong>Sphere (radius r)</strong></td>
+            <td>4πr²</td>
+            <td>4πr²</td>
+            <td>(4/3) πr³</td>
+          </tr>
+          <tr>
+            <td><strong>Hemisphere (radius r)</strong></td>
+            <td>2πr²</td>
+            <td>3πr²</td>
+            <td>(2/3) πr³</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 13: Statistics -->
+    <!-- ====================================================================== -->
+    <section id="ch13" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 13</span>
+          <h2>Statistics</h2>
+        </div>
+        <a href="mathematics/ch13-statistics-set1.html" class="chapter-cta-btn">Practice Ch 13 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Mean of Grouped Data</strong>
+        <div class="formula-box">Direct Method: x̄ = (∑ fᵢxᵢ) / (∑ fᵢ)</div>
+        <br>
+        <div class="formula-box">Assumed Mean Method: x̄ = a + (∑ fᵢdᵢ) / (∑ fᵢ)  [where dᵢ = xᵢ - a]</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Mode of Grouped Data</strong>
+        <div class="formula-box">Mode = l + [ (f₁ - f₀) / (2f₁ - f₀ - f₂) ] × h</div>
+        <p class="formula-desc">Where l = lower limit of modal class, h = class size, f₁ = frequency of modal class, f₀ = frequency of preceding class, f₂ = frequency of succeeding class.</p>
+      </div>
+
+      <div class="formula-card">
+        <strong>3. Median of Grouped Data</strong>
+        <div class="formula-box">Median = l + [ (N/2 - cf) / f ] × h</div>
+        <p class="formula-desc">Where l = lower limit of median class, N = total frequency, cf = cumulative frequency of preceding class, f = frequency of median class, h = class width.</p>
+      </div>
+
+      <div class="formula-card">
+        <strong>4. Empirical Relationship Between Central Tendencies</strong>
+        <div class="formula-box">3 × Median = Mode + 2 × Mean</div>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- Chapter 14: Probability -->
+    <!-- ====================================================================== -->
+    <section id="ch14" class="chapter-section">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <span class="chapter-badge">Chapter 14</span>
+          <h2>Probability</h2>
+        </div>
+        <a href="mathematics/ch14-probability-set1.html" class="chapter-cta-btn">Practice Ch 14 Mocks →</a>
+      </div>
+
+      <div class="formula-card">
+        <strong>1. Classical Probability Definition</strong>
+        <div class="formula-box">P(E) = (Number of outcomes favourable to E) / (Total number of possible outcomes) = n(E) / n(S)</div>
+      </div>
+
+      <div class="formula-card">
+        <strong>2. Probability Range & Complementary Events</strong>
+        <div class="formula-box">0 ≤ P(E) ≤ 1</div>
+        <br>
+        <div class="formula-box">P(E) + P(not E) = 1  ⟺  P(Ē) = 1 - P(E)</div>
+        <p class="formula-desc">• Probability of an <strong>impossible event</strong> is 0.</p>
+        <p class="formula-desc">• Probability of a <strong>sure (certain) event</strong> is 1.</p>
+      </div>
+    </section>
+
+    <!-- ====================================================================== -->
+    <!-- FAQ Section -->
+    <!-- ====================================================================== -->
+    <section class="chapter-section" style="margin-top: 40px;">
+      <h2 style="font-size:1.35rem; font-weight:800; margin-bottom:18px; color:var(--text-primary);">
+        ❓ Frequently Asked Questions (Class 10 Board Revision)
+      </h2>
+
+      <div class="faq-item">
+        <div class="faq-question">What is the most important theorem in CBSE Class 10 Maths?</div>
+        <div class="faq-answer">
+          The Basic Proportionality Theorem (Thales' Theorem 6.1) in Triangles and Theorem 10.2 (Lengths of tangents from an external point to a circle are equal) in Circles are statutory must-know theorems that are frequently asked for 3 to 5 marks in the CBSE Class 10 Board exam.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How can I memorize all Class 10 trigonometric formulas?</div>
+        <div class="faq-answer">
+          Remember the primary Pythagorean identity <strong>sin²θ + cos²θ = 1</strong>. Dividing both sides by cos²θ produces <strong>1 + tan²θ = sec²θ</strong>; dividing both sides by sin²θ produces <strong>1 + cot²θ = csc²θ</strong>. For values at 0°, 30°, 45°, 60°, 90°, memorize the sin row (0, 1/2, 1/√2, √3/2, 1), and simply reverse it for cos.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Where can I practice chapter-wise MCQs based on these formulas?</div>
+        <div class="faq-answer">
+          MockTestVault provides 3 progressive 20-question sets (60 questions per chapter) plus dynamic shuffled random mocks for all 14 Class 10 Mathematics chapters, completely free and distraction-free on <a href="index.html">mocktestvault.com/cbse-class-10/</a>.
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
+      <p style="font-size:0.75rem;">Aligned with NCERT Class 10 Mathematics Syllabus. Designed for distraction-free revision.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle handler
+    const themeBtn = document.getElementById('theme-toggle-btn');
+    if (themeBtn) {
+      themeBtn.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', nextTheme);
+        themeBtn.textContent = nextTheme === 'light' ? '🌙' : '☀️';
+        localStorage.setItem('mtv_theme', nextTheme);
+      });
+      const savedTheme = localStorage.getItem('mtv_theme');
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        themeBtn.textContent = savedTheme === 'light' ? '🌙' : '☀️';
+      }
+    }
+  </script>
+</body>
+</html>
