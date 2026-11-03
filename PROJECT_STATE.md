@@ -197,6 +197,7 @@ In direct alignment with Google AdSense Publisher Policies, Quality Rater Guidel
 * **Terms of Service ([`terms.html`](https://mocktestvault.com/terms.html)):** Permitted educational licensing, intellectual property safeguards, and clear trademark attributions (CBSE, SSC, College Board, Cambridge, ETS, TCS iON).
 * **Academic Disclaimer ([`disclaimer.html`](https://mocktestvault.com/disclaimer.html)):** Educational simulation boundaries, explicit non-affiliation notices, score estimation limits, and statutory board key precedence.
 * **Contact & Discrepancy Desk ([`contact.html`](https://mocktestvault.com/contact.html)):** Multi-channel support including dedicated editorial email (`contact@mocktestvault.com`), open GitHub issue tracking, and an interactive discrepancy submission form with a guaranteed 24–48 hour turnaround SLA.
+* **Integrated In-Engine Discrepancy Reporting:** Every question card in the CBT scorecard review modal features an interactive `🚩 Report` button, allowing students to report incorrect answer keys, mathematical flaws, or ambiguous phrasing directly to the editorial desk with automatic Question ID tracking.
 * **Authorized Digital Sellers (`ads.txt`):** Pre-configured `ads.txt` deployed to root domain, ready for immediate AdSense Publisher ID injection upon approval.
 
 ---
