@@ -13,7 +13,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Arc length = (theta / 360) * 2*pi*r = (180 / 360) * 2*pi*r = (1/2) * 2*pi*r = pi*r. Both statements are true and (R) explains (A).",
+      "explanation": "Assertion (A) states that the length of the arc of a semicircle of radius r is pi * r. Reason (R) states the standard formula for arc length: l = (theta / 360) * 2 * pi * r. In a semicircle, the central angle subtended at the center of the circle is a straight angle of theta = 180 degrees. Substituting theta = 180 degrees into the Reason's formula gives: l = (180 / 360) * 2 * pi * r = (1/2) * 2 * pi * r = pi * r. Therefore, both (A) and (R) are mathematically true, and Reason (R) is the exact mathematical explanation of Assertion (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -29,7 +29,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Geometrically, decomposing the sector along the chord yields the triangle and the segment. Thus Area(Segment) = Area(Sector) - Area(Triangle). Both (A) and (R) are true and (R) explains (A).",
+      "explanation": "Assertion (A) states: The area of a minor segment is equal to the area of the corresponding sector minus the area of the corresponding triangle. Reason (R) states the geometric decomposition principle. Geometrically, a circular sector bounded by radii OA and OB and arc AB can be partitioned by chord AB into two distinct non-overlapping regions: the triangle OAB and the circular segment AB. Therefore: Area(Segment) = Area(Sector) - Area(Triangle). Hence, both Assertion (A) and Reason (R) are true, and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -45,7 +45,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Substituting theta = 90 deg into the sector formula: (90 / 360) * pi * r^2 = (1/4) pi * r^2. Both (A) and (R) are true and (R) explains (A).",
+      "explanation": "Assertion (A) states that the area of a quadrant of a circle of radius r is (1/4) * pi * r^2. Reason (R) states the general formula for the area of a circular sector: Area = (theta / 360) * pi * r^2. By geometric definition, a quadrant represents one-fourth of a circle, subtending a right central angle of theta = 90 degrees at the center. Substituting theta = 90 into the sector formula yields: Area = (90 / 360) * pi * r^2 = (1/4) * pi * r^2. Therefore, both (A) and (R) are true, and Reason (R) provides the direct derivation of (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -61,7 +61,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Since l = (theta/360)*2*pi*r, (1/2)*l*r = (1/2)*((theta/360)*2*pi*r)*r = (theta/360)*pi*r^2. Analytically this mirrors a triangle of base l and height r. Both (A) and (R) are true and (R) explains (A).",
+      "explanation": "Assertion (A) states that the area of a sector can be computed as Area = (1/2) * l * r, where l is the arc length. Reason (R) connects the arc length formula l = (theta / 360) * 2 * pi * r with the sector area formula. Substituting l into the expression: (1/2) * l * r = (1/2) * [(theta / 360) * 2 * pi * r] * r = (theta / 360) * pi * r^2. Analytically, this formula mirrors the area of a triangle with base l and height r, where the curved arc is 'unrolled'. Thus, both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -77,7 +77,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Since C is linear in r, doubling r doubles C: C' = 2*pi*(2r) = 2(2*pi*r) = 2C. Both statements are true and (R) explains (A).",
+      "explanation": "Assertion (A) states: If the radius of a circle is doubled, its perimeter (circumference) is doubled. Reason (R) states that circumference C is directly proportional to radius r, given by C = 2 * pi * r. Let the initial radius be r, so initial perimeter is C = 2 * pi * r. When the radius is doubled to r' = 2r, the new perimeter becomes C' = 2 * pi * (2r) = 2 * (2 * pi * r) = 2C. Because circumference scales linearly with the first power of radius (C proportional to r), both (A) and (R) are true, and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
     },
     {
@@ -93,7 +93,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "A' = pi * (2r)^2 = 4 * pi * r^2 = 4A. Quadrupling occurs because area scales with the square of the radius. Both statements are true and (R) explains (A).",
+      "explanation": "Assertion (A) states that doubling the radius of a circle quadruples its area. Reason (R) states that the area of a circle scales with the square of its radius, given by A = pi * r^2. Let the original radius be r, so initial area is A = pi * r^2. When the radius is doubled to r' = 2r, the new area becomes A' = pi * (2r)^2 = pi * (4 * r^2) = 4 * (pi * r^2) = 4A. Since area is a two-dimensional quadratic metric that scales with r^2, doubling the linear dimension quadruples the enclosed area. Both (A) and (R) are true, and (R) explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
     },
     {
@@ -109,7 +109,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 3,
-      "explanation": "Assertion (A) is FALSE: pi*r is only the curved arc length; the full perimeter of the closed protractor is pi*r + 2r. Reason (R) is TRUE: perimeter must include the straight diameter boundary. Hence (A) is false, but (R) is true.",
+      "explanation": "Assertion (A) claims that the perimeter of a semicircular protractor of radius r is pi * r. This assertion is completely FALSE. A protractor is a closed physical geometric instrument consisting of a curved semicircular boundary (arc length = pi * r) plus a straight base diameter of length 2r. Therefore, the total perimeter is P = pi * r + 2r = r(pi + 2). Reason (R) correctly asserts that the perimeter of any closed figure must include its complete closed boundary. Hence, Assertion (A) is false, but Reason (R) is true.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
     },
     {
@@ -125,7 +125,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "360 deg / 60 min = 6 deg/min. Both (A) and (R) are true and (R) directly explains (A).",
+      "explanation": "Assertion (A) states that in 1 minute, the minute hand of a clock sweeps through an angle of 6 degrees. Reason (R) provides the rotational rate calculation: in 1 full hour (60 minutes), the minute hand completes one full 360-degree revolution around the circular dial. Dividing the total angular displacement by the elapsed time gives: Angular velocity = 360 degrees / 60 minutes = 6 degrees per minute. In t minutes, the angle swept is theta = 6 * t degrees. Therefore, both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -141,7 +141,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "12 hours = 720 minutes. 360 deg / 720 min = 0.5 deg/min. Both statements are true and (R) explains (A).",
+      "explanation": "Assertion (A) states that in 1 minute, the hour hand of a clock sweeps an angle of 0.5 degrees (1/2 degree). Reason (R) gives the rotational velocity derivation: the hour hand takes 12 hours (12 * 60 = 720 minutes) to complete one full 360-degree rotation around the dial. Therefore, the angular displacement per minute is: Angular velocity = 360 degrees / 720 minutes = 1/2 degree per minute = 0.5 degrees/min. Thus, in 60 minutes it traverses 30 degrees (one hour space). Both statements (A) and (R) are true, and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -157,7 +157,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Major sector angle = 360 - 75 = 285 degrees. Both (A) and (R) are true and (R) explains (A).",
+      "explanation": "Assertion (A) states that if the angle of a minor sector is 75 degrees, the angle of the corresponding major sector is 285 degrees. Reason (R) states that the sum of the central angles of a minor sector and its corresponding major sector equals 360 degrees (the complete angle around a point). Calculating: Major sector angle = 360 degrees - Minor sector angle = 360 - 75 = 285 degrees. Because the two sectors completely partition the full circular disk, both (A) and (R) are true, and (R) is the direct explanation of (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -173,7 +173,7 @@
         "1/8"
       ],
       "answer": 0,
-      "explanation": "Fraction = theta / 360 = 90 / 360 = 1/4 of a circle.",
+      "explanation": "In this precision agriculture case study, the automated center-pivot irrigation arm rotates through a right-angled sector of central angle theta = 90 degrees. To determine what fraction of the entire circular field is irrigated by this rotation, divide the swept central angle by the total angle of a complete circle (360 degrees): Fraction = theta / 360 = 90 / 360 = 1/4. This 1/4 fraction represents exactly one quadrant of the circle, showing that the sprinkler irrigates one-fourth of the total potential circular acreage.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
     {
@@ -189,7 +189,7 @@
         "616 m^2"
       ],
       "answer": 3,
-      "explanation": "Area = (1/4) * pi * r^2 = (1/4) * (22/7) * 28 * 28 = (1/4) * 22 * 4 * 28 = 22 * 28 = 616 m^2.",
+      "explanation": "To find the total area of farmland irrigated by the center-pivot arm, calculate the area of the circular sector with central angle theta = 90 degrees and boom radius r = 28 meters. Using the sector area formula: Area = (theta / 360) * pi * r^2 = (90 / 360) * (22 / 7) * 28 * 28 = (1 / 4) * (22 / 7) * 784. Simplifying: 784 / 7 = 112; then (1 / 4) * 22 * 112 = 22 * 28 = 616 square meters. Therefore, the automated irrigation system waters exactly 616 m^2 of crops during this sweep.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
     {
@@ -205,7 +205,7 @@
         "44 metres"
       ],
       "answer": 3,
-      "explanation": "Arc length = (90/360) * 2 * (22/7) * 28 = (1/4) * 2 * 22 * 4 = 44 metres.",
+      "explanation": "The outermost sprinkler nozzle is mounted at the tip of the 28-meter rotating boom, moving along the circular boundary arc of the sector. The distance it traverses is given by the arc length formula: l = (theta / 360) * 2 * pi * r. Substituting the known parameters: theta = 90 degrees, r = 28 meters, and pi = 22/7: l = (90 / 360) * 2 * (22 / 7) * 28 = (1 / 4) * 2 * 22 * 4 = (1 / 4) * 176 = 44 meters. Thus, the outermost nozzle travels a curved distance of exactly 44 meters along the field boundary.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
     {
@@ -221,7 +221,7 @@
         "308 sq nautical miles"
       ],
       "answer": 2,
-      "explanation": "Area = (60/360) * (22/7) * 14 * 14 = (1/6) * (22/7) * 196 = (1/6) * 616 = 308/3 sq nautical miles (approx 102.67 sq NM).",
+      "explanation": "In this maritime navigational lighting case study, the harbour lighthouse beam sweeps a sector with central angle theta = 60 degrees over a radial range of r = 14 nautical miles. The water surface area illuminated by the beacon is given by the sector area formula: Area = (theta / 360) * pi * r^2 = (60 / 360) * (22 / 7) * 14 * 14 = (1 / 6) * (22 / 7) * 196 = (1 / 6) * 22 * 28 = (1 / 6) * 616 = 308 / 3 square nautical miles (which equals approximately 102.67 sq NM of illuminated sea).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
     {
@@ -237,7 +237,7 @@
         "14 nautical miles"
       ],
       "answer": 1,
-      "explanation": "Arc length = (60/360) * 2 * (22/7) * 14 = (1/6) * 88 = 44/3 nautical miles (approx 14.67 NM).",
+      "explanation": "To determine the length of the outer circular horizon arc over which the lighthouse beam warns approaching ships, use the arc length formula: l = (theta / 360) * 2 * pi * r. Substituting the navigational values: central sweep angle theta = 60 degrees, beam radius r = 14 nautical miles, and pi = 22/7: l = (60 / 360) * 2 * (22 / 7) * 14 = (1 / 6) * 2 * 22 * 2 = (1 / 6) * 88 = 44 / 3 nautical miles (approximately 14.67 NM), representing the maritime perimeter monitored by the beacon.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
     {
@@ -253,7 +253,7 @@
         "16 times larger"
       ],
       "answer": 0,
-      "explanation": "Sector area is proportional to the square of the radius (r^2). When radius doubles (2x), the area increases by 2^2 = 4 times.",
+      "explanation": "The area of a circular sector is given by Area = (theta / 360) * pi * r^2. Notice that for a fixed central angle theta, the illuminated area is directly proportional to the square of the beam radius (Area proportional to r^2). When high-intensity LED optics double the beacon's radial range from r to 2r, the new area becomes: Area' = (theta / 360) * pi * (2r)^2 = 4 * [(theta / 360) * pi * r^2] = 4 * Area. Thus, doubling the effective beam reach quadruples (makes 4 times larger) the total oceanic search area.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -269,7 +269,7 @@
         "15 degrees"
       ],
       "answer": 0,
-      "explanation": "Central angle = 360 / 12 = 30 degrees.",
+      "explanation": "A circular stained-glass rose window in a Gothic cathedral is partitioned symmetrically into 12 identical sectors by radiating stone tracery ribs. Because the sum of all angles around the central hub of a complete circle is 360 degrees, the central angle subtended by each of the 12 congruent sectors is found by dividing the total angle equally: Central angle theta = 360 degrees / 12 = 30 degrees. Each radial stained-glass pane therefore forms an acute circular sector with an angle of 30 degrees.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
     {
@@ -285,7 +285,7 @@
         "15400/3 cm^2 (~5133.33 cm^2)"
       ],
       "answer": 3,
-      "explanation": "Area of each sector = (30/360) * (22/7) * 140 * 140 = (1/12) * 22 * 20 * 140 = (1/12) * 61600 = 15400 / 3 cm^2 (approx 0.513 m^2).",
+      "explanation": "Each of the 12 identical rose window sectors has central angle theta = 30 degrees and radius r = 140 cm. The area of colored glass in each sector is given by the sector formula: Area = (theta / 360) * pi * r^2 = (30 / 360) * (22 / 7) * 140 * 140 = (1 / 12) * (22 / 7) * 19600 = (1 / 12) * 22 * 2800 = (1 / 12) * 61600. Dividing numerator and denominator by 4 yields: Area = 15,400 / 3 square centimeters (approximately 5,133.33 cm^2 or 0.513 m^2 of stained glass per sector).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
     {
@@ -301,7 +301,7 @@
         "5 cm"
       ],
       "answer": 1,
-      "explanation": "The diameter of the inscribed circle equals the side length of the square = 20 cm. Radius = 20 / 2 = 10 cm.",
+      "explanation": "In this heritage conservation floor mosaic problem, a circular decorative medallion is inscribed perfectly inside a square tile of side length s = 20 cm. Because the circle is inscribed, its circular boundary touches all four straight sides of the square tangentially. Consequently, the diameter of the inscribed circle is strictly equal to the side length of the square: Diameter d = s = 20 cm. The radius r is half the diameter: Radius r = d / 2 = 20 / 2 = 10 cm, forming a circle that maximizes interior tile area.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     },
     {
@@ -317,7 +317,7 @@
         "94 cm^2"
       ],
       "answer": 2,
-      "explanation": "Area of square tile = 20 * 20 = 400 cm^2. Area of inscribed circle = pi * r^2 = 3.14 * 10^2 = 314 cm^2. Total area of four corner regions = 400 - 314 = 86 cm^2.",
+      "explanation": "To find the total area of the four corner regions between the square tile and the inscribed circular mosaic, subtract the area of the inscribed circle from the total area of the square. Side of square s = 20 cm, so Area of square = s^2 = 20 * 20 = 400 cm^2. Radius of inscribed circle r = 10 cm, so Area of circle = pi * r^2 = 3.14 * 10^2 = 314 cm^2. Total corner area = Area(Square) - Area(Circle) = 400 - 314 = 86 cm^2. (Each of the four individual corner spandrels has area 86 / 4 = 21.5 cm^2).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Competency Focused Question"
     }
   ]

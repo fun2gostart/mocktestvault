@@ -13,7 +13,7 @@
         "32.5"
       ],
       "answer": 3,
-      "explanation": "Class mark = (Upper class limit + Lower class limit) / 2 = (40 + 25) / 2 = 65 / 2 = 32.5.",
+      "explanation": "In statistics, the class mark (also known as the mid-point or class midpoint $) represents the central value of a class interval. It is mathematically defined as the arithmetic mean of the upper and lower limits of the interval: $\\text{Class mark } x_i = \\frac{\\text{Upper class limit} + \\text{Lower class limit}}{2}$. For the given interval  - 40$, the lower limit is $ and the upper limit is $. Substituting these values gives: $\\text{Class mark} = \\frac{40 + 25}{2} = \\frac{65}{2} = 32.5$, which serves as the representative value in mean calculations.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -29,7 +29,7 @@
         "Median = 3 Mode - 2 Mean"
       ],
       "answer": 1,
-      "explanation": "The empirical relationship connecting the three measures of central tendency is Mode = 3 Median - 2 Mean (or 3 Median = Mode + 2 Mean).",
+      "explanation": "For moderately asymmetrical (skewed) frequency distributions, English statistician Karl Pearson established the fundamental empirical relationship connecting the three measures of central tendency: $\\text{Mode} = 3\\text{Median} - 2\\text{Mean}$, which can also be rearranged algebraically as \\text{Median} = \\text{Mode} + 2\\text{Mean}$ or $\\text{Mean} - \\text{Mode} = 3(\\text{Mean} - \\text{Median})$. In perfectly symmetrical distributions, all three measures coincide ($\\text{Mean} = \\text{Median} = \\text{Mode}$), while skewness pulls the mean furthest into the long tail.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
     {
@@ -45,7 +45,7 @@
         "32"
       ],
       "answer": 2,
-      "explanation": "Using Mode = 3 Median - 2 Mean: Mode = 3(26) - 2(24) = 78 - 48 = 30.",
+      "explanation": "According to Karl Pearson's empirical formula connecting the three measures of central tendency: $\\text{Mode} = 3\\text{Median} - 2\\text{Mean}$. We are given that the distribution is moderately skewed with a mean of $ and a median of $. Substituting these values directly into the empirical formula yields: $\\text{Mode} = 3(26) - 2(24) = 78 - 48 = 30$. This relationship allows statisticians to compute any third measure when the other two are known, without requiring the full raw dataset.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
     {
@@ -61,7 +61,7 @@
         "0 - 10"
       ],
       "answer": 0,
-      "explanation": "The modal class is the class interval with the highest frequency. Here, the maximum frequency is 15, corresponding to the interval 20 - 30.",
+      "explanation": "In a grouped frequency distribution, the 'modal class' is defined as the specific class interval that contains the maximum frequency (the highest number of observations). Examining the given frequency distribution: zsh-10$ has frequency $, -20$ has frequency $, -30$ has frequency $, and -40$ has frequency $. The highest frequency is $, which directly corresponds to the class interval  - 30$. Therefore,  - 30$ is the modal class, from which the lower boundary  = 20$ is chosen for mode computation.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
     {
@@ -77,7 +77,7 @@
         "Cumulative frequency of the modal class"
       ],
       "answer": 2,
-      "explanation": "In the mode formula: l is the lower limit of the modal class, h is the class size, f1 is the frequency of the modal class, f0 is the frequency of the class preceding the modal class, and f2 is the frequency of the class succeeding the modal class.",
+      "explanation": "In the standard NCERT formula for calculating the mode of grouped continuous data: $\\text{Mode} = l + \\left[\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\right] \\times h$, each symbol represents a precise parameter: $ is the lower limit of the modal class, $ is the class size (width), $ is the frequency of the modal class itself, $ denotes the frequency of the class preceding the modal class, and $ represents the frequency of the class succeeding the modal class. These frequencies interpolate the exact mode within the modal class.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
     {
@@ -93,7 +93,7 @@
         "10 - 20"
       ],
       "answer": 1,
-      "explanation": "N = 60, so N/2 = 30. The cumulative frequency just greater than 30 is 38, which corresponds to the class interval 30 - 40. Hence, the median class is 30 - 40.",
+      "explanation": "To determine the median class of grouped data, we find the half-way observation index $\\frac{N}{2}$, where  = \\sum f_i$ is the total frequency. Given  = 60$, the median position is $\\frac{N}{2} = \\frac{60}{2} = 30$. The median class is the class interval whose cumulative frequency is just greater than or equal to $\\frac{N}{2}$. Given cumulative frequencies: -20$ ( = 8$), -30$ ( = 20$), -40$ ( = 38$). The first cumulative frequency exceeding $ is $, corresponding to the interval  - 40$.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
     {
@@ -109,7 +109,7 @@
         "(xi - a) * h"
       ],
       "answer": 0,
-      "explanation": "In the step-deviation method, the reduced variable ui = (xi - a) / h, where a is the assumed mean, xi is the class mark, and h is the class size.",
+      "explanation": "In the step-deviation method for computing the arithmetic mean of grouped continuous data, the reduced change of scale variable $ is defined as  = \\frac{x_i - a}{h}$, where $ is the class mark of the 569Xth class, $ is the assumed mean chosen from among the central class marks, and $ is the common class width. This linear transformation shifts the origin to $ and scales the data by $\\frac{1}{h}$, converting large multi-digit class marks into small integers (e.g., 569X2, -1, 0, 1, 2$) to minimize arithmetic errors.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -125,7 +125,7 @@
         "37.2"
       ],
       "answer": 3,
-      "explanation": "Mean x̄ = sum(fi * xi) / sum(fi) = 1860 / 50 = 37.2.",
+      "explanation": "The direct method for calculating the arithmetic mean $\\bar{x}$ of a grouped frequency distribution is given by the formula $\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i}$, where $ represents the class mark of each interval and $ is its corresponding frequency. We are given that the sum of the products $\\sum f_i x_i = 1860$ and the total number of observations (total frequency) $\\sum f_i = 50$. Substituting these values gives: $\\bar{x} = \\frac{1860}{50} = \\frac{186}{5} = 37.2$, representing the weighted balance point of the data.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -141,7 +141,7 @@
         "13.33"
       ],
       "answer": 3,
-      "explanation": "Mode = l + [(f1 - f0)/(2f1 - f0 - f2)] * h = 10 + [(12 - 8)/(2(12) - 8 - 4)] * 10 = 10 + [4 / (24 - 12)] * 10 = 10 + (4/12)*10 = 10 + 3.33 = 13.33.",
+      "explanation": "The mode of grouped data is computed using: $\\text{Mode} = l + \\left[\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\right] \\times h$. Given parameters: modal class  - 20$, lower limit  = 10$, class width  = 10$, modal frequency  = 12$, preceding frequency  = 8$, and succeeding frequency  = 4$. Substituting values: $\\text{Mode} = 10 + \\left[\\frac{12 - 8}{2(12) - 8 - 4}\\right] \\times 10 = 10 + \\left[\\frac{4}{24 - 12}\\right] \\times 10 = 10 + \\left(\\frac{4}{12}\\right) \\times 10 = 10 + \\frac{10}{3} = 10 + 3.33 = 13.33$.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.2"
     },
     {
@@ -157,7 +157,7 @@
         "Cumulative frequency of the class succeeding the median class"
       ],
       "answer": 0,
-      "explanation": "In the median formula, 'cf' specifically represents the cumulative frequency of the class preceding the median class, while 'f' is the frequency of the median class itself.",
+      "explanation": "In the NCERT formula for the median of grouped data: $\\text{Median} = l + \\left[\\frac{\\frac{n}{2} - cf}{f}\\right] \\times h$, the term $ strictly denotes the cumulative frequency of the class preceding (immediately before) the median class. The other parameters are: $ = lower limit of the median class,  = \\sum f_i$ = total number of observations, $ = absolute frequency of the median class itself, and $ = class size. Subtracting $ isolates the remaining count of observations required within the median class.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
     {
@@ -173,7 +173,7 @@
         "x̄"
       ],
       "answer": 2,
-      "explanation": "sum[fi * (xi - x̄)] = sum(fi * xi) - x̄ * sum(fi). Since x̄ = sum(fi * xi)/sum(fi), this equals sum(fi * xi) - sum(fi * xi) = 0. The algebraic sum of deviations from the mean is always zero.",
+      "explanation": "For any frequency distribution with mean $\\bar{x}$, the algebraic sum of the deviations of individual observations from the mean is identically zero: $\\sum f_i (x_i - \\bar{x}) = 0$. Proof: expanding the summation gives $\\sum f_i (x_i - \\bar{x}) = \\sum f_i x_i - \\bar{x}\\sum f_i$. By definition of the arithmetic mean, $\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i} \\implies \\sum f_i x_i = \\bar{x}\\sum f_i$. Substituting this back yields $\\bar{x}\\sum f_i - \\bar{x}\\sum f_i = 0$. This confirms the mean as the true center of gravity of data.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -189,7 +189,7 @@
         "40"
       ],
       "answer": 1,
-      "explanation": "If y_i = a * x_i + b, then the new mean ȳ = a * x̄ + b. Here, new mean = 3 * 35 + 5 = 105 + 5 = 110.",
+      "explanation": "Under a linear transformation of data, if each observation $ of a dataset is transformed into  = a x_i + b$ (where $ and $ are constants), then the new arithmetic mean $\\bar{y}$ is transformed by the exact same linear formula: $\\bar{y} = a\\bar{x} + b$. In this problem, every observation is multiplied by $ and then increased by $, so  = 3$ and  = 5$. Given the original mean $\\bar{x} = 35$, the new mean becomes $\\bar{y} = 3(35) + 5 = 105 + 5 = 110$. This property reflects the linearity of expectations.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -205,7 +205,7 @@
         "10.5 - 20.5"
       ],
       "answer": 3,
-      "explanation": "The gap between upper limit of one class and lower limit of next is 11 - 10 = 1. Adjustment factor = 1/2 = 0.5. Subtract 0.5 from lower limit (11 - 0.5 = 10.5) and add 0.5 to upper limit (20 + 0.5 = 20.5). Boundaries: 10.5 - 20.5.",
+      "explanation": "When class intervals are presented in discontinuous (inclusive) form (e.g., -10, 11-20, 21-30$), they must be converted into continuous (exclusive) boundaries before calculating mode or median. The gap between the upper limit of one class and the lower limit of the next class is  - 10 = 1$. The correction factor is half this gap: $\\frac{1}{2} = 0.5$. Subtract zsh.5$ from the lower limit ( - 0.5 = 10.5$) and add zsh.5$ to the upper limit ( + 0.5 = 20.5$), yielding continuous boundaries .5 - 20.5$.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
     {
@@ -221,7 +221,7 @@
         "26"
       ],
       "answer": 1,
-      "explanation": "Median = l + [(n/2 - cf) / f] * h = 20 + [(25 - 18) / 10] * 10 = 20 + 7 = 27.",
+      "explanation": "To compute the median of grouped data, apply the formula $\\text{Median} = l + \\left[\\frac{\\frac{n}{2} - cf}{f}\\right] \\times h$. We are given: median class -30$ with lower limit  = 20$, class width  = 30 - 20 = 10$, total observations  = 50 \\implies \\frac{n}{2} = 25$, cumulative frequency of preceding class  = 18$, and median class frequency  = 10$. Substituting into the formula: $\\text{Median} = 20 + \\left[\\frac{25 - 18}{10}\\right] \\times 10 = 20 + \\left(\\frac{7}{10}\\right) \\times 10 = 20 + 7 = 27$.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
     {
@@ -237,7 +237,7 @@
         "[sum(fi * di) / sum(fi)] - a"
       ],
       "answer": 0,
-      "explanation": "The assumed mean formula is x̄ = a + [sum(fi * di) / sum(fi)], where di = xi - a.",
+      "explanation": "In the assumed mean method for calculating the arithmetic mean of grouped continuous data, the working formula is $\\bar{x} = a + \\frac{\\sum f_i d_i}{\\sum f_i}$, where $ represents the assumed mean (a central value chosen from the class marks $), and  = x_i - a$ represents the deviation of each class mark from $. By centering deviations around $, positive and negative deviations partially cancel each other out, significantly reducing the magnitudes of numbers in products  d_i$ and eliminating computational fatigue.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     },
     {
@@ -253,7 +253,7 @@
         "Lower limits"
       ],
       "answer": 2,
-      "explanation": "In a 'less than' cumulative frequency table, frequencies are accumulated up to the upper limit of each class interval, so upper limits correspond to the cumulative frequencies.",
+      "explanation": "In a cumulative frequency distribution of the 'less than' type, the upper limits of each class interval are plotted against their corresponding cumulative frequencies. The cumulative frequency indicates the total number of observations that are strictly less than or equal to that particular upper class boundary. When constructing a 'less than' ogive curve, the upper class limits are plotted on the horizontal 569Xaxis while the corresponding cumulative frequencies are plotted along the vertical 569Xaxis.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
     {
@@ -269,7 +269,7 @@
         "25"
       ],
       "answer": 0,
-      "explanation": "Total frequency N = 10 + 15 + 12 + 20 + 9 = 66. N/2 = 33. Cumulative frequencies: (0-5: 10), (5-10: 25), (10-15: 37). The cumulative frequency just greater than 33 is 37, so the median class is 10-15. Its upper limit is 15.",
+      "explanation": "To find the upper limit of the median class, first determine the total frequency:  = 10 + 15 + 12 + 20 + 9 = 66$. Half the total frequency is $\\frac{N}{2} = \\frac{66}{2} = 33$. Compute the cumulative frequencies: zsh-5$ has  = 10$; -10$ has  = 10 + 15 = 25$; -15$ has  = 25 + 12 = 37$. The cumulative frequency that is just greater than $ is $, which corresponds to the class interval  - 15$. Thus, the median class is  - 15$, and its upper limit is $.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
     {
@@ -285,7 +285,7 @@
         "Median"
       ],
       "answer": 3,
-      "explanation": "The point where the 'less than' ogive and 'more than' ogive intersect has coordinates (Median, N/2). Therefore, the x-coordinate (abscissa) gives the median of the distribution.",
+      "explanation": "When both the 'less than' cumulative frequency curve (less than ogive) and 'more than' cumulative frequency curve (more than ogive) of a grouped distribution are plotted on the same graph, they intersect at a unique point whose coordinates are $\\left(\\text{Median}, \\frac{N}{2}\\right)$. The abscissa (the 569Xcoordinate) of this intersection point on the horizontal axis corresponds exactly to the Median of the distribution, providing an elegant graphical method to locate the median without mathematical formula computation.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4"
     },
     {
@@ -301,7 +301,7 @@
         "Weighted Mean"
       ],
       "answer": 1,
-      "explanation": "The mode can be determined graphically from a histogram by drawing diagonal lines across the highest bar to adjacent bars, whereas the median is determined from cumulative frequency curves (ogives).",
+      "explanation": "The Mode of a grouped distribution can be determined graphically from a Histogram. In a histogram, the modal class corresponds to the tallest bar. By drawing two intersecting diagonal straight lines from the top corners of the highest rectangle to adjacent corners of neighboring bars, the 569Xcoordinate of their intersection gives the Mode. Conversely, the median is located graphically using intersecting cumulative frequency curves (ogives), while the mean cannot be determined from graphical plots.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3"
     },
     {
@@ -317,7 +317,7 @@
         "47"
       ],
       "answer": 2,
-      "explanation": "Lower limit = Class mark - (Class size / 2) = 47 - (10 / 2) = 47 - 5 = 42. (The interval is 42 - 52).",
+      "explanation": "The lower limit of a class interval can be found using the relationship: $\\text{Lower limit} = \\text{Class mark} - \\frac{\\text{Class size}}{2}$. We are given that the class mark (midpoint) of the interval is $ and the class size (width $) is $. Substituting these values into the formula gives: $\\text{Lower limit} = 47 - \\frac{10}{2} = 47 - 5 = 42$. Similarly, the upper limit is $\\text{Class mark} + \\frac{\\text{Class size}}{2} = 47 + 5 = 52$. Hence, the continuous class interval is  - 52$.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2"
     }
   ]

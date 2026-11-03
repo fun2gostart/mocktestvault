@@ -12,7 +12,7 @@
       "a1 / a2 != b1 / b2"
     ],
     "answer": 3,
-    "explanation": "Two straight lines intersect at exactly one point if and only if their slopes are distinct: a1 / a2 != b1 / b2. In this case, the system has a unique solution and is consistent.",
+    "explanation": "For a system of two linear equations in two variables, a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0, the two straight lines intersect at exactly one unique point if and only if their slopes are distinct. In algebraic coefficient form, this geometric condition corresponds to a1 / a2 != b1 / b2. When this inequality is satisfied, the system possesses a single unique solution (x, y) given by Cramer's rule, and the pair of equations is classified as mathematically consistent and independent.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.4"
   },
   {
@@ -28,7 +28,7 @@
       "a1 * b2 + a2 * b1 = 0"
     ],
     "answer": 1,
-    "explanation": "When a1 / a2 = b1 / b2 != c1 / c2, the lines are parallel and never meet. Therefore, there is no common solution, and the pair of equations is called inconsistent.",
+    "explanation": "A pair of linear equations in two variables has NO solution if their geometric graphs represent two distinct parallel straight lines that never intersect, no matter how far they are extended in either direction. Algebraically, this occurs when the lines share identical slopes but possess different y-intercepts, yielding the ratio condition: a1 / a2 = b1 / b2 != c1 / c2. Because there is no common coordinate pair (x, y) satisfying both equations simultaneously, the system is termed inconsistent.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.4"
   },
   {
@@ -44,7 +44,7 @@
       "c1 = c2 = 0"
     ],
     "answer": 2,
-    "explanation": "When all three coefficient ratios are identical: a1 / a2 = b1 / b2 = c1 / c2, every point on one line also lies on the other. The lines coincide, giving infinitely many solutions (consistent and dependent).",
+    "explanation": "Two linear equations in two variables represent coincident lines (one line lying completely on top of the other) when every coordinate point lying on the first line is also a valid point on the second line. This geometric coincidence occurs if and only if all three corresponding coefficient ratios are strictly identical: a1 / a2 = b1 / b2 = c1 / c2. Under this condition, the system possesses infinitely many common solutions, and the equations are classified as consistent and dependent.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Table 3.4"
   },
   {
@@ -60,7 +60,7 @@
       "5"
     ],
     "answer": 0,
-    "explanation": "For no solution: a1 / a2 = b1 / b2 != c1 / c2. Here a1/a2 = 1/5 and b1/b2 = 2/k. Setting 1/5 = 2/k gives k = 10. Check: -3/7 != 1/5, which holds. Thus k = 10.",
+    "explanation": "For a pair of linear equations to have NO solution, the lines must be parallel, satisfying the ratio condition: a1 / a2 = b1 / b2 != c1 / c2. Writing the given equations in standard form gives: 1*x + 2*y - 3 = 0 and 5*x + k*y + 7 = 0. Comparing coefficients yields a1/a2 = 1/5, b1/b2 = 2/k, and c1/c2 = -3/7. Equating the first two ratios: 1/5 = 2/k => k = 2 * 5 = 10. Checking the third inequality: 1/5 != -3/7, which is true. Therefore, the unique value of k for which no solution exists is k = 10.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.3"
   },
   {
@@ -76,7 +76,7 @@
       "k != 3"
     ],
     "answer": 0,
-    "explanation": "For a unique solution: a1 / a2 != b1 / b2 => k / 3 != 2 / 1 => k != 6. So for all real values of k except 6, the system has a unique solution.",
+    "explanation": "For a system of two linear equations to possess a UNIQUE solution, the straight lines must intersect at a single point, satisfying the condition: a1 / a2 != b1 / b2. The given equations are k*x + 2*y - 5 = 0 and 3*x + 1*y - 1 = 0. Extracting the coefficients gives a1 = k, b1 = 2, a2 = 3, and b2 = 1. Applying the unique solution inequality: k / 3 != 2 / 1 => k != 2 * 3 => k != 6. Thus, the system will have a unique solution for every real number value of k except k = 6.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.3"
   },
   {
@@ -92,7 +92,7 @@
       "3"
     ],
     "answer": 1,
-    "explanation": "For infinitely many solutions: 2 / (k + 1) = 3 / (2k - 1) = 7 / (4k + 1). From first pair: 2(2k - 1) = 3(k + 1) => 4k - 2 = 3k + 3 => k = 5. Verify second pair: 3 / (2*5 - 1) = 3/9 = 1/3; 7 / (4*5 + 1) = 7/21 = 1/3. Both match, so k = 5.",
+    "explanation": "For a system of equations to have infinitely many solutions, the lines must coincide, satisfying: a1 / a2 = b1 / b2 = c1 / c2. Here, equations are 2x + 3y = 7 and (k + 1)x + (2k - 1)y = 4k + 1. Setting up ratios: 2 / (k + 1) = 3 / (2k - 1) = 7 / (4k + 1). Equating the first two ratios: 2(2k - 1) = 3(k + 1) => 4k - 2 = 3k + 3 => k = 5. Verify with the third ratio: 2 / (5 + 1) = 2/6 = 1/3, and 7 / (4(5) + 1) = 7/21 = 1/3. Both ratios match identically at 1/3, confirming k = 5.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Example 16"
   },
   {
@@ -108,7 +108,7 @@
       "x = 8, y = 6"
     ],
     "answer": 2,
-    "explanation": "Adding both equations: (x + y) + (x - y) = 14 + 4 => 2x = 18 => x = 9. Substituting x = 9 into first equation: 9 + y = 14 => y = 5.",
+    "explanation": "To solve the linear system x + y = 14 and x - y = 4 by the method of elimination, add the two equations together: (x + y) + (x - y) = 14 + 4 => 2x = 18 => x = 18 / 2 = 9. Next, substitute x = 9 back into the first equation: 9 + y = 14 => y = 14 - 9 = 5. Checking in the second equation: 9 - 5 = 4, which verifies perfectly. Thus, the unique simultaneous solution is x = 9 and y = 5, representing the intersection point (9, 5) of the two straight lines.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 1(i)"
   },
   {
@@ -124,7 +124,7 @@
       "m = -1 (where x = -2, y = 5)"
     ],
     "answer": 3,
-    "explanation": "Subtracting second equation from first: (2x + 3y) - (2x - 4y) = 11 - (-24) => 7y = 35 => y = 5. Then 2x + 3(5) = 11 => 2x = -4 => x = -2. Substituting into y = mx + 3: 5 = m(-2) + 3 => 2 = -2m => m = -1.",
+    "explanation": "Given 2x + 3y = 11 (eq 1) and 2x - 4y = -24 (eq 2). Eliminating x by subtracting eq 2 from eq 1: (2x - 2x) + (3y - (-4y)) = 11 - (-24) => 7y = 35 => y = 5. Substitute y = 5 into eq 1: 2x + 3(5) = 11 => 2x + 15 = 11 => 2x = -4 => x = -2. The solution is x = -2, y = 5. Now substitute these values into the linear relation y = mx + 3: 5 = m(-2) + 3 => 5 - 3 = -2m => 2 = -2m => m = 2 / (-2) = -1. Therefore, the required slope value is m = -1.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 2"
   },
   {
@@ -140,7 +140,7 @@
       "Inclined at 45 degrees to both axes"
     ],
     "answer": 2,
-    "explanation": "An equation of the form x = c has a constant x-coordinate for all values of y, which forms a vertical line strictly parallel to the y-axis at distance |c|.",
+    "explanation": "The equation of a straight line x = c (where c is a non-zero real constant) specifies that every coordinate point on the line has an x-coordinate fixed at c, while the y-coordinate can assume any real value from -infinity to +infinity. On the Cartesian coordinate plane, plotting points such as (c, -2), (c, 0), and (c, 3) produces a perfectly straight vertical line that is perpendicular to the x-axis and strictly parallel to the vertical y-axis at a perpendicular distance of |c| units.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
   },
   {
@@ -156,7 +156,7 @@
       "Passing through (c, c)"
     ],
     "answer": 1,
-    "explanation": "The equation y = c has a constant y-coordinate for all x, forming a horizontal line parallel to the x-axis.",
+    "explanation": "The linear equation y = c (where c is any real constant) specifies that every point on the line maintains an invariant y-coordinate (ordinate) equal to c, irrespective of the value of x. Plotting coordinates such as (-2, c), (0, c), and (4, c) on the Cartesian coordinate system generates an unobstructed horizontal straight line that is perpendicular to the y-axis and strictly parallel to the horizontal x-axis at a constant perpendicular distance of |c| units.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
   },
   {
@@ -172,7 +172,7 @@
       "(2, -3)"
     ],
     "answer": 3,
-    "explanation": "The vertical line x = 2 and horizontal line y = -3 intersect at the unique Cartesian point (2, -3).",
+    "explanation": "To find the point of intersection of two straight lines on a Cartesian coordinate plane, we solve their equations simultaneously. The equation x = 2 defines a vertical straight line consisting of all points with x-coordinate 2. The equation y = -3 defines a horizontal straight line consisting of all points with y-coordinate -3. These two orthogonal lines intersect at the unique point where both conditions hold simultaneously, which is the Cartesian point (2, -3).",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
   },
   {
@@ -188,7 +188,7 @@
       "3x + 4y = -2"
     ],
     "answer": 0,
-    "explanation": "A linear equation ax + by + c = 0 passes through the origin (0, 0) if and only if the constant term c = 0 (since a(0) + b(0) = 0). Thus 2x + 3y = 0 passes through (0, 0).",
+    "explanation": "A linear equation in two variables of the general form ax + by + c = 0 passes through the Cartesian origin O(0, 0) if and only if the origin satisfies the equation: a(0) + b(0) + c = 0 => 0 + 0 + c = 0 => c = 0. Among the given options, only 2x + 3y = 0 has a constant term of zero (c = 0), since 2(0) + 3(0) = 0. All other options have non-zero constant terms (c != 0) and therefore intercept the coordinate axes at points away from the origin.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.2"
   },
   {
@@ -204,7 +204,7 @@
       "x * y"
     ],
     "answer": 1,
-    "explanation": "In place value notation, the tens digit contributes 10 * x and the units digit contributes 1 * y. Therefore, the two-digit number is represented by (10x + y).",
+    "explanation": "In the decimal base-10 positional number system, any two-digit number is composed of a tens digit and a units digit. According to place value principles, each unit at the tens place has an intrinsic value of 10, while each unit at the units place has an intrinsic value of 1. If the digit in the tens place is represented by x and the digit in the units place is represented by y, the expanded algebraic value of the two-digit number is given by 10 * x + 1 * y = (10x + y).",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.4"
   },
   {
@@ -220,7 +220,7 @@
       "The lines must both pass through the origin"
     ],
     "answer": 2,
-    "explanation": "A system is consistent if it has at least one solution. This corresponds to either intersecting lines (unique solution) or coincident lines (infinitely many solutions).",
+    "explanation": "In coordinate geometry and linear algebra, a system of linear equations is classified as 'consistent' if it possesses at least one valid solution. A pair of linear equations in two variables can be consistent in two distinct geometric configurations: (1) if the lines intersect at a single point (a1/a2 != b1/b2), providing exactly one unique solution; or (2) if the lines are coincident (a1/a2 = b1/b2 = c1/c2), providing infinitely many common solutions.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, NCERT Exemplar Q1"
   },
   {
@@ -236,7 +236,7 @@
       "Parallel"
     ],
     "answer": 3,
-    "explanation": "An inconsistent pair has no solution, which graphically means the lines do not intersect at any point; they are strictly parallel.",
+    "explanation": "A system of two linear equations in two variables is defined as 'inconsistent' when there is no common solution (x, y) that simultaneously satisfies both equations. Geometrically, each linear equation in two variables graphs as a straight line on the Cartesian plane. Having zero points in common means that the two straight lines never intersect at any point in the plane, which is the definitive geometric property of strictly parallel lines (a1/a2 = b1/b2 != c1/c2).",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, NCERT Exemplar Q2"
   },
   {
@@ -252,7 +252,7 @@
       "Cost of 1 pencil = ₹2, Cost of 1 pen = ₹6"
     ],
     "answer": 0,
-    "explanation": "Let pencil cost be x and pen cost be y: 5x + 7y = 50 and 7x + 5y = 46. Adding: 12x + 12y = 96 => x + y = 8. Subtracting: -2x + 2y = 4 => -x + y = 2. Adding x + y = 8 and -x + y = 2 gives 2y = 10 => y = 5. Then x = 8 - 5 = 3.",
+    "explanation": "Let cost of 1 pencil = x and cost of 1 pen = y. Form equations: 5x + 7y = 50 (eq 1) and 7x + 5y = 46 (eq 2). Using the symmetric addition-subtraction method: adding eq 1 and eq 2 gives 12x + 12y = 96 => x + y = 8 (eq 3). Subtracting eq 1 from eq 2 gives 2x - 2y = -4 => x - y = -2 (eq 4). Adding eq 3 and eq 4: 2x = 6 => x = 3. Substituting into eq 3: 3 + y = 8 => y = 5. Therefore, the cost of one pencil is ₹3 and the cost of one pen is ₹5.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.2 Question 1(ii)"
   },
   {
@@ -268,7 +268,7 @@
       "108° and 72°"
     ],
     "answer": 0,
-    "explanation": "Supplementary angles sum to 180°: x + y = 180. Given x - y = 18. Adding equations: 2x = 198 => x = 99°. Then y = 180 - 99 = 81°.",
+    "explanation": "Two angles are defined as supplementary when their sum equals 180 degrees. Let the larger angle be x and the smaller angle be y. We have the system: x + y = 180 (eq 1) and x - y = 18 (eq 2). Solving by elimination, add eq 1 and eq 2: (x + y) + (x - y) = 180 + 18 => 2x = 198 => x = 198 / 2 = 99 degrees. Substitute x = 99 into eq 1: 99 + y = 180 => y = 180 - 99 = 81 degrees. Thus, the two supplementary angles are 99 degrees and 81 degrees.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.3 Question 3(ii)"
   },
   {
@@ -284,7 +284,7 @@
       "Length = 20 m, Width = 16 m"
     ],
     "answer": 3,
-    "explanation": "Half perimeter = l + w = 36. Given l = w + 4 => l - w = 4. Adding gives 2l = 40 => l = 20 m. Width w = 36 - 20 = 16 m.",
+    "explanation": "Let the length of the rectangular garden be l and its width be w. The full perimeter is 2(l + w), so half the perimeter is l + w = 36 meters. We are given that the length exceeds the width by 4 meters: l = w + 4 => l - w = 4. Adding the two simultaneous equations: (l + w) + (l - w) = 36 + 4 => 2l = 40 => l = 40 / 2 = 20 meters. Substituting l = 20 into the first equation: 20 + w = 36 => w = 36 - 20 = 16 meters. Thus, length = 20 m and width = 16 m.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Exercise 3.2 Question 5"
   },
   {
@@ -300,7 +300,7 @@
       "0"
     ],
     "answer": 1,
-    "explanation": "From bx + ay = 0 => y = -(b/a)x. Substitute into first equation: ax + b(-bx/a) = a^2 - b^2 => (a^2 - b^2)x / a = a^2 - b^2 => x = a. Then y = -(b/a)(a) = -b. Therefore, x + y = a + (-b) = a - b.",
+    "explanation": "Given the system: ax + by = a^2 - b^2 (eq 1) and bx + ay = 0 (eq 2). From eq 2: ay = -bx => y = -(b/a)x. Substitute y into eq 1: ax + b(-(b/a)x) = a^2 - b^2 => ax - (b^2/a)x = a^2 - b^2 => ((a^2 - b^2)/a)x = a^2 - b^2. Dividing both sides by (a^2 - b^2) yields x / a = 1 => x = a. Now find y: y = -(b/a)(a) = -b. Therefore, the requested sum of the solutions is x + y = a + (-b) = a - b, which elegantly simplifies the variables.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, Section 3.4"
   },
   {
@@ -316,7 +316,7 @@
       "Exactly two solutions"
     ],
     "answer": 2,
-    "explanation": "Calculate ratios: a1/a2 = 1 / (-3) = -1/3. b1/b2 = 2 / (-6) = -1/3. c1/c2 = 5 / 1 = 5. Since a1/a2 = b1/b2 != c1/c2, the lines are parallel and have NO solution.",
+    "explanation": "To find the number of solutions for the pair of linear equations x + 2y + 5 = 0 and -3x - 6y + 1 = 0, calculate the ratios of their coefficients: a1/a2 = 1 / (-3) = -1/3; b1/b2 = 2 / (-6) = -1/3; and c1/c2 = 5 / 1 = 5. Comparing these ratios: a1/a2 = b1/b2 != c1/c2 (since -1/3 = -1/3 != 5). This satisfies the classical condition for parallel lines, meaning the two straight lines never intersect and have NO common solution.",
     "citation": "NCERT Class 10 Mathematics, Chapter 3, NCERT Exemplar Q3"
   }
 ]
