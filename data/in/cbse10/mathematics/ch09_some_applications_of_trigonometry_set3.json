@@ -109,7 +109,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Since d = h / tan theta, identical h and identical theta uniquely define identical distance d. Both statements are true and (R) explains (A).",
+      "explanation": "Consider two identical poles of height h standing at positions A and B on either side of a road, and let P be an observation point along the road. In right triangles formed at P, tan(theta1) = h / d1 and tan(theta2) = h / d2, where d1 and d2 are the distances from P to the poles. If both elevation angles are identical (theta1 = theta2 = theta), then d1 = h / tan(theta) and d2 = h / tan(theta), so d1 = d2. This proves P is equidistant from both poles. Therefore, both Assertion (A) and Reason (R) are true, and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
     {
@@ -125,7 +125,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Height = distance * tan 45 deg = 50 * 1 = 50 m. Reason (R) states the identity tan 45 deg = 1 which directly explains Assertion (A).",
+      "explanation": "In any right-angled triangle ABC with angle of elevation theta = 45 degrees, the tangent trigonometric ratio is tan(45 degrees) = 1. By definition, tan(theta) = (Opposite side / Adjacent side) = (Tower Height h) / (Base Distance d). Substituting theta = 45 degrees and base distance d = 50 m: tan(45 degrees) = h / 50 => 1 = h / 50 => h = 50 * 1 = 50 m. Hence, the tower is exactly 50 m high. Reason (R) provides the exact trigonometric proof of Assertion (A). Therefore, both (A) and (R) are true, and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
     {
@@ -141,7 +141,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Since 1/sqrt(3) approx 0.577 < 1, height = 0.577 * base, making base approx 1.732 * height > height. Both statements are true and (R) explains (A).",
+      "explanation": "For an angle of elevation theta = 30 degrees, the tangent ratio is tan(30 degrees) = 1 / sqrt(3). By definition, tan(theta) = (Height h) / (Base distance d). Setting h / d = 1 / sqrt(3) gives d = h * sqrt(3). Because sqrt(3) is approximately 1.732, which is strictly greater than 1, the base distance d = 1.732 * h is strictly greater than the height h (d > h). Reason (R) notes that since tan(30 degrees) < 1, height/base < 1, which directly implies base > height. Therefore, both (A) and (R) are true, and (R) correctly explains (A).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
     {
@@ -173,7 +173,7 @@
         "60 metres"
       ],
       "answer": 0,
-      "explanation": "tan 60 deg = 90 / d1 => sqrt(3) = 90 / d1 => d1 = 90 / sqrt(3) = 30*sqrt(3) metres.",
+      "explanation": "The hot air balloon floats at a constant vertical altitude h = 90 metres. The observer views it at an angle of elevation \u03b8\u2081 = 60\u00b0. In the right-angled triangle formed by the observer, ground, and balloon: tan(60\u00b0) = Altitude / Ground Distance = 90 / d\u2081. Since tan(60\u00b0) = \u221a3, we have: \u221a3 = 90 / d\u2081 => d\u2081 = 90 / \u221a3. Rationalizing the denominator: d\u2081 = (90\u221a3) / 3 = 30\u221a3 metres \u2248 51.96 metres. Thus, the initial horizontal standoff distance of the balloon from the observer is 30\u221a3 metres. (NCERT Chapter 9 Case Study).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 14"
     },
     {
@@ -189,7 +189,7 @@
         "120 metres"
       ],
       "answer": 1,
-      "explanation": "tan 30 deg = 90 / d2 => 1 / sqrt(3) = 90 / d2 => d2 = 90*sqrt(3) metres.",
+      "explanation": "A minute later, the balloon has drifted further away horizontally while maintaining its constant altitude h = 90 metres. Its angle of elevation decreases to \u03b8\u2082 = 30\u00b0. In the new right triangle formed by the observer and balloon: tan(30\u00b0) = Altitude / New Distance = 90 / d\u2082. Since tan(30\u00b0) = 1/\u221a3, we have: 1/\u221a3 = 90 / d\u2082 => d\u2082 = 90\u221a3 metres \u2248 155.88 metres. Thus, the new horizontal ground distance of the balloon is 90\u221a3 metres. (NCERT Chapter 9 Case Study).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 14"
     },
     {
@@ -205,7 +205,7 @@
         "50 sqrt(3) metres"
       ],
       "answer": 1,
-      "explanation": "Distance drifted = d2 - d1 = 90*sqrt(3) - 30*sqrt(3) = 60*sqrt(3) metres (approx 103.92 m).",
+      "explanation": "Since the hot air balloon drifts horizontally in a straight line directly away from the observer at constant altitude, the total horizontal distance \u0394d traversed during the one-minute interval is the difference between the final distance d\u2082 and initial distance d\u2081: \u0394d = d\u2082 - d\u2081 = 90\u221a3 - 30\u221a3 = (90 - 30)\u221a3 = 60\u221a3 metres. Using \u221a3 \u2248 1.732: \u0394d = 60 \u00d7 1.732 = 103.92 metres. (The balloon's average horizontal drift speed is 103.92 m / 60 s \u2248 1.73 m/s). (NCERT Chapter 9 Case Study).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 14"
     },
     {
@@ -221,7 +221,7 @@
         "100 metres"
       ],
       "answer": 3,
-      "explanation": "Angle of depression 45 deg = angle of elevation from ship. Distance = 100 / tan 45 deg = 100 / 1 = 100 metres.",
+      "explanation": "A lighthouse keeper stands at the top of a 100 m vertical cliff. The angle of depression of the closer ship is 45\u00b0. By alternate interior angles between the horizontal line of sight and the sea surface, the angle of elevation of the cliff top from the ship is also 45\u00b0. In the right triangle: tan(45\u00b0) = Cliff Height / Distance d\u2081 = 100 / d\u2081. Since tan(45\u00b0) = 1: 1 = 100 / d\u2081 => d\u2081 = 100 metres. Thus, the closer ship is exactly 100 metres from the base of the cliff. (NCERT Exercise 9.1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 13"
     },
     {
@@ -237,7 +237,7 @@
         "50 sqrt(3) metres"
       ],
       "answer": 2,
-      "explanation": "Distance = 100 / tan 30 deg = 100 / (1/sqrt(3)) = 100*sqrt(3) metres (approx 173.2 m).",
+      "explanation": "The angle of depression of the second cargo ship farther out to sea is 30\u00b0. By alternate interior angles, the angle of elevation from the second ship to the cliff top is 30\u00b0. In the right triangle formed by the second ship and cliff: tan(30\u00b0) = Cliff Height / Distance d\u2082 = 100 / d\u2082. Since tan(30\u00b0) = 1/\u221a3, we have: 1/\u221a3 = 100 / d\u2082 => d\u2082 = 100\u221a3 metres \u2248 173.20 metres. Thus, the second ship is 100\u221a3 metres from the base of the cliff. (NCERT Exercise 9.1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 13"
     },
     {
@@ -253,7 +253,7 @@
         "75 metres"
       ],
       "answer": 0,
-      "explanation": "Separation = d2 - d1 = 100*sqrt(3) - 100 = 100(sqrt(3) - 1) metres = 100(0.732) = 73.2 metres.",
+      "explanation": "Both cargo ships approach the harbour along the exact same straight line of sight from the lighthouse cliff. Therefore, the clear nautical distance between the two ships is simply the difference between their respective distances from the cliff base: Separation = d\u2082 - d\u2081 = 100\u221a3 - 100 = 100(\u221a3 - 1) metres. Using \u221a3 \u2248 1.732: Separation = 100(1.732 - 1) = 100 \u00d7 0.732 = 73.2 metres. (NCERT Exercise 9.1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 13"
     },
     {
@@ -269,7 +269,7 @@
         "15 sqrt(3) metres"
       ],
       "answer": 0,
-      "explanation": "Looking down at 30 deg to pane 30 m below: tan 30 deg = 30 / d => 1/sqrt(3) = 30 / d => d = 30*sqrt(3) metres.",
+      "explanation": "An inspection drone hovers at a horizontal standoff distance d from the glass tower. Tilting down by 30\u00b0 to inspect a pane 30 m below the drone's hovering altitude forms a right triangle below the horizontal eye level: tan(30\u00b0) = Vertical Depth / Standoff Distance = 30 / d. Since tan(30\u00b0) = 1/\u221a3, we have: 1/\u221a3 = 30 / d => d = 30\u221a3 metres. Using \u221a3 \u2248 1.732, the horizontal standoff distance is approximately 30 \u00d7 1.732 = 51.96 metres. (NCERT Chapter 9 Case Study).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Competency Focused Question"
     },
     {
@@ -285,7 +285,7 @@
         "45 metres"
       ],
       "answer": 1,
-      "explanation": "Looking up at 45 deg: tan 45 deg = h_mast / d => 1 = h_mast / (30*sqrt(3)) => h_mast = 30*sqrt(3) metres.",
+      "explanation": "Using the horizontal standoff distance d = 30\u221a3 m determined in Question 17: the drone camera tilts up by 45\u00b0 to view the rooftop mast. This forms a right triangle above the horizontal drone level with angle of elevation 45\u00b0: tan(45\u00b0) = Mast Height above Drone / Standoff Distance = h_mast / d. Since tan(45\u00b0) = 1: 1 = h_mast / (30\u221a3) => h_mast = 30\u221a3 metres \u2248 51.96 metres. (NCERT Chapter 9 Case Study).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Competency Focused Question"
     },
     {
@@ -301,7 +301,7 @@
         "h = x sqrt(3)"
       ],
       "answer": 3,
-      "explanation": "At station B: tan 60 deg = h / x => sqrt(3) = h / x => h = x*sqrt(3).",
+      "explanation": "Let the summit have height h above the plateau, and let x be the horizontal distance from station B to the vertical line through the summit. At observation station B, the angle of elevation of the peak is 60\u00b0. In right triangle with opposite side h and adjacent side x: tan(60\u00b0) = h / x. Since tan(60\u00b0) = \u221a3, we have: \u221a3 = h / x => h = x\u221a3. This fundamental relation connects the inaccessible height directly to ground distance x. (NCERT Chapter 9 Case Study).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Competency Focused Question"
     },
     {

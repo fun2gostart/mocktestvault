@@ -13,7 +13,7 @@
         "90 degrees"
       ],
       "answer": 0,
-      "explanation": "Let height = h and shadow = s. tan theta = h / s. Given h = s, tan theta = 1. Since tan 45 deg = 1, the angle of elevation theta = 45 degrees.",
+      "explanation": "Let h be the vertical height of the tower and d = 15 m be the distance from the point on the ground to the foot of the tower. In the right-angled triangle formed by the vertical tower, ground, and line of sight, the ratio relating opposite side and adjacent side is tangent: tan(60\u00b0) = Height / Base = h / 15. Since tan(60\u00b0) = \u221a3, we have: \u221a3 = h / 15. Cross-multiplying gives: h = 15\u221a3 metres. Using \u221a3 \u2248 1.732, the height is approximately 15 \u00d7 1.732 = 25.98 metres. (NCERT Class 10 Mathematics Chapter 9, Example 1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
     {
@@ -29,7 +29,7 @@
         "10 sqrt(3) m (~17.32 m)"
       ],
       "answer": 3,
-      "explanation": "tan 30 deg = Height / 30 => 1 / sqrt(3) = h / 30 => h = 30 / sqrt(3) = 10*sqrt(3) m.",
+      "explanation": "A circus artist climbs a 20-metre rope stretched taut and tied from the top of a vertical pole to the ground, with angle of inclination \u03b8 = 30\u00b0. The rope represents the hypotenuse of length 20 m, and the pole represents the vertical opposite side h. Using the sine ratio: sin(30\u00b0) = Opposite Side / Hypotenuse = h / 20. Since sin(30\u00b0) = 1/2, we have: 1/2 = h / 20 => h = 20 / 2 = 10 metres. Thus, the pole has a height of 10 metres. (NCERT Exercise 9.1 Question 1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 4"
     },
     {
@@ -45,7 +45,7 @@
         "5 m"
       ],
       "answer": 2,
-      "explanation": "In right triangle formed: rope is hypotenuse = 20 m, pole is opposite side h. sin 30 deg = h / 20 => 1/2 = h / 20 => h = 10 m.",
+      "explanation": "Let AB represent the vertical pole of height h, and AC represent the stretched rope tied from the top of the pole A to ground point C. The right-angled triangle ABC has angle B = 90 degrees and angle of elevation ACB = 30 degrees. The rope AC is the hypotenuse = 20 m. Applying the sine ratio: sin(30 degrees) = (Opposite Side AB) / (Hypotenuse AC) = h / 20. Since the standard trigonometric value of sin(30 degrees) is 1/2: 1/2 = h / 20 => h = 20 * (1/2) = 10 m. Thus, the vertical pole has a height of 10 m (NCERT Exercise 9.1 Question 1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 1"
     },
     {
@@ -61,7 +61,7 @@
         "8 m"
       ],
       "answer": 1,
-      "explanation": "Let standing part be h and broken part be c. tan 30 deg = h / 8 => 1/sqrt(3) = h / 8 => h = 8 / sqrt(3). cos 30 deg = 8 / c => sqrt(3)/2 = 8 / c => c = 16 / sqrt(3). Total height = h + c = 8/sqrt(3) + 16/sqrt(3) = 24 / sqrt(3) = 8*sqrt(3) m.",
+      "explanation": "Let h be the height of the chimney and d = 28.5 m be the horizontal distance from the observer to the chimney base. The observer has height h_obs = 1.5 m. The line of sight forms a right triangle with angle of elevation 45\u00b0. Let x be the height of the chimney above the observer's eye: tan(45\u00b0) = x / 28.5. Since tan(45\u00b0) = 1: 1 = x / 28.5 => x = 28.5 m. The total height of the chimney from the ground is: Total Height = x + h_obs = 28.5 + 1.5 = 30.0 metres. (NCERT Example 3).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 2"
     },
     {
@@ -77,7 +77,7 @@
         "60 sqrt(3) m"
       ],
       "answer": 0,
-      "explanation": "sin 60 deg = Height / String Length => sqrt(3)/2 = 60 / L => L = (60 * 2) / sqrt(3) = 120 / sqrt(3) = 40*sqrt(3) m.",
+      "explanation": "Let K be the kite at height 60 m above ground point G (KG = 60 m), and P be the point on the ground where the string is anchored, forming right triangle KGP with angle KPG = 60 degrees. The string KP represents the hypotenuse of length L. Using the sine function: sin(60 degrees) = (Opposite Side KG) / (Hypotenuse KP) = 60 / L. Since sin(60 degrees) = sqrt(3)/2: sqrt(3)/2 = 60 / L => L = (60 * 2) / sqrt(3) = 120 / sqrt(3). Rationalizing the denominator: L = (120 * sqrt(3)) / 3 = 40*sqrt(3) m (approx 40 * 1.732 = 69.28 m).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 5"
     },
     {
@@ -109,7 +109,7 @@
         "15 degrees"
       ],
       "answer": 1,
-      "explanation": "tan theta = Height / Shadow = h / (sqrt(3) h) = 1 / sqrt(3). Since tan 30 deg = 1/sqrt(3), theta = 30 degrees.",
+      "explanation": "Let h be the height of the vertical tower and s be the length of the horizontal shadow cast on the ground. In the right triangle formed by the tower and shadow: tan \u03b8 = Height / Shadow = h / s. We are given that the height of the tower is \u221a3 times the length of its shadow: h = s\u221a3 => h / s = \u221a3. Therefore: tan \u03b8 = \u221a3. From standard trigonometric values, tan(60\u00b0) = \u221a3. Hence, the angle of elevation of the Sun (solar altitude) is 60\u00b0. (NCERT Exercise 9.1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem"
     },
     {
@@ -125,7 +125,7 @@
         "60 degrees"
       ],
       "answer": 3,
-      "explanation": "tan theta = Height / Shadow = (sqrt(3) s) / s = sqrt(3). Since tan 60 deg = sqrt(3), theta = 60 degrees.",
+      "explanation": "Let h be the vertical height of the kite above ground, and the string of length 60 m represents the hypotenuse. The inclination of the string to the horizontal ground is \u03b8 = 60\u00b0. Assuming there is no slack in the string, we use the sine ratio: sin(60\u00b0) = Opposite Side / Hypotenuse = h / 60. Since sin(60\u00b0) = \u221a3/2, we have: \u221a3/2 = h / 60 => h = 60 \u00d7 (\u221a3/2) = 30\u221a3 metres. Using \u221a3 \u2248 1.732, the altitude of the kite is approximately 51.96 metres. (NCERT Exercise 9.1 Question 6).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem"
     },
     {
@@ -141,7 +141,7 @@
         "Azimuth angle"
       ],
       "answer": 2,
-      "explanation": "When an observer views an object placed below the horizontal line of sight, the angle between the horizontal line and the line of sight is called the angle of depression.",
+      "explanation": "A 1.5 m tall observer stands 30 m away from a 31.5 m tall telecommunications tower. The portion of the tower above the observer's horizontal eye level is: h_eye = 31.5 - 1.5 = 30 metres. The horizontal distance from the observer's eye to the tower is d = 30 metres. In the right triangle formed by the eye level and line of sight: tan \u03b8 = Opposite / Adjacent = h_eye / d = 30 / 30 = 1. Since tan(45\u00b0) = 1, the angle of elevation of the top of the tower from the observer's eye is exactly 45\u00b0. (NCERT Chapter 9).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
     {
@@ -157,7 +157,7 @@
         "150 m"
       ],
       "answer": 1,
-      "explanation": "Angle of depression = angle of elevation from boat = 30 deg. tan 30 deg = 75 / d => 1/sqrt(3) = 75 / d => d = 75*sqrt(3) m.",
+      "explanation": "Let the vertical pole have height h and its horizontal shadow have length s. The angle of elevation \u03b8 of the Sun satisfies: tan \u03b8 = Height / Shadow = h / s. We are given that the height of the pole and the length of its shadow are equal: h = s. Substituting this gives: tan \u03b8 = h / h = 1. From standard trigonometric values, tan(45\u00b0) = 1. Therefore, the angle of elevation of the Sun is 45\u00b0. Whenever an object's height equals its shadow length, the solar altitude is 45\u00b0. (NCERT Chapter 9).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
     {
@@ -173,7 +173,7 @@
         "2 sqrt(3) m (~3.46 m)"
       ],
       "answer": 3,
-      "explanation": "sin 60 deg = Height / Slide Length => sqrt(3)/2 = 3 / L => L = (3 * 2)/sqrt(3) = 6/sqrt(3) = 2*sqrt(3) m.",
+      "explanation": "Let the slide for elder children be represented by the hypotenuse AC of right-angled triangle ABC, where the vertical support AB = 3 m and angle of inclination ACB = 60 degrees. The slide length AC is the hypotenuse L. Applying the sine ratio: sin(60 degrees) = AB / AC = 3 / L. Since sin(60 degrees) = sqrt(3)/2: sqrt(3)/2 = 3 / L => L = (3 * 2) / sqrt(3) = 6 / sqrt(3). Rationalizing the denominator by multiplying numerator and denominator by sqrt(3): L = (6 * sqrt(3)) / 3 = 2*sqrt(3) m (approx 2 * 1.732 = 3.464 m).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 3"
     },
     {
@@ -189,7 +189,7 @@
         "1.2(sqrt(3) + 1) m"
       ],
       "answer": 0,
-      "explanation": "Let pedestal height be h, ground distance be d. tan 45 deg = h/d => d = h. For statue top: tan 60 deg = (h + 1.6)/d = (h + 1.6)/h => sqrt(3)*h = h + 1.6 => h(sqrt(3) - 1) = 1.6 => h = 1.6 / (sqrt(3) - 1) = 1.6(sqrt(3) + 1) / 2 = 0.8(sqrt(3) + 1) m.",
+      "explanation": "A ladder leaning against a vertical wall forms a right-angled triangle where the ladder is the hypotenuse of length L, the wall is the vertical opposite side of height h = 6 m, and the angle of inclination with the ground is \u03b8 = 60\u00b0. Using the sine ratio: sin(60\u00b0) = Opposite / Hypotenuse = 6 / L. Since sin(60\u00b0) = \u221a3/2, we have: \u221a3/2 = 6 / L => L = (6 \u00d7 2) / \u221a3 = 12 / \u221a3. Rationalizing the denominator: L = (12\u221a3) / 3 = 4\u221a3 metres \u2248 6.93 metres. (NCERT Exercise 9.1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 8"
     },
     {
@@ -221,7 +221,7 @@
         "Normal line"
       ],
       "answer": 1,
-      "explanation": "By NCERT definition, the line of sight is the straight ray drawn from the eye of the observer to the target point on the object viewed.",
+      "explanation": "Let a tree of total height H break at height h from the ground, such that the broken upper part of length (H - h) bends and touches the ground, forming the hypotenuse of length L = H - h. The broken top touches ground at distance d = 8 m from the base, making an angle \u03b8 = 30\u00b0. In this right triangle: tan(30\u00b0) = h / 8 => 1/\u221a3 = h / 8 => h = 8/\u221a3 m. And cos(30\u00b0) = 8 / L => \u221a3/2 = 8 / L => L = 16/\u221a3 m. Total height of tree H = h + L = 8/\u221a3 + 16/\u221a3 = 24/\u221a3 = (24\u221a3)/3 = 8\u221a3 metres \u2248 13.86 m. (NCERT Exercise 9.1 Question 2).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
     {
@@ -237,7 +237,7 @@
         "First increases then decreases"
       ],
       "answer": 0,
-      "explanation": "tan theta = height / distance. As distance decreases, tan theta increases, which means the angle of elevation theta increases.",
+      "explanation": "Let the vertical tower have fixed height h, and let the observer be at horizontal distance x from its base. The angle of elevation theta satisfies tan(theta) = h / x, so theta = arctan(h / x). As the observer moves closer to the base of the tower along level ground, the horizontal distance x strictly decreases (x -> 0). Because h is constant, decreasing x causes the quotient h / x to increase. Since the tangent function tan(theta) is strictly increasing for acute angles (0 <= theta < 90 deg), the angle of elevation theta must increase.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1"
     },
     {
@@ -253,7 +253,7 @@
         "21 m"
       ],
       "answer": 2,
-      "explanation": "Let distance between building and tower be d. Angle of depression to foot = 45 deg => tan 45 deg = 7 / d => d = 7 m. Angle of elevation to top = 60 deg => tan 60 deg = h_above / d => h_above = 7 * tan 60 deg = 7*sqrt(3) m. Total height of cable tower = 7 + 7*sqrt(3) = 7(sqrt(3) + 1) m.",
+      "explanation": "By definition in trigonometry, the line of sight is the straight line drawn from the eye of an observer to the point in the object viewed by the observer. When the object being viewed is situated strictly above the horizontal level of the observer's eye, the acute angle formed between the line of sight and the horizontal line is called the angle of elevation. Conversely, when the object is below the horizontal level, the angle formed is the angle of depression. (NCERT Section 9.1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 12"
     },
     {

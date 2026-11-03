@@ -29,7 +29,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "cos 0 deg = 1 and cos 90 deg = 0. The value of cos theta strictly decreases from 1 to 0 across acute angles. Reason (R) directly explains Assertion (A).",
+      "explanation": "Recall the standard values of cosine across acute angles: cos(0\u00b0) = 1, cos(30\u00b0) = \u221a3/2 \u2248 0.866, cos(45\u00b0) = 1/\u221a2 \u2248 0.707, cos(60\u00b0) = 1/2 = 0.5, and cos(90\u00b0) = 0. As \u03b8 increases continuously from 0\u00b0 to 90\u00b0, the adjacent side of the reference triangle shortens while the hypotenuse remains fixed, causing cos \u03b8 to decrease strictly from 1 to 0. Hence, Assertion (A) is true, Reason (R) is true, and Reason (R) is the correct mathematical explanation of Assertion (A). (NCERT Chapter 8).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3"
     },
     {
@@ -45,7 +45,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "This is the direct geometric deduction of the fundamental Pythagorean identity from Pythagoras theorem. Both statements are true and (R) explains (A).",
+      "explanation": "In right triangle ABC right-angled at B with acute angle \u03b8 at A: by the Pythagorean theorem, AB\u00b2 + BC\u00b2 = AC\u00b2. Dividing every term by the square of hypotenuse AC\u00b2: (AB/AC)\u00b2 + (BC/AC)\u00b2 = (AC/AC)\u00b2 = 1. Since AB/AC = cos \u03b8 and BC/AC = sin \u03b8, this directly proves the fundamental identity: cos\u00b2\u03b8 + sin\u00b2\u03b8 = 1 for all angles 0\u00b0 \u2264 \u03b8 \u2264 90\u00b0. Both Assertion (A) and Reason (R) are mathematically true, and Reason (R) is the exact derivation and explanation of Assertion (A). (NCERT Section 8.4).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4"
     },
     {
@@ -61,7 +61,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Since hypotenuse is strictly greater than or equal to adjacent side, sec theta >= 1 always for acute angles. Both statements are true and (R) explains (A).",
+      "explanation": "By definition in a right-angled triangle, secant is the ratio of hypotenuse to adjacent side: sec \u03b8 = Hypotenuse / Adjacent Side. In Euclidean geometry, the hypotenuse is the longest side of a right triangle, lying opposite the 90\u00b0 angle. Therefore, Hypotenuse \u2265 Adjacent Side is always satisfied. Dividing by Adjacent Side gives sec \u03b8 \u2265 1 for all acute angles (sec 0\u00b0 = 1, and sec \u03b8 > 1 for \u03b8 > 0\u00b0). Consequently, sec \u03b8 can never be strictly less than 1. Both statements are true and Reason (R) explains Assertion (A). (NCERT Section 8.2).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
     },
     {
@@ -93,7 +93,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "This quotient identity follows directly from dividing the definitions of sin theta and cos theta. Both (A) and (R) are true and (R) explains (A).",
+      "explanation": "By definition in a right-angled triangle with acute angle \u03b8: sin \u03b8 = Opposite Side / Hypotenuse, and cos \u03b8 = Adjacent Side / Hypotenuse. Taking the quotient of these two primary ratios: sin \u03b8 / cos \u03b8 = (Opposite / Hypotenuse) / (Adjacent / Hypotenuse). The common denominator (Hypotenuse) cancels out: sin \u03b8 / cos \u03b8 = Opposite / Adjacent. By definition, Opposite / Adjacent is tan \u03b8. Hence, tan \u03b8 = sin \u03b8 / cos \u03b8. Both Assertion (A) and Reason (R) are true, and (R) correctly explains (A). (NCERT Section 8.2).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
     },
     {
@@ -109,7 +109,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "tan 90 deg = sin 90 deg / cos 90 deg = 1 / 0. Division by zero is undefined. Both statements are true and (R) correctly explains (A).",
+      "explanation": "By the quotient definition, tan \u03b8 = sin \u03b8 / cos \u03b8. For \u03b8 = 90\u00b0, we evaluate the exact values: sin(90\u00b0) = 1 and cos(90\u00b0) = 0. Substituting these gives tan(90\u00b0) = 1 / 0. In mathematics, division by zero is strictly undefined (the ratio grows without bound, tending toward infinity). Both Assertion (A) that tan 90\u00b0 is not defined and Reason (R) that cos 90\u00b0 = 0 causing division by zero are true, and Reason (R) directly explains Assertion (A). (NCERT Table 8.1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1"
     },
     {
@@ -189,7 +189,7 @@
         "1.5 metres"
       ],
       "answer": 0,
-      "explanation": "Horizontal base = hypotenuse * cos 30 deg = 2 * (sqrt(3)/2) = sqrt(3) metres (approx 1.732 m).",
+      "explanation": "In the right triangle formed by the solar panel, ground, and vertical support strut, the panel forms the hypotenuse of length 2 metres, and the angle with the ground is 30\u00b0. The horizontal ground base is the adjacent side to the 30\u00b0 angle. The ratio relating adjacent side and hypotenuse is cosine: cos(30\u00b0) = Base / Hypotenuse = Base / 2. Since cos(30\u00b0) = \u221a3/2, we have: \u221a3/2 = Base / 2 => Base = \u221a3 metres \u2248 1.732 metres. (NCERT Case Study Application).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
     },
     {
@@ -205,7 +205,7 @@
         "1.85 metres"
       ],
       "answer": 1,
-      "explanation": "Vertical height = hypotenuse * sin 60 deg = 2 * (sqrt(3)/2) = sqrt(3) metres (approx 1.732 m).",
+      "explanation": "To increase solar efficiency, the inclination angle \u03b8 is raised to 45\u00b0 while the panel length remains 2 metres. The new height h of the elevated upper edge is the opposite side to the 45\u00b0 angle: sin(45\u00b0) = h / 2. Since sin(45\u00b0) = 1/\u221a2, we have: h = 2 \u00d7 (1/\u221a2) = 2/\u221a2 = \u221a2 metres \u2248 1.414 metres. From Question 11, the initial height at 30\u00b0 was 1 metre. The increase in height is: \u221a2 - 1 = 1.414 - 1.000 = 0.414 metres (or approximately 41.4 cm). (NCERT Case Study Application).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
     },
     {
@@ -221,7 +221,7 @@
         "6 km"
       ],
       "answer": 3,
-      "explanation": "Altitude = Slant range * sin 30 deg = 12 * (1/2) = 6 km.",
+      "explanation": "In this aviation problem, the airplane's flight path forms the hypotenuse of a right-angled triangle, where the horizontal ground is the adjacent side and vertical altitude is the opposite side. Given: Angle of elevation theta = 30 degrees, and line-of-sight slant range (hypotenuse) = 12 km. Using the sine trigonometric ratio: sin(theta) = Opposite / Hypotenuse = Altitude / 12 km. Since sin(30 degrees) = 1/2: 1/2 = Altitude / 12 km => Altitude = 12 * (1/2) = 6 km. Therefore, the airplane is flying at a current altitude of 6 km above the ground.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
     },
     {
@@ -237,7 +237,7 @@
         "12 km"
       ],
       "answer": 2,
-      "explanation": "Ground distance = Slant range * cos 30 deg = 12 * (sqrt(3)/2) = 6*sqrt(3) km (approx 10.39 km).",
+      "explanation": "In the right triangle formed by the 20-metre zipline cable (hypotenuse) anchored from the high platform to the ground at an angle of 30\u00b0, the vertical height h of the departure platform is the opposite side to the 30\u00b0 angle. Using the sine ratio: sin(30\u00b0) = Opposite Side / Hypotenuse = h / 20. Since sin(30\u00b0) = 1/2, we have: 1/2 = h / 20. Cross-multiplying gives: h = 20 / 2 = 10 metres. Thus, the zipline departure platform is mounted 10 metres above ground level. (NCERT Case Study Application).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
     },
     {
@@ -253,7 +253,7 @@
         "sec theta"
       ],
       "answer": 0,
-      "explanation": "tan theta = opposite side / adjacent side = altitude / horizontal ground distance.",
+      "explanation": "The horizontal span d along the ground between the platform base and the ground anchor is the adjacent side to the 30\u00b0 angle. Using the cosine ratio: cos(30\u00b0) = Adjacent Side / Hypotenuse = d / 20. Since cos(30\u00b0) = \u221a3/2, we have: \u221a3/2 = d / 20 => d = 20 \u00d7 (\u221a3/2) = 10\u221a3 metres. Using the approximation \u221a3 \u2248 1.732: d = 10 \u00d7 1.732 = 17.32 metres. (Alternatively, using tan 30\u00b0: d = h / tan 30\u00b0 = 10 / (1/\u221a3) = 10\u221a3 m). (NCERT Case Study Application).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.1"
     },
     {
@@ -269,7 +269,7 @@
         "15 metres"
       ],
       "answer": 1,
-      "explanation": "Slope = tan theta = rise / run = 1 / 12. If rise = 1 m: 1 / run = 1 / 12 => run = 12 metres.",
+      "explanation": "In civil engineering and architecture, the slope or gradient of a ramp is defined by the trigonometric tangent ratio: tan(theta) = (Vertical Rise) / (Horizontal Run). The building code specifies a ratio of 1 : 12, which means for every 1 unit of vertical rise, there must be 12 units of horizontal run. Given the porch entrance height (vertical rise) is 1 metre: tan(theta) = 1 / Run = 1 / 12. Cross-multiplying gives: Horizontal Run = 1 * 12 = 12 metres. The ramp length along the slope would be sqrt(1^2 + 12^2) = sqrt(145) approx 12.04 metres.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
     },
     {
@@ -285,7 +285,7 @@
         "sqrt(143) metres"
       ],
       "answer": 0,
-      "explanation": "By Pythagoras theorem, Ramp length = sqrt(rise^2 + run^2) = sqrt(1^2 + 12^2) = sqrt(1 + 144) = sqrt(145) metres (approx 12.042 m).",
+      "explanation": "In right-angled triangle ABC right-angled at B, side AB = 24 cm is adjacent to acute angle A, and side BC = 7 cm is opposite to angle A. By the Pythagorean theorem, hypotenuse AC = \u221a(AB\u00b2 + BC\u00b2) = \u221a(24\u00b2 + 7\u00b2) = \u221a(576 + 49) = \u221a625 = 25 cm. Sine of angle A is defined as: sin A = Opposite Side / Hypotenuse = BC / AC = 7/25. Verification: the triple (7, 24, 25) is a standard Pythagorean integer triple. (NCERT Exercise 8.1 Question 1(i)).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.2"
     },
     {
@@ -301,7 +301,7 @@
         "90 degrees"
       ],
       "answer": 2,
-      "explanation": "Each hour represents 360 deg / 12 = 30 degrees. At 2:00 o'clock, the angle is 2 * 30 deg = 60 degrees.",
+      "explanation": "Using the same right triangle ABC (AB = 24 cm, BC = 7 cm, hypotenuse AC = 25 cm): cosine of angle A is defined as the ratio of the side adjacent to angle A to the hypotenuse: cos A = Adjacent Side / Hypotenuse = AB / AC = 24/25. Note that for angle C, AB would be the opposite side and BC the adjacent side, illustrating how trigonometric ratios depend strictly on the reference acute angle selected. (NCERT Exercise 8.1 Question 1(i)).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Competency Focused Question"
     },
     {
@@ -317,7 +317,7 @@
         "1/2"
       ],
       "answer": 3,
-      "explanation": "The angle between the hands is 60 degrees. cos 60 deg = 1/2.",
+      "explanation": "For acute angle C in right triangle ABC right-angled at B: the side opposite to angle C is AB = 24 cm, and the hypotenuse is AC = 25 cm. By definition, sine of angle C is: sin C = Opposite Side / Hypotenuse = AB / AC = 24/25. Notice that sin C = cos A = 24/25, confirming the general co-function theorem that the sine of an acute angle equals the cosine of its complementary angle in any right triangle (since A + C = 90\u00b0). (NCERT Exercise 8.1 Question 1(ii)).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1"
     }
   ]
