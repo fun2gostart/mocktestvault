@@ -64,7 +64,7 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "The smallest prime number is 2, and the smallest composite number is 4. HCF(2, 4) = 2.",
+      "explanation": "Core Definition: A prime number is a natural number strictly greater than 1 that has exactly two distinct positive divisors: 1 and itself. The smallest prime number is 2 (note that 1 is neither prime nor composite, and 2 is the only even prime number). A composite number is a natural number greater than 1 that has more than two distinct positive divisors; the smallest composite number is 4 (divisors: 1, 2, 4).\nStep-by-Step Factorization:\n• 2 = 2¹\n• 4 = 2²\nHCF is the product of the smallest power of each common prime factor involved: HCF(2, 4) = 2¹ = 2.\nTrap Alert: Option (a) 1 is chosen by students who mistakenly consider 1 a prime number. Option (b) 4 is the LCM, not the HCF.",
       "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q4",
       "section": "Section A: Number Systems & Algebra"
     },
@@ -81,7 +81,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "From the formula HCF * LCM = a * b: 5 * LCM = 150 => LCM = 150 / 5 = 30. Both statements are true and Reason (R) directly explains Assertion (A).",
+      "explanation": "Core Formula: For any two positive integers a and b, Fundamental Theorem of Arithmetic implies HCF(a, b) × LCM(a, b) = a × b.\nVerification of Assertion (A):\nGiven HCF = 5 and product of numbers (a × b) = 150.\nSubstitute into formula: 5 × LCM = 150 ⇒ LCM = 150 / 5 = 30.\nThus, Assertion (A) is mathematically true.\nVerification of Reason (R):\nReason (R) states the universal product relation HCF × LCM = a × b, which is a verified standard property for any two positive integers.\nConclusion: Reason (R) is true and is the exact mathematical foundation used to deduce Assertion (A). Correct option is (a).",
       "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
       "section": "Section A: Number Systems & Algebra"
     },
@@ -268,7 +268,7 @@
         "(x + 2)^3 = x^3 - 4"
       ],
       "answer": 0,
-      "explanation": "Expanding (b): x^2 + x + 8 = x^2 - 4 => x + 12 = 0. The x^2 terms cancel out, leaving a linear equation of degree 1. Thus it is NOT a quadratic equation.",
+      "explanation": "Standard Definition: A quadratic equation in the variable x is an equation of the form ax² + bx + c = 0, where a, b, c are real numbers and the coefficient of the squared term a ≠ 0 (degree strictly equals 2).\nStep-by-Step Expansion of Option (a):\nLHS = x(x + 1) + 8 = x² + x + 8\nRHS = (x + 2)(x - 2) = x² - 4 (using identity (a + b)(a - b) = a² - b²)\nEquating LHS = RHS: x² + x + 8 = x² - 4\nSubtracting x² from both sides: x + 8 = -4 ⇒ x + 12 = 0.\nNotice the x² term completely cancels out (a = 0). The resulting equation is of degree 1 (linear), so it is NOT a quadratic equation.\nVerification of Other Options:\n• (b) (x - 2)² + 1 = 2x - 3 ⇒ x² - 4x + 4 + 1 = 2x - 3 ⇒ x² - 6x + 8 = 0 (quadratic, a = 1).\n• (c) x(2x + 3) = x² + 1 ⇒ 2x² + 3x = x² + 1 ⇒ x² + 3x - 1 = 0 (quadratic, a = 1).\n• (d) (x + 2)³ = x³ - 4 ⇒ x³ + 6x² + 12x + 8 = x³ - 4 ⇒ 6x² + 12x + 12 = 0 (quadratic, a = 6).",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.2, Example 2",
       "section": "Section A: Number Systems & Algebra"
     },
@@ -285,7 +285,7 @@
         "D > 0"
       ],
       "answer": 3,
-      "explanation": "According to the discriminant rules, when D > 0, the quadratic formula yields two distinct real roots: x = (-b +- sqrt(D))/(2a).",
+      "explanation": "Standard Theorem (Nature of Roots): For a quadratic equation ax² + bx + c = 0 (with a ≠ 0), the discriminant is defined as D = b² - 4ac.\nAccording to the quadratic formula, the roots are x = (-b ± √D) / (2a):\n1. If D > 0: √D is a non-zero positive real number, yielding two distinct real roots: x₁ = (-b + √D)/(2a) and x₂ = (-b - √D)/(2a).\n2. If D = 0: √D = 0, yielding two equal real roots (coincident roots): x = -b / (2a).\n3. If D < 0: √D involves the square root of a negative number, meaning there are no real roots.\nTherefore, real and distinct roots require strictly D > 0. Option (d) is correct.",
       "citation": "NCERT Class 10 Mathematics, Chapter 4, Section 4.5",
       "section": "Section A: Number Systems & Algebra"
     },
@@ -353,7 +353,7 @@
         "97"
       ],
       "answer": 2,
-      "explanation": "Here first term a = 10, common difference d = 7 - 10 = -3. a_30 = a + (30 - 1)d = 10 + 29(-3) = 10 - 87 = -77.",
+      "explanation": "Core Formula: The nth term of an Arithmetic Progression with first term 'a' and common difference 'd' is given by: aₙ = a + (n - 1)d.\nGiven AP: 10, 7, 4, ...\nStep 1: Identify parameters:\n• First term a = 10\n• Common difference d = a₂ - a₁ = 7 - 10 = -3 (strictly negative since the sequence is decreasing)\n• Term index n = 30\nStep 2: Calculate a₃₀:\na₃₀ = 10 + (30 - 1)(-3)\na₃₀ = 10 + 29 × (-3)\na₃₀ = 10 - 87 = -77.\nTrap Warning: A common sign mistake is computing d = 10 - 7 = +3, which falsely yields 10 + 87 = 97. Always evaluate d as (second term - first term).",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 2(i)",
       "section": "Section A: Number Systems & Algebra"
     },
@@ -370,7 +370,7 @@
         "49/2"
       ],
       "answer": 0,
-      "explanation": "Here a = -3, d = -1/2 - (-3) = -1/2 + 3 = 5/2. a_11 = a + 10d = -3 + 10(5/2) = -3 + 25 = 22.",
+      "explanation": "Core Formula: nth term of an AP is aₙ = a + (n - 1)d.\nGiven AP: -3, -1/2, 2, ...\nStep 1: Determine first term and common difference:\n• a = -3\n• d = a₂ - a₁ = -1/2 - (-3) = -1/2 + 3 = (-1 + 6) / 2 = 5/2\nCheck: a₃ - a₂ = 2 - (-1/2) = 2 + 1/2 = 5/2 (consistent AP).\nStep 2: Calculate 11th term (n = 11):\na₁₁ = a + (11 - 1)d\na₁₁ = -3 + 10 × (5/2)\nSince 10 × (5/2) = 5 × 5 = 25:\na₁₁ = -3 + 25 = 22.\nThus, the 11th term is 22. Correct option is (a).",
       "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 2(ii)",
       "section": "Section A: Number Systems & Algebra"
     },
@@ -438,7 +438,7 @@
         "1.5 cm"
       ],
       "answer": 0,
-      "explanation": "By BPT (Thales Theorem): AD / DB = AE / EC => 1.5 / 3 = 1 / EC => 1/2 = 1 / EC => EC = 2 cm.",
+      "explanation": "Theorem Reference (Basic Proportionality Theorem / Thales Theorem, Theorem 6.1):\nIf a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio.\nIn ΔABC, since DE ∥ BC:\nAD / DB = AE / EC\nStep-by-Step Substitution:\n• Given: AD = 1.5 cm, DB = 3 cm, AE = 1 cm\n1.5 / 3 = 1 / EC\nSimplifying the LHS: 1.5 / 3 = 1 / 2\n1 / 2 = 1 / EC ⇒ EC = 2 cm.\nBoard Examiner Note: Always state the theorem acronym 'BPT' or 'Thales Theorem' in Section B descriptive answers for full step-marking.",
       "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2, Theorem 6.1",
       "section": "Section B: Geometry & Coordinate Geometry"
     },
@@ -557,7 +557,7 @@
         "2 sqrt(2) units"
       ],
       "answer": 3,
-      "explanation": "d = sqrt((4 - 2)^2 + (1 - 3)^2) = sqrt(2^2 + (-2)^2) = sqrt(4 + 4) = sqrt(8) = 2*sqrt(2) units.",
+      "explanation": "Core Formula: The Euclidean distance 'd' between two points P(x₁, y₁) and Q(x₂, y₂) in the Cartesian plane is given by:\nd = √[(x₂ - x₁)² + (y₂ - y₁)²]\nGiven Coordinates: P(2, 3) where x₁ = 2, y₁ = 3; and Q(4, 1) where x₂ = 4, y₂ = 1.\nStep-by-Step Computation:\n• x₂ - x₁ = 4 - 2 = 2 ⇒ (x₂ - x₁)² = 2² = 4\n• y₂ - y₁ = 1 - 3 = -2 ⇒ (y₂ - y₁)² = (-2)² = 4\n• Sum of squares = 4 + 4 = 8\n• Distance d = √8 = √(4 × 2) = 2√2 units.\nTrap Alert: Forgetting to take the square root of 8 leads to option (b) 8 units. Option (d) 2√2 units is the correct simplified surd form.",
       "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2",
       "section": "Section B: Geometry & Coordinate Geometry"
     },
@@ -574,7 +574,7 @@
         "14 units"
       ],
       "answer": 1,
-      "explanation": "Distance from origin O(0,0) to P(x, y) is sqrt(x^2 + y^2) = sqrt((-6)^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 units.",
+      "explanation": "Core Formula: The distance of any point P(x, y) from the origin O(0, 0) is a direct application of the distance formula:\nOP = √[(x - 0)² + (y - 0)²] = √(x² + y²)\nGiven Point: P(-6, 8) where x = -6 and y = 8.\nStep-by-Step Calculation:\n• (-6)² = 36 (a negative number squared is always positive)\n• (8)² = 64\n• x² + y² = 36 + 64 = 100\n• OP = √100 = 10 units.\nExaminer Insight: Notice that (6, 8, 10) forms a scaled Pythagorean triplet (derived from 3, 4, 5 by multiplying by 2). This allows instant mental verification during competitive drills.",
       "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2",
       "section": "Section B: Geometry & Coordinate Geometry"
     },
@@ -591,7 +591,7 @@
         "(6, -6)"
       ],
       "answer": 2,
-      "explanation": "Midpoint M = ((x1 + x2)/2, (y1 + y2)/2) = ((-5 + 7)/2, (4 + (-8))/2) = (2/2, -4/2) = (1, -2).",
+      "explanation": "Core Formula: The midpoint M(x, y) of the line segment joining points A(x₁, y₁) and B(x₂, y₂) divides the segment in the ratio 1 : 1 and is given by the midpoint formula:\nx = (x₁ + x₂) / 2,   y = (y₁ + y₂) / 2\nGiven Points: A(-5, 4) and B(7, -8)\nStep 1: Compute x-coordinate:\nx = (-5 + 7) / 2 = 2 / 2 = 1\nStep 2: Compute y-coordinate:\ny = (4 + (-8)) / 2 = (4 - 8) / 2 = -4 / 2 = -2\nTherefore, the midpoint coordinates are (1, -2). Correct option is (c).",
       "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.3",
       "section": "Section B: Geometry & Coordinate Geometry"
     },
@@ -659,7 +659,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Distance = sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5 units. Reason (R) gives the exact formula that proves Assertion (A).",
+      "explanation": "Mathematical Verification:\n• Point P(3, 4) from the origin O(0, 0):\nDistance = √(3² + 4²) = √(9 + 16) = √25 = 5 units.\nHence, Assertion (A) is completely true.\n• Reason (R) states: 'The distance of any point P(x, y) from the origin is given by √(x² + y²)'.\nThis is the exact algebraic theorem derived from Pythagoras theorem and the coordinate distance formula.\nConclusion: Both (A) and (R) are true, and (R) provides the exact theoretical rationale that establishes (A). Correct option is (a).",
       "citation": "NCERT Class 10 Mathematics, Chapter 7, Section 7.2",
       "section": "Section B: Geometry & Coordinate Geometry"
     },
@@ -676,7 +676,7 @@
         "Any secant line drawn to the circle"
       ],
       "answer": 2,
-      "explanation": "Theorem 10.1: The tangent at any point of a circle is perpendicular to the radius through the point of contact (Angle between radius and tangent = 90 deg).",
+      "explanation": "Theorem 10.1 (NCERT Statement):\n'The tangent at any point of a circle is perpendicular to the radius through the point of contact.'\nGeometric Proof Insight:\nLet O be the centre of the circle and AB be the tangent at point P. Take any point Q on AB other than P. Point Q must lie outside the circle (if it were inside, AB would be a secant, not a tangent). Therefore, distance OQ > OP (radius). Since this holds for every point on the tangent except P, OP is the shortest distance between centre O and the tangent line AB. By geometric principle, the shortest distance from a point to a straight line is the perpendicular distance. Hence, OP ⊥ AB (Angle = 90°). Option (c) is correct.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Theorem 10.1",
       "section": "Section B: Geometry & Coordinate Geometry"
     },
@@ -693,7 +693,7 @@
         "PA = 2 PB"
       ],
       "answer": 2,
-      "explanation": "Theorem 10.2: The lengths of tangents drawn from an external point to a circle are equal (PA = PB).",
+      "explanation": "Theorem 10.2 (NCERT Statement):\n'The lengths of tangents drawn from an external point to a circle are equal.'\nProof by RHS Congruence:\nConsider a circle with centre O. From external point P, tangents PA and PB touch the circle at A and B. Join OA, OB, and OP.\nIn right triangles ΔOAP and ΔOBP:\n1. ∠OAP = ∠OBP = 90° (Theorem 10.1: radius ⊥ tangent at point of contact)\n2. OP = OP (Common hypotenuse)\n3. OA = OB (Radii of the same circle)\nBy RHS congruence criterion: ΔOAP ≅ ΔOBP.\nTherefore, by CPCT (Corresponding Parts of Congruent Triangles), PA = PB. Option (c) is correct.",
       "citation": "NCERT Class 10 Mathematics, Chapter 10, Theorem 10.2",
       "section": "Section B: Geometry & Coordinate Geometry"
     },
@@ -778,7 +778,7 @@
         "0"
       ],
       "answer": 2,
-      "explanation": "sin 30 deg = 1/2 and cos 60 deg = 1/2. Therefore, sin 30 deg + cos 60 deg = 1/2 + 1/2 = 1.",
+      "explanation": "Standard Trigonometric Table Values (NCERT Table 8.1):\n• sin 30° = 1/2\n• cos 60° = 1/2\nStep-by-Step Evaluation:\nsin 30° + cos 60° = (1/2) + (1/2) = (1 + 1) / 2 = 2 / 2 = 1.\nComplementary Angle Concept: Notice that sin 30° = cos(90° - 30°) = cos 60°. Hence sin 30° + cos 60° = 2 × (1/2) = 1. Correct option is (c).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -812,7 +812,7 @@
         "8"
       ],
       "answer": 0,
-      "explanation": "9 sec^2 A - 9 tan^2 A = 9(sec^2 A - tan^2 A). Since sec^2 A - tan^2 A = 1, 9 * 1 = 9.",
+      "explanation": "Algebraic Factoring & Trigonometric Identity:\nGiven expression: 9 sec² A - 9 tan² A\nStep 1: Factor out the common constant coefficient 9:\n= 9(sec² A - tan² A)\nStep 2: Recall the second fundamental Pythagorean trigonometric identity:\n1 + tan² A = sec² A\nSubtracting tan² A from both sides gives:\nsec² A - tan² A = 1\nStep 3: Substitute the identity value into the expression:\n= 9 × (1) = 9.\nTrap Alert: Careless students often overlook the factor 9 and choose 1, thinking only of the raw identity value. Option (a) 9 is correct.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 4(i)",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -880,7 +880,7 @@
         "90 degrees"
       ],
       "answer": 1,
-      "explanation": "Let height = h and shadow = s. tan theta = h / s. Given h = s, tan theta = 1. Since tan 45 deg = 1, the angle of elevation theta = 45 degrees.",
+      "explanation": "Trigonometric Modelling (Height and Distance):\nLet the vertical pole be represented by AB and its shadow on the ground by BC. The angle of elevation of the sun is θ = ∠ACB.\nIn the right-angled triangle ΔABC:\ntan θ = Opposite side / Adjacent side = AB / BC = Height / Shadow length.\nGiven condition: Height = Shadow length (AB = BC).\nTherefore: tan θ = AB / AB = 1.\nFrom the standard trigonometric table, the acute angle whose tangent equals 1 is 45° (since tan 45° = 1).\nHence, the angle of elevation of the sun is 45°. Correct option is (b).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -897,7 +897,7 @@
         "20 sqrt(3) m"
       ],
       "answer": 0,
-      "explanation": "tan 30 deg = Height / 30 => 1 / sqrt(3) = h / 30 => h = 30 / sqrt(3) = 10*sqrt(3) m.",
+      "explanation": "Trigonometric Ratio Application:\nLet AB be the tower of height 'h' standing vertically on the ground, and C be the point on the ground such that distance BC = 30 m. The angle of elevation ∠ACB = 30°.\nIn right triangle ΔABC:\ntan 30° = AB / BC = h / 30\nSince tan 30° = 1 / √3:\n1 / √3 = h / 30\nCross-multiplying gives:\nh = 30 / √3\nRationalizing the denominator:\nh = (30 × √3) / (√3 × √3) = (30√3) / 3 = 10√3 m.\nNumerical value: 10 × 1.732 = 17.32 m. Correct option is (a).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 4",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -948,7 +948,7 @@
         "(theta / 720) * pi * r^2"
       ],
       "answer": 1,
-      "explanation": "The area of a sector of angle theta is proportional to the full circle area pi*r^2 by the fraction (theta / 360). Thus Area = (theta / 360) * pi * r^2.",
+      "explanation": "Geometrical Derivation (Area of a Sector):\nA circular disc of radius r has a total central angle of 360° and an area of πr².\nBy the unitary method:\n• Area of sector corresponding to a central angle of 360° = πr²\n• Area of sector corresponding to a central angle of 1° = (πr²) / 360\n• Area of sector corresponding to a central angle of θ = (θ / 360) × πr²\nTrap Warning: Do not confuse with arc length, which uses circumference 2πr: length = (θ / 360) × 2πr. For sector area, the correct formula is (θ / 360) × πr². Option (b) is correct.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -965,7 +965,7 @@
         "(theta / 720) * 2 * pi * r"
       ],
       "answer": 0,
-      "explanation": "The arc length corresponds to the fraction (theta / 360) of the total circumference 2*pi*r: Length = (theta / 360) * 2 * pi * r.",
+      "explanation": "Geometrical Derivation (Length of an Arc of a Sector):\nThe circumference of a complete circle of radius r (subtending 360° at the centre) is 2πr.\nBy proportion:\nThe length of an arc subtending an angle θ at the centre is proportional to the fraction of the full revolution θ / 360°.\nTherefore, Length of Arc = (θ / 360) × 2πr.\nNotice this can also be written in reduced form as (θ / 180) × πr, but the standard CBSE textbook notation is (θ / 360) × 2πr. Option (a) is correct.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -1016,7 +1016,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Arc length = (theta / 360) * 2*pi*r = (180 / 360) * 2*pi*r = (1/2) * 2*pi*r = pi*r. Both statements are true and (R) explains (A).",
+      "explanation": "Step-by-Step Proof:\n• A full circle subtends a central angle of 360° with circumference 2πr.\n• A semicircle represents exactly half of the circle, subtending a straight central angle of θ = 180°.\nSubstituting θ = 180° into the arc length formula:\nArc length = (θ / 360) × 2πr = (180 / 360) × 2πr = (1/2) × 2πr = πr.\nThus, Assertion (A) is true, and Reason (R) gives the exact central angle (180°) that mathematically generates (A). Correct option is (a).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -1118,7 +1118,7 @@
         "32.5"
       ],
       "answer": 3,
-      "explanation": "Class mark = (Upper class limit + Lower class limit) / 2 = (40 + 25) / 2 = 65 / 2 = 32.5.",
+      "explanation": "Statistical Definition: The class mark (also known as the midpoint of a class interval) represents the central value of the interval and is defined as:\nClass mark = (Upper class limit + Lower class limit) / 2\nFor the given interval 25 - 40:\n• Lower class limit = 25\n• Upper class limit = 40\nClass mark = (40 + 25) / 2 = 65 / 2 = 32.5.\nTrap Warning: Do not confuse class mark with class size/width (Upper limit - Lower limit = 40 - 25 = 15, shown in option c). Option (d) 32.5 is correct.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "section": "Section D: Statistics & Probability"
     },
@@ -1135,7 +1135,7 @@
         "Median = 3 Mode - 2 Mean"
       ],
       "answer": 2,
-      "explanation": "The empirical relationship connecting the three measures of central tendency is Mode = 3 Median - 2 Mean (or 3 Median = Mode + 2 Mean).",
+      "explanation": "Empirical Relationship (Karl Pearson's Formula):\nFor a moderately skewed (asymmetrical) continuous distribution, the three measures of central tendency satisfy the fundamental empirical relationship:\nMode = 3 Median - 2 Mean\nRearranged Equivalent Forms:\n• 3 Median = Mode + 2 Mean\n• Mode - Mean = 3(Median - Mean)\n• Mode - Median = 2(Median - Mean)\nTrap Warning: A frequent exam error is swapping the coefficients to write Mode = 3 Mean - 2 Median or Mode = 2 Median - 3 Mean. Remember: 'Median' has 6 letters and gets the larger positive coefficient (+3), while 'Mean' has 4 letters and gets (-2).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "section": "Section D: Statistics & Probability"
     },
@@ -1152,7 +1152,7 @@
         "32"
       ],
       "answer": 0,
-      "explanation": "Using Mode = 3 Median - 2 Mean: Mode = 3(26) - 2(24) = 78 - 48 = 30.",
+      "explanation": "Calculation using Empirical Relationship:\nGiven Parameters:\n• Mean = 24\n• Median = 26\nFormula: Mode = 3 Median - 2 Mean\nStep-by-Step Substitution:\nMode = 3(26) - 2(24)\nMode = 78 - 48\nMode = 30.\nVerification: Check the difference relation: Mode - Mean = 30 - 24 = 6; and 3(Median - Mean) = 3(26 - 24) = 3(2) = 6. The result is verified. Correct option is (a) 30.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "section": "Section D: Statistics & Probability"
     },
@@ -1169,7 +1169,7 @@
         "0 - 10"
       ],
       "answer": 0,
-      "explanation": "The modal class is the class interval with the highest frequency. Here, the maximum frequency is 15, corresponding to the interval 20 - 30.",
+      "explanation": "Statistical Concept: In a grouped frequency distribution, the modal class is defined as the class interval that has the maximum frequency.\nInspecting the given distribution:\n• Interval 0 - 10: Frequency = 5\n• Interval 10 - 20: Frequency = 8\n• Interval 20 - 30: Frequency = 15 (MAXIMUM)\n• Interval 30 - 40: Frequency = 10\n• Interval 40 - 50: Frequency = 6\nSince 15 is the highest frequency, the corresponding class interval 20 - 30 is the modal class. Option (a) is correct.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3",
       "section": "Section D: Statistics & Probability"
     },
@@ -1203,7 +1203,7 @@
         "16"
       ],
       "answer": 1,
-      "explanation": "Mode - Median = (3 Median - 2 Mean) - Median = 2 Median - 2 Mean = 2(Median - Mean). Therefore, 24 = 2(Median - Mean) => Median - Mean = 12.",
+      "explanation": "Algebraic Derivation using Central Tendency Relationship:\nGiven: Mode - Median = 24\nWe know from the empirical relationship: Mode = 3 Median - 2 Mean\nSubtracting Median from both sides:\nMode - Median = (3 Median - 2 Mean) - Median\nMode - Median = 2 Median - 2 Mean = 2(Median - Mean)\nSubstitute the given difference of 24:\n24 = 2(Median - Mean)\nDividing both sides by 2:\nMedian - Mean = 24 / 2 = 12.\nThus, the difference between median and mean is 12. Correct option is (b).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "section": "Section D: Statistics & Probability"
     },
@@ -1237,7 +1237,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Using Mode = 3 Median - 2 Mean: Mode = 3(20) - 2(22.5) = 60 - 45 = 15. Hence Assertion (A) is true, Reason (R) is true and correctly explains (A).",
+      "explanation": "Mathematical Verification:\nGiven: Median = 20, Mean = 22.5\nApplying the empirical formula Mode = 3 Median - 2 Mean:\nMode = 3(20) - 2(22.5)\nMode = 60 - 45 = 15.\nThis confirms Assertion (A) is completely true.\nReason (R) states the exact empirical relationship Mode = 3 Median - 2 Mean, which is the governing theorem used to derive the result.\nConclusion: Both (A) and (R) are true, and (R) is the correct explanation of (A). Correct option is (a).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "section": "Section D: Statistics & Probability"
     },
@@ -1254,7 +1254,7 @@
         "-1.5"
       ],
       "answer": 3,
-      "explanation": "The probability of any event E satisfies 0 <= P(E) <= 1. It can never be negative (so -1.5 is impossible) and cannot exceed 1.",
+      "explanation": "Probability Axiomatic Foundations (Kolmogorov's Axioms):\nFor any event E in a random experiment, the probability P(E) satisfies the fundamental inequality:\n0 ≤ P(E) ≤ 1\n• If P(E) = 0, E is an impossible event.\n• If P(E) = 1, E is a sure (certain) event.\nAnalyzing the given options:\n• (a) 0.7 lies within [0, 1] — Valid probability.\n• (b) 15% = 15/100 = 0.15 lies within [0, 1] — Valid probability.\n• (c) 2/3 ≈ 0.67 lies within [0, 1] — Valid probability.\n• (d) -1.5 is negative (< 0) — IMPOSSIBLE, as probability can never be negative. Correct option is (d).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
       "section": "Section D: Statistics & Probability"
     },
@@ -1271,7 +1271,7 @@
         "0.90"
       ],
       "answer": 1,
-      "explanation": "For any event E, P(E) + P(not E) = 1. Therefore, P(not E) = 1 - 0.05 = 0.95.",
+      "explanation": "Complementary Events Theorem:\nFor any event E, the event 'not E' (denoted as Ē) is called the complementary event. The sum of the probability of an event and its complement is always equal to 1:\nP(E) + P(not E) = 1\nRearranging to find P(not E):\nP(not E) = 1 - P(E)\nGiven P(E) = 0.05:\nP(not E) = 1.00 - 0.05 = 0.95.\nTrap Alert: Subtracting carelessly gives 0.50 or 0.90. Decimal alignment: 1.00 - 0.05 = 0.95. Correct option is (b).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
       "section": "Section D: Statistics & Probability"
     },
@@ -1288,7 +1288,7 @@
         "1/6"
       ],
       "answer": 2,
-      "explanation": "Sample space S = {1, 2, 3, 4, 5, 6}, total outcomes = 6. Prime numbers are {2, 3, 5}, favourable outcomes = 3. P(prime) = 3/6 = 1/2.",
+      "explanation": "Probability Calculation (Single Die):\nWhen a standard fair six-faced die is thrown once:\n• Sample space S = {1, 2, 3, 4, 5, 6}\n• Total number of elementary outcomes n(S) = 6\nLet E be the event of getting a prime number.\n• Prime numbers in the sample space: {2, 3, 5} (Crucial note: 1 is neither prime nor composite; 4 and 6 are composite).\n• Favourable outcomes n(E) = 3\nP(E) = n(E) / n(S) = 3 / 6 = 1 / 2.\nTrap Warning: Including 1 as prime gives 4/6 = 2/3 (Option b); omitting 2 gives 2/6 = 1/3 (Option a). The correct prime set is strictly {2, 3, 5}, yielding P = 1/2. Correct option is (c).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 13",
       "section": "Section D: Statistics & Probability"
     },
@@ -1305,7 +1305,7 @@
         "4/36"
       ],
       "answer": 2,
-      "explanation": "Total outcomes when two dice are thrown = 6 * 6 = 36. Outcomes giving sum 8: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 outcomes. P(sum 8) = 5/36.",
+      "explanation": "Two Dice Probability Sample Space:\nWhen two dice are thrown simultaneously, each die has 6 outcomes. The total number of elementary outcomes in the sample space is:\nn(S) = 6 × 6 = 36.\nLet E be the event that the sum of the two numbers is 8.\nFavourable pairs (die 1, die 2):\n1. (2, 6) → 2 + 6 = 8\n2. (3, 5) → 3 + 5 = 8\n3. (4, 4) → 4 + 4 = 8\n4. (5, 3) → 5 + 3 = 8\n5. (6, 2) → 6 + 2 = 8\nTotal favourable outcomes n(E) = 5.\nTherefore, P(sum = 8) = n(E) / n(S) = 5 / 36. Correct option is (c).",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 22",
       "section": "Section D: Statistics & Probability"
     },
@@ -1339,7 +1339,7 @@
         "1/36"
       ],
       "answer": 1,
-      "explanation": "The doublets are (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) -> 6 outcomes. Total outcomes = 36. P(doublet) = 6/36 = 1/6.",
+      "explanation": "Two Dice Doublets Probability:\nA 'doublet' means obtaining the same number on both dice in a simultaneous roll.\nTotal number of outcomes in sample space S = 6 × 6 = 36.\nFavourable outcomes for a doublet:\nE = {(1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6)}\nNumber of favourable outcomes n(E) = 6.\nProbability P(doublet) = n(E) / n(S) = 6 / 36 = 1 / 6.\nCorrect option is (b) 1/6.",
       "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 22",
       "section": "Section D: Statistics & Probability"
     },

@@ -1671,5 +1671,235 @@ body {
   }
 }
 
+/* ==========================================================================
+   Persistent Question Bookmarking & Review Filter Styles
+   ========================================================================== */
+.badge-bookmark {
+  background: var(--bg-subtle, #f1f5f9);
+  color: var(--text-secondary, #64748b);
+  border: 1px solid var(--border-color, #cbd5e1);
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.15s ease;
+  margin-left: auto;
+}
+
+.badge-bookmark:hover {
+  background: #fef3c7;
+  color: #d97706;
+  border-color: #fde68a;
+}
+
+.badge-bookmark.active {
+  background: #fef3c7;
+  color: #b45309;
+  border-color: #f59e0b;
+}
+
+[data-theme="dark"] .badge-bookmark {
+  background: var(--bg-surface, #1e293b);
+  border-color: var(--border-color, #334155);
+  color: #94a3b8;
+}
+
+[data-theme="dark"] .badge-bookmark.active {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fbbf24;
+  border-color: #f59e0b;
+}
+
+.btn-review-bookmark {
+  background: transparent;
+  color: var(--text-secondary, #64748b);
+  border: 1px solid var(--border-color, #cbd5e1);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+.btn-review-bookmark:hover {
+  color: #d97706;
+  border-color: #fde68a;
+  background: #fef3c7;
+}
+
+.btn-review-bookmark.active {
+  background: #fef3c7;
+  color: #b45309;
+  border-color: #f59e0b;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .btn-review-bookmark {
+  border-color: var(--border-color, #334155);
+  color: #94a3b8;
+}
+
+[data-theme="dark"] .btn-review-bookmark.active {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fbbf24;
+  border-color: #f59e0b;
+}
+
+.filter-pill.filter-bookmarked.active {
+  background: #f59e0b !important;
+  border-color: #f59e0b !important;
+  color: #ffffff !important;
+}
+
+/* ==========================================================================
+   Offline Attempt Progression History Card
+   ========================================================================== */
+.attempt-history-card {
+  background: var(--bg-surface, #ffffff);
+  border: 1px solid var(--border-color, #e2e8f0);
+  border-radius: var(--radius-lg, 12px);
+  padding: 20px 24px;
+  margin: 24px 0;
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.05));
+}
+
+.history-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border-color, #e2e8f0);
+  padding-bottom: 12px;
+}
+
+.history-card-header h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: var(--text-primary, #0f172a);
+}
+
+.history-badge {
+  background: var(--primary-light, #eff6ff);
+  color: var(--primary, #2563eb);
+  border: 1px solid var(--primary-border, #bfdbfe);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 9999px;
+}
+
+.history-progression-banner {
+  padding: 12px 16px;
+  border-radius: var(--radius-md, 8px);
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.history-progression-banner.gain {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+[data-theme="dark"] .history-progression-banner.gain {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.history-progression-banner.benchmark {
+  background: #eff6ff;
+  color: #1e40af;
+  border: 1px solid #bfdbfe;
+}
+
+[data-theme="dark"] .history-progression-banner.benchmark {
+  background: rgba(37, 99, 235, 0.15);
+  color: #93c5fd;
+  border-color: rgba(37, 99, 235, 0.3);
+}
+
+.history-progression-banner.drop {
+  background: #fffbeb;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+[data-theme="dark"] .history-progression-banner.drop {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.history-table-wrapper {
+  overflow-x: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.history-table th {
+  text-align: left;
+  padding: 10px 12px;
+  background: var(--bg-subtle, #f8fafc);
+  color: var(--text-secondary, #64748b);
+  font-weight: 700;
+  border-bottom: 1px solid var(--border-color, #e2e8f0);
+}
+
+.history-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border-color, #e2e8f0);
+  color: var(--text-primary, #0f172a);
+}
+
+[data-theme="dark"] .history-table th {
+  background: #0f172a;
+  color: #94a3b8;
+}
+
+.history-table tr.current-attempt-row {
+  background: rgba(37, 99, 235, 0.06);
+  font-weight: 600;
+}
+
+[data-theme="dark"] .history-table tr.current-attempt-row {
+  background: rgba(59, 130, 246, 0.12);
+}
+
+.btn-clear-history {
+  background: transparent;
+  border: none;
+  color: var(--text-muted, #94a3b8);
+  font-size: 0.75rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 4px;
+}
+
+.btn-clear-history:hover {
+  color: var(--danger, #ef4444);
+}
+
+
 
 

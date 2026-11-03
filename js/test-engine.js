@@ -40,6 +40,11 @@ class MockTestEngine {
     this.soundEnabled = localStorage.getItem('mtv_sound') !== 'false';
     this.fontSizeScale = parseFloat(localStorage.getItem('mtv_font_scale')) || 1.0;
 
+    // Offline Question Bookmarking & Attempt History State
+    this.bookmarkStorageKey = 'mtv_bookmarks';
+    this.historyStorageKey = 'mtv_attempt_history';
+    this.bookmarkedSet = this.loadStoredBookmarks();
+
     // DOM Elements with dual fallback selectors
     this.dom = {
       questionCard: document.getElementById('question-card'),
@@ -637,8 +642,28 @@ class MockTestEngine {
     if (q.type === 'assertion_reasoning') badgesHtml += `<span class="badge badge-type-ar">Assertion & Reasoning</span>`;
     if (q.difficulty) badgesHtml += `<span class="badge badge-subtopic">${q.difficulty}</span>`;
     
+    // Persistent Question Bookmark Toggle
+    const qKey = this.getQuestionKey(q, index);
+    const isBookmarked = this.bookmarkedSet.has(qKey);
+    badgesHtml += `
+      <button type="button" 
+              class="badge-bookmark ${isBookmarked ? 'active' : ''}" 
+              id="btn-q-bookmark" 
+              title="${isBookmarked ? 'Remove Bookmark' : 'Bookmark this question for revision'}">
+        <span>${isBookmarked ? '★' : '☆'}</span>
+        <span>${isBookmarked ? 'Bookmarked' : 'Bookmark'}</span>
+      </button>
+    `;
+    
     if (this.dom.qBadges) {
       this.dom.qBadges.innerHTML = badgesHtml;
+      const bmBtn = document.getElementById('btn-q-bookmark');
+      if (bmBtn) {
+        bmBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          this.toggleBookmark(q, index);
+        });
+      }
     }
     if (this.dom.qSubtopicBadge) {
       this.dom.qSubtopicBadge.textContent = q.subtopic || 'Core Unit';
@@ -1225,14 +1250,24 @@ class MockTestEngine {
 
       const resultTag = isCorrect ? 'correct' : (isSkipped ? 'unanswered' : 'wrong');
 
+      const qKey = this.getQuestionKey(q, idx);
+      const isBookmarked = this.bookmarkedSet.has(qKey);
+
       reviewHtml += `
         <div class="review-item ${itemStatusClass}" 
              data-result="${resultTag}" 
              data-reviewed="${isReviewed ? 'true' : 'false'}"
+             data-bookmarked="${isBookmarked ? 'true' : 'false'}"
              id="review-q-${idx}">
           <div class="review-q-header">
             <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
               <span>Q${idx + 1}. ${q.subtopic || 'General'} ${isReviewed ? '🟣' : ''}</span>
+              <button type="button" 
+                      class="btn-review-bookmark ${isBookmarked ? 'active' : ''}" 
+                      data-qidx="${idx}" 
+                      title="${isBookmarked ? 'Remove Bookmark' : 'Bookmark this question for revision'}">
+                <span>${isBookmarked ? '★ Bookmarked' : '☆ Bookmark'}</span>
+              </button>
               <button type="button" 
                       class="btn-report-question" 
                       data-qidx="${idx}" 
@@ -1269,6 +1304,36 @@ class MockTestEngine {
 
     if (this.dom.reviewList) {
       this.dom.reviewList.innerHTML = reviewHtml;
+      
+      // Bind Review Bookmark Buttons
+      this.dom.reviewList.querySelectorAll('.btn-review-bookmark').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const qidx = parseInt(btn.getAttribute('data-qidx'), 10);
+          const q = this.questions[qidx];
+          const qKey = this.getQuestionKey(q, qidx);
+          const wasBm = this.bookmarkedSet.has(qKey);
+          if (wasBm) {
+            this.bookmarkedSet.delete(qKey);
+            btn.classList.remove('active');
+            btn.innerHTML = '<span>☆ Bookmark</span>';
+            const revCard = document.getElementById(`review-q-${qidx}`);
+            if (revCard) revCard.setAttribute('data-bookmarked', 'false');
+            this.saveBookmarks();
+            this.showToast('Question removed from bookmarks.');
+          } else {
+            this.bookmarkedSet.add(qKey);
+            btn.classList.add('active');
+            btn.innerHTML = '<span>★ Bookmarked</span>';
+            const revCard = document.getElementById(`review-q-${qidx}`);
+            if (revCard) revCard.setAttribute('data-bookmarked', 'true');
+            this.saveBookmarks();
+            this.showToast('⭐ Question bookmarked for revision!');
+          }
+          this.updateBookmarkedFilterCount();
+        });
+      });
+
       this.dom.reviewList.querySelectorAll('.btn-report-question').forEach(btn => {
         btn.addEventListener('click', (e) => {
           e.stopPropagation();
@@ -1291,6 +1356,29 @@ class MockTestEngine {
       scorePct,
       examType: this.examType
     });
+
+    // Record Attempt in Local Storage History
+    this.recordAttemptHistory({
+      path: typeof window !== 'undefined' ? window.location.pathname : 'test',
+      title: (document.querySelector('h1')?.textContent || document.title || 'Practice Test').replace(/\s*\|\s*MockTestVault.*$/i, '').trim(),
+      marksObtained,
+      maxMarks,
+      correct,
+      total,
+      wrong,
+      skipped,
+      scorePct,
+      examType: this.examType,
+      timeSpentSeconds: (this.timeLimitMinutes * 60) - this.timeRemaining,
+      date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
+      time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
+    });
+
+    // Render Attempt Progression History Card
+    this.renderAttemptHistory();
+
+    // Update Bookmarked Filter Pill Count
+    this.updateBookmarkedFilterCount();
 
     // Switch Views
     if (this.dom.testLayout) this.dom.testLayout.style.display = 'none';
@@ -1328,6 +1416,9 @@ class MockTestEngine {
         el.style.display = isCorrect ? 'block' : 'none';
       } else if (filterType === 'reviewed') {
         el.style.display = isReviewed ? 'block' : 'none';
+      } else if (filterType === 'bookmarked') {
+        const isBookmarked = el.getAttribute('data-bookmarked') === 'true';
+        el.style.display = isBookmarked ? 'block' : 'none';
       }
     });
   }
@@ -1619,6 +1710,221 @@ class MockTestEngine {
     this._toastTimer = setTimeout(() => {
       toast.classList.remove('show');
     }, duration);
+  }
+
+  loadStoredBookmarks() {
+    try {
+      const raw = localStorage.getItem(this.bookmarkStorageKey);
+      if (!raw) return new Set();
+      const list = JSON.parse(raw);
+      return new Set(Array.isArray(list) ? list : Object.keys(list));
+    } catch (e) {
+      return new Set();
+    }
+  }
+
+  saveBookmarks() {
+    try {
+      localStorage.setItem(this.bookmarkStorageKey, JSON.stringify(Array.from(this.bookmarkedSet)));
+    } catch (e) {}
+  }
+
+  getQuestionKey(q, index) {
+    if (q && q.id) return String(q.id);
+    const path = typeof window !== 'undefined' ? window.location.pathname : 'test';
+    return `${path}_q${index}`;
+  }
+
+  toggleBookmark(q, index) {
+    const qKey = this.getQuestionKey(q, index);
+    const wasBookmarked = this.bookmarkedSet.has(qKey);
+    if (wasBookmarked) {
+      this.bookmarkedSet.delete(qKey);
+      this.saveBookmarks();
+      this.showToast('Question removed from bookmarks.');
+    } else {
+      this.bookmarkedSet.add(qKey);
+      this.saveBookmarks();
+      this.showToast('⭐ Question bookmarked for revision!');
+    }
+    this.renderQuestion(this.currentIndex);
+  }
+
+  updateBookmarkedFilterCount() {
+    const filterGroup = document.querySelector('.review-filter-group');
+    if (!filterGroup) return;
+
+    let bmPill = document.getElementById('filter-bookmarked');
+    if (!bmPill) {
+      bmPill = document.createElement('button');
+      bmPill.id = 'filter-bookmarked';
+      bmPill.className = 'filter-pill filter-bookmarked';
+      bmPill.setAttribute('data-filter', 'bookmarked');
+      bmPill.innerHTML = `⭐ Saved (<span id="filter-count-bookmarked">0</span>)`;
+      bmPill.addEventListener('click', () => this.applyReviewFilter('bookmarked'));
+      filterGroup.appendChild(bmPill);
+    }
+
+    let count = 0;
+    this.questions.forEach((q, idx) => {
+      if (this.bookmarkedSet.has(this.getQuestionKey(q, idx))) count++;
+    });
+
+    const countEl = document.getElementById('filter-count-bookmarked');
+    if (countEl) countEl.textContent = count;
+  }
+
+  recordAttemptHistory(attemptData) {
+    try {
+      const raw = localStorage.getItem(this.historyStorageKey);
+      let history = raw ? JSON.parse(raw) : [];
+      if (!Array.isArray(history)) history = [];
+      history.push(attemptData);
+      if (history.length > 100) history = history.slice(-100);
+      localStorage.setItem(this.historyStorageKey, JSON.stringify(history));
+    } catch (e) {}
+  }
+
+  getAttemptsForCurrentTest() {
+    try {
+      const raw = localStorage.getItem(this.historyStorageKey);
+      if (!raw) return [];
+      const history = JSON.parse(raw);
+      if (!Array.isArray(history)) return [];
+      const currentPath = typeof window !== 'undefined' ? window.location.pathname : '';
+      return history.filter(h => h.path === currentPath);
+    } catch (e) {
+      return [];
+    }
+  }
+
+  renderAttemptHistory() {
+    let container = document.getElementById('attempt-history-box');
+    if (!container) {
+      const mastery = document.getElementById('mastery-container');
+      container = document.createElement('div');
+      container.id = 'attempt-history-box';
+      if (mastery && mastery.parentNode) {
+        mastery.parentNode.insertBefore(container, mastery.nextSibling);
+      } else if (this.dom.scorecardView) {
+        this.dom.scorecardView.appendChild(container);
+      }
+    }
+
+    const attempts = this.getAttemptsForCurrentTest();
+    if (!attempts || attempts.length === 0) return;
+
+    const currentAttempt = attempts[attempts.length - 1];
+    const prevAttempt = attempts.length > 1 ? attempts[attempts.length - 2] : null;
+
+    let bannerHtml = '';
+    if (!prevAttempt) {
+      bannerHtml = `
+        <div class="history-progression-banner benchmark">
+          <span>🎯</span>
+          <span><strong>Baseline Benchmark Recorded:</strong> You achieved <strong>${currentAttempt.pct}%</strong> (${currentAttempt.correct}/${currentAttempt.total}). Retake this test in 48–72 hours to test your long-term memory retention!</span>
+        </div>
+      `;
+    } else {
+      const diff = currentAttempt.pct - prevAttempt.pct;
+      if (diff > 0) {
+        bannerHtml = `
+          <div class="history-progression-banner gain">
+            <span>🚀</span>
+            <span><strong>Improvement Detected!</strong> You scored <strong>${currentAttempt.pct}%</strong>, an increase of <strong>+${diff}%</strong> over your previous attempt (${prevAttempt.pct}%). Excellent retention!</span>
+          </div>
+        `;
+      } else if (diff === 0) {
+        bannerHtml = `
+          <div class="history-progression-banner benchmark">
+            <span>⚖️</span>
+            <span><strong>Consistent Retention:</strong> Scored exactly <strong>${currentAttempt.pct}%</strong> matching your previous attempt. Review your mistakes below to reach 95%+!</span>
+          </div>
+        `;
+      } else {
+        bannerHtml = `
+          <div class="history-progression-banner drop">
+            <span>⚠️</span>
+            <span><strong>Score Variation:</strong> ${currentAttempt.pct}% vs ${prevAttempt.pct}% on last attempt (${diff}%). Focus on the subtopics with warning tags below.</span>
+          </div>
+        `;
+      }
+    }
+
+    let rowsHtml = '';
+    attempts.slice().reverse().forEach((att, revIdx) => {
+      const attNum = attempts.length - revIdx;
+      const isCurrent = revIdx === 0;
+      const timeMins = Math.floor(att.timeSpentSeconds / 60);
+      const timeSecs = att.timeSpentSeconds % 60;
+      const scoreStr = att.examType === 'competitive' 
+        ? `${att.marksObtained}/${att.maxMarks} marks` 
+        : `${att.correct}/${att.total}`;
+
+      rowsHtml += `
+        <tr class="${isCurrent ? 'current-attempt-row' : ''}">
+          <td><strong>#${attNum}</strong> ${isCurrent ? '<span style="font-size:0.75rem; color:var(--primary); font-weight:700;">(Current)</span>' : ''}</td>
+          <td>${att.date} ${att.time || ''}</td>
+          <td>${scoreStr}</td>
+          <td><strong>${att.pct}%</strong></td>
+          <td>${timeMins}m ${timeSecs}s</td>
+          <td>${att.pct >= 80 ? '<span style="color:var(--success); font-weight:700;">Mastered ✓</span>' : '<span style="color:var(--text-muted);">Practicing</span>'}</td>
+        </tr>
+      `;
+    });
+
+    container.innerHTML = `
+      <div class="attempt-history-card">
+        <div class="history-card-header">
+          <h3><span>📈</span> Attempt Progression History on this Device</h3>
+          <div style="display:flex; align-items:center; gap:10px;">
+            <span class="history-badge">Attempt #${attempts.length}</span>
+            <button type="button" class="btn-clear-history" id="btn-clear-test-history" title="Clear past history for this test">Reset History</button>
+          </div>
+        </div>
+        ${bannerHtml}
+        <div class="history-table-wrapper">
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th>Attempt</th>
+                <th>Date &amp; Time</th>
+                <th>Score</th>
+                <th>Accuracy</th>
+                <th>Time Spent</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${rowsHtml}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
+
+    const clearBtn = document.getElementById('btn-clear-test-history');
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (confirm('Clear local attempt history for this exam on this device?')) {
+          this.clearCurrentTestHistory();
+          container.innerHTML = '';
+          this.showToast('Test history reset for this device.');
+        }
+      });
+    }
+  }
+
+  clearCurrentTestHistory() {
+    try {
+      const raw = localStorage.getItem(this.historyStorageKey);
+      if (!raw) return;
+      let history = JSON.parse(raw);
+      if (!Array.isArray(history)) return;
+      const currentPath = typeof window !== 'undefined' ? window.location.pathname : '';
+      history = history.filter(h => h.path !== currentPath);
+      localStorage.setItem(this.historyStorageKey, JSON.stringify(history));
+    } catch (e) {}
   }
 
   escapeHtml(text) {
