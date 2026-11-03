@@ -1148,7 +1148,15 @@ class MockTestEngine {
              data-reviewed="${isReviewed ? 'true' : 'false'}"
              id="review-q-${idx}">
           <div class="review-q-header">
-            <span>Q${idx + 1}. ${q.subtopic || 'General'} ${isReviewed ? '🟣' : ''}</span>
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <span>Q${idx + 1}. ${q.subtopic || 'General'} ${isReviewed ? '🟣' : ''}</span>
+              <button type="button" 
+                      class="btn-report-question" 
+                      data-qidx="${idx}" 
+                      title="Report discrepancy or suggest correction for this question">
+                🚩 Report
+              </button>
+            </div>
             ${statusBadge}
           </div>
           <p style="font-weight:600; margin-bottom:12px; line-height:1.5;">${this.formatChemicalFormulas(q.question)}</p>
@@ -1178,6 +1186,13 @@ class MockTestEngine {
 
     if (this.dom.reviewList) {
       this.dom.reviewList.innerHTML = reviewHtml;
+      this.dom.reviewList.querySelectorAll('.btn-report-question').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const qidx = parseInt(btn.getAttribute('data-qidx'), 10);
+          this.openReportModal(qidx);
+        });
+      });
     }
 
     // Reset filter to 'all'
@@ -1258,6 +1273,174 @@ class MockTestEngine {
     if (this.mode === 'exam') {
       this.startTimer();
     }
+  }
+
+  openReportModal(qidx) {
+    if (qidx < 0 || qidx >= this.questions.length) return;
+    const q = this.questions[qidx];
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+    
+    // Remove existing modal if any
+    const existingOverlay = document.getElementById('mcv-report-modal-overlay');
+    if (existingOverlay) existingOverlay.remove();
+    
+    const examName = document.title ? document.title.split('|')[0].trim() : 'Mock Examination';
+    const rawStem = q.question || '';
+    const qSnippet = rawStem.length > 140 ? rawStem.substring(0, 140) + '...' : rawStem;
+    const qId = q.id || `q_${qidx + 1}`;
+    const correctLetter = letters[q.answer] || 'N/A';
+    const correctVal = (q.options && q.options[q.answer] !== undefined) ? String(q.options[q.answer]) : '';
+    
+    const modalHtml = `
+      <div id="mcv-report-modal-overlay" class="report-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="report-modal-title">
+        <div class="report-modal-card">
+          <div class="report-modal-header">
+            <div style="display:flex; align-items:center; gap:10px;">
+              <span style="font-size:1.4rem;">🚩</span>
+              <div>
+                <h3 id="report-modal-title" style="margin:0; font-size:1.05rem; font-weight:700; color:var(--text-main);">Suggest Correction / Report Issue</h3>
+                <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;">
+                  Question #${qidx + 1} &bull; ID: <code>${this.escapeHtml(qId)}</code>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="report-modal-close" id="mcv-close-report-btn" aria-label="Close modal">&times;</button>
+          </div>
+
+          <div class="report-modal-body">
+            <div class="report-q-summary">
+              <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); font-weight:700; margin-bottom:4px;">Target Question:</div>
+              <p style="margin:0 0 6px; font-size:0.88rem; line-height:1.4; color:var(--text-main);">${this.formatChemicalFormulas(qSnippet)}</p>
+              <div style="font-size:0.8rem; color:var(--success-text); font-weight:600;">Current Key: (${correctLetter}) ${this.escapeHtml(correctVal.substring(0, 60))}</div>
+            </div>
+
+            <div style="margin-top:14px;">
+              <label for="mcv-report-category" style="display:block; font-size:0.85rem; font-weight:600; margin-bottom:6px; color:var(--text-main);">
+                Issue Category <span style="color:var(--danger);">*</span>
+              </label>
+              <select id="mcv-report-category" style="width:100%; padding:8px 12px; border-radius:6px; border:1px solid var(--border-color); background:var(--bg-surface); font-size:0.9rem; color:var(--text-main);">
+                <option value="Incorrect Answer Key">Incorrect Answer Key (Marked option is wrong)</option>
+                <option value="Mathematical / Scientific Error">Mathematical / Scientific / Factual Error</option>
+                <option value="Ambiguous Question">Ambiguous Question / Multiple Plausible Answers</option>
+                <option value="Typo / Grammar / Truncation">Typo, Grammar, or Incomplete Text</option>
+                <option value="Unclear Explanation">Explanation Contradicts Key or Lacks Clarity</option>
+                <option value="Other">Other Discrepancy</option>
+              </select>
+            </div>
+
+            <div style="margin-top:14px;">
+              <label for="mcv-report-details" style="display:block; font-size:0.85rem; font-weight:600; margin-bottom:6px; color:var(--text-main);">
+                Describe the Error &amp; Suggested Correction <span style="color:var(--danger);">*</span>
+              </label>
+              <textarea id="mcv-report-details" rows="3" placeholder="Please describe the discrepancy, formula issue, or correct factual reference..." style="width:100%; padding:8px 12px; border-radius:6px; border:1px solid var(--border-color); background:var(--bg-surface); font-size:0.88rem; font-family:inherit; color:var(--text-main); resize:vertical;"></textarea>
+            </div>
+
+            <div style="margin-top:14px;">
+              <label for="mcv-report-email" style="display:block; font-size:0.85rem; font-weight:600; margin-bottom:6px; color:var(--text-main);">
+                Your Email (Optional, for editorial resolution updates)
+              </label>
+              <input type="email" id="mcv-report-email" placeholder="student@example.com" style="width:100%; padding:8px 12px; border-radius:6px; border:1px solid var(--border-color); background:var(--bg-surface); font-size:0.88rem; color:var(--text-main);" />
+            </div>
+
+            <div id="mcv-report-feedback" style="display:none; margin-top:14px; padding:10px 14px; border-radius:6px; font-size:0.85rem; line-height:1.4;"></div>
+          </div>
+
+          <div class="report-modal-footer">
+            <button type="button" class="btn btn-secondary" id="mcv-cancel-report-btn" style="padding:8px 16px; font-size:0.88rem;">Cancel</button>
+            <button type="button" class="btn btn-primary" id="mcv-submit-report-btn" style="padding:8px 18px; font-size:0.88rem; font-weight:600;">Submit to Editorial Desk</button>
+          </div>
+        </div>
+      </div>
+    `;
+
+    document.body.insertAdjacentHTML('beforeend', modalHtml);
+    const overlay = document.getElementById('mcv-report-modal-overlay');
+    setTimeout(() => overlay.classList.add('active'), 10);
+
+    const closeModal = () => {
+      overlay.classList.remove('active');
+      setTimeout(() => overlay.remove(), 200);
+    };
+
+    document.getElementById('mcv-close-report-btn').addEventListener('click', closeModal);
+    document.getElementById('mcv-cancel-report-btn').addEventListener('click', closeModal);
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeModal();
+    });
+
+    document.getElementById('mcv-submit-report-btn').addEventListener('click', () => {
+      const category = document.getElementById('mcv-report-category').value;
+      const details = document.getElementById('mcv-report-details').value.trim();
+      const email = document.getElementById('mcv-report-email').value.trim();
+      const feedback = document.getElementById('mcv-report-feedback');
+
+      if (!details || details.length < 5) {
+        feedback.style.display = 'block';
+        feedback.style.background = '#fef2f2';
+        feedback.style.color = '#dc2626';
+        feedback.style.border = '1px solid #fecaca';
+        feedback.innerHTML = '⚠️ Please describe the discrepancy or suggested correction in a few words.';
+        return;
+      }
+
+      // Save to localStorage
+      try {
+        const storedReports = JSON.parse(localStorage.getItem('mcv_user_discrepancy_reports') || '[]');
+        storedReports.push({
+          timestamp: new Date().toISOString(),
+          exam: examName,
+          url: window.location.href,
+          questionIndex: qidx + 1,
+          questionId: qId,
+          category: category,
+          details: details,
+          userEmail: email || 'anonymous'
+        });
+        localStorage.setItem('mcv_user_discrepancy_reports', JSON.stringify(storedReports));
+      } catch (err) {
+        console.warn('LocalStorage save failed:', err);
+      }
+
+      // Prepare mailto link for direct submission to editorial desk
+      const mailtoSubject = encodeURIComponent(`[Question Discrepancy] ${examName} - Q${qidx + 1} (${qId})`);
+      const mailtoBody = encodeURIComponent(
+        `Exam: ${examName}\n` +
+        `URL: ${window.location.href}\n` +
+        `Question #${qidx + 1} (ID: ${qId})\n` +
+        `Issue Category: ${category}\n\n` +
+        `Details / Correction:\n${details}\n\n` +
+        `Reported by: ${email || 'Anonymous Student'}`
+      );
+      const mailtoUrl = `mailto:contact@mocktestvault.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+
+      feedback.style.display = 'block';
+      feedback.style.background = '#ecfdf5';
+      feedback.style.color = '#065f46';
+      feedback.style.border = '1px solid #a7f3d0';
+      feedback.innerHTML = `
+        <div style="font-weight:700; margin-bottom:4px;">✓ Report Logged Successfully!</div>
+        <div>Thank you for helping maintain exam accuracy. Our editorial desk investigates all reported discrepancies within 24–48 hours.</div>
+        <div style="margin-top:8px;">
+          <a href="${mailtoUrl}" style="display:inline-block; font-size:0.8rem; font-weight:600; color:#047857; text-decoration:underline;">
+            Optional: Click here to also send directly via email &rarr;
+          </a>
+        </div>
+      `;
+
+      // Update button on review card
+      const cardBtn = document.querySelector(`.btn-report-question[data-qidx="${qidx}"]`);
+      if (cardBtn) {
+        cardBtn.innerHTML = '✓ Reported';
+        cardBtn.classList.add('reported');
+        cardBtn.disabled = true;
+      }
+
+      // Change submit button to Close
+      const submitBtn = document.getElementById('mcv-submit-report-btn');
+      submitBtn.textContent = 'Close';
+      submitBtn.onclick = closeModal;
+      document.getElementById('mcv-cancel-report-btn').style.display = 'none';
+    });
   }
 
   escapeHtml(text) {
