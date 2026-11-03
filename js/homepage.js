@@ -334,7 +334,35 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // --------------------------------------------------------------------------
-  // 5. Service Worker PWA Registration
+  // 5. Interactive FAQ Accordion
+  // --------------------------------------------------------------------------
+  const accordionQuestions = document.querySelectorAll('.faq-accordion-question');
+  accordionQuestions.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-accordion-item');
+      if (!item) return;
+      const wasActive = item.classList.contains('active');
+
+      // Close other items in the same container for clean accordion UX
+      const container = item.closest('.faq-accordion');
+      if (container) {
+        container.querySelectorAll('.faq-accordion-item.active').forEach(openItem => {
+          if (openItem !== item) {
+            openItem.classList.remove('active');
+            const q = openItem.querySelector('.faq-accordion-question');
+            if (q) q.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
+
+      item.classList.toggle('active', !wasActive);
+      btn.setAttribute('aria-expanded', String(!wasActive));
+      playTone('click');
+    });
+  });
+
+  // --------------------------------------------------------------------------
+  // 6. Service Worker PWA Registration
   // --------------------------------------------------------------------------
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
