@@ -1548,3 +1548,26 @@ body {
   background: #10b981;
   box-shadow: 0 0 8px #10b981;
 }
+
+.footer-legal-links {
+  margin: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.footer-legal-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.footer-legal-links a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.footer-legal-links .sep {
+  color: var(--border-color);
+}
+

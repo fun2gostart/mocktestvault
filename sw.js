@@ -1,7 +1,7 @@
 // MockTestVault — Authentic CBT Examination Simulator Service Worker
 // Enables 100% offline practice tests and sub-10ms instant loading via Cache Storage API.
 
-const CACHE_NAME = 'mtv-cbt-v17';
+const CACHE_NAME = 'mtv-cbt-v18';
 
 const STATIC_ASSETS = [
   '/',
@@ -10,6 +10,11 @@ const STATIC_ASSETS = [
   '/in/index.html',
   '/global/index.html',
   '/progress.html',
+  '/about.html',
+  '/privacy.html',
+  '/terms.html',
+  '/disclaimer.html',
+  '/contact.html',
   '/manifest.json',
   '/site.webmanifest',
   '/css/test-engine.css',

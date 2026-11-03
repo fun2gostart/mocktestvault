@@ -118,7 +118,7 @@
       <h1 class="legal-title">Privacy Policy</h1>
       <div class="legal-meta">
         <div class="legal-meta-item"><span>📅</span> Effective Date: October 30, 2026</div>
-        <div class="legal-meta-item"><span>🔄</span> Last Updated: November 2, 2026</div>
+        <div class="legal-meta-item"><span>🔄</span> Last Updated: November 3, 2026</div>
         <div class="legal-meta-item"><span>🛡️</span> Zero Server Database Logging</div>
       </div>
     </div>
@@ -151,39 +151,48 @@
       <section>
         <h2>3. Browser Local Storage & Preference Cookies</h2>
         <p>
-          MockTestVault utilizes modern HTML5 <code>localStorage</code> solely to preserve non-identifying client preferences across visits. Specifically, we store:
+          MockTestVault utilizes modern HTML5 <code>localStorage</code> exclusively to preserve non-identifying client preferences and offline self-study progress across visits. Specifically, we store:
         </p>
         <ul>
           <li><code>mtv_theme</code>: Remembers your display theme selection (<code>'light'</code> or <code>'dark'</code> mode) to prevent flashing un-styled content upon page load.</li>
           <li><code>mtv_sound</code>: Records your Web Audio synthesizer preference (<code>'true'</code> or <code>'false'</code> for millisecond audio feedback).</li>
           <li><code>mtv_font_scale</code>: Stores your customized typography zoom scale (between 85% and 125%) for enhanced readability.</li>
+          <li><code>mtv_bookmarks</code>: Locally saves question IDs you explicitly flagged via the "⭐ Bookmark Question" button so you can filter and revise them later.</li>
+          <li><code>mtv_attempt_history</code>: Records your local examination score summaries (date, score, percentage, elapsed time) to render your self-study progression chart without cloud account sync.</li>
         </ul>
         <p>
-          These keys reside exclusively within your local device storage and are never uploaded to any remote server. You can wipe these keys at any time via your browser's "Clear Site Data" settings.
+          These keys reside exclusively within your local device browser sandbox and are never transmitted, synchronized, or uploaded to any remote server or third party. You can wipe these keys at any moment via your browser's "Clear Site Data" or "Clear Cookies & Cache" settings.
         </p>
       </section>
 
       <section>
         <h2>4. Google AdSense & Third-Party Advertising Disclosures</h2>
         <p>
-          To maintain MockTestVault as a completely free educational platform without subscription paywalls, we partner with third-party advertising networks, including <strong>Google Inc. (Google AdSense)</strong>, to deliver non-intrusive banner advertisements:
+          To maintain MockTestVault as a 100% free educational platform accessible to students worldwide without mandatory subscriptions or paywalls, we display non-intrusive advertisements served by third-party advertising partners, including <strong>Google Inc. (Google AdSense)</strong>. In compliance with Google Publisher Policies and statutory advertising regulations, please note the following disclosures:
         </p>
         <ul>
-          <li><strong>Third-Party Vendor Cookies:</strong> Third-party vendors, including Google, use cookies to serve advertisements based on a user's prior visits to MockTestVault or other websites across the Internet.</li>
-          <li><strong>Google DART Cookie:</strong> Google's use of advertising cookies (including the DoubleClick DART cookie) enables it and its certified partners to serve targeted ads to users based on their visits to our platform and/or other sites on the World Wide Web.</li>
-          <li><strong>Zero-CLS Guarantee:</strong> All potential advertising slots are strictly sandboxed in reserved aspect-ratio wrappers to eliminate Cumulative Layout Shift (CLS), ensuring ad loading never repositions questions or distorts interactive timers.</li>
-          <li><strong>Personalized Advertising Opt-Out:</strong> Users may opt out of personalized advertising at any time by visiting <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer">Google Ads Settings</a>. Alternatively, you may opt out of third-party advertising cookies for interest-based advertising by visiting the Network Advertising Initiative (NAI) consumer choice portal at <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">www.aboutads.info</a>.</li>
+          <li><strong>Third-Party Vendors:</strong> Third-party vendors, including Google, use cookies to serve advertisements based on a user's prior visits to MockTestVault or other websites across the Internet.</li>
+          <li><strong>The DoubleClick DART Cookie:</strong> Google's use of advertising cookies (specifically the DoubleClick DART cookie) enables Google and its partner advertising networks to serve advertisements to users based on their visits to MockTestVault and/or other websites on the World Wide Web.</li>
+          <li><strong>DART Cookie Opt-Out:</strong> Users may opt out of personalized advertising and the use of the DoubleClick DART cookie at any time by visiting the Google Ad and Content Network Privacy Policy at: <br><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer"><strong>https://policies.google.com/technologies/ads</strong></a> and customizing their settings at <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer"><strong>Google Ads Settings</strong></a>.</li>
+          <li><strong>Industry-Wide Consumer Choice Portals:</strong> You may also opt out of third-party interest-based advertising cookies across participating ad networks by visiting:
+            <ul style="margin-top:6px; margin-bottom:6px; padding-left:18px;">
+              <li>Digital Advertising Alliance (DAA): <a href="https://optout.aboutads.info/" target="_blank" rel="noopener noreferrer">https://optout.aboutads.info/</a></li>
+              <li>Network Advertising Initiative (NAI): <a href="https://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer">https://optout.networkadvertising.org/</a></li>
+              <li>European Interactive Digital Advertising Alliance (EDAA): <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener noreferrer">https://www.youronlinechoices.eu/</a></li>
+            </ul>
+          </li>
+          <li><strong>Zero-CLS (Cumulative Layout Shift) Design:</strong> All ad units on MockTestVault are strictly sandboxed within fixed-height reserved wrappers to prevent page jumping, ensuring ad loading never distorts exam timers or misaligns question radio buttons.</li>
         </ul>
       </section>
 
       <section>
         <h2>5. Web Analytics & Server Access Logs</h2>
         <p>
-          Like all standard web servers, MockTestVault may log basic non-personally identifiable diagnostic headers when an asset is requested:
+          Like all standard web infrastructure, MockTestVault's edge servers may log basic non-personally identifiable diagnostic headers when an asset is requested:
         </p>
         <ul>
-          <li>Standard HTTP request metadata: Browser user-agent string, operating system version, referring URL, time of request, and IP address (anonymized for aggregated geolocation metrics).</li>
-          <li>We may utilize anonymous aggregated telemetry tools (such as Google Analytics 4) to monitor platform load times, regional popularity of exam suites, and browser rendering compatibility. These tools do not record private exam answers or identify individual users.</li>
+          <li>Standard HTTP request metadata: Browser user-agent string, operating system version, referring URL, timestamp of request, and IP address (anonymized for aggregated geolocation metrics).</li>
+          <li>We may utilize anonymous aggregated telemetry tools (such as Google Analytics 4) to monitor platform load times, regional popularity of exam suites, and browser rendering compatibility. These tools do not record private exam answers, individual scores, or personally identifiable information.</li>
         </ul>
       </section>
 
@@ -194,7 +203,7 @@
         </p>
         <ul>
           <li>MockTestVault <strong>does not require, solicit, or collect personally identifiable information (PII)</strong> from any student, including children under 13 or 16 years of age.</li>
-          <li>Because no login credentials, names, email addresses, or phone numbers are requested, no children's data is maintained or distributed.</li>
+          <li>Because no login credentials, names, email addresses, or phone numbers are requested to take tests, no children's data is maintained, compiled, or distributed.</li>
           <li>Parents and educators can permit students to utilize the platform with total confidence in complete local anonymity.</li>
         </ul>
       </section>
@@ -202,28 +211,33 @@
       <section>
         <h2>7. Your Rights under GDPR, UK DPA & CCPA/CPRA</h2>
         <p>
-          Under global data privacy regulations (including the European General Data Protection Regulation, the UK Data Protection Act 2018, and the California Consumer Privacy Act):
+          Under global data privacy regulations (including the European General Data Protection Regulation, the UK Data Protection Act 2018, and the California Consumer Privacy Act / California Privacy Rights Act):
         </p>
         <ul>
-          <li><strong>Right to Know & Access:</strong> Since we do not record student accounts, personal profiles, or test answers, we possess no identifiable database records to retrieve.</li>
-          <li><strong>Right to Erasure / Deletion:</strong> Users have total autonomy over their local device storage. Clearing your browser cache or cookies instantly deletes all stored preferences.</li>
+          <li><strong>Right to Know & Access:</strong> Since we do not record student accounts, personal profiles, or test answers, we possess no identifiable database records to retrieve or disclose.</li>
+          <li><strong>Right to Erasure / Deletion:</strong> Users have total autonomy over their local device storage. Clearing your browser cache or cookies instantly deletes all stored preferences and test history.</li>
+          <li><strong>"Do Not Sell or Share My Personal Information" (CCPA/CPRA):</strong> MockTestVault does not sell, rent, monetize, or share personal user data with third-party data brokers or commercial marketers.</li>
+          <li><strong>EU User Consent Policy:</strong> In regions governed by GDPR / ePrivacy directives, consent is requested before non-essential cookies (such as personalized advertising cookies) are deployed.</li>
           <li><strong>Right to Non-Discrimination:</strong> MockTestVault treats all users identically, regardless of whether you accept or reject non-essential cookies.</li>
         </ul>
       </section>
 
       <section>
-        <h2>8. Updates & Privacy Inquiries</h2>
+        <h2>8. Contact Information & Privacy Inquiries</h2>
         <p>
           We may update this Privacy Policy periodically to reflect enhancements in statutory regulations or security standards. The "Last Updated" date at the top of this document will always reflect the latest revision.
         </p>
         <p>
-          For questions, feedback, or statutory inquiries regarding our privacy standards, please reach out to our privacy desk:
+          For questions, feedback, data subject requests, or statutory inquiries regarding our privacy standards, please contact our dedicated Privacy & Data Protection Desk:
         </p>
         <div class="legal-callout">
           <strong>MockTestVault Privacy & Data Protection Desk</strong><br>
-          Operated by: BuyWiseHub Ecosystem<br>
+          Operated by: BuyWiseHub Ecosystem (Lead: Swapnesh Mhatre)<br>
           Official Support URL: <a href="contact.html">https://mocktestvault.com/contact.html</a><br>
-          Direct Email: <a href="mailto:contact@mocktestvault.com">contact@mocktestvault.com</a> (cc: <a href="mailto:fun2gostart@gmail.com">fun2gostart@gmail.com</a>)
+          Direct Inquiries Email: <a href="mailto:contact@mocktestvault.com"><strong>contact@mocktestvault.com</strong></a><br>
+          Secondary Operational Email: <a href="mailto:fun2gostart@gmail.com">fun2gostart@gmail.com</a><br>
+          Physical Jurisdiction: Mumbai, Maharashtra, India<br>
+          Response Time SLA: 24 to 48 business hours
         </div>
       </section>
 
