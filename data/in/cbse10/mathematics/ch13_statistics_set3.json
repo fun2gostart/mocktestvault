@@ -279,13 +279,13 @@
       "difficulty": "Hard",
       "question": "Case Study 3 (Continued): Wickets taken by 45 bowlers: 20-60 (7), 60-100 (5), 100-140 (16), 140-180 (12), 180-220 (2), 220-260 (3).\\n\\nQ18: What is the mode of the wickets taken by the bowlers?",
       "options": [
-        "129.41 wickets",
+        "129.33 wickets",
         "125.00 wickets",
         "134.25 wickets",
         "118.75 wickets"
       ],
       "answer": 0,
-      "explanation": "Modal class is 100-140. l = 100, h = 40, f1 = 16, f0 = 5, f2 = 12. Mode = 100 + [(16 - 5)/(2*16 - 5 - 12)] * 40 = 100 + [11 / (32 - 17)] * 40 = 100 + (11/15) * 40 = 100 + 440/15 = 100 + 29.333 = 129.33 ≈ 129.41 (or 129.3 wickets). Wait, (11/15)*40 = 88/3 = 29.33. If f0 = 5, f2 = 12: 32 - 17 = 15. In NCERT example 5, frequencies were 7, 5, 16, 12, 2, 3. Mode = 100 + (11/15)*40 = 100 + 29.33 = 129.33 ≈ 129.4 wickets.",
+      "explanation": "Modal class is 100-140. l = 100, h = 40, f1 = 16, f0 = 5, f2 = 12. Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] * h = 100 + [(16 - 5) / (2*16 - 5 - 12)] * 40 = 100 + (11 / 15) * 40 = 100 + 440/15 = 100 + 29.33 = 129.33 wickets.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.2 Question 5"
     },
     {
