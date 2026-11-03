@@ -13,7 +13,7 @@
         "x ≥ 4"
       ],
       "answer": 1,
-      "explanation": "Subtract 3x from both sides: -5 ≥ 4x + 11. Subtract 11: -16 ≥ 4x. Divide both sides by 4: -4 ≥ x, which can be rewritten as x ≤ -4.",
+      "explanation": "To find the solution set for the linear inequality 3x - 5 >= 7x + 11, isolate the variable x. First subtract 3x from both sides: -5 >= 4x + 11. Next, subtract 11 from both sides: -5 - 11 >= 4x => -16 >= 4x. Finally, divide both sides by positive 4 (since dividing by a positive number does not reverse the inequality sign): -16 / 4 >= x => -4 >= x, which is conventionally written as x <= -4.",
       "citation": "College Board Digital SAT Math Specification — Heart of Algebra"
     },
     {
@@ -45,7 +45,7 @@
         "15"
       ],
       "answer": 2,
-      "explanation": "Case 1: 2x - 7 = 15 → 2x = 22 → x = 11. Case 2: 2x - 7 = -15 → 2x = -8 → x = -4. The sum of the solutions is 11 + (-4) = 7.",
+      "explanation": "An absolute value equation |ax + b| = c with c > 0 splits into two independent linear cases: Case 1: 2x - 7 = 15 => 2x = 22 => x = 11. Case 2: 2x - 7 = -15 => 2x = -15 + 7 => 2x = -8 => x = -4. Both values satisfy the equation since |2(11) - 7| = |15| = 15 and |2(-4) - 7| = |-15| = 15. The question asks for the sum of all real solutions: 11 + (-4) = 7.",
       "citation": "College Board Digital SAT Math Specification — Absolute Value Concepts"
     },
     {
@@ -109,7 +109,7 @@
         "30%"
       ],
       "answer": 3,
-      "explanation": "Percentage increase = ((New Value - Old Value) / Old Value) * 100% = ((52,000 - 40,000) / 40,000) * 100% = (12,000 / 40,000) * 100% = 0.30 * 100% = 30%.",
+      "explanation": "The percentage change formula is given by: Percentage Increase = [(New Value - Old Value) / Old Value] * 100%. Here, the initial enrollment in 2022 was 40,000 students and the increased enrollment in 2026 was 52,000 students. Absolute Increase = 52,000 - 40,000 = 12,000 students. Substituting into the formula: Percentage Increase = (12,000 / 40,000) * 100% = (12 / 40) * 100% = (3 / 10) * 100% = 30%.",
       "citation": "College Board Digital SAT Math Specification — Rates, Ratios & Percentages"
     },
     {
@@ -205,7 +205,7 @@
         "8√2"
       ],
       "answer": 1,
-      "explanation": "In a 30°-60°-90° triangle with hypotenuse 2x, side opposite 30° is x, and side opposite 60° is x√3. Given 2x = 16 → x = 8. Thus, side opposite 60° is 8√3.",
+      "explanation": "In a standard 30°-60°-90° special right triangle, the side lengths are in the fixed geometric ratio 1 : sqrt(3) : 2. The side opposite the 30° angle is x, the side opposite the 60° angle is x*sqrt(3), and the hypotenuse is 2x. Given that the hypotenuse is 16 units: 2x = 16 => x = 8. The side opposite the 60° angle is therefore x*sqrt(3) = 8*sqrt(3) units.",
       "citation": "College Board Digital SAT Math Specification — Right Triangle Trigonometry"
     },
     {
@@ -253,7 +253,7 @@
         "5,000(1.60)^t"
       ],
       "answer": 2,
-      "explanation": "Compound growth formula: A = P(1 + r)^t. Substituting principal P = 5,000 and annual rate r = 0.06 gives A(t) = 5,000(1 + 0.06)^t = 5,000(1.06)^t.",
+      "explanation": "The standard exponential compound growth formula is A(t) = P(1 + r)^t, where P is the principal initial deposit, r is the annual interest rate expressed as a decimal, and t is the elapsed time in years. With principal P = $5,000 and annual interest rate r = 6% = 0.06, the annual growth factor becomes (1 + 0.06) = 1.06. Therefore, the account balance after t years with annual compounding is A(t) = 5,000(1.06)^t.",
       "citation": "College Board Digital SAT Math Specification — Exponential Functions"
     },
     {
@@ -285,7 +285,7 @@
         "320π"
       ],
       "answer": 1,
-      "explanation": "Volume of cylinder V = π * r^2 * h. Substituting r = 4 and h = 10: V = π * (4^2) * 10 = π * 16 * 10 = 160π cubic inches.",
+      "explanation": "The volume V of any right circular cylinder is given by the formula V = pi * r^2 * h, where r is the base radius and h is the height. Substituting the given values r = 4 inches and h = 10 inches into the formula: V = pi * (4^2) * 10 = pi * 16 * 10 = 160*pi cubic inches. This represents the total cubic capacity enclosed within the cylinder's boundary.",
       "citation": "College Board Digital SAT Math Specification — Solid Geometry"
     },
     {
@@ -301,7 +301,7 @@
         "17/60"
       ],
       "answer": 3,
-      "explanation": "Total vehicles = 40 + 80 = 120. Total red vehicles = 10 + 24 = 34. Probability = 34 / 120 = 17 / 60.",
+      "explanation": "To find the probability that a randomly chosen vehicle is red, determine the total number of vehicles and the total number of red vehicles across both categories. Total vehicles = 40 sedans + 80 SUVs = 120 vehicles. Total red vehicles = 10 red sedans + 24 red SUVs = 34 red vehicles. The probability P(Red) = (Total red vehicles) / (Total vehicles) = 34 / 120. Dividing both numerator and denominator by 2 gives 17 / 60.",
       "citation": "College Board Digital SAT Math Specification — Probability Foundations"
     },
     {

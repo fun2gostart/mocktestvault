@@ -45,7 +45,7 @@
         "9.80 m/s^2"
       ],
       "answer": 1,
-      "explanation": "System acceleration a = (m2 - m1) * g / (m1 + m2) = (5 - 3) * 9.8 / (5 + 3) = 2 * 9.8 / 8 = 19.6 / 8 = 2.45 m/s^2.",
+      "explanation": "In an ideal Atwood machine, the heavier hanging mass accelerates downward while the lighter mass accelerates upward at the same rate. Applying Newton's Second Law to the combined system: a = (m2 - m1)*g / (m1 + m2). With m1 = 3 kg, m2 = 5 kg, and g = 9.8 m/s^2: a = (5 - 3) * 9.8 / (5 + 3) = 2 * 9.8 / 8 = 19.6 / 8 = 2.45 m/s^2. Thus, the system accelerates at 2.45 m/s^2.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.7 Two-Body Systems and Connected Objects"
     },
     {
@@ -77,7 +77,7 @@
         "150 N"
       ],
       "answer": 2,
-      "explanation": "The scale measures normal force F_N. Applying Newton's Second Law: F_N - mg = ma → F_N = m(g + a) = 60 kg * (9.8 + 2.5) m/s^2 = 60 * 12.3 = 738 N.",
+      "explanation": "A scale measures the normal force F_N exerted upward on the student's feet. Applying Newton's Second Law with upward as positive: ΣF_y = F_N - mg = ma => F_N = m(g + a). Substituting student mass m = 60 kg, g = 9.8 m/s^2, and upward acceleration a = 2.5 m/s^2: F_N = 60 * (9.8 + 2.5) = 60 * 12.3 = 738 N. The apparent weight of 738 N exceeds the stationary weight of 588 N due to upward acceleration.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Newton's First and Second Laws"
     },
     {
@@ -141,7 +141,7 @@
         "170 N"
       ],
       "answer": 3,
-      "explanation": "Vertical forces: F_N + T*sin(37°) - mg = 0. T*sin(37°) = 50 * 0.6 = 30 N. mg = 20 * 10 = 200 N. F_N = 200 N - 30 N = 170 N.",
+      "explanation": "The sled is in vertical static equilibrium (a_y = 0). The upward pulling force has a vertical component T*sin(37°). Setting the sum of vertical forces to zero: ΣF_y = F_N + T*sin(37°) - mg = 0 => F_N = mg - T*sin(37°). Substituting m = 20 kg, g = 10 m/s^2, T = 50 N, and sin(37°) ≈ 0.6: mg = 20 * 10 = 200 N, and T*sin(37°) = 50 * 0.6 = 30 N. Thus: F_N = 200 N - 30 N = 170 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.1 Systems and Free-Body Diagrams"
     },
     {
@@ -157,7 +157,7 @@
         "m / (bg)"
       ],
       "answer": 2,
-      "explanation": "At terminal velocity, the net force is zero and acceleration a = 0. mg - F_drag = 0 → mg - b*v_term = 0 → v_term = mg / b.",
+      "explanation": "An object falling through a fluid reaches terminal velocity v_term when the upward velocity-dependent drag force balances the downward gravitational force, resulting in zero net force and zero acceleration: ΣF = mg - F_drag = 0. Substituting the linear drag model F_drag = b*v: mg - b*v_term = 0 => b*v_term = mg => v_term = mg / b. At this constant speed, the object ceases to accelerate.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Forces and Terminal Velocity"
     },
     {
@@ -189,7 +189,7 @@
         "9.8 N"
       ],
       "answer": 1,
-      "explanation": "The top string supports both masses (m_total = 2 + 3 = 5 kg). In static equilibrium: T_top = m_total * g = 5 kg * 9.8 m/s^2 = 49.0 N.",
+      "explanation": "In static equilibrium, the tension in the top string connecting Mass A to the ceiling must support the combined weight of both suspended masses (mA = 2 kg and mB = 3 kg). Treating the two blocks as a single combined system of mass m_total = 2 + 3 = 5 kg: T_top = m_total * g = 5 kg * 9.8 m/s^2 = 49.0 N. In contrast, the lower string only supports Mass B and experiences a tension of 3 * 9.8 = 29.4 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Equilibrium Systems"
     },
     {
@@ -205,7 +205,7 @@
         "-mg"
       ],
       "answer": 0,
-      "explanation": "In free fall, a = g downward. Equation: mg - F_N = ma → mg - F_N = mg → F_N = 0 N. The passenger experiences apparent weightlessness.",
+      "explanation": "When the elevator cable snaps, both the passenger and the bathroom scale enter free fall, accelerating downward together at rate a = g. Applying Newton's Second Law to the passenger: mg - F_N = ma. Since a = g, this becomes mg - F_N = mg => F_N = 0 N. Because the scale cannot push up on the passenger while falling at the same acceleration, the scale reads 0 N (apparent weightlessness).",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Apparent Weight and Free Fall"
     },
     {
@@ -253,7 +253,7 @@
         "12.25 N"
       ],
       "answer": 1,
-      "explanation": "For equilibrium parallel to the incline: T = mg * sin(θ) = 5 kg * 9.8 m/s^2 * sin(30°) = 49 * 0.5 = 24.5 N.",
+      "explanation": "For a block held stationary on a frictionless inclined plane inclined at angle theta, the component of gravity acting parallel to and down the incline is F_parallel = mg*sin(theta). For static equilibrium along the incline, the upward tension in the rope must balance this gravitational component: T = mg*sin(theta) = 5 kg * 9.8 m/s^2 * sin(30°). Since sin(30°) = 0.5: T = 49 * 0.5 = 24.5 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.6 Inclined Planes"
     },
     {
@@ -269,7 +269,7 @@
         "It is always strictly greater than static friction for the same surfaces"
       ],
       "answer": 0,
-      "explanation": "Kinetic friction always opposes the relative sliding motion between two contacting surfaces and is directed parallel to the contact interface.",
+      "explanation": "Kinetic friction is a dissipative contact force that arises between two solid surfaces in relative sliding motion. By definition, kinetic friction always acts parallel to the contact interface and in the direction directly opposite to the relative velocity of the sliding surfaces. Its magnitude is modeled by f_k = mu_k * F_N and is approximately independent of the macroscopic surface area of contact.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.5 Friction"
     },
     {
@@ -317,7 +317,7 @@
         "100 N"
       ],
       "answer": 2,
-      "explanation": "Downward acceleration: mg - F_N = ma → F_N = m(g - a) = 50 kg * (9.8 - 2.0) m/s^2 = 50 * 7.8 = 390 N.",
+      "explanation": "When the elevator accelerates downward at a = 2.0 m/s^2, downward is the direction of acceleration. Applying Newton's Second Law: mg - F_N = ma => F_N = m(g - a). For a passenger of mass m = 50 kg with g = 9.8 m/s^2: F_N = 50 kg * (9.8 - 2.0) m/s^2 = 50 * 7.8 = 390 N. The scale reads an apparent weight of 390 N, which is lower than the true gravitational weight of 490 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 2.2 Apparent Weight"
     }
   ]

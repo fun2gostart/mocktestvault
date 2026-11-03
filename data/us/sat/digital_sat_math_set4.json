@@ -45,7 +45,7 @@
         "22 + 7i"
       ],
       "answer": 0,
-      "explanation": "FOIL: 3(4) + 3(-5i) + 2i(4) + 2i(-5i) = 12 - 15i + 8i - 10(i^2). Since i^2 = -1: 12 - 7i - 10(-1) = 12 - 7i + 10 = 22 - 7i.",
+      "explanation": "To multiply the two complex numbers (3 + 2i)(4 - 5i), use the FOIL method (First, Outer, Inner, Last): First = 3 * 4 = 12; Outer = 3 * (-5i) = -15i; Inner = 2i * 4 = +8i; Last = 2i * (-5i) = -10i^2. Since i = sqrt(-1), by definition i^2 = -1, transforming the last term into -10(-1) = +10. Combining the real and imaginary parts: (12 + 10) + (-15i + 8i) = 22 - 7i.",
       "citation": "College Board Digital SAT Math Specification — Complex Numbers"
     },
     {
@@ -61,7 +61,7 @@
         "x = 4"
       ],
       "answer": 3,
-      "explanation": "Vertical asymptotes occur where denominator is zero and numerator is non-zero: 2x - 8 = 0 → 2x = 8 → x = 4. (Note: y = 3/2 is the horizontal asymptote).",
+      "explanation": "A vertical asymptote of a rational function f(x) = p(x) / q(x) occurs at the real values of x where the denominator q(x) equals zero while the numerator p(x) is non-zero. Setting the denominator equal to zero: 2x - 8 = 0 => 2x = 8 => x = 4. Evaluating the numerator at x = 4: 3(4) + 1 = 12 + 1 = 13 != 0. Because the numerator does not vanish, there is a true vertical asymptote at the line x = 4.",
       "citation": "College Board Digital SAT Math Specification — Rational Functions"
     },
     {
@@ -93,7 +93,7 @@
         "88.0"
       ],
       "answer": 1,
-      "explanation": "Overall Grade = 0.40(85) + 0.20(95) + 0.40(F) ≥ 90. 34 + 19 + 0.40F ≥ 90 → 53 + 0.40F ≥ 90 → 0.40F ≥ 37 → F ≥ 37 / 0.40 = 92.5.",
+      "explanation": "Let F represent the score on the final exam. The overall course grade is the weighted sum of its components: (Midterm Weight * Midterm Score) + (HW Weight * HW Score) + (Final Weight * Final Score) >= 90. Substituting the percentages and scores: 0.40(85) + 0.20(95) + 0.40(F) >= 90. Evaluating the products: 34 + 19 + 0.40F >= 90 => 53 + 0.40F >= 90 => 0.40F >= 37 => F >= 37 / 0.40 = 92.5.",
       "citation": "College Board Digital SAT Math Specification — Weighted Statistics"
     },
     {
@@ -109,7 +109,7 @@
         "M(t) = 200 - 6t"
       ],
       "answer": 2,
-      "explanation": "Half-life model: M(t) = M0 * (1/2)^(t / T_half). Substituting initial M0 = 200 and T_half = 6 yields M(t) = 200(0.5)^(t/6).",
+      "explanation": "The standard exponential decay model based on half-life is M(t) = M0 * (1/2)^(t / T_half), where M0 is the initial quantity and T_half is the half-life period. Here, the initial medicine administered is M0 = 200 mg and its half-life in the bloodstream is T_half = 6 hours. Substituting these constants into the model yields M(t) = 200(0.5)^(t/6), accurately modeling the mass remaining after t hours.",
       "citation": "College Board Digital SAT Math Specification — Modeling Half-Life"
     },
     {
@@ -125,7 +125,7 @@
         "(256/3)π"
       ],
       "answer": 3,
-      "explanation": "Surface area of sphere = 4πr^2 = 64π → r^2 = 16 → r = 4. Volume = (4/3)πr^3 = (4/3)π(4^3) = (4/3)π(64) = (256/3)π cubic inches.",
+      "explanation": "The surface area of a sphere is given by SA = 4*pi*r^2. Given SA = 64*pi: 4*pi*r^2 = 64*pi => r^2 = 64 / 4 = 16 => r = 4 inches. Next, calculate the sphere's volume using the formula V = (4/3)*pi*r^3. Substituting r = 4: V = (4/3)*pi*(4^3) = (4/3)*pi*64 = (256/3)*pi cubic inches. Leaving the answer as an improper fraction times pi is standard format on the SAT.",
       "citation": "College Board Digital SAT Math Specification — 3D Geometry"
     },
     {
@@ -141,7 +141,7 @@
         "7"
       ],
       "answer": 3,
-      "explanation": "Raise both sides to the power of 2/3: x + 2 = 27^(2/3) = (27^(1/3))^2 = 3^2 = 9. Subtract 2: x = 7.",
+      "explanation": "To solve the radical equation (x + 2)^(3/2) = 27, eliminate the rational exponent by raising both sides to its reciprocal power 2/3: [(x + 2)^(3/2)]^(2/3) = 27^(2/3). Simplifying the left side yields x + 2. On the right side, 27^(2/3) = (cbrt(27))^2 = 3^2 = 9. Thus: x + 2 = 9 => x = 9 - 2 = 7. Checking: (7 + 2)^(3/2) = 9^(3/2) = (sqrt(9))^3 = 3^3 = 27, confirming the solution.",
       "citation": "College Board Digital SAT Math Specification — Radical Equations"
     },
     {
@@ -157,7 +157,7 @@
         "146"
       ],
       "answer": 1,
-      "explanation": "Cofunction identity: sin(x) = cos(90° - x). Therefore, x + 34° = 90° → x = 90° - 34° = 56°.",
+      "explanation": "The fundamental cofunction identities in trigonometry state that the sine of an acute angle equals the cosine of its complement: sin(theta) = cos(90° - theta) and cos(theta) = sin(90° - theta). Given sin(x°) = cos(34°), the two acute angles must sum to 90 degrees: x + 34 = 90. Solving for x gives x = 90 - 34 = 56. Thus, sin(56°) = cos(34°).",
       "citation": "College Board Digital SAT Math Specification — Cofunction Identities"
     },
     {
@@ -189,7 +189,7 @@
         "1.18"
       ],
       "answer": 0,
-      "explanation": "Residual = Actual y - Predicted y = 18 - 15.2 = 2.8. A positive residual indicates the actual data point lies above the regression line.",
+      "explanation": "In linear regression analysis and statistics, a residual is defined as the vertical difference between the actual observed value and the value predicted by the regression line: Residual = Actual y - Predicted y. Here, the observed data point has an actual value of y = 18, and the model predicts y = 15.2. Calculating the residual: 18 - 15.2 = 2.8. The positive value indicates the data point lies 2.8 units above the line.",
       "citation": "College Board Digital SAT Math Specification — Residual Analysis"
     },
     {
@@ -221,7 +221,7 @@
         "(4x + 9y)(2x^2 - 3xy + 3y^2)"
       ],
       "answer": 1,
-      "explanation": "Sum of cubes formula: a^3 + b^3 = (a + b)(a^2 - ab + b^2). Here a = 2x and b = 3y. Thus (2x + 3y)((2x)^2 - (2x)(3y) + (3y)^2) = (2x + 3y)(4x^2 - 6xy + 9y^2).",
+      "explanation": "Recognize the expression 8x^3 + 27y^3 as a sum of cubes: (2x)^3 + (3y)^3. Apply the sum of cubes factoring formula: a^3 + b^3 = (a + b)(a^2 - ab + b^2). Setting a = 2x and b = 3y: (2x + 3y)((2x)^2 - (2x)(3y) + (3y)^2) = (2x + 3y)(4x^2 - 6xy + 9y^2). Remember the mnemonic SOAP (Same sign, Opposite sign, Always Positive) for the signs in the factored form: (+, -, +).",
       "citation": "College Board Digital SAT Math Specification — Algebraic Factoring"
     },
     {
@@ -237,7 +237,7 @@
         "6 cm"
       ],
       "answer": 0,
-      "explanation": "Arc length = (θ / 360°) * Circumference = (45 / 360) * 72 = (1/8) * 72 = 9 cm.",
+      "explanation": "The length of an arc s on a circle is proportional to the measure of its central angle relative to the full circle of 360°: Arc Length = (Central Angle / 360°) * Total Circumference. Given a central angle of 45° and a total circumference of 72 cm: Arc Length = (45° / 360°) * 72 = (1/8) * 72 = 9 cm. Thus, the arc subtended by this 45-degree angle measures exactly 9 cm.",
       "citation": "College Board Digital SAT Math Specification — Circumference and Arcs"
     },
     {
@@ -253,7 +253,7 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "Expand left side: 10x - 15 + 7 = 10x - 8. For this to equal ax + b for all x: a = 10 and b = -8. Thus a + b = 10 + (-8) = 2.",
+      "explanation": "Expand the left side of the equation: 5(2x - 3) + 7 = 10x - 15 + 7 = 10x - 8. The problem states that 10x - 8 = ax + b holds true for all real values of x, meaning the equation is an identity. For two linear expressions to be identically equal for all x, their corresponding coefficients must match exactly: a = 10 and b = -8. The question asks for the sum a + b: 10 + (-8) = 2.",
       "citation": "College Board Digital SAT Math Specification — Equivalent Equations"
     },
     {
@@ -269,7 +269,7 @@
         "Infinitely many price points"
       ],
       "answer": 2,
-      "explanation": "Set P(x) = 0: -2x^2 + 20x - 50 = 0. Divide by -2: x^2 - 10x + 25 = 0 → (x - 5)^2 = 0. There is exactly one real root: x = 5.",
+      "explanation": "To find the price points yielding exactly $0 profit, set P(x) = 0: -2x^2 + 20x - 50 = 0. Divide every term by -2: x^2 - 10x + 25 = 0. Notice this factors into a perfect square trinomial: (x - 5)^2 = 0, giving a single real root x = 5. Checking the discriminant: Delta = b^2 - 4ac = (20)^2 - 4(-2)(-50) = 400 - 400 = 0. A zero discriminant proves the parabola has exactly 1 real root (price point $5).",
       "citation": "College Board Digital SAT Math Specification — Quadratic Word Problems"
     },
     {
@@ -285,7 +285,7 @@
         "The interval containing the 26th ordered observation"
       ],
       "answer": 3,
-      "explanation": "For n = 51 observations, the median position is (51 + 1) / 2 = 26th observation when ranked in ascending order.",
+      "explanation": "For an ordered statistical dataset containing an odd number of observations n, the median is located precisely at position (n + 1) / 2. Here n = 51 employees, so the median position is (51 + 1) / 2 = 52 / 2 = 26th observation when ranked in ascending order. Therefore, the frequency interval that contains the 26th cumulative observation must contain the median of the dataset.",
       "citation": "College Board Digital SAT Math Specification — Histograms & Medians"
     },
     {
@@ -301,7 +301,7 @@
         "12.5 inches"
       ],
       "answer": 1,
-      "explanation": "3D space diagonal d = sqrt(l^2 + w^2 + h^2) = sqrt(4^2 + 3^2 + 12^2) = sqrt(16 + 9 + 144) = sqrt(169) = 13 inches.",
+      "explanation": "The length of the 3D space diagonal of a rectangular prism (box) with dimensions length l, width w, and height h is determined using the extended three-dimensional Pythagorean theorem: d = sqrt(l^2 + w^2 + h^2). Given l = 4 inches, w = 3 inches, and h = 12 inches: d = sqrt(4^2 + 3^2 + 12^2) = sqrt(16 + 9 + 144) = sqrt(169) = 13 inches. Thus, the interior diagonal measures exactly 13 inches.",
       "citation": "College Board Digital SAT Math Specification — 3D Geometry"
     },
     {

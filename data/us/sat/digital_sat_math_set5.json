@@ -45,7 +45,7 @@
         "-1/2"
       ],
       "answer": 3,
-      "explanation": "Slope of line k: m_k = (5 - (-3)) / (6 - 2) = 8 / 4 = 2. Perpendicular lines have negative reciprocal slopes: m_m = -1 / m_k = -1/2.",
+      "explanation": "First determine the slope of line k using the two points (2, -3) and (6, 5): m_k = [5 - (-3)] / (6 - 2) = (5 + 3) / 4 = 8 / 4 = 2. In Euclidean coordinate geometry, two non-vertical lines are perpendicular if and only if their slopes are negative reciprocals: m_perp = -1 / m_k. Since the slope of line k is 2, the slope of perpendicular line m is -1 / 2 = -1/2.",
       "citation": "College Board Digital SAT® Math Specifications — Heart of Algebra: Linear Equations and Slope Properties"
     },
     {
@@ -77,7 +77,7 @@
         "The total number of text messages included in the plan"
       ],
       "answer": 0,
-      "explanation": "In the linear function C(m) = 45 + 0.20m, 45 is the y-intercept (C(0) = 45), representing the fixed initial fee incurred when m = 0 text messages are sent.",
+      "explanation": "In the linear function C(m) = 45 + 0.20m, m represents the number of text messages sent and C(m) represents total monthly cost. The constant term 45 is the vertical y-intercept, representing the value of C when m = 0 (zero texts sent): C(0) = $45. In the context of monthly billing, this represents the flat recurring subscription fee charged every month regardless of text messaging usage.",
       "citation": "College Board Digital SAT® Math Specifications — Heart of Algebra: Linear Function Interpretations"
     },
     {
@@ -189,7 +189,7 @@
         "(8, 3)"
       ],
       "answer": 0,
-      "explanation": "Complete the square or use h = -b / (2a): h = -(-8) / (2*1) = 4. Substitute x = 4: f(4) = (4)^2 - 8(4) + 19 = 16 - 32 + 19 = 3. Thus, the vertex is (4, 3).",
+      "explanation": "The x-coordinate of the vertex of a parabola y = ax^2 + bx + c is given by h = -b / (2a). For f(x) = x^2 - 8x + 19, a = 1 and b = -8: h = -(-8) / (2*1) = 8 / 2 = 4. To find the y-coordinate k, evaluate f(4): f(4) = (4)^2 - 8(4) + 19 = 16 - 32 + 19 = 3. Alternatively, completing the square gives (x - 4)^2 + 3, confirming the vertex coordinates are (4, 3).",
       "citation": "College Board Digital SAT® Math Specifications — Passport to Advanced Math: Quadratic Vertex Forms"
     },
     {
@@ -221,7 +221,7 @@
         "M(t) = 320 - (1/2)^(t/8)"
       ],
       "answer": 1,
-      "explanation": "Standard half-life model is M(t) = M0 * (1/2)^(t / T_half). With initial mass M0 = 320 and half-life T_half = 8 days, M(t) = 320 * (1/2)^(t/8).",
+      "explanation": "The standard exponential decay model for a substance with half-life T_half is M(t) = M0 * (1/2)^(t / T_half), where M0 represents the initial mass at t = 0 and t is the elapsed time. Here, the initial sample contains M0 = 320 grams and the half-life is T_half = 8 days. Substituting these specific parameters yields the function M(t) = 320 * (1/2)^(t/8), which models the remaining mass in grams after t days.",
       "citation": "College Board Digital SAT® Math Specifications — Passport to Advanced Math: Exponential Growth and Decay"
     },
     {
@@ -253,7 +253,7 @@
         "9"
       ],
       "answer": 3,
-      "explanation": "Complete the square for x and y: (x^2 - 10x + 25) + (y^2 + 6y + 9) = 47 + 25 + 9. (x - 5)^2 + (y + 3)^2 = 81. Since r^2 = 81, the radius r = √81 = 9.",
+      "explanation": "To find the radius of the circle defined by x^2 + y^2 - 10x + 6y = 47, convert the equation into standard form (x - h)^2 + (y - k)^2 = r^2 by completing the square for both x and y. Group terms: (x^2 - 10x + 25) + (y^2 + 6y + 9) = 47 + 25 + 9. Factoring gives (x - 5)^2 + (y + 3)^2 = 81. In standard form, r^2 = 81, so the radius is r = sqrt(81) = 9.",
       "citation": "College Board Digital SAT® Math Specifications — Additional Topics: Circle Equations in the Coordinate Plane"
     },
     {
@@ -285,7 +285,7 @@
         "5π cm"
       ],
       "answer": 3,
-      "explanation": "Arc length s = 2πr * (θ / 360°). With r = 12 and θ = 75°: s = 2π(12) * (75/360) = 24π * (5/24) = 5π cm.",
+      "explanation": "The arc length s intercepted by a central angle theta measured in degrees is given by s = 2*pi*r * (theta / 360°), where r is the radius of the circle. Substituting the given radius r = 12 cm and central angle theta = 75° into the formula: s = 2*pi*(12) * (75 / 360) = 24*pi * (5 / 24). The factor 24 cancels out: s = 5*pi cm. Thus, the intercepted arc length is 5*pi cm.",
       "citation": "College Board Digital SAT® Math Specifications — Additional Topics: Radians and Sector Arc Lengths"
     },
     {

@@ -13,7 +13,7 @@
         "8.0 m/s^2"
       ],
       "answer": 3,
-      "explanation": "Centripetal acceleration a_c = v^2 / r = (40 m/s)^2 / 200 m = 1600 / 200 = 8.0 m/s^2.",
+      "explanation": "An object moving in a circular path of radius r at constant speed v experiences centripetal acceleration directed radially inward toward the center of curvature. The magnitude is given by a_c = v^2 / r. Substituting the given values v = 40 m/s and r = 200 meters: a_c = (40 m/s)^2 / 200 m = 1600 / 200 = 8.0 m/s^2. This acceleration changes the direction of the velocity vector without altering its magnitude.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.1 Centripetal Acceleration and Centripetal Force"
     },
     {
@@ -29,7 +29,7 @@
         "2 * √(μs * g * r)"
       ],
       "answer": 2,
-      "explanation": "Centripetal force is provided entirely by static friction: f_s,max = m*v^2 / r → μs * m * g = m * v^2 / r → v^2 = μs * g * r → v_max = √(μs * g * r).",
+      "explanation": "On an unbanked circular curve, the centripetal force required to keep the car turning is provided entirely by static friction between the tires and the road: f_s <= mu_s * F_N = mu_s * m * g. Setting the maximum available static friction equal to the required centripetal force: mu_s * m * g = m * v^2 / r. Dividing both sides by vehicle mass m: v^2 = mu_s * g * r => v_max = √(mu_s * g * r). Speed is independent of vehicle mass.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.2 Centripetal Force and Friction"
     },
     {
@@ -77,7 +77,7 @@
         "0 J"
       ],
       "answer": 0,
-      "explanation": "Work W = F * d * cos(θ) = 60 N * 10 m * cos(60°) = 600 * 0.5 = 300 J.",
+      "explanation": "The mechanical work performed by a constant force F acting over a displacement d at an angle theta relative to the direction of motion is given by W = F * d * cos(theta). Here F = 60 N, d = 10 meters, and theta = 60°. Substituting values: W = 60 N * 10 m * cos(60°). Since cos(60°) = 0.5: W = 600 * 0.5 = 300 Joules. Only the horizontal force component parallel to displacement does work.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.1 Work and Mechanical Energy"
     },
     {
@@ -125,7 +125,7 @@
         "60.0 J"
       ],
       "answer": 2,
-      "explanation": "Elastic potential energy U_s = (1/2) * k * x^2 = 0.5 * 400 N/m * (0.15 m)^2 = 200 * 0.0225 = 4.5 J.",
+      "explanation": "The elastic potential energy stored in an ideal Hookean spring with spring constant k compressed or extended by displacement x from equilibrium is given by U_s = (1/2) * k * x^2. Given k = 400 N/m and compression x = 0.15 m: U_s = (1/2) * (400 N/m) * (0.15 m)^2 = 200 * 0.0225 = 4.5 Joules. This energy is stored within the spring lattice and can be fully recovered as kinetic energy upon release.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.2 Potential Energy and Conservation"
     },
     {
@@ -141,7 +141,7 @@
         "15 m/s"
       ],
       "answer": 2,
-      "explanation": "Conservation of mechanical energy: mgh = (1/2)mv^2 → v = √(2gh) = √(2 * 10 m/s^2 * 45 m) = √900 = 30 m/s.",
+      "explanation": "Assuming negligible friction and air resistance, total mechanical energy is conserved throughout the ride: initial gravitational potential energy at the top converts entirely into kinetic energy at the bottom: m*g*h = (1/2)*m*v^2. Dividing both sides by mass m: v^2 = 2*g*h => v = √(2*g*h). Substituting g = 10 m/s^2 and h = 45 meters: v = √(2 * 10 * 45) = √900 = 30 m/s.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.3 Conservation of Energy"
     },
     {
@@ -173,7 +173,7 @@
         "40 J"
       ],
       "answer": 3,
-      "explanation": "Work is the area under the F vs x graph. The area is a triangle with base 4 m and height 20 N: Area = (1/2) * base * height = (1/2) * 4 m * 20 N = 40 J.",
+      "explanation": "Work done by a position-dependent force along the x-axis is equal to the definite integral ∫ F(x) dx, which geometrically represents the area under the Force vs. Position curve. From x = 0 to x = 4 m, the force increases linearly from 0 to 20 N, forming a right triangle with base = 4 m and height = 20 N: Work = Area = (1/2) * base * height = (1/2) * 4 m * 20 N = 40 Joules.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.1 Work Calculated from Force-Displacement Graphs"
     },
     {
@@ -189,7 +189,7 @@
         "19,600 W"
       ],
       "answer": 0,
-      "explanation": "At constant speed, lifting force equals weight: F = mg = 500 * 9.8 = 4,900 N. Power P = F * v = 4,900 N * 2.0 m/s = 9,800 W (or 9.8 kW).",
+      "explanation": "When a crane lifts a load vertically at a constant speed of 2.0 m/s, the steel beam is in dynamic equilibrium (a = 0), meaning the lifting tension force equals the gravitational weight: F = mg = 500 kg * 9.8 m/s^2 = 4,900 N. The instantaneous mechanical power delivered by the crane is calculated as P = F * v: P = 4,900 N * 2.0 m/s = 9,800 Watts (or 9.8 kW).",
       "citation": "College Board AP® Physics 1 CED — Topic 4.4 Power"
     },
     {
@@ -221,7 +221,7 @@
         "g"
       ],
       "answer": 1,
-      "explanation": "Gravitational acceleration g(r) = G * M_E / r^2. At distance r = 2R_E, g(2R_E) = G * M_E / (2R_E)^2 = (G * M_E / R_E^2) / 4 = g / 4.",
+      "explanation": "According to Newton's Law of Universal Gravitation, gravitational acceleration at distance r from Earth's center is g(r) = G*M_E / r^2. At Earth's surface (r = R_E), g = G*M_E / R_E^2. At an altitude h = R_E above the surface, the distance from Earth's center is r = R_E + R_E = 2R_E. Substituting: g(2R_E) = G*M_E / (2R_E)^2 = (G*M_E / R_E^2) / 4 = g / 4. Gravitational acceleration is quartered.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.3 Gravitational Fields"
     },
     {
@@ -253,7 +253,7 @@
         "2T"
       ],
       "answer": 0,
-      "explanation": "By Kepler's Third Law: T^2 ∝ r^3 → T_B / T_A = (r_B / r_A)^(3/2) = (4)^(3/2) = (√4)^3 = 2^3 = 8. Thus T_B = 8T.",
+      "explanation": "According to Kepler's Third Law of Planetary Motion, the square of a satellite's orbital period is directly proportional to the cube of its orbital radius: T^2 ∝ r^3, which means (T_B / T_A)^2 = (r_B / r_A)^3. Given r_B = 4*r_A: (T_B / T_A)^2 = (4)^3 = 64. Taking the square root of both sides yields: T_B / T_A = √64 = 8. Therefore, Satellite B's orbital period is T_B = 8T.",
       "citation": "College Board AP® Physics 1 CED — Topic 3.3 Kepler's Laws and Planetary Motion"
     },
     {
@@ -285,7 +285,7 @@
         "1.41 m/s"
       ],
       "answer": 2,
-      "explanation": "Conservation of energy: (1/2)kx^2 = (1/2)mv^2 → kx^2 = mv^2 → v = x * √(k / m) = 0.2 m * √(200 N/m / 0.5 kg) = 0.2 * √400 = 0.2 * 20 = 4.0 m/s.",
+      "explanation": "In an isolated system on a frictionless horizontal surface, mechanical energy is conserved: initial spring elastic potential energy converts completely into kinetic energy of the released ball: (1/2)*k*x^2 = (1/2)*m*v^2. Multiplying by 2 and solving for speed v: v = x * √(k / m). Substituting x = 0.2 m, k = 200 N/m, and m = 0.5 kg: v = 0.2 * √(200 / 0.5) = 0.2 * √400 = 0.2 * 20 = 4.0 m/s.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.3 Conservation of Energy"
     },
     {

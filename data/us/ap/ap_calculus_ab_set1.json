@@ -13,7 +13,7 @@
         "Does not exist"
       ],
       "answer": 1,
-      "explanation": "Direct substitution gives 0/0 (indeterminate). Factor the numerator: (x - 3)(x + 3) / (x - 3). For x ≠ 3, cancel (x - 3): lim(x→3) (x + 3) = 3 + 3 = 6.",
+      "explanation": "Evaluating the rational limit lim(x→3) [(x^2 - 9) / (x - 3)] by direct substitution yields the indeterminate form 0/0. Apply algebraic factoring using difference of squares on the numerator: x^2 - 9 = (x - 3)(x + 3). For all x != 3, we can cancel the common factor (x - 3) to obtain: lim(x→3) (x + 3). Since (x + 3) is a continuous polynomial function, evaluate by direct substitution: 3 + 3 = 6. Alternatively, applying L'Hopital's rule yields lim(x→3) [2x / 1] = 2(3) = 6.",
       "citation": "College Board AP® Calculus AB CED — Topic 1.5 Determining Limits Using Algebraic Properties"
     },
     {
@@ -45,7 +45,7 @@
         "0"
       ],
       "answer": 2,
-      "explanation": "Recall standard limit lim(u→0) [sin(u)/u] = 1. Multiply numerator and denominator by 5/3: lim(x→0) [(5/3) * (sin(5x) / 5x)] = (5/3) * 1 = 5/3.",
+      "explanation": "Evaluating lim(x→0) [sin(5x) / (3x)] directly yields the indeterminate form 0/0. Recall the fundamental trigonometric limit identity lim(u→0) [sin(u) / u] = 1. Factor out the constant coefficient 1/3 and multiply numerator and denominator by 5: lim(x→0) [(5/3) * (sin(5x) / (5x))]. Applying limit laws: (5/3) * lim(5x→0) [sin(5x) / (5x)] = (5/3) * 1 = 5/3. Alternatively, by L'Hopital's Rule: lim(x→0) [5*cos(5x) / 3] = [5*cos(0)] / 3 = 5/3.",
       "citation": "College Board AP® Calculus AB CED — Topic 1.8 Squeeze Theorem and Trigonometric Limits"
     },
     {
@@ -77,7 +77,7 @@
         "3x^2 + e^x"
       ],
       "answer": 2,
-      "explanation": "By the product rule d/dx[u*v] = u'*v + u*v'. Here u = x^3 (u' = 3x^2) and v = e^x (v' = e^x). f'(x) = 3x^2 * e^x + x^3 * e^x = x^2 * e^x * (3 + x).",
+      "explanation": "To find f'(x) for f(x) = x^3 * e^x, apply the Product Rule for differentiation: d/dx [u * v] = u' * v + u * v'. Let u = x^3 (with derivative u' = 3x^2) and v = e^x (with derivative v' = e^x). Substituting these components into the formula gives: f'(x) = 3x^2 * e^x + x^3 * e^x. Factoring out the greatest common factor x^2 * e^x yields: f'(x) = x^2 * e^x * (3 + x) = x^2 * e^x * (x + 3).",
       "citation": "College Board AP® Calculus AB CED — Topic 2.8 Product Rule"
     },
     {
@@ -93,7 +93,7 @@
         "-cos(x^2)"
       ],
       "answer": 0,
-      "explanation": "By chain rule dy/dx = cos(u) * du/dx where u = x^2 (du/dx = 2x). Thus dy/dx = 2x * cos(x^2).",
+      "explanation": "To differentiate the composite function y = sin(x^2), apply the Chain Rule: dy/dx = f'(g(x)) * g'(x). Here the outer function is f(u) = sin(u) with derivative f'(u) = cos(u), and the inner function is u = g(x) = x^2 with derivative du/dx = 2x. Multiplying the derivative of the outer function evaluated at the inner function by the derivative of the inner function yields: dy/dx = cos(x^2) * d/dx[x^2] = 2x * cos(x^2).",
       "citation": "College Board AP® Calculus AB CED — Topic 3.1 The Chain Rule"
     },
     {
@@ -109,7 +109,7 @@
         "(1 - ln(x)) / x^2"
       ],
       "answer": 3,
-      "explanation": "Quotient rule [v*u' - u*v'] / v^2: u = ln(x) (u' = 1/x), v = x (v' = 1). f'(x) = [x*(1/x) - ln(x)*1] / x^2 = (1 - ln(x)) / x^2.",
+      "explanation": "To differentiate f(x) = ln(x) / x for x > 0, apply the Quotient Rule: d/dx [u / v] = (v * u' - u * v') / v^2. Here the numerator is u = ln(x) with derivative u' = 1/x, and the denominator is v = x with derivative v' = 1. Substituting into the formula: f'(x) = [x * (1/x) - ln(x) * 1] / x^2. Since x * (1/x) = 1, this simplifies directly to f'(x) = (1 - ln(x)) / x^2.",
       "citation": "College Board AP® Calculus AB CED — Topic 2.9 Quotient Rule"
     },
     {
@@ -125,7 +125,7 @@
         "4/3"
       ],
       "answer": 1,
-      "explanation": "Differentiate implicitly with respect to x: 2x + 2y(dy/dx) = 0 → dy/dx = -x / y. At point (3, 4), slope = -3 / 4.",
+      "explanation": "To find the tangent line slope for the circle x^2 + y^2 = 25 at (3, 4), differentiate implicitly with respect to x: d/dx[x^2] + d/dx[y^2] = d/dx[25] => 2x + 2y*(dy/dx) = 0. Solving for the derivative: 2y*(dy/dx) = -2x => dy/dx = -x / y. Evaluating at the point (3, 4) gives dy/dx = -3 / 4. Geometrically, the tangent is perpendicular to the radius connecting (0, 0) to (3, 4), which has slope 4/3.",
       "citation": "College Board AP® Calculus AB CED — Topic 3.2 Implicit Differentiation"
     },
     {
@@ -141,7 +141,7 @@
         "1 / (1 + 2x^2)"
       ],
       "answer": 0,
-      "explanation": "Formula: d/dx[arctan(u)] = (1 / (1 + u^2)) * du/dx. Here u = 2x, so du/dx = 2. f'(x) = 2 / (1 + (2x)^2) = 2 / (1 + 4x^2).",
+      "explanation": "The differentiation formula for the inverse tangent function is d/dx [arctan(u)] = (1 / (1 + u^2)) * (du/dx). With inner composite function u = 2x, the inner derivative is du/dx = 2. Substituting these terms into the formula yields: f'(x) = [1 / (1 + (2x)^2)] * 2 = 2 / (1 + 4x^2). This standard AP Calculus derivative requires careful application of the chain rule to the argument 2x.",
       "citation": "College Board AP® Calculus AB CED — Topic 3.4 Differentiating Inverse Trigonometric Functions"
     },
     {
@@ -173,7 +173,7 @@
         "t = 1 only"
       ],
       "answer": 1,
-      "explanation": "A particle is at rest when velocity v(t) = s'(t) = 0. s'(t) = 3t^2 - 12t + 9 = 0. Divide by 3: t^2 - 4t + 3 = 0 → (t - 1)(t - 3) = 0 → t = 1 and t = 3.",
+      "explanation": "A moving particle is momentarily at rest when its instantaneous velocity equals zero: v(t) = s'(t) = 0. Taking the first derivative of the position function s(t) = t^3 - 6t^2 + 9t: v(t) = 3t^2 - 12t + 9. Setting v(t) = 0 and dividing the quadratic equation by 3 gives: t^2 - 4t + 3 = 0. Factoring yields (t - 1)(t - 3) = 0, which gives real solutions t = 1 and t = 3. Thus, the particle is at rest at t = 1 and t = 3 seconds.",
       "citation": "College Board AP® Calculus AB CED — Topic 4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration"
     },
     {
@@ -189,7 +189,7 @@
         "200π cm^3/s"
       ],
       "answer": 3,
-      "explanation": "Differentiate volume with respect to time t: dV/dt = 4πr^2 * (dr/dt). Given dr/dt = 2 and r = 5: dV/dt = 4π(5^2)(2) = 4π(25)(2) = 200π cm^3/s.",
+      "explanation": "The volume of a sphere is given by V = (4/3)*pi*r^3. To find the rate of change of volume with respect to time t, differentiate implicitly with respect to t using the Chain Rule: dV/dt = 4*pi*r^2 * (dr/dt). Given that the radius is r = 5 cm and the rate of radius expansion is dr/dt = 2 cm/s: dV/dt = 4*pi*(5^2)*(2) = 4*pi*(25)*(2) = 200*pi cm^3/s. Thus, the volume is increasing at 200*pi cm^3/s.",
       "citation": "College Board AP® Calculus AB CED — Topic 4.5 Related Rates"
     },
     {
@@ -221,7 +221,7 @@
         "The test is inconclusive"
       ],
       "answer": 2,
-      "explanation": "By the Second Derivative Test, if f'(c) = 0 and f''(c) < 0, the curve is concave down at a horizontal tangent, meaning f has a local maximum at x = c.",
+      "explanation": "According to the Second Derivative Test for relative extrema, if f'(c) = 0 (indicating a critical point with a horizontal tangent line) and f''(c) < 0, the graph of f is strictly concave down in an open interval containing x = c. A concave-down curve with a horizontal tangent must curve downward away from the tangent line on both sides, confirming that f(x) has a relative (local) maximum at x = c.",
       "citation": "College Board AP® Calculus AB CED — Topic 5.7 Using the Second Derivative Test to Determine Extrema"
     },
     {
@@ -253,7 +253,7 @@
         "x√(1 + x^4)"
       ],
       "answer": 0,
-      "explanation": "By the Fundamental Theorem of Calculus Part 1, d/dx ∫[from a to x] f(t) dt = f(x). Therefore, F'(x) = √(1 + x^4).",
+      "explanation": "According to the Fundamental Theorem of Calculus (FTC) Part 1, if f(t) is a continuous function on [a, b], then the derivative of the accumulated area function F(x) = ∫[a to x] f(t) dt with respect to its upper limit x is simply the integrand evaluated at x: F'(x) = d/dx ∫[a to x] f(t) dt = f(x). Here the lower limit is a = 1 and f(t) = √(1 + t^4), so F'(x) = √(1 + x^4).",
       "citation": "College Board AP® Calculus AB CED — Topic 6.4 The Fundamental Theorem of Calculus and Accumulation Functions"
     },
     {
@@ -285,7 +285,7 @@
         "(1/4)(x^2 + 5)^5 + C"
       ],
       "answer": 0,
-      "explanation": "Let u = x^2 + 5, then du = 2x dx. The integral becomes ∫ u^4 du = (1/5)u^5 + C = (1/5)(x^2 + 5)^5 + C.",
+      "explanation": "To evaluate the indefinite integral ∫ 2x * (x^2 + 5)^4 dx, apply the method of u-substitution. Let u = x^2 + 5, then the differential is du = 2x dx. The integral transforms directly into: ∫ u^4 du. Integrating using the power rule yields (1/5)*u^5 + C. Substituting back u = x^2 + 5 provides the final antiderivative: (1/5)(x^2 + 5)^5 + C.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
     },
     {
@@ -317,7 +317,7 @@
         "y = C * e^(x^2)"
       ],
       "answer": 3,
-      "explanation": "Separate variables: (1/y) dy = 2x dx. Integrate both sides: ∫ (1/y) dy = ∫ 2x dx → ln(y) = x^2 + C1 → y = e^(x^2 + C1) = C * e^(x^2).",
+      "explanation": "To find the general solution of dy/dx = 2xy for y > 0, separate variables by grouping all y terms on the left and x terms on the right: (1/y) dy = 2x dx. Integrate both sides: ∫ (1/y) dy = ∫ 2x dx => ln(y) = x^2 + C1. Exponentiating both sides to solve for y: y = e^(x^2 + C1) = e^(C1) * e^(x^2). Letting the arbitrary positive constant C = e^(C1) gives the general solution: y = C * e^(x^2).",
       "citation": "College Board AP® Calculus AB CED — Topic 7.6 Finding General Solutions Using Separation of Variables"
     }
   ]

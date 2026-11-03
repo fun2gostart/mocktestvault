@@ -93,7 +93,7 @@
         "(1/3) * sec^3(3x) + C"
       ],
       "answer": 0,
-      "explanation": "Let u = 3x, du = 3 dx. ∫ sec^2(3x) dx = (1/3) ∫ sec^2(u) du = (1/3) * tan(u) + C = (1/3) * tan(3x) + C.",
+      "explanation": "To evaluate the indefinite integral ∫ sec^2(3x) dx, use u-substitution. Let u = 3x, so the differential is du = 3 dx, which implies dx = du / 3. Substituting into the integral: ∫ sec^2(3x) dx = (1/3) ∫ sec^2(u) du. Since the standard antiderivative of sec^2(u) is tan(u), we obtain: (1/3) * tan(u) + C = (1/3) * tan(3x) + C.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions"
     },
     {
@@ -205,7 +205,7 @@
         "1/3"
       ],
       "answer": 2,
-      "explanation": "Antiderivative of 1/x is ln|x|. Evaluated from 1 to e^3: ln(e^3) - ln(1) = 3 - 0 = 3.",
+      "explanation": "The antiderivative of 1/x for x > 0 is ln(x). Applying the Fundamental Theorem of Calculus Part 2 to the definite integral ∫[1 to e^3] (1 / x) dx: [ln(x)]_1^(e^3) = ln(e^3) - ln(1). By logarithm properties, ln(e^3) = 3*ln(e) = 3*1 = 3, and ln(1) = 0. Therefore: ln(e^3) - ln(1) = 3 - 0 = 3.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions"
     },
     {
@@ -221,7 +221,7 @@
         "-6/x^3 + 12/x^4 + C"
       ],
       "answer": 0,
-      "explanation": "Rewrite with negative exponents: ∫ (3x^(-2) - 4x^(-3)) dx = 3(x^(-1)/-1) - 4(x^(-2)/-2) + C = -3/x + 2/x^2 + C.",
+      "explanation": "To evaluate ∫ (3/x^2 - 4/x^3) dx, rewrite the integrand using negative exponents: ∫ (3x^(-2) - 4x^(-3)) dx. Applying the power rule of integration ∫ x^n dx = (x^(n+1))/(n+1) to each term: 3 * [x^(-1) / (-1)] - 4 * [x^(-2) / (-2)] + C = -3x^(-1) + 2x^(-2) + C = -3/x + 2/x^2 + C.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions"
     },
     {
@@ -237,7 +237,7 @@
         "Undefined"
       ],
       "answer": 1,
-      "explanation": "By FTC Part 1, g'(x) = √(x^3 + 1). Evaluating at x = 2 gives g'(2) = √(2^3 + 1) = √(8 + 1) = √9 = 3.",
+      "explanation": "By the Fundamental Theorem of Calculus Part 1, if g(x) = ∫[a to x] f(t) dt, then g'(x) = f(x). Here g(x) = ∫[2 to x] √(t^3 + 1) dt, so the derivative with respect to x is g'(x) = √(x^3 + 1). Evaluating this derivative at the value x = 2: g'(2) = √(2^3 + 1) = √(8 + 1) = √9 = 3.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.4 Accumulation Functions"
     },
     {
@@ -253,7 +253,7 @@
         "13/2"
       ],
       "answer": 3,
-      "explanation": "Split the integral at x = 0: ∫[-2 to 0] (-x) dx + ∫[0 to 3] (x) dx = [-x^2/2]_{-2}^0 + [x^2/2]_0^3 = (0 - (-4/2)) + (9/2 - 0) = 2 + 9/2 = 4/2 + 9/2 = 13/2.",
+      "explanation": "The absolute value function |x| changes definition at x = 0 (|x| = -x for x < 0 and |x| = x for x ≥ 0). Split the definite integral into two pieces at x = 0: ∫[-2 to 3] |x| dx = ∫[-2 to 0] (-x) dx + ∫[0 to 3] (x) dx. Evaluating each part: [-x^2 / 2]_{-2}^0 = 0 - (-(-2)^2 / 2) = 0 - (-2) = 2; and [x^2 / 2]_0^3 = (3^2 / 2) - 0 = 9/2. Summing both areas gives: 2 + 9/2 = 4/2 + 9/2 = 13/2.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals and Piecewise Integrals"
     },
     {
@@ -269,7 +269,7 @@
         "sin^5(x) + C"
       ],
       "answer": 1,
-      "explanation": "Let u = sin(x), then du = cos(x) dx. The integral becomes ∫ u^4 du = (1/5)u^5 + C = (1/5) * sin^5(x) + C.",
+      "explanation": "To evaluate ∫ cos(x) * sin^4(x) dx, use u-substitution. Let u = sin(x), then du = cos(x) dx. The integral transforms directly into: ∫ u^4 du. Applying the power rule of integration yields (1/5)*u^5 + C. Substituting back u = sin(x) gives the final antiderivative: (1/5) * sin^5(x) + C.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
     },
     {
@@ -301,7 +301,7 @@
         "19"
       ],
       "answer": 0,
-      "explanation": "By the Fundamental Theorem of Calculus Part 2: ∫[a to b] f'(x) dx = f(b) - f(a). Here f(5) - f(1) = 19 - 7 = 12.",
+      "explanation": "By the Fundamental Theorem of Calculus Part 2 (Total Change Theorem), the definite integral of the rate of change f'(x) over an interval [a, b] equals the net change in f: ∫[a to b] f'(x) dx = f(b) - f(a). Here the interval is [1, 5] with given values f(1) = 7 and f(5) = 19. Substituting: ∫[1 to 5] f'(x) dx = f(5) - f(1) = 19 - 7 = 12.",
       "citation": "College Board AP® Calculus AB CED — Topic 6.7 Fundamental Theorem of Calculus Part 2"
     },
     {

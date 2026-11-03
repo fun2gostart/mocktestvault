@@ -34,7 +34,7 @@
         "180"
       ],
       "answer": 1,
-      "explanation": "Logic: n : (n² + n). For 14: 14² + 14 = 196 + 14 = 210. For 18: 18² + 18 = 324 + 18 = 342. Similarly for 12: 12² + 12 = 144 + 12 = 156.",
+      "explanation": "The underlying mathematical logic follows the quadratic pattern n : (n^2 + n). For the first pair: 14^2 + 14 = 196 + 14 = 210. For the second pair: 18^2 + 18 = 324 + 18 = 342. Applying this identical rule to the third term where n = 12: 12^2 + 12 = 144 + 12 = 156. Alternatively, this can be expressed as n * (n + 1): 14 * 15 = 210, 18 * 19 = 342, and 12 * 13 = 156.",
       "citation": "SSC CGL Quantitative Reasoning"
     },
     {
@@ -178,7 +178,7 @@
         "24"
       ],
       "answer": 3,
-      "explanation": "Substitute operators:\n45 ÷ 9 × 3 + 15 - 6\nFollow BODMAS rule:\n1. 45 ÷ 9 = 5\n2. 5 × 3 = 15\n3. 15 + 15 = 30\n4. 30 - 6 = 24.",
+      "explanation": "Substitute the operators according to the specified code: '+' becomes '÷', '-' becomes '×', '×' becomes '+', and '÷' becomes '-'. The expression transforms into: 45 ÷ 9 × 3 + 15 - 6. Following the standard BODMAS / PEMDAS hierarchy of operations: (1) Division: 45 ÷ 9 = 5; (2) Multiplication: 5 × 3 = 15; (3) Addition: 15 + 15 = 30; (4) Subtraction: 30 - 6 = 24. Thus, the evaluated value is 24.",
       "citation": "SSC CGL Mathematical Operations"
     },
     {
@@ -196,7 +196,7 @@
         "29th"
       ],
       "answer": 2,
-      "explanation": "Formula: Total = (Position from Left) + (Position from Right) - 1.\n45 = 18 + R - 1\n45 = 17 + R => R = 45 - 17 = 28th.",
+      "explanation": "In ranking and order arrangements, the total number of persons in a single row is given by the formula: Total = (Position from Left) + (Position from Right) - 1. We are given Total = 45 and Left Rank = 18. Substituting into the formula: 45 = 18 + R - 1 => 45 = 17 + R => R = 45 - 17 = 28. Therefore, Deepak's position from the right end of the row is 28th.",
       "citation": "SSC CGL Ranking & Position"
     },
     {
@@ -304,7 +304,7 @@
         "Pressure"
       ],
       "answer": 3,
-      "explanation": "Ohm is the SI unit of Electrical Resistance. Similarly, Pascal (Pa) is the SI unit of Pressure.",
+      "explanation": "This analogy tests standard International System of Units (SI units) in physics. The Ohm (symbol: Ω) is the SI derived unit of electrical resistance, defined as the resistance between two points of a conductor. In the exact same manner, the Pascal (symbol: Pa, equivalent to one Newton per square meter) is the SI derived unit of Pressure or mechanical stress.",
       "citation": "SSC CGL Scientific Units & Analogy"
     },
     {
@@ -340,7 +340,7 @@
         "2, 4, 3, 1, 5"
       ],
       "answer": 2,
-      "explanation": "Ascending order of geographical/administrative scale: Village (2) -> District (4) -> State (1) -> Country (3) -> Continent (5). Sequence: 2, 4, 1, 3, 5.",
+      "explanation": "The meaningful hierarchical sequence arranges geographical and administrative jurisdictions in ascending order of spatial scale: A Village (2) is a local rural settlement; multiple villages form a District (4); districts constitute a State (1); states comprise a sovereign Country (3); and multiple nations form a Continent (5). Thus, the correct ascending order is 2 -> 4 -> 1 -> 3 -> 5.",
       "citation": "SSC CGL Logical Hierarchy"
     },
     {
@@ -412,7 +412,7 @@
         "21 : 445"
       ],
       "answer": 3,
-      "explanation": "Check squares:\n13² = 169\n17² = 289\n19² = 361\n21² = 441 (not 445). Hence, 21 : 445 is the odd one out.",
+      "explanation": "Examine the mathematical relation between each number and its paired value: Option 1: 13^2 = 169 (exact square); Option 2: 17^2 = 289 (exact square); Option 3: 19^2 = 361 (exact square). For Option 4: 21^2 = 441, but the given pair states 445 (which is 441 + 4). Because 21 : 445 violates the perfect square pattern satisfied by all other pairs, it is the distinct odd pair out.",
       "citation": "SSC CGL Number Pairs"
     },
     {
@@ -430,7 +430,7 @@
         "2 holes"
       ],
       "answer": 2,
-      "explanation": "Folding twice creates 4 layers. Punching 2 holes through 4 layers produces 2 × 4 = 8 holes symmetrically positioned across the 4 quadrants upon unfolding.",
+      "explanation": "Folding a circular paper sheet in half and then into quarters creates 4 overlapping layers of paper in one quadrant. Punching 2 circular holes through this 4-layer sector pierces each individual layer. When the circular sheet is unfolded completely back to its original 360-degree form, each quadrant displays 2 holes: 2 holes * 4 quadrants = 8 circular holes symmetrically distributed around the center.",
       "citation": "SSC CGL Paper Folding & Punching"
     },
     {
@@ -484,7 +484,7 @@
         "42nd Amendment Act, 1976"
       ],
       "answer": 3,
-      "explanation": "The 42nd Constitutional Amendment Act of 1976 (also known as the 'Mini-Constitution') amended the Preamble to add 'Socialist', 'Secular', and 'Integrity'.",
+      "explanation": "The 42nd Constitutional Amendment Act of 1976 (frequently referred to as the 'Mini-Constitution' enacted during the Internal Emergency under Prime Minister Indira Gandhi) amended the Preamble of the Indian Constitution for the first and only time in history. It officially inserted three historic words: 'Socialist', 'Secular', and 'Integrity', changing the description of India from a 'Sovereign Democratic Republic' to a 'Sovereign Socialist Secular Democratic Republic'.",
       "citation": "SSC CGL Indian Polity — Preamble Amendments"
     },
     {
@@ -646,7 +646,7 @@
         "CaOCl₂"
       ],
       "answer": 1,
-      "explanation": "Baking soda is Sodium Hydrogen Carbonate (Sodium Bicarbonate, NaHCO₃). Na₂CO₃·10H₂O is washing soda, Ca(OH)₂ is slaked lime, and CaOCl₂ is bleaching powder.",
+      "explanation": "Baking soda is chemically known as Sodium Hydrogen Carbonate (or Sodium Bicarbonate) with the chemical formula NaHCO3. Produced industrially via the Solvay process, it releases carbon dioxide gas upon heating or reaction with mild edible acids, causing dough to rise. By comparison: Na2CO3·10H2O is Washing Soda; Ca(OH)2 is Slaked Lime (calcium hydroxide); and CaOCl2 is Bleaching Powder (calcium oxychloride).",
       "citation": "NCERT Chemistry — Common Chemical Compounds"
     },
     {
@@ -718,7 +718,7 @@
         "Madhya Pradesh"
       ],
       "answer": 1,
-      "explanation": "Kaziranga National Park is a UNESCO World Heritage Site located along the Brahmaputra floodplain in the Golaghat and Nagaon districts of Assam.",
+      "explanation": "Kaziranga National Park is a renowned UNESCO World Heritage Site situated along the fertile Brahmaputra River floodplains across Golaghat, Nagaon, and Sonitpur districts of Assam. Spanning approximately 430 square kilometers, it hosts over 2,600 Indian one-horned rhinoceroses (Rhinoceros unicornis)—accounting for roughly two-thirds of the species' entire global population—alongside high densities of Royal Bengal tigers, Asian elephants, and wild water buffalo.",
       "citation": "Ministry of Environment, Forest and Climate Change (MoEFCC)"
     },
     {
@@ -916,7 +916,7 @@
         "15%"
       ],
       "answer": 0,
-      "explanation": "Formula: Reduction % = [r / (100 + r)] × 100%.\nHere r = 25%.\nReduction = [25 / (100 + 25)] × 100% = [25 / 125] × 100% = (1/5) × 100% = 20%.",
+      "explanation": "When the price of an article increases by r%, the percentage reduction in consumption required to keep total expenditure unchanged is given by: Reduction % = [r / (100 + r)] * 100%. Here, the price of petrol rises by r = 25%. Substituting into the formula: Reduction = [25 / (100 + 25)] * 100% = [25 / 125] * 100% = (1/5) * 100% = 20%. Let initial price = ₹100 and consumption = 100 units (Expenditure = ₹10,000). New price = ₹125. New consumption = 10,000 / 125 = 80 units (a 20% reduction).",
       "citation": "Quantitative Aptitude — Percentage Applications"
     },
     {
@@ -952,7 +952,7 @@
         "₹16,000"
       ],
       "answer": 1,
-      "explanation": "Formula for 2-year difference: D = P(r / 100)².\n144 = P × (10 / 100)²\n144 = P × (1 / 10)² = P / 100\nP = 144 × 100 = ₹14,400.",
+      "explanation": "The difference between compound interest (compounded annually) and simple interest for a period of 2 years on a principal sum P at an annual interest rate r% is given by the standard formula: Difference D = P * (r / 100)^2. We are given D = ₹144 and r = 10%. Substituting values: 144 = P * (10 / 100)^2 => 144 = P * (1 / 10)^2 => 144 = P / 100 => P = 144 * 100 = ₹14,400. Thus, the original principal sum is ₹14,400.",
       "citation": "Quantitative Aptitude — Interest Differences"
     },
     {
@@ -970,7 +970,7 @@
         "24"
       ],
       "answer": 3,
-      "explanation": "The mean proportional (x) between a and b is given by x = √(a × b).\nx = √(9 × 64) = √9 × √64 = 3 × 8 = 24.",
+      "explanation": "In proportion theory, the mean proportional (also termed geometric mean) x between two positive numbers a and b satisfies the continuous proportion a : x :: x : b, which implies x^2 = a * b => x = sqrt(a * b). Given the two numbers a = 9 and b = 64: x = sqrt(9 * 64) = sqrt(9) * sqrt(64) = 3 * 8 = 24. Since 9 / 24 = 24 / 64 = 3 / 8, the proportion holds perfectly, confirming the mean proportional is 24.",
       "citation": "Quantitative Aptitude — Proportions"
     },
     {
@@ -1078,7 +1078,7 @@
         "21"
       ],
       "answer": 1,
-      "explanation": "Squaring both sides:\n[x + (1/x)]² = 5²\nx² + (1/x²) + 2·x·(1/x) = 25\nx² + (1/x²) + 2 = 25\nx² + (1/x²) = 25 - 2 = 23.",
+      "explanation": "Given the algebraic relation x + (1/x) = 5. Squaring both sides of the equation: [x + (1/x)]^2 = 5^2. Expanding via the identity (a + b)^2 = a^2 + 2ab + b^2: x^2 + 2 * x * (1/x) + (1/x^2) = 25 => x^2 + 2 + (1/x^2) = 25. Subtracting 2 from both sides isolates the desired expression: x^2 + (1/x^2) = 25 - 2 = 23. This is a recurring SSC CGL algebraic identity: x^2 + 1/x^2 = k^2 - 2, where k = 5.",
       "citation": "Quantitative Aptitude — Algebraic Identities"
     },
     {
@@ -1132,7 +1132,7 @@
         "40 m"
       ],
       "answer": 2,
-      "explanation": "tan 30° = Height / Distance\n1 / √3 = h / 60\nh = 60 / √3 = (60 × √3) / 3 = 20√3 metres (approx 34.64 m).",
+      "explanation": "Let AB be the vertical tower of height h standing perpendicular on the horizontal ground, and let C be the observation point 60 meters away from the foot B. In right-angled triangle ABC, angle ACB = 30 degrees. Using the tangent trigonometric ratio: tan(30°) = Opposite / Adjacent = AB / BC => 1 / sqrt(3) = h / 60. Cross-multiplying: h = 60 / sqrt(3). Rationalizing the denominator: h = (60 * sqrt(3)) / 3 = 20*sqrt(3) meters (approximately 34.64 meters).",
       "citation": "Quantitative Aptitude — Heights & Distances"
     },
     {
@@ -1168,7 +1168,7 @@
         "1.5 cm"
       ],
       "answer": 2,
-      "explanation": "For any right-angled triangle with perpendicular legs a and b and hypotenuse c:\nInradius r = (a + b - c) / 2 = (6 + 8 - 10) / 2 = (14 - 10) / 2 = 4 / 2 = 2 cm.",
+      "explanation": "For any right-angled triangle with perpendicular legs a and b and hypotenuse c, the inradius r of the inscribed circle can be computed directly using the formula: r = (a + b - c) / 2. Here, the side lengths are a = 6 cm, b = 8 cm, and hypotenuse c = 10 cm (since 6^2 + 8^2 = 36 + 64 = 100 = 10^2). Substituting values: r = (6 + 8 - 10) / 2 = (14 - 10) / 2 = 4 / 2 = 2 cm. Alternatively, using r = Area / semi-perimeter = [(1/2)*6*8] / 12 = 24 / 12 = 2 cm.",
       "citation": "Quantitative Aptitude — Right Triangle Inradius Formula"
     },
     {
@@ -1186,7 +1186,7 @@
         "105 m"
       ],
       "answer": 1,
-      "explanation": "Circumference = 2πr = 880 m\n2 × (22 / 7) × r = 880\n(44 / 7) × r = 880\nr = (880 × 7) / 44 = 20 × 7 = 140 m.",
+      "explanation": "The perimeter (circumference) of a circular field is given by the formula C = 2 * pi * r. Given C = 880 meters and taking pi = 22/7: 2 * (22 / 7) * r = 880 => (44 / 7) * r = 880. Solving for the radius r by cross-multiplying: r = (880 * 7) / 44. Since 880 / 44 = 20, we have: r = 20 * 7 = 140 meters. Therefore, the radius of the circular field is exactly 140 meters.",
       "citation": "Quantitative Aptitude — Circles Mensuration"
     },
     {
@@ -1204,7 +1204,7 @@
         "36"
       ],
       "answer": 0,
-      "explanation": "Number of spheres = Volume of large sphere / Volume of one small sphere\nN = [(4/3)πR³] / [(4/3)πr³] = R³ / r³ = (R / r)³ = (6 / 2)³ = 3³ = 27.",
+      "explanation": "When a solid metallic body is melted and recast into smaller objects, the total volume of metal is conserved. Volume of a sphere = (4/3) * pi * r^3. Let R = 6 cm be the radius of the large sphere and r = 2 cm be the radius of each small sphere. Number of small spheres N = (Volume of large sphere) / (Volume of one small sphere) = [(4/3)*pi*R^3] / [(4/3)*pi*r^3] = R^3 / r^3 = (R / r)^3 = (6 / 2)^3 = 3^3 = 27 solid spheres.",
       "citation": "Quantitative Aptitude — Solid Volume Transformation"
     },
     {
@@ -1240,7 +1240,7 @@
         "72"
       ],
       "answer": 0,
-      "explanation": "Property: Product of two numbers = HCF × LCM\n48 × Other Number = 12 × 240\nOther Number = (12 × 240) / 48 = 240 / 4 = 60.",
+      "explanation": "For any two positive integers, the product of their HCF and LCM is equal to the product of the two numbers: Number 1 * Number 2 = HCF * LCM. We are given HCF = 12, LCM = 240, and Number 1 = 48. Substituting into the formula: 48 * Number 2 = 12 * 240. Solving for the second number: Number 2 = (12 * 240) / 48. Simplifying: 12 / 48 = 1/4, so Number 2 = 240 / 4 = 60. Checking: HCF(48, 60) = 12 and LCM(48, 60) = 240.",
       "citation": "Quantitative Aptitude — HCF & LCM Properties"
     },
     {
@@ -1294,7 +1294,7 @@
         "8 units"
       ],
       "answer": 1,
-      "explanation": "Distance formula from origin: d = √(x² + y²)\nd = √((-6)² + 8²) = √(36 + 64) = √100 = 10 units.",
+      "explanation": "The Euclidean distance of any point P(x, y) on the Cartesian coordinate plane from the origin O(0, 0) is derived from the distance formula: d = sqrt((x - 0)^2 + (y - 0)^2) = sqrt(x^2 + y^2). For point P(-6, 8), substitute x = -6 and y = 8: d = sqrt((-6)^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 units. Since physical distance represents a geometric length, the principal square root is strictly positive, giving 10 units.",
       "citation": "Quantitative Aptitude — Coordinate Distance Formula"
     },
     {
@@ -1312,7 +1312,7 @@
         "45%"
       ],
       "answer": 1,
-      "explanation": "Increase = 180 - 120 = 60 thousand.\nPercentage Increase = (Increase / Initial Value) × 100% = (60 / 120) × 100% = (1/2) × 100% = 50%.",
+      "explanation": "To calculate the percentage increase in car production from 2021 to 2023: Initial production in 2021 = 120 thousand; Final production in 2023 = 180 thousand. Absolute Increase = 180 - 120 = 60 thousand. Percentage Increase = (Absolute Increase / Base Year Value) * 100% = (60 / 120) * 100% = (1 / 2) * 100% = 50%. Therefore, the automobile company experienced a 50% growth in production over the two-year period.",
       "citation": "Quantitative Aptitude — Data Interpretation"
     },
     {
@@ -1330,7 +1330,7 @@
         "72°"
       ],
       "answer": 2,
-      "explanation": "Total central angle of a circle = 360°.\nCentral angle for 30% = (30 / 100) × 360° = 0.30 × 360° = 108°.",
+      "explanation": "A complete pie chart represents total expenditure distributed across a full circular angle of 360 degrees. The central angle subtended by any budgetary sector is directly proportional to its percentage share: Central Angle = (Sector Percentage / 100) * 360 degrees. Given that expenditure on Food is 30%: Central Angle = (30 / 100) * 360° = 0.30 * 360° = 108 degrees. Thus, the Food sector occupies an arc of 108° at the center of the pie chart.",
       "citation": "Quantitative Aptitude — Pie Chart Calculations"
     },
     {
@@ -1348,7 +1348,7 @@
         "8"
       ],
       "answer": 0,
-      "explanation": "Using exponent rule a^m × a^n = a^(m+n):\n(256)^(0.16 + 0.09) = (256)^(0.25)\nSince 0.25 = 1/4:\n(256)^(1/4) = (4^4)^(1/4) = 4.",
+      "explanation": "Using the fundamental law of exponents for identical bases: a^m * a^n = a^(m + n). Applying this rule to the expression (256)^(0.16) * (256)^(0.09): (256)^(0.16 + 0.09) = (256)^(0.25). Expressing the decimal exponent as a simple rational fraction: 0.25 = 25/100 = 1/4. Now express the base 256 as a power of 4: 256 = 4^4 (since 4 * 4 * 4 * 4 = 256). Substituting: (4^4)^(1/4) = 4^(4 * 1/4) = 4^1 = 4.",
       "citation": "Quantitative Aptitude — Indices & Powers"
     },
     {
@@ -1402,7 +1402,7 @@
         "of"
       ],
       "answer": 1,
-      "explanation": "The verb 'abstain' takes the fixed preposition 'from' (abstain from something = to deliberately avoid or refrain from doing something).",
+      "explanation": "In English grammar, the intransitive verb 'abstain' governs the fixed preposition 'from' (to abstain from something). 'To abstain from' means to voluntarily restrain or refrain oneself from doing or consuming something, particularly food, alcohol, or unhealthy substances. Hence, 'Doctors advise patients suffering from hypertension to abstain from excessive salt intake' is grammatically precise.",
       "citation": "SSC CGL English — Fixed Prepositions"
     },
     {
@@ -1438,7 +1438,7 @@
         "Frank"
       ],
       "answer": 3,
-      "explanation": "'Candid' means truthful, straightforward, and sincere in speech without concealment. Synonym: Frank / Outspoken / Forthright.",
+      "explanation": "The adjective 'CANDID' (derived from the Latin 'candidus' meaning pure, clear, or white) describes a person, remark, or expression that is completely truthful, open, straightforward, and unreserved, without deceit or diplomatic evasion. Synonyms include Frank, Forthright, Blunt, Outspoken, and Sincere. Its direct antonyms are Deceitful, Evasive, and Guarded. Therefore, 'Frank' is the exact synonym.",
       "citation": "SSC CGL English Vocabulary — Synonyms"
     },
     {
@@ -1456,7 +1456,7 @@
         "Conscientious"
       ],
       "answer": 1,
-      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise. Its direct antonym is 'Careless' / 'Negligent' / 'Sloppy'.",
+      "explanation": "The adjective 'METICULOUS' describes someone who displays extreme or excessive care in the consideration or treatment of details; highly thorough, painstaking, and scrupulous. Its direct antonym is 'Careless' (or Negligent, Sloppy, Slapdash), which describes someone who acts without thought, precision, or attention to quality, making careless errors and overlooking crucial details.",
       "citation": "SSC CGL English Vocabulary — Antonyms"
     },
     {
@@ -1510,7 +1510,7 @@
         "To shoot a weapon accurately"
       ],
       "answer": 0,
-      "explanation": "'To bite the bullet' means to bravely endure an unavoidable grim, painful, or difficult circumstance without complaining.",
+      "explanation": "The historical idiom 'to bite the bullet' means to face a grim, painful, or unavoidable difficult situation with stoic fortitude and courage after having delayed or hesitated. Originating in 19th-century military battlefields before modern surgical anesthesia, wounded soldiers were instructed to physically bite on a soft lead bullet to endure amputations without screaming or biting their tongues.",
       "citation": "SSC CGL English — Idioms"
     },
     {
@@ -1528,7 +1528,7 @@
         "During a time of extreme happiness"
       ],
       "answer": 1,
-      "explanation": "'At the eleventh hour' means occurring or done just before it is too late; at the critical final moment.",
+      "explanation": "The idiom 'at the eleventh hour' means happening, decided, or done at the very last possible moment, immediately before a decisive deadline or disaster when further delay would be fatal. The idiom originates from the biblical Parable of the Workers in the Vineyard (Matthew 20:1–16), where laborers hired at the eleventh hour of a twelve-hour workday received the same full day's wage as those hired at dawn.",
       "citation": "SSC CGL English — Idioms & Phrases"
     },
     {
@@ -1546,7 +1546,7 @@
         "Bibliophile"
       ],
       "answer": 3,
-      "explanation": "Biblio (book) + phile (lover) = Bibliophile. Philanthropist is a lover of humanity; Polyglot is one who knows many languages.",
+      "explanation": "A 'Bibliophile' is a person who loves, collects, or has a profound intellectual admiration for books (from Greek 'biblion' meaning book + 'philos' meaning loving). In contrast: a 'Philanthropist' is a lover of humanity who promotes the welfare of others; a 'Polyglot' is a person fluent in multiple languages; and an 'Auditor' is an official who inspects and verifies financial accounts.",
       "citation": "SSC CGL One Word Substitution"
     },
     {
@@ -1582,7 +1582,7 @@
         "Sedative"
       ],
       "answer": 0,
-      "explanation": "'Panacea' (pan = all, akos = cure) refers to a mythical or hypothetical solution or remedy for all diseases, problems, or troubles.",
+      "explanation": "A 'Panacea' (derived from Greek 'pan' meaning all + 'akos' meaning remedy or cure) refers to a mythical universal medicine, elixir, or comprehensive solution believed to cure all diseases, solve all problems, and remedy every social difficulty. In contrast: an 'Antibiotic' destroys bacteria; a 'Placebo' is a pharmacologically inactive substance given for psychological effect; and a 'Sedative' calms or induces sleep.",
       "citation": "SSC CGL One Word Substitution"
     },
     {
@@ -1618,7 +1618,7 @@
         "Questionair"
       ],
       "answer": 2,
-      "explanation": "The correct spelling is 'QUESTIONNAIRE' (double 'n', ended with 'aire').",
+      "explanation": "The correct spelling is 'QUESTIONNAIRE'. Etymologically derived from 'question', the word requires double 'n' ('nn') followed by the French suffix '-aire': Q-U-E-S-T-I-O-N-N-A-I-R-E. Common orthographical mistakes include dropping the second 'n' ('questionaire') or misspelling the ending ('questionair'). A questionnaire is a formulated series of written questions used to gather statistical survey data.",
       "citation": "SSC CGL English — Word Spelling Rules"
     },
     {
@@ -1762,7 +1762,7 @@
         "formulate"
       ],
       "answer": 3,
-      "explanation": "Frameworks and policies are 'formulated' or 'developed'. 'Formulate' (to create or prepare methodically) fits the role of policymakers perfectly.",
+      "explanation": "In administrative, governance, and institutional contexts, legal policies, statutory rules, and regulatory frameworks are systematically 'formulated' (methodically created, drafted, and refined). Contextually, policymakers draft guidelines that balance public safety with digital technological growth. Options like 'abolish' (terminate), 'ignore' (disregard), and 'demolish' (destroy) convey negative meanings opposite to creating policy.",
       "citation": "SSC CGL English — Lexical Fit"
     },
     {
@@ -1798,7 +1798,7 @@
         "deficit"
       ],
       "answer": 2,
-      "explanation": "The phrase 'harness the full potential' is a standard English collocation meaning to fully utilize the latent capabilities and power of an innovation.",
+      "explanation": "The standard formal English collocation is 'to harness the full potential' of a new discovery or technology. 'To harness' means to capture, control, and channel energy or power for productive human use (analogous to harnessing a river for hydel power), while 'potential' refers to latent capabilities that can be realized. Negative words like 'hazard' (danger), 'obstacle' (barrier), or 'deficit' (shortage) contradict the context.",
       "citation": "SSC CGL English — Standard Collocations"
     }
   ]

@@ -34,7 +34,7 @@
         "180"
       ],
       "answer": 1,
-      "explanation": "Logic: n : (n² + n). For 14: 14² + 14 = 196 + 14 = 210. For 18: 18² + 18 = 324 + 18 = 342. Similarly for 12: 12² + 12 = 144 + 12 = 156.",
+      "explanation": "The underlying mathematical logic follows the quadratic pattern n : (n^2 + n). For the first pair: 14^2 + 14 = 196 + 14 = 210. For the second pair: 18^2 + 18 = 324 + 18 = 342. Applying this identical rule to the third term where n = 12: 12^2 + 12 = 144 + 12 = 156. Alternatively, this can be expressed as n * (n + 1): 14 * 15 = 210, 18 * 19 = 342, and 12 * 13 = 156.",
       "citation": "SSC CGL Quantitative Reasoning"
     },
     {
@@ -178,7 +178,7 @@
         "21"
       ],
       "answer": 1,
-      "explanation": "Substitute operators:\n45 ÷ 9 × 3 + 15 - 6\nFollow BODMAS rule:\n1. 45 ÷ 9 = 5\n2. 5 × 3 = 15\n3. 15 + 15 = 30\n4. 30 - 6 = 24.",
+      "explanation": "Substitute the operators according to the specified code: '+' becomes '÷', '-' becomes '×', '×' becomes '+', and '÷' becomes '-'. The expression transforms into: 45 ÷ 9 × 3 + 15 - 6. Following the standard BODMAS / PEMDAS hierarchy of operations: (1) Division: 45 ÷ 9 = 5; (2) Multiplication: 5 × 3 = 15; (3) Addition: 15 + 15 = 30; (4) Subtraction: 30 - 6 = 24. Thus, the evaluated value is 24.",
       "citation": "SSC CGL Mathematical Operations"
     },
     {
@@ -196,7 +196,7 @@
         "29th"
       ],
       "answer": 0,
-      "explanation": "Formula: Total = (Position from Left) + (Position from Right) - 1.\n45 = 18 + R - 1\n45 = 17 + R => R = 45 - 17 = 28th.",
+      "explanation": "In ranking and order arrangements, the total number of persons in a single row is given by the formula: Total = (Position from Left) + (Position from Right) - 1. We are given Total = 45 and Left Rank = 18. Substituting into the formula: 45 = 18 + R - 1 => 45 = 17 + R => R = 45 - 17 = 28. Therefore, Deepak's position from the right end of the row is 28th.",
       "citation": "SSC CGL Ranking & Position"
     },
     {
@@ -304,7 +304,7 @@
         "Frequency"
       ],
       "answer": 0,
-      "explanation": "Ohm is the SI unit of Electrical Resistance. Similarly, Pascal (Pa) is the SI unit of Pressure.",
+      "explanation": "This analogy tests standard International System of Units (SI units) in physics. The Ohm (symbol: Ω) is the SI derived unit of electrical resistance, defined as the resistance between two points of a conductor. In the exact same manner, the Pascal (symbol: Pa, equivalent to one Newton per square meter) is the SI derived unit of Pressure or mechanical stress.",
       "citation": "SSC CGL Scientific Units & Analogy"
     },
     {
@@ -340,7 +340,7 @@
         "2, 4, 3, 1, 5"
       ],
       "answer": 1,
-      "explanation": "Ascending order of geographical/administrative scale: Village (2) -> District (4) -> State (1) -> Country (3) -> Continent (5). Sequence: 2, 4, 1, 3, 5.",
+      "explanation": "The meaningful hierarchical sequence arranges geographical and administrative jurisdictions in ascending order of spatial scale: A Village (2) is a local rural settlement; multiple villages form a District (4); districts constitute a State (1); states comprise a sovereign Country (3); and multiple nations form a Continent (5). Thus, the correct ascending order is 2 -> 4 -> 1 -> 3 -> 5.",
       "citation": "SSC CGL Logical Hierarchy"
     },
     {
@@ -412,7 +412,7 @@
         "19 : 361"
       ],
       "answer": 0,
-      "explanation": "Check squares:\n13² = 169\n17² = 289\n19² = 361\n21² = 441 (not 445). Hence, 21 : 445 is the odd one out.",
+      "explanation": "Examine the mathematical relation between each number and its paired value: Option 1: 13^2 = 169 (exact square); Option 2: 17^2 = 289 (exact square); Option 3: 19^2 = 361 (exact square). For Option 4: 21^2 = 441, but the given pair states 445 (which is 441 + 4). Because 21 : 445 violates the perfect square pattern satisfied by all other pairs, it is the distinct odd pair out.",
       "citation": "SSC CGL Number Pairs"
     },
     {
@@ -430,7 +430,7 @@
         "8 holes symmetrically distributed"
       ],
       "answer": 3,
-      "explanation": "Folding twice creates 4 layers. Punching 2 holes through 4 layers produces 2 × 4 = 8 holes symmetrically positioned across the 4 quadrants upon unfolding.",
+      "explanation": "Folding a circular paper sheet in half and then into quarters creates 4 overlapping layers of paper in one quadrant. Punching 2 circular holes through this 4-layer sector pierces each individual layer. When the circular sheet is unfolded completely back to its original 360-degree form, each quadrant displays 2 holes: 2 holes * 4 quadrants = 8 circular holes symmetrically distributed around the center.",
       "citation": "SSC CGL Paper Folding & Punching"
     },
     {

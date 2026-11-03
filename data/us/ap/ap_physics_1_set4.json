@@ -45,7 +45,7 @@
         "8 m/s east"
       ],
       "answer": 1,
-      "explanation": "Conservation of linear momentum: m1*v1 + m2*v2 = (m1 + m2)*v_f. (1200 kg * 20 m/s) + 0 = (1200 + 800) kg * v_f → 24,000 = 2,000 * v_f → v_f = 12 m/s east.",
+      "explanation": "In an isolated collision system without external horizontal forces, total linear momentum is strictly conserved: m1*v1 + m2*v2 = (m1 + m2)*v_f. With car 1 (1,200 kg) moving at 20 m/s east and car 2 (800 kg) initially stationary: (1,200 * 20) + 0 = (1,200 + 800) * v_f => 24,000 = 2,000 * v_f => v_f = 24,000 / 2,000 = 12 m/s east. The locked cars move together at 12 m/s eastward.",
       "citation": "College Board AP® Physics 1 CED — Topic 5.2 Conservation of Linear Momentum and Inelastic Collisions"
     },
     {
@@ -173,7 +173,7 @@
         "1,000 N"
       ],
       "answer": 3,
-      "explanation": "Δv = 26 - (-14) = 40 m/s. Impulse J = m * Δv = 0.5 kg * 40 m/s = 20 N·s. Average force F_avg = J / Δt = 20 N·s / 0.02 s = 1,000 N.",
+      "explanation": "Change in velocity is Δv = v_final - v_initial = 26 m/s - (-14 m/s) = 40 m/s. The impulse J delivered to the soccer ball equals its change in momentum: J = m * Δv = 0.5 kg * 40 m/s = 20 N·s. The average contact force exerted by the foot during the impact interval Δt = 0.02 seconds is given by the impulse-momentum theorem: F_avg = J / Δt = 20 N·s / 0.02 s = 1,000 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 5.1 Impulse and Force"
     },
     {
@@ -205,7 +205,7 @@
         "60,000 N"
       ],
       "answer": 0,
-      "explanation": "Area of triangle = (1/2) * base * height = (1/2) * Δt * F_max = Impulse J. 600 N·s = (1/2) * 0.04 s * F_max = 0.02 * F_max → F_max = 600 / 0.02 = 30,000 N.",
+      "explanation": "The impulse J delivered during an impact corresponds to the area under the Force vs. Time graph. For a triangular force pulse of duration Δt and peak force F_max: Impulse J = (1/2) * base * height = (1/2) * Δt * F_max. Given J = 600 N·s and Δt = 0.04 s: 600 = (1/2) * 0.04 * F_max = 0.02 * F_max. Solving for the peak impact force: F_max = 600 / 0.02 = 30,000 N.",
       "citation": "College Board AP® Physics 1 CED — Topic 5.1 Momentum and Impulse"
     },
     {
@@ -285,7 +285,7 @@
         "1.5 meters from the 3.0 kg mass"
       ],
       "answer": 2,
-      "explanation": "x_cm = (m1*x1 + m2*x2) / (m1 + m2) = (3.0 kg * 0 m + 1.0 kg * 2.0 m) / (3.0 + 1.0) kg = 2.0 / 4.0 = 0.5 meters from x = 0 (the 3.0 kg mass).",
+      "explanation": "For a system composed of discrete point masses along a coordinate axis, the center of mass position is given by x_cm = (m1*x1 + m2*x2) / (m1 + m2). Choosing the position of the 3.0 kg mass as origin x = 0 m and the 1.0 kg mass at x = 2.0 m: x_cm = ((3.0 * 0) + (1.0 * 2.0)) / (3.0 + 1.0) = 2.0 / 4.0 = 0.5 meters. Thus, the center of mass is located exactly 0.5 meters from the 3.0 kg mass.",
       "citation": "College Board AP® Physics 1 CED — Topic 5.4 Center of Mass"
     },
     {
@@ -301,7 +301,7 @@
         "0.80"
       ],
       "answer": 3,
-      "explanation": "Impact speed v_impact = √(2g*h0). Rebound speed v_rebound = √(2g*h1). Ratio e = v_rebound / v_impact = √(h1 / h0) = √(0.64) = 0.80.",
+      "explanation": "Upon falling from height h0, the ball strikes the floor with impact speed v_impact = √(2g*h0). Rebounding to height h1 = 0.64*h0, its takeoff speed is v_rebound = √(2g*h1). The coefficient of restitution e is defined as the ratio of rebound speed to impact speed: e = v_rebound / v_impact = √(2g*h1) / √(2g*h0) = √(h1 / h0) = √(0.64) = 0.80. Thus, the restitution ratio is 0.80.",
       "citation": "College Board AP® Physics 1 CED — Topic 5.3 Inelastic Collisions"
     },
     {

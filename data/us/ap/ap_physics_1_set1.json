@@ -13,7 +13,7 @@
         "-2.5 m/s^2"
       ],
       "answer": 1,
-      "explanation": "Acceleration is the slope of the velocity-time graph: a = Δv / Δt = (-10 - 10) / (4 - 0) = -20 / 4 = -5.0 m/s^2.",
+      "explanation": "Acceleration is defined as the rate of change of velocity with respect to time, which corresponds directly to the slope of a velocity-time graph: a = Δv / Δt. Here, the velocity decreases uniformly from v_initial = +10 m/s at t = 0 to v_final = -10 m/s at t = 4 s. Substituting into the slope formula: a = (-10 - 10) / (4 - 0) = -20 / 4 = -5.0 m/s^2. The negative sign denotes constant deceleration in the positive direction followed by acceleration in the negative direction.",
       "citation": "College Board AP® Physics 1 CED — Topic 1.2 Representations of Motion"
     },
     {
@@ -157,7 +157,7 @@
         "0.5 J"
       ],
       "answer": 0,
-      "explanation": "Elastic potential energy Us = (1/2) * k * x^2 = (1/2) * (200 N/m) * (0.10 m)^2 = 100 * 0.01 = 1.0 Joule.",
+      "explanation": "The elastic potential energy stored in an ideal Hookean spring compressed or stretched by a distance x from its uncompressed equilibrium length is given by Us = (1/2) * k * x^2. Given spring constant k = 200 N/m and compression distance x = 0.10 m: Us = (1/2) * (200 N/m) * (0.10 m)^2 = 100 * 0.01 = 1.0 Joule. This represents the total mechanical work performed against the spring restoring force.",
       "citation": "College Board AP® Physics 1 CED — Topic 4.1 Systems and Energy"
     },
     {
@@ -221,7 +221,7 @@
         "x = 5.0 m"
       ],
       "answer": 1,
-      "explanation": "Center of mass x_cm = (m1*x1 + m2*x2) / (m1 + m2) = ((1.0 * 0) + (3.0 * 8.0)) / (1.0 + 3.0) = 24.0 / 4.0 = 6.0 m.",
+      "explanation": "The center of mass for a one-dimensional system of discrete particles is calculated using the weighted average formula: x_cm = (m1*x1 + m2*x2) / (m1 + m2). Substituting the given values m1 = 1.0 kg at x1 = 0 m and m2 = 3.0 kg at x2 = 8.0 m: x_cm = ((1.0 * 0) + (3.0 * 8.0)) / (1.0 + 3.0) = 24.0 / 4.0 = 6.0 m. The center of mass is located at x = 6.0 m, which is 3 times closer to the heavier 3.0 kg particle than to the 1.0 kg particle.",
       "citation": "College Board AP® Physics 1 CED — Topic 5.3 Conservation of Linear Momentum"
     },
     {
@@ -285,7 +285,7 @@
         "T * √2"
       ],
       "answer": 2,
-      "explanation": "Period of a mass-spring system is T = 2π * √(m / k). If mass becomes 4m: T_new = 2π * √(4m / k) = 2 * (2π * √(m / k)) = 2T. The period doubles.",
+      "explanation": "The period of oscillation for an ideal mass-spring system in simple harmonic motion is given by T = 2*pi * √(m / k). If the oscillating mass is quadrupled to 4m while keeping the spring constant k unchanged, the new period becomes: T_new = 2*pi * √(4m / k) = √(4) * [2*pi * √(m / k)] = 2T. Because period scales proportionally with the square root of the inertial mass, quadrupling the mass exactly doubles the period.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Period of Simple Harmonic Oscillators"
     },
     {

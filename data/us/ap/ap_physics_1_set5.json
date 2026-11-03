@@ -13,7 +13,7 @@
         "The period remains unchanged"
       ],
       "answer": 1,
-      "explanation": "Period of a mass-spring system is T = 2π * √(m / k). If mass m is multiplied by 4, T' = 2π * √(4m / k) = 2 * (2π * √(m/k)) = 2T.",
+      "explanation": "The period of oscillation for a mass-spring harmonic oscillator is given by T = 2*pi * √(m / k). If the attached mass m is quadrupled to 4m while keeping spring constant k fixed, the new period is: T' = 2*pi * √(4m / k) = √(4) * [2*pi * √(m / k)] = 2T. Because oscillation period is directly proportional to the square root of the inertial mass, quadrupling mass doubles the period (2T).",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Period of Simple Harmonic Oscillators"
     },
     {
@@ -29,7 +29,7 @@
         "T * √6"
       ],
       "answer": 3,
-      "explanation": "Period of a simple pendulum is T = 2π * √(L / g). On the Moon, T_moon = 2π * √(L / (g/6)) = 2π * √(6L / g) = √6 * T.",
+      "explanation": "The period of a simple pendulum executing small-angle oscillations is T = 2*pi * √(L / g). On the Moon, gravitational acceleration is g_moon = g / 6. Substituting this into the pendulum formula: T_moon = 2*pi * √(L / (g/6)) = 2*pi * √(6L / g) = √6 * [2*pi * √(L / g)] = T * √6. Weaker lunar surface gravity reduces the gravitational restoring torque, thereby increasing the period by a factor of √6.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Period of Simple Harmonic Oscillators"
     },
     {
@@ -45,7 +45,7 @@
         "A * √2"
       ],
       "answer": 0,
-      "explanation": "Total mechanical energy E = (1/2)kA^2. When K = U, each equals half the total energy: U = (1/2)E → (1/2)kx^2 = (1/2)[(1/2)kA^2] → x^2 = A^2 / 2 → x = A / √2.",
+      "explanation": "Total mechanical energy in simple harmonic motion is constant and given by E = (1/2)*k*A^2. When kinetic energy equals potential energy (K = U), the potential energy must equal half the total energy: U = (1/2)*E. Substituting the expressions for potential and total energy: (1/2)*k*x^2 = (1/2) * [(1/2)*k*A^2] => x^2 = A^2 / 2. Taking the square root gives displacement magnitude x = A / √2.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.2 Energy of a Simple Harmonic Oscillator"
     },
     {
@@ -77,7 +77,7 @@
         "50 radians"
       ],
       "answer": 3,
-      "explanation": "Rotational kinematic equation: θ = ω0*t + (1/2)α*t^2. With ω0 = 0: θ = (1/2) * 4.0 rad/s^2 * (5.0 s)^2 = 2.0 * 25 = 50 radians.",
+      "explanation": "For rotational motion under constant angular acceleration α starting from rest (initial angular speed ω0 = 0), the total angular displacement is given by the rotational kinematic formula: θ = ω0*t + (1/2)*α*t^2. With α = 4.0 rad/s^2 and elapsed time t = 5.0 seconds: θ = 0 + (1/2) * (4.0 rad/s^2) * (5.0 s)^2 = 2.0 * 25 = 50 radians. The wheel turns through 50 radians.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.1 Rotational Kinematics"
     },
     {
@@ -93,7 +93,7 @@
         "10 N·m"
       ],
       "answer": 1,
-      "explanation": "Torque τ = r * F * sin(θ). For perpendicular force (θ = 90°, sin 90° = 1): τ = 0.25 m * 80 N * 1 = 20 N·m.",
+      "explanation": "Torque produced by an applied force about a rotational axis is calculated as τ = r * F * sin(θ), where r is the lever arm distance, F is the force magnitude, and θ is the angle between force and lever arm. For a force applied perpendicular to the wrench handle (θ = 90°, sin 90° = 1): τ = 0.25 m * 80 N * 1 = 20 N·m. Thus, a torque of 20 Newton-meters is exerted about the bolt axis.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.2 Torque and Angular Acceleration"
     },
     {
@@ -109,7 +109,7 @@
         "2.0 rad/s^2"
       ],
       "answer": 2,
-      "explanation": "Rotational equivalent of Newton's Second Law: τ_net = I * α → α = τ_net / I = 12 N·m / 3.0 kg·m^2 = 4.0 rad/s^2.",
+      "explanation": "The rotational equivalent of Newton's Second Law relates net torque τ_net to moment of inertia I and angular acceleration α: τ_net = I * α. Solving for angular acceleration gives α = τ_net / I. Given net torque τ_net = 12 N·m and flywheel rotational inertia I = 3.0 kg·m^2: α = 12 N·m / 3.0 kg·m^2 = 4.0 rad/s^2. The flywheel experiences an angular acceleration of 4.0 rad/s^2.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.2 Torque and Angular Acceleration"
     },
     {
@@ -173,7 +173,7 @@
         "√3 * ω0"
       ],
       "answer": 2,
-      "explanation": "Conservation of angular momentum: L_initial = L_final → I0 * ω0 = I_f * ω_f → I0 * ω0 = (I0 / 3) * ω_f → ω_f = 3 * ω0.",
+      "explanation": "In the absence of external net torque, the skater's total angular momentum L = I * ω is conserved: L_initial = L_final => I0 * ω0 = I_f * ω_f. By pulling her arms inward, the skater reduces her rotational inertia to I_f = I0 / 3. Substituting into the conservation equation: I0 * ω0 = (I0 / 3) * ω_f => ω_f = 3 * ω0. Decreasing moment of inertia threefold causes her spin rate to triple.",
       "citation": "College Board AP® Physics 1 CED — Topic 7.4 Conservation of Angular Momentum"
     },
     {
@@ -253,7 +253,7 @@
         "1.0 m/s"
       ],
       "answer": 3,
-      "explanation": "Maximum speed in SHM is v_max = A * ω = A * √(k / m) = 0.05 m * √(100 / 0.25) = 0.05 * √400 = 0.05 * 20 = 1.0 m/s.",
+      "explanation": "In simple harmonic motion, maximum velocity occurs as the block passes through the equilibrium position (x = 0), where all mechanical energy is kinetic: v_max = A * ω = A * √(k / m). Substituting amplitude A = 0.05 m, spring constant k = 100 N/m, and block mass m = 0.25 kg: v_max = 0.05 m * √(100 / 0.25) = 0.05 * √400 = 0.05 * 20 = 1.0 m/s. The maximum speed is 1.0 m/s.",
       "citation": "College Board AP® Physics 1 CED — Topic 6.1 Simple Harmonic Motion"
     },
     {

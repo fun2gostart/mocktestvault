@@ -13,7 +13,7 @@
         "3.2 hours"
       ],
       "answer": 0,
-      "explanation": "Combined rate per hour = 1/4 + 1/6 = 3/12 + 2/12 = 5/12 of the reservoir per hour. Time taken = 1 / (5/12) = 12/5 = 2.4 hours.",
+      "explanation": "Work rate problems are solved using the formula Rate = 1 / Time. Pipe A fills the reservoir at a rate of 1/4 reservoir per hour, and Pipe B fills it at a rate of 1/6 reservoir per hour. Working simultaneously, their combined filling rate is: Combined Rate = 1/4 + 1/6 = 3/12 + 2/12 = 5/12 of the reservoir per hour. The total time required is the reciprocal of the combined rate: Time = 1 / (5/12) = 12/5 = 2.4 hours.",
       "citation": "College Board Digital SAT Math Specification — Rational Rates"
     },
     {
@@ -45,7 +45,7 @@
         "26.7 grams"
       ],
       "answer": 2,
-      "explanation": "Number of half-life cycles elapsed n = 24 / 8 = 3. Remaining mass = 80 * (1/2)^3 = 80 * 1/8 = 10 grams.",
+      "explanation": "Exponential radioactive decay follows the model M(t) = M0 * (1/2)^n, where M0 is the initial mass and n is the number of half-life cycles elapsed: n = t / T_half. Here, the half-life is 8 days and the elapsed time is 24 days: n = 24 / 8 = 3 complete half-life cycles. The remaining mass of the isotope is M = 80 * (1/2)^3 = 80 * (1/8) = 10 grams.",
       "citation": "College Board Digital SAT Math Specification — Exponential Models"
     },
     {
@@ -61,7 +61,7 @@
         "g(x) = (x - 3)^2 + 5"
       ],
       "answer": 3,
-      "explanation": "Horizontal shift right by h units replaces x with (x - h), so (x - 3)^2. Vertical shift upward by k units adds k, resulting in g(x) = (x - 3)^2 + 5.",
+      "explanation": "Function transformation rules dictate that shifting the graph of f(x) horizontally to the right by h units replaces x with (x - h), resulting in f(x - h). Shifting the graph vertically upward by k units adds k to the function, resulting in f(x - h) + k. Starting from f(x) = x^2, shifting right by 3 units gives (x - 3)^2, and shifting upward by 5 units gives g(x) = (x - 3)^2 + 5.",
       "citation": "College Board Digital SAT Math Specification — Function Notation"
     },
     {
@@ -77,7 +77,7 @@
         "8π cm"
       ],
       "answer": 0,
-      "explanation": "Arc length formula in radians: s = r * θ. Substituting r = 12 cm and θ = π/3 gives s = 12 * (π/3) = 4π cm.",
+      "explanation": "In a circle of radius r, the length of an arc s intercepted by a central angle theta (in radians) is given by the formula s = r * theta. Given a radius r = 12 cm and a central angle theta = pi/3 radians, substitute these parameters directly into the formula: s = 12 * (pi / 3) = (12 / 3) * pi = 4*pi cm. Thus, the arc length is exactly 4*pi cm.",
       "citation": "College Board Digital SAT Math Specification — Radians & Arc Length"
     },
     {
@@ -109,7 +109,7 @@
         "The speed in miles per hour of the taxi"
       ],
       "answer": 1,
-      "explanation": "In C(m) = 2.50m + 4.00, m is miles traveled. When m = 0, C(0) = 4.00. This represents the base pickup fee charged regardless of distance.",
+      "explanation": "In the linear cost equation C(m) = 2.50m + 4.00, m represents the number of miles traveled. The coefficient 2.50 is the slope, representing the marginal rate of $2.50 charged per mile driven. The constant term 4.00 represents the y-intercept, which is the value of C when m = 0: C(0) = 4.00. In real-world terms, this represents the fixed initial pickup fee (flag-drop fare) charged before any distance is traveled.",
       "citation": "College Board Digital SAT Math Specification — Linear Models"
     },
     {
@@ -141,7 +141,7 @@
         "The range of Dataset X must be greater than Dataset Y"
       ],
       "answer": 1,
-      "explanation": "IQR = Q3 - Q1. For Dataset X: IQR = 35 - 15 = 20. For Dataset Y: IQR = 45 - 20 = 25. Since 25 > 20, Dataset Y has a greater IQR.",
+      "explanation": "The interquartile range (IQR) is a measure of statistical dispersion calculated as IQR = Q3 - Q1 (the difference between the third quartile and first quartile). For Dataset X: IQR_X = 35 - 15 = 20. For Dataset Y: IQR_Y = 45 - 20 = 25. Comparing the two values: 25 > 20, which proves conclusively that the interquartile range of Dataset Y is greater than that of Dataset X.",
       "citation": "College Board Digital SAT Math Specification — Five-Number Summary"
     },
     {
@@ -173,7 +173,7 @@
         "35°"
       ],
       "answer": 0,
-      "explanation": "The Inscribed Angle Theorem states that the measure of an inscribed angle is exactly half the measure of its intercepted arc: Angle = 140° / 2 = 70°.",
+      "explanation": "According to the Inscribed Angle Theorem in plane Euclidean geometry, the measure of an angle inscribed in a circle is equal to exactly half the angular measure of its intercepted arc. Here, the intercepted arc has a measure of 140°. Therefore, the measure of the inscribed angle is: Inscribed Angle = 140° / 2 = 70°. Note that a central angle intercepting the same arc would measure the full 140°.",
       "citation": "College Board Digital SAT Math Specification — Circles & Inscribed Angles"
     },
     {
@@ -189,7 +189,7 @@
         "3/5"
       ],
       "answer": 3,
-      "explanation": "Using sin^2(θ) + cos^2(θ) = 1: sin^2(θ) + (4/5)^2 = 1 → sin^2(θ) + 16/25 = 1 → sin^2(θ) = 9/25. Since θ is acute, sin(θ) = 3/5.",
+      "explanation": "Use the fundamental Pythagorean trigonometric identity sin^2(theta) + cos^2(theta) = 1. Substituting cos(theta) = 4/5: sin^2(theta) + (4/5)^2 = 1 => sin^2(theta) + 16/25 = 1. Subtracting 16/25 from both sides: sin^2(theta) = 25/25 - 16/25 = 9/25. Because theta is an acute angle (0° < theta < 90°), the sine value must be positive: sin(theta) = sqrt(9/25) = 3/5. This also matches the standard 3-4-5 right triangle ratios.",
       "citation": "College Board Digital SAT Math Specification — Trigonometric Identities"
     },
     {
@@ -237,7 +237,7 @@
         "96π"
       ],
       "answer": 3,
-      "explanation": "Volume of cone V = (1/3) * π * r^2 * h = (1/3) * π * (6^2) * 8 = (1/3) * π * 36 * 8 = 12 * 8 * π = 96π cubic cm.",
+      "explanation": "The volume V of a right circular cone is given by the formula V = (1/3) * pi * r^2 * h, where r is the radius of the circular base and h is the vertical height. Substituting r = 6 cm and h = 8 cm into the formula: V = (1/3) * pi * (6^2) * 8 = (1/3) * pi * 36 * 8. Simplifying: (1/3) * 36 = 12, and 12 * 8 = 96. Thus, the volume of the cone is exactly 96*pi cubic centimeters.",
       "citation": "College Board Digital SAT Math Specification — Geometric Volumes"
     },
     {
@@ -253,7 +253,7 @@
         "2,000(1.08)^t"
       ],
       "answer": 1,
-      "explanation": "Formula: A = P(1 + r/n)^(nt). Here P = 2,000, r = 0.08, n = 4 (quarters/year). r/n = 0.08 / 4 = 0.02. Thus A = 2,000(1 + 0.02)^(4t) = 2,000(1.02)^(4t).",
+      "explanation": "The general compound interest formula with periodic compounding is A = P(1 + r/n)^(nt), where P is the principal, r is the annual interest rate, n is the compounding frequency per year, and t is time in years. Here P = $2,000, r = 0.08, and quarterly compounding means n = 4. The periodic interest rate is r/n = 0.08 / 4 = 0.02, and the total periods are nt = 4t. Thus: A(t) = 2,000(1 + 0.02)^(4t) = 2,000(1.02)^(4t).",
       "citation": "College Board Digital SAT Math Specification — Compound Interest"
     },
     {
@@ -285,7 +285,7 @@
         "128 cm^3"
       ],
       "answer": 2,
-      "explanation": "When linear scale factor is a:b, volumes scale as a^3:b^3. Here ratio is 2^3:3^3 = 8:27. Volume of larger = 64 * (27 / 8) = 8 * 27 = 216 cm^3.",
+      "explanation": "When two similar geometric solids have linear dimensions in the scale ratio a : b, their surface areas scale in the ratio a^2 : b^2 and their volumes scale in the ratio a^3 : b^3. Given that the edge lengths of the two cubes are in the ratio 2 : 3, their volume ratio is 2^3 : 3^3 = 8 : 27. Setting up a proportion with the smaller cube's volume: 64 / V_large = 8 / 27 => V_large = 64 * (27 / 8) = 8 * 27 = 216 cm^3.",
       "citation": "College Board Digital SAT Math Specification — 3D Scaling"
     },
     {
@@ -301,7 +301,7 @@
         "2π/3"
       ],
       "answer": 1,
-      "explanation": "To convert degrees to radians, multiply by π/180°: 150 * (π / 180) = (150/180)π = 5π/6 radians.",
+      "explanation": "To convert an angle from degrees to radians, multiply by the conversion factor (pi radians / 180°), since a complete 360° circle equals 2*pi radians. For an angle of 150°: Radians = 150° * (pi / 180°) = (150 / 180) * pi. Dividing both the numerator and denominator by their greatest common divisor 30 yields: (150 / 30) / (180 / 30) = 5/6. Therefore, 150° is equivalent to 5*pi/6 radians.",
       "citation": "College Board Digital SAT Math Specification — Angles and Radians"
     },
     {
