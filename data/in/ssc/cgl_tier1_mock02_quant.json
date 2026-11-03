@@ -25,8 +25,8 @@
         "120"
       ],
       "answer": 0,
-      "explanation": "Formula: x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x) = 5^3 - 3(5) = 125 - 15 = 110.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Algebraic Identities"
+      "explanation": "Given x + 1/x = 5. Using the standard algebraic expansion: (x + 1/x)³ = x³ + 1/x³ + 3·x·(1/x)·(x + 1/x). Rearranging gives the standard CGL identity: x³ + 1/x³ = (x + 1/x)³ - 3(x + 1/x). Substituting 5: x³ + 1/x³ = 5³ - 3(5) = 125 - 15 = 110. General formula: if x + 1/x = k, then x³ + 1/x³ = k³ - 3k. Here, 5³ - 3(5) = 125 - 15 = 110.",
+      "citation": "SSC CGL Quantitative Aptitude — Algebraic Identities"
     },
     {
       "id": "cgl2_quant_02",
@@ -43,8 +43,8 @@
         "28%"
       ],
       "answer": 0,
-      "explanation": "Formula: Equivalent discount = d1 + d2 - (d1 * d2) / 100 = 20 + 15 - (20 * 15) / 100 = 35 - 3 = 32%.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Successive Percentage Discount"
+      "explanation": "For two successive discounts of d₁% and d₂%, the single equivalent discount D is given by the formula: D = d₁ + d₂ - (d₁ × d₂) / 100. Substituting d₁ = 20% and d₂ = 15%: D = 20 + 15 - (20 × 15) / 100 = 35 - (300 / 100) = 35 - 3 = 32%. Alternatively, assuming Marked Price = ₹100: Price after 20% discount = ₹80; Price after further 15% discount on ₹80 = 80 - (0.15 × 80) = 80 - 12 = ₹68. Total discount = 100 - 68 = 32%.",
+      "citation": "SSC CGL Quantitative Aptitude — Successive Percentage Discount"
     },
     {
       "id": "cgl2_quant_03",
@@ -61,8 +61,8 @@
         "16 cm"
       ],
       "answer": 0,
-      "explanation": "Tangent-Secant Theorem: PT^2 = PA * PB.\nHere PA = 9 cm, PB = PA + AB = 9 + 7 = 16 cm.\nPT^2 = 9 * 16 = 144 => PT = \u221a144 = 12 cm.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Circles & Tangent Secant Theorem"
+      "explanation": "By the Tangent-Secant Theorem for circles, if a tangent PT and a secant PAB are drawn from an external point P to a circle, the square of the tangent length equals the product of the secant segments: PT² = PA × PB. Here, PA = 9 cm and AB = 7 cm, so the entire secant length PB = PA + AB = 9 + 7 = 16 cm. Substituting values: PT² = 9 × 16 = 144. Taking the square root: PT = √144 = 12 cm.",
+      "citation": "SSC CGL Quantitative Aptitude — Circles & Tangent Secant Theorem"
     },
     {
       "id": "cgl2_quant_04",
@@ -71,16 +71,16 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "If sin(\u03b8) + cos(\u03b8) = \u221a2 * cos(\u03b8), what is the value of cos(\u03b8) - sin(\u03b8)?",
+      "question": "If sin(θ) + cos(θ) = √2 * cos(θ), what is the value of cos(θ) - sin(θ)?",
       "options": [
-        "\u221a2 * sin(\u03b8)",
-        "\u221a2 * cos(\u03b8)",
-        "2 * sin(\u03b8)",
-        "sin(\u03b8) / \u221a2"
+        "√2 * sin(θ)",
+        "√2 * cos(θ)",
+        "2 * sin(θ)",
+        "sin(θ) / √2"
       ],
       "answer": 0,
-      "explanation": "Let sin(\u03b8) + cos(\u03b8) = A and cos(\u03b8) - sin(\u03b8) = B.\nRecall: A^2 + B^2 = (sin \u03b8 + cos \u03b8)^2 + (cos \u03b8 - sin \u03b8)^2 = 2(sin^2 \u03b8 + cos^2 \u03b8) = 2.\nGiven A = \u221a2 * cos(\u03b8) => A^2 = 2 * cos^2(\u03b8).\nB^2 = 2 - 2 * cos^2(\u03b8) = 2(1 - cos^2 \u03b8) = 2 * sin^2(\u03b8).\nTherefore, B = cos(\u03b8) - sin(\u03b8) = \u221a2 * sin(\u03b8).",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Trigonometric Identities"
+      "explanation": "Let sin(θ) + cos(θ) = A and cos(θ) - sin(θ) = B.\nRecall: A^2 + B^2 = (sin θ + cos θ)^2 + (cos θ - sin θ)^2 = 2(sin^2 θ + cos^2 θ) = 2.\nGiven A = √2 * cos(θ) => A^2 = 2 * cos^2(θ).\nB^2 = 2 - 2 * cos^2(θ) = 2(1 - cos^2 θ) = 2 * sin^2(θ).\nTherefore, B = cos(θ) - sin(θ) = √2 * sin(θ).",
+      "citation": "SSC CGL Quantitative Aptitude — Trigonometric Identities"
     },
     {
       "id": "cgl2_quant_05",
@@ -98,7 +98,7 @@
       ],
       "answer": 0,
       "explanation": "Efficiency ratio A : B = 2 : 1 => Time ratio A : B = 1 : 2.\nDifference in time = 2x - 1x = x = 15 days.\nSo A takes 15 days and B takes 30 days.\nTogether 1 day work = 1/15 + 1/30 = (2 + 1)/30 = 3/30 = 1/10.\nTime required together = 10 days.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Work & Time Efficiency"
+      "citation": "SSC CGL Quantitative Aptitude — Work & Time Efficiency"
     },
     {
       "id": "cgl2_quant_06",
@@ -107,16 +107,16 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "The difference between compound interest (compounded annually) and simple interest on a sum of money for 2 years at 8% per annum is \u20b996. What is the principal sum?",
+      "question": "The difference between compound interest (compounded annually) and simple interest on a sum of money for 2 years at 8% per annum is ₹96. What is the principal sum?",
       "options": [
-        "\u20b915,000",
-        "\u20b912,000",
-        "\u20b916,000",
-        "\u20b918,000"
+        "₹15,000",
+        "₹12,000",
+        "₹16,000",
+        "₹18,000"
       ],
       "answer": 0,
-      "explanation": "Formula for 2 years: Difference = P * (R / 100)^2.\n96 = P * (8 / 100)^2 = P * (64 / 10,000).\nP = (96 * 10,000) / 64 = (3 * 10,000) / 2 = \u20b915,000.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 CI and SI 2-Year Difference"
+      "explanation": "For a period of 2 years, the difference (D) between compound interest (compounded annually) and simple interest is given by the formula: D = P(R / 100)², where P is the principal and R is the annual rate. Here, D = ₹96 and R = 8%. Substituting: 96 = P × (8 / 100)² = P × (64 / 10,000). Rearranging to solve for P: P = (96 × 10,000) / 64. Simplifying: 96 / 64 = 3 / 2, so P = (3 × 10,000) / 2 = 30,000 / 2 = ₹15,000.",
+      "citation": "SSC CGL Quantitative Aptitude — CI and SI 2-Year Difference"
     },
     {
       "id": "cgl2_quant_07",
@@ -134,7 +134,7 @@
       ],
       "answer": 0,
       "explanation": "Total distance to cover = 140 m + 160 m = 300 m.\nRelative speed (opposite direction) = 60 + 48 = 108 km/h = 108 * (5 / 18) = 6 * 5 = 30 m/s.\nTime taken = Total distance / Relative speed = 300 / 30 = 10 seconds.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Train Crossing Problems"
+      "citation": "SSC CGL Quantitative Aptitude — Train Crossing Problems"
     },
     {
       "id": "cgl2_quant_08",
@@ -151,8 +151,8 @@
         "9"
       ],
       "answer": 0,
-      "explanation": "Volume of sphere = (4/3)\u03c0R^3. Number of spheres = V_large / V_small = [(4/3)\u03c0 * 6^3] / [(4/3)\u03c0 * 2^3] = (6 / 2)^3 = 3^3 = 27.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Recasting of Solids"
+      "explanation": "When a solid is melted and recast into other shapes without material loss, the total volume remains conserved: Total Volume of original sphere = n × (Volume of one small sphere). Volume formula V = (4/3)πr³. Therefore: (4/3)π(R)³ = n × (4/3)π(r)³. Canceling (4/3)π from both sides gives: n = (R / r)³. Given large radius R = 6 cm and small radius r = 2 cm: n = (6 / 2)³ = 3³ = 27 small spheres formed.",
+      "citation": "SSC CGL Quantitative Aptitude — Recasting of Solids"
     },
     {
       "id": "cgl2_quant_09",
@@ -161,7 +161,7 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "In what ratio must a grocer mix two varieties of tea costing \u20b9180 per kg and \u20b9240 per kg so that selling the mixture at \u20b9231 per kg yields a 10% profit?",
+      "question": "In what ratio must a grocer mix two varieties of tea costing ₹180 per kg and ₹240 per kg so that selling the mixture at ₹231 per kg yields a 10% profit?",
       "options": [
         "1 : 1",
         "2 : 3",
@@ -169,8 +169,8 @@
         "3 : 4"
       ],
       "answer": 0,
-      "explanation": "Selling Price (SP) = \u20b9231 with 10% profit => Cost Price of mixture (CP) = 231 / 1.10 = \u20b9210 per kg.\nBy rule of alligation:\nVariety 1 (180) vs Variety 2 (240) with Mean (210):\nRatio = (240 - 210) : (210 - 180) = 30 : 30 = 1 : 1.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Alligation Rule"
+      "explanation": "Selling Price (SP) = ₹231 with 10% profit => Cost Price of mixture (CP) = 231 / 1.10 = ₹210 per kg.\nBy rule of alligation:\nVariety 1 (180) vs Variety 2 (240) with Mean (210):\nRatio = (240 - 210) : (210 - 180) = 30 : 30 = 1 : 1.",
+      "citation": "SSC CGL Quantitative Aptitude — Alligation Rule"
     },
     {
       "id": "cgl2_quant_10",
@@ -187,8 +187,8 @@
         "90 kg"
       ],
       "answer": 0,
-      "explanation": "Weight of new person = Replaced weight + (Number of persons * Increase in average) = 65 + (8 * 2.5) = 65 + 20 = 85 kg.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Averages Replacement Formula"
+      "explanation": "When an existing member of a group is replaced by a new person and the average weight increases, the new person's weight must exceed the replaced person's weight by the total weight added to the entire group: Weight of New Person = (Weight of Replaced Person) + (Total Members × Increase in Average). Given: replaced weight = 65 kg, members = 8, increase = 2.5 kg. Weight = 65 + (8 × 2.5) = 65 + 20 = 85 kg.",
+      "citation": "SSC CGL Quantitative Aptitude — Averages Replacement Formula"
     },
     {
       "id": "cgl2_quant_11",
@@ -206,7 +206,7 @@
       ],
       "answer": 0,
       "explanation": "A number is divisible by 9 if the sum of its digits is divisible by 9.\nSum of digits = 5 + 4 + 3 + 2 + x + 7 + 2 = 23 + x.\nThe next multiple of 9 after 23 is 27.\n23 + x = 27 => x = 4.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Divisibility Rules"
+      "citation": "SSC CGL Quantitative Aptitude — Divisibility Rules"
     },
     {
       "id": "cgl2_quant_12",
@@ -215,16 +215,16 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "In triangle ABC, the bisectors of angle B and angle C intersect at point I (incenter). If angle BAC = 70\u00b0, what is the measure of angle BIC?",
+      "question": "In triangle ABC, the bisectors of angle B and angle C intersect at point I (incenter). If angle BAC = 70°, what is the measure of angle BIC?",
       "options": [
-        "125\u00b0",
-        "110\u00b0",
-        "135\u00b0",
-        "140\u00b0"
+        "125°",
+        "110°",
+        "135°",
+        "140°"
       ],
       "answer": 0,
-      "explanation": "Incenter angle formula: Angle BIC = 90\u00b0 + (Angle A / 2) = 90\u00b0 + (70\u00b0 / 2) = 90\u00b0 + 35\u00b0 = 125\u00b0.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Triangle Incenter Theorem"
+      "explanation": "In triangle ABC, the angle formed at the incenter I by the internal angle bisectors of angle B and angle C is given by the geometric theorem: ∠BIC = 90° + (∠A / 2). Here, the vertical vertex angle BAC (∠A) = 70°. Substituting this into the theorem: ∠BIC = 90° + (70° / 2) = 90° + 35° = 125°. (Similarly, if I were the excenter, the formula would be 90° - ∠A/2; for circumcenter, it would be 2∠A).",
+      "citation": "SSC CGL Quantitative Aptitude — Triangle Incenter Theorem"
     },
     {
       "id": "cgl2_quant_13",
@@ -233,16 +233,16 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "The angle of elevation of the top of a vertical tower from a point on the ground 50 meters away from the foot of the tower is 30\u00b0. What is the height of the tower?",
+      "question": "The angle of elevation of the top of a vertical tower from a point on the ground 50 meters away from the foot of the tower is 30°. What is the height of the tower?",
       "options": [
-        "50 / \u221a3 meters",
-        "50 * \u221a3 meters",
+        "50 / √3 meters",
+        "50 * √3 meters",
         "25 meters",
-        "100 / \u221a3 meters"
+        "100 / √3 meters"
       ],
       "answer": 0,
-      "explanation": "tan(30\u00b0) = Height / Base => 1 / \u221a3 = h / 50 => h = 50 / \u221a3 meters (\u2248 28.87 m).",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Heights and Distances"
+      "explanation": "Let h be the vertical height of the tower and d = 50 m be the horizontal distance from the base. In the right-angled triangle formed by the tower, ground, and line of sight: tan(θ) = Opposite / Adjacent = Height / Base. Given elevation θ = 30°: tan(30°) = h / 50. Since tan(30°) = 1 / √3, we have 1 / √3 = h / 50 => h = 50 / √3 metres (or approximately 50 × 1.732 / 3 ≈ 28.87 metres).",
+      "citation": "SSC CGL Quantitative Aptitude — Heights and Distances"
     },
     {
       "id": "cgl2_quant_14",
@@ -259,8 +259,8 @@
         "38"
       ],
       "answer": 0,
-      "explanation": "If x is the fourth proportional: 14 / 21 = 28 / x => x = (21 * 28) / 14 = 21 * 2 = 42.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Proportion Principles"
+      "explanation": "Let x be the fourth proportional to three numbers a, b, and c. By the definition of proportion, a : b :: c : x, which means a / b = c / x => x = (b × c) / a. Here a = 14, b = 21, and c = 28. Substituting these values: x = (21 × 28) / 14. Simplifying by dividing 28 by 14 gives 2: x = 21 × 2 = 42. Thus, the fourth proportional is 42.",
+      "citation": "SSC CGL Quantitative Aptitude — Proportion Principles"
     },
     {
       "id": "cgl2_quant_15",
@@ -278,7 +278,7 @@
       ],
       "answer": 0,
       "explanation": "Take LCM of 12, 15, 20 = 60 units (total capacity).\nRate of A = 60 / 12 = +5 units/hr.\nRate of B = 60 / 15 = +4 units/hr.\nRate of C = 60 / 20 = -3 units/hr.\nNet rate = 5 + 4 - 3 = 6 units/hr.\nTime required = 60 / 6 = 10 hours.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Pipes & Cisterns"
+      "citation": "SSC CGL Quantitative Aptitude — Pipes & Cisterns"
     },
     {
       "id": "cgl2_quant_16",
@@ -295,8 +295,8 @@
         "-3"
       ],
       "answer": 0,
-      "explanation": "Take common denominator abc: [a^3 + b^3 + c^3] / (abc).\nConditional identity: If a + b + c = 0, then a^3 + b^3 + c^3 = 3abc.\nTherefore, (3abc) / (abc) = 3.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Conditional Algebraic Identities"
+      "explanation": "We need to evaluate (a² / bc) + (b² / ca) + (c² / ab). Bringing all fractions to a common denominator (abc): [(a² · a) + (b² · b) + (c² · c)] / (abc) = (a³ + b³ + c³) / (abc). Standard algebraic conditional identity: If a + b + c = 0, then a³ + b³ + c³ = 3abc. Substituting this numerator: (3abc) / (abc) = 3. Hence, the expression simplifies to 3.",
+      "citation": "SSC CGL Quantitative Aptitude — Conditional Algebraic Identities"
     },
     {
       "id": "cgl2_quant_17",
@@ -313,8 +313,8 @@
         "2 km/h"
       ],
       "answer": 0,
-      "explanation": "Downstream speed u = 36 / 3 = 12 km/h.\nUpstream speed v = 24 / 4 = 6 km/h.\nSpeed of stream y = (u - v) / 2 = (12 - 6) / 2 = 6 / 2 = 3 km/h.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Boats and Streams"
+      "explanation": "Let the speed of the boat in still water be x km/h and the speed of the stream be y km/h. Downstream Speed u = Distance / Time = 36 / 3 = 12 km/h (where u = x + y). Upstream Speed v = Distance / Time = 24 / 4 = 6 km/h (where v = x - y). The speed of the stream is given by: y = (u - v) / 2 = (12 - 6) / 2 = 6 / 2 = 3 km/h. (Boat speed in still water x = (u + v) / 2 = 18 / 2 = 9 km/h).",
+      "citation": "SSC CGL Quantitative Aptitude — Boats and Streams"
     },
     {
       "id": "cgl2_quant_18",
@@ -323,7 +323,7 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "A right circular cone has a base radius of 7 cm and a vertical height of 24 cm. What is its curved surface area? (Use \u03c0 = 22/7)",
+      "question": "A right circular cone has a base radius of 7 cm and a vertical height of 24 cm. What is its curved surface area? (Use π = 22/7)",
       "options": [
         "550 cm^2",
         "500 cm^2",
@@ -331,8 +331,8 @@
         "528 cm^2"
       ],
       "answer": 0,
-      "explanation": "Slant height l = \u221a(r^2 + h^2) = \u221a(7^2 + 24^2) = \u221a(49 + 576) = \u221a625 = 25 cm.\nCurved Surface Area = \u03c0rl = (22 / 7) * 7 * 25 = 22 * 25 = 550 cm^2.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Cone Curved Surface Area"
+      "explanation": "For a right circular cone, the slant height l is calculated via the Pythagorean relation: l = √(r² + h²). Given base radius r = 7 cm and vertical height h = 24 cm: l = √(7² + 24²) = √(49 + 576) = √625 = 25 cm. The Curved Surface Area (CSA) of a cone is given by: CSA = πrl. Substituting π = 22/7, r = 7 cm, and l = 25 cm: CSA = (22 / 7) × 7 × 25 = 22 × 25 = 550 cm².",
+      "citation": "SSC CGL Quantitative Aptitude — Cone Curved Surface Area"
     },
     {
       "id": "cgl2_quant_19",
@@ -341,16 +341,16 @@
       "type": "mcq",
       "difficulty": "easy",
       "marks": 2,
-      "question": "ABCD is a cyclic quadrilateral. If angle A = (2x + 10)\u00b0 and opposite angle C = (3x + 20)\u00b0, what is the value of x?",
+      "question": "ABCD is a cyclic quadrilateral. If angle A = (2x + 10)° and opposite angle C = (3x + 20)°, what is the value of x?",
       "options": [
-        "30\u00b0",
-        "25\u00b0",
-        "35\u00b0",
-        "40\u00b0"
+        "30°",
+        "25°",
+        "35°",
+        "40°"
       ],
       "answer": 0,
-      "explanation": "Opposite angles of a cyclic quadrilateral sum to 180\u00b0.\nAngle A + Angle C = 180\u00b0 => (2x + 10) + (3x + 20) = 180 => 5x + 30 = 180 => 5x = 150 => x = 30\u00b0.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Cyclic Quadrilateral Theorem"
+      "explanation": "By the cyclic quadrilateral theorem, opposite angles of a quadrilateral inscribed in a circle are supplementary (their sum equals 180°). Therefore: ∠A + ∠C = 180°. Given ∠A = (2x + 10)° and ∠C = (3x + 20)°: (2x + 10) + (3x + 20) = 180° => 5x + 30 = 180° => 5x = 180 - 30 = 150° => x = 150 / 5 = 30°. Verification: ∠A = 2(30)+10 = 70°, ∠C = 3(30)+20 = 110°; 70° + 110° = 180°.",
+      "citation": "SSC CGL Quantitative Aptitude — Cyclic Quadrilateral Theorem"
     },
     {
       "id": "cgl2_quant_20",
@@ -367,8 +367,8 @@
         "7.5 years"
       ],
       "answer": 0,
-      "explanation": "For a sum to double, Simple Interest (SI) = Principal (P).\nSI = (P * R * T) / 100 => P = (P * 12.5 * T) / 100 => T = 100 / 12.5 = 8 years.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Simple Interest Doubling Time"
+      "explanation": "When a principal sum P doubles itself, the Simple Interest (SI) earned equals the original principal: SI = P. The formula for simple interest is: SI = (P × R × T) / 100. Substituting SI = P and rate R = 12.5%: P = (P × 12.5 × T) / 100. Dividing both sides by P: 1 = (12.5 × T) / 100 => T = 100 / 12.5 = 8 years. General shortcut: Time to double at simple interest = 100 / R = 100 / 12.5 = 8 years.",
+      "citation": "SSC CGL Quantitative Aptitude — Simple Interest Doubling Time"
     },
     {
       "id": "cgl2_quant_21",
@@ -386,7 +386,7 @@
       ],
       "answer": 0,
       "explanation": "Total enrollment 2022 = 120 + 150 + 130 = 400.\nTotal enrollment 2024 = 160 + 170 + 170 = 500.\nIncrease = 500 - 400 = 100.\nPercentage increase = (100 / 400) * 100% = 25%.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Data Interpretation"
+      "citation": "SSC CGL Quantitative Aptitude — Data Interpretation"
     },
     {
       "id": "cgl2_quant_22",
@@ -403,8 +403,8 @@
         "4 : 5"
       ],
       "answer": 0,
-      "explanation": "Science in 2023 = 140. Commerce in 2023 = 150.\nRatio = 140 / 150 = 14 : 15.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Data Interpretation Ratio"
+      "explanation": "From the data interpretation enrollment distribution table provided in question 21: Science stream enrollment in year 2023 = 140 students, and Commerce stream enrollment in year 2023 = 150 students. The required ratio of Science students to Commerce students in 2023 is: 140 : 150. Dividing both antecedent and consequent by their highest common factor (10): 140 / 10 : 150 / 10 = 14 : 15.",
+      "citation": "SSC CGL Quantitative Aptitude — Data Interpretation Ratio"
     },
     {
       "id": "cgl2_quant_23",
@@ -422,7 +422,7 @@
       ],
       "answer": 0,
       "explanation": "Total Science = 120 + 140 + 160 = 420 (Avg = 140).\nTotal Arts = 150 + 160 + 170 = 480 (Avg = 160).\nTotal Commerce = 130 + 150 + 170 = 450 (Avg = 150).\nArts has the highest average enrollment (160).",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Data Interpretation Averages"
+      "citation": "SSC CGL Quantitative Aptitude — Data Interpretation Averages"
     },
     {
       "id": "cgl2_quant_24",
@@ -431,16 +431,16 @@
       "type": "mcq",
       "difficulty": "easy",
       "marks": 2,
-      "question": "What is the value of:\n[sin(30\u00b0) + tan(45\u00b0)] / [1 + cos(60\u00b0)]?",
+      "question": "What is the value of:\n[sin(30°) + tan(45°)] / [1 + cos(60°)]?",
       "options": [
         "1",
         "1/2",
-        "\u221a3 / 2",
+        "√3 / 2",
         "2"
       ],
       "answer": 0,
-      "explanation": "sin(30\u00b0) = 1/2, tan(45\u00b0) = 1, cos(60\u00b0) = 1/2.\nNumerator = 1/2 + 1 = 3/2.\nDenominator = 1 + 1/2 = 3/2.\nValue = (3/2) / (3/2) = 1.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Standard Trigonometric Values"
+      "explanation": "Recall standard trigonometric values: sin(30°) = 1/2, tan(45°) = 1, and cos(60°) = 1/2. Numerator: sin(30°) + tan(45°) = 1/2 + 1 = 3/2. Denominator: 1 + cos(60°) = 1 + 1/2 = 3/2. Evaluating the fraction: [sin(30°) + tan(45°)] / [1 + cos(60°)] = (3/2) / (3/2) = 1. Thus, the exact simplified value of the trigonometric expression is 1.",
+      "citation": "SSC CGL Quantitative Aptitude — Standard Trigonometric Values"
     },
     {
       "id": "cgl2_quant_25",
@@ -457,8 +457,8 @@
         "96"
       ],
       "answer": 0,
-      "explanation": "Product of two numbers = HCF * LCM.\n48 * y = 12 * 240 => y = (12 * 240) / 48 = 240 / 4 = 60.",
-      "citation": "SSC CGL Quantitative Aptitude \u2014 Product of HCF and LCM"
+      "explanation": "By the fundamental property of two positive integers: (Product of the two numbers) = (HCF) × (LCM). Let the unknown second number be y. Given: HCF = 12, LCM = 240, and the first number = 48. Substituting: 48 × y = 12 × 240. Solving for y: y = (12 × 240) / 48. Since 48 / 12 = 4, we have y = 240 / 4 = 60. Verification: HCF(48, 60) = 12, LCM(48, 60) = 240.",
+      "citation": "SSC CGL Quantitative Aptitude — Product of HCF and LCM"
     }
   ]
 }

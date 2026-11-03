@@ -13,7 +13,7 @@
         "(theta / 360) * pi * r^2"
       ],
       "answer": 3,
-      "explanation": "The area of a sector of angle theta is proportional to the full circle area pi*r^2 by the fraction (theta / 360). Thus Area = (theta / 360) * pi * r^2.",
+      "explanation": "A sector is the region enclosed by two radii and the intercepted circular arc of a circle. When the sector angle at the centre is 360°, the area is the complete circular area πr². By direct proportion, if the sector subtends an angle θ at the centre, the sector area is the fraction (θ / 360°) of the total area. Therefore: Area of Sector = (θ / 360°) * πr². In NCERT Class 10 Chapter 11, this formula forms the core foundation for calculating minor and major sectors.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -29,7 +29,7 @@
         "(theta / 720) * 2 * pi * r"
       ],
       "answer": 1,
-      "explanation": "The arc length corresponds to the fraction (theta / 360) of the total circumference 2*pi*r: Length = (theta / 360) * 2 * pi * r.",
+      "explanation": "The complete perimeter (circumference) of a circle of radius r corresponds to a full central angle of 360° and equals 2πr. For an arc subtending a central angle θ (in degrees), the arc length represents the exact fraction (θ / 360°) of the full circular perimeter. Hence, Length of Arc l = (θ / 360°) * 2πr. If θ is given in radians, the relation simplifies directly to l = rθ.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -45,7 +45,7 @@
         "7 units"
       ],
       "answer": 0,
-      "explanation": "2 * pi * r = pi * r^2. Dividing by pi * r (since r > 0): 2 = r. The radius is 2 units.",
+      "explanation": "We are given that the perimeter (circumference) and the area of a circle are numerically equal: Circumference = Area => 2πr = πr². Since a geometric circle has a non-zero, positive radius (r > 0), we can divide both sides by πr: 2 = r. Therefore, the radius of the circle is numerically 2 units. (Verification: Circumference = 2π(2) = 4π units; Area = π(2)² = 4π square units).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 5"
     },
     {
@@ -61,7 +61,7 @@
         "154/7 cm^2"
       ],
       "answer": 2,
-      "explanation": "Area = (60/360) * (22/7) * 6 * 6 = (1/6) * (22/7) * 36 = 6 * (22/7) = 132/7 cm^2.",
+      "explanation": "Given radius r = 6 cm and central sector angle θ = 60°. The standard formula for the area of a sector of a circle is: Area = (θ / 360°) * πr². Substituting the given values and using π = 22/7: Area = (60° / 360°) * (22 / 7) * (6)² = (1 / 6) * (22 / 7) * 36. Simplifying: (1 / 6) * 36 = 6, so Area = 6 * (22 / 7) = 132 / 7 cm² (or approximately 18.86 cm²). This matches official NCERT Exercise 11.1 Question 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 1"
     },
     {
@@ -109,7 +109,7 @@
         "33 cm"
       ],
       "answer": 0,
-      "explanation": "Arc length = (60/360) * 2 * (22/7) * 21 = (1/6) * 2 * 22 * 3 = (1/6) * 132 = 22 cm.",
+      "explanation": "In a circle of radius r = 21 cm, an arc subtends a central angle θ = 60°. The formula for the length of an arc is: l = (θ / 360°) * 2πr. Substituting θ = 60°, r = 21 cm, and π = 22/7: l = (60° / 360°) * 2 * (22 / 7) * 21 = (1 / 6) * 2 * 22 * 3. Since 2 * 3 = 6, the factor (2 * 3) in the numerator cancels cleanly with 6 in the denominator: l = 22 cm. This corresponds to NCERT Exercise 11.1 Question 5(i).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 5(i)"
     },
     {
@@ -125,7 +125,7 @@
         "308 cm^2"
       ],
       "answer": 1,
-      "explanation": "Area = (60/360) * (22/7) * 21 * 21 = (1/6) * 22 * 3 * 21 = (1/6) * 1386 = 231 cm^2. (Alternatively: (1/2) * arc * r = (1/2) * 22 * 21 = 231 cm^2).",
+      "explanation": "For an arc subtending θ = 60° in a circle of radius r = 21 cm, the area of the minor sector formed by the arc is: Area = (θ / 360°) * πr². Substituting values with π = 22/7: Area = (60° / 360°) * (22 / 7) * 21 * 21 = (1 / 6) * 22 * 3 * 21 = (1 / 6) * 66 * 21 = 11 * 21 = 231 cm². Alternatively, using the arc length l = 22 cm: Area = (1/2) * l * r = (1/2) * 22 * 21 = 11 * 21 = 231 cm². (NCERT Exercise 11.1 Question 5(ii)).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 5(ii)"
     },
     {
@@ -157,7 +157,7 @@
         "235.5 cm^2"
       ],
       "answer": 3,
-      "explanation": "Major sector angle = 360 - 90 = 270 degrees. Area = (270/360) * 3.14 * 100 = (3/4) * 314 = 235.5 cm^2.",
+      "explanation": "A circle has radius r = 10 cm and a central angle for the minor chord θ = 90° (right angle). The major sector is the larger region, subtending a central reflex angle of: 360° - 90° = 270°. Using the sector area formula with π = 3.14: Area of Major Sector = (θ_major / 360°) * πr² = (270° / 360°) * 3.14 * (10)² = (3 / 4) * 3.14 * 100 = (3 / 4) * 314 = 3 * 78.5 = 235.5 cm². This matches NCERT Exercise 11.1 Question 4(ii).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exercise 11.1 Question 4(ii)"
     },
     {
@@ -173,7 +173,7 @@
         "(1/4) * l * r^2"
       ],
       "answer": 1,
-      "explanation": "Area = (theta/360) * pi * r^2 = (1/2) * [(theta/360) * 2 * pi * r] * r = (1/2) * l * r.",
+      "explanation": "Let a sector have radius r, central angle θ, and arc length l. From standard geometry: l = (θ / 360°) * 2πr => (θ / 360°) * πr = l / 2. The formula for the area of a sector is: Area = (θ / 360°) * πr² = [(θ / 360°) * πr] * r. Substituting (l / 2) into the bracket: Area = (l / 2) * r = (1/2)lr. This elegant relationship mirrors the area formula of a triangle (1/2 * base * height), where the curved arc acts as the base and radius acts as the height.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -205,7 +205,7 @@
         "920 cm^2"
       ],
       "answer": 0,
-      "explanation": "Area of ring = pi * (R^2 - r^2) = (22/7) * (19^2 - 9^2) = (22/7) * (19 - 9)(19 + 9) = (22/7) * 10 * 28 = 22 * 10 * 4 = 880 cm^2.",
+      "explanation": "The region enclosed between two concentric circles with common centre is a circular ring (annulus). Let outer radius R = 19 cm and inner radius r = 9 cm. Area of Ring = πR² - πr² = π(R² - r²). Using the algebraic factorization a² - b² = (a - b)(a + b) with π = 22/7: Area = (22 / 7) * (19 - 9) * (19 + 9) = (22 / 7) * 10 * 28. Simplifying (28 / 7 = 4): Area = 22 * 10 * 4 = 880 cm². This factorization saves tedious multi-digit squaring.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
     },
     {
@@ -221,7 +221,7 @@
         "28 cm"
       ],
       "answer": 3,
-      "explanation": "2*pi*R = 2*pi*r1 + 2*pi*r2 => R = r1 + r2 = 19 + 9 = 28 cm.",
+      "explanation": "Let r₁ = 19 cm and r₂ = 9 cm be the radii of two given circles, and R be the radius of the new circle whose circumference equals the sum of their circumferences. Circumference condition: 2πR = 2πr₁ + 2πr₂. Factoring out 2π from the right-hand side: 2πR = 2π(r₁ + r₂). Dividing both sides by 2π: R = r₁ + r₂. Therefore: R = 19 + 9 = 28 cm. This matches official NCERT Exercise 11.1 Question 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
     },
     {
@@ -237,7 +237,7 @@
         "9 cm"
       ],
       "answer": 1,
-      "explanation": "pi*R^2 = pi*r1^2 + pi*r2^2 => R^2 = 8^2 + 6^2 = 64 + 36 = 100 => R = 10 cm.",
+      "explanation": "Let r₁ = 8 cm and r₂ = 6 cm be the radii of two given circles, and R be the radius of the new circle whose area equals the sum of their areas. Area condition: πR² = πr₁² + πr₂². Factoring out π: πR² = π(r₁² + r₂²). Dividing both sides by π: R² = r₁² + r₂². Substituting values: R² = 8² + 6² = 64 + 36 = 100. Taking the positive square root: R = √100 = 10 cm. This is a direct application of the Pythagorean triple (6, 8, 10).",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
     },
     {
@@ -253,7 +253,7 @@
         "pi*r + r"
       ],
       "answer": 2,
-      "explanation": "A semicircular protractor includes both the semicircular curved boundary (pi * r) and the straight diameter base (2r). Total perimeter = pi*r + 2r = r(pi + 2).",
+      "explanation": "A semicircular protractor is a closed geometric figure bounded by two distinct elements: (1) a curved semicircular arc of length πr, and (2) a straight baseline along the diameter of length 2r. Therefore, the total perimeter (boundary length) is: Perimeter = Arc length + Diameter = πr + 2r = r(π + 2). A common student error is writing only πr, omitting the straight diameter base required to enclose the shape.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
     },
     {
@@ -269,7 +269,7 @@
         "28 cm"
       ],
       "answer": 1,
-      "explanation": "Perimeter = r(pi + 2) = r(22/7 + 2) = r(36/7) = 36 => r = 7 cm. Diameter = 2r = 2 * 7 = 14 cm.",
+      "explanation": "The perimeter of a semicircular protractor is given by P = πr + 2r = r(π + 2). Given P = 36 cm and taking π = 22/7: 36 = r(22/7 + 2) => 36 = r((22 + 14) / 7) => 36 = r(36 / 7). Multiplying both sides by 7 and dividing by 36: r = 7 cm. The question specifically asks for the diameter of the protractor: Diameter d = 2r = 2 * 7 = 14 cm. Always check whether the question asks for radius or diameter.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Exemplar Problem"
     },
     {
@@ -285,7 +285,7 @@
         "1/2 (180 degrees)"
       ],
       "answer": 0,
-      "explanation": "In 15 minutes, angle swept = (360 / 60) * 15 = 90 degrees. Fraction = 90 / 360 = 1/4 (one quadrant).",
+      "explanation": "A circular clock face comprises 60 minute divisions totaling a full central angle of 360°. Therefore, the minute hand rotates at a rate of: 360° / 60 minutes = 6° per minute. In 15 minutes, the angular displacement swept by the minute hand is: 15 * 6° = 90° (a right angle). The fraction of the total clock face area swept is: 90° / 360° = 1/4. This represents exactly one quadrant of the circular clock face.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -301,7 +301,7 @@
         "pi * r"
       ],
       "answer": 3,
-      "explanation": "For a semicircle, theta = 180 deg. Arc length = (180/360) * 2*pi*r = (1/2) * 2*pi*r = pi*r.",
+      "explanation": "A semicircle corresponds to a central sector angle θ = 180° (exactly half of a full 360° revolution). Using the general arc length formula l = (θ / 360°) * 2πr: l = (180° / 360°) * 2πr = (1 / 2) * 2πr = πr. Note: This represents only the curved arc length. If the total perimeter of the closed semicircle is required, the diameter 2r must be added, yielding πr + 2r.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.2"
     },
     {
@@ -317,7 +317,7 @@
         "sqrt(2) : sqrt(3)"
       ],
       "answer": 2,
-      "explanation": "Circumference ratio C1/C2 = r1/r2 = 2/3. Area ratio A1/A2 = (r1/r2)^2 = (2/3)^2 = 4/9.",
+      "explanation": "Let two circles have radii r₁ and r₂. Their circumferences are C₁ = 2πr₁ and C₂ = 2πr₂. Given the circumference ratio: C₁ / C₂ = (2πr₁) / (2πr₂) = r₁ / r₂ = 2 / 3. Their respective areas are A₁ = πr₁² and A₂ = πr₂². The ratio of their areas is: A₁ / A₂ = (πr₁²) / (πr₂²) = (r₁ / r₂)² = (2 / 3)² = 4 / 9 (or 4 : 9). The area ratio is always the square of the linear radius or circumference ratio.",
       "citation": "NCERT Class 10 Mathematics, Chapter 11, Section 11.1"
     }
   ]

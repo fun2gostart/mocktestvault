@@ -26,7 +26,7 @@
       ],
       "answer": 0,
       "explanation": "Pattern: Progressive alphabetical addition (+1, +2, +3, +4, +5).\nB(+1) -> C, L(+2) -> N, O(+3) -> R... wait: B(2)+1=3(C), L(12)+2=14(N), O(15)+0? Let us check: B->C(+1), L->N(+2), O->O(0)? No. Look at: R(+1)->S, A(+2)->C, N(+3)->Q, G(+4)->K, E(+5)->J -> SCQKJ. For BLOCK: B(+1)=C, L(+2)=N, O(+0)=O, C(+3)=F, K(+5)=P. Applying (+1, +2, +3, +3, +5): R(+1)=S, A(+2)=C, N(+3)=Q, G(+3)=J, E(+5)=J -> SCQJJ.",
-      "citation": "SSC CGL Reasoning \u2014 Pattern & Letter Analogy"
+      "citation": "SSC CGL Reasoning — Pattern & Letter Analogy"
     },
     {
       "id": "cgl2_reason_02",
@@ -44,7 +44,7 @@
       ],
       "answer": 0,
       "explanation": "Find successive differences:\n11 - 7 = 4 (= 2^2)\n20 - 11 = 9 (= 3^2)\n36 - 20 = 16 (= 4^2)\n61 - 36 = 25 (= 5^2)\nNext difference must be 6^2 = 36.\nNext term = 61 + 36 = 97.",
-      "citation": "SSC CGL Reasoning \u2014 Number Series (Differences of Squares)"
+      "citation": "SSC CGL Reasoning — Number Series (Differences of Squares)"
     },
     {
       "id": "cgl2_reason_03",
@@ -62,7 +62,7 @@
       ],
       "answer": 0,
       "explanation": "Pattern: Alternating subtraction and addition (-1, +3, -1, +3, -1):\nP(16)-1=15(O), R(18)+1? Notice: P(16)->O(15) [-1], R(18)->S(19) [+1], I(9)->H(8) [-1], S(19)->T(20) [+1], M(13)->L(12) [-1].\nPattern is strictly (-1, +1, -1, +1, -1).\nApply to GLOBE:\nG(7) - 1 = 6 (F)\nL(12) + 1 = 13 (M) -> wait, if L+1=M, then F M N A D. Let's check G-1=F, L-1=K? If -1 throughout: G-1=F, L-1=K, O-1=N, B-1=A, E-1=D -> FKNAD. For PRISM to OSHTL: P-1=O, R+1=S, I-1=H, S+1=T, M-1=L. With (-1, +1, -1, +1, -1) on GLOBE: G-1=F, L+1=M, O-1=N, B+1=C, E-1=D -> FMNCD. Let us use uniform -1 shift: FKNAD.",
-      "citation": "SSC CGL Reasoning \u2014 Substitution Coding"
+      "citation": "SSC CGL Reasoning — Substitution Coding"
     },
     {
       "id": "cgl2_reason_04",
@@ -80,7 +80,7 @@
       ],
       "answer": 0,
       "explanation": "From Statement 1: All metals are solids. By conversion: Some solids are metals (Conclusion II strictly follows).\nStatement 1 + 2: Metal (A) + Solid (I) gives no valid syllogistic conclusion linking Metals directly to Conductors without middle term distribution. Hence Conclusion I does not necessarily follow. Thus, only conclusion II follows.",
-      "citation": "SSC CGL Reasoning \u2014 Syllogistic Deductions"
+      "citation": "SSC CGL Reasoning — Syllogistic Deductions"
     },
     {
       "id": "cgl2_reason_05",
@@ -98,7 +98,7 @@
       ],
       "answer": 0,
       "explanation": "'The only daughter of my grandfather' (with only one child) is Radhika's mother herself. Therefore, the man's mother is Radhika's mother. This makes the man Radhika's brother, and Radhika is his sister.",
-      "citation": "SSC CGL Reasoning \u2014 Family Tree Relations"
+      "citation": "SSC CGL Reasoning — Family Tree Relations"
     },
     {
       "id": "cgl2_reason_06",
@@ -116,7 +116,7 @@
       ],
       "answer": 0,
       "explanation": "1. 12 km North: (0, 12)\n2. Left (West) 5 km: (-5, 12)\n3. Left (South) 12 km: (-5, 0) [Back on east-west axis]\n4. Right (West) 8 km: (-5 - 8, 0) = (-13, 0).\nDistance from origin = 13 km due West.",
-      "citation": "SSC CGL Reasoning \u2014 Direction Sense Test"
+      "citation": "SSC CGL Reasoning — Direction Sense Test"
     },
     {
       "id": "cgl2_reason_07",
@@ -134,7 +134,7 @@
       ],
       "answer": 0,
       "explanation": "All Lizards are Reptiles (Lizards circle is entirely inside the Reptiles circle). Mammals are a completely separate biological class having no intersection with Reptiles. Thus, one circle inside another with a third separate circle.",
-      "citation": "SSC CGL Reasoning \u2014 Logical Venn Diagrams"
+      "citation": "SSC CGL Reasoning — Logical Venn Diagrams"
     },
     {
       "id": "cgl2_reason_08",
@@ -143,7 +143,7 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "If '+' means '\u00f7', '-' means '\u00d7', '\u00d7' means '+', and '\u00f7' means '-', then evaluate:\n48 + 6 - 5 \u00d7 12 \u00f7 8",
+      "question": "If '+' means '÷', '-' means '×', '×' means '+', and '÷' means '-', then evaluate:\n48 + 6 - 5 × 12 ÷ 8",
       "options": [
         "44",
         "48",
@@ -151,8 +151,8 @@
         "52"
       ],
       "answer": 0,
-      "explanation": "Substitute operations: 48 \u00f7 6 \u00d7 5 + 12 - 8.\nBy BODMAS:\n1. 48 \u00f7 6 = 8\n2. 8 \u00d7 5 = 40\n3. 40 + 12 = 52\n4. 52 - 8 = 44.",
-      "citation": "SSC CGL Reasoning \u2014 Mathematical Signs Interchanging"
+      "explanation": "Step 1: Replace operators according to the cipher: '+' means '÷', '-' means '×', '×' means '+', and '÷' means '-'. The given expression transforms into: 48 ÷ 6 × 5 + 12 - 8. Step 2: Apply the BODMAS rule of precedence: First, perform Division: 48 ÷ 6 = 8. Second, perform Multiplication: 8 × 5 = 40. Third, perform Addition: 40 + 12 = 52. Fourth, perform Subtraction: 52 - 8 = 44. Thus, the evaluated result is 44.",
+      "citation": "SSC CGL Reasoning — Mathematical Signs Interchanging"
     },
     {
       "id": "cgl2_reason_09",
@@ -170,7 +170,7 @@
       ],
       "answer": 0,
       "explanation": "Pattern: n -> (n^2 - 4).\n12^2 - 4 = 144 - 4 = 140.\n16^2 - 4 = 256 - 4 = 252.\n18^2 - 4 = 324 - 4 = 320.\nFor 14: 14^2 - 4 = 196 - 4 = 192 (Wait, 196 - 4 = 192). Check: 14^2 - 4 = 192! Let us check n^2 - n: 12^2 - 4? What if: 12 * 11 + 8? Or (n - 2)^2? Let's check: (12/2)^2 = 36. Another pattern: 12^2 - 4 = 140. 14^2 - 4 = 192. 16^2 - 4 = 252. 18^2 - 4 = 320. All follow n^2 - 4 except if one is 14 -> 190. Let us specify (14, 190): 14^2 - 4 = 192, so 190 is the odd one.",
-      "citation": "SSC CGL Reasoning \u2014 Number Classification"
+      "citation": "SSC CGL Reasoning — Number Classification"
     },
     {
       "id": "cgl2_reason_10",
@@ -187,8 +187,8 @@
         "6"
       ],
       "answer": 0,
-      "explanation": "In a dice, there are 3 pairs of opposite faces: (1, 6), (3, 4). The remaining pair must be (2, 5). Therefore, the number opposite to face 5 is 2.",
-      "citation": "SSC CGL Reasoning \u2014 Cube & Dice Rules"
+      "explanation": "A standard cubical dice contains 6 faces numbered 1 through 6, forming exactly 3 pairs of opposite faces. The problem specifies two explicit opposite pairs: (3, 4) are opposite to each other, and (1, 6) are opposite to each other. Because four faces {1, 3, 4, 6} are already mutually paired, the remaining two unaccounted faces {2, 5} must inevitably be opposite to each other. Hence, the number opposite to face 5 is conclusively 2.",
+      "citation": "SSC CGL Reasoning — Cube & Dice Rules"
     },
     {
       "id": "cgl2_reason_11",
@@ -206,7 +206,7 @@
       ],
       "answer": 0,
       "explanation": "Alphabetical order by letter: 'Preca...' (1) -> 'Prece...' (2) -> 'Precep...' (3) -> 'Precip...' (4) -> 'Precl...' (5). The sequence 1, 2, 3, 4, 5 is exactly in dictionary order.",
-      "citation": "SSC CGL Reasoning \u2014 Dictionary Ordering"
+      "citation": "SSC CGL Reasoning — Dictionary Ordering"
     },
     {
       "id": "cgl2_reason_12",
@@ -223,8 +223,8 @@
         "Spiders"
       ],
       "answer": 0,
-      "explanation": "Ophidiophobia is the abnormal fear of snakes. Ornithophobia (derived from Greek ornithos = bird) is the persistent fear of birds.",
-      "citation": "SSC CGL Reasoning \u2014 Semantic Analogy"
+      "explanation": "This analogy tests phobias and Greek word roots. 'Ophidiophobia' comes from the Ancient Greek 'ophis' (meaning serpent/snake) combined with 'phobos' (morbid fear), denoting an intense fear of snakes. In the exact same etymological pattern, 'Ornithophobia' derives from Greek 'ornithos' (meaning bird) and 'phobos', denoting the irrational fear of birds. (Note: cynophobia is fear of dogs; entomophobia is fear of insects).",
+      "citation": "SSC CGL Reasoning — Semantic Analogy"
     },
     {
       "id": "cgl2_reason_13",
@@ -242,7 +242,7 @@
       ],
       "answer": 1,
       "explanation": "Positions 1 to 5 (Left to Right):\nP sits at extreme left -> Pos 1 = P.\nS is third to left of T -> if T is at Pos 5, S is at 5 - 3 = Pos 2.\nR sits immediately left of T -> Pos 4 = R.\nQ sits immediately right of S -> Pos 3 = Q.\nOrder: P (1), S (2), Q (3), R (4), T (5).\nThe person sitting in the exact middle (Pos 3) is Q.",
-      "citation": "SSC CGL Reasoning \u2014 Linear Seating Arrangement"
+      "citation": "SSC CGL Reasoning — Linear Seating Arrangement"
     },
     {
       "id": "cgl2_reason_14",
@@ -260,7 +260,7 @@
       ],
       "answer": 0,
       "explanation": "A vertical mirror to the right reflects characters laterally: the rightmost character ('9') becomes the leftmost character in inverted form, and the leftmost character ('Q') appears on the far right.",
-      "citation": "SSC CGL Reasoning \u2014 Non-Verbal Mirror Reflection"
+      "citation": "SSC CGL Reasoning — Non-Verbal Mirror Reflection"
     },
     {
       "id": "cgl2_reason_15",
@@ -277,8 +277,8 @@
         "26th"
       ],
       "answer": 0,
-      "explanation": "Formula: Rank from bottom = (Total students - Rank from top) + 1 = (45 - 18) + 1 = 27 + 1 = 28th.",
-      "citation": "SSC CGL Reasoning \u2014 Ranking Formula"
+      "explanation": "In linear ranking problems, when an individual's position is counted from both opposite ends of a row, the counting formula is: Total Count = (Rank from Top) + (Rank from Bottom) - 1. Here, Total = 45 and Rank from Top = 18. Substituting: 45 = 18 + (Rank from Bottom) - 1 => 45 = 17 + (Rank from Bottom). Subtracting 17: Rank from Bottom = 45 - 17 = 28th. The '-1' ensures Rohan is not counted twice.",
+      "citation": "SSC CGL Reasoning — Ranking Formula"
     },
     {
       "id": "cgl2_reason_16",
@@ -296,7 +296,7 @@
       ],
       "answer": 0,
       "explanation": "Row-wise pattern: (Row 1): 7^2 + (9 + 7) = 49 + 16 = 65.\nRow 2: 5^2 + (8 + 8)? Notice: 7 * 9 + 2 = 63 + 2 = 65. 5 * 8 + 1 = 41. (Col 1 * Col 2 + diff)? 7*9=63 (+2=9-7). 5*8=40 (+3=8-5). Pattern: (Col 1 * Col 2) + (Col 2 - Col 1).\nRow 1: 7 * 9 + (9 - 7) = 63 + 2 = 65.\nRow 2: 5 * 8 + (8 - 5) = 40 + 3 = 41.\nRow 3: 6 * 7 + (7 - 6) = 42 + 1 = 43.",
-      "citation": "SSC CGL Reasoning \u2014 Missing Number Grid Logic"
+      "citation": "SSC CGL Reasoning — Missing Number Grid Logic"
     },
     {
       "id": "cgl2_reason_17",
@@ -314,7 +314,7 @@
       ],
       "answer": 0,
       "explanation": "In embedded figure problems where rotation is strictly disallowed, the target motif must preserve identical angular orientations and proportional segment lengths without any distortion.",
-      "citation": "SSC CGL Reasoning \u2014 Embedded Figure Recognition"
+      "citation": "SSC CGL Reasoning — Embedded Figure Recognition"
     },
     {
       "id": "cgl2_reason_18",
@@ -332,7 +332,7 @@
       ],
       "answer": 0,
       "explanation": "The statement advises using the tool specifically to master time management, which implicitly assumes that pacing is an area where students face difficulty (Assumption I) and that realistic simulation is effective in solving that difficulty (Assumption II). Both assumptions are valid and implicit.",
-      "citation": "SSC CGL Reasoning \u2014 Logical Assumptions"
+      "citation": "SSC CGL Reasoning — Logical Assumptions"
     },
     {
       "id": "cgl2_reason_19",
@@ -350,7 +350,7 @@
       ],
       "answer": 0,
       "explanation": "Total letters = 14 or 12. Let string be: a [b] b / a [a] b b / a [a] b b / [b] a. Repeated expanding block: abba / abbba. If we substitute 'b a a b': a b b a a b b a a b b b a.",
-      "citation": "SSC CGL Reasoning \u2014 Continuous Pattern Letter Series"
+      "citation": "SSC CGL Reasoning — Continuous Pattern Letter Series"
     },
     {
       "id": "cgl2_reason_20",
@@ -368,7 +368,7 @@
       ],
       "answer": 0,
       "explanation": "Unfolding across two orthogonal fold lines reflects the cutout across both fold axes. A semicircle cut along a folded edge produces 2 complete shapes on symmetric opposite sides upon full unfolding.",
-      "citation": "SSC CGL Reasoning \u2014 Non-Verbal Paper Folding"
+      "citation": "SSC CGL Reasoning — Non-Verbal Paper Folding"
     },
     {
       "id": "cgl2_reason_21",
@@ -386,7 +386,7 @@
       ],
       "answer": 0,
       "explanation": "The year 2012 was a leap year, and February 2012 (29 days) falls between 15th August 2011 and 15th August 2012. A leap year has 366 days = 52 weeks + 2 odd days. Monday + 2 days = Wednesday.",
-      "citation": "SSC CGL Reasoning \u2014 Calendar & Odd Days Logic"
+      "citation": "SSC CGL Reasoning — Calendar & Odd Days Logic"
     },
     {
       "id": "cgl2_reason_22",
@@ -397,14 +397,14 @@
       "marks": 2,
       "question": "What is the angle between the hour hand and the minute hand of a clock at 3:40?",
       "options": [
-        "130\u00b0",
-        "140\u00b0",
-        "125\u00b0",
-        "135\u00b0"
+        "130°",
+        "140°",
+        "125°",
+        "135°"
       ],
       "answer": 0,
-      "explanation": "Formula: Angle = |30*H - (11/2)*M|. Here H = 3, M = 40.\nAngle = |30(3) - (11/2)(40)| = |90 - 220| = |-130| = 130\u00b0.",
-      "citation": "SSC CGL Reasoning \u2014 Clocks Angle Formula"
+      "explanation": "The acute angle θ between the hour hand and minute hand of a clock is calculated using the formula: θ = |30H - (11/2)M|, where H = 3 and M = 40. Substituting values: θ = |30(3) - (11/2)(40)| = |90 - 11(20)| = |90 - 220| = |-130°| = 130°. Verification by positions: at 3:40, the minute hand points to 8 (240° from 12), while the hour hand has moved to 3 × 30° + 40 × 0.5° = 110°. Difference = 240° - 110° = 130°.",
+      "citation": "SSC CGL Reasoning — Clocks Angle Formula"
     },
     {
       "id": "cgl2_reason_23",
@@ -421,8 +421,8 @@
         "100"
       ],
       "answer": 0,
-      "explanation": "Let rabbits be R and pigeons be P.\nR + P = 200 => 2R + 2P = 400.\n4R + 2P = 560.\nSubtracting equations: 2R = 160 => R = 80 rabbits.",
-      "citation": "SSC CGL Reasoning \u2014 Simultaneous Equations in Reasoning"
+      "explanation": "Let R be the number of rabbits (each with 1 head and 4 legs) and P be the number of pigeons (each with 1 head and 2 legs). Total Heads: R + P = 200 => P = 200 - R. Total Legs: 4R + 2P = 560. Substitute P: 4R + 2(200 - R) = 560 => 4R + 400 - 2R = 560 => 2R = 160 => R = 80 rabbits. Fast CGL shortcut: Number of 4-legged animals = (Total Legs / 2) - Total Heads = (560 / 2) - 200 = 280 - 200 = 80 rabbits.",
+      "citation": "SSC CGL Reasoning — Simultaneous Equations in Reasoning"
     },
     {
       "id": "cgl2_reason_24",
@@ -439,8 +439,8 @@
         "78"
       ],
       "answer": 0,
-      "explanation": "Each letter's numerical rank is multiplied by 2:\nB = 2 * 2 = 4\nO = 15 * 2 = 30\nX = 24 * 2 = 48\nSum = 4 + 30 + 48 = 82.",
-      "citation": "SSC CGL Reasoning \u2014 Letter Value Multiplication"
+      "explanation": "The cipher assigns each English letter a numerical value equal to twice its standard alphabetical rank: Value = Position × 2. For B: alphabetical rank is 2, so value = 2 × 2 = 4. For O: alphabetical rank is 15, so value = 15 × 2 = 30. For X: alphabetical rank is 24, so value = 24 × 2 = 48. Summing the values to find the word score: Value(BOX) = 4 + 30 + 48 = 82.",
+      "citation": "SSC CGL Reasoning — Letter Value Multiplication"
     },
     {
       "id": "cgl2_reason_25",
@@ -449,16 +449,16 @@
       "type": "mcq",
       "difficulty": "easy",
       "marks": 2,
-      "question": "A geometric shape rotates clockwise by 45\u00b0 at step 1, 90\u00b0 at step 2, 135\u00b0 at step 3. By how many degrees will it rotate at step 4?",
+      "question": "A geometric shape rotates clockwise by 45° at step 1, 90° at step 2, 135° at step 3. By how many degrees will it rotate at step 4?",
       "options": [
-        "180\u00b0",
-        "150\u00b0",
-        "225\u00b0",
-        "90\u00b0"
+        "180°",
+        "150°",
+        "225°",
+        "90°"
       ],
       "answer": 0,
-      "explanation": "The rotational increment increases by +45\u00b0 each turn: 45\u00b0 (+45\u00b0) -> 90\u00b0 (+45\u00b0) -> 135\u00b0 (+45\u00b0) -> 180\u00b0.",
-      "citation": "SSC CGL Reasoning \u2014 Progressive Rotation Series"
+      "explanation": "The sequence of angular rotations follows an arithmetic progression with a constant positive common difference of +45°: Step 1 = 45°; Step 2 = 45° + 45° = 90°; Step 3 = 90° + 45° = 135°. Continuing this established increment, the rotation at Step 4 is: 135° + 45° = 180° clockwise (which corresponds to an exact half-turn or inverted direction).",
+      "citation": "SSC CGL Reasoning — Progressive Rotation Series"
     }
   ]
 }
