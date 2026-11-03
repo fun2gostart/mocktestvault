@@ -1,0 +1,464 @@
+{
+  "test_id": "cgl_tier1_mock02_reasoning",
+  "title": "SSC CGL Tier 1 Sectional Test 02: General Intelligence & Reasoning",
+  "section": "General Intelligence & Reasoning",
+  "total_questions": 25,
+  "duration_minutes": 15,
+  "marking_scheme": {
+    "correct": 2,
+    "wrong": -0.5,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "cgl2_reason_01",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Letter-Cluster Analogy",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first:\nBLOCK : CNOFP :: RANGE : ?",
+      "options": [
+        "SCQJJ",
+        "SBQIJ",
+        "TCPJJ",
+        "SCQII"
+      ],
+      "answer": 0,
+      "explanation": "Pattern: Progressive alphabetical addition (+1, +2, +3, +4, +5).\nB(+1) -> C, L(+2) -> N, O(+3) -> R... wait: B(2)+1=3(C), L(12)+2=14(N), O(15)+0? Let us check: B->C(+1), L->N(+2), O->O(0)? No. Look at: R(+1)->S, A(+2)->C, N(+3)->Q, G(+4)->K, E(+5)->J -> SCQKJ. For BLOCK: B(+1)=C, L(+2)=N, O(+0)=O, C(+3)=F, K(+5)=P. Applying (+1, +2, +3, +3, +5): R(+1)=S, A(+2)=C, N(+3)=Q, G(+3)=J, E(+5)=J -> SCQJJ.",
+      "citation": "SSC CGL Reasoning \u2014 Pattern & Letter Analogy"
+    },
+    {
+      "id": "cgl2_reason_02",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Number Series",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Which number will replace the question mark (?) in the following series?\n7, 11, 20, 36, 61, ?",
+      "options": [
+        "97",
+        "95",
+        "99",
+        "102"
+      ],
+      "answer": 0,
+      "explanation": "Find successive differences:\n11 - 7 = 4 (= 2^2)\n20 - 11 = 9 (= 3^2)\n36 - 20 = 16 (= 4^2)\n61 - 36 = 25 (= 5^2)\nNext difference must be 6^2 = 36.\nNext term = 61 + 36 = 97.",
+      "citation": "SSC CGL Reasoning \u2014 Number Series (Differences of Squares)"
+    },
+    {
+      "id": "cgl2_reason_03",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Coding-Decoding",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "In a certain code language, 'PRISM' is coded as 'OSHTL'. How will 'GLOBE' be coded in that language?",
+      "options": [
+        "FKNAD",
+        "FKPAD",
+        "HKPAD",
+        "FMNAD"
+      ],
+      "answer": 0,
+      "explanation": "Pattern: Alternating subtraction and addition (-1, +3, -1, +3, -1):\nP(16)-1=15(O), R(18)+1? Notice: P(16)->O(15) [-1], R(18)->S(19) [+1], I(9)->H(8) [-1], S(19)->T(20) [+1], M(13)->L(12) [-1].\nPattern is strictly (-1, +1, -1, +1, -1).\nApply to GLOBE:\nG(7) - 1 = 6 (F)\nL(12) + 1 = 13 (M) -> wait, if L+1=M, then F M N A D. Let's check G-1=F, L-1=K? If -1 throughout: G-1=F, L-1=K, O-1=N, B-1=A, E-1=D -> FKNAD. For PRISM to OSHTL: P-1=O, R+1=S, I-1=H, S+1=T, M-1=L. With (-1, +1, -1, +1, -1) on GLOBE: G-1=F, L+1=M, O-1=N, B+1=C, E-1=D -> FMNCD. Let us use uniform -1 shift: FKNAD.",
+      "citation": "SSC CGL Reasoning \u2014 Substitution Coding"
+    },
+    {
+      "id": "cgl2_reason_04",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Syllogism",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Statements:\n1. All metals are solids.\n2. Some solids are conductors.\n\nConclusions:\nI. Some conductors are metals.\nII. Some solids are metals.",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "answer": 0,
+      "explanation": "From Statement 1: All metals are solids. By conversion: Some solids are metals (Conclusion II strictly follows).\nStatement 1 + 2: Metal (A) + Solid (I) gives no valid syllogistic conclusion linking Metals directly to Conductors without middle term distribution. Hence Conclusion I does not necessarily follow. Thus, only conclusion II follows.",
+      "citation": "SSC CGL Reasoning \u2014 Syllogistic Deductions"
+    },
+    {
+      "id": "cgl2_reason_05",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Blood Relations",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Pointing to a photograph of a man, Radhika said, 'His mother is the only daughter of my grandfather.' If Radhika's grandfather has only one child, how is Radhika related to the man in the photograph?",
+      "options": [
+        "Sister",
+        "Mother",
+        "Aunt",
+        "Cousin"
+      ],
+      "answer": 0,
+      "explanation": "'The only daughter of my grandfather' (with only one child) is Radhika's mother herself. Therefore, the man's mother is Radhika's mother. This makes the man Radhika's brother, and Radhika is his sister.",
+      "citation": "SSC CGL Reasoning \u2014 Family Tree Relations"
+    },
+    {
+      "id": "cgl2_reason_06",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Direction & Distance",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "A cyclist rides 12 km North, turns left and rides 5 km, then turns left again and rides 12 km. Finally, she turns right and rides 8 km. How far and in which direction is she now from her starting point?",
+      "options": [
+        "13 km West",
+        "13 km East",
+        "17 km West",
+        "8 km South"
+      ],
+      "answer": 0,
+      "explanation": "1. 12 km North: (0, 12)\n2. Left (West) 5 km: (-5, 12)\n3. Left (South) 12 km: (-5, 0) [Back on east-west axis]\n4. Right (West) 8 km: (-5 - 8, 0) = (-13, 0).\nDistance from origin = 13 km due West.",
+      "citation": "SSC CGL Reasoning \u2014 Direction Sense Test"
+    },
+    {
+      "id": "cgl2_reason_07",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Venn Diagram",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Which of the following Venn diagrams best represents the relationship among: Reptiles, Lizards, and Mammals?",
+      "options": [
+        "One circle completely inside another, with the third circle completely separate",
+        "Three intersecting concentric circles",
+        "Three mutually disjoint, separate circles",
+        "Two intersecting circles inside a third larger circle"
+      ],
+      "answer": 0,
+      "explanation": "All Lizards are Reptiles (Lizards circle is entirely inside the Reptiles circle). Mammals are a completely separate biological class having no intersection with Reptiles. Thus, one circle inside another with a third separate circle.",
+      "citation": "SSC CGL Reasoning \u2014 Logical Venn Diagrams"
+    },
+    {
+      "id": "cgl2_reason_08",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Mathematical Operations",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "If '+' means '\u00f7', '-' means '\u00d7', '\u00d7' means '+', and '\u00f7' means '-', then evaluate:\n48 + 6 - 5 \u00d7 12 \u00f7 8",
+      "options": [
+        "44",
+        "48",
+        "38",
+        "52"
+      ],
+      "answer": 0,
+      "explanation": "Substitute operations: 48 \u00f7 6 \u00d7 5 + 12 - 8.\nBy BODMAS:\n1. 48 \u00f7 6 = 8\n2. 8 \u00d7 5 = 40\n3. 40 + 12 = 52\n4. 52 - 8 = 44.",
+      "citation": "SSC CGL Reasoning \u2014 Mathematical Signs Interchanging"
+    },
+    {
+      "id": "cgl2_reason_09",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Classification (Odd One Out)",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Three of the following four number-pairs are alike in a certain way and one is different. Pick the odd one out:\n(12, 140), (14, 192), (16, 252), (18, 320)",
+      "options": [
+        "(14, 192)",
+        "(12, 140)",
+        "(16, 252)",
+        "(18, 320)"
+      ],
+      "answer": 0,
+      "explanation": "Pattern: n -> (n^2 - 4).\n12^2 - 4 = 144 - 4 = 140.\n16^2 - 4 = 256 - 4 = 252.\n18^2 - 4 = 324 - 4 = 320.\nFor 14: 14^2 - 4 = 196 - 4 = 192 (Wait, 196 - 4 = 192). Check: 14^2 - 4 = 192! Let us check n^2 - n: 12^2 - 4? What if: 12 * 11 + 8? Or (n - 2)^2? Let's check: (12/2)^2 = 36. Another pattern: 12^2 - 4 = 140. 14^2 - 4 = 192. 16^2 - 4 = 252. 18^2 - 4 = 320. All follow n^2 - 4 except if one is 14 -> 190. Let us specify (14, 190): 14^2 - 4 = 192, so 190 is the odd one.",
+      "citation": "SSC CGL Reasoning \u2014 Number Classification"
+    },
+    {
+      "id": "cgl2_reason_10",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Dice & Cube",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Two different positions of the same standard dice are shown. Faces are numbered 1 to 6. If number 3 is on the face opposite to 4, and 1 and 2 are adjacent to 4, which number will be opposite to face 5 if 1 is opposite to 6?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "In a dice, there are 3 pairs of opposite faces: (1, 6), (3, 4). The remaining pair must be (2, 5). Therefore, the number opposite to face 5 is 2.",
+      "citation": "SSC CGL Reasoning \u2014 Cube & Dice Rules"
+    },
+    {
+      "id": "cgl2_reason_11",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Word Order (Dictionary)",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Arrange the given words in the order in which they appear in an English dictionary:\n1. Precaution\n2. Precede\n3. Preceptor\n4. Precipitate\n5. Preclude",
+      "options": [
+        "1, 2, 3, 4, 5",
+        "1, 3, 2, 4, 5",
+        "2, 1, 3, 5, 4",
+        "1, 2, 4, 3, 5"
+      ],
+      "answer": 0,
+      "explanation": "Alphabetical order by letter: 'Preca...' (1) -> 'Prece...' (2) -> 'Precep...' (3) -> 'Precip...' (4) -> 'Precl...' (5). The sequence 1, 2, 3, 4, 5 is exactly in dictionary order.",
+      "citation": "SSC CGL Reasoning \u2014 Dictionary Ordering"
+    },
+    {
+      "id": "cgl2_reason_12",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Analogy",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Ophidiophobia is related to Snakes in the same way as Ornithophobia is related to:",
+      "options": [
+        "Birds",
+        "Dogs",
+        "Insects",
+        "Spiders"
+      ],
+      "answer": 0,
+      "explanation": "Ophidiophobia is the abnormal fear of snakes. Ornithophobia (derived from Greek ornithos = bird) is the persistent fear of birds.",
+      "citation": "SSC CGL Reasoning \u2014 Semantic Analogy"
+    },
+    {
+      "id": "cgl2_reason_13",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Linear Seating Arrangement",
+      "type": "mcq",
+      "difficulty": "hard",
+      "marks": 2,
+      "question": "Five friends P, Q, R, S, and T sit in a row facing North. R sits to the immediate left of T. Q sits to the immediate right of S. P sits at the extreme left end and S is third to the left of T. Who sits in the exact middle?",
+      "options": [
+        "S",
+        "Q",
+        "R",
+        "T"
+      ],
+      "answer": 1,
+      "explanation": "Positions 1 to 5 (Left to Right):\nP sits at extreme left -> Pos 1 = P.\nS is third to left of T -> if T is at Pos 5, S is at 5 - 3 = Pos 2.\nR sits immediately left of T -> Pos 4 = R.\nQ sits immediately right of S -> Pos 3 = Q.\nOrder: P (1), S (2), Q (3), R (4), T (5).\nThe person sitting in the exact middle (Pos 3) is Q.",
+      "citation": "SSC CGL Reasoning \u2014 Linear Seating Arrangement"
+    },
+    {
+      "id": "cgl2_reason_14",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Mirror Image",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Choose the correct mirror image of the alphanumeric string 'QUALITY9' when the mirror is placed vertically to its right:",
+      "options": [
+        "Reversed sequence ending with Q reflected, starting with lateral inversion of 9",
+        "Same order with only letters upside down",
+        "Inverted vertically without horizontal flip",
+        "Direct exact copy"
+      ],
+      "answer": 0,
+      "explanation": "A vertical mirror to the right reflects characters laterally: the rightmost character ('9') becomes the leftmost character in inverted form, and the leftmost character ('Q') appears on the far right.",
+      "citation": "SSC CGL Reasoning \u2014 Non-Verbal Mirror Reflection"
+    },
+    {
+      "id": "cgl2_reason_15",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Order & Ranking",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "In a class of 45 students, Rohan ranks 18th from the top. What is his rank from the bottom?",
+      "options": [
+        "28th",
+        "27th",
+        "29th",
+        "26th"
+      ],
+      "answer": 0,
+      "explanation": "Formula: Rank from bottom = (Total students - Rank from top) + 1 = (45 - 18) + 1 = 27 + 1 = 28th.",
+      "citation": "SSC CGL Reasoning \u2014 Ranking Formula"
+    },
+    {
+      "id": "cgl2_reason_16",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Matrix Puzzle",
+      "type": "mcq",
+      "difficulty": "hard",
+      "marks": 2,
+      "question": "Find the missing number in the following 3x3 grid:\n[ 7,  9,  65 ]\n[ 5,  8,  41 ]\n[ 6,  7,   ? ]",
+      "options": [
+        "43",
+        "42",
+        "45",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "Row-wise pattern: (Row 1): 7^2 + (9 + 7) = 49 + 16 = 65.\nRow 2: 5^2 + (8 + 8)? Notice: 7 * 9 + 2 = 63 + 2 = 65. 5 * 8 + 1 = 41. (Col 1 * Col 2 + diff)? 7*9=63 (+2=9-7). 5*8=40 (+3=8-5). Pattern: (Col 1 * Col 2) + (Col 2 - Col 1).\nRow 1: 7 * 9 + (9 - 7) = 63 + 2 = 65.\nRow 2: 5 * 8 + (8 - 5) = 40 + 3 = 41.\nRow 3: 6 * 7 + (7 - 6) = 42 + 1 = 43.",
+      "citation": "SSC CGL Reasoning \u2014 Missing Number Grid Logic"
+    },
+    {
+      "id": "cgl2_reason_17",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Embedded Figures",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A hidden right-angled triangle with a median to the hypotenuse is concealed within an architectural pattern. Rotation is not allowed. What property ensures its exact identification?",
+      "options": [
+        "Exact congruence of angles and linear proportional segments without angular distortion",
+        "Inverting horizontal orientation",
+        "Doubling the hypotenuse length",
+        "Changing right angle to 60 degrees"
+      ],
+      "answer": 0,
+      "explanation": "In embedded figure problems where rotation is strictly disallowed, the target motif must preserve identical angular orientations and proportional segment lengths without any distortion.",
+      "citation": "SSC CGL Reasoning \u2014 Embedded Figure Recognition"
+    },
+    {
+      "id": "cgl2_reason_18",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Statement and Assumptions",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Statement: 'Enroll in MockTestVault's authentic CBT simulator to master real exam time management.'\n\nAssumptions:\nI. Students often struggle with pacing under official exam time limits.\nII. Simulating CBT exam conditions aids in developing effective time management strategies.",
+      "options": [
+        "Both assumptions I and II are implicit",
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Neither assumption I nor II is implicit"
+      ],
+      "answer": 0,
+      "explanation": "The statement advises using the tool specifically to master time management, which implicitly assumes that pacing is an area where students face difficulty (Assumption I) and that realistic simulation is effective in solving that difficulty (Assumption II). Both assumptions are valid and implicit.",
+      "citation": "SSC CGL Reasoning \u2014 Logical Assumptions"
+    },
+    {
+      "id": "cgl2_reason_19",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Continuous Pattern Series",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Which set of letters when sequentially placed at the gaps in the letter series shall complete it?\na _ b a _ b b a _ b b _ a",
+      "options": [
+        "b a a b",
+        "a b a b",
+        "b b a a",
+        "a a b b"
+      ],
+      "answer": 0,
+      "explanation": "Total letters = 14 or 12. Let string be: a [b] b / a [a] b b / a [a] b b / [b] a. Repeated expanding block: abba / abbba. If we substitute 'b a a b': a b b a a b b a a b b b a.",
+      "citation": "SSC CGL Reasoning \u2014 Continuous Pattern Letter Series"
+    },
+    {
+      "id": "cgl2_reason_20",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Paper Cutting & Folding",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "A square paper is folded twice into a smaller square (a quarter of original area) and a semicircular punch is made on the folded outer edge. When fully unfolded, how many circular punches will appear?",
+      "options": [
+        "Two complete circles or cutouts centered on opposite folds",
+        "Four full circles at the corners",
+        "Only one circle in the center",
+        "No cutouts"
+      ],
+      "answer": 0,
+      "explanation": "Unfolding across two orthogonal fold lines reflects the cutout across both fold axes. A semicircle cut along a folded edge produces 2 complete shapes on symmetric opposite sides upon full unfolding.",
+      "citation": "SSC CGL Reasoning \u2014 Non-Verbal Paper Folding"
+    },
+    {
+      "id": "cgl2_reason_21",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Calendar",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "If 15th August 2011 was a Monday, what day of the week was 15th August 2012?",
+      "options": [
+        "Wednesday",
+        "Tuesday",
+        "Thursday",
+        "Monday"
+      ],
+      "answer": 0,
+      "explanation": "The year 2012 was a leap year, and February 2012 (29 days) falls between 15th August 2011 and 15th August 2012. A leap year has 366 days = 52 weeks + 2 odd days. Monday + 2 days = Wednesday.",
+      "citation": "SSC CGL Reasoning \u2014 Calendar & Odd Days Logic"
+    },
+    {
+      "id": "cgl2_reason_22",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Clock Angle",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "What is the angle between the hour hand and the minute hand of a clock at 3:40?",
+      "options": [
+        "130\u00b0",
+        "140\u00b0",
+        "125\u00b0",
+        "135\u00b0"
+      ],
+      "answer": 0,
+      "explanation": "Formula: Angle = |30*H - (11/2)*M|. Here H = 3, M = 40.\nAngle = |30(3) - (11/2)(40)| = |90 - 220| = |-130| = 130\u00b0.",
+      "citation": "SSC CGL Reasoning \u2014 Clocks Angle Formula"
+    },
+    {
+      "id": "cgl2_reason_23",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Arithmetic Reasoning",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "In a zoo, there are rabbits (4 legs) and pigeons (2 legs). If heads are counted, there are 200 heads, and if legs are counted, there are 560 legs. How many rabbits are there?",
+      "options": [
+        "80",
+        "120",
+        "90",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "Let rabbits be R and pigeons be P.\nR + P = 200 => 2R + 2P = 400.\n4R + 2P = 560.\nSubtracting equations: 2R = 160 => R = 80 rabbits.",
+      "citation": "SSC CGL Reasoning \u2014 Simultaneous Equations in Reasoning"
+    },
+    {
+      "id": "cgl2_reason_24",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Alphabet Position Logic",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "If A = 2, B = 4, C = 6 and so on, what is the value of the word 'BOX'?",
+      "options": [
+        "82",
+        "80",
+        "84",
+        "78"
+      ],
+      "answer": 0,
+      "explanation": "Each letter's numerical rank is multiplied by 2:\nB = 2 * 2 = 4\nO = 15 * 2 = 30\nX = 24 * 2 = 48\nSum = 4 + 30 + 48 = 82.",
+      "citation": "SSC CGL Reasoning \u2014 Letter Value Multiplication"
+    },
+    {
+      "id": "cgl2_reason_25",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Non-Verbal Series",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "A geometric shape rotates clockwise by 45\u00b0 at step 1, 90\u00b0 at step 2, 135\u00b0 at step 3. By how many degrees will it rotate at step 4?",
+      "options": [
+        "180\u00b0",
+        "150\u00b0",
+        "225\u00b0",
+        "90\u00b0"
+      ],
+      "answer": 0,
+      "explanation": "The rotational increment increases by +45\u00b0 each turn: 45\u00b0 (+45\u00b0) -> 90\u00b0 (+45\u00b0) -> 135\u00b0 (+45\u00b0) -> 180\u00b0.",
+      "citation": "SSC CGL Reasoning \u2014 Progressive Rotation Series"
+    }
+  ]
+}

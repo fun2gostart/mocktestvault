@@ -1,0 +1,332 @@
+#!/usr/bin/env python3
+"""
+Generates IELTS Academic Reading Practice Test 04 (20 questions: ielts-read-061 to ielts-read-080).
+Passage 1 (Qs 61–67): Deep-Sea Hydrothermal Vents & Chemosynthesis (True / False / Not Given)
+Passage 2 (Qs 68–74): Mycorrhizal Fungal Networks & Forest Communication (Matching Headings & MCQs)
+Passage 3 (Qs 75–80): Acoustic Archaeology & Resonant Paleolithic Caves (Summary Completion & Yes/No/Not Given)
+"""
+
+import json
+
+questions = [
+    # --- Passage 1: Deep-Sea Hydrothermal Vents & Chemosynthetic Ecosystems ---
+    {
+        "id": "ielts-read-061",
+        "type": "mcq",
+        "subtopic": "True / False / Not Given (Passage 1: Hydrothermal Vents)",
+        "difficulty": "Medium",
+        "question": "Passage Excerpt: 'Discovered in 1977 along the Galápagos Rift by geologists aboard the submersible Alvin, hydrothermal vents defied the long-held ecological dogma that all complex biological life on Earth is fundamentally underpinned by solar radiation and photosynthetic primary production.'\n\nQuestion: Prior to the 1977 Galápagos Rift expedition, scientists believed that all complex terrestrial and marine food webs depended upon solar energy.",
+        "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+        ],
+        "answer": 0,
+        "explanation": "The text states that the 1977 discovery 'defied the long-held ecological dogma that all complex biological life on Earth is fundamentally underpinned by solar radiation and photosynthetic primary production.' Prior to 1977, this was the accepted belief, making the statement TRUE.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: True/False/Not Given"
+    },
+    {
+        "id": "ielts-read-062",
+        "type": "mcq",
+        "subtopic": "True / False / Not Given (Passage 1: Hydrothermal Vents)",
+        "difficulty": "Medium",
+        "question": "Passage Excerpt: 'In these abyssal depths, subterranean seawater is superheated up to 400°C by basaltic magma chambers, leaching heavy metals and dissolved hydrogen sulfide before spewing back into the icy 2°C ocean waters, where minerals precipitate to construct towering chimneys known as black smokers.'\n\nQuestion: The water escaping black smoker chimneys has a temperature exceeding three hundred degrees Celsius.",
+        "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+        ],
+        "answer": 0,
+        "explanation": "The passage confirms that the subterranean seawater spewing from the vents is 'superheated up to 400°C', which clearly exceeds 300°C: TRUE.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: True/False/Not Given"
+    },
+    {
+        "id": "ielts-read-063",
+        "type": "mcq",
+        "subtopic": "True / False / Not Given (Passage 1: Hydrothermal Vents)",
+        "difficulty": "Hard",
+        "question": "Passage Excerpt: 'Rather than using chlorophyll to fix inorganic carbon via solar photons, chemoautotrophic bacteria synthesize organic nutrients by oxidizing the chemical bonds of toxic hydrogen sulfide, a pathway known as chemosynthesis.'\n\nQuestion: Chemoautotrophic bacteria require small quantities of residual sunlight penetrating the bathypelagic zone to oxidize sulfur compounds.",
+        "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+        ],
+        "answer": 1,
+        "explanation": "The passage explicitly contrasts chemosynthesis with photosynthesis, stating that bacteria synthesize nutrients by oxidizing hydrogen sulfide 'rather than using chlorophyll to fix inorganic carbon via solar photons'. Sunlight is not required at all in these abyssal depths: FALSE.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: True/False/Not Given"
+    },
+    {
+        "id": "ielts-read-064",
+        "type": "mcq",
+        "subtopic": "True / False / Not Given (Passage 1: Hydrothermal Vents)",
+        "difficulty": "Hard",
+        "question": "Passage Excerpt: 'The giant tube worm (Riftia pachyptila), reaching up to 2.4 meters in length, possesses neither a mouth, gut, nor digestive tract; instead, it relies entirely on a specialized organ called the trophosome, packed with billions of symbiotic sulfophilic bacteria.'\n\nQuestion: Riftia pachyptila consumes small pelagic crustacea through mouthparts located near its crimson plume.",
+        "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+        ],
+        "answer": 1,
+        "explanation": "The text directly states that the giant tube worm 'possesses neither a mouth, gut, nor digestive tract', completely contradicting the assertion that it consumes crustacea through mouthparts: FALSE.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: True/False/Not Given"
+    },
+    {
+        "id": "ielts-read-065",
+        "type": "mcq",
+        "subtopic": "True / False / Not Given (Passage 1: Hydrothermal Vents)",
+        "difficulty": "Medium",
+        "question": "Passage Excerpt: 'The crimson color of Riftia's plume stems from an extraordinary, highly specialized hemoglobin molecule capable of simultaneously binding both molecular oxygen and hydrogen sulfide without suffering chemical asphyxiation.'\n\nQuestion: Riftia pachyptila's hemoglobin exhibits a higher binding affinity for oxygen than human hemoglobin.",
+        "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+        ],
+        "answer": 2,
+        "explanation": "The passage discusses Riftia's specialized hemoglobin that binds both oxygen and hydrogen sulfide, but it never compares its relative binding affinity to human hemoglobin: NOT GIVEN.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: True/False/Not Given"
+    },
+    {
+        "id": "ielts-read-066",
+        "type": "mcq",
+        "subtopic": "True / False / Not Given (Passage 1: Hydrothermal Vents)",
+        "difficulty": "Hard",
+        "question": "Passage Excerpt: 'Individual hydrothermal vent fields are ephemeral geological features, typically persisting for merely several decades before tectonic rifting or volcanic choking abruptly extinguishes their hydrothermal outflow.'\n\nQuestion: An individual hydrothermal vent system typically remains continuously active for multiple centuries.",
+        "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+        ],
+        "answer": 1,
+        "explanation": "The text states vent fields are ephemeral and typically persist 'for merely several decades', which directly contradicts remaining active for multiple centuries: FALSE.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: True/False/Not Given"
+    },
+    {
+        "id": "ielts-read-067",
+        "type": "mcq",
+        "subtopic": "True / False / Not Given (Passage 1: Hydrothermal Vents)",
+        "difficulty": "Medium",
+        "question": "Passage Excerpt: 'When an active vent abruptly ceases venting, the local obligate fauna perish within months, yet larval propagules can drift across hundreds of kilometers of barren abyssal plains on bottom currents to colonize nascent hydrothermal fissures.'\n\nQuestion: Deep-sea currents assist in dispersing vent larvae to newly formed geological rifts.",
+        "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+        ],
+        "answer": 0,
+        "explanation": "The passage confirms that 'larval propagules can drift across hundreds of kilometers of barren abyssal plains on bottom currents to colonize nascent hydrothermal fissures': TRUE.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: True/False/Not Given"
+    },
+
+    # --- Passage 2: Mycorrhizal Fungal Networks & Forest Ecology ---
+    {
+        "id": "ielts-read-068",
+        "type": "mcq",
+        "subtopic": "Matching Headings (Passage 2: Mycorrhizal Networks)",
+        "difficulty": "Hard",
+        "question": "Paragraph A: 'Beneath the forest floor lies a dense, subterranean lattice composed of fungal hyphae connecting the root tips of discrete individual trees. Known colloquially as the Common Mycorrhizal Network (CMN) or the \"Wood Wide Web,\" this subterranean architecture facilitates bidirectional resource exchange, transferring photosynthetically derived carbon, soil nitrogen, and water between dominant canopy veterans and understory saplings.'\n\nWhich heading best summarizes Paragraph A?",
+        "options": [
+            "The architecture and resource-sharing role of fungal subterranean networks",
+            "Commercial timber applications of mycorrhizal bio-fertilizers",
+            "The vulnerability of old-growth root systems to fungal parasites",
+            "How drought conditions trigger fungal spore release in temperate forests"
+        ],
+        "answer": 0,
+        "explanation": "Paragraph A describes the physical structure (dense subterranean lattice of hyphae) and its primary function (facilitating bidirectional resource exchange of carbon, nitrogen, and water among trees). Heading 1 encapsulates both aspects accurately.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Matching Headings"
+    },
+    {
+        "id": "ielts-read-069",
+        "type": "mcq",
+        "subtopic": "Matching Headings (Passage 2: Mycorrhizal Networks)",
+        "difficulty": "Hard",
+        "question": "Paragraph B: 'Using isotopic carbon labeling (13C and 14C), forest ecologist Suzanne Simard demonstrated that Douglas-fir trees in full sunlight consistently shuttle surplus carbohydrates through fungal links to shade-suppressed paper birch saplings. Remarkably, when the seasons invert and the birch trees develop full summer leaves while firs face stress, the net flow of carbon reverses, exhibiting a reciprocal, multi-species mutualism previously unrecognized in classical competitive models.'\n\nWhich heading best summarizes Paragraph B?",
+        "options": [
+            "Experimental evidence of reciprocal, inter-species carbon allocation",
+            "Genetic sequencing of ectomycorrhizal strains in British Columbia",
+            "The physiological costs of parasitic vine growth on conifer stems",
+            "Methodology for harvesting fungal truffles in boreal environments"
+        ],
+        "answer": 0,
+        "explanation": "Paragraph B highlights Simard's isotopic experiments showing that Douglas-firs and paper birches trade carbon back and forth depending on sunlight and seasonal conditions, proving reciprocal inter-species mutualism.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Matching Headings"
+    },
+    {
+        "id": "ielts-read-070",
+        "type": "mcq",
+        "subtopic": "Matching Headings (Passage 2: Mycorrhizal Networks)",
+        "difficulty": "Hard",
+        "question": "Paragraph C: 'Beyond elemental nutrients, mycorrhizal networks serve as rapid infochemical conduits. When an herbivorous aphid or caterpillar attacks a broadleaf specimen, the wounded host synthesizes and emits chemical defense signals through its root mycorrhizae. Within hours, uninfested neighboring trees downstream of the network initiate proactive transcription of protective defensive enzymes and volatile terpenes, fortifying their foliage before the pest swarm arrives.'\n\nWhich heading best summarizes Paragraph C?",
+        "options": [
+            "Subterranean warning signals that trigger early herbivore defense",
+            "The atmospheric transport of fungal spores across mountain ridges",
+            "Pesticide resistance mechanisms among predatory forest insects",
+            "The evolutionary loss of chemical defenses in domesticated crop roots"
+        ],
+        "answer": 0,
+        "explanation": "Paragraph C explains how mycorrhizae carry infochemical distress signals from an attacked tree to unattacked neighbors, allowing them to activate defense enzymes ahead of time: Subterranean warning signals that trigger early herbivore defense.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Matching Headings"
+    },
+    {
+        "id": "ielts-read-071",
+        "type": "mcq",
+        "subtopic": "Multiple Choice (Passage 2: Mycorrhizal Networks)",
+        "difficulty": "Medium",
+        "question": "Passage Excerpt: 'Recent critical appraisals by Karst et al. urge scientific caution, pointing out that many popular depictions overstate the altruistic nature of forest networks. Fungal hyphae are autonomous evolutionary entities driven by their own reproductive fitness; they tax and regulate nutrient transfers, acting less like charitable pipelines and more like shrewd subterranean brokers charging carbon tariffs.'\n\nAccording to Karst et al., popular representations of the \"Wood Wide Web\" are flawed because they:",
+        "options": [
+            "Overlook the self-interested evolutionary motivations and nutrient brokering of fungi.",
+            "Fail to account for the impact of global warming on fungal mycelium depth.",
+            "Underestimate the physical distance spanned by individual hyphal filaments.",
+            "Assume mycorrhizal fungi can survive in the absence of tree hosts."
+        ],
+        "answer": 0,
+        "explanation": "The excerpt notes that popular accounts overstate altruism and ignore that fungi are autonomous agents pursuing their own fitness, acting as brokers charging carbon tariffs: option 0 directly captures this.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Multiple Choice"
+    },
+    {
+        "id": "ielts-read-072",
+        "type": "mcq",
+        "subtopic": "Multiple Choice (Passage 2: Mycorrhizal Networks)",
+        "difficulty": "Medium",
+        "question": "Passage Excerpt: 'In clear-cut industrial forestry zones where old \"hub\" or \"mother\" trees are systematically razed, soil fungal diversity plunges by up to 85%, leaving monoculture seedlings isolated and disproportionately susceptible to drought and pathogen infestation.'\n\nWhat is the primary ecological consequence of removing hub trees during clear-cutting?",
+        "options": [
+            "A precipitous decline in fungal biodiversity, impairing seedling resilience.",
+            "An increase in invasive grass proliferation preventing soil stabilization.",
+            "The immediate acidification of groundwater reservoirs beneath the cut zone.",
+            "A complete halt in the decomposition of surface leaf litter."
+        ],
+        "answer": 0,
+        "explanation": "The text states that removing hub trees causes fungal diversity to plunge by up to 85%, making seedlings isolated and susceptible to drought and pathogens: a precipitous decline in fungal biodiversity impairing seedling resilience.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Multiple Choice"
+    },
+    {
+        "id": "ielts-read-073",
+        "type": "mcq",
+        "subtopic": "Multiple Choice (Passage 2: Mycorrhizal Networks)",
+        "difficulty": "Hard",
+        "question": "Passage Excerpt: 'Certain parasitic plants, such as the ghost plant (Monotropa uniflora), perform no photosynthesis of their own; instead, they have evolved myco-heterotrophic adaptations that breach the fungal network, siphoning carbohydrates without returning any photosynthetic payoff.'\n\nThe author mentions Monotropa uniflora primarily to illustrate:",
+        "options": [
+            "An exploitative organism that taps into mycorrhizal flows without reciprocity.",
+            "A beneficial symbiont that enhances phosphate uptake for neighboring conifers.",
+            "The oldest known flowering plant species preserved in temperate forest strata.",
+            "The lethal toxicity of understory flora to grazing cervid populations."
+        ],
+        "answer": 0,
+        "explanation": "Monotropa uniflora is described as non-photosynthetic and myco-heterotrophic, siphoning carbohydrates without returning any payoff, which illustrates exploitation without reciprocity.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Multiple Choice"
+    },
+    {
+        "id": "ielts-read-074",
+        "type": "mcq",
+        "subtopic": "Multiple Choice (Passage 2: Mycorrhizal Networks)",
+        "difficulty": "Medium",
+        "question": "Passage Excerpt: 'Ectomycorrhizal fungi predominantly colonize woody temperate trees like pines, birches, and oaks, forming a mantle called a Hartig net between plant root cells, while arbuscular mycorrhizal fungi actually penetrate the cell walls of herbaceous grasses and tropical flora.'\n\nWhat distinguishes ectomycorrhizal fungi from arbuscular mycorrhizal fungi?",
+        "options": [
+            "Ectomycorrhizal fungi surround root cells without penetrating their interior walls.",
+            "Ectomycorrhizal fungi cannot withstand temperate seasonal freeze-thaw cycles.",
+            "Arbuscular mycorrhizal fungi do not exchange nutrients with host root tissue.",
+            "Arbuscular mycorrhizal fungi are found exclusively in sub-zero alpine tundras."
+        ],
+        "answer": 0,
+        "explanation": "The text states ectomycorrhizae form a mantle (Hartig net) between cells, whereas arbuscular mycorrhizae actually penetrate the plant cell walls.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Multiple Choice"
+    },
+
+    # --- Passage 3: Acoustic Archaeology & Resonant Paleolithic Caves ---
+    {
+        "id": "ielts-read-075",
+        "type": "mcq",
+        "subtopic": "Writer's Views: Yes / No / Not Given (Passage 3: Acoustic Archaeology)",
+        "difficulty": "Hard",
+        "question": "Passage Excerpt: 'In the late 1980s, acoustic archaeologist Iégor Reznikoff conducted systematic sonic mapping inside Upper Paleolithic painted caves across France, including Niaux and Le Portel. By emitting pure vocal pitches at discrete intervals throughout subterranean galleries, Reznikoff observed a startling statistical correlation: chambers possessing maximum acoustic reverberation and low-frequency resonance exhibited the highest density of cave paintings.'\n\nQuestion: Reznikoff discovered that Paleolithic artists preferentially decorated subterranean spaces that possessed heightened acoustic resonance.",
+        "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+        ],
+        "answer": 0,
+        "explanation": "The passage confirms that chambers with maximum acoustic reverberation exhibited the highest density of cave paintings, agreeing with the author's statement: YES.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Yes/No/Not Given"
+    },
+    {
+        "id": "ielts-read-076",
+        "type": "mcq",
+        "subtopic": "Writer's Views: Yes / No / Not Given (Passage 3: Acoustic Archaeology)",
+        "difficulty": "Hard",
+        "question": "Passage Excerpt: 'Intriguingly, narrow dead-end alcoves where resonance amplified sound like the horn of an animal were frequently marked solely with red ochre dots or representations of bison and mammoths, whose resonant bellows match those fundamental room acoustics.'\n\nQuestion: The motifs depicting herbivores in narrow alcoves were drawn using mineral pigments imported from distant continents.",
+        "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+        ],
+        "answer": 2,
+        "explanation": "The text describes red ochre dots and depictions of bison, but makes no mention of the geographic origin or importation of the mineral pigments: NOT GIVEN.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Yes/No/Not Given"
+    },
+    {
+        "id": "ielts-read-077",
+        "type": "mcq",
+        "subtopic": "Writer's Views: Yes / No / Not Given (Passage 3: Acoustic Archaeology)",
+        "difficulty": "Hard",
+        "question": "Passage Excerpt: 'Skeptics initially contended that cave artists were guided solely by visual topography—such as natural convexities in the limestone walls resembling animal bellies—and that acoustic matches were merely incidental artifacts of cave geology.'\n\nQuestion: Early critics asserted that the visual features of cave walls alone dictated where paintings were placed.",
+        "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+        ],
+        "answer": 0,
+        "explanation": "The passage states that skeptics contended artists were 'guided solely by visual topography—such as natural convexities in the limestone walls', directly supporting the question statement: YES.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Yes/No/Not Given"
+    },
+    {
+        "id": "ielts-read-078",
+        "type": "mcq",
+        "subtopic": "Writer's Views: Yes / No / Not Given (Passage 3: Acoustic Archaeology)",
+        "difficulty": "Hard",
+        "question": "Passage Excerpt: 'Subsequent computerized acoustic impulse-response simulations carried out at the Chauvet Cave in 2014 conclusively refuted the skeptic counter-argument, confirming that non-visual acoustic feedback guided Upper Paleolithic hunters navigating pitch-black caverns with flickering animal-fat lamps.'\n\nQuestion: The 2014 Chauvet Cave computer simulations corroborated the skeptics' contention that sound played no role in cave art placement.",
+        "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+        ],
+        "answer": 1,
+        "explanation": "The passage explicitly says the 2014 simulations 'conclusively refuted the skeptic counter-argument' and confirmed that acoustic feedback guided ancient people, contradicting the claim that it corroborated skeptics: NO.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Yes/No/Not Given"
+    },
+    {
+        "id": "ielts-read-079",
+        "type": "mcq",
+        "subtopic": "Summary Completion (Passage 3: Acoustic Archaeology)",
+        "difficulty": "Hard",
+        "question": "Complete the sentence based on the passage:\n\nPassage Excerpt: 'Neuroacoustic experiments reveal that sustained rhythmic drumming or vocal chanting at 110–120 Hz—a range ubiquitous in limestone cavern resonances—stimulates theta brainwave activity in the human prefrontal cortex, deactivating normal analytical cognition and inducing altered states of consciousness akin to trance rituals.'\n\nLimestone cave resonances matching 110–120 Hz trigger ________ brainwave activity, which shifts human consciousness into trance-like meditative states.",
+        "options": [
+            "theta",
+            "beta",
+            "gamma",
+            "delta"
+        ],
+        "answer": 0,
+        "explanation": "The passage states verbatim that chanting in the 110-120 Hz range 'stimulates theta brainwave activity in the human prefrontal cortex'.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Summary Completion"
+    },
+    {
+        "id": "ielts-read-080",
+        "type": "mcq",
+        "subtopic": "Summary Completion (Passage 3: Acoustic Archaeology)",
+        "difficulty": "Medium",
+        "question": "Complete the summary based on the passage:\n\nPassage Excerpt: 'Ultimately, acoustic archaeology transforms our comprehension of prehistoric rock art from passive visual galleries into multi-sensory ceremonial spaces where echoes, reverberation, and ritual incantation were inseparable from the painted image.'\n\nModern acoustic archaeology reveals that Paleolithic painted caves functioned as dynamic ________ spaces rather than mere visual displays.",
+        "options": [
+            "ceremonial and multi-sensory",
+            "strictly domestic and residential",
+            "commercial trading and bartering",
+            "temporary defensive fortifications"
+        ],
+        "answer": 0,
+        "explanation": "The passage states that acoustic archaeology transforms our view from passive galleries into 'multi-sensory ceremonial spaces where echoes, reverberation, and ritual incantation were inseparable from the painted image'.",
+        "citation": "Cambridge IELTS Academic Reading — Question Type: Summary Completion"
+    }
+]
+
+out_path = '/Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/data/global/ielts/ielts_reading_set4.json'
+with open(out_path, 'w', encoding='utf-8') as f:
+    json.dump({"questions": questions}, f, indent=2, ensure_ascii=False)
+
+print(f"Successfully generated {len(questions)} IELTS reading questions at {out_path}!")

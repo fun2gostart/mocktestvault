@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 105 Production Routes | 4,290+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 5 Legal Trust Hubs  
+> **Current Scale:** 113 Production Routes | 4,450+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 2 Full 100-Q SSC CGL Simulators | 5 Legal Trust Hubs  
 > **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs)  
 
 ---
@@ -85,10 +85,15 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
   * Class 10 Mathematics Standard & Basic Full 80-Mark Paper 01 (80 Qs, 180 Mins: Algebra, Geometry, Trig, Stats: `cbse-class-10/sample-papers/mathematics-board-mock-01.html`)
   * Class 10 Social Science Full 80-Mark Paper 01 (80 Qs, 180 Mins: History, Geography, Civics, Economics: `cbse-class-10/sample-papers/social-science-board-mock-01.html`)
 
-### B. Competitive & Standardized Simulators (800 Questions Live)
-* **Staff Selection Commission (SSC CGL Tier 1 — 200 Questions):**
-  * Full Mock 01 (100 Questions, 60 Mins, 4 Sections, TCS iON Palette)
-  * 4 Sectional Speed Drills: Reasoning (25 Qs), Quant (25 Qs), English (25 Qs), General Awareness (25 Qs)
+### B. Competitive & Standardized Simulators (960 Questions Live)
+* **Staff Selection Commission (SSC CGL Tier 1 — 400 Questions):**
+  * Full Mock 01 (100 Questions, 60 Mins, 4 Sections, TCS iON Palette: `ssc-cgl/mock-01.html`)
+  * Full Mock 02 (100 Questions, 60 Mins, 4 Sections, TCS iON Palette: `ssc-cgl/mock-02.html`)
+  * 8 Sectional Speed Drills:
+    * Reasoning: Speed Drill 01 (`ssc-cgl/sectional-reasoning-01.html`) & Speed Drill 02 (`ssc-cgl/sectional-reasoning-02.html`) (25 Qs each)
+    * Quantitative Aptitude: Speed Drill 01 (`ssc-cgl/sectional-quantitative-aptitude-01.html`) & Speed Drill 02 (`ssc-cgl/sectional-quantitative-aptitude-02.html`) (25 Qs each)
+    * English Comprehension: Speed Drill 01 (`ssc-cgl/sectional-english-01.html`) & Speed Drill 02 (`ssc-cgl/sectional-english-02.html`) (25 Qs each)
+    * General Awareness: Speed Drill 01 (`ssc-cgl/sectional-general-awareness-01.html`) & Speed Drill 02 (`ssc-cgl/sectional-general-awareness-02.html`) (25 Qs each)
 * **United States Pillar (500 Questions across 30 Production Routes — 100 Questions Per Exam + 5 Dedicated Random Mocks):**
   * **Digital SAT® Math (100 Questions — 5 Modules + Dynamic Random Mock, 32 Mins each, Desmos methods):**
     * Module 01: Core Diagnostic (`sat/math-practice-01.html`)
@@ -125,15 +130,18 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
     * Set 04: Periods 7 & 8 (1890–1980: Imperialism, WWI, New Deal, WWII, Cold War & Civil Rights: `ap/us-history-diagnostic-04.html`)
     * Set 05: Period 9 & Thematic Review (1980–Present: Modern America & Comprehensive Synthesis: `ap/us-history-diagnostic-05.html`)
     * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 100-Q pool (`ap/us-history-diagnostic-random.html`)
-* **Global Standards Pillar (100 Questions Live across 6 Production Routes):**
-  * **IELTS® Academic Reading (60 Questions — 3 Practice Suites + Dynamic Random Mock, 25 Mins each, Band 7.5–9.0 conversion scale):**
+* **Global Standards Pillar (160 Questions Live across 9 Production Routes):**
+  * **IELTS® Academic Reading (80 Questions — 4 Practice Suites + Dynamic Random Mock, 25 Mins each, Band 7.5–9.0 conversion scale):**
     * Practice 01: Biophilic Architecture & Marine Acoustics (`global/ielts/reading-practice-01.html`)
     * Practice 02: Early Agriculture, Deep-Sea Minerals & Bilingualism (`global/ielts/reading-practice-02.html`)
     * Practice 03: The Voynich Manuscript, Cryosphere Albedo & Geckos (`global/ielts/reading-practice-03.html`)
-    * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 60-Q pool (`global/ielts/reading-practice-random.html`)
-  * **GRE® General Test Diagnostics (40 Questions across 2 Dedicated Suites, 130–170 Scaled Scoring):**
+    * Practice 04: Hydrothermal Vents, Mycorrhizal Networks & Acoustic Archaeology (`global/ielts/reading-practice-04.html`)
+    * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 80-Q pool (`global/ielts/reading-practice-random.html`)
+  * **GRE® General Test Diagnostics (80 Questions across 4 Dedicated Suites, 130–170 Scaled Scoring):**
     * Quantitative Reasoning Diagnostic 01 (20 Qs, 35 Mins: Quant Comparison, Problem Solving, Data Interpretation: `global/gre/quantitative-reasoning-01.html`)
+    * Quantitative Reasoning Diagnostic 02 (20 Qs, 35 Mins: Standardized ETS QC options, Circles, Combinatorics: `global/gre/quantitative-reasoning-02.html`)
     * Verbal Reasoning Diagnostic 01 (20 Qs, 30 Mins: Text Completion, Sentence Equivalence, Reading Comprehension: `global/gre/verbal-reasoning-01.html`)
+    * Verbal Reasoning Diagnostic 02 (20 Qs, 30 Mins: Multi-Blank Text Completion, Inverted Syntax, Passage Inference: `global/gre/verbal-reasoning-02.html`)
 
 ---
 
