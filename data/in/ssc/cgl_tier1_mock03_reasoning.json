@@ -1,0 +1,464 @@
+{
+  "test_id": "cgl_tier1_mock03_reasoning",
+  "title": "SSC CGL Tier 1 Sectional Test 03: General Intelligence & Reasoning",
+  "section": "General Intelligence & Reasoning",
+  "total_questions": 25,
+  "duration_minutes": 15,
+  "marking_scheme": {
+    "correct": 2,
+    "wrong": -0.5,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "cgl3_reason_01",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Letter-Cluster Analogy",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first:\nCHAIR : FKDLU :: TABLE : ?",
+      "options": [
+        "WDEOH",
+        "WDEOG",
+        "VCDNH",
+        "XEFPI"
+      ],
+      "answer": 0,
+      "explanation": "**Correct Answer: WDEOH**\n\nPattern: Forward shift of +3 for each letter.\nC(+3)=F, H(+3)=K, A(+3)=D, I(+3)=L, R(+3)=U.\nApplying +3 to TABLE:\nT(20)+3 = 23 (W)\nA(1)+3 = 4 (D)\nB(2)+3 = 5 (E)\nL(12)+3 = 15 (O)\nE(5)+3 = 8 (H)\nResult = WDEOH.",
+      "citation": "SSC CGL Reasoning — Letter-Cluster Shift Patterns"
+    },
+    {
+      "id": "cgl3_reason_02",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Number Analogy",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Select the number that is related to the third number in the same way as the second number is related to the first:\n14 : 210 :: 18 : ?",
+      "options": [
+        "324",
+        "342",
+        "360",
+        "306"
+      ],
+      "answer": 1,
+      "explanation": "**Correct Answer: 342**\n\nPattern: n : n * (n + 1), or n^2 + n.\nFor 14: 14^2 + 14 = 196 + 14 = 210 (or 14 * 15 = 210).\nFor 18: 18^2 + 18 = 324 + 18 = 342 (or 18 * 19 = 342).",
+      "citation": "SSC CGL Reasoning — Number Operations & Product of Consecutive Integers"
+    },
+    {
+      "id": "cgl3_reason_03",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Number Series",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Which number will replace the question mark (?) in the following series?\n12, 25, 52, 107, 218, ?",
+      "options": [
+        "436",
+        "442",
+        "441",
+        "445"
+      ],
+      "answer": 2,
+      "explanation": "**Correct Answer: 441**\n\nPattern: Multiply by 2 and add consecutive integers (+1, +2, +3, +4, +5):\n12 * 2 + 1 = 25\n25 * 2 + 2 = 52\n52 * 2 + 3 = 107\n107 * 2 + 4 = 218\nNext term = 218 * 2 + 5 = 436 + 5 = 441.",
+      "citation": "SSC CGL Reasoning — Arithmetic-Geometric Series"
+    },
+    {
+      "id": "cgl3_reason_04",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Continuous Alphabetical Series",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Which sequence of letters will complete the continuous letter series?\na b _ d | a _ c d | _ b c d | a b c _",
+      "options": [
+        "b, c, a, d",
+        "c, a, b, d",
+        "d, c, b, a",
+        "c, b, a, d"
+      ],
+      "answer": 3,
+      "explanation": "**Correct Answer: c, b, a, d**\n\nDividing the 16-letter string into 4 equal blocks of 4 letters each:\nBlock 1: a b [c] d\nBlock 2: a [b] c d\nBlock 3: [a] b c d\nBlock 4: a b c [d]\nEvery block is the repeating pattern 'abcd'. The missing letters in order are c, b, a, d.",
+      "citation": "SSC CGL Reasoning — Repeating Pattern Letter Series"
+    },
+    {
+      "id": "cgl3_reason_05",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Coding-Decoding",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "In a certain code language, if PAINT is coded as 74128 and EXCEL is coded as 93596, how will ACCEPT be coded in that language?",
+      "options": [
+        "455978",
+        "455987",
+        "455798",
+        "459578"
+      ],
+      "answer": 0,
+      "explanation": "**Correct Answer: 455978**\n\nPattern: Direct letter-to-digit substitution:\nP=7, A=4, I=1, N=2, T=8, E=9, X=3, C=5, L=6.\nFor ACCEPT:\nA = 4\nC = 5\nC = 5\nE = 9\nP = 7\nT = 8\nCode = 455978.",
+      "citation": "SSC CGL Reasoning — Direct Substitution Coding"
+    },
+    {
+      "id": "cgl3_reason_06",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Mathematical Operators",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Which two signs should be interchanged to make the given mathematical equation correct?\n36 + 6 × 3 ÷ 12 - 8 = 22",
+      "options": [
+        "× and -",
+        "+ and ÷",
+        "+ and ×",
+        "÷ and -"
+      ],
+      "answer": 1,
+      "explanation": "**Correct Answer: + and ÷**\n\nInterchanging + and ÷ yields:\n36 ÷ 6 × 3 + 12 - 8\nApplying BODMAS:\n= 6 × 3 + 12 - 8\n= 18 + 12 - 8\n= 30 - 8 = 22.\nThe equation is perfectly balanced.",
+      "citation": "SSC CGL Reasoning — Sign Interchanges & BODMAS Rule"
+    },
+    {
+      "id": "cgl3_reason_07",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Syllogisms",
+      "type": "mcq",
+      "difficulty": "hard",
+      "marks": 2,
+      "question": "Read the statements and conclusions carefully. Assuming the statements to be true, choose which conclusion(s) logically follow:\nStatements:\n1. All metals are solids.\n2. Some solids are conductors.\n3. No conductor is an insulator.\n\nConclusions:\nI. Some conductors are metals.\nII. Some solids are not insulators.\nIII. No metal is an insulator.",
+      "options": [
+        "Only conclusion I follows",
+        "Both conclusions I and II follow",
+        "Only conclusion II follows",
+        "None of the conclusions follow"
+      ],
+      "answer": 2,
+      "explanation": "**Correct Answer: Only conclusion II follows**\n\nAnalysis:\n- Conclusion I: 'Some conductors are metals' is a possibility, but not definite since the intersection of conductors and metals is not guaranteed.\n- Conclusion II: 'Some solids are conductors' and 'No conductor is an insulator'. The specific solids that are conductors can NEVER be insulators. Hence, 'Some solids are not insulators' is 100% logically certain.\n- Conclusion III: 'No metal is an insulator' is not certain because metals that are not conductors could theoretically be insulators.\nTherefore, only conclusion II follows.",
+      "citation": "SSC CGL Reasoning — Categorical Syllogisms"
+    },
+    {
+      "id": "cgl3_reason_08",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Blood Relations",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "If P + R means P is the father of R; P - R means P is the wife of R; P × R means P is the brother of R; and P ÷ R means P is the daughter of R, then in the expression 'P + R ÷ S × Q', how is P related to S?",
+      "options": [
+        "Brother",
+        "Father-in-law",
+        "Son",
+        "Husband"
+      ],
+      "answer": 3,
+      "explanation": "**Correct Answer: Husband**\n\nDecoding step by step:\n- P + R: P is the father of R (Male).\n- R ÷ S: R is the daughter of S (Female child of S).\nSince R is the child of both P (father) and S, S must be the mother of R and the wife of P.\nTherefore, P is the husband of S.",
+      "citation": "SSC CGL Reasoning — Coded Family Tree Relations"
+    },
+    {
+      "id": "cgl3_reason_09",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Direction & Distance",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "A delivery agent walks 12 km North, turns right and walks 5 km, turns right again and walks 6 km, and finally turns left and walks 3 km. How far and in which direction is he now from his initial starting point?",
+      "options": [
+        "10 km, North-East",
+        "12 km, North-West",
+        "10 km, South-East",
+        "14 km, North-East"
+      ],
+      "answer": 0,
+      "explanation": "**Correct Answer: 10 km, North-East**\n\nTracking coordinate displacements:\n- North-South displacement: +12 km (North) - 6 km (South) = +6 km North.\n- East-West displacement: +5 km (East) + 3 km (East) = +8 km East.\nTotal straight-line distance = sqrt(6^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 km.\nDirection from starting point = North-East.",
+      "citation": "SSC CGL Reasoning — Pythagorean Displacement & Cardinal Directions"
+    },
+    {
+      "id": "cgl3_reason_10",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Order & Ranking",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "In a row of 54 students facing North, Rahul is ranked 18th from the left end and Priya is ranked 24th from the right end. How many students are sitting between Rahul and Priya?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "**Correct Answer: 12**\n\nSum of positions from both ends = 18 + 24 = 42.\nTotal number of students in the row = 54.\nSince the sum of positions (42) < total students (54), the persons do not overlap.\nNumber of students between them = Total - (Left Rank + Right Rank) = 54 - 42 = 12.",
+      "citation": "SSC CGL Reasoning — Linear Position & Ranking"
+    },
+    {
+      "id": "cgl3_reason_11",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Venn Diagrams",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Which of the following geometric descriptions best represents the logical relationship among: 'Engineers', 'Software Developers', and 'Musicians'?",
+      "options": [
+        "Three mutually disjoint non-overlapping circles",
+        "Three concentric circles sharing a single center",
+        "One circle entirely inside a second circle, with a third circle intersecting both",
+        "Two disjoint circles both enclosed inside a third circle"
+      ],
+      "answer": 2,
+      "explanation": "**Correct Answer: One circle entirely inside a second circle, with a third circle intersecting both**\n\nAll software developers are qualified engineers by profession (Software Developers is a subset of Engineers). Furthermore, some engineers and some software developers can have musical talent and work as musicians (Musicians intersects both circles).",
+      "citation": "SSC CGL Reasoning — Analytical Venn Classifications"
+    },
+    {
+      "id": "cgl3_reason_12",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Dice & Cubes",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Two distinct views of the same standard dice are shown. In view 1, faces 1, 3, and 2 are visible. In view 2, faces 1, 3, and 5 are visible. Which number lies on the face opposite to face 2?",
+      "options": [
+        "4",
+        "6",
+        "3",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "**Correct Answer: 5**\n\nStandard Dice Rule: When two faces are common in two positions of a single dice (here, faces 1 and 3 are common), the remaining uncommon faces are strictly opposite to each other. Thus, face 2 is opposite to face 5.",
+      "citation": "SSC CGL Reasoning — Dice Opposite Face Theorems"
+    },
+    {
+      "id": "cgl3_reason_13",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Dictionary Word Order",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Arrange the given words in the order in which they appear in an English dictionary:\n1. Perspective\n2. Perseverance\n3. Persecution\n4. Persistent\n5. Personnel",
+      "options": [
+        "3, 2, 4, 5, 1",
+        "3, 4, 2, 5, 1",
+        "2, 3, 4, 1, 5",
+        "3, 2, 4, 1, 5"
+      ],
+      "answer": 0,
+      "explanation": "**Correct Answer: 3, 2, 4, 5, 1**\n\nComparing letter by letter after common prefix 'pers-':\n- 3. Persecution ('perse-c')\n- 2. Perseverance ('perse-v')\n- 4. Persistent ('persi-s')\n- 5. Personnel ('perso-n')\n- 1. Perspective ('persp-e')\nAlphabetical order: 3 -> 2 -> 4 -> 5 -> 1.",
+      "citation": "SSC CGL Reasoning — Lexicographical Ordering"
+    },
+    {
+      "id": "cgl3_reason_14",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Odd One Out: Letters",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Select the letter-cluster that is different from the other three options:\nPRTV, CEGI, UWYA, JLNQ",
+      "options": [
+        "PRTV",
+        "JLNQ",
+        "CEGI",
+        "UWYA"
+      ],
+      "answer": 1,
+      "explanation": "**Correct Answer: JLNQ**\n\nAnalyzing letter gaps:\n- PRTV: P(+2) R(+2) T(+2) V -> uniform gap of +2.\n- CEGI: C(+2) E(+2) G(+2) I -> uniform gap of +2.\n- UWYA: U(+2) W(+2) Y(+2) A -> uniform gap of +2 (cyclic past Z).\n- JLNQ: J(+2) L(+2) N(+3) Q -> has a gap of +3 between N and Q. Hence, JLNQ is the odd one out.",
+      "citation": "SSC CGL Reasoning — Letter Gap Anomalies"
+    },
+    {
+      "id": "cgl3_reason_15",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Odd One Out: Number Sets",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Select the number set that does NOT follow the same mathematical rule as the other three sets:\n(7, 49, 343), (5, 25, 125), (6, 36, 216), (8, 64, 520)",
+      "options": [
+        "(7, 49, 343)",
+        "(5, 25, 125)",
+        "(8, 64, 520)",
+        "(6, 36, 216)"
+      ],
+      "answer": 2,
+      "explanation": "**Correct Answer: (8, 64, 520)**\n\nRule: (n, n^2, n^3).\n- (7, 7^2=49, 7^3=343)\n- (5, 5^2=25, 5^3=125)\n- (6, 6^2=36, 6^3=216)\n- For 8: 8^2 = 64, but 8^3 = 512, whereas the set contains 520. Hence, (8, 64, 520) is the odd one out.",
+      "citation": "SSC CGL Reasoning — Exponent Power Patterns"
+    },
+    {
+      "id": "cgl3_reason_16",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Paper Folding & Punching",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "A circular paper is folded in half horizontally, and then folded in half again vertically into a quadrant. A triangular punch is made near the arc edge, pointing towards the center. When the paper is completely unfolded, how will the punches appear?",
+      "options": [
+        "2 triangular holes pointing upward along the vertical fold",
+        "8 triangular holes arranged in alternating directions",
+        "4 triangular holes pointing radially outward away from the center",
+        "4 triangular holes pointing radially inward toward the central point"
+      ],
+      "answer": 3,
+      "explanation": "**Correct Answer: 4 triangular holes pointing radially inward toward the central point**\n\nFolding twice creates 4 symmetrical quadrants. Unfolding across the vertical and horizontal axes reflects the triangle symmetrically into all 4 quadrants, with each triangle maintaining its inward radial orientation towards the center.",
+      "citation": "SSC CGL Reasoning — Quadrant Reflection & Symmetry"
+    },
+    {
+      "id": "cgl3_reason_17",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Embedded Figures",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Select the option that correctly describes where a capital letter 'H' with a central diagonal connecting line is embedded as an exact sub-structure:",
+      "options": [
+        "A rectangular grid with diagonal cross-bracing in its central compartment",
+        "A series of concentric circles intersected by radial lines",
+        "An equilateral triangle with an inscribed circular ring",
+        "A regular hexagon with chords connecting alternate vertices"
+      ],
+      "answer": 0,
+      "explanation": "**Correct Answer: A rectangular grid with diagonal cross-bracing in its central compartment**\n\nA rectangular grid with diagonal cross-bracing contains two parallel vertical uprights, a horizontal crossbar, and a diagonal member intersecting the central junction, reproducing the exact described geometry.",
+      "citation": "SSC CGL Reasoning — Embedded Geometrical Figures"
+    },
+    {
+      "id": "cgl3_reason_18",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Mirror Images",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "When a vertical mirror is placed to the right side of the alphanumeric string 'BR59QZ', which option correctly describes the lateral inversion of the string?",
+      "options": [
+        "Starts with laterally inverted B and ends with laterally inverted Z",
+        "Starts with laterally inverted Z and ends with laterally inverted B",
+        "Inverted upside-down vertically with B appearing first",
+        "All characters remain in original order with only digits flipped horizontally"
+      ],
+      "answer": 1,
+      "explanation": "**Correct Answer: Starts with laterally inverted Z and ends with laterally inverted B**\n\nLateral Mirror Inversion Rule: The rightmost character (Z) reflects to the front (leftmost position) with its horizontal orientation flipped. The sequence reverses from right to left: Z -> Q -> 9 -> 5 -> R -> B, with every non-symmetrical character laterally inverted.",
+      "citation": "SSC CGL Reasoning — Lateral Inversion Properties"
+    },
+    {
+      "id": "cgl3_reason_19",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Calendar & Dates",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "If 15th August 2011 was a Monday, what day of the week was 15th August 2012?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Wednesday",
+        "Friday"
+      ],
+      "answer": 2,
+      "explanation": "**Correct Answer: Wednesday**\n\nBetween 15th August 2011 and 15th August 2012, February 2012 intervenes. Since 2012 is a leap year (divisible by 4), February 2012 contains 29 days, making the total elapsed duration 366 days.\n366 ÷ 7 = 52 weeks and 2 odd days.\nMonday + 2 days = Wednesday.",
+      "citation": "SSC CGL Reasoning — Leap Year & Odd Day Calculations"
+    },
+    {
+      "id": "cgl3_reason_20",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Clock Angles",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "What is the exact acute angle between the hour hand and the minute hand of an analog clock at 4:20?",
+      "options": [
+        "0°",
+        "15°",
+        "20°",
+        "10°"
+      ],
+      "answer": 3,
+      "explanation": "**Correct Answer: 10°**\n\nFormula for clock angle: θ = |30H - (11/2)M|.\nHere, H = 4 and M = 20:\nθ = |30(4) - (11/2)(20)|\nθ = |120 - 110| = 10°.\nAt 4:20, the minute hand is at 120° (mark 4) while the hour hand has moved (20 * 0.5°) = 10° ahead of mark 4, resulting in exactly 10° separation.",
+      "citation": "SSC CGL Reasoning — Clocks & Angular Velocity"
+    },
+    {
+      "id": "cgl3_reason_21",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Linear Seating Arrangement",
+      "type": "mcq",
+      "difficulty": "hard",
+      "marks": 2,
+      "question": "Six colleagues (A, B, C, D, E, F) sit in a straight row facing North:\n1. C sits third to the right of A.\n2. E sits at an extreme end and is immediately next to C.\n3. B sits second to the left of F.\nWho sits at the extreme left end of the row?",
+      "options": [
+        "B",
+        "A",
+        "D",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "**Correct Answer: B**\n\nStep-by-step arrangement:\n- From (2), E is at an extreme end next to C. Since C is third to the right of A, C cannot be at the left end. Hence, E must be at position 6 (extreme right) and C at position 5.\n- From (1), C (pos 5) is third to the right of A -> A is at position 2: [_ , A , _ , _ , C , E].\n- From (3), B sits second to the left of F. The only vacant positions with a difference of 2 are positions 1 and 3 -> B is at pos 1, F at pos 3.\n- D occupies the remaining position 4.\nFinal order from left to right: [B, A, F, D, C, E].\nThe person at the extreme left end is B.",
+      "citation": "SSC CGL Reasoning — Linear Seating Constraints"
+    },
+    {
+      "id": "cgl3_reason_22",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Statement & Inferences",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Statement: 'In State X, the introduction of a 25% direct subsidy on electric two-wheelers resulted in a 45% surge in new EV registrations within six months.'\n\nInferences:\nI. Financial incentives can significantly influence consumer purchasing behavior in urban mobility.\nII. Fossil fuel two-wheelers have ceased to be manufactured in State X.",
+      "options": [
+        "Only Inference II is valid",
+        "Only Inference I is valid",
+        "Both Inferences I and II are valid",
+        "Neither Inference I nor II is valid"
+      ],
+      "answer": 1,
+      "explanation": "**Correct Answer: Only Inference I is valid**\n\nInference I is directly corroborated by the 45% surge in EV registrations following the subsidy. Inference II is an extreme, unwarranted extrapolation that is nowhere stated or implied.",
+      "citation": "SSC CGL Reasoning — Logical Inferences & Critical Thinking"
+    },
+    {
+      "id": "cgl3_reason_23",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Missing Number in Matrix",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "Find the missing number in the following 3×3 matrix pattern:\n6   8   100\n5   12  169\n9   12   ?",
+      "options": [
+        "215",
+        "256",
+        "225",
+        "289"
+      ],
+      "answer": 2,
+      "explanation": "**Correct Answer: 225**\n\nPattern: Sum of squares of the first two numbers equals the third number in each row:\nRow 1: 6^2 + 8^2 = 36 + 64 = 100\nRow 2: 5^2 + 12^2 = 25 + 144 = 169\nRow 3: 9^2 + 12^2 = 81 + 144 = 225.",
+      "citation": "SSC CGL Reasoning — Pythagorean Triplet Number Matrices"
+    },
+    {
+      "id": "cgl3_reason_24",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Counting of Figures",
+      "type": "mcq",
+      "difficulty": "medium",
+      "marks": 2,
+      "question": "In triangle ABC, three line segments are drawn from vertex A to the base BC, dividing BC into 4 equal segments. What is the total number of triangles of all sizes formed in this figure?",
+      "options": [
+        "8",
+        "12",
+        "14",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "**Correct Answer: 10**\n\nFormula for triangles sharing a common apex and divided into n base partitions:\nTotal Triangles = n * (n + 1) / 2.\nHere, n = 4 base segments:\nTotal Triangles = 4 * 5 / 2 = 10 triangles.",
+      "citation": "SSC CGL Reasoning — Geometrical Counting Theorems"
+    },
+    {
+      "id": "cgl3_reason_25",
+      "section": "General Intelligence & Reasoning",
+      "subtopic": "Semantic Analogy",
+      "type": "mcq",
+      "difficulty": "easy",
+      "marks": 2,
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first:\nAmmeter : Electric Current :: Hygrometer : ?",
+      "options": [
+        "Humidity",
+        "Atmospheric Pressure",
+        "Wind Velocity",
+        "Liquid Density"
+      ],
+      "answer": 0,
+      "explanation": "**Correct Answer: Humidity**\n\nAn Ammeter is a scientific instrument designed to measure electric current. Similarly, a Hygrometer is an instrument used to measure atmospheric humidity and moisture levels.",
+      "citation": "SSC CGL Reasoning — Instrument & Measurement Analogy"
+    }
+  ]
+}

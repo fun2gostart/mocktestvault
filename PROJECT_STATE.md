@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 117 Production Routes | 4,530+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 2 Full 100-Q SSC CGL Simulators | 5 Legal Trust Hubs  
+> **Current Scale:** 122 Production Routes | 4,630+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
 > **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs)  
 
 ---
@@ -85,15 +85,16 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
   * Class 10 Mathematics Standard & Basic Full 80-Mark Paper 01 (80 Qs, 180 Mins: Algebra, Geometry, Trig, Stats: `cbse-class-10/sample-papers/mathematics-board-mock-01.html`)
   * Class 10 Social Science Full 80-Mark Paper 01 (80 Qs, 180 Mins: History, Geography, Civics, Economics: `cbse-class-10/sample-papers/social-science-board-mock-01.html`)
 
-### B. Competitive & Standardized Simulators (960 Questions Live)
-* **Staff Selection Commission (SSC CGL Tier 1 — 400 Questions):**
+### B. Competitive & Standardized Simulators (1,240 Questions Live)
+* **Staff Selection Commission (SSC CGL Tier 1 — 500 Questions across 15 Production Routes):**
   * Full Mock 01 (100 Questions, 60 Mins, 4 Sections, TCS iON Palette: `ssc-cgl/mock-01.html`)
   * Full Mock 02 (100 Questions, 60 Mins, 4 Sections, TCS iON Palette: `ssc-cgl/mock-02.html`)
-  * 8 Sectional Speed Drills:
-    * Reasoning: Speed Drill 01 (`ssc-cgl/sectional-reasoning-01.html`) & Speed Drill 02 (`ssc-cgl/sectional-reasoning-02.html`) (25 Qs each)
-    * Quantitative Aptitude: Speed Drill 01 (`ssc-cgl/sectional-quantitative-aptitude-01.html`) & Speed Drill 02 (`ssc-cgl/sectional-quantitative-aptitude-02.html`) (25 Qs each)
-    * English Comprehension: Speed Drill 01 (`ssc-cgl/sectional-english-01.html`) & Speed Drill 02 (`ssc-cgl/sectional-english-02.html`) (25 Qs each)
-    * General Awareness: Speed Drill 01 (`ssc-cgl/sectional-general-awareness-01.html`) & Speed Drill 02 (`ssc-cgl/sectional-general-awareness-02.html`) (25 Qs each)
+  * Full Mock 03 (100 Questions, 60 Mins, 4 Sections, TCS iON Palette: `ssc-cgl/mock-03.html`)
+  * 12 Sectional Speed Drills (25 Questions each, 15 Mins):
+    * Reasoning: Speed Drill 01 (`ssc-cgl/sectional-reasoning-01.html`), Speed Drill 02 (`ssc-cgl/sectional-reasoning-02.html`) & Speed Drill 03 (`ssc-cgl/sectional-reasoning-03.html`)
+    * Quantitative Aptitude: Speed Drill 01 (`ssc-cgl/sectional-quantitative-aptitude-01.html`), Speed Drill 02 (`ssc-cgl/sectional-quantitative-aptitude-02.html`) & Speed Drill 03 (`ssc-cgl/sectional-quantitative-aptitude-03.html`)
+    * English Comprehension: Speed Drill 01 (`ssc-cgl/sectional-english-01.html`), Speed Drill 02 (`ssc-cgl/sectional-english-02.html`) & Speed Drill 03 (`ssc-cgl/sectional-english-03.html`)
+    * General Awareness: Speed Drill 01 (`ssc-cgl/sectional-general-awareness-01.html`), Speed Drill 02 (`ssc-cgl/sectional-general-awareness-02.html`) & Speed Drill 03 (`ssc-cgl/sectional-general-awareness-03.html`)
 * **United States Pillar (500 Questions across 30 Production Routes — 100 Questions Per Exam + 5 Dedicated Random Mocks):**
   * **Digital SAT® Math (100 Questions — 5 Modules + Dynamic Random Mock, 32 Mins each, Desmos methods):**
     * Module 01: Core Diagnostic (`sat/math-practice-01.html`)
@@ -190,7 +191,7 @@ MockTestVault runs on a pure vanilla JavaScript state machine with zero external
   * Every page defines a strict `<link rel="canonical" href="...">`.
   * `https://www.mocktestvault.com` 301-redirects to apex `https://mocktestvault.com`.
 * **XML Sitemap:**
-  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **105 production URLs** (100 Examination Suites & Portals + 5 Legal & Trust Hubs).
+  * [mocktestvault.com/sitemap.xml](https://mocktestvault.com/sitemap.xml) contains exactly **122 production URLs** (117 Examination Suites & Portals + 5 Legal & Trust Hubs).
   * Priority weights: `1.0` (Homepage), `0.95` (Regional Hubs), `0.9` (Primary Simulators & Random Mocks), `0.85` (Progress Hub), `0.8` (Individual Chapter Tests & Legal Hubs).
 * **Robots.txt Directives:**
   * Permissive `User-agent: * Allow: /` with explicit sitemap link.
@@ -225,15 +226,17 @@ In direct alignment with Google AdSense Publisher Policies, Quality Rater Guidel
    * ✅ AP® Physics 1: Sets 01 to 05 + Random Mock (100 Questions Live across 6 routes).
    * ✅ AP® U.S. History (APUSH): Sets 01 to 05 + Random Mock (100 Questions Live across 6 routes).
    * **Total: 500 Questions across 30 Dedicated Exam Routes.**
-2. **Global Standards Pillar (+6 to 8 Pages):**
-   * IELTS® Academic Reading Practice Tests 02, 03, 04.
-   * GRE® Quantitative Reasoning Drills 01 & 02.
-   * GRE® Verbal Reasoning Multi-Blank Drill 01.
-   * TOEFL® iBT Academic Reading Diagnostic 01.
-3. **India Pillar (+8 to 10 Pages):**
-   * ✅ CBSE Class 10 Full 80-Mark Board Mock Papers (Science, Mathematics, Social Science live across 4 routes).
-   * SSC CGL Tier 1 Full-Length 100-Q Mocks 02 & 03.
-   * SSC CGL Sectional Drills Batch 02 (Reasoning 02, Quant 02, English 02, GA 02).
+2. **Global Standards Pillar (240 Questions Live across 13 Routes):**
+   * ✅ IELTS® Academic Reading: Practice Tests 01 to 04 + Random Mock (80 Qs).
+   * ✅ GRE® Quantitative Reasoning: Diagnostics 01 & 02 (40 Qs).
+   * ✅ GRE® Verbal Reasoning: Diagnostics 01 & 02 (40 Qs).
+   * ✅ TOEFL® iBT Academic Reading: Diagnostics 01 & 02 (40 Qs).
+   * ✅ GMAT® Focus Edition: Diagnostics 01 & 02 (40 Qs).
+3. **India Pillar (3,620 Questions Live across 71 Routes):**
+   * ✅ CBSE Class 10: 48 Chapters × 60 Questions + 48 Random Mocks (2,880 Qs).
+   * ✅ CBSE Class 10 Full 80-Mark Board Mock Papers (Science, Mathematics, Social Science: 240 Qs).
+   * ✅ SSC CGL Tier 1 Full-Length 100-Q Mocks 01, 02 & 03 (300 Qs across 3 TCS iON simulators).
+   * ✅ SSC CGL Sectional Drills Batches 01, 02 & 03 (200 Qs across 12 speed drill runners).
 
 ---
 
