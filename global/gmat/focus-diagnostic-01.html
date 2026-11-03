@@ -79,13 +79,17 @@
     </div>
   </nav>
 
-  <!-- Multi-Set Selector Bar -->
+  <!-- Multi-Set Selector Bar (40 Total Questions) -->
   <div class="set-switcher-bar">
     <div class="set-switcher-container">
-      <span class="set-label">GMAT® Focus Suites:</span>
+      <span class="set-label">GMAT® Focus Suites (40 Qs):</span>
       <div class="set-btn-group" role="tablist">
         <a href="focus-diagnostic-01.html" class="set-btn active" role="tab" aria-selected="true">
-          <span>📊 Data Insights & Quant 01</span>
+          <span>📊 Diagnostic 01 (SaaS/Sufficiency/Sets)</span>
+          <span class="set-badge-count">20 Qs • 45M</span>
+        </a>
+        <a href="focus-diagnostic-02.html" class="set-btn" role="tab" aria-selected="false">
+          <span>📊 Diagnostic 02 (Infra/SAFE/Permutations)</span>
           <span class="set-badge-count">20 Qs • 45M</span>
         </a>
       </div>
@@ -247,7 +251,8 @@
         markingScheme: { correct: 1, wrong: 0 },
         examType: 'gmat',
         setSources: {
-          set1: '../../data/global/gmat/gmat_focus_set1.json'
+          set1: '../../data/global/gmat/gmat_focus_set1.json',
+          set2: '../../data/global/gmat/gmat_focus_set2.json'
         }
       });
     });

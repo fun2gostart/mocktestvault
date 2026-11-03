@@ -79,13 +79,17 @@
     </div>
   </nav>
 
-  <!-- Multi-Set Selector Bar -->
+  <!-- Multi-Set Selector Bar (40 Total Questions) -->
   <div class="set-switcher-bar">
     <div class="set-switcher-container">
-      <span class="set-label">TOEFL® iBT Track:</span>
+      <span class="set-label">TOEFL® iBT Track (40 Qs):</span>
       <div class="set-btn-group" role="tablist">
         <a href="reading-practice-01.html" class="set-btn active" role="tab" aria-selected="true">
-          <span>📖 Reading Diagnostic 01</span>
+          <span>📖 Drill 01 (Paleoclimate/Cuneiform)</span>
+          <span class="set-badge-count">20 Qs • 35M</span>
+        </a>
+        <a href="reading-practice-02.html" class="set-btn" role="tab" aria-selected="false">
+          <span>🌊 Drill 02 (Corals/Working Memory)</span>
           <span class="set-badge-count">20 Qs • 35M</span>
         </a>
       </div>
@@ -247,7 +251,8 @@
         markingScheme: { correct: 1, wrong: 0 },
         examType: 'toefl',
         setSources: {
-          set1: '../../data/global/toefl/toefl_reading_set1.json'
+          set1: '../../data/global/toefl/toefl_reading_set1.json',
+          set2: '../../data/global/toefl/toefl_reading_set2.json'
         }
       });
     });

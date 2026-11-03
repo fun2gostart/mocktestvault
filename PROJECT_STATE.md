@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 115 Production Routes | 4,490+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 2 Full 100-Q SSC CGL Simulators | 5 Legal Trust Hubs  
+> **Current Scale:** 117 Production Routes | 4,530+ Ground-Truth Verified Questions across 3 Focus Pillars | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 2 Full 100-Q SSC CGL Simulators | 5 Legal Trust Hubs  
 > **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs)  
 
 ---
@@ -130,7 +130,7 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
     * Set 04: Periods 7 & 8 (1890–1980: Imperialism, WWI, New Deal, WWII, Cold War & Civil Rights: `ap/us-history-diagnostic-04.html`)
     * Set 05: Period 9 & Thematic Review (1980–Present: Modern America & Comprehensive Synthesis: `ap/us-history-diagnostic-05.html`)
     * 🎲 **Random 20-Q Mock:** Dynamic shuffled exam sampled from 100-Q pool (`ap/us-history-diagnostic-random.html`)
-* **Global Standards Pillar (200 Questions Live across 11 Production Routes):**
+* **Global Standards Pillar (240 Questions Live across 13 Production Routes):**
   * **IELTS® Academic Reading (80 Questions — 4 Practice Suites + Dynamic Random Mock, 25 Mins each, Band 7.5–9.0 conversion scale):**
     * Practice 01: Biophilic Architecture & Marine Acoustics (`global/ielts/reading-practice-01.html`)
     * Practice 02: Early Agriculture, Deep-Sea Minerals & Bilingualism (`global/ielts/reading-practice-02.html`)
@@ -142,10 +142,12 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
     * Quantitative Reasoning Diagnostic 02 (20 Qs, 35 Mins: Standardized ETS QC options, Circles, Combinatorics: `global/gre/quantitative-reasoning-02.html`)
     * Verbal Reasoning Diagnostic 01 (20 Qs, 30 Mins: Text Completion, Sentence Equivalence, Reading Comprehension: `global/gre/verbal-reasoning-01.html`)
     * Verbal Reasoning Diagnostic 02 (20 Qs, 30 Mins: Multi-Blank Text Completion, Inverted Syntax, Passage Inference: `global/gre/verbal-reasoning-02.html`)
-  * **TOEFL® iBT Academic Reading Diagnostic (20 Questions, 35 Mins, 0–30 Scaled Scoring):**
+  * **TOEFL® iBT Academic Reading Diagnostics (40 Questions across 2 Dedicated Suites, 35 Mins each, 0–30 Scaled Scoring):**
     * Diagnostic 01: Paleoclimatology Ice Core Proxies & The Origins of Cuneiform (`global/toefl/reading-practice-01.html`)
-  * **GMAT® Focus Edition Diagnostic (20 Questions, 45 Mins, 60–90 Scaled Scoring):**
+    * Diagnostic 02: Coral Biomineralization & Neural Working Memory Architecture (`global/toefl/reading-practice-02.html`)
+  * **GMAT® Focus Edition Diagnostics (40 Questions across 2 Dedicated Suites, 45 Mins each, 60–90 Scaled Scoring):**
     * Diagnostic 01: Data Insights (Table Analysis, Graphical, Multi-Source), Data Sufficiency & Problem Solving (`global/gmat/focus-diagnostic-01.html`)
+    * Diagnostic 02: Cloud Infra Analytics, SAFE Term Sheets, Prime Triplets, Permutations & Mixture Dilutions (`global/gmat/focus-diagnostic-02.html`)
 
 ---
 

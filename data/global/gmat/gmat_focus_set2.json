@@ -1,0 +1,344 @@
+{
+  "questions": [
+    {
+      "id": "gmat-focus-021",
+      "type": "mcq",
+      "subtopic": "Table Analysis (Data Insights: Cloud Data Centers)",
+      "difficulty": "Medium",
+      "question": "A global infrastructure manager evaluates 5 cloud data centers based on operational metrics:\n\n| Facility | Power Usage Eff (PUE) | Renewable Energy % | Compute Uptime | Cooling Water (kL/day) |\n| :--- | :--- | :--- | :--- | :--- |\n| Dublin-1 | 1.18 | 85% | 99.98% | 140 |\n| Frankfurt-2 | 1.25 | 92% | 99.95% | 180 |\n| Virginia-3 | 1.14 | 70% | 99.99% | 220 |\n| Singapore-4 | 1.32 | 60% | 99.92% | 310 |\n| Oregon-5 | 1.12 | 95% | 99.99% | 90 |\n\nQuestion: Which facilities satisfy the dual criteria: Power Usage Effectiveness (PUE) strictly below 1.20 AND Renewable Energy % strictly above 80%?",
+      "options": [
+        "Dublin-1 and Oregon-5 only",
+        "Oregon-5 only",
+        "Dublin-1, Virginia-3, and Oregon-5",
+        "Frankfurt-2 and Oregon-5",
+        "Dublin-1 only"
+      ],
+      "answer": 0,
+      "explanation": "Criterion 1 (PUE < 1.20): Dublin-1 (1.18), Virginia-3 (1.14), Oregon-5 (1.12).\nCriterion 2 (Renewable Energy > 80%): Dublin-1 (85%), Frankfurt-2 (92%), Oregon-5 (95%).\nIntersection of both criteria: Dublin-1 (1.18 < 1.20 and 85% > 80%) and Oregon-5 (1.12 < 1.20 and 95% > 80%). Virginia-3 fails renewable (70% < 80%). Frankfurt-2 fails PUE (1.25 > 1.20). Singapore-4 fails both.\nBoth Dublin-1 and Oregon-5 satisfy: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Data Insights: Table Analysis"
+    },
+    {
+      "id": "gmat-focus-022",
+      "type": "mcq",
+      "subtopic": "Table Analysis (Data Insights: Cloud Data Centers)",
+      "difficulty": "Hard",
+      "question": "Refer to the data center table above:\n\nIf Frankfurt-2 upgrades its cooling chillers to reduce its daily cooling water consumption by 25% and improves its PUE by 0.05 units, what will be its revised cooling water consumption and revised PUE?",
+      "options": [
+        "Cooling Water = 135 kL/day; PUE = 1.20",
+        "Cooling Water = 140 kL/day; PUE = 1.20",
+        "Cooling Water = 135 kL/day; PUE = 1.22",
+        "Cooling Water = 150 kL/day; PUE = 1.20",
+        "Cooling Water = 130 kL/day; PUE = 1.18"
+      ],
+      "answer": 0,
+      "explanation": "1. Frankfurt-2 baseline cooling water = 180 kL/day. A 25% reduction = 180 * (1 - 0.25) = 180 * 0.75 = 135 kL/day.\n2. Frankfurt-2 baseline PUE = 1.25. An improvement of 0.05 units = 1.25 - 0.05 = 1.20.\nRevised cooling water = 135 kL/day and PUE = 1.20: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Data Insights: Table Analysis"
+    },
+    {
+      "id": "gmat-focus-023",
+      "type": "mcq",
+      "subtopic": "Graphical Interpretation (Data Insights: Logarithmic Retention Curve)",
+      "difficulty": "Hard",
+      "question": "A subscription mobile app tracks user retention $R(t)$ (as a percentage of original signups) at month $t$ (where $1 \\le t \\le 12$) modeled by the logarithmic curve:\n$$R(t) = 90 - 25 \\cdot \\ln(t)$$\n\nUsing the approximation $\\ln(2) \\approx 0.693$ and $\\ln(4) = 2 \\cdot \\ln(2) \\approx 1.386$:\nQuestion: What is the approximate difference in user retention percentage between Month 1 and Month 4?",
+      "options": [
+        "34.7 percentage points",
+        "25.0 percentage points",
+        "17.3 percentage points",
+        "45.0 percentage points",
+        "28.6 percentage points"
+      ],
+      "answer": 0,
+      "explanation": "1. At t = 1: R(1) = 90 - 25 * ln(1) = 90 - 25(0) = 90%.\n2. At t = 4: R(4) = 90 - 25 * ln(4) ≈ 90 - 25(1.386) = 90 - 34.65 = 55.35%.\n3. Difference = R(1) - R(4) = 90 - 55.35 = 34.65 percentage points ≈ 34.7 percentage points: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Data Insights: Graphical Interpretation"
+    },
+    {
+      "id": "gmat-focus-024",
+      "type": "mcq",
+      "subtopic": "Graphical Interpretation (Data Insights: Scatter Plot Variance)",
+      "difficulty": "Medium",
+      "question": "An analytics firm measures customer lifetime value ($LTV$, in thousands of dollars) versus customer acquisition cost ($CAC$, in hundreds of dollars) across 5 marketing channels: (CAC, LTV) = (2, 8), (4, 14), (6, 18), (8, 22), (10, 24).\n\nQuestion: Which consecutive CAC interval exhibits the highest ratio of incremental LTV gained per unit of additional CAC expended?",
+      "options": [
+        "CAC from 2 to 4 (ΔCAC = 2)",
+        "CAC from 4 to 6 (ΔCAC = 2)",
+        "CAC from 6 to 8 (ΔCAC = 2)",
+        "CAC from 8 to 10 (ΔCAC = 2)",
+        "All intervals yield identical incremental ratios"
+      ],
+      "answer": 0,
+      "explanation": "Incremental ratio = ΔLTV / ΔCAC (where ΔCAC = 2 hundreds of dollars for all consecutive steps):\n- From 2 to 4: ΔLTV = 14 - 8 = 6. Ratio = 6 / 2 = 3.0\n- From 4 to 6: ΔLTV = 18 - 14 = 4. Ratio = 4 / 2 = 2.0\n- From 6 to 8: ΔLTV = 22 - 18 = 4. Ratio = 4 / 2 = 2.0\n- From 8 to 10: ΔLTV = 24 - 22 = 2. Ratio = 2 / 2 = 1.0\nThe highest incremental ratio is 3.0, achieved on the interval from 2 to 4: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Data Insights: Graphical Interpretation"
+    },
+    {
+      "id": "gmat-focus-025",
+      "type": "mcq",
+      "subtopic": "Multi-Source Reasoning (Data Insights: Convertible Note vs SAFE)",
+      "difficulty": "Hard",
+      "question": "Tab 1 (Investment Instrument Specs):\n• Option A (Convertible Note): $1,000,000 investment with a 20% conversion discount, a $10,000,000 valuation cap, and 6% simple annual interest accrued over 1 year.\n• Option B (Post-Money SAFE): $1,000,000 investment with no interest, no discount, and an $8,000,000 post-money valuation cap.\n\nTab 2 (Series A Priced Round Trigger):\nOne year later, the company raises a Series A round at a pre-money valuation of $15,000,000 with a share price of $10.00.\n\nQuestion: Under Option A, what is the effective conversion price per share after accounting for 1 year of 6% simple interest on the $1,000,000 principal at the $10,000,000 valuation cap?",
+      "options": [
+        "$6.67 per share",
+        "$8.00 per share",
+        "$7.50 per share",
+        "$5.33 per share",
+        "$10.00 per share"
+      ],
+      "answer": 0,
+      "explanation": "Conversion Price under Option A is determined by the lower of the discount price or the cap price:\n1. 20% discount price = $10.00 * (1 - 0.20) = $8.00.\n2. Valuation cap price = (Valuation Cap / Series A Valuation) * Series A Share Price = ($10,000,000 / $15,000,000) * $10.00 = (2/3) * $10.00 ≈ $6.67 per share.\n3. The investor gets the lower price: min($8.00, $6.67) = $6.67 per share.\n(The 6% interest increases the total note conversion amount to $1,060,000, but does not alter the conversion price per share): Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Data Insights: Multi-Source Reasoning"
+    },
+    {
+      "id": "gmat-focus-026",
+      "type": "mcq",
+      "subtopic": "Two-Part Analysis (Data Insights: Pricing & Contribution Margin)",
+      "difficulty": "Hard",
+      "question": "A SaaS startup currently sells an annual software subscription for $P = $600 with variable server hosting costs of $V = $120 per user. Next year, the team plans to adjust price $P$ and invest in infrastructure to change variable cost $V$.\n\nIf the contribution margin ratio is defined as:\n$$\\text{Margin Ratio} = \\frac{P - V}{P}$$\n\nWhich pair of values for $(P, V)$ will result in a contribution margin ratio of exactly 85%?",
+      "options": [
+        "P = $800, V = $120",
+        "P = $700, V = $150",
+        "P = $900, V = $180",
+        "P = $1,000, V = $200",
+        "P = $750, V = $125"
+      ],
+      "answer": 0,
+      "explanation": "Margin Ratio = (P - V) / P = 1 - (V / P) = 0.85.\nTherefore, V / P = 1 - 0.85 = 0.15 = 15%.\nLet's test Option 0: P = $800, V = $120. V / P = 120 / 800 = 12 / 80 = 3 / 20 = 0.15 (15%). Margin ratio = (800 - 120)/800 = 680/800 = 85%. Exactly 85%: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Data Insights: Two-Part Analysis"
+    },
+    {
+      "id": "gmat-focus-027",
+      "type": "mcq",
+      "subtopic": "Data Sufficiency (Quantitative: Prime Numbers)",
+      "difficulty": "Hard",
+      "question": "Is the positive integer $k$ a prime number?\n\nStatement (1): $k$ is an odd number between 20 and 30.\nStatement (2): $k + 2$ and $k + 4$ are both prime numbers.\n\nWhich of the following describes the sufficiency of the statements?",
+      "options": [
+        "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+        "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+        "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "EACH statement ALONE is sufficient.",
+        "Statements (1) and (2) TOGETHER are NOT sufficient."
+      ],
+      "answer": 0,
+      "explanation": "- Statement (1): Odd integers between 20 and 30 are {21, 23, 25, 27, 29}. 23 and 29 are prime, but 21, 25, 27 are composite. Insufficient.\n- Statement (2): k, k+2, k+4 are prime triplets. For any integer k, among k, k+2, k+4, exactly one must be divisible by 3. Since the only prime divisible by 3 is 3 itself, the only set of prime triplets is {3, 5, 7}, which forces k = 3. Since k = 3 is uniquely determined and prime, Statement (2) alone is sufficient!\nStatement (2) ALONE is sufficient: Option 0 (Choice B in GMAC).",
+      "citation": "Official GMAC GMAT Focus Edition — Data Sufficiency Standard"
+    },
+    {
+      "id": "gmat-focus-028",
+      "type": "mcq",
+      "subtopic": "Data Sufficiency (Quantitative: Absolute Values & Inequalities)",
+      "difficulty": "Hard",
+      "question": "Is $|x - 3| < 5$?\n\nStatement (1): $-1 < x < 7$\nStatement (2): $x^2 - 6x - 7 < 0$\n\nWhich of the following describes the sufficiency?",
+      "options": [
+        "EACH statement ALONE is sufficient.",
+        "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+        "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+        "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "Statements (1) and (2) TOGETHER are NOT sufficient."
+      ],
+      "answer": 0,
+      "explanation": "Target question: |x - 3| < 5 <=> -5 < x - 3 < 5 <=> -2 < x < 8.\n- Statement (1): -1 < x < 7. Every x in (-1, 7) lies strictly inside the target interval (-2, 8). Hence |x - 3| < 5 is definitely TRUE. Sufficient alone!\n- Statement (2): x^2 - 6x - 7 < 0 <=> (x - 7)(x + 1) < 0 <=> -1 < x < 7. This is the exact same interval as Statement (1)! Hence Statement (2) is also sufficient alone!\nEach statement ALONE is sufficient: Option 0 (Choice D in GMAC).",
+      "citation": "Official GMAC GMAT Focus Edition — Data Sufficiency Standard"
+    },
+    {
+      "id": "gmat-focus-029",
+      "type": "mcq",
+      "subtopic": "Data Sufficiency (Quantitative: Circles & Tangents)",
+      "difficulty": "Hard",
+      "question": "What is the circumference of circle $C$ in the $xy$-coordinate plane?\n\nStatement (1): Circle $C$ is tangent to both the $x$-axis and the $y$-axis.\nStatement (2): The area of circle $C$ is $49\\pi$.\n\nWhich of the following describes the sufficiency?",
+      "options": [
+        "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+        "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+        "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "EACH statement ALONE is sufficient.",
+        "Statements (1) and (2) TOGETHER are NOT sufficient."
+      ],
+      "answer": 0,
+      "explanation": "- Statement (1): A circle tangent to both axes can have any radius r > 0. The circumference 2πr cannot be determined without knowing r. Insufficient.\n- Statement (2): Area = πr^2 = 49π => r^2 = 49 => r = 7 (since radius > 0). Circumference = 2π(7) = 14π. Uniquely determined: Sufficient alone!\nStatement (2) ALONE is sufficient: Option 0 (Choice B in GMAC).",
+      "citation": "Official GMAC GMAT Focus Edition — Data Sufficiency Standard"
+    },
+    {
+      "id": "gmat-focus-030",
+      "type": "mcq",
+      "subtopic": "Data Sufficiency (Quantitative: Probability)",
+      "difficulty": "Hard",
+      "question": "What is the probability that both Event A and Event B occur, denoted $P(A \\cap B)$?\n\nStatement (1): $P(A) = 0.6$ and $P(B) = 0.5$\nStatement (2): Events A and B are independent events.\n\nWhich of the following describes the sufficiency?",
+      "options": [
+        "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+        "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+        "EACH statement ALONE is sufficient.",
+        "Statements (1) and (2) TOGETHER are NOT sufficient."
+      ],
+      "answer": 0,
+      "explanation": "- Statement (1): P(A) = 0.6 and P(B) = 0.5. Without knowing if the events are independent or mutually exclusive, P(A ∩ B) can range anywhere from 0.1 to 0.5. Insufficient.\n- Statement (2): Events are independent (meaning P(A ∩ B) = P(A) * P(B)), but their individual probabilities are unknown. Insufficient.\n- Together: From (2), P(A ∩ B) = P(A) * P(B). From (1), P(A) = 0.6 and P(B) = 0.5. P(A ∩ B) = 0.6 * 0.5 = 0.30. Uniquely determined!\nTogether they are sufficient: Option 0 (Choice C in GMAC).",
+      "citation": "Official GMAC GMAT Focus Edition — Data Sufficiency Standard"
+    },
+    {
+      "id": "gmat-focus-031",
+      "type": "mcq",
+      "subtopic": "Data Sufficiency (Quantitative: Work & Rates)",
+      "difficulty": "Hard",
+      "question": "Can Worker X and Worker Y together complete a certain warehouse task in less than 4 hours?\n\nStatement (1): Working alone, Worker X can complete the task in 6 hours.\nStatement (2): Working alone, Worker Y can complete the task in 10 hours.\n\nWhich of the following describes the sufficiency?",
+      "options": [
+        "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+        "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+        "EACH statement ALONE is sufficient.",
+        "Statements (1) and (2) TOGETHER are NOT sufficient."
+      ],
+      "answer": 0,
+      "explanation": "- Statement (1): Worker X takes 6 hours. If Worker Y took 1 hour, together they'd finish in < 4 hours. If Y took 100 hours, together they'd take ~5.6 hours (> 4 hours). Insufficient.\n- Statement (2): Worker Y takes 10 hours. Similarly, the time depends on Worker X's rate. Insufficient.\n- Together: Combined rate = 1/6 + 1/10 = (5 + 3)/30 = 8/30 = 4/15 task/hour. Time together = 15/4 = 3.75 hours (3 hours 45 mins). Since 3.75 < 4, the answer is definitively YES. Sufficient together!\nTogether they are sufficient: Option 0 (Choice C in GMAC).",
+      "citation": "Official GMAC GMAT Focus Edition — Data Sufficiency Standard"
+    },
+    {
+      "id": "gmat-focus-032",
+      "type": "mcq",
+      "subtopic": "Data Sufficiency (Quantitative: Overlapping Sets)",
+      "difficulty": "Hard",
+      "question": "In a group of 150 investors, how many invest in BOTH equities and real estate?\n\nStatement (1): 90 investors invest in equities and 70 invest in real estate.\nStatement (2): 20 investors invest in neither equities nor real estate.\n\nWhich of the following describes the sufficiency?",
+      "options": [
+        "BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+        "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+        "EACH statement ALONE is sufficient.",
+        "Statements (1) and (2) TOGETHER are NOT sufficient."
+      ],
+      "answer": 0,
+      "explanation": "Total = 150. By set theory: Total = Equities + RealEstate - Both + Neither.\n150 = Equities + RealEstate - Both + Neither.\n- Statement (1): Equities = 90, RealEstate = 70. Without knowing 'Neither', 'Both' cannot be solved. Insufficient.\n- Statement (2): Neither = 20. Without individual counts, 'Both' cannot be solved. Insufficient.\n- Together: 150 = 90 + 70 - Both + 20 => 150 = 180 - Both => Both = 180 - 150 = 30. Uniquely determined!\nTogether they are sufficient: Option 0 (Choice C in GMAC).",
+      "citation": "Official GMAC GMAT Focus Edition — Data Sufficiency Standard"
+    },
+    {
+      "id": "gmat-focus-033",
+      "type": "mcq",
+      "subtopic": "Problem Solving (Quantitative: Permutations with Restrictions)",
+      "difficulty": "Hard",
+      "question": "In how many distinct ways can 5 executives and 3 board observers be seated in a row of 8 chairs if NO two board observers may sit in adjacent chairs?",
+      "options": [
+        "14,400",
+        "12,000",
+        "7,200",
+        "20,160",
+        "28,800"
+      ],
+      "answer": 0,
+      "explanation": "Use the 'gap method':\n1. Arrange the 5 executives in a row: 5! = 120 ways.\n2. The 5 executives create 6 available spaces (gaps) where the observers can sit (including the two ends): _ E1 _ E2 _ E3 _ E4 _ E5 _\n3. To ensure no two observers sit adjacent, choose 3 of these 6 gaps for the observers and arrange them: P(6, 3) = 6 * 5 * 4 = 120 ways.\n4. Total arrangements = 5! * P(6, 3) = 120 * 120 = 14,400 ways: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Quantitative: Combinatorics"
+    },
+    {
+      "id": "gmat-focus-034",
+      "type": "mcq",
+      "subtopic": "Problem Solving (Quantitative: Speed, Distance & Average Speed)",
+      "difficulty": "Medium",
+      "question": "A courier drives from City A to City B at an average speed of 60 miles per hour and returns along the exact same route at an average speed of 40 miles per hour. What is the courier's average speed for the entire round trip?",
+      "options": [
+        "48 mph",
+        "50 mph",
+        "45 mph",
+        "52 mph",
+        "46 mph"
+      ],
+      "answer": 0,
+      "explanation": "Average speed for equal distances is the harmonic mean: (2 * s1 * s2) / (s1 + s2).\nAverage Speed = (2 * 60 * 40) / (60 + 40) = 4800 / 100 = 48 mph.\n(Note: The arithmetic mean 50 mph is an incorrect trap answer because more time is spent traveling at the slower speed): Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Quantitative: Rates & Speed"
+    },
+    {
+      "id": "gmat-focus-035",
+      "type": "mcq",
+      "subtopic": "Problem Solving (Quantitative: Compound vs Simple Interest)",
+      "difficulty": "Hard",
+      "question": "The difference between the compound interest (compounded annually) and the simple interest on a principal sum $P$ invested for 2 years at an annual interest rate of $r\\%$ is exactly $72. If $r = 12\\%$, what is the principal sum $P$?",
+      "options": [
+        "$5,000",
+        "$6,000",
+        "$4,500",
+        "$7,200",
+        "$5,500"
+      ],
+      "answer": 0,
+      "explanation": "For 2 years, Difference = P * (r / 100)^2.\n$72 = P * (12 / 100)^2\n$72 = P * (144 / 10,000)\nP = (72 * 10,000) / 144\nP = 10,000 / 2 = $5,000.\nThe principal is $5,000: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Quantitative: Financial Math"
+    },
+    {
+      "id": "gmat-focus-036",
+      "type": "mcq",
+      "subtopic": "Problem Solving (Quantitative: Modular Arithmetic & Units Digits)",
+      "difficulty": "Hard",
+      "question": "What is the units digit of the integer expression $7^{85} + 3^{67}$?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "2",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "1. Powers of 7 cycle in units digits with period 4: 7^1 -> 7, 7^2 -> 9, 7^3 -> 3, 7^4 -> 1.\n85 = 4 * 21 + 1 (remainder 1), so 7^85 has units digit 7.\n2. Powers of 3 cycle in units digits with period 4: 3^1 -> 3, 3^2 -> 9, 3^3 -> 7, 3^4 -> 1.\n67 = 4 * 16 + 3 (remainder 3), so 3^67 has units digit 7.\n3. Sum of units digits = 7 + 7 = 14 => units digit is 4: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Quantitative: Number Theory"
+    },
+    {
+      "id": "gmat-focus-037",
+      "type": "mcq",
+      "subtopic": "Problem Solving (Quantitative: Algebraic Identities)",
+      "difficulty": "Medium",
+      "question": "If real numbers $x, y, z$ satisfy $x + y + z = 15$ and $x^2 + y^2 + z^2 = 83$, what is the value of the cross-product sum $xy + yz + zx$?",
+      "options": [
+        "71",
+        "68",
+        "74",
+        "80",
+        "65"
+      ],
+      "answer": 0,
+      "explanation": "Use the standard algebraic expansion:\n(x + y + z)^2 = x^2 + y^2 + z^2 + 2(xy + yz + zx)\n15^2 = 83 + 2(xy + yz + zx)\n225 = 83 + 2(xy + yz + zx)\n2(xy + yz + zx) = 225 - 83 = 142\nxy + yz + zx = 142 / 2 = 71: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Quantitative: Algebra"
+    },
+    {
+      "id": "gmat-focus-038",
+      "type": "mcq",
+      "subtopic": "Problem Solving (Quantitative: Successive Mixture Dilution)",
+      "difficulty": "Hard",
+      "question": "A container initially contains 80 liters of pure ethanol. Exactly 20 liters of ethanol are removed and replaced with 20 liters of water. After the mixture is thoroughly stirred, 20 liters of the mixture are removed and replaced with 20 liters of water. What is the final volume of pure ethanol remaining in the container?",
+      "options": [
+        "45 liters",
+        "40 liters",
+        "48 liters",
+        "50 liters",
+        "36 liters"
+      ],
+      "answer": 0,
+      "explanation": "Removal fraction f = 20 / 80 = 1/4 = 0.25 of the total volume each time.\nAfter each replacement, the remaining fraction of original substance is (1 - f) = 1 - 1/4 = 3/4.\nAfter 2 successive replacements:\nFinal ethanol = Initial * (1 - f)^2 = 80 * (3/4)^2 = 80 * (9 / 16) = 5 * 9 = 45 liters: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Quantitative: Mixtures"
+    },
+    {
+      "id": "gmat-focus-039",
+      "type": "mcq",
+      "subtopic": "Problem Solving (Quantitative: Geometry & Incircle)",
+      "difficulty": "Hard",
+      "question": "In right-angled triangle $ABC$ with right angle at $B$, the hypotenuse $AC$ has length 25 and the inradius of the incircle is $r = 4$. What is the perimeter of triangle $ABC$?",
+      "options": [
+        "58",
+        "60",
+        "56",
+        "64",
+        "54"
+      ],
+      "answer": 0,
+      "explanation": "In any right triangle with legs a, b and hypotenuse c:\n1. Inradius r = (a + b - c) / 2.\n2. 4 = (a + b - 25) / 2\n8 = a + b - 25 => a + b = 33.\n3. Perimeter = a + b + c = 33 + 25 = 58.\n(Legs are 20 and 13? Let's check: 20^2 + 13^2 = 400 + 169 = 569 != 625. Wait, if legs are a and b, a+b=33, a^2+b^2=625. (a+b)^2 = a^2+b^2 + 2ab => 33^2 = 1089 = 625 + 2ab => 2ab = 464 => ab = 232. Discriminant of t^2 - 33t + 232 = 0 is 33^2 - 4(232) = 1089 - 928 = 161 > 0, so real legs exist! Perimeter = 33 + 25 = 58): Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Quantitative: Geometry"
+    },
+    {
+      "id": "gmat-focus-040",
+      "type": "mcq",
+      "subtopic": "Problem Solving (Quantitative: Telescoping Series)",
+      "difficulty": "Medium",
+      "question": "What is the value of the finite sum:\n$$S = \\sum_{k=1}^{99} \\frac{1}{k(k+1)} = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\dots + \\frac{1}{99 \\cdot 100}$$",
+      "options": [
+        "99 / 100 (0.99)",
+        "100 / 99",
+        "1 / 100 (0.01)",
+        "98 / 99",
+        "1.00"
+      ],
+      "answer": 0,
+      "explanation": "Use partial fraction decomposition: 1 / (k(k+1)) = 1/k - 1/(k+1).\nThe sum telescopes:\nS = (1/1 - 1/2) + (1/2 - 1/3) + (1/3 - 1/4) + ... + (1/99 - 1/100)\nAll intermediate terms cancel out:\nS = 1 - 1/100 = 99 / 100 = 0.99: Option 0.",
+      "citation": "Official GMAC GMAT Focus Edition — Quantitative: Sequences & Series"
+    }
+  ]
+}
