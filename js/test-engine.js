@@ -1281,6 +1281,17 @@ class MockTestEngine {
     // Reset filter to 'all'
     this.applyReviewFilter('all');
 
+    // Setup viral scorecard share button
+    this.setupShareButton({
+      correct,
+      total,
+      wrong,
+      marksObtained,
+      maxMarks,
+      scorePct,
+      examType: this.examType
+    });
+
     // Switch Views
     if (this.dom.testLayout) this.dom.testLayout.style.display = 'none';
     if (this.dom.statusContainer) this.dom.statusContainer.style.display = 'none';
@@ -1524,6 +1535,90 @@ class MockTestEngine {
       submitBtn.onclick = closeModal;
       document.getElementById('mcv-cancel-report-btn').style.display = 'none';
     });
+  }
+
+  setupShareButton(scoreData) {
+    const actionsContainer = document.querySelector('.scorecard-actions');
+    if (!actionsContainer) return;
+
+    let shareBtn = document.getElementById('btn-share-score');
+    if (!shareBtn) {
+      shareBtn = document.createElement('button');
+      shareBtn.id = 'btn-share-score';
+      shareBtn.className = 'nav-btn btn-share-score';
+      shareBtn.type = 'button';
+      actionsContainer.prepend(shareBtn);
+    }
+
+    shareBtn.innerHTML = `<span>📤</span> Share Score &amp; Challenge Friends`;
+
+    // Clone to reset previous click listeners
+    const freshBtn = shareBtn.cloneNode(true);
+    shareBtn.parentNode.replaceChild(freshBtn, shareBtn);
+
+    freshBtn.addEventListener('click', async () => {
+      const pageTitle = (document.querySelector('h1')?.textContent || document.title || 'Practice Test')
+        .replace(/\s*\|\s*MockTestVault.*$/i, '')
+        .replace(/\s*—\s*MockTestVault.*$/i, '')
+        .trim();
+
+      const scoreText = scoreData.examType === 'competitive'
+        ? `${scoreData.marksObtained}/${scoreData.maxMarks} marks`
+        : `${scoreData.correct}/${scoreData.total} (${scoreData.scorePct}%)`;
+
+      const shareUrl = window.location.href.split('#')[0];
+      const shareTitle = `I scored ${scoreText} on ${pageTitle}!`;
+      const shareMessage = `🎯 I just scored ${scoreText} on "${pageTitle}" on MockTestVault! 🏆 Can you beat my score? Take the free test here: ${shareUrl}`;
+
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: shareTitle,
+            text: shareMessage,
+            url: shareUrl
+          });
+          return;
+        } catch (err) {
+          if (err.name === 'AbortError') return;
+        }
+      }
+
+      // Clipboard fallback with toast notification
+      try {
+        await navigator.clipboard.writeText(shareMessage);
+        this.showToast('🎉 Challenge copied to clipboard! Paste in WhatsApp, Telegram, or Discord to challenge friends.');
+      } catch (e) {
+        const ta = document.createElement('textarea');
+        ta.value = shareMessage;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+          document.execCommand('copy');
+          this.showToast('🎉 Challenge copied to clipboard! Share with your friends.');
+        } catch (copyErr) {
+          this.showToast('Score: ' + scoreText + ' — Share: ' + shareUrl);
+        }
+        document.body.removeChild(ta);
+      }
+    });
+  }
+
+  showToast(message, duration = 3500) {
+    let toast = document.getElementById('mtv-global-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'mtv-global-toast';
+      toast.className = 'mtv-toast';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.add('show');
+    if (this._toastTimer) clearTimeout(this._toastTimer);
+    this._toastTimer = setTimeout(() => {
+      toast.classList.remove('show');
+    }, duration);
   }
 
   escapeHtml(text) {

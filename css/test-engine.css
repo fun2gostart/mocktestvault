@@ -1518,4 +1518,158 @@ body {
   border-color: rgba(16, 185, 129, 0.3);
 }
 
+/* ==========================================================================
+   Viral Scorecard Share & Challenge System
+   ========================================================================== */
+.btn-share-score {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  border: 1px solid #059669 !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: var(--radius-md, 8px);
+}
+
+.btn-share-score:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.45);
+  filter: brightness(1.08);
+}
+
+.btn-share-score:active {
+  transform: translateY(0);
+}
+
+/* Global Notification Toast */
+.mtv-toast {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.15);
+  z-index: 10000;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+  max-width: 90vw;
+  text-align: center;
+}
+
+[data-theme="dark"] .mtv-toast {
+  background: #1e293b;
+  color: #f1f5f9;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.mtv-toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ==========================================================================
+   Contextual Study Guide Crosslink Banner
+   ========================================================================== */
+.study-guide-crosslink-banner {
+  background: var(--bg-surface, #ffffff);
+  border: 1px solid var(--border-color, #e2e8f0);
+  border-left: 4px solid var(--primary, #2563eb);
+  border-radius: var(--radius-md, 8px);
+  padding: 12px 18px;
+  margin: 12px auto 16px auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.05));
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.study-guide-crosslink-banner .banner-text {
+  color: var(--text-secondary, #475569);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.study-guide-crosslink-banner .banner-text strong {
+  color: var(--text-primary, #0f172a);
+}
+
+.study-guide-crosslink-banner a.banner-link {
+  color: var(--primary, #2563eb);
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  border-radius: var(--radius-sm, 6px);
+  background: var(--primary-light, #eff6ff);
+  border: 1px solid var(--primary-border, #bfdbfe);
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.study-guide-crosslink-banner a.banner-link:hover {
+  background: var(--primary, #2563eb);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .study-guide-crosslink-banner {
+  background: var(--bg-surface, #1e293b);
+  border-color: var(--border-color, #334155);
+  border-left-color: #3b82f6;
+}
+
+[data-theme="dark"] .study-guide-crosslink-banner .banner-text {
+  color: var(--text-secondary, #94a3b8);
+}
+
+[data-theme="dark"] .study-guide-crosslink-banner .banner-text strong {
+  color: var(--text-primary, #f8fafc);
+}
+
+[data-theme="dark"] .study-guide-crosslink-banner a.banner-link {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: rgba(59, 130, 246, 0.35);
+  color: #60a5fa;
+}
+
+[data-theme="dark"] .study-guide-crosslink-banner a.banner-link:hover {
+  background: #3b82f6;
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .study-guide-crosslink-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 14px;
+    gap: 10px;
+  }
+  .study-guide-crosslink-banner a.banner-link {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
 
