@@ -114,6 +114,10 @@ class MockTestEngine {
     this.syncActiveSetButton();
     this.setupServiceWorker();
     this.setupNetworkMonitor();
+    this.setupTouchGestures();
+    this.setupMobilePaletteDrawer();
+    this.setupScratchpad();
+    this.setupShortcutsModal();
     await this.loadQuestions();
   }
 
@@ -557,11 +561,40 @@ class MockTestEngine {
 
     // Quizlet-Style Power User Keyboard Shortcuts
     document.addEventListener('keydown', (e) => {
-      // Don't trigger if user is in an input or test is submitted
+      // Modal controls: Escape key closes active overlays
+      if (e.key === 'Escape') {
+        this.toggleScratchpad(false);
+        this.toggleShortcutsModal(false);
+        this.toggleMobilePaletteDrawer(false);
+        return;
+      }
+
+      // Don't trigger question hotkeys if user is in an input/textarea or test is submitted
       if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
       if (this.isSubmitted) return;
 
       const key = e.key.toUpperCase();
+
+      // Help Modal: ? or H
+      if (e.key === '?' || key === 'H') {
+        e.preventDefault();
+        this.toggleShortcutsModal();
+        return;
+      }
+
+      // Virtual Scratchpad: R
+      if (key === 'R') {
+        e.preventDefault();
+        this.toggleScratchpad();
+        return;
+      }
+
+      // Submit Confirmation: S
+      if (key === 'S') {
+        e.preventDefault();
+        this.confirmSubmit();
+        return;
+      }
 
       // Options Selection: A, B, C, D, E or 1, 2, 3, 4, 5
       if (['A', '1'].includes(key)) this.selectOption(0);
@@ -632,10 +665,16 @@ class MockTestEngine {
     const secs = this.timeRemaining % 60;
     this.dom.timerDisplay.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
     
-    if (this.timeRemaining <= 180) { // under 3 mins
-      this.dom.timerBox.classList.add('warning');
-    } else {
-      this.dom.timerBox.classList.remove('warning');
+    if (this.dom.timerBox) {
+      if (this.timeRemaining <= 60) {
+        this.dom.timerBox.classList.remove('warning');
+        this.dom.timerBox.classList.add('critical');
+      } else if (this.timeRemaining <= 300) {
+        this.dom.timerBox.classList.add('warning');
+        this.dom.timerBox.classList.remove('critical');
+      } else {
+        this.dom.timerBox.classList.remove('warning', 'critical');
+      }
     }
   }
 
@@ -907,6 +946,7 @@ class MockTestEngine {
       btn.addEventListener('click', () => {
         const jumpIdx = parseInt(btn.getAttribute('data-jump'), 10);
         this.jumpToQuestion(jumpIdx);
+        this.toggleMobilePaletteDrawer(false);
       });
     });
 
@@ -917,6 +957,8 @@ class MockTestEngine {
     if (this.dom.paletteAnsReviewedCount) this.dom.paletteAnsReviewedCount.textContent = countAnsReviewed;
     if (this.dom.paletteUnvisitedCount) this.dom.paletteUnvisitedCount.textContent = countUnvisited;
     if (this.dom.paletteSummary) this.dom.paletteSummary.textContent = `${countAnswered} / ${this.questions.length} Answered`;
+
+    this.updateMobilePaletteBar(countAnswered);
   }
 
   updateProgress() {
@@ -1103,21 +1145,35 @@ class MockTestEngine {
       }
     }
 
-    // Render Score Hero if element exists
-    const scoreCircleHtml = this.examType === 'competitive'
-      ? `<span class="score-num">${marksObtained}</span><span class="score-total">/ ${maxMarks} Marks</span>`
-      : `<span class="score-num">${correct}</span><span class="score-total">out of ${total}</span>`;
+    // Render Score Hero with SVG Radial Donut Chart
+    const circumference = 2 * Math.PI * 45; // ~282.74
+    const strokeOffset = Math.max(0, circumference - (scorePct / 100) * circumference);
+    const strokeColor = scorePct >= 75 ? 'var(--success, #22c55e)' : (scorePct >= 40 ? 'var(--primary, #2563eb)' : 'var(--danger, #ef4444)');
 
     if (this.dom.scoreHero) {
       this.dom.scoreHero.innerHTML = `
-        <div class="score-circle">
-          ${scoreCircleHtml}
+        <div class="score-donut-wrapper">
+          <svg class="score-donut-svg" viewBox="0 0 100 100">
+            <circle class="donut-meter-bg" cx="50" cy="50" r="45"></circle>
+            <circle class="donut-meter-fill" cx="50" cy="50" r="45"
+              stroke="${strokeColor}"
+              stroke-dasharray="${circumference.toFixed(1)}"
+              stroke-dashoffset="${strokeOffset.toFixed(1)}"></circle>
+          </svg>
+          <div class="donut-center-text">
+            <span class="donut-score-pct">${scorePct}%</span>
+            <span class="donut-score-sub">${this.examType === 'competitive' ? marksObtained + ' / ' + maxMarks : correct + ' / ' + total}</span>
+          </div>
         </div>
-        <h2 class="score-title">${rankBadge} (${scorePct}%)</h2>
+        <h2 class="score-title">${rankBadge}</h2>
         <p style="font-weight:700; color:var(--primary); font-size:0.95rem; margin-bottom:8px;">${predictedGrade}</p>
         <p class="score-desc">${rankDesc}</p>
       `;
     }
+
+    // Hide mobile bottom action bar on scorecard view
+    const mobileBar = document.getElementById('mobile-palette-bar');
+    if (mobileBar) mobileBar.style.display = 'none';
 
     // Render Stats Grid if element exists
     const penaltyCard = wrongPenalty !== 0 ? `
@@ -1961,5 +2017,367 @@ class MockTestEngine {
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
+  }
+
+  /* ==========================================================================
+     Touch Gestures & Mobile Navigation
+     ========================================================================== */
+  setupTouchGestures() {
+    const card = this.dom.questionCard;
+    if (!card) return;
+
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    card.addEventListener('touchstart', (e) => {
+      if (e.target.closest('#scratchpad-canvas, input, textarea, button, .scratchpad-modal-overlay')) return;
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+
+    card.addEventListener('touchend', (e) => {
+      if (e.target.closest('#scratchpad-canvas, input, textarea, button, .scratchpad-modal-overlay')) return;
+      const touchEndX = e.changedTouches[0].clientX;
+      const touchEndY = e.changedTouches[0].clientY;
+
+      const dx = touchEndX - touchStartX;
+      const dy = touchEndY - touchStartY;
+      const absDx = Math.abs(dx);
+      const absDy = Math.abs(dy);
+
+      // Minimum swipe threshold of 50px, horizontal dominance (> 1.4x vertical)
+      if (absDx > 50 && absDx > 1.4 * absDy) {
+        if (dx < 0) {
+          if (this.currentIndex < this.questions.length - 1) {
+            this.nextQuestion();
+            this.showSwipeFeedback('Next ➡️');
+          }
+        } else {
+          if (this.currentIndex > 0) {
+            this.prevQuestion();
+            this.showSwipeFeedback('⬅️ Previous');
+          }
+        }
+      }
+    }, { passive: true });
+  }
+
+  showSwipeFeedback(msg) {
+    let toast = document.getElementById('swipe-feedback-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'swipe-feedback-toast';
+      toast.className = 'swipe-feedback-toast';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = msg;
+    toast.classList.add('show');
+    if (this._swipeToastTimer) clearTimeout(this._swipeToastTimer);
+    this._swipeToastTimer = setTimeout(() => toast.classList.remove('show'), 700);
+  }
+
+  /* ==========================================================================
+     Mobile Floating Palette Bottom Bar & Slide-Up Drawer
+     ========================================================================== */
+  setupMobilePaletteDrawer() {
+    if (document.getElementById('mobile-palette-bar')) return;
+
+    const bar = document.createElement('div');
+    bar.id = 'mobile-palette-bar';
+    bar.className = 'mobile-palette-bar';
+    bar.innerHTML = `
+      <div style="font-size:0.85rem; font-weight:700; color:var(--text-color);" id="mobile-q-indicator">
+        Q 1 / ${this.questions.length || 20}
+      </div>
+      <button type="button" class="mobile-palette-btn" id="mobile-palette-btn">
+        <span>📋</span> <span id="mobile-palette-label">Palette ▴</span>
+      </button>
+      <div class="mobile-palette-quick-nav">
+        <button type="button" class="mobile-quick-btn" id="mobile-quick-prev" title="Previous Question">←</button>
+        <button type="button" class="mobile-quick-btn" id="mobile-quick-next" title="Next Question">→</button>
+      </div>
+    `;
+    document.body.appendChild(bar);
+
+    const backdrop = document.createElement('div');
+    backdrop.id = 'palette-drawer-backdrop';
+    backdrop.className = 'palette-drawer-backdrop';
+    document.body.appendChild(backdrop);
+
+    const paletteCard = document.querySelector('.palette-card');
+    if (paletteCard && !paletteCard.querySelector('.drawer-close-btn')) {
+      const headerTitle = paletteCard.querySelector('.palette-title');
+      if (headerTitle) {
+        const closeBtn = document.createElement('button');
+        closeBtn.type = 'button';
+        closeBtn.className = 'drawer-close-btn';
+        closeBtn.innerHTML = '✕';
+        closeBtn.style.display = 'none';
+        closeBtn.id = 'palette-drawer-close-btn';
+        closeBtn.addEventListener('click', () => this.toggleMobilePaletteDrawer(false));
+        headerTitle.appendChild(closeBtn);
+      }
+    }
+
+    const triggerBtn = document.getElementById('mobile-palette-btn');
+    if (triggerBtn) {
+      triggerBtn.addEventListener('click', () => this.toggleMobilePaletteDrawer());
+    }
+    backdrop.addEventListener('click', () => this.toggleMobilePaletteDrawer(false));
+
+    const quickPrev = document.getElementById('mobile-quick-prev');
+    const quickNext = document.getElementById('mobile-quick-next');
+    if (quickPrev) quickPrev.addEventListener('click', () => this.prevQuestion());
+    if (quickNext) quickNext.addEventListener('click', () => this.nextQuestion());
+  }
+
+  toggleMobilePaletteDrawer(force) {
+    const paletteCard = document.querySelector('.palette-card');
+    const backdrop = document.getElementById('palette-drawer-backdrop');
+    if (!paletteCard || !backdrop) return;
+
+    const isOpen = paletteCard.classList.contains('mobile-drawer-open');
+    const next = force !== undefined ? force : !isOpen;
+
+    paletteCard.classList.toggle('mobile-drawer-open', next);
+    backdrop.classList.toggle('active', next);
+
+    const closeBtn = document.getElementById('palette-drawer-close-btn');
+    if (closeBtn) closeBtn.style.display = next ? 'inline-flex' : 'none';
+  }
+
+  updateMobilePaletteBar(answeredCount) {
+    const ind = document.getElementById('mobile-q-indicator');
+    if (ind) ind.textContent = `Q ${this.currentIndex + 1} / ${this.questions.length}`;
+
+    const lbl = document.getElementById('mobile-palette-label');
+    if (lbl) lbl.textContent = `Palette (${answeredCount} Ans) ▴`;
+
+    const quickPrev = document.getElementById('mobile-quick-prev');
+    const quickNext = document.getElementById('mobile-quick-next');
+    if (quickPrev) quickPrev.disabled = (this.currentIndex === 0);
+    if (quickNext) quickNext.disabled = (this.currentIndex === this.questions.length - 1);
+  }
+
+  /* ==========================================================================
+     Virtual Rough Sheet / Scratchpad (Canvas & Text Notes)
+     ========================================================================== */
+  setupScratchpad() {
+    let toolbar = document.querySelector('.header-controls > div[style*="display:flex"]') || document.querySelector('.header-controls');
+    if (toolbar && !document.getElementById('btn-scratchpad')) {
+      const btn = document.createElement('button');
+      btn.id = 'btn-scratchpad';
+      btn.className = 'tool-btn';
+      btn.title = 'Virtual Rough Sheet / Scratchpad (Hot-key: R)';
+      btn.innerHTML = '<span>📝</span>';
+      btn.addEventListener('click', () => this.toggleScratchpad());
+      toolbar.insertBefore(btn, toolbar.firstChild);
+    }
+
+    if (document.getElementById('scratchpad-modal-overlay')) return;
+    const overlay = document.createElement('div');
+    overlay.id = 'scratchpad-modal-overlay';
+    overlay.className = 'scratchpad-modal-overlay';
+    overlay.innerHTML = `
+      <div class="scratchpad-card">
+        <div class="scratchpad-header">
+          <div class="scratchpad-tabs">
+            <button type="button" class="scratchpad-tab active" id="tab-canvas">✏️ Rough Canvas</button>
+            <button type="button" class="scratchpad-tab" id="tab-notes">📄 Text Notes</button>
+          </div>
+          <button type="button" class="drawer-close-btn" id="scratchpad-close-btn" title="Close Scratchpad">✕</button>
+        </div>
+        <div class="scratchpad-body">
+          <canvas id="scratchpad-canvas" class="scratchpad-canvas"></canvas>
+          <textarea id="scratchpad-notes" class="scratchpad-notes" placeholder="Type quick formulas, calculations, or notes here..." style="display:none;"></textarea>
+        </div>
+        <div class="scratchpad-toolbar">
+          <button type="button" class="nav-btn" id="scratchpad-clear-btn" style="padding:4px 12px; font-size:0.78rem;">🧹 Clear Canvas</button>
+          <span style="color:var(--text-muted); font-size:0.75rem;">Rough work runs 100% locally</span>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+
+    const canvas = document.getElementById('scratchpad-canvas');
+    const ctx = canvas ? canvas.getContext('2d') : null;
+    let isDrawing = false;
+    let lastX = 0;
+    let lastY = 0;
+
+    const resizeCanvas = () => {
+      if (!canvas) return;
+      const rect = canvas.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      if (ctx) {
+        ctx.scale(dpr, dpr);
+        ctx.strokeStyle = document.documentElement.getAttribute('data-theme') === 'dark' ? '#60a5fa' : '#2563eb';
+        ctx.lineWidth = 2.5;
+        ctx.lineCap = 'round';
+        ctx.lineJoin = 'round';
+      }
+    };
+
+    const getPos = (e) => {
+      const rect = canvas.getBoundingClientRect();
+      if (e.touches && e.touches.length > 0) {
+        return [e.touches[0].clientX - rect.left, e.touches[0].clientY - rect.top];
+      }
+      return [e.clientX - rect.left, e.clientY - rect.top];
+    };
+
+    if (canvas && ctx) {
+      const startDraw = (e) => {
+        isDrawing = true;
+        [lastX, lastY] = getPos(e);
+      };
+      const draw = (e) => {
+        if (!isDrawing) return;
+        e.preventDefault();
+        const [x, y] = getPos(e);
+        ctx.beginPath();
+        ctx.moveTo(lastX, lastY);
+        ctx.lineTo(x, y);
+        ctx.stroke();
+        [lastX, lastY] = [x, y];
+      };
+      const stopDraw = () => { isDrawing = false; };
+
+      canvas.addEventListener('mousedown', startDraw);
+      canvas.addEventListener('mousemove', draw);
+      canvas.addEventListener('mouseup', stopDraw);
+      canvas.addEventListener('mouseleave', stopDraw);
+
+      canvas.addEventListener('touchstart', startDraw, { passive: false });
+      canvas.addEventListener('touchmove', draw, { passive: false });
+      canvas.addEventListener('touchend', stopDraw);
+    }
+
+    const tabCanvas = document.getElementById('tab-canvas');
+    const tabNotes = document.getElementById('tab-notes');
+    const notesArea = document.getElementById('scratchpad-notes');
+    const clearBtn = document.getElementById('scratchpad-clear-btn');
+
+    if (tabCanvas && tabNotes && canvas && notesArea) {
+      tabCanvas.addEventListener('click', () => {
+        tabCanvas.classList.add('active');
+        tabNotes.classList.remove('active');
+        canvas.style.display = 'block';
+        notesArea.style.display = 'none';
+        if (clearBtn) clearBtn.style.display = 'inline-flex';
+      });
+      tabNotes.addEventListener('click', () => {
+        tabNotes.classList.add('active');
+        tabCanvas.classList.remove('active');
+        canvas.style.display = 'none';
+        notesArea.style.display = 'block';
+        if (clearBtn) clearBtn.style.display = 'none';
+      });
+    }
+
+    if (clearBtn && canvas && ctx) {
+      clearBtn.addEventListener('click', () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        this.playTone('click');
+      });
+    }
+
+    const closeBtn = document.getElementById('scratchpad-close-btn');
+    if (closeBtn) closeBtn.addEventListener('click', () => this.toggleScratchpad(false));
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) this.toggleScratchpad(false);
+    });
+
+    this._resizeScratchpadCanvas = resizeCanvas;
+  }
+
+  toggleScratchpad(force) {
+    const overlay = document.getElementById('scratchpad-modal-overlay');
+    if (!overlay) return;
+    const isActive = overlay.classList.contains('active');
+    const next = force !== undefined ? force : !isActive;
+    overlay.classList.toggle('active', next);
+    if (next && this._resizeScratchpadCanvas) {
+      setTimeout(this._resizeScratchpadCanvas, 60);
+    }
+  }
+
+  /* ==========================================================================
+     Keyboard Shortcuts Helper Modal
+     ========================================================================== */
+  setupShortcutsModal() {
+    let toolbar = document.querySelector('.header-controls > div[style*="display:flex"]') || document.querySelector('.header-controls');
+    if (toolbar && !document.getElementById('btn-shortcuts')) {
+      const btn = document.createElement('button');
+      btn.id = 'btn-shortcuts';
+      btn.className = 'tool-btn';
+      btn.title = 'Keyboard Shortcuts Cheat-Sheet (Hot-key: ?)';
+      btn.innerHTML = '<span>⌨️</span>';
+      btn.addEventListener('click', () => this.toggleShortcutsModal());
+      toolbar.insertBefore(btn, toolbar.firstChild);
+    }
+
+    if (document.getElementById('shortcuts-modal-overlay')) return;
+    const overlay = document.createElement('div');
+    overlay.id = 'shortcuts-modal-overlay';
+    overlay.className = 'shortcuts-modal-overlay';
+    overlay.innerHTML = `
+      <div class="shortcuts-card">
+        <div class="shortcuts-header">
+          <h3 style="font-size:1.15rem; font-weight:700; color:var(--text-color); margin:0;">⌨️ Power-User Keyboard Shortcuts</h3>
+          <button type="button" class="drawer-close-btn" id="shortcuts-close-btn" title="Close Shortcuts">✕</button>
+        </div>
+        <div class="shortcuts-grid">
+          <div class="shortcut-row">
+            <span>Select Options</span>
+            <div><span class="shortcut-key-badge">1-4</span> / <span class="shortcut-key-badge">A-D</span></div>
+          </div>
+          <div class="shortcut-row">
+            <span>Save &amp; Next</span>
+            <div><span class="shortcut-key-badge">Enter</span> / <span class="shortcut-key-badge">→</span></div>
+          </div>
+          <div class="shortcut-row">
+            <span>Previous Question</span>
+            <span class="shortcut-key-badge">←</span>
+          </div>
+          <div class="shortcut-row">
+            <span>Mark for Review</span>
+            <span class="shortcut-key-badge">M</span>
+          </div>
+          <div class="shortcut-row">
+            <span>Clear Response</span>
+            <span class="shortcut-key-badge">C</span>
+          </div>
+          <div class="shortcut-row">
+            <span>Virtual Scratchpad</span>
+            <span class="shortcut-key-badge">R</span>
+          </div>
+          <div class="shortcut-row">
+            <span>Shortcuts Help</span>
+            <span class="shortcut-key-badge">?</span>
+          </div>
+          <div class="shortcut-row">
+            <span>Close Modal / Drawer</span>
+            <span class="shortcut-key-badge">Esc</span>
+          </div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+
+    const closeBtn = document.getElementById('shortcuts-close-btn');
+    if (closeBtn) closeBtn.addEventListener('click', () => this.toggleShortcutsModal(false));
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) this.toggleShortcutsModal(false);
+    });
+  }
+
+  toggleShortcutsModal(force) {
+    const overlay = document.getElementById('shortcuts-modal-overlay');
+    if (!overlay) return;
+    const isActive = overlay.classList.contains('active');
+    overlay.classList.toggle('active', force !== undefined ? force : !isActive);
   }
 }
