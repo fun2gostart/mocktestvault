@@ -628,6 +628,8 @@ class MockTestEngine {
     else if (this.examType === 'competitive') chapterBadge = 'SSC CGL Tier 1';
     else if (this.examType === 'ielts') chapterBadge = 'IELTS® Academic';
     else if (this.examType === 'gre') chapterBadge = 'ETS GRE® General';
+    else if (this.examType === 'toefl') chapterBadge = 'ETS TOEFL® iBT';
+    else if (this.examType === 'gmat') chapterBadge = 'GMAT® Focus Edition';
 
     let badgesHtml = `<span class="badge badge-chapter">${chapterBadge}</span>`;
     if (this.currentSet === 'random') badgesHtml += `<span class="badge" style="background:linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.15)); color:#9333ea; font-weight:700; border:1px solid rgba(147,51,234,0.3);">🎲 Shuffled Mock</span>`;
@@ -768,7 +770,7 @@ class MockTestEngine {
       this.dom.explanationText.innerHTML = this.formatChemicalFormulas(q.explanation);
     }
     if (this.dom.citationTag) {
-      const defaultCitation = (this.examType === 'sat') ? 'College Board SAT' : (this.examType === 'ap' ? 'College Board AP® CED' : 'Official NCERT Class 10 Syllabus');
+      const defaultCitation = (this.examType === 'sat') ? 'College Board SAT' : (this.examType === 'ap' ? 'College Board AP® CED' : (this.examType === 'toefl' ? 'ETS TOEFL® iBT Framework' : (this.examType === 'gmat' ? 'GMAC GMAT Focus Blueprint' : 'Official NCERT Class 10 Syllabus')));
       this.dom.citationTag.textContent = q.citation || defaultCitation;
     }
     this.dom.explanationBox.classList.add('active');
@@ -1010,6 +1012,29 @@ class MockTestEngine {
       rankBadge = `🏛️ GRE Scaled Score: ${greScaled} / 170`;
       rankDesc = `Calibrated to official ETS GRE General Test scoring metrics (${pctRange}).`;
       predictedGrade = `Estimated Scaled Score: ${greScaled} / 170 • Raw: ${correct} / ${total} Correct`;
+    } else if (this.examType === 'toefl') {
+      const toeflScaled = Math.round((correct / Math.max(1, total)) * 30);
+      let toeflLevel = "Advanced (24–30)";
+      if (toeflScaled >= 24) toeflLevel = "Advanced / CEFR C1–C2 (Top Tier / Direct Academic Admit)";
+      else if (toeflScaled >= 18) toeflLevel = "High-Intermediate / CEFR B2 (Standard University Admit)";
+      else if (toeflScaled >= 10) toeflLevel = "Low-Intermediate / CEFR B1";
+      else toeflLevel = "Below Low-Intermediate";
+
+      rankBadge = `🎧 TOEFL® iBT Scaled Score: ${toeflScaled} / 30`;
+      rankDesc = `${toeflLevel}. Calibrated to official ETS TOEFL iBT reading assessment rubrics.`;
+      predictedGrade = `Estimated Section Score: ${toeflScaled} / 30 • Raw: ${correct} / ${total} Correct`;
+    } else if (this.examType === 'gmat') {
+      const gmatSecScaled = Math.round(60 + (correct / Math.max(1, total)) * 30);
+      const gmatTotalEst = Math.round(205 + (correct / Math.max(1, total)) * 600);
+      let gmatPct = "Top Tier MBA Trajectory";
+      if (gmatSecScaled >= 85) gmatPct = "99th Percentile (M7 / Top 10 MBA Competitive)";
+      else if (gmatSecScaled >= 80) gmatPct = "85th–95th Percentile (Top 25 MBA Competitive)";
+      else if (gmatSecScaled >= 75) gmatPct = "60th–80th Percentile (Good Business School Admit Range)";
+      else gmatPct = "Diagnostic Baseline";
+
+      rankBadge = `📊 GMAT® Focus Scaled: ${gmatSecScaled} / 90`;
+      rankDesc = `${gmatPct}. Calibrated to official GMAC GMAT Focus Edition scoring benchmarks.`;
+      predictedGrade = `Estimated Section Score: ${gmatSecScaled} / 90 • Est Total GMAT: ${gmatTotalEst} / 805`;
     } else {
       // Board default
       if (scorePct < 40) {
@@ -1165,7 +1190,11 @@ class MockTestEngine {
             ? 'Band 9 Reading Justification & Lexical Analysis'
             : (this.examType === 'gre'
               ? 'Official GRE Detailed Solution & Etymological Rationale'
-              : 'NCERT Conceptual Explanation'))));
+              : (this.examType === 'toefl'
+                ? 'ETS TOEFL® Official Rationale & Passage Evidence'
+                : (this.examType === 'gmat'
+                  ? 'GMAC Solution Breakdown & Strategic Analysis'
+                  : 'NCERT Conceptual Explanation'))))));
 
     const defaultCitation = this.examType === 'sat'
       ? 'College Board SAT'
@@ -1177,7 +1206,11 @@ class MockTestEngine {
             ? 'Cambridge IELTS Academic Framework'
             : (this.examType === 'gre'
               ? 'ETS GRE General Standard'
-              : 'NCERT Class 10'))));
+              : (this.examType === 'toefl'
+                ? 'ETS TOEFL® iBT Official Blueprint'
+                : (this.examType === 'gmat'
+                  ? 'Official GMAC GMAT Focus Framework'
+                  : 'NCERT Class 10'))))));
 
     this.questions.forEach((q, idx) => {
       const userChoice = this.userAnswers[idx];
