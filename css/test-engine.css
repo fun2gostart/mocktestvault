@@ -274,85 +274,6 @@ body {
 }
 
 /* ==========================================================================
-   Google AdSense / Display Ad Wrappers (Zero CLS Architecture)
-   ========================================================================== */
-.ad-slot-wrapper {
-  background: var(--bg-subtle);
-  border: 1px dashed var(--border-color);
-  border-radius: var(--radius-md);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.2s ease;
-}
-
-.ad-label {
-  font-size: 0.65rem;
-  font-weight: 700;
-  color: var(--text-muted);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 6px;
-}
-
-.ad-placeholder-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-  color: var(--text-muted);
-}
-
-.ad-placeholder-content .ad-icon {
-  font-size: 1.1rem;
-  opacity: 0.7;
-}
-
-.ad-placeholder-content .ad-text {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-}
-
-.ad-placeholder-content .ad-specs {
-  font-size: 0.68rem;
-  color: var(--text-muted);
-}
-
-/* Specific Zone Sizes */
-.ad-zone-1-leaderboard {
-  max-width: 1200px;
-  min-height: 90px;
-  margin: 16px auto 0;
-  padding: 12px;
-}
-
-.ad-zone-2-sidebar {
-  width: 100%;
-  min-height: 250px;
-  margin-top: 16px;
-  padding: 16px;
-}
-
-.ad-zone-3-inline {
-  width: 100%;
-  min-height: 80px;
-  margin: 18px 0;
-  padding: 10px;
-}
-
-.ad-zone-4-results {
-  max-width: 728px;
-  min-height: 100px;
-  margin: 24px auto;
-  padding: 14px;
-}
-
-/* ==========================================================================
    Set Switcher Bar (Sets 1, 2, 3)
    ========================================================================== */
 .set-switcher-bar {
@@ -1298,7 +1219,6 @@ body {
   .exam-status-bar,
   .breadcrumb-bar,
   .set-switcher-bar,
-  .ad-slot-wrapper,
   .palette-card,
   .card-action-bar,
   .scorecard-actions,

@@ -1,4 +1,49 @@
+# MockTestVault Robots Configuration
+# https://mocktestvault.com
+
 User-agent: *
 Allow: /
 
+# Google Search Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Microsoft Bing
+User-agent: Bingbot
+Allow: /
+
+# Apple, Yahoo, DuckDuckGo
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Beneficial AI Crawlers & Search Engines (GEO)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemaps & Feeds
 Sitemap: https://mocktestvault.com/sitemap.xml
+Sitemap: https://mocktestvault.com/feed.xml

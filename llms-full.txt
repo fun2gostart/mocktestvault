@@ -1,0 +1,96 @@
+# MockTestVault — Full Curriculum, Scoring & Examination Architecture (AI Index)
+
+> MockTestVault (https://mocktestvault.com) is an open-access, zero-distraction computer-based test (CBT) simulator engineered for standardized exams across India, the United States, and International University Admissions. 100% free, 100% client-side, zero user tracking, zero logins, and zero ads.
+
+## Architecture & Technology Stack
+- **Zero-Distraction Policy:** No advertisements, no third-party telemetry, no paywalls, and no mandatory authentication.
+- **Client-Side Simulation:** Test timers, question navigation, mark-for-review status, scoring algorithms, and rationale drawers run entirely in JavaScript without server round-trips.
+- **Offline First (PWA):** Service Worker caching (`sw.js`) enables offline practice and instant page transitions (<50ms).
+- **LocalStorage Data Persistence:** User test history, chapter completion status, and question scores remain strictly inside the user's browser.
+
+---
+
+## 1. CBSE Class 10 Board Exam Vault (/cbse-class-10/)
+Aligned with the NCERT 2025–2026 syllabus and CBSE Board Examination question blueprint. 3,100+ verified multiple-choice questions with step-by-step mathematical proofs and chemical equations.
+
+### Examination Blueprint
+- **Total Marks per Subject:** 80 Marks (Theory) + 20 Marks (Internal Assessment).
+- **Exam Duration:** 3 Hours (180 Minutes).
+- **Negative Marking:** None (0 marks deducted for incorrect answers).
+- **Question Typology:** Standalone MCQs, Assertion-Reasoning, Case-Based Competency Questions.
+
+### Chapter Directory & Concepts Tested
+1. **Mathematics (14 Chapters)**
+   - `ch01_real_numbers.html`: Fundamental Theorem of Arithmetic ($a = bq + r$, $0 \le r < b$), irrationality proofs of $\sqrt{2}$, $\sqrt{3}$, $\sqrt{5}$, decimal expansions.
+   - `ch02_polynomials.html`: Relationship between zeroes and coefficients ($\alpha + \beta = -b/a$, $\alpha\beta = c/a$), geometric interpretation of parabolas.
+   - `ch03_linear_equations_two_variables.html`: Consistency conditions ($a_1/a_2 \ne b_1/b_2$ unique; $a_1/a_2 = b_1/b_2 = c_1/c_2$ infinite; $a_1/a_2 = b_1/b_2 \ne c_1/c_2$ parallel/inconsistent).
+   - `ch04_quadratic_equations.html`: Standard form $ax^2 + bx + c = 0$, discriminant $D = b^2 - 4ac$, real and distinct ($D > 0$), real and equal ($D = 0$), non-real roots ($D < 0$).
+   - `ch05_arithmetic_progressions.html`: General term $a_n = a + (n-1)d$, sum of first $n$ terms $S_n = \frac{n}{2}[2a + (n-1)d] = \frac{n}{2}(a + l)$.
+   - `ch06_triangles.html`: Thales' Theorem (BPT), AAA similarity, SSS similarity, SAS similarity, applications to right triangles.
+   - `ch07_coordinate_geometry.html`: Distance formula $d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$, section formula $( \frac{mx_2+nx_1}{m+n}, \frac{my_2+ny_1}{m+n} )$, midpoint formula.
+   - `ch08_introduction_to_trigonometry.html`: $\sin\theta, \cos\theta, \tan\theta, \csc\theta, \sec\theta, \cot\theta$; Pythagorean identities: $\sin^2\theta + \cos^2\theta = 1$, $1 + \tan^2\theta = \sec^2\theta$, $1 + \cot^2\theta = \csc^2\theta$.
+   - `ch09_some_applications_of_trigonometry.html`: Line of sight, angle of elevation, angle of depression, practical measurement of towers, poles, and rivers.
+   - `ch10_circles.html`: Tangent perpendicular to radius at point of contact, lengths of tangents drawn from an external point are equal ($PA = PB$).
+   - `ch11_areas_related_to_circles.html`: Area of sector $\frac{\theta}{360^\circ}\pi r^2$, length of arc $\frac{\theta}{360^\circ}2\pi r$, area of segment = area of sector - area of triangle.
+   - `ch12_surface_areas_volumes.html`: Composite solids (cone on cylinder, hemisphere on cube), surface area formulas, volume formulas.
+   - `ch13_statistics.html`: Direct mean $\frac{\sum f_i x_i}{\sum f_i}$, Assumed mean $a + \frac{\sum f_i d_i}{\sum f_i}$, Median $l + (\frac{N/2 - cf}{f})h$, Mode $l + (\frac{f_1-f_0}{2f_1-f_0-f_2})h$, Empirical relationship: $3\text{ Median} = \text{Mode} + 2\text{ Mean}$.
+   - `ch14_probability.html`: Theoretical probability $P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}$, $0 \le P(E) \le 1$, $P(E) + P(\bar{E}) = 1$.
+   - `math-formulas.html`: Complete formula and theorem revision cheat sheet.
+
+2. **Science (13 Chapters)**
+   - Chemical Reactions, Acids/Bases/Salts, Metals/Non-Metals, Carbon Compounds.
+   - Life Processes, Control & Coordination, How Do Organisms Reproduce?, Heredity.
+   - Light (Reflection & Refraction), Human Eye & Colourful World, Electricity, Magnetic Effects, Our Environment.
+
+3. **Social Science (21 Chapters)**
+   - History: Nationalism in Europe, Nationalism in India, Making of a Global World, Age of Industrialisation, Print Culture.
+   - Geography: Resources, Forest & Wildlife, Water, Agriculture, Minerals & Energy, Manufacturing, Lifelines.
+   - Political Science: Power Sharing, Federalism, Gender/Religion/Caste, Political Parties, Outcomes of Democracy.
+   - Economics: Development, Sectors of Indian Economy, Money and Credit, Globalisation.
+
+---
+
+## 2. Staff Selection Commission Vault (/ssc-cgl/)
+Simulates the SSC Combined Graduate Level (Tier 1) examination engine operated by Tata Consultancy Services (TCS).
+
+### Examination Structure
+- **Sections (4):**
+  1. General Intelligence & Reasoning (25 Qs / 50 Marks)
+  2. General Awareness (25 Qs / 50 Marks)
+  3. Quantitative Aptitude (25 Qs / 50 Marks)
+  4. English Comprehension (25 Qs / 50 Marks)
+- **Total Questions:** 100
+- **Total Marks:** 200
+- **Duration:** 60 Minutes (80 Minutes for eligible PwD candidates).
+- **Marking Scheme:** +2.0 marks for correct, -0.50 marks for incorrect (negative marking).
+
+---
+
+## 3. US Standardized Testing Vault (/us/)
+Covers the Digital SAT (multistage adaptive test) and Advanced Placement (AP) diagnostics.
+
+### Digital SAT Blueprint
+- **Reading & Writing:** 2 Modules, 27 questions each (32 minutes per module), testing Craft & Structure, Information & Ideas, Standard English Conventions, and Expression of Ideas.
+- **Math:** 2 Modules, 22 questions each (35 minutes per module), covering Algebra, Advanced Math, Problem Solving and Data Analysis, and Geometry & Trigonometry.
+- **Scoring:** 400 to 1600 scale. No negative penalty for incorrect answers.
+
+### Advanced Placement (AP) Diagnostics
+- **AP Calculus AB:** Limits, Continuity, Derivative Rules, Applications of Derivatives, Riemann Sums, Definite Integrals, FTC, Differential Equations.
+- **AP Physics 1:** Kinematics, Dynamics (Newton's laws), Circular Motion & Gravitation, Energy, Momentum, Simple Harmonic Motion, Torque & Rotational Motion.
+- **AP US History (APUSH):** Stimulus-based historical reasoning across 9 chronological periods (1491–present).
+
+---
+
+## 4. Global Higher Education Vault (/global/)
+- **IELTS Academic Reading:** 40 questions across 3 long academic texts; True/False/Not Given, Yes/No/Not Given, heading matching, summary completion, diagram labelling.
+- **TOEFL iBT Reading:** Academic reading passages measuring comprehension, inference, rhetorical purpose, and vocabulary in context.
+- **GRE General Test:** Quantitative Reasoning (arithmetic, algebra, geometry, data interpretation) and Verbal Reasoning (reading comprehension, text completion, sentence equivalence).
+- **GMAT Focus Edition:** Quantitative Reasoning, Verbal Reasoning, and Data Insights sections.
+
+---
+
+## Contact & Integrity
+- **Publisher:** BuyWiseHub Ecosystem
+- **Founder / Lead Author:** Swapnesh Mhatre, Mumbai, India
+- **Academic Support Desk:** contact@mocktestvault.com
+- **Response Time:** 24–48 hours for errata validation and scoring clarifications.
