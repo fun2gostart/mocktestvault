@@ -29,6 +29,56 @@
 
   <link rel="stylesheet" href="../css/test-engine.css">
 
+  <!-- Schema.org FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the exact exam pattern and marking scheme for SSC CGL Tier 1?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SSC CGL Tier 1 comprises 100 multiple-choice questions divided equally across 4 sections (25 Qs each in Reasoning, General Awareness, Quantitative Aptitude, and English Comprehension) for 200 total marks. Each correct answer awards +2 marks, with a penalty deduction of -0.50 marks per wrong answer. Duration is strictly 60 minutes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the negative marking calculation work on MockTestVault?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our CBT engine precisely tracks correct attempts (+2 marks each) and incorrect attempts (-0.50 marks penalty each) to calculate an official raw score out of 200 marks, matching the Staff Selection Commission standard."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is considered a safe target score for the unreserved (UR) category in Tier 1?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on recent cutoffs, unreserved (UR) candidates should target a raw score of 145–155+ marks out of 200 to ensure a safe qualification buffer for Tier 2 across all normalized shifts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are sectional speed drills available for individual subject practice?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, MockTestVault provides 15-minute 25-question sectional speed drills for Reasoning, Quant, English, and General Awareness across Sets 01, 02, and 03 to help aspirants overcome sectional timing bottlenecks."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the test simulator track my score progression across multiple attempts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! Our engine automatically records test attempts in your browser local storage, displaying a progression card comparing your current accuracy, raw marks, and time spent against previous attempts."
+        }
+      }
+    ]
+  }
+  </script>
+
   <style>
     .ssc-hero {
       background: linear-gradient(135deg, #091e3a 0%, #173862 50%, #1e293b 100%);
@@ -756,6 +806,46 @@
       </div>
     </div>
 
+    <!-- Frequently Asked Questions (FAQ) Section -->
+    <section class="faq-section" id="faq-section" aria-label="SSC CGL Frequently Asked Questions">
+      <h2 class="faq-title"><span>❓</span> Frequently Asked Questions (SSC CGL Tier 1)</h2>
+      
+      <div class="faq-item">
+        <div class="faq-question">What is the exact exam pattern and marking scheme for SSC CGL Tier 1?</div>
+        <div class="faq-answer">
+          SSC CGL Tier 1 comprises 100 multiple-choice questions divided equally across 4 sections (25 Qs each in General Intelligence &amp; Reasoning, General Awareness, Quantitative Aptitude, and English Comprehension) for 200 total marks. Each correct answer awards +2 marks, with a negative marking penalty deduction of -0.50 marks per wrong answer. Duration is strictly 60 minutes (80 minutes for eligible scribe candidates).
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How does the negative marking calculation work on MockTestVault?</div>
+        <div class="faq-answer">
+          Our CBT engine precisely tracks correct attempts (+2 marks each) and incorrect attempts (-0.50 marks penalty each) to calculate an official raw score out of 200 marks, matching the Staff Selection Commission standard.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What is considered a safe target score for the unreserved (UR) category in Tier 1?</div>
+        <div class="faq-answer">
+          Based on recent cutoffs, unreserved (UR) candidates should target a raw score of 145–155+ marks out of 200 to ensure a safe qualification buffer for Tier 2 across all normalized shifts. Review our comprehensive <a href="tier-1-syllabus-strategy.html" style="color:var(--primary); font-weight:700; text-decoration:underline;">SSC CGL Tier 1 Syllabus &amp; 60-Day Strategy Guide</a> for section-wise weightage and target attempts.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Are sectional speed drills available for individual subject practice?</div>
+        <div class="faq-answer">
+          Yes! MockTestVault provides 15-minute 25-question sectional speed drills for Reasoning, Quant, English, and General Awareness across Sets 01, 02, and 03 to help aspirants overcome sectional timing bottlenecks without having to sit through a full 60-minute test.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Does the test simulator track my score progression across multiple attempts?</div>
+        <div class="faq-answer">
+          Yes! Our engine automatically records test attempts in your browser local storage, displaying a progression card comparing your current accuracy, raw marks, and time spent against previous attempts to ensure measurable score improvement.
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- Site Footer -->
@@ -783,6 +873,13 @@
         themeBtn.textContent = savedTheme === 'light' ? '🌙' : '☀️';
       }
     }
+
+    // FAQ Accordion Interactivity
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        q.parentElement.classList.toggle('active');
+      });
+    });
   </script>
 </body>
 </html>

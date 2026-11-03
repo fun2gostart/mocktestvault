@@ -348,6 +348,32 @@ class MockTestEngine {
       s = s.replace(regex, replacement);
     });
 
+    // Math & Scientific Typography Enhancements
+    s = s.replace(/([0-9]+)\s*deg\b/g, '$1°');
+    s = s.replace(/\btheta\b/g, 'θ');
+    s = s.replace(/\bpi\b/g, 'π');
+    s = s.replace(/\+\-/g, '±');
+    s = s.replace(/!=/g, '≠');
+    s = s.replace(/<=/g, '≤');
+    s = s.replace(/>=/g, '≥');
+    s = s.replace(/=>/g, '⇒');
+    s = s.replace(/sqrt\(([^)]+)\)/g, '√($1)');
+    s = s.replace(/sqrt\b/g, '√');
+    
+    // Exponent Superscripts
+    s = s.replace(/\^2\b/g, '²');
+    s = s.replace(/\^3\b/g, '³');
+    s = s.replace(/\^n\b/g, 'ⁿ');
+    s = s.replace(/\^1\b/g, '¹');
+    s = s.replace(/\^0\b/g, '⁰');
+
+    // Sequence Subscripts (e.g. a_30 -> a₃₀, x_1 -> x₁)
+    const subMap = { '0':'₀', '1':'₁', '2':'₂', '3':'₃', '4':'₄', '5':'₅', '6':'₆', '7':'₇', '8':'₈', '9':'₉', 'n':'ₙ' };
+    s = s.replace(/\b([a-zA-Z])_([0-9n]+)\b/g, (match, v, digits) => {
+      const subs = digits.split('').map(c => subMap[c] || c).join('');
+      return v + subs;
+    });
+
     return s;
   }
 

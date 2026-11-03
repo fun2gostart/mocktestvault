@@ -1304,7 +1304,14 @@ body {
   .scorecard-actions,
   .site-footer,
   .theme-toggle-btn,
-  .mode-pill-group {
+  .mode-pill-group,
+  .study-guide-crosslink-banner,
+  .mtv-toast,
+  .btn-report-question,
+  .btn-review-bookmark,
+  .review-filters-bar,
+  .attempt-history-card,
+  .badge-bookmark {
     display: none !important;
   }
   
@@ -1899,6 +1906,80 @@ body {
 .btn-clear-history:hover {
   color: var(--danger, #ef4444);
 }
+
+/* ==========================================================================
+   Universal FAQ Accordions & Rich Snippet Blocks
+   ========================================================================== */
+.faq-section {
+  max-width: 1200px;
+  margin: 48px auto;
+  padding: 0 20px;
+}
+
+.faq-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: var(--text-primary, #0f172a);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.faq-item {
+  border: 1px solid var(--border-color, #e2e8f0);
+  border-radius: var(--radius-md, 8px);
+  margin-bottom: 12px;
+  background: var(--bg-surface, #ffffff);
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq-item:hover {
+  border-color: var(--primary, #2563eb);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.05));
+}
+
+.faq-question {
+  padding: 16px 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-primary, #0f172a);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.faq-question::after {
+  content: "＋";
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--primary, #2563eb);
+  transition: transform 0.2s ease;
+}
+
+.faq-item.active .faq-question::after {
+  content: "−";
+}
+
+.faq-answer {
+  padding: 0 20px 16px 20px;
+  color: var(--text-secondary, #475569);
+  line-height: 1.6;
+  font-size: 0.92rem;
+}
+
+[data-theme="dark"] .faq-item {
+  background: var(--bg-surface, #1e293b);
+  border-color: var(--border-color, #334155);
+}
+
+[data-theme="dark"] .faq-answer {
+  color: var(--text-secondary, #94a3b8);
+}
+
 
 
 

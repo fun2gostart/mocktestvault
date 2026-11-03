@@ -28,6 +28,56 @@
 
   <link rel="stylesheet" href="../css/test-engine.css">
 
+  <!-- Schema.org FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are these CBSE Class 10 mock tests aligned with the 2026 rationalized NCERT syllabus?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, 100% of questions across Science (13 chapters), Mathematics (14 chapters), and Social Science (21 chapters) strictly follow the latest rationalized NCERT textbooks and CBSE examination guidelines. Deleted topics are excluded, and 50% of questions emphasize competency-based formats."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is MockTestVault completely free, or is there a paywall after a few tests?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MockTestVault is 100% free with no registration, no paywalls, and no phone number requirements. You can practice all 48 chapter tests, shuffled 20-Q mocks, and full 80-mark board simulators completely free."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the 5-state TCS iON question palette work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our test engine replicates the authentic computer-based testing interface: White (Not Visited), Red (Not Answered), Green (Answered), Purple (Marked for Review), and Purple with Green Dot (Answered & Marked for Review)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I find complete formula sheets for CBSE Class 10 Math?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can access and print our comprehensive Class 10 Mathematics All Formulas & Theorems Revision Sheet, covering all 14 NCERT chapters with theorem statements, coordinate formulas, and trigonometry tables."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I take these mock tests offline on mobile devices?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! MockTestVault is engineered as a modern Progressive Web App (PWA). Once loaded in your browser, all questions, timers, and step-by-step NCERT explanations run locally on your device with 100% offline support."
+        }
+      }
+    ]
+  }
+  </script>
+
   <style>
     .curriculum-hero {
       background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
@@ -935,6 +985,44 @@
           </div>
         </a>
       </div>
+    <!-- Frequently Asked Questions (FAQ) Section -->
+    <section class="faq-section" id="faq-section" aria-label="CBSE Class 10 Frequently Asked Questions">
+      <h2 class="faq-title"><span>❓</span> Frequently Asked Questions (CBSE Class 10)</h2>
+      
+      <div class="faq-item">
+        <div class="faq-question">Are these CBSE Class 10 mock tests aligned with the 2026 rationalized NCERT syllabus?</div>
+        <div class="faq-answer">
+          Yes, 100% of questions across Science (13 chapters), Mathematics (14 chapters), and Social Science (21 chapters) strictly follow the latest rationalized NCERT textbooks and CBSE examination guidelines. Deleted topics are excluded, and 50% of questions emphasize competency-based formats (Assertion-Reasoning, Case-Based, and analytical problems).
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Is MockTestVault completely free, or is there a paywall after a few tests?</div>
+        <div class="faq-answer">
+          MockTestVault is 100% free with no registration, no paywalls, and no phone number requirements. You can practice all 48 chapter tests, shuffled 20-Q mocks, and full 80-mark board simulators completely free and without ads blocking the examination canvas.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How does the 5-state TCS iON question palette work?</div>
+        <div class="faq-answer">
+          Our test engine replicates the authentic computer-based testing interface: White (Not Visited), Red (Not Answered), Green (Answered), Purple (Marked for Review), and Purple with Green Dot (Answered &amp; Marked for Review). This trains students in professional exam timing and navigation.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Where can I find complete formula sheets for CBSE Class 10 Math?</div>
+        <div class="faq-answer">
+          You can access and print our comprehensive <a href="math-formulas.html" style="color:var(--primary); font-weight:700; text-decoration:underline;">Class 10 Mathematics All Formulas &amp; Theorems Revision Sheet</a>, covering all 14 NCERT chapters with theorem statements, coordinate formulas, and trigonometry tables.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Can I take these mock tests offline on mobile devices?</div>
+        <div class="faq-answer">
+          Yes! MockTestVault is engineered as a modern Progressive Web App (PWA). Once loaded in your browser, all questions, timers, and step-by-step NCERT explanations run locally on your device with 100% offline support.
+        </div>
+      </div>
     </section>
 
   </main>
@@ -1003,6 +1091,13 @@
       document.documentElement.setAttribute('data-theme', savedTheme);
       themeBtn.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
     }
+
+    // FAQ Accordion Interactivity
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        q.parentElement.classList.toggle('active');
+      });
+    });
   </script>
 
 </body>
