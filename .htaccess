@@ -20,11 +20,24 @@ DirectoryIndex index.html
 
 # Browser Caching & Performance
 <IfModule mod_headers.c>
-    # Ensure HTML, sitemaps, robots, and data are fresh
+    # Ensure HTML, sitemaps, robots, service worker and data are fresh
     <FilesMatch "\.(html|htm|xml|txt)$">
         Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
         Header set Pragma "no-cache"
         Header set Expires "0"
+    </FilesMatch>
+
+    # Never cache Service Worker (critical for PWA updates)
+    <FilesMatch "^(sw\.js)$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+        Header set Service-Worker-Allowed "/"
+    </FilesMatch>
+
+    # Correct Web Manifest MIME
+    <FilesMatch "\.(webmanifest|json)$">
+        Header set Access-Control-Allow-Origin "*"
     </FilesMatch>
 
     # Security Headers

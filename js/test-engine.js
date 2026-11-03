@@ -107,7 +107,57 @@ class MockTestEngine {
     this.updateSoundIcon();
     this.bindEvents();
     this.syncActiveSetButton();
+    this.setupServiceWorker();
+    this.setupNetworkMonitor();
     await this.loadQuestions();
+  }
+
+  setupServiceWorker() {
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((reg) => {
+            reg.addEventListener('updatefound', () => {
+              const newWorker = reg.installing;
+              if (newWorker) {
+                newWorker.addEventListener('statechange', () => {
+                  if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    console.log('MockTestVault PWA updated in background.');
+                  }
+                });
+              }
+            });
+          })
+          .catch((err) => console.debug('SW registration skipped:', err));
+      });
+    }
+  }
+
+  setupNetworkMonitor() {
+    const updateOnlineStatus = () => {
+      const isOnline = navigator.onLine;
+      let badge = document.getElementById('network-status-badge');
+      if (!isOnline) {
+        if (!badge) {
+          badge = document.createElement('div');
+          badge.id = 'network-status-badge';
+          badge.className = 'network-status-badge offline';
+          badge.innerHTML = '<span>⚡</span> <span>Offline Mode — Cached Exam Active</span>';
+          badge.setAttribute('title', 'Exam questions and calculations run 100% locally in browser memory without internet.');
+          const statusBar = document.querySelector('.status-container') || document.getElementById('exam-status-bar') || document.body;
+          if (statusBar) statusBar.appendChild(badge);
+        }
+        badge.style.display = 'inline-flex';
+      } else if (badge) {
+        badge.className = 'network-status-badge online';
+        badge.innerHTML = '<span>✓</span> <span>Online</span>';
+        setTimeout(() => { if (badge) badge.style.display = 'none'; }, 2500);
+      }
+    };
+
+    window.addEventListener('online', updateOnlineStatus);
+    window.addEventListener('offline', updateOnlineStatus);
+    if (!navigator.onLine) updateOnlineStatus();
   }
 
   syncActiveSetButton() {
