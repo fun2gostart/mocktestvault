@@ -477,3 +477,18 @@ Following user directive ("keep font and colour as it is from https://mocktestva
   - Registered in [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml) and [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.95`.
   - Bumped service worker cache to `mtv-cbt-v26`.
 
+### 15. SEO Growth Initiative — Option B: Static Academic Guides across all 48 CBSE Class 10 Chapter Pages
+* **Objective:** Solve Googlebot's two-wave rendering indexing latency by embedding static, indexable curriculum text into every CBSE Class 10 chapter test page without waiting for client-side JavaScript execution.
+* **Deliverables:**
+  - Automated systematic injection across **48 / 48 chapter pages** via `scripts/generate_class10_guides.py`:
+    - 13 Science Chapters (`cbse-class-10/science/ch01_chemical_reactions.html` – `ch13_our_environment.html`)
+    - 14 Mathematics Chapters (`cbse-class-10/mathematics/ch01_real_numbers.html` – `ch14_probability.html`)
+    - 21 Social Science Chapters (`cbse-class-10/social-science/ch01_rise_of_nationalism_europe.html` – `ch21_globalisation_and_indian_economy.html`)
+  - Injected tailored `<section class="cbt-academic-guide">` blocks (350–500 words each):
+    - **Chapter Header & Overview:** Semantic `<h2>` outlining exact chapter title and CBSE unit domain.
+    - **4-Pillar Concept Cards:** High-yield formulas, NCERT definitions, laws, theorems, and case study anchors.
+    - **CBSE Marking Scheme & Blueprint:** Weightage, question formats (MCQs, Case Studies, Section B/C/E), and common exam pitfalls.
+    - **Curriculum Silo Links:** Direct internal anchor cross-links to master formula/reaction sheets (`math-formulas.html`, `science-formulas-reactions.html`) and adjacent chapter tests.
+  - Bumped service worker cache to `mtv-cbt-v27`.
+
+
