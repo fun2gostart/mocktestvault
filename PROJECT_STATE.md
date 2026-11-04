@@ -7,9 +7,9 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 135 Production Routes | 5,250+ Ground-Truth Verified Questions across 3 Focus Pillars | 2 High-Volume Evergreen Study Guides | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators | 3 CBSE Class 12 Science Board Simulators | 2 NTA JEE Main & NEET UG Speed Drills | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
+> **Current Scale:** 136 Production Routes | 5,450+ Ground-Truth Verified Questions across 3 Focus Pillars | 3 High-Volume Evergreen Study Guides (Math Formulas, Science Reactions & Colors, SSC CGL Syllabus Strategy) | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators | 3 CBSE Class 12 Science Board Simulators | 2 NTA JEE Main & NEET UG Speed Drills | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
 > **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs) | Official AWS CLF-C02 Domain Weightages & 700/1000 Scaled Scoring (130 Qs) | Official IB DP Biology & Math AA Markschemes with Grade 1–7 Calibrations (140 Qs) | CBSE Class 12 PCB Theory Blueprints with NCERT Derivations & Grade Predictions (210 Qs) | NTA Standard +4 / -1 Marking & 99th Percentile Trajectories (140 Qs)  
-> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 135 pages (Nov 4, 2026)  
+> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 136 pages (Nov 4, 2026)  
 
 ---
 
@@ -461,4 +461,19 @@ Following user directive ("keep font and colour as it is from https://mocktestva
   - Upgraded Card 6 on `in/index.html` from `⏳ Roadmap Q1` to `🟢 Live Speed Drills` with dual launcher buttons.
   - Updated `sitemap.xml` (+2 routes -> 135 total routes), `llms.txt`, `llms-full.txt`, and `sw.js` cache to `mtv-cbt-v25`.
   - All 5 roadmap placeholder sets across regional hubs are now 100% active and live in production!
+
+### 14. SEO Growth Initiative — Option A: CBSE Class 10 Science Reactions, Colors & Formulas Sheet
+* **Objective:** Capture high-volume organic search traffic (~40,000+ monthly searches) for Class 10 Science chemical equations, color transitions, precipitate observations, and physics formulas.
+* **Deliverables:**
+  - Created [`cbse-class-10/science-formulas-reactions.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/science-formulas-reactions.html) with complete coverage across:
+    - Master Reaction Color Changes & Precipitates table (Magnesium ribbon, Ferrous sulfate, Lead nitrate, Silver chloride, Iron in copper sulfate, BaSO₄ white precipitate, PbI₂ yellow precipitate, Redox of copper oxide).
+    - Chapter 1: Combination, Thermal/Photolytic/Electrolytic Decomposition, Displacement, Double Displacement, Redox, Corrosion & Rancidity.
+    - Chapter 2: Acids, Bases, Pop-sound test, Lime-water milkiness test, and Chlor-Alkali industrial salts (Caustic Soda, Bleaching Powder, Baking Soda, Washing Soda, Plaster of Paris).
+    - Chapter 3: Reactivity Series mnemonic, Roasting, Calcination, Carbon reduction, and Thermit reaction.
+    - Chapter 4: Hydrocarbon combustion, controlled oxidation, hydrogenation, substitution, esterification, and saponification.
+    - Chapters 9 & 10: Spherical Mirrors, Lenses, Snell's Law, Absolute Refraction, and Power of Lens (Dioptres).
+    - Chapters 11 & 12: Electric current, Ohm's Law, Resistivity, Series/Parallel equivalent resistance, Joule's heating, Electric Power, and Right-Hand Thumb / Fleming's Left-Hand rules.
+  - Cross-linked from [`cbse-class-10/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/index.html) subject pill tabs and above the 13-chapter Science grid.
+  - Registered in [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml) and [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.95`.
+  - Bumped service worker cache to `mtv-cbt-v26`.
 
