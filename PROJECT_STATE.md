@@ -503,5 +503,14 @@ Following user directive ("keep font and colour as it is from https://mocktestva
   - Audited with `seo-toolkit/scripts/validate_schema.py`: **55 files inspected, 158 schema entities, 0 deprecated types, 0 errors**.
   - Bumped service worker cache to `mtv-cbt-v28`.
 
+### 17. Analytics Integration — Google Tag (gtag.js: G-05SFM1Q4MV) Site-Wide Rollout
+* **Objective:** Enable global analytics tracking across all production routes on `mocktestvault.com` using the official Google tag snippet while preserving Core Web Vitals and offline PWA reliability.
+* **Deliverables:**
+  - Injected official Google tag (`gtag.js`, ID: `G-05SFM1Q4MV`) across **136 production HTML files** directly within the `<head>` tag.
+  - Retained `async` loading attribute to prevent parser-blocking, ensuring zero regression to LCP, FCP, or CLS.
+  - Updated [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js) to explicitly bypass caching and interception for `googletagmanager.com` and `google-analytics.com` requests, ensuring seamless native telemetry transmission without cache storage bloat.
+  - Bumped service worker cache to `mtv-cbt-v29`.
+
+
 
 
