@@ -7,9 +7,9 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 130 Production Routes | 4,900+ Ground-Truth Verified Questions across 3 Focus Pillars | 2 High-Volume Evergreen Study Guides | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators (Biology & Math AA) | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
-> **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs) | Official AWS CLF-C02 Domain Weightages & 700/1000 Scaled Scoring (130 Qs) | Official IB DP Biology & Math AA Markschemes with Grade 1–7 Calibrations (140 Qs)  
-> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 130 pages (Nov 4, 2026)  
+> **Current Scale:** 133 Production Routes | 5,110+ Ground-Truth Verified Questions across 3 Focus Pillars | 2 High-Volume Evergreen Study Guides | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators | 3 CBSE Class 12 Science Board Simulators | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
+> **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs) | Official AWS CLF-C02 Domain Weightages & 700/1000 Scaled Scoring (130 Qs) | Official IB DP Biology & Math AA Markschemes with Grade 1–7 Calibrations (140 Qs) | CBSE Class 12 PCB Theory Blueprints with NCERT Derivations & Grade Predictions (210 Qs)  
+> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 133 pages (Nov 4, 2026)  
 
 ---
 
@@ -85,6 +85,11 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
   * Class 10 Science Full 80-Mark Paper 01 (80 Qs, 180 Mins: Chem, Bio, Phy, Env: `cbse-class-10/sample-papers/science-board-mock-01.html`)
   * Class 10 Mathematics Standard & Basic Full 80-Mark Paper 01 (80 Qs, 180 Mins: Algebra, Geometry, Trig, Stats: `cbse-class-10/sample-papers/mathematics-board-mock-01.html`)
   * Class 10 Social Science Full 80-Mark Paper 01 (80 Qs, 180 Mins: History, Geography, Civics, Economics: `cbse-class-10/sample-papers/social-science-board-mock-01.html`)
+
+* **CBSE Class 12 Senior Secondary Science Vault (210 Questions across 3 Production Routes):**
+  * Physics Board Diagnostic 01 (35 Qs, 60 Mins: Electrostatics, Current, Magnetism, Optics, Modern Physics: `cbse-class-12/physics-diagnostic-01.html`)
+  * Chemistry Board Diagnostic 01 (35 Qs, 60 Mins: Solutions, Electrochemistry, Kinetics, Coordination, Organics: `cbse-class-12/chemistry-diagnostic-01.html`)
+  * Biology Board Diagnostic 01 (35 Qs, 60 Mins: Reproduction, Genetics, Health, Biotechnology, Ecology: `cbse-class-12/biology-diagnostic-01.html`)
 
 ### B. Competitive & Standardized Simulators (1,240 Questions Live)
 * **Staff Selection Commission (SSC CGL Tier 1 — 500 Questions across 15 Production Routes):**

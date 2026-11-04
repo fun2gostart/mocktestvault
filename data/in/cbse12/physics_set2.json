@@ -1,0 +1,564 @@
+{
+  "questions": [
+    {
+      "id": "c12-phy-s2-001",
+      "type": "mcq",
+      "subtopic": "Chapter 1: Electric Charges and Fields (Electric Dipole)",
+      "difficulty": "Medium",
+      "question": "What is the ratio of electric field intensity at an axial point to that at an equatorial point of a short electric dipole at the same distance r (where r >> 2a)?",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "4 : 1",
+        "1 : 1"
+      ],
+      "answer": 0,
+      "explanation": "For a short electric dipole: E_axial = 2p / (4πε0 * r³) and E_equatorial = p / (4πε0 * r³). Therefore, E_axial / E_equatorial = 2 : 1.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 1: Electric Charges and Fields, Page 28"
+    },
+    {
+      "id": "c12-phy-s2-002",
+      "type": "mcq",
+      "subtopic": "Chapter 2: Electrostatic Potential & Capacitance (Energy Density)",
+      "difficulty": "Medium",
+      "question": "What is the electrostatic energy density (energy per unit volume) stored in an electric field E in vacuum?",
+      "options": [
+        "(1/2) * ε0 * E²",
+        "ε0 * E²",
+        "(1/2) * ε0² * E",
+        "E² / (2 * ε0)"
+      ],
+      "answer": 0,
+      "explanation": "Energy density stored in an electrostatic field is u = (1/2) * ε0 * E². In a dielectric medium of relative permittivity K, u = (1/2) * K * ε0 * E².",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 2: Electrostatic Potential and Capacitance, Page 82"
+    },
+    {
+      "id": "c12-phy-s2-003",
+      "type": "mcq",
+      "subtopic": "Chapter 3: Current Electricity (Internal Resistance)",
+      "difficulty": "Medium",
+      "question": "A cell of EMF E and internal resistance r is connected across an external variable load resistance R. For what value of R is maximum power transferred to the load?",
+      "options": [
+        "R = r",
+        "R = 2r",
+        "R = r / 2",
+        "R = 0"
+      ],
+      "answer": 0,
+      "explanation": "By the Maximum Power Transfer Theorem, power delivered to the external load P = I²R = [E / (R + r)]² * R is maximized when dP/dR = 0, which yields R = r.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 3: Current Electricity, Page 112"
+    },
+    {
+      "id": "c12-phy-s2-004",
+      "type": "mcq",
+      "subtopic": "Chapter 4: Moving Charges and Magnetism (Ampere's Circuital Law)",
+      "difficulty": "Easy",
+      "question": "What is the magnetic field B inside an ideal long solenoid having n turns per unit length carrying current I?",
+      "options": [
+        "μ0 * n * I",
+        "(1/2) * μ0 * n * I",
+        "2 * μ0 * n * I",
+        "μ0 * I / (2πR)"
+      ],
+      "answer": 0,
+      "explanation": "Applying Ampere's circuital law to a rectangular loop enclosing N = n * L turns yields B * L = μ0 * (n * L * I) ⇒ B = μ0 * n * I.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 4: Moving Charges and Magnetism, Page 151"
+    },
+    {
+      "id": "c12-phy-s2-005",
+      "type": "mcq",
+      "subtopic": "Chapter 4: Moving Charges and Magnetism (Cyclotron Frequency)",
+      "difficulty": "Hard",
+      "question": "Why is the cyclotron frequency fc = qB / (2πm) of a charged particle circulating in a uniform magnetic field independent of its orbital radius and speed?",
+      "options": [
+        "Because when speed v increases, the orbital radius r increases by the exact same proportion (r ∝ v)",
+        "Because magnetic force depends on acceleration rather than velocity",
+        "Because the particle gains relativistic mass that cancels orbital flux",
+        "Because the electric field inside dees neutralizes centrifugal momentum"
+      ],
+      "answer": 0,
+      "explanation": "Since q * v * B = m * v² / r, we have r = m * v / (q * B). The period is T = 2πr / v = 2π(mv / qB) / v = 2πm / (qB). Speed cancels completely, making frequency fc = 1/T = qB / (2πm) independent of radius and speed.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 4: Moving Charges and Magnetism, Page 141"
+    },
+    {
+      "id": "c12-phy-s2-006",
+      "type": "mcq",
+      "subtopic": "Chapter 5: Magnetism and Matter (Earth's Magnetism)",
+      "difficulty": "Easy",
+      "question": "What is the value of the angle of dip (magnetic inclination) at the Earth's magnetic equator and magnetic poles respectively?",
+      "options": [
+        "0° at the magnetic equator and 90° at the magnetic poles",
+        "90° at the magnetic equator and 0° at the magnetic poles",
+        "45° at both the equator and poles",
+        "180° at the equator and 0° at the poles"
+      ],
+      "answer": 0,
+      "explanation": "At the magnetic equator, the magnetic field is purely horizontal, so dip angle δ = 0°. At the magnetic poles, the field lines enter or leave vertically, so dip angle δ = 90°.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 5: Magnetism and Matter, Page 187"
+    },
+    {
+      "id": "c12-phy-s2-007",
+      "type": "mcq",
+      "subtopic": "Chapter 6: Electromagnetic Induction (Self-Inductance)",
+      "difficulty": "Medium",
+      "question": "What happens to the self-inductance L of a long solenoid if the number of turns per unit length n is doubled while keeping volume constant?",
+      "options": [
+        "Self-inductance increases by 4 times",
+        "Self-inductance is doubled",
+        "Self-inductance is halved",
+        "Self-inductance remains unchanged"
+      ],
+      "answer": 0,
+      "explanation": "Self-inductance of a solenoid is L = μ0 * n² * A * l. Since L ∝ n², doubling the turns per unit length (n' = 2n) quadruples the inductance (L' = 4L).",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 6: Electromagnetic Induction, Page 223"
+    },
+    {
+      "id": "c12-phy-s2-008",
+      "type": "mcq",
+      "subtopic": "Chapter 7: Alternating Current (RMS Value)",
+      "difficulty": "Easy",
+      "question": "An AC voltage source is rated as 220 V, 50 Hz. What is the peak voltage (amplitude) V0 of this supply?",
+      "options": [
+        "~311 V",
+        "220 V",
+        "110 V",
+        "440 V"
+      ],
+      "answer": 0,
+      "explanation": "Domestic AC ratings denote RMS voltage. V_rms = V0 / √2 ⇒ V0 = V_rms * √2 = 220 * 1.414 ≈ 311.1 V.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 7: Alternating Current, Page 236"
+    },
+    {
+      "id": "c12-phy-s2-009",
+      "type": "mcq",
+      "subtopic": "Chapter 9: Ray Optics (Refraction at Spherical Surface)",
+      "difficulty": "Hard",
+      "question": "For refraction at a single spherical interface separating medium 1 (refractive index n1) and medium 2 (n2), what is the correct relation connecting object distance u, image distance v, and radius of curvature R?",
+      "options": [
+        "(n2 / v) - (n1 / u) = (n2 - n1) / R",
+        "(n1 / v) - (n2 / u) = (n2 - n1) / R",
+        "(n2 / v) + (n1 / u) = (n2 + n1) / R",
+        "(1 / v) - (1 / u) = (n2 - n1) / R"
+      ],
+      "answer": 0,
+      "explanation": "The standard Gaussian equation for refraction at a spherical surface is (n2 / v) - (n1 / u) = (n2 - n1) / R.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 9: Ray Optics and Optical Instruments, Page 324"
+    },
+    {
+      "id": "c12-phy-s2-010",
+      "type": "mcq",
+      "subtopic": "Chapter 10: Wave Optics (Huygens' Principle)",
+      "difficulty": "Easy",
+      "question": "According to Huygens' principle, every point on a primary wavefront acts as what?",
+      "options": [
+        "A source of secondary spherical wavelets spreading in all forward directions with the speed of the wave",
+        "A permanent point sink absorbing electromagnetic flux",
+        "A reflector producing stationary destructive nodes",
+        "A particle ejecting photons at twice the speed of light"
+      ],
+      "answer": 0,
+      "explanation": "Huygens' principle states that each point on a wavefront acts as a source of secondary disturbance (wavelets), and the common forward tangent envelope to these wavelets gives the new wavefront at a later time.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 10: Wave Optics, Page 353"
+    },
+    {
+      "id": "c12-phy-s2-011",
+      "type": "mcq",
+      "subtopic": "Chapter 5: Magnetism and Matter (Magnetic Materials)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] Which magnetic property distinguishes a diamagnetic substance from paramagnetic and ferromagnetic substances?",
+      "options": [
+        "Its magnetic susceptibility χ is negative and independent of temperature",
+        "Its relative permeability μr is much greater than 1",
+        "It is strongly attracted towards regions of stronger magnetic fields",
+        "Its magnetic moments align parallel to the external magnetic field"
+      ],
+      "answer": 0,
+      "explanation": "Diamagnetic substances have negative magnetic susceptibility (-1 ≤ χ < 0) and relative permeability slightly less than 1 (0 ≤ μr < 1). Diamagnetism arises from induced orbital electron moments opposing the applied field and is independent of temperature (Curie's law does not apply).",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 5: Magnetism and Matter, Page 192"
+    },
+    {
+      "id": "c12-phy-s2-012",
+      "type": "mcq",
+      "subtopic": "Chapter 6: Electromagnetic Induction (Faraday & Lenz's Law)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Variation] Lenz's law of electromagnetic induction is a direct manifestation of which universal fundamental conservation law?",
+      "options": [
+        "Law of conservation of energy",
+        "Law of conservation of electric charge",
+        "Law of conservation of linear momentum",
+        "Law of conservation of angular momentum"
+      ],
+      "answer": 0,
+      "explanation": "Lenz's law states that the direction of induced current opposes the change in magnetic flux producing it. Mechanical work done against this opposing magnetic force is converted into electrical energy, satisfying the law of conservation of energy.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 6: Electromagnetic Induction, Page 210"
+    },
+    {
+      "id": "c12-phy-s2-013",
+      "type": "mcq",
+      "subtopic": "Chapter 6: Electromagnetic Induction (Motional EMF)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] A metallic rod of length l is rotated with constant angular velocity ω about an axis passing through one end and perpendicular to a uniform magnetic field B. What is the induced EMF between the ends of the rod?",
+      "options": [
+        "(1/2) * B * ω * l²",
+        "B * ω * l²",
+        "2 * B * ω * l²",
+        "(1/4) * B * ω * l²"
+      ],
+      "answer": 0,
+      "explanation": "Consider an element dr at distance r from the pivot. Its linear velocity is v = ωr. Motional EMF across dr is dε = B * v * dr = B * ω * r * dr. Integrating from r = 0 to r = l: ε = ∫[0 to l] B * ω * r dr = (1/2) * B * ω * l².",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 6: Electromagnetic Induction, Page 216"
+    },
+    {
+      "id": "c12-phy-s2-014",
+      "type": "mcq",
+      "subtopic": "Chapter 7: Alternating Current (LCR Resonance)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] In a series LCR alternating current circuit at electrical resonance, which statement regarding impedance and phase angle is correct?",
+      "options": [
+        "Impedance is minimum (Z = R) and the current is in phase with the applied voltage (phase angle φ = 0)",
+        "Impedance is maximum (Z = ωL + 1/ωC) and current lags voltage by 90°",
+        "Impedance is zero (Z = 0) and circuit power factor is zero",
+        "Impedance equals inductive reactance (Z = XL) and power dissipation is zero"
+      ],
+      "answer": 0,
+      "explanation": "At resonance, XL = XC (ωL = 1/ωC). Impedance Z = √[R² + (XL - XC)²] = R (purely resistive and minimum). The phase angle φ = arctan[(XL - XC)/R] = 0, so current and voltage are in phase, producing maximum current amplitude.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 7: Alternating Current, Page 248"
+    },
+    {
+      "id": "c12-phy-s2-015",
+      "type": "mcq",
+      "subtopic": "Chapter 7: Alternating Current (Power Factor)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Variation] What is the average power dissipated over a complete cycle in a purely inductive or purely capacitive AC circuit?",
+      "options": [
+        "Zero (Wattless current)",
+        "Vrms * Irms",
+        "(1/2) * V0 * I0",
+        "Irms² * ωL"
+      ],
+      "answer": 0,
+      "explanation": "Average power in an AC circuit is P_avg = Vrms * Irms * cos φ. For a purely inductive or capacitive circuit, the phase difference between voltage and current is φ = π/2 (90°). Since cos(π/2) = 0, average power dissipation is strictly zero, and the current is wattless.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 7: Alternating Current, Page 252"
+    },
+    {
+      "id": "c12-phy-s2-016",
+      "type": "mcq",
+      "subtopic": "Chapter 8: Electromagnetic Waves (Displacement Current)",
+      "difficulty": "Hard",
+      "question": "[Set 2 Variation] During the charging of a parallel plate capacitor, which current maintains continuity of electric current across the dielectric gap between the capacitor plates?",
+      "options": [
+        "Displacement current Id = ε0 * (dΦE / dt)",
+        "Ohmic conduction current Ic = V / R",
+        "Secondary eddy current Ie = dΦB / dt",
+        "Surface convection current Is = σ * A"
+      ],
+      "answer": 0,
+      "explanation": "Maxwell showed that a time-varying electric field between capacitor plates produces a displacement current Id = ε0 * (dΦE/dt). Ampere-Maxwell law establishes that the total current across any closed path is Ic + Id, ensuring continuous current across the gap.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 8: Electromagnetic Waves, Page 270"
+    },
+    {
+      "id": "c12-phy-s2-017",
+      "type": "mcq",
+      "subtopic": "Chapter 8: Electromagnetic Waves (EM Spectrum)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Variation] Which electromagnetic waves are utilized in cellular telephone communication networks and RADAR systems?",
+      "options": [
+        "Microwaves and short radio waves",
+        "Gamma rays",
+        "Ultraviolet rays",
+        "Soft X-rays"
+      ],
+      "answer": 0,
+      "explanation": "Microwaves (wavelengths ~1 mm to 0.1 m) and high-frequency radio waves are employed in cellular communications, aircraft navigation, and RADAR because their short wavelengths allow directional beam transmission without significant diffraction.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 8: Electromagnetic Waves, Page 282"
+    },
+    {
+      "id": "c12-phy-s2-018",
+      "type": "mcq",
+      "subtopic": "Chapter 9: Ray Optics (Total Internal Reflection)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] A ray of light traveling in an optical medium of refractive index n = √2 strikes the glass-air interface. What is the critical angle ic for total internal reflection?",
+      "options": [
+        "45°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "answer": 0,
+      "explanation": "The critical angle is defined by sin(ic) = 1 / n = 1 / √2. Since sin(45°) = 1 / √2, the critical angle is ic = 45°. Total internal reflection occurs for any angle of incidence greater than 45°.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 9: Ray Optics and Optical Instruments, Page 320"
+    },
+    {
+      "id": "c12-phy-s2-019",
+      "type": "mcq",
+      "subtopic": "Chapter 9: Ray Optics (Lens Maker's Formula)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] An equiconvex glass lens (refractive index n = 1.5) has radii of curvature R1 = R2 = 20 cm. What is its focal length f in air?",
+      "options": [
+        "+20 cm",
+        "+10 cm",
+        "+40 cm",
+        "-20 cm"
+      ],
+      "answer": 0,
+      "explanation": "By Lens Maker's formula: 1/f = (n - 1) * [1/R1 - 1/R2]. For an equiconvex lens: R1 = +20 cm, R2 = -20 cm. 1/f = (1.5 - 1) * [1/20 - (-1/20)] = 0.5 * [2/20] = 0.5 * (1/10) = 1/20 cm⁻¹. Therefore, f = +20 cm.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 9: Ray Optics and Optical Instruments, Page 326"
+    },
+    {
+      "id": "c12-phy-s2-020",
+      "type": "mcq",
+      "subtopic": "Chapter 9: Ray Optics (Astronomical Telescope)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] An astronomical telescope in normal adjustment has an objective lens of focal length fo = 100 cm and an eyepiece of focal length fe = 5 cm. What are the magnifying power m and tube length L of the telescope?",
+      "options": [
+        "m = 20, L = 105 cm",
+        "m = 500, L = 95 cm",
+        "m = 20, L = 95 cm",
+        "m = 100, L = 105 cm"
+      ],
+      "answer": 0,
+      "explanation": "For an astronomical telescope in normal adjustment (image at infinity): Magnifying power m = fo / fe = 100 / 5 = 20. Tube length L = fo + fe = 100 + 5 = 105 cm.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 9: Ray Optics and Optical Instruments, Page 340"
+    },
+    {
+      "id": "c12-phy-s2-021",
+      "type": "mcq",
+      "subtopic": "Chapter 10: Wave Optics (Young's Double Slit Experiment)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] In Young's double-slit experiment, how does fringe width β change if the entire apparatus is submerged in water (refractive index μ = 4/3)?",
+      "options": [
+        "Fringe width decreases to 3/4 of its initial value",
+        "Fringe width increases to 4/3 of its initial value",
+        "Fringe width remains unchanged",
+        "Fringe width doubles"
+      ],
+      "answer": 0,
+      "explanation": "Fringe width is β = λ * D / d. When immersed in water of refractive index μ, the wavelength decreases to λ' = λ / μ = λ / (4/3) = (3/4)λ. Since D and d remain constant, the new fringe width is β' = (3/4)β.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 10: Wave Optics, Page 364"
+    },
+    {
+      "id": "c12-phy-s2-022",
+      "type": "mcq",
+      "subtopic": "Chapter 10: Wave Optics (Single Slit Diffraction)",
+      "difficulty": "Hard",
+      "question": "[Set 2 Variation] In single slit diffraction, what is the angular spread of the central diffraction maximum formed by a slit of width a illuminated with monochromatic light of wavelength λ?",
+      "options": [
+        "2λ / a",
+        "λ / a",
+        "λ / (2a)",
+        "4λ / a"
+      ],
+      "answer": 0,
+      "explanation": "The first minima on either side of the central maximum occur at angle θ = ± λ/a. The angular width (spread) of the central maximum is the angular distance between the two first minima: 2θ = 2λ / a.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 10: Wave Optics, Page 372"
+    },
+    {
+      "id": "c12-phy-s2-023",
+      "type": "mcq",
+      "subtopic": "Chapter 11: Dual Nature of Radiation (Photoelectric Effect)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Variation] Which parameter of incident light determines the maximum kinetic energy of photoelectrons emitted from a metallic photosurface?",
+      "options": [
+        "Frequency of incident radiation",
+        "Intensity of incident radiation",
+        "Surface area of the metal plate",
+        "Duration of exposure"
+      ],
+      "answer": 0,
+      "explanation": "According to Einstein's photoelectric equation, K_max = hν - φ0. Maximum kinetic energy depends linearly on the frequency ν of incident radiation and metal work function φ0, and is strictly independent of incident intensity.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 11: Dual Nature of Radiation and Matter, Page 391"
+    },
+    {
+      "id": "c12-phy-s2-024",
+      "type": "mcq",
+      "subtopic": "Chapter 11: Dual Nature of Radiation (de Broglie Wavelength)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] An electron of mass m is accelerated from rest through a potential difference V volts. What is its de Broglie wavelength λ?",
+      "options": [
+        "λ = 1.227 / √V nm",
+        "λ = 0.1227 / V nm",
+        "λ = 12.27 / √V nm",
+        "λ = 1.227 * √V nm"
+      ],
+      "answer": 0,
+      "explanation": "The de Broglie wavelength is λ = h / √(2m * e * V). Substituting Planck's constant h, electron mass m, and electron charge e gives the standard numerical relation λ = 1.227 / √V nm (or 12.27 / √V Å).",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 11: Dual Nature of Radiation and Matter, Page 403"
+    },
+    {
+      "id": "c12-phy-s2-025",
+      "type": "mcq",
+      "subtopic": "Chapter 12: Atoms (Bohr Model Postulates)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] According to Bohr's quantization postulate, what is the orbital angular momentum of an electron in the second stationary orbit (n = 2) of a hydrogen atom?",
+      "options": [
+        "h / π",
+        "h / (2π)",
+        "2h / π",
+        "h / (4π)"
+      ],
+      "answer": 0,
+      "explanation": "Bohr's quantization postulate states L = m * v * r = n * h / (2π). For the second orbit (n = 2): L = 2 * h / (2π) = h / π.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 12: Atoms, Page 422"
+    },
+    {
+      "id": "c12-phy-s2-026",
+      "type": "mcq",
+      "subtopic": "Chapter 12: Atoms (Hydrogen Spectral Series)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Variation] Which hydrogen spectral emission series lies in the visible region of the electromagnetic spectrum?",
+      "options": [
+        "Balmer series",
+        "Lyman series",
+        "Paschen series",
+        "Brackett series"
+      ],
+      "answer": 0,
+      "explanation": "The Balmer series transitions terminate on n = 2 (from n = 3, 4, 5...) and fall entirely within the visible wavelength range (400 to 700 nm). Lyman series is in the UV region, and Paschen/Brackett/Pfund lie in the infrared.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 12: Atoms, Page 424"
+    },
+    {
+      "id": "c12-phy-s2-027",
+      "type": "mcq",
+      "subtopic": "Chapter 13: Nuclei (Nuclear Density)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] The nuclear radius of an atom of mass number A is given by R = R0 * A^(1/3). How does nuclear matter density vary with mass number A across different elements?",
+      "options": [
+        "Nuclear density is constant (~2.3 × 10^17 kg/m³) and independent of mass number A",
+        "Nuclear density is directly proportional to A",
+        "Nuclear density is inversely proportional to A^(1/3)",
+        "Nuclear density increases quadratically as A²"
+      ],
+      "answer": 0,
+      "explanation": "Nuclear mass is M ≈ A * m_nucleon. Nuclear volume is V = (4/3)πR³ = (4/3)π(R0 * A^(1/3))³ = (4/3)πR0³ * A. Density ρ = M / V = [A * m_nucleon] / [(4/3)πR0³ * A] = m_nucleon / [(4/3)πR0³]. Notice mass number A cancels out completely, proving nuclear density is invariant across all elements.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 13: Nuclei, Page 442"
+    },
+    {
+      "id": "c12-phy-s2-028",
+      "type": "mcq",
+      "subtopic": "Chapter 13: Nuclei (Mass Defect & Binding Energy)",
+      "difficulty": "Hard",
+      "question": "[Set 2 Variation] The binding energy per nucleon curve peaks at approximately 8.75 MeV/nucleon for which element, representing the most stable nuclear configuration in nature?",
+      "options": [
+        "Iron (56Fe)",
+        "Helium (4He)",
+        "Carbon (12C)",
+        "Uranium (238U)"
+      ],
+      "answer": 0,
+      "explanation": "The binding energy per nucleon curve rises sharply from light nuclei, reaches a broad plateau around 8.5 MeV/nucleon, and reaches its absolute peak of 8.75 MeV/nucleon at iron-56 (56Fe), making 56Fe the most thermodynamically stable nucleus.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 13: Nuclei, Page 444"
+    },
+    {
+      "id": "c12-phy-s2-029",
+      "type": "mcq",
+      "subtopic": "Chapter 14: Semiconductor Electronics (Energy Bands)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Variation] What is the typical energy band gap (Eg) between the valence band and conduction band in silicon at room temperature?",
+      "options": [
+        "1.1 eV",
+        "0.7 eV",
+        "6.0 eV",
+        "0.0 eV"
+      ],
+      "answer": 0,
+      "explanation": "Silicon is an elemental semiconductor with an indirect energy band gap of Eg ≈ 1.1 eV at room temperature (300 K). Germanium has Eg ≈ 0.7 eV, whereas diamond has Eg > 5.4 eV (insulator).",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 14: Semiconductor Electronics, Page 471"
+    },
+    {
+      "id": "c12-phy-s2-030",
+      "type": "mcq",
+      "subtopic": "Chapter 14: Semiconductor Electronics (p-n Junction Diode)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] When a p-n junction diode is forward biased, what happens to the depletion region width and the barrier potential?",
+      "options": [
+        "Both depletion region width and barrier potential decrease",
+        "Both depletion region width and barrier potential increase",
+        "Depletion layer widens while barrier potential drops to zero",
+        "Depletion width remains constant while minority carriers stop diffusing"
+      ],
+      "answer": 0,
+      "explanation": "In forward bias (p-side connected to positive, n-side to negative terminal), the external voltage opposes the built-in barrier field. This reduces the barrier height (V0 - V) and narrows the depletion layer, allowing majority carriers to diffuse freely across the junction.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 14: Semiconductor Electronics, Page 479"
+    },
+    {
+      "id": "c12-phy-s2-031",
+      "type": "mcq",
+      "subtopic": "Chapter 14: Semiconductor Electronics (Full-Wave Rectifier)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] If the AC mains input frequency to a center-tapped full-wave rectifier is 50 Hz, what is the fundamental ripple frequency of the output rectified voltage?",
+      "options": [
+        "100 Hz",
+        "50 Hz",
+        "25 Hz",
+        "200 Hz"
+      ],
+      "answer": 0,
+      "explanation": "A full-wave rectifier conducts during both half-cycles of the AC input. Therefore, two output pulses appear for every one full input cycle, doubling the fundamental ripple frequency: f_out = 2 * f_in = 2 * 50 = 100 Hz.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 14: Semiconductor Electronics, Page 483"
+    },
+    {
+      "id": "c12-phy-s2-032",
+      "type": "mcq",
+      "subtopic": "Chapter 1: Electric Charges and Fields (Assertion-Reasoning)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] Assertion (A): Electrostatic field lines never form closed continuous loops.\nReason (R): Electrostatic field is conservative in nature and work done along a closed path in an electrostatic field is zero.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "Electrostatic field lines originate on positive charges and terminate on negative charges; they do not form closed loops. If field lines formed closed loops, line integral ∮ E · dl would be non-zero, violating the conservative nature of electrostatic fields (∮ E · dl = 0). Thus both statements are true and R explains A.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 1: Electric Charges and Fields, Page 25"
+    },
+    {
+      "id": "c12-phy-s2-033",
+      "type": "mcq",
+      "subtopic": "Chapter 4: Moving Charges and Magnetism (Assertion-Reasoning)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] Assertion (A): An electron moving parallel to a uniform magnetic field experiences zero magnetic force and continues in a straight line at constant velocity.\nReason (R): The magnetic Lorentz force on a moving charge is proportional to sin(θ), where θ is the angle between velocity and magnetic field vectors.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "Magnetic Lorentz force magnitude is F = q * v * B * sin(θ). When velocity is parallel to magnetic field, θ = 0° ⇒ sin(0°) = 0, so F = 0. With zero net force, the electron moves with constant velocity along a straight line.",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 4: Moving Charges and Magnetism, Page 134"
+    },
+    {
+      "id": "c12-phy-s2-034",
+      "type": "mcq",
+      "subtopic": "Chapter 7: Alternating Current (Transformer Core)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Variation] Why is the soft iron core of a power transformer laminated into thin insulated sheets?",
+      "options": [
+        "To minimize power loss due to circulating eddy currents",
+        "To eliminate hysteresis loss completely",
+        "To increase primary winding inductance to infinity",
+        "To prevent copper ohmic resistance heating"
+      ],
+      "answer": 0,
+      "explanation": "Laminating the core breaks large circulating paths into narrow loops separated by insulating varnish. This drastically increases electrical resistance along the eddy path, reducing eddy current power loss (P_eddy ∝ thickness²).",
+      "citation": "NCERT Class 12 Physics, Part 1 — Chapter 7: Alternating Current, Page 260"
+    },
+    {
+      "id": "c12-phy-s2-035",
+      "type": "mcq",
+      "subtopic": "Chapter 10: Wave Optics (Assertion-Reasoning)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Variation] Assertion (A): Light waves can be polarized, whereas sound waves in air cannot be polarized.\nReason (R): Polarization is an exclusive characteristic of transverse waves, and light is an electromagnetic transverse wave while sound in air is longitudinal.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "Polarization restricts the vibration of a wave to a single plane perpendicular to the direction of propagation. This is only possible for transverse waves (like light). Sound waves in air are longitudinal (oscillations occur parallel to propagation) and cannot be polarized.",
+      "citation": "NCERT Class 12 Physics, Part 2 — Chapter 10: Wave Optics, Page 376"
+    }
+  ]
+}

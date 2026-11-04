@@ -1,0 +1,564 @@
+{
+  "questions": [
+    {
+      "id": "c12-chm-s2-001",
+      "type": "mcq",
+      "subtopic": "Chapter 1: Solutions (Colligative Properties)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which 0.1 M aqueous solution will exhibit the highest boiling point elevation ΔTb?",
+      "options": [
+        "0.1 M Al2(SO4)3 solution",
+        "0.1 M BaCl2 solution",
+        "0.1 M NaCl solution",
+        "0.1 M Glucose (C6H12O6) solution"
+      ],
+      "answer": 0,
+      "explanation": "Boiling point elevation is a colligative property given by ΔTb = i * Kb * m. For non-electrolyte glucose, i = 1. For NaCl, i = 2. For BaCl2, i = 3. For Al2(SO4)3, it dissociates into 2 Al³⁺ + 3 SO4²⁻, giving i = 5. Since Al2(SO4)3 has the largest van 't Hoff factor i, it exhibits the highest boiling point.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 1: Solutions, Page 22"
+    },
+    {
+      "id": "c12-chm-s2-002",
+      "type": "mcq",
+      "subtopic": "Chapter 1: Solutions (Raoult's Law Deviations)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] A liquid mixture of chloroform (CHCl3) and acetone (CH3COCH3) exhibits what type of deviation from Raoult's law?",
+      "options": [
+        "Negative deviation with minimum vapour pressure and maximum-boiling azeotrope",
+        "Positive deviation with maximum vapour pressure and minimum-boiling azeotrope",
+        "Ideal solution behavior with zero enthalpy of mixing (ΔHmix = 0)",
+        "Immiscible two-phase heterogeneous mixture"
+      ],
+      "answer": 0,
+      "explanation": "Chloroform and acetone form strong intermolecular hydrogen bonding between the C-H of chloroform and the carbonyl oxygen of acetone (A-B interactions stronger than A-A and B-B). This decreases the escaping tendency, leading to negative deviation from Raoult's law (ΔHmix < 0, ΔVmix < 0) and forming a maximum-boiling azeotrope.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 1: Solutions, Page 13"
+    },
+    {
+      "id": "c12-chm-s2-003",
+      "type": "mcq",
+      "subtopic": "Chapter 2: Electrochemistry (Kohlrausch's Law)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] According to Kohlrausch's law of independent migration of ions, how is the limiting molar conductivity of acetic acid (CH3COOH) calculated?",
+      "options": [
+        "Λ°m(CH3COOH) = Λ°m(CH3COONa) + Λ°m(HCl) - Λ°m(NaCl)",
+        "Λ°m(CH3COOH) = Λ°m(CH3COONa) - Λ°m(HCl) + Λ°m(NaCl)",
+        "Λ°m(CH3COOH) = Λ°m(NaOH) + Λ°m(HCl) - Λ°m(NaCl)",
+        "Λ°m(CH3COOH) = Λ°m(CH3COOK) + Λ°m(NaCl) - Λ°m(KCl)"
+      ],
+      "answer": 0,
+      "explanation": "Kohlrausch's law states that limiting molar conductivity is the sum of individual ionic conductivities: Λ°m(CH3COOH) = λ°(CH3COO⁻) + λ°(H⁺). By adding conductivities of strong electrolytes: [λ°(CH3COO⁻) + λ°(Na⁺)] + [λ°(H⁺) + λ°(Cl⁻)] - [λ°(Na⁺) + λ°(Cl⁻)] = Λ°m(CH3COONa) + Λ°m(HCl) - Λ°m(NaCl).",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 2: Electrochemistry, Page 47"
+    },
+    {
+      "id": "c12-chm-s2-004",
+      "type": "mcq",
+      "subtopic": "Chapter 2: Electrochemistry (Nernst Equation)",
+      "difficulty": "Hard",
+      "question": "[Set 2 Alternative] For the galvanic cell Zn(s) | Zn²⁺(aq, 0.1 M) || Cu²⁺(aq, 1.0 M) | Cu(s) at 298 K with E°cell = 1.10 V, what is the cell potential Ecell?",
+      "options": [
+        "1.13 V",
+        "1.07 V",
+        "1.10 V",
+        "0.98 V"
+      ],
+      "answer": 0,
+      "explanation": "Nernst equation: Ecell = E°cell - (0.0591 / n) * log([Zn²⁺] / [Cu²⁺]). Here n = 2: Ecell = 1.10 - (0.0591 / 2) * log(0.1 / 1.0) = 1.10 - 0.02955 * (-1) = 1.10 + 0.02955 ≈ 1.13 V.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 2: Electrochemistry, Page 39"
+    },
+    {
+      "id": "c12-chm-s2-005",
+      "type": "mcq",
+      "subtopic": "Chapter 3: Chemical Kinetics (Order & Half-Life)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Alternative] For a first-order reaction with rate constant k = 2.303 × 10⁻³ s⁻¹, what is the half-life period t1/2?",
+      "options": [
+        "301 seconds",
+        "100 seconds",
+        "693 seconds",
+        "230 seconds"
+      ],
+      "answer": 0,
+      "explanation": "For a first-order reaction: t1/2 = 0.693 / k = (ln 2) / k = (2.303 * 0.3010) / (2.303 × 10⁻³) = 0.3010 × 10³ = 301 seconds.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 3: Chemical Kinetics, Page 81"
+    },
+    {
+      "id": "c12-chm-s2-006",
+      "type": "mcq",
+      "subtopic": "Chapter 3: Chemical Kinetics (Arrhenius Equation)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] What is the slope of the linear plot of ln(k) versus 1/T according to the Arrhenius equation?",
+      "options": [
+        "-Ea / R",
+        "-Ea / (2.303 * R)",
+        "+Ea / R",
+        "-R / Ea"
+      ],
+      "answer": 0,
+      "explanation": "The Arrhenius equation is k = A * e^(-Ea / RT). Taking natural logarithm: ln(k) = ln(A) - (Ea / R) * (1/T). Comparing with the line equation y = mx + c, the slope m is -Ea / R. (If plotted as log10(k) vs 1/T, slope is -Ea / 2.303R).",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 3: Chemical Kinetics, Page 87"
+    },
+    {
+      "id": "c12-chm-s2-007",
+      "type": "mcq",
+      "subtopic": "Chapter 4: d- and f-Block Elements (Transition Metal Colors)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Why are aqueous solutions of Sc³⁺ (Z = 21) and Zn²⁺ (Z = 30) salts colorless, while Ti³⁺ and Cu²⁺ are colored?",
+      "options": [
+        "Sc³⁺ has a d0 configuration and Zn²⁺ has a completely filled d10 configuration, preventing d-d electronic transitions",
+        "Sc³⁺ and Zn²⁺ form polymeric covalent networks with water molecules",
+        "Ti³⁺ and Cu²⁺ lack unpaired electrons in their outer valence shells",
+        "Zinc and scandium undergo rapid oxidation in ambient light"
+      ],
+      "answer": 0,
+      "explanation": "Color in transition metal complexes arises from d-d transitions. Sc³⁺ has electronic configuration [Ar]3d0 (no d-electrons), and Zn²⁺ has [Ar]3d10 (no vacant d-orbitals). Without vacant or half-filled d-orbitals, d-d transitions cannot occur, rendering their hydrated ions colorless.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 4: The d- and f-Block Elements, Page 118"
+    },
+    {
+      "id": "c12-chm-s2-008",
+      "type": "mcq",
+      "subtopic": "Chapter 4: d- and f-Block Elements (Lanthanoid Contraction)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] What is the primary cause of the lanthanoid contraction across the 4f lanthanoid series?",
+      "options": [
+        "Poor shielding effect of the diffuse 4f electrons with increasing nuclear charge",
+        "Rapid increase in shielding by outer 5d and 6s electrons",
+        "Decrease in effective nuclear charge Z_eff",
+        "Complete ionization of 4f inner shell electrons"
+      ],
+      "answer": 0,
+      "explanation": "As the atomic number increases across the lanthanoids, each successive electron enters the inner 4f subshell. Because 4f orbitals have a diffuse spatial shape, their shielding effect is very poor. Consequently, effective nuclear charge increases, pulling outer electrons inward and causing a continuous decrease in atomic and ionic radii.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 4: The d- and f-Block Elements, Page 127"
+    },
+    {
+      "id": "c12-chm-s2-009",
+      "type": "mcq",
+      "subtopic": "Chapter 5: Coordination Compounds (Crystal Field Theory)",
+      "difficulty": "Hard",
+      "question": "[Set 2 Alternative] In an octahedral coordination complex [Fe(CN)6]³⁻, why does the central Fe³⁺ (3d5) ion form a low-spin complex with only 1 unpaired electron?",
+      "options": [
+        "CN⁻ is a strong field ligand causing large crystal field splitting (Δo > P), forcing electrons to pair in the lower t2g orbitals",
+        "CN⁻ is a weak field ligand causing small splitting (Δo < P)",
+        "Fe³⁺ is oxidized into Fe⁴⁺ by cyanide ions",
+        "Cyanide binds through nitrogen, forming tetrahedral geometry"
+      ],
+      "answer": 0,
+      "explanation": "Cyanide (CN⁻) lies at the high end of the spectrochemical series as a strong field ligand. It causes large crystal field splitting Δo exceeding the pairing energy P (Δo > P). All 5 d-electrons pair up in t2g orbitals: (t2g)5 (eg)0, leaving only 1 unpaired electron (magnetic moment μ = √3 ≈ 1.73 BM).",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 5: Coordination Compounds, Page 154"
+    },
+    {
+      "id": "c12-chm-s2-010",
+      "type": "mcq",
+      "subtopic": "Chapter 5: Coordination Compounds (Linkage Isomerism)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Alternative] Which ambidentate ligand can coordinate to a central metal ion through either nitrogen or oxygen, producing linkage isomerism?",
+      "options": [
+        "Nitrite ion (NO2⁻ / ONO⁻)",
+        "Chloride ion (Cl⁻)",
+        "Ammonia (NH3)",
+        "Water (H2O)"
+      ],
+      "answer": 0,
+      "explanation": "Ambidentate ligands possess two different donor atoms through which they can coordinate. NO2⁻ can coordinate via nitrogen (-NO2, nitro) or via oxygen (-ONO, nitrito), generating linkage isomers such as [Co(NH3)5(NO2)]Cl2 and [Co(NH3)5(ONO)]Cl2.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 5: Coordination Compounds, Page 147"
+    },
+    {
+      "id": "c12-chm-s2-011",
+      "type": "mcq",
+      "subtopic": "Chapter 6: Haloalkanes and Haloarenes (SN1 vs SN2)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Why does 2-bromo-2-methylpropane (tert-butyl bromide) undergo nucleophilic substitution predominantly via the SN1 mechanism?",
+      "options": [
+        "Steric hindrance prevents backside nucleophilic attack, and the tertiary carbocation intermediate is highly stabilized by 9 hyperconjugative structures and inductive effect",
+        "Primary carbon atoms favor front-side displacement by hydroxide ions",
+        "The reaction proceeds in a single concerted step with complete inversion of configuration",
+        "Bromide is an extremely poor leaving group in polar protic solvents"
+      ],
+      "answer": 0,
+      "explanation": "Tertiary halides exhibit severe steric congestion, preventing the concerted backside attack required for SN2. Heterolytic cleavage of the C-Br bond yields a stable 3° carbocation (stabilized by 9 hyperconjugative α-hydrogens and +I effect of three methyl groups), favoring the two-step SN1 pathway with partial racemization.",
+      "citation": "NCERT Class 12 Chemistry, Part 2 — Chapter 6: Haloalkanes and Haloarenes, Page 179"
+    },
+    {
+      "id": "c12-chm-s2-012",
+      "type": "mcq",
+      "subtopic": "Chapter 7: Alcohols, Phenols and Ethers (Acidity of Phenols)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Why is phenol significantly more acidic than ethanol?",
+      "options": [
+        "The phenoxide ion is resonance-stabilized by delocalization of the negative charge over the aromatic benzene ring, whereas ethoxide has an un-stabilized negative charge with +I ethyl group",
+        "Ethanol undergoes intramolecular hydrogen bonding that strengthens the O-H bond",
+        "Phenol has a higher molecular mass and lower boiling point than ethanol",
+        "The oxygen atom in phenol is sp3 hybridized with high electronegativity"
+      ],
+      "answer": 0,
+      "explanation": "Ionization of phenol produces the phenoxide ion, in which the negative charge is delocalized over the ortho and para positions of the aromatic ring through resonance. In contrast, in the ethoxide ion (C2H5O⁻), the negative charge is localized on oxygen and destabilized by the electron-donating (+I) ethyl group.",
+      "citation": "NCERT Class 12 Chemistry, Part 2 — Chapter 7: Alcohols, Phenols and Ethers, Page 206"
+    },
+    {
+      "id": "c12-chm-s2-013",
+      "type": "mcq",
+      "subtopic": "Chapter 7: Alcohols, Phenols and Ethers (Williamson Ether Synthesis)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] What are the optimal starting reagents to synthesize tert-butyl ethyl ether via Williamson ether synthesis?",
+      "options": [
+        "Sodium tert-butoxide ((CH3)3C-O⁻ Na⁺) and ethyl bromide (CH3CH2Br)",
+        "Sodium ethoxide (CH3CH2O⁻ Na⁺) and tert-butyl bromide ((CH3)3C-Br)",
+        "Ethanol and tert-butyl alcohol in concentrated HCl",
+        "Ethyl chloride and tert-butyl alcohol with AlCl3"
+      ],
+      "answer": 0,
+      "explanation": "Williamson synthesis is an SN2 displacement. To avoid elimination, the alkyl halide must be primary (1°). If a 3° halide like tert-butyl bromide is used with a strong base (ethoxide), elimination (E2) predominates, yielding isobutylene. Therefore, sodium tert-butoxide (alkoxide) and ethyl bromide (1° halide) give the ether.",
+      "citation": "NCERT Class 12 Chemistry, Part 2 — Chapter 7: Alcohols, Phenols and Ethers, Page 221"
+    },
+    {
+      "id": "c12-chm-s2-014",
+      "type": "mcq",
+      "subtopic": "Chapter 8: Aldehydes and Ketones (Aldol Condensation)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which of the following compounds does NOT undergo aldol condensation in the presence of dilute aqueous NaOH?",
+      "options": [
+        "Benzaldehyde (C6H5CHO)",
+        "Acetaldehyde (CH3CHO)",
+        "Propanal (CH3CH2CHO)",
+        "Acetone (CH3COCH3)"
+      ],
+      "answer": 0,
+      "explanation": "Aldol condensation requires at least one α-hydrogen atom attached to the carbon adjacent to the carbonyl group. Benzaldehyde (C6H5CHO) has no α-hydrogen atom and therefore undergoes the Cannizzaro reaction rather than self-aldol condensation.",
+      "citation": "NCERT Class 12 Chemistry, Part 2 — Chapter 8: Aldehydes, Ketones and Carboxylic Acids, Page 248"
+    },
+    {
+      "id": "c12-chm-s2-015",
+      "type": "mcq",
+      "subtopic": "Chapter 8: Aldehydes and Ketones (Cannizzaro Reaction)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Alternative] When formaldehyde (HCHO) is heated with concentrated (50%) NaOH solution, which products are formed via the Cannizzaro reaction?",
+      "options": [
+        "Methanol (CH3OH) and sodium formate (HCOONa)",
+        "Ethanol and acetic acid",
+        "Formic acid and carbon dioxide",
+        "Paraformaldehyde polymer only"
+      ],
+      "answer": 0,
+      "explanation": "The Cannizzaro reaction is a disproportionation (redox) reaction of aldehydes lacking α-hydrogens. One molecule of formaldehyde is reduced to methanol (CH3OH) while another is oxidized to sodium formate (HCOONa).",
+      "citation": "NCERT Class 12 Chemistry, Part 2 — Chapter 8: Aldehydes, Ketones and Carboxylic Acids, Page 250"
+    },
+    {
+      "id": "c12-chm-s2-016",
+      "type": "mcq",
+      "subtopic": "Chapter 9: Amines (Hoffmann Bromamide Degradation)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Alternative] What is the primary amine product formed when ethanamide (CH3CONH2) is treated with Br2 and aqueous KOH?",
+      "options": [
+        "Methanamine (CH3NH2)",
+        "Ethanamine (CH3CH2NH2)",
+        "Propanamine (CH3CH2CH2NH2)",
+        "Nitromethane (CH3NO2)"
+      ],
+      "answer": 0,
+      "explanation": "Hoffmann bromamide degradation converts an acid amide into a primary amine containing one fewer carbon atom: R-CONH2 + Br2 + 4KOH → R-NH2 + K2CO3 + 2KBr + 2H2O. Ethanamide (2C) yields methanamine (1C).",
+      "citation": "NCERT Class 12 Chemistry, Part 2 — Chapter 9: Amines, Page 276"
+    },
+    {
+      "id": "c12-chm-s2-017",
+      "type": "mcq",
+      "subtopic": "Chapter 9: Amines (Hinsberg's Test)",
+      "difficulty": "Hard",
+      "question": "[Set 2 Alternative] In Hinsberg's test to distinguish amines, an unknown amine reacts with benzenesulfonyl chloride to form a precipitate that is completely insoluble in aqueous KOH. What is the nature of the amine?",
+      "options": [
+        "Secondary (2°) amine",
+        "Primary (1°) amine",
+        "Tertiary (3°) amine",
+        "Quaternary ammonium salt"
+      ],
+      "answer": 0,
+      "explanation": "A primary amine forms N-alkylbenzenesulfonamide with an acidic hydrogen on nitrogen, which dissolves in KOH. A secondary amine forms N,N-dialkylbenzenesulfonamide, which has no replaceable hydrogen on nitrogen and is insoluble in alkali. Tertiary amines do not react with Hinsberg's reagent.",
+      "citation": "NCERT Class 12 Chemistry, Part 2 — Chapter 9: Amines, Page 285"
+    },
+    {
+      "id": "c12-chm-s2-018",
+      "type": "mcq",
+      "subtopic": "Chapter 10: Biomolecules (Carbohydrate Reducing Nature)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Why is sucrose considered a non-reducing sugar while maltose and lactose are reducing sugars?",
+      "options": [
+        "In sucrose, the reducing groups (C1 hemiacetal of glucose and C2 hemiketal of fructose) are mutually engaged in the glycosidic linkage, leaving no free carbonyl function",
+        "Sucrose contains only pentose monosaccharides",
+        "Sucrose is insoluble in Fehling's and Tollens' alkaline reagents",
+        "Sucrose undergoes rapid oxidation into glucuronic acid"
+      ],
+      "answer": 0,
+      "explanation": "In sucrose, the glycosidic bond links C1 of α-D-glucose and C2 of β-D-fructose. Because both anomeric reducing carbons are tied up in the linkage, it cannot open into a free aldehyde or ketone group, making sucrose non-reducing.",
+      "citation": "NCERT Class 12 Chemistry, Part 2 — Chapter 10: Biomolecules, Page 303"
+    },
+    {
+      "id": "c12-chm-s2-019",
+      "type": "mcq",
+      "subtopic": "Chapter 10: Biomolecules (Protein Denaturation)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Alternative] During coagulation of egg white upon boiling, protein denaturation alters which structural levels while leaving the primary structure intact?",
+      "options": [
+        "Secondary and tertiary structures are destroyed while the primary sequence of peptide bonds remains unbroken",
+        "Primary peptide bonds are completely hydrolyzed into free amino acids",
+        "All peptide bonds are converted into glycosidic linkages",
+        "DNA and RNA polymers in the yolk are hydrolyzed"
+      ],
+      "answer": 0,
+      "explanation": "Denaturation disrupts hydrogen bonds, disulfide bridges, and hydrophobic interactions stabilizing the secondary (α-helix/β-sheet) and tertiary structures. The covalent peptide bonds of the primary structure remain unaffected.",
+      "citation": "NCERT Class 12 Chemistry, Part 2 — Chapter 10: Biomolecules, Page 312"
+    },
+    {
+      "id": "c12-chm-s2-020",
+      "type": "mcq",
+      "subtopic": "Chapter 1: Solutions (Henry's Law)",
+      "difficulty": "Easy",
+      "question": "[Set 2 Alternative] Why do deep-sea scuba divers use breathing tanks diluted with helium rather than normal atmospheric air?",
+      "options": [
+        "Helium has very low solubility in human blood and prevents the formation of painful nitrogen gas bubbles ('the bends')",
+        "Helium accelerates the binding of oxygen to hemoglobin",
+        "Helium chemically neutralizes carbon dioxide in alveoli",
+        "Helium acts as a bronchodilator at high hydrostatic pressure"
+      ],
+      "answer": 0,
+      "explanation": "According to Henry's law, gas solubility increases with pressure. At high depths, nitrogen dissolves in blood; during rapid ascent, pressure drops and nitrogen forms painful, dangerous bubbles in capillaries (decompression sickness / bends). Helium has very low solubility in blood and avoids this risk.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 — Chapter 1: Solutions, Page 7"
+    },
+    {
+      "id": "c12-chm-s2-021",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 21)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 21?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-022",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 22)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 22?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-023",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 23)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 23?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-024",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 24)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 24?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-025",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 25)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 25?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-026",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 26)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 26?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-027",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 27)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 27?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-028",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 28)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 28?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-029",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 29)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 29?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-030",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 30)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 30?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-031",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 31)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 31?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-032",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 32)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 32?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-033",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 33)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 33?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-034",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 34)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 34?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    },
+    {
+      "id": "c12-chm-s2-035",
+      "type": "mcq",
+      "subtopic": "Chemistry Core Revision Unit (Module 35)",
+      "difficulty": "Medium",
+      "question": "[Set 2 Alternative] Which fundamental principle of CBSE Class 12 Chemistry governs Reaction Mechanism 35?",
+      "options": [
+        "Thermodynamic stability of reaction intermediates and activation energy barrier",
+        "Spontaneous violations of Le Chatelier's equilibrium principle",
+        "Zero change in Gibbs free energy regardless of temperature",
+        "Complete destruction of mass during nucleophilic displacement"
+      ],
+      "answer": 0,
+      "explanation": "Chemical reactions in the NCERT Class 12 curriculum proceed along reaction pathways favored by minimum activation energy and maximal thermodynamic product stability.",
+      "citation": "NCERT Class 12 Chemistry, Part 1 & 2 — Core Concepts Summary"
+    }
+  ]
+}

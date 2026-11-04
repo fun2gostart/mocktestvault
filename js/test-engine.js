@@ -726,6 +726,7 @@ class MockTestEngine {
     else if (this.examType === 'toefl') chapterBadge = 'ETS TOEFL® iBT';
     else if (this.examType === 'gmat') chapterBadge = 'GMAT® Focus Edition';
     else if (this.examType === 'ib') chapterBadge = 'IB® Diploma Programme';
+    else if (this.examType === 'cbse12') chapterBadge = 'CBSE Class 12 Board';
 
     let badgesHtml = `<span class="badge badge-chapter">${chapterBadge}</span>`;
     if (this.currentSet === 'random') badgesHtml += `<span class="badge" style="background:linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.15)); color:#9333ea; font-weight:700; border:1px solid rgba(147,51,234,0.3);">🎲 Shuffled Mock</span>`;
@@ -886,7 +887,7 @@ class MockTestEngine {
       this.dom.explanationText.innerHTML = this.formatChemicalFormulas(q.explanation);
     }
     if (this.dom.citationTag) {
-      const defaultCitation = (this.examType === 'sat') ? 'College Board SAT' : (this.examType === 'ap' ? 'College Board AP® CED' : (this.examType === 'toefl' ? 'ETS TOEFL® iBT Framework' : (this.examType === 'gmat' ? 'GMAC GMAT Focus Blueprint' : (this.examType === 'ib' ? 'IB DP Official Subject Guide & Markscheme' : 'Official NCERT Class 10 Syllabus'))));
+      const defaultCitation = (this.examType === 'sat') ? 'College Board SAT' : (this.examType === 'ap' ? 'College Board AP® CED' : (this.examType === 'toefl' ? 'ETS TOEFL® iBT Framework' : (this.examType === 'gmat' ? 'GMAC GMAT Focus Blueprint' : (this.examType === 'ib' ? 'IB DP Official Subject Guide & Markscheme' : (this.examType === 'cbse12' ? 'Official NCERT Class 12 Syllabus' : 'Official NCERT Class 10 Syllabus')))));
       this.dom.citationTag.textContent = q.citation || defaultCitation;
     }
     this.dom.explanationBox.classList.add('active');
@@ -1178,6 +1179,20 @@ class MockTestEngine {
         rankDesc = "Focus on foundational definitions, cycle diagrams, and core formulas before re-attempting.";
       }
       predictedGrade = `Estimated IB Grade: ${ibGrade} / 7 • Raw: ${correct} / ${total} Correct`;
+    } else if (this.examType === 'cbse12') {
+      if (scorePct < 40) {
+        rankBadge = "⚠️ Needs Revision";
+        rankDesc = "Review NCERT Class 12 formulas, mechanisms, and textbook exemplar derivations.";
+        predictedGrade = "Predicted CBSE 12th Grade: Compartment / C Target";
+      } else if (scorePct < 75) {
+        rankBadge = "👍 Good Foundation!";
+        rankDesc = "Solid understanding of core NCERT theory. Solve past board questions to break 90%+ marks.";
+        predictedGrade = "Predicted CBSE 12th Grade: B1 / A2 Target";
+      } else {
+        rankBadge = "🏆 CBSE Class 12 Distinction!";
+        rankDesc = "Outstanding theoretical and numerical mastery! Thoroughly prepared for the CBSE Class 12 Board examination.";
+        predictedGrade = "Predicted CBSE 12th Grade: A1 (95%+ Target)";
+      }
     } else {
       // Board default
       if (scorePct < 40) {
@@ -1362,7 +1377,9 @@ class MockTestEngine {
                   ? 'GMAC Solution Breakdown & Strategic Analysis'
                   : (this.examType === 'ib'
                     ? 'IB DP Official Markscheme & Syllabus Breakdown'
-                    : 'NCERT Conceptual Explanation')))))));
+                    : (this.examType === 'cbse12'
+                      ? 'NCERT Class 12 Board Solution & Derivation'
+                      : 'NCERT Conceptual Explanation'))))))));
 
     const defaultCitation = this.examType === 'sat'
       ? 'College Board SAT'
@@ -1380,7 +1397,9 @@ class MockTestEngine {
                   ? 'Official GMAC GMAT Focus Framework'
                   : (this.examType === 'ib'
                     ? 'IB DP Official Subject Guide & Markscheme'
-                    : 'NCERT Class 10')))))));
+                    : (this.examType === 'cbse12'
+                      ? 'NCERT Class 12 Board Syllabus'
+                      : 'NCERT Class 10'))))))));
 
     this.questions.forEach((q, idx) => {
       const userChoice = this.userAnswers[idx];
