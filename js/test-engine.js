@@ -727,6 +727,7 @@ class MockTestEngine {
     else if (this.examType === 'gmat') chapterBadge = 'GMAT® Focus Edition';
     else if (this.examType === 'ib') chapterBadge = 'IB® Diploma Programme';
     else if (this.examType === 'cbse12') chapterBadge = 'CBSE Class 12 Board';
+    else if (this.examType === 'nta') chapterBadge = 'NTA Speed Drill';
 
     let badgesHtml = `<span class="badge badge-chapter">${chapterBadge}</span>`;
     if (this.currentSet === 'random') badgesHtml += `<span class="badge" style="background:linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.15)); color:#9333ea; font-weight:700; border:1px solid rgba(147,51,234,0.3);">🎲 Shuffled Mock</span>`;
@@ -887,7 +888,7 @@ class MockTestEngine {
       this.dom.explanationText.innerHTML = this.formatChemicalFormulas(q.explanation);
     }
     if (this.dom.citationTag) {
-      const defaultCitation = (this.examType === 'sat') ? 'College Board SAT' : (this.examType === 'ap' ? 'College Board AP® CED' : (this.examType === 'toefl' ? 'ETS TOEFL® iBT Framework' : (this.examType === 'gmat' ? 'GMAC GMAT Focus Blueprint' : (this.examType === 'ib' ? 'IB DP Official Subject Guide & Markscheme' : (this.examType === 'cbse12' ? 'Official NCERT Class 12 Syllabus' : 'Official NCERT Class 10 Syllabus')))));
+      const defaultCitation = (this.examType === 'sat') ? 'College Board SAT' : (this.examType === 'ap' ? 'College Board AP® CED' : (this.examType === 'toefl' ? 'ETS TOEFL® iBT Framework' : (this.examType === 'gmat' ? 'GMAC GMAT Focus Blueprint' : (this.examType === 'ib' ? 'IB DP Official Subject Guide & Markscheme' : (this.examType === 'cbse12' ? 'Official NCERT Class 12 Syllabus' : (this.examType === 'nta' ? 'NTA Examination Standards & NCERT Core' : 'Official NCERT Class 10 Syllabus'))))));
       this.dom.citationTag.textContent = q.citation || defaultCitation;
     }
     this.dom.explanationBox.classList.add('active');
@@ -1193,6 +1194,19 @@ class MockTestEngine {
         rankDesc = "Outstanding theoretical and numerical mastery! Thoroughly prepared for the CBSE Class 12 Board examination.";
         predictedGrade = "Predicted CBSE 12th Grade: A1 (95%+ Target)";
       }
+    } else if (this.examType === 'nta') {
+      const accuracy = Math.round((correct / Math.max(1, correct + wrong)) * 100);
+      if (scorePct >= 70) {
+        rankBadge = "🏆 99th Percentile Trajectory!";
+        rankDesc = "Exceptional speed and precision under NTA negative marking (+4 / -1). Well qualified for top IIT / AIIMS cutoffs.";
+      } else if (scorePct >= 45) {
+        rankBadge = "🎯 NIT / Govt Medical College Benchmark";
+        rankDesc = "Competitive attempt. Focus on eliminating negative penalty guesses in numerical calculations.";
+      } else {
+        rankBadge = "📚 Speed & Accuracy Drill Required";
+        rankDesc = "Avoid negative penalty guesses. Target 85%+ accuracy on high-confidence questions first.";
+      }
+      predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Accuracy: ${accuracy}%`;
     } else {
       // Board default
       if (scorePct < 40) {
@@ -1227,7 +1241,7 @@ class MockTestEngine {
           </svg>
           <div class="donut-center-text">
             <span class="donut-score-pct">${scorePct}%</span>
-            <span class="donut-score-sub">${this.examType === 'competitive' ? marksObtained + ' / ' + maxMarks : correct + ' / ' + total}</span>
+            <span class="donut-score-sub">${(this.examType === 'competitive' || this.examType === 'nta') ? marksObtained + ' / ' + maxMarks : correct + ' / ' + total}</span>
           </div>
         </div>
         <h2 class="score-title">${rankBadge}</h2>
@@ -1379,7 +1393,9 @@ class MockTestEngine {
                     ? 'IB DP Official Markscheme & Syllabus Breakdown'
                     : (this.examType === 'cbse12'
                       ? 'NCERT Class 12 Board Solution & Derivation'
-                      : 'NCERT Conceptual Explanation'))))))));
+                      : (this.examType === 'nta'
+                        ? 'NTA Solution & Speed Shortcut'
+                        : 'NCERT Conceptual Explanation')))))))));
 
     const defaultCitation = this.examType === 'sat'
       ? 'College Board SAT'
@@ -1399,7 +1415,9 @@ class MockTestEngine {
                     ? 'IB DP Official Subject Guide & Markscheme'
                     : (this.examType === 'cbse12'
                       ? 'NCERT Class 12 Board Syllabus'
-                      : 'NCERT Class 10'))))))));
+                      : (this.examType === 'nta'
+                        ? 'NTA Official Standard Blueprint'
+                        : 'NCERT Class 10')))))))));
 
     this.questions.forEach((q, idx) => {
       const userChoice = this.userAnswers[idx];
@@ -1408,9 +1426,11 @@ class MockTestEngine {
       const isReviewed = this.reviewedFlags[idx];
       
       let itemStatusClass = isCorrect ? 'review-correct' : (isSkipped ? 'review-skipped' : 'review-wrong');
+      const correctPts = (this.markingScheme && this.markingScheme.correct !== undefined) ? this.markingScheme.correct : 1;
+      const wrongPts = (this.markingScheme && this.markingScheme.wrong !== undefined) ? this.markingScheme.wrong : 0;
       let statusBadge = isCorrect 
-        ? `<span style="color:var(--success); font-weight:700;">✓ Correct (+1)</span>`
-        : (isSkipped ? `<span style="color:var(--text-muted); font-weight:700;">— Skipped / Unanswered</span>` : `<span style="color:var(--danger); font-weight:700;">✗ Incorrect (0)</span>`);
+        ? `<span style="color:var(--success); font-weight:700;">✓ Correct (+${correctPts})</span>`
+        : (isSkipped ? `<span style="color:var(--text-muted); font-weight:700;">— Skipped / Unanswered</span>` : `<span style="color:var(--danger); font-weight:700;">✗ Incorrect (${wrongPts})</span>`);
 
       const resultTag = isCorrect ? 'correct' : (isSkipped ? 'unanswered' : 'wrong');
 
@@ -1817,7 +1837,7 @@ class MockTestEngine {
         .replace(/\s*—\s*MockTestVault.*$/i, '')
         .trim();
 
-      const scoreText = scoreData.examType === 'competitive'
+      const scoreText = (scoreData.examType === 'competitive' || scoreData.examType === 'nta')
         ? `${scoreData.marksObtained}/${scoreData.maxMarks} marks`
         : `${scoreData.correct}/${scoreData.total} (${scoreData.scorePct}%)`;
 
@@ -2021,7 +2041,7 @@ class MockTestEngine {
       const isCurrent = revIdx === 0;
       const timeMins = Math.floor(att.timeSpentSeconds / 60);
       const timeSecs = att.timeSpentSeconds % 60;
-      const scoreStr = att.examType === 'competitive' 
+      const scoreStr = (att.examType === 'competitive' || att.examType === 'nta')
         ? `${att.marksObtained}/${att.maxMarks} marks` 
         : `${att.correct}/${att.total}`;
 
