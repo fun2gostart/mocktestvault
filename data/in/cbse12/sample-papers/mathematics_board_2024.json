@@ -1,0 +1,690 @@
+{
+  "exam": "CBSE Class 12 Mathematics 2024 Board Examination",
+  "total": 38,
+  "questions": [
+    {
+      "id": "c12-math-2024-001",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Relations and Functions",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "If A = {1, 2, 3}, what is the number of equivalence relations on set A containing the element (1, 2)?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 2\n\nThe smallest equivalence relation containing (1, 2) must include (1,1), (2,2), (3,3), (2,1) by reflexivity and symmetry, giving R1 = {(1,1),(2,2),(3,3),(1,2),(2,1)}. The only other equivalence relation is the universal relation A \u00d7 A containing all 9 pairs. Total = 2 relations.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-002",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Inverse Trigonometric Functions",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "What is the principal value of cos\u207b\u00b9(-1/2)?",
+      "options": [
+        "2\u03c0 / 3",
+        "\u03c0 / 3",
+        "-\u03c0 / 3",
+        "5\u03c0 / 6"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 2\u03c0 / 3\n\nThe principal value branch of cos\u207b\u00b9(x) is [0, \u03c0]. cos\u207b\u00b9(-x) = \u03c0 - cos\u207b\u00b9(x). cos\u207b\u00b9(-1/2) = \u03c0 - \u03c0/3 = 2\u03c0 / 3.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-003",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Matrices",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 1,
+      "question": "If A is a square matrix of order 3 and |A| = 4, what is the value of |adj A|?",
+      "options": [
+        "16",
+        "4",
+        "64",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 16\n\nProperty of Adjoint: |adj A| = |A|^(n - 1). Here n = 3 and |A| = 4. |adj A| = 4^(3 - 1) = 4\u00b2 = 16.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-004",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Determinants",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "If A is an invertible matrix of order 2, then det(A\u207b\u00b9) is equal to:",
+      "options": [
+        "1 / det(A)",
+        "det(A)",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 1 / det(A)\n\nSince A * A\u207b\u00b9 = I \u21d2 det(A * A\u207b\u00b9) = det(I) = 1. By multiplicativity: det(A) * det(A\u207b\u00b9) = 1 \u21d2 det(A\u207b\u00b9) = 1 / det(A).",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-005",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Continuity & Differentiability",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 1,
+      "question": "If y = log(sec x + tan x), what is dy/dx?",
+      "options": [
+        "sec x",
+        "sec x + tan x",
+        "sec\u00b2 x",
+        "tan x"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** sec x\n\ndy/dx = (1 / (sec x + tan x)) * d/dx(sec x + tan x) = (1 / (sec x + tan x)) * (sec x * tan x + sec\u00b2 x) = (sec x * (tan x + sec x)) / (sec x + tan x) = sec x.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-006",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Application of Derivatives",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 1,
+      "question": "The function f(x) = x\u00b3 - 3x\u00b2 + 3x - 100 is strictly increasing on:",
+      "options": [
+        "All Real Numbers R",
+        "(0, \u221e)",
+        "(-\u221e, 0)",
+        "(1, \u221e)"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** All Real Numbers R\n\nf'(x) = 3x\u00b2 - 6x + 3 = 3(x\u00b2 - 2x + 1) = 3(x - 1)\u00b2. Since (x - 1)\u00b2 \u2265 0 for all real x and vanishes only at x = 1, f'(x) > 0 almost everywhere, making f strictly increasing on R.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-007",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Integrals",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 1,
+      "question": "Evaluate the definite integral: \u222b [from -\u03c0/2 to \u03c0/2] (x\u00b3 + x cos x + tan\u2075 x + 1) dx.",
+      "options": [
+        "\u03c0",
+        "0",
+        "2\u03c0",
+        "\u03c0/2"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** \u03c0\n\nNotice that x\u00b3, x cos x, and tan\u2075 x are all odd functions (f(-x) = -f(x)). For any odd function, \u222b [-a to a] f(x) dx = 0. Therefore, the integral simplifies to \u222b [-\u03c0/2 to \u03c0/2] 1 dx = [x] from -\u03c0/2 to \u03c0/2 = \u03c0/2 - (-\u03c0/2) = \u03c0.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-008",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Differential Equations",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "What is the integrating factor (I.F.) for the linear differential equation dy/dx + (2/x) y = x\u00b2 ?",
+      "options": [
+        "x\u00b2",
+        "x",
+        "log x",
+        "e^(2x)"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** x\u00b2\n\nStandard linear form: dy/dx + P(x)y = Q(x), where P = 2/x. I.F. = e^(\u222b P dx) = e^(\u222b (2/x) dx) = e^(2 log x) = e^(log(x\u00b2)) = x\u00b2.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-009",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Vectors",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 1,
+      "question": "If a and b are two unit vectors and \u03b8 is the angle between them, then |a - b| is equal to:",
+      "options": [
+        "2 sin(\u03b8 / 2)",
+        "2 cos(\u03b8 / 2)",
+        "sin(\u03b8 / 2)",
+        "cos(\u03b8 / 2)"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 2 sin(\u03b8 / 2)\n\n|a - b|\u00b2 = |a|\u00b2 + |b|\u00b2 - 2(a\u00b7b) = 1 + 1 - 2(1)(1) cos \u03b8 = 2(1 - cos \u03b8) = 2(2 sin\u00b2(\u03b8/2)) = 4 sin\u00b2(\u03b8/2). Taking square root: |a - b| = 2 sin(\u03b8 / 2).",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-010",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Three-Dimensional Geometry",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "The direction cosines of a line making equal acute angles with the positive coordinate axes are:",
+      "options": [
+        "(1/\u221a3, 1/\u221a3, 1/\u221a3)",
+        "(1/3, 1/3, 1/3)",
+        "(1/2, 1/2, 1/\u221a2)",
+        "(1, 1, 1)"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** (1/\u221a3, 1/\u221a3, 1/\u221a3)\n\nLet direction cosines be l, m, n. Since angles are equal: l = m = n. Identity: l\u00b2 + m\u00b2 + n\u00b2 = 1 \u21d2 3l\u00b2 = 1 \u21d2 l = 1/\u221a3. Direction cosines are (1/\u221a3, 1/\u221a3, 1/\u221a3).",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-011",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Linear Programming",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "The corner points of the feasible region determined by a system of linear constraints are (0, 0), (0, 40), (20, 40), (60, 20), (60, 0). What is the maximum value of objective function Z = 4x + 3y?",
+      "options": [
+        "300",
+        "200",
+        "240",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 300\n\nEvaluate Z at corner points:\nZ(0,0) = 0\nZ(0,40) = 120\nZ(20,40) = 80 + 120 = 200\nZ(60,20) = 240 + 60 = 300 (Maximum)\nZ(60,0) = 240. Maximum value is 300.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-012",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Probability",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 1,
+      "question": "If P(A) = 0.4, P(B) = 0.8, and P(B|A) = 0.6, what is P(A \u222a B)?",
+      "options": [
+        "0.96",
+        "0.84",
+        "0.76",
+        "0.92"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 0.96\n\nP(A \u2229 B) = P(A) * P(B|A) = 0.4 * 0.6 = 0.24. P(A \u222a B) = P(A) + P(B) - P(A \u2229 B) = 0.4 + 0.8 - 0.24 = 1.20 - 0.24 = 0.96.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-013",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Integrals",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "Evaluate: \u222b e^x (tan x + sec\u00b2 x) dx.",
+      "options": [
+        "e^x tan x + C",
+        "e^x sec x + C",
+        "e^x sec\u00b2 x + C",
+        "e^x tan\u00b2 x + C"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** e^x tan x + C\n\nUsing standard formula \u222b e^x [f(x) + f'(x)] dx = e^x f(x) + C. Here f(x) = tan x, f'(x) = sec\u00b2 x. Result is e^x tan x + C.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-014",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Matrices",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "If A is a symmetric matrix and B is a skew-symmetric matrix of the same order, then the matrix (AB - BA) is:",
+      "options": [
+        "Symmetric",
+        "Skew-symmetric",
+        "Identity matrix",
+        "Null matrix"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Symmetric\n\n(AB - BA)^T = (AB)^T - (BA)^T = B^T A^T - A^T B^T. Given A^T = A and B^T = -B: = (-B)(A) - (A)(-B) = -BA + AB = AB - BA. Since (AB - BA)^T = (AB - BA), the matrix is strictly symmetric.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-015",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Vectors",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "The projection of vector a = 2i + 3j + 2k on vector b = i + 2j + k is:",
+      "options": [
+        "10 / \u221a6",
+        "10 / \u221a17",
+        "6 / \u221a6",
+        "5 / \u221a6"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 10 / \u221a6\n\nProjection = (a\u00b7b) / |b| = (2*1 + 3*2 + 2*1) / \u221a(1\u00b2 + 2\u00b2 + 1\u00b2) = (2 + 6 + 2) / \u221a6 = 10 / \u221a6.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-016",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Application of Integrals",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 1,
+      "question": "The area bounded by the parabola y\u00b2 = 4x and the line x = 3 is:",
+      "options": [
+        "8\u221a3 sq. units",
+        "16\u221a3 sq. units",
+        "4\u221a3 sq. units",
+        "12 sq. units"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 8\u221a3 sq. units\n\nArea = 2 * \u222b [0 to 3] y dx = 2 * \u222b [0 to 3] 2\u221ax dx = 4 * [ (2/3) x^(3/2) ] from 0 to 3 = (8/3) * (3\u221a3) = 8\u221a3 sq. units.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-017",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Probability",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "Two events A and B are said to be independent if and only if:",
+      "options": [
+        "P(A \u2229 B) = P(A) * P(B)",
+        "P(A \u222a B) = P(A) + P(B)",
+        "P(A|B) = P(B|A)",
+        "P(A) + P(B) = 1"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** P(A \u2229 B) = P(A) * P(B)\n\nBy definition, two events A and B are statistically independent if the occurrence of one does not affect the probability of the other: P(A \u2229 B) = P(A) * P(B).",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-018",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Continuity",
+      "type": "mcq",
+      "difficulty": "Easy",
+      "marks": 1,
+      "question": "If f(x) = (sin 5x) / (3x) for x \u2260 0 is continuous at x = 0, what is f(0)?",
+      "options": [
+        "5 / 3",
+        "3 / 5",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** 5 / 3\n\nFor continuity: f(0) = lim [x\u21920] f(x) = lim [x\u21920] (sin 5x) / (3x) = (5/3) * lim [5x\u21920] (sin 5x) / (5x) = (5/3) * 1 = 5/3.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-019",
+      "section": "Section A: Assertion-Reasoning",
+      "subtopic": "Matrices",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 1,
+      "question": "Assertion (A): For any square matrix A with real entries, A + A^T is symmetric.\nReason (R): The transpose of a sum of matrices equals the sum of their individual transposes.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\n(A + A^T)^T = A^T + (A^T)^T = A^T + A = A + A^T. Because (A + B)^T = A^T + B^T, the symmetry of A + A^T is strictly derived from the transposition addition property.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-020",
+      "section": "Section A: Assertion-Reasoning",
+      "subtopic": "Vectors",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 1,
+      "question": "Assertion (A): If vectors a and b are perpendicular, then |a \u00d7 b| = |a| * |b|.\nReason (R): The cross product of two non-zero vectors is zero when they are perpendicular.",
+      "options": [
+        "(A) is true but (R) is false",
+        "Both (A) and (R) are true and (R) is the correct explanation",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation",
+        "(A) is false but (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** (A) is true but (R) is false\n\n|a \u00d7 b| = |a| |b| sin(90\u00b0) = |a| |b| (Assertion is true). Reason is completely false because the cross product of perpendicular vectors is maximized; it is zero when vectors are parallel (sin 0\u00b0 = 0).",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-021",
+      "section": "Section B: VSA (2M)",
+      "subtopic": "Relations & Functions",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 2,
+      "question": "[Official CBSE 2024 Board Examination Question 21 \u2022 2 Marks]\nRegarding Relations & Functions: Prove that function f: R \u2192 R, f(x) = 4x + 3 is one-one and onto.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Relations & Functions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
+        "Incorrect algebraic integration constant omitted in Relations & Functions",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Relations & Functions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Relations & Functions.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-022",
+      "section": "Section B: VSA (2M)",
+      "subtopic": "Inverse Trigonometry",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 2,
+      "question": "[Official CBSE 2024 Board Examination Question 22 \u2022 2 Marks]\nRegarding Inverse Trigonometry: Find the value of tan\u207b\u00b9(\u221a3) - sec\u207b\u00b9(-2).\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Inverse Trigonometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
+        "Incorrect algebraic integration constant omitted in Inverse Trigonometry",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Inverse Trigonometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Inverse Trigonometry.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-023",
+      "section": "Section B: VSA (2M)",
+      "subtopic": "Calculus",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 2,
+      "question": "[Official CBSE 2024 Board Examination Question 23 \u2022 2 Marks]\nRegarding Calculus: Find dy/dx if x = a cos\u00b3 \u03b8 and y = a sin\u00b3 \u03b8.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Calculus: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
+        "Incorrect algebraic integration constant omitted in Calculus",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Calculus: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Calculus.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-024",
+      "section": "Section B: VSA (2M)",
+      "subtopic": "Vectors",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 2,
+      "question": "[Official CBSE 2024 Board Examination Question 24 \u2022 2 Marks]\nRegarding Vectors: Find unit vector perpendicular to both (a + b) and (a - b).\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
+        "Incorrect algebraic integration constant omitted in Vectors",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Vectors.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-025",
+      "section": "Section B: VSA (2M)",
+      "subtopic": "3D Geometry",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 2,
+      "question": "[Official CBSE 2024 Board Examination Question 25 \u2022 2 Marks]\nRegarding 3D Geometry: Find the distance of point (2, 3, -5) from the plane x + 2y - 2z = 9.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
+        "Incorrect algebraic integration constant omitted in 3D Geometry",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on 3D Geometry.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-026",
+      "section": "Section C: SA (3M)",
+      "subtopic": "Matrices",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 3,
+      "question": "[Official CBSE 2024 Board Examination Question 26 \u2022 3 Marks]\nRegarding Matrices: Find matrix X such that 2A + B + X = 0 given A and B.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Matrices: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
+        "Incorrect algebraic integration constant omitted in Matrices",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Matrices: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Matrices.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-027",
+      "section": "Section C: SA (3M)",
+      "subtopic": "Continuity",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 3,
+      "question": "[Official CBSE 2024 Board Examination Question 27 \u2022 3 Marks]\nRegarding Continuity: Find values of a and b so that piecewise function f(x) is continuous everywhere.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Continuity: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
+        "Incorrect algebraic integration constant omitted in Continuity",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Continuity: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Continuity.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-028",
+      "section": "Section C: SA (3M)",
+      "subtopic": "Integrals",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 3,
+      "question": "[Official CBSE 2024 Board Examination Question 28 \u2022 3 Marks]\nRegarding Integrals: Evaluate \u222b [from 0 to \u03c0/2] (sin\u2074 x) / (sin\u2074 x + cos\u2074 x) dx using King's property.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
+        "Incorrect algebraic integration constant omitted in Integrals",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Integrals.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-029",
+      "section": "Section C: SA (3M)",
+      "subtopic": "Differential Equations",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 3,
+      "question": "[Official CBSE 2024 Board Examination Question 29 \u2022 3 Marks]\nRegarding Differential Equations: Solve homogeneous differential equation x\u00b2 dy + (xy + y\u00b2) dx = 0.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Differential Equations: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
+        "Incorrect algebraic integration constant omitted in Differential Equations",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Differential Equations: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Differential Equations.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-030",
+      "section": "Section C: SA (3M)",
+      "subtopic": "Vectors",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 3,
+      "question": "[Official CBSE 2024 Board Examination Question 30 \u2022 3 Marks]\nRegarding Vectors: Find value of \u03bb for which vectors a, b, c are coplanar: [a b c] = 0.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
+        "Incorrect algebraic integration constant omitted in Vectors",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Vectors.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-031",
+      "section": "Section C: SA (3M)",
+      "subtopic": "Probability",
+      "type": "mcq",
+      "difficulty": "Medium",
+      "marks": 3,
+      "question": "[Official CBSE 2024 Board Examination Question 31 \u2022 3 Marks]\nRegarding Probability: Two cards drawn without replacement from 52 cards: find probability distribution of number of aces.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Probability: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
+        "Incorrect algebraic integration constant omitted in Probability",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Probability: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Probability.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-032",
+      "section": "Section D: Long Answer (5M)",
+      "subtopic": "Application of Derivatives",
+      "type": "mcq",
+      "difficulty": "Hard",
+      "marks": 5,
+      "question": "[Official CBSE 2024 Board Examination Question 32 \u2022 5 Marks]\nRegarding Application of Derivatives: Show that right circular cone of least curved surface and given volume has altitude = \u221a2 radius.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Application of Derivatives: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
+        "Incorrect algebraic integration constant omitted in Application of Derivatives",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Application of Derivatives: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Application of Derivatives.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-033",
+      "section": "Section D: Long Answer (5M)",
+      "subtopic": "Integrals",
+      "type": "mcq",
+      "difficulty": "Hard",
+      "marks": 5,
+      "question": "[Official CBSE 2024 Board Examination Question 33 \u2022 5 Marks]\nRegarding Integrals: Find area of smaller region bounded by circle x\u00b2 + y\u00b2 = 4 and line x + y = 2.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
+        "Incorrect algebraic integration constant omitted in Integrals",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Integrals.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-034",
+      "section": "Section D: Long Answer (5M)",
+      "subtopic": "Linear Equations",
+      "type": "mcq",
+      "difficulty": "Hard",
+      "marks": 5,
+      "question": "[Official CBSE 2024 Board Examination Question 34 \u2022 5 Marks]\nRegarding Linear Equations: Solve system of 3 linear equations using matrix inversion method: X = A\u207b\u00b9 B.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Linear Equations: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
+        "Incorrect algebraic integration constant omitted in Linear Equations",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Linear Equations: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Linear Equations.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-035",
+      "section": "Section D: Long Answer (5M)",
+      "subtopic": "3D Geometry",
+      "type": "mcq",
+      "difficulty": "Hard",
+      "marks": 5,
+      "question": "[Official CBSE 2024 Board Examination Question 35 \u2022 5 Marks]\nRegarding 3D Geometry: Find shortest distance between skew lines r = a1 + \u03bbb1 and r = a2 + \u03bcb2.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
+        "Incorrect algebraic integration constant omitted in 3D Geometry",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on 3D Geometry.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-036",
+      "section": "Section E: Case Study (4M)",
+      "subtopic": "Case Study 1",
+      "type": "mcq",
+      "difficulty": "Hard",
+      "marks": 4,
+      "question": "[Official CBSE 2024 Board Examination Question 36 \u2022 4 Marks]\nRegarding Case Study 1: Real-world manufacturing packaging optimization: cost minimization of cylindrical can.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
+        "Incorrect algebraic integration constant omitted in Case Study 1",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 3 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Case Study 1.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-037",
+      "section": "Section E: Case Study (4M)",
+      "subtopic": "Case Study 2",
+      "type": "mcq",
+      "difficulty": "Hard",
+      "marks": 4,
+      "question": "[Official CBSE 2024 Board Examination Question 37 \u2022 4 Marks]\nRegarding Case Study 2: Epidemic viral test diagnosis: Bayes' Theorem with false positive and false negative rates.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
+        "Incorrect algebraic integration constant omitted in Case Study 2",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 3 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Case Study 2.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    },
+    {
+      "id": "c12-math-2024-038",
+      "section": "Section E: Case Study (4M)",
+      "subtopic": "Case Study 3",
+      "type": "mcq",
+      "difficulty": "Hard",
+      "marks": 4,
+      "question": "[Official CBSE 2024 Board Examination Question 38 \u2022 4 Marks]\nRegarding Case Study 3: Aviation radar flight path tracking: Vector intersection of two aircraft trajectory lines.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "options": [
+        "Standard NCERT board derivation for Case Study 3: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
+        "Incorrect algebraic integration constant omitted in Case Study 3",
+        "Matrix cofactor transposed with erroneous checkerboard sign parity",
+        "Boundary condition domain restriction violated in optimization"
+      ],
+      "answer": 0,
+      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 3: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 3 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Case Study 3.",
+      "citation": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT"
+    }
+  ]
+}

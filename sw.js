@@ -1,7 +1,7 @@
 // MockTestVault — Authentic CBT Examination Simulator Service Worker
 // Enables 100% offline practice tests and sub-10ms instant loading via Cache Storage API.
 
-const CACHE_NAME = 'mtv-cbt-v32';
+const CACHE_NAME = 'mtv-cbt-v33';
 
 const STATIC_ASSETS = [
   '/',
@@ -105,7 +105,7 @@ self.addEventListener('fetch', (event) => {
   // B. HTML Navigation Requests — Network-First with Cache Fallback
   if (event.request.mode === 'navigate') {
     event.respondWith(
-      fetch(event.request)
+      fetch(new Request(event.request, { cache: 'no-cache' }))
         .then((networkResponse) => {
           if (networkResponse && networkResponse.status === 200) {
             const responseClone = networkResponse.clone();

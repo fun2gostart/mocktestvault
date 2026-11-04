@@ -145,6 +145,7 @@ class MockTestEngine {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
           .then((reg) => {
+            reg.update().catch(() => {});
             reg.addEventListener('updatefound', () => {
               const newWorker = reg.installing;
               if (newWorker) {

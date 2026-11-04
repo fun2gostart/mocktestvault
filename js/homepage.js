@@ -373,7 +373,10 @@ document.addEventListener('DOMContentLoaded', () => {
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('/sw.js')
-        .then((reg) => console.log('MockTestVault PWA active:', reg.scope))
+        .then((reg) => {
+          reg.update().catch(() => {});
+          console.log('MockTestVault PWA active:', reg.scope);
+        })
         .catch((err) => console.debug('SW registration skipped:', err));
     });
   }

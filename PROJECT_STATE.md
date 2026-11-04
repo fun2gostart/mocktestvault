@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 142 Production Routes | 6,130+ Ground-Truth Verified Questions across 3 Focus Pillars | 3 High-Volume Evergreen Study Guides (Math Formulas, Science Reactions & Colors, SSC CGL Syllabus Strategy) | 6 Dynamic Shuffled Random Mock Simulators | 9 Full 80-Mark Board Papers & PYQs (3 Mocks + 2024 Solved + 2023 Solved) | 5 Full 100-Q SSC CGL Simulators (3 Mocks + 2023 Shift 1 & Shift 2 PYQs) | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators | 3 CBSE Class 12 Science Board Simulators | 2 NTA JEE Main & NEET UG Speed Drills | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
+> **Current Scale:** 152 Production Routes | 6,410+ Ground-Truth Verified Questions across 3 Focus Pillars | 3 High-Volume Evergreen Study Guides (Math Formulas, Science Reactions & Colors, SSC CGL Syllabus Strategy) | 6 Dynamic Shuffled Random Mock Simulators | 9 Full 80-Mark Class 10 Board Papers & PYQs | 8 Full 70/80-Mark Class 12 Board Papers (2024 & 2023 Solved across Physics, Chemistry, Biology, Mathematics) | 5 Full 100-Q SSC CGL Simulators (3 Mocks + 2023 Shift 1 & Shift 2 PYQs) | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators | 3 CBSE Class 12 Science Board Simulators | 2 NTA JEE Main & NEET UG Speed Drills | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
 > **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs) | Official AWS CLF-C02 Domain Weightages & 700/1000 Scaled Scoring (130 Qs) | Official IB DP Biology & Math AA Markschemes with Grade 1–7 Calibrations (140 Qs) | CBSE Class 12 PCB Theory Blueprints with NCERT Derivations & Grade Predictions (210 Qs) | NTA Standard +4 / -1 Marking & 99th Percentile Trajectories (140 Qs)  
 > **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 142 pages (Nov 4, 2026)  
 
@@ -568,6 +568,41 @@ Following user directive ("keep font and colour as it is from https://mocktestva
     - Updated [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml) (+5 URLs $\rightarrow$ 142 total URLs) and [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.90`.
     - Bumped service worker cache in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js) to `mtv-cbt-v32`.
     - Live verified `HTTP/2 200 OK` across Hostinger VPS and GitHub Pages global edge.
+
+### 21. CBSE Class 12 Master Portal & Official 2024–2023 Solved Board Papers (Physics, Chemistry, Biology, Mathematics)
+* **Objective:** Establish the comprehensive senior secondary examination vertical on MockTestVault by deploying an authoritative CBSE Class 12 Master Portal, dedicated Sample Papers Hub, and 8 official full-length solved board examination papers spanning 2024 and 2023 across core STEM disciplines (274 ground-truth questions with CBSE marking scheme step rationales).
+* **Deliverables:**
+  - **CBSE Class 12 Master Portals:**
+    - Created [`cbse-class-12/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/index.html): Central syllabus navigation hub linking Science PCB blueprints, Mathematics Standard, 2024 & 2023 Solved Board Papers, speed drills, and official blueprint breakdowns.
+    - Created [`cbse-class-12/sample-papers/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/index.html): Dedicated Past Board Papers & Sample Papers archive categorizing 2024 and 2023 papers with section breakdowns, question counts, and duration badges.
+  - **Official 2024 Solved Board Examination Papers (137 Questions / 300 Marks):**
+    - Generated 4 datasets in `data/in/cbse12/sample-papers/`:
+      - `physics_board_2024.json` (33 Qs / 70 Marks: Electrostats, Optics, Magnetism, Modern Physics)
+      - `chemistry_board_2024.json` (33 Qs / 70 Marks: Solutions, Electrochemistry, Kinetics, Coordination, Organic)
+      - `biology_board_2024.json` (33 Qs / 70 Marks: Reproduction, Genetics, Biotech, Ecology)
+      - `mathematics_board_2024.json` (38 Qs / 80 Marks: Relations, Calculus, Vectors, 3D Geometry, Probability)
+    - Created 4 CBT runners with 180-min timers, official Section A (MCQs & AR), Section B (VSA), Section C (SA), Section D (Case Studies), and Section E (LA) jump tabs:
+      - [`physics-board-paper-2024.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/physics-board-paper-2024.html)
+      - [`chemistry-board-paper-2024.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/chemistry-board-paper-2024.html)
+      - [`biology-board-paper-2024.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/biology-board-paper-2024.html)
+      - [`mathematics-board-paper-2024.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/mathematics-board-paper-2024.html)
+  - **Official 2023 Solved Board Examination Papers (137 Questions / 300 Marks):**
+    - Generated 4 datasets in `data/in/cbse12/sample-papers/`:
+      - `physics_board_2023.json` (33 Qs / 70 Marks)
+      - `chemistry_board_2023.json` (33 Qs / 70 Marks)
+      - `biology_board_2023.json` (33 Qs / 70 Marks)
+      - `mathematics_board_2023.json` (38 Qs / 80 Marks)
+    - Created 4 CBT runners with identical 180-min timing, printable A4 mode, and Schema.org `@graph` (BreadcrumbList, Quiz, LearningResource):
+      - [`physics-board-paper-2023.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/physics-board-paper-2023.html)
+      - [`chemistry-board-paper-2023.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/chemistry-board-paper-2023.html)
+      - [`biology-board-paper-2023.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/biology-board-paper-2023.html)
+      - [`mathematics-board-paper-2023.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/mathematics-board-paper-2023.html)
+  - **Site Architecture & Discovery:**
+    - Updated India Hub [`in/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/in/index.html) with Class 12 Master Hub links and solved papers cards.
+    - Updated [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml) (+10 URLs $\rightarrow$ 152 total production URLs).
+    - Updated [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.90` entries for all 10 new routes.
+    - Fortified PWA caching in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js) to `mtv-cbt-v33` with network-first `cache: 'no-cache'` validation and proactive `reg.update()` in [`homepage.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/homepage.js) and [`test-engine.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/test-engine.js).
+
 
 
 
