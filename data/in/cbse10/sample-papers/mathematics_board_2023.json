@@ -1,0 +1,1366 @@
+{
+  "exam": "CBSE Class 10 Mathematics 2023 Board Examination",
+  "total": 80,
+  "questions": [
+    {
+      "id": "cbse10-pyq2023-math-001",
+      "type": "assertion_reasoning",
+      "subtopic": "Irrationality of Square Roots",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The square root of any prime number p, denoted sqrt(p), is always an irrational number.\nReason (R): The square root of any positive integer is always an irrational number.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 2,
+      "explanation": "Assertion (A) is true: Theorem 1.3 proves that if p is prime, sqrt(p) is strictly irrational. Reason (R) is false: square roots of perfect squares like sqrt(4) = 2, sqrt(9) = 3, and sqrt(16) = 4 are rational numbers.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-002",
+      "type": "assertion_reasoning",
+      "subtopic": "Digits of Power Expressions",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The number 6^n can never end with the digit zero for any natural number n.\nReason (R): The prime factorisation of 6^n = (2 * 3)^n = 2^n * 3^n, which lacks the prime factor 5 necessary to form a factor of 10.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). A number ends with 0 if and only if 10 = 2 * 5 is a factor. By the uniqueness of prime factorisation (Fundamental Theorem of Arithmetic), 5 does not occur in 6^n, so it cannot end with 0.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-003",
+      "type": "assertion_reasoning",
+      "subtopic": "Coprime Number Properties",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If two positive integers a and b satisfy HCF(a, b) = 1, they are called coprime numbers.\nReason (R): Coprime numbers have no common positive factors other than the integer 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true and Reason (R) provides the definition of coprime integers.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-004",
+      "type": "assertion_reasoning",
+      "subtopic": "Irrationality of Sums",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The real number (2 + sqrt(3)) is an irrational number.\nReason (R): The sum of a rational number and an irrational number is always an irrational number.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true and Reason (R) directly explains Assertion (A). 2 is rational and sqrt(3) is irrational; their sum (2 + sqrt(3)) is strictly irrational.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-005",
+      "type": "assertion_reasoning",
+      "subtopic": "Divisibility of Consecutive Integers",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The product of three consecutive positive integers is always divisible by 6.\nReason (R): In any three consecutive positive integers, at least one is divisible by 2 and exactly one is divisible by 3.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true and Reason explains Assertion. Because 2 and 3 are coprime primes, any number divisible by both 2 and 3 is divisible by 2 * 3 = 6.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-006",
+      "type": "assertion_reasoning",
+      "subtopic": "Degree of Quadratic Polynomial",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The algebraic expression p(x) = 3x^2 - 5x + 4 is a quadratic polynomial of degree 2.\nReason (R): The degree of a polynomial is the highest exponent of the variable x appearing with a non-zero coefficient.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). In p(x), the highest power of x is 2, defining it as a polynomial of degree 2 (quadratic).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-007",
+      "type": "assertion_reasoning",
+      "subtopic": "Graph Zeroes Intersections and Contacts",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If the curve of a polynomial y = p(x) intersects the x-axis at 3 distinct points and touches the x-axis at 1 point, p(x) has a total of 4 real zeroes.\nReason (R): The number of real zeroes of any polynomial y = p(x) is equal to the total number of points where its graph intersects or touches the x-axis.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true and Reason explains Assertion. Every intersection point represents a real zero, and every tangency (touching) point represents a repeated real zero. 3 crossing points + 1 touching point = 4 real zeroes.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-008",
+      "type": "assertion_reasoning",
+      "subtopic": "Conjugate Irrational Roots",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If one zero of a quadratic polynomial with rational coefficients is (3 - sqrt(2)), its second zero must be (3 + sqrt(2)).\nReason (R): In any polynomial with rational coefficients, irrational roots containing square roots always occur in conjugate radical pairs.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true and Reason explains Assertion. If one zero is (p - sqrt(q)), the conjugate (p + sqrt(q)) must be the second zero so that their sum 2p and product (p^2 - q) are rational numbers.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-009",
+      "type": "assertion_reasoning",
+      "subtopic": "Real Zeroes of x^2 + 1",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The polynomial p(x) = x^2 + 1 has two distinct real zeroes: x = 1 and x = -1.\nReason (R): Setting x^2 + 1 = 0 yields x^2 = -1, which has no real solution because the square of any real number cannot be negative.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is completely false: for x = 1, p(1) = 2 != 0; for x = -1, p(-1) = 2 != 0. x^2 + 1 has zero real zeroes. Reason (R) is completely true: x^2 = -1 has no real solutions.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-010",
+      "type": "assertion_reasoning",
+      "subtopic": "Reciprocal Zeroes Equality of a and c",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If one zero of the quadratic polynomial p(x) = ax^2 + bx + c is the reciprocal of the other, then c = a.\nReason (R): The product of zeroes of a quadratic polynomial ax^2 + bx + c is given by c / a.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true and Reason (R) directly explains Assertion (A). If zeroes are alpha and 1/alpha, their product is alpha * (1/alpha) = 1. Since product = c / a, we have c / a = 1 => c = a.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-011",
+      "type": "assertion_reasoning",
+      "subtopic": "Inconsistency and Parallel Lines",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The system of equations 2x + 4y = 7 and 3x + 6y = 10 is inconsistent.\nReason (R): If a1/a2 = b1/b2 != c1/c2, the lines are parallel and have no common solution, making the system inconsistent.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "For the given equations: a1/a2 = 2/3, b1/b2 = 4/6 = 2/3, c1/c2 = -7/-10 = 7/10. Since a1/a2 = b1/b2 != c1/c2 (2/3 = 2/3 != 7/10), the lines are parallel and yield no point of intersection. Hence, the system is inconsistent. (R) correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-012",
+      "type": "assertion_reasoning",
+      "subtopic": "Dependent Consistent Equations",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The pair of equations x + 2y - 5 = 0 and 2x + 4y - 10 = 0 has infinitely many solutions.\nReason (R): Whenever a pair of linear equations has infinitely many solutions, the two graphical lines are coincident and the pair is called dependent consistent.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here a1/a2 = 1/2, b1/b2 = 2/4 = 1/2, and c1/c2 = -5/-10 = 1/2. Because a1/a2 = b1/b2 = c1/c2, the lines coincide completely, yielding infinite common points (solutions). Such a system is dependent and consistent. Both (A) and (R) are true, and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-013",
+      "type": "assertion_reasoning",
+      "subtopic": "Homogeneous Linear System",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The pair of linear equations 4x + 5y = 0 and 7x - 2y = 0 always has at least one common solution (0, 0).\nReason (R): A homogeneous system of linear equations a1 x + b1 y = 0 and a2 x + b2 y = 0 always passes through the origin (0, 0), so (0, 0) is always a trivial solution.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Substituting x = 0, y = 0 satisfies both 4(0) + 5(0) = 0 and 7(0) - 2(0) = 0. In general, any line without a constant term (c = 0) passes through the origin (0,0). Thus (0,0) is always a solution. Both statements are true and (R) is the correct explanation.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-014",
+      "type": "assertion_reasoning",
+      "subtopic": "Geometric Nature of Coordinate Axes",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The graphs of equations x = 0 and y = 0 intersect at the origin (0, 0).\nReason (R): The equation x = 0 represents the y-axis, and the equation y = 0 represents the x-axis, which are mutually perpendicular and intersect exclusively at (0, 0).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "The y-axis has the equation x = 0 and the x-axis has the equation y = 0. Their unique point of intersection is (0, 0). Thus both (A) and (R) are true and (R) directly explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-015",
+      "type": "assertion_reasoning",
+      "subtopic": "Intersection of Parallel Coordinate Lines",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The lines x = 3 and x = -4 do not intersect at any point on the Cartesian plane.\nReason (R): Any two vertical lines of the form x = c1 and x = c2 (where c1 != c2) are parallel to each other and to the y-axis.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Both lines x = 3 and x = -4 are parallel to the y-axis. Since they have different x-intercepts, they are distinct parallel vertical lines and therefore never intersect. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-016",
+      "type": "assertion_reasoning",
+      "subtopic": "Linear vs Quadratic Identification",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The equation (x + 1)^2 = 2(x - 3) is a quadratic equation.\nReason (R): Any equation that can be reduced to the form ax^2 + bx + c = 0, where a, b, c are real numbers and a != 0, is a quadratic equation.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Expanding: x^2 + 2x + 1 = 2x - 6 => x^2 + 7 = 0. Here degree is 2 and a = 1 != 0, so it is a quadratic equation. Both statements are true and Reason (R) defines what constitutes a quadratic equation.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-017",
+      "type": "assertion_reasoning",
+      "subtopic": "Complex/Non-Real Roots Criterion",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The equation x^2 + 2x + 5 = 0 has no real roots.\nReason (R): For any quadratic equation ax^2 + bx + c = 0, if the discriminant D = b^2 - 4ac < 0, the square root of D is not real, hence there are no real roots.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here a = 1, b = 2, c = 5. D = 2^2 - 4(1)(5) = 4 - 20 = -16 < 0. Since D < 0, there are no real roots. Reason correctly explains Assertion.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-018",
+      "type": "assertion_reasoning",
+      "subtopic": "Opposite Signed Coefficients",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The quadratic equation 3x^2 - 7x - 4 = 0 definitely has two distinct real roots.\nReason (R): If 'a' and 'c' have opposite signs, then -4ac is strictly positive, guaranteeing that D = b^2 - 4ac > 0 for all real values of b.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here a = 3 and c = -4. Since a and c have opposite signs, -4ac = -4(3)(-4) = +48 > 0. Since b^2 = (-7)^2 = 49 >= 0, D = 49 + 48 = 97 > 0, ensuring two distinct real roots. (R) correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-019",
+      "type": "assertion_reasoning",
+      "subtopic": "Zero Linear Coefficient Symmetry",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If b = 0 in ax^2 + bx + c = 0 and ac < 0, the roots are numerically equal in magnitude but opposite in sign.\nReason (R): When b = 0, ax^2 + c = 0 gives x = +- sqrt(-c/a). If ac < 0, -c/a is positive, yielding two symmetric real roots +sqrt(-c/a) and -sqrt(-c/a).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "If b = 0, x^2 = -c/a. Since ac < 0, -c/a > 0. The roots are x = sqrt(-c/a) and x = -sqrt(-c/a), which are equal in magnitude and opposite in sign. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-020",
+      "type": "assertion_reasoning",
+      "subtopic": "Cubic Expansion False Quadratic",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The equation (x + 2)^3 = x^3 - 4 is a quadratic equation.\nReason (R): An equation of degree 3 can never be a quadratic equation under any algebraic simplification.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 2,
+      "explanation": "Assertion (A) is TRUE: Expanding (x + 2)^3 = x^3 + 6x^2 + 12x + 8. Thus x^3 + 6x^2 + 12x + 8 = x^3 - 4 => 6x^2 + 12x + 12 = 0 => x^2 + 2x + 2 = 0. The x^3 terms cancel, leaving a quadratic equation of degree 2! Reason (R) is FALSE because algebraic cancellation can reduce an expression with cubic terms into a quadratic form. Hence (A) is true, but (R) is false.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-021",
+      "type": "assertion_reasoning",
+      "subtopic": "Linear Expression of General Term",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If the nth term of a sequence is given by a_n = 5n - 3, the sequence is an AP with common difference 5.\nReason (R): Any sequence whose nth term is a linear expression in 'n' of the form an + b is an AP, and the coefficient of 'n' is its common difference.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "a_(n+1) - a_n = [5(n+1) - 3] - [5n - 3] = 5n + 5 - 3 - 5n + 3 = 5 (constant). Thus it is an AP with common difference 5. Reason (R) states this general algebraic theorem correctly.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-022",
+      "type": "assertion_reasoning",
+      "subtopic": "Quadratic Sum Expression Criterion",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The sum of n terms of a sequence is S_n = 2n^2 + 3n + 1. This sequence is an AP.\nReason (R): The sum of the first n terms of an AP is always a quadratic polynomial in 'n' with NO constant term (i.e., S_n = An^2 + Bn).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is FALSE: If S_n has a constant term (like +1), then S_0 != 0 (S_0 = 1). Then a_1 = S_1 = 6. a_2 = S_2 - S_1 = 15 - 6 = 9. a_3 = S_3 - S_2 = 28 - 15 = 13. The differences are a_2 - a_1 = 3, while a_3 - a_2 = 4 (not constant!). Reason (R) is TRUE: for an AP, S_n must have the form An^2 + Bn with constant term 0. Thus (A) is false, but (R) is true.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-023",
+      "type": "assertion_reasoning",
+      "subtopic": "Common Difference Formula from Sums",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In any arithmetic progression, the common difference 'd' can be calculated using the formula d = S_2 - 2*S_1.\nReason (R): S_1 = a_1 and S_2 = a_1 + a_2. Hence S_2 - 2*S_1 = (a_1 + a_2) - 2*a_1 = a_2 - a_1 = d.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Since S_1 is the first term a, and S_2 is the sum of the first two terms a + (a + d) = 2a + d. Then S_2 - 2*S_1 = (2a + d) - 2a = d. Both statements are true and Reason (R) proves Assertion (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-024",
+      "type": "assertion_reasoning",
+      "subtopic": "Arithmetic Mean Condition",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If 10, x, 20 are in AP, then x = 15.\nReason (R): If three numbers a, b, c are in AP, then the middle term b is the arithmetic mean of a and c, given by b = (a + c) / 2.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here x = (10 + 20)/2 = 30/2 = 15. Both (A) and (R) are true and (R) is the exact algebraic theorem explaining (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-025",
+      "type": "assertion_reasoning",
+      "subtopic": "Linear Scale Factor Invariance",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If each term of an AP is multiplied by a constant k, the resulting sequence is also an AP with common difference k*d.\nReason (R): If a_1, a_2, a_3, ... has common difference d, then ka_2 - ka_1 = k(a_2 - a_1) = kd.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Multiplying each term by k scales the difference between any two successive terms by k: ka_(n+1) - ka_n = k(a_(n+1) - a_n) = kd. Both (A) and (R) are true and (R) proves (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2023-math-026",
+      "type": "assertion_reasoning",
+      "subtopic": "Equilateral Triangles Similarity",
+      "difficulty": "Easy",
+      "question": "Assertion (A): Any two equilateral triangles are always similar.\nReason (R): In any two equilateral triangles, all interior angles are equal to 60 degrees, satisfying the AAA similarity criterion.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Every equilateral triangle has three 60 degree angles. Since all corresponding angles are equal, any two equilateral triangles are similar by AAA criterion. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-027",
+      "type": "assertion_reasoning",
+      "subtopic": "Converse of Thales Theorem",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In triangle ABC, if D and E are points on AB and AC such that AD = 2 cm, BD = 3 cm, AE = 4 cm, and CE = 6 cm, then DE is parallel to BC.\nReason (R): If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "AD / BD = 2/3. AE / CE = 4/6 = 2/3. Since AD/BD = AE/CE, by Theorem 6.2 (Converse of BPT), DE || BC. Both (A) and (R) are true and (R) is the theorem that explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-028",
+      "type": "assertion_reasoning",
+      "subtopic": "Perimeter Ratio Invariance",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If triangle ABC ~ triangle PQR with AB / PQ = 2 / 5, then Perimeter(ABC) / Perimeter(PQR) = 2 / 5.\nReason (R): For any two similar triangles, the ratio of their perimeters is equal to the square of the ratio of their corresponding sides.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 2,
+      "explanation": "Assertion (A) is TRUE: Perimeter ratio = side ratio = 2/5. Reason (R) is FALSE: The ratio of perimeters is equal to the first power of the ratio of sides (NOT the square). The ratio of AREAS is equal to the square of the ratio of sides. Thus (A) is true, but (R) is false.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-029",
+      "type": "assertion_reasoning",
+      "subtopic": "Right Triangle Vertex Altitude",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In a right triangle ABC right-angled at B, if BD is perpendicular to AC, then triangle ADB is similar to triangle BDC.\nReason (R): If a perpendicular is drawn from the vertex of the right angle of a right triangle to the hypotenuse, then triangles on both sides of the perpendicular are similar to the whole triangle and to each other.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "This is Theorem 6.7 in NCERT Class 10. By AA similarity, both sub-triangles are similar to triangle ABC, and hence similar to each other. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-030",
+      "type": "assertion_reasoning",
+      "subtopic": "SAS Similarity Angle Requirement",
+      "difficulty": "Hard",
+      "question": "Assertion (A): If in triangle ABC and triangle DEF, AB/DE = BC/EF and angle A = angle D, the triangles are NOT necessarily similar.\nReason (R): Under the SAS similarity criterion, the equal angle must be the INCLUDED angle between the two proportional sides (i.e., angle B = angle E).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "In SAS similarity, the angle must strictly be included between the proportional sides. For AB and BC, the included angle is angle B (not angle A). Therefore, without angle B = angle E, similarity cannot be guaranteed. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-031",
+      "type": "assertion_reasoning",
+      "subtopic": "Pythagoras Converse Right Angle",
+      "difficulty": "Easy",
+      "question": "Assertion (A): In triangle ABC, if AB = 6 cm, BC = 8 cm, and AC = 10 cm, then angle B = 90 degrees.\nReason (R): In a triangle, if the square of one side is equal to the sum of the squares of the other two sides, then the angle opposite the first side is a right angle.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "6^2 + 8^2 = 36 + 64 = 100 = 10^2 (AC^2 = AB^2 + BC^2). By the converse of Pythagoras Theorem (Theorem 6.9), the angle opposite AC (which is angle B) is 90 degrees. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-032",
+      "type": "assertion_reasoning",
+      "subtopic": "Midpoint Theorem via BPT",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The line segment joining the midpoints of any two sides of a triangle is parallel to the third side.\nReason (R): If D and E are midpoints of AB and AC, then AD/DB = 1/1 = 1 and AE/EC = 1/1 = 1; by the converse of BPT, DE || BC.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Since AD/DB = AE/EC = 1, by the converse of Thales theorem, DE || BC. This provides a rigorous proof of the Midpoint Theorem using BPT. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-033",
+      "type": "assertion_reasoning",
+      "subtopic": "Perpendicular Distance Sign Invariance",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The perpendicular distance of the point P(-5, 7) from the x-axis is 7 units.\nReason (R): The perpendicular distance of any point (x, y) from the x-axis is given by |y|.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Distance from x-axis is |y| = |7| = 7 units. Distance is always a non-negative scalar. Both (A) and (R) are true and (R) directly explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-034",
+      "type": "assertion_reasoning",
+      "subtopic": "Midpoint Centroid Correspondence",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The centroid of a triangle divides each median internally in the ratio 2 : 1 from the vertex to the opposite side.\nReason (R): For any triangle with vertices (x1, y1), (x2, y2), (x3, y3), the coordinates of the centroid are ((x1+x2+x3)/3, (y1+y2+y3)/3).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 1,
+      "explanation": "Both statements are individually true, but Reason (R) gives the coordinate formula, whereas the 2:1 ratio is a geometric property of medians concurrent at the centroid. Thus (R) is not the explanation of (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-035",
+      "type": "assertion_reasoning",
+      "subtopic": "Square vs Rhombus Classification",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If all four sides of a quadrilateral are equal, it must be a square.\nReason (R): A quadrilateral with four equal sides is a rhombus; it is a square only if its diagonals are also equal in length.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is FALSE: A quadrilateral with four equal sides can be a rhombus without right angles. Reason (R) is TRUE: for it to be a square, its diagonals must also be equal. Hence (A) is false, but (R) is true.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-036",
+      "type": "assertion_reasoning",
+      "subtopic": "Collinearity Triangle Area Criterion",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The points A(1, 2), B(2, 3), and C(3, 4) form a triangle with area zero.\nReason (R): If three points are collinear, the area of the triangle formed by them is zero.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Slope AB = (3-2)/(2-1) = 1. Slope BC = (4-3)/(3-2) = 1. Since slopes are equal, the points lie on the line y = x + 1 (collinear). The area of the degenerate triangle formed by them is 0. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-037",
+      "type": "assertion_reasoning",
+      "subtopic": "Parallelogram Diagonal Intersection",
+      "difficulty": "Easy",
+      "question": "Assertion (A): In a parallelogram ABCD, the midpoint of diagonal AC coincides with the midpoint of diagonal BD.\nReason (R): The diagonals of a parallelogram bisect each other.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "By definition and property of parallelograms, diagonals bisect each other, which mathematically means their midpoints are identical. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-038",
+      "type": "assertion_reasoning",
+      "subtopic": "Trisection Ratio Verification",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The points of trisection of a line segment AB divide it in the ratios 1 : 2 and 2 : 1 internally.\nReason (R): Trisection means dividing a given line segment into three equal lengths.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Trisection divides a segment of length L into three equal parts of L/3 each. The first point has lengths L/3 and 2L/3 (ratio 1:2); the second has 2L/3 and L/3 (ratio 2:1). Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-039",
+      "type": "assertion_reasoning",
+      "subtopic": "Right Triangle Hypotenuse Distance",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The triangle with vertices (0, 4), (0, 0), and (3, 0) is a right-angled triangle.\nReason (R): The sides along the axes lie on the x-axis and y-axis, which are mutually perpendicular at the origin (0, 0).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "The vertices (0, 4) and (3, 0) form sides of lengths 4 and 3 along the y-axis and x-axis respectively. Since the coordinate axes are perpendicular (angle at origin = 90 deg), the triangle is right-angled. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-040",
+      "type": "assertion_reasoning",
+      "subtopic": "Circumscribed Parallelogram is Rhombus",
+      "difficulty": "Medium",
+      "question": "Assertion (A): A parallelogram circumscribing a circle is always a rhombus.\nReason (R): In any quadrilateral circumscribing a circle, the sum of opposite sides is equal (AB + CD = AD + BC); for a parallelogram this forces all four sides to be equal.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "In a parallelogram AB = CD and BC = AD. The circumscribing property gives 2 AB = 2 AD => AB = AD. Since adjacent sides are equal, it is a rhombus. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-041",
+      "type": "assertion_reasoning",
+      "subtopic": "Concentric Circles Tangent Chord Bisection",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If a chord of a larger circle touches an inner concentric circle, the point of contact bisects the chord.\nReason (R): The radius of the inner circle to the point of contact is perpendicular to the tangent chord, and the perpendicular from the centre of a circle to a chord bisects the chord.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "OP is perpendicular to AB (by Theorem 10.1). Since AB is also a chord of the outer circle with centre O, the perpendicular from the centre bisects the chord (AP = PB). Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-042",
+      "type": "assertion_reasoning",
+      "subtopic": "Perpendicular Tangents Square Property",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If two tangents drawn from an external point to a circle of radius 4 cm are mutually perpendicular, the distance of the external point from the centre is 4 sqrt(2) cm.\nReason (R): The quadrilateral formed by the two tangents and the two radii through the points of contact is a square of side 4 cm.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "All four angles are 90 deg and adjacent sides equal radius 4 cm, making OAPB a square of side 4 cm. The distance OP is the diagonal of the square = side * sqrt(2) = 4*sqrt(2) cm. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-043",
+      "type": "assertion_reasoning",
+      "subtopic": "Diameter Endpoints Parallel Tangents",
+      "difficulty": "Easy",
+      "question": "Assertion (A): Tangents drawn at the ends of any diameter of a circle are parallel.\nReason (R): The radii drawn to the endpoints of a diameter are collinear, making the two tangents perpendicular to the same straight line.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Two lines perpendicular to the same transversal line (the diameter) are parallel to each other. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-044",
+      "type": "assertion_reasoning",
+      "subtopic": "Supplementary Tangent Angle Proof",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The angle between the two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line-segment joining the points of contact at the centre.\nReason (R): The sum of all four interior angles of a convex quadrilateral is 360 degrees, and the two angles at the points of contact are 90 degrees each.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "In quadrilateral OPTQ: angle P + angle Q = 90 + 90 = 180 deg. Therefore, angle PTQ + angle POQ = 360 - 180 = 180 deg (supplementary). Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-045",
+      "type": "assertion_reasoning",
+      "subtopic": "Circumscribed Rectangle Forces Square",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If a rectangle circumscribes a circle, it must be a square.\nReason (R): In a circumscribing quadrilateral, AB + CD = AD + BC. For a rectangle where opposite sides are equal, 2 AB = 2 BC => AB = BC (all sides equal).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "A rectangle with adjacent sides equal (AB = BC) has four equal sides and four right angles, which is by definition a square. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2023-math-046",
+      "type": "assertion_reasoning",
+      "subtopic": "Fundamental Identity Invariance",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The equality sin^2 theta + cos^2 theta = 1 holds true for all angles theta between 0 deg and 90 deg.\nReason (R): In any right triangle with sides a, b and hypotenuse c, by Pythagoras theorem a^2 + b^2 = c^2; dividing by c^2 yields (a/c)^2 + (b/c)^2 = 1, which is sin^2 theta + cos^2 theta = 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "In right triangle ABC right-angled at B with acute angle \u03b8 at A: by the Pythagorean theorem, AB\u00b2 + BC\u00b2 = AC\u00b2. Dividing every term by the square of hypotenuse AC\u00b2: (AB/AC)\u00b2 + (BC/AC)\u00b2 = (AC/AC)\u00b2 = 1. Since AB/AC = cos \u03b8 and BC/AC = sin \u03b8, this directly proves the fundamental identity: cos\u00b2\u03b8 + sin\u00b2\u03b8 = 1 for all angles 0\u00b0 \u2264 \u03b8 \u2264 90\u00b0. Both Assertion (A) and Reason (R) are mathematically true, and Reason (R) is the exact derivation and explanation of Assertion (A). (NCERT Section 8.4).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-047",
+      "type": "assertion_reasoning",
+      "subtopic": "Secant Range Lower Bound",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The value of sec theta can never be less than 1 for any acute angle theta.\nReason (R): sec theta = hypotenuse / adjacent side, and in any right-angled triangle, the hypotenuse is the longest side, so hypotenuse >= adjacent side.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "By definition in a right-angled triangle, secant is the ratio of hypotenuse to adjacent side: sec \u03b8 = Hypotenuse / Adjacent Side. In Euclidean geometry, the hypotenuse is the longest side of a right triangle, lying opposite the 90\u00b0 angle. Therefore, Hypotenuse \u2265 Adjacent Side is always satisfied. Dividing by Adjacent Side gives sec \u03b8 \u2265 1 for all acute angles (sec 0\u00b0 = 1, and sec \u03b8 > 1 for \u03b8 > 0\u00b0). Consequently, sec \u03b8 can never be strictly less than 1. Both statements are true and Reason (R) explains Assertion (A). (NCERT Section 8.2).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-048",
+      "type": "assertion_reasoning",
+      "subtopic": "Sine Value Upper Bound Falsehood",
+      "difficulty": "Easy",
+      "question": "Assertion (A): For an acute angle theta, sin theta can be equal to 4/3.\nReason (R): For any acute angle theta, sin theta = opposite/hypotenuse <= 1, because the hypotenuse is always longer than the opposite side in a right-angled triangle.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is FALSE: 4/3 > 1, and sin theta cannot exceed 1. Reason (R) is TRUE: hypotenuse is the longest side so opposite/hypotenuse <= 1. Hence (A) is false, but (R) is true.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-049",
+      "type": "assertion_reasoning",
+      "subtopic": "Tangent as Ratio of Sine and Cosine",
+      "difficulty": "Easy",
+      "question": "Assertion (A): tan theta = sin theta / cos theta for all acute angles theta < 90 deg.\nReason (R): tan theta = opposite/adjacent = (opposite/hypotenuse) / (adjacent/hypotenuse) = sin theta / cos theta.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "By definition in a right-angled triangle with acute angle \u03b8: sin \u03b8 = Opposite Side / Hypotenuse, and cos \u03b8 = Adjacent Side / Hypotenuse. Taking the quotient of these two primary ratios: sin \u03b8 / cos \u03b8 = (Opposite / Hypotenuse) / (Adjacent / Hypotenuse). The common denominator (Hypotenuse) cancels out: sin \u03b8 / cos \u03b8 = Opposite / Adjacent. By definition, Opposite / Adjacent is tan \u03b8. Hence, tan \u03b8 = sin \u03b8 / cos \u03b8. Both Assertion (A) and Reason (R) are true, and (R) correctly explains (A). (NCERT Section 8.2).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-050",
+      "type": "assertion_reasoning",
+      "subtopic": "Tangent at 90 Degrees Undefined",
+      "difficulty": "Medium",
+      "question": "Assertion (A): tan 90 deg is not defined.\nReason (R): As theta approaches 90 deg, cos theta approaches 0, and division by zero is mathematically undefined.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "By the quotient definition, tan \u03b8 = sin \u03b8 / cos \u03b8. For \u03b8 = 90\u00b0, we evaluate the exact values: sin(90\u00b0) = 1 and cos(90\u00b0) = 0. Substituting these gives tan(90\u00b0) = 1 / 0. In mathematics, division by zero is strictly undefined (the ratio grows without bound, tending toward infinity). Both Assertion (A) that tan 90\u00b0 is not defined and Reason (R) that cos 90\u00b0 = 0 causing division by zero are true, and Reason (R) directly explains Assertion (A). (NCERT Table 8.1).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-051",
+      "type": "assertion_reasoning",
+      "subtopic": "Secant Tangent Reciprocal Pair",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If sec theta + tan theta = 5, then sec theta - tan theta = 1/5.\nReason (R): The identity sec^2 theta - tan^2 theta = 1 can be factored as (sec theta + tan theta)(sec theta - tan theta) = 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Since (sec theta + tan theta)(sec theta - tan theta) = sec^2 theta - tan^2 theta = 1, (sec theta - tan theta) = 1 / (sec theta + tan theta) = 1/5. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-052",
+      "type": "assertion_reasoning",
+      "subtopic": "Sun Elevation Diurnal Variation",
+      "difficulty": "Easy",
+      "question": "Assertion (A): From sunrise until midday, the length of the shadow of a vertical pole decreases continuously.\nReason (R): As the sun rises in the sky, its angle of elevation theta increases, and since shadow length s = h / tan theta, shadow decreases as tan theta increases.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "As the sun rises, the angle of elevation theta increases towards 90 deg. Since tan theta increases, the ratio h / tan theta (shadow length) gets smaller and smaller until solar noon. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-053",
+      "type": "assertion_reasoning",
+      "subtopic": "Complementary Angles Tower Height Proof",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If the angles of elevation of the top of a tower from two points at distances 9 m and 16 m from the base are complementary, the height of the tower is 12 m.\nReason (R): For any tower of height h with complementary angles of elevation from distances a and b on the same side, h = sqrt(ab).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here h = sqrt(9 * 16) = sqrt(144) = 12 m. Reason (R) states the general formula h = sqrt(ab) for complementary angles of elevation. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-054",
+      "type": "assertion_reasoning",
+      "subtopic": "Observer Height Significance",
+      "difficulty": "Easy",
+      "question": "Assertion (A): When calculating the height of a tall mountain from the ground, the height of the observer is often neglected, but for a 10 m building, it must be included.\nReason (R): An observer height of ~1.5 m is negligible compared to a mountain of 5000 m, but constitutes 15% of a 10 m building.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "In engineering and survey trigonometry, small heights can be neglected when the total scale is thousands of times larger, but must be accounted for when the scale is comparable. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-055",
+      "type": "assertion_reasoning",
+      "subtopic": "Angle of Depression Direction Check",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The angle of depression of an object can be greater than 90 degrees.\nReason (R): The angle of depression is measured downward from the horizontal line of sight to the line of sight, ranging strictly from 0 deg to 90 deg.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is FALSE: An angle of depression cannot exceed 90 degrees (which would be straight down beneath the observer). Reason (R) is TRUE: it ranges strictly between 0 and 90 degrees. Thus (A) is false, but (R) is true.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-056",
+      "type": "assertion_reasoning",
+      "subtopic": "Minor Segment Area Definition",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The area of a minor segment is always equal to the area of the corresponding sector minus the area of the corresponding triangle.\nReason (R): A circular segment is defined as the region bounded by a chord and its corresponding intercepted arc.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Assertion (A) states: The area of a minor segment is equal to the area of the corresponding sector minus the area of the corresponding triangle. Reason (R) states the geometric decomposition principle. Geometrically, a circular sector bounded by radii OA and OB and arc AB can be partitioned by chord AB into two distinct non-overlapping regions: the triangle OAB and the circular segment AB. Therefore: Area(Segment) = Area(Sector) - Area(Triangle). Hence, both Assertion (A) and Reason (R) are true, and (R) correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-057",
+      "type": "assertion_reasoning",
+      "subtopic": "Quadrant Sector Angle Constant",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The area of a quadrant of a circle of radius r is (1/4) pi * r^2.\nReason (R): A quadrant is a sector of a circle whose central angle is 90 degrees.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Assertion (A) states that the area of a quadrant of a circle of radius r is (1/4) * pi * r^2. Reason (R) states the general formula for the area of a circular sector: Area = (theta / 360) * pi * r^2. By geometric definition, a quadrant represents one-fourth of a circle, subtending a right central angle of theta = 90 degrees at the center. Substituting theta = 90 into the sector formula yields: Area = (90 / 360) * pi * r^2 = (1/4) * pi * r^2. Therefore, both (A) and (R) are true, and Reason (R) provides the direct derivation of (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-058",
+      "type": "assertion_reasoning",
+      "subtopic": "Sector Area in Terms of Arc Length",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The area of a sector of a circle can be calculated using the formula A = (1/2) * l * r, where l is arc length and r is radius.\nReason (R): A circular sector of radius r and arc length l can be approximated as a triangle with base l and altitude r.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Assertion (A) states that the area of a sector can be computed as Area = (1/2) * l * r, where l is the arc length. Reason (R) connects the arc length formula l = (theta / 360) * 2 * pi * r with the sector area formula. Substituting l into the expression: (1/2) * l * r = (1/2) * [(theta / 360) * 2 * pi * r] * r = (theta / 360) * pi * r^2. Analytically, this formula mirrors the area of a triangle with base l and height r, where the curved arc is 'unrolled'. Thus, both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-059",
+      "type": "assertion_reasoning",
+      "subtopic": "Perimeter Radius Doubling",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If the radius of a circle is doubled, its perimeter is doubled.\nReason (R): The circumference of a circle is directly proportional to its radius (C = 2*pi*r).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Assertion (A) states: If the radius of a circle is doubled, its perimeter (circumference) is doubled. Reason (R) states that circumference C is directly proportional to radius r, given by C = 2 * pi * r. Let the initial radius be r, so initial perimeter is C = 2 * pi * r. When the radius is doubled to r' = 2r, the new perimeter becomes C' = 2 * pi * (2r) = 2 * (2 * pi * r) = 2C. Because circumference scales linearly with the first power of radius (C proportional to r), both (A) and (R) are true, and (R) correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-060",
+      "type": "assertion_reasoning",
+      "subtopic": "Area Radius Doubling Quadratic",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If the radius of a circle is doubled, its area is quadrupled.\nReason (R): The area of a circle is directly proportional to the square of its radius (A = pi * r^2).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Assertion (A) states that doubling the radius of a circle quadruples its area. Reason (R) states that the area of a circle scales with the square of its radius, given by A = pi * r^2. Let the original radius be r, so initial area is A = pi * r^2. When the radius is doubled to r' = 2r, the new area becomes A' = pi * (2r)^2 = pi * (4 * r^2) = 4 * (pi * r^2) = 4A. Since area is a two-dimensional quadratic metric that scales with r^2, doubling the linear dimension quadruples the enclosed area. Both (A) and (R) are true, and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-061",
+      "type": "assertion_reasoning",
+      "subtopic": "Surface Area Non-Conservation",
+      "difficulty": "Easy",
+      "question": "Assertion (A): When two identical cubes of side 'a' are joined end to end, the total surface area of the resulting cuboid is 10a^2 (not 12a^2).\nReason (R): When two cubes are joined together, two faces of area a^2 each coalesce and become internal, so 2a^2 is lost from the external surface.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "A single cube of side 'a' has 6 identical square faces, giving a total surface area of 6a^2. For two isolated cubes, the combined surface area is 2 * 6a^2 = 12a^2. When joined face-to-face along one of their square faces, the two contacting faces of area a^2 each are pressed together and cease to be part of the exterior boundary. Total surface area of the resulting cuboid (dimensions 2a by a by a) is 2(2a*a + a*a + 2a*a) = 2(2a^2 + a^2 + 2a^2) = 10a^2. Hence, 12a^2 - 2a^2 = 10a^2. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-062",
+      "type": "assertion_reasoning",
+      "subtopic": "Hemisphere Curvature vs Base Area",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The curved surface area of a hemisphere of radius r is 2 pi * r^2.\nReason (R): A hemisphere is obtained by cutting a sphere of surface area 4 pi * r^2 into two equal halves along a great circle.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "A complete solid sphere of radius r has a total continuous surface area of 4*pi*r^2. Cutting the sphere across its diametral plane (a great circle) splits the spherical surface symmetrically into two identical hemispherical domes. The curved surface area (CSA) of each hemisphere is therefore exactly half of the complete spherical area: CSA = (1/2) * (4*pi*r^2) = 2*pi*r^2. If the flat circular base area (pi*r^2) is included, the total surface area (TSA) becomes 3*pi*r^2. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-063",
+      "type": "assertion_reasoning",
+      "subtopic": "Cone Volumetric Proportionality",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If the radius of a cone is doubled while its height is halved, its volume is doubled.\nReason (R): Volume of a cone is V = (1/3) pi * r^2 * h; replacing r by 2r and h by h/2 gives V' = (1/3) pi * (4r^2) * (h/2) = 2 * [(1/3) pi * r^2 * h] = 2V.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "The volume of a right circular cone is given by the formula V = (1/3)*pi*r^2*h. When the radius is doubled (r' = 2r) and the vertical height is halved (h' = h/2), the new volume becomes V' = (1/3)*pi*(2r)^2*(h/2) = (1/3)*pi*(4r^2)*(h/2) = 2 * [(1/3)*pi*r^2*h] = 2V. Because volume scales quadratically with radius (factor of 4) and linearly with height (factor of 1/2), the compound effect is 4 * 1/2 = 2. Thus, the new volume is exactly twice the original volume. Both Assertion (A) and Reason (R) are true, and (R) correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-064",
+      "type": "assertion_reasoning",
+      "subtopic": "Scooped Cavity Surface Area Increase",
+      "difficulty": "Medium",
+      "question": "Assertion (A): When a conical cavity of same height and radius is scooped out from a solid cylinder, the total surface area of the remaining solid is greater than the total surface area of the original cylinder.\nReason (R): Scooping out creates an additional curved conical interior surface area pi*r*l while removing only a flat circular base area pi*r^2, and since l > r, pi*r*l > pi*r^2.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Original total surface area of solid cylinder = 2*pi*r*h + 2*pi*r^2. Scooping out a conical cavity of same radius r and height h removes the top circular flat lid (-pi*r^2) but exposes an internal conical surface (+pi*r*l). New total surface area = 2*pi*r*h + pi*r^2 + pi*r*l. Difference in area = (New TSA) - (Original TSA) = pi*r*l - pi*r^2 = pi*r(l - r). In any right cone, slant height l = sqrt(r^2 + h^2) > r (since h > 0). Therefore, pi*r(l - r) > 0, meaning total surface area strictly increases. Both (A) and (R) are true and (R) correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-065",
+      "type": "assertion_reasoning",
+      "subtopic": "Linear Scale Factor Volume Cube",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If the edge of a cube is increased by 100% (doubled), its volume increases by 700%.\nReason (R): When edge a is replaced by 2a, new volume V' = (2a)^3 = 8a^3 = 8V, which represents an increase of (8V - V)/V * 100% = 700%.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Let the original edge of a cube be 'a'. The original volume is V = a^3. When the edge is increased by 100%, the new edge becomes a + 100% of a = 2a (doubled). The new volume is V' = (2a)^3 = 8a^3 = 8V. The absolute increase in volume is V' - V = 8V - V = 7V. The percentage increase over the original volume is ((V' - V) / V) * 100% = (7V / V) * 100% = 700%. Notice that while the new volume is 800% of the original, the increase itself is 700%. Both Assertion (A) and Reason (R) are true, and Reason (R) is the exact mathematical proof of (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2023-math-066",
+      "type": "assertion_reasoning",
+      "subtopic": "Modal Class Identification",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In a frequency distribution, the modal class is always the class interval with the highest frequency.\\nReason (R): Mode is the value among the observations which occurs most frequently.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "By definition, mode is the observation with maximum frequency. For grouped data, the interval containing this maximum concentration is the modal class. Both are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-067",
+      "type": "assertion_reasoning",
+      "subtopic": "Median Class and Ogive",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The median of grouped data can be determined graphically as the x-coordinate of the intersection point of less than and more than ogives.\\nReason (R): At the point of intersection of both ogives, the cumulative frequency equals N/2.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "The less than ogive rises to N while the more than ogive falls from N. They intersect exactly at the height y = N/2, where the corresponding x value is the median. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-068",
+      "type": "assertion_reasoning",
+      "subtopic": "Class Mark Invariance",
+      "difficulty": "Medium",
+      "question": "Assertion (A): When calculating the mean of grouped data, it is assumed that the frequency of each class is centered at its class mark.\\nReason (R): Class mark is calculated as (Upper limit - Lower limit) / 2.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 2,
+      "explanation": "Assertion (A) is true (this is the fundamental assumption of grouped data mean). Reason (R) is FALSE because class mark is (Upper limit + Lower limit)/2, whereas (Upper limit - Lower limit) is the class size.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-069",
+      "type": "assertion_reasoning",
+      "subtopic": "Linear Transformation of Data",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If 5 is added to each observation of a data set with mean 20, the new mean becomes 25.\\nReason (R): If a constant 'c' is added to each observation, the mean increases by 'c'.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "New mean = sum(xi + c)/n = sum(xi)/n + n*c/n = x\u0304 + c. Adding 5 to each observation increases the mean from 20 to 25. Both (A) and (R) are true and (R) is the correct explanation.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-070",
+      "type": "assertion_reasoning",
+      "subtopic": "Continuous Interval for Mode",
+      "difficulty": "Medium",
+      "question": "Assertion (A): Before finding the mode of grouped data with discontinuous class intervals (e.g. 1-10, 11-20), the intervals must be made continuous.\\nReason (R): The formula for mode assumes continuous boundaries so that the class limit 'l' exactly touches the preceding interval.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "The formula for mode Mode = l + [(f1 - f0)/(2f1 - f0 - f2)] * h requires continuous class limits, otherwise there is an unrepresented gap of 1 unit between classes. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-071",
+      "type": "assertion_reasoning",
+      "subtopic": "Step Deviation Equivalence",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The mean obtained by the direct method, assumed mean method, and step-deviation method is always identically the same.\\nReason (R): Step-deviation and assumed mean methods are algebraic simplifications of the direct method, introducing no mathematical approximation.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "All three methods are mathematically exact algebraic identities: x\u0304 = a + h * [sum(fi * ui)/sum(fi)] = a + sum(fi * di)/sum(fi) = sum(fi * xi)/sum(fi). They yield identical numerical answers. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-072",
+      "type": "assertion_reasoning",
+      "subtopic": "Median Outlier Robustness",
+      "difficulty": "Medium",
+      "question": "Assertion (A): For highly skewed income distributions with billionaires and low-wage earners, median is preferred over mean as the measure of central tendency.\\nReason (R): Unlike the mean, the median is not disproportionately distorted by extreme extreme outlier values.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "The median divides the ordered data in half and depends only on positional ranking, making it robust against extreme outliers. The mean incorporates the magnitude of every observation and is pulled strongly toward extremes. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-073",
+      "type": "assertion_reasoning",
+      "subtopic": "Mode in Equal Frequencies",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If all classes in a frequency distribution have the exact same frequency, the distribution has no unique mode.\\nReason (R): Mode requires one class to have a higher frequency than its neighboring classes.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "If every class has the same frequency, no single value or interval occurs more frequently than any other; hence the distribution is uniform and has no mode. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-074",
+      "type": "assertion_reasoning",
+      "subtopic": "Equally Likely Outcomes",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In throwing a die, the probability of getting an odd number is equal to the probability of getting an even number.\\nReason (R): There are 3 odd numbers {1, 3, 5} and 3 even numbers {2, 4, 6} out of 6 equally likely outcomes.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "P(odd) = 3/6 = 1/2 and P(even) = 3/6 = 1/2. They are equal because each set contains exactly 3 equally likely outcomes. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-075",
+      "type": "assertion_reasoning",
+      "subtopic": "Sure Event Probability",
+      "difficulty": "Easy",
+      "question": "Assertion (A): In a single roll of a standard die, the probability of getting a number less than 7 is 1.\\nReason (R): An event whose occurrence is certain is called a sure or certain event, and its probability is always 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "All numbers on a die {1, 2, 3, 4, 5, 6} are strictly less than 7. Favourable = 6, Total = 6, P = 6/6 = 1. This is a sure event. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-076",
+      "type": "assertion_reasoning",
+      "subtopic": "Impossible Event Number Greater than 6",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The probability of getting a number 8 in a single throw of a die is 0.\\nReason (R): Number 8 is an impossible event for a standard 6-faced die.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "A standard die has faces numbered 1 to 6. Number 8 cannot appear, so favourable outcomes = 0 and P = 0. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-077",
+      "type": "assertion_reasoning",
+      "subtopic": "Face Card Probability in Cards",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If an ace is drawn from a pack of cards, it is a face card.\\nReason (R): A standard deck contains 12 face cards: 4 Kings, 4 Queens, and 4 Jacks.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Assertion (A) is FALSE: an Ace has the letter 'A' and is not a face card (picture card). Reason (R) is TRUE: only Kings, Queens, and Jacks are face cards, giving 3 * 4 = 12 face cards in total.",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-078",
+      "type": "assertion_reasoning",
+      "subtopic": "Two Dice Sum Minimum Value",
+      "difficulty": "Medium",
+      "question": "Assertion (A): When two dice are thrown together, the minimum possible sum of numbers is 2.\\nReason (R): The minimum number on each die is 1, so the smallest sum is 1 + 1 = 2.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Since each die takes values from {1, 2, 3, 4, 5, 6}, the minimum possible sum is 1 + 1 = 2, with outcome (1, 1). Both statements are true and (R) is the correct explanation of (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-079",
+      "type": "assertion_reasoning",
+      "subtopic": "Leap Year 53 Sundays Probability",
+      "difficulty": "Hard",
+      "question": "Assertion (A): The probability of having 53 Sundays in a leap year is 2/7.\\nReason (R): A leap year has 366 days which contains 52 complete weeks and 2 extra days.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "366 = 52 * 7 + 2. The 2 extra days can form 7 consecutive pairs, out of which 2 pairs contain Sunday: (Saturday, Sunday) and (Sunday, Monday). Hence P = 2/7. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2023-math-080",
+      "type": "assertion_reasoning",
+      "subtopic": "Geometric Probability Ratio",
+      "difficulty": "Medium",
+      "question": "Assertion (A): In geometric probability, the probability of an event is defined as the ratio of the favourable measure (length, area, or volume) to the total measure of the sample space.\\nReason (R): All points in the continuous target region are assumed to be equally likely to be selected.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Geometric probability extends classical probability to continuous regions assuming uniform distribution (equally likely points). P(E) = Area(favourable) / Area(total). Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2023 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    }
+  ]
+}
