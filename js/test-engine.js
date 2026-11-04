@@ -725,6 +725,7 @@ class MockTestEngine {
     else if (this.examType === 'gre') chapterBadge = 'ETS GRE® General';
     else if (this.examType === 'toefl') chapterBadge = 'ETS TOEFL® iBT';
     else if (this.examType === 'gmat') chapterBadge = 'GMAT® Focus Edition';
+    else if (this.examType === 'ib') chapterBadge = 'IB® Diploma Programme';
 
     let badgesHtml = `<span class="badge badge-chapter">${chapterBadge}</span>`;
     if (this.currentSet === 'random') badgesHtml += `<span class="badge" style="background:linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.15)); color:#9333ea; font-weight:700; border:1px solid rgba(147,51,234,0.3);">🎲 Shuffled Mock</span>`;
@@ -885,7 +886,7 @@ class MockTestEngine {
       this.dom.explanationText.innerHTML = this.formatChemicalFormulas(q.explanation);
     }
     if (this.dom.citationTag) {
-      const defaultCitation = (this.examType === 'sat') ? 'College Board SAT' : (this.examType === 'ap' ? 'College Board AP® CED' : (this.examType === 'toefl' ? 'ETS TOEFL® iBT Framework' : (this.examType === 'gmat' ? 'GMAC GMAT Focus Blueprint' : 'Official NCERT Class 10 Syllabus')));
+      const defaultCitation = (this.examType === 'sat') ? 'College Board SAT' : (this.examType === 'ap' ? 'College Board AP® CED' : (this.examType === 'toefl' ? 'ETS TOEFL® iBT Framework' : (this.examType === 'gmat' ? 'GMAC GMAT Focus Blueprint' : (this.examType === 'ib' ? 'IB DP Official Subject Guide & Markscheme' : 'Official NCERT Class 10 Syllabus'))));
       this.dom.citationTag.textContent = q.citation || defaultCitation;
     }
     this.dom.explanationBox.classList.add('active');
@@ -1153,6 +1154,30 @@ class MockTestEngine {
       rankBadge = `📊 GMAT® Focus Scaled: ${gmatSecScaled} / 90`;
       rankDesc = `${gmatPct}. Calibrated to official GMAC GMAT Focus Edition scoring benchmarks.`;
       predictedGrade = `Estimated Section Score: ${gmatSecScaled} / 90 • Est Total GMAT: ${gmatTotalEst} / 805`;
+    } else if (this.examType === 'ib') {
+      let ibGrade = 1;
+      if (scorePct >= 75) ibGrade = 7;
+      else if (scorePct >= 62) ibGrade = 6;
+      else if (scorePct >= 50) ibGrade = 5;
+      else if (scorePct >= 38) ibGrade = 4;
+      else if (scorePct >= 26) ibGrade = 3;
+      else if (scorePct >= 15) ibGrade = 2;
+      else ibGrade = 1;
+
+      if (ibGrade === 7) {
+        rankBadge = "🏆 IB Grade 7 (Exceptional Mastery)";
+        rankDesc = "Top global tier. Flawless conceptual execution across IB Higher Level / Standard Level markschemes.";
+      } else if (ibGrade === 6) {
+        rankBadge = "🎯 IB Grade 6 (Very Good Understanding)";
+        rankDesc = "Exceeds global averages. Minor review of multi-step derivations or physiological details needed.";
+      } else if (ibGrade >= 4) {
+        rankBadge = `👍 IB Diploma Passing Benchmark (Grade ${ibGrade})`;
+        rankDesc = "Firm grasp of core syllabus descriptors. Target higher command terms and application problems for Grade 6/7.";
+      } else {
+        rankBadge = `📚 Conceptual Revision Required (Grade ${ibGrade})`;
+        rankDesc = "Focus on foundational definitions, cycle diagrams, and core formulas before re-attempting.";
+      }
+      predictedGrade = `Estimated IB Grade: ${ibGrade} / 7 • Raw: ${correct} / ${total} Correct`;
     } else {
       // Board default
       if (scorePct < 40) {
@@ -1248,6 +1273,15 @@ class MockTestEngine {
         else if (scorePct >= 45) apScore = 3;
         else if (scorePct >= 30) apScore = 2;
         scaleEl.textContent = `Score ${apScore} / 5`;
+      } else if (this.examType === 'ib') {
+        let ibGrade = 1;
+        if (scorePct >= 75) ibGrade = 7;
+        else if (scorePct >= 62) ibGrade = 6;
+        else if (scorePct >= 50) ibGrade = 5;
+        else if (scorePct >= 38) ibGrade = 4;
+        else if (scorePct >= 26) ibGrade = 3;
+        else if (scorePct >= 15) ibGrade = 2;
+        scaleEl.textContent = `Grade ${ibGrade} / 7`;
       }
     }
     const timeEl = document.getElementById('score-time');
@@ -1326,7 +1360,9 @@ class MockTestEngine {
                 ? 'ETS TOEFL® Official Rationale & Passage Evidence'
                 : (this.examType === 'gmat'
                   ? 'GMAC Solution Breakdown & Strategic Analysis'
-                  : 'NCERT Conceptual Explanation'))))));
+                  : (this.examType === 'ib'
+                    ? 'IB DP Official Markscheme & Syllabus Breakdown'
+                    : 'NCERT Conceptual Explanation')))))));
 
     const defaultCitation = this.examType === 'sat'
       ? 'College Board SAT'
@@ -1342,7 +1378,9 @@ class MockTestEngine {
                 ? 'ETS TOEFL® iBT Official Blueprint'
                 : (this.examType === 'gmat'
                   ? 'Official GMAC GMAT Focus Framework'
-                  : 'NCERT Class 10'))))));
+                  : (this.examType === 'ib'
+                    ? 'IB DP Official Subject Guide & Markscheme'
+                    : 'NCERT Class 10')))))));
 
     this.questions.forEach((q, idx) => {
       const userChoice = this.userAnswers[idx];

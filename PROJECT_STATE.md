@@ -7,9 +7,9 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 128 Production Routes | 4,760+ Ground-Truth Verified Questions across 3 Focus Pillars | 2 High-Volume Evergreen Study Guides | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 2 Full 65-Q AWS CLF-C02 Simulators | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
-> **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs) | Official AWS CLF-C02 Domain Weightages & 700/1000 Scaled Scoring (130 Qs)  
-> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 128 pages (Nov 4, 2026)  
+> **Current Scale:** 130 Production Routes | 4,900+ Ground-Truth Verified Questions across 3 Focus Pillars | 2 High-Volume Evergreen Study Guides | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators (Biology & Math AA) | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
+> **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs) | Official AWS CLF-C02 Domain Weightages & 700/1000 Scaled Scoring (130 Qs) | Official IB DP Biology & Math AA Markschemes with Grade 1–7 Calibrations (140 Qs)  
+> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 130 pages (Nov 4, 2026)  
 
 ---
 
@@ -153,6 +153,9 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
   * **AWS® Certified Cloud Practitioner (CLF-C02) (130 Questions across 2 Full Mocks, 90 Mins each, 700/1000 Scaled Scoring):**
     * Practice Exam 01 (65 Qs: Cloud Concepts, Security & Compliance, Technology & Services, Billing & Pricing: `global/aws/cloud-practitioner-clf-c02-practice-01.html`)
     * Practice Exam 02 (65 Qs: Multi-AZ Architecture, IAM Best Practices, Cost Optimization, Shared Responsibility Model: `global/aws/cloud-practitioner-clf-c02-practice-02.html`)
+  * **International Baccalaureate® (IB DP) HL / SL (140 Questions across 4 Practice Suites, 60 Mins each, Grade 1–7 Scaled Scoring):**
+    * IB Biology HL/SL Paper 1 Practice 01 (40 Qs: Cell Biology, Molecular Biology, Genetics, Ecology, Evolution, Human Physiology: `global/ib/biology-hl-sl-practice-01.html`)
+    * IB Mathematics: Analysis and Approaches (AA) Paper 1 Practice 01 (30 Qs: Number & Algebra, Functions, Trigonometry, Vectors, Statistics, Calculus: `global/ib/math-aa-hl-sl-practice-01.html`)
 
 ---
 
