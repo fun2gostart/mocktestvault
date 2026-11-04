@@ -7,9 +7,9 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 126 Production Routes | 4,630+ Ground-Truth Verified Questions across 3 Focus Pillars | 2 High-Volume Evergreen Study Guides | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
-> **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs)  
-> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 126 pages (Nov 3, 2026)  
+> **Current Scale:** 128 Production Routes | 4,760+ Ground-Truth Verified Questions across 3 Focus Pillars | 2 High-Volume Evergreen Study Guides | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 2 Full 65-Q AWS CLF-C02 Simulators | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
+> **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs) | Official AWS CLF-C02 Domain Weightages & 700/1000 Scaled Scoring (130 Qs)  
+> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 128 pages (Nov 4, 2026)  
 
 ---
 
@@ -150,6 +150,9 @@ Every chapter contains 3 progressive sets of 20 questions (60 Qs/chapter) PLUS a
   * **GMAT® Focus Edition Diagnostics (40 Questions across 2 Dedicated Suites, 45 Mins each, 60–90 Scaled Scoring):**
     * Diagnostic 01: Data Insights (Table Analysis, Graphical, Multi-Source), Data Sufficiency & Problem Solving (`global/gmat/focus-diagnostic-01.html`)
     * Diagnostic 02: Cloud Infra Analytics, SAFE Term Sheets, Prime Triplets, Permutations & Mixture Dilutions (`global/gmat/focus-diagnostic-02.html`)
+  * **AWS® Certified Cloud Practitioner (CLF-C02) (130 Questions across 2 Full Mocks, 90 Mins each, 700/1000 Scaled Scoring):**
+    * Practice Exam 01 (65 Qs: Cloud Concepts, Security & Compliance, Technology & Services, Billing & Pricing: `global/aws/cloud-practitioner-clf-c02-practice-01.html`)
+    * Practice Exam 02 (65 Qs: Multi-AZ Architecture, IAM Best Practices, Cost Optimization, Shared Responsibility Model: `global/aws/cloud-practitioner-clf-c02-practice-02.html`)
 
 ---
 
