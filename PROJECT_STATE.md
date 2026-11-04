@@ -7,9 +7,9 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 136 Production Routes | 5,450+ Ground-Truth Verified Questions across 3 Focus Pillars | 3 High-Volume Evergreen Study Guides (Math Formulas, Science Reactions & Colors, SSC CGL Syllabus Strategy) | 6 Dynamic Shuffled Random Mock Simulators | 3 Full 80-Mark Board Papers | 3 Full 100-Q SSC CGL Simulators | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators | 3 CBSE Class 12 Science Board Simulators | 2 NTA JEE Main & NEET UG Speed Drills | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
+> **Current Scale:** 142 Production Routes | 6,130+ Ground-Truth Verified Questions across 3 Focus Pillars | 3 High-Volume Evergreen Study Guides (Math Formulas, Science Reactions & Colors, SSC CGL Syllabus Strategy) | 6 Dynamic Shuffled Random Mock Simulators | 9 Full 80-Mark Board Papers & PYQs (3 Mocks + 2024 Solved + 2023 Solved) | 5 Full 100-Q SSC CGL Simulators (3 Mocks + 2023 Shift 1 & Shift 2 PYQs) | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators | 3 CBSE Class 12 Science Board Simulators | 2 NTA JEE Main & NEET UG Speed Drills | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
 > **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs) | Official AWS CLF-C02 Domain Weightages & 700/1000 Scaled Scoring (130 Qs) | Official IB DP Biology & Math AA Markschemes with Grade 1–7 Calibrations (140 Qs) | CBSE Class 12 PCB Theory Blueprints with NCERT Derivations & Grade Predictions (210 Qs) | NTA Standard +4 / -1 Marking & 99th Percentile Trajectories (140 Qs)  
-> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 136 pages (Nov 4, 2026)  
+> **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 142 pages (Nov 4, 2026)  
 
 ---
 
@@ -541,6 +541,33 @@ Following user directive ("keep font and colour as it is from https://mocktestva
   - Linked directly from [`cbse-class-10/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/index.html) navigation pill tabs and header banner.
   - Updated [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml) (+3 URLs $\rightarrow$ 138 total URLs) and [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.90`.
   - Bumped service worker cache to `mtv-cbt-v31`.
+
+### 20. Past Papers & Shift PYQs Expansion — CBSE Class 10 2023 Board Papers & SSC CGL 2023 Shift Simulators
+* **Objective:** Expand MockTestVault's high-authority examination repository by launching official CBSE Class 10 2023 Board Solved Papers across Science, Math Standard, and Social Science (240 Qs), alongside SSC CGL Tier 1 Official 2023 Shift 1 and Shift 2 full 100-question computer-based simulators (200 Qs).
+* **Deliverables:**
+  - **CBSE Class 10 2023 Solved Board Papers (240 Questions):**
+    - Generated 3 distinct non-overlapping question datasets in `data/in/cbse10/sample-papers/`:
+      - `science_board_2023.json` (80 Qs: Chemistry, Biology, Physics, Environment)
+      - `mathematics_board_2023.json` (80 Qs: Algebra, Geometry, Trigonometry, Statistics)
+      - `social_science_board_2023.json` (80 Qs: History, Geography, Civics, Economics)
+    - Created 3 CBT runners with 180-min timers, section jump tabs, printable A4 mode, and Schema.org `@graph` (BreadcrumbList, Quiz, LearningResource):
+      - [`science-board-paper-2023.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/sample-papers/science-board-paper-2023.html)
+      - [`mathematics-board-paper-2023.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/sample-papers/mathematics-board-paper-2023.html)
+      - [`social-science-board-paper-2023.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2023.html)
+    - Updated [`cbse-class-10/sample-papers/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/sample-papers/index.html) with a dedicated **"CBSE Class 10 2023 Board Solved Papers"** grid.
+    - Updated [`cbse-class-10/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/index.html) navigation pill tabs and feature banner to 9 papers.
+  - **SSC CGL Tier 1 Official 2023 Shift Simulators (200 Questions):**
+    - Generated 2 official shift question banks in `data/in/ssc/`:
+      - `cgl_tier1_2023_shift1_pyq.json` (100 Qs: 25 Reasoning, 25 GA, 25 Quant, 25 English)
+      - `cgl_tier1_2023_shift2_pyq.json` (100 Qs: 25 Reasoning, 25 GA, 25 Quant, 25 English)
+    - Created 2 full CBT runners with TCS iON layout, 60-min timer, +2.0/-0.5 marking, section tabs, and full static explanations:
+      - [`cgl-tier1-2023-shift1-pyq.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/ssc-cgl/cgl-tier1-2023-shift1-pyq.html)
+      - [`cgl-tier1-2023-shift2-pyq.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/ssc-cgl/cgl-tier1-2023-shift2-pyq.html)
+    - Updated [`ssc-cgl/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/ssc-cgl/index.html) with an **"Official 2023 Shift Previous Year Papers (PYQs)"** section and hero launch buttons.
+  - **Discovery, Schema & Caching:**
+    - Updated [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml) (+5 URLs $\rightarrow$ 142 total URLs) and [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.90`.
+    - Bumped service worker cache in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js) to `mtv-cbt-v32`.
+    - Live verified `HTTP/2 200 OK` across Hostinger VPS and GitHub Pages global edge.
 
 
 
