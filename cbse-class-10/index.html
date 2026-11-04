@@ -325,9 +325,9 @@
         </div>
       </div>
       <div style="display:flex; gap:8px; flex-wrap:wrap;">
-        <a href="sample-papers/science-board-mock-01.html" class="nav-btn" style="background:var(--primary); color:#fff; text-decoration:none; padding:6px 12px; font-size:0.8rem; border-radius:6px; font-weight:700;">🧪 Science 80M</a>
-        <a href="sample-papers/mathematics-board-mock-01.html" class="nav-btn" style="background:var(--primary); color:#fff; text-decoration:none; padding:6px 12px; font-size:0.8rem; border-radius:6px; font-weight:700;">📐 Maths 80M</a>
-        <a href="sample-papers/social-science-board-mock-01.html" class="nav-btn" style="background:var(--primary); color:#fff; text-decoration:none; padding:6px 12px; font-size:0.8rem; border-radius:6px; font-weight:700;">🌍 SST 80M</a>
+        <a href="sample-papers/science-board-mock-01.html" class="nav-btn" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#fff; text-decoration:none; padding:6px 12px; font-size:0.8rem; border-radius:6px; font-weight:700; box-shadow:0 2px 6px rgba(37,99,235,0.25);">🧪 Science 80M</a>
+        <a href="sample-papers/mathematics-board-mock-01.html" class="nav-btn" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#fff; text-decoration:none; padding:6px 12px; font-size:0.8rem; border-radius:6px; font-weight:700; box-shadow:0 2px 6px rgba(37,99,235,0.25);">📐 Maths 80M</a>
+        <a href="sample-papers/social-science-board-mock-01.html" class="nav-btn" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#fff; text-decoration:none; padding:6px 12px; font-size:0.8rem; border-radius:6px; font-weight:700; box-shadow:0 2px 6px rgba(37,99,235,0.25);">🌍 SST 80M</a>
         <a href="sample-papers/index.html" class="nav-btn" style="background:var(--bg-surface); color:var(--text-color); border:1px solid var(--border-color); text-decoration:none; padding:6px 12px; font-size:0.8rem; border-radius:6px; font-weight:600;">View All SQPs →</a>
       </div>
     </div>
@@ -1175,22 +1175,6 @@
         filterCatalog();
       });
     });
-
-    // Theme Toggle
-    const themeBtn = document.getElementById('theme-toggle-btn');
-    themeBtn.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme');
-      const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('mtv_theme', next);
-      themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
-    });
-
-    const savedTheme = localStorage.getItem('mtv_theme');
-    if (savedTheme) {
-      document.documentElement.setAttribute('data-theme', savedTheme);
-      themeBtn.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
-    }
 
     // FAQ Accordion Interactivity
     document.querySelectorAll('.faq-question').forEach(q => {

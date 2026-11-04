@@ -88,9 +88,9 @@ runner_template = """<!DOCTYPE html>
       display: flex;
       gap: 8px;
       overflow-x: auto;
-      padding: 10px 16px;
-      background: var(--bg-surface);
-      border-bottom: 1px solid var(--border-color);
+      padding: 6px 16px 2px 16px;
+      background: transparent;
+      border-bottom: none;
     }}
     .cgl-sec-btn {{
       padding: 8px 16px;

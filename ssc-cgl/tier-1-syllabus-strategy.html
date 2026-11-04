@@ -28,10 +28,59 @@
   <link rel="stylesheet" href="../css/test-engine.css">
 
   <style>
+    [data-theme="dark"] html,
+    [data-theme="dark"] body {
+      background-color: #090d16 !important;
+      color: #f8fafc !important;
+    }
     .guide-container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 32px 20px 80px 20px;
+      width: 100%;
+      max-width: 100%;
+      margin: 0;
+      padding: 32px 40px 80px 40px;
+      box-sizing: border-box;
+    }
+    .strat-tab-bar {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding: 8px 0 16px 0;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 60px;
+      background: var(--bg-primary, #f8fafc);
+      z-index: 20;
+    }
+    [data-theme="dark"] .strat-tab-bar {
+      background: var(--bg-primary, #090d16);
+    }
+    .strat-tab-btn {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-color);
+      color: var(--text-secondary);
+      padding: 10px 18px;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    .strat-tab-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      background: var(--primary-light);
+    }
+    .strat-tab-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
     }
     .guide-hero {
       background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
@@ -103,12 +152,46 @@
     .stat-value {
       font-size: 1.5rem;
       font-weight: 800;
-      color: var(--primary);
+      color: var(--primary, #2563eb);
     }
     .stat-sub {
       font-size: 0.82rem;
       color: var(--text-secondary);
       margin-top: 4px;
+    }
+
+    /* 2-Column Grid for Bottom Data */
+    .strat-sections-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      align-items: stretch;
+      width: 100%;
+      margin-top: 8px;
+    }
+    .strat-sections-grid .syllabus-section {
+      margin-bottom: 0;
+      height: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+    }
+    .strat-sections-grid .full-span-section {
+      grid-column: 1 / -1;
+    }
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 14px 0;
+    }
+    .table-wrapper .table-custom {
+      margin: 0;
+    }
+    @media (max-width: 1024px) {
+      .strat-sections-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     .syllabus-section {
@@ -135,20 +218,24 @@
       color: var(--text-primary);
     }
     .syllabus-cta-btn {
-      padding: 6px 14px;
-      background: var(--primary);
-      color: #ffffff;
+      padding: 7px 16px;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #ffffff !important;
+      border: 1px solid #1d4ed8;
       border-radius: 8px;
       font-size: 0.82rem;
       font-weight: 700;
-      text-decoration: none;
+      text-decoration: none !important;
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      transition: background 0.2s ease;
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+      transition: all 0.2s ease;
     }
     .syllabus-cta-btn:hover {
-      background: var(--primary-hover);
+      background: linear-gradient(135deg, #1d4ed8, #1e40af);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
     }
 
     .table-custom {
@@ -226,6 +313,123 @@
       color: var(--text-secondary);
       line-height: 1.6;
       border-top: 1px solid var(--border-color);
+    }
+
+    /* ====================================================================== */
+    /* Dark Theme Harmonization (High-Contrast & Clean Slate) */
+    /* ====================================================================== */
+    [data-theme="dark"] .callout-box {
+      background: #0f172a !important;
+      border: 1.5px solid rgba(59, 130, 246, 0.4) !important;
+      border-left: 4px solid #38bdf8 !important;
+      color: #f1f5f9 !important;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+    }
+    [data-theme="dark"] .callout-box strong {
+      color: #38bdf8 !important;
+      font-weight: 800 !important;
+    }
+    [data-theme="dark"] .stat-card {
+      background: #101625;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    }
+    [data-theme="dark"] .stat-label {
+      color: #94a3b8;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    [data-theme="dark"] .stat-value {
+      color: #60a5fa !important;
+      font-weight: 800;
+    }
+    [data-theme="dark"] .stat-sub {
+      color: #cbd5e1;
+    }
+    [data-theme="dark"] .strat-tab-btn {
+      background: #101625;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: #cbd5e1;
+    }
+    [data-theme="dark"] .strat-tab-btn:hover {
+      background: rgba(37, 99, 235, 0.2);
+      color: #60a5fa;
+      border-color: #3b82f6;
+    }
+    [data-theme="dark"] .strat-tab-btn.active {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #ffffff;
+      border-color: #1d4ed8;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+    }
+    [data-theme="dark"] .syllabus-section {
+      background: #101625;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    }
+    [data-theme="dark"] .syllabus-header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    [data-theme="dark"] .syllabus-header h2 {
+      color: #ffffff;
+      font-weight: 800;
+    }
+    [data-theme="dark"] .syllabus-section p {
+      color: #cbd5e1;
+    }
+    [data-theme="dark"] .table-custom {
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    [data-theme="dark"] .table-custom th {
+      background: #172033;
+      color: #ffffff;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-weight: 700;
+    }
+    [data-theme="dark"] .table-custom td {
+      background: #101625;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      color: #e2e8f0;
+    }
+    [data-theme="dark"] .table-custom tr:last-child td {
+      border-bottom: none;
+    }
+    [data-theme="dark"] .table-custom tr:nth-child(even) td {
+      background: #131b2e;
+    }
+    [data-theme="dark"] .table-custom tr:hover td {
+      background: #172033;
+    }
+    [data-theme="dark"] .topic-pill {
+      background: #172033;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-left: 3px solid #38bdf8;
+      color: #f8fafc;
+    }
+    [data-theme="dark"] .topic-pill strong {
+      color: #f8fafc;
+    }
+    [data-theme="dark"] .topic-pill span {
+      color: #94a3b8;
+    }
+    [data-theme="dark"] .faq-item {
+      background: #101625;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    [data-theme="dark"] .faq-question {
+      background: #172033;
+      color: #f8fafc;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    [data-theme="dark"] .faq-answer {
+      color: #cbd5e1;
+      border-top: none;
     }
 
     @media print {
@@ -396,305 +600,319 @@
       All four sections are unlocked simultaneously from the start of the 60-minute countdown. Candidates have unrestricted freedom to jump between sections, review flagged items, and re-attempt marked questions at any time. There is no sectional time limit or sectional cutoff in Tier 1.
     </div>
 
-    <!-- ====================================================================== -->
-    <!-- Section 1: General Intelligence & Reasoning -->
-    <!-- ====================================================================== -->
-    <section class="syllabus-section">
-      <div class="syllabus-header">
-        <h2>1. General Intelligence & Reasoning (25 Qs • 50 Marks)</h2>
-        <a href="sectional-reasoning-01.html" class="syllabus-cta-btn">Practice Reasoning Drills →</a>
-      </div>
-      <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6;">
-        Reasoning is the highest-scoring section of SSC CGL. A top-percentile candidate should target 23–25 correct answers in 14 to 16 minutes.
-      </p>
-
-      <table class="table-custom">
-        <thead>
-          <tr>
-            <th>Topic / Sub-skill</th>
-            <th>Expected Weightage</th>
-            <th>Difficulty Level</th>
-            <th>Core Concepts & Patterns Tested</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Analogies & Classification</strong></td>
-            <td>4–6 Questions</td>
-            <td>Easy to Medium</td>
-            <td>Letter cluster shifts (+3, +5), product of consecutive integers, semantic antonyms/synonyms.</td>
-          </tr>
-          <tr>
-            <td><strong>Number & Letter Series</strong></td>
-            <td>3–4 Questions</td>
-            <td>Medium</td>
-            <td>Differences of squares/cubes, alternating operations (×2 + 1, ×2 + 2), cyclic alphabetical steps.</td>
-          </tr>
-          <tr>
-            <td><strong>Coding-Decoding</strong></td>
-            <td>2–3 Questions</td>
-            <td>Easy to Medium</td>
-            <td>Direct letter-to-digit substitution, opposite letter values (AZ, BY), reverse positional sums.</td>
-          </tr>
-          <tr>
-            <td><strong>Syllogisms & Logic</strong></td>
-            <td>2 Questions</td>
-            <td>Medium to Hard</td>
-            <td>Categorical syllogisms with 3 statements, 'Some... not' deductions, possibility vs certainty.</td>
-          </tr>
-          <tr>
-            <td><strong>Blood Relations & Direction</strong></td>
-            <td>2–3 Questions</td>
-            <td>Medium</td>
-            <td>Coded blood relations (P + Q × R), Pythagorean displacement (North-East, 10 km).</td>
-          </tr>
-          <tr>
-            <td><strong>Non-Verbal & Visual Reasoning</strong></td>
-            <td>4–5 Questions</td>
-            <td>Easy</td>
-            <td>Paper folding & punching, lateral mirror inversion, embedded figures, counting triangles.</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+    <!-- Interactive Subject Navigation Toolbar (Zero Endless Scrolling) -->
+    <div class="strat-tab-bar" role="tablist" aria-label="Syllabus Subjects">
+      <button class="strat-tab-btn active" data-target="all" type="button" role="tab" aria-selected="true">📋 View All (Complete Blueprint)</button>
+      <button class="strat-tab-btn" data-target="reasoning" type="button" role="tab" aria-selected="false">🧠 1. Reasoning (25 Qs)</button>
+      <button class="strat-tab-btn" data-target="ga" type="button" role="tab" aria-selected="false">🌍 2. General Awareness (25 Qs)</button>
+      <button class="strat-tab-btn" data-target="quant" type="button" role="tab" aria-selected="false">📐 3. Quantitative Aptitude (25 Qs)</button>
+      <button class="strat-tab-btn" data-target="english" type="button" role="tab" aria-selected="false">📖 4. English (25 Qs)</button>
+      <button class="strat-tab-btn" data-target="timetable" type="button" role="tab" aria-selected="false">📅 5. 60-Day Study Plan</button>
+      <button class="strat-tab-btn" data-target="faqs" type="button" role="tab" aria-selected="false">❓ FAQs</button>
+    </div>
 
     <!-- ====================================================================== -->
-    <!-- Section 2: General Awareness -->
+    <!-- 2-Column Responsive Strategy Dashboard Grid -->
     <!-- ====================================================================== -->
-    <section class="syllabus-section">
-      <div class="syllabus-header">
-        <h2>2. General Awareness & Static GK (25 Qs • 50 Marks)</h2>
-        <a href="sectional-general-awareness-01.html" class="syllabus-cta-btn">Practice GA Drills →</a>
-      </div>
-      <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6;">
-        General Awareness requires the lowest time investment (6–8 minutes). High-yield preparation should prioritize statutory NCERT science concepts, Indian Polity, and modern history.
-      </p>
+    <div class="strat-sections-grid" id="strat-sections-grid">
 
-      <table class="table-custom">
-        <thead>
-          <tr>
-            <th>Subject Domain</th>
-            <th>Expected Weightage</th>
-            <th>High-Yield Focus Areas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Indian Polity & Constitution</strong></td>
-            <td>4–5 Questions</td>
-            <td>Fundamental Rights (Articles 14–32), Writs (Habeas Corpus, Certiorari), Amendments (42nd, 44th, 86th), DPSP.</td>
-          </tr>
-          <tr>
-            <td><strong>History (Ancient, Medieval, Modern)</strong></td>
-            <td>4–5 Questions</td>
-            <td>Harappan port sites (Lothal), Delhi Sultanate market reforms (Alauddin Khalji), Poona Pact 1932, 1857 Revolt.</td>
-          </tr>
-          <tr>
-            <td><strong>Physical & Indian Geography</strong></td>
-            <td>3–4 Questions</td>
-            <td>Drainage systems (Godavari, Indus tributaries), Himalayan passes (Zoji La, Shipki La), Soil types, Monsoon winds.</td>
-          </tr>
-          <tr>
-            <td><strong>General Science (Phy, Chem, Bio)</strong></td>
-            <td>5–7 Questions</td>
-            <td>Total internal reflection, SI units (Tesla), Plaster of Paris formula, Endocrine glands (Pituitary), Phloem translocation.</td>
-          </tr>
-          <tr>
-            <td><strong>Indian Economy & Banking</strong></td>
-            <td>2–3 Questions</td>
-            <td>GDP vs NDP (depreciation deduction), Monetary policy tools (CRR, SLR, Repo Rate), Inflation indices.</td>
-          </tr>
-          <tr>
-            <td><strong>Static GK, Culture & Awards</strong></td>
-            <td>4–6 Questions</td>
-            <td>Classical dances (Sattriya of Assam), Musical instruments (Santoor), Census 2011 literacy, ISRO space missions (Aditya-L1).</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+      <!-- Section 1: General Intelligence & Reasoning -->
+      <section class="syllabus-section" id="sec-reasoning">
+        <div class="syllabus-header">
+          <h2>1. General Intelligence & Reasoning (25 Qs • 50 Marks)</h2>
+          <a href="sectional-reasoning-01.html" class="syllabus-cta-btn">Practice Reasoning Drills →</a>
+        </div>
+        <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6;">
+          Reasoning is the highest-scoring section of SSC CGL. A top-percentile candidate should target 23–25 correct answers in 14 to 16 minutes.
+        </p>
 
-    <!-- ====================================================================== -->
-    <!-- Section 3: Quantitative Aptitude -->
-    <!-- ====================================================================== -->
-    <section class="syllabus-section">
-      <div class="syllabus-header">
-        <h2>3. Quantitative Aptitude (25 Qs • 50 Marks)</h2>
-        <a href="sectional-quantitative-aptitude-01.html" class="syllabus-cta-btn">Practice Quant Drills →</a>
-      </div>
-      <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6;">
-        The Quantitative Aptitude section balances commercial arithmetic (55%) with advanced mathematics (45%). Time allocation should be 22–25 minutes.
-      </p>
+        <div class="table-wrapper">
+          <table class="table-custom">
+            <thead>
+              <tr>
+                <th>Topic / Sub-skill</th>
+                <th>Expected Weightage</th>
+                <th>Difficulty Level</th>
+                <th>Core Concepts & Patterns Tested</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Analogies & Classification</strong></td>
+                <td>4–6 Questions</td>
+                <td>Easy to Medium</td>
+                <td>Letter cluster shifts (+3, +5), product of consecutive integers, semantic antonyms/synonyms.</td>
+              </tr>
+              <tr>
+                <td><strong>Number & Letter Series</strong></td>
+                <td>3–4 Questions</td>
+                <td>Medium</td>
+                <td>Differences of squares/cubes, alternating operations (×2 + 1, ×2 + 2), cyclic alphabetical steps.</td>
+              </tr>
+              <tr>
+                <td><strong>Coding-Decoding</strong></td>
+                <td>2–3 Questions</td>
+                <td>Easy to Medium</td>
+                <td>Direct letter-to-digit substitution, opposite letter values (AZ, BY), reverse positional sums.</td>
+              </tr>
+              <tr>
+                <td><strong>Syllogisms & Logic</strong></td>
+                <td>2 Questions</td>
+                <td>Medium to Hard</td>
+                <td>Categorical syllogisms with 3 statements, 'Some... not' deductions, possibility vs certainty.</td>
+              </tr>
+              <tr>
+                <td><strong>Blood Relations & Direction</strong></td>
+                <td>2–3 Questions</td>
+                <td>Medium</td>
+                <td>Coded blood relations (P + Q × R), Pythagorean displacement (North-East, 10 km).</td>
+              </tr>
+              <tr>
+                <td><strong>Non-Verbal & Visual Reasoning</strong></td>
+                <td>4–5 Questions</td>
+                <td>Easy</td>
+                <td>Paper folding & punching, lateral mirror inversion, embedded figures, counting triangles.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-      <div class="topic-list-grid">
-        <div class="topic-pill">
-          <strong>Algebraic Identities</strong>
-          <span>x + 1/x = k, x⁴ + 1/x⁴, a³ + b³ + c³ - 3abc</span>
+      <!-- Section 2: General Awareness -->
+      <section class="syllabus-section" id="sec-ga">
+        <div class="syllabus-header">
+          <h2>2. General Awareness & Static GK (25 Qs • 50 Marks)</h2>
+          <a href="sectional-general-awareness-01.html" class="syllabus-cta-btn">Practice GA Drills →</a>
         </div>
-        <div class="topic-pill">
-          <strong>Number System & Divisibility</strong>
-          <span>Divisibility by 72/88, Unit digit cyclicity, Remainder theorem</span>
-        </div>
-        <div class="topic-pill">
-          <strong>Profit & Loss / Commercial</strong>
-          <span>Dishonest dealer false weights, Successive discounts</span>
-        </div>
-        <div class="topic-pill">
-          <strong>Interest (CI vs SI)</strong>
-          <span>3-year difference formula: P(R/100)²(3 + R/100)</span>
-        </div>
-        <div class="topic-pill">
-          <strong>Time & Work / Alternate Days</strong>
-          <span>LCM work units, negative drain pipes (Pipes & Cisterns)</span>
-        </div>
-        <div class="topic-pill">
-          <strong>Speed, Time, Distance & Boats</strong>
-          <span>Relative speed, Train platform crossing, Upstream/Downstream</span>
-        </div>
-        <div class="topic-pill">
-          <strong>Geometry (Circles & Triangles)</strong>
-          <span>Incentre angle (90° + A/2), Tangent-Secant theorem (PT² = PA·PB)</span>
-        </div>
-        <div class="topic-pill">
-          <strong>Trigonometry & Heights</strong>
-          <span>AM-GM minima (16sin²θ + 9csc²θ ≥ 24), Two-angle tower elevation</span>
-        </div>
-        <div class="topic-pill">
-          <strong>Mensuration 2D & 3D</strong>
-          <span>Rhombus perimeter from diagonals, Sphere melting & recasting</span>
-        </div>
-        <div class="topic-pill">
-          <strong>Data Interpretation (DI)</strong>
-          <span>Table variance, Pie chart angular ratios (108° : 54° = 2:1)</span>
-        </div>
-      </div>
-    </section>
+        <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6;">
+          General Awareness requires the lowest time investment (6–8 minutes). High-yield preparation should prioritize statutory NCERT science concepts, Indian Polity, and modern history.
+        </p>
 
-    <!-- ====================================================================== -->
-    <!-- Section 4: English Comprehension -->
-    <!-- ====================================================================== -->
-    <section class="syllabus-section">
-      <div class="syllabus-header">
-        <h2>4. English Comprehension (25 Qs • 50 Marks)</h2>
-        <a href="sectional-english-01.html" class="syllabus-cta-btn">Practice English Drills →</a>
-      </div>
-      <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6;">
-        English Comprehension can be solved in 10 to 12 minutes. Mastery of grammatical rules and high-frequency vocabulary ensures 45+ raw score.
-      </p>
-
-      <table class="table-custom">
-        <thead>
-          <tr>
-            <th>Sub-Skill</th>
-            <th>Question Count</th>
-            <th>Key Rules & Traps Tested</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Spotting Errors & Improvements</strong></td>
-            <td>4–5 Questions</td>
-            <td>Subject-verb proximity ('neither... nor'), third conditionals ('had + V3 ... would have + V3'), fixed prepositions ('insisted on doing').</td>
-          </tr>
-          <tr>
-            <td><strong>Synonyms & Antonyms</strong></td>
-            <td>4 Questions</td>
-            <td>Classical words: Sagacious (Wise), Pernicious (Destructive), Exonerate (Incriminate), Gregarious (Solitary).</td>
-          </tr>
-          <tr>
-            <td><strong>Idioms & Phrases</strong></td>
-            <td>2–3 Questions</td>
-            <td>'Burn candle at both ends' (overwork), 'Leave no stone unturned' (explore all avenues).</td>
-          </tr>
-          <tr>
-            <td><strong>One Word Substitutions</strong></td>
-            <td>2 Questions</td>
-            <td>Stoic (indifferent to pain/pleasure), Apostate (renounces belief).</td>
-          </tr>
-          <tr>
-            <td><strong>Spelling Accuracy</strong></td>
-            <td>2 Questions</td>
-            <td>Double letter words: Bureaucracy, Embarrassment, Millennium, Accommodation.</td>
-          </tr>
-          <tr>
-            <td><strong>Voice & Narration</strong></td>
-            <td>3–4 Questions</td>
-            <td>Interrogative passive ('By whom was... broken?'), universal truth tense preservation.</td>
-          </tr>
-          <tr>
-            <td><strong>Cloze Test / Reading Comprehension</strong></td>
-            <td>5 Questions</td>
-            <td>Contextual tone evaluation, lexical collocation ('bridge the gap', 'environmental obligations').</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <!-- ====================================================================== -->
-    <!-- Section 5: Strategic 60-Day Preparation Timetable -->
-    <!-- ====================================================================== -->
-    <section class="syllabus-section">
-      <div class="syllabus-header">
-        <h2>5. Proven 60-Day Preparation Timetable for Tier 1</h2>
-        <a href="mock-01.html" class="syllabus-cta-btn">Start Full Mock 01 →</a>
-      </div>
-
-      <table class="table-custom">
-        <thead>
-          <tr>
-            <th>Phase & Timeline</th>
-            <th>Daily Routine & Objective</th>
-            <th>Mock Test Practice Strategy</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Phase 1: Foundation (Days 1–25)</strong></td>
-            <td>Master core concepts in Quant (Algebra, Geometry, Arithmetic) and English grammar rules. Memorize Static GK tables and Constitutional articles.</td>
-            <td>Attempt 1 Sectional Speed Drill per day (Reasoning / English / Quant / GA). Review every error.</td>
-          </tr>
-          <tr>
-            <td><strong>Phase 2: Speed Building (Days 26–45)</strong></td>
-            <td>Sharpen mental calculation speed (squares, cubes, tables up to 30). Practice Para Jumbles and multi-source Cloze tests under time pressure.</td>
-            <td>Attempt 2 Sectional Drills daily. Target completing Reasoning in 14 mins and English in 10 mins.</td>
-          </tr>
-          <tr>
-            <td><strong>Phase 3: Simulation Mastery (Days 46–60)</strong></td>
-            <td>Simulate complete 100-question exams at the exact same hour as your real shift using the TCS iON 5-state palette. Focus on negative marking discipline.</td>
-            <td>Attempt Full Mock 01, Mock 02, and Mock 03 on MockTestVault. Maintain an error log and eliminate guesswork.</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <!-- ====================================================================== -->
-    <!-- FAQ Section -->
-    <!-- ====================================================================== -->
-    <section class="syllabus-section">
-      <h2 style="font-size:1.35rem; font-weight:800; margin-bottom:18px; color:var(--text-primary);">
-        ❓ Frequently Asked Questions (SSC CGL Tier 1)
-      </h2>
-
-      <div class="faq-item">
-        <div class="faq-question">Is there a sectional cutoff in SSC CGL Tier 1?</div>
-        <div class="faq-answer">
-          No. There is <strong>no sectional cutoff</strong> in SSC CGL Tier 1. Qualification for Tier 2 is determined purely by your aggregate normalized score across all four sections (out of 200 marks).
+        <div class="table-wrapper">
+          <table class="table-custom">
+            <thead>
+              <tr>
+                <th>Subject Domain</th>
+                <th>Expected Weightage</th>
+                <th>High-Yield Focus Areas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Indian Polity & Constitution</strong></td>
+                <td>4–5 Questions</td>
+                <td>Fundamental Rights (Articles 14–32), Writs (Habeas Corpus, Certiorari), Amendments (42nd, 44th, 86th), DPSP.</td>
+              </tr>
+              <tr>
+                <td><strong>History (Ancient, Medieval, Modern)</strong></td>
+                <td>4–5 Questions</td>
+                <td>Harappan port sites (Lothal), Delhi Sultanate market reforms (Alauddin Khalji), Poona Pact 1932, 1857 Revolt.</td>
+              </tr>
+              <tr>
+                <td><strong>Physical & Indian Geography</strong></td>
+                <td>3–4 Questions</td>
+                <td>Drainage systems (Godavari, Indus tributaries), Himalayan passes (Zoji La, Shipki La), Soil types, Monsoon winds.</td>
+              </tr>
+              <tr>
+                <td><strong>General Science (Phy, Chem, Bio)</strong></td>
+                <td>5–7 Questions</td>
+                <td>Total internal reflection, SI units (Tesla), Plaster of Paris formula, Endocrine glands (Pituitary), Phloem translocation.</td>
+              </tr>
+              <tr>
+                <td><strong>Indian Economy & Banking</strong></td>
+                <td>2–3 Questions</td>
+                <td>GDP vs NDP (depreciation deduction), Monetary policy tools (CRR, SLR, Repo Rate), Inflation indices.</td>
+              </tr>
+              <tr>
+                <td><strong>Static GK, Culture & Awards</strong></td>
+                <td>4–6 Questions</td>
+                <td>Classical dances (Sattriya of Assam), Musical instruments (Santoor), Census 2011 literacy, ISRO space missions (Aditya-L1).</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
+      </section>
 
-      <div class="faq-item">
-        <div class="faq-question">Does Tier 1 score count towards the final merit list?</div>
-        <div class="faq-answer">
-          Under the revised SSC CGL scheme, Tier 1 is <strong>qualifying in nature</strong>. While your Tier 1 score determines whether you qualify to write Tier 2, the final merit ranking and department allocation are based solely on your Tier 2 performance.
+      <!-- Section 3: Quantitative Aptitude -->
+      <section class="syllabus-section" id="sec-quant">
+        <div class="syllabus-header">
+          <h2>3. Quantitative Aptitude (25 Qs • 50 Marks)</h2>
+          <a href="sectional-quantitative-aptitude-01.html" class="syllabus-cta-btn">Practice Quant Drills →</a>
         </div>
-      </div>
+        <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6;">
+          The Quantitative Aptitude section balances commercial arithmetic (55%) with advanced mathematics (45%). Time allocation should be 22–25 minutes.
+        </p>
 
-      <div class="faq-item">
-        <div class="faq-question">Where can I take authentic full-length SSC CGL Tier 1 mock tests for free?</div>
-        <div class="faq-answer">
-          MockTestVault provides 100% free, distraction-free computer-based mock tests on <a href="index.html">mocktestvault.com/ssc-cgl/</a> with full 100-question timed simulations (Mocks 01, 02, and 03), 12 sectional speed drills, TCS iON palette navigation, and instant solutions.
+        <div class="topic-list-grid">
+          <div class="topic-pill">
+            <strong>Algebraic Identities</strong>
+            <span>x + 1/x = k, x⁴ + 1/x⁴, a³ + b³ + c³ - 3abc</span>
+          </div>
+          <div class="topic-pill">
+            <strong>Number System & Divisibility</strong>
+            <span>Divisibility by 72/88, Unit digit cyclicity, Remainder theorem</span>
+          </div>
+          <div class="topic-pill">
+            <strong>Profit & Loss / Commercial</strong>
+            <span>Dishonest dealer false weights, Successive discounts</span>
+          </div>
+          <div class="topic-pill">
+            <strong>Interest (CI vs SI)</strong>
+            <span>3-year difference formula: P(R/100)²(3 + R/100)</span>
+          </div>
+          <div class="topic-pill">
+            <strong>Time & Work / Alternate Days</strong>
+            <span>LCM work units, negative drain pipes (Pipes & Cisterns)</span>
+          </div>
+          <div class="topic-pill">
+            <strong>Speed, Time, Distance & Boats</strong>
+            <span>Relative speed, Train platform crossing, Upstream/Downstream</span>
+          </div>
+          <div class="topic-pill">
+            <strong>Geometry (Circles & Triangles)</strong>
+            <span>Incentre angle (90° + A/2), Tangent-Secant theorem (PT² = PA·PB)</span>
+          </div>
+          <div class="topic-pill">
+            <strong>Trigonometry & Heights</strong>
+            <span>AM-GM minima (16sin²θ + 9csc²θ ≥ 24), Two-angle tower elevation</span>
+          </div>
+          <div class="topic-pill">
+            <strong>Mensuration 2D & 3D</strong>
+            <span>Rhombus perimeter from diagonals, Sphere melting & recasting</span>
+          </div>
+          <div class="topic-pill">
+            <strong>Data Interpretation (DI)</strong>
+            <span>Table variance, Pie chart angular ratios (108° : 54° = 2:1)</span>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <!-- Section 4: English Comprehension -->
+      <section class="syllabus-section" id="sec-english">
+        <div class="syllabus-header">
+          <h2>4. English Comprehension (25 Qs • 50 Marks)</h2>
+          <a href="sectional-english-01.html" class="syllabus-cta-btn">Practice English Drills →</a>
+        </div>
+        <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6;">
+          English Comprehension can be solved in 10 to 12 minutes. Mastery of grammatical rules and high-frequency vocabulary ensures 45+ raw score.
+        </p>
+
+        <div class="table-wrapper">
+          <table class="table-custom">
+            <thead>
+              <tr>
+                <th>Sub-Skill</th>
+                <th>Question Count</th>
+                <th>Key Rules & Traps Tested</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Spotting Errors & Improvements</strong></td>
+                <td>4–5 Questions</td>
+                <td>Subject-verb proximity ('neither... nor'), third conditionals ('had + V3 ... would have + V3'), fixed prepositions ('insisted on doing').</td>
+              </tr>
+              <tr>
+                <td><strong>Synonyms & Antonyms</strong></td>
+                <td>4 Questions</td>
+                <td>Classical words: Sagacious (Wise), Pernicious (Destructive), Exonerate (Incriminate), Gregarious (Solitary).</td>
+              </tr>
+              <tr>
+                <td><strong>Idioms & Phrases</strong></td>
+                <td>2–3 Questions</td>
+                <td>'Burn candle at both ends' (overwork), 'Leave no stone unturned' (explore all avenues).</td>
+              </tr>
+              <tr>
+                <td><strong>One Word Substitutions</strong></td>
+                <td>2 Questions</td>
+                <td>Stoic (indifferent to pain/pleasure), Apostate (renounces belief).</td>
+              </tr>
+              <tr>
+                <td><strong>Spelling Accuracy</strong></td>
+                <td>2 Questions</td>
+                <td>Double letter words: Bureaucracy, Embarrassment, Millennium, Accommodation.</td>
+              </tr>
+              <tr>
+                <td><strong>Voice & Narration</strong></td>
+                <td>3–4 Questions</td>
+                <td>Interrogative passive ('By whom was... broken?'), universal truth tense preservation.</td>
+              </tr>
+              <tr>
+                <td><strong>Cloze Test / Reading Comprehension</strong></td>
+                <td>5 Questions</td>
+                <td>Contextual tone evaluation, lexical collocation ('bridge the gap', 'environmental obligations').</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section 5: Strategic 60-Day Preparation Timetable -->
+      <section class="syllabus-section full-span-section" id="sec-timetable">
+        <div class="syllabus-header">
+          <h2>5. Proven 60-Day Preparation Timetable for Tier 1</h2>
+          <a href="mock-01.html" class="syllabus-cta-btn">Start Full Mock 01 →</a>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="table-custom">
+            <thead>
+              <tr>
+                <th>Phase & Timeline</th>
+                <th>Daily Routine & Objective</th>
+                <th>Mock Test Practice Strategy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Phase 1: Foundation (Days 1–25)</strong></td>
+                <td>Master core concepts in Quant (Algebra, Geometry, Arithmetic) and English grammar rules. Memorize Static GK tables and Constitutional articles.</td>
+                <td>Attempt 1 Sectional Speed Drill per day (Reasoning / English / Quant / GA). Review every error.</td>
+              </tr>
+              <tr>
+                <td><strong>Phase 2: Speed Building (Days 26–45)</strong></td>
+                <td>Sharpen mental calculation speed (squares, cubes, tables up to 30). Practice Para Jumbles and multi-source Cloze tests under time pressure.</td>
+                <td>Attempt 2 Sectional Drills daily. Target completing Reasoning in 14 mins and English in 10 mins.</td>
+              </tr>
+              <tr>
+                <td><strong>Phase 3: Simulation Mastery (Days 46–60)</strong></td>
+                <td>Simulate complete 100-question exams at the exact same hour as your real shift using the TCS iON 5-state palette. Focus on negative marking discipline.</td>
+                <td>Attempt Full Mock 01, Mock 02, and Mock 03 on MockTestVault. Maintain an error log and eliminate guesswork.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section 6: FAQ Section -->
+      <section class="syllabus-section full-span-section" id="sec-faqs">
+        <h2 style="font-size:1.35rem; font-weight:800; margin-bottom:18px; color:var(--text-primary);">
+          ❓ Frequently Asked Questions (SSC CGL Tier 1)
+        </h2>
+
+        <div class="faq-item">
+          <div class="faq-question">Is there a sectional cutoff in SSC CGL Tier 1?</div>
+          <div class="faq-answer">
+            No. There is <strong>no sectional cutoff</strong> in SSC CGL Tier 1. Qualification for Tier 2 is determined purely by your aggregate normalized score across all four sections (out of 200 marks).
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Does Tier 1 score count towards the final merit list?</div>
+          <div class="faq-answer">
+            Under the revised SSC CGL scheme, Tier 1 is <strong>qualifying in nature</strong>. While your Tier 1 score determines whether you qualify to write Tier 2, the final merit ranking and department allocation are based solely on your Tier 2 performance.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Where can I take authentic full-length SSC CGL Tier 1 mock tests for free?</div>
+          <div class="faq-answer">
+            MockTestVault provides 100% free, distraction-free computer-based mock tests on <a href="index.html">mocktestvault.com/ssc-cgl/</a> with full 100-question timed simulations (Mocks 01, 02, and 03), 12 sectional speed drills, TCS iON palette navigation, and instant solutions.
+          </div>
+        </div>
+      </section>
+
+    </div><!-- .strat-sections-grid -->
 
   </main>
 
@@ -731,12 +949,64 @@
         themeBtn.textContent = nextTheme === 'light' ? '🌙' : '☀️';
         localStorage.setItem('mtv_theme', nextTheme);
       });
-      const savedTheme = localStorage.getItem('mtv_theme');
-      if (savedTheme) {
-        document.documentElement.setAttribute('data-theme', savedTheme);
-        themeBtn.textContent = savedTheme === 'light' ? '🌙' : '☀️';
-      }
+      const urlTheme = new URLSearchParams(window.location.search).get('theme');
+      const savedTheme = urlTheme || localStorage.getItem('mtv_theme') || 
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      themeBtn.textContent = savedTheme === 'light' ? '🌙' : '☀️';
     }
+
+    // Interactive Subject Tab Switcher (Eliminates Endless Scrolling & Manages 2-Column Grid)
+    (function initStratTabs() {
+      const stratTabBtns = document.querySelectorAll('.strat-tab-btn');
+      const stratGrid = document.getElementById('strat-sections-grid');
+      const stratSections = {
+        reasoning: document.getElementById('sec-reasoning'),
+        ga: document.getElementById('sec-ga'),
+        quant: document.getElementById('sec-quant'),
+        english: document.getElementById('sec-english'),
+        timetable: document.getElementById('sec-timetable'),
+        faqs: document.getElementById('sec-faqs')
+      };
+
+      stratTabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          stratTabBtns.forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+
+          const target = btn.getAttribute('data-target');
+          if (target === 'all') {
+            if (stratGrid) stratGrid.style.gridTemplateColumns = '';
+            Object.values(stratSections).forEach(sec => {
+              if (sec) {
+                sec.style.display = 'flex';
+                if (!sec.classList.contains('full-span-section')) {
+                  sec.style.gridColumn = '';
+                }
+              }
+            });
+          } else {
+            if (stratGrid) stratGrid.style.gridTemplateColumns = '1fr';
+            Object.entries(stratSections).forEach(([key, sec]) => {
+              if (!sec) return;
+              if (key === target) {
+                sec.style.display = 'flex';
+                sec.style.gridColumn = '1 / -1';
+              } else {
+                sec.style.display = 'none';
+              }
+            });
+          }
+
+          const tabBar = document.querySelector('.strat-tab-bar');
+          if (tabBar) tabBar.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+    })();
   </script>
 </body>
 </html>

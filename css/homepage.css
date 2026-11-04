@@ -260,17 +260,46 @@ body {
 }
 
 .hero-grid {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 48px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
-  .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-subtitle {
+  max-width: 820px;
+  margin: 0 auto 28px;
+}
+
+.hero-search-box {
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+
+.region-portals-grid {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto 28px;
+}
+
+.filter-chips-row {
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.hero-actions {
+  justify-content: center;
 }
 
 .hero-badge {
@@ -789,11 +818,11 @@ body {
 
 .exam-cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
   .exam-cards-grid {
     grid-template-columns: 1fr;
   }

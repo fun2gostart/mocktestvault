@@ -320,3 +320,83 @@ To accelerate Googlebot discovery and break MockTestVault out of external link i
 * **HTTP Response Codes:** 100% OK (200).
 * **Resource Rendering:** 57% Page resource load (Googlebot Smartphone successfully executing and verifying client-side JavaScript and CSS engines).
 * **Discovery Infrastructure:** Deployed Atom 2.0 `feed.xml` and structured `sitemap.xml` (124 canonical URLs) for continuous crawl queuing.
+
+---
+
+## 12. Canonical Live Palette & CBT UX Architecture Refinement (November 4, 2026)
+
+Following user directive ("keep font and colour as it is from https://mocktestvault.com/index.html — just update the other issues"), preserved 100% of the live website's typography and color scheme while resolving all layout, clutter, and navigation issues:
+
+### 1. Canonical India Royal Blue Standard Across All Test CTAs & Runners
+* **Zero Color/Font Divergence:** Strict adherence to the authoritative **India Royal Blue** (`--primary: #2563eb`, `--primary-hover: #1d4ed8`, gradient `linear-gradient(135deg, #2563eb, #1d4ed8)`) across both `homepage.css` and `test-engine.css`.
+* **Universal Test Opening Button Alignment:** Standardized every button that opens tests (`.exam-launch-btn`, `.card-cta-btn`, `.btn-primary-hero`, `.btn-primary`) across the Homepage (`index.html`), India Hub (`in/index.html`), SSC CGL Hub (`ssc-cgl/index.html`), US Hub (`us/index.html`), Global Hub (`global/index.html`), and CBSE Class 10 Hub (`cbse-class-10/index.html`) to use the exact same vibrant royal blue gradient with matching elevation and hover transitions.
+* **Test Engine Dark/Light Mode Consistency:** Replaced washed-out light blue overrides (`#60a5fa` / `#3b82f6`) on `.btn-primary` (the Next button) inside `css/test-engine.css` so that the Next button in active CBT simulations always displays the identical high-contrast India royal blue across both light and dark themes.
+
+### 2. Stationary Action Bar (Fixed-Height CBT Viewport)
+* **Problem:** Variable question lengths caused the action card to dynamically shrink or stretch, making the Next/Previous buttons jump vertically between questions.
+* **Remediation:** 
+  1. Enforced a fixed `height: 600px` on both `.question-card` and `.palette-card` with symmetrical side-by-side alignment.
+  2. Implemented an internal `.question-scroll-body` container (`flex: 1; overflow-y: auto;`) with clean custom scrollbars.
+  3. Pinned `.card-action-bar` to `margin-top: auto; flex-shrink: 0; padding-top: 14px; border-top: 1.5px solid var(--border-color); background: var(--bg-surface);`.
+  4. Automatically reset scroll position to top (`scrollBody.scrollTop = 0`) on every question transition in `js/test-engine.js`.
+* **Result:** The **Next** and **Submit** buttons stay locked in a completely stationary position across all questions regardless of length.
+
+### 3. Homepage Decluttering & 3 Flagship Regional Pillars (`index.html`)
+* **Problem:** The homepage displayed 12+ fragmented individual test boxes and sectional drills alongside a floating single-question teaser card.
+* **Remediation:**
+  1. **Purged Teaser Card:** Removed the distracting train math teaser widget from the hero section to keep focus on global search and value propositions.
+  2. **Reduced Fragmented Boxes to 3 Core Regional Pillars:**
+     - 🇮🇳 **India Examination Vault:** Highlights SSC CGL Tier 1 (3 Mocks + 12 Drills) and CBSE Class 10 (48 Chapters).
+     - 🇺🇸 **United States Examination Vault:** Highlights Digital SAT® (Math & Reading) and AP® Advanced Placement Suites.
+     - 🌐 **Global Standards Vault:** Highlights Cambridge IELTS® Academic, TOEFL® iBT, GRE® General, and GMAT® Focus.
+
+### 4. Full-Width Responsive Viewport & Progressive Disclosure (`ssc-cgl/index.html`)
+* Expanded `.test-series-container` to `width: 100%; max-width: 100%; padding: 32px 40px 80px 40px;` to utilize full widescreen monitors edge-to-edge without blank margins.
+* Full mock tests stretch across a 3-column span (`repeat(3, 1fr)`).
+* Sectional drills feature **Progressive Disclosure**: only the top 4 featured drills (Set 01 of Reasoning, Quant, English, GA) are displayed initially, with interactive subject filter tabs and a smooth "View All 12 Speed Drills ↓" expand toggle.
+
+### 5. Interactive Tabbed Strategy Explorer & 2-Column Responsive Layout (`ssc-cgl/tier-1-syllabus-strategy.html`)
+* **Problem:** Candidates previously had to scroll vertically through extensive content to view individual syllabus sections, and wide displays stacked tables across 100% viewport width with large empty table cells. In dark mode, the callout box was an unstyled glaring light-blue box with washed-out text, and stat numbers referenced an undefined `--accent`.
+* **Remediation:**
+  1. Expanded layout to 100% full width (`width: 100%; max-width: 100%; padding: 32px 40px;`).
+  2. Integrated a sticky **Subject Switcher Tab Bar** (`[Reasoning]` | `[General Awareness]` | `[Quantitative Aptitude]` | `[English]` | `[60-Day Plan]` | `[View All]`).
+  3. **2-Column Responsive Bottom Grid (`.strat-sections-grid`):**
+     - Sections 1 (Reasoning) & 2 (General Awareness) sit side-by-side in a responsive 2-column grid (`repeat(2, 1fr)`) on desktop monitors.
+     - Sections 3 (Quantitative Aptitude) & 4 (English Comprehension) sit side-by-side in matching 2-column pairs.
+     - Sections 5 (60-Day Study Timetable) & 6 (FAQs) cleanly span both columns (`grid-column: 1 / -1;`).
+     - Responsive fallback: seamlessly collapses to a single column on tablet and mobile viewports (`<= 1024px`).
+     - Tables wrapped in `.table-wrapper` for clean horizontal scrolling without overflowing cards.
+     - Dynamic JS tab switcher toggles `.strat-sections-grid` columns smoothly (`repeat(2, 1fr)` when viewing all, `1fr` when focused on an individual subject).
+
+### 6. Dark Mode Palette & Contrast Harmonization (Direction 1: Deep Navy & Ice Blue)
+* **Root Cause of Background Inconsistency:** In `css/test-engine.css`, the root `html` and `body` background rule had been deleted, leaving the browser's default background as pure white (`#ffffff`). While internal cards (`.question-card`, `.palette-card`, `.stat-card`, etc.) turned dark navy, the entire surrounding page canvas, margins, and gaps remained glaring white.
+* **Unified Deep Navy Canvas:** Reinstated global `html` and `body` rules with `[data-theme="dark"] html, [data-theme="dark"] body { background-color: #090d16 !important; color: #f8fafc !important; }` across `test-engine.css` and internal page styles.
+* **Harmonized Direction 1 Color Hierarchy & Soft Borders (Option 2):**
+  - **Canvas Base:** `#090d16` (Deep Dark Navy, zero white gaps or margins).
+  - **Card Surfaces:** `#101625` (Elevated Deep Navy with soft translucent `1px solid rgba(255, 255, 255, 0.08)` borders and soft ambient elevation, eliminating harsh outlines).
+  - **Table Outlines:** Eliminated harsh vertical column grid lines; converted syllabus tables to seamless rounded card containers (`border-radius: 10px; overflow: hidden`) with faint row dividers (`rgba(255, 255, 255, 0.04)`) and alternating dark slate fills (`#131b2e` / `#101625`).
+  - **Sub-Bars & Headers:** `#172033` (Rich Slate Navy for section jump tabs, table headers, and question palette buttons).
+  - **Primary Action Gradient:** Canonical India Royal Blue (`linear-gradient(135deg, #2563eb, #1d4ed8)`).
+  - **Illuminated Accents:** Sky Blue (`#38bdf8`) for the 60-min timer and callout bar; Ice Blue (`#60a5fa`) for stat numbers.
+  - **Typography:** Pure crisp white (`#f8fafc`) for question text, option keys, table headers, and palette numbers; light slate (`#cbd5e1`) for secondary notes.
+* **Dev Server Invalidation:** Running dedicated `dev_server.py` with `Cache-Control: no-store, no-cache, must-revalidate` to ensure immediate stylesheet reload without local browser disk caching.
+
+### 7. Seamless Header & Sub-Bar Architecture (Zero Stacked Horizontal Lines)
+* **Problem:** In CBT test pages (`/ssc-cgl/mock-01.html`, `mock-02.html`, `mock-03.html`, CBSE 80-mark board papers, etc.), five stacked navigation and control bars (Site Header, Breadcrumb Bar, Multi-Mock Switcher Bar, CGL Section Tabs, and Exam Status Bar) each carried separate `background: var(--bg-surface)` and `border-bottom: 1px solid var(--border-color)` rules. This created four stacked, full-width horizontal dividing lines slicing across the upper 200px of the viewport, creating harsh visual stripes in dark mode.
+* **Remediation (Aligned with `/us/index.html` Standard):**
+  1. Maintained only a single, subtle translucent bottom divider under the main navigation header (`border-bottom: 1px solid rgba(255, 255, 255, 0.07)`).
+  2. Set all four subordinate bars (`.breadcrumb-bar`, `.set-switcher-bar`, `.cgl-section-bar` / `.cgl-section-tabs`, and `.exam-status-bar`) to `background: transparent; border-bottom: none;`.
+  3. Optimized vertical paddings across breadcrumbs (`8px 28px 4px 28px`), switcher (`6px 28px`), section tabs (`6px 24px 2px 24px`), and status bar (`6px 28px 10px 28px`) to allow the deep navy canvas (`#090d16`) to flow continuously behind the interactive controls.
+  4. Both `.question-card` and `.palette-card` now sit cleanly on the unified canvas with zero horizontal separator noise.
+
+### 8. Global Theme Toggle (Dark / Light Mode) Event Architecture & Multi-Page Audit
+* **Problem:** Candidates reported that clicking the dark/light toggle button (`☀️`/`🌙`) was unresponsive on certain pages.
+* **Root Causes Diagnosed:**
+  1. **Duplicate Handlers:** Hub pages that loaded `homepage.js` simultaneously contained inline `<script>` click listeners on `#theme-toggle-btn`. A single click fired both listeners concurrently, toggling theme twice in the same millisecond (`light -> dark -> light`) and canceling the switch.
+  2. **Missing Script Inclusions:** Certain sub-pages (e.g. `cbse-class-10/sample-papers/index.html`) lacked script linkage to either `homepage.js` or `test-engine.js`.
+* **Remediation & Automated Verification:**
+  - Removed duplicate inline theme listeners from all hub pages (`cbse-class-10/index.html`, `ssc-cgl/index.html`), standardizing on `js/homepage.js`.
+  - Added dedicated script linkage to `cbse-class-10/sample-papers/index.html`.
+  - Integrated `?theme=dark` / `?theme=light` query parameter reading and bidirectional synchronization with `localStorage.getItem('mtv_theme')`.
+  - Executed automated Headless Chrome DevTools Protocol (CDP) test suite across all 21 key routes in the portal, verifying that every single route successfully transitions `data-theme` and updates icon between `☀️` and `🌙` on click.
+

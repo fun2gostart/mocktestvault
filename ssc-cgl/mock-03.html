@@ -29,18 +29,31 @@
   <link rel="stylesheet" href="../css/test-engine.css">
 
   <style>
+    [data-theme="dark"] html,
+    [data-theme="dark"] body {
+      background-color: #090d16 !important;
+      color: #f8fafc !important;
+    }
+    .cgl-section-bar {
+      background: transparent;
+      border-bottom: none;
+      width: 100%;
+    }
     .cgl-section-tabs {
+      max-width: 1360px;
+      margin: 0 auto;
       display: flex;
-      gap: 8px;
+      gap: 10px;
       overflow-x: auto;
-      padding: 10px 16px;
-      background: var(--bg-surface);
-      border-bottom: 1px solid var(--border-color);
+      padding: 6px 24px 2px 24px;
+      background: transparent;
+      border-bottom: none;
+      box-sizing: border-box;
     }
     .cgl-sec-btn {
       padding: 8px 16px;
       border-radius: 8px;
-      border: 1px solid var(--border-color);
+      border: 1.5px solid var(--border-color);
       background: var(--bg-subtle);
       color: var(--text-secondary);
       font-weight: 600;
@@ -48,7 +61,7 @@
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 6px;
+      gap: 8px;
       white-space: nowrap;
       transition: all 0.2s ease;
     }
@@ -61,12 +74,41 @@
       background: var(--primary);
       color: white;
       border-color: var(--primary);
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
     }
     .cgl-sec-badge {
       font-size: 0.72rem;
-      padding: 2px 6px;
+      padding: 2px 7px;
       border-radius: 9999px;
-      background: rgba(0, 0, 0, 0.15);
+      background: rgba(0, 0, 0, 0.12);
+    }
+    .cgl-sec-btn.active .cgl-sec-badge {
+      background: rgba(255, 255, 255, 0.25);
+      color: #fff;
+    }
+    [data-theme="dark"] .cgl-sec-btn {
+      background: #172033;
+      border-color: #243049;
+      color: #cbd5e1;
+    }
+    [data-theme="dark"] .cgl-sec-btn:hover {
+      background: rgba(37, 99, 235, 0.2);
+      border-color: #3b82f6;
+      color: #60a5fa;
+    }
+    [data-theme="dark"] .cgl-sec-btn.active {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #ffffff;
+      border-color: #1d4ed8;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.4);
+    }
+    [data-theme="dark"] .cgl-sec-badge {
+      background: rgba(255, 255, 255, 0.12);
+      color: #e2e8f0;
+    }
+    [data-theme="dark"] .cgl-sec-btn.active .cgl-sec-badge {
+      background: rgba(255, 255, 255, 0.25);
+      color: #ffffff;
     }
   </style>
 
@@ -190,34 +232,25 @@
   </div>
 
   <!-- Section Quick Jump Toolbar (SSC Official 4 Sections) -->
-  <div class="cgl-section-tabs" role="tablist" aria-label="Exam Sections">
-    <button class="cgl-sec-btn active" id="tab-sec-1" onclick="jumpToSection(0, this)">
-      <span>🧠 Reasoning</span>
-      <span class="cgl-sec-badge">Q 1–25</span>
-    </button>
-    <button class="cgl-sec-btn" id="tab-sec-2" onclick="jumpToSection(25, this)">
-      <span>🌍 General Awareness</span>
-      <span class="cgl-sec-badge">Q 26–50</span>
-    </button>
-    <button class="cgl-sec-btn" id="tab-sec-3" onclick="jumpToSection(50, this)">
-      <span>📐 Quantitative Aptitude</span>
-      <span class="cgl-sec-badge">Q 51–75</span>
-    </button>
-    <button class="cgl-sec-btn" id="tab-sec-4" onclick="jumpToSection(75, this)">
-      <span>📖 English Comprehension</span>
-      <span class="cgl-sec-badge">Q 76–100</span>
-    </button>
-  </div>
-
-  <!-- Contextual SSC CGL Strategy & Cutoff Blueprint Silo Crosslink -->
-  <div class="study-guide-crosslink-banner">
-    <div class="banner-text">
-      <span>📊</span>
-      <span><strong>Preparation Strategy &amp; Cutoff Blueprint:</strong> Target score analysis, section weightage, and safe attempt plans:</span>
+  <div class="cgl-section-bar">
+    <div class="cgl-section-tabs" role="tablist" aria-label="Exam Sections">
+      <button class="cgl-sec-btn active" id="tab-sec-1" onclick="jumpToSection(0, this)">
+        <span>🧠 Reasoning</span>
+        <span class="cgl-sec-badge">Q 1–25</span>
+      </button>
+      <button class="cgl-sec-btn" id="tab-sec-2" onclick="jumpToSection(25, this)">
+        <span>🌍 General Awareness</span>
+        <span class="cgl-sec-badge">Q 26–50</span>
+      </button>
+      <button class="cgl-sec-btn" id="tab-sec-3" onclick="jumpToSection(50, this)">
+        <span>📐 Quantitative Aptitude</span>
+        <span class="cgl-sec-badge">Q 51–75</span>
+      </button>
+      <button class="cgl-sec-btn" id="tab-sec-4" onclick="jumpToSection(75, this)">
+        <span>📖 English Comprehension</span>
+        <span class="cgl-sec-badge">Q 76–100</span>
+      </button>
     </div>
-    <a href="tier-1-syllabus-strategy.html" class="banner-link" target="_blank" rel="noopener">
-      <span>SSC CGL Syllabus &amp; Strategy Guide ↗</span>
-    </a>
   </div>
 
   <!-- Exam Live Status Bar -->
@@ -350,6 +383,17 @@
     <div id="review-list"></div>
   </section>
 
+
+  <!-- Contextual SSC CGL Strategy & Cutoff Blueprint Silo Crosslink -->
+  <div class="study-guide-crosslink-banner">
+    <div class="banner-text">
+      <span>📊</span>
+      <span><strong>Preparation Strategy &amp; Cutoff Blueprint:</strong> Target score analysis, section weightage, and safe attempt plans:</span>
+    </div>
+    <a href="tier-1-syllabus-strategy.html" class="banner-link" target="_blank" rel="noopener">
+      <span>SSC CGL Syllabus &amp; Strategy Guide ↗</span>
+    </a>
+  </div>
 
   <!-- Static Educational Overview & Candidate Instructions (SEO & AdSense Substantive Content) -->
   <section class="exam-guide-static" style="max-width:960px; margin:36px auto 48px auto; padding:28px 24px; background:var(--bg-surface); border:1px solid var(--border-color); border-radius:var(--radius-lg); box-shadow:var(--shadow-sm);">

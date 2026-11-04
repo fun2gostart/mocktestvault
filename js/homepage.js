@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const htmlRoot = document.documentElement;
 
   function initTheme() {
-    const savedTheme = localStorage.getItem('mtv_theme') || 'light';
+    const urlTheme = new URLSearchParams(window.location.search).get('theme');
+    const savedTheme = urlTheme || localStorage.getItem('mtv_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     htmlRoot.setAttribute('data-theme', savedTheme);
     updateThemeIcon(savedTheme);
   }

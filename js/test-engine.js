@@ -118,7 +118,26 @@ class MockTestEngine {
     this.setupMobilePaletteDrawer();
     this.setupScratchpad();
     this.setupShortcutsModal();
+    this.setupFixedViewport();
     await this.loadQuestions();
+  }
+
+  setupFixedViewport() {
+    if (this.dom.questionCard && !this.dom.questionCard.querySelector('.question-scroll-body')) {
+      const qText = this.dom.questionCard.querySelector('.question-text-box');
+      const qOpts = this.dom.questionCard.querySelector('.options-list');
+      const qExpl = this.dom.questionCard.querySelector('.explanation-box');
+      const actionBar = this.dom.questionCard.querySelector('.card-action-bar');
+      if (qText && qOpts && actionBar) {
+        const scrollBody = document.createElement('div');
+        scrollBody.className = 'question-scroll-body';
+        this.dom.questionCard.insertBefore(scrollBody, actionBar);
+        scrollBody.appendChild(qText);
+        scrollBody.appendChild(qOpts);
+        if (qExpl) scrollBody.appendChild(qExpl);
+        this.dom.scrollBody = scrollBody;
+      }
+    }
   }
 
   setupServiceWorker() {
@@ -181,7 +200,8 @@ class MockTestEngine {
      Theme & Display Settings
      ========================================================================== */
   setupTheme() {
-    const savedTheme = localStorage.getItem('mtv_theme') || 
+    const urlTheme = new URLSearchParams(window.location.search).get('theme');
+    const savedTheme = urlTheme || localStorage.getItem('mtv_theme') || 
       (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     document.documentElement.setAttribute('data-theme', savedTheme);
     this.updateThemeIcon(savedTheme);
@@ -686,6 +706,11 @@ class MockTestEngine {
     this.currentIndex = index;
     this.visitedFlags[index] = true;
     const q = this.questions[index];
+
+    // Reset internal scroll to top of question
+    if (this.dom.scrollBody) {
+      this.dom.scrollBody.scrollTop = 0;
+    }
 
     // 1. Question Number & Badges
     if (this.dom.qNumber) {
