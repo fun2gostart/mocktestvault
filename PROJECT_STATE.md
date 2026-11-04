@@ -511,6 +511,22 @@ Following user directive ("keep font and colour as it is from https://mocktestva
   - Updated [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js) to explicitly bypass caching and interception for `googletagmanager.com` and `google-analytics.com` requests, ensuring seamless native telemetry transmission without cache storage bloat.
   - Bumped service worker cache to `mtv-cbt-v29`.
 
+### 18. Regional Hubs Transformation — US & Global Hero Vault Inventory Dashboards
+* **Objective:** Remove the isolated static sample questions from `us/index.html` and `global/index.html` and replace them with high-authority Examination Vault Inventory Dashboards mirroring the India hub architecture (`in/index.html`).
+* **Deliverables:**
+  - **US Hub (`us/index.html`):** Replaced the 1-question algebra widget with the **US Examination Vault Inventory Card**:
+    - Status badge: `● College Board® Calibrated: 100% Live` | `Code SAT / AP / GRE`
+    - 3-metric grid: `200 Qs` Digital SAT® Suites, `300 Qs` AP® CED Suites, `80 Qs` GRE® Diagnostics (580 total Qs).
+    - Pedagogical 5-set progression breakdown with Desmos-aligned math methods and primary-source DBQ document analysis.
+    - Full-width CTA button to explore the 6-track US catalog (`#tracks`).
+  - **Global Hub (`global/index.html`):** Replaced the 1-question IELTS reading passage with the **Global Examination Vault Inventory Card**:
+    - Status badge: `● International Standards: 100% Live` | `CEFR / ETS / GMAC / AWS`
+    - 3-metric grid: `140 Qs` IELTS & TOEFL iBT, `120 Qs` GRE & GMAT Focus, `170 Qs` AWS CLF-C02 & IB DP (430 total Qs).
+    - Assessment calibration note highlighting Cambridge, ETS, GMAC, and AWS certification frameworks.
+    - Full-width CTA button to explore the 6-track Global catalog (`#tracks`).
+  - Bumped service worker cache to `mtv-cbt-v30`.
+
+
 
 
 
