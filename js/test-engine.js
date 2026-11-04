@@ -7,17 +7,13 @@ class MockTestEngine {
   constructor(options = {}) {
     const urlParams = (typeof window !== 'undefined' && window.location) ? new URLSearchParams(window.location.search) : null;
     const setParam = urlParams ? urlParams.get('set') : null;
-    this.setSources = options.setSources || {
-      set1: 'data/in/cbse10/science_ch01_chemical_reactions_set1.json',
-      set2: 'data/in/cbse10/science_ch01_chemical_reactions_set2.json',
-      set3: 'data/in/cbse10/science_ch01_chemical_reactions_set3.json'
-    };
+    this.setSources = options.setSources || {};
     if (setParam && (setParam === 'random' || this.setSources[setParam])) {
       this.currentSet = setParam;
     } else {
-      this.currentSet = options.initialSet || 'set1';
+      this.currentSet = options.initialSet || (this.setSources.set1 ? 'set1' : (Object.keys(this.setSources)[0] || null));
     }
-    this.dataSource = this.currentSet === 'random' ? null : this.setSources[this.currentSet];
+    this.dataSource = (this.currentSet === 'random' || !this.currentSet) ? null : this.setSources[this.currentSet];
     this.timeLimitMinutes = options.timeLimitMinutes || 20;
     this.randomSampleSize = options.randomSampleSize || 20;
     this.markingScheme = options.markingScheme || { correct: 1, wrong: 0 };

@@ -3,10 +3,13 @@
 
 User-agent: *
 Allow: /
+# Disallow malformed nested relative data paths while preserving canonical root /data/
+Disallow: /*/data/
 
 # Google Search Crawlers
 User-agent: Googlebot
 Allow: /
+Disallow: /*/data/
 
 User-agent: Googlebot-Image
 Allow: /

@@ -16,6 +16,9 @@ DirectoryIndex index.html
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteCond %{REQUEST_URI} !(.*)/$
     RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1/ [L,R=301]
+
+    # Auto-heal any malformed nested relative /data/ requests to canonical root /data/
+    RewriteRule ^.+/(data/.*)$ /$1 [R=301,L]
 </IfModule>
 
 # Browser Caching & Performance

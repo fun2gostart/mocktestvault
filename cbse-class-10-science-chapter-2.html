@@ -358,14 +358,11 @@
     document.addEventListener('DOMContentLoaded', () => {
       window.testEngine = new MockTestEngine({
         initialSet: 'set1',
-        timeLimitMinutes: 20
+        timeLimitMinutes: 20,
+        setSources: {
+          set1: '/data/in/cbse10/science_ch02_acids_bases_salts_set1.json'
+        }
       });
-      // Point data source to Chapter 2
-      window.testEngine.setSources = {
-        set1: 'data/in/cbse10/science_ch02_acids_bases_salts_set1.json'
-      };
-      window.testEngine.dataSource = window.testEngine.setSources.set1;
-      window.testEngine.loadQuestions();
     });
   </script>
 </body>
