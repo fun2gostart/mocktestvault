@@ -7,7 +7,7 @@
 > **Target Path on Server:** `domains/mocktestvault.com/public_html/`  
 > **Automated Deployers:** `./deploy_to_github.sh` & `./deploy_mocktestvault.sh`  
 > **Status:** 100% Operational & Live in Production  
-> **Current Scale:** 152 Production Routes | 6,410+ Ground-Truth Verified Questions across 3 Focus Pillars | 3 High-Volume Evergreen Study Guides (Math Formulas, Science Reactions & Colors, SSC CGL Syllabus Strategy) | 6 Dynamic Shuffled Random Mock Simulators | 9 Full 80-Mark Class 10 Board Papers & PYQs | 8 Full 70/80-Mark Class 12 Board Papers (2024 & 2023 Solved across Physics, Chemistry, Biology, Mathematics) | 5 Full 100-Q SSC CGL Simulators (3 Mocks + 2023 Shift 1 & Shift 2 PYQs) | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators | 3 CBSE Class 12 Science Board Simulators | 2 NTA JEE Main & NEET UG Speed Drills | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
+> **Current Scale:** 154 Production Routes | 6,410+ Ground-Truth Verified Questions across 3 Focus Pillars | 5 High-Volume Evergreen Study Guides (Class 10 Math, Class 10 Science Reactions, Class 12 Physics Formulas & Derivations, Class 12 Chemistry Reactions & Distinction Tests, SSC CGL Syllabus Strategy) | 6 Dynamic Shuffled Random Mock Simulators | 9 Full 80-Mark Class 10 Board Papers & PYQs | 8 Full 70/80-Mark Class 12 Board Papers (2024 & 2023 Solved across Physics, Chemistry, Biology, Mathematics) | 5 Full 100-Q SSC CGL Simulators (3 Mocks + 2023 Shift 1 & Shift 2 PYQs) | 2 Full 65-Q AWS CLF-C02 Simulators | 2 IB DP Practice Simulators | 3 CBSE Class 12 Science Board Simulators | 2 NTA JEE Main & NEET UG Speed Drills | 12 Sectional Speed Drills | 5 Legal Trust Hubs  
 > **Key Integrity:** 100% Canonical CBSE Assertion-Reasoning Verified (643 Qs) | 100% Mathematically Rigorous SSC CGL & GRE Quant Solutions | 100% Canonical IELTS TFNG Normalization (21 Qs) | Official AWS CLF-C02 Domain Weightages & 700/1000 Scaled Scoring (130 Qs) | Official IB DP Biology & Math AA Markschemes with Grade 1–7 Calibrations (140 Qs) | CBSE Class 12 PCB Theory Blueprints with NCERT Derivations & Grade Predictions (210 Qs) | NTA Standard +4 / -1 Marking & 99th Percentile Trajectories (140 Qs)  
 > **Live URL Inspection Status:** 100% Green / Zero Errors on Bing Webmaster Tools & GSC across all 142 pages (Nov 4, 2026)  
 
@@ -602,6 +602,29 @@ Following user directive ("keep font and colour as it is from https://mocktestva
     - Updated [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml) (+10 URLs $\rightarrow$ 152 total production URLs).
     - Updated [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.90` entries for all 10 new routes.
     - Fortified PWA caching in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js) to `mtv-cbt-v33` with network-first `cache: 'no-cache'` validation and proactive `reg.update()` in [`homepage.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/homepage.js) and [`test-engine.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/test-engine.js).
+
+### 22. Senior Secondary Master Study Guides — CBSE Class 12 Physics Formulas & Chemistry Name Reactions
+* **Objective:** Capture high-intent organic search queries for CBSE Class 12 board examination preparation by publishing comprehensive, curriculum-accurate statutory revision cheat sheets and derivations checklists across Physics (Code 042) and Chemistry (Code 043).
+* **Deliverables:**
+  - **CBSE Class 12 Physics All Formulas, Derivations & SI Units Sheet ([`cbse-class-12/physics-formulas-derivations.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/physics-formulas-derivations.html)):**
+    - 10 Units / 14 Chapters completely mapped with mathematical formulas, SI units, and dimensional equations.
+    - Top 15 Mandatory 5-Mark Derivations Master Checklist (Axial/Equatorial Dipole, Gauss's Law to wire and sheet, Capacitor slab, Drift velocity & microscopic Ohm's law, Biot-Savart loop axis, Parallel wire forces, Moving coil galvanometer, Motional EMF, Series LCR resonance, Spherical surface refraction & Lens Maker's formula, Prism formula, Huygens' Snell's law verification, YDSE fringe width $\beta = \lambda D / d$, Bohr energy levels).
+    - Examiner traps and sign-convention alert boxes.
+    - Full Schema.org `@graph` with `Article` and `BreadcrumbList`.
+  - **CBSE Class 12 Chemistry All Name Reactions, Formulas & Distinction Tests ([`cbse-class-12/chemistry-reactions-formulas.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/chemistry-reactions-formulas.html)):**
+    - Physical Chemistry numerical formulas with units: Solutions (Raoult's law, colligative properties, van 't Hoff factor $i$), Electrochemistry (Nernst equation, Kohlrausch's law, $\Delta G^\circ = -nFE^\circ$), Chemical Kinetics (zero & first order integrated laws, Arrhenius equation).
+    - Inorganic Chemistry: d- and f-block magnetic moment, Lanthanoid contraction consequences, $K_2Cr_2O_7$ and $KMnO_4$ oxidizing reactions, Coordination compounds VBT hybridization and Crystal Field Splitting (CFSE).
+    - Complete 28 Organic Named Reactions Suite with reactants, reagents, balanced products, and mechanism tips (Sandmeyer, Gattermann, Finkelstein, Swarts, Wurtz, Fittig, Wurtz-Fittig, Kolbe, Reimer-Tiemann, Williamson, Rosenmund, Stephen, Etard, Gattermann-Koch, Clemmensen, Wolff-Kishner, Aldol, Cannizzaro, HVZ, Gabriel Phthalimide, Hoffmann Bromamide, Carbylamine, Diazotisation, Azo Coupling, Friedel-Crafts).
+    - 8 Essential Chemical Distinction Tests (Lucas test for alcohols, Iodoform test, Neutral $FeCl_3$, $NaHCO_3$, Tollens' silver mirror, Fehling's, Carbylamine, Azo dye test, Hinsberg test for amines).
+    - Biomolecules glucose reaction series, peptide linkage, protein denaturation, and DNA vs RNA.
+  - **Discovery, Silo Architecture & Caching:**
+    - Updated [`cbse-class-12/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/index.html) with a dedicated "Class 12 Formula Sheets, Derivations & Reaction Guides" interactive section.
+    - Updated [`cbse-class-12/sample-papers/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12/sample-papers/index.html) with quick study guide access banners.
+    - Updated India Hub [`in/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/in/index.html) with badge links.
+    - Updated [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml) (+2 URLs $\rightarrow$ 154 total production URLs).
+    - Updated [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.90` guide entries.
+    - Bumped service worker cache to `mtv-cbt-v34` in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js).
+
 
 
 

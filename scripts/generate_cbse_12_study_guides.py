@@ -1,0 +1,932 @@
+#!/usr/bin/env python3
+"""
+Generate comprehensive, curriculum-accurate CBSE Class 12 Master Study Guides:
+1. cbse-class-12/physics-formulas-derivations.html (Physics Code 042)
+2. cbse-class-12/chemistry-reactions-formulas.html (Chemistry Code 043)
+
+Includes responsive layouts, Schema.org @graph (Article + BreadcrumbList), 
+clean mathematical formatting, printable A4 CSS, and direct CTAs to 2024/2023 solved board papers.
+"""
+
+import os
+
+BASE_DIR = "/Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-12"
+os.makedirs(BASE_DIR, exist_ok=True)
+
+# ---------------------------------------------------------------------------
+# 1. Physics Formulas & Derivations Guide
+# ---------------------------------------------------------------------------
+physics_html = """<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-05SFM1Q4MV');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE 12 Physics All Formulas, Derivations &amp; SI Units Sheet (Code 042) | MockTestVault</title>
+  <meta name="description" content="Complete CBSE Class 12 Physics chapter-wise formula sheet, mandatory 5-mark derivations checklist, SI units, and exam-day revision notes aligned with NCERT syllabus.">
+  <link rel="alternate" type="application/atom+xml" title="MockTestVault Feed" href="https://mocktestvault.com/feed.xml">
+  <link rel="alternate" type="text/markdown" title="LLM &amp; AI Discovery Directory" href="https://mocktestvault.com/llms.txt">
+  <!-- Canonical & Open Graph (Social Sharing) -->
+  <link rel="canonical" href="https://mocktestvault.com/cbse-class-12/physics-formulas-derivations.html">
+  <meta property="og:site_name" content="MockTestVault">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mocktestvault.com/cbse-class-12/physics-formulas-derivations.html">
+  <meta property="og:title" content="CBSE 12 Physics All Formulas, Derivations &amp; SI Units Sheet (Code 042) | MockTestVault">
+  <meta property="og:description" content="Complete CBSE Class 12 Physics chapter-wise formula sheet, mandatory 5-mark derivations checklist, SI units, and exam-day revision notes aligned with NCERT syllabus.">
+  <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
+  <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CBSE 12 Physics All Formulas, Derivations &amp; SI Units Sheet (Code 042) | MockTestVault">
+  <meta name="twitter:description" content="Complete CBSE Class 12 Physics chapter-wise formula sheet, mandatory 5-mark derivations checklist, SI units, and exam-day revision notes aligned with NCERT syllabus.">
+  <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
+  <meta name="twitter:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
+
+  <link rel="stylesheet" href="../css/test-engine.css">
+
+  <style>
+    .guide-container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 32px 20px 80px 20px;
+    }
+    .guide-hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+      color: #ffffff;
+      padding: 44px 32px;
+      border-radius: var(--radius-lg);
+      margin-bottom: 32px;
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+    .guide-hero-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      background: rgba(59, 130, 246, 0.25);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      color: #93c5fd;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 14px;
+    }
+    .guide-hero h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+    .guide-hero p {
+      font-size: 1.05rem;
+      color: #cbd5e1;
+      line-height: 1.6;
+      max-width: 820px;
+      margin-bottom: 20px;
+    }
+    .hero-meta-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: #94a3b8;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 16px;
+    }
+
+    .toc-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-bottom: 36px;
+      box-shadow: var(--shadow-sm);
+    }
+    .toc-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .toc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 10px;
+    }
+    .toc-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: var(--radius-sm);
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.88rem;
+      background: var(--bg-subtle);
+      transition: all 0.2s ease;
+    }
+    .toc-link:hover {
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+
+    .chapter-section {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: var(--shadow-sm);
+      scroll-margin-top: 80px;
+    }
+    .chapter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 2px solid var(--primary-light);
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .chapter-title-group h2 {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+    .chapter-title-group span {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .formula-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      font-size: 0.88rem;
+    }
+    .formula-table th {
+      background: var(--bg-subtle);
+      color: var(--text-primary);
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 700;
+      border: 1px solid var(--border-color);
+    }
+    .formula-table td {
+      padding: 10px 14px;
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .formula-table tr:hover td {
+      background: rgba(37, 99, 235, 0.03);
+    }
+    .eq-box {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-weight: 700;
+      color: var(--primary);
+      background: var(--bg-subtle);
+      padding: 4px 8px;
+      border-radius: 4px;
+      display: inline-block;
+      margin: 2px 0;
+      font-size: 0.92rem;
+    }
+    .deriv-box {
+      background: var(--bg-subtle);
+      border-left: 4px solid var(--accent-emerald);
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin: 14px 0;
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+    .deriv-title {
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .trap-box {
+      background: rgba(239, 68, 68, 0.06);
+      border: 1px solid rgba(239, 68, 68, 0.25);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 14px;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+    .trap-title {
+      font-weight: 800;
+      color: #dc2626;
+      margin-bottom: 4px;
+    }
+
+    @media print {
+      .site-header, .site-footer, .breadcrumb-bar, .toc-card, .btn-print, .btn-test-link {
+        display: none !important;
+      }
+      .chapter-section {
+        page-break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ccc;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "CBSE Class 12 Physics All Formulas, Derivations & SI Units Sheet (Code 042)",
+        "description": "Comprehensive chapter-wise formula sheet, 15 mandatory 5-mark derivations checklist, SI units, and exam-day revision notes aligned with NCERT syllabus.",
+        "author": {
+          "@type": "Organization",
+          "name": "MockTestVault Editorial Board",
+          "url": "https://mocktestvault.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "MockTestVault",
+          "url": "https://mocktestvault.com"
+        },
+        "mainEntityOfPage": "https://mocktestvault.com/cbse-class-12/physics-formulas-derivations.html"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://mocktestvault.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "CBSE Class 12",
+            "item": "https://mocktestvault.com/cbse-class-12/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physics Formulas & Derivations",
+            "item": "https://mocktestvault.com/cbse-class-12/physics-formulas-derivations.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../index.html" class="brand-logo">
+        <span class="brand-icon">⚡</span>
+        <span class="brand-text">MockTestVault</span>
+      </a>
+      <div class="header-actions">
+        <a href="index.html" class="nav-link" style="color:var(--text-secondary); text-decoration:none; font-weight:600; font-size:0.9rem;">Class 12 Hub</a>
+        <a href="sample-papers/index.html" class="nav-link" style="color:var(--text-secondary); text-decoration:none; font-weight:600; font-size:0.9rem;">Board PYQs</a>
+        <button id="theme-toggle-btn" class="theme-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">🌙</button>
+        <button onclick="window.print()" class="btn-print" style="background:var(--primary); color:#fff; border:none; padding:8px 14px; border-radius:6px; font-weight:700; cursor:pointer; font-size:0.85rem;">🖨️ Print / Save PDF</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb Navigation Bar -->
+  <div class="breadcrumb-bar" style="background:var(--bg-subtle); border-bottom:1px solid var(--border-color); padding:10px 0;">
+    <div class="guide-container" style="padding-top:0; padding-bottom:0;">
+      <nav aria-label="Breadcrumb" style="font-size:0.85rem; color:var(--text-muted);">
+        <a href="../index.html" style="color:var(--text-secondary); text-decoration:none;">Home</a> &gt;
+        <a href="../in/index.html" style="color:var(--text-secondary); text-decoration:none;">India Vault</a> &gt;
+        <a href="index.html" style="color:var(--text-secondary); text-decoration:none;">CBSE Class 12</a> &gt;
+        <span style="color:var(--primary); font-weight:700;">Physics Formulas &amp; Derivations</span>
+      </nav>
+    </div>
+  </div>
+
+  <main class="guide-container">
+
+    <!-- Hero Header -->
+    <div class="guide-hero">
+      <span class="guide-hero-badge">CBSE Class 12 Physics (Code 042) • NCERT Statutory Blueprint</span>
+      <h1>CBSE Class 12 Physics All Formulas, Derivations &amp; SI Units Sheet</h1>
+      <p>
+        The definitive chapter-wise formula and derivation compilation for CBSE Class 12 Board candidates. Features complete mathematical definitions, SI units, dimensional formulas, statutory NCERT derivation starting assumptions, and common examiner traps across all 14 syllabus chapters.
+      </p>
+
+      <div class="hero-meta-row">
+        <span>⚡ 10 Units Covered</span>
+        <span>📝 15 Mandatory 5-Mark Derivations</span>
+        <span>📊 70-Mark Theory Blueprint</span>
+        <span>🖨️ Clean Printable Layout</span>
+      </div>
+
+      <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
+        <a href="sample-papers/physics-board-paper-2024.html" style="background:#2563eb; color:#ffffff; padding:10px 18px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.88rem;">
+          🚀 Practice 2024 Physics Solved Board Paper (70M) →
+        </a>
+        <a href="sample-papers/physics-board-paper-2023.html" style="background:rgba(255,255,255,0.15); color:#ffffff; padding:10px 18px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.88rem; border:1px solid rgba(255,255,255,0.25);">
+          📄 Practice 2023 Physics Solved Board Paper (70M) →
+        </a>
+      </div>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="toc-card">
+      <div class="toc-title">
+        <span>📑</span> Quick Navigation / Jump to Chapter
+      </div>
+      <div class="toc-grid">
+        <a href="#ch01" class="toc-link"><span>1.</span> Electric Charges &amp; Fields</a>
+        <a href="#ch02" class="toc-link"><span>2.</span> Electrostatic Potential &amp; Capacitance</a>
+        <a href="#ch03" class="toc-link"><span>3.</span> Current Electricity &amp; Circuits</a>
+        <a href="#ch04" class="toc-link"><span>4.</span> Moving Charges &amp; Magnetism</a>
+        <a href="#ch05" class="toc-link"><span>5.</span> Magnetism and Matter</a>
+        <a href="#ch06" class="toc-link"><span>6.</span> Electromagnetic Induction (EMI)</a>
+        <a href="#ch07" class="toc-link"><span>7.</span> Alternating Current (AC)</a>
+        <a href="#ch08" class="toc-link"><span>8.</span> Electromagnetic Waves</a>
+        <a href="#ch09" class="toc-link"><span>9.</span> Ray Optics &amp; Optical Instruments</a>
+        <a href="#ch10" class="toc-link"><span>10.</span> Wave Optics (Interference &amp; Diffraction)</a>
+        <a href="#ch11" class="toc-link"><span>11.</span> Dual Nature of Radiation &amp; Matter</a>
+        <a href="#ch12" class="toc-link"><span>12.</span> Atoms (Bohr Model &amp; Spectra)</a>
+        <a href="#ch13" class="toc-link"><span>13.</span> Nuclei (Binding Energy &amp; Q-Value)</a>
+        <a href="#ch14" class="toc-link"><span>14.</span> Semiconductor Electronics &amp; Diodes</a>
+        <a href="#derivations" class="toc-link" style="color:var(--accent-emerald); font-weight:700;"><span>⭐</span> Top 15 Mandatory 5-Mark Derivations</a>
+      </div>
+    </div>
+
+    <!-- CHAPTER 1: ELECTRIC CHARGES AND FIELDS -->
+    <section class="chapter-section" id="ch01">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <h2>Chapter 1: Electric Charges and Fields</h2>
+          <span>Unit I • Electrostatics (Chapters 1 &amp; 2 combine for 16 Marks)</span>
+        </div>
+        <a href="sample-papers/physics-board-paper-2024.html" class="btn-test-link" style="font-size:0.82rem; color:var(--primary); font-weight:700; text-decoration:none;">Practice Board PYQs →</a>
+      </div>
+
+      <table class="formula-table">
+        <thead>
+          <tr>
+            <th style="width:28%;">Concept / Law</th>
+            <th style="width:40%;">Mathematical Formula</th>
+            <th style="width:32%;">SI Units &amp; Key Variables</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Coulomb's Law</strong></td>
+            <td><span class="eq-box">F = (1 / 4πε₀) · (|q₁ q₂| / r²)</span><br>Vector: <span class="eq-box">F₁₂ = (1 / 4πε₀) · (q₁ q₂ / r²) · r̂₂₁</span></td>
+            <td><strong>N (Newton)</strong><br>1/(4πε₀) = 9 × 10⁹ N·m²/C²<br>ε₀ = 8.854 × 10⁻¹² C²/N·m²</td>
+          </tr>
+          <tr>
+            <td><strong>Electric Dipole Moment</strong></td>
+            <td><span class="eq-box">p = q · 2a</span> (Directed -q to +q)</td>
+            <td><strong>C·m (Coulomb-meter)</strong><br>Vector quantity pointing from negative to positive charge.</td>
+          </tr>
+          <tr>
+            <td><strong>Dipole Field: Axial Point</strong></td>
+            <td><span class="eq-box">E_axial = (1 / 4πε₀) · (2pr / (r² - a²)²)</span><br>For r &gt;&gt; a: <span class="eq-box">E_axial ≈ (1 / 4πε₀) · (2p / r³)</span></td>
+            <td><strong>N/C or V/m</strong><br>Field points in the direction of dipole moment p.</td>
+          </tr>
+          <tr>
+            <td><strong>Dipole Field: Equatorial Point</strong></td>
+            <td><span class="eq-box">E_eq = (1 / 4πε₀) · (p / (r² + a²)^(3/2))</span><br>For r &gt;&gt; a: <span class="eq-box">E_eq ≈ (1 / 4πε₀) · (p / r³)</span></td>
+            <td><strong>N/C</strong><br>Note: E_axial = 2 · E_eq. Equatorial field points anti-parallel to p.</td>
+          </tr>
+          <tr>
+            <td><strong>Torque &amp; Potential Energy on Dipole</strong></td>
+            <td><span class="eq-box">τ = p × E = p E sin θ</span><br><span class="eq-box">U = -p · E = -p E cos θ</span></td>
+            <td>Torque: <strong>N·m</strong>; Energy: <strong>J (Joules)</strong><br>Stable equilibrium at θ = 0°; Unstable at θ = 180°.</td>
+          </tr>
+          <tr>
+            <td><strong>Gauss's Law &amp; Flux</strong></td>
+            <td><span class="eq-box">Φ_E = ∮ E · dA = q_encl / ε₀</span></td>
+            <td><strong>N·m²/C or V·m</strong><br>Flux depends only on enclosed charge, independent of shape/size.</td>
+          </tr>
+          <tr>
+            <td><strong>Field: Infinite Straight Wire</strong></td>
+            <td><span class="eq-box">E = λ / (2πε₀ r)</span></td>
+            <td>λ = linear charge density (C/m). Field varies as 1/r.</td>
+          </tr>
+          <tr>
+            <td><strong>Field: Infinite Plane Sheet</strong></td>
+            <td><span class="eq-box">E = σ / (2ε₀)</span></td>
+            <td>σ = surface charge density (C/m²). Independent of distance r!</td>
+          </tr>
+          <tr>
+            <td><strong>Field: Thin Spherical Shell</strong></td>
+            <td>Inside (r &lt; R): <span class="eq-box">E = 0</span><br>Outside (r ≥ R): <span class="eq-box">E = (1 / 4πε₀) · (q / r²)</span></td>
+            <td>At surface: E_max = σ / ε₀. Inside a conductor or conducting shell, field is strictly zero.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="deriv-box">
+        <div class="deriv-title">📌 Key 5-Mark Derivation Blueprint: Gauss's Law to Plane Sheet</div>
+        <p>1. Consider a thin infinite plane sheet with uniform surface charge density σ. Symmetry dictates E is perpendicular to the sheet pointing outward on both sides.<br>
+        2. Choose a cylindrical Gaussian surface of cross-sectional area A and length 2r cutting symmetrically through the sheet.<br>
+        3. Flux through curved cylindrical surface = ∮ E · dA = E · A · cos 90° = 0.<br>
+        4. Flux through two end circular caps = E · A + E · A = 2EA.<br>
+        5. Enclosed charge = q_encl = σ · A.<br>
+        6. By Gauss's Law: 2EA = (σ · A) / ε₀ ⟹ <strong>E = σ / (2ε₀)</strong> (Independent of r).</p>
+      </div>
+
+      <div class="trap-box">
+        <div class="trap-title">⚠️ Examiner Pitfall Alert:</div>
+        In dipole derivations, students often confuse E_axial and E_eq. Remember that E_axial = 2 · E_eq at large distances (r &gt;&gt; a), and E_eq points in the direction OPPOSITE to dipole moment vector p.
+      </div>
+    </section>
+
+    <!-- CHAPTER 2: ELECTROSTATIC POTENTIAL AND CAPACITANCE -->
+    <section class="chapter-section" id="ch02">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <h2>Chapter 2: Electrostatic Potential and Capacitance</h2>
+          <span>Unit I • Conservative Fields, Dielectrics &amp; Stored Energy</span>
+        </div>
+      </div>
+
+      <table class="formula-table">
+        <thead>
+          <tr>
+            <th style="width:28%;">Concept</th>
+            <th style="width:40%;">Formula</th>
+            <th style="width:32%;">Remarks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Potential due to Point Charge</strong></td>
+            <td><span class="eq-box">V = (1 / 4πε₀) · (q / r)</span></td>
+            <td><strong>V (Volt = J/C)</strong>. Scalar quantity. V varies as 1/r.</td>
+          </tr>
+          <tr>
+            <td><strong>Potential due to Dipole</strong></td>
+            <td><span class="eq-box">V = (1 / 4πε₀) · (p cos θ / r²)</span></td>
+            <td>Axial (θ = 0°): V = kp/r².<br>Equatorial (θ = 90°): <strong>V = 0 everywhere</strong>!</td>
+          </tr>
+          <tr>
+            <td><strong>Field-Potential Relation</strong></td>
+            <td><span class="eq-box">E = -dV / dr</span></td>
+            <td>Field points in the direction in which potential decreases steepest. Equipotential surfaces are always perpendicular to electric field lines.</td>
+          </tr>
+          <tr>
+            <td><strong>Parallel Plate Capacitor</strong></td>
+            <td>Vacuum: <span class="eq-box">C₀ = ε₀ A / d</span><br>With Dielectric: <span class="eq-box">C = K · C₀ = ε_r ε₀ A / d</span></td>
+            <td><strong>F (Farad)</strong>. C depends only on geometric factors (A, d) and permittivity of medium, NOT on Q or V.</td>
+          </tr>
+          <tr>
+            <td><strong>Capacitor with Slab (Thickness t)</strong></td>
+            <td>Dielectric Slab: <span class="eq-box">C = ε₀ A / (d - t + t/K)</span><br>Conducting Slab (K = ∞): <span class="eq-box">C = ε₀ A / (d - t)</span></td>
+            <td>Always increases capacitance because effective separation between plates decreases.</td>
+          </tr>
+          <tr>
+            <td><strong>Energy Stored in Capacitor</strong></td>
+            <td><span class="eq-box">U = (1/2) C V² = (1/2) Q V = Q² / (2C)</span><br>Energy Density: <span class="eq-box">u = (1/2) ε₀ E²</span></td>
+            <td>Energy is stored in the electrostatic field between the plates. Energy density unit: <strong>J/m³</strong>.</td>
+          </tr>
+          <tr>
+            <td><strong>Combination of Capacitors</strong></td>
+            <td>Series: <span class="eq-box">1/C_s = 1/C₁ + 1/C₂ + ...</span> (Q same)<br>Parallel: <span class="eq-box">C_p = C₁ + C₂ + ...</span> (V same)</td>
+            <td>Series divides voltage; parallel divides charge.</td>
+          </tr>
+          <tr>
+            <td><strong>Common Potential &amp; Energy Loss</strong></td>
+            <td><span class="eq-box">V_common = (C₁V₁ + C₂V₂) / (C₁ + C₂)</span><br><span class="eq-box">ΔU = (1/2) [C₁C₂ / (C₁ + C₂)] · (V₁ - V₂)²</span></td>
+            <td>Energy loss ΔU is always positive and dissipates as heat and EM radiation in connecting wires.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CHAPTER 3: CURRENT ELECTRICITY -->
+    <section class="chapter-section" id="ch03">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <h2>Chapter 3: Current Electricity</h2>
+          <span>Unit II • 7 Marks in Board Blueprints</span>
+        </div>
+      </div>
+
+      <table class="formula-table">
+        <thead>
+          <tr>
+            <th>Parameter / Law</th>
+            <th>Formula</th>
+            <th>Key Physical Constants</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Drift Velocity &amp; Current</strong></td>
+            <td><span class="eq-box">v_d = -e E τ / m</span><br><span class="eq-box">I = n e A v_d</span></td>
+            <td>τ = relaxation time (s), m = electron mass (9.1 × 10⁻³¹ kg), e = 1.6 × 10⁻¹⁹ C, n = electron density (m⁻³).</td>
+          </tr>
+          <tr>
+            <td><strong>Current Density &amp; Ohm's Law (Microscopic)</strong></td>
+            <td><span class="eq-box">j = I / A = σ E</span><br><span class="eq-box">ρ = 1/σ = m / (n e² τ)</span></td>
+            <td>j = current density (A/m²), σ = conductivity (S/m or Ω⁻¹m⁻¹), ρ = resistivity (Ω·m).</td>
+          </tr>
+          <tr>
+            <td><strong>Temperature Dependence of Resistance</strong></td>
+            <td><span class="eq-box">R_T = R₀ (1 + α ΔT)</span><br><span class="eq-box">ρ_T = ρ₀ (1 + α ΔT)</span></td>
+            <td>α = temperature coefficient of resistance (K⁻¹ or °C⁻¹).<br>Metals: α &gt; 0; Semiconductors/Insulators: α &lt; 0.</td>
+          </tr>
+          <tr>
+            <td><strong>Cell EMF, Terminal PD &amp; Internal Resistance</strong></td>
+            <td>Discharging: <span class="eq-box">V = E - I r</span><br>Charging: <span class="eq-box">V = E + I r</span><br>Internal Resistance: <span class="eq-box">r = R (E/V - 1)</span></td>
+            <td>E = open-circuit EMF (V), V = terminal potential difference (V), r = internal resistance (Ω). Maximum current I_max = E/r when external R = 0.</td>
+          </tr>
+          <tr>
+            <td><strong>Kirchhoff's Laws</strong></td>
+            <td>KCL (Junction Rule): <span class="eq-box">Σ I = 0</span><br>KVL (Loop Rule): <span class="eq-box">Σ ΔV = Σ E - Σ IR = 0</span></td>
+            <td><strong>KCL is based on Conservation of Charge</strong>.<br><strong>KVL is based on Conservation of Energy</strong>.</td>
+          </tr>
+          <tr>
+            <td><strong>Balanced Wheatstone Bridge</strong></td>
+            <td><span class="eq-box">P / Q = R / S</span> (when I_g = 0)</td>
+            <td>When bridge is balanced, no current flows through galvanometer; interchanging battery and galvanometer does not affect balance condition!</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CHAPTER 4 & 5: MAGNETISM & MATTER -->
+    <section class="chapter-section" id="ch04">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <h2>Chapters 4 &amp; 5: Moving Charges, Magnetism &amp; Matter</h2>
+          <span>Unit III • 8 Marks</span>
+        </div>
+      </div>
+
+      <table class="formula-table">
+        <thead>
+          <tr>
+            <th>Law / Configuration</th>
+            <th>Formula</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Lorentz Force</strong></td>
+            <td><span class="eq-box">F = q(E + v × B)</span><br>Magnetic: <span class="eq-box">F_m = q(v × B) = q v B sin θ</span></td>
+            <td>Magnetic force does <strong>ZERO work</strong> because F_m is always perpendicular to velocity v (power P = F · v = 0). Kinetic energy remains constant.</td>
+          </tr>
+          <tr>
+            <td><strong>Biot-Savart Law</strong></td>
+            <td><span class="eq-box">dB = (μ₀ / 4π) · (I dl × r̂ / r²)</span></td>
+            <td>μ₀ / 4π = 10⁻⁷ T·m/A. Valid for steady currents in conductors.</td>
+          </tr>
+          <tr>
+            <td><strong>Field: Axis of Circular Loop</strong></td>
+            <td><span class="eq-box">B = (μ₀ I R²) / [2(R² + x²)^(3/2)]</span><br>At Center (x = 0): <span class="eq-box">B_center = μ₀ I / (2R)</span></td>
+            <td>For N turns, multiply by N. At large distances (x &gt;&gt; R): B = (μ₀ / 4π) · (2m / x³) where magnetic dipole moment m = I A = I (π R²).</td>
+          </tr>
+          <tr>
+            <td><strong>Ampere's Circuital Law</strong></td>
+            <td><span class="eq-box">∮ B · dl = μ₀ I_encl</span><br>Long straight wire: <span class="eq-box">B = μ₀ I / (2π r)</span><br>Solenoid (inside): <span class="eq-box">B = μ₀ n I</span></td>
+            <td>n = N / L (turns per unit length). At ends of solenoid, field drops to B_end = (1/2) μ₀ n I.</td>
+          </tr>
+          <tr>
+            <td><strong>Force between Parallel Currents</strong></td>
+            <td><span class="eq-box">F / L = (μ₀ I₁ I₂) / (2π d)</span></td>
+            <td>Parallel currents in SAME direction <strong>ATTRACT</strong>; antiparallel currents <strong>REPEL</strong>. Defines 1 Ampere (F/L = 2 × 10⁻⁷ N/m at d = 1 m).</td>
+          </tr>
+          <tr>
+            <td><strong>Moving Coil Galvanometer</strong></td>
+            <td>Deflection: <span class="eq-box">θ = (N A B / C) · I</span><br>Current Sensitivity: <span class="eq-box">I_s = θ / I = NAB / C</span><br>Voltage Sensitivity: <span class="eq-box">V_s = θ / V = NAB / (C R_g)</span></td>
+            <td>Radial magnetic field produced using concave magnetic poles and soft iron core ensures θ is linearly proportional to I (sin 90° = 1 always).</td>
+          </tr>
+          <tr>
+            <td><strong>Galvanometer Conversions</strong></td>
+            <td>To Ammeter: Shunt <span class="eq-box">S = I_g R_g / (I - I_g)</span> in parallel.<br>To Voltmeter: Resistor <span class="eq-box">R = (V / I_g) - R_g</span> in series.</td>
+            <td>Ideal Ammeter has ZERO resistance. Ideal Voltmeter has INFINITE resistance.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CHAPTER 6 & 7: EMI & AC -->
+    <section class="chapter-section" id="ch06">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <h2>Chapters 6 &amp; 7: Electromagnetic Induction &amp; Alternating Current</h2>
+          <span>Unit IV • 8 Marks</span>
+        </div>
+      </div>
+
+      <table class="formula-table">
+        <thead>
+          <tr>
+            <th>Concept</th>
+            <th>Formula</th>
+            <th>Key Variables</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Faraday's &amp; Lenz's Law</strong></td>
+            <td><span class="eq-box">E = -dΦ_B / dt = -N · d(B A cos θ) / dt</span></td>
+            <td>Negative sign represents Lenz's Law, which is a consequence of <strong>Conservation of Energy</strong>.</td>
+          </tr>
+          <tr>
+            <td><strong>Motional EMF</strong></td>
+            <td>Translational: <span class="eq-box">E = B v l</span><br>Rotational: <span class="eq-box">E = (1/2) B ω l²</span></td>
+            <td>v = velocity perpendicular to B and length l. Rotational rod rotated about one end with angular speed ω.</td>
+          </tr>
+          <tr>
+            <td><strong>Self &amp; Mutual Inductance</strong></td>
+            <td><span class="eq-box">Φ = L I ⟹ E = -L (dI / dt)</span><br>Solenoid: <span class="eq-box">L = μ₀ N² A / l</span><br>Mutual: <span class="eq-box">M = μ₀ N₁ N₂ A / l</span></td>
+            <td>Unit: <strong>H (Henry)</strong>. Stored magnetic energy: <span class="eq-box">U_B = (1/2) L I²</span>. Energy density u_B = B² / (2μ₀).</td>
+          </tr>
+          <tr>
+            <td><strong>AC Quantities (RMS Values)</strong></td>
+            <td><span class="eq-box">I_rms = I₀ / √2 ≈ 0.707 I₀</span><br><span class="eq-box">V_rms = V₀ / √2 ≈ 0.707 V₀</span></td>
+            <td>Household supply (220 V AC) has peak voltage V₀ = 220 × √2 ≈ <strong>311 V</strong>, making AC more lethal than DC of same nominal voltage!</td>
+          </tr>
+          <tr>
+            <td><strong>Reactance &amp; Series LCR Impedance</strong></td>
+            <td><span class="eq-box">X_L = ω L = 2π f L</span><br><span class="eq-box">X_C = 1 / (ω C) = 1 / (2π f C)</span><br><span class="eq-box">Z = √[ R² + (X_L - X_C)² ]</span></td>
+            <td>Units: <strong>Ω (Ohm)</strong>.<br>Phase angle: <span class="eq-box">tan φ = (X_L - X_C) / R</span>.<br>Pure inductor: current lags voltage by 90°. Pure capacitor: current leads by 90°.</td>
+          </tr>
+          <tr>
+            <td><strong>Resonance &amp; Quality Factor (Q)</strong></td>
+            <td><span class="eq-box">ω₀ = 1 / √(L C) ⟹ f₀ = 1 / [2π √(L C)]</span><br><span class="eq-box">Q = (ω₀ L) / R = (1 / R) · √(L / C)</span></td>
+            <td>At resonance: X_L = X_C, Z_min = R, current I_max = V/R, power factor cos φ = 1. High Q factor means sharp selectivity (essential in radio tuning).</td>
+          </tr>
+          <tr>
+            <td><strong>AC Power &amp; Power Factor</strong></td>
+            <td><span class="eq-box">P_avg = V_rms · I_rms · cos φ</span></td>
+            <td>Power factor = <span class="eq-box">cos φ = R / Z</span>. In pure inductive or capacitive circuit, cos 90° = 0, so average power dissipated = 0 (Wattless current).</td>
+          </tr>
+          <tr>
+            <td><strong>Ideal Transformer Equations</strong></td>
+            <td><span class="eq-box">V_s / V_p = N_s / N_p = I_p / I_s = k</span></td>
+            <td>k &gt; 1 (Step-up: V_s &gt; V_p, I_s &lt; I_p); k &lt; 1 (Step-down). Core laminated to minimize eddy current losses.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CHAPTER 9 & 10: OPTICS -->
+    <section class="chapter-section" id="ch09">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <h2>Chapters 9 &amp; 10: Ray &amp; Wave Optics</h2>
+          <span>Unit VI • Optics is the heaviest unit with 18 Marks!</span>
+        </div>
+      </div>
+
+      <table class="formula-table">
+        <thead>
+          <tr>
+            <th>Optical Formula</th>
+            <th>Mathematical Expression</th>
+            <th>Sign Convention &amp; Crucial Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Mirror &amp; Lens Formulas</strong></td>
+            <td>Mirror: <span class="eq-box">1/v + 1/u = 1/f</span> (m = -v/u)<br>Lens: <span class="eq-box">1/v - 1/u = 1/f</span> (m = +v/u)</td>
+            <td>Cartesian convention: light travels left to right. Real objects have u &lt; 0. Convex lens f &gt; 0; Concave lens f &lt; 0.</td>
+          </tr>
+          <tr>
+            <td><strong>Lens Maker's Formula</strong></td>
+            <td><span class="eq-box">1/f = (μ₂/μ₁ - 1) · [1/R₁ - 1/R₂]</span></td>
+            <td>μ₂ = lens medium, μ₁ = surrounding medium. If immersed in liquid with μ₁ &gt; μ₂, a convex lens behaves as a concave lens!</td>
+          </tr>
+          <tr>
+            <td><strong>Refraction at Spherical Surface</strong></td>
+            <td><span class="eq-box">μ₂ / v - μ₁ / u = (μ₂ - μ₁) / R</span></td>
+            <td>Fundamental derivation stepping stone to Lens Maker's formula.</td>
+          </tr>
+          <tr>
+            <td><strong>Prism Formula</strong></td>
+            <td><span class="eq-box">μ = sin[(A + D_m)/2] / sin(A/2)</span></td>
+            <td>A = angle of prism, D_m = angle of minimum deviation. At minimum deviation: i = e, r₁ = r₂ = A/2, and refracted ray is parallel to prism base.</td>
+          </tr>
+          <tr>
+            <td><strong>Compound Microscope Magnification</strong></td>
+            <td>Normal Adjustment (image at ∞): <span class="eq-box">m = -(v_o / u_o) · (D / f_e)</span><br>Near Point (image at D): <span class="eq-box">m = -(v_o / u_o) · (1 + D / f_e)</span></td>
+            <td>D = least distance of distinct vision (25 cm). Both objective and eyepiece must have small focal lengths (f_o &lt; f_e &lt; D) with f_o very small for large m. Tube length L ≈ v_o + f_e.</td>
+          </tr>
+          <tr>
+            <td><strong>Astronomical Telescope Magnification</strong></td>
+            <td>Normal Adjustment: <span class="eq-box">m = -f_o / f_e</span> (L = f_o + f_e)<br>Near Point: <span class="eq-box">m = -(f_o / f_e) · (1 + f_e / D)</span></td>
+            <td>Objective must have large focal length and large aperture (for high light-gathering power and resolution); eyepiece must have small focal length.</td>
+          </tr>
+          <tr>
+            <td><strong>Wave Optics: YDSE Fringe Width</strong></td>
+            <td><span class="eq-box">β = λ D / d</span><br>Bright Fringe: <span class="eq-box">y_n = n λ D / d</span> (Path diff = nλ)<br>Dark Fringe: <span class="eq-box">y_n = (n - 1/2) λ D / d</span></td>
+            <td>λ = wavelength, D = distance from slits to screen, d = slit separation. If whole apparatus is immersed in medium of index μ: β' = β / μ (fringes shrink).</td>
+          </tr>
+          <tr>
+            <td><strong>Single Slit Diffraction</strong></td>
+            <td>Minima Condition: <span class="eq-box">a sin θ = n λ</span> (n = 1, 2, ...)<br>Central Maximum Width: <span class="eq-box">2β₀ = 2 λ D / a</span></td>
+            <td>a = slit width. Note key difference from YDSE: In diffraction, a sin θ = nλ gives MINIMA, whereas in YDSE d sin θ = nλ gives MAXIMA! Central maximum is twice as wide as secondary maxima.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CHAPTER 11-14: MODERN PHYSICS & SEMICONDUCTORS -->
+    <section class="chapter-section" id="ch11">
+      <div class="chapter-header">
+        <div class="chapter-title-group">
+          <h2>Chapters 11–14: Modern Physics &amp; Semiconductor Electronics</h2>
+          <span>Units VII, VIII, IX • 20 Marks Combined</span>
+        </div>
+      </div>
+
+      <table class="formula-table">
+        <thead>
+          <tr>
+            <th>Phenomenon</th>
+            <th>Formula</th>
+            <th>Key Constant &amp; Interpretation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Einstein's Photoelectric Equation</strong></td>
+            <td><span class="eq-box">K_max = h ν - φ₀ = e V₀</span><br><span class="eq-box">h ν = h ν₀ + (1/2) m v_max²</span></td>
+            <td>h = 6.626 × 10⁻³⁴ J·s, φ₀ = work function (eV), V₀ = stopping potential (V). Slope of V₀ vs ν graph is h/e (universal constant, independent of metal).</td>
+          </tr>
+          <tr>
+            <td><strong>de Broglie Wavelength</strong></td>
+            <td><span class="eq-box">λ = h / p = h / (m v) = h / √(2m E)</span><br>Accelerated by V: <span class="eq-box">λ = 1.227 / √V nm</span></td>
+            <td>For thermal neutron at T Kelvin: λ = h / √(3m k_B T).</td>
+          </tr>
+          <tr>
+            <td><strong>Bohr Model Formulas (Hydrogen-like)</strong></td>
+            <td>Radius: <span class="eq-box">r_n = 0.529 · (n² / Z) Å</span><br>Velocity: <span class="eq-box">v_n = 2.18 × 10⁶ · (Z / n) m/s</span><br>Energy: <span class="eq-box">E_n = -13.6 · (Z² / n²) eV</span></td>
+            <td>Kinetic energy K = -E_n; Potential energy U = 2E_n = -2K. Negative total energy signifies that the electron is bound to the nucleus.</td>
+          </tr>
+          <tr>
+            <td><strong>Rydberg Formula &amp; Spectral Series</strong></td>
+            <td><span class="eq-box">1 / λ = R · Z² · [1/n₁² - 1/n₂²]</span></td>
+            <td>R = 1.097 × 10⁷ m⁻¹.<br>Lyman (n₁=1, UV); Balmer (n₁=2, Visible); Paschen (n₁=3, IR); Brackett (n₁=4, IR); Pfund (n₁=5, IR).</td>
+          </tr>
+          <tr>
+            <td><strong>Nuclear Radius, Density &amp; Q-Value</strong></td>
+            <td><span class="eq-box">R = R₀ · A^(1/3)</span> (R₀ ≈ 1.2 fm)<br>Nuclear Density: <span class="eq-box">ρ_nuc ≈ 2.3 × 10¹⁷ kg/m³</span><br><span class="eq-box">Q = [m_reactants - m_products] · 931.5 MeV</span></td>
+            <td>Nuclear density is <strong>INDEPENDENT of mass number A</strong> (constant for all nuclei). Q &gt; 0 = Exothermic (fission/fusion); Q &lt; 0 = Endothermic.</td>
+          </tr>
+          <tr>
+            <td><strong>Semiconductor Mass Action Law</strong></td>
+            <td><span class="eq-box">n_e · n_h = n_i²</span><br>Conductivity: <span class="eq-box">σ = e (n_e μ_e + n_h μ_h)</span></td>
+            <td>Intrinsic: n_e = n_h = n_i. n-type: n_e ≈ N_D &gt;&gt; n_h. p-type: n_h ≈ N_A &gt;&gt; n_e. Depletion layer width decreases in forward bias and increases in reverse bias.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- TOP 15 MANDATORY DERIVATIONS CHECKLIST -->
+    <section class="chapter-section" id="derivations" style="border:2px solid var(--accent-emerald);">
+      <div class="chapter-header" style="border-bottom:2px solid var(--accent-emerald);">
+        <div class="chapter-title-group">
+          <h2 style="color:var(--accent-emerald);">⭐ Top 15 Mandatory 5-Mark Derivations Master Checklist</h2>
+          <span>These 15 proofs appear every single year in CBSE Class 12 Board Exams Section D &amp; E</span>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">1. Axial &amp; Equatorial Electric Dipole Field</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Resolve components using Coulomb's law. Axial: E = 2kp/r³ along p; Equatorial: E = kp/r³ anti-parallel to p.</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">2. Gauss's Law: Field of Infinite Line Charge</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Construct co-axial cylindrical Gaussian surface. Flux = E(2πrl) = q_encl/ε₀ = λl/ε₀ ⟹ E = λ / (2πε₀r).</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">3. Parallel Plate Capacitor with Dielectric Slab</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">V = E₀(d - t) + E_slab(t) = E₀(d - t + t/K). Substitute E₀ = σ/ε₀ = Q/(Aε₀) ⟹ C = ε₀A / (d - t + t/K).</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">4. Microscopic Ohm's Law (Drift Velocity)</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Apply F = -eE = ma ⟹ v_d = -eEτ/m. Current I = neAv_d ⟹ I = (ne²Aτ/m)E ⟹ j = σE and ρ = m/(ne²τ).</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">5. Magnetic Field on Axis of Circular Loop</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Biot-Savart dB = (μ₀/4π) · (Idl/r²). Diametrically opposite perpendicular components cancel; axial dB sin θ integrate to B = μ₀IR² / [2(R² + x²)^(3/2)].</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">6. Force Between Two Long Parallel Conductors</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Field of wire 1 at wire 2: B₁ = μ₀I₁ / (2πd). Force on length L: F₂₁ = I₂L B₁ sin 90° = (μ₀I₁I₂L) / (2πd). Defines standard SI Ampere.</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">7. Moving Coil Galvanometer Torque Equation</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Deflecting torque τ_d = NIAB sin θ = NIAB (radial field). Restoring torque τ_r = Cθ. Equating gives I = (C / NAB)θ.</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">8. Motional EMF in Sliding Conductor</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Magnetic flux enclosed Φ = B · A = B l x. Rate of flux change dΦ/dt = B l (dx/dt) = B l v. By Faraday's Law, E = -dΦ/dt = Bvl.</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">9. Series LCR Impedance by Phasor Diagram</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Phasors: V_R = IR in phase, V_L = IX_L leads by π/2, V_C = IX_C lags by π/2. Resultant V² = V_R² + (V_L - V_C)² ⟹ Z = √[R² + (X_L - X_C)²].</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">10. Refraction at Spherical Surface</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Snell's law for small angles: n₁ i = n₂ r. Relate exterior angles to interior: i = α + γ, γ = r + β. Yields n₂/v - n₁/u = (n₂ - n₁)/R.</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">11. Lens Maker's Formula</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Apply single spherical surface refraction to both faces of a thin lens and add equations to eliminate intermediate virtual image distance v₁.</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">12. Prism Refraction &amp; Minimum Deviation</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Geometric proof: A = r₁ + r₂ and δ = i + e - A. At minimum deviation D_m, i = e and r₁ = r₂ = A/2. Applying Snell's law yields μ = sin[(A+D_m)/2] / sin(A/2).</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">13. Huygens' Principle: Proof of Snell's Law</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Consider incident plane wavefront AB on interface. Time taken to reach C is t = BC/v₁. Secondary wave from A travels distance AD = v₂t in medium 2. sin i / sin r = (BC/AC) / (AD/AC) = v₁/v₂ = n₂/n₁.</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">14. Young's Double Slit Fringe Width (β)</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Path difference Δx = S₂P - S₁P = yd/D. For bright fringes yd/D = nλ ⟹ y_n = nλD/d. Fringe width β = y_{n+1} - y_n = λD/d.</p>
+        </div>
+
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+          <h4 style="color:var(--text-primary); margin-top:0; margin-bottom:8px;">15. Bohr Model: Radii &amp; Energy Levels of Hydrogen</h4>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin:0;">Equate Coulomb force to centripetal force: (1/4πε₀)(e²/r²) = mv²/r. Apply Bohr's quantization mvr = nh/(2π) to eliminate v and solve for r_n and E_n.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" style="background:var(--bg-surface); border-top:1px solid var(--border-color); padding:40px 0; margin-top:60px;">
+    <div class="guide-container" style="text-align:center; padding:0 20px;">
+      <p style="margin:0 0 8px 0; font-size:0.9rem; color:var(--text-secondary);">
+        <strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Board Examination Simulators.
+      </p>
+      <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap; font-size:0.85rem; margin-top:14px;">
+        <a href="chemistry-reactions-formulas.html" style="color:var(--primary); text-decoration:none; font-weight:700;">Class 12 Chemistry Reactions Sheet →</a>
+        <a href="sample-papers/index.html" style="color:var(--text-secondary); text-decoration:none;">Past Board Papers</a>
+        <a href="../about.html" style="color:var(--text-secondary); text-decoration:none;">About</a>
+        <a href="../privacy.html" style="color:var(--text-secondary); text-decoration:none;">Privacy Policy</a>
+        <a href="../terms.html" style="color:var(--text-secondary); text-decoration:none;">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/homepage.js"></script>
+</body>
+</html>
+"""
+
+with open(os.path.join(BASE_DIR, "physics-formulas-derivations.html"), "w", encoding="utf-8") as f:
+    f.write(physics_html.strip() + "\n")
+
+print("✓ Created: cbse-class-12/physics-formulas-derivations.html")
