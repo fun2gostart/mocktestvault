@@ -19,7 +19,15 @@ DirectoryIndex index.html
 
     # Auto-heal any malformed nested relative /data/ requests to canonical root /data/
     RewriteRule ^.+/(data/.*)$ /$1 [R=301,L]
+
+    # Block direct web access to internal scripts directory
+    RewriteRule ^scripts(/.*)?$ - [F,L]
 </IfModule>
+
+# Security: Deny direct access to internal development scripts, pyc, and documentation
+<FilesMatch "\.(py|pyc|md|sh|log|bak|sql)$">
+    Require all denied
+</FilesMatch>
 
 # Browser Caching & Performance
 <IfModule mod_headers.c>

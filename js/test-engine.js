@@ -1041,10 +1041,26 @@ class MockTestEngine {
     });
 
     const total = this.questions.length;
-    const correctWeight = this.markingScheme.correct;
-    const wrongPenalty = this.markingScheme.wrong; // e.g. -0.5
-    const marksObtained = Math.max(0, parseFloat(((correct * correctWeight) + (wrong * wrongPenalty)).toFixed(2)));
-    const maxMarks = total * correctWeight;
+    const defaultCorrectWeight = (this.markingScheme && this.markingScheme.correct !== undefined) ? this.markingScheme.correct : 1;
+    const defaultWrongPenalty = (this.markingScheme && this.markingScheme.wrong !== undefined) ? this.markingScheme.wrong : 0;
+
+    let maxMarks = 0;
+    let rawMarksObtained = 0;
+
+    this.questions.forEach((q, idx) => {
+      const qWeight = (q.marks !== undefined && q.marks !== null) ? Number(q.marks) : defaultCorrectWeight;
+      const qPenalty = (q.negativeMarks !== undefined && q.negativeMarks !== null) ? Number(q.negativeMarks) : defaultWrongPenalty;
+      maxMarks += qWeight;
+
+      const userChoice = this.userAnswers[idx];
+      if (userChoice === q.answer) {
+        rawMarksObtained += qWeight;
+      } else if (userChoice !== null) {
+        rawMarksObtained += qPenalty;
+      }
+    });
+
+    const marksObtained = Math.max(0, parseFloat(rawMarksObtained.toFixed(2)));
     const scorePct = maxMarks > 0 ? Math.round((marksObtained / maxMarks) * 100) : 0;
     const timeSpentSecs = Math.max(0, (this.timeLimitMinutes * 60) - this.timeRemaining);
     const timeSpentMins = Math.floor(timeSpentSecs / 60);
@@ -1055,23 +1071,23 @@ class MockTestEngine {
     let predictedGrade = `Predicted Grade: Top Percentile`;
 
     if (this.examType === 'sat') {
-      // Digital SAT scoring: 200 - 800 scaled per section
+      // Digital SAT scoring: diagnostic 200 - 800 scaled practice indicator
       const scaledScore = Math.round((correct / Math.max(1, total)) * 600) + 200;
       if (scorePct >= 85) {
-        rankBadge = "🏆 99th Percentile Benchmark!";
-        rankDesc = "Ivy League / Top 20 competitive score trajectory. Flawless execution across College Board domains.";
-        predictedGrade = `Estimated Section Score: ${scaledScore} / 800 (Percentile: 98th-99th)`;
+        rankBadge = "🏆 Diagnostic High Benchmark (90th+ Tier)";
+        rankDesc = "Strong accuracy across College Board skill domains. (Estimated practice performance based on this 20-question drill; official SAT uses 2-module multistage adaptive routing).";
+        predictedGrade = `Estimated Section Practice Score: ${scaledScore} / 800 (Diagnostic Benchmark)`;
       } else if (scorePct >= 65) {
-        rankBadge = "🎯 Competitive College Benchmark";
-        rankDesc = "Strong performance. Review the few missed concepts to break into the 750+ score range.";
-        predictedGrade = `Estimated Section Score: ${scaledScore} / 800 (Percentile: 85th-92nd)`;
+        rankBadge = "🎯 Competitive College Diagnostic";
+        rankDesc = "Solid foundation. Review missed question rationales to aim for the 700+ practice range.";
+        predictedGrade = `Estimated Section Practice Score: ${scaledScore} / 800 (Competitive Range)`;
       } else {
         rankBadge = "📈 Diagnostic Baseline";
-        rankDesc = "Target core conceptual foundations and timing strategies to improve scaled score.";
-        predictedGrade = `Estimated Section Score: ${scaledScore} / 800 (Baseline Tier)`;
+        rankDesc = "Target core conceptual foundations and timing strategies to improve scaled drill score.";
+        predictedGrade = `Estimated Section Practice Score: ${scaledScore} / 800 (Baseline Tier)`;
       }
     } else if (this.examType === 'ap') {
-      // AP Scoring 1 - 5
+      // AP Scoring 1 - 5 diagnostic
       let apScore = 1;
       if (scorePct >= 75) apScore = 5;
       else if (scorePct >= 60) apScore = 4;
@@ -1080,17 +1096,17 @@ class MockTestEngine {
       else apScore = 1;
 
       if (apScore === 5) {
-        rankBadge = "🏆 AP® Score 5 (Extremely Well Qualified)";
-        rankDesc = "Eligible for college credit and advanced placement at the nation's most selective universities.";
-        predictedGrade = "Projected College Board AP Score: 5 (Top Tier)";
+        rankBadge = "🏆 AP® Diagnostic Level 5 (Extremely Well Qualified)";
+        rankDesc = "Practice benchmark indicating strong mastery of Course and Exam Description (CED) topics.";
+        predictedGrade = "Diagnostic Practice Tier: Score 5 Equivalent (Top Tier)";
       } else if (apScore >= 3) {
-        rankBadge = `🎯 AP® Score ${apScore} (Qualified for College Credit)`;
-        rankDesc = "Meets credit-granting threshold at thousands of US colleges and universities.";
-        predictedGrade = `Projected College Board AP Score: ${apScore} (Passing Tier)`;
+        rankBadge = `🎯 AP® Diagnostic Level ${apScore} (Credit-Eligible Range)`;
+        rankDesc = "Meets standard qualifying threshold for college placement benchmarks.";
+        predictedGrade = `Diagnostic Practice Tier: Score ${apScore} Equivalent (Passing Range)`;
       } else {
-        rankBadge = `⚠️ AP® Score ${apScore} (Needs Review)`;
+        rankBadge = `⚠️ AP® Diagnostic Level ${apScore} (Needs Review)`;
         rankDesc = "Focus on unit formulas and diagnostic review to reach qualifying score range (3+).";
-        predictedGrade = `Projected College Board AP Score: ${apScore} (Revision Needed)`;
+        predictedGrade = `Diagnostic Practice Tier: Score ${apScore} Equivalent (Revision Needed)`;
       }
     } else if (this.examType === 'competitive') {
       const accuracy = Math.round((correct / Math.max(1, correct + wrong)) * 100);
@@ -1116,43 +1132,41 @@ class MockTestEngine {
       else if (scorePct >= 45) { band = "5.5–6.0"; userLevel = "Competent User (B2 Level)"; }
       else { band = "< 5.0"; userLevel = "Modest User — Foundation Required"; }
 
-      rankBadge = `🎯 IELTS Reading Band ${band}`;
-      rankDesc = `${userLevel}. Calibrated to official Cambridge / British Council assessment rubrics.`;
-      predictedGrade = `Estimated Reading Band: Band ${band} • Raw: ${correct} / ${total} Correct`;
+      rankBadge = `🎯 IELTS Reading Band ${band} (Diagnostic)`;
+      rankDesc = `${userLevel}. Estimated practice performance based on this 20-question set. (Official IELTS Band scoring is derived from a 40-question complete test).`;
+      predictedGrade = `Estimated Practice Band: Band ${band} • Raw: ${correct} / ${total} Correct`;
     } else if (this.examType === 'gre') {
       const greScaled = Math.round(130 + (correct / Math.max(1, total)) * 40);
-      let pctRange = "50th Percentile";
-      if (greScaled >= 165) pctRange = "96th–99th Percentile (Top Tier Masters/PhD)";
-      else if (greScaled >= 158) pctRange = "80th–92nd Percentile (Competitive Graduate Range)";
-      else if (greScaled >= 150) pctRange = "50th–70th Percentile (Baseline Admit Range)";
-      else pctRange = "Diagnostic Baseline";
+      let pctRange = "Diagnostic Range";
+      if (greScaled >= 165) pctRange = "Top Tier Graduate Range";
+      else if (greScaled >= 158) pctRange = "Competitive Graduate Range";
+      else if (greScaled >= 150) pctRange = "Baseline Admit Range";
 
-      rankBadge = `🏛️ GRE Scaled Score: ${greScaled} / 170`;
-      rankDesc = `Calibrated to official ETS GRE General Test scoring metrics (${pctRange}).`;
+      rankBadge = `🏛️ GRE Practice Scaled: ${greScaled} / 170`;
+      rankDesc = `Estimated practice performance for this module (${pctRange}). Official GRE scoring uses section-level adaptive equating.`;
       predictedGrade = `Estimated Scaled Score: ${greScaled} / 170 • Raw: ${correct} / ${total} Correct`;
     } else if (this.examType === 'toefl') {
       const toeflScaled = Math.round((correct / Math.max(1, total)) * 30);
       let toeflLevel = "Advanced (24–30)";
-      if (toeflScaled >= 24) toeflLevel = "Advanced / CEFR C1–C2 (Top Tier / Direct Academic Admit)";
-      else if (toeflScaled >= 18) toeflLevel = "High-Intermediate / CEFR B2 (Standard University Admit)";
+      if (toeflScaled >= 24) toeflLevel = "Advanced / CEFR C1–C2";
+      else if (toeflScaled >= 18) toeflLevel = "High-Intermediate / CEFR B2";
       else if (toeflScaled >= 10) toeflLevel = "Low-Intermediate / CEFR B1";
       else toeflLevel = "Below Low-Intermediate";
 
-      rankBadge = `🎧 TOEFL® iBT Scaled Score: ${toeflScaled} / 30`;
-      rankDesc = `${toeflLevel}. Calibrated to official ETS TOEFL iBT reading assessment rubrics.`;
+      rankBadge = `🎧 TOEFL® iBT Practice Scaled: ${toeflScaled} / 30`;
+      rankDesc = `${toeflLevel}. Practice score indicator for this 20-question module (classic 35-min reading format).`;
       predictedGrade = `Estimated Section Score: ${toeflScaled} / 30 • Raw: ${correct} / ${total} Correct`;
     } else if (this.examType === 'gmat') {
       const gmatSecScaled = Math.round(60 + (correct / Math.max(1, total)) * 30);
-      const gmatTotalEst = Math.round(205 + (correct / Math.max(1, total)) * 600);
-      let gmatPct = "Top Tier MBA Trajectory";
-      if (gmatSecScaled >= 85) gmatPct = "99th Percentile (M7 / Top 10 MBA Competitive)";
-      else if (gmatSecScaled >= 80) gmatPct = "85th–95th Percentile (Top 25 MBA Competitive)";
-      else if (gmatSecScaled >= 75) gmatPct = "60th–80th Percentile (Good Business School Admit Range)";
+      let gmatPct = "Top Tier MBA Range";
+      if (gmatSecScaled >= 85) gmatPct = "Top Tier MBA Competitive (85–90 Range)";
+      else if (gmatSecScaled >= 80) gmatPct = "Competitive Range (80–84 Range)";
+      else if (gmatSecScaled >= 75) gmatPct = "Baseline Range (75–79 Range)";
       else gmatPct = "Diagnostic Baseline";
 
-      rankBadge = `📊 GMAT® Focus Scaled: ${gmatSecScaled} / 90`;
-      rankDesc = `${gmatPct}. Calibrated to official GMAC GMAT Focus Edition scoring benchmarks.`;
-      predictedGrade = `Estimated Section Score: ${gmatSecScaled} / 90 • Est Total GMAT: ${gmatTotalEst} / 805`;
+      rankBadge = `📊 GMAT® Focus Section: ${gmatSecScaled} / 90`;
+      rankDesc = `${gmatPct}. Estimated practice section score (60–90 scale). Official GMAT Focus composite total score (205–805) requires all three test sections (Quant, Verbal, and Data Insights).`;
+      predictedGrade = `Estimated Section Score: ${gmatSecScaled} / 90 (Section Diagnostic)`;
     } else if (this.examType === 'ib') {
       let ibGrade = 1;
       if (scorePct >= 75) ibGrade = 7;
@@ -1423,11 +1437,11 @@ class MockTestEngine {
       const isReviewed = this.reviewedFlags[idx];
       
       let itemStatusClass = isCorrect ? 'review-correct' : (isSkipped ? 'review-skipped' : 'review-wrong');
-      const correctPts = (this.markingScheme && this.markingScheme.correct !== undefined) ? this.markingScheme.correct : 1;
-      const wrongPts = (this.markingScheme && this.markingScheme.wrong !== undefined) ? this.markingScheme.wrong : 0;
+      const qWeight = (q.marks !== undefined && q.marks !== null) ? Number(q.marks) : ((this.markingScheme && this.markingScheme.correct !== undefined) ? this.markingScheme.correct : 1);
+      const qPenalty = (q.negativeMarks !== undefined && q.negativeMarks !== null) ? Number(q.negativeMarks) : ((this.markingScheme && this.markingScheme.wrong !== undefined) ? this.markingScheme.wrong : 0);
       let statusBadge = isCorrect 
-        ? `<span style="color:var(--success); font-weight:700;">✓ Correct (+${correctPts})</span>`
-        : (isSkipped ? `<span style="color:var(--text-muted); font-weight:700;">— Skipped / Unanswered</span>` : `<span style="color:var(--danger); font-weight:700;">✗ Incorrect (${wrongPts})</span>`);
+        ? `<span style="color:var(--success); font-weight:700;">✓ Correct (+${qWeight})</span>`
+        : (isSkipped ? `<span style="color:var(--text-muted); font-weight:700;">— Skipped / Unanswered</span>` : `<span style="color:var(--danger); font-weight:700;">✗ Incorrect (${qPenalty})</span>`);
 
       const resultTag = isCorrect ? 'correct' : (isSkipped ? 'unanswered' : 'wrong');
 
@@ -1784,11 +1798,11 @@ class MockTestEngine {
       feedback.style.color = '#065f46';
       feedback.style.border = '1px solid #a7f3d0';
       feedback.innerHTML = `
-        <div style="font-weight:700; margin-bottom:4px;">✓ Report Logged Successfully!</div>
-        <div>Thank you for helping maintain exam accuracy. Our editorial desk investigates all reported discrepancies within 24–48 hours.</div>
-        <div style="margin-top:8px;">
-          <a href="${mailtoUrl}" style="display:inline-block; font-size:0.8rem; font-weight:600; color:#047857; text-decoration:underline;">
-            Optional: Click here to also send directly via email &rarr;
+        <div style="font-weight:700; margin-bottom:4px; color:#065f46;">✓ Report Prepared on Device</div>
+        <div style="font-size:0.85rem; color:#065f46; margin-bottom:8px;">Your report has been saved locally on this device. Click below to launch your email app and send it directly to our editorial review desk:</div>
+        <div>
+          <a href="${mailtoUrl}" style="display:inline-block; font-size:0.85rem; font-weight:700; padding:6px 14px; background:#047857; color:#ffffff; border-radius:6px; text-decoration:none;">
+            ✉️ Open Email App &amp; Send Report &rarr;
           </a>
         </div>
       `;
@@ -1911,9 +1925,11 @@ class MockTestEngine {
   }
 
   getQuestionKey(q, index) {
-    if (q && q.id) return String(q.id);
-    const path = typeof window !== 'undefined' ? window.location.pathname : 'test';
-    return `${path}_q${index}`;
+    const path = (typeof window !== 'undefined' && window.location.pathname) 
+      ? window.location.pathname.replace(/^\//, '').replace(/\.html$/, '') 
+      : 'test';
+    const qId = (q && q.id !== undefined && q.id !== null) ? q.id : index;
+    return `${path}::${qId}`;
   }
 
   toggleBookmark(q, index) {

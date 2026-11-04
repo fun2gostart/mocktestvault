@@ -654,6 +654,19 @@ Following user directive ("keep font and colour as it is from https://mocktestva
     - Replaced "NCERT statutory textbooks" with "official NCERT curriculum textbooks".
   - Bumped service worker cache to `mtv-cbt-v38` in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js).
 
+### 25. Phased Source-Code, Engine & Security Hardening (V2 Calibration)
+* **Objective:** Address in-depth source-code audit findings in structured phases to eliminate hallucinations, fix scoring math, resolve bookmark collisions, differentiate meta descriptions, and secure deployment hygiene.
+* **Phase 1 & 2 Deliverables:**
+  - **Question-Level Scoring Engine ([`js/test-engine.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/test-engine.js)):** Upgraded `calculateScorecard()` and review renderer to read individual `q.marks` and `q.negativeMarks`. Correctly computes max marks dynamically (e.g. 70 marks for CBSE Class 12 Physics/Chemistry/Biology, 80 marks for Math, 200 marks for SSC CGL).
+  - **Bookmark Collision Namespace ([`js/test-engine.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/test-engine.js)):** Updated `getQuestionKey()` to namespace by URL path (`${path}::${qId}`), preventing numeric ID collisions across JEE, NEET, and NTA papers.
+  - **Diagnostic Practice Score Badges ([`js/test-engine.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/test-engine.js)):** Calibrated international test feedback to "Diagnostic Practice Indicator" with disclaimers regarding official adaptive equating. GMAT now reports Section Score (60–90 scale) rather than ungrounded 805 composite score.
+  - **Discrepancy Reporting Transparency ([`js/test-engine.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/test-engine.js)):** Clarified feedback dialog to state reports are prepared locally on device and provided an active button to email the editorial desk.
+  - **Security & Origin Shielding ([`about.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/about.html), [`contact.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/contact.html), [`.htaccess`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/.htaccess), [`deploy_mocktestvault.sh`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/deploy_mocktestvault.sh)):** Removed origin server IP address disclosures. Blocked public access to `.py`, `.pyc`, `.md`, `.sh`, and `/scripts/`.
+  - **Sitemap & Internal Progress Guard ([`progress.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/progress.html), [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml)):** Added `noindex, nofollow` to internal progress dashboard and removed from sitemap (153 public indexable URLs).
+  - **Zero Duplicate Meta Descriptions:** Replaced 21 duplicate descriptions across SSC full mocks, sectional drills, GRE, and AWS with 100% unique, topic-specific meta descriptions.
+  - **Privacy Policy Update ([`privacy.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/privacy.html)):** Added explicit disclosure for `mtv_question_reports` in `localStorage`.
+  - Bumped service worker cache to `mtv-cbt-v39` in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js).
+
 
 
 
