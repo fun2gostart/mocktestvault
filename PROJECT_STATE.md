@@ -526,6 +526,23 @@ Following user directive ("keep font and colour as it is from https://mocktestva
     - Full-width CTA button to explore the 6-track Global catalog (`#tracks`).
   - Bumped service worker cache to `mtv-cbt-v30`.
 
+### 19. Past Papers Vault — Official CBSE Class 10 2024 Board Solved Examination Papers
+* **Objective:** Expand the platform's high-intent organic footprint by launching authentic, full-length 80-mark 2024 CBSE Board Examination solved papers with official marking scheme steps and 3-hour CBT timers.
+* **Deliverables:**
+  - Generated 3 comprehensive 80-question 2024 board datasets in `data/in/cbse10/sample-papers/`:
+    - `science_board_2024.json` (80 Qs: Chemistry, Biology, Physics, Environment)
+    - `mathematics_board_2024.json` (80 Qs: Algebra, Geometry, Trigonometry, Statistics)
+    - `social_science_board_2024.json` (80 Qs: History, Geography, Civics, Economics)
+  - Created 3 full CBT runners in `cbse-class-10/sample-papers/`:
+    - [`science-board-paper-2024.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/sample-papers/science-board-paper-2024.html)
+    - [`mathematics-board-paper-2024.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/sample-papers/mathematics-board-paper-2024.html)
+    - [`social-science-board-paper-2024.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html)
+  - Upgraded [`cbse-class-10/sample-papers/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/sample-papers/index.html) with a dedicated **"Official Past Board Papers (PYQs)"** section featuring all 3 2024 papers.
+  - Linked directly from [`cbse-class-10/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/cbse-class-10/index.html) navigation pill tabs and header banner.
+  - Updated [`sitemap.xml`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sitemap.xml) (+3 URLs $\rightarrow$ 138 total URLs) and [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.90`.
+  - Bumped service worker cache to `mtv-cbt-v31`.
+
+
 
 
 

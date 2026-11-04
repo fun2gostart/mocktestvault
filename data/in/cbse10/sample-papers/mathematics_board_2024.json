@@ -1,0 +1,1366 @@
+{
+  "exam": "CBSE Class 10 Mathematics 2024 Board Examination",
+  "total": 80,
+  "questions": [
+    {
+      "id": "cbse10-pyq2024-math-001",
+      "type": "mcq",
+      "subtopic": "Exponent Properties: Ending Digit",
+      "difficulty": "Hard",
+      "question": "For any natural number n, the expression (6^n - 5^n) always ends with which digit?",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "For any natural number n, 6^n always ends with the digit 6 (6^1 = 6, 6^2 = 36, 6^3 = 216...), and 5^n always ends with the digit 5 (5^1 = 5, 5^2 = 25, 5^3 = 125...). Therefore, (6^n - 5^n) ends in 6 - 5 = 1.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-002",
+      "type": "mcq",
+      "subtopic": "Smallest Prime and Composite Numbers: HCF",
+      "difficulty": "Easy",
+      "question": "What is the HCF of the smallest prime number and the smallest composite number?",
+      "options": [
+        "1",
+        "4",
+        "2",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "The smallest prime number is 2, and the smallest composite number is 4. HCF(2, 4) = 2.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-003",
+      "type": "assertion_reasoning",
+      "subtopic": "HCF and LCM Relation",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If the HCF of two numbers is 5 and their product is 150, then their LCM must be 30.\nReason (R): For any two positive integers a and b, the product of their HCF and LCM is equal to the product of the two numbers (HCF * LCM = a * b).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "From the formula HCF * LCM = a * b: 5 * LCM = 150 => LCM = 150 / 5 = 30. Both statements are true and Reason (R) directly explains Assertion (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-004",
+      "type": "mcq",
+      "subtopic": "Fundamental Theorem of Arithmetic",
+      "difficulty": "Easy",
+      "question": "According to the Fundamental Theorem of Arithmetic, every composite number can be uniquely expressed as a product of prime numbers, apart from:",
+      "options": [
+        "The magnitude of the prime factors",
+        "The order in which the prime factors occur",
+        "The sign of the number",
+        "The number of decimal digits"
+      ],
+      "answer": 1,
+      "explanation": "The Fundamental Theorem of Arithmetic (also known as the Unique Prime Factorisation Theorem, formulated by Carl Friedrich Gauss) states that every composite integer greater than 1 can be expressed uniquely as a product of prime numbers, up to the order in which the prime factors are written. That is, for any positive integer n > 1, the representation n = p1^a1 * p2^a2 * ... * pk^ak (where p1 < p2 < ... < pk are distinct primes and a_i are positive integers) is completely unique, providing the cornerstone for all algebraic number theory.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-005",
+      "type": "mcq",
+      "subtopic": "HCF and LCM Relation",
+      "difficulty": "Easy",
+      "question": "For any two positive integers 'a' and 'b', which fundamental algebraic relationship connects their HCF and LCM?",
+      "options": [
+        "HCF(a, b) + LCM(a, b) = a + b",
+        "HCF(a, b) / LCM(a, b) = a / b",
+        "HCF(a, b) * LCM(a, b) = a * b",
+        "[HCF(a, b)]^2 = a * b"
+      ],
+      "answer": 2,
+      "explanation": "For any two positive integers a and b, the product of their Highest Common Factor (HCF) and Lowest Common Multiple (LCM) is strictly equal to the product of the two original numbers: HCF(a, b) * LCM(a, b) = a * b. This fundamental identity arises because the HCF takes the minimum exponent of each common prime factor, while the LCM takes the maximum exponent of every prime factor; their product perfectly sums exponents min(x, y) + max(x, y) = x + y. Important: this relation holds strictly for two numbers, not for three.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-006",
+      "type": "mcq",
+      "subtopic": "Zeroes Opposite in Sign",
+      "difficulty": "Medium",
+      "question": "If the zeroes of the quadratic polynomial p(x) = kx^2 + (k - 2)x + 5 are equal in magnitude but opposite in sign, what is the value of k?",
+      "options": [
+        "-2",
+        "2",
+        "0",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Let the zeroes be alpha and -alpha. Their sum is alpha + (-alpha) = 0. In a quadratic polynomial ax^2 + bx + c, sum of zeroes is -b/a. Thus -(k - 2)/k = 0 => k - 2 = 0 => k = 2.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-007",
+      "type": "mcq",
+      "subtopic": "Symmetric Rational Function of Zeroes",
+      "difficulty": "Hard",
+      "question": "If alpha and beta are the zeroes of the quadratic polynomial p(x) = 2x^2 + 5x + 2, what is the value of (alpha / beta + beta / alpha)?",
+      "options": [
+        "25/4",
+        "9/4",
+        "-17/4",
+        "17/4"
+      ],
+      "answer": 3,
+      "explanation": "Here alpha + beta = -5/2 and alpha * beta = 2/2 = 1. Now alpha/beta + beta/alpha = (alpha^2 + beta^2)/(alpha * beta) = [(alpha + beta)^2 - 2(alpha * beta)] / (alpha * beta) = [(-5/2)^2 - 2(1)] / 1 = 25/4 - 2 = (25 - 8)/4 = 17/4.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-008",
+      "type": "assertion_reasoning",
+      "subtopic": "Discriminant and Real Zeroes",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The quadratic polynomial p(x) = x^2 + 4x + 5 has no real zeroes.\nReason (R): For any quadratic polynomial ax^2 + bx + c, if the discriminant D = b^2 - 4ac is negative (D < 0), the polynomial has no real zeroes.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here a = 1, b = 4, c = 5. Discriminant D = b^2 - 4ac = (4)^2 - 4(1)(5) = 16 - 20 = -4. Since D < 0, the polynomial has no real zeroes. Both statements are true and Reason (R) directly explains Assertion (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-009",
+      "type": "mcq",
+      "subtopic": "Relationship between Zeroes and Coefficients",
+      "difficulty": "Easy",
+      "question": "If alpha and beta are the zeroes of the quadratic polynomial p(x) = x^2 - 2x - 8, what are the sum (alpha + beta) and product (alpha * beta) of its zeroes?",
+      "options": [
+        "Sum = 2, Product = -8",
+        "Sum = -2, Product = 8",
+        "Sum = -2, Product = -8",
+        "Sum = 8, Product = 2"
+      ],
+      "answer": 0,
+      "explanation": "For any standard quadratic polynomial p(x) = ax^2 + bx + c with zeroes alpha and beta, the fundamental relationships between zeroes and coefficients state: Sum of zeroes (alpha + beta) = -b/a, and Product of zeroes (alpha * beta) = c/a. In p(x) = x^2 - 2x - 8, coefficients are a = 1, b = -2, and c = -8. Applying the formulas: Sum = -(-2)/1 = 2, and Product = -8/1 = -8. To cross-verify by factorisation: x^2 - 4x + 2x - 8 = (x - 4)(x + 2) = 0 gives zeroes 4 and -2. Sum: 4 + (-2) = 2; Product: 4 * (-2) = -8.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-010",
+      "type": "mcq",
+      "subtopic": "Formation of Quadratic Polynomial",
+      "difficulty": "Easy",
+      "question": "What is the quadratic polynomial whose sum of zeroes is -3 and product of zeroes is 2?",
+      "options": [
+        "x^2 - 3x + 2",
+        "x^2 + 3x - 2",
+        "x^2 - 3x - 2",
+        "x^2 + 3x + 2"
+      ],
+      "answer": 3,
+      "explanation": "Per NCERT Class 10 Chapter 2, a quadratic polynomial with a given sum (S) and product (P) of zeroes is expressed as k[x^2 - Sx + P], where k is any non-zero real constant. Here, we are given Sum (S) = -3 and Product (P) = 2. Substituting these values into the polynomial form: p(x) = k[x^2 - (-3)x + 2] = k(x^2 + 3x + 2). Taking the simplest non-zero real constant k = 1 yields the standard quadratic polynomial x^2 + 3x + 2. Factoring (x + 1)(x + 2) = 0 confirms zeroes are -1 and -2, whose sum is -3 and product is 2.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-011",
+      "type": "mcq",
+      "subtopic": "Cyclic Coefficient System: Addition & Subtraction Technique",
+      "difficulty": "Hard",
+      "question": "Solve the system with large cyclic coefficients: 21x + 47y = 110 and 47x + 21y = 162. What are the values of x and y?",
+      "options": [
+        "x = 3, y = 1",
+        "x = 1, y = 3",
+        "x = 2, y = 2",
+        "x = 4, y = 0"
+      ],
+      "answer": 0,
+      "explanation": "Adding both equations: 68x + 68y = 272 => x + y = 4. Subtracting first from second: 26x - 26y = 52 => x - y = 2. Adding x + y = 4 and x - y = 2: 2x = 6 => x = 3. Then y = 4 - 3 = 1.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-012",
+      "type": "mcq",
+      "subtopic": "Fraction Reconstruction Problem",
+      "difficulty": "Medium",
+      "question": "A fraction becomes 1/3 when 1 is subtracted from the numerator, and it becomes 1/4 when 8 is added to its denominator. What is the original fraction?",
+      "options": [
+        "3/8",
+        "5/12",
+        "7/15",
+        "4/11"
+      ],
+      "answer": 1,
+      "explanation": "Let the fraction be x/y: (x - 1)/y = 1/3 => 3x - y = 3. Next: x/(y + 8) = 1/4 => 4x - y = 8. Subtracting the two equations gives (4x - y) - (3x - y) = 8 - 3 => x = 5. Then y = 3(5) - 3 = 12. The fraction is 5/12.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-013",
+      "type": "assertion_reasoning",
+      "subtopic": "Condition for Unique Solution",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The pair of linear equations 3x + 2y = 11 and 2x + 3y = 4 has a unique solution.\nReason (R): A pair of linear equations a1 x + b1 y + c1 = 0 and a2 x + b2 y + c2 = 0 represents intersecting lines and has a unique solution if and only if a1/a2 != b1/b2.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here a1 = 3, b1 = 2, a2 = 2, b2 = 3. We check the ratio: a1/a2 = 3/2 and b1/b2 = 2/3. Since 3/2 != 2/3 (a1/a2 != b1/b2), the system has a unique solution. Both (A) and (R) are true, and (R) provides the exact mathematical criterion for (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-014",
+      "type": "mcq",
+      "subtopic": "Consistency: Unique Solution Condition",
+      "difficulty": "Easy",
+      "question": "If the pair of linear equations a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0 represents two lines that intersect at a single point, which algebraic condition must hold true?",
+      "options": [
+        "a1 / a2 = b1 / b2 = c1 / c2",
+        "a1 / a2 = b1 / b2 != c1 / c2",
+        "a1 * a2 = b1 * b2",
+        "a1 / a2 != b1 / b2"
+      ],
+      "answer": 3,
+      "explanation": "For a system of two linear equations in two variables, a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0, the two straight lines intersect at exactly one unique point if and only if their slopes are distinct. In algebraic coefficient form, this geometric condition corresponds to a1 / a2 != b1 / b2. When this inequality is satisfied, the system possesses a single unique solution (x, y) given by Cramer's rule, and the pair of equations is classified as mathematically consistent and independent.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-015",
+      "type": "mcq",
+      "subtopic": "Inconsistency: Parallel Lines Condition",
+      "difficulty": "Easy",
+      "question": "A pair of linear equations in two variables has NO solution if their graph consists of two parallel lines. What is the algebraic ratio condition for this case?",
+      "options": [
+        "a1 / a2 != b1 / b2",
+        "a1 / a2 = b1 / b2 != c1 / c2",
+        "a1 / a2 = b1 / b2 = c1 / c2",
+        "a1 * b2 + a2 * b1 = 0"
+      ],
+      "answer": 1,
+      "explanation": "A pair of linear equations in two variables has NO solution if their geometric graphs represent two distinct parallel straight lines that never intersect, no matter how far they are extended in either direction. Algebraically, this occurs when the lines share identical slopes but possess different y-intercepts, yielding the ratio condition: a1 / a2 = b1 / b2 != c1 / c2. Because there is no common coordinate pair (x, y) satisfying both equations simultaneously, the system is termed inconsistent.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-016",
+      "type": "mcq",
+      "subtopic": "Rationalizing Denominator Equation",
+      "difficulty": "Hard",
+      "question": "Solve for x: 1/(x - 1) - 1/(x + 5) = 6/7, where x != 1, -5.",
+      "options": [
+        "x = -2 or x = 6",
+        "x = 2 or x = -6",
+        "x = 3 or x = -4",
+        "x = 4 or x = -2"
+      ],
+      "answer": 1,
+      "explanation": "Combine fractions: [(x + 5) - (x - 1)] / [(x - 1)(x + 5)] = 6/7 => 6 / (x^2 + 4x - 5) = 6/7 => x^2 + 4x - 5 = 7 => x^2 + 4x - 12 = 0 => (x + 6)(x - 2) = 0. Hence x = 2 or x = -6.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-017",
+      "type": "mcq",
+      "subtopic": "Train Uniform Speed Problem",
+      "difficulty": "Hard",
+      "question": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less for the same journey. What is the original speed of the train?",
+      "options": [
+        "45 km/h",
+        "50 km/h",
+        "35 km/h",
+        "40 km/h"
+      ],
+      "answer": 3,
+      "explanation": "Let original speed be s km/h. Time difference: 360/s - 360/(s + 5) = 1 => 360[(s + 5 - s)] / [s(s + 5)] = 1 => 1800 = s^2 + 5s => s^2 + 5s - 1800 = 0 => (s + 45)(s - 40) = 0. Speed must be positive, so s = 40 km/h.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-018",
+      "type": "assertion_reasoning",
+      "subtopic": "Discriminant Zero and Equal Roots",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The equation 4x^2 - 12x + 9 = 0 has two equal real roots.\nReason (R): If the discriminant D = b^2 - 4ac of a quadratic equation ax^2 + bx + c = 0 is zero, both roots are equal to -b / (2a).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Here a = 4, b = -12, c = 9. Discriminant D = (-12)^2 - 4(4)(9) = 144 - 144 = 0. Since D = 0, roots are real and equal (-b/(2a) = 12/8 = 3/2). Both statements are true and (R) correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-019",
+      "type": "mcq",
+      "subtopic": "Standard Form of Quadratic Equation",
+      "difficulty": "Easy",
+      "question": "Which of the following equations is NOT a quadratic equation?",
+      "options": [
+        "(x - 2)^2 + 1 = 2x - 3",
+        "x(2x + 3) = x^2 + 1",
+        "(x + 2)^3 = x^3 - 4",
+        "x(x + 1) + 8 = (x + 2)(x - 2)"
+      ],
+      "answer": 3,
+      "explanation": "An equation of the form ax^2 + bx + c = 0 is quadratic if a != 0 (degree 2). Let us test option 4: expanding LHS gives x^2 + x + 8; expanding RHS using identity (a+b)(a-b) = a^2 - b^2 gives x^2 - 4. Equating both sides: x^2 + x + 8 = x^2 - 4 => x^2 cancels out on both sides, yielding x + 12 = 0. Because the highest exponent of x is 1, this is a linear equation, NOT a quadratic equation. All other options retain an x^2 term with a non-zero coefficient after simplification.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-020",
+      "type": "mcq",
+      "subtopic": "Discriminant & Nature of Roots",
+      "difficulty": "Easy",
+      "question": "For a quadratic equation ax^2 + bx + c = 0 (a != 0), the roots are real and distinct if the discriminant D = b^2 - 4ac satisfies:",
+      "options": [
+        "D = 0",
+        "D > 0",
+        "D < 0",
+        "D <= 0"
+      ],
+      "answer": 1,
+      "explanation": "Per NCERT Class 10 Chapter 4, the roots of the standard quadratic equation ax^2 + bx + c = 0 (a != 0) are determined by the discriminant D = b^2 - 4ac via the quadratic formula x = (-b +- sqrt(D))/(2a). Nature of roots: (1) When D > 0, sqrt(D) is a strictly positive real number, yielding two distinct real roots x = (-b + sqrt(D))/(2a) and x = (-b - sqrt(D))/(2a); (2) When D = 0, both roots coincide (-b/(2a)); (3) When D < 0, sqrt(D) is non-real, giving no real roots.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-021",
+      "type": "mcq",
+      "subtopic": "Reciprocal Term Identity",
+      "difficulty": "Hard",
+      "question": "If the mth term of an AP is 1/n and the nth term is 1/m, what is the value of its (mn)th term?",
+      "options": [
+        "0",
+        "1",
+        "1/(mn)",
+        "m + n"
+      ],
+      "answer": 1,
+      "explanation": "a + (m - 1)d = 1/n, and a + (n - 1)d = 1/m. Subtracting gives (m - n)d = (m - n)/(mn) => d = 1/(mn). Then a = 1/n - (m - 1)/(mn) = 1/(mn). Thus a_mn = a + (mn - 1)d = 1/(mn) + (mn - 1)/(mn) = mn/(mn) = 1.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-022",
+      "type": "mcq",
+      "subtopic": "Sum of Multiples in a Range",
+      "difficulty": "Hard",
+      "question": "Find the sum of all three-digit natural numbers which are divisible by 7.",
+      "options": [
+        "70,300",
+        "69,850",
+        "70,336",
+        "71,204"
+      ],
+      "answer": 2,
+      "explanation": "First 3-digit number divisible by 7 is 105. Last is 994. 994 = 105 + (n - 1)(7) => 889 = 7(n - 1) => n - 1 = 127 => n = 128 terms. S_128 = (128/2)[105 + 994] = 64 * 1099 = 70,336.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-023",
+      "type": "assertion_reasoning",
+      "subtopic": "AP Common Difference Uniqueness",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The sequence 5, 5, 5, 5, ... is an arithmetic progression.\nReason (R): In an AP, each term after the first is obtained by adding a fixed number 'd' to the preceding term, and this common difference 'd' can be zero.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "In 5, 5, 5, ..., the difference between any two consecutive terms is 5 - 5 = 0. Since d = 0 is a valid real number, it is an AP with common difference 0. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-024",
+      "type": "mcq",
+      "subtopic": "nth Term Calculation",
+      "difficulty": "Easy",
+      "question": "What is the 30th term of the arithmetic progression 10, 7, 4, ...?",
+      "options": [
+        "77",
+        "-87",
+        "97",
+        "-77"
+      ],
+      "answer": 3,
+      "explanation": "In the given sequence 10, 7, 4, ..., first term a = 10, and common difference d = a\u2082 - a\u2081 = 7 - 10 = -3. The general formula for the n-th term of an arithmetic progression is: a\u2099 = a + (n - 1)d. To find the 30th term, substitute n = 30, a = 10, and d = -3: a\u2083\u2080 = 10 + (30 - 1)(-3) = 10 + 29(-3) = 10 - 87 = -77. Since the common difference is negative (d < 0), the AP is strictly decreasing. (NCERT Exercise 5.2 Question 2(i)).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-025",
+      "type": "mcq",
+      "subtopic": "11th Term of Fractional AP",
+      "difficulty": "Medium",
+      "question": "What is the 11th term of the AP: -3, -1/2, 2, ...?",
+      "options": [
+        "22",
+        "28",
+        "-20",
+        "49/2"
+      ],
+      "answer": 0,
+      "explanation": "For the AP -3, -1/2, 2, ..., the first term is a = -3. The common difference d is: d = a\u2082 - a\u2081 = -1/2 - (-3) = -1/2 + 3 = (-1 + 6) / 2 = 5/2. The n-th term formula is a\u2099 = a + (n - 1)d. For the 11th term (n = 11): a\u2081\u2081 = -3 + (11 - 1)(5/2) = -3 + 10(5/2) = -3 + (5 * 5) = -3 + 25 = 22. This matches official NCERT Exercise 5.2 Question 2(ii).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section A: Number Systems & Algebra"
+    },
+    {
+      "id": "cbse10-pyq2024-math-026",
+      "type": "mcq",
+      "subtopic": "Rhombus Sides and Diagonals Identity",
+      "difficulty": "Hard",
+      "question": "ABCD is a rhombus with diagonals AC and BD intersecting at O. What is the value of (AB^2 + BC^2 + CD^2 + DA^2)?",
+      "options": [
+        "2(AC^2 + BD^2)",
+        "(AC + BD)^2",
+        "4(AC^2 + BD^2)",
+        "AC^2 + BD^2"
+      ],
+      "answer": 3,
+      "explanation": "Diagonals of a rhombus bisect each other perpendicularly at O. In right triangle AOB: AB^2 = OA^2 + OB^2 = (AC/2)^2 + (BD/2)^2 = (AC^2 + BD^2)/4. Since all 4 sides are equal, 4 * AB^2 = 4 * [(AC^2 + BD^2)/4] = AC^2 + BD^2. Thus AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-027",
+      "type": "mcq",
+      "subtopic": "Airport Bearing and Pythagoras Distance",
+      "difficulty": "Hard",
+      "question": "An aeroplane leaves an airport and flies due north at a speed of 1000 km/h. At the same time, another aeroplane leaves the same airport and flies due west at 1200 km/h. How far apart will the two planes be after 1.5 hours?",
+      "options": [
+        "300 sqrt(61) km",
+        "250 sqrt(61) km",
+        "300 sqrt(59) km",
+        "2000 km"
+      ],
+      "answer": 0,
+      "explanation": "Distance north OA = 1000 * 1.5 = 1500 km. Distance west OB = 1200 * 1.5 = 1800 km. Since North and West are mutually perpendicular (angle AOB = 90 deg): AB = sqrt(1500^2 + 1800^2) = sqrt(2250000 + 3240000) = sqrt(5490000) = sqrt(90000 * 61) = 300*sqrt(61) km.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-028",
+      "type": "mcq",
+      "subtopic": "Poles on Flat Ground Distance Between Tops",
+      "difficulty": "Medium",
+      "question": "Two poles of heights 6 m and 11 m stand on a flat playground. If the distance between their feet is 12 m, find the distance between their tops.",
+      "options": [
+        "12.5 m",
+        "14 m",
+        "13 m",
+        "15 m"
+      ],
+      "answer": 2,
+      "explanation": "Difference in heights = 11 - 6 = 5 m. Horizontal distance between tops = distance between feet = 12 m. Distance between tops = sqrt(5^2 + 12^2) = sqrt(25 + 144) = sqrt(169) = 13 m.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-029",
+      "type": "assertion_reasoning",
+      "subtopic": "Congruence Implies Similarity",
+      "difficulty": "Easy",
+      "question": "Assertion (A): All congruent triangles are similar, but all similar triangles are not necessarily congruent.\nReason (R): Congruent triangles have identical shape and identical size (ratio of sides 1 : 1), while similar triangles have identical shape but may differ in size.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Congruent figures satisfy the definition of similarity with a scale factor of 1. Similar figures with scale factor != 1 are not congruent. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-030",
+      "type": "assertion_reasoning",
+      "subtopic": "Basic Proportionality Theorem",
+      "difficulty": "Easy",
+      "question": "Assertion (A): In triangle ABC, if a line DE is drawn parallel to BC intersecting AB at D and AC at E, then AD / DB = AE / EC.\nReason (R): If a line is drawn parallel to one side of a triangle intersecting the other two sides, then it divides the two sides in the same ratio.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "This is the exact statement of Theorem 6.1 (Basic Proportionality Theorem / Thales Theorem). Both (A) and (R) are true and (R) directly explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-031",
+      "type": "mcq",
+      "subtopic": "Basic Proportionality Theorem (BPT)",
+      "difficulty": "Easy",
+      "question": "In triangle ABC, DE is parallel to BC with D on AB and E on AC. If AD = 1.5 cm, DB = 3 cm, and AE = 1 cm, what is the length of EC?",
+      "options": [
+        "2.5 cm",
+        "2 cm",
+        "3 cm",
+        "1.5 cm"
+      ],
+      "answer": 1,
+      "explanation": "By the Basic Proportionality Theorem (BPT, also known as Thales Theorem), if a straight line is drawn parallel to one side of a triangle intersecting the other two sides in distinct points, then the other two sides are divided in the exact same ratio: AD / DB = AE / EC. Given values: AD = 1.5 cm, DB = 3 cm, and AE = 1 cm. Substituting into the BPT ratio: 1.5 / 3 = 1 / EC => 1/2 = 1 / EC. Cross-multiplying yields EC = 2 * 1 = 2 cm, which represents the remaining lower segment of side AC.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-032",
+      "type": "mcq",
+      "subtopic": "Similarity Criteria Definition",
+      "difficulty": "Easy",
+      "question": "Two triangles are similar if their corresponding angles are equal and their corresponding sides are:",
+      "options": [
+        "Equal in length",
+        "Mutually perpendicular",
+        "In the same ratio (proportional)",
+        "Parallel to each other"
+      ],
+      "answer": 2,
+      "explanation": "In Euclidean geometry, two polygons (or triangles) having the same number of sides are defined to be 'similar' if and only if two simultaneous geometric conditions are satisfied: (1) All their corresponding interior angles are strictly equal in measure, and (2) All their corresponding sides are in the exact same proportion (their side lengths share a common constant scaling ratio). When two triangles are similar, they possess identical shape but may differ in physical spatial scale or size.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-033",
+      "type": "mcq",
+      "subtopic": "Ratio in Which X-Axis Divides Segment",
+      "difficulty": "Medium",
+      "question": "Find the ratio in which the x-axis divides the line segment joining the points A(1, -5) and B(-4, 5). Also find the coordinates of the point of division.",
+      "options": [
+        "Ratio 1 : 1, Point (-3/2, 0)",
+        "Ratio 1 : 2, Point (-1, 0)",
+        "Ratio 2 : 1, Point (-2, 0)",
+        "Ratio 1 : 1, Point (0, -3/2)"
+      ],
+      "answer": 0,
+      "explanation": "Any point on x-axis has y = 0. Let ratio be k : 1. y = (k(5) + 1(-5))/(k + 1) = 0 => 5k - 5 = 0 => k = 1 (ratio 1 : 1). Then x-coordinate = (1(-4) + 1(1))/(1 + 1) = -3/2. Point of division is (-3/2, 0).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-034",
+      "type": "mcq",
+      "subtopic": "Ratio in Which Y-Axis Divides Segment",
+      "difficulty": "Medium",
+      "question": "Find the ratio in which the y-axis divides the line segment joining the points (5, -6) and (-1, -4). Also find the point of intersection.",
+      "options": [
+        "Ratio 1 : 5, Point (0, -5)",
+        "Ratio 5 : 1, Point (0, -13/3)",
+        "Ratio 5 : 2, Point (0, -4)",
+        "Ratio 2 : 5, Point (0, -11/3)"
+      ],
+      "answer": 1,
+      "explanation": "Any point on y-axis has x = 0. Let ratio be k : 1. x = (k(-1) + 1(5))/(k + 1) = 0 => -k + 5 = 0 => k = 5 (ratio 5 : 1). Then y = (5(-4) + 1(-6))/(5 + 1) = (-20 - 6)/6 = -26/6 = -13/3. Point is (0, -13/3).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-035",
+      "type": "mcq",
+      "subtopic": "Linear Boundary Dividing Line Segment",
+      "difficulty": "Hard",
+      "question": "Determine the ratio in which the line 2x + y - 4 = 0 divides the line segment joining the points A(2, -2) and B(3, 7).",
+      "options": [
+        "9 : 2 internally",
+        "3 : 7 internally",
+        "2 : 9 internally",
+        "1 : 4 internally"
+      ],
+      "answer": 2,
+      "explanation": "Let the line divide AB in ratio k : 1. Coordinates of division point P are ((3k + 2)/(k + 1), (7k - 2)/(k + 1)). Substituting into line equation 2x + y - 4 = 0: 2[(3k + 2)/(k + 1)] + [(7k - 2)/(k + 1)] - 4 = 0 => 6k + 4 + 7k - 2 - 4(k + 1) = 0 => 13k + 2 - 4k - 4 = 0 => 9k - 2 = 0 => k = 2/9. Ratio is 2 : 9.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-036",
+      "type": "assertion_reasoning",
+      "subtopic": "Distance from Origin Formula",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The distance of the point P(3, 4) from the origin O(0, 0) is 5 units.\nReason (R): The distance of any point P(x, y) from the origin is given by sqrt(x^2 + y^2).",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Distance = sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5 units. Reason (R) gives the exact formula that proves Assertion (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-037",
+      "type": "assertion_reasoning",
+      "subtopic": "Y-Axis Division Ratio Abscissa Zero",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The y-axis divides the line segment joining (3, 5) and (-2, 1) in the ratio 3 : 2 internally.\nReason (R): Any point on the y-axis has its x-coordinate (abscissa) equal to 0.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Let ratio be k : 1. Setting x = 0: (k(-2) + 1(3))/(k + 1) = 0 => -2k + 3 = 0 => k = 3/2 (ratio 3 : 2). Reason (R) states the fundamental geometric condition (x = 0) that enables finding this ratio. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-038",
+      "type": "mcq",
+      "subtopic": "Distance Formula Standard Calculation",
+      "difficulty": "Easy",
+      "question": "What is the distance between the points P(2, 3) and Q(4, 1)?",
+      "options": [
+        "2 sqrt(2) units",
+        "4 units",
+        "8 units",
+        "2 units"
+      ],
+      "answer": 0,
+      "explanation": "By the Cartesian distance formula derived directly from the Pythagorean theorem, the straight-line distance d between two points P(x1, y1) and Q(x2, y2) is given by d = sqrt((x2 - x1)^2 + (y2 - y1)^2). Here, the coordinates are P(2, 3) and Q(4, 1), so x1 = 2, y1 = 3, x2 = 4, y2 = 1. Substituting into the distance formula: d = sqrt((4 - 2)^2 + (1 - 3)^2) = sqrt(2^2 + (-2)^2) = sqrt(4 + 4) = sqrt(8). Simplifying the radical gives sqrt(4 * 2) = 2*sqrt(2) units, matching the hypotenuse of the corresponding right-angled step triangle.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-039",
+      "type": "mcq",
+      "subtopic": "Distance from Origin",
+      "difficulty": "Easy",
+      "question": "The distance of the point P(-6, 8) from the origin (0, 0) is:",
+      "options": [
+        "8 units",
+        "6 units",
+        "14 units",
+        "10 units"
+      ],
+      "answer": 3,
+      "explanation": "The distance of any arbitrary point P(x, y) on the Cartesian plane from the origin O(0, 0) is derived from the distance formula: OP = sqrt((x - 0)^2 + (y - 0)^2) = sqrt(x^2 + y^2). For the given point P(-6, 8), we have x = -6 and y = 8. Substituting these coordinate values into the origin distance formula gives: OP = sqrt((-6)^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 units. Since distance represents a physical scalar displacement, the principal square root is strictly positive, giving exactly 10 units.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-040",
+      "type": "mcq",
+      "subtopic": "Triangle Circumscribing Incircle Side Calculation",
+      "difficulty": "Hard",
+      "question": "A triangle ABC is drawn to circumscribe a circle of radius 4 cm such that the segments BD and DC into which BC is divided by the point of contact D are of lengths 8 cm and 6 cm respectively. Find the lengths of sides AB and AC.",
+      "options": [
+        "AB = 15 cm, AC = 13 cm",
+        "AB = 14 cm, AC = 12 cm",
+        "AB = 16 cm, AC = 14 cm",
+        "AB = 13 cm, AC = 15 cm"
+      ],
+      "answer": 0,
+      "explanation": "Let tangent from A be x. Then a = 14, b = 6 + x, c = 8 + x. Semi-perimeter s = (14 + 6 + x + 8 + x)/2 = 14 + x. Area by Heron's: sqrt(s(s-a)(s-b)(s-c)) = sqrt((14+x)(x)(8)(6)) = sqrt(48x(14+x)). Area also = r * s = 4(14 + x). Equating: 48x(14 + x) = 16(14 + x)^2 => 3x = 14 + x => 2x = 14 => x = 7 cm. Thus AB = 8 + 7 = 15 cm, and AC = 6 + 7 = 13 cm.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-041",
+      "type": "mcq",
+      "subtopic": "Incircle Radius of Right Triangle",
+      "difficulty": "Hard",
+      "question": "A circle is inscribed in a right-angled triangle ABC right-angled at B. If AB = c, BC = a, and hypotenuse AC = b, what is the radius 'r' of the incircle?",
+      "options": [
+        "(a + b + c) / 2",
+        "(a + c - b) / 2",
+        "(a + b - c) / 2",
+        "(b + c - a) / 2"
+      ],
+      "answer": 1,
+      "explanation": "Let incircle touch BC at P, AB at Q, and AC at R. BQOP is a square of side r, so BP = BQ = r. Then CP = a - r = CR, and AQ = c - r = AR. Hypotenuse AC = b = AR + CR = (c - r) + (a - r) = a + c - 2r => 2r = a + c - b => r = (a + c - b) / 2.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-042",
+      "type": "mcq",
+      "subtopic": "Right Triangle Numerical Incircle Radius",
+      "difficulty": "Medium",
+      "question": "A right triangle ABC has legs AB = 6 cm and BC = 8 cm. What is the radius of the incircle inscribed inside this triangle?",
+      "options": [
+        "3 cm",
+        "2.5 cm",
+        "1.5 cm",
+        "2 cm"
+      ],
+      "answer": 3,
+      "explanation": "Hypotenuse AC = sqrt(6^2 + 8^2) = sqrt(36 + 64) = 10 cm. Using r = (a + c - b) / 2: r = (6 + 8 - 10) / 2 = 4 / 2 = 2 cm.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-043",
+      "type": "assertion_reasoning",
+      "subtopic": "Tangents from Internal Point Impossibility",
+      "difficulty": "Easy",
+      "question": "Assertion (A): No tangent can be drawn to a circle from a point lying inside it.\nReason (R): Every straight line passing through an interior point of a circle must intersect the circle in two distinct points, forming a secant rather than a tangent.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "A tangent touches a circle at exactly one point. Any line through an internal point cuts the circle twice, making it impossible to be a tangent. Both statements are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-044",
+      "type": "assertion_reasoning",
+      "subtopic": "Equal Tangents from External Point",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The lengths of tangents drawn from an external point to a circle are equal.\nReason (R): The two right-angled triangles formed by the tangents, radii, and the common line segment connecting the external point to the centre are congruent by RHS congruence criterion.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "This is the exact proof of Theorem 10.2: triangle OPA is congruent to triangle OPB by RHS (hypotenuse OP common, radius OA = OB, right angles at A and B). Thus PA = PB. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-045",
+      "type": "mcq",
+      "subtopic": "Theorem 10.1 Radius Tangent Perpendicularity",
+      "difficulty": "Easy",
+      "question": "The tangent at any point of a circle is always perpendicular to which geometric line through the point of contact?",
+      "options": [
+        "The radius through the point of contact",
+        "The chord passing through the point",
+        "The line segment connecting to the opposite circumference",
+        "Any secant line drawn to the circle"
+      ],
+      "answer": 0,
+      "explanation": "According to Theorem 10.1 in NCERT Mathematics, the tangent at any point of a circle is strictly perpendicular to the radius drawn through the point of contact. Proof: Let line l be the tangent touching the circle at point P with center O. Take any other point Q on line l distinct from P. Because l is a tangent, Q must lie outside the circle. Therefore, distance OQ is strictly greater than the radius OP (OQ > OP). Since this holds for every point on l other than P, OP is the shortest distance from center O to line l, proving OP is perpendicular to l.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section B: Geometry & Coordinate Geometry"
+    },
+    {
+      "id": "cbse10-pyq2024-math-046",
+      "type": "mcq",
+      "subtopic": "Sine Squared Shift Identity",
+      "difficulty": "Hard",
+      "question": "If sin theta + sin^2 theta = 1, then what is the value of the expression (cos^2 theta + cos^4 theta)?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "sin theta + sin^2 theta = 1 => sin theta = 1 - sin^2 theta = cos^2 theta. Squaring both sides: sin^2 theta = cos^4 theta. Substituting into the expression: cos^2 theta + cos^4 theta = cos^2 theta + sin^2 theta = 1.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-047",
+      "type": "mcq",
+      "subtopic": "Linear Sum with Radical Coefficient",
+      "difficulty": "Hard",
+      "question": "If sin theta + cos theta = sqrt(2) cos theta, what is the value of (cos theta - sin theta)?",
+      "options": [
+        "sqrt(2) cos theta",
+        "-sqrt(2) sin theta",
+        "sin theta",
+        "sqrt(2) sin theta"
+      ],
+      "answer": 3,
+      "explanation": "cos theta - sin theta = x. Consider (sin theta + cos theta)^2 + (cos theta - sin theta)^2 = [sin^2 theta + cos^2 theta + 2 sin theta cos theta] + [cos^2 theta + sin^2 theta - 2 sin theta cos theta] = 1 + 1 = 2. Given sin theta + cos theta = sqrt(2) cos theta => (sqrt(2) cos theta)^2 + x^2 = 2 => 2 cos^2 theta + x^2 = 2 => x^2 = 2 - 2 cos^2 theta = 2(1 - cos^2 theta) = 2 sin^2 theta => x = sqrt(2) sin theta.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-048",
+      "type": "mcq",
+      "subtopic": "Reciprocal Secant Tangent System",
+      "difficulty": "Hard",
+      "question": "If sec theta + tan theta = p, what is the value of sec theta in terms of p?",
+      "options": [
+        "(p^2 + 1) / (2p)",
+        "(p^2 - 1) / (2p)",
+        "(p^2 + 1) / p",
+        "2p / (p^2 + 1)"
+      ],
+      "answer": 0,
+      "explanation": "Since sec^2 theta - tan^2 theta = 1, (sec theta - tan theta) = 1 / (sec theta + tan theta) = 1/p. Adding sec theta + tan theta = p and sec theta - tan theta = 1/p gives 2 sec theta = p + 1/p = (p^2 + 1)/p => sec theta = (p^2 + 1) / (2p).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-049",
+      "type": "assertion_reasoning",
+      "subtopic": "Sine Monotonicity in Quadrant I",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The value of sin theta increases as theta increases from 0 deg to 90 deg.\nReason (R): In a right-angled triangle, as the acute angle theta increases, the opposite side (perpendicular) increases while the hypotenuse remains fixed, causing sin theta = opp/hyp to increase from 0 to 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "sin 0 deg = 0, sin 30 deg = 0.5, sin 45 deg = 1/sqrt(2) approx 0.707, sin 60 deg = sqrt(3)/2 approx 0.866, sin 90 deg = 1. The ratio strictly increases. Reason (R) provides the geometric proof for Assertion (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-050",
+      "type": "assertion_reasoning",
+      "subtopic": "Cosine Monotonicity in Quadrant I",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The value of cos theta decreases as theta increases from 0 deg to 90 deg.\nReason (R): As the acute angle theta increases in a right-angled triangle, the adjacent side decreases relative to the hypotenuse, causing cos theta = adj/hyp to decrease from 1 to 0.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Recall the standard values of cosine across acute angles: cos(0\u00b0) = 1, cos(30\u00b0) = \u221a3/2 \u2248 0.866, cos(45\u00b0) = 1/\u221a2 \u2248 0.707, cos(60\u00b0) = 1/2 = 0.5, and cos(90\u00b0) = 0. As \u03b8 increases continuously from 0\u00b0 to 90\u00b0, the adjacent side of the reference triangle shortens while the hypotenuse remains fixed, causing cos \u03b8 to decrease strictly from 1 to 0. Hence, Assertion (A) is true, Reason (R) is true, and Reason (R) is the correct mathematical explanation of Assertion (A). (NCERT Chapter 8).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-051",
+      "type": "mcq",
+      "subtopic": "Evaluation of Standard Table Values",
+      "difficulty": "Easy",
+      "question": "What is the numerical value of (sin 30 deg + cos 60 deg)?",
+      "options": [
+        "1/2",
+        "sqrt(3)",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Recall the standard exact values of trigonometric ratios for special angles: sin(30\u00b0) = 1/2 and cos(60\u00b0) = 1/2. We need to evaluate: sin(30\u00b0) + cos(60\u00b0). Substituting the numerical values: sin(30\u00b0) + cos(60\u00b0) = 1/2 + 1/2 = 2/2 = 1. Alternatively, using the complementary angle relationship cos(60\u00b0) = sin(90\u00b0 - 60\u00b0) = sin(30\u00b0), the expression equals 2\u00b7sin(30\u00b0) = 2(1/2) = 1. (NCERT Class 10 Mathematics Chapter 8, Section 8.3).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-052",
+      "type": "mcq",
+      "subtopic": "Complementary Angles Tower Height Formula",
+      "difficulty": "Hard",
+      "question": "The angles of elevation of the top of a tower from two points on the ground at distances 'a' and 'b' (where a > b) from the base of the tower and in the same straight line are complementary. What is the height of the tower?",
+      "options": [
+        "ab",
+        "sqrt(ab)",
+        "a/b",
+        "(a + b)/2"
+      ],
+      "answer": 1,
+      "explanation": "Let height be h. Angle 1 is theta, angle 2 is (90 - theta). tan theta = h / a. tan(90 - theta) = cot theta = h / b. Multiplying: tan theta * cot theta = (h/a) * (h/b) => 1 = h^2 / (ab) => h^2 = ab => h = sqrt(ab).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-053",
+      "type": "mcq",
+      "subtopic": "Poles on Road Equal Height Solution",
+      "difficulty": "Hard",
+      "question": "Two poles of equal heights stand on either side of an 80 m wide road. From a point between them on the road, the angles of elevation of the tops are 60 degrees and 30 degrees. Find the height of the poles and the distances of the point from the poles.",
+      "options": [
+        "Height = 40 m, distances = 40 m and 40 m",
+        "Height = 20 m, distances = 30 m and 50 m",
+        "Height = 20 sqrt(3) m, distances = 20 m and 60 m",
+        "Height = 30 sqrt(3) m, distances = 25 m and 55 m"
+      ],
+      "answer": 2,
+      "explanation": "Let point be at distance x from pole 1 and (80 - x) from pole 2. h = x * tan 60 deg = x*sqrt(3). Also h = (80 - x) * tan 30 deg = (80 - x)/sqrt(3). Equating: x*sqrt(3) = (80 - x)/sqrt(3) => 3x = 80 - x => 4x = 80 => x = 20 m. Distances are 20 m and 60 m. Height h = 20*sqrt(3) m.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-054",
+      "type": "assertion_reasoning",
+      "subtopic": "Angle of Elevation vs Depression Equivalence",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The angle of elevation of an object viewed from a ground point is always equal to the angle of depression of the ground point viewed from the object.\nReason (R): The line of sight forms alternate interior angles between two parallel horizontal lines passing through the observer's eye and the ground point.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Because the horizontal line of observation at the top is parallel to the ground horizontal, the line of sight acts as a transversal line making alternate interior angles equal. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-055",
+      "type": "mcq",
+      "subtopic": "Sun's Elevation Angle Equality",
+      "difficulty": "Easy",
+      "question": "A vertical pole stands on level ground. If the height of the pole is equal to the length of its shadow, what is the angle of elevation of the sun?",
+      "options": [
+        "45 degrees",
+        "30 degrees",
+        "60 degrees",
+        "90 degrees"
+      ],
+      "answer": 0,
+      "explanation": "Let h be the vertical height of the tower and d = 15 m be the distance from the point on the ground to the foot of the tower. In the right-angled triangle formed by the vertical tower, ground, and line of sight, the ratio relating opposite side and adjacent side is tangent: tan(60\u00b0) = Height / Base = h / 15. Since tan(60\u00b0) = \u221a3, we have: \u221a3 = h / 15. Cross-multiplying gives: h = 15\u221a3 metres. Using \u221a3 \u2248 1.732, the height is approximately 15 \u00d7 1.732 = 25.98 metres. (NCERT Class 10 Mathematics Chapter 9, Example 1).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-056",
+      "type": "mcq",
+      "subtopic": "Segment with 120 Degree Central Angle",
+      "difficulty": "Hard",
+      "question": "A chord of a circle of radius 12 cm subtends an angle of 120 degrees at the centre. Find the area of the corresponding segment of the circle. (Use pi = 3.14 and sqrt(3) = 1.73)",
+      "options": [
+        "88.44 cm^2",
+        "150.72 cm^2",
+        "62.28 cm^2",
+        "75.50 cm^2"
+      ],
+      "answer": 0,
+      "explanation": "Area of sector = (120/360) * 3.14 * 12^2 = (1/3) * 3.14 * 144 = 48 * 3.14 = 150.72 cm^2. Area of triangle with 120 deg = (1/2) * r^2 * sin 120 deg = (1/2) * 144 * (sqrt(3)/2) = 36 * sqrt(3) = 36 * 1.73 = 62.28 cm^2. Area of segment = 150.72 - 62.28 = 88.44 cm^2.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-057",
+      "type": "mcq",
+      "subtopic": "Horse Tied at Corner of Square Grass Field",
+      "difficulty": "Medium",
+      "question": "A horse is tied to a peg at one corner of a square shaped grass field of side 15 m by means of a 5 m long rope. Find the area of that part of the field in which the horse can graze. (Use pi = 3.14)",
+      "options": [
+        "78.5 m^2",
+        "19.625 m^2",
+        "25 m^2",
+        "15.7 m^2"
+      ],
+      "answer": 1,
+      "explanation": "At the corner of a square, angle is 90 degrees. The grazed region is a quadrant of radius 5 m. Area = (1/4) * pi * r^2 = (1/4) * 3.14 * 5^2 = (1/4) * 3.14 * 25 = 78.5 / 4 = 19.625 m^2.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-058",
+      "type": "assertion_reasoning",
+      "subtopic": "Semicircle Arc Length Property",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The length of the arc of a semicircle of radius r is pi * r.\nReason (R): The angle subtended by a semicircle at the centre of the circle is 180 degrees.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Assertion (A) states that the length of the arc of a semicircle of radius r is pi * r. Reason (R) states the standard formula for arc length: l = (theta / 360) * 2 * pi * r. In a semicircle, the central angle subtended at the center of the circle is a straight angle of theta = 180 degrees. Substituting theta = 180 degrees into the Reason's formula gives: l = (180 / 360) * 2 * pi * r = (1/2) * 2 * pi * r = pi * r. Therefore, both (A) and (R) are mathematically true, and Reason (R) is the exact mathematical explanation of Assertion (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-059",
+      "type": "mcq",
+      "subtopic": "Sector Area Formula",
+      "difficulty": "Easy",
+      "question": "What is the formula for the area of a sector of angle theta (in degrees) of a circle with radius r?",
+      "options": [
+        "(theta / 180) * pi * r^2",
+        "(theta / 360) * 2 * pi * r",
+        "(theta / 720) * pi * r^2",
+        "(theta / 360) * pi * r^2"
+      ],
+      "answer": 3,
+      "explanation": "A sector is the region enclosed by two radii and the intercepted circular arc of a circle. When the sector angle at the centre is 360\u00b0, the area is the complete circular area \u03c0r\u00b2. By direct proportion, if the sector subtends an angle \u03b8 at the centre, the sector area is the fraction (\u03b8 / 360\u00b0) of the total area. Therefore: Area of Sector = (\u03b8 / 360\u00b0) * \u03c0r\u00b2. In NCERT Class 10 Chapter 11, this formula forms the core foundation for calculating minor and major sectors.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-060",
+      "type": "mcq",
+      "subtopic": "Length of an Arc Formula",
+      "difficulty": "Easy",
+      "question": "What is the length of an arc of a sector of angle theta of a circle with radius r?",
+      "options": [
+        "(theta / 180) * 2 * pi * r",
+        "(theta / 360) * 2 * pi * r",
+        "(theta / 360) * pi * r^2",
+        "(theta / 720) * 2 * pi * r"
+      ],
+      "answer": 1,
+      "explanation": "The complete perimeter (circumference) of a circle of radius r corresponds to a full central angle of 360\u00b0 and equals 2\u03c0r. For an arc subtending a central angle \u03b8 (in degrees), the arc length represents the exact fraction (\u03b8 / 360\u00b0) of the full circular perimeter. Hence, Length of Arc l = (\u03b8 / 360\u00b0) * 2\u03c0r. If \u03b8 is given in radians, the relation simplifies directly to l = r\u03b8.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-061",
+      "type": "mcq",
+      "subtopic": "Gulab Jamun Sugar Syrup Volume",
+      "difficulty": "Hard",
+      "question": "A gulab jamun, contains sugar syrup up to about 30% of its volume. Find approximately how much syrup would be found in 45 gulab jamuns, each shaped like a cylinder with two hemispherical ends with total length 5 cm and diameter 2.8 cm.",
+      "options": [
+        "338 cm^3",
+        "350 cm^3",
+        "312 cm^3",
+        "365 cm^3"
+      ],
+      "answer": 0,
+      "explanation": "Radius r = 2.8 / 2 = 1.4 cm. Height of cylinder h = 5 - 2(1.4) = 5 - 2.8 = 2.2 cm. Volume of 1 gulab jamun = pi*r^2*h + (4/3)*pi*r^3 = pi*r^2(h + (4/3)r) = (22/7) * 1.96 * (2.2 + 1.867) = 6.16 * 4.067 = 25.05 cm^3. Volume of 45 gulab jamuns = 45 * 25.05 = 1127.25 cm^3. Syrup volume (30%) = 0.30 * 1127.25 = 338.175 approx 338 cm^3.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-062",
+      "type": "mcq",
+      "subtopic": "Wooden Pen Stand with Conical Depressions",
+      "difficulty": "Hard",
+      "question": "A pen stand made of wood is in the shape of a cuboid with four conical depressions to hold pens. The dimensions of the cuboid are 15 cm by 10 cm by 3.5 cm. The radius of each depression is 0.5 cm and depth is 1.4 cm. Find the volume of wood in the entire stand.",
+      "options": [
+        "525.00 cm^3",
+        "520.25 cm^3",
+        "518.40 cm^3",
+        "523.53 cm^3"
+      ],
+      "answer": 3,
+      "explanation": "Volume of cuboid = 15 * 10 * 3.5 = 525 cm^3. Volume of 4 conical depressions = 4 * [(1/3) * (22/7) * (0.5)^2 * 1.4] = 4 * [(1/3) * (22/7) * 0.25 * 1.4] = 4 * [(1/3) * 22 * 0.25 * 0.2] = 4 * [(1/3) * 1.1] = 4.4 / 3 = 1.467 cm^3. Volume of wood = 525 - 1.467 = 523.53 cm^3.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-063",
+      "type": "assertion_reasoning",
+      "subtopic": "Volume Invariance Under Recasting",
+      "difficulty": "Easy",
+      "question": "Assertion (A): When a solid cylinder is melted and recast into a collection of identical spherical balls, the total volume remains invariant.\nReason (R): Melting and reshaping changes the outer surface area and geometric form, but the amount of physical substance (volume) is conserved.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Per the Law of Conservation of Matter applied in NCERT Class 10 Mensuration, when a solid of one geometric shape (such as a cylinder) is melted and converted into another solid or group of solids (such as spherical balls), the total quantity of matter remains unchanged. Hence, Volume of original cylinder = n * Volume of each spherical ball. The external surface area generally changes during deformation, but volume is strictly conserved. Therefore, Assertion (A) is true, Reason (R) is true, and (R) correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-064",
+      "type": "mcq",
+      "subtopic": "Two Cubes Joined End to End",
+      "difficulty": "Easy",
+      "question": "2 cubes each of volume 64 cm^3 are joined end to end. What is the surface area of the resulting cuboid?",
+      "options": [
+        "128 cm^2",
+        "192 cm^2",
+        "160 cm^2",
+        "144 cm^2"
+      ],
+      "answer": 2,
+      "explanation": "Side of each cube a = (64)^(1/3) = 4 cm. When joined end to end, the cuboid has length l = 4 + 4 = 8 cm, breadth b = 4 cm, height h = 4 cm. Surface area = 2(lb + bh + hl) = 2(8*4 + 4*4 + 4*8) = 2(32 + 16 + 32) = 2(80) = 160 cm^2.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-065",
+      "type": "mcq",
+      "subtopic": "Hollow Cylinder on Hemisphere",
+      "difficulty": "Medium",
+      "question": "A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm and the total height of the vessel is 13 cm. Find the inner surface area of the vessel. (Use pi = 22/7)",
+      "options": [
+        "462 cm^2",
+        "572 cm^2",
+        "616 cm^2",
+        "528 cm^2"
+      ],
+      "answer": 1,
+      "explanation": "Radius r = 14 / 2 = 7 cm. Height of hemisphere = r = 7 cm. Height of cylinder h = 13 - 7 = 6 cm. Inner surface area = CSA of hemisphere + CSA of cylinder = 2*pi*r^2 + 2*pi*r*h = 2*pi*r(r + h) = 2 * (22/7) * 7 * (7 + 6) = 44 * 13 = 572 cm^2.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section C: Trigonometry & Mensuration"
+    },
+    {
+      "id": "cbse10-pyq2024-math-066",
+      "type": "mcq",
+      "subtopic": "Finding Missing Frequency",
+      "difficulty": "Hard",
+      "question": "The mean of the following distribution is 18: Classes: 11-13 (f=7), 13-15 (f=6), 15-17 (f=9), 17-19 (f=13), 19-21 (f=f_k), 21-23 (f=5), 23-25 (f=4). What is the value of the missing frequency f_k?",
+      "options": [
+        "18",
+        "15",
+        "20",
+        "22"
+      ],
+      "answer": 2,
+      "explanation": "Class marks xi: 12, 14, 16, 18, 20, 22, 24. Assumed mean a = 18.\ndi = xi - 18: -6, -4, -2, 0, 2, 4, 6.\nfi*di: 7(-6)=-42, 6(-4)=-24, 9(-2)=-18, 13(0)=0, f_k(2)=2*f_k, 5(4)=20, 4(6)=24.\nsum(fi) = 44 + f_k.\nsum(fi*di) = (-42 - 24 - 18 + 0 + 20 + 24) + 2*f_k = -40 + 2*f_k.\nMean = a + sum(fi*di)/sum(fi) => 18 = 18 + (-40 + 2*f_k)/(44 + f_k) => -40 + 2*f_k = 0 => 2*f_k = 40 => f_k = 20.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-067",
+      "type": "mcq",
+      "subtopic": "Difference between Measures",
+      "difficulty": "Medium",
+      "question": "If the difference between mode and median of a data distribution is 24, what is the difference between median and mean?",
+      "options": [
+        "8",
+        "24",
+        "16",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "Mode - Median = (3 Median - 2 Mean) - Median = 2 Median - 2 Mean = 2(Median - Mean). Therefore, 24 = 2(Median - Mean) => Median - Mean = 12.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-068",
+      "type": "mcq",
+      "subtopic": "Sum of Lower Limits",
+      "difficulty": "Hard",
+      "question": "For the data: (0-10: 5), (10-20: 12), (20-30: 20), (30-40: 15), (40-50: 8). What is the sum of the lower limit of the median class and the lower limit of the modal class?",
+      "options": [
+        "30",
+        "50",
+        "40",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "1. Modal class: maximum frequency is 20, so modal class is 20-30. Lower limit = 20. 2. Median class: N = 5 + 12 + 20 + 15 + 8 = 60. N/2 = 30. Cumulative frequencies: 5, 17, 37, 52, 60. The class with cf >= 30 is 20-30. Lower limit = 20. Sum of lower limits = 20 + 20 = 40.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-069",
+      "type": "mcq",
+      "subtopic": "Direct Method Computation",
+      "difficulty": "Medium",
+      "question": "A survey of 20 houses found the following plants per house: (0-2: 1), (2-4: 2), (4-6: 1), (6-8: 5), (8-10: 6), (10-12: 2), (12-14: 3). What is the mean number of plants per house?",
+      "options": [
+        "7.6",
+        "8.1",
+        "8.5",
+        "9.0"
+      ],
+      "answer": 1,
+      "explanation": "Class marks xi: 1, 3, 5, 7, 9, 11, 13. Products fi*xi: 1*1=1, 2*3=6, 1*5=5, 5*7=35, 6*9=54, 2*11=22, 3*13=39. sum(fi*xi) = 1 + 6 + 5 + 35 + 54 + 22 + 39 = 162. Total houses sum(fi) = 20. Mean x\u0304 = 162 / 20 = 8.1 plants.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-070",
+      "type": "assertion_reasoning",
+      "subtopic": "Algebraic Sum of Deviations",
+      "difficulty": "Medium",
+      "question": "Assertion (A): The algebraic sum of deviations of a set of observations from their mean is always zero.\\nReason (R): The arithmetic mean represents the center of gravity of the distribution, balancing positive and negative deviations.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "sum[fi * (xi - x\u0304)] = sum(fi*xi) - x\u0304*sum(fi) = 0. Conceptually, the arithmetic mean is the balance point (center of gravity) where total positive deviations exactly cancel total negative deviations. Both statements are true and (R) correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-071",
+      "type": "assertion_reasoning",
+      "subtopic": "Empirical Relationship",
+      "difficulty": "Medium",
+      "question": "Assertion (A): If the median of a distribution is 20 and mean is 22.5, then the mode is 15.\\nReason (R): The empirical relationship between central tendencies is Mode = 3 Median - 2 Mean.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Using Mode = 3 Median - 2 Mean: Mode = 3(20) - 2(22.5) = 60 - 45 = 15. Hence Assertion (A) is true, Reason (R) is true and correctly explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-072",
+      "type": "mcq",
+      "subtopic": "Class Mark",
+      "difficulty": "Easy",
+      "question": "What is the class mark of the class interval 25 - 40?",
+      "options": [
+        "30",
+        "35",
+        "15",
+        "32.5"
+      ],
+      "answer": 3,
+      "explanation": "In statistics, the class mark (also known as the mid-point or class midpoint $) represents the central value of a class interval. It is mathematically defined as the arithmetic mean of the upper and lower limits of the interval: $\\text{Class mark } x_i = \\frac{\\text{Upper class limit} + \\text{Lower class limit}}{2}$. For the given interval  - 40$, the lower limit is $ and the upper limit is $. Substituting these values gives: $\\text{Class mark} = \\frac{40 + 25}{2} = \\frac{65}{2} = 32.5$, which serves as the representative value in mean calculations.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-073",
+      "type": "mcq",
+      "subtopic": "Empirical Relationship",
+      "difficulty": "Easy",
+      "question": "What is the empirical relationship between the three measures of central tendency?",
+      "options": [
+        "Mode = 2 Median - 3 Mean",
+        "Mode = 3 Median - 2 Mean",
+        "Mode = 3 Mean - 2 Median",
+        "Median = 3 Mode - 2 Mean"
+      ],
+      "answer": 1,
+      "explanation": "For moderately asymmetrical (skewed) frequency distributions, English statistician Karl Pearson established the fundamental empirical relationship connecting the three measures of central tendency: $\\text{Mode} = 3\\text{Median} - 2\\text{Mean}$, which can also be rearranged algebraically as \\text{Median} = \\text{Mode} + 2\\text{Mean}$ or $\\text{Mean} - \\text{Mode} = 3(\\text{Mean} - \\text{Median})$. In perfectly symmetrical distributions, all three measures coincide ($\\text{Mean} = \\text{Median} = \\text{Mode}$), while skewness pulls the mean furthest into the long tail.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-074",
+      "type": "mcq",
+      "subtopic": "Two Dice Sum Equal to 8",
+      "difficulty": "Medium",
+      "question": "Two dice are thrown simultaneously. What is the probability that the sum of the two numbers appearing on top is 8?",
+      "options": [
+        "1/6",
+        "7/36",
+        "5/36",
+        "4/36"
+      ],
+      "answer": 2,
+      "explanation": "Total outcomes when two dice are thrown = 6 * 6 = 36. Outcomes giving sum 8: (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 outcomes. P(sum 8) = 5/36.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-075",
+      "type": "mcq",
+      "subtopic": "Two Dice 5 Will Not Come Up",
+      "difficulty": "Hard",
+      "question": "A die is thrown twice. What is the probability that 5 will not come up either time?",
+      "options": [
+        "11/36",
+        "25/36",
+        "5/6",
+        "1/36"
+      ],
+      "answer": 1,
+      "explanation": "Outcomes where 5 comes up at least once: (5,1)..(5,6) [6 pairs] and (1,5), (2,5), (3,5), (4,5), (6,5) [5 pairs] -> total 11 outcomes. Outcomes where 5 does NOT come up either time = 36 - 11 = 25. Probability = 25/36.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-076",
+      "type": "mcq",
+      "subtopic": "Two Dice Doublet",
+      "difficulty": "Medium",
+      "question": "Two dice are rolled together. What is the probability of getting a doublet (the same number on both dice)?",
+      "options": [
+        "1/12",
+        "5/36",
+        "1/36",
+        "1/6"
+      ],
+      "answer": 3,
+      "explanation": "The doublets are (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) -> 6 outcomes. Total outcomes = 36. P(doublet) = 6/36 = 1/6.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-077",
+      "type": "assertion_reasoning",
+      "subtopic": "Probability Range Bound",
+      "difficulty": "Easy",
+      "question": "Assertion (A): The probability of an event E can never be -0.01 or 1.05.\\nReason (R): For any random event E, the number of favourable outcomes m is bounded between 0 and total outcomes n (0 <= m <= n), so 0 <= P(E) <= 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Since m is a subset of n, 0 <= m <= n. Dividing by n gives 0 <= P(E) <= 1. Therefore, probability cannot be negative or strictly greater than 1. Both (A) and (R) are true and (R) explains (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-078",
+      "type": "assertion_reasoning",
+      "subtopic": "Complementary Probability Sum",
+      "difficulty": "Easy",
+      "question": "Assertion (A): If the probability of raining tomorrow is 0.35, then the probability of not raining tomorrow is 0.65.\\nReason (R): For any event E, E and not E are complementary events and P(E) + P(not E) = 1.",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "P(not raining) = 1 - P(raining) = 1 - 0.35 = 0.65. Both (A) and (R) are true and (R) is the exact algebraic reasoning for (A).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-079",
+      "type": "mcq",
+      "subtopic": "Definition and Range of Probability",
+      "difficulty": "Easy",
+      "question": "Which of the following numbers can never represent the probability of an event?",
+      "options": [
+        "0.7",
+        "15%",
+        "2/3",
+        "-1.5"
+      ],
+      "answer": 3,
+      "explanation": "According to the fundamental axioms of probability in NCERT Class 10 Chapter 14, the probability P(E) of any empirical or theoretical event E is strictly bounded by 0 <= P(E) <= 1. Probability can never be a negative real number (such as -1.5) and can never strictly exceed 1 (or 100%). Any value outside the closed interval [0, 1] is mathematically invalid as a probability measure.",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    },
+    {
+      "id": "cbse10-pyq2024-math-080",
+      "type": "mcq",
+      "subtopic": "Complementary Events",
+      "difficulty": "Easy",
+      "question": "If P(E) = 0.05, what is the probability of 'not E' (P(E\u0304))?",
+      "options": [
+        "0.95",
+        "0.05",
+        "0.50",
+        "0.90"
+      ],
+      "answer": 0,
+      "explanation": "The event E and its negation 'not E' (denoted as E\u0304) are mutually exclusive and exhaustive complementary events covering the complete sample space S. By the complementary probability theorem: P(E) + P(E\u0304) = 1. Given P(E) = 0.05, we compute: P(E\u0304) = 1 - P(E) = 1 - 0.05 = 0.95. Thus, the probability of the complementary event 'not E' occurring is precisely 0.95 (or 95%).",
+      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "section": "Section D: Statistics & Probability"
+    }
+  ]
+}
