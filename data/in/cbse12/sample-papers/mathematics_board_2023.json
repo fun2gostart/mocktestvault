@@ -7,17 +7,17 @@
       "section": "Section A: Multiple Choice",
       "subtopic": "Relations and Functions",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "If A = {1, 2, 3}, what is the number of equivalence relations on set A containing the element (1, 2)?",
+      "question": "Let R be the relation in the set of real numbers R defined by R = {(a, b) : a \u2264 b\u00b2}. Then R is:",
       "options": [
-        "2",
-        "1",
-        "3",
-        "4"
+        "Neither reflexive, nor symmetric, nor transitive",
+        "Reflexive and transitive but not symmetric",
+        "Symmetric and transitive but not reflexive",
+        "An equivalence relation"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 2\n\nThe smallest equivalence relation containing (1, 2) must include (1,1), (2,2), (3,3), (2,1) by reflexivity and symmetry, giving R1 = {(1,1),(2,2),(3,3),(1,2),(2,1)}. The only other equivalence relation is the universal relation A \u00d7 A containing all 9 pairs. Total = 2 relations.",
+      "explanation": "**Official Solution:** Neither reflexive, nor symmetric, nor transitive\n\n1. Not reflexive: For a = 1/2, 1/2 \u2264 (1/2)\u00b2 = 1/4 is false, so (1/2, 1/2) \u2209 R.\n2. Not symmetric: (1, 4) \u2208 R as 1 \u2264 16, but (4, 1) \u2209 R as 4 \u2264 1 is false.\n3. Not transitive: (3, 2) \u2208 R (3 \u2264 4) and (2, 1.5) \u2208 R (2 \u2264 2.25), but (3, 1.5) \u2209 R (3 \u2264 2.25 is false).",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
@@ -25,35 +25,35 @@
       "section": "Section A: Multiple Choice",
       "subtopic": "Inverse Trigonometric Functions",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "What is the principal value of cos\u207b\u00b9(-1/2)?",
+      "question": "What is the principal value of the inverse trigonometric expression sin\u207b\u00b9(sin(2\u03c0/3))?",
       "options": [
-        "2\u03c0 / 3",
-        "\u03c0 / 3",
-        "-\u03c0 / 3",
-        "5\u03c0 / 6"
+        "\u03c0/3",
+        "2\u03c0/3",
+        "-\u03c0/3",
+        "\u03c0/6"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 2\u03c0 / 3\n\nThe principal value branch of cos\u207b\u00b9(x) is [0, \u03c0]. cos\u207b\u00b9(-x) = \u03c0 - cos\u207b\u00b9(x). cos\u207b\u00b9(-1/2) = \u03c0 - \u03c0/3 = 2\u03c0 / 3.",
+      "explanation": "**Official Solution:** \u03c0/3\n\nThe principal value branch of sin\u207b\u00b9(x) is [-\u03c0/2, \u03c0/2]. Since 2\u03c0/3 lies outside this interval, write sin(2\u03c0/3) = sin(\u03c0 - \u03c0/3) = sin(\u03c0/3). Therefore, sin\u207b\u00b9(sin(\u03c0/3)) = \u03c0/3.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-003",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Matrices",
+      "subtopic": "Matrices & Determinants",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "If A is a square matrix of order 3 and |A| = 4, what is the value of |adj A|?",
+      "question": "If A is a square matrix of order 3 and |A| = -2, then what is the determinant value of the adjoint matrix |adj(A)|?",
       "options": [
-        "16",
         "4",
-        "64",
-        "12"
+        "-4",
+        "-8",
+        "8"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 16\n\nProperty of Adjoint: |adj A| = |A|^(n - 1). Here n = 3 and |A| = 4. |adj A| = 4^(3 - 1) = 4\u00b2 = 16.",
+      "explanation": "**Official Solution:** 4\n\nFor any square matrix A of order n, |adj(A)| = |A|^(n - 1). Here n = 3 and |A| = -2, so |adj(A)| = (-2)^(3 - 1) = (-2)\u00b2 = 4.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
@@ -63,33 +63,33 @@
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "If A is an invertible matrix of order 2, then det(A\u207b\u00b9) is equal to:",
+      "question": "If determinant |[2, 4], [5, 1]| = |[2x, 4], [6, x]|, what are the possible real values of x?",
       "options": [
-        "1 / det(A)",
-        "det(A)",
-        "1",
-        "0"
+        "\u00b1\u221a3",
+        "\u00b13",
+        "\u00b1\u221a6",
+        "\u00b12"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 1 / det(A)\n\nSince A * A\u207b\u00b9 = I \u21d2 det(A * A\u207b\u00b9) = det(I) = 1. By multiplicativity: det(A) * det(A\u207b\u00b9) = 1 \u21d2 det(A\u207b\u00b9) = 1 / det(A).",
+      "explanation": "**Official Solution:** \u00b1\u221a3\n\nEvaluating both determinants:\nLHS = (2)(1) - (4)(5) = 2 - 20 = -18\nRHS = (2x)(x) - (4)(6) = 2x\u00b2 - 24\nEquating both sides: 2x\u00b2 - 24 = -18 \u21d2 2x\u00b2 = 6 \u21d2 x\u00b2 = 3 \u21d2 x = \u00b1\u221a3.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-005",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Continuity & Differentiability",
+      "subtopic": "Continuity and Differentiability",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "If y = log(sec x + tan x), what is dy/dx?",
+      "question": "Which of the following statements is correct regarding the absolute value function f(x) = |x - 2| at the point x = 2?",
       "options": [
-        "sec x",
-        "sec x + tan x",
-        "sec\u00b2 x",
-        "tan x"
+        "Continuous at x = 2, but not differentiable at x = 2",
+        "Both continuous and differentiable at x = 2",
+        "Neither continuous nor differentiable at x = 2",
+        "Differentiable at x = 2, but not continuous at x = 2"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** sec x\n\ndy/dx = (1 / (sec x + tan x)) * d/dx(sec x + tan x) = (1 / (sec x + tan x)) * (sec x * tan x + sec\u00b2 x) = (sec x * (tan x + sec x)) / (sec x + tan x) = sec x.",
+      "explanation": "**Official Solution:** Continuous at x = 2, but not differentiable at x = 2\n\nlim (x\u21922) |x - 2| = 0 = f(2), so f is continuous at x = 2. However, the left-hand derivative is LHD = -1 and the right-hand derivative is RHD = +1. Since LHD \u2260 RHD, f is not differentiable at x = 2.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
@@ -99,15 +99,15 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "The function f(x) = x\u00b3 - 3x\u00b2 + 3x - 100 is strictly increasing on:",
+      "question": "What is the slope of the normal to the curve y = 2x\u00b2 + 3 sin(x) at the point x = 0?",
       "options": [
-        "All Real Numbers R",
-        "(0, \u221e)",
-        "(-\u221e, 0)",
-        "(1, \u221e)"
+        "-1/3",
+        "3",
+        "-3",
+        "1/3"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** All Real Numbers R\n\nf'(x) = 3x\u00b2 - 6x + 3 = 3(x\u00b2 - 2x + 1) = 3(x - 1)\u00b2. Since (x - 1)\u00b2 \u2265 0 for all real x and vanishes only at x = 1, f'(x) > 0 almost everywhere, making f strictly increasing on R.",
+      "explanation": "**Official Solution:** -1/3\n\nFirst differentiate: dy/dx = 4x + 3 cos(x). At x = 0, dy/dx = 4(0) + 3 cos(0) = 3 (slope of tangent). Therefore, slope of the normal = -1 / (dy/dx) = -1/3.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
@@ -117,223 +117,223 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "Evaluate the definite integral: \u222b [from -\u03c0/2 to \u03c0/2] (x\u00b3 + x cos x + tan\u2075 x + 1) dx.",
+      "question": "Evaluate the indefinite integral: \u222b 1 / (x(x\u00b2 + 1)) dx.",
       "options": [
-        "\u03c0",
-        "0",
-        "2\u03c0",
-        "\u03c0/2"
+        "(1/2) ln|x\u00b2 / (x\u00b2 + 1)| + C",
+        "ln|x / (x\u00b2 + 1)| + C",
+        "ln|x| + tan\u207b\u00b9(x) + C",
+        "(1/2) ln|(x\u00b2 + 1) / x\u00b2| + C"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** \u03c0\n\nNotice that x\u00b3, x cos x, and tan\u2075 x are all odd functions (f(-x) = -f(x)). For any odd function, \u222b [-a to a] f(x) dx = 0. Therefore, the integral simplifies to \u222b [-\u03c0/2 to \u03c0/2] 1 dx = [x] from -\u03c0/2 to \u03c0/2 = \u03c0/2 - (-\u03c0/2) = \u03c0.",
+      "explanation": "**Official Solution:** (1/2) ln|x\u00b2 / (x\u00b2 + 1)| + C\n\nMultiply numerator and denominator by x: \u222b x / (x\u00b2(x\u00b2 + 1)) dx. Substitute t = x\u00b2, dt = 2x dx: (1/2) \u222b dt / (t(t + 1)) = (1/2) \u222b (1/t - 1/(t+1)) dt = (1/2) [ln|t| - ln|t+1|] + C = (1/2) ln|x\u00b2 / (x\u00b2 + 1)| + C.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-008",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Differential Equations",
+      "subtopic": "Definite Integrals",
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "What is the integrating factor (I.F.) for the linear differential equation dy/dx + (2/x) y = x\u00b2 ?",
+      "question": "What is the value of the definite integral \u222b [from -\u03c0/2 to \u03c0/2] sin\u2077(x) dx?",
       "options": [
-        "x\u00b2",
-        "x",
-        "log x",
-        "e^(2x)"
+        "0",
+        "\u03c0/4",
+        "1",
+        "2/7"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** x\u00b2\n\nStandard linear form: dy/dx + P(x)y = Q(x), where P = 2/x. I.F. = e^(\u222b P dx) = e^(\u222b (2/x) dx) = e^(2 log x) = e^(log(x\u00b2)) = x\u00b2.",
+      "explanation": "**Official Solution:** 0\n\nLet f(x) = sin\u2077(x). Since f(-x) = sin\u2077(-x) = (-sin(x))\u2077 = -sin\u2077(x) = -f(x), the integrand is an odd function. By the definite integral property \u222b [from -a to a] f(x) dx = 0 for any odd function, the value is 0.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-009",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Vectors",
+      "subtopic": "Differential Equations",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "If a and b are two unit vectors and \u03b8 is the angle between them, then |a - b| is equal to:",
+      "question": "What is the degree of the differential equation (d\u00b2y/dx\u00b2)\u00b3 + (dy/dx)\u00b2 + sin(dy/dx) + 1 = 0?",
       "options": [
-        "2 sin(\u03b8 / 2)",
-        "2 cos(\u03b8 / 2)",
-        "sin(\u03b8 / 2)",
-        "cos(\u03b8 / 2)"
+        "Not defined",
+        "3",
+        "2",
+        "1"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 2 sin(\u03b8 / 2)\n\n|a - b|\u00b2 = |a|\u00b2 + |b|\u00b2 - 2(a\u00b7b) = 1 + 1 - 2(1)(1) cos \u03b8 = 2(1 - cos \u03b8) = 2(2 sin\u00b2(\u03b8/2)) = 4 sin\u00b2(\u03b8/2). Taking square root: |a - b| = 2 sin(\u03b8 / 2).",
+      "explanation": "**Official Solution:** Not defined\n\nThe order of the differential equation is 2 (highest derivative is d\u00b2y/dx\u00b2). However, due to the presence of the transcendental trigonometric term sin(dy/dx), the equation cannot be written as a polynomial in derivatives. Hence, its degree is not defined.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-010",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Three-Dimensional Geometry",
+      "subtopic": "Vector Algebra",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "The direction cosines of a line making equal acute angles with the positive coordinate axes are:",
+      "question": "If a is a unit vector and (x - a) \u00b7 (x + a) = 8, then what is the magnitude |x|?",
       "options": [
-        "(1/\u221a3, 1/\u221a3, 1/\u221a3)",
-        "(1/3, 1/3, 1/3)",
-        "(1/2, 1/2, 1/\u221a2)",
-        "(1, 1, 1)"
+        "3",
+        "\u221a8",
+        "9",
+        "\u221a7"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** (1/\u221a3, 1/\u221a3, 1/\u221a3)\n\nLet direction cosines be l, m, n. Since angles are equal: l = m = n. Identity: l\u00b2 + m\u00b2 + n\u00b2 = 1 \u21d2 3l\u00b2 = 1 \u21d2 l = 1/\u221a3. Direction cosines are (1/\u221a3, 1/\u221a3, 1/\u221a3).",
+      "explanation": "**Official Solution:** 3\n\nUsing the dot product distributive property: (x - a) \u00b7 (x + a) = |x|\u00b2 - |a|\u00b2 = 8. Since a is a unit vector, |a| = 1 \u21d2 |a|\u00b2 = 1. Therefore, |x|\u00b2 - 1 = 8 \u21d2 |x|\u00b2 = 9 \u21d2 |x| = 3.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-011",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Linear Programming",
+      "subtopic": "Vector Algebra",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "The corner points of the feasible region determined by a system of linear constraints are (0, 0), (0, 40), (20, 40), (60, 20), (60, 0). What is the maximum value of objective function Z = 4x + 3y?",
+      "question": "If a and b are unit vectors such that |a - b| = 1, what is the angle \u03b8 between vectors a and b?",
       "options": [
-        "300",
-        "200",
-        "240",
-        "120"
+        "\u03c0/3",
+        "\u03c0/6",
+        "\u03c0/4",
+        "\u03c0/2"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 300\n\nEvaluate Z at corner points:\nZ(0,0) = 0\nZ(0,40) = 120\nZ(20,40) = 80 + 120 = 200\nZ(60,20) = 240 + 60 = 300 (Maximum)\nZ(60,0) = 240. Maximum value is 300.",
+      "explanation": "**Official Solution:** \u03c0/3\n\n|a - b|\u00b2 = |a|\u00b2 + |b|\u00b2 - 2(a \u00b7 b) = 1\u00b2 + 1\u00b2 - 2(1)(1) cos \u03b8 = 2 - 2 cos \u03b8. Given |a - b|\u00b2 = 1\u00b2 = 1: 2 - 2 cos \u03b8 = 1 \u21d2 2 cos \u03b8 = 1 \u21d2 cos \u03b8 = 1/2 \u21d2 \u03b8 = \u03c0/3.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-012",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Probability",
+      "subtopic": "Three Dimensional Geometry",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "If P(A) = 0.4, P(B) = 0.8, and P(B|A) = 0.6, what is P(A \u222a B)?",
+      "question": "What is the perpendicular distance of the point P(2, 3, 4) from the x-axis in three-dimensional space?",
       "options": [
-        "0.96",
-        "0.84",
-        "0.76",
-        "0.92"
+        "5",
+        "\u221a13",
+        "\u221a20",
+        "2"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 0.96\n\nP(A \u2229 B) = P(A) * P(B|A) = 0.4 * 0.6 = 0.24. P(A \u222a B) = P(A) + P(B) - P(A \u2229 B) = 0.4 + 0.8 - 0.24 = 1.20 - 0.24 = 0.96.",
+      "explanation": "**Official Solution:** 5\n\nThe projection of point P(x, y, z) = P(2, 3, 4) on the x-axis is (2, 0, 0). The distance is given by d = \u221a((y - 0)\u00b2 + (z - 0)\u00b2) = \u221a(3\u00b2 + 4\u00b2) = \u221a(9 + 16) = \u221a25 = 5.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-013",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Integrals",
+      "subtopic": "Three Dimensional Geometry",
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "Evaluate: \u222b e^x (tan x + sec\u00b2 x) dx.",
+      "question": "What are the direction ratios of the straight line passing through points A(1, -1, 2) and B(3, 4, -2)?",
       "options": [
-        "e^x tan x + C",
-        "e^x sec x + C",
-        "e^x sec\u00b2 x + C",
-        "e^x tan\u00b2 x + C"
+        "2, 5, -4",
+        "-2, 5, 4",
+        "2, 3, 0",
+        "4, 3, 0"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** e^x tan x + C\n\nUsing standard formula \u222b e^x [f(x) + f'(x)] dx = e^x f(x) + C. Here f(x) = tan x, f'(x) = sec\u00b2 x. Result is e^x tan x + C.",
+      "explanation": "**Official Solution:** 2, 5, -4\n\nDirection ratios of line AB = (x\u2082 - x\u2081, y\u2082 - y\u2081, z\u2082 - z\u2081) = (3 - 1, 4 - (-1), -2 - 2) = (2, 5, -4).",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-014",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Matrices",
+      "subtopic": "Linear Programming",
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "If A is a symmetric matrix and B is a skew-symmetric matrix of the same order, then the matrix (AB - BA) is:",
+      "question": "In a Linear Programming Problem with a bounded convex feasible region, the optimal (maximum or minimum) value of the linear objective function Z = ax + by always occurs at:",
       "options": [
-        "Symmetric",
-        "Skew-symmetric",
-        "Identity matrix",
-        "Null matrix"
+        "One or more corner points (vertices) of the feasible region",
+        "The geometric centroid of the feasible region",
+        "Any interior point of the feasible region",
+        "The origin (0, 0) strictly"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Symmetric\n\n(AB - BA)^T = (AB)^T - (BA)^T = B^T A^T - A^T B^T. Given A^T = A and B^T = -B: = (-B)(A) - (A)(-B) = -BA + AB = AB - BA. Since (AB - BA)^T = (AB - BA), the matrix is strictly symmetric.",
+      "explanation": "**Official Solution:** One or more corner points (vertices) of the feasible region\n\nBy the Fundamental Theorem of Linear Programming, if the feasible region is convex and bounded, the objective function attains its maximum and minimum values at the extreme (corner) points of the region.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-015",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Vectors",
+      "subtopic": "Probability",
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "The projection of vector a = 2i + 3j + 2k on vector b = i + 2j + k is:",
+      "question": "If A and B are two events such that P(A) = 0.5 and P(B) = 0, then the conditional probability P(A|B) is:",
       "options": [
-        "10 / \u221a6",
-        "10 / \u221a17",
-        "6 / \u221a6",
-        "5 / \u221a6"
+        "Not defined",
+        "0",
+        "0.5",
+        "1"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 10 / \u221a6\n\nProjection = (a\u00b7b) / |b| = (2*1 + 3*2 + 2*1) / \u221a(1\u00b2 + 2\u00b2 + 1\u00b2) = (2 + 6 + 2) / \u221a6 = 10 / \u221a6.",
+      "explanation": "**Official Solution:** Not defined\n\nBy definition, conditional probability P(A|B) = P(A \u2229 B) / P(B). Since P(B) = 0, division by zero is undefined, so P(A|B) is not defined.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-016",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Application of Integrals",
+      "subtopic": "Probability",
       "type": "mcq",
-      "difficulty": "Medium",
+      "difficulty": "Easy",
       "marks": 1,
-      "question": "The area bounded by the parabola y\u00b2 = 4x and the line x = 3 is:",
+      "question": "If A and B are independent events with P(A) = 0.3 and P(B) = 0.4, what is the probability P(A \u2229 B)?",
       "options": [
-        "8\u221a3 sq. units",
-        "16\u221a3 sq. units",
-        "4\u221a3 sq. units",
-        "12 sq. units"
+        "0.12",
+        "0.70",
+        "0.58",
+        "0.10"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 8\u221a3 sq. units\n\nArea = 2 * \u222b [0 to 3] y dx = 2 * \u222b [0 to 3] 2\u221ax dx = 4 * [ (2/3) x^(3/2) ] from 0 to 3 = (8/3) * (3\u221a3) = 8\u221a3 sq. units.",
+      "explanation": "**Official Solution:** 0.12\n\nFor two statistically independent events A and B, the joint probability is the product of their individual probabilities: P(A \u2229 B) = P(A) \u00b7 P(B) = 0.3 \u00d7 0.4 = 0.12.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-017",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Probability",
+      "subtopic": "Integrals",
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "Two events A and B are said to be independent if and only if:",
+      "question": "Evaluate the indefinite integral: \u222b e^x (1/x - 1/x\u00b2) dx.",
       "options": [
-        "P(A \u2229 B) = P(A) * P(B)",
-        "P(A \u222a B) = P(A) + P(B)",
-        "P(A|B) = P(B|A)",
-        "P(A) + P(B) = 1"
+        "(e^x / x) + C",
+        "-(e^x / x\u00b2) + C",
+        "e^x ln|x| + C",
+        "(e^x / x\u00b2) + C"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** P(A \u2229 B) = P(A) * P(B)\n\nBy definition, two events A and B are statistically independent if the occurrence of one does not affect the probability of the other: P(A \u2229 B) = P(A) * P(B).",
+      "explanation": "**Official Solution:** (e^x / x) + C\n\nUsing the standard integration formula \u222b e^x (f(x) + f'(x)) dx = e^x f(x) + C. Here f(x) = 1/x, and f'(x) = -1/x\u00b2. Hence, the integral is e^x(1/x) + C = (e^x / x) + C.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-018",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Continuity",
+      "subtopic": "Matrices",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "If f(x) = (sin 5x) / (3x) for x \u2260 0 is continuous at x = 0, what is f(0)?",
+      "question": "If A is a square matrix such that A\u00b2 = A, then what is the simplified form of (I + A)\u00b3 - 7A?",
       "options": [
-        "5 / 3",
-        "3 / 5",
-        "1",
-        "0"
+        "I",
+        "A",
+        "I - A",
+        "2I"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 5 / 3\n\nFor continuity: f(0) = lim [x\u21920] f(x) = lim [x\u21920] (sin 5x) / (3x) = (5/3) * lim [5x\u21920] (sin 5x) / (5x) = (5/3) * 1 = 5/3.",
+      "explanation": "**Official Solution:** I\n\nSince A\u00b2 = A, it follows that A\u00b3 = A\u00b2 \u00b7 A = A \u00b7 A = A\u00b2 = A. Expanding (I + A)\u00b3: (I + A)\u00b3 = I\u00b3 + 3I\u00b2A + 3IA\u00b2 + A\u00b3 = I + 3A + 3A + A = I + 7A. Therefore, (I + A)\u00b3 - 7A = (I + 7A) - 7A = I.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-019",
       "section": "Section A: Assertion-Reasoning",
-      "subtopic": "Matrices",
+      "subtopic": "Application of Derivatives",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "Assertion (A): For any square matrix A with real entries, A + A^T is symmetric.\nReason (R): The transpose of a sum of matrices equals the sum of their individual transposes.",
+      "question": "Assertion (A): The polynomial function f(x) = x\u00b3 - 3x\u00b2 + 3x - 100 is strictly increasing on the entire set of real numbers R.\nReason (R): The first derivative f'(x) = 3(x - 1)\u00b2 \u2265 0 for all x \u2208 R and vanishes only at the isolated point x = 1.",
       "options": [
         "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
@@ -341,25 +341,25 @@
         "(A) is false but (R) is true"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\n(A + A^T)^T = A^T + (A^T)^T = A^T + A = A + A^T. Because (A + B)^T = A^T + B^T, the symmetry of A + A^T is strictly derived from the transposition addition property.",
+      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nf'(x) = 3x\u00b2 - 6x + 3 = 3(x\u00b2 - 2x + 1) = 3(x - 1)\u00b2. Since a square is always non-negative, f'(x) \u2265 0 for all x \u2208 R, with f'(x) = 0 occurring solely at x = 1. A function whose derivative is strictly positive except at isolated points is strictly increasing.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {
       "id": "c12-math-2023-020",
       "section": "Section A: Assertion-Reasoning",
-      "subtopic": "Vectors",
+      "subtopic": "Inverse Trigonometric Functions",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "Assertion (A): If vectors a and b are perpendicular, then |a \u00d7 b| = |a| * |b|.\nReason (R): The cross product of two non-zero vectors is zero when they are perpendicular.",
+      "question": "Assertion (A): The domain of the real-valued function f(x) = sin\u207b\u00b9(2x) is [-1/2, 1/2].\nReason (R): The domain of the standard inverse sine function sin\u207b\u00b9(x) is [-1, 1].",
       "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
         "(A) is true but (R) is false",
-        "Both (A) and (R) are true and (R) is the correct explanation",
-        "Both (A) and (R) are true but (R) is NOT the correct explanation",
         "(A) is false but (R) is true"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** (A) is true but (R) is false\n\n|a \u00d7 b| = |a| |b| sin(90\u00b0) = |a| |b| (Assertion is true). Reason is completely false because the cross product of perpendicular vectors is maximized; it is zero when vectors are parallel (sin 0\u00b0 = 0).",
+      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nThe function sin\u207b\u00b9(u) is defined for -1 \u2264 u \u2264 1. Substituting u = 2x gives -1 \u2264 2x \u2264 1, which implies -1/2 \u2264 x \u2264 1/2. Hence, the domain is [-1/2, 1/2], and (R) is the exact theoretical justification for (A).",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT"
     },
     {

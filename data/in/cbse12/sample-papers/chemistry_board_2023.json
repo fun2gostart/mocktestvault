@@ -7,17 +7,17 @@
       "section": "Section A: Multiple Choice",
       "subtopic": "Solutions",
       "type": "mcq",
-      "difficulty": "Medium",
+      "difficulty": "Easy",
       "marks": 1,
-      "question": "An aqueous solution of 2% (w/v) non-volatile solute exerts a vapour pressure of 1.004 bar at the normal boiling point of water. What is the molecular mass of the solute? (Vapour pressure of pure water = 1.013 bar)",
+      "question": "According to Henry's law, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the liquid. How does Henry's law constant (KH) change with an increase in temperature, and what is its effect on gas solubility?",
       "options": [
-        "41.35 g/mol",
-        "58.5 g/mol",
-        "32.0 g/mol",
-        "65.4 g/mol"
+        "KH increases and solubility decreases",
+        "KH decreases and solubility increases",
+        "KH remains constant while solubility decreases",
+        "Both KH and solubility increase"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 41.35 g/mol\n\nBy Raoult's Law: (P0 - P) / P0 = n2 / (n1 + n2) \u2248 w2 * M1 / (M2 * w1). (1.013 - 1.004) / 1.013 = (2 * 18) / (M2 * 98) \u21d2 0.00888 = 36 / (98 * M2) \u21d2 M2 = 36 / (98 * 0.00888) \u2248 41.35 g/mol.",
+      "explanation": "**Official Solution:** KH increases and solubility decreases\n\nHenry's law states p = KH * x. Since gas dissolution in liquids is generally an exothermic process (\u0394H < 0), by Le Chatelier's principle, solubility decreases as temperature rises. Consequently, for a given partial pressure, KH must increase as temperature increases.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
@@ -27,15 +27,15 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "The molar conductivities at infinite dilution (\u039b\u00b0m) for NaCl, HCl, and CH3COONa are 126.4, 425.9, and 91.0 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9 respectively. What is the value of \u039b\u00b0m for acetic acid (CH3COOH)?",
+      "question": "The standard reduction potentials are E\u00b0(Cu\u00b2\u207a/Cu) = +0.34 V and E\u00b0(Zn\u00b2\u207a/Zn) = -0.76 V. What is the standard cell potential (E\u00b0cell) for the galvanic cell Zn(s) | Zn\u00b2\u207a(aq) || Cu\u00b2\u207a(aq) | Cu(s)?",
       "options": [
-        "390.5 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9",
-        "425.9 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9",
-        "516.9 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9",
-        "300.0 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9"
+        "+1.10 V",
+        "-1.10 V",
+        "+0.42 V",
+        "-0.42 V"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 390.5 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9\n\nBy Kohlrausch's Law of Independent Migration of Ions:\n\u039b\u00b0m(CH3COOH) = \u039b\u00b0m(CH3COONa) + \u039b\u00b0m(HCl) - \u039b\u00b0m(NaCl)\n= 91.0 + 425.9 - 126.4 = 516.9 - 126.4 = 390.5 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9.",
+      "explanation": "**Official Solution:** +1.10 V\n\nE\u00b0cell = E\u00b0cathode - E\u00b0anode = E\u00b0(Cu\u00b2\u207a/Cu) - E\u00b0(Zn\u00b2\u207a/Zn) = (+0.34 V) - (-0.76 V) = +1.10 V.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
@@ -45,15 +45,15 @@
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "For a first-order reaction, the time required for 99.9% completion of the reaction is related to its half-life (t1/2) by:",
+      "question": "What is the unit of the rate constant (k) for a second-order chemical reaction?",
       "options": [
-        "t99.9% \u2248 10 * t1/2",
-        "t99.9% \u2248 3 * t1/2",
-        "t99.9% \u2248 5 * t1/2",
-        "t99.9% \u2248 2 * t1/2"
+        "mol\u207b\u00b9 L s\u207b\u00b9 (or L mol\u207b\u00b9 s\u207b\u00b9)",
+        "s\u207b\u00b9",
+        "mol L\u207b\u00b9 s\u207b\u00b9",
+        "mol\u207b\u00b2 L\u00b2 s\u207b\u00b9"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** t99.9% \u2248 10 * t1/2\n\nFor a first-order reaction: k = 2.303 / t * log(a / (a - x)). For 99.9%: t = (2.303 / k) * log(100 / 0.1) = (2.303 / k) * log(1000) = (2.303 * 3) / k = 6.909 / k. Since t1/2 = 0.693 / k: t99.9% / t1/2 = 6.909 / 0.693 \u2248 10.",
+      "explanation": "**Official Solution:** mol\u207b\u00b9 L s\u207b\u00b9 (or L mol\u207b\u00b9 s\u207b\u00b9)\n\nFor a reaction of order n, units of k = (mol/L)^(1-n) s\u207b\u00b9. For n = 2: (mol/L)^(1-2) s\u207b\u00b9 = mol\u207b\u00b9 L s\u207b\u00b9.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
@@ -61,17 +61,17 @@
       "section": "Section A: Multiple Choice",
       "subtopic": "d- and f-Block Elements",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "Which of the following 3d transition metal ions is diamagnetic in nature?",
+      "question": "Manganese exhibits the maximum number of oxidation states among 3d transition series elements. What is the highest oxidation state shown by manganese in its covalent oxide Mn\u2082O\u2087?",
       "options": [
-        "Zn\u00b2\u207a (3d\u00b9\u2070)",
-        "Fe\u00b2\u207a (3d\u2076)",
-        "Cu\u00b2\u207a (3d\u2079)",
-        "Cr\u00b3\u207a (3d\u00b3)"
+        "+7",
+        "+6",
+        "+4",
+        "+5"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Zn\u00b2\u207a (3d\u00b9\u2070)\n\nZn has atomic number 30 ([Ar] 3d\u00b9\u2070 4s\u00b2). The Zn\u00b2\u207a ion has electronic configuration [Ar] 3d\u00b9\u2070 with completely paired d-electrons (zero unpaired electrons), making it strictly diamagnetic.",
+      "explanation": "**Official Solution:** +7\n\nManganese has electronic configuration [Ar] 3d\u2075 4s\u00b2. By involving all seven valence electrons (five 3d and two 4s), it achieves a maximum oxidation state of +7 in Mn\u2082O\u2087 and KMnO\u2084.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
@@ -81,69 +81,69 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "What is the secondary valency and oxidation state of cobalt in the complex [Co(NH3)5Cl]Cl2?",
+      "question": "What is the correct IUPAC name of the coordination compound [Co(NH\u2083)\u2085Cl]Cl\u2082?",
       "options": [
-        "Secondary valency = 6; Oxidation state = +3",
-        "Secondary valency = 5; Oxidation state = +2",
-        "Secondary valency = 7; Oxidation state = +3",
-        "Secondary valency = 6; Oxidation state = +2"
+        "Pentaamminechloridocobalt(III) chloride",
+        "Pentaamminechloro cobalt(II) chloride",
+        "Chloropentaamminecobalt(III) chloride",
+        "Pentaamminechlorocobaltate(III) chloride"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Secondary valency = 6; Oxidation state = +3\n\nSecondary valency equals the coordination number (number of donor ligand atoms directly bound to Co). Here 5 NH3 + 1 Cl\u207b inside brackets gives CN = 6. Oxidation state x + 5(0) + 1(-1) + 2(-1) = 0 \u21d2 x = +3.",
+      "explanation": "**Official Solution:** Pentaamminechloridocobalt(III) chloride\n\nLigands are named alphabetically: 'ammine' before 'chlorido'. The complex cation has cobalt with oxidation state: x + 5(0) + (-1) + 2(-1) = 0 \u21d2 x = +3. Hence, Pentaamminechloridocobalt(III) chloride.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
       "id": "c12-chem-2023-006",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Haloalkanes and Haloarenes",
+      "subtopic": "Haloalkanes & Haloarenes",
       "type": "mcq",
-      "difficulty": "Medium",
+      "difficulty": "Easy",
       "marks": 1,
-      "question": "Which of the following alkyl halides undergoes nucleophilic substitution via the SN1 mechanism with the fastest rate?",
+      "question": "The synthesis of alkyl fluorides by heating an alkyl chloride or bromide in the presence of a metallic fluoride like AgF, Hg\u2082F\u2082, or CoF\u2082 is known as:",
       "options": [
-        "tert-Butyl bromide ((CH3)3C-Br)",
-        "Isopropyl bromide",
-        "Ethyl bromide",
-        "Methyl bromide"
+        "Swarts reaction",
+        "Finkelstein reaction",
+        "Wurtz reaction",
+        "Sandmeyer reaction"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** tert-Butyl bromide ((CH3)3C-Br)\n\nSN1 rate is determined by carbocation stability. The tertiary carbocation (CH3)3C\u207a is strongly stabilized by 9 hyperconjugative structures and +I inductive effects, making tert-butyl halides the most reactive.",
+      "explanation": "**Official Solution:** Swarts reaction\n\nHeating alkyl chloride/bromide with inorganic fluorides (AgF, Hg\u2082F\u2082, CoF\u2082, SbF\u2083) yields alkyl fluorides via the Swarts reaction. Finkelstein reaction uses NaI in dry acetone to prepare alkyl iodides.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
       "id": "c12-chem-2023-007",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Alcohols, Phenols and Ethers",
+      "subtopic": "Alcohols, Phenols & Ethers",
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "When phenol is treated with chloroform and aqueous sodium hydroxide followed by acidification, the major product formed is:",
+      "question": "When phenol is treated with concentrated nitric acid in the presence of concentrated sulfuric acid, what is the major product obtained?",
       "options": [
-        "Salicylaldehyde (2-hydroxybenzaldehyde)",
-        "Salicylic acid",
-        "Benzoic acid",
-        "Picric acid"
+        "2,4,6-Trinitrophenol (Picric acid)",
+        "o-Nitrophenol",
+        "p-Nitrophenol",
+        "Benzoquinone"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Salicylaldehyde (2-hydroxybenzaldehyde)\n\nThis is the Reimer-Tiemann reaction. An electrophilic dichlorocarbene (:CCl2) intermediate attacks the activated ortho-position of the phenoxide ion, yielding salicylaldehyde.",
+      "explanation": "**Official Solution:** 2,4,6-Trinitrophenol (Picric acid)\n\nPhenol on vigorous nitration with concentrated HNO\u2083 undergoes electrophilic substitution at both ortho positions and the para position to produce 2,4,6-trinitrophenol (picric acid).",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
       "id": "c12-chem-2023-008",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Aldehydes, Ketones and Carboxylic Acids",
+      "subtopic": "Aldehydes, Ketones & Carboxylic Acids",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "Which of the following aldehydes does NOT undergo Aldol condensation when treated with dilute NaOH?",
+      "question": "Which of the following compounds undergoes the Cannizzaro reaction upon heating with concentrated aqueous sodium hydroxide (50% NaOH)?",
       "options": [
-        "Benzaldehyde (C6H5CHO)",
-        "Acetaldehyde (CH3CHO)",
-        "Propionaldehyde (CH3CH2CHO)",
-        "Acetone (CH3COCH3)"
+        "Benzaldehyde (C\u2086H\u2085CHO)",
+        "Acetaldehyde (CH\u2083CHO)",
+        "Acetone (CH\u2083COCH\u2083)",
+        "Propanal (CH\u2083CH\u2082CHO)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Benzaldehyde (C6H5CHO)\n\nAldol condensation strictly requires the presence of at least one \u03b1-hydrogen atom. Benzaldehyde lacks \u03b1-hydrogens on the formyl carbon and instead undergoes the Cannizzaro reaction in concentrated alkali.",
+      "explanation": "**Official Solution:** Benzaldehyde (C\u2086H\u2085CHO)\n\nAldehydes that do not contain an \u03b1-hydrogen atom (such as formaldehyde HCHO and benzaldehyde C\u2086H\u2085CHO) undergo self-oxidation-reduction (disproportionation) in concentrated alkali, known as the Cannizzaro reaction.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
@@ -153,15 +153,15 @@
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "Which reagent is used in the Hinsberg test to distinguish primary, secondary, and tertiary amines?",
+      "question": "The Carbylamine test (isocyanide test), which produces an extremely foul-smelling carbylamine upon heating with chloroform and ethanolic KOH, is exclusively given by:",
       "options": [
-        "Benzenesulphonyl chloride (C6H5SO2Cl)",
-        "Thionyl chloride (SOCl2)",
-        "Acetyl chloride (CH3COCl)",
-        "Nitrous acid (HNO2)"
+        "Primary aliphatic and aromatic amines only",
+        "Secondary amines only",
+        "Tertiary amines only",
+        "All aliphatic amines"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Benzenesulphonyl chloride (C6H5SO2Cl)\n\nHinsberg's reagent (C6H5SO2Cl) reacts with 1\u00b0 amines to form an alkali-soluble sulphonamide (with acidic N-H), with 2\u00b0 amines to form an alkali-insoluble sulphonamide, and does not react with 3\u00b0 amines.",
+      "explanation": "**Official Solution:** Primary aliphatic and aromatic amines only\n\nAliphatic and aromatic primary (1\u00b0) amines when heated with chloroform (CHCl\u2083) and ethanolic KOH form isocyanides (carbylamines), which have an intolerably foul odor. Secondary and tertiary amines do not show this test.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
@@ -171,15 +171,15 @@
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "Which of the following vitamins is water-soluble and must be supplied regularly in the diet because it is excreted readily in urine?",
+      "question": "The covalent linkage formed between two monosaccharide units through an oxygen atom with the loss of a water molecule is known as:",
       "options": [
-        "Vitamin C (Ascorbic acid)",
-        "Vitamin A",
-        "Vitamin D",
-        "Vitamin K"
+        "Glycosidic linkage",
+        "Peptide linkage",
+        "Phosphodiester linkage",
+        "Disulfide linkage"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Vitamin C (Ascorbic acid)\n\nVitamins B-complex and C are water-soluble; they cannot be stored in the body (except B12) and are continuously excreted in urine. Vitamins A, D, E, K are fat-soluble.",
+      "explanation": "**Official Solution:** Glycosidic linkage\n\nIn carbohydrates, monosaccharide units are joined together by an oxide linkage formed by loss of water, termed a glycosidic linkage. Peptide linkages connect amino acids in proteins.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
@@ -187,81 +187,81 @@
       "section": "Section A: Multiple Choice",
       "subtopic": "Solutions",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "The Van't Hoff factor (i) for a completely dissociated electrolyte of potassium ferrocyanide K4[Fe(CN)6] in dilute aqueous solution is:",
+      "question": "When non-volatile sodium chloride (NaCl) is dissolved in pure water, what effect is observed on the boiling point and freezing point of the resultant solution compared to pure water?",
       "options": [
-        "5",
-        "4",
-        "6",
-        "1"
+        "Boiling point increases and freezing point decreases",
+        "Both boiling point and freezing point increase",
+        "Both boiling point and freezing point decrease",
+        "Boiling point decreases and freezing point increases"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 5\n\nK4[Fe(CN)6] dissociates completely into 4 K\u207a cations and 1 [Fe(CN)6]\u2074\u207b coordination anion. Total ions produced n = 4 + 1 = 5 \u21d2 i = 1 + (n - 1)\u03b1 = 1 + (5 - 1)(1) = 5.",
+      "explanation": "**Official Solution:** Boiling point increases and freezing point decreases\n\nAddition of a non-volatile solute lowers the vapour pressure of the solvent, causing elevation in boiling point (\u0394Tb = i\u00b7Kb\u00b7m) and depression in freezing point (\u0394Tf = i\u00b7Kf\u00b7m).",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
       "id": "c12-chem-2023-012",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Electrochemistry",
+      "subtopic": "Coordination Compounds",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "How many coulombs of electricity are required for the complete reduction of 1 mole of MnO4\u207b to Mn\u00b2\u207a in acidic medium?",
+      "question": "Which of the following coordination complexes is chiral and capable of showing optical isomerism (enantiomerism)?",
       "options": [
-        "5 * 96,500 C (5 F = 482,500 C)",
-        "1 * 96,500 C",
-        "2 * 96,500 C",
-        "7 * 96,500 C"
+        "[Co(en)\u2083]\u00b3\u207a",
+        "trans-[Pt(NH\u2083)\u2082Cl\u2082]",
+        "trans-[Co(NH\u2083)\u2084Cl\u2082]\u207a",
+        "[Ni(CO)\u2084]"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 5 * 96,500 C (5 F = 482,500 C)\n\nThe reduction half-reaction: MnO4\u207b + 8H\u207a + 5e\u207b \u2192 Mn\u00b2\u207a + 4H2O. 1 mole of MnO4\u207b requires 5 moles of electrons. By Faraday's second law, Q = n * F = 5 * 96,500 C = 482,500 C.",
+      "explanation": "**Official Solution:** [Co(en)\u2083]\u00b3\u207a\n\nTris(ethylenediamine)cobalt(III) ion [Co(en)\u2083]\u00b3\u207a is an octahedral complex containing three bidentate ligands. It possesses D\u2083 symmetry and lacks any plane or centre of inversion, existing as non-superimposable d- and l-enantiomers.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
       "id": "c12-chem-2023-013",
-      "section": "Section A: Multiple Choice",
-      "subtopic": "Chemical Kinetics",
+      "section": "Section A: Assertion-Reasoning",
+      "subtopic": "Haloalkanes & Haloarenes",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "The slope of the plot of ln k versus 1/T for a chemical reaction governed by the Arrhenius equation is:",
+      "question": "Assertion (A): The boiling points of alkyl halides are higher than those of corresponding parent alkanes of comparable molecular weight.\nReason (R): Alkyl halides possess permanent dipole moments leading to stronger dipole-dipole attractions and greater van der Waals forces.",
       "options": [
-        "-Ea / R",
-        "-Ea / (2.303 R)",
-        "Ea / R",
-        "-k / R"
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** -Ea / R\n\nArrhenius equation: k = A * e^(-Ea / RT) \u21d2 ln k = ln A - (Ea / R) * (1/T). Comparing with straight line equation y = mx + c, plot of ln k vs 1/T yields slope m = -Ea / R.",
+      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nDue to the electronegative halogen, the C-X bond is polar, giving rise to dipole-dipole interactions in addition to London dispersion forces, requiring higher energy to separate molecules compared to nonpolar alkanes.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
       "id": "c12-chem-2023-014",
-      "section": "Section A: Multiple Choice",
-      "subtopic": "Biomolecules",
+      "section": "Section A: Assertion-Reasoning",
+      "subtopic": "Electrochemistry",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "The helical structure of proteins is primarily stabilized by:",
+      "question": "Assertion (A): The molar conductivity (\u039bm) of a strong electrolyte increases gradually with dilution.\nReason (R): On dilution, the interionic electrostatic attractions between oppositely charged ions decrease, allowing ions to migrate faster.",
       "options": [
-        "Hydrogen bonds between -NH- and -CO- groups of peptide bonds",
-        "Disulphide linkages",
-        "Van der Waals forces",
-        "Ionic electrostatic salt bridges"
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Hydrogen bonds between -NH- and -CO- groups of peptide bonds\n\nThe \u03b1-helix structure is stabilized by intramolecular hydrogen bonds formed between the -NH- of each amino acid residue and the -C=O of an amino acid situated four residues ahead in the coil.",
+      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nStrong electrolytes are completely dissociated at all concentrations. As dilution increases, ions move further apart, diminishing interionic friction/retardation, thus increasing their ionic mobility and \u039bm according to the Debye-H\u00fcckel-Onsager equation.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
       "id": "c12-chem-2023-015",
       "section": "Section A: Assertion-Reasoning",
-      "subtopic": "d- and f-Block Elements",
+      "subtopic": "Amines",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "Assertion (A): Transition metals and their compounds exhibit remarkable catalytic activity.\nReason (R): They can adopt multiple oxidation states and possess vacant d-orbitals to form complex reaction intermediates.",
+      "question": "Assertion (A): Aniline does not undergo Friedel-Crafts alkylation or acylation reaction.\nReason (R): The Lewis acid catalyst anhydrous AlCl\u2083 coordinates with the lone pair of electrons on the aniline nitrogen atom, deactivating the benzene ring toward electrophilic attack.",
       "options": [
         "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
@@ -269,17 +269,17 @@
         "(A) is false but (R) is true"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nThe catalytic properties of transition metals (e.g. Fe in Haber process, V2O5 in Contact process) stem directly from variable valency and provision of large surface areas with unpaired d-electrons.",
+      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nAniline is a Lewis base and reacts with anhydrous AlCl\u2083 (a Lewis acid) to form an adduct C\u2086H\u2085NH\u2082\u207a-AlCl\u2083\u207b. The resulting positive charge on nitrogen acts as a strongly electron-withdrawing (-I) group, severely deactivating the aromatic ring towards Friedel-Crafts electrophiles.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {
       "id": "c12-chem-2023-016",
       "section": "Section A: Assertion-Reasoning",
-      "subtopic": "Aldehydes & Ketones",
+      "subtopic": "Biomolecules",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "Assertion (A): Acetic acid is a weaker acid than chloroacetic acid.\nReason (R): The chlorine atom exerts an electron-withdrawing (-I) inductive effect that stabilizes the carboxylate anion.",
+      "question": "Assertion (A): All naturally occurring \u03b1-amino acids found in proteins (except glycine) are optically active.\nReason (R): In glycine (H\u2082N-CH\u2082-COOH), the \u03b1-carbon atom is bonded to two identical hydrogen atoms, making the molecule achiral.",
       "options": [
         "Both (A) and (R) are true and (R) is the correct explanation of (A)",
         "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
@@ -287,7 +287,7 @@
         "(A) is false but (R) is true"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nThe electronegative chlorine in Cl-CH2-COOH pulls electron density away from the -COO\u207b group via -I effect, dispersing negative charge and stabilizing the conjugate base, making chloroacetic acid much stronger (lower pKa).",
+      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nAn asymmetric (chiral) carbon has four different substituent groups attached. In glycine, the \u03b1-carbon has two -H atoms, so it is achiral and optically inactive. All other 19 standard amino acids have chiral \u03b1-carbons and exist in optically active D/L forms.",
       "citation": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT"
     },
     {

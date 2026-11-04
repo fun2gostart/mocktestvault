@@ -5,38 +5,38 @@
     {
       "id": "c12-phy-2023-001",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Electric Charges & Fields",
+      "subtopic": "Electric Charges and Fields",
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "An electric dipole of dipole moment p is aligned at an angle of 30\u00b0 with a uniform electric field E. If torque acting on it is 4 N\u00b7m, what is the value of p\u00b7E?",
+      "question": "An electric dipole of dipole moment p is placed in a uniform electric field E. The torque experienced by the dipole is maximum when the angle between p and E is:",
       "options": [
-        "8 N\u00b7m",
-        "4 N\u00b7m",
-        "2 N\u00b7m",
-        "4\u221a3 N\u00b7m"
+        "0°",
+        "45°",
+        "90°",
+        "180°"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** 8 N\u00b7m\n\nTorque \u03c4 = p * E * sin(\u03b8) \u21d2 4 = p * E * sin(30\u00b0) = p * E * (1/2) \u21d2 p * E = 8 N\u00b7m.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 2,
+      "explanation": "**Official Solution:** 90°\n\nTorque on an electric dipole is given by τ = pE sin θ. Torque is maximum when sin θ = 1, which corresponds to θ = 90° (dipole perpendicular to the electric field).",
+      "citation": "NCERT Class 12 Physics, Chapter 1, Section 1.10"
     },
     {
       "id": "c12-phy-2023-002",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Electrostatic Potential & Capacitance",
+      "subtopic": "Electrostatic Potential",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "A parallel plate capacitor with plate separation d is charged by a battery to potential V0. The battery is disconnected and plate separation is increased to 2d. What is the new stored electrostatic energy?",
+      "question": "The electric potential at an axial point at distance r from the centre of a short electric dipole of dipole moment p is proportional to:",
       "options": [
-        "Doubles (2 * U0)",
-        "Halves (U0 / 2)",
-        "Remains U0",
-        "Quadruples (4 * U0)"
+        "1/r",
+        "1/r²",
+        "1/r³",
+        "r²"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** Doubles (2 * U0)\n\nSince the battery is disconnected, charge Q remains constant. Capacitance C' = \u03b50*A / (2d) = C0 / 2. Stored energy U = Q\u00b2 / (2C) \u21d2 U' = Q\u00b2 / (2 * C0 / 2) = 2 * (Q\u00b2 / (2C0)) = 2 * U0.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 1,
+      "explanation": "**Official Solution:** 1/r²\n\nFor a short electric dipole (2a << r), the electric potential along the axial line is V = (1 / 4πε₀) * (p / r²). Hence, V is inversely proportional to r².",
+      "citation": "NCERT Class 12 Physics, Chapter 2, Section 2.4"
     },
     {
       "id": "c12-phy-2023-003",
@@ -45,52 +45,52 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "A copper wire of resistance R is stretched uniformly such that its length increases by 10%. What is the percentage increase in its resistance?",
+      "question": "When the temperature of a metallic conductor is increased, its resistivity increases because:",
       "options": [
-        "21%",
-        "10%",
-        "20%",
-        "11%"
+        "Relaxation time τ increases",
+        "Relaxation time τ decreases",
+        "Electron density n decreases sharply",
+        "Both n and τ increase"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** 21%\n\nVolume remains constant: V = A * L = constant \u21d2 A' * L' = A * L. Since L' = 1.1 L, A' = A / 1.1. Resistance R' = \u03c1 * L' / A' = \u03c1 * (1.1 L) / (A / 1.1) = 1.21 * R. Percentage increase = ((1.21 - 1) / 1) * 100% = 21%.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 1,
+      "explanation": "**Official Solution:** Relaxation time τ decreases\n\nResistivity ρ = m / (n e² τ). With rising temperature, the amplitude of lattice vibrations increases, leading to more frequent collisions. Thus, the mean relaxation time τ decreases, causing resistivity to increase.",
+      "citation": "NCERT Class 12 Physics, Chapter 3, Section 3.7"
     },
     {
       "id": "c12-phy-2023-004",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Moving Charges & Magnetism",
+      "subtopic": "Moving Charges and Magnetism",
       "type": "mcq",
-      "difficulty": "Medium",
+      "difficulty": "Easy",
       "marks": 1,
-      "question": "A charged particle enters a uniform magnetic field with its velocity perpendicular to the field lines. Which physical quantity remains unchanged during its subsequent motion?",
+      "question": "A charged particle enters a uniform magnetic field with its velocity vector parallel to the magnetic field lines. The trajectory of the particle will be:",
       "options": [
-        "Kinetic energy and speed",
-        "Velocity and momentum",
-        "Acceleration and velocity",
-        "Only magnetic force"
+        "A circle",
+        "A helix",
+        "A straight line",
+        "A parabola"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** Kinetic energy and speed\n\nThe magnetic Lorentz force F = q(v \u00d7 B) is always perpendicular to instantaneous velocity v. Hence work done by magnetic force is identically zero (W = 0), keeping speed and kinetic energy strictly invariant.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 2,
+      "explanation": "**Official Solution:** A straight line\n\nMagnetic Lorentz force F = q(v × B) = q v B sin θ. When velocity is parallel to B, θ = 0° and sin 0° = 0. Therefore, the magnetic force is zero and the particle continues undeflected in a straight line.",
+      "citation": "NCERT Class 12 Physics, Chapter 4, Section 4.3"
     },
     {
       "id": "c12-phy-2023-005",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Magnetism & Matter",
+      "subtopic": "Magnetism and Matter",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "Which of the following substances exhibits a magnetic susceptibility \u03c7 that is small, negative, and independent of temperature?",
+      "question": "The magnetic susceptibility of a diamagnetic substance is:",
       "options": [
-        "Diamagnetic substance (e.g. Copper, Bismuth)",
-        "Paramagnetic substance",
-        "Ferromagnetic substance",
-        "Ferrimagnetic substance"
+        "Positive and large",
+        "Positive and small",
+        "Negative and independent of temperature",
+        "Negative and inversely proportional to temperature"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** Diamagnetic substance (e.g. Copper, Bismuth)\n\nDiamagnetism arises from orbital motion of electrons. By Curie's law, susceptibility is negative and essentially temperature-independent.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 2,
+      "explanation": "**Official Solution:** Negative and independent of temperature\n\nDiamagnetic materials have small negative susceptibility (χ < 0). According to Curie’s law, diamagnetism is independent of temperature as the induced magnetic dipoles oppose the applied field regardless of thermal agitation.",
+      "citation": "NCERT Class 12 Physics, Chapter 5, Section 5.6"
     },
     {
       "id": "c12-phy-2023-006",
@@ -99,34 +99,34 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "A metallic rod of length L rotates with uniform angular velocity \u03c9 about an axis perpendicular to a uniform magnetic field B passing through one of its ends. The induced EMF between the ends is:",
+      "question": "The self-inductance of a long solenoid of length l and cross-sectional area A having N turns is given by:",
       "options": [
-        "(1/2) * B * \u03c9 * L\u00b2",
-        "B * \u03c9 * L\u00b2",
-        "(1/4) * B * \u03c9 * L\u00b2",
-        "2 * B * \u03c9 * L\u00b2"
+        "μ₀ N A / l",
+        "μ₀ N² A / l",
+        "μ₀ N² A l",
+        "μ₀ N A l"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** (1/2) * B * \u03c9 * L\u00b2\n\nEMF e = \u222b (v \u00d7 B)\u00b7dr = \u222b (\u03c9 * r * B) dr from 0 to L = (1/2) * B * \u03c9 * L\u00b2.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 1,
+      "explanation": "**Official Solution:** μ₀ N² A / l\n\nSelf-inductance L = (N Φ) / I. For a long solenoid with n = N/l turns per unit length, B = μ₀ (N/l) I. Total flux N Φ = N (B A) = μ₀ (N²/l) A I. Hence, L = μ₀ N² A / l.",
+      "citation": "NCERT Class 12 Physics, Chapter 6, Section 6.8"
     },
     {
       "id": "c12-phy-2023-007",
       "section": "Section A: Multiple Choice",
       "subtopic": "Alternating Current",
       "type": "mcq",
-      "difficulty": "Medium",
+      "difficulty": "Easy",
       "marks": 1,
-      "question": "In a series LCR circuit at resonance, the impedance of the circuit is:",
+      "question": "In an alternating current circuit containing a pure capacitor of capacitance C, the alternating current leads the alternating voltage by a phase angle of:",
       "options": [
-        "Purely resistive and equal to R (minimum)",
-        "Maximum and purely inductive",
-        "Zero",
-        "Equal to \u221a(R\u00b2 + (\u03c9L)\u00b2 )"
+        "0",
+        "π/4",
+        "π/2",
+        "π"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** Purely resistive and equal to R (minimum)\n\nAt resonance, inductive reactance equals capacitive reactance: XL = XC \u21d2 Z = \u221a[R\u00b2 + (XL - XC)\u00b2] = R. Impedance is at its absolute minimum and current is at its maximum.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 2,
+      "explanation": "**Official Solution:** π/2\n\nFor a pure capacitor connected to an AC source V = V₀ sin(ωt), the current is I = I₀ sin(ωt + π/2). Thus, current leads voltage by π/2 radians (90°).",
+      "citation": "NCERT Class 12 Physics, Chapter 7, Section 7.4"
     },
     {
       "id": "c12-phy-2023-008",
@@ -135,34 +135,34 @@
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "Which component of the electromagnetic spectrum is used in radar systems for aircraft navigation?",
+      "question": "Which of the following electromagnetic waves has the highest frequency in the electromagnetic spectrum?",
       "options": [
         "Microwaves",
-        "X-rays",
         "Infrared waves",
-        "Ultraviolet rays"
+        "Ultraviolet rays",
+        "Gamma rays"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** Microwaves\n\nMicrowaves (wavelengths 1 mm to 0.1 m) are generated by special vacuum tubes (klystrons/magnetrons) and have short wavelengths ideal for focused radar beams.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 3,
+      "explanation": "**Official Solution:** Gamma rays\n\nGamma rays have the shortest wavelength (< 10⁻¹² m) and consequently the highest frequency (> 10²⁰ Hz) and photon energy in the electromagnetic spectrum.",
+      "citation": "NCERT Class 12 Physics, Chapter 8, Section 8.3"
     },
     {
       "id": "c12-phy-2023-009",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Ray Optics & Optical Instruments",
+      "subtopic": "Ray Optics and Optical Instruments",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "A convex lens of refractive index n = 1.5 and focal length f in air is immersed completely in water (n = 1.33). Its new focal length fw will be:",
+      "question": "A convex lens of glass (μ = 1.5) is immersed in a liquid having the exact same refractive index (μ = 1.5). Its focal length in the liquid will become:",
       "options": [
-        "Approximately 4f (increases)",
-        "f / 4",
-        "f (remains unchanged)",
-        "Becomes negative"
+        "Zero",
+        "Equal to its focal length in air",
+        "Infinite",
+        "Negative"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** Approximately 4f (increases)\n\nBy Lens Maker's Formula: 1/f = (n_lens/n_med - 1)(1/R1 - 1/R2). In air: 1/f = (1.5 - 1) = 0.5. In water: 1/fw = (1.5/1.33 - 1) = (9/8 - 1) = 1/8 = 0.125. Ratio fw / f = 0.5 / 0.125 = 4 \u21d2 fw = 4f.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 2,
+      "explanation": "**Official Solution:** Infinite\n\nBy Lens Maker’s Formula: 1/f_liq = ((μ_lens / μ_med) - 1) * (1/R₁ - 1/R₂). Since μ_lens = μ_med = 1.5, the factor ((1.5 / 1.5) - 1) = 0. Therefore, 1/f_liq = 0, which means f_liq = ∞ (it behaves as a plane sheet of glass).",
+      "citation": "NCERT Class 12 Physics, Chapter 9, Section 9.5"
     },
     {
       "id": "c12-phy-2023-010",
@@ -171,34 +171,34 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "In a Young's double-slit experiment, if the separation between the slits is halved and distance from slits to screen is doubled, fringe width \u03b2 becomes:",
+      "question": "In Young’s double-slit experiment, if the entire apparatus is immersed in water of refractive index 4/3, the fringe width will:",
       "options": [
-        "4 times the original fringe width",
-        "2 times",
-        "Halved",
-        "Unchanged"
+        "Increase by a factor of 4/3",
+        "Decrease to 3/4 of its original value",
+        "Remain unchanged",
+        "Become zero"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** 4 times the original fringe width\n\nFringe width \u03b2 = \u03bb * D / d. When d' = d/2 and D' = 2D: \u03b2' = \u03bb * (2D) / (d / 2) = 4 * (\u03bb * D / d) = 4\u03b2.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 1,
+      "explanation": "**Official Solution:** Decrease to 3/4 of its original value\n\nFringe width β = λ D / d. In water, the wavelength decreases: λ' = λ / μ = λ / (4/3) = (3/4) λ. Consequently, the new fringe width β' = (3/4) β.",
+      "citation": "NCERT Class 12 Physics, Chapter 10, Section 10.4"
     },
     {
       "id": "c12-phy-2023-011",
       "section": "Section A: Multiple Choice",
-      "subtopic": "Dual Nature of Radiation & Matter",
+      "subtopic": "Dual Nature of Radiation and Matter",
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "The de Broglie wavelength of an electron accelerated from rest through a potential difference of V volts is given by:",
+      "question": "In a photoelectric effect experiment, the slope of the graph between the stopping potential (V₀) and the frequency of incident radiation (ν) represents:",
       "options": [
-        "\u03bb = 1.227 / \u221aV nm",
-        "\u03bb = 12.27 / \u221aV nm",
-        "\u03bb = 0.1227 / \u221aV nm",
-        "\u03bb = 1.227 * \u221aV nm"
+        "Planck's constant h",
+        "h / e",
+        "e / h",
+        "Work function Φ₀"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** \u03bb = 1.227 / \u221aV nm\n\nFormula: \u03bb = h / \u221a(2m * e * V). Substituting fundamental constants m = 9.11\u00d710\u207b\u00b3\u00b9 kg, e = 1.6\u00d710\u207b\u00b9\u2079 C, h = 6.63\u00d710\u207b\u00b3\u2074 J\u00b7s gives \u03bb = 1.227 / \u221aV nm (or 12.27 / \u221aV \u00c5).",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 1,
+      "explanation": "**Official Solution:** h / e\n\nEinstein’s photoelectric equation is e V₀ = h ν - Φ₀, which gives V₀ = (h / e) ν - (Φ₀ / e). Comparing with y = mx + c, the slope m = h / e, where h is Planck's constant and e is the elementary charge.",
+      "citation": "NCERT Class 12 Physics, Chapter 11, Section 11.4"
     },
     {
       "id": "c12-phy-2023-012",
@@ -207,88 +207,88 @@
       "type": "mcq",
       "difficulty": "Easy",
       "marks": 1,
-      "question": "According to Bohr's model of the hydrogen atom, the radius of the nth stationary orbit rn is proportional to:",
+      "question": "According to Bohr’s postulate, the orbital angular momentum of an electron in the n-th stationary orbit of a hydrogen atom is:",
       "options": [
-        "n\u00b2",
-        "n",
-        "1 / n",
-        "1 / n\u00b2"
+        "n h / (2π)",
+        "2π n / h",
+        "n² h / (2π)",
+        "h / (2π n)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** n\u00b2\n\nBohr radius rn = (n\u00b2 * h\u00b2 * \u03b50) / (\u03c0 * m * e\u00b2). Thus rn \u221d n\u00b2 (radius scales with square of principal quantum number).",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "explanation": "**Official Solution:** n h / (2π)\n\nBohr's second postulate states that an electron revolves around the nucleus only in non-radiating orbits for which the angular momentum L = m v r is an integral multiple of h / (2π): L = n (h / 2π), where n = 1, 2, 3...",
+      "citation": "NCERT Class 12 Physics, Chapter 12, Section 12.4"
     },
     {
       "id": "c12-phy-2023-013",
       "section": "Section A: Multiple Choice",
       "subtopic": "Nuclei",
       "type": "mcq",
-      "difficulty": "Medium",
+      "difficulty": "Easy",
       "marks": 1,
-      "question": "If the mass defect for a nucleus of helium (2He4) is 0.0303 u, what is its total binding energy? (Take 1 u = 931.5 MeV)",
+      "question": "The radius of a nucleus of mass number A is proportional to:",
       "options": [
-        "28.3 MeV",
-        "283 MeV",
-        "14.1 MeV",
-        "7.07 MeV"
+        "A",
+        "A¹/²",
+        "A¹/³",
+        "A²"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** 28.3 MeV\n\nBinding Energy BE = \u0394m * 931.5 MeV = 0.0303 * 931.5 = 28.22 \u2248 28.3 MeV (giving binding energy per nucleon = 28.3 / 4 \u2248 7.07 MeV/nucleon).",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 2,
+      "explanation": "**Official Solution:** A¹/³\n\nThe radius of a nucleus is related to its mass number A by the empirical formula R = R₀ A¹/³, where R₀ ≈ 1.2 × 10⁻¹⁵ m (1.2 fm).",
+      "citation": "NCERT Class 12 Physics, Chapter 13, Section 13.3"
     },
     {
       "id": "c12-phy-2023-014",
       "section": "Section A: Multiple Choice",
       "subtopic": "Semiconductor Electronics",
       "type": "mcq",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "marks": 1,
-      "question": "In a p-type semiconductor, the majority charge carriers and majority dopant impurity atoms are:",
+      "question": "In an unbiased p-n junction diode at thermal equilibrium, the net current across the junction is zero because:",
       "options": [
-        "Holes; Trivalent impurity (e.g. Boron, Indium, Aluminium)",
-        "Electrons; Pentavalent impurity",
-        "Holes; Pentavalent impurity",
-        "Electrons; Trivalent impurity"
+        "No charge carriers cross the barrier",
+        "The diffusion current equals the drift current in magnitude and is opposite in direction",
+        "The potential barrier completely blocks carrier motion",
+        "Only majority carriers cross the junction"
       ],
-      "answer": 0,
-      "explanation": "**Official Solution:** Holes; Trivalent impurity (e.g. Boron, Indium, Aluminium)\n\nDoping intrinsic Silicon with trivalent atoms (Group 13) leaves a deficit of one valence electron, creating abundant majority positive holes.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "answer": 1,
+      "explanation": "**Official Solution:** The diffusion current equals the drift current in magnitude and is opposite in direction\n\nIn equilibrium, the electric field in the depletion layer causes minority carriers to drift across the junction. This drift current exactly balances the diffusion current of majority carriers, resulting in zero net current.",
+      "citation": "NCERT Class 12 Physics, Chapter 14, Section 14.6"
     },
     {
       "id": "c12-phy-2023-015",
-      "section": "Section A: Assertion-Reasoning",
-      "subtopic": "Electric Charges & Fields",
-      "type": "mcq",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Electrostatic Potential and Capacitance",
+      "type": "assertion_reasoning",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "Assertion (A): Electrostatic field lines never form closed continuous loops.\nReason (R): Electrostatic field is conservative in nature.",
+      "question": "Assertion (A): The electric field inside any cavity in a charged conductor is always zero, regardless of the shape or size of the cavity.\nReason (R): Charges residing on the outer surface of a conductor arrange themselves such that the net electric field inside the conductor cancels completely.",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nBecause the electrostatic field is conservative (\u222e E\u00b7dl = 0), electric field lines originate on positive charges and terminate on negative charges; they cannot close upon themselves without violating work-independence of closed paths.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "explanation": "**Official Solution:** Both (A) and (R) are true, and (R) is the correct explanation of (A).\n\nThis phenomenon is known as electrostatic shielding. In electrostatic equilibrium, excess charge resides entirely on the outer surface, and the electric field within the bulk material and inside any empty cavity is identically zero.",
+      "citation": "NCERT Class 12 Physics, Chapter 2, Section 2.14"
     },
     {
       "id": "c12-phy-2023-016",
-      "section": "Section A: Assertion-Reasoning",
-      "subtopic": "Wave Optics",
-      "type": "mcq",
+      "section": "Section A: Multiple Choice",
+      "subtopic": "Alternating Current",
+      "type": "assertion_reasoning",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "Assertion (A): Light waves can be polarized, but sound waves in air cannot be polarized.\nReason (R): Polarization is a phenomenon characteristic strictly of transverse waves.",
+      "question": "Assertion (A): In an ideal step-up transformer, the output voltage exceeds the input voltage, but the output current is less than the input current.\nReason (R): An ideal transformer obeys the law of conservation of energy; output power must equal input power (V_s * I_s = V_p * I_p).",
       "options": [
-        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-        "(A) is true but (R) is false",
-        "(A) is false but (R) is true"
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nLight is an electromagnetic wave where electric and magnetic vectors oscillate perpendicular to the propagation direction (transverse). Sound in air is longitudinal (compressions/rarefactions parallel to motion), which cannot exhibit polarization.",
-      "citation": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT"
+      "explanation": "**Official Solution:** Both (A) and (R) are true, and (R) is the correct explanation of (A).\n\nBecause power P = V * I is conserved in an ideal transformer (neglecting core and copper losses), raising voltage (V_s > V_p) necessarily reduces current (I_s < I_p) by the exact inverse ratio.",
+      "citation": "NCERT Class 12 Physics, Chapter 7, Section 7.9"
     },
     {
       "id": "c12-phy-2023-017",
@@ -297,7 +297,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 17 \u2022 2 Marks]\nRegarding Current Electricity: Kirchhoff's Junction & Loop Rules applied to a bridged circuit.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 17 • 2 Marks]\nRegarding Current Electricity: Kirchhoff's Junction & Loop Rules applied to a bridged circuit.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Current Electricity: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect dimensional equation with missing scaling factors for Current Electricity",
@@ -315,7 +315,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 18 \u2022 2 Marks]\nRegarding Electromagnetic Induction: Self-inductance of long solenoid L = \u03bc0 * n\u00b2 * A * l.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 18 • 2 Marks]\nRegarding Electromagnetic Induction: Self-inductance of long solenoid L = μ0 * n² * A * l.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Electromagnetic Induction: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect dimensional equation with missing scaling factors for Electromagnetic Induction",
@@ -333,7 +333,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 19 \u2022 2 Marks]\nRegarding Optics: Total Internal Reflection and Critical Angle formula sin(ic) = 1/n.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 19 • 2 Marks]\nRegarding Optics: Total Internal Reflection and Critical Angle formula sin(ic) = 1/n.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Optics: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect dimensional equation with missing scaling factors for Optics",
@@ -351,7 +351,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 20 \u2022 2 Marks]\nRegarding Dual Nature: Einstein's photoelectric equation h\u03bd = h\u03bd0 + Kmax and work function.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 20 • 2 Marks]\nRegarding Dual Nature: Einstein's photoelectric equation hν = hν0 + Kmax and work function.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Dual Nature: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect dimensional equation with missing scaling factors for Dual Nature",
@@ -369,7 +369,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 21 \u2022 2 Marks]\nRegarding Semiconductors: Dynamic resistance of p-n junction diode in forward bias r = \u0394V/\u0394I.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 21 • 2 Marks]\nRegarding Semiconductors: Dynamic resistance of p-n junction diode in forward bias r = ΔV/ΔI.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Semiconductors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect dimensional equation with missing scaling factors for Semiconductors",
@@ -387,7 +387,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 22 \u2022 3 Marks]\nRegarding Electrostatics: Capacitors in series and parallel combinations with dielectric insertion.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 22 • 3 Marks]\nRegarding Electrostatics: Capacitors in series and parallel combinations with dielectric insertion.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Electrostatics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect dimensional equation with missing scaling factors for Electrostatics",
@@ -405,7 +405,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 23 \u2022 3 Marks]\nRegarding Magnetism: Magnetic field on axis of circular current carrying loop B = \u03bc0*I*R\u00b2 / [2(R\u00b2+x\u00b2)^(3/2)].\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 23 • 3 Marks]\nRegarding Magnetism: Magnetic field on axis of circular current carrying loop B = μ0*I*R² / [2(R²+x²)^(3/2)].\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Magnetism: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect dimensional equation with missing scaling factors for Magnetism",
@@ -423,7 +423,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 24 \u2022 3 Marks]\nRegarding Alternating Current: Quality factor Q = (1/R) * \u221a(L/C) and bandwidth of resonance curve.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 24 • 3 Marks]\nRegarding Alternating Current: Quality factor Q = (1/R) * √(L/C) and bandwidth of resonance curve.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Alternating Current: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect dimensional equation with missing scaling factors for Alternating Current",
@@ -441,7 +441,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 25 \u2022 3 Marks]\nRegarding Ray Optics: Refraction through glass prism and minimum deviation formula.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 25 • 3 Marks]\nRegarding Ray Optics: Refraction through glass prism and minimum deviation formula.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Ray Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect dimensional equation with missing scaling factors for Ray Optics",
@@ -459,7 +459,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 26 \u2022 3 Marks]\nRegarding Wave Optics: Diffraction at a single slit: Condition for angular width of central maximum 2\u03bb/a.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 26 • 3 Marks]\nRegarding Wave Optics: Diffraction at a single slit: Condition for angular width of central maximum 2λ/a.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Wave Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect dimensional equation with missing scaling factors for Wave Optics",
@@ -477,7 +477,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 27 \u2022 3 Marks]\nRegarding Atoms: Rydberg formula for Balmer series and shortest wavelength limit.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 27 • 3 Marks]\nRegarding Atoms: Rydberg formula for Balmer series and shortest wavelength limit.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Atoms: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect dimensional equation with missing scaling factors for Atoms",
@@ -495,7 +495,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 28 \u2022 3 Marks]\nRegarding Nuclei: Nuclear density independence of mass number A (\u03c1 \u2248 2.3 \u00d7 10\u00b9\u2077 kg/m\u00b3).\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 28 • 3 Marks]\nRegarding Nuclei: Nuclear density independence of mass number A (ρ ≈ 2.3 × 10¹⁷ kg/m³).\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Nuclei: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect dimensional equation with missing scaling factors for Nuclei",
@@ -513,7 +513,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 4,
-      "question": "[Official CBSE 2023 Board Examination Question 29 \u2022 4 Marks]\nRegarding Case Study 1: Case Passage on Photovoltaic Cells and Solar Cell Characteristics.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 29 • 4 Marks]\nRegarding Case Study 1: Case Passage on Photovoltaic Cells and Solar Cell Characteristics.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
         "Incorrect dimensional equation with missing scaling factors for Case Study 1",
@@ -531,7 +531,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 4,
-      "question": "[Official CBSE 2023 Board Examination Question 30 \u2022 4 Marks]\nRegarding Case Study 2: Case Passage on Optical Fibers & Endoscopy Signal Transmission.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 30 • 4 Marks]\nRegarding Case Study 2: Case Passage on Optical Fibers & Endoscopy Signal Transmission.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
         "Incorrect dimensional equation with missing scaling factors for Case Study 2",
@@ -549,7 +549,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 31 \u2022 5 Marks]\nRegarding Long Answer 1: Derivation of Lens Maker's Formula from refraction at spherical surfaces.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 31 • 5 Marks]\nRegarding Long Answer 1: Derivation of Lens Maker's Formula from refraction at spherical surfaces.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Long Answer 1: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
         "Incorrect dimensional equation with missing scaling factors for Long Answer 1",
@@ -567,7 +567,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 32 \u2022 5 Marks]\nRegarding Long Answer 2: AC Generator working principle, EMF expression e = NBA\u03c9 sin(\u03c9t), and slip rings.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 32 • 5 Marks]\nRegarding Long Answer 2: AC Generator working principle, EMF expression e = NBAω sin(ωt), and slip rings.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Long Answer 2: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
         "Incorrect dimensional equation with missing scaling factors for Long Answer 2",
@@ -585,7 +585,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 33 \u2022 5 Marks]\nRegarding Long Answer 3: Gauss's Law application to infinite uniformly charged planar sheet E = \u03c3 / (2\u03b50).\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "[Official CBSE 2023 Board Examination Question 33 • 5 Marks]\nRegarding Long Answer 3: Gauss's Law application to infinite uniformly charged planar sheet E = σ / (2ε0).\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Long Answer 3: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
         "Incorrect dimensional equation with missing scaling factors for Long Answer 3",
