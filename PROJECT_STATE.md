@@ -400,3 +400,15 @@ Following user directive ("keep font and colour as it is from https://mocktestva
   - Integrated `?theme=dark` / `?theme=light` query parameter reading and bidirectional synchronization with `localStorage.getItem('mtv_theme')`.
   - Executed automated Headless Chrome DevTools Protocol (CDP) test suite across all 21 key routes in the portal, verifying that every single route successfully transitions `data-theme` and updates icon between `☀️` and `🌙` on click.
 
+### 9. Q1 Roadmap Rollout — Batch 1: GRE General Activation on US Hub (`us/index.html`)
+* **Objective:** Activate the `⏳ Releasing Q1` placeholder on the US Hub by integrating live links to the existing 4-suite GRE diagnostic tests (`/global/gre/`).
+* **Enhancement:**
+  - Upgraded Card 6 on `us/index.html` from `⏳ In Authoring / ⏳ Releasing Q1` to `🟢 Live Diagnostics`.
+  - Added direct sub-test drill links:
+    - `📐 Quant Diagnostic 01` (`/global/gre/quantitative-reasoning-01.html`)
+    - `📐 Quant Diagnostic 02` (`/global/gre/quantitative-reasoning-02.html`)
+    - `🧠 Verbal Diagnostic 01` (`/global/gre/verbal-reasoning-01.html`)
+    - `🧠 Verbal Diagnostic 02` (`/global/gre/verbal-reasoning-02.html`)
+  - Added dual launch buttons: `[🚀 Start Quant 01]` and `[🧠 Start Verbal 01]`.
+  - **SEO & Link Equity:** Direct anchor links channel US hub link authority into the canonical GRE testing routes already present in `sitemap.xml`. Zero new URLs or crawl errors introduced.
+
