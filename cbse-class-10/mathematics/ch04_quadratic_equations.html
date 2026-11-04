@@ -28,60 +28,204 @@
   
   <link rel="stylesheet" href="../../css/test-engine.css">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
-    "name": "CBSE Class 10 Mathematics Chapter 4: Quadratic Equations MCQ Test",
-    "educationalLevel": "Grade 10",
-    "learningResourceType": "Practice Quiz",
-    "about": {
-      "@type": "Thing",
-      "name": "Quadratic Equations"
-    },
-    "provider": {
-      "@type": "Organization",
-      "name": "MockTestVault",
-      "url": "https://mocktestvault.com"
-    }
-  }
-  </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-
-  <!-- Schema.org BreadcrumbList Structured Data -->
+    <!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz with Practice Problems, LearningResource) -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
+  "@graph": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://mocktestvault.com/"
+      "@type": "BreadcrumbList",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mocktestvault.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CBSE Class 10",
+          "item": "https://mocktestvault.com/cbse-class-10/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mathematics",
+          "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ch 4: Quadratic Equations",
+          "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html"
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "CBSE Class 10",
-      "item": "https://mocktestvault.com/cbse-class-10/"
+      "@type": "Quiz",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html#quiz",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html",
+      "name": "CBSE Class 10 Mathematics (Algebra) Chapter 4: Quadratic Equations MCQ Practice Test",
+      "description": "Official CBSE Class 10 Board exam practice test for Chapter 4: Quadratic Equations with timer, negative marking options, and step-by-step NCERT solutions.",
+      "educationalLevel": "Grade 10",
+      "learningResourceType": "Practice Quiz",
+      "educationalUse": "Assessment",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Chapter 4: Quadratic Equations"
+      },
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Mathematics (Algebra)"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalLevel",
+          "targetName": "Class 10"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "academicFramework",
+          "targetName": "Central Board of Secondary Education (CBSE)"
+        }
+      ],
+      "assesses": [
+        "Standard Quadratic Formula",
+        "Discriminant & Nature of Roots",
+        "Factorization by Middle-Term Splitting",
+        "Real-World Modeling Problems"
+      ],
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "Which of the following equations is NOT a quadratic equation?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "(x - 2)^2 + 1 = 2x - 3"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "x(2x + 3) = x^2 + 1"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "(x + 2)^3 = x^3 - 4"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "x(x + 1) + 8 = (x + 2)(x - 2)"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "x(x + 1) + 8 = (x + 2)(x - 2)",
+            "comment": {
+              "@type": "Comment",
+              "text": "An equation of the form ax^2 + bx + c = 0 is quadratic if a != 0 (degree 2). Let us test option 4: expanding LHS gives x^2 + x + 8; expanding RHS using identity (a+b)(a-b) = a^2 - b^2 gives x^2 - 4. Equating both sides: x^2 + x + 8 = x^2 - 4 => x^2 cancels out on both sides, yielding x + 12 = 0. Because the highest exponent of x is 1, this is a linear equation, NOT a quadratic equation. All other options retain an x^2 term with a non-zero coefficient after simplification."
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "For a quadratic equation ax^2 + bx + c = 0 (a != 0), the roots are real and distinct if the discriminant D = b^2 - 4ac satisfies:",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "D = 0"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "D > 0"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "D < 0"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "D <= 0"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "D > 0",
+            "comment": {
+              "@type": "Comment",
+              "text": "Per NCERT Class 10 Chapter 4, the roots of the standard quadratic equation ax^2 + bx + c = 0 (a != 0) are determined by the discriminant D = b^2 - 4ac via the quadratic formula x = (-b +- sqrt(D))/(2a). Nature of roots: (1) When D > 0, sqrt(D) is a strictly positive real number, yielding two distinct real roots x = (-b + sqrt(D))/(2a) and x = (-b - sqrt(D))/(2a); (2) When D = 0, both roots coincide (-b/(2a)); (3) When D < 0, sqrt(D) is non-real, giving no real roots."
+            }
+          }
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Mathematics",
-      "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Ch 4: Quadratic Equations",
-      "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html"
+      "@type": "LearningResource",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html#learningresource",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html",
+      "name": "CBSE Class 10 Mathematics (Algebra) Chapter 4: Quadratic Equations Blueprint & Study Guide",
+      "description": "Standard form ax² + bx + c = 0 (a ≠ 0), factorization by middle-term splitting, the quadratic formula (Shreedharacharya's rule), discriminant D = b² - 4ac, nature of roots, and real-world word problems.",
+      "educationalLevel": "Class 10",
+      "learningResourceType": "Study Guide",
+      "educationalUse": [
+        "practice",
+        "assessment",
+        "study-guide"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "timeRequired": "PT45M",
+      "teaches": [
+        "Standard Quadratic Formula",
+        "Discriminant & Nature of Roots",
+        "Factorization by Middle-Term Splitting",
+        "Real-World Modeling Problems"
+      ],
+      "assesses": [
+        "Standard Quadratic Formula",
+        "Discriminant & Nature of Roots",
+        "Factorization by Middle-Term Splitting",
+        "Real-World Modeling Problems"
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      }
     }
   ]
 }
   </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
 </head>
 <body>
 
@@ -350,6 +494,56 @@
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">🚤 Real-World Modeling Problems</strong>
         <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">Speed, distance, time problems (speed of stream upstream = u - v, downstream = u + v) and pipe flow problems (work rate = 1/x tank filled per hour).</span>
+      </div>
+    </div>
+
+    
+    <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
+    <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
+      <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
+        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+      </h3>
+      <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q1 (Standard Form of Quadratic Equation):</strong> Which of the following equations is NOT a quadratic equation?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> (x - 2)^2 + 1 = 2x - 3</li>
+          <li><strong>(B)</strong> x(2x + 3) = x^2 + 1</li>
+          <li><strong>(C)</strong> (x + 2)^3 = x^3 - 4</li>
+          <li><strong>(D)</strong> x(x + 1) + 8 = (x + 2)(x - 2)</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (D) — x(x + 1) + 8 = (x + 2)(x - 2)</p>
+            <p style="margin:0;"><strong>Explanation:</strong> An equation of the form ax^2 + bx + c = 0 is quadratic if a != 0 (degree 2). Let us test option 4: expanding LHS gives x^2 + x + 8; expanding RHS using identity (a+b)(a-b) = a^2 - b^2 gives x^2 - 4. Equating both sides: x^2 + x + 8 = x^2 - 4 =&gt; x^2 cancels out on both sides, yielding x + 12 = 0. Because the highest exponent of x is 1, this is a linear equation, NOT a quadratic equation. All other options retain an x^2 term with a non-zero coefficient after simplification.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 4, Section 4.2, Example 2</p>
+          </div>
+        </details>
+      </div>
+      <div style="">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q2 (Discriminant &amp; Nature of Roots):</strong> For a quadratic equation ax^2 + bx + c = 0 (a != 0), the roots are real and distinct if the discriminant D = b^2 - 4ac satisfies:
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> D = 0</li>
+          <li><strong>(B)</strong> D &gt; 0</li>
+          <li><strong>(C)</strong> D &lt; 0</li>
+          <li><strong>(D)</strong> D &lt;= 0</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (B) — D &gt; 0</p>
+            <p style="margin:0;"><strong>Explanation:</strong> Per NCERT Class 10 Chapter 4, the roots of the standard quadratic equation ax^2 + bx + c = 0 (a != 0) are determined by the discriminant D = b^2 - 4ac via the quadratic formula x = (-b +- sqrt(D))/(2a). Nature of roots: (1) When D &gt; 0, sqrt(D) is a strictly positive real number, yielding two distinct real roots x = (-b + sqrt(D))/(2a) and x = (-b - sqrt(D))/(2a); (2) When D = 0, both roots coincide (-b/(2a)); (3) When D &lt; 0, sqrt(D) is non-real, giving no real roots.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 4, Section 4.5</p>
+          </div>
+        </details>
       </div>
     </div>
 

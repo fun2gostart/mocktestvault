@@ -28,60 +28,204 @@
   
   <link rel="stylesheet" href="../../css/test-engine.css">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
-    "name": "CBSE Class 10 Mathematics Chapter 1: Real Numbers MCQ Test",
-    "educationalLevel": "Grade 10",
-    "learningResourceType": "Practice Quiz",
-    "about": {
-      "@type": "Thing",
-      "name": "Real Numbers"
-    },
-    "provider": {
-      "@type": "Organization",
-      "name": "MockTestVault",
-      "url": "https://mocktestvault.com"
-    }
-  }
-  </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-
-  <!-- Schema.org BreadcrumbList Structured Data -->
+    <!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz with Practice Problems, LearningResource) -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
+  "@graph": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://mocktestvault.com/"
+      "@type": "BreadcrumbList",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch01_real_numbers.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mocktestvault.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CBSE Class 10",
+          "item": "https://mocktestvault.com/cbse-class-10/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mathematics",
+          "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ch 1: Real Numbers",
+          "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch01_real_numbers.html"
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "CBSE Class 10",
-      "item": "https://mocktestvault.com/cbse-class-10/"
+      "@type": "Quiz",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch01_real_numbers.html#quiz",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch01_real_numbers.html",
+      "name": "CBSE Class 10 Mathematics (Number Systems) Chapter 1: Real Numbers MCQ Practice Test",
+      "description": "Official CBSE Class 10 Board exam practice test for Chapter 1: Real Numbers with timer, negative marking options, and step-by-step NCERT solutions.",
+      "educationalLevel": "Grade 10",
+      "learningResourceType": "Practice Quiz",
+      "educationalUse": "Assessment",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Chapter 1: Real Numbers"
+      },
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Mathematics (Number Systems)"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalLevel",
+          "targetName": "Class 10"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "academicFramework",
+          "targetName": "Central Board of Secondary Education (CBSE)"
+        }
+      ],
+      "assesses": [
+        "Fundamental Theorem of Arithmetic",
+        "HCF & LCM Product Relation",
+        "Proof of Irrationality by Contradiction",
+        "Coprime Integers & Fraction Simplification"
+      ],
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "According to the Fundamental Theorem of Arithmetic, every composite number can be uniquely expressed as a product of prime numbers, apart from:",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "The magnitude of the prime factors"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "The order in which the prime factors occur"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "The sign of the number"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "The number of decimal digits"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The order in which the prime factors occur",
+            "comment": {
+              "@type": "Comment",
+              "text": "The Fundamental Theorem of Arithmetic (also known as the Unique Prime Factorisation Theorem, formulated by Carl Friedrich Gauss) states that every composite integer greater than 1 can be expressed uniquely as a product of prime numbers, up to the order in which the prime factors are written. That is, for any positive integer n > 1, the representation n = p1^a1 * p2^a2 * ... * pk^ak (where p1 < p2 < ... < pk are distinct primes and a_i are positive integers) is completely unique, providing the cornerstone for all algebraic number theory."
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "For any two positive integers 'a' and 'b', which fundamental algebraic relationship connects their HCF and LCM?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "HCF(a, b) + LCM(a, b) = a + b"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "HCF(a, b) / LCM(a, b) = a / b"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "HCF(a, b) * LCM(a, b) = a * b"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "[HCF(a, b)]^2 = a * b"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HCF(a, b) * LCM(a, b) = a * b",
+            "comment": {
+              "@type": "Comment",
+              "text": "For any two positive integers a and b, the product of their Highest Common Factor (HCF) and Lowest Common Multiple (LCM) is strictly equal to the product of the two original numbers: HCF(a, b) * LCM(a, b) = a * b. This fundamental identity arises because the HCF takes the minimum exponent of each common prime factor, while the LCM takes the maximum exponent of every prime factor; their product perfectly sums exponents min(x, y) + max(x, y) = x + y. Important: this relation holds strictly for two numbers, not for three."
+            }
+          }
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Mathematics",
-      "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Ch 1: Real Numbers",
-      "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch01_real_numbers.html"
+      "@type": "LearningResource",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch01_real_numbers.html#learningresource",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch01_real_numbers.html",
+      "name": "CBSE Class 10 Mathematics (Number Systems) Chapter 1: Real Numbers Blueprint & Study Guide",
+      "description": "Sets up the statutory CBSE Class 10 Number Systems unit. Covers the Fundamental Theorem of Arithmetic, unique prime factorization of composite numbers, proofs of irrationality, and the relationship between HCF and LCM.",
+      "educationalLevel": "Class 10",
+      "learningResourceType": "Study Guide",
+      "educationalUse": [
+        "practice",
+        "assessment",
+        "study-guide"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "timeRequired": "PT45M",
+      "teaches": [
+        "Fundamental Theorem of Arithmetic",
+        "HCF & LCM Product Relation",
+        "Proof of Irrationality by Contradiction",
+        "Coprime Integers & Fraction Simplification"
+      ],
+      "assesses": [
+        "Fundamental Theorem of Arithmetic",
+        "HCF & LCM Product Relation",
+        "Proof of Irrationality by Contradiction",
+        "Coprime Integers & Fraction Simplification"
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      }
     }
   ]
 }
   </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
 </head>
 <body>
 
@@ -350,6 +494,56 @@
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">⚙️ Coprime Integers & Fraction Simplification</strong>
         <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">In proofs of irrationality, assuming √p = a/b where a and b are coprime integers (HCF = 1) leads to a contradiction that both share a common factor p.</span>
+      </div>
+    </div>
+
+    
+    <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
+    <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
+      <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
+        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+      </h3>
+      <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q1 (Fundamental Theorem of Arithmetic):</strong> According to the Fundamental Theorem of Arithmetic, every composite number can be uniquely expressed as a product of prime numbers, apart from:
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> The magnitude of the prime factors</li>
+          <li><strong>(B)</strong> The order in which the prime factors occur</li>
+          <li><strong>(C)</strong> The sign of the number</li>
+          <li><strong>(D)</strong> The number of decimal digits</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (B) — The order in which the prime factors occur</p>
+            <p style="margin:0;"><strong>Explanation:</strong> The Fundamental Theorem of Arithmetic (also known as the Unique Prime Factorisation Theorem, formulated by Carl Friedrich Gauss) states that every composite integer greater than 1 can be expressed uniquely as a product of prime numbers, up to the order in which the prime factors are written. That is, for any positive integer n &gt; 1, the representation n = p1^a1 * p2^a2 * ... * pk^ak (where p1 &lt; p2 &lt; ... &lt; pk are distinct primes and a_i are positive integers) is completely unique, providing the cornerstone for all algebraic number theory.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 1, Section 1.2 The Fundamental Theorem of Arithmetic</p>
+          </div>
+        </details>
+      </div>
+      <div style="">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q2 (HCF and LCM Relation):</strong> For any two positive integers &#x27;a&#x27; and &#x27;b&#x27;, which fundamental algebraic relationship connects their HCF and LCM?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> HCF(a, b) + LCM(a, b) = a + b</li>
+          <li><strong>(B)</strong> HCF(a, b) / LCM(a, b) = a / b</li>
+          <li><strong>(C)</strong> HCF(a, b) * LCM(a, b) = a * b</li>
+          <li><strong>(D)</strong> [HCF(a, b)]^2 = a * b</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (C) — HCF(a, b) * LCM(a, b) = a * b</p>
+            <p style="margin:0;"><strong>Explanation:</strong> For any two positive integers a and b, the product of their Highest Common Factor (HCF) and Lowest Common Multiple (LCM) is strictly equal to the product of the two original numbers: HCF(a, b) * LCM(a, b) = a * b. This fundamental identity arises because the HCF takes the minimum exponent of each common prime factor, while the LCM takes the maximum exponent of every prime factor; their product perfectly sums exponents min(x, y) + max(x, y) = x + y. Important: this relation holds strictly for two numbers, not for three.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 1, Section 1.2</p>
+          </div>
+        </details>
       </div>
     </div>
 

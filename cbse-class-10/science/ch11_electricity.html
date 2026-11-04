@@ -28,60 +28,204 @@
   
   <link rel="stylesheet" href="../../css/test-engine.css">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
-    "name": "CBSE Class 10 Science Chapter 11: Electricity MCQ Test",
-    "educationalLevel": "Grade 10",
-    "learningResourceType": "Practice Quiz",
-    "about": {
-      "@type": "Thing",
-      "name": "Electricity"
-    },
-    "provider": {
-      "@type": "Organization",
-      "name": "MockTestVault",
-      "url": "https://mocktestvault.com"
-    }
-  }
-  </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-
-  <!-- Schema.org BreadcrumbList Structured Data -->
+    <!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz with Practice Problems, LearningResource) -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
+  "@graph": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://mocktestvault.com/"
+      "@type": "BreadcrumbList",
+      "@id": "https://mocktestvault.com/cbse-class-10/science/ch11_electricity.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mocktestvault.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CBSE Class 10",
+          "item": "https://mocktestvault.com/cbse-class-10/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Science",
+          "item": "https://mocktestvault.com/cbse-class-10/index.html#block-science"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ch 11: Electricity",
+          "item": "https://mocktestvault.com/cbse-class-10/science/ch11_electricity.html"
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "CBSE Class 10",
-      "item": "https://mocktestvault.com/cbse-class-10/"
+      "@type": "Quiz",
+      "@id": "https://mocktestvault.com/cbse-class-10/science/ch11_electricity.html#quiz",
+      "url": "https://mocktestvault.com/cbse-class-10/science/ch11_electricity.html",
+      "name": "CBSE Class 10 Science (Physics) Chapter 11: Electricity MCQ Practice Test",
+      "description": "Official CBSE Class 10 Board exam practice test for Chapter 11: Electricity with timer, negative marking options, and step-by-step NCERT solutions.",
+      "educationalLevel": "Grade 10",
+      "learningResourceType": "Practice Quiz",
+      "educationalUse": "Assessment",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Chapter 11: Electricity"
+      },
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Science (Physics)"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalLevel",
+          "targetName": "Class 10"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "academicFramework",
+          "targetName": "Central Board of Secondary Education (CBSE)"
+        }
+      ],
+      "assesses": [
+        "Charge, Current & Potential",
+        "Resistance & Material Resistivity",
+        "Resistor Networks (Series vs Parallel)",
+        "Joule's Heating & Electric Power"
+      ],
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "A cylindrical metal wire of resistance R is stretched uniformly so that its length becomes twice its original length (l' = 2l). Assuming its density and volume remain constant, what is the new resistance of the wire?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "4R"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "2R"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "R/2"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "R/4"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "4R",
+            "comment": {
+              "@type": "Comment",
+              "text": "Because volume is conserved (V = A * l = constant), doubling the length (l' = 2l) causes the cross-sectional area to be halved (A' = A/2). New resistance R' = rho * l' / A' = rho * (2l) / (A/2) = 4 * (rho * l / A) = 4R."
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are domestic household lighting circuits and appliances wired in parallel rather than in series?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "Parallel wiring increases overall circuit resistance to save power"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "Each appliance receives the full mains potential difference (220 V) and operates independently if another fails"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "In series, all appliances draw the exact same power regardless of their resistance"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "Parallel circuits eliminate the need for an earth ground connection"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each appliance receives the full mains potential difference (220 V) and operates independently if another fails",
+            "comment": {
+              "@type": "Comment",
+              "text": "In a parallel arrangement, each appliance is connected directly across the supply voltage (220 V) and has its own independent switch. If one appliance fuses or is turned off, other branches remain unaffected. Furthermore, total resistance is reduced, allowing each device to draw its required current."
+            }
+          }
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Science",
-      "item": "https://mocktestvault.com/cbse-class-10/index.html#block-science"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Ch 11: Electricity",
-      "item": "https://mocktestvault.com/cbse-class-10/science/ch11_electricity.html"
+      "@type": "LearningResource",
+      "@id": "https://mocktestvault.com/cbse-class-10/science/ch11_electricity.html#learningresource",
+      "url": "https://mocktestvault.com/cbse-class-10/science/ch11_electricity.html",
+      "name": "CBSE Class 10 Science (Physics) Chapter 11: Electricity Blueprint & Study Guide",
+      "description": "Fundamental physics of electric charge, potential difference, Ohm's law, electrical resistance and material resistivity, series and parallel circuit analysis, Joule's heating effect, and electrical power calculations.",
+      "educationalLevel": "Class 10",
+      "learningResourceType": "Study Guide",
+      "educationalUse": [
+        "practice",
+        "assessment",
+        "study-guide"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "timeRequired": "PT45M",
+      "teaches": [
+        "Charge, Current & Potential",
+        "Resistance & Material Resistivity",
+        "Resistor Networks (Series vs Parallel)",
+        "Joule's Heating & Electric Power"
+      ],
+      "assesses": [
+        "Charge, Current & Potential",
+        "Resistance & Material Resistivity",
+        "Resistor Networks (Series vs Parallel)",
+        "Joule's Heating & Electric Power"
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      }
     }
   ]
 }
   </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
 </head>
 <body>
 
@@ -339,6 +483,56 @@
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">🔥 Joule's Heating & Electric Power</strong>
         <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">Heat H = I²Rt = VIt = (V²/R)t (Joules). Power P = VI = I²R = V²/R (Watts). Commercial electrical unit: 1 kWh = 3.6 × 10⁶ Joules = 1 Board of Trade Unit.</span>
+      </div>
+    </div>
+
+    
+    <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
+    <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
+      <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
+        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+      </h3>
+      <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q1 (Resistance: Uniform Wire Stretching):</strong> A cylindrical metal wire of resistance R is stretched uniformly so that its length becomes twice its original length (l&#x27; = 2l). Assuming its density and volume remain constant, what is the new resistance of the wire?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> 4R</li>
+          <li><strong>(B)</strong> 2R</li>
+          <li><strong>(C)</strong> R/2</li>
+          <li><strong>(D)</strong> R/4</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (A) — 4R</p>
+            <p style="margin:0;"><strong>Explanation:</strong> Because volume is conserved (V = A * l = constant), doubling the length (l&#x27; = 2l) causes the cross-sectional area to be halved (A&#x27; = A/2). New resistance R&#x27; = rho * l&#x27; / A&#x27; = rho * (2l) / (A/2) = 4 * (rho * l / A) = 4R.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Science, Chapter 11, Section 11.5 Factors on which the Resistance of a Conductor Depends</p>
+          </div>
+        </details>
+      </div>
+      <div style="">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q2 (Domestic Circuit Architecture: Parallel vs Series):</strong> Why are domestic household lighting circuits and appliances wired in parallel rather than in series?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> Parallel wiring increases overall circuit resistance to save power</li>
+          <li><strong>(B)</strong> Each appliance receives the full mains potential difference (220 V) and operates independently if another fails</li>
+          <li><strong>(C)</strong> In series, all appliances draw the exact same power regardless of their resistance</li>
+          <li><strong>(D)</strong> Parallel circuits eliminate the need for an earth ground connection</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (B) — Each appliance receives the full mains potential difference (220 V) and operates independently if another fails</p>
+            <p style="margin:0;"><strong>Explanation:</strong> In a parallel arrangement, each appliance is connected directly across the supply voltage (220 V) and has its own independent switch. If one appliance fuses or is turned off, other branches remain unaffected. Furthermore, total resistance is reduced, allowing each device to draw its required current.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Science, Chapter 11, Section 11.6.2 Resistors in Parallel</p>
+          </div>
+        </details>
       </div>
     </div>
 

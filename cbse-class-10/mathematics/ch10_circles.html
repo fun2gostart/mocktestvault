@@ -28,60 +28,204 @@
   
   <link rel="stylesheet" href="../../css/test-engine.css">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
-    "name": "CBSE Class 10 Mathematics Chapter 10: Circles MCQ Test",
-    "educationalLevel": "Grade 10",
-    "learningResourceType": "Practice Quiz",
-    "about": {
-      "@type": "Thing",
-      "name": "Circles"
-    },
-    "provider": {
-      "@type": "Organization",
-      "name": "MockTestVault",
-      "url": "https://mocktestvault.com"
-    }
-  }
-  </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-
-  <!-- Schema.org BreadcrumbList Structured Data -->
+    <!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz with Practice Problems, LearningResource) -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
+  "@graph": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://mocktestvault.com/"
+      "@type": "BreadcrumbList",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch10_circles.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mocktestvault.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CBSE Class 10",
+          "item": "https://mocktestvault.com/cbse-class-10/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mathematics",
+          "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ch 10: Circles",
+          "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch10_circles.html"
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "CBSE Class 10",
-      "item": "https://mocktestvault.com/cbse-class-10/"
+      "@type": "Quiz",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch10_circles.html#quiz",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch10_circles.html",
+      "name": "CBSE Class 10 Mathematics (Geometry) Chapter 10: Circles MCQ Practice Test",
+      "description": "Official CBSE Class 10 Board exam practice test for Chapter 10: Circles with timer, negative marking options, and step-by-step NCERT solutions.",
+      "educationalLevel": "Grade 10",
+      "learningResourceType": "Practice Quiz",
+      "educationalUse": "Assessment",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Chapter 10: Circles"
+      },
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Mathematics (Geometry)"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalLevel",
+          "targetName": "Class 10"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "academicFramework",
+          "targetName": "Central Board of Secondary Education (CBSE)"
+        }
+      ],
+      "assesses": [
+        "Tangent & Point of Contact",
+        "Theorem 10.1 (Perpendicularity)",
+        "Theorem 10.2 (Lengths of Tangents)",
+        "Quadrilateral Circumscribing Circle"
+      ],
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "The tangent at any point of a circle is always perpendicular to which geometric line through the point of contact?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "The radius through the point of contact"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "The chord passing through the point"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "The line segment connecting to the opposite circumference"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "Any secant line drawn to the circle"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The radius through the point of contact",
+            "comment": {
+              "@type": "Comment",
+              "text": "According to Theorem 10.1 in NCERT Mathematics, the tangent at any point of a circle is strictly perpendicular to the radius drawn through the point of contact. Proof: Let line l be the tangent touching the circle at point P with center O. Take any other point Q on line l distinct from P. Because l is a tangent, Q must lie outside the circle. Therefore, distance OQ is strictly greater than the radius OP (OQ > OP). Since this holds for every point on l other than P, OP is the shortest distance from center O to line l, proving OP is perpendicular to l."
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "From an external point P, two tangents PA and PB are drawn to a circle. What is the relation between the lengths of PA and PB?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "PA > PB"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "PA = PB"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "PA + PB = Radius"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "PA = 2 PB"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PA = PB",
+            "comment": {
+              "@type": "Comment",
+              "text": "Theorem 10.2 of CBSE Class 10 states: The lengths of the two tangents drawn from a single external point to a circle are equal (PA = PB). Proof: Let PA and PB be tangents drawn from point P to a circle with center O, touching at points A and B. Join OA, OB, and OP. In right-angled triangles OPA and OPB: angle OAP = angle OBP = 90 degrees (Theorem 10.1); hypotenuse OP is common (OP = OP); and radius OA = OB. By the RHS congruence criterion, triangle OPA is congruent to triangle OPB, which immediately implies that PA = PB by CPCT."
+            }
+          }
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Mathematics",
-      "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Ch 10: Circles",
-      "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch10_circles.html"
+      "@type": "LearningResource",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch10_circles.html#learningresource",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch10_circles.html",
+      "name": "CBSE Class 10 Mathematics (Geometry) Chapter 10: Circles Blueprint & Study Guide",
+      "description": "Tangents to a circle, point of contact, Theorem 10.1 (radius is perpendicular to tangent at point of contact), and Theorem 10.2 (lengths of tangents drawn from an external point to a circle are equal).",
+      "educationalLevel": "Class 10",
+      "learningResourceType": "Study Guide",
+      "educationalUse": [
+        "practice",
+        "assessment",
+        "study-guide"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "timeRequired": "PT45M",
+      "teaches": [
+        "Tangent & Point of Contact",
+        "Theorem 10.1 (Perpendicularity)",
+        "Theorem 10.2 (Lengths of Tangents)",
+        "Quadrilateral Circumscribing Circle"
+      ],
+      "assesses": [
+        "Tangent & Point of Contact",
+        "Theorem 10.1 (Perpendicularity)",
+        "Theorem 10.2 (Lengths of Tangents)",
+        "Quadrilateral Circumscribing Circle"
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      }
     }
   ]
 }
   </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
 </head>
 <body>
 
@@ -350,6 +494,56 @@
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">⭕ Quadrilateral Circumscribing Circle</strong>
         <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">If a quadrilateral ABCD circumscribes a circle touching at P, Q, R, S, then AB + CD = AD + BC (sum of opposite sides are equal).</span>
+      </div>
+    </div>
+
+    
+    <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
+    <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
+      <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
+        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+      </h3>
+      <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q1 (Theorem 10.1 Radius Tangent Perpendicularity):</strong> The tangent at any point of a circle is always perpendicular to which geometric line through the point of contact?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> The radius through the point of contact</li>
+          <li><strong>(B)</strong> The chord passing through the point</li>
+          <li><strong>(C)</strong> The line segment connecting to the opposite circumference</li>
+          <li><strong>(D)</strong> Any secant line drawn to the circle</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (A) — The radius through the point of contact</p>
+            <p style="margin:0;"><strong>Explanation:</strong> According to Theorem 10.1 in NCERT Mathematics, the tangent at any point of a circle is strictly perpendicular to the radius drawn through the point of contact. Proof: Let line l be the tangent touching the circle at point P with center O. Take any other point Q on line l distinct from P. Because l is a tangent, Q must lie outside the circle. Therefore, distance OQ is strictly greater than the radius OP (OQ &gt; OP). Since this holds for every point on l other than P, OP is the shortest distance from center O to line l, proving OP is perpendicular to l.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 10, Theorem 10.1</p>
+          </div>
+        </details>
+      </div>
+      <div style="">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q2 (Theorem 10.2 External Tangent Length Equality):</strong> From an external point P, two tangents PA and PB are drawn to a circle. What is the relation between the lengths of PA and PB?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> PA &gt; PB</li>
+          <li><strong>(B)</strong> PA = PB</li>
+          <li><strong>(C)</strong> PA + PB = Radius</li>
+          <li><strong>(D)</strong> PA = 2 PB</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (B) — PA = PB</p>
+            <p style="margin:0;"><strong>Explanation:</strong> Theorem 10.2 of CBSE Class 10 states: The lengths of the two tangents drawn from a single external point to a circle are equal (PA = PB). Proof: Let PA and PB be tangents drawn from point P to a circle with center O, touching at points A and B. Join OA, OB, and OP. In right-angled triangles OPA and OPB: angle OAP = angle OBP = 90 degrees (Theorem 10.1); hypotenuse OP is common (OP = OP); and radius OA = OB. By the RHS congruence criterion, triangle OPA is congruent to triangle OPB, which immediately implies that PA = PB by CPCT.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 10, Theorem 10.2</p>
+          </div>
+        </details>
       </div>
     </div>
 

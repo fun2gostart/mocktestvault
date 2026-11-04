@@ -491,4 +491,17 @@ Following user directive ("keep font and colour as it is from https://mocktestva
     - **Curriculum Silo Links:** Direct internal anchor cross-links to master formula/reaction sheets (`math-formulas.html`, `science-formulas-reactions.html`) and adjacent chapter tests.
   - Bumped service worker cache to `mtv-cbt-v27`.
 
+### 16. SEO Growth Initiative — Option C: Advanced Rich Schema Markup & Practice Problems across all 48 Chapters
+* **Objective:** Elevate structured data to 2026 enterprise-grade Schema.org `@graph` standards, enabling Google Education Q&A, Practice Problems, and Rich Snippet eligibility across all 48 CBSE Class 10 chapter test pages.
+* **Deliverables:**
+  - Authored automated processor [`scripts/upgrade_class10_schemas.py`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/scripts/upgrade_class10_schemas.py) and executed across **48 / 48 chapter pages**.
+  - Generated unified 2026-compliant `@graph` JSON-LD blocks containing:
+    - **`BreadcrumbList`:** Canonical hierarchical navigation (`Home` $\rightarrow$ `CBSE Class 10` $\rightarrow$ `Subject` $\rightarrow$ `Chapter`).
+    - **`Quiz`:** Enriched with `url`, `educationalLevel`, `learningResourceType="Practice Quiz"`, `educationalUse="Assessment"`, `inLanguage="en"`, `isAccessibleForFree=true`, `offers` (free INR 0), `educationalAlignment` (CBSE framework), `assesses` (4 core pillar topics), and `hasPart` containing authentic NCERT `Question` and `Answer` objects with full explanations.
+    - **`LearningResource`:** Enriched with `teaches`, `assesses`, `timeRequired="PT45M"`, and `educationalUse`.
+  - Injected corresponding visible **`📝 Sample Board Examination Problems & Official Solutions`** UI cards into each page's `<section class="cbt-academic-guide">` with interactive `<details>` solution accordions, satisfying Google Search Central's strict Content Visibility rule.
+  - Audited with `seo-toolkit/scripts/validate_schema.py`: **55 files inspected, 158 schema entities, 0 deprecated types, 0 errors**.
+  - Bumped service worker cache to `mtv-cbt-v28`.
+
+
 

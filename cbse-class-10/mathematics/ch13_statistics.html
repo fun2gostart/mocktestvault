@@ -28,60 +28,204 @@
   
   <link rel="stylesheet" href="../../css/test-engine.css">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
-    "name": "CBSE Class 10 Mathematics Chapter 13: Statistics MCQ Test",
-    "educationalLevel": "Grade 10",
-    "learningResourceType": "Practice Quiz",
-    "about": {
-      "@type": "Thing",
-      "name": "Statistics"
-    },
-    "provider": {
-      "@type": "Organization",
-      "name": "MockTestVault",
-      "url": "https://mocktestvault.com"
-    }
-  }
-  </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-
-  <!-- Schema.org BreadcrumbList Structured Data -->
+    <!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz with Practice Problems, LearningResource) -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
+  "@graph": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://mocktestvault.com/"
+      "@type": "BreadcrumbList",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch13_statistics.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mocktestvault.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CBSE Class 10",
+          "item": "https://mocktestvault.com/cbse-class-10/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mathematics",
+          "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ch 13: Statistics",
+          "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch13_statistics.html"
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "CBSE Class 10",
-      "item": "https://mocktestvault.com/cbse-class-10/"
+      "@type": "Quiz",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch13_statistics.html#quiz",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch13_statistics.html",
+      "name": "CBSE Class 10 Mathematics (Statistics) Chapter 13: Statistics MCQ Practice Test",
+      "description": "Official CBSE Class 10 Board exam practice test for Chapter 13: Statistics with timer, negative marking options, and step-by-step NCERT solutions.",
+      "educationalLevel": "Grade 10",
+      "learningResourceType": "Practice Quiz",
+      "educationalUse": "Assessment",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Chapter 13: Statistics"
+      },
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Mathematics (Statistics)"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalLevel",
+          "targetName": "Class 10"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "academicFramework",
+          "targetName": "Central Board of Secondary Education (CBSE)"
+        }
+      ],
+      "assesses": [
+        "Mean of Grouped Data (x̄)",
+        "Mode of Grouped Data",
+        "Median of Grouped Data",
+        "Empirical Central Tendency Relation"
+      ],
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "What is the class mark of the class interval 25 - 40?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "30"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "35"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "15"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "32.5"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "32.5",
+            "comment": {
+              "@type": "Comment",
+              "text": "In statistics, the class mark (also known as the mid-point or class midpoint $) represents the central value of a class interval. It is mathematically defined as the arithmetic mean of the upper and lower limits of the interval: $\text{Class mark } x_i = \frac{\text{Upper class limit} + \text{Lower class limit}}{2}$. For the given interval  - 40$, the lower limit is $ and the upper limit is $. Substituting these values gives: $\text{Class mark} = \frac{40 + 25}{2} = \frac{65}{2} = 32.5$, which serves as the representative value in mean calculations."
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the empirical relationship between the three measures of central tendency?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "Mode = 2 Median - 3 Mean"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "Mode = 3 Median - 2 Mean"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "Mode = 3 Mean - 2 Median"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "Median = 3 Mode - 2 Mean"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mode = 3 Median - 2 Mean",
+            "comment": {
+              "@type": "Comment",
+              "text": "For moderately asymmetrical (skewed) frequency distributions, English statistician Karl Pearson established the fundamental empirical relationship connecting the three measures of central tendency: $\text{Mode} = 3\text{Median} - 2\text{Mean}$, which can also be rearranged algebraically as \text{Median} = \text{Mode} + 2\text{Mean}$ or $\text{Mean} - \text{Mode} = 3(\text{Mean} - \text{Median})$. In perfectly symmetrical distributions, all three measures coincide ($\text{Mean} = \text{Median} = \text{Mode}$), while skewness pulls the mean furthest into the long tail."
+            }
+          }
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Mathematics",
-      "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Ch 13: Statistics",
-      "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch13_statistics.html"
+      "@type": "LearningResource",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch13_statistics.html#learningresource",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch13_statistics.html",
+      "name": "CBSE Class 10 Mathematics (Statistics) Chapter 13: Statistics Blueprint & Study Guide",
+      "description": "Measures of central tendency for grouped data: Mean (Direct Method, Assumed Mean Method), Mode of grouped frequency distributions, Median using cumulative frequency, and empirical formula.",
+      "educationalLevel": "Class 10",
+      "learningResourceType": "Study Guide",
+      "educationalUse": [
+        "practice",
+        "assessment",
+        "study-guide"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "timeRequired": "PT45M",
+      "teaches": [
+        "Mean of Grouped Data (x̄)",
+        "Mode of Grouped Data",
+        "Median of Grouped Data",
+        "Empirical Central Tendency Relation"
+      ],
+      "assesses": [
+        "Mean of Grouped Data (x̄)",
+        "Mode of Grouped Data",
+        "Median of Grouped Data",
+        "Empirical Central Tendency Relation"
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      }
     }
   ]
 }
   </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
 </head>
 <body>
 
@@ -350,6 +494,56 @@
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">⚖️ Empirical Central Tendency Relation</strong>
         <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">Empirical formula connecting the three measures: 3 Median = Mode + 2 Mean (or Mode = 3 Median - 2 Mean). Frequently tested in 1-mark board questions.</span>
+      </div>
+    </div>
+
+    
+    <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
+    <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
+      <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
+        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+      </h3>
+      <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q1 (Class Mark):</strong> What is the class mark of the class interval 25 - 40?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> 30</li>
+          <li><strong>(B)</strong> 35</li>
+          <li><strong>(C)</strong> 15</li>
+          <li><strong>(D)</strong> 32.5</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (D) — 32.5</p>
+            <p style="margin:0;"><strong>Explanation:</strong> In statistics, the class mark (also known as the mid-point or class midpoint $) represents the central value of a class interval. It is mathematically defined as the arithmetic mean of the upper and lower limits of the interval: $\text{Class mark } x_i = \frac{\text{Upper class limit} + \text{Lower class limit}}{2}$. For the given interval  - 40$, the lower limit is $ and the upper limit is $. Substituting these values gives: $\text{Class mark} = \frac{40 + 25}{2} = \frac{65}{2} = 32.5$, which serves as the representative value in mean calculations.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2</p>
+          </div>
+        </details>
+      </div>
+      <div style="">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q2 (Empirical Relationship):</strong> What is the empirical relationship between the three measures of central tendency?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> Mode = 2 Median - 3 Mean</li>
+          <li><strong>(B)</strong> Mode = 3 Median - 2 Mean</li>
+          <li><strong>(C)</strong> Mode = 3 Mean - 2 Median</li>
+          <li><strong>(D)</strong> Median = 3 Mode - 2 Mean</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (B) — Mode = 3 Median - 2 Mean</p>
+            <p style="margin:0;"><strong>Explanation:</strong> For moderately asymmetrical (skewed) frequency distributions, English statistician Karl Pearson established the fundamental empirical relationship connecting the three measures of central tendency: $\text{Mode} = 3\text{Median} - 2\text{Mean}$, which can also be rearranged algebraically as \text{Median} = \text{Mode} + 2\text{Mean}$ or $\text{Mean} - \text{Mode} = 3(\text{Mean} - \text{Median})$. In perfectly symmetrical distributions, all three measures coincide ($\text{Mean} = \text{Median} = \text{Mode}$), while skewness pulls the mean furthest into the long tail.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4</p>
+          </div>
+        </details>
       </div>
     </div>
 

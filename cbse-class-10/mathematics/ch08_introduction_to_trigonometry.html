@@ -28,60 +28,204 @@
   
   <link rel="stylesheet" href="../../css/test-engine.css">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
-    "name": "CBSE Class 10 Mathematics Chapter 8: Introduction to Trigonometry MCQ Test",
-    "educationalLevel": "Grade 10",
-    "learningResourceType": "Practice Quiz",
-    "about": {
-      "@type": "Thing",
-      "name": "Introduction to Trigonometry"
-    },
-    "provider": {
-      "@type": "Organization",
-      "name": "MockTestVault",
-      "url": "https://mocktestvault.com"
-    }
-  }
-  </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-
-  <!-- Schema.org BreadcrumbList Structured Data -->
+    <!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz with Practice Problems, LearningResource) -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
+  "@graph": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://mocktestvault.com/"
+      "@type": "BreadcrumbList",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch08_introduction_to_trigonometry.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mocktestvault.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CBSE Class 10",
+          "item": "https://mocktestvault.com/cbse-class-10/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mathematics",
+          "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ch 8: Introduction to Trigonometry",
+          "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch08_introduction_to_trigonometry.html"
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "CBSE Class 10",
-      "item": "https://mocktestvault.com/cbse-class-10/"
+      "@type": "Quiz",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch08_introduction_to_trigonometry.html#quiz",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch08_introduction_to_trigonometry.html",
+      "name": "CBSE Class 10 Mathematics (Trigonometry) Chapter 8: Introduction to Trigonometry MCQ Practice Test",
+      "description": "Official CBSE Class 10 Board exam practice test for Chapter 8: Introduction to Trigonometry with timer, negative marking options, and step-by-step NCERT solutions.",
+      "educationalLevel": "Grade 10",
+      "learningResourceType": "Practice Quiz",
+      "educationalUse": "Assessment",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Chapter 8: Introduction to Trigonometry"
+      },
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Mathematics (Trigonometry)"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalLevel",
+          "targetName": "Class 10"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "academicFramework",
+          "targetName": "Central Board of Secondary Education (CBSE)"
+        }
+      ],
+      "assesses": [
+        "Trigonometric Ratios (SOH CAH TOA)",
+        "Standard Angle Table Values",
+        "Fundamental Pythagorean Identities",
+        "Algebraic Identity Manipulations"
+      ],
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "What is the numerical value of (sin 30 deg + cos 60 deg)?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "1/2"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "sqrt(3)"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "0"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "1"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1",
+            "comment": {
+              "@type": "Comment",
+              "text": "Recall the standard exact values of trigonometric ratios for special angles: sin(30°) = 1/2 and cos(60°) = 1/2. We need to evaluate: sin(30°) + cos(60°). Substituting the numerical values: sin(30°) + cos(60°) = 1/2 + 1/2 = 2/2 = 1. Alternatively, using the complementary angle relationship cos(60°) = sin(90° - 60°) = sin(30°), the expression equals 2·sin(30°) = 2(1/2) = 1. (NCERT Class 10 Mathematics Chapter 8, Section 8.3)."
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which of the following identities is correct for all acute angles theta?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "1 + tan^2(theta) = sec^2(theta)"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "1 + cot^2(theta) = sec^2(theta)"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "sin^2(theta) - cos^2(theta) = 1"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "tan^2(theta) - 1 = sec^2(theta)"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1 + tan^2(theta) = sec^2(theta)",
+            "comment": {
+              "@type": "Comment",
+              "text": "The three fundamental Pythagorean identities are: (1) sin^2(theta) + cos^2(theta) = 1, (2) 1 + tan^2(theta) = sec^2(theta), and (3) 1 + cot^2(theta) = cosec^2(theta)."
+            }
+          }
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Mathematics",
-      "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Ch 8: Introduction to Trigonometry",
-      "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch08_introduction_to_trigonometry.html"
+      "@type": "LearningResource",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch08_introduction_to_trigonometry.html#learningresource",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch08_introduction_to_trigonometry.html",
+      "name": "CBSE Class 10 Mathematics (Trigonometry) Chapter 8: Introduction to Trigonometry Blueprint & Study Guide",
+      "description": "Trigonometric ratios of acute angles in right-angled triangles, values of ratios for standard angles (0°, 30°, 45°, 60°, 90°), reciprocal and quotient relations, and fundamental Pythagorean trigonometric identities.",
+      "educationalLevel": "Class 10",
+      "learningResourceType": "Study Guide",
+      "educationalUse": [
+        "practice",
+        "assessment",
+        "study-guide"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "timeRequired": "PT45M",
+      "teaches": [
+        "Trigonometric Ratios (SOH CAH TOA)",
+        "Standard Angle Table Values",
+        "Fundamental Pythagorean Identities",
+        "Algebraic Identity Manipulations"
+      ],
+      "assesses": [
+        "Trigonometric Ratios (SOH CAH TOA)",
+        "Standard Angle Table Values",
+        "Fundamental Pythagorean Identities",
+        "Algebraic Identity Manipulations"
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      }
     }
   ]
 }
   </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
 </head>
 <body>
 
@@ -350,6 +494,56 @@
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">🔧 Algebraic Identity Manipulations</strong>
         <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">Important relations: (sec θ - tan θ)(sec θ + tan θ) = 1 ⇒ sec θ - tan θ = 1 / (sec θ + tan θ). Similar relation holds for (cosec θ - cot θ).</span>
+      </div>
+    </div>
+
+    
+    <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
+    <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
+      <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
+        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+      </h3>
+      <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q1 (Evaluation of Standard Table Values):</strong> What is the numerical value of (sin 30 deg + cos 60 deg)?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> 1/2</li>
+          <li><strong>(B)</strong> sqrt(3)</li>
+          <li><strong>(C)</strong> 0</li>
+          <li><strong>(D)</strong> 1</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (D) — 1</p>
+            <p style="margin:0;"><strong>Explanation:</strong> Recall the standard exact values of trigonometric ratios for special angles: sin(30°) = 1/2 and cos(60°) = 1/2. We need to evaluate: sin(30°) + cos(60°). Substituting the numerical values: sin(30°) + cos(60°) = 1/2 + 1/2 = 2/2 = 1. Alternatively, using the complementary angle relationship cos(60°) = sin(90° - 60°) = sin(30°), the expression equals 2·sin(30°) = 2(1/2) = 1. (NCERT Class 10 Mathematics Chapter 8, Section 8.3).</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 8, Section 8.3, Table 8.1</p>
+          </div>
+        </details>
+      </div>
+      <div style="">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q2 (Fundamental Pythagorean Identity):</strong> Which of the following identities is correct for all acute angles theta?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> 1 + tan^2(theta) = sec^2(theta)</li>
+          <li><strong>(B)</strong> 1 + cot^2(theta) = sec^2(theta)</li>
+          <li><strong>(C)</strong> sin^2(theta) - cos^2(theta) = 1</li>
+          <li><strong>(D)</strong> tan^2(theta) - 1 = sec^2(theta)</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (A) — 1 + tan^2(theta) = sec^2(theta)</p>
+            <p style="margin:0;"><strong>Explanation:</strong> The three fundamental Pythagorean identities are: (1) sin^2(theta) + cos^2(theta) = 1, (2) 1 + tan^2(theta) = sec^2(theta), and (3) 1 + cot^2(theta) = cosec^2(theta).</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 8, Section 8.4</p>
+          </div>
+        </details>
       </div>
     </div>
 

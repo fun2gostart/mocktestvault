@@ -28,60 +28,204 @@
   
   <link rel="stylesheet" href="../../css/test-engine.css">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
-    "name": "CBSE Class 10 Mathematics Chapter 3: Pair of Linear Equations in Two Variables MCQ Test",
-    "educationalLevel": "Grade 10",
-    "learningResourceType": "Practice Quiz",
-    "about": {
-      "@type": "Thing",
-      "name": "Pair of Linear Equations in Two Variables"
-    },
-    "provider": {
-      "@type": "Organization",
-      "name": "MockTestVault",
-      "url": "https://mocktestvault.com"
-    }
-  }
-  </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-
-  <!-- Schema.org BreadcrumbList Structured Data -->
+    <!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz with Practice Problems, LearningResource) -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
+  "@graph": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://mocktestvault.com/"
+      "@type": "BreadcrumbList",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch03_linear_equations_two_variables.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mocktestvault.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CBSE Class 10",
+          "item": "https://mocktestvault.com/cbse-class-10/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mathematics",
+          "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ch 3: Pair of Linear Equations in Two Variables",
+          "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch03_linear_equations_two_variables.html"
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "CBSE Class 10",
-      "item": "https://mocktestvault.com/cbse-class-10/"
+      "@type": "Quiz",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch03_linear_equations_two_variables.html#quiz",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch03_linear_equations_two_variables.html",
+      "name": "CBSE Class 10 Mathematics (Algebra) Chapter 3: Pair of Linear Equations in Two Variables MCQ Practice Test",
+      "description": "Official CBSE Class 10 Board exam practice test for Chapter 3: Pair of Linear Equations in Two Variables with timer, negative marking options, and step-by-step NCERT solutions.",
+      "educationalLevel": "Grade 10",
+      "learningResourceType": "Practice Quiz",
+      "educationalUse": "Assessment",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Chapter 3: Pair of Linear Equations in Two Variables"
+      },
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Mathematics (Algebra)"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalLevel",
+          "targetName": "Class 10"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "academicFramework",
+          "targetName": "Central Board of Secondary Education (CBSE)"
+        }
+      ],
+      "assesses": [
+        "Unique Solution (Intersecting Lines)",
+        "Infinitely Many Solutions (Coincident Lines)",
+        "No Solution (Parallel Lines)",
+        "Algebraic Solution Techniques"
+      ],
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "If the pair of linear equations a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0 represents two lines that intersect at a single point, which algebraic condition must hold true?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "a1 / a2 = b1 / b2 = c1 / c2"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "a1 / a2 = b1 / b2 != c1 / c2"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "a1 * a2 = b1 * b2"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "a1 / a2 != b1 / b2"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "a1 / a2 != b1 / b2",
+            "comment": {
+              "@type": "Comment",
+              "text": "For a system of two linear equations in two variables, a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0, the two straight lines intersect at exactly one unique point if and only if their slopes are distinct. In algebraic coefficient form, this geometric condition corresponds to a1 / a2 != b1 / b2. When this inequality is satisfied, the system possesses a single unique solution (x, y) given by Cramer's rule, and the pair of equations is classified as mathematically consistent and independent."
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A pair of linear equations in two variables has NO solution if their graph consists of two parallel lines. What is the algebraic ratio condition for this case?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "a1 / a2 != b1 / b2"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "a1 / a2 = b1 / b2 != c1 / c2"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "a1 / a2 = b1 / b2 = c1 / c2"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "a1 * b2 + a2 * b1 = 0"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "a1 / a2 = b1 / b2 != c1 / c2",
+            "comment": {
+              "@type": "Comment",
+              "text": "A pair of linear equations in two variables has NO solution if their geometric graphs represent two distinct parallel straight lines that never intersect, no matter how far they are extended in either direction. Algebraically, this occurs when the lines share identical slopes but possess different y-intercepts, yielding the ratio condition: a1 / a2 = b1 / b2 != c1 / c2. Because there is no common coordinate pair (x, y) satisfying both equations simultaneously, the system is termed inconsistent."
+            }
+          }
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Mathematics",
-      "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Ch 3: Pair of Linear Equations in Two Variables",
-      "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch03_linear_equations_two_variables.html"
+      "@type": "LearningResource",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch03_linear_equations_two_variables.html#learningresource",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch03_linear_equations_two_variables.html",
+      "name": "CBSE Class 10 Mathematics (Algebra) Chapter 3: Pair of Linear Equations in Two Variables Blueprint & Study Guide",
+      "description": "Analysis of simultaneous linear equations a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 using graphical methods, algebraic consistency conditions, substitution, and elimination techniques.",
+      "educationalLevel": "Class 10",
+      "learningResourceType": "Study Guide",
+      "educationalUse": [
+        "practice",
+        "assessment",
+        "study-guide"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "timeRequired": "PT45M",
+      "teaches": [
+        "Unique Solution (Intersecting Lines)",
+        "Infinitely Many Solutions (Coincident Lines)",
+        "No Solution (Parallel Lines)",
+        "Algebraic Solution Techniques"
+      ],
+      "assesses": [
+        "Unique Solution (Intersecting Lines)",
+        "Infinitely Many Solutions (Coincident Lines)",
+        "No Solution (Parallel Lines)",
+        "Algebraic Solution Techniques"
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      }
     }
   ]
 }
   </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
 </head>
 <body>
 
@@ -350,6 +494,56 @@
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">🛠️ Algebraic Solution Techniques</strong>
         <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">Substitution method (express y in terms of x and substitute into second equation) and Elimination method (multiply equations by constants to cancel one variable).</span>
+      </div>
+    </div>
+
+    
+    <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
+    <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
+      <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
+        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+      </h3>
+      <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q1 (Consistency: Unique Solution Condition):</strong> If the pair of linear equations a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0 represents two lines that intersect at a single point, which algebraic condition must hold true?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> a1 / a2 = b1 / b2 = c1 / c2</li>
+          <li><strong>(B)</strong> a1 / a2 = b1 / b2 != c1 / c2</li>
+          <li><strong>(C)</strong> a1 * a2 = b1 * b2</li>
+          <li><strong>(D)</strong> a1 / a2 != b1 / b2</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (D) — a1 / a2 != b1 / b2</p>
+            <p style="margin:0;"><strong>Explanation:</strong> For a system of two linear equations in two variables, a1*x + b1*y + c1 = 0 and a2*x + b2*y + c2 = 0, the two straight lines intersect at exactly one unique point if and only if their slopes are distinct. In algebraic coefficient form, this geometric condition corresponds to a1 / a2 != b1 / b2. When this inequality is satisfied, the system possesses a single unique solution (x, y) given by Cramer&#x27;s rule, and the pair of equations is classified as mathematically consistent and independent.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 3, Table 3.4</p>
+          </div>
+        </details>
+      </div>
+      <div style="">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q2 (Inconsistency: Parallel Lines Condition):</strong> A pair of linear equations in two variables has NO solution if their graph consists of two parallel lines. What is the algebraic ratio condition for this case?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> a1 / a2 != b1 / b2</li>
+          <li><strong>(B)</strong> a1 / a2 = b1 / b2 != c1 / c2</li>
+          <li><strong>(C)</strong> a1 / a2 = b1 / b2 = c1 / c2</li>
+          <li><strong>(D)</strong> a1 * b2 + a2 * b1 = 0</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (B) — a1 / a2 = b1 / b2 != c1 / c2</p>
+            <p style="margin:0;"><strong>Explanation:</strong> A pair of linear equations in two variables has NO solution if their geometric graphs represent two distinct parallel straight lines that never intersect, no matter how far they are extended in either direction. Algebraically, this occurs when the lines share identical slopes but possess different y-intercepts, yielding the ratio condition: a1 / a2 = b1 / b2 != c1 / c2. Because there is no common coordinate pair (x, y) satisfying both equations simultaneously, the system is termed inconsistent.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 3, Table 3.4</p>
+          </div>
+        </details>
       </div>
     </div>
 

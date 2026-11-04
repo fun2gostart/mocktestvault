@@ -28,60 +28,204 @@
   
   <link rel="stylesheet" href="../../css/test-engine.css">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
-    "name": "CBSE Class 10 Mathematics Chapter 2: Polynomials MCQ Test",
-    "educationalLevel": "Grade 10",
-    "learningResourceType": "Practice Quiz",
-    "about": {
-      "@type": "Thing",
-      "name": "Polynomials"
-    },
-    "provider": {
-      "@type": "Organization",
-      "name": "MockTestVault",
-      "url": "https://mocktestvault.com"
-    }
-  }
-  </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-
-  <!-- Schema.org BreadcrumbList Structured Data -->
+    <!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz with Practice Problems, LearningResource) -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
+  "@graph": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://mocktestvault.com/"
+      "@type": "BreadcrumbList",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch02_polynomials.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mocktestvault.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CBSE Class 10",
+          "item": "https://mocktestvault.com/cbse-class-10/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mathematics",
+          "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ch 2: Polynomials",
+          "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch02_polynomials.html"
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "CBSE Class 10",
-      "item": "https://mocktestvault.com/cbse-class-10/"
+      "@type": "Quiz",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch02_polynomials.html#quiz",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch02_polynomials.html",
+      "name": "CBSE Class 10 Mathematics (Algebra) Chapter 2: Polynomials MCQ Practice Test",
+      "description": "Official CBSE Class 10 Board exam practice test for Chapter 2: Polynomials with timer, negative marking options, and step-by-step NCERT solutions.",
+      "educationalLevel": "Grade 10",
+      "learningResourceType": "Practice Quiz",
+      "educationalUse": "Assessment",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Chapter 2: Polynomials"
+      },
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Mathematics (Algebra)"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalLevel",
+          "targetName": "Class 10"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "academicFramework",
+          "targetName": "Central Board of Secondary Education (CBSE)"
+        }
+      ],
+      "assesses": [
+        "Geometrical Meaning of Zeroes",
+        "Quadratic Roots & Coefficients",
+        "Constructing Quadratic Polynomials",
+        "Higher Symmetric Root Identities"
+      ],
+      "hasPart": [
+        {
+          "@type": "Question",
+          "name": "If alpha and beta are the zeroes of the quadratic polynomial p(x) = x^2 - 2x - 8, what are the sum (alpha + beta) and product (alpha * beta) of its zeroes?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "Sum = 2, Product = -8"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "Sum = -2, Product = 8"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "Sum = -2, Product = -8"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "Sum = 8, Product = 2"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sum = 2, Product = -8",
+            "comment": {
+              "@type": "Comment",
+              "text": "For any standard quadratic polynomial p(x) = ax^2 + bx + c with zeroes alpha and beta, the fundamental relationships between zeroes and coefficients state: Sum of zeroes (alpha + beta) = -b/a, and Product of zeroes (alpha * beta) = c/a. In p(x) = x^2 - 2x - 8, coefficients are a = 1, b = -2, and c = -8. Applying the formulas: Sum = -(-2)/1 = 2, and Product = -8/1 = -8. To cross-verify by factorisation: x^2 - 4x + 2x - 8 = (x - 4)(x + 2) = 0 gives zeroes 4 and -2. Sum: 4 + (-2) = 2; Product: 4 * (-2) = -8."
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the quadratic polynomial whose sum of zeroes is -3 and product of zeroes is 2?",
+          "eduQuestionType": "Multiple choice",
+          "learningResourceType": "Practice problem",
+          "suggestedAnswer": [
+            {
+              "@type": "Answer",
+              "position": 0,
+              "text": "x^2 - 3x + 2"
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "text": "x^2 + 3x - 2"
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "text": "x^2 - 3x - 2"
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "text": "x^2 + 3x + 2"
+            }
+          ],
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "x^2 + 3x + 2",
+            "comment": {
+              "@type": "Comment",
+              "text": "Per NCERT Class 10 Chapter 2, a quadratic polynomial with a given sum (S) and product (P) of zeroes is expressed as k[x^2 - Sx + P], where k is any non-zero real constant. Here, we are given Sum (S) = -3 and Product (P) = 2. Substituting these values into the polynomial form: p(x) = k[x^2 - (-3)x + 2] = k(x^2 + 3x + 2). Taking the simplest non-zero real constant k = 1 yields the standard quadratic polynomial x^2 + 3x + 2. Factoring (x + 1)(x + 2) = 0 confirms zeroes are -1 and -2, whose sum is -3 and product is 2."
+            }
+          }
+        }
+      ]
     },
     {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Mathematics",
-      "item": "https://mocktestvault.com/cbse-class-10/index.html#block-mathematics"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Ch 2: Polynomials",
-      "item": "https://mocktestvault.com/cbse-class-10/mathematics/ch02_polynomials.html"
+      "@type": "LearningResource",
+      "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch02_polynomials.html#learningresource",
+      "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch02_polynomials.html",
+      "name": "CBSE Class 10 Mathematics (Algebra) Chapter 2: Polynomials Blueprint & Study Guide",
+      "description": "Covers linear, quadratic, and cubic polynomials, geometrical significance of zeroes from Cartesian graphs, and the algebraic relationship between the coefficients and roots of a quadratic polynomial.",
+      "educationalLevel": "Class 10",
+      "learningResourceType": "Study Guide",
+      "educationalUse": [
+        "practice",
+        "assessment",
+        "study-guide"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "timeRequired": "PT45M",
+      "teaches": [
+        "Geometrical Meaning of Zeroes",
+        "Quadratic Roots & Coefficients",
+        "Constructing Quadratic Polynomials",
+        "Higher Symmetric Root Identities"
+      ],
+      "assesses": [
+        "Geometrical Meaning of Zeroes",
+        "Quadratic Roots & Coefficients",
+        "Constructing Quadratic Polynomials",
+        "Higher Symmetric Root Identities"
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com"
+      }
     }
   ]
 }
   </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
 </head>
 <body>
 
@@ -350,6 +494,56 @@
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">🔄 Higher Symmetric Root Identities</strong>
         <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">Frequently tested algebraic expansions: α² + β² = (α + β)² - 2αβ; 1/α + 1/β = (α + β)/(αβ); and α³ + β³ = (α + β)³ - 3αβ(α + β).</span>
+      </div>
+    </div>
+
+    
+    <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
+    <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
+      <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
+        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+      </h3>
+      <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q1 (Relationship between Zeroes and Coefficients):</strong> If alpha and beta are the zeroes of the quadratic polynomial p(x) = x^2 - 2x - 8, what are the sum (alpha + beta) and product (alpha * beta) of its zeroes?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> Sum = 2, Product = -8</li>
+          <li><strong>(B)</strong> Sum = -2, Product = 8</li>
+          <li><strong>(C)</strong> Sum = -2, Product = -8</li>
+          <li><strong>(D)</strong> Sum = 8, Product = 2</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (A) — Sum = 2, Product = -8</p>
+            <p style="margin:0;"><strong>Explanation:</strong> For any standard quadratic polynomial p(x) = ax^2 + bx + c with zeroes alpha and beta, the fundamental relationships between zeroes and coefficients state: Sum of zeroes (alpha + beta) = -b/a, and Product of zeroes (alpha * beta) = c/a. In p(x) = x^2 - 2x - 8, coefficients are a = 1, b = -2, and c = -8. Applying the formulas: Sum = -(-2)/1 = 2, and Product = -8/1 = -8. To cross-verify by factorisation: x^2 - 4x + 2x - 8 = (x - 4)(x + 2) = 0 gives zeroes 4 and -2. Sum: 4 + (-2) = 2; Product: 4 * (-2) = -8.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 2, Section 2.3</p>
+          </div>
+        </details>
+      </div>
+      <div style="">
+        <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
+          <strong>Q2 (Formation of Quadratic Polynomial):</strong> What is the quadratic polynomial whose sum of zeroes is -3 and product of zeroes is 2?
+        </p>
+        <ul style="margin:0 0 10px 20px; padding:0; font-size:0.85rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>(A)</strong> x^2 - 3x + 2</li>
+          <li><strong>(B)</strong> x^2 + 3x - 2</li>
+          <li><strong>(C)</strong> x^2 - 3x - 2</li>
+          <li><strong>(D)</strong> x^2 + 3x + 2</li>
+        </ul>
+        <details style="background:var(--bg-subtle); border-radius:6px; padding:8px 12px; font-size:0.82rem; cursor:pointer;">
+          <summary style="font-weight:600; color:var(--primary);">
+            🔍 View Correct Answer &amp; Step-by-Step Marking Explanation
+          </summary>
+          <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
+            <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (D) — x^2 + 3x + 2</p>
+            <p style="margin:0;"><strong>Explanation:</strong> Per NCERT Class 10 Chapter 2, a quadratic polynomial with a given sum (S) and product (P) of zeroes is expressed as k[x^2 - Sx + P], where k is any non-zero real constant. Here, we are given Sum (S) = -3 and Product (P) = 2. Substituting these values into the polynomial form: p(x) = k[x^2 - (-3)x + 2] = k(x^2 + 3x + 2). Taking the simplest non-zero real constant k = 1 yields the standard quadratic polynomial x^2 + 3x + 2. Factoring (x + 1)(x + 2) = 0 confirms zeroes are -1 and -2, whose sum is -3 and product is 2.</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 2, Section 2.3</p>
+          </div>
+        </details>
       </div>
     </div>
 
