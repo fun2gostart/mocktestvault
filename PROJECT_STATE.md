@@ -634,15 +634,25 @@ Following user directive ("keep font and colour as it is from https://mocktestva
   - **UI/UX Progress Banner Relocation ([`js/homepage.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/homepage.js) & [`css/homepage.css`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/css/homepage.css)):** Repositioned the dynamic `localStorage` progress card from the top of the body/hero to immediately beneath the `"Select Your Target Test"` / `"Select Your Examination Track"` heading (`#tracks .section-head` / `#catalog .section-head`), centered with 800px max-width, matching the catalog typography.
   - Bumped service worker cache to `mtv-cbt-v36`.
 
-### 24. SEO & AdSense Audit Reconciliation & Progress Badge Formatting
-* **Objective:** Address external SEO & website quality audit findings, reconcile question/simulator statistics across hubs, eliminate AdSense policy contradictions, calibrate TCS iON descriptions, and format student progress stats.
+### 24. SEO & AdSense Audit Reconciliation & Calibration
+* **Objective:** Address updated SEO, Google spam-risk, and AdSense audit findings across all regional hubs and legal pages.
 * **Deliverables:**
-  - **Reconciliation of Counts ([`index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/index.html)):** Updated global statistics from `3,000+` to `6,400+` verified curriculum questions and `60+` full simulators & sectional drills to match actual published platform inventory.
-  - **AdSense Policy Alignment ([`index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/index.html)):** Replaced the absolute claim *"100% free of advertising banners, video interstitials, and sponsored trackers"* with *"Zero disruptive advertisements during active examinations, zero video popups, and zero countdown paywalls"* to prevent automatic rejection during AdSense publisher review while preserving the non-intrusive student promise.
-  - **Trademark & Interface Calibration ([`index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/index.html)):** Softened *"Exact TCS iON / Prometric CBT Layout"* to *"Faithful TCS iON / Prometric CBT Layout"*.
-  - **SSC CGL FAQ & Schema Calibration ([`in/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/in/index.html)):** Corrected claim from `15 full 100-question TCS iON mock simulators` to `5 full 100-question TCS iON-style mock simulators and 2023 official shift PYQs, plus 9 sectional speed drills`.
-  - **Progress Card Text Alignment ([`js/homepage.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/homepage.js)):** Added explicit inline-flex wrappers with locks and clean spacing to prevent `0%All progress` text collision on narrower viewports.
-  - Bumped service worker cache to `mtv-cbt-v37` in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js).
+  - **Reconciliation of Exact Inventory Counts:**
+    - Top stats: calibrated to `5,000+` verified curriculum questions across all data banks.
+    - India Pillar: `3,940+` questions across CBSE Class 10 (2,880 Qs), SSC CGL (1,025 Qs), and solved board papers.
+    - US Pillar: `500` questions across SAT Math/Reading (200 Qs) and AP Calculus/Physics/US History (300 Qs).
+    - Global Pillar: `510` questions across IELTS/TOEFL (120 Qs), GRE/GMAT (120 Qs), and AWS/IB (270 Qs).
+    - About Page: updated to `5,000+ Ground-Truth Verified Questions`.
+  - **AdSense Disclosure Precision ([`privacy.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/privacy.html), [`disclaimer.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/disclaimer.html), [`terms.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/terms.html)):**
+    - Clarified that the platform is designed to be supported by non-intrusive advertisements served by Google AdSense and vetted partners upon deployment, preventing premature partnership claims while preserving complete transparency.
+  - **Standardized Exam Specification Calibrations:**
+    - Digital SAT: Replaced "Official 1600-Scale Scoring" with "Calibrated 1600-Scale Conversion" and clarified that 20-Q / 32-min sets are skill-building progressive modules aligned with College Board domains.
+    - TOEFL iBT: Clarified in Schema and HTML FAQs that modules cover the classic 35-min academic reading format while noting ETS's 2026 scoring scale transition.
+    - CBSE Class 10 SQPs: Labeled papers as "80 Objective Items / 80 Theory Marks" mapped against the syllabus coverage to distinguish from physical 39-question board papers.
+  - **Trademark & Marketing Copy Softening:**
+    - Replaced "Authentic Cambridge" with "Original IELTS-style academic reading passages".
+    - Replaced "NCERT statutory textbooks" with "official NCERT curriculum textbooks".
+  - Bumped service worker cache to `mtv-cbt-v38` in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js).
 
 
 
