@@ -625,6 +625,15 @@ Following user directive ("keep font and colour as it is from https://mocktestva
     - Updated [`llms.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/llms.txt) with priority `0.90` guide entries.
     - Bumped service worker cache to `mtv-cbt-v34` in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js).
 
+### 23. Crawl Sanitization & Student Practice Progress Widget Repositioning
+* **Objective:** Address Google Search Console crawl stats 404s and reposition the client-side student progress tracker from the page top to contextual placement adjacent to examination catalogs.
+* **Deliverables:**
+  - **Crawl Sanitization ([`js/test-engine.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/test-engine.js)):** Removed unslashed default fallback `data/in/cbse10/science_ch01_chemical_reactions_set1.json` which caused Googlebot's static link extractor to generate invalid nested relative URLs.
+  - **Crawl Guard ([`robots.txt`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/robots.txt)):** Added `Disallow: /*/data/` while keeping root `Allow: /data/`.
+  - **Server Auto-Healing ([`.htaccess`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/.htaccess)):** Added 301 rewrite rule `RewriteRule ^.+/(data/.*)$ /$1 [R=301,L]` redirecting any nested relative data requests to the canonical root path.
+  - **UI/UX Progress Banner Relocation ([`js/homepage.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/homepage.js) & [`css/homepage.css`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/css/homepage.css)):** Repositioned the dynamic `localStorage` progress card from the top of the body/hero to immediately beneath the `"Select Your Target Test"` / `"Select Your Examination Track"` heading (`#tracks .section-head` / `#catalog .section-head`), centered with 800px max-width, matching the catalog typography.
+  - Bumped service worker cache to `mtv-cbt-v36`.
+
 
 
 

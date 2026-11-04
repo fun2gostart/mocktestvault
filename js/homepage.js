@@ -444,9 +444,23 @@ document.addEventListener('DOMContentLoaded', () => {
           banner = document.createElement('div');
           banner.id = 'student-progress-banner';
           banner.className = 'student-progress-banner';
-          const targetParent = document.querySelector('.curriculum-catalog') || document.querySelector('.catalog-section') || document.querySelector('main') || document.body;
-          if (targetParent) {
-            targetParent.insertBefore(banner, targetParent.firstChild);
+
+          // Position next to the "Select Your Target Test" section, right below the section-head
+          const sectionHead = document.querySelector('#tracks .section-head') ||
+                              document.querySelector('#catalog .section-head') ||
+                              document.querySelector('.section-head');
+          const cardsGrid = document.querySelector('.exam-cards-grid') ||
+                            document.querySelector('.track-grid') ||
+                            document.querySelector('.chapter-grid') ||
+                            document.querySelector('.sqp-grid');
+
+          if (sectionHead && sectionHead.parentNode) {
+            sectionHead.parentNode.insertBefore(banner, sectionHead.nextSibling);
+          } else if (cardsGrid && cardsGrid.parentNode) {
+            cardsGrid.parentNode.insertBefore(banner, cardsGrid);
+          } else {
+            const fallback = document.querySelector('main') || document.querySelector('.home-container');
+            if (fallback) fallback.appendChild(banner);
           }
         }
 
