@@ -478,8 +478,14 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="student-progress-bar-fill" style="width: ${Math.max(completionPct, 4)}%;"></div>
           </div>
           <div class="student-progress-footer">
-            <span>Overall Average Accuracy: <strong style="color:var(--text-color);">${avgAccuracy}%</strong></span>
-            <span>All progress saved 100% locally in browser</span>
+            <span style="display:inline-flex; align-items:center; gap:6px;">
+              <span>Overall Average Accuracy:</span>
+              <strong style="color:var(--text-primary); font-weight:700;">${avgAccuracy}%</strong>
+            </span>
+            <span style="display:inline-flex; align-items:center; gap:6px; color:var(--text-muted);">
+              <span>🔒</span>
+              <span>All progress saved 100% locally in browser</span>
+            </span>
           </div>
         `;
       }

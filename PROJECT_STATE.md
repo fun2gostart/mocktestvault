@@ -634,6 +634,16 @@ Following user directive ("keep font and colour as it is from https://mocktestva
   - **UI/UX Progress Banner Relocation ([`js/homepage.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/homepage.js) & [`css/homepage.css`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/css/homepage.css)):** Repositioned the dynamic `localStorage` progress card from the top of the body/hero to immediately beneath the `"Select Your Target Test"` / `"Select Your Examination Track"` heading (`#tracks .section-head` / `#catalog .section-head`), centered with 800px max-width, matching the catalog typography.
   - Bumped service worker cache to `mtv-cbt-v36`.
 
+### 24. SEO & AdSense Audit Reconciliation & Progress Badge Formatting
+* **Objective:** Address external SEO & website quality audit findings, reconcile question/simulator statistics across hubs, eliminate AdSense policy contradictions, calibrate TCS iON descriptions, and format student progress stats.
+* **Deliverables:**
+  - **Reconciliation of Counts ([`index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/index.html)):** Updated global statistics from `3,000+` to `6,400+` verified curriculum questions and `60+` full simulators & sectional drills to match actual published platform inventory.
+  - **AdSense Policy Alignment ([`index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/index.html)):** Replaced the absolute claim *"100% free of advertising banners, video interstitials, and sponsored trackers"* with *"Zero disruptive advertisements during active examinations, zero video popups, and zero countdown paywalls"* to prevent automatic rejection during AdSense publisher review while preserving the non-intrusive student promise.
+  - **Trademark & Interface Calibration ([`index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/index.html)):** Softened *"Exact TCS iON / Prometric CBT Layout"* to *"Faithful TCS iON / Prometric CBT Layout"*.
+  - **SSC CGL FAQ & Schema Calibration ([`in/index.html`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/in/index.html)):** Corrected claim from `15 full 100-question TCS iON mock simulators` to `5 full 100-question TCS iON-style mock simulators and 2023 official shift PYQs, plus 9 sectional speed drills`.
+  - **Progress Card Text Alignment ([`js/homepage.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/js/homepage.js)):** Added explicit inline-flex wrappers with locks and clean spacing to prevent `0%All progress` text collision on narrower viewports.
+  - Bumped service worker cache to `mtv-cbt-v37` in [`sw.js`](file:///Users/swapneshmhatre/Desktop/Buywisehub_website/mocktestvault.com/sw.js).
+
 
 
 
