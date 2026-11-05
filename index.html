@@ -10,6 +10,7 @@
 
     gtag('config', 'G-05SFM1Q4MV');
   </script>
+  <script src="/js/consent.js" defer></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MockTestVault — Free CBT Mock Exam Simulator</title>
@@ -57,18 +58,37 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    "name": "MockTestVault",
-    "url": "https://mocktestvault.com",
-    "description": "Global zero-distraction computer-based mock exam platform providing authentic simulation for competitive and standardized tests.",
-    "sameAs": [
-      "https://github.com/fun2gostart/mocktestvault"
-    ],
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://mocktestvault.com/?search={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://mocktestvault.com/#website",
+        "url": "https://mocktestvault.com/",
+        "name": "MockTestVault",
+        "description": "Free Computer-Based Mock Exam Simulator for standardized tests, CBSE board exams, and competitive entrance tests.",
+        "publisher": {
+          "@id": "https://mocktestvault.com/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://mocktestvault.com/?search={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://mocktestvault.com/#organization",
+        "name": "MockTestVault",
+        "url": "https://mocktestvault.com/",
+        "logo": "https://mocktestvault.com/assets/icon-512.png",
+        "description": "Zero-distraction computer-based mock exam platform providing structured practice simulations for competitive and standardized tests.",
+        "sameAs": [
+          "https://github.com/fun2gostart/mocktestvault"
+        ]
+      }
+    ]
   }
   </script>
 
@@ -621,7 +641,9 @@
           <h4 class="footer-col-title">Platform & Trust</h4>
           <ul class="footer-links">
             <li><a href="about.html">About Us</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="privacy.html">Privacy Policy</a>
+      <span class="sep">•</span>
+      <a href="javascript:void(0)" class="open-cookie-preferences">Cookie Preferences</a></li>
             <li><a href="terms.html">Terms of Service</a></li>
             <li><a href="disclaimer.html">Academic Disclaimer</a></li>
             <li><a href="contact.html">Contact & Discrepancy Desk</a></li>

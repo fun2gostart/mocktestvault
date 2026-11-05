@@ -10,6 +10,7 @@
 
     gtag('config', 'G-05SFM1Q4MV');
   </script>
+  <script src="/js/consent.js" defer></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy | MockTestVault</title>
@@ -171,6 +172,7 @@
           <li><code>mtv_attempt_history</code>: Records your local examination score summaries (date, score, percentage, elapsed time) to render your self-study progression chart without cloud account sync.</li>
           <li><code>mtv_question_reports</code>: If you use the "Report Question / Suggest Correction" feature, your report text and optional email address are drafted and preserved exclusively on your device's local storage before opening your system email application. No automated background transmission takes place.</li>
           <li><code>mcv_contact_reports</code>: When submitting an academic discrepancy or support inquiry through our Contact Desk, a local archive of your submission summary is stored on your device's browser memory so you have a record of submitted reports. No automatic server database persistence occurs.</li>
+          <li><code>mtv_consent_choice</code>: Records your consent preference (<code>'accepted'</code> or <code>'essential'</code>) via our client-side consent manager, determining whether anonymous telemetry and marketing storage are enabled in Google Consent Mode v2.</li>
         </ul>
         <p>
           These keys reside exclusively within your local device browser sandbox and are never transmitted, synchronized, or uploaded to any remote server or third party. You can wipe these keys at any moment via your browser's "Clear Site Data" or "Clear Cookies & Cache" settings.
@@ -186,7 +188,8 @@
           <li><strong>Third-Party Advertising Vendors:</strong> Third-party vendors, including Google, use cookies to serve advertisements based on a user's prior visits to MockTestVault or other websites across the Internet.</li>
           <li><strong>Google Advertising Cookies:</strong> Google's use of advertising cookies enables it and its partners to serve personalized or contextual advertisements to users based on their visit to this site and other sites across the World Wide Web.</li>
           <li><strong>Personalized Ads Opt-Out:</strong> Users may opt out of personalized advertising by visiting Google's official privacy and advertising tools at: <br><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer"><strong>https://policies.google.com/technologies/ads</strong></a> and customizing their preferences at <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer"><strong>Google Ads Settings</strong></a>.</li>
-          <li><strong>European Economic Area (EEA), UK &amp; Swiss CMP Compliance:</strong> When personalized commercial advertising is activated for visitors located in the European Economic Area (EEA), the United Kingdom, or Switzerland, MockTestVault utilizes a Google-certified Consent Management Platform (CMP) integrated with the IAB Europe Transparency and Consent Framework (TCF v2.2) to collect and manage user consent for personalized ads and cookies. Prior to commercial ad serving, only essential operational state is maintained.</li>
+          <li><strong>In-Browser Consent Management &amp; Google Consent Mode v2:</strong> MockTestVault deploys an active, interactive consent banner and Google Consent Mode v2 interface on every page. Visitors can choose between "Essential Only" (which sets <code>analytics_storage</code>, <code>ad_storage</code>, and personalization to <code>denied</code>) and "Accept All". You can review or modify your consent settings at any time by clicking <a href="javascript:void(0)" class="open-cookie-preferences" style="color:var(--primary); font-weight:700;">Cookie Preferences</a>.</li>
+          <li><strong>Future Commercial Ad Serving &amp; IAB TCF CMP:</strong> When commercial Google AdSense advertising is deployed, MockTestVault will integrate a Google-certified Consent Management Platform (CMP) supporting the IAB Europe Transparency and Consent Framework (TCF v2.2) to govern European (EEA, UK, Switzerland) consent strings. Prior to commercial ad serving, only essential operational state is maintained.</li>
           <li><strong>Industry-Wide Consumer Choice Portals:</strong> You may also opt out of third-party interest-based advertising cookies across participating ad networks by visiting:
             <ul style="margin-top:6px; margin-bottom:6px; padding-left:18px;">
               <li>Digital Advertising Alliance (DAA): <a href="https://optout.aboutads.info/" target="_blank" rel="noopener noreferrer">https://optout.aboutads.info/</a></li>

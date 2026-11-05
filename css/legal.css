@@ -342,3 +342,79 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   Consent Management Platform (CMP) & Cookie Banner
+   ========================================================================== */
+#mtv-consent-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-surface, #ffffff);
+  border-top: 1px solid var(--border-color, #e2e8f0);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.12);
+  padding: 16px 24px;
+  z-index: 99999;
+  font-family: inherit;
+  font-size: 0.85rem;
+  color: var(--text-primary, #0f172a);
+}
+.mtv-consent-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.mtv-consent-text strong {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+  color: var(--text-primary, #0f172a);
+}
+.mtv-consent-text p {
+  margin: 0;
+  color: var(--text-secondary, #475569);
+  line-height: 1.4;
+  font-size: 0.82rem;
+  max-width: 780px;
+}
+.mtv-consent-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.mtv-consent-btn {
+  padding: 8px 16px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+.mtv-btn-primary {
+  background: var(--primary, #2563eb);
+  color: #ffffff;
+}
+.mtv-btn-primary:hover {
+  background: var(--primary-hover, #1d4ed8);
+}
+.mtv-btn-subtle {
+  background: var(--bg-subtle, #f1f5f9);
+  color: var(--text-secondary, #334155);
+  border-color: var(--border-color, #cbd5e1);
+}
+.mtv-btn-subtle:hover {
+  background: var(--border-color, #e2e8f0);
+}
+.mtv-consent-link {
+  color: var(--primary, #2563eb);
+  font-size: 0.8rem;
+  text-decoration: underline;
+  margin-left: 6px;
+}
