@@ -55,22 +55,32 @@
 
   <!-- Schema.org WebSite & EducationalOrganization -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    "name": "MockTestVault",
-    "url": "https://mocktestvault.com",
-    "description": "Global zero-distraction computer-based mock exam platform providing authentic simulation for competitive and standardized tests.",
-    "sameAs": [
-      "https://github.com/fun2gostart/mocktestvault"
-    ],
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://mocktestvault.com/?search={search_term_string}",
-      "query-input": "required name=search_term_string"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://mocktestvault.com/#organization",
+      "name": "MockTestVault",
+      "url": "https://mocktestvault.com/",
+      "description": "Free computer-based practice examinations and educational revision resources for competitive and standardized tests.",
+      "sameAs": [
+        "https://github.com/fun2gostart/mocktestvault"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mocktestvault.com/#website",
+      "url": "https://mocktestvault.com/",
+      "name": "MockTestVault",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://mocktestvault.com/#organization"
+      }
     }
-  }
-  </script>
+  ]
+}
+</script>
 
   <!-- Schema.org FAQPage Structured Data -->
   <script type="application/ld+json">
@@ -623,6 +633,7 @@
           <ul class="footer-links">
             <li><a href="about.html">About Us</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="javascript:void(0)" class="open-cookie-preferences">Cookie Preferences</a></li>
             <li><a href="terms.html">Terms of Service</a></li>
             <li><a href="disclaimer.html">Academic Disclaimer</a></li>
             <li><a href="contact.html">Contact & Discrepancy Desk</a></li>

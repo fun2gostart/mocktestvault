@@ -35,16 +35,16 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "Which number will replace the question mark (?) in the following series?\n7, 11, 20, 36, 61, ?",
+      "question": "Which number will replace the question mark (?) in the following series?\n3, 8, 18, 38, 78, ?",
       "options": [
-        "97",
-        "95",
-        "99",
-        "102"
+        "156",
+        "158",
+        "160",
+        "162"
       ],
-      "answer": 0,
-      "explanation": "Find successive differences:\n11 - 7 = 4 (= 2^2)\n20 - 11 = 9 (= 3^2)\n36 - 20 = 16 (= 4^2)\n61 - 36 = 25 (= 5^2)\nNext difference must be 6^2 = 36.\nNext term = 61 + 36 = 97.",
-      "citation": "SSC CGL Reasoning — Number Series (Differences of Squares)"
+      "answer": 1,
+      "explanation": "Each term is obtained by multiplying the previous term by 2 and adding 2: 3 × 2 + 2 = 8; 8 × 2 + 2 = 18; 18 × 2 + 2 = 38; 38 × 2 + 2 = 78. Therefore, the next term is 78 × 2 + 2 = 158.",
+      "citation": "Original practice question — number-series reasoning"
     },
     {
       "id": "cgl2_reason_03",

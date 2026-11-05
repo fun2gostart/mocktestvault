@@ -1,0 +1,36 @@
+MockTestVault – Organic SEO v2.4
+Date: 5 November 2026
+
+Source reviewed:
+User-supplied mocktestvault.com_v2.3_latest.zip
+
+Applied changes:
+1. Shortened 32 overlong title tags to clearer page-specific titles, retaining the primary exam/topic and the year or test number where relevant.
+2. Rewrote 37 overlong meta descriptions as complete, page-specific descriptions. Matching Open Graph and Twitter descriptions were aligned.
+3. Added 49 subject-relevant study-guide links to existing related-practice navigation:
+   - Class 10 Science tests -> Science formulas and reactions guide.
+   - Class 10 Mathematics tests -> Maths formulas and theorems guide.
+   - Class 12 Physics tests -> Physics formulas and derivations guide.
+   - Class 12 Chemistry tests -> Chemistry reactions and formulas guide.
+   - SSC CGL tests -> Tier 1 syllabus and preparation strategy guide.
+4. Corrected homepage JSON-LD entity modelling by separating EducationalOrganization and WebSite in an @graph. SearchAction was not retained because a working query-parameter search URL was not verified.
+
+Preserved:
+- Existing H1 hierarchy and existing related-practice links.
+- Question-bank JSON files and question content.
+- Consent-related files and all other user-supplied code.
+- Canonical tags, sitemap and robots.txt.
+- No advertising or monetisation configuration was added or changed.
+
+Source audit observations:
+- 157 HTML files; 156 have title and meta-description tags. The remaining HTML file is a Google Search Console verification file.
+- No duplicate title tags or meta descriptions found.
+- All 3,081 local references parsed in the supplied HTML resolve to files or directories in the archive.
+- Sitemap contains 153 unique URLs; all resolve to supplied HTML files, and none is marked noindex in the source.
+- JSON-LD blocks parse as valid JSON.
+- One legacy duplicate URL has a canonical pointing to the preferred CBSE Science Chapter 2 URL; it is not in the sitemap.
+- Automated question-bank structure check found 4,954 question records. Answer indexes were in range. Repeated IDs and question text appear across separate data files, including sectional and full mock banks; this requires product-level review before deciding whether duplication is unintended.
+
+Not changed:
+- Question wording, answer keys, explanations and citations were not rewritten. Correctness and originality require subject-matter/source verification; automated ZIP inspection cannot prove them.
+- No live deployment, Search Console indexing, Googlebot rendering, or Core Web Vitals measurements were available from this ZIP review.

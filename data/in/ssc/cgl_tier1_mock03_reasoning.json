@@ -341,16 +341,16 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "If 15th August 2011 was a Monday, what day of the week was 15th August 2012?",
+      "question": "If 1 March 2023 was a Wednesday, what day of the week was 1 March 2024?",
       "options": [
-        "Tuesday",
         "Thursday",
-        "Wednesday",
-        "Friday"
+        "Friday",
+        "Saturday",
+        "Sunday"
       ],
-      "answer": 2,
-      "explanation": "**Correct Answer: Wednesday**\n\nBetween 15th August 2011 and 15th August 2012, February 2012 intervenes. Since 2012 is a leap year (divisible by 4), February 2012 contains 29 days, making the total elapsed duration 366 days.\n366 ÷ 7 = 52 weeks and 2 odd days.\nMonday + 2 days = Wednesday.",
-      "citation": "SSC CGL Reasoning — Leap Year & Odd Day Calculations"
+      "answer": 1,
+      "explanation": "The interval from 1 March 2023 to 1 March 2024 includes 29 February 2024, so it contains 366 days. That is 52 weeks and 2 days. Two days after Wednesday is Friday.",
+      "citation": "Calendar calculation — Gregorian leap-year rule"
     },
     {
       "id": "cgl3_reason_20",

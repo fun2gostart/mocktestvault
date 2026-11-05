@@ -406,7 +406,7 @@
         "-77"
       ],
       "answer": 3,
-      "explanation": "In the given sequence 10, 7, 4, ..., first term a = 10, and common difference d = a\u2082 - a\u2081 = 7 - 10 = -3. The general formula for the n-th term of an arithmetic progression is: a\u2099 = a + (n - 1)d. To find the 30th term, substitute n = 30, a = 10, and d = -3: a\u2083\u2080 = 10 + (30 - 1)(-3) = 10 + 29(-3) = 10 - 87 = -77. Since the common difference is negative (d < 0), the AP is strictly decreasing. (NCERT Exercise 5.2 Question 2(i)).",
+      "explanation": "In the given sequence 10, 7, 4, ..., first term a = 10, and common difference d = a₂ - a₁ = 7 - 10 = -3. The general formula for the n-th term of an arithmetic progression is: aₙ = a + (n - 1)d. To find the 30th term, substitute n = 30, a = 10, and d = -3: a₃₀ = 10 + (30 - 1)(-3) = 10 + 29(-3) = 10 - 87 = -77. Since the common difference is negative (d < 0), the AP is strictly decreasing. (NCERT Exercise 5.2 Question 2(i)).",
       "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
       "section": "Section A: Number Systems & Algebra"
     },
@@ -423,7 +423,7 @@
         "49/2"
       ],
       "answer": 0,
-      "explanation": "For the AP -3, -1/2, 2, ..., the first term is a = -3. The common difference d is: d = a\u2082 - a\u2081 = -1/2 - (-3) = -1/2 + 3 = (-1 + 6) / 2 = 5/2. The n-th term formula is a\u2099 = a + (n - 1)d. For the 11th term (n = 11): a\u2081\u2081 = -3 + (11 - 1)(5/2) = -3 + 10(5/2) = -3 + (5 * 5) = -3 + 25 = 22. This matches official NCERT Exercise 5.2 Question 2(ii).",
+      "explanation": "For the AP -3, -1/2, 2, ..., the first term is a = -3. The common difference d is: d = a₂ - a₁ = -1/2 - (-3) = -1/2 + 3 = (-1 + 6) / 2 = 5/2. The n-th term formula is aₙ = a + (n - 1)d. For the 11th term (n = 11): a₁₁ = -3 + (11 - 1)(5/2) = -3 + 10(5/2) = -3 + (5 * 5) = -3 + 25 = 22. This matches official NCERT Exercise 5.2 Question 2(ii).",
       "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
       "section": "Section A: Number Systems & Algebra"
     },
@@ -848,7 +848,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "Recall the standard values of cosine across acute angles: cos(0\u00b0) = 1, cos(30\u00b0) = \u221a3/2 \u2248 0.866, cos(45\u00b0) = 1/\u221a2 \u2248 0.707, cos(60\u00b0) = 1/2 = 0.5, and cos(90\u00b0) = 0. As \u03b8 increases continuously from 0\u00b0 to 90\u00b0, the adjacent side of the reference triangle shortens while the hypotenuse remains fixed, causing cos \u03b8 to decrease strictly from 1 to 0. Hence, Assertion (A) is true, Reason (R) is true, and Reason (R) is the correct mathematical explanation of Assertion (A). (NCERT Chapter 8).",
+      "explanation": "Recall the standard values of cosine across acute angles: cos(0°) = 1, cos(30°) = √3/2 ≈ 0.866, cos(45°) = 1/√2 ≈ 0.707, cos(60°) = 1/2 = 0.5, and cos(90°) = 0. As θ increases continuously from 0° to 90°, the adjacent side of the reference triangle shortens while the hypotenuse remains fixed, causing cos θ to decrease strictly from 1 to 0. Hence, Assertion (A) is true, Reason (R) is true, and Reason (R) is the correct mathematical explanation of Assertion (A). (NCERT Chapter 8).",
       "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -865,7 +865,7 @@
         "1"
       ],
       "answer": 3,
-      "explanation": "Recall the standard exact values of trigonometric ratios for special angles: sin(30\u00b0) = 1/2 and cos(60\u00b0) = 1/2. We need to evaluate: sin(30\u00b0) + cos(60\u00b0). Substituting the numerical values: sin(30\u00b0) + cos(60\u00b0) = 1/2 + 1/2 = 2/2 = 1. Alternatively, using the complementary angle relationship cos(60\u00b0) = sin(90\u00b0 - 60\u00b0) = sin(30\u00b0), the expression equals 2\u00b7sin(30\u00b0) = 2(1/2) = 1. (NCERT Class 10 Mathematics Chapter 8, Section 8.3).",
+      "explanation": "Recall the standard exact values of trigonometric ratios for special angles: sin(30°) = 1/2 and cos(60°) = 1/2. We need to evaluate: sin(30°) + cos(60°). Substituting the numerical values: sin(30°) + cos(60°) = 1/2 + 1/2 = 2/2 = 1. Alternatively, using the complementary angle relationship cos(60°) = sin(90° - 60°) = sin(30°), the expression equals 2·sin(30°) = 2(1/2) = 1. (NCERT Class 10 Mathematics Chapter 8, Section 8.3).",
       "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -933,8 +933,8 @@
         "90 degrees"
       ],
       "answer": 0,
-      "explanation": "Let h be the vertical height of the tower and d = 15 m be the distance from the point on the ground to the foot of the tower. In the right-angled triangle formed by the vertical tower, ground, and line of sight, the ratio relating opposite side and adjacent side is tangent: tan(60\u00b0) = Height / Base = h / 15. Since tan(60\u00b0) = \u221a3, we have: \u221a3 = h / 15. Cross-multiplying gives: h = 15\u221a3 metres. Using \u221a3 \u2248 1.732, the height is approximately 15 \u00d7 1.732 = 25.98 metres. (NCERT Class 10 Mathematics Chapter 9, Example 1).",
-      "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
+      "explanation": "Let h be the pole's height and s be the length of its shadow. If θ is the sun's angle of elevation, then tan θ = opposite/adjacent = h/s. Given h = s, tan θ = 1. For an angle between 0° and 90°, this gives θ = 45°.",
+      "citation": "NCERT Class 10 Mathematics, Chapter 9 — Some Applications of Trigonometry",
       "section": "Section C: Trigonometry & Mensuration"
     },
     {
@@ -1001,7 +1001,7 @@
         "(theta / 360) * pi * r^2"
       ],
       "answer": 3,
-      "explanation": "A sector is the region enclosed by two radii and the intercepted circular arc of a circle. When the sector angle at the centre is 360\u00b0, the area is the complete circular area \u03c0r\u00b2. By direct proportion, if the sector subtends an angle \u03b8 at the centre, the sector area is the fraction (\u03b8 / 360\u00b0) of the total area. Therefore: Area of Sector = (\u03b8 / 360\u00b0) * \u03c0r\u00b2. In NCERT Class 10 Chapter 11, this formula forms the core foundation for calculating minor and major sectors.",
+      "explanation": "A sector is the region enclosed by two radii and the intercepted circular arc of a circle. When the sector angle at the centre is 360°, the area is the complete circular area πr². By direct proportion, if the sector subtends an angle θ at the centre, the sector area is the fraction (θ / 360°) of the total area. Therefore: Area of Sector = (θ / 360°) * πr². In NCERT Class 10 Chapter 11, this formula forms the core foundation for calculating minor and major sectors.",
       "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -1018,7 +1018,7 @@
         "(theta / 720) * 2 * pi * r"
       ],
       "answer": 1,
-      "explanation": "The complete perimeter (circumference) of a circle of radius r corresponds to a full central angle of 360\u00b0 and equals 2\u03c0r. For an arc subtending a central angle \u03b8 (in degrees), the arc length represents the exact fraction (\u03b8 / 360\u00b0) of the full circular perimeter. Hence, Length of Arc l = (\u03b8 / 360\u00b0) * 2\u03c0r. If \u03b8 is given in radians, the relation simplifies directly to l = r\u03b8.",
+      "explanation": "The complete perimeter (circumference) of a circle of radius r corresponds to a full central angle of 360° and equals 2πr. For an arc subtending a central angle θ (in degrees), the arc length represents the exact fraction (θ / 360°) of the full circular perimeter. Hence, Length of Arc l = (θ / 360°) * 2πr. If θ is given in radians, the relation simplifies directly to l = rθ.",
       "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
       "section": "Section C: Trigonometry & Mensuration"
     },
@@ -1171,7 +1171,7 @@
         "9.0"
       ],
       "answer": 1,
-      "explanation": "Class marks xi: 1, 3, 5, 7, 9, 11, 13. Products fi*xi: 1*1=1, 2*3=6, 1*5=5, 5*7=35, 6*9=54, 2*11=22, 3*13=39. sum(fi*xi) = 1 + 6 + 5 + 35 + 54 + 22 + 39 = 162. Total houses sum(fi) = 20. Mean x\u0304 = 162 / 20 = 8.1 plants.",
+      "explanation": "Class marks xi: 1, 3, 5, 7, 9, 11, 13. Products fi*xi: 1*1=1, 2*3=6, 1*5=5, 5*7=35, 6*9=54, 2*11=22, 3*13=39. sum(fi*xi) = 1 + 6 + 5 + 35 + 54 + 22 + 39 = 162. Total houses sum(fi) = 20. Mean x̄ = 162 / 20 = 8.1 plants.",
       "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
       "section": "Section D: Statistics & Probability"
     },
@@ -1188,7 +1188,7 @@
         "(A) is false, but (R) is true."
       ],
       "answer": 0,
-      "explanation": "sum[fi * (xi - x\u0304)] = sum(fi*xi) - x\u0304*sum(fi) = 0. Conceptually, the arithmetic mean is the balance point (center of gravity) where total positive deviations exactly cancel total negative deviations. Both statements are true and (R) correctly explains (A).",
+      "explanation": "sum[fi * (xi - x̄)] = sum(fi*xi) - x̄*sum(fi) = 0. Conceptually, the arithmetic mean is the balance point (center of gravity) where total positive deviations exactly cancel total negative deviations. Both statements are true and (R) correctly explains (A).",
       "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
       "section": "Section D: Statistics & Probability"
     },
@@ -1350,7 +1350,7 @@
       "type": "mcq",
       "subtopic": "Complementary Events",
       "difficulty": "Easy",
-      "question": "If P(E) = 0.05, what is the probability of 'not E' (P(E\u0304))?",
+      "question": "If P(E) = 0.05, what is the probability of 'not E' (P(Ē))?",
       "options": [
         "0.95",
         "0.05",
@@ -1358,7 +1358,7 @@
         "0.90"
       ],
       "answer": 0,
-      "explanation": "The event E and its negation 'not E' (denoted as E\u0304) are mutually exclusive and exhaustive complementary events covering the complete sample space S. By the complementary probability theorem: P(E) + P(E\u0304) = 1. Given P(E) = 0.05, we compute: P(E\u0304) = 1 - P(E) = 1 - 0.05 = 0.95. Thus, the probability of the complementary event 'not E' occurring is precisely 0.95 (or 95%).",
+      "explanation": "The event E and its negation 'not E' (denoted as Ē) are mutually exclusive and exhaustive complementary events covering the complete sample space S. By the complementary probability theorem: P(E) + P(Ē) = 1. Given P(E) = 0.05, we compute: P(Ē) = 1 - P(E) = 1 - 0.05 = 0.95. Thus, the probability of the complementary event 'not E' occurring is precisely 0.95 (or 95%).",
       "citation": "CBSE Class 10 Official 2024 Board Examination (Standard/Basic) & NCERT",
       "section": "Section D: Statistics & Probability"
     }

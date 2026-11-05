@@ -278,16 +278,16 @@
       "type": "mcq",
       "difficulty": "medium",
       "marks": 2,
-      "question": "If 15th August 2021 was a Sunday, what day of the week was 15th August 2022?",
+      "question": "If 1 January 2024 was a Monday, what day of the week was 1 January 2025?",
       "options": [
-        "Monday",
         "Tuesday",
-        "Sunday",
-        "Saturday"
+        "Wednesday",
+        "Thursday",
+        "Friday"
       ],
-      "answer": 0,
-      "explanation": "The period from 15th August 2021 to 15th August 2022 is exactly 1 ordinary year (365 days). An ordinary year has 365 ÷ 7 = 52 weeks and 1 odd day. Thus, Sunday + 1 day = Monday.",
-      "citation": "SSC CGL Calendar Concepts"
+      "answer": 1,
+      "explanation": "The interval from 1 January 2024 to 1 January 2025 contains 366 days because 2024 is a leap year. 366 days equal 52 weeks and 2 days. Moving forward two days from Monday gives Wednesday.",
+      "citation": "Calendar calculation — Gregorian leap-year rule"
     },
     {
       "id": "cgl_r_17",
