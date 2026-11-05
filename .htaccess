@@ -20,6 +20,9 @@ DirectoryIndex index.html
     # Auto-heal any malformed nested relative /data/ requests to canonical root /data/
     RewriteRule ^.+/(data/.*)$ /$1 [R=301,L]
 
+    # 301 Redirect legacy/stub chapter URL to canonical silo structure
+    RewriteRule ^cbse-class-10-science-chapter-2\.html$ /cbse-class-10/science/ch02_acids_bases_salts.html [R=301,L]
+
     # Block direct web access to internal scripts directory
     RewriteRule ^scripts(/.*)?$ - [F,L]
 </IfModule>

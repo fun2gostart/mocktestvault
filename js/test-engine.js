@@ -20,16 +20,19 @@ class MockTestEngine {
     this.examType = options.examType || 'board'; // 'board' or 'competitive'
     this.questions = [];
 
-    // Sectional Timer Support (Official SSC CGL 2026 pattern: 15-min sectional timers)
-    this.sectionalTimer = options.sectionalTimer || (this.examType === 'competitive' && this.timeLimitMinutes === 60 ? {
+    // Sectional Timer Support (Official SSC CGL 2026 pattern: 15-min independent sectional timers)
+    // Only enabled when explicitly configured on 2026-pattern examination pages
+    this.sectionalTimer = options.sectionalTimer ? Object.assign({
       enabled: true,
       durationMinutes: 15,
       sectionsCount: 4,
       questionsPerSection: 25,
-      strictLock: false // flexible practice by default; togglable to strict lock
-    } : null);
+      strictLock: false
+    }, options.sectionalTimer) : null;
     this.currentSectionIndex = 0;
-    this.sectionTimeRemaining = this.sectionalTimer ? this.sectionalTimer.durationMinutes * 60 : 0;
+    const secCount = this.sectionalTimer ? (this.sectionalTimer.sectionsCount || 4) : 0;
+    const secDur = this.sectionalTimer ? (this.sectionalTimer.durationMinutes || 15) * 60 : 0;
+    this.sectionTimesRemaining = new Array(secCount).fill(secDur);
     this.lockedSections = {};
     
     // State
@@ -673,15 +676,16 @@ class MockTestEngine {
     this.timerInterval = setInterval(() => {
       this.timeRemaining--;
 
-      // If sectional timer is enabled (e.g., SSC CGL 15-minute sections)
+      // If sectional timer is enabled (e.g., SSC CGL 2026 15-minute independent sections)
       if (this.sectionalTimer && this.sectionalTimer.enabled) {
-        this.sectionTimeRemaining--;
-        if (this.sectionTimeRemaining <= 0) {
+        if (this.sectionTimesRemaining[this.currentSectionIndex] > 0) {
+          this.sectionTimesRemaining[this.currentSectionIndex]--;
+        }
+        if (this.sectionTimesRemaining[this.currentSectionIndex] <= 0) {
           this.lockedSections[this.currentSectionIndex] = true;
           const prevSec = this.currentSectionIndex;
           if (this.currentSectionIndex < this.sectionalTimer.sectionsCount - 1) {
             this.currentSectionIndex++;
-            this.sectionTimeRemaining = this.sectionalTimer.durationMinutes * 60;
             const newQIdx = this.currentSectionIndex * this.sectionalTimer.questionsPerSection;
             this.renderQuestion(newQIdx);
             this.updateActiveSectionTab(this.currentSectionIndex);
@@ -718,15 +722,19 @@ class MockTestEngine {
     const secs = this.timeRemaining % 60;
 
     if (this.sectionalTimer && this.sectionalTimer.enabled) {
-      const secMins = Math.floor(this.sectionTimeRemaining / 60);
-      const secSecs = this.sectionTimeRemaining % 60;
+      const curSecRem = this.sectionTimesRemaining[this.currentSectionIndex] !== undefined ? this.sectionTimesRemaining[this.currentSectionIndex] : 0;
+      const secMins = Math.floor(curSecRem / 60);
+      const secSecs = curSecRem % 60;
       this.dom.timerDisplay.innerHTML = `<span title="Current Section Time (15-min limit)" style="color:var(--primary); font-weight:700;">Sec: ${secMins.toString().padStart(2, '0')}:${secSecs.toString().padStart(2, '0')}</span> <span style="opacity:0.4;">|</span> <span title="Total Examination Time (60-min limit)">Total: ${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}</span>`;
     } else {
       this.dom.timerDisplay.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
     }
     
     if (this.dom.timerBox) {
-      const checkTime = (this.sectionalTimer && this.sectionalTimer.enabled) ? this.sectionTimeRemaining : this.timeRemaining;
+      const curSecRem = (this.sectionalTimer && this.sectionalTimer.enabled && this.sectionTimesRemaining[this.currentSectionIndex] !== undefined)
+        ? this.sectionTimesRemaining[this.currentSectionIndex]
+        : this.timeRemaining;
+      const checkTime = curSecRem;
       if (checkTime <= 60) {
         this.dom.timerBox.classList.remove('warning');
         this.dom.timerBox.classList.add('critical');
@@ -766,6 +774,16 @@ class MockTestEngine {
     if (!this.questions || index < 0 || index >= this.questions.length) return;
     this.currentIndex = index;
     this.visitedFlags[index] = true;
+
+    // Synchronize active section with question index (prevents section desynchronization)
+    if (this.sectionalTimer && this.sectionalTimer.enabled) {
+      const secIdx = this.getSectionForIndex(index);
+      if (secIdx !== this.currentSectionIndex) {
+        this.currentSectionIndex = secIdx;
+        this.updateActiveSectionTab(secIdx);
+      }
+    }
+
     const q = this.questions[index];
 
     // Reset internal scroll to top of question
@@ -972,8 +990,35 @@ class MockTestEngine {
 
   nextQuestion() {
     if (this.currentIndex < this.questions.length - 1) {
+      const targetIdx = this.currentIndex + 1;
+      if (this.sectionalTimer && this.sectionalTimer.enabled) {
+        const targetSec = this.getSectionForIndex(targetIdx);
+        if (this.lockedSections && this.lockedSections[targetSec]) {
+          alert(`Section ${targetSec + 1} is locked.`);
+          return;
+        }
+        if (this.sectionalTimer.strictLock && targetSec > this.currentSectionIndex) {
+          alert("Please complete the current section before advancing to the next section.");
+          return;
+        }
+      }
       this.playTone('click');
-      this.renderQuestion(this.currentIndex + 1);
+      this.renderQuestion(targetIdx);
+    }
+  }
+
+  prevQuestion() {
+    if (this.currentIndex > 0) {
+      const targetIdx = this.currentIndex - 1;
+      if (this.sectionalTimer && this.sectionalTimer.enabled) {
+        const targetSec = this.getSectionForIndex(targetIdx);
+        if (this.lockedSections && this.lockedSections[targetSec]) {
+          alert(`Section ${targetSec + 1} is locked under the 15-minute sectional pattern.`);
+          return;
+        }
+      }
+      this.playTone('click');
+      this.renderQuestion(targetIdx);
     }
   }
 
@@ -1188,17 +1233,17 @@ class MockTestEngine {
     } else if (this.examType === 'competitive') {
       const accuracy = Math.round((correct / Math.max(1, correct + wrong)) * 100);
       if (scorePct >= 70) {
-        rankBadge = "🎯 Tier 1 Cutoff Qualified!";
-        rankDesc = "Excellent speed and precision. You are well above the expected Tier 1 cutoff marks.";
-        predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Accuracy: ${accuracy}%`;
+        rankBadge = "🎯 Strong Practice Performance";
+        rankDesc = "Competitive score range with high discipline (+2 / -0.5 marking). Focus on maintaining speed in Quantitative Aptitude.";
+        predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Practice Accuracy: ${accuracy}%`;
       } else if (scorePct >= 50) {
-        rankBadge = "👍 Competitive Attempt — Borderline Cutoff";
-        rankDesc = "Good core knowledge. Work on reducing negative marking in reasoning and general awareness to clear the cutoff safely.";
-        predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Accuracy: ${accuracy}%`;
+        rankBadge = "👍 Moderate Practice Range";
+        rankDesc = "Solid foundational attempt. Focus on eliminating unforced negative penalty errors in General Awareness and Reasoning.";
+        predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Practice Accuracy: ${accuracy}%`;
       } else {
-        rankBadge = "⚠️ Needs Practice & Negative Control";
-        rankDesc = "High negative penalties reduced your net score. Focus on high-accuracy attempts and sectional shortcuts.";
-        predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Below Cutoff`;
+        rankBadge = "⚠️ Foundational Practice Required";
+        rankDesc = "Negative penalties reduced your net score. Practice high-confidence question selection and sectional time management.";
+        predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Practice Accuracy: ${accuracy}%`;
       }
     } else if (this.examType === 'ielts') {
       let band = "5.5";

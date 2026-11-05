@@ -11,7 +11,9 @@
     "answer": 0,
     "subtopic": "Physics • Kinematics",
     "explanation": "At the highest point of projectile motion, the vertical velocity component is zero (v_y = 0) and the total velocity is strictly horizontal: v = u cos θ. The normal acceleration providing the curvature is perpendicular to the velocity, which is simply the acceleration due to gravity g. The radius of curvature is given by R = v² / a_n = (u cos θ)² / g = u² cos² θ / g.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 4 (Motion in a Plane)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 4 (Motion in a Plane)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 2,
@@ -25,7 +27,9 @@
     "answer": 0,
     "subtopic": "Physics • Laws of Motion",
     "explanation": "For pulling at an angle θ: N = mg - F sin θ. Limiting friction is f_s = μ_s N = μ_s(mg - F sin θ). To move the block, F cos θ ≥ μ_s(mg - F sin θ) ⇒ F(cos θ + μ_s sin θ) ≥ μ_s mg ⇒ F = μ_s mg / (cos θ + μ_s sin θ). To minimize F with respect to θ, d/dθ(cos θ + μ_s sin θ) = 0 ⇒ tan θ = μ_s. The maximum value of (cos θ + μ_s sin θ) is √(1 + μ_s²). Hence, F_min = μ_s mg / √(1 + μ_s²).",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 5 (Laws of Motion)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 5 (Laws of Motion)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 3,
@@ -39,7 +43,9 @@
     "answer": 0,
     "subtopic": "Physics • Work, Energy & Power",
     "explanation": "Work done by a variable 1D force is W = ∫ F dx from x = 0 to 4. W = ∫₀⁴ (3x² + 2x - 7) dx = [x³ + x² - 7x]₀⁴ = (4³ + 4² - 7(4)) - 0 = 64 + 16 - 28 = 52 J.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 6 (Work, Energy and Power)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 6 (Work, Energy and Power)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 4,
@@ -53,7 +59,9 @@
     "answer": 0,
     "subtopic": "Physics • Rotational Dynamics",
     "explanation": "For pure rolling down an inclined plane, the linear acceleration is given by a = g sin θ / (1 + I_cm / (MR²)). For a solid uniform cylinder, I_cm = (1/2) MR², so I_cm / (MR²) = 1/2. Therefore, a = g sin θ / (1 + 1/2) = (2/3) g sin θ.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 7 (System of Particles and Rotational Motion)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 7 (System of Particles and Rotational Motion)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 5,
@@ -67,7 +75,9 @@
     "answer": 0,
     "subtopic": "Physics • Current Electricity",
     "explanation": "By Wheatstone bridge balancing condition on a uniform wire meter bridge: P / Q = l / (100 - l). Here, P = 3 Ω, l = 40 cm, and (100 - l) = 60 cm. Thus: 3 / R = 40 / 60 = 2 / 3 ⇒ R = (3 × 3) / 2 = 4.5 Ω.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 3 (Current Electricity)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 3 (Current Electricity)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 6,
@@ -81,7 +91,9 @@
     "answer": 0,
     "subtopic": "Physics • Ray Optics",
     "explanation": "For an equilateral prism, prism angle A = 60°. At minimum deviation, the angle of refraction inside the prism is r = A / 2 = 60° / 2 = 30°. By Snell's Law: μ = sin i / sin r ⇒ √3 = sin i / sin 30° = sin i / 0.5 ⇒ sin i = √3 / 2 ⇒ i = 60°.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 9 (Ray Optics and Optical Instruments)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 9 (Ray Optics and Optical Instruments)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 7,
@@ -95,7 +107,9 @@
     "answer": 0,
     "subtopic": "Physics • Thermodynamics",
     "explanation": "The efficiency of a Carnot engine is η = 1 - (T_c / T_h) = 1 - (300 / 500) = 1 - 0.6 = 0.40 (40%). The work done is W = η × Q_in = 0.40 × 600 J = 240 J.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 12 (Thermodynamics)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 12 (Thermodynamics)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 8,
@@ -109,7 +123,9 @@
     "answer": 0,
     "subtopic": "Physics • Modern Physics",
     "explanation": "Energy of incident photons is E = hc / λ = 1240 eV·nm / 400 nm = 3.10 eV. According to Einstein's photoelectric equation: K_max = E - Φ = 3.10 eV - 2.10 eV = 1.00 eV. Since K_max = e V₀, the stopping potential V₀ = 1.0 V.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 11 (Dual Nature of Radiation and Matter)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 11 (Dual Nature of Radiation and Matter)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 9,
@@ -123,7 +139,9 @@
     "answer": 0,
     "subtopic": "Chemistry • Atomic Structure",
     "explanation": "According to de Broglie's explanation of Bohr's quantization condition, a stationary electron orbit contains an integral number of de Broglie standing waves: 2π r_n = n λ. For n = 3: 2π r₃ = 3λ ⇒ λ = 2π r₃ / 3.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Chemistry Chapter 2 (Structure of Atom)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Chemistry Chapter 2 (Structure of Atom)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 10,
@@ -137,7 +155,9 @@
     "answer": 0,
     "subtopic": "Chemistry • Chemical Bonding",
     "explanation": "For XeF₄: Xe has 8 valence electrons + 4 bonding electrons = 12 electrons = 6 electron pairs (4 bond pairs + 2 lone pairs) → sp³d² hybridization with lone pairs trans to each other, giving a square planar geometry. For SF₄: S has 6 valence electrons + 4 bonding electrons = 10 electrons = 5 electron pairs (4 bond pairs + 1 equatorial lone pair) → sp³d hybridization, resulting in a see-saw geometry.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Chemistry Chapter 4 (Chemical Bonding and Molecular Structure)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Chemistry Chapter 4 (Chemical Bonding and Molecular Structure)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 11,
@@ -151,7 +171,9 @@
     "answer": 0,
     "subtopic": "Chemistry • Thermodynamics",
     "explanation": "Gibbs free energy change is ΔG° = ΔH° - TΔS°. For spontaneity, ΔG° < 0 ⇒ ΔH° - TΔS° < 0. Since both ΔH° and ΔS° are negative, T < ΔH° / ΔS° = (-40,000 J/mol) / (-100 J/(K·mol)) = 400 K. Thus, the reaction is spontaneous only below 400 K.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Chemistry Chapter 6 (Chemical Thermodynamics)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Chemistry Chapter 6 (Chemical Thermodynamics)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 12,
@@ -165,7 +187,9 @@
     "answer": 0,
     "subtopic": "Chemistry • Chemical Kinetics",
     "explanation": "For a first-order reaction: t = (2.303 / k) log₁₀([A]₀ / [A]). When 90% is decomposed, 10% remains: [A] = 0.10 [A]₀ ⇒ [A]₀ / [A] = 10. t = (2.303 / (2.303 × 10⁻³ s⁻¹)) log₁₀(10) = 10³ × 1 = 1000 s.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 4 (Chemical Kinetics)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 4 (Chemical Kinetics)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 13,
@@ -179,7 +203,9 @@
     "answer": 0,
     "subtopic": "Chemistry • Coordination Compounds",
     "explanation": "In an octahedral field with high-spin d⁶ configuration, electrons fill according to Hund's rule: t₂g⁴ eg². Each t₂g electron contributes -0.4 Δ₀ and each eg electron contributes +0.6 Δ₀. CFSE = (4 × -0.4 Δ₀) + (2 × +0.6 Δ₀) = -1.6 Δ₀ + 1.2 Δ₀ = -0.4 Δ₀.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 9 (Coordination Compounds)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 9 (Coordination Compounds)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 14,
@@ -193,7 +219,9 @@
     "answer": 0,
     "subtopic": "Chemistry • Organic Chemistry",
     "explanation": "Two molecules of CH₃CHO undergo base-catalyzed aldol addition: enolate of one attacks the carbonyl of the second to form 3-hydroxybutanal (aldol). Subsequent heating causes elimination of water (dehydration) to yield the α,β-unsaturated aldehyde: but-2-enal (crotonaldehyde, CH₃-CH=CH-CHO).",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 12 (Aldehydes, Ketones and Carboxylic Acids)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 12 (Aldehydes, Ketones and Carboxylic Acids)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 15,
@@ -207,7 +235,9 @@
     "answer": 0,
     "subtopic": "Chemistry • Organic Chemistry",
     "explanation": "The nitro group (-NO₂) exerts strong electron-withdrawing inductive (-I) and resonance (-M) effects, drastically reducing electron density on the benzene ring, especially at the ortho and para positions. Consequently, the meta position is comparatively less deactivated, directing incoming electrophiles to the meta position.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Chemistry Chapter 13 (Hydrocarbons)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Chemistry Chapter 13 (Hydrocarbons)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 16,
@@ -221,7 +251,9 @@
     "answer": 0,
     "subtopic": "Chemistry • Solutions",
     "explanation": "For HX ⇌ H⁺ + X⁻, van 't Hoff factor i = 1 + (n - 1)α = 1 + (2 - 1)(0.20) = 1.20. Depression in freezing point ΔT_f = i × K_f × m = 1.20 × 1.86 × 0.1 = 0.2232 K. Freezing point T_f = 0 °C - 0.223 °C = -0.223 °C.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 2 (Solutions)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 2 (Solutions)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 17,
@@ -235,7 +267,9 @@
     "answer": 0,
     "subtopic": "Mathematics • Quadratic Equations",
     "explanation": "For x² - 5x + 6 = 0, sum of roots α + β = 5 and product αβ = 6 (roots are 2 and 3). The new roots are α² and β² (i.e. 4 and 9). Sum of new roots S = α² + β² = (α + β)² - 2αβ = 5² - 2(6) = 25 - 12 = 13. Product of new roots P = (αβ)² = 6² = 36. The equation is x² - Sx + P = 0 ⇒ x² - 13x + 36 = 0.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Mathematics Chapter 5 (Quadratic Equations)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Mathematics Chapter 5 (Quadratic Equations)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 18,
@@ -249,7 +283,9 @@
     "answer": 0,
     "subtopic": "Mathematics • Complex Numbers",
     "explanation": "|z - 2| = 2|z + 2| ⇒ |z - 2|² = 4|z + 2|² ⇒ (x - 2)² + y² = 4[(x + 2)² + y²]. Expanding: x² - 4x + 4 + y² = 4(x² + 4x + 4 + y²) = 4x² + 16x + 16 + 4y². Grouping terms: 3x² + 3y² + 20x + 12 = 0 ⇒ x² + y² + (20/3)x + 4 = 0. This is the equation of a circle of Apollonius with center (-10/3, 0) and radius R = √((10/3)² - 4) = √(100/9 - 36/9) = √(64/9) = 8/3.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Mathematics Chapter 5 (Complex Numbers)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Mathematics Chapter 5 (Complex Numbers)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 19,
@@ -263,7 +299,9 @@
     "answer": 0,
     "subtopic": "Mathematics • Matrices & Determinants",
     "explanation": "Row reduction on augmented matrix [A|B]: R₂ → R₂ - R₁ gives [0, 1, 2 | 4]; R₃ → R₃ - R₁ gives [0, 1, λ-1 | μ-6]. Then R₃ → R₃ - R₂ gives [0, 0, λ-3 | μ-10]. For infinitely many solutions, rank(A) = rank(A|B) < 3. This requires the last row to vanish completely: λ - 3 = 0 and μ - 10 = 0 ⇒ λ = 3, μ = 10.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 4 (Determinants)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 4 (Determinants)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 20,
@@ -277,7 +315,9 @@
     "answer": 0,
     "subtopic": "Mathematics • Calculus & Limits",
     "explanation": "Using Maclaurin series expansions near x = 0: eˣ = 1 + x + x²/2! + O(x³) and cos x = 1 - x²/2! + O(x⁴). Numerator = (1 + x + x²/2) - (1 - x²/2) - x = x²/2 + x²/2 = x². Thus, lim_{x → 0} x² / x² = 1. (Alternatively, apply L'Hôpital's Rule twice: lim (eˣ + sin x - 1) / (2x) = lim (eˣ + cos x) / 2 = (1 + 1) / 2 = 1).",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 5 (Continuity and Differentiability)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 5 (Continuity and Differentiability)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 21,
@@ -291,7 +331,9 @@
     "answer": 0,
     "subtopic": "Mathematics • Definite Integrals",
     "explanation": "Using king's property ∫₀ᵃ f(x) dx = ∫₀ᵃ f(a - x) dx: I = ∫₀^(π/2) (√sin(π/2 - x)) / (√sin(π/2 - x) + √cos(π/2 - x)) dx = ∫₀^(π/2) (√cos x) / (√cos x + √sin x) dx. Adding both expressions: 2I = ∫₀^(π/2) [(√sin x + √cos x) / (√sin x + √cos x)] dx = ∫₀^(π/2) 1 dx = π/2 ⇒ I = π / 4.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 7 (Integrals)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 7 (Integrals)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 22,
@@ -305,7 +347,9 @@
     "answer": 0,
     "subtopic": "Mathematics • Differential Equations",
     "explanation": "Standard form: dy/dx + [1 / (x ln x)] y = 2 / x. Here P(x) = 1 / (x ln x). The integrating factor is I.F. = e^(∫ P(x) dx). Let u = ln x, then du = dx / x. ∫ du / u = ln u = ln(ln x). Thus, I.F. = e^(ln(ln x)) = ln x.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 9 (Differential Equations)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 9 (Differential Equations)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 23,
@@ -319,7 +363,9 @@
     "answer": 0,
     "subtopic": "Mathematics • Conic Sections",
     "explanation": "For the standard parabola y² = 4ax, the condition of tangency for the line y = mx + c is c = a / m. Here, 4a = 8 ⇒ a = 2. Therefore, c = 2 / m.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Mathematics Chapter 11 (Conic Sections)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 11 Mathematics Chapter 11 (Conic Sections)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 24,
@@ -333,7 +379,9 @@
     "answer": 0,
     "subtopic": "Mathematics • 3D Geometry & Vectors",
     "explanation": "Vector b = 2i + 3j + 6k with |b| = √(2² + 3² + 6²) = √(4 + 9 + 36) = √49 = 7. Point difference a₂ - a₁ = (3 - 1)i + (3 - 2)j + (-5 - (-4))k = 2i + j - k. Cross product (a₂ - a₁) × b = |i j k; 2 1 -1; 2 3 6| = i(6 - (-3)) - j(12 - (-2)) + k(6 - 2) = 9i - 14j + 4k. Magnitude = √(9² + (-14)² + 4²) = √(81 + 196 + 16) = √293. Shortest distance d = |(a₂ - a₁) × b| / |b| = √293 / 7.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 11 (Three Dimensional Geometry)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 11 (Three Dimensional Geometry)",
+    "type": "mcq",
+    "difficulty": "Medium"
   },
   {
     "id": 25,
@@ -347,6 +395,8 @@
     "answer": 0,
     "subtopic": "Mathematics • Probability",
     "explanation": "By Bayes' Theorem: P(A) = P(B) = 1/2. P(Red|A) = 3/8, P(Red|B) = 4/8 = 1/2. P(Red) = (1/2)(3/8) + (1/2)(4/8) = (3 + 4) / 16 = 7/16. P(A|Red) = [P(A) P(Red|A)] / P(Red) = [(1/2)(3/8)] / (7/16) = (3/16) / (7/16) = 3 / 7.",
-    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 13 (Probability)"
+    "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 13 (Probability)",
+    "type": "mcq",
+    "difficulty": "Medium"
   }
 ]

@@ -146,13 +146,14 @@
       </section>
 
       <section>
-        <h2>2. 100% In-Browser Execution Architecture (Zero Server Storage)</h2>
+        <h2>2. In-Browser Execution Architecture (Zero Server Storage of Test Data)</h2>
         <div class="legal-callout alert-success">
           <strong>The Client-Side Privacy Guarantee:</strong> When you start, answer, pause, or complete an examination on MockTestVault:
           <ul style="margin-top:8px; margin-bottom:0; padding-left:20px;">
             <li>Your selected answers, skipped questions, and marked-for-review flags are processed <strong>100% locally in your device's browser memory (RAM)</strong> via pure JavaScript state machines.</li>
             <li>No test score, question response, or examination timestamp is ever transmitted to or stored on our web servers or external cloud databases.</li>
             <li>When you close your browser tab or click "Reset Test", all active session data is immediately discarded.</li>
+            <li><em>Scope Note:</em> This client-side execution model applies specifically to examination session interaction and scoring data. Standard anonymous web server HTTP request logs (IP address, user agent) and aggregated usage metrics operate as disclosed in Section 5.</li>
           </ul>
         </div>
       </section>
@@ -169,6 +170,7 @@
           <li><code>mtv_bookmarks</code>: Locally saves question IDs you explicitly flagged via the "⭐ Bookmark Question" button so you can filter and revise them later.</li>
           <li><code>mtv_attempt_history</code>: Records your local examination score summaries (date, score, percentage, elapsed time) to render your self-study progression chart without cloud account sync.</li>
           <li><code>mtv_question_reports</code>: If you use the "Report Question / Suggest Correction" feature, your report text and optional email address are drafted and preserved exclusively on your device's local storage before opening your system email application. No automated background transmission takes place.</li>
+          <li><code>mcv_contact_reports</code>: When submitting an academic discrepancy or support inquiry through our Contact Desk, a local archive of your submission summary is stored on your device's browser memory so you have a record of submitted reports. No automatic server database persistence occurs.</li>
         </ul>
         <p>
           These keys reside exclusively within your local device browser sandbox and are never transmitted, synchronized, or uploaded to any remote server or third party. You can wipe these keys at any moment via your browser's "Clear Site Data" or "Clear Cookies & Cache" settings.
@@ -184,7 +186,7 @@
           <li><strong>Third-Party Advertising Vendors:</strong> Third-party vendors, including Google, use cookies to serve advertisements based on a user's prior visits to MockTestVault or other websites across the Internet.</li>
           <li><strong>Google Advertising Cookies:</strong> Google's use of advertising cookies enables it and its partners to serve personalized or contextual advertisements to users based on their visit to this site and other sites across the World Wide Web.</li>
           <li><strong>Personalized Ads Opt-Out:</strong> Users may opt out of personalized advertising by visiting Google's official privacy and advertising tools at: <br><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer"><strong>https://policies.google.com/technologies/ads</strong></a> and customizing their preferences at <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer"><strong>Google Ads Settings</strong></a>.</li>
-          <li><strong>European Economic Area (EEA), UK & Swiss CMP Compliance:</strong> When serving advertising to visitors located in the EEA, the United Kingdom, or Switzerland, MockTestVault utilizes a Google-certified Consent Management Platform (CMP) integrated with the IAB Europe Transparency and Consent Framework (TCF v2.2) to collect and manage user consent for personalized ads and cookies.</li>
+          <li><strong>European Economic Area (EEA), UK &amp; Swiss CMP Compliance:</strong> When personalized commercial advertising is activated for visitors located in the European Economic Area (EEA), the United Kingdom, or Switzerland, MockTestVault utilizes a Google-certified Consent Management Platform (CMP) integrated with the IAB Europe Transparency and Consent Framework (TCF v2.2) to collect and manage user consent for personalized ads and cookies. Prior to commercial ad serving, only essential operational state is maintained.</li>
           <li><strong>Industry-Wide Consumer Choice Portals:</strong> You may also opt out of third-party interest-based advertising cookies across participating ad networks by visiting:
             <ul style="margin-top:6px; margin-bottom:6px; padding-left:18px;">
               <li>Digital Advertising Alliance (DAA): <a href="https://optout.aboutads.info/" target="_blank" rel="noopener noreferrer">https://optout.aboutads.info/</a></li>

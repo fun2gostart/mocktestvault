@@ -457,7 +457,7 @@
       <h3 style="font-size:1.1rem; font-weight:700; color:var(--text-primary); margin-bottom:12px;">Frequently Asked Questions</h3>
       <div style="font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
         <p><strong>Q: Can I jump between sections during the 60 minutes?</strong><br>
-        Yes. In the official TCS iON CBT exam, all 100 questions across all four sections are accessible simultaneously without sectional timing locks.</p>
+        In accordance with the official SSC CGL 2026 examination notification, Tier-I features 15-minute independent sectional timers for each of the 4 sections (60 minutes total). This simulator tracks each section's 15-minute countdown and overall exam duration to reflect official 2026 examination conditions.</p>
         <p><strong>Q: What is a competitive raw score in SSC CGL Tier 1?</strong><br>
         A raw score of 145–155+ marks out of 200 is generally considered a safe benchmark for the Unreserved (UR) category to ensure qualification for Tier 2.</p>
       </div>
@@ -502,6 +502,13 @@
         timeLimitMinutes: 60,
         markingScheme: { correct: 2, wrong: -0.5 },
         examType: 'competitive',
+        sectionalTimer: {
+          enabled: true,
+          durationMinutes: 15,
+          sectionsCount: 4,
+          questionsPerSection: 25,
+          strictLock: false
+        },
         setSources: {
           set1: '../data/in/ssc/cgl_tier1_mock01_full.json'
         }
