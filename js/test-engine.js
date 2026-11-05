@@ -19,6 +19,18 @@ class MockTestEngine {
     this.markingScheme = options.markingScheme || { correct: 1, wrong: 0 };
     this.examType = options.examType || 'board'; // 'board' or 'competitive'
     this.questions = [];
+
+    // Sectional Timer Support (Official SSC CGL 2026 pattern: 15-min sectional timers)
+    this.sectionalTimer = options.sectionalTimer || (this.examType === 'competitive' && this.timeLimitMinutes === 60 ? {
+      enabled: true,
+      durationMinutes: 15,
+      sectionsCount: 4,
+      questionsPerSection: 25,
+      strictLock: false // flexible practice by default; togglable to strict lock
+    } : null);
+    this.currentSectionIndex = 0;
+    this.sectionTimeRemaining = this.sectionalTimer ? this.sectionalTimer.durationMinutes * 60 : 0;
+    this.lockedSections = {};
     
     // State
     this.currentIndex = 0;
@@ -660,6 +672,30 @@ class MockTestEngine {
     this.updateTimerDisplay();
     this.timerInterval = setInterval(() => {
       this.timeRemaining--;
+
+      // If sectional timer is enabled (e.g., SSC CGL 15-minute sections)
+      if (this.sectionalTimer && this.sectionalTimer.enabled) {
+        this.sectionTimeRemaining--;
+        if (this.sectionTimeRemaining <= 0) {
+          this.lockedSections[this.currentSectionIndex] = true;
+          const prevSec = this.currentSectionIndex;
+          if (this.currentSectionIndex < this.sectionalTimer.sectionsCount - 1) {
+            this.currentSectionIndex++;
+            this.sectionTimeRemaining = this.sectionalTimer.durationMinutes * 60;
+            const newQIdx = this.currentSectionIndex * this.sectionalTimer.questionsPerSection;
+            this.renderQuestion(newQIdx);
+            this.updateActiveSectionTab(this.currentSectionIndex);
+            this.playTone('ding');
+            alert(`Section ${prevSec + 1} 15-minute time has expired! Moving automatically to Section ${this.currentSectionIndex + 1}.`);
+          } else {
+            this.stopTimer();
+            alert("All examination sections completed! Your mock test will now be submitted.");
+            this.submitTest();
+            return;
+          }
+        }
+      }
+
       this.updateTimerDisplay();
       if (this.timeRemaining <= 0) {
         this.stopTimer();
@@ -680,18 +716,46 @@ class MockTestEngine {
     if (!this.dom.timerDisplay) return;
     const mins = Math.floor(this.timeRemaining / 60);
     const secs = this.timeRemaining % 60;
-    this.dom.timerDisplay.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+
+    if (this.sectionalTimer && this.sectionalTimer.enabled) {
+      const secMins = Math.floor(this.sectionTimeRemaining / 60);
+      const secSecs = this.sectionTimeRemaining % 60;
+      this.dom.timerDisplay.innerHTML = `<span title="Current Section Time (15-min limit)" style="color:var(--primary); font-weight:700;">Sec: ${secMins.toString().padStart(2, '0')}:${secSecs.toString().padStart(2, '0')}</span> <span style="opacity:0.4;">|</span> <span title="Total Examination Time (60-min limit)">Total: ${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}</span>`;
+    } else {
+      this.dom.timerDisplay.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    }
     
     if (this.dom.timerBox) {
-      if (this.timeRemaining <= 60) {
+      const checkTime = (this.sectionalTimer && this.sectionalTimer.enabled) ? this.sectionTimeRemaining : this.timeRemaining;
+      if (checkTime <= 60) {
         this.dom.timerBox.classList.remove('warning');
         this.dom.timerBox.classList.add('critical');
-      } else if (this.timeRemaining <= 300) {
+      } else if (checkTime <= 300) {
         this.dom.timerBox.classList.add('warning');
         this.dom.timerBox.classList.remove('critical');
       } else {
         this.dom.timerBox.classList.remove('warning', 'critical');
       }
+    }
+  }
+
+  getSectionForIndex(index) {
+    if (!this.sectionalTimer) return 0;
+    return Math.floor(index / (this.sectionalTimer.questionsPerSection || 25));
+  }
+
+  updateActiveSectionTab(secIndex) {
+    const tabs = document.querySelectorAll('.cgl-sec-btn');
+    if (tabs && tabs.length > secIndex) {
+      tabs.forEach((tab, i) => {
+        tab.classList.toggle('active', i === secIndex);
+        if (this.lockedSections && this.lockedSections[i]) {
+          tab.classList.add('locked');
+          tab.style.opacity = '0.5';
+          tab.style.cursor = 'not-allowed';
+          tab.title = 'Section completed & locked (15-min limit expired)';
+        }
+      });
     }
   }
 
@@ -914,6 +978,19 @@ class MockTestEngine {
   }
 
   jumpToQuestion(index) {
+    if (this.sectionalTimer && this.sectionalTimer.enabled) {
+      const targetSec = this.getSectionForIndex(index);
+      if (this.lockedSections && this.lockedSections[targetSec]) {
+        alert(`Section ${targetSec + 1} is locked in accordance with the official SSC CGL 2026 15-minute sectional pattern. You cannot return to previous sections.`);
+        return;
+      }
+      if (this.sectionalTimer.strictLock && targetSec !== this.currentSectionIndex) {
+        alert(`Under official 2026 sectional timing, you must complete Section ${this.currentSectionIndex + 1} before attempting other sections.`);
+        return;
+      }
+      this.currentSectionIndex = targetSec;
+      this.updateActiveSectionTab(targetSec);
+    }
     if (index >= 0 && index < this.questions.length) {
       this.playTone('click');
       this.renderQuestion(index);
@@ -1153,9 +1230,9 @@ class MockTestEngine {
       else if (toeflScaled >= 10) toeflLevel = "Low-Intermediate / CEFR B1";
       else toeflLevel = "Below Low-Intermediate";
 
-      rankBadge = `🎧 TOEFL® iBT Practice Scaled: ${toeflScaled} / 30`;
-      rankDesc = `${toeflLevel}. Practice score indicator for this 20-question module (classic 35-min reading format).`;
-      predictedGrade = `Estimated Section Score: ${toeflScaled} / 30 • Raw: ${correct} / ${total} Correct`;
+      rankBadge = `🎧 TOEFL® iBT Diagnostic Indicator: ${toeflScaled} / 30`;
+      rankDesc = `${toeflLevel}. Practice score indicator for this 20-question reading diagnostic drill. (Note: On January 21, 2026, ETS introduced the redesigned adaptive TOEFL iBT with a 1–6 score scale; this drill provides classic section-level skill practice).`;
+      predictedGrade = `Diagnostic Reading Score: ${toeflScaled} / 30 • Raw: ${correct} / ${total} Correct`;
     } else if (this.examType === 'gmat') {
       const gmatSecScaled = Math.round(60 + (correct / Math.max(1, total)) * 30);
       let gmatPct = "Top Tier MBA Range";
@@ -1208,16 +1285,16 @@ class MockTestEngine {
     } else if (this.examType === 'nta') {
       const accuracy = Math.round((correct / Math.max(1, correct + wrong)) * 100);
       if (scorePct >= 70) {
-        rankBadge = "🏆 99th Percentile Trajectory!";
-        rankDesc = "Exceptional speed and precision under NTA negative marking (+4 / -1). Well qualified for top IIT / AIIMS cutoffs.";
+        rankBadge = "🏆 Advanced Practice Performance";
+        rankDesc = "High precision and speed under NTA +4 / -1 negative marking. Maintain accuracy on multi-step formula applications.";
       } else if (scorePct >= 45) {
-        rankBadge = "🎯 NIT / Govt Medical College Benchmark";
-        rankDesc = "Competitive attempt. Focus on eliminating negative penalty guesses in numerical calculations.";
+        rankBadge = "🎯 Competitive Practice Range";
+        rankDesc = "Solid grasp of foundational concepts. Focus on eliminating unforced negative penalty errors in numerical problems.";
       } else {
-        rankBadge = "📚 Speed & Accuracy Drill Required";
-        rankDesc = "Avoid negative penalty guesses. Target 85%+ accuracy on high-confidence questions first.";
+        rankBadge = "📚 Foundational Practice Required";
+        rankDesc = "Prioritize NCERT core theory, fundamental derivations, and high-weightage textbook formulas before attempting timed speed drills.";
       }
-      predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Accuracy: ${accuracy}%`;
+      predictedGrade = `Raw Score: ${marksObtained} / ${maxMarks} Marks • Practice Accuracy: ${accuracy}%`;
     } else {
       // Board default
       if (scorePct < 40) {
