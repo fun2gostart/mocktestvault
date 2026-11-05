@@ -1,47 +1,58 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+
+<html data-theme="light" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
-  <script>
+<!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
+<script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SSC CGL Tier 1 Mock Tests &amp; Speed Drills | MockTestVault</title>
-  <meta name="description" content="Free SSC CGL Tier-I practice mocks and subject drills. Practise 100 questions, 200 marks, 60 minutes with 15-minute sectional timers, and +2/-0.50 marking.">
-    <link rel="alternate" type="application/atom+xml" title="MockTestVault Feed" href="https://mocktestvault.com/feed.xml">
-  <link rel="alternate" type="text/markdown" title="LLM & AI Discovery Directory" href="https://mocktestvault.com/llms.txt">
-  <!-- Canonical & Open Graph (Social Sharing) -->
-  <link rel="canonical" href="https://mocktestvault.com/ssc-cgl/">
-  <meta property="og:site_name" content="MockTestVault">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://mocktestvault.com/ssc-cgl/">
-  <meta property="og:title" content="SSC CGL 2025–2026 Tier 1 Mock Tests & Sectional Speed Tests | MockTestVault">
-  <meta property="og:description" content="Free online SSC CGL and CHSL Tier 1 mock tests and 25-question sectional speed drills. 2026 notification pattern: 100 Qs, 60 mins, +2/-0.5 marking, five-state question palette, and instant solutions.">
-  <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="SSC CGL 2025–2026 Tier 1 Mock Tests & Sectional Speed Tests | MockTestVault">
-  <meta name="twitter:description" content="Free online SSC CGL and CHSL Tier 1 mock tests and 25-question sectional speed drills. 2026 notification pattern: 100 Qs, 60 mins, +2/-0.5 marking, five-state question palette, and instant solutions.">
-  <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta name="twitter:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-  <meta name="keywords" content="ssc cgl mock test, ssc cgl tier 1 online test series, ssc reasoning mock, ssc quant speed test, ssc chsl practice test, free ssc testbook alternative">
-
-  <link rel="stylesheet" href="../css/test-engine.css">
-
-  <!-- Schema.org FAQPage Structured Data -->
-  <script type="application/ld+json">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SSC CGL 2026 Tier-I Mock Tests &amp; Practice | MockTestVault</title>
+<meta content="Practise with independent SSC CGL 2026 Tier-I mocks and sectional drills. Check the official notice for the current structure, timing and marking rules." name="description"/>
+<link href="https://mocktestvault.com/feed.xml" rel="alternate" title="MockTestVault Feed" type="application/atom+xml"/>
+<link href="https://mocktestvault.com/llms.txt" rel="alternate" title="LLM &amp; AI Discovery Directory" type="text/markdown"/>
+<!-- Canonical & Open Graph (Social Sharing) -->
+<link href="https://mocktestvault.com/ssc-cgl/" rel="canonical"/>
+<meta content="MockTestVault" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="https://mocktestvault.com/ssc-cgl/" property="og:url"/>
+<meta content="SSC CGL 2026 Tier-I Mock Tests &amp; Practice | MockTestVault" property="og:title"/>
+<meta content="Practise with independent SSC CGL 2026 Tier-I mocks and sectional drills. Check the official notice for the current structure, timing and marking rules." property="og:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image:secure_url"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" property="og:image:alt"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="SSC CGL 2026 Tier-I Mock Tests &amp; Practice | MockTestVault" name="twitter:title"/>
+<meta content="Practise with independent SSC CGL 2026 Tier-I mocks and sectional drills. Check the official notice for the current structure, timing and marking rules." name="twitter:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" name="twitter:image"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" name="twitter:image:alt"/>
+<meta content="ssc cgl mock test, ssc cgl tier 1 online test series, ssc reasoning mock, ssc quant speed test, ssc chsl practice test, free ssc testbook alternative" name="keywords"/>
+<link href="../css/test-engine.css" rel="stylesheet"/>
+<!-- Schema.org FAQPage Structured Data -->
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -89,8 +100,7 @@
     ]
   }
   </script>
-
-  <style>
+<style>
     .ssc-hero {
       background: linear-gradient(135deg, #091e3a 0%, #173862 50%, #1e293b 100%);
       color: #f8fafc;
@@ -471,777 +481,714 @@
       margin-top: 40px;
     }
   </style>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-  <script src="/js/consent.js" defer></script>
+<link href="/manifest.json" rel="manifest"/>
+<meta content="#2563eb" name="theme-color"/>
+<script defer="" src="/js/consent.js"></script>
 </head>
 <body>
-
-  <!-- Site Navigation Header -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="../index.html" class="brand-link">
-        <div class="brand-logo">🛡️</div>
-        <div class="brand-text">
-          <div class="brand-name font-bold">MockTestVault <span class="vault-pill">SSC CGL Tier 1</span></div>
-          <p>Independent Exam-Pattern Practice Vault</p>
-        </div>
-      </a>
-
-      <div class="header-controls">
-        <a href="../cbse-class-10/index.html" class="nav-btn" style="padding:6px 14px; font-size:0.82rem; text-decoration:none; background:var(--bg-surface); border:1px solid var(--border-color); color:var(--text-color); border-radius:8px; display:inline-flex; align-items:center; gap:6px;">
-          <span>📚</span> CBSE Class 10
+<!-- Site Navigation Header -->
+<header class="site-header">
+<div class="header-container">
+<a class="brand-link" href="../index.html">
+<div class="brand-logo">🛡️</div>
+<div class="brand-text">
+<div class="brand-name font-bold">MockTestVault <span class="vault-pill">SSC CGL Tier 1</span></div>
+<p>Independent Exam-Pattern Practice Vault</p>
+</div>
+</a>
+<div class="header-controls">
+<a class="nav-btn" href="../cbse-class-10/index.html" style="padding:6px 14px; font-size:0.82rem; text-decoration:none; background:var(--bg-surface); border:1px solid var(--border-color); color:var(--text-color); border-radius:8px; display:inline-flex; align-items:center; gap:6px;">
+<span>📚</span> CBSE Class 10
         </a>
-        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Hero Banner -->
-  <section class="ssc-hero">
-    <div class="hero-meta-badges">
-      <span class="hero-badge">🎯 SSC CGL 2026 Practice</span>
-      <span class="hero-badge">⚡ 2026 Sectional Timing</span>
-      <span class="hero-badge">⚡ 100% Free & Distraction-Free</span>
-    </div>
-
-    <h1>SSC CGL Tier 1 Full Mocks & Sectional Speed Tests</h1>
-    <p>
-      Practice with high-precision mock papers matching the official SSC pattern. Choose between comprehensive 60-minute full exams or 25-question sectional speed drills with instant solutions and negative marking analysis.
+<button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+</div>
+</div>
+</header>
+<!-- Hero Banner -->
+<section class="ssc-hero">
+<div class="hero-meta-badges">
+<span class="hero-badge">🎯 SSC CGL 2026 Practice</span>
+<span class="hero-badge">⚡ 2026 Sectional Timing</span>
+<span class="hero-badge">⚡ 100% Free &amp; Distraction-Free</span>
+</div>
+<h1>SSC CGL Tier 1 Full Mocks &amp; Sectional Speed Tests</h1>
+<p>
+      Practice with independent practice mocks organized around the published SSC examination pattern. Choose between comprehensive 60-minute full exams or 25-question sectional speed drills with instant solutions and negative marking analysis.
     </p>
-
-    <!-- Key Exam Stats Grid -->
-    <div class="exam-stats-banner">
-      <div class="exam-stat-pill">
-        <span>Full Exam Duration</span>
-        <strong>60 Minutes</strong>
-      </div>
-      <div class="exam-stat-pill">
-        <span>Questions / Marks</span>
-        <strong>100 Qs • 200 Marks</strong>
-      </div>
-      <div class="exam-stat-pill">
-        <span>Marking Scheme</span>
-        <strong>+2.00 / -0.50 Mark</strong>
-      </div>
-      <div class="exam-stat-pill">
-        <span>Format</span>
-        <strong>Independent CBT Practice</strong>
-      </div>
-    </div>
-
-    <!-- Strategic Syllabus & Preparation Guide Feature Banner -->
-    <div style="margin-top:24px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
-      <a href="cgl-tier1-2023-shift1-pyq.html" style="display:inline-flex; align-items:center; gap:8px; padding:10px 22px; background:linear-gradient(135deg, #059669, #047857); border:1px solid #059669; border-radius:9999px; color:#ffffff; font-weight:700; font-size:0.92rem; text-decoration:none; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(5,150,105,0.35);">
-        <span>📜</span> Launch 2023 Shift 1 Solved Exam (100 Qs) →
+<!-- Key Exam Stats Grid -->
+<div class="exam-stats-banner">
+<div class="exam-stat-pill">
+<span>Full Exam Duration</span>
+<strong>60 Minutes</strong>
+</div>
+<div class="exam-stat-pill">
+<span>Questions / Marks</span>
+<strong>100 Qs • 200 Marks</strong>
+</div>
+<div class="exam-stat-pill">
+<span>Marking Scheme</span>
+<strong>+2.00 / -0.50 Mark</strong>
+</div>
+<div class="exam-stat-pill">
+<span>Format</span>
+<strong>Independent CBT Practice</strong>
+</div>
+</div>
+<!-- Strategic Syllabus & Preparation Guide Feature Banner -->
+<div style="margin-top:24px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+<a href="cgl-tier1-2023-shift1-pyq.html" style="display:inline-flex; align-items:center; gap:8px; padding:10px 22px; background:linear-gradient(135deg, #059669, #047857); border:1px solid #059669; border-radius:9999px; color:#ffffff; font-weight:700; font-size:0.92rem; text-decoration:none; transition:all 0.2s ease; box-shadow:0 4px 12px rgba(5,150,105,0.35);">
+<span>📜</span> Launch 2023 Shift 1 Solved Exam (100 Qs) →
       </a>
-      <a href="tier-1-syllabus-strategy.html" style="display:inline-flex; align-items:center; gap:8px; padding:10px 22px; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); border-radius:9999px; color:#ffffff; font-weight:700; font-size:0.92rem; text-decoration:none; transition:all 0.2s ease;">
-        <span>📑</span> View Official Syllabus &amp; Strategy →
+<a href="tier-1-syllabus-strategy.html" style="display:inline-flex; align-items:center; gap:8px; padding:10px 22px; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); border-radius:9999px; color:#ffffff; font-weight:700; font-size:0.92rem; text-decoration:none; transition:all 0.2s ease;">
+<span>📑</span> View Official Syllabus &amp; Strategy →
       </a>
-    </div>
-  </section>
-
-  <!-- Main Container -->
-  <main class="test-series-container">
-
-    <!-- 1-Click Rapid Sectional Speed Drill Launcher -->
-    <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:14px; padding:18px 24px; margin-bottom:28px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-      <div style="display:flex; align-items:center; gap:12px;">
-        <span style="font-size:1.6rem;">⚡</span>
-        <div>
-          <strong style="color:var(--text-primary); font-size:1rem;">Targeted Speed Training: 10–20 Minute 25-Question Sectional Drills</strong>
-          <p style="font-size:0.82rem; color:var(--text-secondary); margin:2px 0 0 0;">Zero in on specific timing bottlenecks without sitting through a full 60-minute mock:</p>
-        </div>
-      </div>
-      <div style="display:flex; gap:8px; flex-wrap:wrap;">
-        <a href="sectional-quantitative-aptitude-01.html" class="nav-btn" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#ffffff; font-weight:700; text-decoration:none; padding:8px 14px; border-radius:8px; font-size:0.82rem; box-shadow:0 2px 6px rgba(37,99,235,0.25);">📐 Quant (25 Qs)</a>
-        <a href="sectional-reasoning-01.html" class="nav-btn" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#ffffff; font-weight:700; text-decoration:none; padding:8px 14px; border-radius:8px; font-size:0.82rem; box-shadow:0 2px 6px rgba(37,99,235,0.25);">🧩 Reasoning (25 Qs)</a>
-        <a href="sectional-english-01.html" class="nav-btn" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#ffffff; font-weight:700; text-decoration:none; padding:8px 14px; border-radius:8px; font-size:0.82rem; box-shadow:0 2px 6px rgba(37,99,235,0.25);">📖 English (25 Qs)</a>
-        <a href="sectional-general-awareness-01.html" class="nav-btn" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#ffffff; font-weight:700; text-decoration:none; padding:8px 14px; border-radius:8px; font-size:0.82rem; box-shadow:0 2px 6px rgba(37,99,235,0.25);">🌍 GA / GK (25 Qs)</a>
-      </div>
-    </div>
-
-    <!-- Official SSC CGL Tier 1 Exam Pattern Blueprint -->
-    <details style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:14px; padding:14px 20px; margin-bottom:32px; cursor:pointer;">
-      <summary style="font-weight:700; font-size:0.95rem; color:var(--text-primary); display:flex; align-items:center; gap:8px; user-select:none;">
-        <span>📊 Official SSC CGL Tier 1 Examination Pattern &amp; Mark Distribution (Click to View Structure)</span>
-      </summary>
-      <div class="blueprint-table-wrapper" style="margin-top:16px;">
-        <table class="blueprint-table">
-          <thead>
-            <tr>
-              <th>Section</th>
-              <th>Subject Area</th>
-              <th>Questions</th>
-              <th>Max Marks</th>
-              <th>Marking Scheme</th>
-              <th>Ideal Time Target</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Section 1</strong></td>
-              <td>General Intelligence &amp; Reasoning</td>
-              <td>25 Questions</td>
-              <td>50 Marks</td>
-              <td>+2.00 / -0.50 Mark</td>
-              <td>15 Minutes</td>
-            </tr>
-            <tr>
-              <td><strong>Section 2</strong></td>
-              <td>General Awareness (History, Polity, Sci, CA)</td>
-              <td>25 Questions</td>
-              <td>50 Marks</td>
-              <td>+2.00 / -0.50 Mark</td>
-              <td>15 Minutes</td>
-            </tr>
-            <tr>
-              <td><strong>Section 3</strong></td>
-              <td>Quantitative Aptitude (Arithmetic &amp; Advanced)</td>
-              <td>25 Questions</td>
-              <td>50 Marks</td>
-              <td>+2.00 / -0.50 Mark</td>
-              <td>15 Minutes</td>
-            </tr>
-            <tr>
-              <td><strong>Section 4</strong></td>
-              <td>English Comprehension &amp; Grammar</td>
-              <td>25 Questions</td>
-              <td>50 Marks</td>
-              <td>+2.00 / -0.50 Mark</td>
-              <td>15 Minutes</td>
-            </tr>
-            <tr style="background:var(--bg-subtle); font-weight:700;">
-              <td colspan="2"><strong>SSC CGL 2026 Tier-I Total</strong></td>
-              <td><strong>100 Questions</strong></td>
-              <td><strong>200 Marks</strong></td>
-              <td><strong>Negative: -0.50 per wrong</strong></td>
-              <td><strong>Total: 60 Minutes</strong></td>
-            </tr>
-          </tbody>
-        
-          <p style="margin-top:12px;">For the 2026 Tier-I structure, each of the four subjects has its own 15-minute section. The practice mocks follow this sequential structure; the SSC notification is the controlling source for exam conditions.</p>
+</div>
+</section>
+<!-- Main Container -->
+<main class="test-series-container">
+<!-- 1-Click Rapid Sectional Speed Drill Launcher -->
+<div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:14px; padding:18px 24px; margin-bottom:28px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+<div style="display:flex; align-items:center; gap:12px;">
+<span style="font-size:1.6rem;">⚡</span>
+<div>
+<strong style="color:var(--text-primary); font-size:1rem;">Targeted Speed Training: 10–20 Minute 25-Question Sectional Drills</strong>
+<p style="font-size:0.82rem; color:var(--text-secondary); margin:2px 0 0 0;">Zero in on specific timing bottlenecks without sitting through a full 60-minute mock:</p>
+</div>
+</div>
+<div style="display:flex; gap:8px; flex-wrap:wrap;">
+<a class="nav-btn" href="sectional-quantitative-aptitude-01.html" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#ffffff; font-weight:700; text-decoration:none; padding:8px 14px; border-radius:8px; font-size:0.82rem; box-shadow:0 2px 6px rgba(37,99,235,0.25);">📐 Quant (25 Qs)</a>
+<a class="nav-btn" href="sectional-reasoning-01.html" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#ffffff; font-weight:700; text-decoration:none; padding:8px 14px; border-radius:8px; font-size:0.82rem; box-shadow:0 2px 6px rgba(37,99,235,0.25);">🧩 Reasoning (25 Qs)</a>
+<a class="nav-btn" href="sectional-english-01.html" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#ffffff; font-weight:700; text-decoration:none; padding:8px 14px; border-radius:8px; font-size:0.82rem; box-shadow:0 2px 6px rgba(37,99,235,0.25);">📖 English (25 Qs)</a>
+<a class="nav-btn" href="sectional-general-awareness-01.html" style="background:linear-gradient(135deg, #2563eb, #1d4ed8); border:1px solid #1d4ed8; color:#ffffff; font-weight:700; text-decoration:none; padding:8px 14px; border-radius:8px; font-size:0.82rem; box-shadow:0 2px 6px rgba(37,99,235,0.25);">🌍 GA / GK (25 Qs)</a>
+</div>
+</div>
+<!-- Official SSC CGL Tier 1 Exam Pattern Blueprint -->
+<details style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:14px; padding:14px 20px; margin-bottom:32px; cursor:pointer;">
+<summary style="font-weight:700; font-size:0.95rem; color:var(--text-primary); display:flex; align-items:center; gap:8px; user-select:none;">
+<span>📊 Official SSC CGL Tier 1 Examination Pattern &amp; Mark Distribution (Click to View Structure)</span>
+</summary>
+<div class="blueprint-table-wrapper" style="margin-top:16px;">
+<table class="blueprint-table">
+<thead>
+<tr>
+<th>Section</th>
+<th>Subject Area</th>
+<th>Questions</th>
+<th>Max Marks</th>
+<th>Marking Scheme</th>
+<th>Ideal Time Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Section 1</strong></td>
+<td>General Intelligence &amp; Reasoning</td>
+<td>25 Questions</td>
+<td>50 Marks</td>
+<td>+2.00 / -0.50 Mark</td>
+<td>15 Minutes</td>
+</tr>
+<tr>
+<td><strong>Section 2</strong></td>
+<td>General Awareness (History, Polity, Sci, CA)</td>
+<td>25 Questions</td>
+<td>50 Marks</td>
+<td>+2.00 / -0.50 Mark</td>
+<td>15 Minutes</td>
+</tr>
+<tr>
+<td><strong>Section 3</strong></td>
+<td>Quantitative Aptitude (Arithmetic &amp; Advanced)</td>
+<td>25 Questions</td>
+<td>50 Marks</td>
+<td>+2.00 / -0.50 Mark</td>
+<td>15 Minutes</td>
+</tr>
+<tr>
+<td><strong>Section 4</strong></td>
+<td>English Comprehension &amp; Grammar</td>
+<td>25 Questions</td>
+<td>50 Marks</td>
+<td>+2.00 / -0.50 Mark</td>
+<td>15 Minutes</td>
+</tr>
+<tr style="background:var(--bg-subtle); font-weight:700;">
+<td colspan="2"><strong>SSC CGL 2026 Tier-I Total</strong></td>
+<td><strong>100 Questions</strong></td>
+<td><strong>200 Marks</strong></td>
+<td><strong>Negative: -0.50 per wrong</strong></td>
+<td><strong>Total: 60 Minutes</strong></td>
+</tr>
+</tbody>
+<p style="margin-top:12px;">For the 2026 Tier-I structure, each of the four subjects has its own 15-minute section. The practice mocks follow this sequential structure; the SSC notification is the controlling source for exam conditions.</p>
 </table>
-      </div>
-    </details>
-
-    <!-- Section 1: Full-Length Tier 1 Mock Tests -->
-    <div class="section-heading-bar">
-      <h2><span>🏆</span> Full-Length Tier 1 Mocks (100 Questions • 60 Mins)</h2>
-      <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Full 4 Sections Combined • Real Exam Simulation</span>
-    </div>
-
-    <div class="full-mocks-grid">
-      <!-- Full Mock 01 -->
-      <a href="mock-01.html" class="test-card featured">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">All 4 Sections</span>
-            <span class="tag-status-live">● Live Now</span>
-          </div>
-          <h3 class="card-title">SSC CGL Tier 1 Official Full Mock Test 01</h3>
-          <p class="card-desc">
+</div>
+</details>
+<!-- Section 1: Full-Length Tier 1 Mock Tests -->
+<div class="section-heading-bar">
+<h2><span>🏆</span> Full-Length Tier 1 Mocks (100 Questions • 60 Mins)</h2>
+<span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Full 4 Sections Combined • Real Exam Simulation</span>
+</div>
+<div class="full-mocks-grid">
+<!-- Full Mock 01 -->
+<a class="test-card featured" href="mock-01.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">All 4 Sections</span>
+<span class="tag-status-live">● Live Now</span>
+</div>
+<h3 class="card-title">SSC CGL Tier 1 Full Practice Mock 01</h3>
+<p class="card-desc">
             Complete exam replica: 25 Reasoning + 25 General Awareness + 25 Quantitative Aptitude + 25 English Comprehension. Full sectional navigation, 60-min timer, and detailed solutions.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start Full Mock Test 01</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Full Mock 02 -->
-      <a href="mock-02.html" class="test-card featured">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">All 4 Sections</span>
-            <span class="tag-status-live">● Live Now</span>
-          </div>
-          <h3 class="card-title">SSC CGL Tier 1 Official Full Mock Test 02</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start Full Mock Test 01</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Full Mock 02 -->
+<a class="test-card featured" href="mock-02.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">All 4 Sections</span>
+<span class="tag-status-live">● Live Now</span>
+</div>
+<h3 class="card-title">SSC CGL Tier 1 Full Practice Mock 02</h3>
+<p class="card-desc">
             Second full-length simulation: 25 Reasoning + 25 General Awareness + 25 Quantitative Aptitude + 25 English Comprehension. Advanced geometry, static GK, grammar rules, and syllogisms.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start Full Mock Test 02</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Full Mock 03 -->
-      <a href="mock-03.html" class="test-card featured">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">All 4 Sections</span>
-            <span class="tag-status-live">● Live Now</span>
-          </div>
-          <h3 class="card-title">SSC CGL Tier 1 Official Full Mock Test 03</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start Full Mock Test 02</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Full Mock 03 -->
+<a class="test-card featured" href="mock-03.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">All 4 Sections</span>
+<span class="tag-status-live">● Live Now</span>
+</div>
+<h3 class="card-title">SSC CGL Tier 1 Full Practice Mock 03</h3>
+<p class="card-desc">
             Third full-length simulation: 25 Reasoning + 25 General Awareness + 25 Quantitative Aptitude + 25 English Comprehension. AM-GM trigonometric extremes, Poona Pact, divisibility by 72, and balanced option calibration.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start Full Mock Test 03</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-    </div>
-
-    <!-- Section: 2023 Shift-Labelled Practice Sets (Provenance Unverified) -->
-    <div class="section-heading-bar" style="margin-top: 48px;">
-      <div>
-        <h2><span>📜</span> 2023 Shift-Labelled Practice Sets (Provenance Unverified)</h2>
-        <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">2023 Shift-Based Practice Papers • 100 Qs • 60 Mins</span>
-      </div>
-    </div>
-
-    <div class="full-mocks-grid">
-      <!-- 2023 Shift 1 -->
-      <a href="cgl-tier1-2023-shift1-pyq.html" class="test-card featured">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">Shift-Based Practice Paper</span>
-            <span class="tag-status-live" style="background:#059669; color:#fff;">● 14 July 2023 (Shift 1)</span>
-          </div>
-          <h3 class="card-title">SSC CGL Tier-I 2023 Shift-Based Practice Paper — Shift 1</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start Full Mock Test 03</span>
+<span>→</span>
+</div>
+</div>
+</a>
+</div>
+<!-- Section: 2023 Shift-Labelled Practice Sets (Provenance Unverified) -->
+<div class="section-heading-bar" style="margin-top: 48px;">
+<div>
+<h2><span>📜</span> 2023 Shift-Labelled Practice Sets (Provenance Unverified)</h2>
+<span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">2023 Shift-Based Practice Papers • 100 Qs • 60 Mins</span>
+</div>
+</div>
+<div class="full-mocks-grid">
+<!-- 2023 Shift 1 -->
+<a class="test-card featured" href="cgl-tier1-2023-shift1-pyq.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">Shift-Based Practice Paper</span>
+<span class="tag-status-live" style="background:#059669; color:#fff;">● 14 July 2023 (Shift 1)</span>
+</div>
+<h3 class="card-title">SSC CGL Tier-I 2023 Shift-Based Practice Paper — Shift 1</h3>
+<p class="card-desc">
             Independent shift-labelled practice set: 25 Reasoning + 25 General Awareness + 25 Quantitative Aptitude + 25 English Comprehension. Independent practice interface using the 2023 paper structure, 60-minute practice timer and +2.0/-0.5 marking. This is not an official SSC interface.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn" style="background:linear-gradient(135deg, #059669, #047857);">
-            <span>Start Official Shift 1 Exam</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- 2023 Shift 2 -->
-      <a href="cgl-tier1-2023-shift2-pyq.html" class="test-card featured">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">Shift-Based Practice Paper</span>
-            <span class="tag-status-live" style="background:#2563eb; color:#fff;">● 14 July 2023 (Shift 2)</span>
-          </div>
-          <h3 class="card-title">SSC CGL Tier-I 2023 Shift-Based Practice Paper — Shift 2</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn" style="background:linear-gradient(135deg, #059669, #047857);">
+<span>Start Shift 1 Practice Set</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- 2023 Shift 2 -->
+<a class="test-card featured" href="cgl-tier1-2023-shift2-pyq.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">Shift-Based Practice Paper</span>
+<span class="tag-status-live" style="background:#2563eb; color:#fff;">● 14 July 2023 (Shift 2)</span>
+</div>
+<h3 class="card-title">SSC CGL Tier-I 2023 Shift-Based Practice Paper — Shift 2</h3>
+<p class="card-desc">
             Independent shift-labelled practice compilation. The original SSC response sheet and final answer key are not attached or item-matched in this release; exact PYQ provenance is unverified.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn" style="background:linear-gradient(135deg, #2563eb, #1d4ed8);">
-            <span>Start Official Shift 2 Exam</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <!-- Section 2: 25-Question Sectional Speed Tests -->
-    <div class="section-heading-bar">
-      <div>
-        <h2><span>⚡</span> 10–20 Minute Sectional Speed Drills (25 Questions Each)</h2>
-        <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Bite-sized 10–20 min practice for daily target building</span>
-      </div>
-    </div>
-
-    <!-- Subject Filter Toolbar -->
-    <div class="drill-filter-bar" role="tablist" aria-label="Speed Drill Subject Filters">
-      <button class="drill-filter-btn active" data-filter="all" role="tab" aria-selected="true">
-        <span>⚡ All Drills</span>
-        <span class="filter-count">12</span>
-      </button>
-      <button class="drill-filter-btn" data-filter="reasoning" role="tab" aria-selected="false">
-        <span>🧠 Reasoning</span>
-        <span class="filter-count">3</span>
-      </button>
-      <button class="drill-filter-btn" data-filter="quant" role="tab" aria-selected="false">
-        <span>📐 Quantitative Aptitude</span>
-        <span class="filter-count">3</span>
-      </button>
-      <button class="drill-filter-btn" data-filter="english" role="tab" aria-selected="false">
-        <span>📖 English Comprehension</span>
-        <span class="filter-count">3</span>
-      </button>
-      <button class="drill-filter-btn" data-filter="ga" role="tab" aria-selected="false">
-        <span>🌍 General Awareness</span>
-        <span class="filter-count">3</span>
-      </button>
-    </div>
-
-    <div class="drills-grid" id="drills-grid">
-
-      <!-- Sectional 1: Reasoning Drill 01 (Featured Top 4) -->
-      <a href="sectional-reasoning-01.html" class="test-card" data-subject="reasoning" data-featured="true">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">Reasoning</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">General Intelligence &amp; Reasoning — Speed Drill 01</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>60 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>100 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>200 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn" style="background:linear-gradient(135deg, #2563eb, #1d4ed8);">
+<span>Start Shift 2 Practice Set</span>
+<span>→</span>
+</div>
+</div>
+</a>
+</div>
+<!-- Section 2: 25-Question Sectional Speed Tests -->
+<div class="section-heading-bar">
+<div>
+<h2><span>⚡</span> 10–20 Minute Sectional Speed Drills (25 Questions Each)</h2>
+<span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Bite-sized 10–20 min practice for daily target building</span>
+</div>
+</div>
+<!-- Subject Filter Toolbar -->
+<div aria-label="Speed Drill Subject Filters" class="drill-filter-bar" role="tablist">
+<button aria-selected="true" class="drill-filter-btn active" data-filter="all" role="tab">
+<span>⚡ All Drills</span>
+<span class="filter-count">12</span>
+</button>
+<button aria-selected="false" class="drill-filter-btn" data-filter="reasoning" role="tab">
+<span>🧠 Reasoning</span>
+<span class="filter-count">3</span>
+</button>
+<button aria-selected="false" class="drill-filter-btn" data-filter="quant" role="tab">
+<span>📐 Quantitative Aptitude</span>
+<span class="filter-count">3</span>
+</button>
+<button aria-selected="false" class="drill-filter-btn" data-filter="english" role="tab">
+<span>📖 English Comprehension</span>
+<span class="filter-count">3</span>
+</button>
+<button aria-selected="false" class="drill-filter-btn" data-filter="ga" role="tab">
+<span>🌍 General Awareness</span>
+<span class="filter-count">3</span>
+</button>
+</div>
+<div class="drills-grid" id="drills-grid">
+<!-- Sectional 1: Reasoning Drill 01 (Featured Top 4) -->
+<a class="test-card" data-featured="true" data-subject="reasoning" href="sectional-reasoning-01.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">Reasoning</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">General Intelligence &amp; Reasoning — Speed Drill 01</h3>
+<p class="card-desc">
             Syllogisms, Analogies, Number &amp; Letter Series, Blood Relations, Direction Sense, Coding-Decoding, Venn Diagrams, and Mirror Images.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>15 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start Reasoning Drill</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 2: Quantitative Aptitude Drill 01 (Featured Top 4) -->
-      <a href="sectional-quantitative-aptitude-01.html" class="test-card" data-subject="quant" data-featured="true">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">Quant</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">Quantitative Aptitude — Speed Drill 01</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>15 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start Reasoning Drill</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 2: Quantitative Aptitude Drill 01 (Featured Top 4) -->
+<a class="test-card" data-featured="true" data-subject="quant" href="sectional-quantitative-aptitude-01.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">Quant</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">Quantitative Aptitude — Speed Drill 01</h3>
+<p class="card-desc">
             Percentages, Profit &amp; Loss, CI/SI Differences, Time &amp; Work, Speed Time Distance, Boats &amp; Streams, Algebra Identities, Trigonometry, and Circles.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>20 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start Quant Drill</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 3: English Comprehension Drill 01 (Featured Top 4) -->
-      <a href="sectional-english-01.html" class="test-card" data-subject="english" data-featured="true">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">English</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">English Comprehension — Speed Drill 01</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>20 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start Quant Drill</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 3: English Comprehension Drill 01 (Featured Top 4) -->
+<a class="test-card" data-featured="true" data-subject="english" href="sectional-english-01.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">English</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">English Comprehension — Speed Drill 01</h3>
+<p class="card-desc">
             Spotting Errors, Fixed Prepositions, Synonyms &amp; Antonyms, Idioms &amp; Phrases, One-Word Substitutions, Active/Passive Voice, and Cloze Test.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>12 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start English Drill</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 4: General Awareness Drill 01 (Featured Top 4) -->
-      <a href="sectional-general-awareness-01.html" class="test-card" data-subject="ga" data-featured="true">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">General Awareness</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">General Awareness &amp; Static GK — Speed Drill 01</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>12 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start English Drill</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 4: General Awareness Drill 01 (Featured Top 4) -->
+<a class="test-card" data-featured="true" data-subject="ga" href="sectional-general-awareness-01.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">General Awareness</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">General Awareness &amp; Static GK — Speed Drill 01</h3>
+<p class="card-desc">
             Indian Constitution &amp; Polity, Modern &amp; Ancient History, Drainage &amp; Mountains, Repo Rate, General Science (Physics, Chemistry, Biology), and Static GK.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>10 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start GK Drill 01</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 5: Reasoning Drill 02 (Expanded Set 2) -->
-      <a href="sectional-reasoning-02.html" class="test-card" data-subject="reasoning" data-featured="false">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">Reasoning</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">General Intelligence &amp; Reasoning — Speed Drill 02</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>10 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start GK Drill 01</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 5: Reasoning Drill 02 (Expanded Set 2) -->
+<a class="test-card" data-featured="false" data-subject="reasoning" href="sectional-reasoning-02.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">Reasoning</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">General Intelligence &amp; Reasoning — Speed Drill 02</h3>
+<p class="card-desc">
             Matrix logic, Embedded Figures, Paper Folding, Statement &amp; Conclusion, Semantic Classification, and Number Matrix puzzles.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>15 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start Reasoning Drill 02</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 6: Quantitative Aptitude Drill 02 (Expanded Set 2) -->
-      <a href="sectional-quantitative-aptitude-02.html" class="test-card" data-subject="quant" data-featured="false">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">Quant</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">Quantitative Aptitude — Speed Drill 02</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>15 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start Reasoning Drill 02</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 6: Quantitative Aptitude Drill 02 (Expanded Set 2) -->
+<a class="test-card" data-featured="false" data-subject="quant" href="sectional-quantitative-aptitude-02.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">Quant</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">Quantitative Aptitude — Speed Drill 02</h3>
+<p class="card-desc">
             Chord theorems, Inradius/Circumradius, Successive Discounts, Mixture &amp; Alligation, Coordinate Geometry, and Height &amp; Distances.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>20 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start Quant Drill 02</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 7: English Comprehension Drill 02 (Expanded Set 2) -->
-      <a href="sectional-english-02.html" class="test-card" data-subject="english" data-featured="false">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">English</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">English Comprehension — Speed Drill 02</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>20 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start Quant Drill 02</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 7: English Comprehension Drill 02 (Expanded Set 2) -->
+<a class="test-card" data-featured="false" data-subject="english" href="sectional-english-02.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">English</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">English Comprehension — Speed Drill 02</h3>
+<p class="card-desc">
             Conditional Sentences, Subject-Verb Inversion, Para Jumbles (PQRS), Phrasal Verbs, Indirect Speech, and Reading Cloze Passage.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>12 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start English Drill 02</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 8: General Awareness Drill 02 (Expanded Set 2) -->
-      <a href="sectional-general-awareness-02.html" class="test-card" data-subject="ga" data-featured="false">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">General Awareness</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">General Awareness &amp; Static GK — Speed Drill 02</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>12 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start English Drill 02</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 8: General Awareness Drill 02 (Expanded Set 2) -->
+<a class="test-card" data-featured="false" data-subject="ga" href="sectional-general-awareness-02.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">General Awareness</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">General Awareness &amp; Static GK — Speed Drill 02</h3>
+<p class="card-desc">
             Constitutional Amendments, Five Year Plans, Classical Dance Forms, National Parks, Fundamental Rights Articles, and Science Principles.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>10 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start GK Drill 02</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 9: Reasoning Drill 03 (Expanded Set 3) -->
-      <a href="sectional-reasoning-03.html" class="test-card" data-subject="reasoning" data-featured="false">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">Reasoning</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">General Intelligence &amp; Reasoning — Speed Drill 03</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>10 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start GK Drill 02</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 9: Reasoning Drill 03 (Expanded Set 3) -->
+<a class="test-card" data-featured="false" data-subject="reasoning" href="sectional-reasoning-03.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">Reasoning</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">General Intelligence &amp; Reasoning — Speed Drill 03</h3>
+<p class="card-desc">
             Critical Causal Inferences, Mirror Images, Counting Triangles, Distance Directions, Semantic Analogies, and Seating Arrangements.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>15 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start Reasoning Drill 03</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 10: Quantitative Aptitude Drill 03 (Expanded Set 3) -->
-      <a href="sectional-quantitative-aptitude-03.html" class="test-card" data-subject="quant" data-featured="false">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">Quant</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">Quantitative Aptitude — Speed Drill 03</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>15 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start Reasoning Drill 03</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 10: Quantitative Aptitude Drill 03 (Expanded Set 3) -->
+<a class="test-card" data-featured="false" data-subject="quant" href="sectional-quantitative-aptitude-03.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">Quant</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">Quantitative Aptitude — Speed Drill 03</h3>
+<p class="card-desc">
             Direct Common Tangents, Divisibility Rules by 72/88, Cyclic Quadrilaterals, AM-GM Inequalities, Trigonometric Maxima/Minima, and Races.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>20 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start Quant Drill 03</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 11: English Comprehension Drill 03 (Expanded Set 3) -->
-      <a href="sectional-english-03.html" class="test-card" data-subject="english" data-featured="false">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">English</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">English Comprehension — Speed Drill 03</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>20 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start Quant Drill 03</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 11: English Comprehension Drill 03 (Expanded Set 3) -->
+<a class="test-card" data-featured="false" data-subject="english" href="sectional-english-03.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">English</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">English Comprehension — Speed Drill 03</h3>
+<p class="card-desc">
             Inversion Syntax, Subjunctive Mood, Complex Prepositional Idioms, Advanced Cloze Test, and High-Precision Vocab Antonyms/Synonyms.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>12 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start English Drill 03</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Sectional 12: General Awareness Drill 03 (Expanded Set 3) -->
-      <a href="sectional-general-awareness-03.html" class="test-card" data-subject="ga" data-featured="false">
-        <div>
-          <div class="card-top-tag-row">
-            <span class="tag-category">General Awareness</span>
-            <span class="tag-status-live">● 25 Qs</span>
-          </div>
-          <h3 class="card-title">General Awareness &amp; Static GK — Speed Drill 03</h3>
-          <p class="card-desc">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>12 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start English Drill 03</span>
+<span>→</span>
+</div>
+</div>
+</a>
+<!-- Sectional 12: General Awareness Drill 03 (Expanded Set 3) -->
+<a class="test-card" data-featured="false" data-subject="ga" href="sectional-general-awareness-03.html">
+<div>
+<div class="card-top-tag-row">
+<span class="tag-category">General Awareness</span>
+<span class="tag-status-live">● 25 Qs</span>
+</div>
+<h3 class="card-title">General Awareness &amp; Static GK — Speed Drill 03</h3>
+<p class="card-desc">
             Constitutional Writs, Poona Pact, Harappan Lothal Dockyard, Godavari River, Total Internal Reflection, and Aditya-L1 Solar Mission.
           </p>
-        </div>
-
-        <div>
-          <div class="card-spec-row">
-            <div class="card-spec-item"><span>⏱️</span> <strong>10 Mins</strong></div>
-            <div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
-            <div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
-            <div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
-          </div>
-          <div class="card-cta-btn">
-            <span>Start GK Drill 03</span>
-            <span>→</span>
-          </div>
-        </div>
-      </a>
-
-    </div>
-
-    <!-- Expand / Collapse Remaining Drills -->
-    <div class="expand-drills-container" id="expand-drills-container">
-      <button class="expand-drills-btn" id="btn-toggle-drills" type="button" aria-expanded="false">
-        <span id="expand-label">View All 12 Speed Drills (Sets 02 &amp; 03)</span>
-        <span id="expand-arrow" class="expand-arrow">↓</span>
-      </button>
-    </div>
-
-    <!-- Exam Strategy & Quality Commitment -->
-    <div class="info-features-box">
-      <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:12px; color:var(--text-primary);">
+</div>
+<div>
+<div class="card-spec-row">
+<div class="card-spec-item"><span>⏱️</span> <strong>10 Mins</strong></div>
+<div class="card-spec-item"><span>📝</span> <strong>25 Qs</strong></div>
+<div class="card-spec-item"><span>🎯</span> <strong>50 Marks</strong></div>
+<div class="card-spec-item"><span>⚖️</span> <strong>+2 / -0.5</strong></div>
+</div>
+<div class="card-cta-btn">
+<span>Start GK Drill 03</span>
+<span>→</span>
+</div>
+</div>
+</a>
+</div>
+<!-- Expand / Collapse Remaining Drills -->
+<div class="expand-drills-container" id="expand-drills-container">
+<button aria-expanded="false" class="expand-drills-btn" id="btn-toggle-drills" type="button">
+<span id="expand-label">View All 12 Speed Drills (Sets 02 &amp; 03)</span>
+<span class="expand-arrow" id="expand-arrow">↓</span>
+</button>
+</div>
+<!-- Exam Strategy & Quality Commitment -->
+<div class="info-features-box">
+<h3 style="font-size:1.15rem; font-weight:700; margin-bottom:12px; color:var(--text-primary);">
         🛡️ Why Practice on MockTestVault?
       </h3>
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:20px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-        <div>
-          <strong style="color:var(--text-primary); display:block; margin-bottom:4px;">100% Distraction-Free Focus</strong>
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:20px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
+<div>
+<strong style="color:var(--text-primary); display:block; margin-bottom:4px;">100% Distraction-Free Focus</strong>
           No pop-ups, no video countdowns, and no subscription paywalls. Designed for serious aspirants aiming for 150+ raw scores.
         </div>
-        <div>
-          <strong style="color:var(--text-primary); display:block; margin-bottom:4px;">Five-State Question Palette</strong>
+<div>
+<strong style="color:var(--text-primary); display:block; margin-bottom:4px;">Five-State Question Palette</strong>
           Color-coded question states (Answered, Not Answered, Marked for Review) give you true exam-hall muscle memory.
         </div>
-        <div>
-          <strong style="color:var(--text-primary); display:block; margin-bottom:4px;">Negative Marking Analytics</strong>
+<div>
+<strong style="color:var(--text-primary); display:block; margin-bottom:4px;">Negative Marking Analytics</strong>
           Tracks your +2 bonus and -0.5 penalty per question to compute accurate raw scores and cutoff qualification odds.
         </div>
-      </div>
-    </div>
-
-    <!-- Frequently Asked Questions (FAQ) Section -->
-    <section class="faq-section" id="faq-section" aria-label="SSC CGL Frequently Asked Questions">
-      <h2 class="faq-title"><span>❓</span> Frequently Asked Questions (SSC CGL Tier 1)</h2>
-      
-      <div class="faq-item">
-        <div class="faq-question">What is the exact exam pattern and marking scheme for SSC CGL Tier 1?</div>
-        <div class="faq-answer">
+</div>
+</div>
+<!-- Frequently Asked Questions (FAQ) Section -->
+<section aria-label="SSC CGL Frequently Asked Questions" class="faq-section" id="faq-section">
+<h2 class="faq-title"><span>❓</span> Frequently Asked Questions (SSC CGL Tier 1)</h2>
+<div class="faq-item">
+<div class="faq-question">What is the exact exam pattern and marking scheme for SSC CGL Tier 1?</div>
+<div class="faq-answer">
           SSC CGL Tier 1 comprises 100 multiple-choice questions divided equally across 4 sections (25 Qs each in General Intelligence &amp; Reasoning, General Awareness, Quantitative Aptitude, and English Comprehension) for 200 total marks. Each correct answer awards +2 marks, with a negative marking penalty deduction of -0.50 marks per wrong answer. Duration is strictly 60 minutes (80 minutes for eligible scribe candidates).
         </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-question">How does the negative marking calculation work on MockTestVault?</div>
-        <div class="faq-answer">
+</div>
+<div class="faq-item">
+<div class="faq-question">How does the negative marking calculation work on MockTestVault?</div>
+<div class="faq-answer">
           Our independent practice engine calculates a practice score using +2 marks for a correct response and -0.50 for an incorrect response, following the marking scheme in the SSC CGL 2026 notification. This is a practice result, not an official SSC score.
         </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-question">What is considered a safe target score for the unreserved (UR) category in Tier 1?</div>
-        <div class="faq-answer">
+</div>
+<div class="faq-item">
+<div class="faq-question">What is considered a safe target score for the unreserved (UR) category in Tier 1?</div>
+<div class="faq-answer">
           No practice score guarantees qualification. Review the cut-off and shortlisting information published by SSC for the relevant examination cycle; cut-offs can vary by category, vacancies and normalization. Review our comprehensive <a href="tier-1-syllabus-strategy.html" style="color:var(--primary); font-weight:700; text-decoration:underline;">SSC CGL Tier 1 Syllabus &amp; 60-Day Strategy Guide</a> for section-wise weightage and target attempts.
         </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-question">Are sectional speed drills available for individual subject practice?</div>
-        <div class="faq-answer">
+</div>
+<div class="faq-item">
+<div class="faq-question">Are sectional speed drills available for individual subject practice?</div>
+<div class="faq-answer">
           Yes! MockTestVault provides 10–20 minute 25-question sectional speed drills (12 total drills across Reasoning, Quant, English, and General Awareness) to help aspirants overcome sectional timing bottlenecks without having to sit through a full 60-minute test.
         </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-question">Does the test simulator track my score progression across multiple attempts?</div>
-        <div class="faq-answer">
+</div>
+<div class="faq-item">
+<div class="faq-question">Does the test simulator track my score progression across multiple attempts?</div>
+<div class="faq-answer">
           Yes! Our engine automatically records test attempts in your browser local storage, displaying a progression card comparing your current accuracy, raw marks, and time spent against previous attempts to ensure measurable score improvement.
         </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Site Footer -->
-  <section id="ssc-notification-link" style="max-width:1180px;margin:24px auto;padding:16px 20px;border:1px solid var(--border-color);border-radius:12px;">
-      <h2>SSC CGL 2026 official exam-pattern reference</h2>
-      <p>The current Tier-I scheme is 25 questions and 50 marks per subject, 60 minutes overall, with a 15-minute sectional timer for each of the four subjects and -0.50 negative marking per wrong answer.</p>
-      <p><a href="https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf" target="_blank" rel="noopener">Read the official SSC CGL 2026 notification, paragraph 13.8</a> · <a href="/question-sources-review.html">Question sources and review policy</a></p>
-      <p>MockTestVault is an independent preparation resource and is not affiliated with or endorsed by SSC or its examination service provider.</p>
-    </section>
+</div>
+</section>
+</main>
+<!-- Site Footer -->
+<section id="ssc-notification-link" style="max-width:1180px;margin:24px auto;padding:16px 20px;border:1px solid var(--border-color);border-radius:12px;">
+<h2>SSC CGL 2026 official exam-pattern reference</h2>
+<p>The current Tier-I scheme is 25 questions and 50 marks per subject, 60 minutes overall, with a 15-minute sectional timer for each of the four subjects and -0.50 negative marking per wrong answer.</p>
+<p><a href="https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf" rel="noopener" target="_blank">Read the official SSC CGL 2026 notification, paragraph 13.8</a> · <a href="/question-sources-review.html">Question sources and review policy</a></p>
+<p>MockTestVault is an independent preparation resource and is not affiliated with or endorsed by SSC or its examination service provider.</p>
+</section>
 <section id="ssc-pyq-provenance-v27" style="max-width:1180px;margin:18px auto;padding:14px 18px;border:1px solid var(--border-color);border-radius:10px;background:var(--bg-subtle);line-height:1.6;">
-<strong>2023 shift-paper provenance:</strong> The two 2023 sets are labelled practice compilations, not authenticated official PYQs. SSC's historical notice confirms that response sheets and tentative keys were temporarily provided through candidate login, but the original response-sheet/question paper and final-key files are not included or item-matched here. <a href="https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf" target="_blank" rel="noopener">Read the official SSC notice</a> · <a href="/question-sources-review.html">Review question provenance</a>.
+<strong>2023 shift-paper provenance:</strong> The two 2023 sets are labelled practice compilations, not authenticated official PYQs. SSC's historical notice confirms that response sheets and tentative keys were temporarily provided through candidate login, but the original response-sheet/question paper and final-key files are not included or item-matched here. <a href="https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf" rel="noopener" target="_blank">Read the official SSC notice</a> · <a href="/question-sources-review.html">Review question provenance</a>.
 </section><footer class="site-footer">
-    <div class="footer-container">
-      <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Competitive Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Free • Distraction-Free • High-Precision Question Standards.</p>
-    
-    <div class="footer-legal-links">
-      <a href="/about.html">About Us</a>
-      <span class="sep">•</span>
-      <a href="/privacy.html">Privacy Policy</a>
-      <span class="sep">•</span>
-      <a href="/terms.html">Terms of Service</a>
-      <span class="sep">•</span>
-      <a href="/disclaimer.html">Academic Disclaimer</a>
-      <span class="sep">•</span>
-      <a href="/contact.html">Contact & Support</a>
-      <span class="sep">•</span>
-      <a href="/progress.html">Curriculum Tracker</a>
-    </div>
-    </div>
-    <div style="text-align:center;padding:10px;"><a href="javascript:void(0)" class="open-cookie-preferences" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
+<div class="footer-container">
+<p><strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Competitive Exam Simulators.</p>
+<p style="font-size:0.75rem;">100% Free • Distraction-Free • High-Precision Question Standards.</p>
+<div class="footer-legal-links">
+<a href="/about.html">About Us</a>
+<span class="sep">•</span>
+<a href="/privacy.html">Privacy Policy</a>
+<span class="sep">•</span>
+<a href="/terms.html">Terms of Service</a>
+<span class="sep">•</span>
+<a href="/disclaimer.html">Academic Disclaimer</a>
+<span class="sep">•</span>
+<a href="/contact.html">Contact &amp; Support</a>
+<span class="sep">•</span>
+<a href="/progress.html">Curriculum Tracker</a>
+</div>
+</div>
+<div style="text-align:center;padding:10px;"><a class="open-cookie-preferences" href="javascript:void(0)" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
 </footer>
-
-  <script>
+<script>
     // FAQ Accordion Interactivity
     document.querySelectorAll('.faq-question').forEach(q => {
       q.addEventListener('click', () => {
@@ -1323,6 +1270,6 @@
       renderDrills();
     })();
   </script>
-  <script src="../js/homepage.js"></script>
+<script src="../js/homepage.js"></script>
 </body>
 </html>

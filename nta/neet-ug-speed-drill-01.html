@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +55,7 @@
     "@context": "https://schema.org",
     "@type": "Quiz",
     "name": "NTA NEET UG Sectional Speed Drill 01",
-    "description": "Authentic 45-question timed speed drill adhering strictly to the official NTA NEET UG blueprint across Biology (Botany & Zoology), Chemistry, and Physics with +4/-1 negative marking.",
+    "description": "Independent 45-question NEET UG practice speed drill across Biology (Botany & Zoology), Chemistry and Physics. The question selection and practice scoring are not an official NTA paper or score; check the latest NTA bulletin for current exam rules.",
     "educationalLevel": "National Testing Agency (NEET UG / Medical Entrance)",
     "learningResourceType": "Competitive Practice Exam",
     "provider": {
@@ -108,7 +121,7 @@
           <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and NCERT textbook line citations">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 45-min official NTA simulation with +4 / -1 negative marking">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 45-min NTA-pattern practice simulation with +4 / -1 negative marking">
             <span>⏱️</span> Exam
           </button>
         </div>
@@ -394,7 +407,7 @@
     <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-bottom:24px;">
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">🧬 Biology (Botany &amp; Zoology)</strong>
-        <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">100% NCERT verbatim mastery across cell biology, genetics, transcription/translation, human endocrine feedback loops, and ecosystem energy pyramids.</span>
+        <span style="font-size:0.82rem; color:var(--text-secondary); line-height:1.4; display:block;">Practice topics include cell biology, genetics, transcription/translation, endocrine feedback loops and ecosystem energy pyramids. Check all topics against the current official syllabus.</span>
       </div>
       <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:16px;">
         <strong style="color:var(--primary); display:block; margin-bottom:6px; font-size:0.95rem;">🧪 Chemistry (Physical, Inorganic &amp; Organic)</strong>
@@ -411,7 +424,7 @@
     </div>
 
     <div style="background:var(--bg-subtle); border-radius:8px; padding:18px; margin-bottom:24px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Official Marking Scheme &amp; Strategy:</strong>
+      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Published Exam Scoring Pattern &amp; Practice Strategy:</strong>
       • <strong>Marks per Correct Answer:</strong> +4 marks (Max Marks: 180).<br>
       • <strong>Negative Marking Penalty:</strong> -1 mark deducted for every incorrect choice. Unattempted questions receive 0 marks.<br>
       • <strong>Target Score:</strong> 130+/180 marks demonstrates top-tier competence for all-India quota (AIQ) medical seats.<br>
@@ -423,7 +436,7 @@
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Entrance Examination Simulators.</p>
-      <p style="font-size:0.75rem;">Aligned with the statutory NCERT and National Testing Agency (NTA) medical entrance blueprint. NEET UG® is a registered trademark of the National Testing Agency, which is not affiliated with this website.</p>
+      <p style="font-size:0.75rem;">Independent practice informed by publicly available NCERT topic and NTA examination-pattern references. NEET UG® is a registered trademark of the National Testing Agency, which is not affiliated with this website.</p>
     
       <div class="footer-legal-links">
         <a href="/about.html">About Us</a>

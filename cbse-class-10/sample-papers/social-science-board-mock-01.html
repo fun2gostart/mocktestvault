@@ -1,43 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+
+<html data-theme="light" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
-  <script>
+<!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
+<script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CBSE 10 SST 80-Mark Board Mock Paper 01 | MockTestVault</title>
-  <meta name="description" content="Free 80-question full-syllabus CBSE Class 10 Social Science Board Mock Paper with 3-hour timer, History, Geography, Civics & Economics section tabs.">
-  <!-- Canonical & Open Graph (Social Sharing) -->
-  <link rel="canonical" href="https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-mock-01.html">
-  <meta property="og:site_name" content="MockTestVault">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-mock-01.html">
-  <meta property="og:title" content="CBSE 10 SST 80-Mark Board Mock Paper 01 | MockTestVault">
-  <meta property="og:description" content="Free 80-question full-syllabus CBSE Class 10 Social Science Board Mock Paper with 3-hour timer, History, Geography, Civics & Economics section tabs.">
-  <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CBSE 10 SST 80-Mark Board Mock Paper 01 | MockTestVault">
-  <meta name="twitter:description" content="Free 80-question full-syllabus CBSE Class 10 Social Science Board Mock Paper with 3-hour timer, History, Geography, Civics & Economics section tabs.">
-  <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta name="twitter:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <link rel="stylesheet" href="../../css/test-engine.css">
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CBSE 10 Social Science 80-Mark Practice Mock | MockTestVault</title>
+<meta content="Independent 80-question Class 10 Social Science practice drill with a 180-minute timer. It is not an official CBSE paper or a verified syllabus-weightage model." name="description"/>
+<!-- Canonical & Open Graph (Social Sharing) -->
+<link href="https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-mock-01.html" rel="canonical"/>
+<meta content="MockTestVault" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-mock-01.html" property="og:url"/>
+<meta content="CBSE 10 Social Science 80-Mark Practice Mock | MockTestVault" property="og:title"/>
+<meta content="Independent 80-question Class 10 Social Science practice drill with a 180-minute timer. It is not an official CBSE paper or a verified syllabus-weightage model." property="og:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image:secure_url"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" property="og:image:alt"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="CBSE 10 Social Science 80-Mark Practice Mock | MockTestVault" name="twitter:title"/>
+<meta content="Independent 80-question Class 10 Social Science practice drill with a 180-minute timer. It is not an official CBSE paper or a verified syllabus-weightage model." name="twitter:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" name="twitter:image"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" name="twitter:image:alt"/>
+<link href="../../css/test-engine.css" rel="stylesheet"/>
+<style>
     .cgl-section-tabs {
       display: flex;
       gap: 8px;
@@ -78,8 +89,7 @@
       background: rgba(0, 0, 0, 0.15);
     }
   </style>
-
-  <script type="application/ld+json">
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Quiz",
@@ -94,11 +104,10 @@
     }
   }
   </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-
-  <!-- Schema.org BreadcrumbList Structured Data -->
-  <script type="application/ld+json">
+<link href="/manifest.json" rel="manifest"/>
+<meta content="#2563eb" name="theme-color"/>
+<!-- Schema.org BreadcrumbList Structured Data -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -136,295 +145,254 @@
   ]
 }
   </script>
-  <script src="/js/consent.js" defer></script>
+<script defer="" src="/js/consent.js"></script>
 </head>
 <body>
-
-  <!-- Print Only Header -->
-  <div class="print-only-header">
-    <div class="print-title" role="heading" aria-level="2">MockTestVault — CBSE Class 10 Social Science 80-Question Objective Practice Mock 01</div>
-    <p>Full Syllabus 80-Question Solved Examination (Code 087) | 80 Marks • 180 Mins | mocktestvault.com</p>
-  </div>
-
-  <!-- Site Navigation Header -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="../index.html" class="brand-link">
-        <div class="brand-logo">🌍</div>
-        <div class="brand-text">
-          <h1>CBSE 10 SST 80-Mark Board Mock Paper 01 <span class="vault-pill">CBSE Class 10</span></h1>
-          <p>Social Science Full 80-Mark Board Exam Simulator</p>
-        </div>
-      </a>
-
-      <div class="header-controls">
-        <div class="mode-pill-group" role="group" aria-label="Test Mode Selection">
-          <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant step-by-step NCERT rationales">
-            <span>🎓</span> Practice
+<!-- Print Only Header -->
+<div class="print-only-header">
+<div aria-level="2" class="print-title" role="heading">MockTestVault — CBSE Class 10 Social Science 80-Question Objective Practice Mock 01</div>
+<p>Full Syllabus 80-Question Solved Examination (Code 087) | 80 Marks • 180 Mins | mocktestvault.com</p>
+</div>
+<!-- Site Navigation Header -->
+<header class="site-header">
+<div class="header-container">
+<a class="brand-link" href="../index.html">
+<div class="brand-logo">🌍</div>
+<div class="brand-text">
+<h1>CBSE Class 10 Social Science 80-Mark Practice Test 01</h1>
+<p>Social Science Full 80-Mark Board Exam Simulator</p>
+</div>
+</a>
+<div class="header-controls">
+<div aria-label="Test Mode Selection" class="mode-pill-group" role="group">
+<button class="mode-btn" id="mode-practice-btn" title="Practice Mode: Instant step-by-step NCERT rationales">
+<span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Official 3-Hour Board Simulation">
-            <span>⏱️</span> Exam
+<button class="mode-btn active" id="mode-exam-btn" title="Exam Mode: practice 3-Hour Board Simulation">
+<span>⏱️</span> Exam
           </button>
-        </div>
-
-        <div style="display:flex; gap:6px;">
-          <button id="btn-font-dec" class="tool-btn" title="Decrease Font Size">A-</button>
-          <button id="btn-font-inc" class="tool-btn" title="Increase Font Size">A+</button>
-          <button id="btn-sound-toggle" class="tool-btn" title="Toggle Sound Feedback">🔊</button>
-          <button id="btn-fullscreen-toggle" class="tool-btn" title="Toggle Fullscreen Focus">⛶</button>
-        </div>
-
-        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Breadcrumb Navigation -->
-  <nav class="breadcrumb-bar" aria-label="Breadcrumb">
-    <div class="breadcrumb-container">
-      <a href="../../index.html">Home</a>
-      <span class="sep">/</span>
-      <a href="../../in/index.html">India Exam Vault</a>
-      <span class="sep">/</span>
-      <a href="../index.html">CBSE Class 10</a>
-      <span class="sep">/</span>
-      <a href="index.html">Sample Papers</a>
-      <span class="sep">/</span>
-      <span class="current">Social Science 80-Mark Mock 01</span>
-    </div>
-  </nav>
-
-  <!-- Section Tabs Bar -->
-  <div class="cgl-section-tabs" role="tablist" aria-label="Examination Syllabus Sections">
-    <button class="cgl-sec-btn active" data-start="0" data-end="19" onclick="jumpToSection(0, this)"><span>📜 Sec A: History</span> <span class="cgl-sec-badge">Q 1–20</span></button>
-    <button class="cgl-sec-btn" data-start="20" data-end="39" onclick="jumpToSection(20, this)"><span>🌍 Sec B: Geography</span> <span class="cgl-sec-badge">Q 21–40</span></button>
-    <button class="cgl-sec-btn" data-start="40" data-end="59" onclick="jumpToSection(40, this)"><span>⚖️ Sec C: Political Science</span> <span class="cgl-sec-badge">Q 41–60</span></button>
-    <button class="cgl-sec-btn" data-start="60" data-end="79" onclick="jumpToSection(60, this)"><span>📈 Sec D: Economics</span> <span class="cgl-sec-badge">Q 61–80</span></button>
-  </div>
-
-  <!-- Exam Live Status Bar -->
-  <div id="exam-status-bar" class="exam-status-bar">
-    <div class="status-container">
-      <div id="timer-box" class="timer-box">
-        <span>⏱️</span>
-        <span id="timer-display">180:00</span>
-      </div>
-
-      <div class="progress-info">
-        <span id="progress-text" class="progress-text">Loading CBSE Class 10 Social Science Paper...</span>
-        <div class="progress-bar-track">
-          <div id="progress-bar-fill" class="progress-bar-fill"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Main Split Layout -->
-  <main class="test-layout" id="test-layout">
-    
-    <!-- Question Card -->
-    <section class="question-card" id="question-card" aria-label="Active Board Question">
-      <div class="meta-badges-row" id="q-badges">
-        <span class="badge badge-chapter">CBSE Class 10 Social Science</span>
-        <span class="badge badge-subtopic" id="q-subtopic-badge">Board Syllabus</span>
-        <span class="badge badge-subtopic" id="q-diff-badge">Standard</span>
-      </div>
-
-      <div class="question-text-box">
-        <div class="question-number" id="q-number">Question 1 of 80</div>
-        <div class="question-title" id="q-title">Loading question...</div>
-      </div>
-
-      <!-- Interactive Options -->
-      <div class="options-list" id="options-list" role="radiogroup" aria-label="Answer Options"></div>
-
-      <!-- Explanation Box -->
-      <div class="explanation-box" id="explanation-box" style="display:none;">
-        <div class="explanation-header">
-          <span>💡 NCERT Step-by-Step Conceptual Rationale</span>
-          <span class="citation-tag" id="citation-tag">Official NCERT Class 10 Textbook</span>
-        </div>
-        <p class="explanation-text" id="explanation-text"></p>
-      </div>
-
-      <!-- Action Buttons Row -->
-      <div class="card-action-bar">
-        <button id="btn-prev" class="nav-btn" disabled>
-          <span>⬅️</span> Previous
+</div>
+<div style="display:flex; gap:6px;">
+<button class="tool-btn" id="btn-font-dec" title="Decrease Font Size">A-</button>
+<button class="tool-btn" id="btn-font-inc" title="Increase Font Size">A+</button>
+<button class="tool-btn" id="btn-sound-toggle" title="Toggle Sound Feedback">🔊</button>
+<button class="tool-btn" id="btn-fullscreen-toggle" title="Toggle Fullscreen Focus">⛶</button>
+</div>
+<button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+</div>
+</div>
+</header>
+<!-- Breadcrumb Navigation -->
+<nav aria-label="Breadcrumb" class="breadcrumb-bar">
+<div class="breadcrumb-container">
+<a href="../../index.html">Home</a>
+<span class="sep">/</span>
+<a href="../../in/index.html">India Exam Vault</a>
+<span class="sep">/</span>
+<a href="../index.html">CBSE Class 10</a>
+<span class="sep">/</span>
+<a href="index.html">Sample Papers</a>
+<span class="sep">/</span>
+<span class="current">Social Science 80-Mark Mock 01</span>
+</div>
+</nav>
+<!-- Section Tabs Bar -->
+<div aria-label="Examination Syllabus Sections" class="cgl-section-tabs" role="tablist">
+<button class="cgl-sec-btn active" data-end="19" data-start="0" onclick="jumpToSection(0, this)"><span>📜 Sec A: History</span> <span class="cgl-sec-badge">Q 1–20</span></button>
+<button class="cgl-sec-btn" data-end="39" data-start="20" onclick="jumpToSection(20, this)"><span>🌍 Sec B: Geography</span> <span class="cgl-sec-badge">Q 21–40</span></button>
+<button class="cgl-sec-btn" data-end="59" data-start="40" onclick="jumpToSection(40, this)"><span>⚖️ Sec C: Political Science</span> <span class="cgl-sec-badge">Q 41–60</span></button>
+<button class="cgl-sec-btn" data-end="79" data-start="60" onclick="jumpToSection(60, this)"><span>📈 Sec D: Economics</span> <span class="cgl-sec-badge">Q 61–80</span></button>
+</div>
+<!-- Exam Live Status Bar -->
+<div class="exam-status-bar" id="exam-status-bar">
+<div class="status-container">
+<div class="timer-box" id="timer-box">
+<span>⏱️</span>
+<span id="timer-display">180:00</span>
+</div>
+<div class="progress-info">
+<span class="progress-text" id="progress-text">Loading CBSE Class 10 Social Science Paper...</span>
+<div class="progress-bar-track">
+<div class="progress-bar-fill" id="progress-bar-fill"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Split Layout -->
+<main class="test-layout" id="test-layout">
+<!-- Question Card -->
+<section aria-label="Active Board Question" class="question-card" id="question-card">
+<div class="meta-badges-row" id="q-badges">
+<span class="badge badge-chapter">CBSE Class 10 Social Science</span>
+<span class="badge badge-subtopic" id="q-subtopic-badge">Board Syllabus</span>
+<span class="badge badge-subtopic" id="q-diff-badge">Standard</span>
+</div>
+<div class="question-text-box">
+<div class="question-number" id="q-number">Question 1 of 80</div>
+<div class="question-title" id="q-title">Loading question...</div>
+</div>
+<!-- Interactive Options -->
+<div aria-label="Answer Options" class="options-list" id="options-list" role="radiogroup"></div>
+<!-- Explanation Box -->
+<div class="explanation-box" id="explanation-box" style="display:none;">
+<div class="explanation-header">
+<span>💡 NCERT Step-by-Step Conceptual Rationale</span>
+<span class="citation-tag" id="citation-tag">Question reference (item-level verification pending)</span>
+</div>
+<p class="explanation-text" id="explanation-text"></p>
+</div>
+<!-- Action Buttons Row -->
+<div class="card-action-bar">
+<button class="nav-btn" disabled="" id="btn-prev">
+<span>⬅️</span> Previous
         </button>
-
-        <div style="display:flex; gap:8px; flex-wrap:wrap;">
-          <button id="btn-review" class="nav-btn btn-review" title="Flag question to review later">
-            <span>🚩</span> Mark for Review
+<div style="display:flex; gap:8px; flex-wrap:wrap;">
+<button class="nav-btn btn-review" id="btn-review" title="Flag question to review later">
+<span>🚩</span> Mark for Review
           </button>
-          <button id="btn-clear" class="nav-btn" title="Clear chosen answer option">
-            <span>🧹</span> Clear Choice
+<button class="nav-btn" id="btn-clear" title="Clear chosen answer option">
+<span>🧹</span> Clear Choice
           </button>
-        </div>
-
-        <div style="display:flex; gap:10px;">
-          <button id="btn-next" class="nav-btn btn-primary">
+</div>
+<div style="display:flex; gap:10px;">
+<button class="nav-btn btn-primary" id="btn-next">
             Next <span>➡️</span>
-          </button>
-          <button id="btn-submit" class="nav-btn btn-submit-test">
+</button>
+<button class="nav-btn btn-submit-test" id="btn-submit">
             Submit Test <span>🏁</span>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- CBT Question Palette -->
-    <aside class="palette-card" aria-label="Question Navigation Grid">
-      <div class="palette-title">
-        <span>Question Palette (80 Questions)</span>
-        <span id="palette-summary" style="font-size:0.75rem; color:var(--text-muted); font-weight:normal;">0 / 80 Answered</span>
-      </div>
-
-      <div class="palette-grid" id="palette-grid">
-        <!-- 1 to 80 dynamically populated -->
-      </div>
-
-      <div class="palette-legend">
-        <div class="legend-item">
-          <div class="legend-dot dot-answered"></div>
-          <span>Answered (<strong id="count-answered">0</strong>)</span>
-        </div>
-        <div class="legend-item">
-          <div class="legend-dot dot-not-answered"></div>
-          <span>Not Answered (<strong id="count-not-answered">0</strong>)</span>
-        </div>
-        <div class="legend-item">
-          <div class="legend-dot dot-reviewed"></div>
-          <span>Marked Review (<strong id="count-reviewed">0</strong>)</span>
-        </div>
-        <div class="legend-item">
-          <div class="legend-dot dot-unvisited"></div>
-          <span>Not Visited (<strong id="count-unvisited">80</strong>)</span>
-        </div>
-      </div>
-
-      <div style="margin-top:18px;">
-        <button id="btn-open-submit" class="nav-btn btn-submit-test" style="width:100%; justify-content:center;">
-          <span>🏁</span> Submit Test & View Scorecard
-        </button>
-      </div>
-    </aside>
-
-  </main>
-
-<section class="practice-context-block" aria-labelledby="practice-context-heading"
-  style="max-width:1180px;margin:24px auto;padding:20px 22px;border:1px solid var(--border-color, #d8dee9);border-radius:12px;background:var(--bg-card, #fff);line-height:1.65;">
-  <h2 id="practice-context-heading" style="font-size:1.25rem;margin:0 0 10px;">About CBSE 10 SST 80-Mark Board Mock Paper 01</h2>
-  <p>This independent practice set is intended to help learners apply and review concepts associated with <strong>CBSE 10 SST 80-Mark Board Mock Paper 01</strong>. The linked question bank includes topic labels such as Napoleonic Code, Economic Nationalism &amp; Zollverein, Assertion &amp; Reasoning - Unification of Italy, Allegory of the Nation. Use the answer explanations to identify the rule, formula or passage evidence behind each response, then revisit the relevant chapter or syllabus area before attempting another set.</p>
-  <p><strong>How to use the set:</strong> Attempt questions without checking the answer first, mark uncertain items for review, and read the explanation after submitting. Timing, navigation and scoring are practice settings configured by MockTestVault; they do not represent an official score or guarantee that the live examination uses the same interface.</p>
-  <p><strong>Exam or curriculum reference:</strong> <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener">NCERT textbooks and CBSE Academic curriculum</a>. <a href="/cbse-class-10/index.html">CBSE Class 10 chapter directory</a>. Official notices and syllabi take precedence if requirements change.</p>
-  <p style="font-size:.9rem;color:var(--text-muted, #5f6875);margin-bottom:0;">MockTestVault is an independent educational practice resource. Unless an individual item is linked to a verified original source, it should be treated as practice material rather than an authenticated official question.</p>
+</button>
+</div>
+</div>
 </section>
-
-
-<section class="related-practice-resources" aria-label="Related practice resources"
-  style="max-width:1180px;margin:24px auto;padding:16px 20px;border:1px solid rgba(128,128,128,.28);border-radius:12px;">
-  <h2 style="font-size:1.05rem;margin:0 0 10px;">Continue your exam preparation</h2>
-  <nav aria-label="Related practice links" style="display:flex;flex-wrap:wrap;gap:10px 20px;line-height:1.6;">
-    <a href="/cbse-class-10/science-formulas-reactions.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CBSE Class 10 Science formulas and reactions</a>
-    <a href="/cbse-class-10/sample-papers/index.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">Browse the exam hub</a>
+<!-- CBT Question Palette -->
+<aside aria-label="Question Navigation Grid" class="palette-card">
+<div class="palette-title">
+<span>Question Palette (80 Questions)</span>
+<span id="palette-summary" style="font-size:0.75rem; color:var(--text-muted); font-weight:normal;">0 / 80 Answered</span>
+</div>
+<div class="palette-grid" id="palette-grid">
+<!-- 1 to 80 dynamically populated -->
+</div>
+<div class="palette-legend">
+<div class="legend-item">
+<div class="legend-dot dot-answered"></div>
+<span>Answered (<strong id="count-answered">0</strong>)</span>
+</div>
+<div class="legend-item">
+<div class="legend-dot dot-not-answered"></div>
+<span>Not Answered (<strong id="count-not-answered">0</strong>)</span>
+</div>
+<div class="legend-item">
+<div class="legend-dot dot-reviewed"></div>
+<span>Marked Review (<strong id="count-reviewed">0</strong>)</span>
+</div>
+<div class="legend-item">
+<div class="legend-dot dot-unvisited"></div>
+<span>Not Visited (<strong id="count-unvisited">80</strong>)</span>
+</div>
+</div>
+<div style="margin-top:18px;">
+<button class="nav-btn btn-submit-test" id="btn-open-submit" style="width:100%; justify-content:center;">
+<span>🏁</span> Submit Test &amp; View Scorecard
+        </button>
+</div>
+</aside>
+</main>
+<section aria-labelledby="practice-context-heading" class="practice-context-block" style="max-width:1180px;margin:24px auto;padding:20px 22px;border:1px solid var(--border-color, #d8dee9);border-radius:12px;background:var(--bg-card, #fff);line-height:1.65;">
+<h2 id="practice-context-heading" style="font-size:1.25rem;margin:0 0 10px;">About CBSE 10 SST 80-Mark Board Mock Paper 01</h2>
+<p>This independent practice set is intended to help learners apply and review concepts associated with <strong>CBSE 10 SST 80-Mark Board Mock Paper 01</strong>. The linked question bank includes topic labels such as Napoleonic Code, Economic Nationalism &amp; Zollverein, Assertion &amp; Reasoning - Unification of Italy, Allegory of the Nation. Use the answer explanations to identify the rule, formula or passage evidence behind each response, then revisit the relevant chapter or syllabus area before attempting another set.</p>
+<p><strong>How to use the set:</strong> Attempt questions without checking the answer first, mark uncertain items for review, and read the explanation after submitting. Timing, navigation and scoring are practice settings configured by MockTestVault; they do not represent an official score or guarantee that the live examination uses the same interface.</p>
+<p><strong>Exam or curriculum reference:</strong> <a href="https://ncert.nic.in/textbook.php" rel="noopener" target="_blank">NCERT textbooks and CBSE Academic curriculum</a>. <a href="/cbse-class-10/index.html">CBSE Class 10 chapter directory</a>. Official notices and syllabi take precedence if requirements change.</p>
+<p style="font-size:.9rem;color:var(--text-muted, #5f6875);margin-bottom:0;">MockTestVault is an independent educational practice resource. Unless an individual item is linked to a verified original source, it should be treated as practice material rather than an authenticated official question.</p>
+</section>
+<section aria-label="Related practice resources" class="related-practice-resources" style="max-width:1180px;margin:24px auto;padding:16px 20px;border:1px solid rgba(128,128,128,.28);border-radius:12px;">
+<h2 style="font-size:1.05rem;margin:0 0 10px;">Continue your exam preparation</h2>
+<nav aria-label="Related practice links" style="display:flex;flex-wrap:wrap;gap:10px 20px;line-height:1.6;">
+<a href="/cbse-class-10/science-formulas-reactions.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CBSE Class 10 Science formulas and reactions</a>
+<a href="/cbse-class-10/sample-papers/index.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">Browse the exam hub</a>
 <a href="/cbse-class-10/sample-papers/mathematics-board-mock-01.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CBSE 10 Maths 80-Mark Mock Paper 01</a>
 <a href="/cbse-class-10/sample-papers/science-board-mock-01.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">CBSE 10 Science 80-Mark Mock Paper 01</a>
-  </nav>
+</nav>
 </section>
-
-
-  <!-- Scorecard View -->
-  <section class="scorecard-view" id="scorecard-view" style="max-width:960px; margin:24px auto; padding:32px 24px;">
-    <div class="score-hero" id="score-hero"></div>
-    <div class="stats-grid" id="stats-grid"></div>
-
-    <div class="scorecard-actions" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin:24px 0;">
-      <button id="btn-retake" class="nav-btn btn-primary">
-        <span>🔄</span> Retake Examination
+<!-- Scorecard View -->
+<section class="scorecard-view" id="scorecard-view" style="max-width:960px; margin:24px auto; padding:32px 24px;">
+<div class="score-hero" id="score-hero"></div>
+<div class="stats-grid" id="stats-grid"></div>
+<div class="scorecard-actions" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin:24px 0;">
+<button class="nav-btn btn-primary" id="btn-retake">
+<span>🔄</span> Retake Examination
       </button>
-      <button id="btn-print" class="nav-btn">
-        <span>🖨️</span> Print / PDF Revision Sheet
+<button class="nav-btn" id="btn-print">
+<span>🖨️</span> Print / PDF Revision Sheet
       </button>
-      <a href="science-board-mock-01.html" class="nav-btn" style="text-decoration:none; background:var(--primary); color:#fff;">
-        <span>🧪</span> Take Science 80-Mark Mock Paper 01 →
+<a class="nav-btn" href="science-board-mock-01.html" style="text-decoration:none; background:var(--primary); color:#fff;">
+<span>🧪</span> Take Science 80-Mark Mock Paper 01 →
       </a>
-      <a href="index.html" class="nav-btn" style="text-decoration:none;">
-        <span>📚</span> View All 80-Mark Sample Papers
+<a class="nav-btn" href="index.html" style="text-decoration:none;">
+<span>📚</span> View All 80-Mark Sample Papers
       </a>
-    </div>
-
-    <div id="mastery-container"></div>
-
-    <div class="review-filter-bar" style="margin-top:28px;">
-      <div class="filter-pills" role="tablist" style="display:flex; gap:8px; flex-wrap:wrap;">
-        <button class="filter-pill active" data-filter="all" id="filter-all">All (<span id="filter-count-all">80</span>)</button>
-        <button class="filter-pill filter-wrong" data-filter="wrong" id="filter-wrong">❌ Mistakes (<span id="filter-count-wrong">0</span>)</button>
-        <button class="filter-pill filter-reviewed" data-filter="reviewed" id="filter-reviewed">🟣 Review (<span id="filter-count-reviewed">0</span>)</button>
-        <button class="filter-pill filter-correct" data-filter="correct" id="filter-correct">✓ Correct (<span id="filter-count-correct">0</span>)</button>
-      </div>
-    </div>
-
-    <div id="review-list"></div>
-  </section>
-
-
-  <!-- Static Educational Overview & Candidate Instructions (SEO & AdSense Substantive Content) -->
-  <section class="exam-guide-static" style="max-width:960px; margin:36px auto 48px auto; padding:28px 24px; background:var(--bg-surface); border:1px solid var(--border-color); border-radius:var(--radius-lg); box-shadow:var(--shadow-sm);">
-    <noscript>
-      <div style="padding:16px 20px; background:#fff3cd; color:#856404; border:1px solid #ffeeba; border-radius:8px; margin-bottom:24px; font-size:0.92rem; line-height:1.5;">
-        <strong>⚠️ JavaScript Recommended:</strong> This is a full 80-mark 3-hour CBSE Board examination simulation. JavaScript is required for the timer, question palette, and section navigation. Complete syllabus blueprint is provided below.
-      </div>
-    </noscript>
-
-    <div style="border-bottom:2px solid var(--primary-light); padding-bottom:12px; margin-bottom:20px;">
-      <h2 style="font-size:1.35rem; font-weight:800; color:var(--text-primary); margin-bottom:6px;">
-        📑 CBSE Class 10 Social Science Board Blueprint Structure
-      </h2>
-      <p style="font-size:0.88rem; color:var(--text-muted); margin:0;">
-        Full Curriculum Simulation: 80 Questions • 180 Minutes (3 Hours) • 80 Marks • 100% NCERT Grounding
-      </p>
-    </div>
-
-    <div style="background:var(--bg-subtle); padding:18px; border-radius:8px; margin-bottom:20px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">Syllabus Distribution & Sectional Coverage:</strong>
-      History (Nationalism in Europe & India, Global World), Geography (Resources, Water, Agriculture, Minerals), Political Science (Federalism, Gender/Caste, Political Parties), Economics (Development, Sectors, Money & Credit).
-    </div>
-
-    <div style="background:var(--bg-subtle); border-radius:8px; padding:18px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;"><div style="background:var(--bg-card); border-left:4px solid var(--primary); padding:12px 16px; margin-bottom:16px; border-radius:6px; font-size:0.88rem;">
-  <strong>📌 Curriculum Drill Format Note:</strong> The official annual CBSE written board paper utilizes a 37–39 question format combining Section A MCQs with written Short Answer (SA), Long Answer (LA), and Case-Based items. This online CBT simulator provides an expanded <strong>80-question objective revision drill</strong> (80 Questions • 80 Marks • 180 Minutes) specifically calibrated to test exhaustive mastery of every single NCERT textbook chapter under timed exam conditions.
 </div>
-      ⚖️ Official Board Evaluation Guidelines:</strong>
-      Every question includes full NCERT chapter and page citations with step-by-step mathematical and conceptual breakdowns matching the official CBSE marking scheme.
+<div id="mastery-container"></div>
+<div class="review-filter-bar" style="margin-top:28px;">
+<div class="filter-pills" role="tablist" style="display:flex; gap:8px; flex-wrap:wrap;">
+<button class="filter-pill active" data-filter="all" id="filter-all">All (<span id="filter-count-all">80</span>)</button>
+<button class="filter-pill filter-wrong" data-filter="wrong" id="filter-wrong">❌ Mistakes (<span id="filter-count-wrong">0</span>)</button>
+<button class="filter-pill filter-reviewed" data-filter="reviewed" id="filter-reviewed">🟣 Review (<span id="filter-count-reviewed">0</span>)</button>
+<button class="filter-pill filter-correct" data-filter="correct" id="filter-correct">✓ Correct (<span id="filter-count-correct">0</span>)</button>
+</div>
+</div>
+<div id="review-list"></div>
+</section>
+<!-- Static Educational Overview & Candidate Instructions (SEO & AdSense Substantive Content) -->
+<section class="exam-guide-static" style="max-width:960px; margin:36px auto 48px auto; padding:28px 24px; background:var(--bg-surface); border:1px solid var(--border-color); border-radius:var(--radius-lg); box-shadow:var(--shadow-sm);">
+<noscript>
+<div style="padding:16px 20px; background:#fff3cd; color:#856404; border:1px solid #ffeeba; border-radius:8px; margin-bottom:24px; font-size:0.92rem; line-height:1.5;">
+<strong>⚠️ JavaScript Recommended:</strong> This is an independent 80-question objective practice drill with a platform timer and question palette. It does not reproduce the official CBSE board-paper format or establish complete syllabus coverage. JavaScript is required for the interactive test controls.
+      </div>
+</noscript>
+<div style="border-bottom:2px solid var(--primary-light); padding-bottom:12px; margin-bottom:20px;">
+<h2 style="font-size:1.35rem; font-weight:800; color:var(--text-primary); margin-bottom:6px;">
+        📑 Independent Social Science Practice Format &amp; Topic Coverage
+      </h2>
+<p style="font-size:0.88rem; color:var(--text-muted); margin:0;">
+        Independent Objective Practice Drill: 80 Questions • 180 Minutes • 80 Practice Marks • Selected Topic Coverage
+      </p>
+</div>
+<div style="background:var(--bg-subtle); padding:18px; border-radius:8px; margin-bottom:20px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
+<strong style="color:var(--text-primary); display:block; margin-bottom:6px;">Topics Included in This Practice Set:</strong>
+      History (Nationalism in Europe &amp; India, Global World), Geography (Resources, Water, Agriculture, Minerals), Political Science (Federalism, Gender/Caste, Political Parties), Economics (Development, Sectors, Money &amp; Credit).
     </div>
-  </section>
-
-  <!-- Site Footer -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official Central Board of Secondary Education (CBSE) Class 10 Examination specifications.</p>
-    
-    <div class="footer-legal-links">
-      <a href="/about.html">About Us</a>
-      <span class="sep">•</span>
-      <a href="/privacy.html">Privacy Policy</a>
-      <span class="sep">•</span>
-      <a href="/terms.html">Terms of Service</a>
-      <span class="sep">•</span>
-      <a href="/disclaimer.html">Academic Disclaimer</a>
-      <span class="sep">•</span>
-      <a href="/contact.html">Contact & Support</a>
-      <span class="sep">•</span>
-      <a href="/progress.html">Curriculum Tracker</a>
-    </div>
-    </div>
-    <div style="text-align:center;padding:10px;"><a href="javascript:void(0)" class="open-cookie-preferences" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
+<div style="background:var(--bg-subtle); border-radius:8px; padding:18px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
+<strong style="color:var(--text-primary); display:block; margin-bottom:6px;"><div style="background:var(--bg-card); border-left:4px solid var(--primary); padding:12px 16px; margin-bottom:16px; border-radius:6px; font-size:0.88rem;">
+<strong>📌 Independent Practice Format Note:</strong> Public CBSE sample-paper materials include a mix of objective and written-response question types. This page is an independent <strong>80-question objective revision drill</strong> (80 Questions • 80 Marks • 180 Minutes). It is not a reproduction of an annual CBSE board paper, does not claim exhaustive coverage of every NCERT chapter, and should be used alongside the current official syllabus and sample papers.
+</div>
+<strong>Independent Study Explanations:</strong>
+      Explanations are provided as practice support. They are not official CBSE marking schemes, and individual question answers have not all been independently verified against an official answer key.
+    </strong></div>
+</section>
+<!-- Site Footer -->
+<footer class="site-footer">
+<div class="footer-container">
+<p><strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Board Exam Simulators.</p>
+<p style="font-size:0.75rem;">100% Free &amp; Distraction-Free independent practice resource informed by publicly available CBSE and NCERT topic references. Not an official CBSE paper or marking scheme.</p>
+<div class="footer-legal-links">
+<a href="/about.html">About Us</a>
+<span class="sep">•</span>
+<a href="/privacy.html">Privacy Policy</a>
+<span class="sep">•</span>
+<a href="/terms.html">Terms of Service</a>
+<span class="sep">•</span>
+<a href="/disclaimer.html">Academic Disclaimer</a>
+<span class="sep">•</span>
+<a href="/contact.html">Contact &amp; Support</a>
+<span class="sep">•</span>
+<a href="/progress.html">Curriculum Tracker</a>
+</div>
+</div>
+<div style="text-align:center;padding:10px;"><a class="open-cookie-preferences" href="javascript:void(0)" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
 </footer>
-
-  <script src="../../js/test-engine.js"></script>
-  <script>
+<script src="../../js/test-engine.js"></script>
+<script>
     function jumpToSection(idx, btn) {
       if (window.testEngine) {
         window.testEngine.jumpToQuestion(idx);

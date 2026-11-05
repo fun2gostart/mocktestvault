@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <script src="/js/consent.js" defer></script>
   <meta charset="UTF-8">
@@ -157,6 +170,19 @@
     ::-webkit-scrollbar-thumb { background: rgba(150, 150, 150, 0.3); border-radius: 4px; }
     .badge-done { background: rgba(34, 197, 94, 0.15); color: #16a34a; border: 1px solid rgba(34, 197, 94, 0.3); }
     .badge-pending { background: rgba(234, 179, 8, 0.15); color: #ca8a04; border: 1px solid rgba(234, 179, 8, 0.3); }
+
+    /* Consent banner styling for the standalone progress page. */
+    #mtv-consent-banner { position:fixed; inset:auto 0 0 0; z-index:99999; background:#fff; color:#0f172a; border-top:1px solid #cbd5e1; box-shadow:0 -4px 20px rgba(0,0,0,.16); padding:16px 20px; font-size:14px; }
+    .mtv-consent-content { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; }
+    .mtv-consent-text { flex:1 1 560px; }
+    .mtv-consent-text strong { display:block; font-size:15px; margin-bottom:4px; color:#0f172a; }
+    .mtv-consent-text p { margin:0; color:#475569; line-height:1.45; font-size:13px; }
+    .mtv-consent-actions { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+    .mtv-consent-btn { padding:8px 15px; border:1px solid transparent; border-radius:6px; font-size:13px; font-weight:700; cursor:pointer; }
+    .mtv-btn-primary { background:#2563eb; color:#fff; }
+    .mtv-btn-subtle { background:#f1f5f9; color:#334155; border-color:#cbd5e1; }
+    .mtv-consent-link { color:#1d4ed8; font-size:13px; text-decoration:underline; }
+    @media (max-width:640px) { #mtv-consent-banner { padding:13px 14px; } .mtv-consent-actions { width:100%; } }
   </style>
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#2563eb">
@@ -181,7 +207,7 @@
             Curriculum Coverage &amp; Syllabus Map
           </h1>
           <p class="text-sm md:text-base text-[#94a3b8] mt-1">
-            Exhaustive 60-Question Chapter Packs • 3 Distinct Pedagogical Sets • Authentic CBT Engine • 100% NCERT Grounding
+            Exhaustive 60-Question Chapter Packs • 3 Distinct Pedagogical Sets • Exam-Style CBT Interface • NCERT Topic-Reference Alignment
           </p>
         </div>
 
@@ -405,7 +431,7 @@
                   <span>Start Test Simulator</span>
                   <span>→</span>
                 </a>
-                <span class="text-[11px] text-emerald-400 font-medium">✓ Verified</span>
+                <span class="text-[11px] text-emerald-400 font-medium">✓ Completed</span>
               ` : `
                 <span class="text-xs text-[#94a3b8] italic">Next in pipeline</span>
                 <span class="text-[11px] text-amber-400 font-medium">On Hold</span>

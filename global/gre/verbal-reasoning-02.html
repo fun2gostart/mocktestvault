@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -108,7 +121,7 @@
           <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant official explanations and formula/etymology analysis">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 30-min authentic GRE simulation">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed independent practice simulation">
             <span>⏱️</span> Exam
           </button>
         </div>
@@ -321,7 +334,7 @@
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Standardized Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official Educational Testing Service (ETS) GRE® standards. GRE® is a registered trademark of ETS, which is not affiliated with this website.</p>
+      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Independent GRE practice covering selected exam topics; consult ETS for current test specifications. GRE® is a registered trademark of ETS, which is not affiliated with this website.</p>
     
     <div class="footer-legal-links">
       <a href="/about.html">About Us</a>

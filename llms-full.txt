@@ -1,120 +1,45 @@
-# MockTestVault — Full Curriculum, Scoring & Examination Architecture (AI Index)
+# MockTestVault — Full Resource and Editorial Reference
 
-> MockTestVault (https://mocktestvault.com) is an open-access, zero-distraction computer-based test (CBT) simulator engineered for standardized exams across India, the United States, and International University Admissions. 100% free, 100% client-side, zero user tracking, zero logins, and zero ads.
+## Platform scope
+MockTestVault is an independent browser-based examination practice platform. It provides timed multiple-choice tests, sectional drills, revision sheets and local progress tracking for selected examinations. Its interface uses common computer-based testing conventions. It is not official examination software and does not administer or register candidates for any examination.
 
-## Architecture & Technology Stack
-- **Zero-Distraction Policy:** No advertisements, no third-party telemetry, no paywalls, and no mandatory authentication.
-- **Client-Side Simulation:** Test timers, question navigation, mark-for-review status, scoring algorithms, and rationale drawers run entirely in JavaScript without server round-trips.
-- **Offline First (PWA):** Service Worker caching (`sw.js`) enables offline practice and instant page transitions (<50ms).
-- **LocalStorage Data Persistence:** User test history, chapter completion status, and question scores remain strictly inside the user's browser.
+## Data and editorial limitations
+The current site release contains 6,404 question records across 286 question-data JSON files (287 JSON files in the release including the web manifest). The code validates JSON syntax, required fields, option arrays, answer-index ranges and the presence of explanation fields. These checks do not establish factual correctness. The full bank has not been independently re-solved by qualified subject-matter reviewers.
 
----
+A total of 954 records are associated with SSC CGL 2023 shift labels or CBSE 2023/2024 year labels. The original papers/response sheets and official final answer keys have not been supplied and matched item by item. These collections are independent year/shift-labelled practice sets, not authenticated verbatim previous-year questions.
 
-## 1. CBSE Class 10 Board Exam Vault (/cbse-class-10/)
-Aligned with the NCERT 2025–2026 syllabus and CBSE Board Examination question blueprint. 3,100+ verified multiple-choice questions with step-by-step mathematical proofs and chemical equations.
+Question citation fields may identify a textbook chapter, syllabus topic, examination standard or authority landing page. Such references provide context only. Unless an exact source URL and page/question/shift locator are present and matched, they do not prove official paper provenance or answer-key agreement.
 
-### Examination Blueprint
-- **Total Marks per Subject:** 80 Marks (Theory) + 20 Marks (Internal Assessment).
-- **Exam Duration:** 3 Hours (180 Minutes).
-- **Negative Marking:** None (0 marks deducted for incorrect answers).
-- **Question Typology:** Standalone MCQs, Assertion-Reasoning, Case-Based Competency Questions.
+A normalized cross-file comparison identified 1,102 repeated question-stem groups and 1,261 additional occurrences. It also marked 10 groups where selected-answer text differs between instances and 77 groups where explanation text differs. The answer-text flags can arise from changes in options or wording; they require human inspection and are not confirmed errors. Duplicate questions are retained where use across a chapter drill and a full mock is intentional.
 
-### Chapter Directory & Concepts Tested
-1. **Mathematics (14 Chapters)**
-   - `ch01_real_numbers.html`: Fundamental Theorem of Arithmetic ($a = bq + r$, $0 \le r < b$), irrationality proofs of $\sqrt{2}$, $\sqrt{3}$, $\sqrt{5}$, decimal expansions.
-   - `ch02_polynomials.html`: Relationship between zeroes and coefficients ($\alpha + \beta = -b/a$, $\alpha\beta = c/a$), geometric interpretation of parabolas.
-   - `ch03_linear_equations_two_variables.html`: Consistency conditions ($a_1/a_2 \ne b_1/b_2$ unique; $a_1/a_2 = b_1/b_2 = c_1/c_2$ infinite; $a_1/a_2 = b_1/b_2 \ne c_1/c_2$ parallel/inconsistent).
-   - `ch04_quadratic_equations.html`: Standard form $ax^2 + bx + c = 0$, discriminant $D = b^2 - 4ac$, real and distinct ($D > 0$), real and equal ($D = 0$), non-real roots ($D < 0$).
-   - `ch05_arithmetic_progressions.html`: General term $a_n = a + (n-1)d$, sum of first $n$ terms $S_n = \frac{n}{2}[2a + (n-1)d] = \frac{n}{2}(a + l)$.
-   - `ch06_triangles.html`: Thales' Theorem (BPT), AAA similarity, SSS similarity, SAS similarity, applications to right triangles.
-   - `ch07_coordinate_geometry.html`: Distance formula $d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$, section formula $( \frac{mx_2+nx_1}{m+n}, \frac{my_2+ny_1}{m+n} )$, midpoint formula.
-   - `ch08_introduction_to_trigonometry.html`: $\sin\theta, \cos\theta, \tan\theta, \csc\theta, \sec\theta, \cot\theta$; Pythagorean identities: $\sin^2\theta + \cos^2\theta = 1$, $1 + \tan^2\theta = \sec^2\theta$, $1 + \cot^2\theta = \csc^2\theta$.
-   - `ch09_some_applications_of_trigonometry.html`: Line of sight, angle of elevation, angle of depression, practical measurement of towers, poles, and rivers.
-   - `ch10_circles.html`: Tangent perpendicular to radius at point of contact, lengths of tangents drawn from an external point are equal ($PA = PB$).
-   - `ch11_areas_related_to_circles.html`: Area of sector $\frac{\theta}{360^\circ}\pi r^2$, length of arc $\frac{\theta}{360^\circ}2\pi r$, area of segment = area of sector - area of triangle.
-   - `ch12_surface_areas_volumes.html`: Composite solids (cone on cylinder, hemisphere on cube), surface area formulas, volume formulas.
-   - `ch13_statistics.html`: Direct mean $\frac{\sum f_i x_i}{\sum f_i}$, Assumed mean $a + \frac{\sum f_i d_i}{\sum f_i}$, Median $l + (\frac{N/2 - cf}{f})h$, Mode $l + (\frac{f_1-f_0}{2f_1-f_0-f_2})h$, Empirical relationship: $3\text{ Median} = \text{Mode} + 2\text{ Mean}$.
-   - `ch14_probability.html`: Theoretical probability $P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}$, $0 \le P(E) \le 1$, $P(E) + P(\bar{E}) = 1$.
-   - `math-formulas.html`: Complete formula and theorem revision cheat sheet.
+The v2.9 registers are workflow aids. Blank reviewer and evidence fields must be completed by a human reviewer. Never describe a pending record as verified merely because it passes structural or overlap checks.
 
-2. **Science (13 Chapters)**
-   - Chemical Reactions, Acids/Bases/Salts, Metals/Non-Metals, Carbon Compounds.
-   - Life Processes, Control & Coordination, How Do Organisms Reproduce?, Heredity.
-   - Light (Reflection & Refraction), Human Eye & Colourful World, Electricity, Magnetic Effects, Our Environment.
+## CBSE Class 10 practice catalogue
+The Class 10 catalogue lists 48 independent practice modules across 13 Science, 14 Mathematics and 21 Social Science chapter pages. It also provides selected formula/revision sheets and independent 80-mark/3-hour practice modules. This inventory does not certify full alignment with every 2026–27 syllabus update, and the year-labelled 2023/2024 sets are not authenticated original board papers.
 
-3. **Social Science (21 Chapters)**
-   - History: Nationalism in Europe, Nationalism in India, Making of a Global World, Age of Industrialisation, Print Culture.
-   - Geography: Resources, Forest & Wildlife, Water, Agriculture, Minerals & Energy, Manufacturing, Lifelines.
-   - Political Science: Power Sharing, Federalism, Gender/Religion/Caste, Political Parties, Outcomes of Democracy.
-   - Economics: Development, Sectors of Indian Economy, Money and Credit, Globalisation.
+For the current academic session, use the official CBSE resources first:
+- Curriculum for 2026–27: https://cbseacademic.nic.in/curriculum_2027.html
+- Class X sample question papers and marking schemes for 2026–27: https://cbseacademic.nic.in/sqp_classx_2026-27.html
+- CBSE circular Acad-14/2026: https://www.cbse.gov.in/cbsenew/documents/14_Circular_01042026.pdf
 
----
+MockTestVault's navigation page for these sources and the suggested practice workflow is https://mocktestvault.com/cbse-class-10/2026-27-syllabus-sample-papers.html.
 
-## 1B. CBSE Class 12 Senior Secondary Board Vault (/cbse-class-12/)
-Calibrated to statutory NCERT Class 12 Science curriculum. 210 multiple-choice and assertion-reasoning questions with step-by-step mathematical proofs, reaction mechanisms, and official board grade predictions.
-- **Physics:** 70 verified questions across Electrostatics, Magnetism, Optics, Modern Physics, and Semiconductor Electronics.
-- **Chemistry:** 70 verified questions across Solutions, Electrochemistry, Kinetics, Coordination Complexes, and Organic Mechanisms.
-- **Biology:** 70 verified questions across Reproduction, Genetics, Human Health, Biotechnology, and Ecology.
+## SSC CGL practice catalogue
+The SSC CGL hub provides independent Tier-I practice mocks and subject drills. The 2026 notification structure describes 25 questions per subject across Reasoning, General Awareness, Quantitative Aptitude and English Comprehension, 50 marks per subject, 60 minutes overall with 15-minute sectional timers, and a 0.50-mark penalty per wrong answer. Practice scorecards are not SSC results; official notices control if the scheme changes. Official portal: https://ssc.gov.in/.
 
----
+## Other available resource areas
+- CBSE Class 12 diagnostics and year-labelled practice sets: https://mocktestvault.com/cbse-class-12/
+- NTA JEE Main and NEET UG practice drills: https://mocktestvault.com/nta/
+- US exams and Digital SAT practice: https://mocktestvault.com/us/
+- Global exam practice: https://mocktestvault.com/global/
+- Question and provenance review policy: https://mocktestvault.com/question-sources-review.html
 
-## 1C. National Testing Agency (NTA) Speed Drill Vault (/nta/)
-Calibrated to official NTA engineering and medical entrance examination standards with +4 / -1 negative marking and percentile diagnostics.
-- **JEE Main Speed Drills:** 50 verified questions across Physics, Chemistry, and Mathematics (45-min timed CBT simulator, +4 / -1 marking).
-- **NEET UG Speed Drills:** 90 verified questions across Biology (Botany & Zoology), Chemistry, and Physics (45-min timed CBT simulator, +4 / -1 marking).
+## Privacy and browser storage
+Bookmarks, local preferences, and test attempt history are stored in browser storage on the user's device. The site uses a custom analytics-consent interface; Google Analytics is loaded only after the visitor explicitly accepts analytics. The custom banner is not represented as a Google-certified/IAB TCF CMP.
 
----
-
-## 2. Staff Selection Commission Vault (/ssc-cgl/)
-Provides independent SSC CGL Tier-I practice simulations. The 2026 notification's 100-question, 200-mark scheme has four subjects, a 60-minute overall duration with 15-minute sectional timers, and -0.50 negative marking per wrong answer. The simulator is not SSC's official examination software.
-
-### Examination Structure
-- **Sections (4):**
-  1. General Intelligence & Reasoning (25 Qs / 50 Marks)
-  2. General Awareness (25 Qs / 50 Marks)
-  3. Quantitative Aptitude (25 Qs / 50 Marks)
-  4. English Comprehension (25 Qs / 50 Marks)
-- **Total Questions:** 100
-- **Total Marks:** 200
-- **Duration:** 60 minutes overall, with 15 minutes per subject. The notification provides 80 minutes overall with 20-minute subject timers for eligible candidates using a scribe, subject to its stated conditions.
-- **Marking Scheme:** +2.0 marks for correct, -0.50 marks for incorrect (negative marking).
-
----
-
-## 3. US Standardized Testing Vault (/us/)
-Covers the Digital SAT (multistage adaptive test) and Advanced Placement (AP) diagnostics.
-
-### Digital SAT Blueprint
-- **Reading & Writing:** 2 Modules, 27 questions each (32 minutes per module), testing Craft & Structure, Information & Ideas, Standard English Conventions, and Expression of Ideas.
-- **Math:** 2 Modules, 22 questions each (35 minutes per module), covering Algebra, Advanced Math, Problem Solving and Data Analysis, and Geometry & Trigonometry.
-- **Scoring:** 400 to 1600 scale. No negative penalty for incorrect answers.
-
-### Advanced Placement (AP) Diagnostics
-- **AP Calculus AB:** Limits, Continuity, Derivative Rules, Applications of Derivatives, Riemann Sums, Definite Integrals, FTC, Differential Equations.
-- **AP Physics 1:** Kinematics, Dynamics (Newton's laws), Circular Motion & Gravitation, Energy, Momentum, Simple Harmonic Motion, Torque & Rotational Motion.
-- **AP US History (APUSH):** Stimulus-based historical reasoning across 9 chronological periods (1491–present).
-
----
-
-## 4. Global Higher Education Vault (/global/)
-- **IELTS Academic Reading:** 40 questions across 3 long academic texts; True/False/Not Given, Yes/No/Not Given, heading matching, summary completion, diagram labelling.
-- **TOEFL iBT Reading:** Academic reading passages measuring comprehension, inference, rhetorical purpose, and vocabulary in context.
-- **GRE General Test:** Quantitative Reasoning (arithmetic, algebra, geometry, data interpretation) and Verbal Reasoning (reading comprehension, text completion, sentence equivalence).
-- **GMAT Focus Edition:** Quantitative Reasoning, Verbal Reasoning, and Data Insights sections.
-- **AWS Certified Cloud Practitioner (CLF-C02):** 130 exam-standard questions across 2 full 65-question timed CBT simulators (90 minutes, 700/1000 passing scale) covering Cloud Concepts (24%), Security & Compliance (30%), Cloud Technology & Services (34%), and Billing & Pricing (12%).
-- **International Baccalaureate® (IB DP) HL/SL:** 140 curriculum-standard multiple-choice questions across IB Biology (Paper 1, Topics 1–11) and Mathematics: Analysis and Approaches (AA Paper 1, Topics 1–5) featuring official 1–7 grade scale calibrations and markscheme rationales.
-
----
-
-## Contact & Integrity
-- **Publisher:** BuyWiseHub Ecosystem
-- **Founder / Lead Author:** Swapnesh Mhatre, Mumbai, India
-- **Academic Support Desk:** contact@mocktestvault.com
-- **Response Time:** 24–48 hours for errata validation and scoring clarifications.
-
-## 5. TOEFL iBT 2026
-- Current ETS format includes adaptive Reading and Listening sections, updated task types and the 1–6 score scale. See https://mocktestvault.com/global/toefl/2026-format-guide.html.
-- The site's existing two 20-question academic passage drills are independent legacy-style reading exercises, not simulations of the redesigned adaptive TOEFL iBT.
-
-## 6. Question sources and review
-- Question-level citation fields are reference notes, not direct URLs in the current data release. Do not treat shift-labelled records as shift/year-labelled practice sets (provenance unverified) unless the original paper and answer key are linked and verified. See https://mocktestvault.com/question-sources-review.html.
+## Legal and contact pages
+- About: https://mocktestvault.com/about.html
+- Privacy: https://mocktestvault.com/privacy.html
+- Terms: https://mocktestvault.com/terms.html
+- Academic disclaimer: https://mocktestvault.com/disclaimer.html
+- Contact: https://mocktestvault.com/contact.html

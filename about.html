@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,7 +74,7 @@
       ],
       "knowsAbout": [
         "Computer-Based Testing (CBT) Interface Standards",
-        "NCERT Statutory Curriculum & Board Examination Bye-laws",
+        "NCERT Curriculum & Board Examination References",
         "Computer-Based Testing Navigation and Timer Design",
         "College Board Digital SAT Adaptive Module Timing",
         "Cambridge IELTS Academic Band Scoring"
@@ -146,7 +159,7 @@
         <div class="legal-meta-item"><span>📅</span> Established: October 2026</div>
         <div class="legal-meta-item"><span>🔄</span> Last Updated: November 3, 2026</div>
         <div class="legal-meta-item"><span>🛡️</span> Zero-Distraction CBT Initiative</div>
-        <div class="legal-meta-item"><span>📚</span> 5,000+ Ground-Truth Verified Questions</div>
+        <div class="legal-meta-item"><span>📚</span> 6,404 Question Records — Review Status Varies</div>
       </div>
     </div>
 
@@ -163,13 +176,13 @@
         </p>
         <ul>
           <li><strong>No High-Friction Interruptions:</strong> Test timers and question interfaces are protected from disruptive popups, auto-playing media, or forced paywalls during active simulation.</li>
-          <li><strong>100% In-Browser Privacy:</strong> Examination sessions execute entirely inside client browser RAM. No student registration, phone numbers, or test answers are ever harvested or sold.</li>
+          <li><strong>No Account Required for Practice:</strong> Examination sessions execute entirely inside client browser RAM. No student registration, phone numbers, or test answers are ever harvested or sold.</li>
           <li><strong>Authentic Interface Parity:</strong> Aspirants practise in independently developed interfaces that use familiar computer-based testing conventions. These interfaces are not official examination software and are not endorsed by examination authorities.</li>
         </ul>
       </section>
 
       <section>
-        <h2>2. Ground-Truth Curriculum Grounding & Verification Methodology</h2>
+        <h2>2. Question Sources, Curriculum Context & Review Method</h2>
         <p>
           In high-stakes academic preparation, an incorrect answer key or ambiguous rationale can cost an aspirant their qualification. MockTestVault combines structured data checks, explanation review and topic-level source references. The depth of source documentation and independent review varies by examination category:
         </p>
@@ -192,7 +205,7 @@
               <tr>
                 <td><strong>🇮🇳 India Hub</strong></td>
                 <td>CBSE Class 10 &amp; SSC CGL</td>
-                <td>NCERT chapter/topic references &amp; official examination-pattern notices (item-level PYQ provenance tracked separately)</td>
+                <td>NCERT chapter/topic references &amp; official examination-pattern notices (item-level PYQ provenance not authenticated for all year-labelled collections)</td>
                 <td>Independent question palette, +2 / -0.50 practice scoring and the 2026 SSC CGL 15-minute sectional timing configuration</td>
               </tr>
               <tr>
@@ -265,7 +278,7 @@
                 </tr>
                 <tr style="background:var(--bg-subtle); font-weight:700;">
                   <td><strong>Total Active Practice Bank</strong></td>
-                  <td><strong>6,054 Questions</strong></td>
+                  <td><strong>6,404 Question Records</strong></td>
                   <td><strong>100% Client-Side In-Browser Examination Simulation</strong></td>
                   <td><strong>Free, Open &amp; Client-Side Privacy</strong></td>
                 </tr>
@@ -281,7 +294,7 @@
           Unlike unorganized question dumps, every chapter in MockTestVault is split into three progressive pedagogical tiers (20 questions each, 60 questions per chapter) to build mastery from baseline memory to higher-order critical thinking:
         </p>
         <ol>
-          <li><strong>Set 1 — Core Concepts & Statutory PYQs:</strong> Focuses on foundational definitions, statutory formulas, and past 10-year recurring board questions.</li>
+          <li><strong>Set 1 — Core Concepts & Practice Questions:</strong> Focuses on foundational definitions, curriculum formulas, and commonly tested concepts. These are independent practice items unless a specific original paper and official key have been item-matched.</li>
           <li><strong>Set 2 — NCERT Exemplar & Advanced Numericals:</strong> Covers high-difficulty exemplar problems, multi-step calculations, and experimental proofs.</li>
           <li><strong>Set 3 — Assertion-Reasoning & Case-Based Studies:</strong> Direct alignment with modern National Education Policy (NEP) and competency-based assessment formats.</li>
         </ol>
@@ -304,7 +317,7 @@
         </p>
         <ul>
           <li><strong>Curriculum Alignment:</strong> Practice topics are mapped to relevant examination syllabi and subject outlines. For SSC CGL 2026, the examination structure is referenced to the official notification; for CBSE, chapter/topic notes refer to NCERT materials.</li>
-          <li><strong>Step-by-Step Derivation Verification:</strong> Question records contain explanation fields, but the presence of an explanation does not by itself prove that each answer has passed an independent subject-expert review.</li>
+          <li><strong>Step-by-Step Explanations:</strong> Question records contain explanation fields, but the presence of an explanation does not by itself prove that each answer has passed an independent subject-expert review.</li>
           <li><strong>Cross-Source Validation:</strong> Citation fields currently contain a mixture of chapter references, topic labels and named standards. Most question records do not yet include a clickable item-level source URL; source labels should therefore be treated as reference notes, not as proof that a question is an official past-paper item.</li>
           <li><strong>Continuous Discrepancy Audits:</strong> Reported discrepancies are reviewed and corrected when validated. Corrections are reflected in a subsequent site release; no fixed review SLA or immediate propagation guarantee is claimed.</li>
         </ul>
@@ -344,7 +357,7 @@
             </div>
           </div>
           <p style="color:var(--text-muted); font-size:0.88rem; line-height:1.6; max-width:320px;">
-            The zero-distraction CBT examination simulator. 100% free, authentic test engines, statutory citations, and zero user data harvesting.
+            The zero-distraction CBT examination simulator. Free CBT-style practice, curriculum/topic references and consent-controlled analytics. No account is required to practise.
           </p>
         </div>
 
@@ -388,9 +401,9 @@
         <div style="display:flex; gap:16px;">
           <span>Distraction-Free CBT</span>
           <span>•</span>
-          <span>100% In-Browser Privacy</span>
+          <span>No Account Required for Practice</span>
           <span>•</span>
-          <span>Verified NCERT Citations</span>
+          <span>Curriculum &amp; Topic References</span>
         </div>
       </div>
     </div>

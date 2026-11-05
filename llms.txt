@@ -1,204 +1,43 @@
-# MockTestVault — Zero-Distraction CBT Mock Exam Simulator
+# MockTestVault — Independent CBT Practice and Revision Resources
 
-> MockTestVault (https://mocktestvault.com) is a high-speed, zero-distraction computer-based test (CBT) simulator for national and international standardized examinations. 100% free, 100% client-side, zero user login requirements, zero advertisements, and zero remote telemetry.
+> https://mocktestvault.com/ provides free, browser-based practice tests, chapter drills and revision resources for selected Indian and international examinations. Test attempts, bookmarks and progress are stored in the user's browser. Optional Google Analytics is loaded only after an explicit analytics-consent choice; question attempts are not submitted to a MockTestVault account backend.
 
-## Core Educational Principles
-- **Authentic Examination Interfaces:** Provides independently developed practice interfaces using common CBT conventions. It is not the official software of SSC, College Board, CBSE, ETS or any exam provider.
-- **Zero Distraction & Absolute Privacy:** No advertising banners, no sponsored links, no mandatory registration, and zero trackers. All test history and scores are persisted strictly inside the student's local browser via LocalStorage.
-- **Deep Explanations & Rationales:** Every single multiple-choice question contains verified step-by-step mathematical derivations, historical context, chemical mechanisms, or grammatical rules.
+## Editorial and accuracy status
+- MockTestVault is an independent practice resource. It is not the official software of CBSE, NCERT, SSC, NTA, ETS, College Board, IELTS, AWS, GMAC or any other examination body.
+- The current bank contains 6,404 question records across 286 question-data JSON files (287 JSON files in the release including the web manifest). The records have structural checks, but a complete independent subject-matter re-solve has not been completed.
+- 954 SSC/CBSE year- or shift-labelled records have not been authenticated item by item against original papers and official final answer keys. Treat them as year/shift-labelled practice material, not authenticated PYQs.
+- Question citations may be curriculum or topic references rather than item-level source links. A topic reference does not prove that a question appeared in an official paper or that its selected answer matches an official key.
+- Automated overlap detection found repeated stems across practice sets and mocks. Some reuse is intentional. Duplicate and explanation-variance registers are audit aids, not accuracy certifications.
+- Review status and downloadable registers: https://mocktestvault.com/question-sources-review.html
 
-## CBSE Class 10 Board Exam Vault (/cbse-class-10/)
-Complete syllabus coverage matching the latest 2025-2026 NCERT curriculum and CBSE assessment guidelines across 48 chapters and full board mock papers.
+## Current CBSE Class 10 resources
+- [CBSE Class 10 practice catalogue](https://mocktestvault.com/cbse-class-10/): 48 independent practice modules across Science, Mathematics and Social Science. This is not a certification of complete 2026–27 syllabus coverage.
+- [CBSE Class 10 2026–27 syllabus and official sample-paper links](https://mocktestvault.com/cbse-class-10/2026-27-syllabus-sample-papers.html): current official curriculum and sample-paper entry points, a revision workflow and limitations of the independent practice bank.
+- [Mathematics formulas and theorems](https://mocktestvault.com/cbse-class-10/math-formulas.html).
+- [Science formulas and reactions](https://mocktestvault.com/cbse-class-10/science-formulas-reactions.html).
+- Official CBSE Class X curriculum (2026–27): https://cbseacademic.nic.in/curriculum_2027.html
+- Official CBSE Class X sample question papers and marking schemes (2026–27): https://cbseacademic.nic.in/sqp_classx_2026-27.html
 
-### Mathematics Chapters
-- [Real Numbers](https://mocktestvault.com/cbse-class-10/mathematics/ch01_real_numbers.html): Fundamental Theorem of Arithmetic, irrationality proofs, and HCF/LCM applications.
-- [Polynomials](https://mocktestvault.com/cbse-class-10/mathematics/ch02_polynomials.html): Geometrical meaning of zeroes, relationship between coefficients and zeroes of quadratic polynomials.
-- [Linear Equations in Two Variables](https://mocktestvault.com/cbse-class-10/mathematics/ch03_linear_equations_two_variables.html): Graphical and algebraic solution methods (substitution, elimination), consistency conditions.
-- [Quadratic Equations](https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html): Standard form, factorization, quadratic formula, discriminant and nature of roots.
-- [Arithmetic Progressions](https://mocktestvault.com/cbse-class-10/mathematics/ch05_arithmetic_progressions.html): nth term derivation, sum of first n terms, and daily life application problems.
-- [Triangles](https://mocktestvault.com/cbse-class-10/mathematics/ch06_triangles.html): Basic Proportionality Theorem (Thales), criteria for similarity of triangles (AAA, SSS, SAS).
-- [Coordinate Geometry](https://mocktestvault.com/cbse-class-10/mathematics/ch07_coordinate_geometry.html): Distance formula, section formula (internal division), and midpoint applications.
-- [Introduction to Trigonometry](https://mocktestvault.com/cbse-class-10/mathematics/ch08_introduction_to_trigonometry.html): Trigonometric ratios of acute angles, standard values (0°, 30°, 45°, 60°, 90°), and trigonometric identities.
-- [Some Applications of Trigonometry](https://mocktestvault.com/cbse-class-10/mathematics/ch09_some_applications_of_trigonometry.html): Heights and distances, angles of elevation and depression with single and double right-triangle problems.
-- [Circles](https://mocktestvault.com/cbse-class-10/mathematics/ch10_circles.html): Tangent at any point of a circle, tangents drawn from an external point theorem.
-- [Areas Related to Circles](https://mocktestvault.com/cbse-class-10/mathematics/ch11_areas_related_to_circles.html): Areas of sectors and segments of a circle, arc lengths, and combination figures.
-- [Surface Areas and Volumes](https://mocktestvault.com/cbse-class-10/mathematics/ch12_surface_areas_volumes.html): Surface areas and volumes of combinations of cubes, cuboids, spheres, hemispheres, and right circular cylinders/cones.
-- [Statistics](https://mocktestvault.com/cbse-class-10/mathematics/ch13_statistics.html): Mean (direct, assumed mean methods), median, and mode of grouped data, empirical relationship between measures of central tendency.
-- [Probability](https://mocktestvault.com/cbse-class-10/mathematics/ch14_probability.html): Classical definition of probability, simple problems on finding probability of an event.
-- [Mathematics Master Formula Sheet](https://mocktestvault.com/cbse-class-10/math-formulas.html): Complete chapterwise formula reference, theorems, and identities for rapid board exam revision.
+## SSC CGL
+- [SSC CGL Tier-I practice hub](https://mocktestvault.com/ssc-cgl/): independent practice mocks and sectional drills based on the 2026 notification pattern. Scores are practice scores, not SSC results.
+- [SSC CGL syllabus and strategy guide](https://mocktestvault.com/ssc-cgl/tier-1-syllabus-strategy.html).
+- Official SSC portal: https://ssc.gov.in/
 
-### Science Chapters
-- [Chemical Reactions and Equations](https://mocktestvault.com/cbse-class-10/science/ch01_chemical_reactions.html): Balanced chemical equations, combination, decomposition, displacement, double displacement, oxidation and reduction.
-- [Acids, Bases and Salts](https://mocktestvault.com/cbse-class-10/science/ch02_acids_bases_salts.html): Chemical properties, neutralization, pH scale, preparation and uses of Bleaching Powder, Baking Soda, Washing Soda, Plaster of Paris.
-- [Metals and Non-Metals](https://mocktestvault.com/cbse-class-10/science/ch03_metals_non_metals.html): Physical and chemical properties, reactivity series, formation and properties of ionic compounds, metallurgy, corrosion prevention.
-- [Carbon and Its Compounds](https://mocktestvault.com/cbse-class-10/science/ch04_carbon_compounds.html): Covalent bonding, versatile nature of carbon, homologous series, IUPAC nomenclature, combustion, oxidation, addition, substitution, soaps and detergents.
-- [Life Processes](https://mocktestvault.com/cbse-class-10/science/ch05_life_processes.html): Autotrophic/heterotrophic nutrition, cellular respiration, human circulatory system, plant transport, human excretory system.
-- [Control and Coordination](https://mocktestvault.com/cbse-class-10/science/ch06_control_coordination.html): Nervous system in animals, reflex arcs, brain anatomy, plant hormones (auxins, gibberellins, cytokinins, abscisic acid), endocrine system.
-- [How Do Organisms Reproduce?](https://mocktestvault.com/cbse-class-10/science/ch07_how_organisms_reproduce.html): Asexual reproduction modes, sexual reproduction in flowering plants, human male and female reproductive systems, reproductive health.
-- [Heredity](https://mocktestvault.com/cbse-class-10/science/ch08_heredity.html): Mendel's laws of inheritance, monohybrid and dihybrid crosses, sex determination in human beings.
-- [Light – Reflection and Refraction](https://mocktestvault.com/cbse-class-10/science/ch09_light_reflection_refraction.html): Mirror formula, magnification, Snell's law, refractive index, lens formula, power of a lens, ray diagrams.
-- [The Human Eye and the Colourful World](https://mocktestvault.com/cbse-class-10/science/ch10_human_eye_colourful_world.html): Refraction through a prism, dispersion, atmospheric refraction (twinkling of stars), scattering of light (Tyndall effect).
-- [Electricity](https://mocktestvault.com/cbse-class-10/science/ch11_electricity.html): Ohm's law, resistance, resistivity, series and parallel resistor combinations, Joule's heating effect, electric power.
-- [Magnetic Effects of Electric Current](https://mocktestvault.com/cbse-class-10/science/ch12_magnetic_effects_electric_current.html): Magnetic field lines, Right-Hand Thumb Rule, Fleming's Left-Hand Rule, electromagnetic induction, domestic electric circuits.
-- [Our Environment](https://mocktestvault.com/cbse-class-10/science/ch13_our_environment.html): Ecosystem components, food chains and webs, 10% energy transfer law, biological magnification, ozone layer depletion.
-- [Science All Reactions, Colors &amp; Formulas Sheet](https://mocktestvault.com/cbse-class-10/science-formulas-reactions.html): Complete reference covering all NCERT chemical equations, reaction color changes, precipitate chart, industrial salts, and physics optics/electricity formulas.
+## Regional and international practice hubs
+- [India practice hub](https://mocktestvault.com/in/)
+- [United States practice hub](https://mocktestvault.com/us/)
+- [Global practice hub](https://mocktestvault.com/global/)
+- [Digital SAT mathematics practice](https://mocktestvault.com/us/sat/math-practice-01.html)
+- [Digital SAT Reading and Writing practice](https://mocktestvault.com/us/sat/reading-practice-01.html)
+- [IELTS Academic reading practice](https://mocktestvault.com/global/ielts/reading-practice-01.html)
+- [TOEFL reading practice](https://mocktestvault.com/global/toefl/reading-practice-01.html): legacy passage-based practice; not an adaptive 2026 TOEFL iBT simulation.
 
-### Social Science Chapters
-- [The Rise of Nationalism in Europe](https://mocktestvault.com/cbse-class-10/social-science/ch01_rise_of_nationalism_europe.html): French Revolution, Napoleonic Code, unification of Italy and Germany, visualising the nation, imperialism.
-- [Nationalism in India](https://mocktestvault.com/cbse-class-10/social-science/ch02_nationalism_in_india.html): First World War impact, Rowlatt Act, Jallianwala Bagh, Non-Cooperation Movement, Civil Disobedience Movement, Salt March, sense of collective belonging.
-- [The Making of a Global World](https://mocktestvault.com/cbse-class-10/social-science/ch03_making_of_a_global_world.html): Silk routes, conquest, disease, trade, 19th-century global economy, Great Depression, post-war Bretton Woods institutions.
-- [The Age of Industrialisation](https://mocktestvault.com/cbse-class-10/social-science/ch04_age_of_industrialisation.html): Proto-industrialisation, factories emergence, hand labour vs steam power, industrialisation in colonies, market for goods.
-- [Print Culture and the Modern World](https://mocktestvault.com/cbse-class-10/social-science/ch05_print_culture_modern_world.html): Development of print in East Asia and Europe, Gutenberg press, print revolution, reading mania, print and the French Revolution, 19th-century Indian print.
-- [Resources and Development](https://mocktestvault.com/cbse-class-10/social-science/ch06_resources_and_development.html): Types of resources, sustainable development, Rio Summit, Agenda 21, land degradation and conservation measures, soil classification of India.
-- [Forest and Wildlife Resources](https://mocktestvault.com/cbse-class-10/social-science/ch07_forest_and_wildlife_resources.html): Biodiversity in India, IUCN species classification, conservation projects (Project Tiger), sacred groves, Joint Forest Management.
-- [Water Resources](https://mocktestvault.com/cbse-class-10/social-science/ch08_water_resources.html): Water scarcity, multi-purpose river projects and their ecological impact, rainwater harvesting systems in India.
-- [Agriculture](https://mocktestvault.com/cbse-class-10/social-science/ch09_agriculture.html): Types of farming (primitive, intensive subsistence, commercial), cropping seasons (Rabi, Kharif, Zaid), major crops, technological and institutional reforms.
-- [Minerals and Energy Resources](https://mocktestvault.com/cbse-class-10/social-science/ch10_minerals_and_energy_resources.html): Mode of occurrence of minerals, ferrous and non-ferrous, non-metallic, conventional and non-conventional energy sources.
-- [Manufacturing Industries](https://mocktestvault.com/cbse-class-10/social-science/ch11_manufacturing_industries.html): Importance of manufacturing, industrial location, agro-based and mineral-based industries, industrial pollution and environmental degradation.
-- [Lifelines of National Economy](https://mocktestvault.com/cbse-class-10/social-science/ch12_lifelines_of_national_economy.html): Roadways, golden quadrilateral, railways, pipelines, waterways, major ports, airways, communication networks, international trade, tourism.
-- [Power Sharing](https://mocktestvault.com/cbse-class-10/social-science/ch13_power_sharing.html): Case studies of Belgium and Sri Lanka, majoritarianism, accommodation, necessity of power sharing, horizontal and vertical power sharing.
-- [Federalism](https://mocktestvault.com/cbse-class-10/social-science/ch14_federalism.html): Key features of federalism, coming together vs holding together federations, legislative lists (Union, State, Concurrent), decentralisation and the 1992 constitutional amendments.
-- [Gender, Religion and Caste](https://mocktestvault.com/cbse-class-10/social-science/ch15_gender_religion_caste.html): Sexual division of labour, feminist movements, women's political representation, communalism and secular state, caste inequalities and caste in politics.
-- [Political Parties](https://mocktestvault.com/cbse-class-10/social-science/ch16_political_parties.html): Functions and necessity of political parties, party systems (one-party, two-party, multi-party), national and regional parties of India, challenges and reform measures.
-- [Outcomes of Democracy](https://mocktestvault.com/cbse-class-10/social-science/ch17_outcomes_of_democracy.html): Accountable, responsive, and legitimate government, economic growth and development, reduction of inequality and poverty, accommodation of social diversity.
-- [Development](https://mocktestvault.com/cbse-class-10/social-science/ch18_development.html): Different people, different goals, national development, per capita income, World Bank criteria, Human Development Index (HDI), sustainability of development.
-- [Sectors of the Indian Economy](https://mocktestvault.com/cbse-class-10/social-science/ch19_sectors_of_indian_economy.html): Primary, secondary, and tertiary sectors, historical change in sectors, rising importance of tertiary sector, disguised unemployment, MGNREGA 2005.
-- [Money and Credit](https://mocktestvault.com/cbse-class-10/social-science/ch20_money_and_credit.html): Barter system and double coincidence of wants, modern forms of money, loan activities of banks, terms of credit, formal vs informal credit sector in India, Self-Help Groups (SHGs).
-- [Globalisation and the Indian Economy](https://mocktestvault.com/cbse-class-10/social-science/ch21_globalisation_and_indian_economy.html): Multinational corporations (MNCs), foreign trade and integration of markets, factors enabling globalisation (technology, trade liberalisation, WTO), impact on India, struggle for fair globalisation.
+## Review and correction policy
+- [Question sources, review status and corrections](https://mocktestvault.com/question-sources-review.html)
+- [Contact and discrepancy reporting](https://mocktestvault.com/contact.html)
+- [Academic disclaimer](https://mocktestvault.com/disclaimer.html)
+- [About MockTestVault](https://mocktestvault.com/about.html)
 
-### Full-Length Board Exam Sample Papers & Past Papers
-- [Sample Papers & Past Papers Hub](https://mocktestvault.com/cbse-class-10/sample-papers/index.html): Timed 3-hour examination simulators matching the official CBSE 80-mark blueprint.
-- [Science 2024 Board Solved Paper](https://mocktestvault.com/cbse-class-10/sample-papers/science-board-paper-2024.html): Official 2024 board exam paper with full marking scheme.
-- [Mathematics 2024 Board Solved Paper](https://mocktestvault.com/cbse-class-10/sample-papers/mathematics-board-paper-2024.html): Official 2024 board exam paper with step derivations.
-- [Social Science 2024 Board Solved Paper](https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html): Official 2024 board exam paper with chapter citations.
-- [Science 2023 Board Solved Paper](https://mocktestvault.com/cbse-class-10/sample-papers/science-board-paper-2023.html): Official 2023 board exam paper with 80 questions and step-by-step marking scheme.
-- [Mathematics 2023 Board Solved Paper](https://mocktestvault.com/cbse-class-10/sample-papers/mathematics-board-paper-2023.html): Official 2023 board exam paper with NCERT formula derivations.
-- [Social Science 2023 Board Solved Paper](https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2023.html): Official 2023 board exam paper across History, Civics, Geography, and Economics.
-- [Mathematics Board Mock 01](https://mocktestvault.com/cbse-class-10/sample-papers/mathematics-board-mock-01.html): Complete 80-question board pattern exam.
-- [Science Board Mock 01](https://mocktestvault.com/cbse-class-10/sample-papers/science-board-mock-01.html): Complete 80-question board pattern exam.
-- [Social Science Board Mock 01](https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-mock-01.html): Complete 80-question board pattern exam.
-
-## CBSE Class 12 Board Exam Vault (/cbse-class-12/)
-Senior secondary examination simulators calibrated to NCERT Class 12 theory syllabuses with detailed derivations, mechanisms, and grade boundaries.
-
-- [CBSE Class 12 Main Hub](https://mocktestvault.com/cbse-class-12/): Portal overview across Physics, Chemistry, Biology, and Mathematics.
-- [Class 12 Sample Papers & Solved Past Papers Hub](https://mocktestvault.com/cbse-class-12/sample-papers/): Complete 3-hour theoretical board question papers with official step-by-step marking schemes.
-- [Class 12 Physics Formulas & Derivations Sheet](https://mocktestvault.com/cbse-class-12/physics-formulas-derivations.html): Chapter-wise formula sheet, SI units, and top 15 mandatory 5-mark derivations.
-- [Class 12 Chemistry Reactions & Formulas Sheet](https://mocktestvault.com/cbse-class-12/chemistry-reactions-formulas.html): Complete physical chemistry formulas, all 28 named organic reactions, and chemical distinction test matrices.
-- [Physics 2024 Board Solved Paper](https://mocktestvault.com/cbse-class-12/sample-papers/physics-board-paper-2024.html): 33 questions, 70 marks, 180-min timer with NCERT derivations.
-- [Chemistry 2024 Board Solved Paper](https://mocktestvault.com/cbse-class-12/sample-papers/chemistry-board-paper-2024.html): 33 questions, 70 marks, reaction mechanisms and step marking.
-- [Biology 2024 Board Solved Paper](https://mocktestvault.com/cbse-class-12/sample-papers/biology-board-paper-2024.html): 33 questions, 70 marks, genetic crosses and physiological pathways.
-- [Mathematics 2024 Board Solved Paper](https://mocktestvault.com/cbse-class-12/sample-papers/mathematics-board-paper-2024.html): 38 questions, 80 marks, calculus, vectors and 3D geometry.
-- [Physics 2023 Board Solved Paper](https://mocktestvault.com/cbse-class-12/sample-papers/physics-board-paper-2023.html): 33 questions, 70 marks, 180-min official solved simulation.
-- [Chemistry 2023 Board Solved Paper](https://mocktestvault.com/cbse-class-12/sample-papers/chemistry-board-paper-2023.html): 33 questions, 70 marks, official solutions and formula breakdowns.
-- [Biology 2023 Board Solved Paper](https://mocktestvault.com/cbse-class-12/sample-papers/biology-board-paper-2023.html): 33 questions, 70 marks, NCERT theory and case analysis.
-- [Mathematics 2023 Board Solved Paper](https://mocktestvault.com/cbse-class-12/sample-papers/mathematics-board-paper-2023.html): 38 questions, 80 marks, analytical step solutions.
-- [Physics Board Diagnostic 01](https://mocktestvault.com/cbse-class-12/physics-diagnostic-01.html): 35-question timed board simulation covering Electrostatics, Magnetism, Optics, and Modern Physics.
-- [Chemistry Board Diagnostic 01](https://mocktestvault.com/cbse-class-12/chemistry-diagnostic-01.html): 35-question timed board simulation covering Solutions, Electrochemistry, Kinetics, and Organic Mechanisms.
-- [Biology Board Diagnostic 01](https://mocktestvault.com/cbse-class-12/biology-diagnostic-01.html): 35-question timed board simulation covering Reproduction, Genetics, Biotechnology, and Ecology.
-
-## National Testing Agency (NTA) Speed Drill Vault (/nta/)
-Sectional speed drill simulators calibrated to official NTA examination blueprints with +4 / -1 negative marking and percentile trajectories.
-
-- [JEE Main Speed Drill 01](https://mocktestvault.com/nta/jee-main-speed-drill-01.html): 25-question timed speed drill across Physics, Chemistry, and Mathematics (45 mins, +4 / -1 marking).
-- [NEET UG Speed Drill 01](https://mocktestvault.com/nta/neet-ug-speed-drill-01.html): 45-question timed speed drill across Biology, Chemistry, and Physics (45 mins, +4 / -1 marking).
-
-## Staff Selection Commission Vault (/ssc-cgl/)
-Comprehensive Tier 1 computer-based testing simulation aligned with the Staff Selection Commission Combined Graduate Level Examination standards and TCS exam layout.
-
-- [SSC CGL Main Hub](https://mocktestvault.com/ssc-cgl/): Portal overview, tier 1 structure, timing, and negative marking rules.
-- [Tier 1 Syllabus & Strategy Guide](https://mocktestvault.com/ssc-cgl/tier-1-syllabus-strategy.html): Strategic blueprint covering mark distribution, subject-wise prioritization, safe score targets, and speed drills.
-- [SSC CGL Tier-I 2023 Shift-Labelled Practice Shift 1 Solved Exam](https://mocktestvault.com/ssc-cgl/cgl-tier1-2023-shift1-pyq.html): 100 questions (14 July 2023 Shift 1), 60-min timer, +2/-0.5 marking, independent CBT-style layout.
-- [SSC CGL Tier-I 2023 Shift-Labelled Practice Shift 2 Solved Exam](https://mocktestvault.com/ssc-cgl/cgl-tier1-2023-shift2-pyq.html): 100 questions (14 July 2023 Shift 2), authentic past questions with complete derivations.
-- [SSC CGL Tier 1 Mock 01](https://mocktestvault.com/ssc-cgl/mock-01.html): 100 questions (25 Reasoning, 25 GA, 25 Quant, 25 English), 60-minute countdown, -0.50 negative marking.
-- [SSC CGL Tier 1 Mock 02](https://mocktestvault.com/ssc-cgl/mock-02.html): Full-length second practice simulation.
-- [SSC CGL Tier 1 Mock 03](https://mocktestvault.com/ssc-cgl/mock-03.html): Full-length third practice simulation.
-- [Sectional English Comprehension 01](https://mocktestvault.com/ssc-cgl/sectional-english-01.html): Spotting errors, sentence improvement, idioms, direct/indirect speech, active/passive voice, cloze test.
-- [Sectional English Comprehension 02](https://mocktestvault.com/ssc-cgl/sectional-english-02.html): 25-question sectional drill.
-- [Sectional English Comprehension 03](https://mocktestvault.com/ssc-cgl/sectional-english-03.html): 25-question sectional drill.
-- [Sectional General Awareness 01](https://mocktestvault.com/ssc-cgl/sectional-general-awareness-01.html): Indian polity, modern history, geography, economics, general science, and current events.
-- [Sectional General Awareness 02](https://mocktestvault.com/ssc-cgl/sectional-general-awareness-02.html): 25-question sectional drill.
-- [Sectional General Awareness 03](https://mocktestvault.com/ssc-cgl/sectional-general-awareness-03.html): 25-question sectional drill.
-- [Sectional Quantitative Aptitude 01](https://mocktestvault.com/ssc-cgl/sectional-quantitative-aptitude-01.html): Arithmetic (percentages, profit/loss, SI/CI, ratio, time/work) and Advanced Math (algebra, geometry, mensuration, trigonometry).
-- [Sectional Quantitative Aptitude 02](https://mocktestvault.com/ssc-cgl/sectional-quantitative-aptitude-02.html): 25-question sectional drill.
-- [Sectional Quantitative Aptitude 03](https://mocktestvault.com/ssc-cgl/sectional-quantitative-aptitude-03.html): 25-question sectional drill.
-- [Sectional Reasoning 01](https://mocktestvault.com/ssc-cgl/sectional-reasoning-01.html): Analogies, syllogisms, coding-decoding, blood relations, non-verbal series, Venn diagrams.
-- [Sectional Reasoning 02](https://mocktestvault.com/ssc-cgl/sectional-reasoning-02.html): 25-question sectional drill.
-- [Sectional Reasoning 03](https://mocktestvault.com/ssc-cgl/sectional-reasoning-03.html): 25-question sectional drill.
-
-## US Standardized Testing Vault (/us/)
-Authentic diagnostic and practice engines for American college entrance exams and Advanced Placement credit tests.
-
-### Digital SAT Practice Tests
-- [Digital SAT Hub](https://mocktestvault.com/us/): Overview of the multistage adaptive testing structure.
-- [Math Practice Test 01](https://mocktestvault.com/us/sat/math-practice-01.html): Heart of Algebra, Advanced Math, Problem Solving & Data Analysis, Geometry & Trigonometry.
-- [Math Practice Test 02](https://mocktestvault.com/us/sat/math-practice-02.html): 22-question module.
-- [Math Practice Test 03](https://mocktestvault.com/us/sat/math-practice-03.html): 22-question module.
-- [Math Practice Test 04](https://mocktestvault.com/us/sat/math-practice-04.html): 22-question module.
-- [Math Practice Test 05](https://mocktestvault.com/us/sat/math-practice-05.html): 22-question module.
-- [Math Practice Random Pool](https://mocktestvault.com/us/sat/math-practice-random.html): Dynamic question generator across the entire SAT Math question bank.
-- [Reading & Writing Practice Test 01](https://mocktestvault.com/us/sat/reading-practice-01.html): Craft & Structure, Information & Ideas, Standard English Conventions, Expression of Ideas.
-- [Reading & Writing Practice Test 02](https://mocktestvault.com/us/sat/reading-practice-02.html): 27-question module.
-- [Reading & Writing Practice Test 03](https://mocktestvault.com/us/sat/reading-practice-03.html): 27-question module.
-- [Reading & Writing Practice Test 04](https://mocktestvault.com/us/sat/reading-practice-04.html): 27-question module.
-- [Reading & Writing Practice Test 05](https://mocktestvault.com/us/sat/reading-practice-05.html): 27-question module.
-- [Reading & Writing Random Pool](https://mocktestvault.com/us/sat/reading-practice-random.html): Dynamic question generator across the entire SAT Reading question bank.
-
-### Advanced Placement (AP) Diagnostics
-- [AP Calculus AB Diagnostic 01](https://mocktestvault.com/us/ap/calculus-ab-diagnostic-01.html): Limits, derivatives, chain rule, implicit differentiation, Riemann sums, definite integrals.
-- [AP Calculus AB Diagnostic 02](https://mocktestvault.com/us/ap/calculus-ab-diagnostic-02.html): Full diagnostic set.
-- [AP Calculus AB Diagnostic 03](https://mocktestvault.com/us/ap/calculus-ab-diagnostic-03.html): Full diagnostic set.
-- [AP Calculus AB Diagnostic 04](https://mocktestvault.com/us/ap/calculus-ab-diagnostic-04.html): Full diagnostic set.
-- [AP Calculus AB Diagnostic 05](https://mocktestvault.com/us/ap/calculus-ab-diagnostic-05.html): Full diagnostic set.
-- [AP Calculus AB Random Pool](https://mocktestvault.com/us/ap/calculus-ab-diagnostic-random.html): Dynamic diagnostic question generator.
-- [AP Physics 1 Diagnostic 01](https://mocktestvault.com/us/ap/physics-1-diagnostic-01.html): Kinematics, Newton's laws of motion, gravitation, circular motion, work, energy, momentum, simple harmonic motion.
-- [AP Physics 1 Diagnostic 02](https://mocktestvault.com/us/ap/physics-1-diagnostic-02.html): Full diagnostic set.
-- [AP Physics 1 Diagnostic 03](https://mocktestvault.com/us/ap/physics-1-diagnostic-03.html): Full diagnostic set.
-- [AP Physics 1 Diagnostic 04](https://mocktestvault.com/us/ap/physics-1-diagnostic-04.html): Full diagnostic set.
-- [AP Physics 1 Diagnostic 05](https://mocktestvault.com/us/ap/physics-1-diagnostic-05.html): Full diagnostic set.
-- [AP Physics 1 Random Pool](https://mocktestvault.com/us/ap/physics-1-diagnostic-random.html): Dynamic diagnostic question generator.
-- [AP US History Diagnostic 01](https://mocktestvault.com/us/ap/us-history-diagnostic-01.html): Stimulus-based multiple choice spanning Periods 1-9 (1491 to present day).
-- [AP US History Diagnostic 02](https://mocktestvault.com/us/ap/us-history-diagnostic-02.html): Full diagnostic set.
-- [AP US History Diagnostic 03](https://mocktestvault.com/us/ap/us-history-diagnostic-03.html): Full diagnostic set.
-- [AP US History Diagnostic 04](https://mocktestvault.com/us/ap/us-history-diagnostic-04.html): Full diagnostic set.
-- [AP US History Diagnostic 05](https://mocktestvault.com/us/ap/us-history-diagnostic-05.html): Full diagnostic set.
-- [AP US History Random Pool](https://mocktestvault.com/us/ap/us-history-diagnostic-random.html): Dynamic diagnostic question generator.
-
-## Global Higher Education Vault (/global/)
-English language assessment and graduate admissions exam simulators.
-
-- [Global Vault Main Hub](https://mocktestvault.com/global/): Global admissions exam directory and scoring methodologies.
-- [IELTS Reading Practice 01](https://mocktestvault.com/global/ielts/reading-practice-01.html): Academic reading passages with True/False/Not Given, heading matching, sentence completion.
-- [IELTS Reading Practice 02](https://mocktestvault.com/global/ielts/reading-practice-02.html): Full practice set.
-- [IELTS Reading Practice 03](https://mocktestvault.com/global/ielts/reading-practice-03.html): Full practice set.
-- [IELTS Reading Practice 04](https://mocktestvault.com/global/ielts/reading-practice-04.html): Full practice set.
-- [IELTS Reading Random Pool](https://mocktestvault.com/global/ielts/reading-practice-random.html): Dynamic practice passage questions.
-- [TOEFL iBT Reading Practice 01](https://mocktestvault.com/global/toefl/reading-practice-01.html): Academic passages with factual information, negative factual information, vocabulary in context, inference, sentence insertion.
-- [TOEFL iBT Reading Practice 02](https://mocktestvault.com/global/toefl/reading-practice-02.html): Full practice set.
-- [GRE Quantitative Reasoning 01](https://mocktestvault.com/global/gre/quantitative-reasoning-01.html): Quantitative comparison, multiple-choice single select, multiple-choice multiple select, numeric entry.
-- [GRE Quantitative Reasoning 02](https://mocktestvault.com/global/gre/quantitative-reasoning-02.html): Full practice set.
-- [GRE Verbal Reasoning 01](https://mocktestvault.com/global/gre/verbal-reasoning-01.html): Text completion, sentence equivalence, reading comprehension.
-- [GRE Verbal Reasoning 02](https://mocktestvault.com/global/gre/verbal-reasoning-02.html): Full practice set.
-- [GMAT Focus Diagnostic 01](https://mocktestvault.com/global/gmat/focus-diagnostic-01.html): Updated GMAT Focus format covering quantitative reasoning and verbal reasoning.
-- [GMAT Focus Diagnostic 02](https://mocktestvault.com/global/gmat/focus-diagnostic-02.html): Full practice set.
-- [AWS Cloud Practitioner Practice 01](https://mocktestvault.com/global/aws/cloud-practitioner-clf-c02-practice-01.html): 65-question timed CLF-C02 practice exam with official domain scoring (Cloud Concepts, Security, Technology, Billing).
-- [AWS Cloud Practitioner Practice 02](https://mocktestvault.com/global/aws/cloud-practitioner-clf-c02-practice-02.html): Full 65-question practice set with 700/1000 passing scale.
-- [IB DP Biology Paper 1 Practice 01](https://mocktestvault.com/global/ib/biology-hl-sl-practice-01.html): 40-question timed IB Biology (HL/SL) Paper 1 exam with official 1–7 grade scale.
-- [IB DP Math AA Practice 01](https://mocktestvault.com/global/ib/math-aa-hl-sl-practice-01.html): 30-question timed IB Mathematics Analysis and Approaches (AA HL/SL) Paper 1 diagnostic exam.
-
-## Institutional & Legal Information
-- [About Us & Editorial Standards](https://mocktestvault.com/about.html): Methodology, academic integrity, question authoring standards, zero ads policy.
-- [Privacy Policy](https://mocktestvault.com/privacy.html): Zero remote data collection, local browser persistence, student data protection compliance (COPPA, GDPR, DPDP Act 2023).
-- [Terms of Service](https://mocktestvault.com/terms.html): Free educational use terms, intellectual property, service level commitments.
-- [Disclaimer](https://mocktestvault.com/disclaimer.html): Independent educational simulation disclosure and trademark notices (CBSE, SSC, College Board, ETS, IDP/British Council).
-- [Contact & Support](https://mocktestvault.com/contact.html): Official support desk (`contact@mocktestvault.com`), academic errata reporting, and 24-48h SLA.
-- [Performance & Progress Tracker](https://mocktestvault.com/progress.html): Comprehensive client-side analytics dashboard displaying test completion history, accuracy metrics, and regional rankings.
-
-## Sitemaps & Feeds
-- [XML Sitemap](https://mocktestvault.com/sitemap.xml): Complete catalog of 135 canonical test URLs and static guides.
-- [Atom Feed](https://mocktestvault.com/feed.xml): Real-time update feed for rapid crawler discovery.
-
-## Official pattern and source references
-- [SSC CGL 2026 notification](https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf): Tier-I subject count, timing and marking scheme.
-- [Question Sources & Review Policy](https://mocktestvault.com/question-sources-review.html): distinguishes official exam-pattern references, topic notes and independently authored practice items.
-- [TOEFL iBT 2026 format guide](https://mocktestvault.com/global/toefl/2026-format-guide.html): current ETS format summary and limits of the site's legacy passage drills.
+## Discovery
+- Sitemap: https://mocktestvault.com/sitemap.xml
+- Atom feed: https://mocktestvault.com/feed.xml

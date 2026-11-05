@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -323,10 +336,10 @@
 
     <!-- Hero Header -->
     <div class="guide-hero">
-      <span class="guide-hero-badge">CBSE Class 12 Chemistry (Code 043) • NCERT Statutory Blueprint</span>
+      <span class="guide-hero-badge">CBSE Class 12 Chemistry (Code 043) • NCERT Topic References</span>
       <h1>CBSE Class 12 Chemistry All Name Reactions, Formulas &amp; Distinction Tests</h1>
       <p>
-        The comprehensive board examination cheat sheet covering Physical Chemistry numerical formulas, Inorganic coordination &amp; d-block reaction tables, all 28 statutory Organic named reactions with reagents and mechanisms, and essential chemical distinction test matrices.
+        A Class 12 Chemistry revision reference covering selected Physical Chemistry formulas, Inorganic coordination and d-block reaction examples, named Organic reactions with reagents and mechanisms, and chemical distinction practice. Check all content against the current prescribed textbook and syllabus.
       </p>
 
       <div class="hero-meta-row">
@@ -338,10 +351,10 @@
 
       <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
         <a href="sample-papers/chemistry-board-paper-2024.html" style="background:#8b5cf6; color:#ffffff; padding:10px 18px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.88rem;">
-          🚀 Practice 2024 Chemistry Solved Board Paper (70M) →
+          🚀 Open 2024 Year-Labelled Chemistry Practice Set →
         </a>
         <a href="sample-papers/chemistry-board-paper-2023.html" style="background:rgba(255,255,255,0.15); color:#ffffff; padding:10px 18px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.88rem; border:1px solid rgba(255,255,255,0.25);">
-          📄 Practice 2023 Chemistry Solved Board Paper (70M) →
+          📄 Open 2023 Year-Labelled Chemistry Practice Set →
         </a>
       </div>
     </div>

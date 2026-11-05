@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -124,7 +137,7 @@
         "@id": "https://mocktestvault.com/cbse-class-12/sample-papers/physics-board-paper-2024.html#quiz",
         "url": "https://mocktestvault.com/cbse-class-12/sample-papers/physics-board-paper-2024.html",
         "name": "CBSE Class 12 Physics 70-Mark Objective Practice Drill (2024 Blueprint) | MockTestVault",
-        "description": "Weighted objective practice mock for CBSE Class 12 Physics. 33 chapter-aligned questions with official 70-mark weighted scoring, step-by-step NCERT derivations, and 3-hour CBT timer.",
+        "description": "Weighted objective practice mock for CBSE Class 12 Physics. 33 chapter-aligned questions with MockTestVault practice scoring; not an official CBSE result or key, step-by-step NCERT derivations, and 3-hour CBT timer.",
         "educationalLevel": "Grade 12 / Senior School Certificate Examination",
         "learningResourceType": "Independent Year-Labelled Practice Set",
         "educationalUse": "Assessment",
@@ -164,9 +177,9 @@
         "@id": "https://mocktestvault.com/cbse-class-12/sample-papers/physics-board-paper-2024.html#learningresource",
         "url": "https://mocktestvault.com/cbse-class-12/sample-papers/physics-board-paper-2024.html",
         "name": "CBSE Class 12 Physics 2024 Year-Labelled Practice Module — Provenance Unverified",
-        "description": "Weighted objective practice mock for CBSE Class 12 Physics. 33 chapter-aligned questions with official 70-mark weighted scoring, step-by-step NCERT derivations, and 3-hour CBT timer.",
+        "description": "Weighted objective practice mock for CBSE Class 12 Physics. 33 chapter-aligned questions with MockTestVault practice scoring; not an official CBSE result or key, step-by-step NCERT derivations, and 3-hour CBT timer.",
         "educationalLevel": "Class 12",
-        "learningResourceType": "Exam Solved Paper",
+        "learningResourceType": "Independent Year-Labelled Practice Set",
         "educationalUse": ["practice", "assessment", "study-guide"],
         "inLanguage": "en",
         "isAccessibleForFree": true,
@@ -189,7 +202,7 @@
   <!-- Print Only Header -->
   <div class="print-only-header">
     <div class="print-title" role="heading" aria-level="2">MockTestVault — CBSE Class 12 Physics 2024 Year-Labelled Practice Set — Provenance Unverified | MockTestVault</div>
-    <p>Year-Labelled CBSE Class 12 Practice Physics 2024 Solved Examination (Code 042) | 70 Marks • 180 Mins | mocktestvault.com</p>
+    <p>Independent CBSE Class 12 Physics 2024 Year-Labelled Practice Set (Code 042) | 70 Marks • 180 Mins | mocktestvault.com</p>
   </div>
 
   <!-- Site Navigation Header -->
@@ -199,7 +212,7 @@
         <div class="brand-logo">⚡</div>
         <div class="brand-text">
           <h1>CBSE Class 12 Physics 70-Mark Objective Practice Drill (2024 Blueprint) <span class="vault-pill">CBSE Class 12</span></h1>
-          <p>Physics 2024 Board-Pattern Practice Solved Exam</p>
+          <p>Physics 2024 Year-Labelled Practice Set — Provenance Unverified</p>
         </div>
       </a>
 
@@ -266,7 +279,7 @@
 
       <div class="action-tools">
         <button id="btn-instructions" class="tool-btn" title="View Board Exam Guidelines">📜 Instructions</button>
-        <button id="btn-print-sheet" class="tool-btn" title="Print Solved A4 Board Paper">🖨️ Print Solved</button>
+        <button id="btn-print-sheet" class="tool-btn" title="Print Practice Review Sheet">🖨️ Print Solved</button>
       </div>
     </div>
   </div>
@@ -411,12 +424,12 @@ The original CBSE question paper and practice scoring rubric are not attached or
         📘 CBSE Class 12 Physics — 2024 Board-Pattern Practice Examination Paper Blueprint &amp; Strategy
       </h2>
       <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6; margin-bottom:16px;">
-        This independent year-labelled practice set is designed around the CBSE Class 12 practice 2024 Senior Secondary Board Examination (Code 042). Evaluated strictly out of 70 marks over a standard 180-minute (3-hour) countdown, it rigorously tests syllabus competencies across all NCERT textbook units.
+        This independent year-labelled practice set provides topic-based revision informed by publicly available CBSE syllabus and exam-format references. It is not an authenticated reproduction of the original annual board paper. It was labelled for the following practice year: 2024 Senior Secondary Board Examination (Code 042). Evaluated strictly out of 70 marks over a standard 180-minute (3-hour) countdown, it provides practice across selected syllabus topics; it is not a completeness check for the full curriculum.
       </p>
     </div>
 
     <div style="background:var(--bg-subtle); border-radius:8px; padding:18px; margin-bottom:24px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Official CBSE 2024 Board Marking Scheme &amp; Strategy:</strong>
+      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Practice Review Notes (Not an Official CBSE Marking Scheme):</strong>
       • <strong>Marks Weightage:</strong> 70 Marks Theory + 30 Marks Practical / Internal Assessment = 100 Marks.<br>
       • <strong>Time Allocation Strategy:</strong> Section A (MCQs: 30 mins) &bull; Section B (VSA: 25 mins) &bull; Section C (SA: 45 mins) &bull; Section D (Case Studies: 30 mins) &bull; Section E (LA: 40 mins) &bull; Final Revision: 10 mins.<br>
       • <strong>Curriculum Navigation:</strong> <a href='../index.html' style='color:var(--primary); font-weight:700;'>CBSE Class 12 Science Hub &rarr;</a>
@@ -467,7 +480,7 @@ The original CBSE question paper and practice scoring rubric are not attached or
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 MockTestVault. Developed for student excellence. Calibrated to official CBSE Board examination standards.</p>
+        <p>&copy; 2026 MockTestVault. Developed for student excellence. Independent practice resource; original-paper provenance is not authenticated.</p>
         <div class="footer-legal-links">
           <a href="../../privacy.html">Privacy Policy</a>
           <a href="../../terms.html">Terms of Service</a>

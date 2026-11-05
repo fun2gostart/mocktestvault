@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,7 +90,7 @@
       "@id": "https://mocktestvault.com/cbse-class-10/science/ch02_acids_bases_salts.html#quiz",
       "url": "https://mocktestvault.com/cbse-class-10/science/ch02_acids_bases_salts.html",
       "name": "CBSE Class 10 Science (Chemistry) Chapter 2: Acids, Bases and Salts MCQ Practice Test",
-      "description": "Official CBSE Class 10 Board exam practice test for Chapter 2: Acids, Bases and Salts with timer, negative marking options, and step-by-step NCERT solutions.",
+      "description": "Independent CBSE Class 10 topic-practice test for Chapter 2: Acids, Bases and Salts with timer, negative marking options, and step-by-step NCERT solutions.",
       "educationalLevel": "Grade 10",
       "learningResourceType": "Practice Quiz",
       "educationalUse": "Assessment",
@@ -200,7 +213,7 @@
       "@type": "LearningResource",
       "@id": "https://mocktestvault.com/cbse-class-10/science/ch02_acids_bases_salts.html#learningresource",
       "url": "https://mocktestvault.com/cbse-class-10/science/ch02_acids_bases_salts.html",
-      "name": "CBSE Class 10 Science (Chemistry) Chapter 2: Acids, Bases and Salts Blueprint & Study Guide",
+      "name": "CBSE Class 10 Science (Chemistry) Chapter 2: Acids, Bases and Salts Revision Guide & Study Guide",
       "description": "Focuses on Arrhenius and Brønsted-Lowry conceptual models of acids and bases, the universal pH scale, indicator transitions, and the industrial synthesis of commercial salts from sodium chloride via the Chlor-Alkali process.",
       "educationalLevel": "Class 10",
       "learningResourceType": "Study Guide",
@@ -252,7 +265,7 @@
         <div class="brand-logo">🛡️</div>
         <div class="brand-text">
           <h1>CBSE 10 Science Ch 2: Acids, Bases &amp; Salts <span class="vault-pill">CBSE Class 10</span></h1>
-          <p>Official Curriculum Exam Simulator</p>
+          <p>Independent Curriculum-Topic Practice</p>
         </div>
       </a>
 
@@ -262,7 +275,7 @@
           <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and step-by-step NCERT explanations">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 20-min official simulation with final scorecard">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 20-minute practice simulation with a practice scorecard">
             <span>⏱️</span> Exam
           </button>
         </div>
@@ -354,7 +367,7 @@
       <div class="explanation-box" id="explanation-box">
         <div class="explanation-header">
           <span>✓ NCERT Conceptual Explanation</span>
-          <span class="citation-tag" id="citation-tag">NCERT Official Syllabus</span>
+          <span class="citation-tag" id="citation-tag">NCERT Topic Reference</span>
         </div>
         <p class="explanation-text" id="explanation-text"></p>
       </div>
@@ -488,7 +501,7 @@
   </section>
 
   
-  <!-- Academic Chapter Guide & CBSE Board Blueprint (SEO & E-E-A-T Grounding) -->
+  <!-- Chapter Revision Guide (SEO & E-E-A-T Grounding) -->
   <section class="cbt-academic-guide" style="max-width:1200px; margin:40px auto; padding:0 20px;">
     <div style="border-top:1px solid var(--border-color); padding-top:32px; margin-bottom:24px;">
       <h2 style="font-size:1.35rem; font-weight:700; margin-bottom:12px; color:var(--text-primary);">
@@ -522,7 +535,7 @@
     <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
     <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
       <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
-        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+        <span>📝 Illustrative Practice Questions &amp; Worked Explanations</span>
       </h3>
       <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
         <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
@@ -541,7 +554,7 @@
           <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
             <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (B) — Vanilla essence or finely chopped onion</p>
             <p style="margin:0;"><strong>Explanation:</strong> Olfactory indicators are substances whose odor varies in acidic or basic media. Vanilla essence, onion juice, and clove oil lose their characteristic smell when treated with a base (like NaOH), but retain their smell in an acid.</p>
-            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Science, Chapter 2, Section 2.1 (Activity 2.2)</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>Topic reference (not item-level provenance):</strong> NCERT Class 10 Science, Chapter 2, Section 2.1 (Activity 2.2)</p>
           </div>
         </details>
       </div>
@@ -562,15 +575,15 @@
           <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
             <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (A) — It burns with a characteristic &#x27;pop&#x27; sound when a burning candle is brought near</p>
             <p style="margin:0;"><strong>Explanation:</strong> Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g). Hydrogen gas is liberated. Because hydrogen is highly combustible, it ignites with a characteristic popping sound when exposed to a burning flame.</p>
-            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Science, Chapter 2, Section 2.1.2 (Activity 2.3)</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>Topic reference (not item-level provenance):</strong> NCERT Class 10 Science, Chapter 2, Section 2.1.2 (Activity 2.3)</p>
           </div>
         </details>
       </div>
     </div>
 
     <div style="background:var(--bg-subtle); border-radius:8px; padding:18px; margin-bottom:24px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Official CBSE Marking Scheme &amp; Strategy:</strong>
-      • <strong>Marks Weightage:</strong> 7–8 Marks in annual board theory paper.<br>
+      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Exam Preparation Notes &amp; Practice Strategy:</strong>
+      • <strong>Weightage note:</strong> This guide does not establish official chapter-wise marks allocation; consult the current CBSE syllabus and sample papers.<br>
       • <strong>Question Formats:</strong> Section A (Standalone MCQs &amp; Assertion-Reasoning), Section B/C (Short/Long Answers), Section E (Case Studies).<br>
       • <strong>Strategy &amp; Common Pitfalls:</strong> Memorize the chemical names and formulas of all 5 commercial salts. Note that Plaster of Paris must be stored in moisture-proof containers to prevent hydration back to Gypsum.<br>
       • <strong>Curriculum Navigation:</strong> <a href='../science-formulas-reactions.html#salts' style='color:var(--primary); font-weight:700;'>Industrial Salts &amp; POP Chemical Equations →</a>
@@ -581,7 +594,7 @@
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official NCERT Class 10 Science standards.</p>
+      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with NCERT Class 10 Science topics; check the current CBSE curriculum for session-specific coverage.</p>
     
     <div class="footer-legal-links">
       <a href="/about.html">About Us</a>

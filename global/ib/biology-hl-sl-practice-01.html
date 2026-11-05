@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -108,7 +121,7 @@
           <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and official IB markscheme citations">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 60-min official IB Paper 1 simulation with 1-7 grade scale">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed practice simulation using MockTestVault settings">
             <span>⏱️</span> Exam
           </button>
         </div>
@@ -407,8 +420,8 @@
     </div>
 
     <div style="background:var(--bg-subtle); border-radius:8px; padding:18px; margin-bottom:24px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Official Marking Scheme &amp; Grade Boundaries:</strong>
-      • <strong>Grade 7 (Excellent):</strong> Typically 75%+ raw mark boundary (30+/40 marks on Paper 1).<br>
+      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Independent Practice Scoring Notes (Not Official IB Grade Boundaries):</strong>
+      • <strong>Grade interpretation:</strong> This short diagnostic does not predict an IB grade or reproduce an official IB grade boundary.<br>
       • <strong>Zero Negative Penalty:</strong> 1 mark per correct answer; 0 marks deducted for incorrect answers. Always answer every item.<br>
       • <strong>Exam Strategy:</strong> Eliminate distractors by identifying erroneous physiological claims before selecting your final answer.
     </div>
@@ -418,7 +431,7 @@
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Standardized Testing Simulators.</p>
-      <p style="font-size:0.75rem;">Aligned with the International Baccalaureate® (IB) Diploma Programme curriculum standards. International Baccalaureate® and IB® are registered trademarks of the International Baccalaureate Organization, which is not affiliated with this website.</p>
+      <p style="font-size:0.75rem;">Independent practice covering selected International Baccalaureate® Diploma Programme topics. International Baccalaureate® and IB® are registered trademarks of the International Baccalaureate Organization, which is not affiliated with this website.</p>
     
       <div class="footer-legal-links">
         <a href="/about.html">About Us</a>

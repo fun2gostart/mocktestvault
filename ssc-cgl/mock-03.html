@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -125,7 +138,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Quiz",
-    "name": "SSC CGL 2025–2026 Tier 1 Official Full Mock Test 03",
+    "name": "SSC CGL 2025–2026 Tier 1 Full Practice Mock Test 03",
     "description": "Full-length 100-question timed mock exam matching the exact SSC CGL Tier 1 computer-based test pattern.",
     "educationalLevel": "Competitive Examination",
     "learningResourceType": "Full Mock Exam",
@@ -172,7 +185,7 @@
 
   <!-- Print Only Header -->
   <div class="print-only-header">
-    <div class="print-title" role="heading" aria-level="2">MockTestVault — SSC CGL Tier 1 Official Full Mock Test 03</div>
+    <div class="print-title" role="heading" aria-level="2">MockTestVault — SSC CGL Tier 1 Full Practice Mock Test 03</div>
     <p>Complete 100-Question Solved Paper (200 Marks) | mocktestvault.com</p>
   </div>
 
@@ -183,7 +196,7 @@
         <div class="brand-logo">🛡️</div>
         <div class="brand-text">
           <h1>SSC CGL Tier 1 Practice Mock 03 (100 Questions • 60 Mins • Sectional Timers) <span class="vault-pill">SSC CGL Tier 1</span></h1>
-          <p>Full 100-Question Board Simulation</p>
+          <p>Full 100-Question Practice Simulation</p>
         </div>
       </a>
 
@@ -192,7 +205,7 @@
           <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and detailed solutions">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 60-min official simulation with negative marking">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 60-minute practice simulation with configured scoring">
             <span>⏱️</span> Exam
           </button>
         </div>
@@ -491,7 +504,7 @@
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Competitive Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official Staff Selection Commission (SSC) standards.</p>
+      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Independent SSC practice based on selected published exam-format references; check current SSC notices for the controlling requirements.</p>
     
     <div class="footer-legal-links">
       <a href="/about.html">About Us</a>

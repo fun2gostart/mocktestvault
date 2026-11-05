@@ -1,42 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+
+<html data-theme="light" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
-  <script>
+<!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
+<script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CBSE Class 12 Practice Tests &amp; Board Papers | MockTestVault</title>
-  <meta name="description" content="Explore CBSE Class 12 Physics, Chemistry, Biology and Mathematics practice tests and solved 2023–2024 board papers.">
-  <!-- Canonical & Open Graph -->
-  <link rel="canonical" href="https://mocktestvault.com/cbse-class-12/">
-  <meta property="og:site_name" content="MockTestVault">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://mocktestvault.com/cbse-class-12/">
-  <meta property="og:title" content="CBSE Class 12 Practice Tests &amp; Board Papers | MockTestVault">
-  <meta property="og:description" content="Explore CBSE Class 12 Physics, Chemistry, Biology and Mathematics practice tests and solved 2023–2024 board papers.">
-  <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CBSE Class 12 Practice Tests &amp; Board Papers | MockTestVault">
-  <meta name="twitter:description" content="Explore CBSE Class 12 Physics, Chemistry, Biology and Mathematics practice tests and solved 2023–2024 board papers.">
-  <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
-
-  <link rel="stylesheet" href="../css/homepage.css">
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CBSE Class 12 Practice Tests &amp; Revision | MockTestVault</title>
+<meta content="Explore independent Class 12 subject practice tests, diagnostics and revision resources. Check the current CBSE curriculum and sample papers." name="description"/>
+<!-- Canonical & Open Graph -->
+<link href="https://mocktestvault.com/cbse-class-12/" rel="canonical"/>
+<meta content="MockTestVault" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="https://mocktestvault.com/cbse-class-12/" property="og:url"/>
+<meta content="CBSE Class 12 Practice Tests &amp; Revision | MockTestVault" property="og:title"/>
+<meta content="Explore independent Class 12 subject practice tests, diagnostics and revision resources. Check the current CBSE curriculum and sample papers." property="og:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image:secure_url"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" property="og:image:alt"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="CBSE Class 12 Practice Tests &amp; Revision | MockTestVault" name="twitter:title"/>
+<meta content="Explore independent Class 12 subject practice tests, diagnostics and revision resources. Check the current CBSE curriculum and sample papers." name="twitter:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" name="twitter:image"/>
+<link href="../css/homepage.css" rel="stylesheet"/>
+<style>
     .track-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -59,9 +70,8 @@
       box-shadow: var(--shadow-md);
     }
   </style>
-
-  <!-- Schema.org BreadcrumbList -->
-  <script type="application/ld+json">
+<!-- Schema.org BreadcrumbList -->
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -87,199 +97,183 @@
     ]
   }
   </script>
-  <script src="/js/consent.js" defer></script>
+<script defer="" src="/js/consent.js"></script>
 </head>
 <body>
-
-  <!-- Site Navigation Header -->
-  <header class="site-header">
-    <div class="home-container" style="display:flex; justify-content:space-between; align-items:center; height:70px;">
-      <a href="../index.html" class="brand-link" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
-        <span style="font-size:1.8rem;">🎓</span>
-        <div>
-          <span style="font-size:1.2rem; font-weight:800; color:var(--text-primary); display:block; line-height:1.2;">MockTestVault</span>
-          <span style="font-size:0.75rem; color:var(--primary); font-weight:700;">CBSE Class 12 Science &amp; Commerce</span>
-        </div>
-      </a>
-
-      <div style="display:flex; align-items:center; gap:12px;">
-        <a href="../cbse-class-10/index.html" class="nav-link" style="color:var(--text-secondary); text-decoration:none; font-size:0.85rem; font-weight:600;">Class 10 Vault</a>
-        <a href="../ssc-cgl/index.html" class="nav-link" style="color:var(--text-secondary); text-decoration:none; font-size:0.85rem; font-weight:600;">SSC CGL</a>
-        <a href="../in/index.html" class="nav-link" style="color:var(--text-secondary); text-decoration:none; font-size:0.85rem; font-weight:600;">India Vault</a>
-        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero-section" style="padding:48px 0 32px 0; background:var(--bg-subtle); border-bottom:1px solid var(--border-color);">
-    <div class="home-container">
-      <div style="max-width:820px; margin:0 auto; text-align:center;">
-        <span style="font-size:0.8rem; font-weight:800; text-transform:uppercase; letter-spacing:0.05em; color:var(--primary); background:var(--primary-light); padding:4px 12px; border-radius:9999px;">
+<!-- Site Navigation Header -->
+<header class="site-header">
+<div class="home-container" style="display:flex; justify-content:space-between; align-items:center; height:70px;">
+<a class="brand-link" href="../index.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+<span style="font-size:1.8rem;">🎓</span>
+<div>
+<span style="font-size:1.2rem; font-weight:800; color:var(--text-primary); display:block; line-height:1.2;">MockTestVault</span>
+<span style="font-size:0.75rem; color:var(--primary); font-weight:700;">CBSE Class 12 Science &amp; Commerce</span>
+</div>
+</a>
+<div style="display:flex; align-items:center; gap:12px;">
+<a class="nav-link" href="../cbse-class-10/index.html" style="color:var(--text-secondary); text-decoration:none; font-size:0.85rem; font-weight:600;">Class 10 Vault</a>
+<a class="nav-link" href="../ssc-cgl/index.html" style="color:var(--text-secondary); text-decoration:none; font-size:0.85rem; font-weight:600;">SSC CGL</a>
+<a class="nav-link" href="../in/index.html" style="color:var(--text-secondary); text-decoration:none; font-size:0.85rem; font-weight:600;">India Vault</a>
+<button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="hero-section" style="padding:48px 0 32px 0; background:var(--bg-subtle); border-bottom:1px solid var(--border-color);">
+<div class="home-container">
+<div style="max-width:820px; margin:0 auto; text-align:center;">
+<span style="font-size:0.8rem; font-weight:800; text-transform:uppercase; letter-spacing:0.05em; color:var(--primary); background:var(--primary-light); padding:4px 12px; border-radius:9999px;">
           Senior Secondary Board Examination Portal
         </span>
-        <h1 style="font-size:2.3rem; font-weight:900; color:var(--text-primary); margin:16px 0 12px 0;">
+<h1 style="font-size:2.3rem; font-weight:900; color:var(--text-primary); margin:16px 0 12px 0;">
           Master CBSE Class 12 with <span class="gradient-text">Zero Distractions</span>
-        </h1>
-        <p style="font-size:0.98rem; color:var(--text-secondary); line-height:1.6; margin-bottom:24px;">
-          Experience official-pattern 3-hour Computer-Based Testing simulations, chapter diagnostics, and authentic 2024 &amp; 2023 solved board examination papers across Physics, Chemistry, Biology, and Mathematics.
+</h1>
+<p style="font-size:0.98rem; color:var(--text-secondary); line-height:1.6; margin-bottom:24px;">
+          Experience independent 3-hour Computer-Based Testing practice simulations, chapter diagnostics, and independent 2024- and 2023-labelled practice sets whose original board-paper provenance has not been authenticated across Physics, Chemistry, Biology, and Mathematics.
         </p>
-
-        <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
-          <a href="sample-papers/index.html" class="btn-primary-hero" style="background:var(--primary); color:#fff; text-decoration:none; padding:12px 24px; border-radius:8px; font-weight:700;">
-            <span>📑 Official Past Board Solved Papers (8) →</span>
-          </a>
-          <a href="physics-diagnostic-01.html" class="btn-secondary-hero" style="background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-color); text-decoration:none; padding:12px 24px; border-radius:8px; font-weight:700;">
-            <span>⚡ Physics 60M Diagnostic</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Main Container -->
-  <main class="home-container" style="padding:48px 20px 80px 20px;">
-
-    <!-- Past Board Papers Banner Card -->
-    <div style="background:linear-gradient(135deg, rgba(37,99,235,0.08), rgba(16,185,129,0.08)); border:1.5px solid var(--primary-border); border-radius:16px; padding:28px; margin-bottom:48px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px;">
-      <div>
-        <span style="font-size:0.75rem; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:0.05em; background:var(--primary-light); padding:4px 10px; border-radius:9999px;">
-          Authentic Board PYQs
+<div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+<a class="btn-primary-hero" href="sample-papers/index.html" style="background:var(--primary); color:#fff; text-decoration:none; padding:12px 24px; border-radius:8px; font-weight:700;">
+<span>📑 Year-Labelled Practice Sets (8) — Provenance Unverified →</span>
+</a>
+<a class="btn-secondary-hero" href="physics-diagnostic-01.html" style="background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-color); text-decoration:none; padding:12px 24px; border-radius:8px; font-weight:700;">
+<span>⚡ Physics 60M Diagnostic</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Container -->
+<main class="home-container" style="padding:48px 20px 80px 20px;">
+<!-- Past Board Papers Banner Card -->
+<div style="background:linear-gradient(135deg, rgba(37,99,235,0.08), rgba(16,185,129,0.08)); border:1.5px solid var(--primary-border); border-radius:16px; padding:28px; margin-bottom:48px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px;">
+<div>
+<span style="font-size:0.75rem; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:0.05em; background:var(--primary-light); padding:4px 10px; border-radius:9999px;">
+          Year-Labelled Practice Sets — Provenance Unverified
         </span>
-        <h3 style="font-size:1.35rem; font-weight:800; color:var(--text-primary); margin:8px 0;">
-          CBSE Class 12 Past Solved Board Papers (2024 &amp; 2023)
+<h3 style="font-size:1.35rem; font-weight:800; color:var(--text-primary); margin:8px 0;">
+          CBSE Class 12 Year-Labelled Practice Sets (2024 &amp; 2023)
         </h3>
-        <p style="font-size:0.88rem; color:var(--text-secondary); max-width:640px; margin:0; line-height:1.5;">
-          Attempt complete 3-hour theoretical board question papers with official step-by-step marking schemes across Physics (042), Chemistry (043), Biology (044), and Mathematics (041).
+<p style="font-size:0.88rem; color:var(--text-secondary); max-width:640px; margin:0; line-height:1.5;">
+          Attempt independent 3-hour practice sets across Physics (042), Chemistry (043), Biology (044), and Mathematics (041). Original annual board papers and official marking schemes have not been matched item by item in this release.
         </p>
-      </div>
-      <a href="sample-papers/index.html" style="background:var(--primary); color:#fff; padding:12px 24px; border-radius:8px; font-weight:700; text-decoration:none; white-space:nowrap; box-shadow:0 4px 12px rgba(37,99,235,0.25);">
+</div>
+<a href="sample-papers/index.html" style="background:var(--primary); color:#fff; padding:12px 24px; border-radius:8px; font-weight:700; text-decoration:none; white-space:nowrap; box-shadow:0 4px 12px rgba(37,99,235,0.25);">
         Explore All 8 Papers →
       </a>
-    </div>
-
-    <!-- Master Study Guides & Formula Sheets -->
-    <div style="margin-bottom:48px;">
-      <div class="section-head" style="margin-bottom:20px;">
-        <span class="section-pill">Exam-Day Quick Revision</span>
-        <h2 class="section-title">Class 12 Formula Sheets, Derivations &amp; Reaction Guides</h2>
-        <p class="section-desc">
-          Official statutory NCERT summaries, mandatory 5-mark derivation checklists, and organic distinction matrices engineered for rapid board exam review.
+</div>
+<!-- Master Study Guides & Formula Sheets -->
+<div style="margin-bottom:48px;">
+<div class="section-head" style="margin-bottom:20px;">
+<span class="section-pill">Exam-Day Quick Revision</span>
+<h2 class="section-title">Class 12 Formula Sheets, Derivations &amp; Reaction Guides</h2>
+<p class="section-desc">
+          NCERT topic-based summaries, mandatory 5-mark derivation checklists, and organic distinction matrices engineered for rapid board exam review.
         </p>
-      </div>
-
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:20px;">
-        <!-- Physics Guide Card -->
-        <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:12px; padding:24px; box-shadow:var(--shadow-sm); display:flex; flex-direction:column; justify-content:space-between;">
-          <div>
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-              <span style="font-size:1.8rem;">⚡</span>
-              <span style="font-size:0.75rem; font-weight:700; color:var(--primary); background:var(--primary-light); padding:3px 8px; border-radius:4px;">Code 042 • 70M Blueprint</span>
-            </div>
-            <h3 style="font-size:1.2rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Physics All Formulas &amp; Derivations</h3>
-            <p style="font-size:0.86rem; color:var(--text-secondary); line-height:1.5; margin-bottom:18px;">
+</div>
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:20px;">
+<!-- Physics Guide Card -->
+<div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:12px; padding:24px; box-shadow:var(--shadow-sm); display:flex; flex-direction:column; justify-content:space-between;">
+<div>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+<span style="font-size:1.8rem;">⚡</span>
+<span style="font-size:0.75rem; font-weight:700; color:var(--primary); background:var(--primary-light); padding:3px 8px; border-radius:4px;">Code 042 • 70M Blueprint</span>
+</div>
+<h3 style="font-size:1.2rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Physics All Formulas &amp; Derivations</h3>
+<p style="font-size:0.86rem; color:var(--text-secondary); line-height:1.5; margin-bottom:18px;">
               Complete 14-chapter formula matrices, SI units, dimensional formulas, and the Top 15 mandatory 5-mark derivation step-by-step proofs.
             </p>
-          </div>
-          <a href="physics-formulas-derivations.html" style="display:inline-block; text-align:center; padding:10px 16px; background:var(--primary); color:#ffffff; font-weight:700; border-radius:6px; text-decoration:none; font-size:0.88rem;">
+</div>
+<a href="physics-formulas-derivations.html" style="display:inline-block; text-align:center; padding:10px 16px; background:var(--primary); color:#ffffff; font-weight:700; border-radius:6px; text-decoration:none; font-size:0.88rem;">
             Open Physics Formula Sheet →
           </a>
-        </div>
-
-        <!-- Chemistry Guide Card -->
-        <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:12px; padding:24px; box-shadow:var(--shadow-sm); display:flex; flex-direction:column; justify-content:space-between;">
-          <div>
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-              <span style="font-size:1.8rem;">🧪</span>
-              <span style="font-size:0.75rem; font-weight:700; color:#8b5cf6; background:rgba(139,92,246,0.15); padding:3px 8px; border-radius:4px;">Code 043 • 70M Blueprint</span>
-            </div>
-            <h3 style="font-size:1.2rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Chemistry All Reactions &amp; Formulas</h3>
-            <p style="font-size:0.86rem; color:var(--text-secondary); line-height:1.5; margin-bottom:18px;">
+</div>
+<!-- Chemistry Guide Card -->
+<div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:12px; padding:24px; box-shadow:var(--shadow-sm); display:flex; flex-direction:column; justify-content:space-between;">
+<div>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+<span style="font-size:1.8rem;">🧪</span>
+<span style="font-size:0.75rem; font-weight:700; color:#8b5cf6; background:rgba(139,92,246,0.15); padding:3px 8px; border-radius:4px;">Code 043 • 70M Blueprint</span>
+</div>
+<h3 style="font-size:1.2rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Chemistry All Reactions &amp; Formulas</h3>
+<p style="font-size:0.86rem; color:var(--text-secondary); line-height:1.5; margin-bottom:18px;">
               Physical chemistry numerical formulas, d/f-block &amp; coordination tables, all 28 organic named reactions, and chemical distinction test matrices.
             </p>
-          </div>
-          <a href="chemistry-reactions-formulas.html" style="display:inline-block; text-align:center; padding:10px 16px; background:#8b5cf6; color:#ffffff; font-weight:700; border-radius:6px; text-decoration:none; font-size:0.88rem;">
+</div>
+<a href="chemistry-reactions-formulas.html" style="display:inline-block; text-align:center; padding:10px 16px; background:#8b5cf6; color:#ffffff; font-weight:700; border-radius:6px; text-decoration:none; font-size:0.88rem;">
             Open Chemistry Reactions Sheet →
           </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Subject Diagnostics Track Grid -->
-    <div class="section-head">
-      <span class="section-pill">Timed Diagnostic Assessments</span>
-      <h2 class="section-title">Class 12 Subject Speed Diagnostics (35 Qs • 60 Mins)</h2>
-      <p class="section-desc">
+</div>
+</div>
+</div>
+<!-- Subject Diagnostics Track Grid -->
+<div class="section-head">
+<span class="section-pill">Timed Diagnostic Assessments</span>
+<h2 class="section-title">Class 12 Subject Speed Diagnostics (35 Qs • 60 Mins)</h2>
+<p class="section-desc">
         Curriculum-aligned speed drills with instant NCERT references and automated board grade predictions.
       </p>
-    </div>
-
-    <div class="track-grid">
-      <!-- Physics Diagnostic -->
-      <article class="track-card">
-        <div>
-          <span style="font-size:2rem; display:block; margin-bottom:12px;">⚡</span>
-          <h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Physics Diagnostic 01</h3>
-          <p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5; margin-bottom:16px;">
+</div>
+<div class="track-grid">
+<!-- Physics Diagnostic -->
+<article class="track-card">
+<div>
+<span style="font-size:2rem; display:block; margin-bottom:12px;">⚡</span>
+<h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Physics Diagnostic 01</h3>
+<p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5; margin-bottom:16px;">
             35 questions covering Electrostatics, Magnetism, Optics, Modern Physics, and Semiconductors. 60-min timer with NCERT derivations.
           </p>
-        </div>
-        <a href="physics-diagnostic-01.html" style="display:block; text-align:center; padding:10px; background:var(--bg-subtle); color:var(--primary); font-weight:700; border-radius:6px; text-decoration:none; border:1px solid var(--border-color);">
+</div>
+<a href="physics-diagnostic-01.html" style="display:block; text-align:center; padding:10px; background:var(--bg-subtle); color:var(--primary); font-weight:700; border-radius:6px; text-decoration:none; border:1px solid var(--border-color);">
           Start Physics Diagnostic →
         </a>
-      </article>
-
-      <!-- Chemistry Diagnostic -->
-      <article class="track-card">
-        <div>
-          <span style="font-size:2rem; display:block; margin-bottom:12px;">🧪</span>
-          <h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Chemistry Diagnostic 01</h3>
-          <p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5; margin-bottom:16px;">
+</article>
+<!-- Chemistry Diagnostic -->
+<article class="track-card">
+<div>
+<span style="font-size:2rem; display:block; margin-bottom:12px;">🧪</span>
+<h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Chemistry Diagnostic 01</h3>
+<p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5; margin-bottom:16px;">
             35 questions covering Solutions, Electrochemistry, Kinetics, d- &amp; f-Block, Coordination Compounds, and Organic Reactions.
           </p>
-        </div>
-        <a href="chemistry-diagnostic-01.html" style="display:block; text-align:center; padding:10px; background:var(--bg-subtle); color:var(--primary); font-weight:700; border-radius:6px; text-decoration:none; border:1px solid var(--border-color);">
+</div>
+<a href="chemistry-diagnostic-01.html" style="display:block; text-align:center; padding:10px; background:var(--bg-subtle); color:var(--primary); font-weight:700; border-radius:6px; text-decoration:none; border:1px solid var(--border-color);">
           Start Chemistry Diagnostic →
         </a>
-      </article>
-
-      <!-- Biology Diagnostic -->
-      <article class="track-card">
-        <div>
-          <span style="font-size:2rem; display:block; margin-bottom:12px;">🧬</span>
-          <h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Biology Diagnostic 01</h3>
-          <p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5; margin-bottom:16px;">
+</article>
+<!-- Biology Diagnostic -->
+<article class="track-card">
+<div>
+<span style="font-size:2rem; display:block; margin-bottom:12px;">🧬</span>
+<h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">Biology Diagnostic 01</h3>
+<p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5; margin-bottom:16px;">
             35 questions covering Reproduction, Genetics &amp; Evolution, Human Health, Biotechnology, and Ecosystem Ecology.
           </p>
-        </div>
-        <a href="biology-diagnostic-01.html" style="display:block; text-align:center; padding:10px; background:var(--bg-subtle); color:var(--primary); font-weight:700; border-radius:6px; text-decoration:none; border:1px solid var(--border-color);">
+</div>
+<a href="biology-diagnostic-01.html" style="display:block; text-align:center; padding:10px; background:var(--bg-subtle); color:var(--primary); font-weight:700; border-radius:6px; text-decoration:none; border:1px solid var(--border-color);">
           Start Biology Diagnostic →
         </a>
-      </article>
-    </div>
-
-  </main>
-
-  <!-- Site Footer -->
-  <p><a href="/question-sources-review.html">Question sources and review status</a></p>
+</article>
+</div>
+</main>
+<!-- Site Footer -->
+<p><a href="/question-sources-review.html">Question sources and review status</a></p>
 <footer class="site-footer" style="background:var(--bg-surface); border-top:1px solid var(--border-color); padding:40px 0;">
-    <div class="home-container" style="text-align:center;">
-      <p style="margin:0 0 8px 0; font-size:0.9rem; color:var(--text-secondary);">
-        <strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Board Examination Simulators.
+<div class="home-container" style="text-align:center;">
+<p style="margin:0 0 8px 0; font-size:0.9rem; color:var(--text-secondary);">
+<strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Board Examination Simulators.
       </p>
-      <p style="margin:0 0 16px 0; font-size:0.78rem; color:var(--text-muted);">
-        Aligned with the statutory NCERT and CBSE Class 12 Senior Secondary curriculum. CBSE® is a registered trademark of the Central Board of Secondary Education.
+<p style="margin:0 0 16px 0; font-size:0.78rem; color:var(--text-muted);">
+        Independent practice informed by publicly available NCERT topic and CBSE curriculum references. CBSE is not affiliated with this website. CBSE® is a registered trademark of the Central Board of Secondary Education.
       </p>
-      <div style="display:flex; justify-content:center; gap:16px; font-size:0.8rem;">
-        <a href="../about.html" style="color:var(--text-secondary); text-decoration:none;">About</a>
-        <a href="../privacy.html" style="color:var(--text-secondary); text-decoration:none;">Privacy Policy</a>
-        <a href="../terms.html" style="color:var(--text-secondary); text-decoration:none;">Terms of Service</a>
-        <a href="../disclaimer.html" style="color:var(--text-secondary); text-decoration:none;">Disclaimer</a>
-        <a href="../contact.html" style="color:var(--text-secondary); text-decoration:none;">Contact Desk</a>
-      </div>
-    </div>
-    <div style="text-align:center;padding:10px;"><a href="javascript:void(0)" class="open-cookie-preferences" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
+<div style="display:flex; justify-content:center; gap:16px; font-size:0.8rem;">
+<a href="../about.html" style="color:var(--text-secondary); text-decoration:none;">About</a>
+<a href="../privacy.html" style="color:var(--text-secondary); text-decoration:none;">Privacy Policy</a>
+<a href="../terms.html" style="color:var(--text-secondary); text-decoration:none;">Terms of Service</a>
+<a href="../disclaimer.html" style="color:var(--text-secondary); text-decoration:none;">Disclaimer</a>
+<a href="../contact.html" style="color:var(--text-secondary); text-decoration:none;">Contact Desk</a>
+</div>
+</div>
+<div style="text-align:center;padding:10px;"><a class="open-cookie-preferences" href="javascript:void(0)" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
 </footer>
-
 </body>
 </html>

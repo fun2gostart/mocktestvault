@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,16 +112,16 @@
         <div class="brand-logo">🎧</div>
         <div class="brand-text">
           <h1>TOEFL Academic Reading Passage Practice 01 (20-Question Legacy-Style Drill) <span class="vault-pill">TOEFL® iBT</span></h1>
-          <p>Academic English Proficiency Simulator</p>
+          <p>Independent Academic Reading Practice</p>
         </div>
       </a>
 
       <div class="header-controls">
         <div class="mode-pill-group" role="group" aria-label="Test Mode Selection">
-          <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant official explanations and passage evidence">
+          <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant practice explanations and passage evidence">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 35-min authentic TOEFL simulation">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 35-minute independent reading practice">
             <span>⏱️</span> Exam
           </button>
         </div>

@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +34,7 @@
     })();
   </script>
   <title>404 — Page Not Found | MockTestVault</title>
-  <meta name="description" content="404 Page Not Found — Return to MockTestVault to practice high-stakes exams in authentic CBT environments with verified explanations.">
+  <meta name="description" content="404 Page Not Found — Return to MockTestVault to practice high-stakes exams in authentic CBT environments with worked explanations.">
   <meta name="robots" content="noindex, follow">
   <!-- Canonical & Open Graph (Social Sharing) -->
   <link rel="canonical" href="https://mocktestvault.com/404.html">
@@ -29,7 +42,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mocktestvault.com/404.html">
   <meta property="og:title" content="404 — Page Not Found | MockTestVault">
-  <meta property="og:description" content="404 Page Not Found — Return to MockTestVault to practice high-stakes exams in authentic CBT environments with verified explanations.">
+  <meta property="og:description" content="404 Page Not Found — Return to MockTestVault to practice high-stakes exams in authentic CBT environments with worked explanations.">
   <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
   <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
   <meta property="og:image:type" content="image/png">
@@ -40,7 +53,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="404 — Page Not Found | MockTestVault">
-  <meta name="twitter:description" content="404 Page Not Found — Return to MockTestVault to practice high-stakes exams in authentic CBT environments with verified explanations.">
+  <meta name="twitter:description" content="404 Page Not Found — Return to MockTestVault to practice high-stakes exams in authentic CBT environments with worked explanations.">
   <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
   <meta name="twitter:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
   <link rel="stylesheet" href="/css/test-engine.css">

@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -325,7 +338,7 @@
       <span class="guide-hero-badge">CBSE Class 12 Physics (Code 042) • NCERT Statutory Blueprint</span>
       <h1>CBSE Class 12 Physics All Formulas, Derivations &amp; SI Units Sheet</h1>
       <p>
-        The definitive chapter-wise formula and derivation compilation for CBSE Class 12 Board candidates. Features complete mathematical definitions, SI units, dimensional formulas, statutory NCERT derivation starting assumptions, and common examiner traps across all 14 syllabus chapters.
+        The chapter-wise formula and derivation reference for CBSE Class 12 Board candidates. Features complete mathematical definitions, SI units, dimensional formulas, NCERT-aligned derivation starting assumptions, and common examiner traps across all 14 syllabus chapters.
       </p>
 
       <div class="hero-meta-row">

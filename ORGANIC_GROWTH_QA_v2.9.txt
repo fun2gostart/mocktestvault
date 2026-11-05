@@ -1,0 +1,73 @@
+MOCKTESTVAULT v2.9 — ORGANIC GROWTH QA REPORT
+Date: 5 November 2026
+Baseline: v2.8 production ZIP
+
+RELEASE SCOPE
+- Organic growth, content trust, question-quality audit workflow, crawlability, internal linking and conservative browser caching.
+- AdSense integration and publisher-account work intentionally excluded.
+
+CONTENT / CRAWL CHECKS
+- HTML files in archive: 160 (technical verification/legacy redirect endpoints excluded from content audit: 2)
+- Content HTML pages audited: 158
+- XML sitemap URLs: 156
+- Indexable canonical pages missing from sitemap: 0
+- Sitemap entries not represented as audited indexable canonical pages: 0
+- Duplicate HTML titles: 0
+- Duplicate meta descriptions: 0
+- Pages with exactly one H1: 158/158
+- Indexable orphan pages: 0
+- Broken local HTML/assets: 0
+- Broken local fragment anchors: 0
+- Structured-data JSON parse errors: 0
+
+QUESTION BANK CHECKS
+- JSON files in release: 287 (includes one web manifest)
+- Question-data JSON files scanned: 286
+- Question records: 6404
+- Invalid/missing answer indexes: 0
+- Missing question/explanation structure: 0
+- Missing quality_review metadata: 0
+- Missing automated_overlap_audit metadata: 0
+- Repeated-stem groups in review register: 1102
+- Explanation-variance groups: 77
+- Question answer-verification register rows: 6404
+- PYQ authentication register rows: 954
+- Question-bearing JSON files in backlog: 286
+
+HTTP SMOKE CHECKS
+- Local HTTP GET for homepage, CBSE 2026–27 guide, CBSE practice page, practice question JSON, test-engine.js and consent.js: all returned HTTP 200.
+- CBSE guide exposed 2 direct official CBSE academic links.
+- Sample practice dataset loaded as valid JSON with 20 question records.
+- Headless Chromium navigation was attempted but blocked by the execution environment (ERR_BLOCKED_BY_ADMINISTRATOR); browser-interaction testing is therefore not claimed.
+
+JAVASCRIPT / FORM CHECKS
+- JavaScript files and inline scripts syntax-checked: 306
+- JavaScript syntax failures: 0
+- Consent test: CONSENT FUNCTIONAL TESTS: PASS (fresh/no choice, accept, essential-only, stored choices, page_view timing)
+- Contact form JavaScript IDs missing from HTML: 0
+
+PERFORMANCE CONFIGURATION
+- HTML remains no-cache/revalidated.
+- CSS/JS/JSON receive one-hour browser cache with revalidation.
+- Images/icons/fonts receive seven-day cache with stale-while-revalidate.
+- Service worker remains no-store; service-worker cache version bumped to mtv-cbt-v46.
+- LiteSpeed full-page cache remains disabled to avoid stale CBT pages/question data.
+
+ACADEMIC / PROVENANCE LIMITATIONS
+- All 6,404 questions remain pending independent subject-matter verification; structural checks are not factual verification.
+- 954 SSC/CBSE year/shift-labelled records remain unauthenticated against original papers and official final keys.
+- 1,102 duplicate-stem groups, 10 selected-answer-text variant groups and 77 explanation-variance groups are automated review flags, not confirmed errors.
+- Existing 48 CBSE Class 10 modules are not certified as fully mapped to all 2026–27 curriculum changes.
+- No live production, Search Console, Googlebot-rendering or PageSpeed/Core Web Vitals account test was possible from the source ZIP.
+- Official CBSE 2026–27 curriculum and Class X sample-paper/marking-scheme entry points are linked in the new guide; those links do not validate MockTestVault question accuracy.
+
+ERRORS
+- None in local regression suite.
+
+WARNINGS
+- None.
+
+RAW TEST COUNTS
+- Local link/asset references inspected: 3609
+- JavaScript files syntax checked: 4
+- Indexable page title/meta description > target length warnings: 0

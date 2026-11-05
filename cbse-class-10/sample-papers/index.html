@@ -1,43 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+
+<html data-theme="light" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
-  <script>
+<!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
+<script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CBSE 10 80-Mark Sample Papers 2025–2026 | MockTestVault</title>
-  <meta name="description" content="Free CBSE Class 10 80-Mark Board-Pattern Practice Mocks for Science, Mathematics, and Social Science. 3-hour timed CBT simulator with section.">
-  <!-- Canonical & Open Graph (Social Sharing) -->
-  <link rel="canonical" href="https://mocktestvault.com/cbse-class-10/sample-papers/">
-  <meta property="og:site_name" content="MockTestVault">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://mocktestvault.com/cbse-class-10/sample-papers/">
-  <meta property="og:title" content="CBSE 10 80-Mark Sample Papers 2025–2026 | MockTestVault">
-  <meta property="og:description" content="Free CBSE Class 10 80-Mark Board-Pattern Practice Mocks for Science, Mathematics, and Social Science. 3-hour timed CBT simulator with section.">
-  <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CBSE 10 80-Mark Sample Papers 2025–2026 | MockTestVault">
-  <meta name="twitter:description" content="Free CBSE Class 10 80-Mark Board-Pattern Practice Mocks for Science, Mathematics, and Social Science. 3-hour timed CBT simulator with section.">
-  <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta name="twitter:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <link rel="stylesheet" href="../../css/homepage.css">
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CBSE Class 10 Practice Papers &amp; Mock Tests | MockTestVault</title>
+<meta content="Attempt independent Class 10 practice papers for Science, Mathematics and Social Science. Compare topics and formats with current CBSE sample papers." name="description"/>
+<!-- Canonical & Open Graph (Social Sharing) -->
+<link href="https://mocktestvault.com/cbse-class-10/sample-papers/" rel="canonical"/>
+<meta content="MockTestVault" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="https://mocktestvault.com/cbse-class-10/sample-papers/" property="og:url"/>
+<meta content="CBSE Class 10 Practice Papers &amp; Mock Tests | MockTestVault" property="og:title"/>
+<meta content="Attempt independent Class 10 practice papers for Science, Mathematics and Social Science. Compare topics and formats with current CBSE sample papers." property="og:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image:secure_url"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" property="og:image:alt"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="CBSE Class 10 Practice Papers &amp; Mock Tests | MockTestVault" name="twitter:title"/>
+<meta content="Attempt independent Class 10 practice papers for Science, Mathematics and Social Science. Compare topics and formats with current CBSE sample papers." name="twitter:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" name="twitter:image"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" name="twitter:image:alt"/>
+<link href="../../css/homepage.css" rel="stylesheet"/>
+<style>
     .sqp-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -138,8 +149,7 @@
       background: var(--primary-hover);
     }
   </style>
-
-  <script type="application/ld+json">
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -150,407 +160,376 @@
     "areaServed": "India"
   }
   </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-  <script src="/js/consent.js" defer></script>
+<link href="/manifest.json" rel="manifest"/>
+<meta content="#2563eb" name="theme-color"/>
+<script defer="" src="/js/consent.js"></script>
 </head>
 <body>
-
-  <!-- Site Navigation Header -->
-  <header class="global-nav">
-    <div class="home-container">
-      <div class="nav-wrapper">
-        <a href="../../index.html" class="brand-group" aria-label="MockTestVault Home">
-          <div class="brand-icon">🛡️</div>
-          <div class="brand-title">
-            <span>MockTestVault</span>
-            <span class="brand-badge">CBSE Board Vault</span>
-          </div>
-        </a>
-
-        <!-- Region Switcher Navigation -->
-        <nav class="nav-links" aria-label="Regional Portals">
-          <div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
-            <a href="../../in/index.html" class="nav-link active" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🇮🇳 India</a>
-            <a href="../../us/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇺🇸 United States</a>
-            <a href="../../global/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🌐 Global Tests</a>
-          </div>
-        </nav>
-
-        <div class="nav-actions">
-          <button id="theme-toggle-btn" class="theme-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">🌙</button>
-          <a href="../index.html" class="cta-header-btn">
-            <span>📚 48-Ch Catalog</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <div class="home-container">
-      <div class="hero-grid">
-        
-        <div class="hero-content">
-          <div class="hero-badge">
-            <span class="hero-badge-dot"></span>
-            <span>CBSE Board-Pattern Practice • 80 Marks • 3-Hour Countdown</span>
-          </div>
-
-          <h1 class="hero-title">
+<!-- Site Navigation Header -->
+<header class="global-nav">
+<div class="home-container">
+<div class="nav-wrapper">
+<a aria-label="MockTestVault Home" class="brand-group" href="../../index.html">
+<div class="brand-icon">🛡️</div>
+<div class="brand-title">
+<span>MockTestVault</span>
+<span class="brand-badge">CBSE Board Vault</span>
+</div>
+</a>
+<!-- Region Switcher Navigation -->
+<nav aria-label="Regional Portals" class="nav-links">
+<div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
+<a class="nav-link active" href="../../in/index.html" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🇮🇳 India</a>
+<a class="nav-link" href="../../us/index.html" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇺🇸 United States</a>
+<a class="nav-link" href="../../global/index.html" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🌐 Global Tests</a>
+</div>
+</nav>
+<div class="nav-actions">
+<button aria-label="Toggle theme" class="theme-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+<a class="cta-header-btn" href="../index.html">
+<span>📚 48-Ch Catalog</span>
+</a>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="hero-section">
+<div class="home-container">
+<div class="hero-grid">
+<div class="hero-content">
+<div class="hero-badge">
+<span class="hero-badge-dot"></span>
+<span>CBSE Board-Pattern Practice • 80 Marks • 3-Hour Countdown</span>
+</div>
+<h1 class="hero-title">
             CBSE Class 10 <span class="gradient-text">Full 80-Mark</span> Board Exam Simulators.
           </h1>
-
-          <p class="hero-subtitle">
-            Experience realistic 3-hour Board Examination simulations calibrated to official CBSE Class 10 sample question paper blueprints. Features section-wise jump tabs, instant NCERT rationales, 5-state question palettes, and zero paywalls.
+<p class="hero-subtitle">
+            Experience realistic 3-hour Board Examination simulations configured as independent practice modules; compare the question mix and marking with the current official CBSE sample paper. Features section-wise jump tabs, instant NCERT rationales, 5-state question palettes, and zero paywalls.
           </p>
-
-          <div class="hero-actions">
-            <a href="science-board-mock-01.html" class="btn-primary-hero">
-              <span>🧪 Launch Science 80M Paper</span>
-            </a>
-            <a href="mathematics-board-mock-01.html" class="btn-secondary-hero">
-              <span>📐 Mathematics 80M Paper</span>
-            </a>
+<div class="hero-actions">
+<a class="btn-primary-hero" href="science-board-mock-01.html">
+<span>🧪 Launch Science 80M Paper</span>
+</a>
+<a class="btn-secondary-hero" href="mathematics-board-mock-01.html">
+<span>📐 Mathematics 80M Paper</span>
+</a>
+</div>
+<div style="margin-top:18px;padding:14px 16px;border:1px solid var(--border-color);border-radius:10px;background:var(--bg-card);font-size:.9rem;line-height:1.55;">
+<strong>Current session: 2026–27</strong> — Before using these independent mock papers, review the <a href="../2026-27-syllabus-sample-papers.html">CBSE 2026–27 syllabus, sample-paper and marking-scheme resource guide</a> and the <a href="https://cbseacademic.nic.in/sqp_classx_2026-27.html" rel="noopener" target="_blank">official CBSE Class X 2026–27 sample-paper archive</a>.
           </div>
-
-          <!-- Feature Bullets -->
-          <div style="display:flex; flex-wrap:wrap; gap:16px; margin-top:28px; font-size:0.88rem; color:var(--text-secondary);">
-            <div style="display:flex; align-items:center; gap:6px;">
-              <span style="color:var(--accent-emerald); font-weight:900;">✓</span>
-              <span>Full 80-Mark Theory Blueprint</span>
-            </div>
-            <div style="display:flex; align-items:center; gap:6px;">
-              <span style="color:var(--accent-emerald); font-weight:900;">✓</span>
-              <span>180-Minute (3-Hour) Exam Countdown</span>
-            </div>
-            <div style="display:flex; align-items:center; gap:6px;">
-              <span style="color:var(--accent-emerald); font-weight:900;">✓</span>
-              <span>Printable Offline A4 Solved Papers</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Hero Teaser Card -->
-        <div class="hero-teaser-card" style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-lg); padding:28px; box-shadow:var(--shadow-xl);">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
-            <span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; letter-spacing:0.05em; color:var(--primary); background:var(--primary-light); padding:4px 10px; border-radius:var(--radius-full);">
-              Board Blueprint Calibration
+<!-- Feature Bullets -->
+<div style="display:flex; flex-wrap:wrap; gap:16px; margin-top:28px; font-size:0.88rem; color:var(--text-secondary);">
+<div style="display:flex; align-items:center; gap:6px;">
+<span style="color:var(--accent-emerald); font-weight:900;">✓</span>
+<span>Full 80-Mark Theory Blueprint</span>
+</div>
+<div style="display:flex; align-items:center; gap:6px;">
+<span style="color:var(--accent-emerald); font-weight:900;">✓</span>
+<span>180-Minute (3-Hour) Exam Countdown</span>
+</div>
+<div style="display:flex; align-items:center; gap:6px;">
+<span style="color:var(--accent-emerald); font-weight:900;">✓</span>
+<span>Printable A4 Practice Sheets</span>
+</div>
+</div>
+</div>
+<!-- Hero Teaser Card -->
+<div class="hero-teaser-card" style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-lg); padding:28px; box-shadow:var(--shadow-xl);">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+<span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; letter-spacing:0.05em; color:var(--primary); background:var(--primary-light); padding:4px 10px; border-radius:var(--radius-full);">
+              Practice Question Mix
             </span>
-            <span style="font-size:0.8rem; color:var(--text-muted); font-weight:600;">Code 086 / 041 / 087</span>
-          </div>
-
-          <h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:14px;">
-            Official Section-Wise Weightage Breakdown
+<span style="font-size:0.8rem; color:var(--text-muted); font-weight:600;">Code 086 / 041 / 087</span>
+</div>
+<h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:14px;">
+            Illustrative Site Practice Mix — Not Official Exam Weightage
           </h3>
-
-          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; font-size:0.85rem; color:var(--text-secondary);">
-            <li style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; background:var(--bg-subtle); border-radius:var(--radius-sm);">
-              <span><strong>🧪 Science (Code 086):</strong> Chem (25) + Bio (28) + Phy (23) + Env (4)</span>
-              <span style="color:var(--primary); font-weight:700;">80 Qs / 80M</span>
-            </li>
-            <li style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; background:var(--bg-subtle); border-radius:var(--radius-sm);">
-              <span><strong>📐 Mathematics (Code 041):</strong> Algebra (25) + Geo (20) + Trig (20) + Stats (15)</span>
-              <span style="color:var(--primary); font-weight:700;">80 Qs / 80M</span>
-            </li>
-            <li style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; background:var(--bg-subtle); border-radius:var(--radius-sm);">
-              <span><strong>🌍 Social Science (Code 087):</strong> Hist (20) + Geo (20) + Civics (20) + Eco (20)</span>
-              <span style="color:var(--primary); font-weight:700;">80 Qs / 80M</span>
-            </li>
-          </ul>
-
-          <div style="margin-top:20px; font-size:0.8rem; color:var(--text-muted); line-height:1.5;">
+<ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; font-size:0.85rem; color:var(--text-secondary);">
+<li style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+<span><strong>🧪 Science (Code 086):</strong> Chem (25) + Bio (28) + Phy (23) + Env (4)</span>
+<span style="color:var(--primary); font-weight:700;">80 Qs / 80M</span>
+</li>
+<li style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+<span><strong>📐 Mathematics (Code 041):</strong> Algebra (25) + Geo (20) + Trig (20) + Stats (15)</span>
+<span style="color:var(--primary); font-weight:700;">80 Qs / 80M</span>
+</li>
+<li style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+<span><strong>🌍 Social Science (Code 087):</strong> Hist (20) + Geo (20) + Civics (20) + Eco (20)</span>
+<span style="color:var(--primary); font-weight:700;">80 Qs / 80M</span>
+</li>
+</ul>
+<div style="margin-top:20px; font-size:0.8rem; color:var(--text-muted); line-height:1.5;">
             💡 <em>Tip: Each test can also be used in Practice Mode with instant step-by-step NCERT rationales and formula derivations.</em>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- SQP Catalog Grid -->
-  <section class="section-block" style="padding: 40px 0 80px 0;">
-    <div class="home-container">
-      <div class="section-head">
-        <span class="section-pill">Full Syllabus Board Simulators</span>
-        <h2 class="section-title">Select Your 80-Mark Sample Question Paper</h2>
-        <p class="section-desc">
-          Comprehensive objective simulations mapped against the 80 theory marks of the CBSE curriculum across all chapters, featuring sectional tabs, timer controls, and verified NCERT rationales.
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SQP Catalog Grid -->
+<section class="section-block" style="padding: 40px 0 80px 0;">
+<div class="home-container">
+<div class="section-head">
+<span class="section-pill">Full Syllabus Board Simulators</span>
+<h2 class="section-title">Select Your 80-Mark Sample Question Paper</h2>
+<p class="section-desc">
+          Comprehensive objective simulations mapped against the 80 theory marks of the CBSE curriculum across all chapters, featuring sectional tabs, timer controls, and NCERT-topic-based explanations; item-level answer verification varies.
         </p>
-      </div>
-
-      <div class="sqp-grid">
-
-        <!-- Card 1: Science -->
-        <article class="sqp-card">
-          <div>
-            <div class="sqp-top">
-              <div class="sqp-icon">🧪</div>
-              <span class="sqp-status">🟢 Live • Full 80M Paper</span>
-            </div>
-            <div class="sqp-code">Subject Code 086 • Theory Paper</div>
-            <h3 class="sqp-title">Class 10 Science — 80-Mark Board Mock 01</h3>
-            <p class="sqp-desc">
+</div>
+<div class="sqp-grid">
+<!-- Card 1: Science -->
+<article class="sqp-card">
+<div>
+<div class="sqp-top">
+<div class="sqp-icon">🧪</div>
+<span class="sqp-status">🟢 Live • Full 80M Paper</span>
+</div>
+<div class="sqp-code">Subject Code 086 • Theory Paper</div>
+<h3 class="sqp-title">Class 10 Science — 80-Mark Board Mock 01</h3>
+<p class="sqp-desc">
               Comprehensive 80-question test covering all 13 NCERT chapters across Chemistry, Biology, Physics, and Natural Resources. Features instant formula derivations and reaction equations.
             </p>
-            <div class="sqp-meta-grid">
-              <div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
-              <div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
-              <div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
-              <div class="sqp-meta-item"><span>📑</span> 4 Section Tabs</div>
-            </div>
-          </div>
-          <div class="sqp-actions">
-            <a href="science-board-mock-01.html" class="sqp-launch-btn"><span>🚀 Start Science Paper</span></a>
-          </div>
-        </article>
-
-        <!-- Card 2: Mathematics -->
-        <article class="sqp-card">
-          <div>
-            <div class="sqp-top">
-              <div class="sqp-icon">📐</div>
-              <span class="sqp-status">🟢 Live • Full 80M Paper</span>
-            </div>
-            <div class="sqp-code">Subject Code 041 / 241 • Standard & Basic</div>
-            <h3 class="sqp-title">Class 10 Mathematics — 80-Mark Board Mock 01</h3>
-            <p class="sqp-desc">
+<div class="sqp-meta-grid">
+<div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
+<div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
+<div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
+<div class="sqp-meta-item"><span>📑</span> 4 Section Tabs</div>
+</div>
+</div>
+<div class="sqp-actions">
+<a class="sqp-launch-btn" href="science-board-mock-01.html"><span>🚀 Start Science Paper</span></a>
+</div>
+</article>
+<!-- Card 2: Mathematics -->
+<article class="sqp-card">
+<div>
+<div class="sqp-top">
+<div class="sqp-icon">📐</div>
+<span class="sqp-status">🟢 Live • Full 80M Paper</span>
+</div>
+<div class="sqp-code">Subject Code 041 / 241 • Standard &amp; Basic</div>
+<h3 class="sqp-title">Class 10 Mathematics — 80-Mark Board Mock 01</h3>
+<p class="sqp-desc">
               Comprehensive 80-question test covering all 14 NCERT chapters across Number Systems, Algebra, Geometry, Trigonometry, Mensuration, Statistics, and Probability.
             </p>
-            <div class="sqp-meta-grid">
-              <div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
-              <div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
-              <div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
-              <div class="sqp-meta-item"><span>📑</span> 4 Section Tabs</div>
-            </div>
-          </div>
-          <div class="sqp-actions">
-            <a href="mathematics-board-mock-01.html" class="sqp-launch-btn"><span>🚀 Start Mathematics Paper</span></a>
-          </div>
-        </article>
-
-        <!-- Card 3: Social Science -->
-        <article class="sqp-card">
-          <div>
-            <div class="sqp-top">
-              <div class="sqp-icon">🌍</div>
-              <span class="sqp-status">🟢 Live • Full 80M Paper</span>
-            </div>
-            <div class="sqp-code">Subject Code 087 • All 4 Disciplines</div>
-            <h3 class="sqp-title">Class 10 Social Science — 80-Mark Board Mock 01</h3>
-            <p class="sqp-desc">
+<div class="sqp-meta-grid">
+<div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
+<div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
+<div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
+<div class="sqp-meta-item"><span>📑</span> 4 Section Tabs</div>
+</div>
+</div>
+<div class="sqp-actions">
+<a class="sqp-launch-btn" href="mathematics-board-mock-01.html"><span>🚀 Start Mathematics Paper</span></a>
+</div>
+</article>
+<!-- Card 3: Social Science -->
+<article class="sqp-card">
+<div>
+<div class="sqp-top">
+<div class="sqp-icon">🌍</div>
+<span class="sqp-status">🟢 Live • Full 80M Paper</span>
+</div>
+<div class="sqp-code">Subject Code 087 • All 4 Disciplines</div>
+<h3 class="sqp-title">Class 10 Social Science — 80-Mark Board Mock 01</h3>
+<p class="sqp-desc">
               Comprehensive 80-question test covering all 21 NCERT chapters across History, Geography, Political Science, and Economics with statutory textbook page citations.
             </p>
-            <div class="sqp-meta-grid">
-              <div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
-              <div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
-              <div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
-              <div class="sqp-meta-item"><span>📑</span> 4 Section Tabs</div>
-            </div>
-          </div>
-          <div class="sqp-actions">
-            <a href="social-science-board-mock-01.html" class="sqp-launch-btn"><span>🚀 Start Social Science Paper</span></a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Official Past Board Question Papers (2024 Solved) Section -->
-  <section class="section-block" style="padding: 0 0 80px 0;">
-    <div class="home-container">
-      <div class="section-head">
-        <span class="section-pill">Curriculum Objective Practice Drills</span>
-        <h2 class="section-title">CBSE Class 10 80-Question Objective Practice Mocks (2024 Standards)</h2>
-        <p class="section-desc">
-          Comprehensive 80-question objective curriculum revision drills covering all textbook chapters mapped to 2024 board exam competencies with verified NCERT step-by-step explanations.
+<div class="sqp-meta-grid">
+<div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
+<div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
+<div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
+<div class="sqp-meta-item"><span>📑</span> 4 Section Tabs</div>
+</div>
+</div>
+<div class="sqp-actions">
+<a class="sqp-launch-btn" href="social-science-board-mock-01.html"><span>🚀 Start Social Science Paper</span></a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Year-Labelled Practice Sets (Provenance Unverified) -->
+<section class="section-block" style="padding: 0 0 80px 0;">
+<div class="home-container">
+<div class="section-head">
+<span class="section-pill">Curriculum Objective Practice Drills</span>
+<h2 class="section-title">CBSE Class 10 80-Question Objective Practice Mocks (2024 Standards)</h2>
+<p class="section-desc">
+          Comprehensive 80-question objective curriculum revision drills covering all textbook chapters mapped to 2024-labelled practice topics with worked explanations; original paper and official marking-scheme provenance has not been authenticated.
         </p>
-      </div>
-
-      <div class="sqp-grid">
-
-        <!-- 2024 Science Paper -->
-        <article class="sqp-card">
-          <div>
-            <div class="sqp-top">
-              <div class="sqp-icon">🧪</div>
-              <span class="sqp-status">🟢 80-Q Objective Drill</span>
-            </div>
-            <div class="sqp-code">Subject Code 086 • Official Solved Paper</div>
-            <h3 class="sqp-title">Class 10 Science — 80-Q Objective Drill (2024 Pattern)</h3>
-            <p class="sqp-desc">
-              Full 80-question objective curriculum drill with NCERT step marking across Chemistry (25 Qs), Biology (28 Qs), Physics (23 Qs), and Natural Resources (4 Qs).
+</div>
+<div class="sqp-grid">
+<!-- 2024 Science Paper -->
+<article class="sqp-card">
+<div>
+<div class="sqp-top">
+<div class="sqp-icon">🧪</div>
+<span class="sqp-status">🟢 80-Q Objective Drill</span>
+</div>
+<div class="sqp-code">Subject Code 086 • Year-Labelled Practice Set — Provenance Unverified</div>
+<h3 class="sqp-title">Class 10 Science — 80-Q Objective Drill (2024 Pattern)</h3>
+<p class="sqp-desc">
+              Independent 80-question objective topic-revision drill with NCERT step marking across Chemistry (25 Qs), Biology (28 Qs), Physics (23 Qs), and Natural Resources (4 Qs).
             </p>
-            <div class="sqp-meta-grid">
-              <div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
-              <div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
-              <div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
-              <div class="sqp-meta-item"><span>📜</span> 2024 Curriculum Drill</div>
-            </div>
-          </div>
-          <div class="sqp-actions">
-            <a href="science-board-paper-2024.html" class="sqp-launch-btn"><span>🚀 Start 2024 Science Paper</span></a>
-          </div>
-        </article>
-
-        <!-- 2024 Mathematics Paper -->
-        <article class="sqp-card">
-          <div>
-            <div class="sqp-top">
-              <div class="sqp-icon">📐</div>
-              <span class="sqp-status">🟢 80-Q Objective Drill</span>
-            </div>
-            <div class="sqp-code">Subject Code 041 / 241 • Official Solved Paper</div>
-            <h3 class="sqp-title">Class 10 Mathematics Standard — 80-Q Objective Drill (2024 Pattern)</h3>
-            <p class="sqp-desc">
-              Full 80-question objective curriculum drill with step-by-step NCERT formula derivations across Algebra, Geometry, Trigonometry, and Statistics.
+<div class="sqp-meta-grid">
+<div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
+<div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
+<div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
+<div class="sqp-meta-item"><span>📜</span> 2024 Curriculum Drill</div>
+</div>
+</div>
+<div class="sqp-actions">
+<a class="sqp-launch-btn" href="science-board-paper-2024.html"><span>🚀 Start 2024 Science Paper</span></a>
+</div>
+</article>
+<!-- 2024 Mathematics Paper -->
+<article class="sqp-card">
+<div>
+<div class="sqp-top">
+<div class="sqp-icon">📐</div>
+<span class="sqp-status">🟢 80-Q Objective Drill</span>
+</div>
+<div class="sqp-code">Subject Code 041 / 241 • Year-Labelled Practice Set — Provenance Unverified</div>
+<h3 class="sqp-title">Class 10 Mathematics Standard — 80-Q Objective Drill (2024 Pattern)</h3>
+<p class="sqp-desc">
+              Independent 80-question objective topic-revision drill with step-by-step NCERT formula derivations across Algebra, Geometry, Trigonometry, and Statistics.
             </p>
-            <div class="sqp-meta-grid">
-              <div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
-              <div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
-              <div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
-              <div class="sqp-meta-item"><span>📜</span> 2024 Curriculum Drill</div>
-            </div>
-          </div>
-          <div class="sqp-actions">
-            <a href="mathematics-board-paper-2024.html" class="sqp-launch-btn"><span>🚀 Start 2024 Math Paper</span></a>
-          </div>
-        </article>
-
-        <!-- 2024 Social Science Paper -->
-        <article class="sqp-card">
-          <div>
-            <div class="sqp-top">
-              <div class="sqp-icon">🌍</div>
-              <span class="sqp-status">🟢 80-Q Objective Drill</span>
-            </div>
-            <div class="sqp-code">Subject Code 087 • Official Solved Paper</div>
-            <h3 class="sqp-title">Class 10 Social Science — 80-Q Objective Drill (2024 Pattern)</h3>
-            <p class="sqp-desc">
-              Full 80-question objective curriculum drill covering History, Geography, Political Science, and Economics with official CBSE marking scheme points.
+<div class="sqp-meta-grid">
+<div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
+<div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
+<div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
+<div class="sqp-meta-item"><span>📜</span> 2024 Curriculum Drill</div>
+</div>
+</div>
+<div class="sqp-actions">
+<a class="sqp-launch-btn" href="mathematics-board-paper-2024.html"><span>🚀 Start 2024 Math Paper</span></a>
+</div>
+</article>
+<!-- 2024 Social Science Paper -->
+<article class="sqp-card">
+<div>
+<div class="sqp-top">
+<div class="sqp-icon">🌍</div>
+<span class="sqp-status">🟢 80-Q Objective Drill</span>
+</div>
+<div class="sqp-code">Subject Code 087 • Year-Labelled Practice Set — Provenance Unverified</div>
+<h3 class="sqp-title">Class 10 Social Science — 80-Q Objective Drill (2024 Pattern)</h3>
+<p class="sqp-desc">
+              Independent 80-question objective topic-revision drill covering History, Geography, Political Science, and Economics with independent worked explanations; the official CBSE marking scheme is not reproduced.
             </p>
-            <div class="sqp-meta-grid">
-              <div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
-              <div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
-              <div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
-              <div class="sqp-meta-item"><span>📜</span> 2024 Curriculum Drill</div>
-            </div>
-          </div>
-          <div class="sqp-actions">
-            <a href="social-science-board-paper-2024.html" class="sqp-launch-btn"><span>🚀 Start 2024 SST Paper</span></a>
-          </div>
-        </article>
-
-      </div>
-
-      <!-- 2023 Solved Papers Header & Grid -->
-      <div class="section-head" style="margin-top: 60px;">
-        <h3 class="section-title" style="font-size: 1.5rem;">CBSE Class 10 80-Question Objective Practice Mocks (2023 Standards)</h3>
-        <p class="section-desc">
+<div class="sqp-meta-grid">
+<div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
+<div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
+<div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
+<div class="sqp-meta-item"><span>📜</span> 2024 Curriculum Drill</div>
+</div>
+</div>
+<div class="sqp-actions">
+<a class="sqp-launch-btn" href="social-science-board-paper-2024.html"><span>🚀 Start 2024 SST Paper</span></a>
+</div>
+</article>
+</div>
+<!-- 2023 Solved Papers Header & Grid -->
+<div class="section-head" style="margin-top: 60px;">
+<h3 class="section-title" style="font-size: 1.5rem;">CBSE Class 10 80-Question Objective Practice Mocks (2023 Standards)</h3>
+<p class="section-desc">
           Independent year-labelled 2023 board-pattern practice sets with worked explanations and a 3-hour practice timer. Original CBSE board papers and official marking schemes are not attached or authenticated item-by-item in this release.
         </p>
-      </div>
-
-      <div class="sqp-grid">
-
-        <!-- 2023 Science Paper -->
-        <article class="sqp-card">
-          <div>
-            <div class="sqp-top">
-              <div class="sqp-icon">🧪</div>
-              <span class="sqp-status">🟢 80-Q Objective Drill</span>
-            </div>
-            <div class="sqp-code">Subject Code 086 • Official Solved Paper</div>
-            <h3 class="sqp-title">Class 10 Science — 80-Q Objective Drill (2023 Pattern)</h3>
-            <p class="sqp-desc">
-              Full 80-question objective curriculum drill with NCERT step marking across Chemistry (25 Qs), Biology (28 Qs), Physics (23 Qs), and Natural Resources (4 Qs).
+</div>
+<div class="sqp-grid">
+<!-- 2023 Science Paper -->
+<article class="sqp-card">
+<div>
+<div class="sqp-top">
+<div class="sqp-icon">🧪</div>
+<span class="sqp-status">🟢 80-Q Objective Drill</span>
+</div>
+<div class="sqp-code">Subject Code 086 • Year-Labelled Practice Set — Provenance Unverified</div>
+<h3 class="sqp-title">Class 10 Science — 80-Q Objective Drill (2023 Pattern)</h3>
+<p class="sqp-desc">
+              Independent 80-question objective topic-revision drill with NCERT step marking across Chemistry (25 Qs), Biology (28 Qs), Physics (23 Qs), and Natural Resources (4 Qs).
             </p>
-            <div class="sqp-meta-grid">
-              <div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
-              <div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
-              <div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
-              <div class="sqp-meta-item"><span>📜</span> 2023 Curriculum Drill</div>
-            </div>
-          </div>
-          <div class="sqp-actions">
-            <a href="science-board-paper-2023.html" class="sqp-launch-btn"><span>🚀 Start 2023 Science Paper</span></a>
-          </div>
-        </article>
-
-        <!-- 2023 Mathematics Paper -->
-        <article class="sqp-card">
-          <div>
-            <div class="sqp-top">
-              <div class="sqp-icon">📐</div>
-              <span class="sqp-status">🟢 80-Q Objective Drill</span>
-            </div>
-            <div class="sqp-code">Subject Code 041 / 241 • Official Solved Paper</div>
-            <h3 class="sqp-title">Class 10 Mathematics Standard — 80-Q Objective Drill (2023 Pattern)</h3>
-            <p class="sqp-desc">
-              Full 80-question objective curriculum drill with step-by-step NCERT formula derivations across Algebra, Geometry, Trigonometry, and Statistics.
+<div class="sqp-meta-grid">
+<div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
+<div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
+<div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
+<div class="sqp-meta-item"><span>📜</span> 2023 Curriculum Drill</div>
+</div>
+</div>
+<div class="sqp-actions">
+<a class="sqp-launch-btn" href="science-board-paper-2023.html"><span>🚀 Start 2023 Science Paper</span></a>
+</div>
+</article>
+<!-- 2023 Mathematics Paper -->
+<article class="sqp-card">
+<div>
+<div class="sqp-top">
+<div class="sqp-icon">📐</div>
+<span class="sqp-status">🟢 80-Q Objective Drill</span>
+</div>
+<div class="sqp-code">Subject Code 041 / 241 • Year-Labelled Practice Set — Provenance Unverified</div>
+<h3 class="sqp-title">Class 10 Mathematics Standard — 80-Q Objective Drill (2023 Pattern)</h3>
+<p class="sqp-desc">
+              Independent 80-question objective topic-revision drill with step-by-step NCERT formula derivations across Algebra, Geometry, Trigonometry, and Statistics.
             </p>
-            <div class="sqp-meta-grid">
-              <div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
-              <div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
-              <div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
-              <div class="sqp-meta-item"><span>📜</span> 2023 Curriculum Drill</div>
-            </div>
-          </div>
-          <div class="sqp-actions">
-            <a href="mathematics-board-paper-2023.html" class="sqp-launch-btn"><span>🚀 Start 2023 Math Paper</span></a>
-          </div>
-        </article>
-
-        <!-- 2023 Social Science Paper -->
-        <article class="sqp-card">
-          <div>
-            <div class="sqp-top">
-              <div class="sqp-icon">🌍</div>
-              <span class="sqp-status">🟢 80-Q Objective Drill</span>
-            </div>
-            <div class="sqp-code">Subject Code 087 • Official Solved Paper</div>
-            <h3 class="sqp-title">Class 10 Social Science — 80-Q Objective Drill (2023 Pattern)</h3>
-            <p class="sqp-desc">
-              Full 80-question objective curriculum drill covering History, Geography, Political Science, and Economics with official CBSE marking scheme points.
+<div class="sqp-meta-grid">
+<div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
+<div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
+<div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
+<div class="sqp-meta-item"><span>📜</span> 2023 Curriculum Drill</div>
+</div>
+</div>
+<div class="sqp-actions">
+<a class="sqp-launch-btn" href="mathematics-board-paper-2023.html"><span>🚀 Start 2023 Math Paper</span></a>
+</div>
+</article>
+<!-- 2023 Social Science Paper -->
+<article class="sqp-card">
+<div>
+<div class="sqp-top">
+<div class="sqp-icon">🌍</div>
+<span class="sqp-status">🟢 80-Q Objective Drill</span>
+</div>
+<div class="sqp-code">Subject Code 087 • Year-Labelled Practice Set — Provenance Unverified</div>
+<h3 class="sqp-title">Class 10 Social Science — 80-Q Objective Drill (2023 Pattern)</h3>
+<p class="sqp-desc">
+              Independent 80-question objective topic-revision drill covering History, Geography, Political Science, and Economics with independent worked explanations; the official CBSE marking scheme is not reproduced.
             </p>
-            <div class="sqp-meta-grid">
-              <div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
-              <div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
-              <div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
-              <div class="sqp-meta-item"><span>📜</span> 2023 Curriculum Drill</div>
-            </div>
-          </div>
-          <div class="sqp-actions">
-            <a href="social-science-board-paper-2023.html" class="sqp-launch-btn"><span>🚀 Start 2023 SST Paper</span></a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Site Footer -->
-  <footer class="site-footer" style="background:var(--bg-surface); border-top:1px solid var(--border-color); padding:40px 0; margin-top:60px;">
-    <div class="home-container" style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:12px;">
-      <p style="margin:0; font-size:0.9rem; color:var(--text-secondary);">
-        <strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.
+<div class="sqp-meta-grid">
+<div class="sqp-meta-item"><span>📝</span> 80 Objective Items</div>
+<div class="sqp-meta-item"><span>🎯</span> 80 Theory Marks</div>
+<div class="sqp-meta-item"><span>⏱️</span> 180 Minutes (3 Hrs)</div>
+<div class="sqp-meta-item"><span>📜</span> 2023 Curriculum Drill</div>
+</div>
+</div>
+<div class="sqp-actions">
+<a class="sqp-launch-btn" href="social-science-board-paper-2023.html"><span>🚀 Start 2023 SST Paper</span></a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Site Footer -->
+<footer class="site-footer" style="background:var(--bg-surface); border-top:1px solid var(--border-color); padding:40px 0; margin-top:60px;">
+<div class="home-container" style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:12px;">
+<p style="margin:0; font-size:0.9rem; color:var(--text-secondary);">
+<strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Board Exam Simulators.
       </p>
-      <p style="margin:0; font-size:0.78rem; color:var(--text-muted); max-width:680px;">
-        Distraction-Free Computer-Based Testing. Aligned with official Central Board of Secondary Education (CBSE) syllabus specifications. CBSE® is a registered trademark of the Central Board of Secondary Education.
+<p style="margin:0; font-size:0.78rem; color:var(--text-muted); max-width:680px;">
+        Independent browser-based practice. Use current Central Board of Secondary Education (CBSE) syllabus documents to confirm the topics and formats prescribed for your session. CBSE® is a registered trademark of the Central Board of Secondary Education.
       </p>
-      <div style="display:flex; gap:16px; font-size:0.8rem; margin-top:8px;">
-        <a href="../../about.html" style="color:var(--text-secondary); text-decoration:none;">About</a>
-        <a href="../../privacy.html" style="color:var(--text-secondary); text-decoration:none;">Privacy Policy</a>
-        <a href="../../terms.html" style="color:var(--text-secondary); text-decoration:none;">Terms of Service</a>
-        <a href="../../disclaimer.html" style="color:var(--text-secondary); text-decoration:none;">Disclaimer</a>
-        <a href="../../contact.html" style="color:var(--text-secondary); text-decoration:none;">Contact Desk</a>
-      </div>
-    </div>
-    <div style="text-align:center;padding:10px;"><a href="javascript:void(0)" class="open-cookie-preferences" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
+<div style="display:flex; gap:16px; font-size:0.8rem; margin-top:8px;">
+<a href="../../about.html" style="color:var(--text-secondary); text-decoration:none;">About</a>
+<a href="../../privacy.html" style="color:var(--text-secondary); text-decoration:none;">Privacy Policy</a>
+<a href="../../terms.html" style="color:var(--text-secondary); text-decoration:none;">Terms of Service</a>
+<a href="../../disclaimer.html" style="color:var(--text-secondary); text-decoration:none;">Disclaimer</a>
+<a href="../../contact.html" style="color:var(--text-secondary); text-decoration:none;">Contact Desk</a>
+</div>
+</div>
+<div style="text-align:center;padding:10px;"><a class="open-cookie-preferences" href="javascript:void(0)" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
 </footer>
-
-  <script src="../../js/homepage.js"></script>
+<script src="../../js/homepage.js"></script>
 </body>
 </html>

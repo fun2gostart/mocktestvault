@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +35,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mocktestvault.com/in/">
   <meta property="og:title" content="India Examination Vault — CBSE Class 10 & SSC CGL Mock Tests | MockTestVault">
-  <meta property="og:description" content="Free authentic CBT mock exam simulator for India: CBSE Class 10 chapter practice and SSC CGL Tier-I mock tests using the 2026 notification's 15-minute subject timing and +2/-0.50 marking.">
+  <meta property="og:description" content="Free independent exam-style CBT practice for India: CBSE Class 10 chapter practice and SSC CGL Tier-I mock tests using the 2026 notification's 15-minute subject timing and +2/-0.50 marking.">
   <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
   <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
   <meta property="og:image:type" content="image/png">
@@ -33,7 +46,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="India Examination Vault — CBSE Class 10 & SSC CGL Mock Tests | MockTestVault">
-  <meta name="twitter:description" content="Free authentic CBT mock exam simulator for India: CBSE Class 10 chapter practice and SSC CGL Tier-I mock tests using the 2026 notification's 15-minute subject timing and +2/-0.50 marking.">
+  <meta name="twitter:description" content="Free independent exam-style CBT practice for India: CBSE Class 10 chapter practice and SSC CGL Tier-I mock tests using the 2026 notification's 15-minute subject timing and +2/-0.50 marking.">
   <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
   <meta name="twitter:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
 
@@ -62,7 +75,7 @@
         "name": "Which Indian examinations are currently available on MockTestVault?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "MockTestVault India provides full, interactive CBT practice tests for CBSE Class 10 (covering all 48 chapters across Mathematics, Science, and Social Science with 2,880 questions) and SSC CGL Tier 1 (3 full 100-question practice mocks and 2 shift-labelled 2023 practice papers, plus 9 sectional speed drills with authentic negative marking and section timers)."
+          "text": "MockTestVault India provides full, interactive CBT practice tests for CBSE Class 10 (covering all 48 chapters across Mathematics, Science, and Social Science with 2,880 questions) and SSC CGL Tier 1 (3 full 100-question practice mocks and 2 shift-labelled 2023 practice papers, plus 9 sectional speed drills with published-pattern scoring rules and section timers)."
         }
       },
       {
@@ -145,7 +158,7 @@
         <div class="hero-content">
           <div class="hero-badge">
             <span class="hero-badge-dot"></span>
-            <span>48 / 48 Chapters 100% Live • 2,880 Verified Questions • NCERT Grounded</span>
+            <span>48 / 48 Chapters Live • 2,880 Chapter-Wise Practice Questions • Review Status Varies</span>
           </div>
 
           <h1 class="hero-title">
@@ -169,7 +182,7 @@
           <div style="display:flex; flex-wrap:wrap; gap:16px; margin-top:28px; font-size:0.88rem; color:var(--text-secondary);">
             <div style="display:flex; align-items:center; gap:6px;">
               <span style="color:var(--accent-emerald); font-weight:900;">✓</span>
-              <span>100% NCERT & Official Curriculum Grounded</span>
+              <span>NCERT Topic References & Exam-Pattern Guidance</span>
             </div>
             <div style="display:flex; align-items:center; gap:6px;">
               <span style="color:var(--accent-emerald); font-weight:900;">✓</span>
@@ -230,7 +243,7 @@
         <span class="section-pill">India Examination Catalog</span>
         <h2 class="section-title">Select Your Examination Track</h2>
         <p class="section-desc">
-          Chapter-wise NCERT question banks and government exam speed drills calibrated to official marking schemes.
+          Chapter-wise practice organized around NCERT topics, plus government-exam drills using published marking-pattern references. Individual question and answer verification status varies.
         </p>
       </div>
 
@@ -244,7 +257,7 @@
               <span class="exam-status-tag status-live">🟢 48/48 Ch Complete</span>
             </div>
             <div class="exam-category-title">CBSE Board Exam • Class 10</div>
-            <h3 class="exam-title">Class 10 All Subjects — 2,880 Verified Questions</h3>
+            <h3 class="exam-title">Class 10 All Subjects — 48 Chapter Modules</h3>
             <p class="exam-desc">
               Complete curriculum coverage across Science (13 Ch), Mathematics (14 Ch), and Social Science (21 Ch). 144 timed sets with instant NCERT explanations.
             </p>
@@ -252,7 +265,7 @@
               <span class="meta-pill"><span>📝</span> 2,880 Questions</span>
               <span class="meta-pill"><span>📚</span> 48 Chapters</span>
               <span class="meta-pill"><span>📑</span> 144 Sets</span>
-              <span class="meta-pill"><span>🧪</span> 100% NCERT</span>
+              <span class="meta-pill"><span>🧪</span> NCERT Topic Reference</span>
             </div>
           </div>
           <div class="exam-card-actions">
@@ -271,7 +284,7 @@
             <div class="exam-category-title">CBSE Board Exam • Sample Question Papers</div>
             <h3 class="exam-title">Class 10 Full 80-Mark Board Mocks (3-Hour)</h3>
             <p class="exam-desc">
-              Authentic 3-hour Board Examination simulators calibrated to official CBSE Class 10 blueprints across Science (086), Mathematics (041), and Social Science (087).
+              Independent 3-hour board-pattern practice simulations for CBSE Class 10 Science (086), Mathematics (041), and Social Science (087). The year-labelled sets are not authenticated copies of original annual board papers.
             </p>
             <div class="exam-meta-pills">
               <span class="meta-pill"><span>📝</span> 80 Qs / Paper</span>
@@ -371,12 +384,12 @@
           <div>
             <div class="exam-card-top">
               <div class="exam-icon">🔬</div>
-              <span class="exam-status-tag status-live">🟢 Live Board Mocks &amp; PYQs</span>
+              <span class="exam-status-tag status-live">🟢 Live Practice Mocks &amp; Year-Labelled Sets</span>
             </div>
             <div class="exam-category-title">CBSE Board Exam • Class 12 Senior Secondary</div>
             <h3 class="exam-title"><a href="../cbse-class-12/" style="color:inherit; text-decoration:none;">Class 12 Physics, Chemistry, Biology &amp; Maths</a></h3>
             <p class="exam-desc">
-              490+ statutory NCERT questions across Physics, Chemistry, Biology, and Mathematics including year-labelled 2023/2024 practice sets (provenance not authenticated) with step marking and 3-hour CBT timers.
+              CBSE Class 12 chapter diagnostics and year-labelled 2023/2024 practice sets across Physics, Chemistry, Biology, and Mathematics. Original annual papers and official marking schemes have not been matched item by item.
             </p>
             <div style="margin-top:14px; display:flex; flex-wrap:wrap; gap:6px; font-size:0.78rem;">
               <a href="../cbse-class-12/sample-papers/" style="color:#059669; font-weight:700; text-decoration:none; background:rgba(5,150,105,0.1); border:1px solid rgba(5,150,105,0.25); padding:3px 8px; border-radius:4px;">📑 2024 &amp; 2023 Board Papers (8)</a>
@@ -389,12 +402,12 @@
             <div class="exam-meta-pills">
               <span class="meta-pill"><span>📚</span> Class 12 Hub</span>
               <span class="meta-pill"><span>📝</span> 490+ Questions</span>
-              <span class="meta-pill"><span>📑</span> 8 Solved PYQs</span>
+              <span class="meta-pill"><span>📑</span> 8 Year-Labelled Practice Sets — Provenance Unverified</span>
               <span class="meta-pill"><span>🏆</span> 3-Hour CBT</span>
             </div>
           </div>
           <div class="exam-card-actions" style="display:flex; gap:8px;">
-            <a href="../cbse-class-12/sample-papers/" class="exam-launch-btn" style="flex:1.5; background:linear-gradient(135deg, #059669, #047857);"><span>📑 Solved Board Papers (8)</span></a>
+            <a href="../cbse-class-12/sample-papers/" class="exam-launch-btn" style="flex:1.5; background:linear-gradient(135deg, #059669, #047857);"><span>📑 Year-Labelled Practice Sets (8)</span></a>
             <a href="../cbse-class-12/" class="exam-launch-btn" style="flex:1;"><span>🚀 Explore Hub</span></a>
           </div>
         </article>
@@ -448,7 +461,7 @@
             <span class="faq-toggle-icon">＋</span>
           </button>
           <div class="faq-accordion-answer">
-            <p>MockTestVault India provides full, interactive CBT practice tests for <a href="../cbse-class-10/index.html">CBSE Class 10</a> (covering all 48 chapters across Mathematics, Science, and Social Science with 2,880 questions) and <a href="../ssc-cgl/index.html">SSC CGL Tier 1</a> (3 full 100-question practice mocks and 2 shift-labelled 2023 practice papers, plus 9 sectional speed drills with authentic negative marking and section timers).</p>
+            <p>MockTestVault India provides full, interactive CBT practice tests for <a href="../cbse-class-10/index.html">CBSE Class 10</a> (covering all 48 chapters across Mathematics, Science, and Social Science with 2,880 questions) and <a href="../ssc-cgl/index.html">SSC CGL Tier 1</a> (3 full 100-question practice mocks and 2 shift-labelled 2023 practice papers, plus 9 sectional speed drills with published-pattern scoring rules and section timers).</p>
           </div>
         </div>
 
@@ -458,7 +471,7 @@
             <span class="faq-toggle-icon">＋</span>
           </button>
           <div class="faq-accordion-answer">
-            <p>Our SSC CGL simulator replicates the official independent CBT-style testing engine, including the 5-state question palette (Not Visited, Not Answered, Answered, Marked for Review, Answered &amp; Marked for Review), +2.0/-0.5 marking scheme, 60-minute countdown timer, and 4 sectional tabs.</p>
+            <p>Our SSC CGL practice simulator uses common CBT features, including the 5-state question palette (Not Visited, Not Answered, Answered, Marked for Review, Answered &amp; Marked for Review), +2.0/-0.5 marking scheme, 60-minute countdown timer, and 4 sectional tabs.</p>
           </div>
         </div>
 

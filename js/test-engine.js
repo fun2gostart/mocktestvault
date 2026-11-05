@@ -466,7 +466,7 @@ class MockTestEngine {
       this.questions = rawList.map(q => ({
         ...q,
         answer: q.answer !== undefined ? q.answer : (q.correct !== undefined ? q.correct : q.correctAnswer),
-        citation: q.citation || q.ncertRef || 'Official Syllabus Standard'
+        citation: q.citation || q.ncertRef || 'No item-level source reference supplied'
       }));
       
       // Initialize state arrays
@@ -1849,7 +1849,7 @@ class MockTestEngine {
 
           <div class="report-modal-footer">
             <button type="button" class="btn btn-secondary" id="mcv-cancel-report-btn" style="padding:8px 16px; font-size:0.88rem;">Cancel</button>
-            <button type="button" class="btn btn-primary" id="mcv-submit-report-btn" style="padding:8px 18px; font-size:0.88rem; font-weight:600;">Submit to Editorial Desk</button>
+            <button type="button" class="btn btn-primary" id="mcv-submit-report-btn" style="padding:8px 18px; font-size:0.88rem; font-weight:600;">Prepare Email Draft</button>
           </div>
         </div>
       </div>
@@ -1885,23 +1885,7 @@ class MockTestEngine {
         return;
       }
 
-      // Save to localStorage
-      try {
-        const storedReports = JSON.parse(localStorage.getItem('mcv_user_discrepancy_reports') || '[]');
-        storedReports.push({
-          timestamp: new Date().toISOString(),
-          exam: examName,
-          url: window.location.href,
-          questionIndex: qidx + 1,
-          questionId: qId,
-          category: category,
-          details: details,
-          userEmail: email || 'anonymous'
-        });
-        localStorage.setItem('mcv_user_discrepancy_reports', JSON.stringify(storedReports));
-      } catch (err) {
-        console.warn('LocalStorage save failed:', err);
-      }
+      // Report text and optional email are not persisted in browser storage.
 
       // Prepare mailto link for direct submission to editorial desk
       const mailtoSubject = encodeURIComponent(`[Question Discrepancy] ${examName} - Q${qidx + 1} (${qId})`);
@@ -1921,7 +1905,7 @@ class MockTestEngine {
       feedback.style.border = '1px solid #a7f3d0';
       feedback.innerHTML = `
         <div style="font-weight:700; margin-bottom:4px; color:#065f46;">✓ Report Prepared on Device</div>
-        <div style="font-size:0.85rem; color:#065f46; margin-bottom:8px;">Your report has been saved locally on this device. Click below to launch your email app and send it directly to our editorial review desk:</div>
+        <div style="font-size:0.85rem; color:#065f46; margin-bottom:8px;">The report has not been sent or saved by MockTestVault. Click below to open your email app, review the draft and send it to the editorial review desk:</div>
         <div>
           <a href="${mailtoUrl}" style="display:inline-block; font-size:0.85rem; font-weight:700; padding:6px 14px; background:#047857; color:#ffffff; border-radius:6px; text-decoration:none;">
             ✉️ Open Email App &amp; Send Report &rarr;
@@ -1932,7 +1916,7 @@ class MockTestEngine {
       // Update button on review card
       const cardBtn = document.querySelector(`.btn-report-question[data-qidx="${qidx}"]`);
       if (cardBtn) {
-        cardBtn.innerHTML = '✓ Reported';
+        cardBtn.innerHTML = '✉️ Draft Ready';
         cardBtn.classList.add('reported');
         cardBtn.disabled = true;
       }

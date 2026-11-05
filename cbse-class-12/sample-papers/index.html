@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -199,7 +212,7 @@
           CBSE Class 12 <span class="gradient-text">Board Objective Practice Drills</span> (2024 &amp; 2023)
         </h1>
         <p style="font-size:0.95rem; color:var(--text-secondary); line-height:1.6; margin-bottom:24px;">
-          Experience 3-hour computer-based testing simulations calibrated to official CBSE Class 12 Board theory examination blueprints. Features weighted objective evaluation items with step-by-step NCERT marking schemes, derivations, chemical reaction mechanisms, and printable A4 mode.
+          Use independent 3-hour computer-based practice simulations organized around Class 12 subject topics and published exam-format references. The worked explanations are study aids, not official CBSE marking schemes; year-labelled item provenance has not been authenticated.
         </p>
       </div>
     </div>
@@ -227,12 +240,12 @@
       </div>
     </div>
 
-    <!-- 2024 Solved Papers Section -->
+    <!-- 2024 Year-Labelled Practice Sets — Provenance Unverified -->
     <div class="section-head">
-      <span class="section-pill">2024 Board Blueprints</span>
+      <span class="section-pill">2024 Practice Sets</span>
       <h2 class="section-title">CBSE Class 12 2024 Objective Practice Drills</h2>
       <p class="section-desc">
-        Practice sets structured from 2024 Senior School Certificate Examination blueprints with step-by-step NCERT marking schemes and 3-hour countdowns.
+        Independent year-labelled practice sets with topic-based explanations and 3-hour practice timers. Original 2024 board papers and official marking schemes are not attached or matched item by item.
       </p>
     </div>
 
@@ -242,7 +255,7 @@
         <div>
           <div class="sqp-top">
             <div class="sqp-icon">⚡</div>
-            <span class="sqp-status">🟢 2024 Board Drill</span>
+            <span class="sqp-status">🟢 2024 Practice Set — Provenance Unverified</span>
           </div>
           <div class="sqp-code">Code 042 • Objective Drill</div>
           <h3 class="sqp-title">Class 12 Physics — 2024 Objective Practice Drill</h3>
@@ -262,7 +275,7 @@
         <div>
           <div class="sqp-top">
             <div class="sqp-icon">🧪</div>
-            <span class="sqp-status">🟢 2024 Board Drill</span>
+            <span class="sqp-status">🟢 2024 Practice Set — Provenance Unverified</span>
           </div>
           <div class="sqp-code">Code 043 • Objective Drill</div>
           <h3 class="sqp-title">Class 12 Chemistry — 2024 Objective Practice Drill</h3>
@@ -282,7 +295,7 @@
         <div>
           <div class="sqp-top">
             <div class="sqp-icon">🧬</div>
-            <span class="sqp-status">🟢 2024 Board Drill</span>
+            <span class="sqp-status">🟢 2024 Practice Set — Provenance Unverified</span>
           </div>
           <div class="sqp-code">Code 044 • Objective Drill</div>
           <h3 class="sqp-title">Class 12 Biology — 2024 Objective Practice Drill</h3>
@@ -302,7 +315,7 @@
         <div>
           <div class="sqp-top">
             <div class="sqp-icon">📐</div>
-            <span class="sqp-status">🟢 2024 Board Drill</span>
+            <span class="sqp-status">🟢 2024 Practice Set — Provenance Unverified</span>
           </div>
           <div class="sqp-code">Code 041 • Objective Drill</div>
           <h3 class="sqp-title">Class 12 Mathematics — 2024 Objective Practice Drill</h3>
@@ -318,12 +331,12 @@
       </article>
     </div>
 
-    <!-- 2023 Solved Papers Section -->
+    <!-- 2023 Year-Labelled Practice Sets — Provenance Unverified -->
     <div class="section-head" style="margin-top:64px;">
-      <span class="section-pill">2023 Board Blueprints</span>
+      <span class="section-pill">2023 Practice Sets</span>
       <h2 class="section-title">CBSE Class 12 2023 Objective Practice Drills</h2>
       <p class="section-desc">
-        Practice sets structured from 2023 Senior School Certificate Examination blueprints with step-by-step NCERT formula derivations and 3-hour timers.
+        Independent year-labelled practice sets with topic-based explanations and 3-hour practice timers. Original 2023 board papers and official marking schemes are not attached or matched item by item.
       </p>
     </div>
 
@@ -333,7 +346,7 @@
         <div>
           <div class="sqp-top">
             <div class="sqp-icon">⚡</div>
-            <span class="sqp-status">🟢 2023 Board Drill</span>
+            <span class="sqp-status">🟢 2023 Practice Set — Provenance Unverified</span>
           </div>
           <div class="sqp-code">Code 042 • Objective Drill</div>
           <h3 class="sqp-title">Class 12 Physics — 2023 Objective Practice Drill</h3>
@@ -353,7 +366,7 @@
         <div>
           <div class="sqp-top">
             <div class="sqp-icon">🧪</div>
-            <span class="sqp-status">🟢 2023 Board Drill</span>
+            <span class="sqp-status">🟢 2023 Practice Set — Provenance Unverified</span>
           </div>
           <div class="sqp-code">Code 043 • Objective Drill</div>
           <h3 class="sqp-title">Class 12 Chemistry — 2023 Objective Practice Drill</h3>
@@ -373,7 +386,7 @@
         <div>
           <div class="sqp-top">
             <div class="sqp-icon">🧬</div>
-            <span class="sqp-status">🟢 2023 Board Drill</span>
+            <span class="sqp-status">🟢 2023 Practice Set — Provenance Unverified</span>
           </div>
           <div class="sqp-code">Code 044 • Objective Drill</div>
           <h3 class="sqp-title">Class 12 Biology — 2023 Objective Practice Drill</h3>
@@ -393,7 +406,7 @@
         <div>
           <div class="sqp-top">
             <div class="sqp-icon">📐</div>
-            <span class="sqp-status">🟢 2023 Board Drill</span>
+            <span class="sqp-status">🟢 2023 Practice Set — Provenance Unverified</span>
           </div>
           <div class="sqp-code">Code 041 • Objective Drill</div>
           <h3 class="sqp-title">Class 12 Mathematics — 2023 Objective Practice Drill</h3>
@@ -418,7 +431,7 @@
         <strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Board Examination Simulators.
       </p>
       <p style="margin:0 0 16px 0; font-size:0.78rem; color:var(--text-muted);">
-        Aligned with the statutory NCERT and CBSE Class 12 Senior Secondary curriculum. CBSE® is a registered trademark of the Central Board of Secondary Education.
+        Independent practice informed by publicly available NCERT topic and CBSE curriculum references. CBSE is not affiliated with this website. CBSE® is a registered trademark of the Central Board of Secondary Education.
       </p>
       <div style="display:flex; justify-content:center; gap:16px; font-size:0.8rem;">
         <a href="../../about.html" style="color:var(--text-secondary); text-decoration:none;">About</a>

@@ -1,0 +1,66 @@
+MockTestVault v2.8 — Production Archive QA Report
+Date: 2026-11-05
+Baseline: mocktestvault.com_organic_seo_v2.7.zip
+Scope: local source archive regression tests; not a live-host audit.
+
+RESULT: PASS — all archive-level checks listed below completed successfully.
+
+1. Archive inventory and question structure
+- HTML pages: 159.
+- JSON files: 287 total, including 286 files under /data.
+- Question records scanned: 6,404.
+- All 6,404 records contain question text, at least two options, an in-range integer answer index, an explanation, and quality_review audit metadata.
+- The structural scan does not establish factual answer accuracy.
+
+2. Contact form and browser storage
+- Corrected contact inquiry field ID to match the form.
+- Optional Chapter / Question ID is inserted into the prepared email body.
+- The form presents an email draft link; it does not auto-launch the visitor's email client and does not claim to create a server-side ticket.
+- Contact report and question-discrepancy report text are not written to persistent localStorage keys.
+
+3. Consent and analytics
+- 158 of 159 HTML pages include the consent module; the remaining page is the Google site-verification file.
+- Consent defaults occur before the Google Analytics config command on all consent-enabled pages.
+- Analytics/ad consent defaults are denied unless a previous explicit Accept All choice is stored.
+- No static external Google tag script is embedded in the HTML; the tag is loaded dynamically after accepted consent.
+- Consent-banner styling is present on every consent-enabled page.
+- Functional harness passed: new visitor/no choice, Accept All, Essential Only, previously accepted, previously essential-only, and page_view timing.
+- This custom consent banner is not certified as a Google CMP or IAB TCF CMP. This release does not claim that it meets all regional advertising-consent requirements.
+
+4. SEO and page integrity
+- Sitemap: 155 unique URLs.
+- 155 unique indexable canonical URLs are covered by the sitemap.
+- Two canonical pages marked noindex are excluded from the sitemap.
+- Sitemap coverage was already complete in the v2.7 baseline; it was validated and left unchanged.
+- Broken local HTML links: 0.
+- Broken local script/image/source/iframe assets: 0.
+- JSON-LD parse errors: 0.
+- Duplicate page titles: 0.
+- Duplicate meta descriptions: 0.
+
+5. Registers and publisher declaration
+- QUESTION_ANSWER_VERIFICATION_REGISTER_v2.8.csv: 6,404 data rows.
+- PYQ_AUTHENTICATION_REGISTER_v2.8.csv: 954 data rows.
+- QUESTION_REVIEW_BACKLOG_BY_FILE_v2.8.csv: 287 data rows.
+- ads.txt contains no fabricated placeholder publisher ID. No AdSense publisher declaration or live ad units are configured in this release.
+
+6. JavaScript checks
+- All external files in /js passed `node --check`.
+- 304 inline JavaScript blocks across 159 HTML files passed syntax parsing.
+- Consent functional harness passed.
+
+7. Material limitations — not certified by this archive QA
+- All 6,404 questions have NOT been independently re-solved by qualified subject-matter reviewers. The review registers are work queues, not accuracy certification.
+- The 954 SSC/CBSE year- or shift-labelled records have NOT been authenticated against original papers and official final answer keys.
+- No live-host deployment, HTTP response, HTTPS redirect, server configuration or browser-based production test was performed.
+- No Google Search Console account access was available; indexing status, crawl coverage and Google-selected canonicals remain unverified.
+- No live PageSpeed Insights/Core Web Vitals test was performed.
+- No AdSense account approval, publisher ID, ad-unit integration or monetisation test is included.
+- No Google-certified / IAB TCF CMP integration is included.
+- This report records local source/archive regression tests only; it is not a legal, academic, SEO ranking, Google indexing or monetisation certification.
+
+Deployment notes
+- Upload the contents of the `mocktestvault.com/` directory to the production document root, preserving paths and filenames.
+- Back up the existing production website before replacement.
+- After deployment, smoke-test contact flow and consent choices in a clean browser profile, confirm the site loads its expected styles/scripts, then inspect Search Console and Analytics real-time/DebugView.
+- Keep personalised advertising disabled until the correct consent platform, region rules, AdSense publisher ID and account approval are in place.

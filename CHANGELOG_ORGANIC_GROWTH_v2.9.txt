@@ -1,0 +1,47 @@
+MockTestVault v2.9 — Organic Growth and Question-Quality Workflow
+Date: 5 November 2026
+Baseline: v2.8 production archive
+
+ORGANIC-GROWTH FOCUS
+- AdSense integration and publisher account work are intentionally out of scope for v2.9.
+- Added a new indexable CBSE Class 10 2026–27 resource guide with direct links to the current official CBSE curriculum and official Class X sample-paper/marking-scheme archive.
+- Added internal links to the new guide from the homepage, CBSE Class 10 hub and Class 10 practice-paper hub.
+- Updated the Class 10 80-mark practice hub to describe the site content as independent practice rather than an official or blueprint-matched paper.
+- Updated the SSC CGL hub title/metadata to the 2026 cycle while retaining independent-practice and scorecard disclosures.
+- Reworked llms.txt, llms-full.txt and the Atom feed to remove stale or unsupported statements about verified questions, official past papers, current syllabus coverage and zero telemetry.
+- Added an SEO page audit register (excluding Google verification and legacy redirect stubs) with title/description lengths, canonical/indexable status, body-word count, H1 count, internal inbound links, structured-data types and final sitemap membership.
+- Updated sitemap lastmod for changed indexable pages and added the new 2026–27 CBSE resource page; noindex pages remain excluded.
+
+QUESTION-QUALITY WORKFLOW
+- Re-scanned 6,404 question records across 286 question-data JSON files (287 JSON files in the release including the web manifest).
+- Added automated overlap-audit metadata to every question. It records normalized stem hash, duplicate group, occurrence count, option-set variants and explanation variants. It explicitly does NOT represent factual verification.
+- Identified 1,102 normalized repeated-stem groups and 1,261 additional occurrences beyond the first item in each group.
+- Identified 10 repeated-stem groups with differing selected-answer text and 77 groups with varying explanation text. These are manual-review flags, not confirmed errors; option wording/order changes can explain some differences.
+- Created QUESTION_DUPLICATE_REVIEW_REGISTER_v2.9.csv and QUESTION_EXPLANATION_VARIANCE_REGISTER_v2.9.csv.
+- Expanded the 6,404-row answer-review register with reviewer, evidence and final-outcome fields.
+- Expanded the 954-row PYQ register with original-paper, official-key and item-location authentication fields. All remain pending until source material is supplied and matched.
+- Updated the 286-file question-data backlog with duplicate and explanation-variance counts.
+
+TRUST / CONTENT CORRECTIONS
+- Removed unsupported official-simulator, official-solution, official-marking-scheme, chapter-weightage and blanket syllabus-alignment claims from practice pages; reframed chapter guides as independent revision resources.
+- Removed unsupported guaranteed mark-weightage language from the Real Numbers practice guide.
+- Replaced contact-page guaranteed response SLA and unsupported infrastructure claims with an accurate no-fixed-SLA statement.
+- Clarified that topic references do not establish item-level source provenance or answer-key authentication.
+- Removed the test engine fallback label that could imply an official syllabus source when a question has no item-level citation; missing references now display a transparent no-item-level-source message. Replaced six static citation placeholders on SSC/CBSE practice pages with pending/loaded-reference wording.
+- Corrected remaining claims about 100% offline availability; only core assets and previously cached question banks may be available offline.
+- Re-labelled IELTS question-pool metadata as a practice pool with independent verification pending.
+- Re-labelled IB practice scoring notes so they are not presented as official mark schemes or grade boundaries.
+- Corrected three stale internal fragment links on the homepage and removed unsupported official blueprint/weightage wording from Class 10 practice pages.
+
+PERFORMANCE
+- Replaced blanket no-cache rules for all static resources with conservative browser caching: HTML and service worker remain no-cache/no-store; CSS/JS/JSON use one-hour revalidation; images/icons/fonts use seven-day cache with stale-while-revalidate.
+- Kept LiteSpeed full-page cache disabled to avoid stale test HTML/session behaviour. This release does not claim live Core Web Vitals improvement.
+- Bumped service-worker cache from mtv-cbt-v45 to mtv-cbt-v46 to refresh offline assets after deployment.
+
+LIMITATIONS
+- The 6,404 questions have not been independently re-solved by subject-matter reviewers.
+- The 954 year/shift-labelled questions have not been matched to original papers and official final answer keys.
+- Duplicate/explanation flags are automated comparisons and require human decisions.
+- The current CBSE 2026–27 official curriculum and sample-paper links are provided, but the existing 48 chapter modules are not fully mapped to all 2026–27 syllabus changes.
+- No live hosting, Search Console, PageSpeed Insights or Core Web Vitals account test is included. Local HTTP smoke checks passed, but headless Chromium navigation was blocked by the execution environment, so browser interaction is not claimed.
+- AdSense integration is intentionally excluded.

@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <script src="/js/consent.js" defer></script>
   <meta charset="UTF-8">
@@ -51,7 +64,7 @@
     "@type": "WebPage",
     "name": "Privacy Policy — MockTestVault",
     "url": "https://mocktestvault.com/privacy.html",
-    "description": "Comprehensive privacy disclosures, cookie policies, Google AdSense notices, and client-side processing guarantees for MockTestVault."
+    "description": "Privacy information about browser storage, consent-controlled analytics, email drafts and practice-session processing on MockTestVault."
   }
   </script>
   <link rel="manifest" href="/manifest.json">
@@ -124,12 +137,12 @@
 
     <!-- Header -->
     <div class="legal-header">
-      <div class="legal-badge">Legal Transparency & GDPR / CCPA Compliance</div>
+      <div class="legal-badge">Privacy & Data Practices</div>
       <h1 class="legal-title">Privacy Policy</h1>
       <div class="legal-meta">
         <div class="legal-meta-item"><span>📅</span> Effective Date: October 30, 2026</div>
-        <div class="legal-meta-item"><span>🔄</span> Last Updated: November 3, 2026</div>
-        <div class="legal-meta-item"><span>🛡️</span> Zero Server Database Logging</div>
+        <div class="legal-meta-item"><span>🔄</span> Last Updated: November 5, 2026</div>
+        <div class="legal-meta-item"><span>🛡️</span> No student account system</div>
       </div>
     </div>
 
@@ -137,19 +150,19 @@
     <article class="legal-card legal-content">
       
       <section>
-        <h2>1. Introduction & Core Privacy Promise</h2>
+        <h2>1. Introduction & Privacy Overview</h2>
         <p>
           Welcome to <strong>MockTestVault</strong> (accessible at <a href="https://mocktestvault.com/">https://mocktestvault.com/</a>). We respect the privacy of every student, educator, and test aspirant who utilizes our computer-based examination simulators. This Privacy Policy outlines our standards regarding data handling, client-side execution, browser local storage, advertising cookies, and your legal rights.
         </p>
         <p>
-          Unlike conventional educational portals, MockTestVault is engineered as an <strong>open-access, client-side utility</strong>. We do not operate user accounts, do not mandate phone number registration, and never harvest personal student profiles.
+          Unlike conventional educational portals, MockTestVault is engineered as an <strong>open-access, client-side utility</strong>. We do not operate user accounts, do not mandate phone number registration, and do not create student account profiles for practice use.
         </p>
       </section>
 
       <section>
-        <h2>2. In-Browser Execution Architecture (Zero Server Storage of Test Data)</h2>
+        <h2>2. In-Browser Practice Processing</h2>
         <div class="legal-callout alert-success">
-          <strong>The Client-Side Privacy Guarantee:</strong> When you start, answer, pause, or complete an examination on MockTestVault:
+          <strong>Practice Session Processing:</strong> When you start, answer, pause, or complete an examination on MockTestVault:
           <ul style="margin-top:8px; margin-bottom:0; padding-left:20px;">
             <li>Your selected answers, skipped questions, and marked-for-review flags are processed <strong>100% locally in your device's browser memory (RAM)</strong> via pure JavaScript state machines.</li>
             <li>No test score, question response, or examination timestamp is ever transmitted to or stored on our web servers or external cloud databases.</li>
@@ -160,83 +173,55 @@
       </section>
 
       <section>
-        <h2>3. Browser Local Storage & Preference Cookies</h2>
-        <p>
-          MockTestVault utilizes modern HTML5 <code>localStorage</code> exclusively to preserve non-identifying client preferences and offline self-study progress across visits. Specifically, we store:
-        </p>
+        <h2>3. Browser Local Storage &amp; Device Preferences</h2>
+        <p>MockTestVault uses browser <code>localStorage</code> for selected preferences and self-study features. These values remain in the current browser profile unless you clear site data. The keys used by the current site code include:</p>
         <ul>
-          <li><code>mtv_theme</code>: Remembers your display theme selection (<code>'light'</code> or <code>'dark'</code> mode) to prevent flashing un-styled content upon page load.</li>
-          <li><code>mtv_sound</code>: Records your Web Audio synthesizer preference (<code>'true'</code> or <code>'false'</code> for millisecond audio feedback).</li>
-          <li><code>mtv_font_scale</code>: Stores your customized typography zoom scale (between 85% and 125%) for enhanced readability.</li>
-          <li><code>mtv_bookmarks</code>: Locally saves question IDs you explicitly flagged via the "⭐ Bookmark Question" button so you can filter and revise them later.</li>
-          <li><code>mtv_attempt_history</code>: Records your local examination score summaries (date, score, percentage, elapsed time) to render your self-study progression chart without cloud account sync.</li>
-          <li><code>mtv_question_reports</code>: If you use the "Report Question / Suggest Correction" feature, your report text and optional email address are drafted and preserved exclusively on your device's local storage before opening your system email application. No automated background transmission takes place.</li>
-          <li><code>mcv_contact_reports</code>: When submitting an academic discrepancy or support inquiry through our Contact Desk, a local archive of your submission summary is stored on your device's browser memory so you have a record of submitted reports. No automatic server database persistence occurs.</li>
-          <li><code>mtv_consent_choice</code>: Records your consent preference (<code>'accepted'</code> or <code>'essential'</code>) via our client-side consent manager, determining whether anonymous telemetry and marketing storage are enabled in Google Consent Mode v2.</li>
+          <li><code>mtv_theme</code>: your light/dark display preference.</li>
+          <li><code>mtv_sound</code>: whether optional interface sound effects are enabled.</li>
+          <li><code>mtv_font_scale</code>: your selected text-size scale.</li>
+          <li><code>mtv_bookmarks</code>: question identifiers you bookmark for later revision.</li>
+          <li><code>mtv_attempt_history</code>: local practice summaries, including test path, date/time, score, percentage and elapsed time. These records support the progress view and are not synced to a MockTestVault account.</li>
+          <li><code>mtv_consent_choice</code>: your selected consent preference (<code>accepted</code> or <code>essential</code>).</li>
         </ul>
-        <p>
-          These keys reside exclusively within your local device browser sandbox and are never transmitted, synchronized, or uploaded to any remote server or third party. You can wipe these keys at any moment via your browser's "Clear Site Data" or "Clear Cookies & Cache" settings.
-        </p>
+        <p>In this release, contact-form and question-discrepancy text and email addresses are not saved by MockTestVault to <code>localStorage</code>. When you choose to open an email draft, the information is passed to your configured email application through a <code>mailto:</code> link. Your email provider and the recipient then handle the message under their own practices. Do not include sensitive personal information in a report.</p>
+        <p>To remove local preferences, bookmarks and attempt summaries, use your browser's site-data controls for <code>mocktestvault.com</code>. Removing site data also removes your saved preferences and practice history.</p>
       </section>
 
       <section>
-        <h2>4. Google AdSense & Third-Party Advertising Disclosures</h2>
-        <p>
-          To maintain MockTestVault as a 100% free educational platform accessible to students worldwide without mandatory subscriptions or paywalls, our operational model is designed to be supported by non-intrusive advertisements served by third-party advertising partners, including <strong>Google Inc. (Google AdSense)</strong> upon deployment. In compliance with Google Publisher Policies, GDPR, and statutory advertising regulations, please note the following operational disclosures:
-        </p>
+        <h2>4. Advertising &amp; Third-Party Advertising Readiness</h2>
+        <p>The current website source release does not include Google AdSense ad-unit code. No AdSense publisher ID is configured in this release. Any future advertising deployment must be accompanied by an updated privacy notice, working consent controls and the required certified consent-management setup for applicable regions.</p>
         <ul>
-          <li><strong>Third-Party Advertising Vendors:</strong> Third-party vendors, including Google, use cookies to serve advertisements based on a user's prior visits to MockTestVault or other websites across the Internet.</li>
-          <li><strong>Google Advertising Cookies:</strong> Google's use of advertising cookies enables it and its partners to serve personalized or contextual advertisements to users based on their visit to this site and other sites across the World Wide Web.</li>
-          <li><strong>Personalized Ads Opt-Out:</strong> Users may opt out of personalized advertising by visiting Google's official privacy and advertising tools at: <br><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer"><strong>https://policies.google.com/technologies/ads</strong></a> and customizing their preferences at <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer"><strong>Google Ads Settings</strong></a>.</li>
-          <li><strong>In-Browser Consent Management &amp; Google Consent Mode v2:</strong> MockTestVault deploys an active, interactive consent banner and Google Consent Mode v2 interface on every page. Visitors can choose between "Essential Only" (which sets <code>analytics_storage</code>, <code>ad_storage</code>, and personalization to <code>denied</code>) and "Accept All". You can review or modify your consent settings at any time by clicking <a href="javascript:void(0)" class="open-cookie-preferences" style="color:var(--primary); font-weight:700;">Cookie Preferences</a>.</li>
-          <li><strong>Future Commercial Ad Serving &amp; IAB TCF CMP:</strong> When commercial Google AdSense advertising is deployed, MockTestVault will integrate a Google-certified Consent Management Platform (CMP) supporting the IAB Europe Transparency and Consent Framework (TCF v2.2) to govern European (EEA, UK, Switzerland) consent strings. Prior to commercial ad serving, only essential operational state is maintained.</li>
-          <li><strong>Industry-Wide Consumer Choice Portals:</strong> You may also opt out of third-party interest-based advertising cookies across participating ad networks by visiting:
-            <ul style="margin-top:6px; margin-bottom:6px; padding-left:18px;">
-              <li>Digital Advertising Alliance (DAA): <a href="https://optout.aboutads.info/" target="_blank" rel="noopener noreferrer">https://optout.aboutads.info/</a></li>
-              <li>Network Advertising Initiative (NAI): <a href="https://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer">https://optout.networkadvertising.org/</a></li>
-              <li>European Interactive Digital Advertising Alliance (EDAA): <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener noreferrer">https://www.youronlinechoices.eu/</a></li>
-            </ul>
-          </li>
-          <li><strong>Ad-Free Active Testing Sessions:</strong> MockTestVault enforces a strict policy that no disruptive, interstitial, or floating advertisements are displayed within active examination viewports. Timer countdowns, question palettes, and answer choices remain 100% distraction-free.</li>
-          <li><strong>Zero-CLS (Cumulative Layout Shift) Design:</strong> All ad units on MockTestVault are strictly sandboxed within fixed-height reserved wrappers to prevent page jumping, ensuring ad loading never distorts exam timers or misaligns question radio buttons.</li>
+          <li><strong>Current status:</strong> this release does not intentionally load Google AdSense advertising tags or serve AdSense ad units.</li>
+          <li><strong>Future advertising:</strong> third-party advertising providers may use cookies or similar technologies if advertising is added later. The policy and consent choices must be updated before such deployment.</li>
+          <li><strong>Consent controls:</strong> visitors can choose <em>Essential Only</em> or <em>Accept All</em>. Essential Only keeps analytics and advertising consent denied. Accept All enables the analytics consent state; the current release has no AdSense ad units to activate.</li>
+          <li><strong>Regional CMP requirements:</strong> before serving ads to users in regions where Google requires a certified CMP and IAB TCF integration, the site operator must implement and validate the applicable Google-certified CMP. The custom consent banner in this release is not represented as an IAB TCF-certified CMP.</li>
+          <li><strong>Preferences:</strong> you can reopen the consent banner using the Cookie Preferences link in the site footer.</li>
         </ul>
       </section>
 
       <section>
-        <h2>5. Web Analytics & Server Access Logs</h2>
-        <p>
-          Like all standard web infrastructure, MockTestVault's edge servers may log basic non-personally identifiable diagnostic headers when an asset is requested:
-        </p>
-        <ul>
-          <li>Standard HTTP request metadata: Browser user-agent string, operating system version, referring URL, timestamp of request, and IP address (anonymized for aggregated geolocation metrics).</li>
-          <li>We may utilize anonymous aggregated telemetry tools (such as Google Analytics 4) to monitor platform load times, regional popularity of exam suites, and browser rendering compatibility. These tools do not record private exam answers, individual scores, or personally identifiable information.</li>
-        </ul>
+        <h2>5. Analytics &amp; Hosting Logs</h2>
+        <p>Google Analytics 4 is configured for the site, but the Google tag is requested from Google's servers only after a visitor explicitly selects <em>Accept All</em> or has previously saved that choice. Before consent, the page sets analytics and advertising consent to denied and does not load the Google Analytics script. Selecting <em>Essential Only</em> keeps that script disabled.</p>
+        <p>After consent, Google Analytics may receive page-view and technical usage information such as the page visited, browser/device details, approximate location and interaction with the site. The current site code does not intentionally send test answers or individual test scores as Google Analytics events. See Google's privacy information for how Google handles data received through its services.</p>
+        <p>The hosting provider may also generate ordinary server access and security logs, which can include IP address, requested path, timestamp, user-agent and referrer information. The archive does not specify the hosting provider's log-retention period or configuration; the site operator should confirm those details with the host rather than assume a particular retention or anonymisation setting.</p>
       </section>
 
       <section>
-        <h2>6. Children’s Online Privacy Protection Act (COPPA) & Minors</h2>
-        <p>
-          Given our curriculum coverage of secondary school syllabus (including CBSE Class 10), we adhere strictly to the principles of the <strong>Children’s Online Privacy Protection Act (COPPA)</strong> and global minors' digital safety frameworks:
-        </p>
-        <ul>
-          <li>MockTestVault <strong>does not require, solicit, or collect personally identifiable information (PII)</strong> from any student, including children under 13 or 16 years of age.</li>
-          <li>Because no login credentials, names, email addresses, or phone numbers are requested to take tests, no children's data is maintained, compiled, or distributed.</li>
-          <li>Parents and educators can permit students to utilize the platform with total confidence in complete local anonymity.</li>
-        </ul>
+        <h2>6. Children &amp; Student Privacy</h2>
+        <p>Students can use the practice tests without creating an account or providing a name, phone number or email address. Practice preferences, bookmarks and attempt summaries are stored locally in the browser as described above.</p>
+        <p>The Contact Desk and question-discrepancy feature allow a visitor to prepare an email draft and may include a name, email address or message supplied by that visitor. Those details are not saved by MockTestVault to browser local storage in this release. Students under the age applicable in their jurisdiction should ask a parent or guardian to handle contact submissions and should not include sensitive personal information in a report.</p>
+        <p>This operational description is not a legal certification of compliance with COPPA or any other child-privacy law. The site operator should obtain jurisdiction-specific legal review before directing services or advertising to children.</p>
       </section>
 
       <section>
-        <h2>7. Your Rights under GDPR, UK DPA & CCPA/CPRA</h2>
-        <p>
-          Under global data privacy regulations (including the European General Data Protection Regulation, the UK Data Protection Act 2018, and the California Consumer Privacy Act / California Privacy Rights Act):
-        </p>
+        <h2>7. Privacy Choices &amp; Requests</h2>
         <ul>
-          <li><strong>Right to Know & Access:</strong> Since we do not record student accounts, personal profiles, or test answers, we possess no identifiable database records to retrieve or disclose.</li>
-          <li><strong>Right to Erasure / Deletion:</strong> Users have total autonomy over their local device storage. Clearing your browser cache or cookies instantly deletes all stored preferences and test history.</li>
-          <li><strong>"Do Not Sell or Share My Personal Information" (CCPA/CPRA):</strong> MockTestVault does not sell, rent, monetize, or share personal user data with third-party data brokers or commercial marketers.</li>
-          <li><strong>EU User Consent Policy:</strong> In regions governed by GDPR / ePrivacy directives, consent is requested before non-essential cookies (such as personalized advertising cookies) are deployed.</li>
-          <li><strong>Right to Non-Discrimination:</strong> MockTestVault treats all users identically, regardless of whether you accept or reject non-essential cookies.</li>
+          <li><strong>Browser data:</strong> you can remove local preferences, bookmarks and attempt summaries by clearing site data for <code>mocktestvault.com</code> in your browser.</li>
+          <li><strong>Analytics choice:</strong> use Cookie Preferences to reopen the banner. Essential Only keeps Google Analytics disabled. If you previously accepted, choosing Essential Only updates the consent state and prevents the tag from loading on subsequent page visits.</li>
+          <li><strong>Email reports:</strong> when you send a report through your email application, the message is handled by your email provider and the recipient. Contact the privacy desk for requests concerning copies held by the site operator.</li>
+          <li><strong>Third-party services:</strong> when analytics is enabled, Google processes information under its own terms and privacy disclosures. You can also review Google's privacy and advertising controls directly.</li>
         </ul>
+        <p>Privacy rights and requirements differ by jurisdiction. This notice describes the current site implementation and is not a legal opinion or a guarantee that a particular regulatory regime has been satisfied.</p>
       </section>
 
       <section>
@@ -254,7 +239,7 @@
           Direct Inquiries Email: <a href="mailto:contact@mocktestvault.com"><strong>contact@mocktestvault.com</strong></a><br>
           Secondary Operational Email: <a href="mailto:fun2gostart@gmail.com">fun2gostart@gmail.com</a><br>
           Physical Jurisdiction: Mumbai, Maharashtra, India<br>
-          Response Time SLA: 24 to 48 business hours
+          Response time: varies; no fixed response SLA is promised
         </div>
       </section>
 
@@ -274,7 +259,7 @@
             </div>
           </div>
           <p style="color:var(--text-muted); font-size:0.88rem; line-height:1.6; max-width:320px;">
-            The zero-distraction CBT examination simulator. 100% free, authentic test engines, statutory citations, and zero user data harvesting.
+            An independent, free exam-practice resource with exam-style test interfaces, topic references and no account required for practice; analytics is consent-controlled.
           </p>
         </div>
 
@@ -304,6 +289,7 @@
           <ul class="footer-links">
             <li><a href="about.html">About Us</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="javascript:void(0)" class="open-cookie-preferences">Cookie Preferences</a></li>
             <li><a href="terms.html">Terms of Service</a></li>
             <li><a href="disclaimer.html">Academic Disclaimer</a></li>
             <li><a href="contact.html">Contact & Discrepancy Desk</a></li>
@@ -317,9 +303,9 @@
         <div style="display:flex; gap:16px;">
           <span>Distraction-Free CBT</span>
           <span>•</span>
-          <span>100% In-Browser Privacy</span>
+          <span>No Account Required for Practice</span>
           <span>•</span>
-          <span>Verified NCERT Citations</span>
+          <span>Curriculum &amp; Topic References</span>
         </div>
       </div>
     </div>

@@ -1,0 +1,33 @@
+MockTestVault production release v2.8
+Date: 2026-11-05
+Baseline: mocktestvault.com_organic_seo_v2.7.zip
+
+Implemented in this release
+1. Fixed the contact form inquiry-field ID mismatch and added the optional Chapter / Question ID to the email draft.
+2. Removed the contact form's automatic mail-client redirect; visitors now review and click the email draft link. The generated reference is not represented as a server-side ticket.
+3. Removed persistent localStorage storage of contact and question-discrepancy report text and email addresses.
+4. Reworked Google Analytics consent loading: consent defaults are established before tag configuration; the Google tag is not requested until explicit Accept All consent; Essential Only leaves analytics disabled; page_view is emitted after the tag is loaded.
+5. Updated the privacy notice to reflect actual localStorage keys, email-draft behaviour, consent-controlled analytics and hosting-log uncertainty.
+6. Replaced unsupported claims of comprehensive expert verification, authenticated official PYQs, and verified rationales with accurate practice/source-status disclosures.
+7. Relabelled CBSE year-labelled sets and related cards as practice sets with unauthenticated provenance; removed official-solved-paper wording where it overstated the evidence.
+8. Corrected stale question-bank count displays and removed the false "Verified" label from the formula reference badge.
+9. Corrected remaining year-labelled Class 10, Class 12 and SSC 2023 page titles, badges, schema descriptions and result labels so these sets are not presented as authenticated official papers.
+10. Cleaned residual official/verified wording on SSC 2023, CBSE Class 10 and CBSE Class 12 year-labelled practice pages and diagnostic result notices.
+11. Removed the placeholder ads.txt publisher ID. No AdSense publisher declaration or live ad units are configured in this release.
+12. Applied the consent banner to the standalone policy/format pages and added styling on the standalone progress page.
+13. Published v2.8-named copies of the question verification and provenance registers; the underlying question-bank verification status remains unchanged.
+14. Added explicit independent-practice and answer-verification caveats to the Class 10 Science and Social Science 80-question drills; removed unsupported exhaustive-coverage and official-marking-scheme language.
+15. Extended consent coverage to the source-review and TOEFL 2026 format-reference pages and styled the consent notice on the standalone progress page.
+16. Added the v2.8 production QA report with archive-level regression results and explicit external-validation limitations.
+17. Removed residual exhaustive-coverage language from the remaining CBSE 2023 year-labelled practice pages; disclosures now state that coverage is selected-topic practice and not an exhaustive curriculum assessment.
+
+Sitemap audit
+- The sitemap contains 155 unique URLs.
+- 157 HTML canonical URLs exist. The two excluded canonical URLs are 404.html and progress.html; both are marked noindex.
+- Therefore, the sitemap already covers all indexable canonical HTML pages. No extra noindex URLs were added.
+
+Explicitly not certified by v2.8
+- The 6,404 question records have not all been independently re-solved by qualified subject-matter reviewers.
+- The 954 year/shift-labelled items remain unauthenticated against original papers and official answer keys.
+- No AdSense account approval, publisher ID, certified CMP implementation or live monetisation test is included.
+- No production-host, Search Console or live Core Web Vitals access was available for this source-archive build.

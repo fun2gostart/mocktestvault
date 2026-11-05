@@ -1,7 +1,7 @@
-// MockTestVault — Authentic CBT Examination Simulator Service Worker
-// Enables 100% offline practice tests and sub-10ms instant loading via Cache Storage API.
+// MockTestVault — Browser-based practice app service worker
+// Caches selected app-shell assets and question data for repeat visits and limited offline use.
 
-const CACHE_NAME = 'mtv-cbt-v46';
+const CACHE_NAME = 'mtv-cbt-v47';
 
 const STATIC_ASSETS = [
   '/',
@@ -9,6 +9,7 @@ const STATIC_ASSETS = [
   '/us/index.html',
   '/in/index.html',
   '/global/index.html',
+  '/cbse-class-10/2026-27-syllabus-sample-papers.html',
   '/progress.html',
   '/about.html',
   '/privacy.html',
@@ -85,7 +86,7 @@ self.addEventListener('fetch', (event) => {
   }
 
   // A. Question Banks (.json files) — Stale-While-Revalidate
-  // Instant offline access to practice questions with background synchronization
+  // Returns cached question data when available and refreshes it from the network in the background.
   if (url.pathname.endsWith('.json')) {
     event.respondWith(
       caches.match(event.request).then((cachedResponse) => {

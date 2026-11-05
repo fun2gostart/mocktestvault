@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,7 +102,7 @@
   <!-- Print Only Header -->
   <div class="print-only-header">
     <div class="print-title" role="heading" aria-level="2">MockTestVault India — CBSE Class 12 Biology Board Diagnostic 01</div>
-    <p>Official CBSE Class 12 Senior Secondary Examination Standard | 35 Questions • 60 Minutes | mocktestvault.com</p>
+    <p>Independent CBSE Class 12 Practice Diagnostic — Not an Official Paper | 35 Questions • 60 Minutes | mocktestvault.com</p>
   </div>
 
   <!-- Site Navigation Header -->
@@ -108,7 +121,7 @@
           <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and NCERT textbook citations">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 60-min official board simulation with A1-C grade scale">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 60-min board-pattern practice simulation with A1-C grade scale">
             <span>⏱️</span> Exam
           </button>
         </div>
@@ -294,7 +307,7 @@
         <h3>🏁 Submit Class 12 Biology Board Diagnostic</h3>
       </div>
       <div class="modal-body">
-        <p>Are you sure you want to finish your test attempt? Once submitted, your score and predicted CBSE Grade will be calculated against official board marking schemes.</p>
+        <p>Are you sure you want to finish your test attempt? Once submitted, your practice score and indicative grade will be calculated using MockTestVault scoring rules; this is not an official CBSE grade or result.</p>
         <div class="modal-summary-box">
           <div class="summary-stat-row">
             <span>Total Questions:</span>
@@ -423,7 +436,7 @@
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice &amp; Board Examination Simulators.</p>
-      <p style="font-size:0.75rem;">Aligned with the statutory NCERT and CBSE Class 12 Senior Secondary curriculum. CBSE® is a registered trademark of the Central Board of Secondary Education, which is not affiliated with this website.</p>
+      <p style="font-size:0.75rem;">Independent practice informed by publicly available NCERT topic and CBSE curriculum references. CBSE is not affiliated with this website. CBSE® is a registered trademark of the Central Board of Secondary Education, which is not affiliated with this website.</p>
     
       <div class="footer-legal-links">
         <a href="/about.html">About Us</a>

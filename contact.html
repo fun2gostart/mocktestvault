@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -139,8 +152,8 @@
       <div class="legal-badge">Academic Support & Editorial Discrepancy Desk</div>
       <h1 class="legal-title">Contact Us & Support</h1>
       <div class="legal-meta">
-        <div class="legal-meta-item"><span>⏱️</span> Guaranteed Response SLA: 24–48 Hours</div>
-        <div class="legal-meta-item"><span>🛡️</span> Academic Integrity Guaranteed</div>
+        <div class="legal-meta-item"><span>⏱️</span> Response times vary</div>
+        <div class="legal-meta-item"><span>🛡️</span> Question Source Transparency</div>
       </div>
     </div>
 
@@ -239,10 +252,10 @@
             <textarea id="contact-message" class="form-textarea" placeholder="Please describe the issue in detail. If citing a textbook correction, please provide the textbook edition, chapter name, and page number." required></textarea>
           </div>
 
-          <div id="form-toast" class="form-toast" style="display:none; background:#ecfdf5; border:1.5px solid #10b981; border-radius:8px; padding:16px 20px; color:#065f46; margin:16px 0; font-size:0.9rem; line-height:1.5;">
+          <div id="form-toast" class="form-toast" aria-live="polite" style="display:none; background:#ecfdf5; border:1.5px solid #10b981; border-radius:8px; padding:16px 20px; color:#065f46; margin:16px 0; font-size:0.9rem; line-height:1.5;">
             <div style="font-weight:700; font-size:1rem; margin-bottom:6px; color:#065f46;">✅ Email Report Draft Prepared!</div>
-            <div>Your report has been prepared with Reference Ticket ID: <strong id="toast-ticket-id" style="font-family:monospace; color:#047857;"></strong>.</div>
-            <div style="margin-top:6px; font-size:0.86rem; color:#047857;">To ensure your inquiry reaches our editorial team without tracking cookies, please click the button below to review and send the drafted email via your mail client:</div>
+            <div>Your email draft has been prepared with Reference ID: <strong id="toast-ticket-id" style="font-family:monospace; color:#047857;"></strong>.</div>
+            <div style="margin-top:6px; font-size:0.86rem; color:#047857;">No support ticket is created until you send the email. Review the draft in your email application before sending:</div>
             <div style="margin-top:12px;">
               <a id="toast-mail-link" href="#" class="form-submit-btn" style="display:inline-flex; align-items:center; gap:8px; background:#059669; color:#fff; padding:10px 18px; border-radius:6px; text-decoration:none; font-weight:700; font-size:0.9rem;">
                 <span>✉️ Open Mail App &amp; Send to Editorial Desk</span>
@@ -252,7 +265,7 @@
 
           <div>
             <button type="submit" id="form-submit-btn" class="form-submit-btn">
-              <span>✉️ Send to Discrepancy Desk</span>
+              <span>✉️ Prepare Email Report</span>
             </button>
           </div>
         </form>
@@ -269,9 +282,8 @@
           <strong>Primary Operational & Support Email:</strong> <a href="mailto:contact@mocktestvault.com"><strong>contact@mocktestvault.com</strong></a><br>
           <strong>Secondary / Escalation Email:</strong> <a href="mailto:fun2gostart@gmail.com">fun2gostart@gmail.com</a><br>
           <strong>Operational Jurisdiction & Location:</strong> Mumbai, Maharashtra 400001, India<br>
-          <strong>Infrastructure:</strong> Distributed Global Edge CDN &amp; High-Availability Cloud Infrastructure<br>
-          <strong>Support Operating Hours:</strong> Monday through Saturday, 09:00 AM – 07:00 PM IST (GMT +5:30)<br>
-          <strong>Guaranteed Response SLA:</strong> All academic, publisher, and discrepancy inquiries are reviewed and answered within 24 to 48 business hours.
+          <strong>Support:</strong> Use the form above to report a question, answer, explanation or source issue.<br>
+          <strong>Review process:</strong> Reports are assessed when submitted and prioritized for investigation. Response times vary; no fixed service-level agreement is offered.
         </div>
       </section>
     </article>
@@ -290,7 +302,7 @@
             </div>
           </div>
           <p style="color:var(--text-muted); font-size:0.88rem; line-height:1.6; max-width:320px;">
-            The zero-distraction CBT examination simulator. 100% free, authentic test engines, statutory citations, and zero user data harvesting.
+            An independent, free exam-practice resource with exam-style test interfaces, topic references and no account required for practice; analytics is consent-controlled.
           </p>
         </div>
 
@@ -334,9 +346,9 @@
         <div style="display:flex; gap:16px;">
           <span>Distraction-Free CBT</span>
           <span>•</span>
-          <span>100% In-Browser Privacy</span>
+          <span>No Account Required for Practice</span>
           <span>•</span>
-          <span>Verified NCERT Citations</span>
+          <span>Curriculum &amp; Topic References</span>
         </div>
       </div>
     </div>
@@ -376,8 +388,9 @@
 
         const name = document.getElementById('contact-name').value.trim();
         const email = document.getElementById('contact-email').value.trim();
-        const reason = document.getElementById('contact-reason').value;
+        const reason = document.getElementById('contact-inquiry-type').value;
         const exam = document.getElementById('contact-exam').value.trim();
+        const targetQuestion = document.getElementById('contact-target-question').value.trim();
         const message = document.getElementById('contact-message').value.trim();
 
         const randomTicket = 'MTV-' + new Date().getFullYear() + '-' + Math.floor(100000 + Math.random() * 900000);
@@ -385,11 +398,12 @@
 
         const subject = encodeURIComponent(`[${randomTicket}] ${reason} — ${exam || 'General Inquiry'}`);
         const body = encodeURIComponent(
-          `Ticket ID: ${randomTicket}\n` +
+          `Email Reference ID: ${randomTicket}\n` +
           `Sender Name: ${name}\n` +
           `Sender Email: ${email}\n` +
           `Category: ${reason}\n` +
-          `Target Examination/Module: ${exam}\n\n` +
+          `Target Examination/Module: ${exam}\n` +
+          `Target Chapter / Question ID: ${targetQuestion || 'Not supplied'}\n\n` +
           `Detailed Description / Citation:\n${message}\n\n` +
           `--\nSent from MockTestVault Discrepancy Desk (mocktestvault.com/contact.html)`
         );
@@ -398,20 +412,14 @@
         const toastLink = document.getElementById('toast-mail-link');
         if (toastLink) toastLink.href = mailtoUrl;
 
-        // Save locally in localStorage
-        try {
-          const reports = JSON.parse(localStorage.getItem('mcv_contact_reports') || '[]');
-          reports.push({ ticket: randomTicket, date: new Date().toISOString(), name, email, reason, exam, message });
-          localStorage.setItem('mcv_contact_reports', JSON.stringify(reports));
-        } catch (err) {}
+        // Contact details are not persisted in MockTestVault browser storage.
 
         formToast.style.display = 'block';
         contactForm.reset();
         submitBtn.disabled = false;
         submitBtn.innerHTML = '<span>✉️ Draft Another Report</span>';
 
-        // Attempt automatic mailto trigger
-        window.location.href = mailtoUrl;
+        // The visitor must review and click the email link; no email is sent automatically.
       });
     }
   </script>

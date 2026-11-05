@@ -1,45 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+
+<html data-theme="light" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
-  <script>
+<!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
+<script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Global Exam Vault (IELTS, GRE, GMAT) | MockTestVault</title>
-  <meta name="description" content="Free official-style CBT simulators for IELTS Academic, TOEFL, GRE, and GMAT with authentic exam timing and verified rationales.">
-    <link rel="alternate" type="application/atom+xml" title="MockTestVault Feed" href="https://mocktestvault.com/feed.xml">
-  <link rel="alternate" type="text/markdown" title="LLM & AI Discovery Directory" href="https://mocktestvault.com/llms.txt">
-  <!-- Canonical & Open Graph (Social Sharing) -->
-  <link rel="canonical" href="https://mocktestvault.com/global/">
-  <meta property="og:site_name" content="MockTestVault">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://mocktestvault.com/global/">
-  <meta property="og:title" content="Global Standardized Exam Vault — IELTS®, TOEFL®, GRE® & IB | MockTestVault">
-  <meta property="og:description" content="Free official-style CBT simulators for international qualifications: IELTS Academic, TOEFL iBT, GRE General, and IB Diploma with authentic exam timing and verified rationales.">
-  <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Global Standardized Exam Vault — IELTS®, TOEFL®, GRE® & IB | MockTestVault">
-  <meta name="twitter:description" content="Free official-style CBT simulators for international qualifications: IELTS Academic, TOEFL iBT, GRE General, and IB Diploma with authentic exam timing and verified rationales.">
-  <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta name="twitter:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <link rel="stylesheet" href="../css/homepage.css">
-
-  <script type="application/ld+json">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Global Exam Practice &amp; Study Resources | MockTestVault</title>
+<meta content="Explore independent practice resources for selected international exams, with format guides and links to official exam-provider information." name="description"/>
+<link href="https://mocktestvault.com/feed.xml" rel="alternate" title="MockTestVault Feed" type="application/atom+xml"/>
+<link href="https://mocktestvault.com/llms.txt" rel="alternate" title="LLM &amp; AI Discovery Directory" type="text/markdown"/>
+<!-- Canonical & Open Graph (Social Sharing) -->
+<link href="https://mocktestvault.com/global/" rel="canonical"/>
+<meta content="MockTestVault" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="https://mocktestvault.com/global/" property="og:url"/>
+<meta content="Global Exam Practice &amp; Study Resources | MockTestVault" property="og:title"/>
+<meta content="Explore independent practice resources for selected international exams, with format guides and links to official exam-provider information." property="og:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image:secure_url"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" property="og:image:alt"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Global Exam Practice &amp; Study Resources | MockTestVault" name="twitter:title"/>
+<meta content="Explore independent practice resources for selected international exams, with format guides and links to official exam-provider information." name="twitter:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" name="twitter:image"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" name="twitter:image:alt"/>
+<link href="../css/homepage.css" rel="stylesheet"/>
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -50,9 +61,8 @@
     "areaServed": "Global"
   }
   </script>
-
-  <!-- Schema.org FAQPage Structured Data -->
-  <script type="application/ld+json">
+<!-- Schema.org FAQPage Structured Data -->
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -86,7 +96,7 @@
         "name": "What subjects and section formats are included in the GMAT Focus Edition practice track?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The GMAT Focus Edition consists of three 45-minute sections: Quantitative Reasoning, Verbal Reasoning, and Data Insights. MockTestVault focuses heavily on Data Insights—including Data Sufficiency, Table Analysis, and Multi-Source Reasoning with authentic timing constraints."
+          "text": "The GMAT Focus Edition consists of three 45-minute sections: Quantitative Reasoning, Verbal Reasoning, and Data Insights. MockTestVault focuses heavily on Data Insights—including Data Sufficiency, Table Analysis, and Multi-Source Reasoning using configurable practice timing."
         }
       },
       {
@@ -100,420 +110,387 @@
     ]
   }
   </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-  <script src="/js/consent.js" defer></script>
+<link href="/manifest.json" rel="manifest"/>
+<meta content="#2563eb" name="theme-color"/>
+<script defer="" src="/js/consent.js"></script>
 </head>
 <body>
-
-  <!-- Site Navigation Header -->
-  <header class="global-nav">
-    <div class="home-container">
-      <div class="nav-wrapper">
-        <a href="../index.html" class="brand-group" aria-label="MockTestVault Home">
-          <div class="brand-icon">🛡️</div>
-          <div class="brand-title">
-            <span>MockTestVault</span>
-            <span class="brand-badge">Global Vault</span>
-          </div>
-        </a>
-
-        <!-- Region Switcher Navigation -->
-        <nav class="nav-links" aria-label="Regional Portals">
-          <div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
-            <a href="../us/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇺🇸 United States</a>
-            <a href="../in/index.html" class="nav-link" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇮🇳 India</a>
-            <a href="index.html" class="nav-link active" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🌐 Global Tests</a>
-          </div>
-        </nav>
-
-        <div class="nav-actions">
-          <button id="theme-toggle-btn" class="theme-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">🌙</button>
-          <a href="ielts/reading-practice-01.html" class="cta-header-btn">
-            <span>⚡ Start IELTS Drill</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <div class="home-container">
-      <div class="hero-grid">
-        
-        <div class="hero-content">
-          <div class="hero-badge">
-            <span class="hero-badge-dot"></span>
-            <span>International Standardized Exams • 100% Free & Distraction-Free</span>
-          </div>
-
-          <h1 class="hero-title">
-            Excel in <span class="gradient-text">IELTS®, TOEFL® & GRE®</span> with Zero Commercial Distractions.
+<!-- Site Navigation Header -->
+<header class="global-nav">
+<div class="home-container">
+<div class="nav-wrapper">
+<a aria-label="MockTestVault Home" class="brand-group" href="../index.html">
+<div class="brand-icon">🛡️</div>
+<div class="brand-title">
+<span>MockTestVault</span>
+<span class="brand-badge">Global Vault</span>
+</div>
+</a>
+<!-- Region Switcher Navigation -->
+<nav aria-label="Regional Portals" class="nav-links">
+<div class="region-switcher" style="display:flex; gap:6px; background:var(--bg-subtle); padding:4px; border-radius:var(--radius-full); border:1px solid var(--border-color);">
+<a class="nav-link" href="../us/index.html" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇺🇸 United States</a>
+<a class="nav-link" href="../in/index.html" style="color:var(--text-secondary); padding:6px 14px; border-radius:var(--radius-full); font-weight:600; text-decoration:none;">🇮🇳 India</a>
+<a class="nav-link active" href="index.html" style="background:var(--primary); color:#ffffff; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; text-decoration:none;">🌐 Global Tests</a>
+</div>
+</nav>
+<div class="nav-actions">
+<button aria-label="Toggle theme" class="theme-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+<a class="cta-header-btn" href="ielts/reading-practice-01.html">
+<span>⚡ Start IELTS Drill</span>
+</a>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="hero-section">
+<div class="home-container">
+<div class="hero-grid">
+<div class="hero-content">
+<div class="hero-badge">
+<span class="hero-badge-dot"></span>
+<span>International Standardized Exams • 100% Free &amp; Distraction-Free</span>
+</div>
+<h1 class="hero-title">
+            Excel in <span class="gradient-text">IELTS®, TOEFL® &amp; GRE®</span> with Zero Commercial Distractions.
           </h1>
-
-          <p class="hero-subtitle">
-            Prepare for global university admissions, immigration, and international career credentials on our distraction-free exam simulator. Features authentic reading comprehension drills, True/False/Not Given logic, Band 9 rationales, and zero popups.
+<p class="hero-subtitle">
+            Prepare for global university admissions, immigration, and international career credentials on our distraction-free exam simulator. Features independent reading-comprehension practice, True/False/Not Given exercises, worked study explanations, and no popups.
           </p>
-
-          <div class="hero-actions">
-            <a href="ielts/reading-practice-01.html" class="btn-primary-hero">
-              <span>🚀 Launch IELTS® Reading Drill</span>
-            </a>
-            <a href="#tracks" class="btn-secondary-hero">
-              <span>🌐 View All Global Tracks</span>
-            </a>
-          </div>
-
-          <!-- Feature Bullets -->
-          <div style="display:flex; flex-wrap:wrap; gap:16px; margin-top:28px; font-size:0.88rem; color:var(--text-secondary);">
-            <div style="display:flex; align-items:center; gap:6px;">
-              <span style="color:var(--accent-emerald); font-weight:900;">✓</span>
-              <span>Band 7.5 – 9.0 Targeted Texts</span>
-            </div>
-            <div style="display:flex; align-items:center; gap:6px;">
-              <span style="color:var(--accent-emerald); font-weight:900;">✓</span>
-              <span>CEFR C1/C2 Lexical Analysis</span>
-            </div>
-            <div style="display:flex; align-items:center; gap:6px;">
-              <span style="color:var(--accent-emerald); font-weight:900;">✓</span>
-              <span>No Registration or User Tracking</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Hero Status Card -->
-        <div class="hero-teaser-card" style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-lg); padding:28px; box-shadow:var(--shadow-xl);">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
-            <span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; letter-spacing:0.05em; color:var(--accent-emerald); background:var(--accent-emerald-light); padding:4px 10px; border-radius:var(--radius-full);">
+<div class="hero-actions">
+<a class="btn-primary-hero" href="ielts/reading-practice-01.html">
+<span>🚀 Launch IELTS® Reading Drill</span>
+</a>
+<a class="btn-secondary-hero" href="#tracks">
+<span>🌐 View All Global Tracks</span>
+</a>
+</div>
+<!-- Feature Bullets -->
+<div style="display:flex; flex-wrap:wrap; gap:16px; margin-top:28px; font-size:0.88rem; color:var(--text-secondary);">
+<div style="display:flex; align-items:center; gap:6px;">
+<span style="color:var(--accent-emerald); font-weight:900;">✓</span>
+<span>Band 7.5 – 9.0 Targeted Texts</span>
+</div>
+<div style="display:flex; align-items:center; gap:6px;">
+<span style="color:var(--accent-emerald); font-weight:900;">✓</span>
+<span>CEFR C1/C2 Lexical Analysis</span>
+</div>
+<div style="display:flex; align-items:center; gap:6px;">
+<span style="color:var(--accent-emerald); font-weight:900;">✓</span>
+<span>No Registration or User Tracking</span>
+</div>
+</div>
+</div>
+<!-- Hero Status Card -->
+<div class="hero-teaser-card" style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-lg); padding:28px; box-shadow:var(--shadow-xl);">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+<span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; letter-spacing:0.05em; color:var(--accent-emerald); background:var(--accent-emerald-light); padding:4px 10px; border-radius:var(--radius-full);">
               ● International Standards: 100% Live
             </span>
-            <span style="font-size:0.8rem; color:var(--text-muted); font-weight:600;">CEFR / ETS / GMAC / AWS</span>
-          </div>
-
-          <h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:14px;">
+<span style="font-size:0.8rem; color:var(--text-muted); font-weight:600;">CEFR / ETS / GMAC / AWS</span>
+</div>
+<h3 style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-bottom:14px;">
             Global Examination Vault Inventory
           </h3>
-
-          <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; text-align:center; margin-bottom:18px;">
-            <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:12px;">
-              <div style="font-size:1.3rem; font-weight:900; color:var(--primary);">120 Qs</div>
-              <div style="font-size:0.75rem; color:var(--text-muted); font-weight:600;">IELTS &amp; TOEFL iBT</div>
-            </div>
-            <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:12px;">
-              <div style="font-size:1.3rem; font-weight:900; color:var(--primary);">120 Qs</div>
-              <div style="font-size:0.75rem; color:var(--text-muted); font-weight:600;">GRE &amp; GMAT Focus</div>
-            </div>
-            <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:12px;">
-              <div style="font-size:1.3rem; font-weight:900; color:var(--accent-emerald);">270 Qs</div>
-              <div style="font-size:0.75rem; color:var(--text-muted); font-weight:600;">AWS CLF &amp; IB DP</div>
-            </div>
+<div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; text-align:center; margin-bottom:18px;">
+<div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:12px;">
+<div style="font-size:1.3rem; font-weight:900; color:var(--primary);">120 Qs</div>
+<div style="font-size:0.75rem; color:var(--text-muted); font-weight:600;">IELTS &amp; TOEFL iBT</div>
+</div>
+<div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:12px;">
+<div style="font-size:1.3rem; font-weight:900; color:var(--primary);">120 Qs</div>
+<div style="font-size:0.75rem; color:var(--text-muted); font-weight:600;">GRE &amp; GMAT Focus</div>
+</div>
+<div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:12px;">
+<div style="font-size:1.3rem; font-weight:900; color:var(--accent-emerald);">270 Qs</div>
+<div style="font-size:0.75rem; color:var(--text-muted); font-weight:600;">AWS CLF &amp; IB DP</div>
+</div>
+</div>
+<div style="background:var(--bg-subtle); border-left:3px solid var(--accent-emerald); padding:12px; border-radius:0 var(--radius-sm) var(--radius-sm) 0; font-size:0.84rem; color:var(--text-secondary); line-height:1.5; margin-bottom:18px;">
+<strong>International Calibration:</strong> Independent CBT-style practice tools informed by publicly available exam and curriculum references from Cambridge, ETS, GMAC, and AWS. Includes CEFR C1/C2 lexical diagnostics, GMAT Data Insights multi-source reasoning, and AWS 65-question timed mocks.
           </div>
-
-          <div style="background:var(--bg-subtle); border-left:3px solid var(--accent-emerald); padding:12px; border-radius:0 var(--radius-sm) var(--radius-sm) 0; font-size:0.84rem; color:var(--text-secondary); line-height:1.5; margin-bottom:18px;">
-            <strong>International Calibration:</strong> High-precision CBT simulators calibrated to official Cambridge, ETS, GMAC, and AWS frameworks. Includes CEFR C1/C2 lexical diagnostics, GMAT Data Insights multi-source reasoning, and AWS 65-question timed mocks.
-          </div>
-
-          <a href="#tracks" class="btn-primary" style="display:inline-block; width:100%; text-align:center; padding:12px 18px; text-decoration:none;">
+<a class="btn-primary" href="#tracks" style="display:inline-block; width:100%; text-align:center; padding:12px 18px; text-decoration:none;">
             Explore Full 6-Track Global Catalog →
           </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Global Tracks Section -->
-  <section class="section-block" id="tracks">
-    <div class="home-container">
-      <div class="section-head">
-        <span class="section-pill">Cross-Border Examination Tracks</span>
-        <h2 class="section-title">International Qualifications & Tests</h2>
-        <p class="section-desc">
+</div>
+</div>
+</div>
+</section>
+<!-- Global Tracks Section -->
+<section class="section-block" id="tracks">
+<div class="home-container">
+<div class="section-head">
+<span class="section-pill">Cross-Border Examination Tracks</span>
+<h2 class="section-title">International Qualifications &amp; Tests</h2>
+<p class="section-desc">
           High-precision CBT simulators calibrated to official CEFR, Cambridge, and ETS global assessment frameworks.
         </p>
-      </div>
-
-      <!-- Exam Cards Grid -->
-      <div class="exam-cards-grid">
-
-        <!-- Card 1: IELTS Academic Reading Suites -->
-        <article class="exam-card">
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">📖</div>
-              <span class="exam-status-tag status-live">🟢 Live Suites</span>
-            </div>
-            <div class="exam-category-title">Cambridge / IDP • IELTS® Academic</div>
-            <h3 class="exam-title">IELTS® Academic Reading — 4 Practice Suites + Random Mock</h3>
-            <p class="exam-desc">
-              80 authentic passage questions across 4 modules covering True/False/Not Given, Heading Matching, Summary Completion, and C1/C2 Lexical Resource. Plus infinite randomized 20-Q mocks.
+</div>
+<!-- Exam Cards Grid -->
+<div class="exam-cards-grid">
+<!-- Card 1: IELTS Academic Reading Suites -->
+<article class="exam-card">
+<div>
+<div class="exam-card-top">
+<div class="exam-icon">📖</div>
+<span class="exam-status-tag status-live">🟢 Live Suites</span>
+</div>
+<div class="exam-category-title">Cambridge / IDP • IELTS® Academic</div>
+<h3 class="exam-title">IELTS® Academic Reading — 4 Practice Suites + Random Mock</h3>
+<p class="exam-desc">
+              80 independent practice passage questions across 4 modules covering True/False/Not Given, Heading Matching, Summary Completion, and C1/C2 Lexical Resource. Plus infinite randomized 20-Q mocks.
             </p>
-            <div style="display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 16px 0; font-size:0.8rem;">
-              <a href="ielts/reading-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">Drill 01: Architecture</a>
-              <a href="ielts/reading-practice-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">Drill 02: Agriculture</a>
-              <a href="ielts/reading-practice-03.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">Drill 03: Cryptography</a>
-              <a href="ielts/reading-practice-04.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">Drill 04: Vents & Acoustics</a>
-              <a href="ielts/reading-practice-random.html" style="color:#9333ea; font-weight:700; text-decoration:none; background:rgba(147, 51, 234, 0.1); border:1px solid rgba(147, 51, 234, 0.3); padding:3px 8px; border-radius:4px;">🎲 Random Mock</a>
-            </div>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>📝</span> 80 Questions</span>
-              <span class="meta-pill"><span>⏱️</span> 25 Mins / Drill</span>
-              <span class="meta-pill"><span>🎯</span> Band 7.5–9.0</span>
-              <span class="meta-pill"><span>🌍</span> Academic English</span>
-            </div>
-          </div>
-          <div class="exam-card-actions" style="display:flex; gap:10px; flex-wrap:wrap;">
-            <a href="ielts/reading-practice-01.html" class="exam-launch-btn"><span>🚀 Start Reading Drill 01</span></a>
-            <a href="ielts/reading-practice-04.html" class="exam-launch-btn"><span>🌋 New: Drill 04</span></a>
-            <a href="ielts/reading-practice-random.html" class="exam-launch-btn" style="background:linear-gradient(135deg, #6366f1, #9333ea); color:#fff; border-color:#9333ea; text-decoration:none;"><span>🎲 Random Mock</span></a>
-          </div>
-        </article>
-
-        <!-- Card 2: TOEFL iBT Reading Diagnostics -->
-        <article class="exam-card">
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">🎧</div>
-              <span class="exam-status-tag status-live">🟢 Live Diagnostics</span>
-            </div>
-            <div class="exam-category-title">ETS • TOEFL® iBT</div>
-            <h3 class="exam-title">Independent TOEFL Academic Reading Passage Practice (Legacy-Style Drills)</h3>
+<div style="display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 16px 0; font-size:0.8rem;">
+<a href="ielts/reading-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">Drill 01: Architecture</a>
+<a href="ielts/reading-practice-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">Drill 02: Agriculture</a>
+<a href="ielts/reading-practice-03.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">Drill 03: Cryptography</a>
+<a href="ielts/reading-practice-04.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">Drill 04: Vents &amp; Acoustics</a>
+<a href="ielts/reading-practice-random.html" style="color:#9333ea; font-weight:700; text-decoration:none; background:rgba(147, 51, 234, 0.1); border:1px solid rgba(147, 51, 234, 0.3); padding:3px 8px; border-radius:4px;">🎲 Random Mock</a>
+</div>
+<div class="exam-meta-pills">
+<span class="meta-pill"><span>📝</span> 80 Questions</span>
+<span class="meta-pill"><span>⏱️</span> 25 Mins / Drill</span>
+<span class="meta-pill"><span>🎯</span> Practice Band Estimate</span>
+<span class="meta-pill"><span>🌍</span> Academic English</span>
+</div>
+</div>
+<div class="exam-card-actions" style="display:flex; gap:10px; flex-wrap:wrap;">
+<a class="exam-launch-btn" href="ielts/reading-practice-01.html"><span>🚀 Start Reading Drill 01</span></a>
+<a class="exam-launch-btn" href="ielts/reading-practice-04.html"><span>🌋 New: Drill 04</span></a>
+<a class="exam-launch-btn" href="ielts/reading-practice-random.html" style="background:linear-gradient(135deg, #6366f1, #9333ea); color:#fff; border-color:#9333ea; text-decoration:none;"><span>🎲 Random Mock</span></a>
+</div>
+</article>
+<!-- Card 2: TOEFL iBT Reading Diagnostics -->
+<article class="exam-card">
+<div>
+<div class="exam-card-top">
+<div class="exam-icon">🎧</div>
+<span class="exam-status-tag status-live">🟢 Live Diagnostics</span>
+</div>
+<div class="exam-category-title">ETS • TOEFL® iBT</div>
+<h3 class="exam-title">Independent TOEFL Academic Reading Passage Practice (Legacy-Style Drills)</h3>
 <p><a href="toefl/2026-format-guide.html">Read the current TOEFL iBT 2026 format guide</a> before using the passage-based drills.</p>
-            <p class="exam-desc">
+<p class="exam-desc">
               40 independently authored academic passage questions across two 20-question practice suites: Paleoclimatology Ice Cores, Early Mesopotamian Cuneiform, Coral Reef Acidification, and Prefrontal Working Memory. Each suite uses a 35-minute MockTestVault practice timer. Results are internal practice scores and are not ETS scaled scores.
             </p>
-            <div style="display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 16px 0; font-size:0.8rem;">
-              <a href="toefl/reading-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📖 Legacy Passage Practice 01 (35M)</a>
-              <a href="toefl/reading-practice-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">🌊 Legacy Passage Practice 02 (35M)</a>
-            </div>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>🎯</span> Independent Practice Score</span>
-              <span class="meta-pill"><span>📝</span> 40 Questions (2 Suites)</span>
-              <span class="meta-pill"><span>🎓</span> University Ready</span>
-              <span class="meta-pill"><span>⏱️</span> 35 Mins / Drill</span>
-            </div>
-          </div>
-          <div class="exam-card-actions" style="display:flex; gap:10px; flex-wrap:wrap;">
-            <a href="toefl/reading-practice-01.html" class="exam-launch-btn"><span>🚀 Passage Practice 01 (35M)</span></a>
-            <a href="toefl/reading-practice-02.html" class="exam-launch-btn"><span>🌊 Drill 02 (New)</span></a>
-          </div>
-        </article>
-
-        <!-- Card 3: GRE General Test -->
-        <article class="exam-card">
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">🏛️</div>
-              <span class="exam-status-tag status-live">🟢 Live Diagnostics</span>
-            </div>
-            <div class="exam-category-title">ETS • Graduate Admissions</div>
-            <h3 class="exam-title">GRE® General — Quant & Verbal Diagnostics</h3>
-            <p class="exam-desc">
-              80 authentic timed diagnostic questions across 4 suites: Quantitative Comparison (ETS standardized choices), Problem Solving, Data Interpretation, Text Completion, and Sentence Equivalence.
+<div style="display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 16px 0; font-size:0.8rem;">
+<a href="toefl/reading-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📖 Legacy Passage Practice 01 (35M)</a>
+<a href="toefl/reading-practice-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">🌊 Legacy Passage Practice 02 (35M)</a>
+</div>
+<div class="exam-meta-pills">
+<span class="meta-pill"><span>🎯</span> Independent Practice Score</span>
+<span class="meta-pill"><span>📝</span> 40 Questions (2 Suites)</span>
+<span class="meta-pill"><span>🎓</span> University Ready</span>
+<span class="meta-pill"><span>⏱️</span> 35 Mins / Drill</span>
+</div>
+</div>
+<div class="exam-card-actions" style="display:flex; gap:10px; flex-wrap:wrap;">
+<a class="exam-launch-btn" href="toefl/reading-practice-01.html"><span>🚀 Passage Practice 01 (35M)</span></a>
+<a class="exam-launch-btn" href="toefl/reading-practice-02.html"><span>🌊 Drill 02 (New)</span></a>
+</div>
+</article>
+<!-- Card 3: GRE General Test -->
+<article class="exam-card">
+<div>
+<div class="exam-card-top">
+<div class="exam-icon">🏛️</div>
+<span class="exam-status-tag status-live">🟢 Live Diagnostics</span>
+</div>
+<div class="exam-category-title">ETS • Graduate Admissions</div>
+<h3 class="exam-title">GRE® General — Quant &amp; Verbal Diagnostics</h3>
+<p class="exam-desc">
+              80 timed practice diagnostic questions across 4 suites: Quantitative Comparison (ETS standardized choices), Problem Solving, Data Interpretation, Text Completion, and Sentence Equivalence.
             </p>
-            <div style="display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 16px 0; font-size:0.8rem;">
-              <a href="gre/quantitative-reasoning-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📐 Quant Diagnostic 01 (35M)</a>
-              <a href="gre/quantitative-reasoning-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📐 Quant Diagnostic 02 (35M)</a>
-              <a href="gre/verbal-reasoning-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">🧠 Verbal Diagnostic 01 (30M)</a>
-              <a href="gre/verbal-reasoning-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">🧠 Verbal Diagnostic 02 (30M)</a>
-            </div>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>📐</span> 130–170 Scale</span>
-              <span class="meta-pill"><span>📝</span> 80 Questions</span>
-              <span class="meta-pill"><span>🧠</span> Advanced Vocab</span>
-              <span class="meta-pill"><span>⏱️</span> Sectional Timed</span>
-              <span class="meta-pill"><span>🎓</span> ETS Standard</span>
-            </div>
-          </div>
-          <div class="exam-card-actions" style="display:flex; gap:10px; flex-wrap:wrap;">
-            <a href="gre/quantitative-reasoning-02.html" class="exam-launch-btn"><span>🚀 Launch Quant 02 (New)</span></a>
-            <a href="gre/verbal-reasoning-02.html" class="exam-launch-btn"><span>🧠 Launch Verbal 02 (New)</span></a>
-          </div>
-        </article>
-
-        <!-- Card 4: GMAT Focus Edition -->
-        <article class="exam-card">
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">📊</div>
-              <span class="exam-status-tag status-live">🟢 Live Diagnostics</span>
-            </div>
-            <div class="exam-category-title">GMAC • MBA & Business Schools</div>
-            <h3 class="exam-title">GMAT® Focus — 2 Data Insights & Quant Diagnostics</h3>
-            <p class="exam-desc">
-              40 authentic diagnostic questions covering Table Analysis, Graphical Interpretation, Multi-Source Reasoning, Two-Part Analysis, Data Sufficiency, and Quantitative Problem Solving with 60–90 scaled scoring.
+<div style="display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 16px 0; font-size:0.8rem;">
+<a href="gre/quantitative-reasoning-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📐 Quant Diagnostic 01 (35M)</a>
+<a href="gre/quantitative-reasoning-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📐 Quant Diagnostic 02 (35M)</a>
+<a href="gre/verbal-reasoning-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">🧠 Verbal Diagnostic 01 (30M)</a>
+<a href="gre/verbal-reasoning-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">🧠 Verbal Diagnostic 02 (30M)</a>
+</div>
+<div class="exam-meta-pills">
+<span class="meta-pill"><span>📐</span> Practice Score Indicator</span>
+<span class="meta-pill"><span>📝</span> 80 Questions</span>
+<span class="meta-pill"><span>🧠</span> Advanced Vocab</span>
+<span class="meta-pill"><span>⏱️</span> Sectional Timed</span>
+<span class="meta-pill"><span>🎓</span> GRE Format Reference</span>
+</div>
+</div>
+<div class="exam-card-actions" style="display:flex; gap:10px; flex-wrap:wrap;">
+<a class="exam-launch-btn" href="gre/quantitative-reasoning-02.html"><span>🚀 Launch Quant 02 (New)</span></a>
+<a class="exam-launch-btn" href="gre/verbal-reasoning-02.html"><span>🧠 Launch Verbal 02 (New)</span></a>
+</div>
+</article>
+<!-- Card 4: GMAT Focus Edition -->
+<article class="exam-card">
+<div>
+<div class="exam-card-top">
+<div class="exam-icon">📊</div>
+<span class="exam-status-tag status-live">🟢 Live Diagnostics</span>
+</div>
+<div class="exam-category-title">GMAC • MBA &amp; Business Schools</div>
+<h3 class="exam-title">GMAT® Focus — 2 Data Insights &amp; Quant Diagnostics</h3>
+<p class="exam-desc">
+              40 practice diagnostic questions covering Table Analysis, Graphical Interpretation, Multi-Source Reasoning, Two-Part Analysis, Data Sufficiency, and Quantitative Problem Solving with MockTestVault practice scoring; no official GMAT score conversion is claimed.
             </p>
-            <div style="display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 16px 0; font-size:0.8rem;">
-              <a href="gmat/focus-diagnostic-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📊 Diagnostic 01 (45M)</a>
-              <a href="gmat/focus-diagnostic-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📊 Diagnostic 02 (45M)</a>
-            </div>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>💼</span> MBA Focus</span>
-              <span class="meta-pill"><span>📝</span> 40 Questions (2 Suites)</span>
-              <span class="meta-pill"><span>📊</span> 60–90 Scaled</span>
-              <span class="meta-pill"><span>⏱️</span> 45 Mins / Drill</span>
-            </div>
-          </div>
-          <div class="exam-card-actions" style="display:flex; gap:10px; flex-wrap:wrap;">
-            <a href="gmat/focus-diagnostic-01.html" class="exam-launch-btn"><span>🚀 Diagnostic 01</span></a>
-            <a href="gmat/focus-diagnostic-02.html" class="exam-launch-btn"><span>📊 Diagnostic 02 (New)</span></a>
-          </div>
-        </article>
-
-        <!-- Card 5: IB Diploma Programme -->
-        <article class="exam-card">
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">🌐</div>
-              <span class="exam-status-tag status-live">🟢 Live Full Mocks</span>
-            </div>
-            <div class="exam-category-title">International Baccalaureate®</div>
-            <h3 class="exam-title">IB DP Mathematics &amp; Sciences (HL / SL)</h3>
-            <p class="exam-desc">
+<div style="display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 16px 0; font-size:0.8rem;">
+<a href="gmat/focus-diagnostic-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📊 Diagnostic 01 (45M)</a>
+<a href="gmat/focus-diagnostic-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📊 Diagnostic 02 (45M)</a>
+</div>
+<div class="exam-meta-pills">
+<span class="meta-pill"><span>💼</span> MBA Focus</span>
+<span class="meta-pill"><span>📝</span> 40 Questions (2 Suites)</span>
+<span class="meta-pill"><span>📊</span> 60–90 Scaled</span>
+<span class="meta-pill"><span>⏱️</span> 45 Mins / Drill</span>
+</div>
+</div>
+<div class="exam-card-actions" style="display:flex; gap:10px; flex-wrap:wrap;">
+<a class="exam-launch-btn" href="gmat/focus-diagnostic-01.html"><span>🚀 Diagnostic 01</span></a>
+<a class="exam-launch-btn" href="gmat/focus-diagnostic-02.html"><span>📊 Diagnostic 02 (New)</span></a>
+</div>
+</article>
+<!-- Card 5: IB Diploma Programme -->
+<article class="exam-card">
+<div>
+<div class="exam-card-top">
+<div class="exam-icon">🌐</div>
+<span class="exam-status-tag status-live">🟢 Live Full Mocks</span>
+</div>
+<div class="exam-category-title">International Baccalaureate®</div>
+<h3 class="exam-title">IB DP Mathematics &amp; Sciences (HL / SL)</h3>
+<p class="exam-desc">
               140 official-standard multiple-choice questions across IB Biology (Paper 1) and Mathematics: Analysis &amp; Approaches (Paper 1) with 1–7 grade scaling and markschemes.
             </p>
-            <div style="margin-top:14px; display:flex; flex-wrap:wrap; gap:6px; font-size:0.78rem;">
-              <a href="ib/biology-hl-sl-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">🧬 Biology Paper 1 (40 Qs)</a>
-              <a href="ib/math-aa-hl-sl-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📐 Math Analysis AA (30 Qs)</a>
-            </div>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>🌍</span> IB World Schools</span>
-              <span class="meta-pill"><span>📝</span> 140 Questions</span>
-              <span class="meta-pill"><span>📐</span> HL / SL Standards</span>
-              <span class="meta-pill"><span>🏆</span> Grade 1–7 Scale</span>
-            </div>
-          </div>
-          <div class="exam-card-actions" style="display:flex; gap:8px;">
-            <a href="ib/biology-hl-sl-practice-01.html" class="exam-launch-btn" style="flex:1;"><span>🚀 Start Biology</span></a>
-            <a href="ib/math-aa-hl-sl-practice-01.html" class="exam-launch-btn" style="flex:1;"><span>⚡ Start Math AA</span></a>
-          </div>
-        </article>
-
-        <!-- Card 6: AWS Cloud Practitioner -->
-        <article class="exam-card">
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">☁️</div>
-              <span class="exam-status-tag status-live">🟢 Live Full Mocks</span>
-            </div>
-            <div class="exam-category-title">Professional Certification • Cloud Computing</div>
-            <h3 class="exam-title">AWS Certified Cloud Practitioner (CLF-C02)</h3>
-            <p class="exam-desc">
+<div style="margin-top:14px; display:flex; flex-wrap:wrap; gap:6px; font-size:0.78rem;">
+<a href="ib/biology-hl-sl-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">🧬 Biology Paper 1 (40 Qs)</a>
+<a href="ib/math-aa-hl-sl-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">📐 Math Analysis AA (30 Qs)</a>
+</div>
+<div class="exam-meta-pills">
+<span class="meta-pill"><span>🌍</span> IB World Schools</span>
+<span class="meta-pill"><span>📝</span> 140 Questions</span>
+<span class="meta-pill"><span>📐</span> HL / SL Standards</span>
+<span class="meta-pill"><span>🏆</span> Grade 1–7 Scale</span>
+</div>
+</div>
+<div class="exam-card-actions" style="display:flex; gap:8px;">
+<a class="exam-launch-btn" href="ib/biology-hl-sl-practice-01.html" style="flex:1;"><span>🚀 Start Biology</span></a>
+<a class="exam-launch-btn" href="ib/math-aa-hl-sl-practice-01.html" style="flex:1;"><span>⚡ Start Math AA</span></a>
+</div>
+</article>
+<!-- Card 6: AWS Cloud Practitioner -->
+<article class="exam-card">
+<div>
+<div class="exam-card-top">
+<div class="exam-icon">☁️</div>
+<span class="exam-status-tag status-live">🟢 Live Full Mocks</span>
+</div>
+<div class="exam-category-title">Professional Certification • Cloud Computing</div>
+<h3 class="exam-title">AWS Certified Cloud Practitioner (CLF-C02)</h3>
+<p class="exam-desc">
               130 official-pattern certification practice questions across 2 full 65-question timed exams covering Cloud Concepts, Security, Technology, and Billing with 700/1000 scaled scoring.
             </p>
-            <div style="margin-top:14px; display:flex; flex-wrap:wrap; gap:6px; font-size:0.78rem;">
-              <a href="aws/cloud-practitioner-clf-c02-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">☁️ Practice Exam 01 (65 Qs)</a>
-              <a href="aws/cloud-practitioner-clf-c02-practice-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">☁️ Practice Exam 02 (65 Qs)</a>
-            </div>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>☁️</span> CLF-C02</span>
-              <span class="meta-pill"><span>📝</span> 130 Questions</span>
-              <span class="meta-pill"><span>🛡️</span> Security &amp; Compliance</span>
-              <span class="meta-pill"><span>⏱️</span> 90 Mins / Exam</span>
-            </div>
-          </div>
-          <div class="exam-card-actions" style="display:flex; gap:8px;">
-            <a href="aws/cloud-practitioner-clf-c02-practice-01.html" class="exam-launch-btn" style="flex:1;"><span>🚀 Start Exam 01</span></a>
-            <a href="aws/cloud-practitioner-clf-c02-practice-02.html" class="exam-launch-btn" style="flex:1;"><span>⚡ Start Exam 02</span></a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Frequently Asked Questions (FAQ) Section -->
-  <section class="section-block" id="faq-section" aria-label="Global Standardized Exams Frequently Asked Questions">
-    <div class="home-container">
-      <div class="section-head">
-        <span class="section-pill">Frequently Asked Questions</span>
-        <h2 class="section-title">Common Questions About Global Exams</h2>
-        <p class="section-desc">Key details on IELTS Band scoring, TOEFL iBT timing, GRE General structure, and free international access.</p>
-      </div>
-
-      <div class="faq-accordion">
-        <div class="faq-accordion-item">
-          <button type="button" class="faq-accordion-question" aria-expanded="false">
-            <span>How is the IELTS Academic Reading raw score converted into a Band score (1–9)?</span>
-            <span class="faq-toggle-icon">＋</span>
-          </button>
-          <div class="faq-accordion-answer">
-            <p>The IELTS Academic Reading test contains 40 questions (1 mark each). Raw scores are converted to the standard 9-band scale: 39–40 correct corresponds to Band 9.0; 37–38 to Band 8.5; 35–36 to Band 8.0; 33–34 to Band 7.5; 30–32 to Band 7.0; and 27–29 to Band 6.5. MockTestVault simulators calculate your exact raw score and estimated Band equivalent instantly upon submission.</p>
-          </div>
-        </div>
-
-        <div class="faq-accordion-item">
-          <button type="button" class="faq-accordion-question" aria-expanded="false">
-            <span>Do the MockTestVault TOEFL reading drills simulate the 2026 TOEFL iBT?</span>
-            <span class="faq-toggle-icon">＋</span>
-          </button>
-          <div class="faq-accordion-answer">
-            <p>MockTestVault's two independent TOEFL academic-reading drills contain 20 passage-based questions each and use a 35-minute practice timer. They focus on passage comprehension, vocabulary in context and inference. They are not adaptive TOEFL iBT 2026 simulations, and their results are not converted to ETS scaled scores. Read the TOEFL iBT 2026 format guide for the current ETS structure.</p>
-          </div>
-        </div>
-
-        <div class="faq-accordion-item">
-          <button type="button" class="faq-accordion-question" aria-expanded="false">
-            <span>What is the format of the shortened GRE General Test on MockTestVault?</span>
-            <span class="faq-toggle-icon">＋</span>
-          </button>
-          <div class="faq-accordion-answer">
-            <p>The shortened GRE General Test features two 12-question Verbal Reasoning sections and two 12-question Quantitative Reasoning sections. MockTestVault covers high-frequency vocabulary in context, reading comprehension arguments, quantitative comparison, and data interpretation with step-by-step mathematical proofs.</p>
-          </div>
-        </div>
-
-        <div class="faq-accordion-item">
-          <button type="button" class="faq-accordion-question" aria-expanded="false">
-            <span>What subjects and section formats are included in the GMAT Focus Edition practice track?</span>
-            <span class="faq-toggle-icon">＋</span>
-          </button>
-          <div class="faq-accordion-answer">
-            <p>The GMAT Focus Edition consists of three 45-minute sections: Quantitative Reasoning, Verbal Reasoning, and Data Insights. MockTestVault focuses heavily on Data Insights—including Data Sufficiency, Table Analysis, and Multi-Source Reasoning with authentic timing constraints.</p>
-          </div>
-        </div>
-
-        <div class="faq-accordion-item">
-          <button type="button" class="faq-accordion-question" aria-expanded="false">
-            <span>Can international students take these mock exams completely free from any country?</span>
-            <span class="faq-toggle-icon">＋</span>
-          </button>
-          <div class="faq-accordion-answer">
-            <p>Yes, 100%. MockTestVault is accessible worldwide with zero geoblocking, no credit card requirements, no login barriers, and no invasive advertising. All international qualification simulators run seamlessly on desktop and mobile browsers.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Site Footer -->
-  <p class="source-policy-link"><a href="/question-sources-review.html">Question sources, answer review and corrections policy</a></p>
+<div style="margin-top:14px; display:flex; flex-wrap:wrap; gap:6px; font-size:0.78rem;">
+<a href="aws/cloud-practitioner-clf-c02-practice-01.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">☁️ Practice Exam 01 (65 Qs)</a>
+<a href="aws/cloud-practitioner-clf-c02-practice-02.html" style="color:var(--primary); font-weight:600; text-decoration:none; background:var(--primary-light); padding:3px 8px; border-radius:4px;">☁️ Practice Exam 02 (65 Qs)</a>
+</div>
+<div class="exam-meta-pills">
+<span class="meta-pill"><span>☁️</span> CLF-C02</span>
+<span class="meta-pill"><span>📝</span> 130 Questions</span>
+<span class="meta-pill"><span>🛡️</span> Security &amp; Compliance</span>
+<span class="meta-pill"><span>⏱️</span> 90 Mins / Exam</span>
+</div>
+</div>
+<div class="exam-card-actions" style="display:flex; gap:8px;">
+<a class="exam-launch-btn" href="aws/cloud-practitioner-clf-c02-practice-01.html" style="flex:1;"><span>🚀 Start Exam 01</span></a>
+<a class="exam-launch-btn" href="aws/cloud-practitioner-clf-c02-practice-02.html" style="flex:1;"><span>⚡ Start Exam 02</span></a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Frequently Asked Questions (FAQ) Section -->
+<section aria-label="Global Standardized Exams Frequently Asked Questions" class="section-block" id="faq-section">
+<div class="home-container">
+<div class="section-head">
+<span class="section-pill">Frequently Asked Questions</span>
+<h2 class="section-title">Common Questions About Global Exams</h2>
+<p class="section-desc">Key details on IELTS Band scoring, TOEFL iBT timing, GRE General structure, and free international access.</p>
+</div>
+<div class="faq-accordion">
+<div class="faq-accordion-item">
+<button aria-expanded="false" class="faq-accordion-question" type="button">
+<span>How is the IELTS Academic Reading raw score converted into a Band score (1–9)?</span>
+<span class="faq-toggle-icon">＋</span>
+</button>
+<div class="faq-accordion-answer">
+<p>The IELTS Academic Reading test contains 40 questions (1 mark each). Raw scores are converted to the standard 9-band scale: 39–40 correct corresponds to Band 9.0; 37–38 to Band 8.5; 35–36 to Band 8.0; 33–34 to Band 7.5; 30–32 to Band 7.0; and 27–29 to Band 6.5. MockTestVault simulators calculate your exact raw score and estimated Band equivalent instantly upon submission.</p>
+</div>
+</div>
+<div class="faq-accordion-item">
+<button aria-expanded="false" class="faq-accordion-question" type="button">
+<span>Do the MockTestVault TOEFL reading drills simulate the 2026 TOEFL iBT?</span>
+<span class="faq-toggle-icon">＋</span>
+</button>
+<div class="faq-accordion-answer">
+<p>MockTestVault's two independent TOEFL academic-reading drills contain 20 passage-based questions each and use a 35-minute practice timer. They focus on passage comprehension, vocabulary in context and inference. They are not adaptive TOEFL iBT 2026 simulations, and their results are not converted to ETS scaled scores. Read the TOEFL iBT 2026 format guide for the current ETS structure.</p>
+</div>
+</div>
+<div class="faq-accordion-item">
+<button aria-expanded="false" class="faq-accordion-question" type="button">
+<span>What is the format of the shortened GRE General Test on MockTestVault?</span>
+<span class="faq-toggle-icon">＋</span>
+</button>
+<div class="faq-accordion-answer">
+<p>The shortened GRE General Test features two 12-question Verbal Reasoning sections and two 12-question Quantitative Reasoning sections. MockTestVault covers high-frequency vocabulary in context, reading comprehension arguments, quantitative comparison, and data interpretation with step-by-step mathematical proofs.</p>
+</div>
+</div>
+<div class="faq-accordion-item">
+<button aria-expanded="false" class="faq-accordion-question" type="button">
+<span>What subjects and section formats are included in the GMAT Focus Edition practice track?</span>
+<span class="faq-toggle-icon">＋</span>
+</button>
+<div class="faq-accordion-answer">
+<p>The GMAT Focus Edition consists of three 45-minute sections: Quantitative Reasoning, Verbal Reasoning, and Data Insights. MockTestVault focuses heavily on Data Insights—including Data Sufficiency, Table Analysis, and Multi-Source Reasoning using configurable practice timing.</p>
+</div>
+</div>
+<div class="faq-accordion-item">
+<button aria-expanded="false" class="faq-accordion-question" type="button">
+<span>Can international students take these mock exams completely free from any country?</span>
+<span class="faq-toggle-icon">＋</span>
+</button>
+<div class="faq-accordion-answer">
+<p>Yes, 100%. MockTestVault is accessible worldwide with zero geoblocking, no credit card requirements, no login barriers, and no invasive advertising. All international qualification simulators run seamlessly on desktop and mobile browsers.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Site Footer -->
+<p class="source-policy-link"><a href="/question-sources-review.html">Question sources, answer review and corrections policy</a></p>
 <footer class="site-footer">
-    <div class="home-container">
-    <div class="footer-legal-links">
-      <a href="/about.html">About Us</a>
-      <span class="sep">•</span>
-      <a href="/privacy.html">Privacy Policy</a>
-      <span class="sep">•</span>
-      <a href="/terms.html">Terms of Service</a>
-      <span class="sep">•</span>
-      <a href="/disclaimer.html">Academic Disclaimer</a>
-      <span class="sep">•</span>
-      <a href="/contact.html">Contact & Support</a>
-      <span class="sep">•</span>
-      <a href="/progress.html">Curriculum Tracker</a>
-    </div>
-      
-      <div class="footer-bottom">
-        <p>© 2026 MockTestVault.com — Free, open-access standardized examination simulators.</p>
-        <p style="font-size:0.75rem; color:var(--text-muted); margin-top:6px;">
+<div class="home-container">
+<div class="footer-legal-links">
+<a href="/about.html">About Us</a>
+<span class="sep">•</span>
+<a href="/privacy.html">Privacy Policy</a>
+<span class="sep">•</span>
+<a href="/terms.html">Terms of Service</a>
+<span class="sep">•</span>
+<a href="/disclaimer.html">Academic Disclaimer</a>
+<span class="sep">•</span>
+<a href="/contact.html">Contact &amp; Support</a>
+<span class="sep">•</span>
+<a href="/progress.html">Curriculum Tracker</a>
+</div>
+<div class="footer-bottom">
+<p>© 2026 MockTestVault.com — Free, open-access standardized examination simulators.</p>
+<p style="font-size:0.75rem; color:var(--text-muted); margin-top:6px;">
           IELTS® is a registered trademark of University of Cambridge, the British Council, and IDP Education Australia. TOEFL® and GRE® are registered trademarks of Educational Testing Service (ETS). None of these organizations is affiliated with or endorses MockTestVault.
         </p>
-      </div>
-    </div>
-    <div style="text-align:center;padding:10px;"><a href="javascript:void(0)" class="open-cookie-preferences" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
+</div>
+</div>
+<div style="text-align:center;padding:10px;"><a class="open-cookie-preferences" href="javascript:void(0)" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
 </footer>
-
-  <script src="../js/homepage.js"></script>
+<script src="../js/homepage.js"></script>
 </body>
 </html>

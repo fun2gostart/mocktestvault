@@ -1,60 +1,69 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+
+<html data-theme="light" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
-  <script>
+<!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
+<script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MockTestVault — Free CBT Mock Exam Simulator</title>
-  <meta name="description" content="Free, open CBT mock exam simulator for standardized tests. Real exam interface, timers, negative marking, and verified rationales.">
-  <!-- Canonical & Open Graph (Social Sharing) -->
-  <link rel="canonical" href="https://mocktestvault.com/">
-  <meta property="og:site_name" content="MockTestVault">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://mocktestvault.com/">
-  <meta property="og:title" content="MockTestVault — The Global Zero-Distraction CBT Mock Exam Simulator">
-  <meta property="og:description" content="Free, open CBT mock exam simulator for competitive tests, standardized global exams, and school curriculums. Real exam interface, timers, negative marking, and verified rationales.">
-  <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MockTestVault — The Global Zero-Distraction CBT Mock Exam Simulator">
-  <meta name="twitter:description" content="Free, open CBT mock exam simulator for competitive tests, standardized global exams, and school curriculums. Real exam interface, timers, negative marking, and verified rationales.">
-  <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta name="twitter:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-  <meta name="keywords" content="mock test simulator, free online mock tests, ssc cgl mock test, cbse class 10 mock test, sat practice test, gre prep, cbt exam engine, online test series">
-
-  <!-- Favicon & PWA Manifest -->
-  <link rel="icon" type="image/svg+xml" href="/assets/icon.svg">
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="MockTestVault">
-
-  <!-- Feeds & AI Discovery -->
-  <link rel="alternate" type="application/atom+xml" title="MockTestVault Feed" href="https://mocktestvault.com/feed.xml">
-  <link rel="alternate" type="text/markdown" title="LLM & AI Discovery Directory" href="https://mocktestvault.com/llms.txt">
-
-  <!-- Core Stylesheets -->
-  <link rel="stylesheet" href="css/homepage.css">
-
-  <!-- Schema.org WebSite & EducationalOrganization -->
-  <script type="application/ld+json">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Free CBT Mock Tests &amp; Exam Practice | MockTestVault</title>
+<meta content="Free browser-based mock tests, timed drills and worked explanations. Check question-source and answer-review status before relying on individual practice items." name="description"/>
+<!-- Canonical & Open Graph (Social Sharing) -->
+<link href="https://mocktestvault.com/" rel="canonical"/>
+<meta content="MockTestVault" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="https://mocktestvault.com/" property="og:url"/>
+<meta content="Free CBT Mock Tests &amp; Exam Practice | MockTestVault" property="og:title"/>
+<meta content="Free browser-based mock tests, timed drills and worked explanations. Check question-source and answer-review status before relying on individual practice items." property="og:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image:secure_url"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" property="og:image:alt"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Free CBT Mock Tests &amp; Exam Practice | MockTestVault" name="twitter:title"/>
+<meta content="Free browser-based mock tests, timed drills and worked explanations. Check question-source and answer-review status before relying on individual practice items." name="twitter:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" name="twitter:image"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" name="twitter:image:alt"/>
+<meta content="mock test simulator, free online mock tests, ssc cgl mock test, cbse class 10 mock test, sat practice test, gre prep, cbt exam engine, online test series" name="keywords"/>
+<!-- Favicon & PWA Manifest -->
+<link href="/assets/icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/assets/icon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="/manifest.json" rel="manifest"/>
+<meta content="#2563eb" name="theme-color"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="MockTestVault" name="apple-mobile-web-app-title"/>
+<!-- Feeds & AI Discovery -->
+<link href="https://mocktestvault.com/feed.xml" rel="alternate" title="MockTestVault Feed" type="application/atom+xml"/>
+<link href="https://mocktestvault.com/llms.txt" rel="alternate" title="LLM &amp; AI Discovery Directory" type="text/markdown"/>
+<!-- Core Stylesheets -->
+<link href="css/homepage.css" rel="stylesheet"/>
+<!-- Schema.org WebSite & EducationalOrganization -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -81,9 +90,8 @@
   ]
 }
 </script>
-
-  <!-- Schema.org FAQPage Structured Data -->
-  <script type="application/ld+json">
+<!-- Schema.org FAQPage Structured Data -->
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -98,7 +106,7 @@
       },
       {
         "@type": "Question",
-        "name": "How authentic is the SSC CGL CBT simulation?",
+        "name": "How closely does the SSC CGL practice tool follow the published structure?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "The SSC CGL 2026 notification specifies 100 questions across four subjects, 60 minutes overall with 15-minute sectional timers, +2 marks for a correct answer and -0.50 for an incorrect answer. MockTestVault provides an independent practice simulator and does not reproduce official examination software."
@@ -109,7 +117,7 @@
         "name": "Can I practice on my mobile phone?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. The entire platform is built with full-viewport responsive design. While the layout adapts to smaller screens for convenient mobile revision, it also provides an authentic full-screen CBT mode when practicing on laptops and desktop browsers."
+          "text": "Yes. The entire platform is built with full-viewport responsive design. While the layout adapts to smaller screens for convenient mobile revision, it also provides an full-screen CBT-style practice mode when practicing on laptops and desktop browsers."
         }
       },
       {
@@ -117,550 +125,504 @@
         "name": "Are the US and Global test tracks live?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes! Digital SAT® Math, Digital SAT® Reading & Writing, and Cambridge IELTS® Academic Reading are live right now in our dedicated US Vault and Global Vault with authentic timing, Desmos calculator techniques, Band score tables, and verified rationales."
+          "text": "Yes! Digital SAT® Math, Digital SAT® Reading & Writing, and Cambridge IELTS® Academic Reading are live right now in our dedicated US Vault and Global Vault with practice timers, Desmos calculator techniques, indicative band-score references and worked explanations; source and review status varies."
         }
       }
     ]
   }
   </script>
-  <script src="/js/consent.js" defer></script>
+<script defer="" src="/js/consent.js"></script>
 </head>
 <body>
-
-  <!-- Navigation Bar -->
-  <header class="global-nav">
-    <div class="home-container">
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-group" aria-label="MockTestVault Home">
-          <div class="brand-icon">🛡️</div>
-          <div class="brand-title">
-            <span>MockTestVault</span>
-            <span class="brand-badge">Global Vault</span>
-          </div>
-        </a>
-
-        <nav class="nav-links">
-          <a href="#catalog" class="nav-link"><span>📋</span> All Exams</a>
-          <a href="us/index.html" class="nav-link"><span>🇺🇸</span> United States</a>
-          <a href="in/index.html" class="nav-link"><span>🇮🇳</span> India</a>
-          <a href="global/index.html" class="nav-link"><span>🌐</span> Global Standards</a>
-          <a href="about.html" class="nav-link"><span>ℹ️</span> About</a>
-          <a href="contact.html" class="nav-link"><span>✉️</span> Contact</a>
-        </nav>
-
-        <div class="nav-actions">
-          <button id="theme-toggle-btn" class="theme-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">🌙</button>
-          <a href="#catalog" class="cta-header-btn">
-            <span>⚡ Start Practice</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Hero Section with Interactive Live Question Teaser -->
-  <section class="hero-section">
-    <div class="home-container">
-      <div class="hero-grid">
-        
-        <!-- Left Hero Copy & Search -->
-        <div class="hero-content">
-          <div class="hero-badge">
-            <span class="hero-badge-dot"></span>
-            <span>Authentic CBT Engines • 100% Free Open Access • NCERT Citations</span>
-          </div>
-
-          <h1 class="hero-title">
-            Master High-Stakes Exams with <span class="gradient-text">Authentic CBT Simulators</span>
-          </h1>
-
-          <p class="hero-subtitle">
-            From national competitive entrance tests to global standardized exams and school curriculums. Experience real exam pressure, authentic scoring schemes, millisecond timers, and statutory step-by-step rationales.
+<!-- Navigation Bar -->
+<header class="global-nav">
+<div class="home-container">
+<div class="nav-wrapper">
+<a aria-label="MockTestVault Home" class="brand-group" href="index.html">
+<div class="brand-icon">🛡️</div>
+<div class="brand-title">
+<span>MockTestVault</span>
+<span class="brand-badge">Global Vault</span>
+</div>
+</a>
+<nav class="nav-links">
+<a class="nav-link" href="#catalog"><span>📋</span> All Exams</a>
+<a class="nav-link" href="us/index.html"><span>🇺🇸</span> United States</a>
+<a class="nav-link" href="in/index.html"><span>🇮🇳</span> India</a>
+<a class="nav-link" href="global/index.html"><span>🌐</span> Global Standards</a>
+<a class="nav-link" href="about.html"><span>ℹ️</span> About</a>
+<a class="nav-link" href="contact.html"><span>✉️</span> Contact</a>
+</nav>
+<div class="nav-actions">
+<button aria-label="Toggle theme" class="theme-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+<a class="cta-header-btn" href="#catalog">
+<span>⚡ Start Practice</span>
+</a>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Section with Interactive Live Question Teaser -->
+<section class="hero-section">
+<div class="home-container">
+<div class="hero-grid">
+<!-- Left Hero Copy & Search -->
+<div class="hero-content">
+<div class="hero-badge">
+<span class="hero-badge-dot"></span>
+<span>Exam-Style Practice • Free Open Access • Topic &amp; Curriculum References</span>
+</div>
+<h1 class="hero-title">
+            Master High-Stakes Exams with <span class="gradient-text">Exam-Style Practice Simulators</span>
+</h1>
+<p class="hero-subtitle">
+            From national competitive entrance tests to global standardized exams and school curriculums. Experience real exam pressure, exam-pattern scoring references, configurable timers, and worked study explanations.
           </p>
-
-          <!-- 3-Pillar Regional Hub Switcher -->
-          <div class="region-portals-grid">
-            <a href="us/index.html" class="region-portal-card">
-              <span class="region-portal-flag">🇺🇸</span>
-              <div class="region-portal-info">
-                <div class="region-portal-title">
-                  <span>United States</span>
-                  <span class="region-portal-status status-badge-live">Live</span>
-                </div>
-                <div class="region-portal-sub">Digital SAT® & AP® Exams</div>
-              </div>
-            </a>
-            <a href="in/index.html" class="region-portal-card">
-              <span class="region-portal-flag">🇮🇳</span>
-              <div class="region-portal-info">
-                <div class="region-portal-title">
-                  <span>India</span>
-                  <span class="region-portal-status status-badge-complete">100% Live</span>
-                </div>
-                <div class="region-portal-sub">CBSE 10 (48 Ch) & SSC CGL</div>
-              </div>
-            </a>
-            <a href="global/index.html" class="region-portal-card">
-              <span class="region-portal-flag">🌐</span>
-              <div class="region-portal-info">
-                <div class="region-portal-title">
-                  <span>Global Standards</span>
-                  <span class="region-portal-status status-badge-live">Live</span>
-                </div>
-                <div class="region-portal-sub">IELTS® Academic & GRE®</div>
-              </div>
-            </a>
-          </div>
-
-          <!-- Real-Time Global Search Bar -->
-          <div class="hero-search-box">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="global-search-input" class="search-input" placeholder="Search exams (e.g., Digital SAT, IELTS, TOEFL, GMAT, SSC CGL)..." aria-label="Search all mock tests">
-            <button id="search-clear-btn" class="search-clear-btn" title="Clear Search">✕</button>
-          </div>
-
-          <!-- Quick Category Filter Chips -->
-          <div class="filter-chips-row">
-            <span class="filter-chip-label">Focus:</span>
-            <button class="filter-chip active" data-category="all">All Tracks</button>
-            <button class="filter-chip" data-category="us">🇺🇸 United States</button>
-            <button class="filter-chip" data-category="in">🇮🇳 India</button>
-            <button class="filter-chip" data-category="global">🌐 Global Standards</button>
-          </div>
-
-          <!-- Hero Action Buttons -->
-          <div class="hero-actions">
-            <a href="us/sat/math-practice-01.html" class="btn-primary-hero">
-              <span>🇺🇸 SAT® Math 01</span>
-            </a>
-            <a href="cbse-class-10/index.html" class="btn-secondary-hero">
-              <span>🇮🇳 CBSE Class 10</span>
-            </a>
-            <a href="global/ielts/reading-practice-01.html" class="btn-secondary-hero">
-              <span>🌐 IELTS® Academic</span>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Platform Stats Ticker Bar -->
-  <section class="stats-bar" aria-label="Platform Statistics">
-    <div class="home-container">
-      <div class="stats-grid">
-        <div class="stat-item">
-          <div class="stat-value">5,000+</div>
-          <div class="stat-label">NCERT Topic References &amp; Independent Practice Sets</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">60+</div>
-          <div class="stat-label">Full Simulators &amp; Sectional Drills Live</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">100%</div>
-          <div class="stat-label">Client-Side In-Browser Privacy</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">100%</div>
-          <div class="stat-label">Free, Open & Printable Revision Sheets</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Global Exam Catalog & Cards Grid -->
-  <section class="section-block" id="catalog">
-    <div class="home-container">
-      <div class="section-head">
-        <span class="section-pill">Interactive Exam Catalog</span>
-        <h2 class="section-title">Select Your Examination Track</h2>
-        <p class="section-desc">
-          Every simulator runs on our authentic CBT engine equipped with official countdown timers, question palettes, mark-for-review flags, and instant detailed scorecards.
+<!-- 3-Pillar Regional Hub Switcher -->
+<div class="region-portals-grid">
+<a class="region-portal-card" href="us/index.html">
+<span class="region-portal-flag">🇺🇸</span>
+<div class="region-portal-info">
+<div class="region-portal-title">
+<span>United States</span>
+<span class="region-portal-status status-badge-live">Live</span>
+</div>
+<div class="region-portal-sub">Digital SAT® &amp; AP® Exams</div>
+</div>
+</a>
+<a class="region-portal-card" href="in/index.html">
+<span class="region-portal-flag">🇮🇳</span>
+<div class="region-portal-info">
+<div class="region-portal-title">
+<span>India</span>
+<span class="region-portal-status status-badge-complete">100% Live</span>
+</div>
+<div class="region-portal-sub">CBSE 10 (48 Ch) &amp; SSC CGL</div>
+</div>
+</a>
+<a class="region-portal-card" href="global/index.html">
+<span class="region-portal-flag">🌐</span>
+<div class="region-portal-info">
+<div class="region-portal-title">
+<span>Global Standards</span>
+<span class="region-portal-status status-badge-live">Live</span>
+</div>
+<div class="region-portal-sub">IELTS® Academic &amp; GRE®</div>
+</div>
+</a>
+</div>
+<!-- Real-Time Global Search Bar -->
+<div class="hero-search-box">
+<span class="search-icon">🔍</span>
+<input aria-label="Search all mock tests" class="search-input" id="global-search-input" placeholder="Search exams (e.g., Digital SAT, IELTS, TOEFL, GMAT, SSC CGL)..." type="text"/>
+<button class="search-clear-btn" id="search-clear-btn" title="Clear Search">✕</button>
+</div>
+<!-- Quick Category Filter Chips -->
+<div class="filter-chips-row">
+<span class="filter-chip-label">Focus:</span>
+<button class="filter-chip active" data-category="all">All Tracks</button>
+<button class="filter-chip" data-category="us">🇺🇸 United States</button>
+<button class="filter-chip" data-category="in">🇮🇳 India</button>
+<button class="filter-chip" data-category="global">🌐 Global Standards</button>
+</div>
+<!-- Hero Action Buttons -->
+<div class="hero-actions">
+<a class="btn-primary-hero" href="us/sat/math-practice-01.html">
+<span>🇺🇸 SAT® Math 01</span>
+</a>
+<a class="btn-secondary-hero" href="cbse-class-10/index.html">
+<span>🇮🇳 CBSE Class 10</span>
+</a>
+<a class="btn-secondary-hero" href="global/ielts/reading-practice-01.html">
+<span>🌐 IELTS® Academic</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Platform Stats Ticker Bar -->
+<section aria-label="Platform Statistics" class="stats-bar">
+<div class="home-container">
+<div class="stats-grid">
+<div class="stat-item">
+<div class="stat-value">6,404</div>
+<div class="stat-label">Question Records Across Independent Practice Banks — Review Status Varies</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">60+</div>
+<div class="stat-label">Full Simulators &amp; Sectional Drills Live</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">100%</div>
+<div class="stat-label">Client-Side In-Browser Privacy</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">100%</div>
+<div class="stat-label">Free, Open &amp; Printable Revision Sheets</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Global Exam Catalog & Cards Grid -->
+<section class="section-block" id="catalog">
+<div class="home-container">
+<div class="section-head">
+<span class="section-pill">Interactive Exam Catalog</span>
+<h2 class="section-title">Select Your Examination Track</h2>
+<p class="section-desc">
+          Every simulator uses an exam-style practice interface with configurable countdown timers, question palettes, mark-for-review flags, and instant practice scorecards.
         </p>
-      </div>
-
-      <!-- Category Filter Tabs -->
-      <div class="catalog-tabs" role="tablist">
-        <button class="catalog-tab-btn active" data-category="all" role="tab">All Focus Tracks</button>
-        <button class="catalog-tab-btn" data-category="us" role="tab">🇺🇸 United States</button>
-        <button class="catalog-tab-btn" data-category="in" role="tab">🇮🇳 India</button>
-        <button class="catalog-tab-btn" data-category="global" role="tab">🌐 Global Standards</button>
-      </div>
-
-      <!-- Exam Cards Grid (3 Core Regional Pillars) -->
-      <div class="exam-cards-grid" id="exam-cards-grid">
-        
-        <!-- Pillar Card 1: India Examination Vault -->
-        <article class="exam-card" data-category="in">
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">🇮🇳</div>
-              <span class="exam-status-tag status-live">🟢 3,940+ Questions • Live</span>
-            </div>
-            <div class="exam-category-title">Staff Selection Commission (SSC) &amp; CBSE Board • India</div>
-            <h3 class="exam-title">India Competitive &amp; Board Examination Vault</h3>
-            <p class="exam-desc">
-              Three full-length SSC CGL Tier-I practice mocks using 60 minutes total, four sequential 15-minute subject sections and the notified +2 / -0.50 marking, plus 48 complete chapter-wise NCERT question banks for CBSE Class 10.
+</div>
+<!-- Category Filter Tabs -->
+<div class="catalog-tabs" role="tablist">
+<button class="catalog-tab-btn active" data-category="all" role="tab">All Focus Tracks</button>
+<button class="catalog-tab-btn" data-category="us" role="tab">🇺🇸 United States</button>
+<button class="catalog-tab-btn" data-category="in" role="tab">🇮🇳 India</button>
+<button class="catalog-tab-btn" data-category="global" role="tab">🌐 Global Standards</button>
+</div>
+<!-- Exam Cards Grid (3 Core Regional Pillars) -->
+<div class="exam-cards-grid" id="exam-cards-grid">
+<!-- Pillar Card 1: India Examination Vault -->
+<article class="exam-card" data-category="in">
+<div>
+<div class="exam-card-top">
+<div class="exam-icon">🇮🇳</div>
+<span class="exam-status-tag status-live">🟢 3,940+ Questions • Live</span>
+</div>
+<div class="exam-category-title">Staff Selection Commission (SSC) &amp; CBSE Board • India</div>
+<h3 class="exam-title">India Competitive &amp; Board Examination Vault</h3>
+<p class="exam-desc">
+              Three full-length SSC CGL Tier-I practice mocks using 60 minutes total, four sequential 15-minute subject sections and the notified +2 / -0.50 marking, plus 48 chapter-wise practice question banks organized around NCERT topics for CBSE Class 10.
             </p>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>🎯</span> SSC CGL 5 Full Mocks</span>
-              <span class="meta-pill"><span>⚡</span> 9 Sectional Drills</span>
-              <span class="meta-pill"><span>📚</span> CBSE 10 (48 Chapters)</span>
-              <span class="meta-pill"><span>🔬</span> Science • Math • SST</span>
-            </div>
-          </div>
-          <div class="exam-card-actions" style="display:flex; gap:8px; flex-wrap:wrap;">
-            <a href="ssc-cgl/index.html" class="exam-launch-btn"><span>🎯 SSC CGL Tier 1 Vault →</span></a>
-            <a href="cbse-class-10/index.html" class="exam-launch-btn"><span>📚 CBSE Class 10 Vault →</span></a>
-            <a href="in/index.html" class="exam-secondary-btn" title="Explore India Hub">India Hub →</a>
-          </div>
-        </article>
-
-        <!-- Pillar Card 2: United States Admissions & AP Vault -->
-        <article class="exam-card" data-category="us">
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">🇺🇸</div>
-              <span class="exam-status-tag status-live">🟢 500 Questions • Live</span>
-            </div>
-            <div class="exam-category-title">College Board Admissions &amp; Advanced Placement • United States</div>
-            <h3 class="exam-title">Digital SAT® &amp; AP® Advanced Placement Suites</h3>
-            <p class="exam-desc">
+<div class="exam-meta-pills">
+<span class="meta-pill"><span>🎯</span> SSC CGL 5 Full Mocks</span>
+<span class="meta-pill"><span>⚡</span> 9 Sectional Drills</span>
+<span class="meta-pill"><span>📚</span> CBSE 10 (48 Chapters)</span>
+<span class="meta-pill"><span>🔬</span> Science • Math • SST</span>
+</div>
+</div>
+<div class="exam-card-actions" style="display:flex; gap:8px; flex-wrap:wrap;">
+<a class="exam-launch-btn" href="ssc-cgl/index.html"><span>🎯 SSC CGL Tier 1 Vault →</span></a>
+<a class="exam-launch-btn" href="cbse-class-10/index.html"><span>📚 CBSE Class 10 Vault →</span></a>
+<a class="exam-secondary-btn" href="cbse-class-10/2026-27-syllabus-sample-papers.html">CBSE 2026–27 Syllabus &amp; Sample Papers →</a>
+<a class="exam-secondary-btn" href="in/index.html" title="Explore India Hub">India Hub →</a>
+</div>
+</article>
+<!-- Pillar Card 2: United States Admissions & AP Vault -->
+<article class="exam-card" data-category="us">
+<div>
+<div class="exam-card-top">
+<div class="exam-icon">🇺🇸</div>
+<span class="exam-status-tag status-live">🟢 500 Questions • Live</span>
+</div>
+<div class="exam-category-title">College Board Admissions &amp; Advanced Placement • United States</div>
+<h3 class="exam-title">Digital SAT® &amp; AP® Advanced Placement Suites</h3>
+<p class="exam-desc">
               Digital SAT® Topic Diagnostic Practice Sets (20 Questions • 32 Minutes • Diagnostic Benchmark Scoring) with Desmos calculator workflows for Digital SAT Math &amp; Reading, plus comprehensive diagnostic suites for AP Calculus AB, AP Physics 1, and AP US History.
             </p>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>📐</span> SAT® Math (5 Sets)</span>
-              <span class="meta-pill"><span>📖</span> SAT® Reading (5 Sets)</span>
-              <span class="meta-pill"><span>∫</span> AP® Calculus AB</span>
-              <span class="meta-pill"><span>⚛️</span> AP® Physics 1</span>
-              <span class="meta-pill"><span>🏛️</span> AP® US History</span>
-            </div>
-          </div>
-          <div class="exam-card-actions" style="display:flex; gap:8px; flex-wrap:wrap;">
-            <a href="us/sat/math-practice-01.html" class="exam-launch-btn"><span>🚀 Digital SAT® Math</span></a>
-            <a href="us/sat/reading-practice-01.html" class="exam-launch-btn"><span>📖 Digital SAT® Reading</span></a>
-            <a href="us/index.html" class="exam-secondary-btn" title="Explore US Hub">US Hub →</a>
-          </div>
-        </article>
-
-        <!-- Pillar Card 3: Global Standards & Language Vault -->
-        <article class="exam-card" data-category="global">
-          <div>
-            <div class="exam-card-top">
-              <div class="exam-icon">🌐</div>
-              <span class="exam-status-tag status-live">🟢 510 Questions • Live</span>
-            </div>
-            <div class="exam-category-title">International Standards &amp; Graduate Admissions • Global</div>
-            <h3 class="exam-title">Cambridge IELTS®, TOEFL® iBT, GRE® &amp; GMAT®</h3>
-            <p class="exam-desc">
+<div class="exam-meta-pills">
+<span class="meta-pill"><span>📐</span> SAT® Math (5 Sets)</span>
+<span class="meta-pill"><span>📖</span> SAT® Reading (5 Sets)</span>
+<span class="meta-pill"><span>∫</span> AP® Calculus AB</span>
+<span class="meta-pill"><span>⚛️</span> AP® Physics 1</span>
+<span class="meta-pill"><span>🏛️</span> AP® US History</span>
+</div>
+</div>
+<div class="exam-card-actions" style="display:flex; gap:8px; flex-wrap:wrap;">
+<a class="exam-launch-btn" href="us/sat/math-practice-01.html"><span>🚀 Digital SAT® Math</span></a>
+<a class="exam-launch-btn" href="us/sat/reading-practice-01.html"><span>📖 Digital SAT® Reading</span></a>
+<a class="exam-secondary-btn" href="us/index.html" title="Explore US Hub">US Hub →</a>
+</div>
+</article>
+<!-- Pillar Card 3: Global Standards & Language Vault -->
+<article class="exam-card" data-category="global">
+<div>
+<div class="exam-card-top">
+<div class="exam-icon">🌐</div>
+<span class="exam-status-tag status-live">🟢 510 Questions • Live</span>
+</div>
+<div class="exam-category-title">International Standards &amp; Graduate Admissions • Global</div>
+<h3 class="exam-title">Cambridge IELTS®, TOEFL® iBT, GRE® &amp; GMAT®</h3>
+<p class="exam-desc">
               Original IELTS-style academic reading passages with True/False/Not Given logic and Band 7.5–9.0 conversion, TOEFL academic reading passage drills (20 questions each; legacy passage-based practice, not the adaptive 2026 TOEFL iBT format), ETS-aligned GRE quantitative comparison, and GMAC-aligned GMAT Focus diagnostics.
             </p>
-            <div class="exam-meta-pills">
-              <span class="meta-pill"><span>🎧</span> IELTS® Academic (4 Tests)</span>
-              <span class="meta-pill"><span>📊</span> GRE® Quantitative</span>
-              <span class="meta-pill"><span>🗣️</span> TOEFL® iBT</span>
-              <span class="meta-pill"><span>💼</span> GMAT® Focus</span>
-            </div>
-          </div>
-          <div class="exam-card-actions" style="display:flex; gap:8px; flex-wrap:wrap;">
-            <a href="global/ielts/reading-practice-01.html" class="exam-launch-btn"><span>🚀 IELTS® Academic</span></a>
-            <a href="global/gre/quantitative-reasoning-01.html" class="exam-launch-btn"><span>📊 GRE® Diagnostic</span></a>
-            <a href="global/index.html" class="exam-secondary-btn" title="Explore Global Hub">Global Hub →</a>
-          </div>
-        </article>      </div>
-
-      <!-- No Results Feedback State -->
-      <div id="no-results-box" style="display:none; text-align:center; padding:48px 20px; background:var(--bg-surface); border:1px dashed var(--border-color); border-radius:var(--radius-lg); margin-top:24px;">
-        <div style="font-size:2.5rem; margin-bottom:12px;">🔍</div>
-        <h3 style="font-size:1.3rem; margin-bottom:8px;">No matching mock tests found</h3>
-        <p style="color:var(--text-muted); margin-bottom:16px;">Try adjusting your keyword or clearing the filter chip.</p>
-        <button onclick="document.getElementById('global-search-input').value=''; document.querySelector('.filter-chip[data-category=all]').click();" class="cta-header-btn">
+<div class="exam-meta-pills">
+<span class="meta-pill"><span>🎧</span> IELTS® Academic (4 Tests)</span>
+<span class="meta-pill"><span>📊</span> GRE® Quantitative</span>
+<span class="meta-pill"><span>🗣️</span> TOEFL® iBT</span>
+<span class="meta-pill"><span>💼</span> GMAT® Focus</span>
+</div>
+</div>
+<div class="exam-card-actions" style="display:flex; gap:8px; flex-wrap:wrap;">
+<a class="exam-launch-btn" href="global/ielts/reading-practice-01.html"><span>🚀 IELTS® Academic</span></a>
+<a class="exam-launch-btn" href="global/gre/quantitative-reasoning-01.html"><span>📊 GRE® Diagnostic</span></a>
+<a class="exam-secondary-btn" href="global/index.html" title="Explore Global Hub">Global Hub →</a>
+</div>
+</article> </div>
+<!-- No Results Feedback State -->
+<div id="no-results-box" style="display:none; text-align:center; padding:48px 20px; background:var(--bg-surface); border:1px dashed var(--border-color); border-radius:var(--radius-lg); margin-top:24px;">
+<div style="font-size:2.5rem; margin-bottom:12px;">🔍</div>
+<h3 style="font-size:1.3rem; margin-bottom:8px;">No matching mock tests found</h3>
+<p style="color:var(--text-muted); margin-bottom:16px;">Try adjusting your keyword or clearing the filter chip.</p>
+<button class="cta-header-btn" onclick="document.getElementById('global-search-input').value=''; document.querySelector('.filter-chip[data-category=all]').click();">
           Reset All Filters
         </button>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- "The Vault Difference" — Why Top Performers Switch (Feature Grid) -->
-  <section class="section-block" id="why-vault" style="background:var(--bg-subtle);">
-    <div class="home-container">
-      <div class="section-head">
-        <span class="section-pill">The Vault Standard</span>
-        <h2 class="section-title">Engineered Differently from Commercial Test Portals</h2>
-        <p class="section-desc">
+</div>
+</div>
+</section>
+<!-- "The Vault Difference" — Why Top Performers Switch (Feature Grid) -->
+<section class="section-block" id="why-vault" style="background:var(--bg-subtle);">
+<div class="home-container">
+<div class="section-head">
+<span class="section-pill">The Vault Standard</span>
+<h2 class="section-title">Engineered Differently from Commercial Test Portals</h2>
+<p class="section-desc">
           Most mock test websites bombard you with video popups, subscription paywalls, and incorrect user-submitted answer keys. Here is how MockTestVault sets a new global benchmark:
         </p>
-      </div>
-
-      <div class="features-grid">
-        
-        <div class="feature-box">
-          <div class="feature-icon-wrapper">💻</div>
-          <h3 class="feature-title">Authentic CBT Software Simulator</h3>
-          <p class="feature-desc">
+</div>
+<div class="features-grid">
+<div class="feature-box">
+<div class="feature-icon-wrapper">💻</div>
+<h3 class="feature-title">Exam-Style CBT Practice Interface</h3>
+<p class="feature-desc">
             Independent practice interfaces use common computer-based testing conventions such as question palettes, mark-for-review flags and countdown timers. They are not replicas of proprietary examination software.
           </p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon-wrapper">🛡️</div>
-          <h3 class="feature-title">Strict Zero-Distraction Guarantee</h3>
-          <p class="feature-desc">
+</div>
+<div class="feature-box">
+<div class="feature-icon-wrapper">🛡️</div>
+<h3 class="feature-title">Strict Zero-Distraction Guarantee</h3>
+<p class="feature-desc">
             Zero disruptive advertisements during active examinations, zero video popups, and zero countdown paywalls. You get pure cognitive focus from the opening question to the final scorecard.
           </p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon-wrapper">⚖️</div>
-          <h3 class="feature-title">Authentic Negative Marking Engines</h3>
-          <p class="feature-desc">
-            Calculates exact official penalty penalties (+2 correct, -0.5 wrong for SSC CGL, etc.). Learn penalty discipline and risk calculation before exam day.
+</div>
+<div class="feature-box">
+<div class="feature-icon-wrapper">⚖️</div>
+<h3 class="feature-title">Exam-Pattern Scoring Rules</h3>
+<p class="feature-desc">
+            Applies configured practice scoring rules. The SSC CGL full mocks use the published +2 / -0.50 marking pattern; MockTestVault scores are not official examination results.
           </p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon-wrapper">📖</div>
-          <h3 class="feature-title">Verified Statutory Citations</h3>
-          <p class="feature-desc">
-            Every single explanation is cross-checked against official NCERT curriculum textbooks, board exemplars, and past year question keys with exact chapter and activity references.
+</div>
+<div class="feature-box">
+<div class="feature-icon-wrapper">📖</div>
+<h3 class="feature-title">Curriculum &amp; Exam References</h3>
+<p class="feature-desc">
+            Explanations are provided for study support. Question records may include topic or curriculum reference notes, but those notes do not authenticate an item’s wording or answer. Independent subject-matter verification of the complete question bank has not been completed.
           </p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon-wrapper">🖨️</div>
-          <h3 class="feature-title">1-Click Printable Revision Sheets</h3>
-          <p class="feature-desc">
+</div>
+<div class="feature-box">
+<div class="feature-icon-wrapper">🖨️</div>
+<h3 class="feature-title">1-Click Printable Revision Sheets</h3>
+<p class="feature-desc">
             Export any test as a clean, beautifully formatted A4 study worksheet with answer keys and rationale for offline pen-and-paper practice.
           </p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon-wrapper">⚡</div>
-          <h3 class="feature-title">Sub-Millisecond Engine Speed</h3>
-          <p class="feature-desc">
+</div>
+<div class="feature-box">
+<div class="feature-icon-wrapper">⚡</div>
+<h3 class="feature-title">Sub-Millisecond Engine Speed</h3>
+<p class="feature-desc">
             Zero server lag. Client-side state transitions happen in under 10 milliseconds. Switch questions, toggle filters, and review explanations with instantaneous responsiveness.
           </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Side-by-Side Comparison Matrix -->
-  <section class="section-block">
-    <div class="home-container">
-      <div class="section-head">
-        <span class="section-pill">Feature Comparison</span>
-        <h2 class="section-title">MockTestVault vs. Traditional Test Portals</h2>
-        <p class="section-desc">See why students and competitive aspirants are replacing outdated test portals.</p>
-      </div>
-
-      <div class="comparison-wrapper">
-        <table class="comparison-table">
-          <thead>
-            <tr>
-              <th>Evaluation Feature</th>
-              <th class="highlight-col">🛡️ MockTestVault</th>
-              <th>Typical Commercial Test Portals</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Distraction & Interruption Policy</strong></td>
-              <td class="highlight-col"><span class="check-mark">✓</span> Clean Academic UI (No Popups/Interrupts)</td>
-              <td><span class="cross-mark">✗</span> Auto-playing video popups & countdown locks</td>
-            </tr>
-            <tr>
-              <td><strong>Access & Pricing</strong></td>
-              <td class="highlight-col"><span class="check-mark">✓</span> 100% Free Forever (Open Architecture)</td>
-              <td><span class="cross-mark">✗</span> Expensive monthly passes or paywalled test packs</td>
-            </tr>
-            <tr>
-              <td><strong>CBT Environment Accuracy</strong></td>
-              <td class="highlight-col"><span class="check-mark">✓</span> Independent CBT-Style Practice Layout</td>
-              <td><span class="cross-mark">✗</span> Generic forms, mobile-unfriendly web views</td>
-            </tr>
-            <tr>
-              <td><strong>Question Grounding &amp; Quality</strong></td>
-              <td class="highlight-col"><span class="check-mark">✓</span> Systematically Verified NCERT &amp; Past Official Papers</td>
-              <td><span class="cross-mark">✗</span> Unverified user submissions with erroneous keys</td>
-            </tr>
-            <tr>
-              <td><strong>Negative Marking Simulation</strong></td>
-              <td class="highlight-col"><span class="check-mark">✓</span> Real penalty engine (+2 / -0.5, etc.)</td>
-              <td><span class="cross-mark">✗</span> Often ignored or simplistic +1/0 grading</td>
-            </tr>
-            <tr>
-              <td><strong>Offline Revision Support</strong></td>
-              <td class="highlight-col"><span class="check-mark">✓</span> Clean 1-Click Printable A4 PDF Worksheets</td>
-              <td><span class="cross-mark">✗</span> Blocked behind DRM or unprintable layouts</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- Progress Tracker Feature Callout -->
-  <section class="section-block" style="background: radial-gradient(circle at 50% 50%, var(--primary-glow) 0%, transparent 70%);">
-    <div class="home-container">
-      <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:var(--radius-lg); padding:40px; display:grid; grid-template-columns:1.2fr 0.8fr; gap:36px; align-items:center; box-shadow:var(--shadow-lg);">
-        <div>
-          <span class="section-pill">Real-Time Progress Tracker</span>
-          <h2 style="font-size:2rem; font-weight:850; margin-bottom:14px; letter-spacing:-0.02em;">
-            Track Every Chapter & Mock Test in Real Time
+</div>
+</div>
+</div>
+</section>
+<!-- Side-by-Side Comparison Matrix -->
+<section class="section-block">
+<div class="home-container">
+<div class="section-head">
+<span class="section-pill">Feature Comparison</span>
+<h2 class="section-title">MockTestVault vs. Traditional Test Portals</h2>
+<p class="section-desc">See why students and competitive aspirants are replacing outdated test portals.</p>
+</div>
+<div class="comparison-wrapper">
+<table class="comparison-table">
+<thead>
+<tr>
+<th>Evaluation Feature</th>
+<th class="highlight-col">🛡️ MockTestVault</th>
+<th>Typical Commercial Test Portals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Distraction &amp; Interruption Policy</strong></td>
+<td class="highlight-col"><span class="check-mark">✓</span> Clean Academic UI (No Popups/Interrupts)</td>
+<td><span class="cross-mark">✗</span> Auto-playing video popups &amp; countdown locks</td>
+</tr>
+<tr>
+<td><strong>Access &amp; Pricing</strong></td>
+<td class="highlight-col"><span class="check-mark">✓</span> 100% Free Forever (Open Architecture)</td>
+<td><span class="cross-mark">✗</span> Expensive monthly passes or paywalled test packs</td>
+</tr>
+<tr>
+<td><strong>CBT Environment Accuracy</strong></td>
+<td class="highlight-col"><span class="check-mark">✓</span> Independent CBT-Style Practice Layout</td>
+<td><span class="cross-mark">✗</span> Generic forms, mobile-unfriendly web views</td>
+</tr>
+<tr>
+<td><strong>Question Grounding &amp; Quality</strong></td>
+<td class="highlight-col"><span class="check-mark">✓</span> Practice questions with source-status disclosures</td>
+<td><span class="cross-mark">✗</span> Unverified user submissions with erroneous keys</td>
+</tr>
+<tr>
+<td><strong>Negative Marking Simulation</strong></td>
+<td class="highlight-col"><span class="check-mark">✓</span> Real penalty engine (+2 / -0.5, etc.)</td>
+<td><span class="cross-mark">✗</span> Often ignored or simplistic +1/0 grading</td>
+</tr>
+<tr>
+<td><strong>Offline Revision Support</strong></td>
+<td class="highlight-col"><span class="check-mark">✓</span> Clean 1-Click Printable A4 PDF Worksheets</td>
+<td><span class="cross-mark">✗</span> Blocked behind DRM or unprintable layouts</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- Progress Tracker Feature Callout -->
+<section class="section-block" style="background: radial-gradient(circle at 50% 50%, var(--primary-glow) 0%, transparent 70%);">
+<div class="home-container">
+<div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:var(--radius-lg); padding:40px; display:grid; grid-template-columns:1.2fr 0.8fr; gap:36px; align-items:center; box-shadow:var(--shadow-lg);">
+<div>
+<span class="section-pill">Real-Time Progress Tracker</span>
+<h2 style="font-size:2rem; font-weight:850; margin-bottom:14px; letter-spacing:-0.02em;">
+            Track Every Chapter &amp; Mock Test in Real Time
           </h2>
-          <p style="color:var(--text-secondary); font-size:1rem; line-height:1.6; margin-bottom:24px;">
+<p style="color:var(--text-secondary); font-size:1rem; line-height:1.6; margin-bottom:24px;">
             Our interactive dashboard gives you an aerial view of all live chapters, question banks, completed drills, and accuracy metrics across Science, Math, Social Science, and SSC CGL.
           </p>
-          <div style="display:flex; gap:12px; flex-wrap:wrap;">
-            <a href="progress.html" class="btn-primary-hero">
-              <span>📊 Open Live Progress Dashboard</span>
-            </a>
-            <a href="ssc-cgl/index.html" class="btn-secondary-hero">
-              <span>🎯 SSC CGL Hub</span>
-            </a>
-          </div>
-        </div>
-
-        <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:24px; text-align:center;">
-          <div style="font-size:0.85rem; font-weight:700; color:var(--text-muted); text-transform:uppercase; margin-bottom:8px;">Current Vault Inventory</div>
-          <div style="font-size:3rem; font-weight:900; color:var(--primary); line-height:1; margin-bottom:6px;">2,880+</div>
-          <div style="font-size:0.95rem; font-weight:700; color:var(--text-primary); margin-bottom:16px;">Questions Systematically Verified &amp; Deployed</div>
-          <div style="display:flex; justify-content:space-around; border-top:1px solid var(--border-color); padding-top:14px; font-size:0.82rem; color:var(--text-secondary);">
-            <div><strong>13</strong> Science Ch</div>
-            <div><strong>14</strong> Math Ch</div>
-            <div><strong>21</strong> SST Ch</div>
-            <div><strong>48</strong> Vault Total</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Global FAQ Section -->
-  <section class="section-block">
-    <div class="home-container">
-      <div class="section-head">
-        <span class="section-pill">Frequently Asked Questions</span>
-        <h2 class="section-title">Everything You Need to Know</h2>
-        <p class="section-desc">Transparent answers about our platform, methodology, and educational mission.</p>
-      </div>
-
-      <div class="faq-grid">
-        <div class="faq-item">
-          <h3 class="faq-question"><span>❓</span> Is MockTestVault completely free to use?</h3>
-          <p class="faq-answer">
+<div style="display:flex; gap:12px; flex-wrap:wrap;">
+<a class="btn-primary-hero" href="progress.html">
+<span>📊 Open Live Progress Dashboard</span>
+</a>
+<a class="btn-secondary-hero" href="ssc-cgl/index.html">
+<span>🎯 SSC CGL Hub</span>
+</a>
+</div>
+</div>
+<div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:24px; text-align:center;">
+<div style="font-size:0.85rem; font-weight:700; color:var(--text-muted); text-transform:uppercase; margin-bottom:8px;">Current Vault Inventory</div>
+<div style="font-size:3rem; font-weight:900; color:var(--primary); line-height:1; margin-bottom:6px;">48</div>
+<div style="font-size:0.95rem; font-weight:700; color:var(--text-primary); margin-bottom:16px;">CBSE Class 10 chapter modules; item review status varies</div>
+<div style="display:flex; justify-content:space-around; border-top:1px solid var(--border-color); padding-top:14px; font-size:0.82rem; color:var(--text-secondary);">
+<div><strong>13</strong> Science Ch</div>
+<div><strong>14</strong> Math Ch</div>
+<div><strong>21</strong> SST Ch</div>
+<div><strong>48</strong> Vault Total</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Global FAQ Section -->
+<section class="section-block">
+<div class="home-container">
+<div class="section-head">
+<span class="section-pill">Frequently Asked Questions</span>
+<h2 class="section-title">Everything You Need to Know</h2>
+<p class="section-desc">Transparent answers about our platform, methodology, and educational mission.</p>
+</div>
+<div class="faq-grid">
+<div class="faq-item">
+<h3 class="faq-question"><span>❓</span> Is MockTestVault completely free to use?</h3>
+<p class="faq-answer">
             Yes, absolutely. MockTestVault is built with an open-access educational philosophy: zero paid subscription tiers, zero mandatory paywalls, and non-intrusive academic presentation. All simulators are open to students and aspirants worldwide.
           </p>
-        </div>
-
-        <div class="faq-item">
-          <h3 class="faq-question"><span>❓</span> How authentic is the SSC CGL CBT simulation?</h3>
-          <p class="faq-answer">
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span>❓</span> How closely does the SSC CGL practice tool follow the published structure?</h3>
+<p class="faq-answer">
             The SSC CGL 2026 notification specifies 100 questions across four subjects, 60 minutes overall with 15-minute sectional timers, +2 marks for a correct answer and -0.50 for an incorrect answer. MockTestVault provides an independent practice simulator and does not reproduce official examination software.
           </p>
-        </div>
-
-        <div class="faq-item">
-          <h3 class="faq-question"><span>❓</span> Can I practice on my mobile phone?</h3>
-          <p class="faq-answer">
-            Yes. The entire platform is built with full-viewport responsive design. While the layout adapts to smaller screens for convenient mobile revision, it also provides an authentic full-screen CBT mode when practicing on laptops and desktop browsers.
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span>❓</span> Can I practice on my mobile phone?</h3>
+<p class="faq-answer">
+            Yes. The entire platform is built with full-viewport responsive design. While the layout adapts to smaller screens for convenient mobile revision, it also provides an full-screen CBT-style practice mode when practicing on laptops and desktop browsers.
           </p>
-        </div>
-
-        <div class="faq-item">
-          <h3 class="faq-question"><span>❓</span> Are the US and Global test tracks live?</h3>
-          <p class="faq-answer">
-            Yes! Digital SAT® Math, Digital SAT® Reading & Writing, and Cambridge IELTS® Academic Reading are live right now in our dedicated <a href="us/index.html" style="color:var(--primary); font-weight:700;">US Vault</a> and <a href="global/index.html" style="color:var(--primary); font-weight:700;">Global Vault</a> with authentic timing, Desmos calculator techniques, Band score tables, and verified rationales.
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span>❓</span> Are the US and Global test tracks live?</h3>
+<p class="faq-answer">
+            Yes! Digital SAT® Math, Digital SAT® Reading &amp; Writing, and Cambridge IELTS® Academic Reading are live right now in our dedicated <a href="us/index.html" style="color:var(--primary); font-weight:700;">US Vault</a> and <a href="global/index.html" style="color:var(--primary); font-weight:700;">Global Vault</a> with practice timers, Desmos calculator techniques, indicative band-score references and worked explanations; source and review status varies.
           </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Global Footer -->
-  <p class="source-policy-link"><a href="/question-sources-review.html">Question sources, answer review and corrections policy</a></p>
+</div>
+</div>
+</div>
+</section>
+<!-- Global Footer -->
+<p class="source-policy-link"><a href="/question-sources-review.html">Question sources, answer review and corrections policy</a></p>
 <footer class="global-footer">
-    <div class="home-container">
-      <div class="footer-grid">
-        
-        <!-- Col 1: Brand Info -->
-        <div>
-          <div class="brand-group" style="margin-bottom:14px;">
-            <div class="brand-icon">🛡️</div>
-            <div class="brand-title">MockTestVault</div>
-          </div>
-          <p style="color:var(--text-secondary); font-size:0.9rem; line-height:1.6; margin-bottom:16px;">
+<div class="home-container">
+<div class="footer-grid">
+<!-- Col 1: Brand Info -->
+<div>
+<div class="brand-group" style="margin-bottom:14px;">
+<div class="brand-icon">🛡️</div>
+<div class="brand-title">MockTestVault</div>
+</div>
+<p style="color:var(--text-secondary); font-size:0.9rem; line-height:1.6; margin-bottom:16px;">
             The world's zero-distraction computer-based mock exam platform. Dedicated regional hubs for the United States, India, and Global Standards.
           </p>
-          <div style="font-size:0.82rem; color:var(--text-muted);">
+<div style="font-size:0.82rem; color:var(--text-muted);">
             Open Source Grounded • Hosted on GitHub Global CDN
           </div>
+</div>
+<!-- Col 2: US & Global Vaults -->
+<div>
+<h4 class="footer-col-title">🇺🇸 US &amp; 🌐 Global Hubs</h4>
+<ul class="footer-links">
+<li><a href="us/index.html">United States Exam Hub</a></li>
+<li><a href="us/sat/math-practice-01.html">Digital SAT® Math 01 (Live)</a></li>
+<li><a href="us/sat/reading-practice-01.html">Digital SAT® Reading 01 (Live)</a></li>
+<li><a href="global/index.html">Global Standards Hub</a></li>
+<li><a href="global/ielts/reading-practice-01.html">IELTS® Academic Reading 01 (Live)</a></li>
+<li><a href="us/index.html#tracks">SAT vs ACT vs AP Scoring Matrix</a></li>
+</ul>
+</div>
+<!-- Col 3: India Vault -->
+<div>
+<h4 class="footer-col-title">🇮🇳 India Exam Hub</h4>
+<ul class="footer-links">
+<li><a href="in/index.html">India Examination Hub</a></li>
+<li><a href="cbse-class-10/index.html">CBSE Class 10 (48/48 Ch Live)</a></li>
+<li><a href="cbse-class-10/index.html#block-science">Class 10 Science (13 Chapters)</a></li>
+<li><a href="cbse-class-10/index.html#block-mathematics">Class 10 Math (14 Chapters)</a></li>
+<li><a href="cbse-class-10/index.html#block-social-science">Class 10 Social Science (21 Chapters)</a></li>
+<li><a href="ssc-cgl/index.html">SSC CGL Tier 1 Mock Engine</a></li>
+</ul>
+</div>
+<!-- Col 4: Platform & Trust -->
+<div>
+<h4 class="footer-col-title">Platform &amp; Trust</h4>
+<ul class="footer-links">
+<li><a href="about.html">About Us</a></li>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a class="open-cookie-preferences" href="javascript:void(0)">Cookie Preferences</a></li>
+<li><a href="terms.html">Terms of Service</a></li>
+<li><a href="disclaimer.html">Academic Disclaimer</a></li>
+<li><a href="contact.html">Contact &amp; Discrepancy Desk</a></li>
+<li><a href="progress.html">Curriculum Progress (100%)</a></li>
+<li><a href="sitemap.xml">XML Sitemap</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<div>
+          © 2026 MockTestVault. All rights reserved. Built for students &amp; competitive aspirants worldwide.
         </div>
-
-        <!-- Col 2: US & Global Vaults -->
-        <div>
-          <h4 class="footer-col-title">🇺🇸 US & 🌐 Global Hubs</h4>
-          <ul class="footer-links">
-            <li><a href="us/index.html">United States Exam Hub</a></li>
-            <li><a href="us/sat/math-practice-01.html">Digital SAT® Math 01 (Live)</a></li>
-            <li><a href="us/sat/reading-practice-01.html">Digital SAT® Reading 01 (Live)</a></li>
-            <li><a href="global/index.html">Global Standards Hub</a></li>
-            <li><a href="global/ielts/reading-practice-01.html">IELTS® Academic Reading 01 (Live)</a></li>
-            <li><a href="us/index.html#matrix">SAT vs ACT vs AP Scoring Matrix</a></li>
-          </ul>
-        </div>
-
-        <!-- Col 3: India Vault -->
-        <div>
-          <h4 class="footer-col-title">🇮🇳 India Exam Hub</h4>
-          <ul class="footer-links">
-            <li><a href="in/index.html">India Examination Hub</a></li>
-            <li><a href="cbse-class-10/index.html">CBSE Class 10 (48/48 Ch Live)</a></li>
-            <li><a href="cbse-class-10/index.html#block-science">Class 10 Science (13 Chapters)</a></li>
-            <li><a href="cbse-class-10/index.html#block-math">Class 10 Math (14 Chapters)</a></li>
-            <li><a href="cbse-class-10/index.html#block-sst">Class 10 Social Science (21 Chapters)</a></li>
-            <li><a href="ssc-cgl/index.html">SSC CGL Tier 1 Mock Engine</a></li>
-          </ul>
-        </div>
-
-        <!-- Col 4: Platform & Trust -->
-        <div>
-          <h4 class="footer-col-title">Platform & Trust</h4>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="javascript:void(0)" class="open-cookie-preferences">Cookie Preferences</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
-            <li><a href="disclaimer.html">Academic Disclaimer</a></li>
-            <li><a href="contact.html">Contact & Discrepancy Desk</a></li>
-            <li><a href="progress.html">Curriculum Progress (100%)</a></li>
-            <li><a href="sitemap.xml">XML Sitemap</a></li>
-          </ul>
-        </div>
-
-      </div>
-
-      <div class="footer-bottom">
-        <div>
-          © 2026 MockTestVault. All rights reserved. Built for students & competitive aspirants worldwide.
-        </div>
-        <div style="display:flex; gap:16px;">
-          <span>Distraction-Free CBT</span>
-          <span>•</span>
-          <span>100% Free Forever</span>
-          <span>•</span>
-          <span>Verified Explanations</span>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="js/homepage.js"></script>
+<div style="display:flex; gap:16px;">
+<span>Distraction-Free CBT</span>
+<span>•</span>
+<span>100% Free Forever</span>
+<span>•</span>
+<span>Worked Explanations</span>
+</div>
+</div>
+</div>
+</footer>
+<!-- Scripts -->
+<script src="js/homepage.js"></script>
 </body>
 </html>

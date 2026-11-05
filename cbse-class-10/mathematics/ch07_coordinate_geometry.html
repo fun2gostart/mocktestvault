@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,7 +90,7 @@
       "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch07_coordinate_geometry.html#quiz",
       "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch07_coordinate_geometry.html",
       "name": "CBSE Class 10 Mathematics (Coordinate Geometry) Chapter 7: Coordinate Geometry MCQ Practice Test",
-      "description": "Official CBSE Class 10 Board exam practice test for Chapter 7: Coordinate Geometry with timer, negative marking options, and step-by-step NCERT solutions.",
+      "description": "Independent CBSE Class 10 topic-practice test for Chapter 7: Coordinate Geometry with timer, negative marking options, and step-by-step NCERT solutions.",
       "educationalLevel": "Grade 10",
       "learningResourceType": "Practice Quiz",
       "educationalUse": "Assessment",
@@ -200,7 +213,7 @@
       "@type": "LearningResource",
       "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch07_coordinate_geometry.html#learningresource",
       "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch07_coordinate_geometry.html",
-      "name": "CBSE Class 10 Mathematics (Coordinate Geometry) Chapter 7: Coordinate Geometry Blueprint & Study Guide",
+      "name": "CBSE Class 10 Mathematics (Coordinate Geometry) Chapter 7: Coordinate Geometry Revision Guide & Study Guide",
       "description": "Cartesian coordinate geometry on 2D planes: distance formula, distance from origin, collinearity tests, section formula for internal division of line segments, and midpoint coordinates.",
       "educationalLevel": "Class 10",
       "learningResourceType": "Study Guide",
@@ -252,7 +265,7 @@
         <div class="brand-logo">🛡️</div>
         <div class="brand-text">
           <h1>CBSE 10 Maths Ch 7: Coordinate Geometry Mock <span class="vault-pill">CBSE Class 10</span></h1>
-          <p>Official Curriculum Exam Simulator</p>
+          <p>Independent Curriculum-Topic Practice</p>
         </div>
       </a>
 
@@ -262,7 +275,7 @@
           <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and step-by-step NCERT explanations">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 20-min official simulation with final scorecard">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 20-minute practice simulation with a practice scorecard">
             <span>⏱️</span> Exam
           </button>
         </div>
@@ -365,7 +378,7 @@
       <div class="explanation-box" id="explanation-box">
         <div class="explanation-header">
           <span>✓ NCERT Conceptual Explanation</span>
-          <span class="citation-tag" id="citation-tag">NCERT Official Syllabus</span>
+          <span class="citation-tag" id="citation-tag">NCERT Topic Reference</span>
         </div>
         <p class="explanation-text" id="explanation-text"></p>
       </div>
@@ -499,7 +512,7 @@
   </section>
 
   
-  <!-- Academic Chapter Guide & CBSE Board Blueprint (SEO & E-E-A-T Grounding) -->
+  <!-- Chapter Revision Guide (SEO & E-E-A-T Grounding) -->
   <section class="cbt-academic-guide" style="max-width:1200px; margin:40px auto; padding:0 20px;">
     <div style="border-top:1px solid var(--border-color); padding-top:32px; margin-bottom:24px;">
       <h2 style="font-size:1.35rem; font-weight:700; margin-bottom:12px; color:var(--text-primary);">
@@ -533,7 +546,7 @@
     <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
     <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
       <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
-        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+        <span>📝 Illustrative Practice Questions &amp; Worked Explanations</span>
       </h3>
       <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
         <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
@@ -552,7 +565,7 @@
           <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
             <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (A) — 2 sqrt(2) units</p>
             <p style="margin:0;"><strong>Explanation:</strong> By the Cartesian distance formula derived directly from the Pythagorean theorem, the straight-line distance d between two points P(x1, y1) and Q(x2, y2) is given by d = sqrt((x2 - x1)^2 + (y2 - y1)^2). Here, the coordinates are P(2, 3) and Q(4, 1), so x1 = 2, y1 = 3, x2 = 4, y2 = 1. Substituting into the distance formula: d = sqrt((4 - 2)^2 + (1 - 3)^2) = sqrt(2^2 + (-2)^2) = sqrt(4 + 4) = sqrt(8). Simplifying the radical gives sqrt(4 * 2) = 2*sqrt(2) units, matching the hypotenuse of the corresponding right-angled step triangle.</p>
-            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 7, Section 7.2</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>Topic reference (not item-level provenance):</strong> NCERT Class 10 Mathematics, Chapter 7, Section 7.2</p>
           </div>
         </details>
       </div>
@@ -573,15 +586,14 @@
           <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
             <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (D) — 10 units</p>
             <p style="margin:0;"><strong>Explanation:</strong> The distance of any arbitrary point P(x, y) on the Cartesian plane from the origin O(0, 0) is derived from the distance formula: OP = sqrt((x - 0)^2 + (y - 0)^2) = sqrt(x^2 + y^2). For the given point P(-6, 8), we have x = -6 and y = 8. Substituting these coordinate values into the origin distance formula gives: OP = sqrt((-6)^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 units. Since distance represents a physical scalar displacement, the principal square root is strictly positive, giving exactly 10 units.</p>
-            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 7, Section 7.2</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>Topic reference (not item-level provenance):</strong> NCERT Class 10 Mathematics, Chapter 7, Section 7.2</p>
           </div>
         </details>
       </div>
     </div>
 
     <div style="background:var(--bg-subtle); border-radius:8px; padding:18px; margin-bottom:24px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Official CBSE Marking Scheme &amp; Strategy:</strong>
-      • <strong>Marks Weightage:</strong> 6 Marks in annual board theory paper.<br>
+      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Exam Preparation Notes &amp; Practice Strategy:</strong>
       • <strong>Question Formats:</strong> Section A (Standalone MCQs &amp; Assertion-Reasoning), Section B/C (Short/Long Answers), Section E (Case Studies).<br>
       • <strong>Strategy &amp; Common Pitfalls:</strong> When asked to find the ratio in which a point or axis divides a segment, always assume the ratio to be k:1 instead of m:n to solve with a single unknown variable.<br>
       • <strong>Curriculum Navigation:</strong> <a href='ch08_introduction_to_trigonometry.html' style='color:var(--primary); font-weight:700;'>Next Chapter: Introduction to Trigonometry Mock →</a>
@@ -592,7 +604,7 @@
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official NCERT Class 10 Mathematics standards.</p>
+      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with NCERT Class 10 Mathematics topics; check the current CBSE curriculum for session-specific coverage.</p>
     
     <div class="footer-legal-links">
       <a href="/about.html">About Us</a>

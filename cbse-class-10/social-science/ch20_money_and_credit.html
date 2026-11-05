@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,7 +90,7 @@
       "@id": "https://mocktestvault.com/cbse-class-10/social-science/ch20_money_and_credit.html#quiz",
       "url": "https://mocktestvault.com/cbse-class-10/social-science/ch20_money_and_credit.html",
       "name": "CBSE Class 10 Social Science (Economics) Chapter 20: Money and Credit MCQ Practice Test",
-      "description": "Official CBSE Class 10 Board exam practice test for Chapter 20: Money and Credit with timer, negative marking options, and step-by-step NCERT solutions.",
+      "description": "Independent CBSE Class 10 topic-practice test for Chapter 20: Money and Credit with timer, negative marking options, and step-by-step NCERT solutions.",
       "educationalLevel": "Grade 10",
       "learningResourceType": "Practice Quiz",
       "educationalUse": "Assessment",
@@ -200,7 +213,7 @@
       "@type": "LearningResource",
       "@id": "https://mocktestvault.com/cbse-class-10/social-science/ch20_money_and_credit.html#learningresource",
       "url": "https://mocktestvault.com/cbse-class-10/social-science/ch20_money_and_credit.html",
-      "name": "CBSE Class 10 Social Science (Economics) Chapter 20: Money and Credit Blueprint & Study Guide",
+      "name": "CBSE Class 10 Social Science (Economics) Chapter 20: Money and Credit Revision Guide & Study Guide",
       "description": "Money as medium of exchange, eliminating double coincidence of wants in barter, modern forms of money (currency, demand deposits, cheques), loan activities of banks, terms of credit, and Self-Help Groups (SHGs).",
       "educationalLevel": "Class 10",
       "learningResourceType": "Study Guide",
@@ -252,7 +265,7 @@
         <div class="brand-logo">🛡️</div>
         <div class="brand-text">
           <h1>CBSE 10 SST Ch 3: Money and Credit Mock Test <span class="vault-pill">CBSE Class 10</span></h1>
-          <p>Official Curriculum Exam Simulator</p>
+          <p>Independent Curriculum-Topic Practice</p>
         </div>
       </a>
 
@@ -262,7 +275,7 @@
           <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and step-by-step NCERT explanations">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 20-min official simulation with final scorecard">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 20-minute practice simulation with a practice scorecard">
             <span>⏱️</span> Exam
           </button>
         </div>
@@ -354,7 +367,7 @@
       <div class="explanation-box" id="explanation-box">
         <div class="explanation-header">
           <span>✓ NCERT Conceptual Explanation</span>
-          <span class="citation-tag" id="citation-tag">NCERT Official Syllabus</span>
+          <span class="citation-tag" id="citation-tag">NCERT Topic Reference</span>
         </div>
         <p class="explanation-text" id="explanation-text"></p>
       </div>
@@ -487,7 +500,7 @@
   </section>
 
   
-  <!-- Academic Chapter Guide & CBSE Board Blueprint (SEO & E-E-A-T Grounding) -->
+  <!-- Chapter Revision Guide (SEO & E-E-A-T Grounding) -->
   <section class="cbt-academic-guide" style="max-width:1200px; margin:40px auto; padding:0 20px;">
     <div style="border-top:1px solid var(--border-color); padding-top:32px; margin-bottom:24px;">
       <h2 style="font-size:1.35rem; font-weight:700; margin-bottom:12px; color:var(--text-primary);">
@@ -521,7 +534,7 @@
     <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
     <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
       <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
-        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+        <span>📝 Illustrative Practice Questions &amp; Worked Explanations</span>
       </h3>
       <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
         <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
@@ -540,7 +553,7 @@
           <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
             <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (A) — Double coincidence of wants (both parties must agree to sell and buy each other&#x27;s commodities)</p>
             <p style="margin:0;"><strong>Explanation:</strong> In an ancient barter economy where commodities are exchanged directly without any monetary medium, exchange is constrained by the &#x27;double coincidence of wants&#x27;. This means that what one party desires to sell must coincide precisely with what the other party wishes to buy (e.g. a shoemaker needing wheat must find a wheat farmer wanting shoes). Because searching for matching reciprocal trading partners is exceedingly difficult, time-consuming, and inefficient, the introduction of money revolutionized commerce by eliminating this obstacle.</p>
-            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Economics, Chapter 3, Section 3.1</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>Topic reference (not item-level provenance):</strong> NCERT Class 10 Economics, Chapter 3, Section 3.1</p>
           </div>
         </details>
       </div>
@@ -561,15 +574,15 @@
           <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
             <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (B) — Because it acts as an intermediary instrument in the transactions and exchange of goods and services</p>
             <p style="margin:0;"><strong>Explanation:</strong> Money is termed a &#x27;medium of exchange&#x27; because it acts as a universally accepted intermediary asset in the purchase and sale of goods, assets, and services. In a modern economy, a person holding money does not have to search for double coincidences; they can immediately purchase any commodity or service desired from any merchant. By decoupling the act of sale from the act of purchase, money solves the indivisibility and storage problems of barter, serving as a universal standard unit of account and store of economic value.</p>
-            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Economics, Chapter 3, Section 3.1</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>Topic reference (not item-level provenance):</strong> NCERT Class 10 Economics, Chapter 3, Section 3.1</p>
           </div>
         </details>
       </div>
     </div>
 
     <div style="background:var(--bg-subtle); border-radius:8px; padding:18px; margin-bottom:24px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Official CBSE Marking Scheme &amp; Strategy:</strong>
-      • <strong>Marks Weightage:</strong> 5–6 Marks in annual board theory paper.<br>
+      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Exam Preparation Notes &amp; Practice Strategy:</strong>
+      • <strong>Weightage note:</strong> This guide does not establish official chapter-wise marks allocation; consult the current CBSE syllabus and sample papers.<br>
       • <strong>Question Formats:</strong> Section A (Standalone MCQs &amp; Assertion-Reasoning), Section B/C (Short/Long Answers), Section E (Case Studies).<br>
       • <strong>Strategy &amp; Common Pitfalls:</strong> Explain the role of the Reserve Bank of India (RBI) in supervising commercial banks (verifying cash reserve ratio and ensuring loans are granted to small borrowers, not just rich corporations).<br>
       • <strong>Curriculum Navigation:</strong> <a href='ch21_globalisation_and_indian_economy.html' style='color:var(--primary); font-weight:700;'>Next Chapter: Globalisation &amp; Indian Economy Mock →</a>
@@ -580,7 +593,7 @@
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official NCERT Class 10 Social Science standards.</p>
+      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with NCERT Class 10 Social Science topics; check the current CBSE curriculum for session-specific coverage.</p>
     
     <div class="footer-legal-links">
       <a href="/about.html">About Us</a>

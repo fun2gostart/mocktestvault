@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
+  <!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,7 +90,7 @@
       "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html#quiz",
       "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html",
       "name": "CBSE Class 10 Mathematics (Algebra) Chapter 4: Quadratic Equations MCQ Practice Test",
-      "description": "Official CBSE Class 10 Board exam practice test for Chapter 4: Quadratic Equations with timer, negative marking options, and step-by-step NCERT solutions.",
+      "description": "Independent CBSE Class 10 topic-practice test for Chapter 4: Quadratic Equations with timer, negative marking options, and step-by-step NCERT solutions.",
       "educationalLevel": "Grade 10",
       "learningResourceType": "Practice Quiz",
       "educationalUse": "Assessment",
@@ -200,7 +213,7 @@
       "@type": "LearningResource",
       "@id": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html#learningresource",
       "url": "https://mocktestvault.com/cbse-class-10/mathematics/ch04_quadratic_equations.html",
-      "name": "CBSE Class 10 Mathematics (Algebra) Chapter 4: Quadratic Equations Blueprint & Study Guide",
+      "name": "CBSE Class 10 Mathematics (Algebra) Chapter 4: Quadratic Equations Revision Guide & Study Guide",
       "description": "Standard form ax² + bx + c = 0 (a ≠ 0), factorization by middle-term splitting, the quadratic formula (Shreedharacharya's rule), discriminant D = b² - 4ac, nature of roots, and real-world word problems.",
       "educationalLevel": "Class 10",
       "learningResourceType": "Study Guide",
@@ -252,7 +265,7 @@
         <div class="brand-logo">🛡️</div>
         <div class="brand-text">
           <h1>CBSE 10 Maths Ch 4: Quadratic Equations Mock <span class="vault-pill">CBSE Class 10</span></h1>
-          <p>Official Curriculum Exam Simulator</p>
+          <p>Independent Curriculum-Topic Practice</p>
         </div>
       </a>
 
@@ -262,7 +275,7 @@
           <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant answers and step-by-step NCERT explanations">
             <span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 20-min official simulation with final scorecard">
+          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Timed 20-minute practice simulation with a practice scorecard">
             <span>⏱️</span> Exam
           </button>
         </div>
@@ -365,7 +378,7 @@
       <div class="explanation-box" id="explanation-box">
         <div class="explanation-header">
           <span>✓ NCERT Conceptual Explanation</span>
-          <span class="citation-tag" id="citation-tag">NCERT Official Syllabus</span>
+          <span class="citation-tag" id="citation-tag">NCERT Topic Reference</span>
         </div>
         <p class="explanation-text" id="explanation-text"></p>
       </div>
@@ -499,7 +512,7 @@
   </section>
 
   
-  <!-- Academic Chapter Guide & CBSE Board Blueprint (SEO & E-E-A-T Grounding) -->
+  <!-- Chapter Revision Guide (SEO & E-E-A-T Grounding) -->
   <section class="cbt-academic-guide" style="max-width:1200px; margin:40px auto; padding:0 20px;">
     <div style="border-top:1px solid var(--border-color); padding-top:32px; margin-bottom:24px;">
       <h2 style="font-size:1.35rem; font-weight:700; margin-bottom:12px; color:var(--text-primary);">
@@ -533,7 +546,7 @@
     <!-- Sample Board Practice Problems & Marking Key (Structured Data & Wave-1 SEO Alignment) -->
     <div style="background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; padding:20px; margin-bottom:24px;">
       <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin-bottom:14px; display:flex; align-items:center; gap:8px;">
-        <span>📝 Sample Board Examination Problems &amp; Official Solutions</span>
+        <span>📝 Illustrative Practice Questions &amp; Worked Explanations</span>
       </h3>
       <div style="margin-bottom:16px; padding-bottom:16px; border-bottom:1px dashed var(--border-color);">
         <p style="font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:10px;">
@@ -552,7 +565,7 @@
           <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
             <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (D) — x(x + 1) + 8 = (x + 2)(x - 2)</p>
             <p style="margin:0;"><strong>Explanation:</strong> An equation of the form ax^2 + bx + c = 0 is quadratic if a != 0 (degree 2). Let us test option 4: expanding LHS gives x^2 + x + 8; expanding RHS using identity (a+b)(a-b) = a^2 - b^2 gives x^2 - 4. Equating both sides: x^2 + x + 8 = x^2 - 4 =&gt; x^2 cancels out on both sides, yielding x + 12 = 0. Because the highest exponent of x is 1, this is a linear equation, NOT a quadratic equation. All other options retain an x^2 term with a non-zero coefficient after simplification.</p>
-            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 4, Section 4.2, Example 2</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>Topic reference (not item-level provenance):</strong> NCERT Class 10 Mathematics, Chapter 4, Section 4.2, Example 2</p>
           </div>
         </details>
       </div>
@@ -573,15 +586,15 @@
           <div style="margin-top:8px; color:var(--text-secondary); line-height:1.5;">
             <p style="margin-bottom:4px;"><strong style="color:var(--text-primary);">Correct Answer:</strong> Option (B) — D &gt; 0</p>
             <p style="margin:0;"><strong>Explanation:</strong> Per NCERT Class 10 Chapter 4, the roots of the standard quadratic equation ax^2 + bx + c = 0 (a != 0) are determined by the discriminant D = b^2 - 4ac via the quadratic formula x = (-b +- sqrt(D))/(2a). Nature of roots: (1) When D &gt; 0, sqrt(D) is a strictly positive real number, yielding two distinct real roots x = (-b + sqrt(D))/(2a) and x = (-b - sqrt(D))/(2a); (2) When D = 0, both roots coincide (-b/(2a)); (3) When D &lt; 0, sqrt(D) is non-real, giving no real roots.</p>
-            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>NCERT Source:</strong> NCERT Class 10 Mathematics, Chapter 4, Section 4.5</p>
+            <p style="margin:4px 0 0; font-size:0.75rem; color:var(--text-muted);"><strong>Topic reference (not item-level provenance):</strong> NCERT Class 10 Mathematics, Chapter 4, Section 4.5</p>
           </div>
         </details>
       </div>
     </div>
 
     <div style="background:var(--bg-subtle); border-radius:8px; padding:18px; margin-bottom:24px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Official CBSE Marking Scheme &amp; Strategy:</strong>
-      • <strong>Marks Weightage:</strong> 6–8 Marks in annual board theory paper.<br>
+      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;">⚖️ Exam Preparation Notes &amp; Practice Strategy:</strong>
+      • <strong>Weightage note:</strong> This guide does not establish official chapter-wise marks allocation; consult the current CBSE syllabus and sample papers.<br>
       • <strong>Question Formats:</strong> Section A (Standalone MCQs &amp; Assertion-Reasoning), Section B/C (Short/Long Answers), Section E (Case Studies).<br>
       • <strong>Strategy &amp; Common Pitfalls:</strong> For word problems, reject negative values of x if the physical variable represents length, age, or speed, but always justify the rejection explicitly.<br>
       • <strong>Curriculum Navigation:</strong> <a href='ch05_arithmetic_progressions.html' style='color:var(--primary); font-weight:700;'>Next Chapter: Arithmetic Progressions Mock →</a>
@@ -592,7 +605,7 @@
   <footer class="site-footer">
     <div class="footer-container">
       <p><strong>MockTestVault.com</strong> — 100% Free Educational Practice & Board Exam Simulators.</p>
-      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with official NCERT Class 10 Mathematics standards.</p>
+      <p style="font-size:0.75rem;">100% Free & Distraction-Free. Aligned with NCERT Class 10 Mathematics topics; check the current CBSE curriculum for session-specific coverage.</p>
     
     <div class="footer-legal-links">
       <a href="/about.html">About Us</a>

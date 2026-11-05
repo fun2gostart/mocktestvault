@@ -1,42 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+
+<html data-theme="light" lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SFM1Q4MV"></script>
-  <script>
+<!-- Google Analytics is loaded by consent.js only after an explicit opt-in. -->
+<script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-05SFM1Q4MV');
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    (function () {
+      var savedConsent = null;
+      try { savedConsent = localStorage.getItem('mtv_consent_choice'); } catch (e) {}
+      var initialGrant = savedConsent === 'accepted' ? 'granted' : 'denied';
+      window.gtag('consent', 'default', {
+        'analytics_storage': initialGrant,
+        'ad_storage': initialGrant,
+        'ad_user_data': initialGrant,
+        'ad_personalization': initialGrant,
+        'personalization_storage': initialGrant,
+        'functionality_storage': 'granted',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+    })();
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-05SFM1Q4MV', { 'send_page_view': false });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CBSE Class 10 Social Science Mock 2024 | MockTestVault</title>
-  <meta name="description" content="Practice the CBSE Class 10 Social Science 2024 blueprint with 80 chapter-aligned MCQs and NCERT-based explanations.">
-  <!-- Canonical & Open Graph (Social Sharing) -->
-  <link rel="canonical" href="https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html">
-  <meta property="og:site_name" content="MockTestVault">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html">
-  <meta property="og:title" content="CBSE Class 10 Social Science Mock 2024 | MockTestVault">
-  <meta property="og:description" content="Practice the CBSE Class 10 Social Science 2024 blueprint with 80 chapter-aligned MCQs and NCERT-based explanations.">
-  <meta property="og:image" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:secure_url" content="https://mocktestvault.com/assets/og-image.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="MockTestVault — Free Online CBT Mock Exam Simulator">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CBSE Class 10 Social Science Mock 2024 | MockTestVault">
-  <meta name="twitter:description" content="Practice the CBSE Class 10 Social Science 2024 blueprint with 80 chapter-aligned MCQs and NCERT-based explanations.">
-  <meta name="twitter:image" content="https://mocktestvault.com/assets/og-image.png">
-
-  <link rel="stylesheet" href="../../css/test-engine.css">
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CBSE Class 10 Social Science 2024 Practice Set | MockTestVault</title>
+<meta content="Independent 2024-labelled CBSE Class 10 Social Science practice set. The original board paper and official marking scheme have not been matched item by item." name="description"/>
+<!-- Canonical & Open Graph (Social Sharing) -->
+<link href="https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html" rel="canonical"/>
+<meta content="MockTestVault" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html" property="og:url"/>
+<meta content="CBSE Class 10 Social Science 2024 Practice Set | MockTestVault" property="og:title"/>
+<meta content="Independent 2024-labelled CBSE Class 10 Social Science practice set. The original board paper and official marking scheme have not been matched item by item." property="og:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" property="og:image:secure_url"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="MockTestVault — Free Online CBT Mock Exam Simulator" property="og:image:alt"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="CBSE Class 10 Social Science 2024 Practice Set | MockTestVault" name="twitter:title"/>
+<meta content="Independent 2024-labelled CBSE Class 10 Social Science practice set. The original board paper and official marking scheme have not been matched item by item." name="twitter:description"/>
+<meta content="https://mocktestvault.com/assets/og-image.png" name="twitter:image"/>
+<link href="../../css/test-engine.css" rel="stylesheet"/>
+<style>
     .cgl-section-tabs {
       display: flex;
       gap: 8px;
@@ -77,9 +88,8 @@
       background: rgba(0, 0, 0, 0.15);
     }
   </style>
-
-  <!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz, LearningResource) -->
-  <script type="application/ld+json">
+<!-- Schema.org Unified 2026 Structured Data (@graph: BreadcrumbList, Quiz, LearningResource) -->
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -114,7 +124,7 @@
           {
             "@type": "ListItem",
             "position": 5,
-            "name": "Social Science 2024 Board Paper",
+            "name": "Social Science 2024 Year-Labelled Practice Set",
             "item": "https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html"
           }
         ]
@@ -123,8 +133,8 @@
         "@type": "Quiz",
         "@id": "https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html#quiz",
         "url": "https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html",
-        "name": "CBSE Class 10 Social Science 2024 Board Paper Solved | MockTestVault",
-        "description": "Year-Labelled CBSE Class 10 Practice Social Science 2024 Board Examination solved question paper. 80 questions across History, Geography, Political Science, Economics with reference marking notes; original official key not attached.",
+        "name": "CBSE Class 10 Social Science 2024 Year-Labelled Practice Set Solved | MockTestVault",
+        "description": "Independent year-labelled Social Science practice set with 80 questions and topic-based worked explanations. Original CBSE question paper and official marking scheme are not attached or matched item by item.",
         "educationalLevel": "Grade 10 / Secondary School Examination",
         "learningResourceType": "Independent Year-Labelled Practice Set",
         "educationalUse": "Assessment",
@@ -164,9 +174,9 @@
         "@id": "https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html#learningresource",
         "url": "https://mocktestvault.com/cbse-class-10/sample-papers/social-science-board-paper-2024.html",
         "name": "CBSE Class 10 Social Science 2024 Year-Labelled Practice Module — Provenance Unverified",
-        "description": "Year-Labelled CBSE Class 10 Practice Social Science 2024 Board Examination solved question paper. 80 questions across History, Geography, Political Science, Economics with reference marking notes; original official key not attached.",
+        "description": "Independent year-labelled Social Science practice set with 80 questions and topic-based worked explanations. Original CBSE question paper and official marking scheme are not attached or matched item by item.",
         "educationalLevel": "Class 10",
-        "learningResourceType": "Exam Solved Paper",
+        "learningResourceType": "Independent Year-Labelled Practice Set",
         "educationalUse": ["practice", "assessment", "study-guide"],
         "inLanguage": "en",
         "isAccessibleForFree": true,
@@ -180,306 +190,264 @@
     ]
   }
   </script>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#2563eb">
-  <script src="/js/consent.js" defer></script>
+<link href="/manifest.json" rel="manifest"/>
+<meta content="#2563eb" name="theme-color"/>
+<script defer="" src="/js/consent.js"></script>
 </head>
 <body>
-
-  <!-- Print Only Header -->
-  <div class="print-only-header">
-    <div class="print-title" role="heading" aria-level="2">MockTestVault — CBSE Class 10 Social Science 2024 Board Paper Solved | MockTestVault</div>
-    <p>Year-Labelled CBSE Class 10 Practice Social Science 2024 Solved Examination (Code 087) | 80 Marks • 180 Mins | mocktestvault.com</p>
-  </div>
-
-  <!-- Site Navigation Header -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="../index.html" class="brand-link">
-        <div class="brand-logo">🌍</div>
-        <div class="brand-text">
-          <h1>CBSE Class 10 Social Science 80-Question Objective Mock (2024 Curriculum Drill) <span class="vault-pill">CBSE Class 10</span></h1>
-          <p>Social Science 80-Question Objective Mock (2024 Drill)</p>
-        </div>
-      </a>
-
-      <div class="header-controls">
-        <div class="mode-pill-group" role="group" aria-label="Test Mode Selection">
-          <button id="mode-practice-btn" class="mode-btn" title="Practice Mode: Instant step-by-step NCERT rationales">
-            <span>🎓</span> Practice
+<!-- Print Only Header -->
+<div class="print-only-header">
+<div aria-level="2" class="print-title" role="heading">MockTestVault — CBSE Class 10 Social Science 2024 Year-Labelled Practice Set Solved | MockTestVault</div>
+<p>Year-Labelled CBSE Class 10 Practice Social Science 2024 Year-Labelled Practice Set (Code 087) | 80 Marks • 180 Mins | mocktestvault.com</p>
+</div>
+<!-- Site Navigation Header -->
+<header class="site-header">
+<div class="header-container">
+<a class="brand-link" href="../index.html">
+<div class="brand-logo">🌍</div>
+<div class="brand-text">
+<h1>CBSE Class 10 Social Science 80-Question Objective Mock (2024 Curriculum Drill) <span class="vault-pill">CBSE Class 10</span></h1>
+<p>Social Science 80-Question Objective Mock (2024 Drill)</p>
+</div>
+</a>
+<div class="header-controls">
+<div aria-label="Test Mode Selection" class="mode-pill-group" role="group">
+<button class="mode-btn" id="mode-practice-btn" title="Practice Mode: Instant step-by-step NCERT rationales">
+<span>🎓</span> Practice
           </button>
-          <button id="mode-exam-btn" class="mode-btn active" title="Exam Mode: Independent 3-Hour Board-Pattern Practice">
-            <span>⏱️</span> Exam
+<button class="mode-btn active" id="mode-exam-btn" title="Exam Mode: Independent 3-Hour Board-Pattern Practice">
+<span>⏱️</span> Exam
           </button>
-        </div>
-
-        <div style="display:flex; gap:6px;">
-          <button id="btn-font-dec" class="tool-btn" title="Decrease Font Size">A-</button>
-          <button id="btn-font-inc" class="tool-btn" title="Increase Font Size">A+</button>
-          <button id="btn-sound-toggle" class="tool-btn" title="Toggle Sound Feedback">🔊</button>
-          <button id="btn-fullscreen-toggle" class="tool-btn" title="Toggle Fullscreen Focus">⛶</button>
-        </div>
-
-        <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Breadcrumb Navigation -->
-  <nav class="breadcrumb-bar" aria-label="Breadcrumb">
-    <div class="breadcrumb-container">
-      <a href="../../index.html">Home</a>
-      <span class="sep">/</span>
-      <a href="../../in/index.html">India Hub</a>
-      <span class="sep">/</span>
-      <a href="../index.html">CBSE Class 10</a>
-      <span class="sep">/</span>
-      <a href="index.html">Sample Papers</a>
-      <span class="sep">/</span>
-      <span class="current">Social Science 2024 Board Paper</span>
-    </div>
-  </nav>
-
-  <!-- Section Navigation Tabs -->
-  <div class="cgl-section-tabs" role="tablist" aria-label="Examination Syllabus Sections">
-    <button class="cgl-sec-btn active" data-start="0" data-end="19" onclick="jumpToSection(0, this)"><span>📜 Sec A: History</span> <span class="cgl-sec-badge">Q 1–20</span></button>
-    <button class="cgl-sec-btn" data-start="20" data-end="40" onclick="jumpToSection(20, this)"><span>🗺️ Sec B: Geography</span> <span class="cgl-sec-badge">Q 21–41</span></button>
-    <button class="cgl-sec-btn" data-start="41" data-end="60" onclick="jumpToSection(41, this)"><span>⚖️ Sec C: Political Science</span> <span class="cgl-sec-badge">Q 42–61</span></button>
-    <button class="cgl-sec-btn" data-start="61" data-end="79" onclick="jumpToSection(61, this)"><span>📈 Sec D: Economics</span> <span class="cgl-sec-badge">Q 62–80</span></button>
-  </div>
-
-  <!-- Exam Live Status Bar -->
-  <div id="exam-status-bar" class="exam-status-bar">
-    <div class="status-container">
-      <div id="timer-box" class="timer-box">
-        <span>⏱️</span>
-        <span id="timer-display">180:00</span>
-      </div>
-
-      <div class="progress-info">
-        <span id="progress-text" class="progress-text">Loading CBSE Class 10 Social Science 2024 Board Paper...</span>
-        <div class="progress-bar-track">
-          <div id="progress-bar-fill" class="progress-bar-fill"></div>
-        </div>
-      </div>
-
-      <div class="action-tools">
-        <button id="btn-instructions" class="tool-btn" title="View Board Exam Guidelines">📜 Instructions</button>
-        <button id="btn-print-sheet" class="tool-btn" title="Print Solved A4 Board Paper">🖨️ Print Solved</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Main CBT Examination Container (Stationary 600px Viewport) -->
-  
-<section class="cbse-provenance-status" aria-label="Question provenance status"
- style="max-width:1180px;margin:18px auto;padding:14px 18px;border:1px solid var(--border-color);border-left:4px solid #b7791f;border-radius:10px;background:var(--bg-subtle);line-height:1.6;">
+</div>
+<div style="display:flex; gap:6px;">
+<button class="tool-btn" id="btn-font-dec" title="Decrease Font Size">A-</button>
+<button class="tool-btn" id="btn-font-inc" title="Increase Font Size">A+</button>
+<button class="tool-btn" id="btn-sound-toggle" title="Toggle Sound Feedback">🔊</button>
+<button class="tool-btn" id="btn-fullscreen-toggle" title="Toggle Fullscreen Focus">⛶</button>
+</div>
+<button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+</div>
+</div>
+</header>
+<!-- Breadcrumb Navigation -->
+<nav aria-label="Breadcrumb" class="breadcrumb-bar">
+<div class="breadcrumb-container">
+<a href="../../index.html">Home</a>
+<span class="sep">/</span>
+<a href="../../in/index.html">India Hub</a>
+<span class="sep">/</span>
+<a href="../index.html">CBSE Class 10</a>
+<span class="sep">/</span>
+<a href="index.html">Sample Papers</a>
+<span class="sep">/</span>
+<span class="current">Social Science 2024 Year-Labelled Practice Set</span>
+</div>
+</nav>
+<!-- Section Navigation Tabs -->
+<div aria-label="Examination Syllabus Sections" class="cgl-section-tabs" role="tablist">
+<button class="cgl-sec-btn active" data-end="19" data-start="0" onclick="jumpToSection(0, this)"><span>📜 Sec A: History</span> <span class="cgl-sec-badge">Q 1–20</span></button>
+<button class="cgl-sec-btn" data-end="40" data-start="20" onclick="jumpToSection(20, this)"><span>🗺️ Sec B: Geography</span> <span class="cgl-sec-badge">Q 21–41</span></button>
+<button class="cgl-sec-btn" data-end="60" data-start="41" onclick="jumpToSection(41, this)"><span>⚖️ Sec C: Political Science</span> <span class="cgl-sec-badge">Q 42–61</span></button>
+<button class="cgl-sec-btn" data-end="79" data-start="61" onclick="jumpToSection(61, this)"><span>📈 Sec D: Economics</span> <span class="cgl-sec-badge">Q 62–80</span></button>
+</div>
+<!-- Exam Live Status Bar -->
+<div class="exam-status-bar" id="exam-status-bar">
+<div class="status-container">
+<div class="timer-box" id="timer-box">
+<span>⏱️</span>
+<span id="timer-display">180:00</span>
+</div>
+<div class="progress-info">
+<span class="progress-text" id="progress-text">Loading CBSE Class 10 Social Science 2024 Year-Labelled Practice Set...</span>
+<div class="progress-bar-track">
+<div class="progress-bar-fill" id="progress-bar-fill"></div>
+</div>
+</div>
+<div class="action-tools">
+<button class="tool-btn" id="btn-instructions" title="View Practice Set Guidelines">📜 Instructions</button>
+<button class="tool-btn" id="btn-print-sheet" title="Print Solved A4 Year-Labelled Practice Set">🖨️ Print Solved</button>
+</div>
+</div>
+</div>
+<!-- Main CBT Examination Container (Stationary 600px Viewport) -->
+<section aria-label="Question provenance status" class="cbse-provenance-status" style="max-width:1180px;margin:18px auto;padding:14px 18px;border:1px solid var(--border-color);border-left:4px solid #b7791f;border-radius:10px;background:var(--bg-subtle);line-height:1.6;">
 <strong>Provenance status: year-labelled practice set; not authenticated as the original CBSE board paper.</strong>
-The original CBSE question paper and practice scoring rubric are not attached or matched question-by-question in this release. Official CBSE sample-paper archives are linked only as syllabus/format references: <a href="https://cbseacademic.nic.in/sqp_classx_2023-24.html" target="_blank" rel="noopener">2023–24</a> and <a href="https://cbseacademic.nic.in/sqp_classx_2024-25.html" target="_blank" rel="noopener">2024–25</a>. These are sample-paper references, not proof that this practice set reproduces an annual board paper. <a href="/question-sources-review.html">See the source and review policy</a>.
+The original CBSE question paper and practice scoring rubric are not attached or matched question-by-question in this release. Official CBSE sample-paper archives are linked only as syllabus/format references: <a href="https://cbseacademic.nic.in/sqp_classx_2023-24.html" rel="noopener" target="_blank">2023–24</a> and <a href="https://cbseacademic.nic.in/sqp_classx_2024-25.html" rel="noopener" target="_blank">2024–25</a>. These are sample-paper references, not proof that this practice set reproduces an annual board paper. <a href="/question-sources-review.html">See the source and review policy</a>.
 </section>
 <main class="test-wrapper">
-    <div class="test-grid">
-      
-      <!-- Question Left Column -->
-      <section class="question-column" aria-label="Current Question">
-        <div class="question-card">
-          <div class="q-header">
-            <div class="q-badge-group">
-              <span id="q-number" class="q-badge">Question 1</span>
-              <span id="q-subtopic" class="q-subtopic">Social Science 2024 Board Exam</span>
-            </div>
-            <div class="q-actions">
-              <button id="btn-mark-review" class="action-btn review-btn" title="Tag question for final check">
-                <span>⭐</span> Mark Review
+<div class="test-grid">
+<!-- Question Left Column -->
+<section aria-label="Current Question" class="question-column">
+<div class="question-card">
+<div class="q-header">
+<div class="q-badge-group">
+<span class="q-badge" id="q-number">Question 1</span>
+<span class="q-subtopic" id="q-subtopic">Social Science 2024 Practice Set</span>
+</div>
+<div class="q-actions">
+<button class="action-btn review-btn" id="btn-mark-review" title="Tag question for final check">
+<span>⭐</span> Mark Review
               </button>
-            </div>
+</div>
+</div>
+<div class="q-text" id="q-text">
+            Initializing Social Science 2024 Year-Labelled Practice Set...
           </div>
-
-          <div id="q-text" class="q-text">
-            Initializing Social Science 2024 Board Examination Paper...
-          </div>
-
-          <div id="q-options" class="q-options" role="radiogroup" aria-label="Answer Choices">
-            <!-- Rendered by test-engine.js -->
-          </div>
-
-          <div id="q-rationale" class="q-rationale" style="display:none;" aria-live="polite">
-            <!-- Rendered by test-engine.js -->
-          </div>
-        </div>
-
-        <!-- Sticky Bottom Navigation Controls -->
-        <div class="nav-controls">
-          <button id="btn-prev" class="nav-btn secondary-btn" disabled>
-            <span>←</span> Previous
+<div aria-label="Answer Choices" class="q-options" id="q-options" role="radiogroup">
+<!-- Rendered by test-engine.js -->
+</div>
+<div aria-live="polite" class="q-rationale" id="q-rationale" style="display:none;">
+<!-- Rendered by test-engine.js -->
+</div>
+</div>
+<!-- Sticky Bottom Navigation Controls -->
+<div class="nav-controls">
+<button class="nav-btn secondary-btn" disabled="" id="btn-prev">
+<span>←</span> Previous
           </button>
-          
-          <div class="nav-center-group">
-            <button id="btn-clear" class="nav-btn subtle-btn">Clear Choice</button>
-          </div>
-
-          <button id="btn-next" class="nav-btn primary-btn">
+<div class="nav-center-group">
+<button class="nav-btn subtle-btn" id="btn-clear">Clear Choice</button>
+</div>
+<button class="nav-btn primary-btn" id="btn-next">
             Next <span>→</span>
-          </button>
-        </div>
-      </section>
-
-      <!-- Sidebar Right Column (Palettes & Progress) -->
-      <aside class="sidebar-column" aria-label="Question Navigation Palette">
-        <div class="sidebar-card">
-          
-          <div class="palette-legend">
-            <div class="legend-item"><span class="badge-sample current"></span> Current</div>
-            <div class="legend-item"><span class="badge-sample answered"></span> Answered</div>
-            <div class="legend-item"><span class="badge-sample review"></span> Review</div>
-            <div class="legend-item"><span class="badge-sample unvisited"></span> Unvisited</div>
-          </div>
-
-          <div class="palette-container">
-            <div class="palette-title">Question Navigation (80 Questions)</div>
-            <div id="question-palette" class="palette-grid">
-              <!-- Rendered by test-engine.js -->
-            </div>
-          </div>
-
-          <div class="sidebar-footer">
-            <button id="btn-submit" class="submit-btn">
-              <span>🏁</span> Submit Board Paper
+</button>
+</div>
+</section>
+<!-- Sidebar Right Column (Palettes & Progress) -->
+<aside aria-label="Question Navigation Palette" class="sidebar-column">
+<div class="sidebar-card">
+<div class="palette-legend">
+<div class="legend-item"><span class="badge-sample current"></span> Current</div>
+<div class="legend-item"><span class="badge-sample answered"></span> Answered</div>
+<div class="legend-item"><span class="badge-sample review"></span> Review</div>
+<div class="legend-item"><span class="badge-sample unvisited"></span> Unvisited</div>
+</div>
+<div class="palette-container">
+<div class="palette-title">Question Navigation (80 Questions)</div>
+<div class="palette-grid" id="question-palette">
+<!-- Rendered by test-engine.js -->
+</div>
+</div>
+<div class="sidebar-footer">
+<button class="submit-btn" id="btn-submit">
+<span>🏁</span> Submit Year-Labelled Practice Set
             </button>
-          </div>
-        </div>
-      </aside>
-
-    </div>
-  </main>
-
-  <!-- Complete Scorecard & Diagnostic Review Modal -->
-  <section id="results-modal" class="results-modal" style="display:none;" aria-hidden="true" role="dialog">
-    <div class="results-container">
-      <div class="results-header">
-        <h2>Social Science 2024 Board Exam Scorecard</h2>
-        <p class="results-subtitle">Scored using MockTestVault practice scoring; this is not an official CBSE result or marking scheme (80 Marks Total)</p>
-      </div>
-
-      <div class="score-summary-grid">
-        <div class="score-card total-score">
-          <div class="metric-label">Scaled Score</div>
-          <div id="res-score" class="metric-value">0 / 80</div>
-          <div id="res-percent" class="metric-sub">0% Total Accuracy</div>
-        </div>
-
-        <div class="score-card grade-score">
-          <div class="metric-label">CBSE Predicted Grade</div>
-          <div id="res-grade" class="metric-value">--</div>
-          <div id="res-grade-desc" class="metric-sub">Evaluation Complete</div>
-        </div>
-
-        <div class="score-card time-score">
-          <div class="metric-label">Time Consumed</div>
-          <div id="res-time" class="metric-value">00:00</div>
-          <div class="metric-sub">Out of 180 Mins</div>
-        </div>
-      </div>
-
-      <div class="next-step-box">
-        <h3>Continue Your CBSE Board Exam Preparation</h3>
-        <p>Advance to adjacent full-syllabus mock papers or revise master formulas and chemical reactions.</p>
-        <div class="next-step-actions">
-          <a href="science-board-paper-2024.html" class="next-launcher-btn">
-            <span>🧪</span> Take Science 2024 Board Solved Paper →
+</div>
+</div>
+</aside>
+</div>
+</main>
+<!-- Complete Scorecard & Diagnostic Review Modal -->
+<section aria-hidden="true" class="results-modal" id="results-modal" role="dialog" style="display:none;">
+<div class="results-container">
+<div class="results-header">
+<h2>Social Science 2024 Practice Set Result</h2>
+<p class="results-subtitle">Scored using MockTestVault practice scoring; this is not an official CBSE result or marking scheme (80 Marks Total)</p>
+</div>
+<div class="score-summary-grid">
+<div class="score-card total-score">
+<div class="metric-label">Scaled Score</div>
+<div class="metric-value" id="res-score">0 / 80</div>
+<div class="metric-sub" id="res-percent">0% Total Accuracy</div>
+</div>
+<div class="score-card grade-score">
+<div class="metric-label">CBSE Predicted Grade</div>
+<div class="metric-value" id="res-grade">--</div>
+<div class="metric-sub" id="res-grade-desc">Evaluation Complete</div>
+</div>
+<div class="score-card time-score">
+<div class="metric-label">Time Consumed</div>
+<div class="metric-value" id="res-time">00:00</div>
+<div class="metric-sub">Out of 180 Mins</div>
+</div>
+</div>
+<div class="next-step-box">
+<h3>Continue Your CBSE Practice Set Preparation</h3>
+<p>Advance to adjacent full-syllabus mock papers or revise master formulas and chemical reactions.</p>
+<div class="next-step-actions">
+<a class="next-launcher-btn" href="science-board-paper-2024.html">
+<span>🧪</span> Take Science 2024 Year-Labelled Practice Set →
           </a>
-          <a href="index.html" class="hub-launcher-btn">
-            <span>📚</span> Sample Papers &amp; Past Papers Hub
+<a class="hub-launcher-btn" href="index.html">
+<span>📚</span> Sample Papers &amp; Past Papers Hub
           </a>
-        </div>
-      </div>
-
-      <div class="review-header">
-        <h3>Question-Wise Explanations &amp; Worked Solutions</h3>
-        <p>Review every question with MockTestVault practice answers, NCERT text references, and step rationales.</p>
-      </div>
-
-      <div id="review-list"></div>
-    </div>
-  </section>
-
-  <!-- Academic Chapter Guide & CBSE Board Blueprint (SEO & E-E-A-T Grounding) -->
-  <section class="cbt-academic-guide" style="max-width:1200px; margin:40px auto; padding:0 20px;">
-    <div style="border-top:1px solid var(--border-color); padding-top:32px; margin-bottom:24px;">
-      <h2 style="font-size:1.35rem; font-weight:700; margin-bottom:12px; color:var(--text-primary);">📘 CBSE Class 10 Social Science — 80-Question Full Curriculum Objective Practice Drill</h2>
-      <p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6; margin-bottom:16px;">
+</div>
+</div>
+<div class="review-header">
+<h3>Question-Wise Explanations &amp; Worked Solutions</h3>
+<p>Review every question with MockTestVault practice answers, NCERT text references, and step rationales.</p>
+</div>
+<div id="review-list"></div>
+</div>
+</section>
+<!-- Academic Chapter Guide & CBSE Board Blueprint (SEO & E-E-A-T Grounding) -->
+<section class="cbt-academic-guide" style="max-width:1200px; margin:40px auto; padding:0 20px;">
+<div style="border-top:1px solid var(--border-color); padding-top:32px; margin-bottom:24px;">
+<h2 style="font-size:1.35rem; font-weight:700; margin-bottom:12px; color:var(--text-primary);">📘 CBSE Class 10 Social Science — 80-Question Full Curriculum Objective Practice Drill</h2>
+<p style="font-size:0.92rem; color:var(--text-secondary); line-height:1.6; margin-bottom:16px;">
         This independent year-labelled practice set is designed around the CBSE Class 10 practice 2024 Board Theory Examination (Code 087). Evaluated strictly out of 80 marks over a standard 180-minute (3-hour) countdown, it rigorously tests syllabus competencies across all textbook units.
       </p>
-    </div>
-
-    <div style="background:var(--bg-subtle); border-radius:8px; padding:18px; margin-bottom:24px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
-      <strong style="color:var(--text-primary); display:block; margin-bottom:6px;"><div style="background:var(--bg-card); border-left:4px solid var(--primary); padding:12px 16px; margin-bottom:16px; border-radius:6px; font-size:0.88rem;">
-  <strong>📌 Curriculum Drill Format Note:</strong> The official annual CBSE written board paper utilizes a 37–39 question format combining Section A MCQs with written Short Answer (SA), Long Answer (LA), and Case-Based items. This online CBT simulator provides an expanded <strong>80-question objective revision drill</strong> (80 Questions • 80 Marks • 180 Minutes) specifically calibrated to test exhaustive mastery of every single NCERT textbook chapter under timed exam conditions.
 </div>
-      ⚖️ Official CBSE 2024 Board Marking Scheme &amp; Strategy:</strong>
-      • <strong>Marks Weightage:</strong> 80 Marks Theory + 20 Marks Internal Assessment = 100 Marks.<br>
-      • <strong>Time Allocation Strategy:</strong> Section A (20 MCQs: 30 mins) &bull; Section B (VSA: 25 mins) &bull; Section C (SA: 45 mins) &bull; Section D (LA: 45 mins) &bull; Section E (Case Studies: 25 mins) &bull; Revision: 10 mins.<br>
-      • <strong>Curriculum Navigation:</strong> <a href='../index.html' style='color:var(--primary); font-weight:700;'>CBSE Class 10 All 48 Chapter Tests Vault &rarr;</a>
-    </div>
-  </section>
-
-  <!-- Site Footer -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div class="brand-group">
-            <span class="brand-icon">🛡️</span>
-            <span class="brand-name">MockTestVault</span>
-          </div>
-          <p class="footer-tagline">The open, zero-distraction computer-based examination simulator for ambitious students worldwide.</p>
-        </div>
-
-        <div class="footer-col">
-          <h4>Examination Hubs</h4>
-          <ul>
-            <li><a href="../../in/index.html">🇮🇳 India Exam Vault</a></li>
-            <li><a href="../index.html">📚 CBSE Class 10 Vault</a></li>
-            <li><a href="index.html">📑 Board Sample Papers</a></li>
-            <li><a href="../../ssc-cgl/index.html">🎯 SSC CGL Simulator</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Printable Revision Sheets</h4>
-          <ul>
-            <li><a href="../math-formulas.html">📐 Math Formulas Sheet</a></li>
-            <li><a href="../science-formulas-reactions.html">🧪 Science Reactions &amp; Colors</a></li>
-            <li><a href="../../ssc-cgl/tier-1-syllabus-strategy.html">🎯 SSC CGL Strategy Guide</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Platform Guarantee</h4>
-          <p style="font-size:0.8rem; color:var(--text-muted); line-height:1.5;">
-            100% Free Forever.<br>
-            No Registration Required.<br>
-            Works Completely Offline.<br>
+<div style="background:var(--bg-subtle); border-radius:8px; padding:18px; margin-bottom:24px; font-size:0.88rem; color:var(--text-secondary); line-height:1.6;">
+<strong style="color:var(--text-primary); display:block; margin-bottom:8px;">Curriculum Drill Format Note</strong>
+<p>The published CBSE written-paper format can include objective and constructed-response items. This independent online module is an expanded 80-question objective revision drill with a 180-minute practice timer; it is not a reproduction of the original annual board paper.</p>
+<strong style="color:var(--text-primary); display:block; margin:10px 0 6px;">Practice Review Notes (Not an Official CBSE Marking Scheme)</strong>
+<p>Use the explanations as study aids and cross-check important answers against the prescribed textbook and official board publications. The original board paper and official key have not been matched item by item in this release.</p>
+<p><a href="/question-sources-review.html">Read the question-source and review policy</a>.</p>
+</div>
+</section>
+<!-- Site Footer -->
+<footer class="site-footer">
+<div class="footer-container">
+<div class="footer-grid">
+<div class="footer-brand">
+<div class="brand-group">
+<span class="brand-icon">🛡️</span>
+<span class="brand-name">MockTestVault</span>
+</div>
+<p class="footer-tagline">The open, zero-distraction computer-based examination simulator for ambitious students worldwide.</p>
+</div>
+<div class="footer-col">
+<h4>Examination Hubs</h4>
+<ul>
+<li><a href="../../in/index.html">🇮🇳 India Exam Vault</a></li>
+<li><a href="../index.html">📚 CBSE Class 10 Vault</a></li>
+<li><a href="index.html">📑 Board Sample Papers</a></li>
+<li><a href="../../ssc-cgl/index.html">🎯 SSC CGL Simulator</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Printable Revision Sheets</h4>
+<ul>
+<li><a href="../math-formulas.html">📐 Math Formulas Sheet</a></li>
+<li><a href="../science-formulas-reactions.html">🧪 Science Reactions &amp; Colors</a></li>
+<li><a href="../../ssc-cgl/tier-1-syllabus-strategy.html">🎯 SSC CGL Strategy Guide</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Platform Guarantee</h4>
+<p style="font-size:0.8rem; color:var(--text-muted); line-height:1.5;">
+            100% Free Forever.<br/>
+            No Registration Required.<br/>
+            Works Completely Offline.<br/>
             Zero Tracking / No Ads.
           </p>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>&copy; 2026 MockTestVault. Developed for student excellence. Calibrated to official CBSE Board examination standards.</p>
-        <div class="footer-legal-links">
-          <a href="../../privacy.html">Privacy Policy</a>
-          <a href="../../terms.html">Terms of Service</a>
-          <a href="../../disclaimer.html">Educational Disclaimer</a>
-        </div>
-      </div>
-    </div>
-    <div style="text-align:center;padding:10px;"><a href="javascript:void(0)" class="open-cookie-preferences" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 MockTestVault. Developed for student excellence. Independent practice resource; original-paper provenance is not authenticated.</p>
+<div class="footer-legal-links">
+<a href="../../privacy.html">Privacy Policy</a>
+<a href="../../terms.html">Terms of Service</a>
+<a href="../../disclaimer.html">Educational Disclaimer</a>
+</div>
+</div>
+</div>
+<div style="text-align:center;padding:10px;"><a class="open-cookie-preferences" href="javascript:void(0)" style="font-size:0.8rem;color:var(--text-muted, #888);text-decoration:underline;">Cookie Preferences</a></div>
 </footer>
-
-  <!-- Core CBT Test Engine & Initialization -->
-  <script src="../../js/test-engine.js"></script>
-  <script>
+<!-- Core CBT Test Engine & Initialization -->
+<script src="../../js/test-engine.js"></script>
+<script>
     function jumpToSection(idx, btn) {
       if (window.testEngine) {
         window.testEngine.jumpToQuestion(idx);
