@@ -1,0 +1,27 @@
+MockTestVault – Organic SEO v2.3
+Date: 5 November 2026
+
+Scope: H1 hierarchy and internal linking only. No advertising, monetisation,
+publisher, CMP, or AdSense configuration was changed.
+
+H1 hierarchy:
+- Replaced brand-only H1 text with the page-specific document title on 136 HTML pages.
+- Existing category badge markup and header structure were preserved.
+- Pages already using a descriptive H1 were not changed.
+
+Internal linking:
+- Added a crawlable "Continue your exam preparation" section after the main test layout on 121 examination/test pages.
+- Links point to the nearest available exam/category hub and relevant sibling practice pages in the same directory.
+- Added a link to the older standalone CBSE Class 10 Science Chapter 2 practice page from the current Chapter 2 page so it is no longer an orphan.
+- Link targets were checked against files in the supplied ZIP.
+
+Validation:
+- ZIP integrity test passed.
+- Each inserted related-link target exists in the archive.
+- No local HTML href targets were found broken by the link-building routine.
+- This is a source ZIP validation only; live deployment, visual rendering, mobile layout,
+  Googlebot rendering, and Search Console indexing still require separate verification.
+
+Files changed:
+- H1 updates: 136 HTML files.
+- Related-link sections: 121 HTML files.
