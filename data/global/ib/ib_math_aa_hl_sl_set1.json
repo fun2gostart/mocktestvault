@@ -14,7 +14,18 @@
       ],
       "answer": 0,
       "explanation": "Use S_n = (n/2)[2u_1 + (n-1)d] . Here n = 20, u_1 = 5, d = 3 : S_20 = (20/2)[2(5) + (19)(3)] = 10[10 + 57] = 10(67) = 670 .",
-      "citation": "IB Mathematics AA Guide — Topic 1.2: Arithmetic Sequences and Series"
+      "citation": "IB Mathematics AA Guide — Topic 1.2: Arithmetic Sequences and Series",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-002",
@@ -30,7 +41,18 @@
       ],
       "answer": 0,
       "explanation": "For an infinite convergent geometric series with |r| < 1 , S_∞ = (u_1/1 - r) . Substituting values: 36 = (12/1 - r) ⇒ 1 - r = (12/36) = (1/3) ⇒ r = 1 - (1/3) = (2/3) .",
-      "citation": "IB Mathematics AA Guide — Topic 1.3: Geometric Sequences and Series"
+      "citation": "IB Mathematics AA Guide — Topic 1.3: Geometric Sequences and Series",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-003",
@@ -46,7 +68,18 @@
       ],
       "answer": 0,
       "explanation": "Combine logarithms: log_3[x(x - 2)] = 1 ⇒ x(x - 2) = 3^1 ⇒ x^2 - 2x - 3 = 0 . Factoring gives (x - 3)(x + 1) = 0 . Because the domain of log_3(x) requires x > 2 , x = -1 is rejected as extraneous, so x = 3 .",
-      "citation": "IB Mathematics AA Guide — Topic 1.5: Laws of Logarithms"
+      "citation": "IB Mathematics AA Guide — Topic 1.5: Laws of Logarithms",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-004",
@@ -62,7 +95,18 @@
       ],
       "answer": 0,
       "explanation": "The general term is T_r+1 = C(6, r) (2x)^6-r (-1)^r . For the x^4 term, 6 - r = 4 ⇒ r = 2 . Term = C(6, 2) (2x)^4 (-1)^2 = 15 × 16x^4 × 1 = 240x^4 . Thus the coefficient is 240.",
-      "citation": "IB Mathematics AA Guide — Topic 1.9: Binomial Theorem"
+      "citation": "IB Mathematics AA Guide — Topic 1.9: Binomial Theorem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-005",
@@ -78,7 +122,18 @@
       ],
       "answer": 0,
       "explanation": "Modulus r = √(1^2 + (\\sqrt3))^2 = 2 . Argument θ = arctan(√(3)/1) = (π/3) . In polar form, z = 2 e^iπ/3 . By de Moivre's theorem, z^6 = 2^6 e^i(6 × π/3) = 64 e^i(2π) = 64(cos 2π + isin 2π) = 64(1 + 0) = 64 .",
-      "citation": "IB Mathematics AA Guide — Topic 1.13: Complex Numbers (HL)"
+      "citation": "IB Mathematics AA Guide — Topic 1.13: Complex Numbers (HL)",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-006",
@@ -94,7 +149,18 @@
       ],
       "answer": 0,
       "explanation": "4^k+1 - 1 = 4 · 4^k - 1 = 4(4^k - 1 + 1) - 1 = 4(4^k - 1) + 4 - 1 = 4(4^k - 1) + 3 . Since 4^k - 1 = 3M by induction hypothesis, 4(3M) + 3 = 3(4M + 1) , which is divisible by 3.",
-      "citation": "IB Mathematics AA Guide — Topic 1.15: Proof by Induction (HL)"
+      "citation": "IB Mathematics AA Guide — Topic 1.15: Proof by Induction (HL)",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-007",
@@ -110,7 +176,18 @@
       ],
       "answer": 0,
       "explanation": "Set y = (2x + 1/x - 3) . Swap x and y : x = (2y + 1/y - 3) ⇒ x(y - 3) = 2y + 1 ⇒ xy - 3x = 2y + 1 ⇒ xy - 2y = 3x + 1 ⇒ y(x - 2) = 3x + 1 ⇒ y = (3x + 1/x - 2) .",
-      "citation": "IB Mathematics AA Guide — Topic 2.2: Composite and Inverse Functions"
+      "citation": "IB Mathematics AA Guide — Topic 2.2: Composite and Inverse Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-008",
@@ -126,7 +203,18 @@
       ],
       "answer": 0,
       "explanation": "f(x - 2) translates the graph 2 units to the right (vector ( 2 , 0 ) ). Multiplying by 3 stretches the graph vertically by scale factor 3. Adding 5 translates the graph 5 units upward (vector ( 0 , 5 ) ). Total translation vector is ( 2 , 5 ) .",
-      "citation": "IB Mathematics AA Guide — Topic 2.3: Transformations of Graphs"
+      "citation": "IB Mathematics AA Guide — Topic 2.3: Transformations of Graphs",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-009",
@@ -142,7 +230,18 @@
       ],
       "answer": 0,
       "explanation": "Set the equations equal: x^2 - 4x + 5 = 2x + k ⇒ x^2 - 6x + (5 - k) = 0 . For tangency (one intersection), the discriminant \\Delta = b^2 - 4ac = 0 . (-6)^2 - 4(1)(5 - k) = 0 ⇒ 36 - 20 + 4k = 0 ⇒ 16 + 4k = 0 ⇒ 4k = -16 ⇒ k = -4 .",
-      "citation": "IB Mathematics AA Guide — Topic 2.6: Quadratic Functions"
+      "citation": "IB Mathematics AA Guide — Topic 2.6: Quadratic Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-010",
@@ -158,7 +257,18 @@
       ],
       "answer": 0,
       "explanation": "The vertical asymptote occurs where the denominator is zero: 2x + 6 = 0 ⇒ x = -3 . The horizontal asymptote is the limit as x \\to ±∞ : \\lim_x \\to ∞ (4x - 7/2x + 6) = (4/2) = 2 ⇒ y = 2 .",
-      "citation": "IB Mathematics AA Guide — Topic 2.8: Rational Functions"
+      "citation": "IB Mathematics AA Guide — Topic 2.8: Rational Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-011",
@@ -174,7 +284,18 @@
       ],
       "answer": 0,
       "explanation": "Case 1: 2x - 5 = x + 1 ⇒ x = 6 . Check: |2(6) - 5| = |7| = 7 , 6 + 1 = 7 (Valid). Case 2: 2x - 5 = -(x + 1) = -x - 1 ⇒ 3x = 4 ⇒ x = (4/3) . Check: |2(4/3) - 5| = |8/3 - 15/3| = |-7/3| = 7/3 , 4/3 + 1 = 7/3 (Valid). Both solutions are valid.",
-      "citation": "IB Mathematics AA Guide — Topic 2.12: Modulus Functions (HL)"
+      "citation": "IB Mathematics AA Guide — Topic 2.12: Modulus Functions (HL)",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-012",
@@ -190,7 +311,18 @@
       ],
       "answer": 0,
       "explanation": "f(-x) = (-x)^3 + sin(-x) = -x^3 - sin(x) = -(x^3 + sin x) = -f(x) . Since f(-x) = -f(x) , the function is odd with rotational symmetry of 180° about the origin.",
-      "citation": "IB Mathematics AA Guide — Topic 2.13: Odd and Even Functions (HL)"
+      "citation": "IB Mathematics AA Guide — Topic 2.13: Odd and Even Functions (HL)",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-013",
@@ -206,7 +338,18 @@
       ],
       "answer": 0,
       "explanation": "Arc length l = rθ ⇒ 4π = 6θ ⇒ θ = (4π/6) = (2π/3) rad . Area of sector A = (1/2) r^2 θ = (1/2) (6)^2 ≤ft((2π/3)\\right) = (1/2)(36)≤ft((2π/3)\\right) = 18 × (2π/3) = 12π cm^2 .",
-      "citation": "IB Mathematics AA Guide — Topic 3.1: Radians, Arcs and Sectors"
+      "citation": "IB Mathematics AA Guide — Topic 3.1: Radians, Arcs and Sectors",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-014",
@@ -222,7 +365,18 @@
       ],
       "answer": 0,
       "explanation": "In Quadrant IV, sine is negative: sinθ = -√(1 - cos^2θ) = -√(1 - 9/25) = -(4/5) . Using the double angle identity sin(2θ) = 2sinθcosθ : sin(2θ) = 2≤ft(-(4/5)\\right)≤ft((3/5)\\right) = -(24/25) .",
-      "citation": "IB Mathematics AA Guide — Topic 3.6: Double Angle Identities"
+      "citation": "IB Mathematics AA Guide — Topic 3.6: Double Angle Identities",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-015",
@@ -238,7 +392,18 @@
       ],
       "answer": 0,
       "explanation": "Factoring gives (2cos x + 1)(cos x - 1) = 0 . From cos x = 1 , we have x = 0 and x = 2π . From cos x = -(1/2) , we have x = (2π/3) and x = (4π/3) . All four values lie in the interval 0 ≤ x ≤ 2π . Thus, there are exactly 4 solutions.",
-      "citation": "IB Mathematics AA Guide — Topic 3.5: Solving Trigonometric Equations"
+      "citation": "IB Mathematics AA Guide — Topic 3.5: Solving Trigonometric Equations",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-016",
@@ -254,7 +419,18 @@
       ],
       "answer": 0,
       "explanation": "Two non-zero vectors are perpendicular if and only if their scalar (dot) product is zero: a · b = 0 ⇒ (3)(2) + (-2)(p) + (4)(-4) = 0 ⇒ 6 - 2p - 16 = 0 ⇒ -10 - 2p = 0 ⇒ 2p = -10 ⇒ p = -5 .",
-      "citation": "IB Mathematics AA Guide — Topic 3.13: Scalar Product (HL)"
+      "citation": "IB Mathematics AA Guide — Topic 3.13: Scalar Product (HL)",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-017",
@@ -270,7 +446,18 @@
       ],
       "answer": 0,
       "explanation": "Vector equation: r = ( 1 , -2 , 3 ) + \\lambda ( 2 , 1 , -1 ) . For \\lambda = 2 : x = 1 + 2(2) = 5 , y = -2 + 2(1) = 0 , z = 3 + 2(-1) = 1 . Point (5, 0, 1) lies on the line.",
-      "citation": "IB Mathematics AA Guide — Topic 3.14: Vector Equations of Lines (HL)"
+      "citation": "IB Mathematics AA Guide — Topic 3.14: Vector Equations of Lines (HL)",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-018",
@@ -286,7 +473,18 @@
       ],
       "answer": 0,
       "explanation": "Write 75^° = 45^° + 30^° . Using cos(A + B) = cos A cos B - sin A sin B : cos(45^° + 30^°) = cos 45^° cos 30^° - sin 45^° sin 30^° = ≤ft((√(2)/2)\\right)≤ft((√(3)/2)\\right) - ≤ft((√(2)/2)\\right)≤ft((1/2)\\right) = (√(6) - √(2)/4) .",
-      "citation": "IB Mathematics AA Guide — Topic 3.6: Compound Angle Identities"
+      "citation": "IB Mathematics AA Guide — Topic 3.6: Compound Angle Identities",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-019",
@@ -302,7 +500,18 @@
       ],
       "answer": 0,
       "explanation": "For independent events, P(A \\cap B) = P(A) × P(B) = (0.4)(0.5) = 0.20 . Using the addition rule: P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0.4 + 0.5 - 0.20 = 0.70 .",
-      "citation": "IB Mathematics AA Guide — Topic 4.5: Independent Events"
+      "citation": "IB Mathematics AA Guide — Topic 4.5: Independent Events",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-020",
@@ -318,7 +527,18 @@
       ],
       "answer": 0,
       "explanation": "E(X) = \\sum x · P(X = x) = (1)(0.2) + (2)(0.5) + (3)(0.3) = 0.2 + 1.0 + 0.9 = 2.1 .",
-      "citation": "IB Mathematics AA Guide — Topic 4.7: Discrete Random Variables"
+      "citation": "IB Mathematics AA Guide — Topic 4.7: Discrete Random Variables",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-021",
@@ -334,7 +554,18 @@
       ],
       "answer": 0,
       "explanation": "Using the binomial formula P(X = k) = C(n, k) p^k (1-p)^n-k : P(X = 2) = C(5, 2) ≤ft((1/6)\\right)^2 ≤ft((5/6)\\right)^3 = 10 × (1/36) × (125/216) = (1250/7776) = (625/3888) \\approx 0.1608 .",
-      "citation": "IB Mathematics AA Guide — Topic 4.8: Binomial Distribution"
+      "citation": "IB Mathematics AA Guide — Topic 4.8: Binomial Distribution",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-022",
@@ -350,7 +581,18 @@
       ],
       "answer": 0,
       "explanation": "Standardized score formula: z = (x - \\mu/\\sigma) . Variance \\sigma^2 = 16 ⇒ \\sigma = 4 . Thus, z = (58 - 50/4) = (8/4) = +2.0 .",
-      "citation": "IB Mathematics AA Guide — Topic 4.9: Normal Distribution"
+      "citation": "IB Mathematics AA Guide — Topic 4.9: Normal Distribution",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-023",
@@ -366,7 +608,18 @@
       ],
       "answer": 0,
       "explanation": "By definition, P(A | B) = (P(A \\cap B)/P(B)) = (0.18/0.3) = 0.60 . Note that P(A | B) = P(A) , proving A and B are independent.",
-      "citation": "IB Mathematics AA Guide — Topic 4.6: Conditional Probability"
+      "citation": "IB Mathematics AA Guide — Topic 4.6: Conditional Probability",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-024",
@@ -382,7 +635,18 @@
       ],
       "answer": 0,
       "explanation": "By properties of variance for linear transformation Y = aX + b : Var(aX + b) = a^2 Var(X) . Here a = -2 and b = 3 : Var(3 - 2X) = (-2)^2 Var(X) = 4 × 9 = 36 .",
-      "citation": "IB Mathematics AA Guide — Topic 4.14: Linear Combinations of Variables (HL)"
+      "citation": "IB Mathematics AA Guide — Topic 4.14: Linear Combinations of Variables (HL)",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-025",
@@ -398,7 +662,18 @@
       ],
       "answer": 0,
       "explanation": "Using the product rule (uv)' = u'v + uv' with u = x^2 ⇒ u' = 2x and v = e^3x ⇒ v' = 3e^3x : f'(x) = 2x e^3x + x^2 (3e^3x) = x e^3x(2 + 3x) .",
-      "citation": "IB Mathematics AA Guide — Topic 5.6: Product and Chain Rules"
+      "citation": "IB Mathematics AA Guide — Topic 5.6: Product and Chain Rules",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-026",
@@ -414,7 +689,18 @@
       ],
       "answer": 0,
       "explanation": "When x = 1 , y = 1^3 - 2(1) + 4 = 3 . The point of tangency is (1, 3) . Derivative (dy/dx) = 3x^2 - 2 . At x = 1 , gradient m = 3(1)^2 - 2 = 1 . Tangent equation: y - y_1 = m(x - x_1) ⇒ y - 3 = 1(x - 1) ⇒ y = x + 2 .",
-      "citation": "IB Mathematics AA Guide — Topic 5.7: Tangents and Normals"
+      "citation": "IB Mathematics AA Guide — Topic 5.7: Tangents and Normals",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-027",
@@ -430,7 +716,18 @@
       ],
       "answer": 0,
       "explanation": "f'(x) = 6x^2 - 18x + 12 = 6(x^2 - 3x + 2) = 6(x - 1)(x - 2) . Stationary points at x = 1 and x = 2 . Second derivative f''(x) = 12x - 18 . At x = 1 : f''(1) = 12 - 18 = -6 < 0 ⇒ Local Maximum. Value f(1) = 2(1)^3 - 9(1)^2 + 12(1) - 3 = 2 . Local maximum is at (1, 2) .",
-      "citation": "IB Mathematics AA Guide — Topic 5.8: Local Extrema and Curve Sketching"
+      "citation": "IB Mathematics AA Guide — Topic 5.8: Local Extrema and Curve Sketching",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-028",
@@ -446,7 +743,18 @@
       ],
       "answer": 0,
       "explanation": "A particle is instantaneously at rest when v(t) = 0 . Set 3t^2 - 12t + 9 = 0 ⇒ 3(t^2 - 4t + 3) = 0 ⇒ 3(t - 1)(t - 3) = 0 ⇒ t = 1 s and t = 3 s .",
-      "citation": "IB Mathematics AA Guide — Topic 5.9: Kinematics"
+      "citation": "IB Mathematics AA Guide — Topic 5.9: Kinematics",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-029",
@@ -462,7 +770,18 @@
       ],
       "answer": 0,
       "explanation": "Rewrite integrand as 2x - x^-1/2 . Antiderivative: ≤ft[ x^2 - \\fracx^1/21/2 \\right]_1^4 = ≤ft[ x^2 - 2√(x) \\right]_1^4 . At x = 4 : 4^2 - 2√(4) = 16 - 4 = 12 . At x = 1 : 1^2 - 2√(1) = 1 - 2 = -1 . Value = 12 - (-1) = 13 .",
-      "citation": "IB Mathematics AA Guide — Topic 5.10: Definite Integrals and Area"
+      "citation": "IB Mathematics AA Guide — Topic 5.10: Definite Integrals and Area",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ib-math-s1-030",
@@ -478,7 +797,18 @@
       ],
       "answer": 0,
       "explanation": "Let u = x^2 ⇒ du = 2x dx . Substituting: ∫ cos(u) du = sin(u) + C = sin(x^2) + C .",
-      "citation": "IB Mathematics AA Guide — Topic 5.11: Integration by Substitution"
+      "citation": "IB Mathematics AA Guide — Topic 5.11: Integration by Substitution",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": null,
+        "authority_reference_scope": "No item-level source URL is present in the supplied record.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

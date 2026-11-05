@@ -1,0 +1,25 @@
+MockTestVault Organic SEO / Question QA v2.7
+Date: 5 November 2026
+Source: mocktestvault.com_organic_seo_v2.6.zip
+
+Question-level QA:
+- Added quality_review metadata to all 6,404 question records across 287 JSON files.
+- All records pass structural checks for question text, valid option arrays, answer-index bounds and explanation presence.
+- 392 explicit "Correct Answer" explanation labels match the stored selected option (internal consistency only, not factual validation).
+- All 6,404 records remain pending independent subject-matter answer verification except targeted-correction notes retained on specific records. No broad expert-certification claim is made.
+- Added QUESTION_ANSWER_VERIFICATION_REGISTER_v2.7.csv with one row per question.
+- Added QUESTION_REVIEW_BACKLOG_BY_FILE_v2.7.csv with file-level work queues.
+
+Provenance correction:
+- Reclassified 954 CBSE/SSC year- or shift-labelled records whose original source paper/final key is not attached or item-matched.
+- SSC CGL 2023 shift pages and hub now state that they are shift-labelled independent practice sets, not authenticated official PYQs.
+- CBSE 2023/2024 year-labelled pages and question citations now disclose that original board papers/official keys have not been attached and item-matched.
+- Original citation notes are preserved in legacy_citation_note for audit history.
+- Added PYQ_AUTHENTICATION_REGISTER_v2.7.csv and linked official archive/notice references with their limited scope.
+- Added source and review policy disclosures to the website.
+
+Important:
+This version does not claim that all 6,404 answers have been re-solved by a qualified subject expert. That work cannot be truthfully completed from this ZIP alone because item-level source documents, final answer keys and reviewer evidence are absent for the records. The new registers identify exactly what remains to be reviewed and authenticated.
+No monetisation or advertising changes were made.
+
+14. Final provenance copy check: removed remaining 'official board paper', 'authentic solved question paper' and 'official CBSE answers' wording from CBSE year-labelled paper pages and hubs; retained authority references only as format/curriculum references.

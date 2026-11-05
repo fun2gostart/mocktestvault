@@ -54,3 +54,6 @@ actual previous-year question.
 Exact repeated stems remain where they appear to be intentional sectional/full-mock copies,
 mirrored files, or generic prompts with different options. Do not remove these automatically
 without checking runtime data references.
+
+
+Superseded by v2.7: see QUESTION_ACCURACY_AND_PYQ_AUDIT_v2.7.md and the per-question registers. No item is represented as independently verified unless a reviewer/source record supports that status.

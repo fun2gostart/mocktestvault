@@ -20,8 +20,8 @@ class MockTestEngine {
     this.examType = options.examType || 'board'; // 'board' or 'competitive'
     this.questions = [];
 
-    // Sectional Timer Support (Official SSC CGL 2026 pattern: 15-min independent sectional timers)
-    // Only enabled when explicitly configured on 2026-pattern examination pages
+    // Optional sectional timer support for independently configured practice simulations.
+    // Enable only on pages whose practice configuration specifies sectional timing.
     this.sectionalTimer = options.sectionalTimer ? Object.assign({
       enabled: true,
       durationMinutes: 15,
@@ -676,7 +676,7 @@ class MockTestEngine {
     this.timerInterval = setInterval(() => {
       this.timeRemaining--;
 
-      // If sectional timer is enabled (e.g., SSC CGL 2026 15-minute independent sections)
+      // If sectional timing is enabled for this practice simulation
       if (this.sectionalTimer && this.sectionalTimer.enabled) {
         if (this.sectionTimesRemaining[this.currentSectionIndex] > 0) {
           this.sectionTimesRemaining[this.currentSectionIndex]--;
@@ -1026,7 +1026,7 @@ class MockTestEngine {
     if (this.sectionalTimer && this.sectionalTimer.enabled) {
       const targetSec = this.getSectionForIndex(index);
       if (this.lockedSections && this.lockedSections[targetSec]) {
-        alert(`Section ${targetSec + 1} is locked in accordance with the official SSC CGL 2026 15-minute sectional pattern. You cannot return to previous sections.`);
+        alert(`Section ${targetSec + 1} is locked because its practice-section timer has expired. You cannot return to previous sections.`);
         return;
       }
       if (this.sectionalTimer.strictLock && targetSec !== this.currentSectionIndex) {

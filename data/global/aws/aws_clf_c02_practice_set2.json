@@ -14,7 +14,18 @@
       ],
       "answer": 0,
       "explanation": "Horizontal scaling (scaling out) involves adding more compute instances to distribute the workload across a cluster (e.g., using an Auto Scaling group with an Application Load Balancer). Vertical scaling (scaling up) involves adding more CPU or RAM to an existing single instance.",
-      "citation": "AWS Architecture Center \u2014 Horizontal vs Vertical Scaling"
+      "citation": "AWS Architecture Center — Horizontal vs Vertical Scaling",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-002",
@@ -30,7 +41,18 @@
       ],
       "answer": 0,
       "explanation": "Because Availability Zones are physically separated facilities with independent utility infrastructure, distributing servers across multiple AZs ensures that an event taking down one data center will not cause application downtime.",
-      "citation": "AWS Global Infrastructure Guide \u2014 Multi-AZ Architecture"
+      "citation": "AWS Global Infrastructure Guide — Multi-AZ Architecture",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-003",
@@ -46,7 +68,18 @@
       ],
       "answer": 0,
       "explanation": "The Operational Excellence pillar focuses on running and monitoring systems to deliver business value and continually improving processes. Key principles include performing operations as code, making frequent and reversible changes, and learning from all operational failures.",
-      "citation": "AWS Well-Architected Framework \u2014 Operational Excellence Pillar"
+      "citation": "AWS Well-Architected Framework — Operational Excellence Pillar",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-004",
@@ -62,7 +95,18 @@
       ],
       "answer": 0,
       "explanation": "In a Pilot Light DR strategy, the critical core elements of the workload (like continuous database replication) are kept running in the recovery region, while compute servers are powered off or scaled to zero until a failover event occurs, upon which they are quickly provisioned.",
-      "citation": "AWS Disaster Recovery Whitepaper \u2014 Disaster Recovery Strategies"
+      "citation": "AWS Disaster Recovery Whitepaper — Disaster Recovery Strategies",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-005",
@@ -78,7 +122,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Local Zones place AWS compute, storage, database, and other select services closer to end-users in major metropolitan areas where no AWS Region currently exists, enabling sub-10 millisecond latency for demanding local workloads.",
-      "citation": "AWS Local Zones Overview \u2014 Ultra-Low Latency Architecture"
+      "citation": "AWS Local Zones Overview — Ultra-Low Latency Architecture",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-006",
@@ -94,7 +149,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Wavelength optimizes applications for mobile devices by embedding AWS compute and storage services inside the 5G networks of telecom carriers, routing application traffic directly without leaving the mobile carrier's network.",
-      "citation": "AWS Wavelength Developer Guide \u2014 5G Edge Computing"
+      "citation": "AWS Wavelength Developer Guide — 5G Edge Computing",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-007",
@@ -110,7 +176,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Outposts brings native AWS services, infrastructure, and operating models directly to virtually any on-premises data center or co-location facility in a fully managed physical rack delivered and installed by AWS.",
-      "citation": "AWS Outposts User Guide \u2014 Hybrid Cloud on-premises"
+      "citation": "AWS Outposts User Guide — Hybrid Cloud on-premises",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-008",
@@ -126,7 +203,18 @@
       ],
       "answer": 0,
       "explanation": "The Performance Efficiency pillar emphasizes democratizing advanced technologies: technologies that require specialized expertise (such as media transcoding, NoSQL databases, or machine learning) should be consumed as managed services so your team can focus on development rather than resource management.",
-      "citation": "AWS Well-Architected Framework \u2014 Performance Efficiency Pillar"
+      "citation": "AWS Well-Architected Framework — Performance Efficiency Pillar",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-009",
@@ -142,7 +230,18 @@
       ],
       "answer": 0,
       "explanation": "In traditional IT, organizations must estimate capacity before deployment, risking either underutilization (wasted money) or under-provisioning (outages). With cloud elasticity and Auto Scaling, capacity scales dynamically with live demand.",
-      "citation": "AWS Cloud Practitioner Essentials \u2014 Advantages of Cloud Computing"
+      "citation": "AWS Cloud Practitioner Essentials — Advantages of Cloud Computing",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-010",
@@ -158,7 +257,18 @@
       ],
       "answer": 0,
       "explanation": "Recovery Time Objective (RTO) is the maximum acceptable time an application can be unavailable before normal service is restored. Recovery Point Objective (RPO) is the maximum acceptable period of data loss measured backward in time.",
-      "citation": "AWS Disaster Recovery Whitepaper \u2014 RTO and RPO Metrics"
+      "citation": "AWS Disaster Recovery Whitepaper — RTO and RPO Metrics",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-011",
@@ -174,7 +284,18 @@
       ],
       "answer": 0,
       "explanation": "A microservices architecture breaks complex applications into smaller, independent components that communicate via APIs or message queues. If one service experiences a disruption, other services continue operating without cascading system failure.",
-      "citation": "AWS Architecture Center \u2014 Microservices Architecture on AWS"
+      "citation": "AWS Architecture Center — Microservices Architecture on AWS",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-012",
@@ -190,7 +311,18 @@
       ],
       "answer": 0,
       "explanation": "Platform as a Service (PaaS) removes the need for organizations to manage underlying hardware and operating systems. Developers focus purely on deployment and management of their applications.",
-      "citation": "AWS Cloud Practitioner Essentials \u2014 Types of Cloud Computing"
+      "citation": "AWS Cloud Practitioner Essentials — Types of Cloud Computing",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-013",
@@ -206,7 +338,18 @@
       ],
       "answer": 0,
       "explanation": "The AWS Well-Architected Tool is a free service that provides a consistent process for evaluating architectures against Well-Architected pillars, identifying high- and medium-risk issues, and providing improvement roadmaps.",
-      "citation": "AWS Well-Architected Tool User Guide"
+      "citation": "AWS Well-Architected Tool User Guide",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-014",
@@ -222,7 +365,18 @@
       ],
       "answer": 0,
       "explanation": "A Multi-Region Active-Active strategy deploys full application stacks and synchronously/near-synchronously replicates data across two or more AWS Regions. User requests are routed to the nearest healthy region, achieving near-zero RTO and RPO.",
-      "citation": "AWS Disaster Recovery Whitepaper \u2014 Multi-Region Strategies"
+      "citation": "AWS Disaster Recovery Whitepaper — Multi-Region Strategies",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-015",
@@ -238,7 +392,18 @@
       ],
       "answer": 0,
       "explanation": "Trading fixed capital expenses for variable expenses eliminates the risk of purchasing expensive physical servers that sit idle during demand troughs or become a bottleneck during unexpected growth spikes.",
-      "citation": "AWS Cloud Value Framework \u2014 Eliminating Capital Waste"
+      "citation": "AWS Cloud Value Framework — Eliminating Capital Waste",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-016",
@@ -254,7 +419,18 @@
       ],
       "answer": 0,
       "explanation": "Software as a Service (SaaS) provides complete, fully managed applications that users consume over the web without managing any underlying infrastructure or platform code. Amazon QuickSight (business intelligence) is an example of a SaaS product on AWS.",
-      "citation": "AWS Cloud Practitioner Essentials \u2014 Cloud Service Categories"
+      "citation": "AWS Cloud Practitioner Essentials — Cloud Service Categories",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-017",
@@ -270,7 +446,18 @@
       ],
       "answer": 0,
       "explanation": "Under the Shared Responsibility Model, AWS manages the physical storage infrastructure, drive decommissioning, and cluster hardware. The customer is responsible for managing S3 bucket permissions, public access blocks, and configuring encryption settings.",
-      "citation": "Amazon S3 Security Guide \u2014 Customer Responsibilities"
+      "citation": "Amazon S3 Security Guide — Customer Responsibilities",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-018",
@@ -286,7 +473,18 @@
       ],
       "answer": 0,
       "explanation": "Administrators can configure an IAM Account Password Policy in the IAM console to enforce password complexity rules, minimum character lengths, prevent password reuse, and mandate regular password rotations.",
-      "citation": "AWS IAM User Guide \u2014 Managing Account Password Policies"
+      "citation": "AWS IAM User Guide — Managing Account Password Policies",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-019",
@@ -302,7 +500,18 @@
       ],
       "answer": 0,
       "explanation": "IAM Access Analyzer uses mathematical logic and provable security to analyze resource-based policies and generate findings when resources (like S3 buckets or KMS keys) are shared with public or external identities outside the organization.",
-      "citation": "AWS IAM User Guide \u2014 Identifying External Access with Access Analyzer"
+      "citation": "AWS IAM User Guide — Identifying External Access with Access Analyzer",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-020",
@@ -318,7 +527,18 @@
       ],
       "answer": 0,
       "explanation": "AWS CloudHSM provides dedicated, single-tenant physical Hardware Security Module (HSM) appliances directly within the customer's VPC. Unlike AWS KMS (which is a multi-tenant managed service), CloudHSM gives customers sole cryptographic control over HSM hardware partitions.",
-      "citation": "AWS CloudHSM User Guide \u2014 Dedicated HSM Architecture"
+      "citation": "AWS CloudHSM User Guide — Dedicated HSM Architecture",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-021",
@@ -334,7 +554,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Certificate Manager (ACM) makes it easy to provision, manage, and deploy public and private SSL/TLS certificates for use with integrated AWS services like Elastic Load Balancing, CloudFront, and API Gateway, featuring free automated certificate renewal.",
-      "citation": "AWS Certificate Manager User Guide \u2014 Overview of ACM"
+      "citation": "AWS Certificate Manager User Guide — Overview of ACM",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-022",
@@ -350,7 +581,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon Security Lake automatically centralizes security data from cloud, on-premises, and custom sources into a purpose-built security data lake, normalizing logs into the OCSF standard for rapid multi-account security analysis.",
-      "citation": "Amazon Security Lake Documentation \u2014 Centralized Log Lake"
+      "citation": "Amazon Security Lake Documentation — Centralized Log Lake",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-023",
@@ -366,7 +608,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon Detective automatically collects log data from your AWS resources and uses machine learning, statistical analysis, and graph theory to build a linked dataset that enables rapid investigation of security findings from GuardDuty.",
-      "citation": "Amazon Detective Administration Guide \u2014 Root Cause Investigation"
+      "citation": "Amazon Detective Administration Guide — Root Cause Investigation",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-024",
@@ -382,7 +635,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Security Hub gives you a comprehensive view of your security state across all AWS accounts. It aggregates, organizes, and prioritizes security alerts and findings from multiple AWS services and checks environments against compliance standards like CIS and PCI DSS.",
-      "citation": "AWS Security Hub User Guide \u2014 Aggregating Security Findings"
+      "citation": "AWS Security Hub User Guide — Aggregating Security Findings",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-025",
@@ -398,7 +662,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment (called a landing zone) based on best-practice blueprints and automated guardrails.",
-      "citation": "AWS Control Tower User Guide \u2014 Establishing Landing Zones"
+      "citation": "AWS Control Tower User Guide — Establishing Landing Zones",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-026",
@@ -414,7 +689,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Network Firewall is a managed service that deploys stateful Layer 3-7 inspection across VPC boundaries. Unlike Security Groups or NACLs, it includes advanced intrusion prevention rules (Suricata-compatible) and outbound domain filtering.",
-      "citation": "AWS Network Firewall Developer Guide \u2014 Stateful Traffic Inspection"
+      "citation": "AWS Network Firewall Developer Guide — Stateful Traffic Inspection",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-027",
@@ -430,7 +716,18 @@
       ],
       "answer": 0,
       "explanation": "An IAM policy statement consists of four core elements: Effect (Allow or Deny), Action (the specific API operations, like s3:GetObject), Resource (the ARN of the target resource), and optional Condition (rules under which the policy applies).",
-      "citation": "AWS IAM User Guide \u2014 Grammar of the IAM Policy Language"
+      "citation": "AWS IAM User Guide — Grammar of the IAM Policy Language",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-028",
@@ -446,7 +743,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon CloudFront is integrated with AWS Shield Standard. Because CloudFront terminates connections at edge locations worldwide, it absorbs and diffuses massive Layer 3/4 volumetric DDoS attacks, keeping the backend origin servers protected.",
-      "citation": "AWS Best Practices for DDoS Resiliency \u2014 Edge Architecture"
+      "citation": "AWS Best Practices for DDoS Resiliency — Edge Architecture",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-029",
@@ -462,7 +770,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Audit Manager helps continuously audit your AWS usage to simplify risk assessment and compliance with industry standards. It automates evidence collection to streamline external audits.",
-      "citation": "AWS Audit Manager User Guide \u2014 Continuous Compliance Auditing"
+      "citation": "AWS Audit Manager User Guide — Continuous Compliance Auditing",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-030",
@@ -478,7 +797,18 @@
       ],
       "answer": 0,
       "explanation": "AWS IAM Identity Center (formerly AWS SSO) is the recommended service for managing workforce access to AWS accounts and cloud business applications. It connects with your existing identity provider (like Active Directory or Okta).",
-      "citation": "AWS IAM Identity Center User Guide \u2014 Workforce Identity Management"
+      "citation": "AWS IAM Identity Center User Guide — Workforce Identity Management",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-031",
@@ -494,7 +824,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon S3 Block Public Access settings provide controls across an entire AWS account or individual buckets to ensure objects cannot become publicly accessible, preventing accidental data leaks.",
-      "citation": "Amazon S3 User Guide \u2014 Blocking Public Access"
+      "citation": "Amazon S3 User Guide — Blocking Public Access",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-032",
@@ -510,7 +851,18 @@
       ],
       "answer": 0,
       "explanation": "AWS is responsible for the physical security of data center hardware. When storage devices reach the end of their useful life, AWS decommissions and destroys them in accordance with NIST 800-88 sanitization techniques.",
-      "citation": "AWS Data Center Physical Security Overview \u2014 Media Sanitization"
+      "citation": "AWS Data Center Physical Security Overview — Media Sanitization",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-033",
@@ -526,7 +878,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Systems Manager Parameter Store provides secure, hierarchical storage for configuration data management and secrets management. You can store values as plain text or encrypted strings using AWS KMS.",
-      "citation": "AWS Systems Manager User Guide \u2014 Parameter Store Overview"
+      "citation": "AWS Systems Manager User Guide — Parameter Store Overview",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-034",
@@ -542,7 +905,18 @@
       ],
       "answer": 0,
       "explanation": "CloudTrail Lake is a managed security and audit data lake that aggregates, immutably stores, and enables SQL queries on user and API activity recorded by CloudTrail without requiring complex ETL pipelines.",
-      "citation": "AWS CloudTrail User Guide \u2014 Working with CloudTrail Lake"
+      "citation": "AWS CloudTrail User Guide — Working with CloudTrail Lake",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-035",
@@ -558,7 +932,18 @@
       ],
       "answer": 0,
       "explanation": "Under the Shared Responsibility Model, AWS owns the virtualization layer (hypervisor) and the physical host server. The customer has zero access to the underlying hypervisor and is only responsible for the guest OS inside their virtual instance.",
-      "citation": "AWS Shared Responsibility Model Documentation \u2014 Hypervisor Layer"
+      "citation": "AWS Shared Responsibility Model Documentation — Hypervisor Layer",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-036",
@@ -574,7 +959,18 @@
       ],
       "answer": 0,
       "explanation": "AWS supports multiple MFA methods for IAM users, including FIDO-certified physical hardware keys (YubiKey), virtual MFA authenticator apps (Google Authenticator, Microsoft Authenticator), and hardware TOTP tokens.",
-      "citation": "AWS IAM User Guide \u2014 Supported MFA Device Types"
+      "citation": "AWS IAM User Guide — Supported MFA Device Types",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-037",
@@ -590,7 +986,18 @@
       ],
       "answer": 0,
       "explanation": "Memory Optimized instances (such as R-family instances) are engineered to deliver fast performance for workloads that process large data sets in memory (such as high-performance databases and real-time distributed caches).",
-      "citation": "Amazon EC2 Instance Types Guide \u2014 Memory Optimized"
+      "citation": "Amazon EC2 Instance Types Guide — Memory Optimized",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-038",
@@ -606,7 +1013,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Fargate is a serverless, pay-as-you-go compute engine that lets you build applications without managing servers. Fargate runs containers on Amazon ECS and Amazon EKS without requiring you to manage EC2 clusters.",
-      "citation": "AWS Fargate User Guide \u2014 Serverless Container Compute"
+      "citation": "AWS Fargate User Guide — Serverless Container Compute",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-039",
@@ -622,7 +1040,18 @@
       ],
       "answer": 0,
       "explanation": "S3 Glacier Deep Archive is Amazon S3's lowest-cost storage class, designed for long-term retention of data that is accessed rarely (1-2 times a year) and where retrieval times of 12 to 48 hours are acceptable.",
-      "citation": "Amazon S3 Storage Classes \u2014 S3 Glacier Deep Archive"
+      "citation": "Amazon S3 Storage Classes — S3 Glacier Deep Archive",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-040",
@@ -638,7 +1067,18 @@
       ],
       "answer": 0,
       "explanation": "General Purpose SSD (gp3) volumes offer the ideal balance of price and performance for a wide range of transactional applications, boot volumes, and dev/test environments, allowing independent IOPS and throughput provisioning.",
-      "citation": "Amazon EBS Volume Types Documentation \u2014 General Purpose SSD"
+      "citation": "Amazon EBS Volume Types Documentation — General Purpose SSD",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-041",
@@ -654,7 +1094,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Storage Gateway is a hybrid cloud storage service that connects on-premises environments with AWS storage (S3, EBS, Glacier). It provides File Gateway (NFS/SMB), Volume Gateway (iSCSI), and Tape Gateway (virtual tape library).",
-      "citation": "AWS Storage Gateway User Guide \u2014 Hybrid Architecture"
+      "citation": "AWS Storage Gateway User Guide — Hybrid Architecture",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-042",
@@ -670,7 +1121,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon EC2 Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost, launching instances when traffic surges and terminating them when demand drops.",
-      "citation": "Amazon EC2 Auto Scaling User Guide \u2014 Overview"
+      "citation": "Amazon EC2 Auto Scaling User Guide — Overview",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-043",
@@ -686,7 +1148,18 @@
       ],
       "answer": 0,
       "explanation": "Application Load Balancer (ALB) operates at the request level (Layer 7) and supports advanced routing features, such as path-based routing, host-based routing, and routing to containerized applications.",
-      "citation": "Elastic Load Balancing User Guide \u2014 Application Load Balancers"
+      "citation": "Elastic Load Balancing User Guide — Application Load Balancers",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-044",
@@ -702,7 +1175,18 @@
       ],
       "answer": 0,
       "explanation": "Network Load Balancer (NLB) operates at the connection level (Layer 4) and is optimized to handle volatile traffic patterns and millions of requests per second with ultra-low latency. It provides a static IP per Availability Zone.",
-      "citation": "Elastic Load Balancing User Guide \u2014 Network Load Balancer"
+      "citation": "Elastic Load Balancing User Guide — Network Load Balancer",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-045",
@@ -718,7 +1202,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Transit Gateway connects Amazon VPCs and on-premises networks through a central hub. This hub-and-spoke model eliminates the need for complex, unmanageable point-to-point VPC peering connections across enterprise environments.",
-      "citation": "AWS Transit Gateway Guide \u2014 Centralized Network Routing"
+      "citation": "AWS Transit Gateway Guide — Centralized Network Routing",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-046",
@@ -734,7 +1229,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon EventBridge is a serverless event bus service that makes it easy to connect applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your applications, third-party SaaS apps, and AWS services.",
-      "citation": "Amazon EventBridge User Guide \u2014 Event-Driven Architecture"
+      "citation": "Amazon EventBridge User Guide — Event-Driven Architecture",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-047",
@@ -750,7 +1256,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Step Functions is a low-code visual workflow service used to orchestrate AWS services, automate business processes, and build distributed applications using finite state machines.",
-      "citation": "AWS Step Functions Developer Guide \u2014 Visual Workflows"
+      "citation": "AWS Step Functions Developer Guide — Visual Workflows",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-048",
@@ -766,7 +1283,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon OpenSearch Service is a fully managed service that makes it easy to deploy, operate, and scale OpenSearch clusters for application search, website search, and real-time log analytics.",
-      "citation": "Amazon OpenSearch Service Developer Guide"
+      "citation": "Amazon OpenSearch Service Developer Guide",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-049",
@@ -782,7 +1310,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.",
-      "citation": "Amazon Athena User Guide \u2014 Serverless SQL Queries on S3"
+      "citation": "Amazon Athena User Guide — Serverless SQL Queries on S3",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-050",
@@ -798,7 +1337,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon EMR is an industry-leading cloud big data platform for processing vast amounts of data using open-source tools such as Apache Spark, Apache Hive, Apache HBase, Presto, and Hadoop.",
-      "citation": "Amazon EMR Management Guide \u2014 Big Data Frameworks"
+      "citation": "Amazon EMR Management Guide — Big Data Frameworks",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-051",
@@ -814,7 +1364,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development with an integrated AWS Glue Data Catalog.",
-      "citation": "AWS Glue Developer Guide \u2014 Serverless ETL Pipelines"
+      "citation": "AWS Glue Developer Guide — Serverless ETL Pipelines",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-052",
@@ -830,7 +1391,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database.",
-      "citation": "AWS Database Migration Service User Guide"
+      "citation": "AWS Database Migration Service User Guide",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-053",
@@ -846,7 +1418,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon SageMaker is a fully managed service that brings together a broad set of tools for building, training, tuning, and deploying machine learning models at scale, including pre-built algorithms and one-click deployment.",
-      "citation": "Amazon SageMaker Developer Guide \u2014 Machine Learning at Scale"
+      "citation": "Amazon SageMaker Developer Guide — Machine Learning at Scale",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-054",
@@ -862,7 +1445,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon Polly is a cloud service that turns text into lifelike speech using advanced deep learning technologies to synthesize natural sounding human speech across dozens of languages.",
-      "citation": "Amazon Polly Developer Guide \u2014 Text-to-Speech"
+      "citation": "Amazon Polly Developer Guide — Text-to-Speech",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-055",
@@ -878,7 +1472,18 @@
       ],
       "answer": 0,
       "explanation": "Amazon Lex is a fully managed service that provides advanced natural language understanding (NLU) and automatic speech recognition (ASR) to build conversational interfaces (chatbots) into any application.",
-      "citation": "Amazon Lex Developer Guide \u2014 Building Conversational Chatbots"
+      "citation": "Amazon Lex Developer Guide — Building Conversational Chatbots",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-056",
@@ -894,7 +1499,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Global Accelerator is a networking service that improves the availability and performance of applications by routing traffic over the AWS global network infrastructure using static Anycast IP addresses.",
-      "citation": "AWS Global Accelerator Developer Guide"
+      "citation": "AWS Global Accelerator Developer Guide",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-057",
@@ -910,7 +1526,18 @@
       ],
       "answer": 0,
       "explanation": "VPC Gateway Endpoints for Amazon S3 allow instances in private subnets to communicate directly with Amazon S3 over private AWS network routes without sending traffic over the public internet, requiring zero NAT devices.",
-      "citation": "Amazon VPC User Guide \u2014 Gateway VPC Endpoints for Amazon S3"
+      "citation": "Amazon VPC User Guide — Gateway VPC Endpoints for Amazon S3",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-058",
@@ -926,7 +1553,18 @@
       ],
       "answer": 0,
       "explanation": "AWS AppConfig helps you quickly and safely deploy application configurations and feature toggles to applications of any size. It validates configurations before deployment and monitors alarms to roll back changes automatically if issues arise.",
-      "citation": "AWS AppConfig User Guide \u2014 Feature Flag Deployment"
+      "citation": "AWS AppConfig User Guide — Feature Flag Deployment",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-059",
@@ -942,7 +1580,18 @@
       ],
       "answer": 0,
       "explanation": "Compute Savings Plans provide the greatest flexibility, automatically applying discounts of up to 66% regardless of instance family, size, OS, tenancy, or AWS Region, and applying seamlessly across Amazon EC2, AWS Fargate, and AWS Lambda.",
-      "citation": "AWS Cost Management Guide \u2014 Understanding Savings Plans"
+      "citation": "AWS Cost Management Guide — Understanding Savings Plans",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-060",
@@ -958,7 +1607,18 @@
       ],
       "answer": 0,
       "explanation": "The AWS Free Tier offers three distinct categories of free offers: 'Always Free' (e.g., 1 million Lambda requests/mo), '12 Months Free' (available for the first year following initial sign-up, e.g., 750 hrs/mo of t2/t3.micro EC2), and 'Short-term Free Trials.'",
-      "citation": "AWS Free Tier Documentation \u2014 Categories of Free Services"
+      "citation": "AWS Free Tier Documentation — Categories of Free Services",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-061",
@@ -974,7 +1634,18 @@
       ],
       "answer": 0,
       "explanation": "Cost Allocation Tags are key-value labels assigned to AWS resources (e.g., CostCenter=Marketing, Project=MobileApp). Once activated in the Billing console, AWS organizes cost reports by these tags for clear financial attribution.",
-      "citation": "AWS Billing User Guide \u2014 Using Cost Allocation Tags"
+      "citation": "AWS Billing User Guide — Using Cost Allocation Tags",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-062",
@@ -990,7 +1661,18 @@
       ],
       "answer": 0,
       "explanation": "The AWS Developer Support plan is designed for non-production environments and early experimentation. It provides business-hours email access to Cloud Support Associates, 1 primary contact, and response times under 12 hours for general guidance.",
-      "citation": "AWS Support Plans Guide \u2014 Developer Support Tier"
+      "citation": "AWS Support Plans Guide — Developer Support Tier",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-063",
@@ -1006,7 +1688,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Marketplace is a curated digital catalog that makes it easy for customers to find, buy, deploy, and manage third-party software, data, and services. Purchases appear seamlessly on the consolidated AWS monthly bill.",
-      "citation": "AWS Marketplace Buyer Guide \u2014 Overview"
+      "citation": "AWS Marketplace Buyer Guide — Overview",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-064",
@@ -1022,7 +1715,18 @@
       ],
       "answer": 0,
       "explanation": "AWS Compute Optimizer uses machine learning to analyze historical resource utilization metrics from CloudWatch and delivers actionable recommendations to rightsize EC2 instances, EBS volumes, and Lambda functions to cut unnecessary costs.",
-      "citation": "AWS Compute Optimizer User Guide \u2014 Rightsizing Recommendations"
+      "citation": "AWS Compute Optimizer User Guide — Rightsizing Recommendations",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "aws-clf02-s2-065",
@@ -1038,7 +1742,18 @@
       ],
       "answer": 0,
       "explanation": "The AWS Health Dashboard provides personalized information about the availability and operations of AWS services and resources in your specific account. It alerts you to active service disruptions and scheduled maintenance windows.",
-      "citation": "AWS Health User Guide \u2014 Personalized Health Dashboard"
+      "citation": "AWS Health User Guide — Personalized Health Dashboard",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+        "authority_reference_scope": "AWS exam reference only; item is independent practice, not official AWS content.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

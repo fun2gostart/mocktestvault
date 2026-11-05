@@ -14,7 +14,18 @@
       ],
       "answer": 2,
       "explanation": "Subinterval width Δx = (4 - 0) / 4 = 1. Grid points: 0, 1, 2, 3, 4. Function values: f(0)=0, f(1)=1, f(2)=4, f(3)=9, f(4)=16. Trapezoidal sum = (Δx/2) * [f(0) + 2f(1) + 2f(2) + 2f(3) + f(4)] = (1/2) * [0 + 2(1) + 2(4) + 2(9) + 16] = (1/2) * [0 + 2 + 8 + 18 + 16] = (1/2) * 44 = 22.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.2 Approximating Areas with Riemann Sums and Trapezoidal Rule"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.2 Approximating Areas with Riemann Sums and Trapezoidal Rule",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-062",
@@ -30,7 +41,18 @@
       ],
       "answer": 0,
       "explanation": "Average value formula: f_avg = (1 / (b - a)) * ∫[a to b] f(x) dx. Here b - a = 4 - 1 = 3. ∫[1 to 4] (3x^2 - 4x) dx = [x^3 - 2x^2]_1^4 = (64 - 32) - (1 - 2) = 32 - (-1) = 33. Average value = 33 / 3 = 11.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.5 Finding the Average Value of a Function on an Interval"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.5 Finding the Average Value of a Function on an Interval",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-063",
@@ -46,7 +68,18 @@
       ],
       "answer": 1,
       "explanation": "∫[3 to 5] f(x) dx = ∫[1 to 5] f(x) dx - ∫[1 to 3] f(x) dx = 12 - 4 = 8. Now evaluate ∫[3 to 5] (2f(x) - 3) dx = 2 * ∫[3 to 5] f(x) dx - ∫[3 to 5] 3 dx = 2(8) - 3(5 - 3) = 16 - 6 = 10.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-064",
@@ -62,7 +95,18 @@
       ],
       "answer": 3,
       "explanation": "Split the integral: F(x) = ∫[0 to 2x] (3t + 1) dt - ∫[0 to x] (3t + 1) dt. Differentiate with respect to x using FTC Part 1 and chain rule: F'(x) = [3(2x) + 1] * (2) - [3(x) + 1] * (1) = (6x + 1)(2) - (3x + 1) = 12x + 2 - 3x - 1 = 9x + 1.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.4 Fundamental Theorem of Calculus Part 1"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.4 Fundamental Theorem of Calculus Part 1",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-065",
@@ -78,7 +122,18 @@
       ],
       "answer": 1,
       "explanation": "Let u = x^2, then du = 2x dx → x dx = du/2. When x = 0, u = 0; when x = 1, u = 1. Integral becomes (1/2) * ∫[0 to 1] e^u du = (1/2)[e^u]_0^1 = (1/2)(e^1 - e^0) = (e - 1) / 2.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-066",
@@ -94,7 +149,18 @@
       ],
       "answer": 0,
       "explanation": "To evaluate the indefinite integral ∫ sec^2(3x) dx, use u-substitution. Let u = 3x, so the differential is du = 3 dx, which implies dx = du / 3. Substituting into the integral: ∫ sec^2(3x) dx = (1/3) ∫ sec^2(u) du. Since the standard antiderivative of sec^2(u) is tan(u), we obtain: (1/3) * tan(u) + C = (1/3) * tan(3x) + C.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-067",
@@ -110,7 +176,18 @@
       ],
       "answer": 3,
       "explanation": "Standard integral form: ∫ [1 / (a^2 + x^2)] dx = (1/a) * arctan(x/a) + C. Here a = 2. Value = [(1/2) * arctan(x/2)]_0^2 = (1/2) * [arctan(1) - arctan(0)] = (1/2) * (π/4 - 0) = π / 8.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.10 Integrating Functions Using Long Division or Completing the Square"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.10 Integrating Functions Using Long Division or Completing the Square",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-068",
@@ -126,7 +203,18 @@
       ],
       "answer": 2,
       "explanation": "Let u = x - 1 → x = u + 1 and dx = du. The integral becomes ∫ (u + 1) * u^(1/2) du = ∫ (u^(3/2) + u^(1/2)) du = (2/5)u^(5/2) + (2/3)u^(3/2) + C = (2/5)(x - 1)^(5/2) + (2/3)(x - 1)^(3/2) + C.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-069",
@@ -142,7 +230,18 @@
       ],
       "answer": 1,
       "explanation": "Break into two integrals: ∫[-π to π] x^3 * cos(x) dx + ∫[-π to π] 5 dx. The function g(x) = x^3 * cos(x) is odd (since (-x)^3 * cos(-x) = -x^3 * cos(x)). The integral of any odd continuous function over a symmetric interval [-a, a] is strictly 0. ∫[-π to π] 5 dx = 5 * [π - (-π)] = 5 * 2π = 10π. Total = 0 + 10π = 10π.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals and Symmetry"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals and Symmetry",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-070",
@@ -158,7 +257,18 @@
       ],
       "answer": 0,
       "explanation": "For any strictly increasing function, the function value at the left endpoint of every subinterval is the minimum value on that subinterval (producing an underestimate), while the right endpoint is the maximum value (producing an overestimate).",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.2 Riemann Sums and Monotonic Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.2 Riemann Sums and Monotonic Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-071",
@@ -174,7 +284,18 @@
       ],
       "answer": 2,
       "explanation": "Total water at t = 5: W(5) = W(0) + ∫[0 to 5] r(t) dt = 500 + ∫[0 to 5] 100 * e^(-0.2t) dt. Antiderivative is 100 / (-0.2) * e^(-0.2t) = -500 * e^(-0.2t). Evaluate from 0 to 5: -500(e^-1 - e^0) = 500(1 - e^-1). Total = 500 + 500(1 - e^-1) gallons.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.3 The Fundamental Theorem of Calculus and Accumulation Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.3 The Fundamental Theorem of Calculus and Accumulation Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-072",
@@ -190,7 +311,18 @@
       ],
       "answer": 3,
       "explanation": "Interval [0, 4] with n = 2 has subinterval width Δx = 2. Subintervals: [0, 2] with midpoint 1; [2, 4] with midpoint 3. f(1) = 1 + 1 = 2. f(3) = 27 + 1 = 28. Midpoint sum = 2 * (2 + 28) = 2 * 30 = 60.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.2 Midpoint Riemann Sums"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.2 Midpoint Riemann Sums",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-073",
@@ -206,7 +338,18 @@
       ],
       "answer": 2,
       "explanation": "The antiderivative of 1/x for x > 0 is ln(x). Applying the Fundamental Theorem of Calculus Part 2 to the definite integral ∫[1 to e^3] (1 / x) dx: [ln(x)]_1^(e^3) = ln(e^3) - ln(1). By logarithm properties, ln(e^3) = 3*ln(e) = 3*1 = 3, and ln(1) = 0. Therefore: ln(e^3) - ln(1) = 3 - 0 = 3.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-074",
@@ -222,7 +365,18 @@
       ],
       "answer": 0,
       "explanation": "To evaluate ∫ (3/x^2 - 4/x^3) dx, rewrite the integrand using negative exponents: ∫ (3x^(-2) - 4x^(-3)) dx. Applying the power rule of integration ∫ x^n dx = (x^(n+1))/(n+1) to each term: 3 * [x^(-1) / (-1)] - 4 * [x^(-2) / (-2)] + C = -3x^(-1) + 2x^(-2) + C = -3/x + 2/x^2 + C.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.8 Indefinite Integrals of Basic Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-075",
@@ -238,7 +392,18 @@
       ],
       "answer": 1,
       "explanation": "By the Fundamental Theorem of Calculus Part 1, if g(x) = ∫[a to x] f(t) dt, then g'(x) = f(x). Here g(x) = ∫[2 to x] √(t^3 + 1) dt, so the derivative with respect to x is g'(x) = √(x^3 + 1). Evaluating this derivative at the value x = 2: g'(2) = √(2^3 + 1) = √(8 + 1) = √9 = 3.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.4 Accumulation Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.4 Accumulation Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-076",
@@ -254,7 +419,18 @@
       ],
       "answer": 3,
       "explanation": "The absolute value function |x| changes definition at x = 0 (|x| = -x for x < 0 and |x| = x for x ≥ 0). Split the definite integral into two pieces at x = 0: ∫[-2 to 3] |x| dx = ∫[-2 to 0] (-x) dx + ∫[0 to 3] (x) dx. Evaluating each part: [-x^2 / 2]_{-2}^0 = 0 - (-(-2)^2 / 2) = 0 - (-2) = 2; and [x^2 / 2]_0^3 = (3^2 / 2) - 0 = 9/2. Summing both areas gives: 2 + 9/2 = 4/2 + 9/2 = 13/2.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals and Piecewise Integrals"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.6 Properties of Definite Integrals and Piecewise Integrals",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-077",
@@ -270,7 +446,18 @@
       ],
       "answer": 1,
       "explanation": "To evaluate ∫ cos(x) * sin^4(x) dx, use u-substitution. Let u = sin(x), then du = cos(x) dx. The integral transforms directly into: ∫ u^4 du. Applying the power rule of integration yields (1/5)*u^5 + C. Substituting back u = sin(x) gives the final antiderivative: (1/5) * sin^5(x) + C.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-078",
@@ -286,7 +473,18 @@
       ],
       "answer": 3,
       "explanation": "Area above x-axis on [0, 4]: semicircle of radius r = 2 has area (1/2)πr^2 = (1/2)π(4) = 2π. Area below x-axis on [4, 8]: triangle has base = 8 - 4 = 4 and height = 3, area = (1/2)(4)(3) = 6. Since it is below the x-axis, its integral is -6. Total ∫[0 to 8] f(x) dx = 2π - 6.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.6 Definite Integrals as Geometric Area"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.6 Definite Integrals as Geometric Area",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-079",
@@ -302,7 +500,18 @@
       ],
       "answer": 0,
       "explanation": "By the Fundamental Theorem of Calculus Part 2 (Total Change Theorem), the definite integral of the rate of change f'(x) over an interval [a, b] equals the net change in f: ∫[a to b] f'(x) dx = f(b) - f(a). Here the interval is [1, 5] with given values f(1) = 7 and f(5) = 19. Substituting: ∫[1 to 5] f'(x) dx = f(5) - f(1) = 19 - 7 = 12.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.7 Fundamental Theorem of Calculus Part 2"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.7 Fundamental Theorem of Calculus Part 2",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-080",
@@ -318,7 +527,18 @@
       ],
       "answer": 2,
       "explanation": "Let u = x^2 + 16, du = 2x dx → x dx = du/2. When x = 0, u = 16; when x = 3, u = 25. The integral becomes (1/2) ∫[16 to 25] u^(-1/2) du = (1/2) * [2u^(1/2)]_16^25 = [√u]_16^25 = √25 - √16 = 5 - 4 = 1.",
-      "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution"
+      "citation": "College Board AP® Calculus AB CED — Topic 6.9 Integrating Using Substitution",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

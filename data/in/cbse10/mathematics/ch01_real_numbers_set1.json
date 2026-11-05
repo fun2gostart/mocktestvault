@@ -13,7 +13,18 @@
     ],
     "answer": 1,
     "explanation": "The Fundamental Theorem of Arithmetic (also known as the Unique Prime Factorisation Theorem, formulated by Carl Friedrich Gauss) states that every composite integer greater than 1 can be expressed uniquely as a product of prime numbers, up to the order in which the prime factors are written. That is, for any positive integer n > 1, the representation n = p1^a1 * p2^a2 * ... * pk^ak (where p1 < p2 < ... < pk are distinct primes and a_i are positive integers) is completely unique, providing the cornerstone for all algebraic number theory.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2 The Fundamental Theorem of Arithmetic"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2 The Fundamental Theorem of Arithmetic",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-002",
@@ -29,7 +40,18 @@
     ],
     "answer": 2,
     "explanation": "For any two positive integers a and b, the product of their Highest Common Factor (HCF) and Lowest Common Multiple (LCM) is strictly equal to the product of the two original numbers: HCF(a, b) * LCM(a, b) = a * b. This fundamental identity arises because the HCF takes the minimum exponent of each common prime factor, while the LCM takes the maximum exponent of every prime factor; their product perfectly sums exponents min(x, y) + max(x, y) = x + y. Important: this relation holds strictly for two numbers, not for three.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-003",
@@ -45,7 +67,18 @@
     ],
     "answer": 0,
     "explanation": "To find the Highest Common Factor (HCF) of two algebraic monomials expressed as prime power factorisations, we take the product of the smallest power (minimum exponent) of each common prime factor involved in the numbers. Given a = x^3 * y^2 and b = x * y^3, where x and y are prime numbers: the common prime factors are x and y. The minimum exponent of prime x is min(3, 1) = 1, giving x^1. The minimum exponent of prime y is min(2, 3) = 2, giving y^2. Multiplying these minimum power terms yields HCF(a, b) = x * y^2.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q1"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q1",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-004",
@@ -61,7 +94,18 @@
     ],
     "answer": 3,
     "explanation": "To find the Lowest Common Multiple (LCM) of two numbers expressed in prime factorised form, we take the product of the highest power (maximum exponent) of every prime factor involved across the numbers. Given p = a * b^2 and q = a^3 * b, where a and b are distinct prime numbers: the prime factors are a and b. The maximum exponent of prime a is max(1, 3) = 3, contributing factor a^3. The maximum exponent of prime b is max(2, 1) = 2, contributing factor b^2. Multiplying highest power terms yields LCM(p, q) = a^3 * b^2.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q2"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q2",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-005",
@@ -77,7 +121,18 @@
     ],
     "answer": 2,
     "explanation": "A real number is classified as 'irrational' if it cannot be expressed in the quotient form p / q, where p and q are integers and q != 0. According to Theorem 1.4 in NCERT, if p is any prime number, then sqrt(p) is unconditionally irrational (e.g., sqrt(2), sqrt(3), sqrt(5)). In contrast, 3.141414... is a non-terminating repeating decimal and can be expressed as a rational fraction (311/99); 22/7 is explicitly written as a ratio of integers; and sqrt(25) = 5 is a positive integer. Hence, sqrt(5) is the irrational number.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-006",
@@ -93,7 +148,18 @@
     ],
     "answer": 0,
     "explanation": "In real analysis, the sum or difference of a rational number and an irrational number is ALWAYS an irrational number. Proof by contradiction: Let r be a rational number and s be an irrational number. Suppose their sum were rational, say r + s = q (where q is rational). Then subtracting r from both sides yields s = q - r. Since the set of rational numbers is closed under subtraction, q - r must be a rational number, which implies that s is rational. This directly contradicts the premise that s is irrational, proving r + s is irrational.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3 Revisiting Irrational Numbers"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3 Revisiting Irrational Numbers",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-007",
@@ -109,7 +175,18 @@
     ],
     "answer": 3,
     "explanation": "For any natural number to end with the digit 0 in its decimal expansion, it must be divisible by 10, which means its prime factorisation must contain both 2 and 5 as prime factors (since 10 = 2 * 5). The prime factorisation of 4^n is: 4^n = (2^2)^n = 2^(2n). The only prime factor present in 4^n is the prime number 2. By the uniqueness property of the Fundamental Theorem of Arithmetic, there are no other prime factors in the factorisation of 4^n. Because the prime factor 5 is completely absent, 4^n can never end with the digit 0 for any n.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 5"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 5",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-008",
@@ -125,7 +202,18 @@
     ],
     "answer": 1,
     "explanation": "To find the largest positive integer that divides 70 and 125 leaving remainders 5 and 8 respectively, the required number must divide (70 - 5 = 65) and (125 - 8 = 117) with zero remainder. Therefore, the required integer is the Highest Common Factor HCF(65, 117). Using prime factorisation: 65 = 5 * 13, and 117 = 9 * 13 = 3^2 * 13. The common prime factor shared between the two numbers is 13 with an exponent of 1. Hence, HCF(65, 117) = 13, which is the largest divisor satisfying both remainder conditions.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-009",
@@ -141,7 +229,18 @@
     ],
     "answer": 2,
     "explanation": "The least natural number divisible by all positive integers from 1 to 10 inclusive is given by their Lowest Common Multiple: LCM(1, 2, 3, 4, 5, 6, 7, 8, 9, 10). Prime factorise each integer: 1 = 1; 2 = 2; 3 = 3; 4 = 2^2; 5 = 5; 6 = 2 * 3; 7 = 7; 8 = 2^3; 9 = 3^2; 10 = 2 * 5. Taking the highest power of each distinct prime factor present: for 2 it is 2^3 = 8; for 3 it is 3^2 = 9; for 5 it is 5^1 = 5; for 7 it is 7^1 = 7. Multiplying these powers yields: LCM = 2^3 * 3^2 * 5 * 7 = 8 * 9 * 5 * 7 = 72 * 35 = 2520.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q7"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q7",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-010",
@@ -157,7 +256,18 @@
     ],
     "answer": 1,
     "explanation": "Using the fundamental relationship connecting two positive integers: HCF(a, b) * LCM(a, b) = a * b. We are given the two numbers a = 306 and b = 657, along with their highest common factor HCF(306, 657) = 9. Rearranging the formula to solve for the LCM gives: LCM(306, 657) = (a * b) / HCF(a, b) = (306 * 657) / 9. Dividing 306 by 9 gives 34: LCM = 34 * 657 = 22,338. This formula computes large common multiples without requiring laborious prime factorisation of 657.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 4"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 4",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-011",
@@ -173,7 +283,18 @@
     ],
     "answer": 0,
     "explanation": "To find the Highest Common Factor (HCF) of 96 and 404 by the prime factorisation method, write each number as a product of prime powers: 96 = 2 * 48 = 2^2 * 24 = 2^5 * 3, and 404 = 2 * 202 = 2^2 * 101 (where 101 is a prime number). The common prime factor is 2, and its smallest power is 2^2 = 4. Therefore, HCF(96, 404) = 4. Furthermore, their LCM can be computed as (96 * 404) / 4 = 96 * 101 = 9696, confirming the two-number product identity 4 * 9696 = 96 * 404.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 7"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 7",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-012",
@@ -189,7 +310,18 @@
     ],
     "answer": 3,
     "explanation": "No, two positive integers cannot have 18 as their HCF and 380 as their LCM. Proof: By mathematical definition, the HCF is the product of common prime factors with lowest exponents, while the LCM is the product of all prime factors with highest exponents. Consequently, the HCF must always be an exact divisor (factor) of the LCM. Performing division: 380 / 18 = 21 with a non-zero remainder of 2 (since 18 * 21 = 378 != 380). Because 18 does not divide 380 completely, such a pair of integers cannot exist.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-013",
@@ -205,7 +337,18 @@
     ],
     "answer": 3,
     "explanation": "To find the maximum number of equal marching columns in which an army contingent of 616 members can march behind an army band of 32 members, both groups must be divided into the same number of columns without remainder. Thus, the required number of columns is HCF(616, 32). Applying prime factorisation: 616 = 2^3 * 7 * 11 = 8 * 77, and 32 = 2^5. The common prime factor is 2, with lowest power 2^3 = 8. Hence, HCF(616, 32) = 8, meaning both contingents march in 8 identical columns.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.1 Question 3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.1 Question 3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-014",
@@ -221,7 +364,18 @@
     ],
     "answer": 2,
     "explanation": "Two school bells that toll at intervals of 20 minutes and 25 minutes will toll together again at a time interval that is a common multiple of both periods. The earliest simultaneous toll occurs at their Lowest Common Multiple: LCM(20, 25). Factoring into prime powers: 20 = 2^2 * 5, and 25 = 5^2. Taking the highest power of each prime factor gives LCM = 2^2 * 5^2 = 4 * 25 = 100 minutes. Converting to hours: 100 minutes = 1 hour and 40 minutes. Adding to 12:00 noon: 12:00 + 1 hr 40 min = 1:40 PM.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 7"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 7",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-015",
@@ -237,7 +391,18 @@
     ],
     "answer": 1,
     "explanation": "To determine the ratio of the LCM to the HCF for the three numbers 5, 15, and 20, first express each number in prime factorised form: 5 = 5^1; 15 = 3^1 * 5^1; and 20 = 2^2 * 5^1. The common prime factor is 5, with lowest exponent 1, so HCF(5, 15, 20) = 5. The LCM takes the highest power of all prime factors (2, 3, 5): LCM(5, 15, 20) = 2^2 * 3^1 * 5^1 = 4 * 3 * 5 = 60. Now calculate the requested ratio of LCM to HCF: Ratio = LCM / HCF = 60 / 5 = 12 / 1 = 12 : 1.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-016",
@@ -253,7 +418,18 @@
     ],
     "answer": 0,
     "explanation": "Theorem 1.3 in NCERT Mathematics states: Let p be a prime number. If p divides a^2 (where a is a positive integer), then p divides a. Proof outline: Let the prime factorisation of a be a = p1 * p2 * ... * pn. Then a^2 = (p1 * p2 * ... * pn)^2 = p1^2 * p2^2 * ... * pn^2. Since p divides a^2, by the Fundamental Theorem of Arithmetic, p must be one of the prime factors of a^2. But the only prime factors of a^2 are p1, p2, ..., pn, which are the prime factors of a. Therefore, p must divide a.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-017",
@@ -269,7 +445,18 @@
     ],
     "answer": 0,
     "explanation": "The product of any non-zero rational number r and an irrational number s is ALWAYS an irrational number. Proof by contradiction: Let r = a / b (where a, b are non-zero integers) be rational and s be irrational. Suppose their product r * s were rational, equal to p / q (where p, q are integers and q != 0). Then (a / b) * s = p / q => s = (p * b) / (q * a). Since p, b, q, a are integers and q * a != 0, the right-hand side is a rational number, implying s is rational. This contradiction proves r * s is irrational.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-018",
@@ -285,7 +472,18 @@
     ],
     "answer": 1,
     "explanation": "Two positive integers a and b are mathematically defined to be 'coprime' (also termed relatively prime or mutually prime) if and only if they share no common positive integer factor other than 1. In algebraic terms, this means their Highest Common Factor is strictly equal to one: HCF(a, b) = 1. Notably, coprime numbers do not need to be individual prime numbers; for instance, 8 (composite: 2^3) and 9 (composite: 3^2) share no common divisor other than 1, so HCF(8, 9) = 1 and they are coprime.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-019",
@@ -301,7 +499,18 @@
     ],
     "answer": 1,
     "explanation": "By fundamental mathematical definition, a 'prime number' is any natural number strictly greater than 1 that possesses exactly TWO distinct positive divisors: the number 1 and the prime number itself. If a positive integer has more than two distinct positive factors, it is categorized as a composite number. The integer 1 is uniquely classified as neither prime nor composite because it has only one positive factor (itself). Therefore, any prime number p has precisely two positive factors: {1, p}.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch01-s1-020",
@@ -317,6 +526,17 @@
     ],
     "answer": 3,
     "explanation": "To explain why the expression (7 * 11 * 13 + 13) is a composite number, factor out the common integer 13 from both terms: 7 * 11 * 13 + 13 = 13 * (7 * 11 + 1) = 13 * (77 + 1) = 13 * 78. Now factor 78 into primes: 78 = 2 * 39 = 2 * 3 * 13. Thus, the expression equals 2 * 3 * 13^2 = 1,014. By the Fundamental Theorem of Arithmetic, because this number is expressed as a product of multiple prime factors (2, 3, and 13) and has factors other than 1 and itself, it is a composite number.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 6"
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 6",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   }
 ]

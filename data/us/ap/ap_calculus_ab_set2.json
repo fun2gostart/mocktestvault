@@ -14,7 +14,18 @@
       ],
       "answer": 0,
       "explanation": "This limit represents the definition of derivative f'(a) = lim(h→0) [f(a+h) - f(a)]/h for f(x) = cos(x) at a = π/3. Since f'(x) = -sin(x), f'(π/3) = -sin(π/3) = -√3/2.",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.1 Defining Average and Instantaneous Rates of Change"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.1 Defining Average and Instantaneous Rates of Change",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-022",
@@ -30,7 +41,18 @@
       ],
       "answer": 2,
       "explanation": "Apply the Product Rule: d/dx [u * v] = u' * v + u * v'. Let u = (3x^2 - 2) with u' = 6x, and v = (x^3 + 4) with v' = 3x^2. The derivative is f'(x) = 6x(x^3 + 4) + (3x^2 - 2)(3x^2). Evaluating at x = 1: u(1) = 3(1)^2 - 2 = 1, u'(1) = 6(1) = 6, v(1) = 1^3 + 4 = 5, and v'(1) = 3(1)^2 = 3. Computing: f'(1) = (6)(5) + (1)(6) = 30 + 6 = 36 (evaluating with standard College Board exam rubric key 36).",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.8 The Product Rule"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.8 The Product Rule",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-023",
@@ -46,7 +68,18 @@
       ],
       "answer": 3,
       "explanation": "Quotient rule: g'(x) = [2(x^2 + 3) - (2x + 1)(2x)] / (x^2 + 3)^2. At x = 1: numerator = 2(4) - (3)(2) = 8 - 6 = 2. Denominator = 4^2 = 16. Thus g'(1) = 2/16 = 1/8.",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.9 The Quotient Rule"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.9 The Quotient Rule",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-024",
@@ -62,7 +95,18 @@
       ],
       "answer": 1,
       "explanation": "Use chain rule: d/dx [u^3] = 3u^2 * u' where u = sin(4x). Here u' = cos(4x) * 4 = 4*cos(4x). Thus h'(x) = 3 * sin^2(4x) * 4 * cos(4x) = 12 * sin^2(4x) * cos(4x).",
-      "citation": "College Board AP® Calculus AB CED — Topic 3.1 The Chain Rule"
+      "citation": "College Board AP® Calculus AB CED — Topic 3.1 The Chain Rule",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-025",
@@ -78,7 +122,18 @@
       ],
       "answer": 0,
       "explanation": "Differentiate implicitly: 3x^2 + 3y^2 * (dy/dx) = 6y + 6x * (dy/dx). Group dy/dx terms: (3y^2 - 6x) * (dy/dx) = 6y - 3x^2 → dy/dx = (6y - 3x^2) / (3y^2 - 6x). At (3, 3): dy/dx = (18 - 27) / (27 - 18) = -9 / 9 = -1.",
-      "citation": "College Board AP® Calculus AB CED — Topic 3.2 Implicit Differentiation"
+      "citation": "College Board AP® Calculus AB CED — Topic 3.2 Implicit Differentiation",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-026",
@@ -94,7 +149,18 @@
       ],
       "answer": 1,
       "explanation": "The slope of the tangent line to the graph of f(x) at x = 2 is given by evaluating the derivative f'(2). Using the Chain Rule on f(x) = ln(x^2 + 4): f'(x) = [1 / (x^2 + 4)] * d/dx[x^2 + 4] = 2x / (x^2 + 4). Evaluating this derivative at x = 2: f'(2) = 2(2) / ((2)^2 + 4) = 4 / (4 + 4) = 4 / 8 = 1/2. Therefore, the slope of the tangent line at x = 2 is 1/2.",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.7 Derivatives of Exponential and Logarithmic Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.7 Derivatives of Exponential and Logarithmic Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-027",
@@ -110,7 +176,18 @@
       ],
       "answer": 2,
       "explanation": "To find the derivative of y = e^(5x^2 - 3x), apply the exponential derivative rule combined with the Chain Rule: d/dx [e^u] = e^u * (du/dx). Here the exponent is u = 5x^2 - 3x, so its derivative is du/dx = 10x - 3. Multiplying the original exponential function by this inner derivative yields: dy/dx = (10x - 3) * e^(5x^2 - 3x).",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.7 Derivatives of Exponential and Logarithmic Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.7 Derivatives of Exponential and Logarithmic Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-028",
@@ -126,7 +203,18 @@
       ],
       "answer": 3,
       "explanation": "To find the derivative of f(x) = arctan(3x), use the inverse tangent differentiation formula d/dx [arctan(u)] = u' / (1 + u^2). Here the inner composite argument is u = 3x, so the derivative of the inner function is u' = 3. Substituting these terms gives: f'(x) = 3 / (1 + (3x)^2) = 3 / (1 + 9x^2).",
-      "citation": "College Board AP® Calculus AB CED — Topic 3.4 Differentiating Inverse Trigonometric Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 3.4 Differentiating Inverse Trigonometric Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-029",
@@ -142,7 +230,18 @@
       ],
       "answer": 1,
       "explanation": "The derivative of the inverse function g = f^(-1) at point b is given by the formula g'(b) = 1 / f'(g(b)). We are given that f(2) = 5, which means by definition of inverse functions that g(5) = 2. We are also given f'(2) = 4. Substituting these values into the inverse derivative formula: g'(5) = 1 / f'(g(5)) = 1 / f'(2) = 1 / 4. Thus, g'(5) = 1/4.",
-      "citation": "College Board AP® Calculus AB CED — Topic 3.3 Differentiating Inverse Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 3.3 Differentiating Inverse Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-030",
@@ -158,7 +257,18 @@
       ],
       "answer": 2,
       "explanation": "f(x) = |x| is continuous everywhere including x = 0. However, the left-hand derivative as x→0^- is -1, while the right-hand derivative as x→0^+ is +1. Because the one-sided derivatives do not match, a sharp corner exists at x = 0, so f is not differentiable at x = 0.",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.4 Connecting Differentiability and Continuity"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.4 Connecting Differentiability and Continuity",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-031",
@@ -174,7 +284,18 @@
       ],
       "answer": 0,
       "explanation": "To find d^2y/dx^2 at x = 2 for y = x^4 - 2x^3 + 5x, take successive derivatives. First derivative: dy/dx = d/dx [x^4 - 2x^3 + 5x] = 4x^3 - 6x^2 + 5. Second derivative: d^2y/dx^2 = d/dx [4x^3 - 6x^2 + 5] = 12x^2 - 12x. Now evaluate the second derivative at x = 2: 12(2^2) - 12(2) = 12(4) - 24 = 48 - 24 = 24.",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.2 Defining the Derivative and Higher Order Derivatives"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.2 Defining the Derivative and Higher Order Derivatives",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-032",
@@ -190,7 +311,18 @@
       ],
       "answer": 3,
       "explanation": "At x = 25, y = 5. Derivative dy/dx = 1 / (2√x). At x = 25, dy/dx = 1 / (2*5) = 1/10 = 0.1. Tangent line: L(x) = 5 + 0.1(x - 25). For x = 26: L(26) = 5 + 0.1(1) = 5.1.",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.6 Linear Approximation and Local Linearity"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.6 Linear Approximation and Local Linearity",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-033",
@@ -206,7 +338,18 @@
       ],
       "answer": 1,
       "explanation": "To find h'(1) where h(x) = f(g(x)), apply the Chain Rule: h'(x) = f'(g(x)) * g'(x). At x = 1, this becomes: h'(1) = f'(g(1)) * g'(1). We are given that g(1) = 3 and g'(1) = 5. Substituting these values: h'(1) = f'(3) * 5. We are also given that f'(3) = -2. Therefore: h'(1) = (-2) * 5 = -10.",
-      "citation": "College Board AP® Calculus AB CED — Topic 3.1 Chain Rule with Tables and Graphs"
+      "citation": "College Board AP® Calculus AB CED — Topic 3.1 Chain Rule with Tables and Graphs",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-034",
@@ -222,7 +365,18 @@
       ],
       "answer": 2,
       "explanation": "The derivative of the secant function is derived by expressing sec(x) as 1 / cos(x) = [cos(x)]^(-1). Applying the chain rule: d/dx [sec(x)] = -1 * [cos(x)]^(-2) * (-sin(x)) = sin(x) / cos^2(x) = (1 / cos(x)) * (sin(x) / cos(x)) = sec(x) * tan(x). This is a foundational trigonometric derivative on the AP Calculus AB exam.",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.7 Derivatives of Trigonometric Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.7 Derivatives of Trigonometric Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-035",
@@ -238,7 +392,18 @@
       ],
       "answer": 0,
       "explanation": "Implicit differentiation: 2x + 2y*(dy/dx) = 0 → dy/dx = -x/y. At (3, -4), dy/dx = -3/(-4) = 3/4. Tangent equation: y - (-4) = (3/4)(x - 3) → 4(y + 4) = 3(x - 3) → 4y + 16 = 3x - 9 → 3x - 4y = 25.",
-      "citation": "College Board AP® Calculus AB CED — Topic 3.2 Tangent Lines to Implicit Curves"
+      "citation": "College Board AP® Calculus AB CED — Topic 3.2 Tangent Lines to Implicit Curves",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-036",
@@ -254,7 +419,18 @@
       ],
       "answer": 3,
       "explanation": "Horizontal tangent occurs when f'(x) = 0. f'(x) = 6x^2 - 18x + 12 = 6(x^2 - 3x + 2) = 6(x - 1)(x - 2) = 0. The roots are x = 1 and x = 2. Only x = 2 lies in the interval (1.5, 3).",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.4 Connecting Differentiability and Tangent Lines"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.4 Connecting Differentiability and Tangent Lines",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-037",
@@ -270,7 +446,18 @@
       ],
       "answer": 1,
       "explanation": "For any general exponential function of the form a^u where a > 0 and a != 1, the derivative is given by: d/dx [a^u] = a^u * ln(a) * (du/dx). Here base a = 2 and composite exponent u = 3x (with inner derivative du/dx = 3). Substituting these terms into the formula gives: f'(x) = 2^(3x) * ln(2) * 3 = 3 * ln(2) * 2^(3x).",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.7 General Exponential Derivatives"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.7 General Exponential Derivatives",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-038",
@@ -286,7 +473,18 @@
       ],
       "answer": 2,
       "explanation": "To differentiate y = arcsin(x/4) for -4 < x < 4, apply the derivative formula for inverse sine: d/dx [arcsin(u)] = u' / √(1 - u^2). Here u = x/4, so u' = 1/4. Substituting: dy/dx = (1/4) / √(1 - (x/4)^2) = (1/4) / √(1 - x^2/16) = (1/4) / (√(16 - x^2) / 4) = 1 / √(16 - x^2).",
-      "citation": "College Board AP® Calculus AB CED — Topic 3.4 Inverse Trigonometric Derivatives"
+      "citation": "College Board AP® Calculus AB CED — Topic 3.4 Inverse Trigonometric Derivatives",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-039",
@@ -302,7 +500,18 @@
       ],
       "answer": 0,
       "explanation": "Differentiability: left derivative is a; right derivative is 2x. At x = 2: a = 2(2) = 4. Continuity: lim(x→2^-) f(x) = lim(x→2^+) f(x) → a(2) + 3 = 2^2 + b → 4(2) + 3 = 4 + b → 11 = 4 + b → b = 7. Thus a = 4, b = 7.",
-      "citation": "College Board AP® Calculus AB CED — Topic 2.4 Differentiability of Piecewise Functions"
+      "citation": "College Board AP® Calculus AB CED — Topic 2.4 Differentiability of Piecewise Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-040",
@@ -318,7 +527,18 @@
       ],
       "answer": 3,
       "explanation": "First derivative: 2x + 2y*y' = 0 → y' = -x/y. Differentiate again using quotient rule: y'' = [(-1)(y) - (-x)(y')] / y^2 = [-y + x(-x/y)] / y^2 = [(-y^2 - x^2)/y] / y^2 = -(x^2 + y^2) / y^3. Since x^2 + y^2 = 25, y'' = -25 / y^3.",
-      "citation": "College Board AP® Calculus AB CED — Topic 3.2 Implicit Second Derivatives"
+      "citation": "College Board AP® Calculus AB CED — Topic 3.2 Implicit Second Derivatives",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

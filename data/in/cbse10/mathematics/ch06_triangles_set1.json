@@ -14,7 +14,18 @@
       ],
       "answer": 1,
       "explanation": "By the Basic Proportionality Theorem (BPT, also known as Thales Theorem), if a straight line is drawn parallel to one side of a triangle intersecting the other two sides in distinct points, then the other two sides are divided in the exact same ratio: AD / DB = AE / EC. Given values: AD = 1.5 cm, DB = 3 cm, and AE = 1 cm. Substituting into the BPT ratio: 1.5 / 3 = 1 / EC => 1/2 = 1 / EC. Cross-multiplying yields EC = 2 * 1 = 2 cm, which represents the remaining lower segment of side AC.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2, Theorem 6.1"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2, Theorem 6.1",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-002",
@@ -30,7 +41,18 @@
       ],
       "answer": 2,
       "explanation": "In Euclidean geometry, two polygons (or triangles) having the same number of sides are defined to be 'similar' if and only if two simultaneous geometric conditions are satisfied: (1) All their corresponding interior angles are strictly equal in measure, and (2) All their corresponding sides are in the exact same proportion (their side lengths share a common constant scaling ratio). When two triangles are similar, they possess identical shape but may differ in physical spatial scale or size.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-003",
@@ -46,7 +68,18 @@
       ],
       "answer": 0,
       "explanation": "All equilateral triangles are unconditionally and ALWAYS similar to one another. Proof: Every equilateral triangle, regardless of its physical dimensions or edge length, has three equal sides and three interior angles that each measure exactly 60 degrees. Therefore, for any two arbitrary equilateral triangles, all corresponding angles are identically equal to 60 degrees (satisfying the AAA similarity criterion), and the ratio of any two sides is always constant, guaranteeing geometric similarity.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.1",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-004",
@@ -62,7 +95,18 @@
       ],
       "answer": 3,
       "explanation": "By the Basic Proportionality Theorem (Thales Theorem), since line segment DE is parallel to side BC in triangle ABC, it divides sides AB and AC proportionally: AD / DB = AE / EC. Substituting the algebraic expressions: x / (x - 2) = (x + 2) / (x - 1). Cross-multiplying: x(x - 1) = (x - 2)(x + 2) => x^2 - x = x^2 - 4. Subtracting x^2 from both sides yields: -x = -4 => x = 4. Substituting x = 4 gives valid positive lengths: AD = 4, DB = 2, AE = 6, and EC = 3, confirming the ratio 4/2 = 6/3 = 2.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 2"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 2",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-005",
@@ -78,7 +122,18 @@
       ],
       "answer": 2,
       "explanation": "In trapezium ABCD with AB parallel to DC, diagonals AC and BD intersect at point O. By the properties of similar triangles formed by parallel lines (triangle AOB ~ triangle COD by AA similarity), the diagonals divide each other in the same proportion: AO / OC = BO / OD. Substituting: (3x - 1) / (5x - 3) = (2x + 1) / (6x - 5). Cross-multiplying: (3x - 1)(6x - 5) = (2x + 1)(5x - 3) => 18x^2 - 21x + 5 = 10x^2 - x - 3 => 8x^2 - 20x + 8 = 0 => 2x^2 - 5x + 2 = 0 => (2x - 1)(x - 2) = 0. Since x = 1/2 makes OD = -2 (impossible), we have x = 2.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 9"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 9",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-006",
@@ -94,7 +149,18 @@
       ],
       "answer": 0,
       "explanation": "Because the vertical pole and the tower are illuminated by the sun at the exact same moment in time, the sun's rays strike the horizontal ground at the identical angle of elevation (theta). Both the pole and the tower stand perpendicular (90 degrees) to the ground. By the AA similarity criterion, the right-angled triangle formed by the pole and its shadow is similar to that formed by the tower: Height of pole / Shadow of pole = Height of tower / Shadow of tower => 6 / 4 = H / 28 => H = (6 * 28) / 4 = 6 * 7 = 42 meters.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.3 Question 15"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.3 Question 15",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-007",
@@ -110,7 +176,18 @@
       ],
       "answer": 1,
       "explanation": "A fundamental theorem of similar triangles states that the ratio of the perimeters of two similar triangles is strictly equal to the ratio of their corresponding sides: Perimeter(triangle ABC) / Perimeter(triangle DEF) = AB / DE. We are given that triangle ABC is similar to triangle DEF with AB = 3 cm, DE = 4 cm, and Perimeter(triangle ABC) = 18 cm. Substituting these values into the ratio: 18 / Perimeter(triangle DEF) = 3 / 4 => Perimeter(triangle DEF) = (18 * 4) / 3 = 6 * 4 = 24 cm.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-008",
@@ -126,7 +203,18 @@
       ],
       "answer": 3,
       "explanation": "When two triangles are similar (triangle ABC ~ triangle PQR), their corresponding interior angles are strictly equal in measure: angle A = angle P = 47 degrees, angle B = angle Q = 83 degrees, and angle C = angle R. According to the angle sum property of any triangle, the sum of all three interior angles in triangle ABC is 180 degrees: angle A + angle B + angle C = 180 => 47 + 83 + angle C = 180 => 130 + angle C = 180 => angle C = 180 - 130 = 50 degrees, which also equals angle R.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-009",
@@ -142,7 +230,18 @@
       ],
       "answer": 2,
       "explanation": "By the Converse of the Basic Proportionality Theorem (Converse of BPT), if a line segment EF intersects two sides PQ and PR of a triangle such that it divides them in the same ratio (PE / EQ = PF / FR), then EF must be parallel to the third side QR. Let us evaluate each side ratio: PE / EQ = 3.9 / 3 = 1.3, while PF / FR = 3.6 / 2.4 = 1.5. Because the two ratios are unequal (1.3 != 1.5), the line segment EF does not divide the sides proportionally, proving that EF is NOT parallel to QR.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 2(i)"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 2(i)",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-010",
@@ -158,7 +257,18 @@
       ],
       "answer": 0,
       "explanation": "In triangles ABC and DEF, we are given that angle B = angle E. For the two triangles to be similar by the SAS (Side-Angle-Side) similarity criterion, the sides including these equal angles must be in proportion: AB / DE = BC / EF. We are given AB = 5 cm, BC = 7.5 cm, and DE = 2 cm. Substituting into the proportionality equation: 5 / 2 = 7.5 / EF. Cross-multiplying: 5 * EF = 2 * 7.5 => 5 * EF = 15 => EF = 15 / 5 = 3 cm. With EF = 3 cm, the SAS similarity condition holds precisely.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-011",
@@ -174,7 +284,18 @@
       ],
       "answer": 3,
       "explanation": "The girl walks at 1.2 m/s for 4 seconds, covering a distance d = 1.2 * 4 = 4.8 m from the lamp post. Height of lamp post = 3.6 m, and height of girl = 90 cm = 0.9 m. Let the length of her shadow on the ground be s. The lamp post, the girl, and the shadow form two similar right-angled triangles by AA similarity: Height of lamp / Height of girl = Total base / Shadow base => 3.6 / 0.9 = (4.8 + s) / s => 4 = (4.8 + s) / s => 4s = 4.8 + s => 3s = 4.8 => s = 4.8 / 3 = 1.6 meters.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3, Example 7"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3, Example 7",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-012",
@@ -190,7 +311,18 @@
       ],
       "answer": 1,
       "explanation": "Given that D and E are the midpoints of sides AB and AC of triangle ABC, we have AD / AB = 1/2 and AE / AC = 1/2. Angle A is common to both triangle ADE and triangle ABC. By the SAS similarity criterion, triangle ADE is similar to triangle ABC. In similar triangles, all corresponding side ratios are equal: DE / BC = AD / AB = 1/2. This result is also known as the Midpoint Theorem, which proves that the line joining midpoints is parallel to the third side and equal to half its length.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.2",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-013",
@@ -206,7 +338,18 @@
       ],
       "answer": 0,
       "explanation": "In an equilateral triangle ABC with side length a, draw altitude AD perpendicular to base BC. In an equilateral triangle, the altitude bisects the opposite base, so BD = DC = a / 2. Applying the Pythagorean theorem to right-angled triangle ABD: AB^2 = AD^2 + BD^2 => a^2 = AD^2 + (a / 2)^2 => a^2 = AD^2 + a^2 / 4. Rearranging: AD^2 = a^2 - a^2 / 4 = (3/4)a^2. Taking the square root on both sides yields the altitude length: AD = (sqrt(3) / 2) * a, a fundamental mensuration identity.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.4"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.4",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-014",
@@ -222,7 +365,18 @@
       ],
       "answer": 1,
       "explanation": "According to the Converse of Pythagoras Theorem, if the square of the length of the longest side of a triangle is equal to the sum of the squares of the other two sides, then the triangle is right-angled. Testing the set (7 cm, 24 cm, 25 cm): the longest side is 25 cm, so 25^2 = 625. For the other two sides: 7^2 + 24^2 = 49 + 576 = 625. Since 7^2 + 24^2 = 25^2 (625 = 625), the side lengths satisfy the Pythagorean identity exactly, proving they form a right-angled triangle.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 1"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 1",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-015",
@@ -238,7 +392,18 @@
       ],
       "answer": 3,
       "explanation": "In quadrilateral ABCD, diagonals AC and BD intersect at O such that AO / BO = CO / DO. Rearranging this proportion gives AO / CO = BO / DO. Through O, draw a line segment OE parallel to AB meeting AD at E. In triangle ABD, by BPT: DE / EA = DO / OB. Taking reciprocals: AE / ED = BO / DO = AO / CO. By the converse of BPT in triangle ADC, this implies that OE is parallel to DC. Since OE is parallel to both AB and DC, we have AB parallel to DC, proving ABCD is a trapezium.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 10"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.2 Question 10",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-016",
@@ -254,7 +419,18 @@
       ],
       "answer": 2,
       "explanation": "Compare corresponding sides of triangle ABC and triangle PQR: AB = 3.8 cm, BC = 6 cm, CA = 3*sqrt(3) cm; and RQ = 7.6 cm, QP = 6*sqrt(3) cm, PR = 12 cm. Testing side ratios: AB / RQ = 3.8 / 7.6 = 1/2; BC / PR = 6 / 12 = 1/2; and CA / QP = 3*sqrt(3) / (6*sqrt(3)) = 1/2. Since all three pairs of corresponding sides are in the same constant ratio (AB/RQ = BC/PR = CA/QP = 1/2), the two triangles are similar by the SSS similarity criterion with similarity ratio 1/2.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3, Example 5"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3, Example 5",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-017",
@@ -270,7 +446,18 @@
       ],
       "answer": 1,
       "explanation": "By the Right Triangle Altitude Theorem (Theorem 6.7 in NCERT), if a perpendicular is drawn from the vertex of the right angle of a right triangle to its hypotenuse, the triangles on each side of the perpendicular are similar to the whole triangle and to each other: triangle ADB ~ triangle BDC. From similarity: BD / CD = AD / BD => BD^2 = AD * CD. Given AD = 4 cm and CD = 9 cm: BD^2 = 4 * 9 = 36. Taking the square root yields BD = sqrt(36) = 6 cm, representing the geometric mean of the segments.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.4, Theorem 6.7"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.4, Theorem 6.7",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-018",
@@ -286,7 +473,18 @@
       ],
       "answer": 0,
       "explanation": "In an equilateral triangle ABC of side length a, altitude AD is perpendicular to base BC. The altitude bisects the base, so BD = a / 2 = AB / 2. In right-angled triangle ABD, apply the Pythagorean theorem: AB^2 = AD^2 + BD^2 => AB^2 = AD^2 + (AB / 2)^2 => AB^2 = AD^2 + AB^2 / 4. Subtracting AB^2 / 4 from both sides: AB^2 - AB^2 / 4 = AD^2 => (3/4)AB^2 = AD^2. Multiplying both sides by 4 yields the celebrated geometric identity: 3 AB^2 = 4 AD^2.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 16"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 16",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-019",
@@ -302,7 +500,18 @@
       ],
       "answer": 3,
       "explanation": "Let the ladder of length 10 m be the hypotenuse AB of a right-angled triangle ABC, where the vertical wall AC reaches the window at height 8 m and BC is the horizontal distance along the ground from the wall to the foot of the ladder. Applying the Pythagorean theorem: AB^2 = AC^2 + BC^2 => 10^2 = 8^2 + BC^2 => 100 = 64 + BC^2 => BC^2 = 100 - 64 = 36. Taking the square root gives BC = sqrt(36) = 6 meters. Thus, the foot of the ladder is located 6 meters from the base of the wall.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 9"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Exercise 6.4 Question 9",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch06-s1-020",
@@ -318,7 +527,18 @@
       ],
       "answer": 2,
       "explanation": "When two triangles are similar (triangle ABC ~ triangle DEF), the ratio of any two corresponding sides is equal to the ratio of their corresponding medians. Proof: Let AM and DN be medians bisecting BC and EF respectively. Since triangle ABC ~ triangle DEF: AB / DE = BC / EF = (2 BM) / (2 EN) = BM / EN, and angle B = angle E. By SAS similarity, triangle ABM ~ triangle DEN, which immediately proves that AB / DE = AM / DN. Hence, the ratio of corresponding sides equals the ratio of corresponding medians.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3"
+      "citation": "NCERT Class 10 Mathematics, Chapter 6, Section 6.3",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

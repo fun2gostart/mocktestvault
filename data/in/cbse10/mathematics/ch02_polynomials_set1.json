@@ -13,7 +13,18 @@
     ],
     "answer": 0,
     "explanation": "For any standard quadratic polynomial p(x) = ax^2 + bx + c with zeroes alpha and beta, the fundamental relationships between zeroes and coefficients state: Sum of zeroes (alpha + beta) = -b/a, and Product of zeroes (alpha * beta) = c/a. In p(x) = x^2 - 2x - 8, coefficients are a = 1, b = -2, and c = -8. Applying the formulas: Sum = -(-2)/1 = 2, and Product = -8/1 = -8. To cross-verify by factorisation: x^2 - 4x + 2x - 8 = (x - 4)(x + 2) = 0 gives zeroes 4 and -2. Sum: 4 + (-2) = 2; Product: 4 * (-2) = -8.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-002",
@@ -29,7 +40,18 @@
     ],
     "answer": 3,
     "explanation": "Per NCERT Class 10 Chapter 2, a quadratic polynomial with a given sum (S) and product (P) of zeroes is expressed as k[x^2 - Sx + P], where k is any non-zero real constant. Here, we are given Sum (S) = -3 and Product (P) = 2. Substituting these values into the polynomial form: p(x) = k[x^2 - (-3)x + 2] = k(x^2 + 3x + 2). Taking the simplest non-zero real constant k = 1 yields the standard quadratic polynomial x^2 + 3x + 2. Factoring (x + 1)(x + 2) = 0 confirms zeroes are -1 and -2, whose sum is -3 and product is 2.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-003",
@@ -45,7 +67,18 @@
     ],
     "answer": 2,
     "explanation": "Geometrically, the real zeroes of any polynomial p(x) correspond precisely to the x-coordinates of the points where its graph y = p(x) intersects or touches the horizontal x-axis (where the functional value y = 0). Points where the graph cuts the y-axis merely indicate the y-intercept p(0) = c, not the zeroes. Therefore, per NCERT graphical analysis (e.g., parabolas for quadratic polynomials or cubic curves), the total number of real zeroes equals the count of x-axis intersections or tangency points.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2 Geometrical Meaning of the Zeroes of a Polynomial"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2 Geometrical Meaning of the Zeroes of a Polynomial",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-004",
@@ -61,7 +94,18 @@
     ],
     "answer": 1,
     "explanation": "The graph of any quadratic function y = ax^2 + bx + c represents a parabola whose axis of symmetry is vertical. The direction of opening is solely determined by the sign of the leading coefficient 'a': (1) If a > 0, the parabola opens upwards and has a global minimum vertex; (2) If a < 0, the parabola opens downwards and has a global maximum vertex. In p(x) = -2x^2 + 3x + 5, the leading coefficient is a = -2, which is negative (a < 0). Hence, the parabolic graph opens strictly downwards.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-005",
@@ -77,7 +121,18 @@
     ],
     "answer": 0,
     "explanation": "By the Remainder and Factor Theorems in NCERT Class 10 Mathematics, a real number c is a zero of polynomial p(x) if and only if p(c) = 0. Here, x = 3 is given as a zero of p(x) = 2x^2 + x + k. Substituting x = 3: p(3) = 2(3)^2 + (3) + k = 0 => 2(9) + 3 + k = 0 => 18 + 3 + k = 0 => 21 + k = 0. Subtracting 21 from both sides yields k = -21. Verification: 2x^2 + x - 21 factorises as (2x + 7)(x - 3) = 0, which indeed yields x = 3 and x = -7/2 as its zeroes.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-006",
@@ -93,7 +148,18 @@
     ],
     "answer": 2,
     "explanation": "For the quadratic polynomial p(x) = x^2 - 5x + 6, coefficients are a = 1, b = -5, and c = 6. By the relationships between zeroes and coefficients: Sum of zeroes (alpha + beta) = -b/a = -(-5)/1 = 5, and Product of zeroes (alpha * beta) = c/a = 6/1 = 6. Taking the common denominator for the algebraic expression: 1/alpha + 1/beta = (alpha + beta) / (alpha * beta). Substituting the values: (5) / (6) = 5/6. Factorising confirms roots are 2 and 3: 1/2 + 1/3 = 3/6 + 2/6 = 5/6.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-007",
@@ -109,7 +175,18 @@
     ],
     "answer": 3,
     "explanation": "To find the zeroes of p(s) = 4s^2 - 4s + 1, we set p(s) = 0. Recognize that 4s^2 - 4s + 1 is a perfect square trinomial matching the algebraic identity (a - b)^2 = a^2 - 2ab + b^2, where a = 2s and b = 1: (2s - 1)^2 = 0. This implies (2s - 1)(2s - 1) = 0, so 2s - 1 = 0 => s = 1/2. Thus, the polynomial possesses two coincident (equal) real zeroes at s = 1/2. The discriminant D = (-4)^2 - 4(4)(1) = 16 - 16 = 0, confirming that the roots are real and coincident.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Exercise 2.2 Question 1(ii)"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Exercise 2.2 Question 1(ii)",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-008",
@@ -125,7 +202,18 @@
     ],
     "answer": 1,
     "explanation": "To determine the zeroes of p(t) = t^2 - 15, set p(t) = 0: t^2 - 15 = 0. Using the identity a^2 - b^2 = (a - b)(a + b) where b = sqrt(15): (t - sqrt(15))(t + sqrt(15)) = 0. Setting each linear factor to zero yields t = sqrt(15) and t = -sqrt(15). Verification with coefficients (a = 1, b = 0, c = -15): Sum of zeroes = sqrt(15) + (-sqrt(15)) = 0 = -b/a (since b = 0), and Product of zeroes = sqrt(15) * (-sqrt(15)) = -15 = c/a, fully validating NCERT relationships.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Exercise 2.2 Question 1(v)"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Exercise 2.2 Question 1(v)",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-009",
@@ -141,7 +229,18 @@
     ],
     "answer": 3,
     "explanation": "First, write p(x) = 6x^2 - 3 - 7x in standard descending form: p(x) = 6x^2 - 7x - 3. Here a = 6, b = -7, and c = -3. The product ac = 6 * (-3) = -18. We split middle coefficient -7 into -9 and +2 (since -9 * 2 = -18 and -9 + 2 = -7): 6x^2 - 9x + 2x - 3 = 0 => 3x(2x - 3) + 1(2x - 3) = 0 => (2x - 3)(3x + 1) = 0. Setting each factor to zero: 2x - 3 = 0 => x = 3/2; 3x + 1 = 0 => x = -1/3. Sum of zeroes = 3/2 - 1/3 = 7/6 = -b/a; Product = (3/2)(-1/3) = -1/2 = -3/6 = c/a.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Exercise 2.2 Question 1(iii)"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Exercise 2.2 Question 1(iii)",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-010",
@@ -157,7 +256,18 @@
     ],
     "answer": 0,
     "explanation": "According to the Fundamental Theorem of Algebra and NCERT Class 10 Polynomials theory, a polynomial p(x) of degree n with real coefficients has at most n real zeroes (roots). This is because every linear factor (x - r) corresponding to a real root r reduces the degree of the quotient polynomial by 1. Some roots may be complex conjugate pairs or repeated, so the number of distinct real zeroes can be less than n (or zero for even degrees), but it can never exceed the polynomial's degree n.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.2",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-011",
@@ -173,7 +283,18 @@
     ],
     "answer": 1,
     "explanation": "A quadratic polynomial with zeroes alpha and beta is given by k[x^2 - (alpha + beta)x + (alpha * beta)]. Given zeroes are alpha = sqrt(2) and beta = -sqrt(2). Step 1: Calculate sum of zeroes: S = sqrt(2) + (-sqrt(2)) = 0. Step 2: Calculate product of zeroes: P = (sqrt(2)) * (-sqrt(2)) = -2. Step 3: Substitute S and P with k = 1: p(x) = x^2 - (0)x + (-2) = x^2 - 2. By difference of squares, x^2 - 2 = (x - sqrt(2))(x + sqrt(2)) = 0, confirming the zeroes are indeed +-sqrt(2).",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-012",
@@ -189,7 +310,18 @@
     ],
     "answer": 2,
     "explanation": "If x = 2 is a zero of the quadratic polynomial p(x) = x^2 + 3x + k, then by definition the value of the polynomial at x = 2 must equal 0, i.e., p(2) = 0. Substituting x = 2: (2)^2 + 3(2) + k = 0 => 4 + 6 + k = 0 => 10 + k = 0. Transposing 10 to the right-hand side yields k = -10. Verification: For k = -10, p(x) = x^2 + 3x - 10 = (x + 5)(x - 2) = 0. The zeroes are x = 2 and x = -5, which confirms that x = 2 is a valid zero.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q1"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q1",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-013",
@@ -205,7 +337,18 @@
     ],
     "answer": 2,
     "explanation": "For the polynomial p(x) = x^2 + (a + 1)x + b, the zeroes are given as alpha = 2 and beta = -3. Comparing with ax^2 + bx + c = 0 where leading coefficient is 1: (1) Sum of zeroes: alpha + beta = -(coefficient of x) / 1 => 2 + (-3) = -(a + 1) => -1 = -a - 1 => a = 0. (2) Product of zeroes: alpha * beta = constant term / 1 => 2 * (-3) = b => b = -6. Thus, a = 0 and b = -6. Verification: p(x) = x^2 + (0 + 1)x + (-6) = x^2 + x - 6 = (x + 3)(x - 2) = 0.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q2"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, NCERT Exemplar Q2",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-014",
@@ -221,7 +364,18 @@
     ],
     "answer": 0,
     "explanation": "In polynomial algebra, any non-zero constant polynomial p(x) = c (where c != 0, such as p(x) = 7) can be expressed with variable x raised to the power 0 as p(x) = c * x^0 (since x^0 = 1 for all x != 0). Because the degree of a polynomial is defined as the highest power of the variable x with a non-zero coefficient, the degree of any non-zero constant polynomial is 0. Note that p(x) = c has no zeroes because c cannot equal 0.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-015",
@@ -237,7 +391,18 @@
     ],
     "answer": 3,
     "explanation": "Per standard NCERT algebraic definitions, the zero polynomial is p(x) = 0. We can express 0 as 0*x^1, 0*x^2, 0*x^10, or 0*x^n for any arbitrary non-negative integer n, because 0 multiplied by any power remains 0. Since there is no unique highest non-zero coefficient to designate a maximum power, the degree of the zero polynomial cannot be assigned a definite integer value; hence it is mathematically classified as 'not defined' (or formally -infinity in advanced algebra).",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-016",
@@ -253,7 +418,18 @@
     ],
     "answer": 1,
     "explanation": "Let the two zeroes of p(x) = 3x^2 + 8x + k be alpha and beta. The problem specifies that one zero is the reciprocal of the other, so beta = 1/alpha. Their product is therefore alpha * beta = alpha * (1/alpha) = 1. By the relationship between zeroes and coefficients for ax^2 + bx + c: Product of zeroes = c/a. In 3x^2 + 8x + k, a = 3 and c = k. Setting Product = 1: k / 3 = 1 => k = 3. Verification: 3x^2 + 8x + 3 = 0 has roots whose product is 3/3 = 1.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-017",
@@ -269,7 +445,18 @@
     ],
     "answer": 3,
     "explanation": "A general linear polynomial is written as p(x) = ax + b, where a and b are real numbers and a != 0. To determine its zero, we find the value of x that makes p(x) = 0: ax + b = 0. Subtracting b from both sides gives ax = -b. Dividing both sides by the non-zero leading coefficient a yields x = -b/a. Thus, every linear polynomial in one variable has exactly one unique real zero given by x = -b/a, representing the x-intercept of the straight line graph y = ax + b.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-018",
@@ -285,7 +472,18 @@
     ],
     "answer": 1,
     "explanation": "The numerical value of a polynomial p(x) at a real number x = k is obtained by replacing each occurrence of the variable x with k, denoted as p(k). Given p(x) = 5x^2 - 3x + 7, to evaluate p(1), substitute x = 1: p(1) = 5(1)^2 - 3(1) + 7 = 5(1) - 3 + 7 = 5 - 3 + 7 = 2 + 7 = 9. This means the point (1, 9) lies on the graph of the parabola y = 5x^2 - 3x + 7 in the Cartesian plane.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.1",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-019",
@@ -301,7 +499,18 @@
     ],
     "answer": 2,
     "explanation": "Given the zeroes alpha = -4 and beta = 3, we construct the corresponding quadratic polynomial using the relation p(x) = k[x^2 - (alpha + beta)x + (alpha * beta)]. First, calculate sum of zeroes: alpha + beta = -4 + 3 = -1. Second, calculate product of zeroes: alpha * beta = (-4) * 3 = -12. Substituting into the formula with k = 1: p(x) = x^2 - (-1)x + (-12) = x^2 + x - 12. Factoring confirms: x^2 + 4x - 3x - 12 = x(x + 4) - 3(x + 4) = (x + 4)(x - 3) = 0.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   },
   {
     "id": "cbse10-math-ch02-s1-020",
@@ -317,6 +526,17 @@
     ],
     "answer": 0,
     "explanation": "For the quadratic polynomial p(x) = x^2 - px + q, coefficients are a = 1, b = -p, and c = q. By Vieta's formulas: Sum of zeroes (alpha + beta) = -(-p)/1 = p, and Product of zeroes (alpha * beta) = q/1 = q. We expand the standard algebraic identity (alpha + beta)^2 = alpha^2 + 2(alpha * beta) + beta^2. Rearranging to isolate alpha^2 + beta^2: alpha^2 + beta^2 = (alpha + beta)^2 - 2(alpha * beta). Substituting the values gives: alpha^2 + beta^2 = p^2 - 2q.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3"
+    "citation": "NCERT Class 10 Mathematics, Chapter 2, Section 2.3",
+    "quality_review": {
+      "review_date": "2026-11-05",
+      "structural_validation": "passed",
+      "answer_accuracy_status": "pending_independent_subject_matter_verification",
+      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "source_provenance_status": "topic_reference_note_only",
+      "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+      "authority_reference_url": "https://ncert.nic.in/textbook.php",
+      "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+      "item_level_source_url_present": false
+    }
   }
 ]

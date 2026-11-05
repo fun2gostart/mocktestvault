@@ -14,7 +14,18 @@
       ],
       "answer": 2,
       "explanation": "The area of a circle is given by A = pi * r^2. To find the rate of change of area with respect to time t, differentiate implicitly with respect to t: dA/dt = 2*pi*r * (dr/dt). Given that the radius is r = 10 meters and is expanding at dr/dt = 3 meters per hour: dA/dt = 2*pi*(10)*(3) = 60*pi m^2/hr. Thus, the area of the oil slick is expanding at a rate of 60*pi square meters per hour.",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-042",
@@ -30,7 +41,18 @@
       ],
       "answer": 3,
       "explanation": "By Pythagorean theorem: x^2 + y^2 = 13^2 = 169. When x = 5, y = √(169 - 25) = √144 = 12. Differentiate with respect to t: 2x(dx/dt) + 2y(dy/dt) = 0 → dy/dt = -x(dx/dt) / y. With x = 5, dx/dt = 2, y = 12: dy/dt = -5(2)/12 = -10/12 = -5/6 ft/sec.",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-043",
@@ -46,7 +68,18 @@
       ],
       "answer": 1,
       "explanation": "MVT states f'(c) = [f(b) - f(a)] / (b - a). Here f(3) = 27 - 9 = 18 and f(0) = 0. Average rate of change = (18 - 0) / (3 - 0) = 6. Set f'(c) = 3c^2 - 3 = 6 → 3c^2 = 9 → c^2 = 3 → c = √3 (since √3 ≈ 1.732 is in (0, 3)).",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.1 Using the Mean Value Theorem"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.1 Using the Mean Value Theorem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-044",
@@ -62,7 +95,18 @@
       ],
       "answer": 0,
       "explanation": "Check hypotheses: f is continuous on [2, 4], differentiable on (2, 4), and f(2) = 4 - 12 + 8 = 0 = f(4) = 16 - 24 + 8 = 0. f'(x) = 2x - 6 = 0 → 2x = 6 → c = 3 ∈ (2, 4).",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.1 Rolle's Theorem"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.1 Rolle's Theorem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-045",
@@ -78,7 +122,18 @@
       ],
       "answer": 2,
       "explanation": "Critical points: f'(x) = 6x^2 - 6x - 12 = 6(x^2 - x - 2) = 6(x - 2)(x + 1) = 0 → x = 2 and x = -1. Test candidates: Endpoints and critical points: f(-2) = 2(-8) - 3(4) - 12(-2) + 1 = -16 - 12 + 24 + 1 = -3; f(-1) = 2(-1) - 3(1) - 12(-1) + 1 = -2 - 3 + 12 + 1 = 8; f(2) = 2(8) - 3(4) - 12(2) + 1 = 16 - 12 - 24 + 1 = -19; f(3) = 2(27) - 3(9) - 12(3) + 1 = 54 - 27 - 36 + 1 = -8. Absolute maximum is 8 (at x = -1).",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.2 Extreme Value Theorem and Candidates Test"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.2 Extreme Value Theorem and Candidates Test",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-046",
@@ -94,7 +149,18 @@
       ],
       "answer": 3,
       "explanation": "Critical points are x = 1 and x = -3. For x < -3: (x-1)^2 is (+), (x+3) is (-) → f' < 0. For -3 < x < 1: (x-1)^2 is (+), (x+3) is (+) → f' > 0. For x > 1: f' > 0. Since f' changes from negative to positive at x = -3, f has a relative minimum at x = -3. At x = 1, f' does not change sign (no extremum).",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.4 Using the First Derivative Test to Determine Extrema"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.4 Using the First Derivative Test to Determine Extrema",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-047",
@@ -110,7 +176,18 @@
       ],
       "answer": 0,
       "explanation": "First derivative: y' = 4x^3 - 12x. Second derivative: y'' = 12x^2 - 12 = 12(x^2 - 1) = 12(x - 1)(x + 1). Set y'' = 0 → x = ±1. For x < -1, y'' > 0 (concave up). For -1 < x < 1, y'' < 0 (concave down). For x > 1, y'' > 0 (concave up). Because the concavity changes at both x = -1 and x = 1, both are inflection points.",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.6 Determining Concavity and Points of Inflection"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.6 Determining Concavity and Points of Inflection",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-048",
@@ -126,7 +203,18 @@
       ],
       "answer": 1,
       "explanation": "The condition f'(4) = 0 indicates that the function has a stationary critical point with a horizontal tangent at x = 4. According to the Second Derivative Test, since f''(4) = -5 < 0, the curve is strictly concave down in an open interval around x = 4. A curve that is concave down at a horizontal tangent attains a relative (local) maximum at that critical point, so f has a relative maximum at x = 4.",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.7 Using the Second Derivative Test to Determine Extrema"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.7 Using the Second Derivative Test to Determine Extrema",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-049",
@@ -142,7 +230,18 @@
       ],
       "answer": 0,
       "explanation": "Speed is increasing when velocity v(t) and acceleration a(t) have the same sign. Velocity v(t) = 3t^2 - 12t + 9 = 3(t - 1)(t - 3). a(t) = 6t - 12 = 6(t - 2). Signs: On (0, 1): v > 0, a < 0 (different sign). On (1, 2): v < 0, a < 0 (both negative → speeding up). On (2, 3): v < 0, a > 0 (different sign). On (3, ∞): v > 0, a > 0 (both positive → speeding up). Thus speed increases on (1, 2) and (3, ∞).",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-050",
@@ -158,7 +257,18 @@
       ],
       "answer": 3,
       "explanation": "Let width perpendicular to river be x and length along river be y. Fencing: 2x + y = 120 → y = 120 - 2x. Area A(x) = x * y = x(120 - 2x) = 120x - 2x^2. Set A'(x) = 120 - 4x = 0 → x = 30 m. Length y = 120 - 60 = 60 m. Max Area = 30 * 60 = 1,800 m^2.",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.11 Solving Optimization Problems"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.11 Solving Optimization Problems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-051",
@@ -174,7 +284,18 @@
       ],
       "answer": 1,
       "explanation": "Evaluating at x = 0 gives (1 - 1 - 0) / 0 = 0/0 (indeterminate). Apply L'Hôpital's rule: lim(x→0) [2e^(2x) - 2] / (2x) = 0/0. Apply L'Hôpital's rule a second time: lim(x→0) [4e^(2x)] / 2 = 4(1) / 2 = 2.",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.7 Using L'Hôpital's Rule for Determining Limits of Indeterminate Forms"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.7 Using L'Hôpital's Rule for Determining Limits of Indeterminate Forms",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-052",
@@ -190,7 +311,18 @@
       ],
       "answer": 2,
       "explanation": "For an inverted parabola with roots -2 and 4: f' < 0 for x < -2, f' > 0 for -2 < x < 4, and f' < 0 for x > 4. At x = -2, f' changes from (-) to (+) → relative minimum at x = -2. At x = 4, f' changes from (+) to (-) → relative maximum at x = 4. Thus, f has a relative maximum at x = 4 and a relative minimum at x = -2.",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.8 Sketching Graphs of Functions and Their Derivatives"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.8 Sketching Graphs of Functions and Their Derivatives",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-053",
@@ -206,7 +338,18 @@
       ],
       "answer": 1,
       "explanation": "By similar triangles, r / h = 4 / 8 = 1/2 → r = h/2. Volume V = (1/3)πr^2 * h = (1/3)π(h/2)^2 * h = (π/12)h^3. Differentiate with respect to t: dV/dt = (π/4)h^2 * (dh/dt). Given dV/dt = 2 and h = 4: 2 = (π/4)(16) * (dh/dt) → 2 = 4π * (dh/dt) → dh/dt = 2 / (4π) = 1 / (2π) m/min.",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-054",
@@ -222,7 +365,18 @@
       ],
       "answer": 0,
       "explanation": "Let side of square base be x and height be h. Volume V = x^2 * h = 32 → h = 32 / x^2. Surface area S = x^2 + 4xh = x^2 + 4x(32/x^2) = x^2 + 128/x. Differentiate: S'(x) = 2x - 128/x^2 = 0 → 2x^3 = 128 → x^3 = 64 → x = 4 inches.",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.11 Solving Optimization Problems"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.11 Solving Optimization Problems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-055",
@@ -238,7 +392,18 @@
       ],
       "answer": 2,
       "explanation": "Total distance is ∫[0 to 4] |v(t)| dt. v(t) = 0 at t = 2. On [0, 2], v(t) ≤ 0: distance = |∫[0 to 2] (2t - 4) dt| = |[t^2 - 4t]_0^2| = |4 - 8| = 4 m. On [2, 4], v(t) ≥ 0: distance = ∫[2 to 4] (2t - 4) dt = [t^2 - 4t]_2^4 = (16 - 16) - (4 - 8) = 4 m. Total distance = 4 + 4 = 8 meters. (Displacement is 0 m).",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-056",
@@ -254,7 +419,18 @@
       ],
       "answer": 3,
       "explanation": "Direct substitution gives ln(1) / (1 - 1) = 0/0. Apply L'Hôpital's rule: derivative of numerator is 1/x; derivative of denominator is 2x. lim(x→1) [(1/x) / (2x)] = 1 / (2*1) = 1/2.",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.7 Using L'Hôpital's Rule for Indeterminate Forms"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.7 Using L'Hôpital's Rule for Indeterminate Forms",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-057",
@@ -270,7 +446,18 @@
       ],
       "answer": 1,
       "explanation": "Let x be distance from post and s be length of shadow. By similar triangles: 15 / (x + s) = 6 / s → 15s = 6x + 6s → 9s = 6x → s = (2/3)x. Differentiate: ds/dt = (2/3)(dx/dt) = (2/3)(5) = 10/3 ft/s.",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-058",
@@ -286,7 +473,18 @@
       ],
       "answer": 2,
       "explanation": "A point of inflection is defined as a point where the concavity of the graph changes. Having f''(c) = 0 is a necessary condition for a twice-differentiable function, but an inflection point occurs if and only if f'' changes sign across x = c.",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.6 Determining Concavity and Points of Inflection"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.6 Determining Concavity and Points of Inflection",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-059",
@@ -302,7 +500,18 @@
       ],
       "answer": 0,
       "explanation": "The volume of a sphere is given by V = (4/3)*pi*r^3. Differentiating both sides with respect to time t using the Chain Rule yields: dV/dt = 4*pi*r^2 * (dr/dt). Given that the radius is r = 5 cm and expanding at a rate of dr/dt = 2 cm/s: dV/dt = 4*pi*(5^2)*(2) = 4*pi*(25)*(2) = 200*pi cm^3/s. Therefore, the volume of the sphere is expanding at 200*pi cm^3/s.",
-      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems"
+      "citation": "College Board AP® Calculus AB CED — Topic 4.5 Solving Related Rates Problems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "ap-calc-060",
@@ -318,7 +527,18 @@
       ],
       "answer": 3,
       "explanation": "For f(x) = x^3, f'(x) = 3x^2. f'(0) = 0 (so x = 0 is a critical point). However, f'(x) > 0 for both x < 0 and x > 0. Since f' does not change sign, x = 0 is a point of inflection with a horizontal tangent, not an extremum.",
-      "citation": "College Board AP® Calculus AB CED — Topic 5.4 First Derivative Test"
+      "citation": "College Board AP® Calculus AB CED — Topic 5.4 First Derivative Test",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://apcentral.collegeboard.org/courses",
+        "authority_reference_scope": "College Board course/exam reference only; item is not authenticated as an official item.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

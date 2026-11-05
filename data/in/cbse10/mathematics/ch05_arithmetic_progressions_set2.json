@@ -14,7 +14,18 @@
       ],
       "answer": 1,
       "explanation": "a + (m - 1)d = 1/n, and a + (n - 1)d = 1/m. Subtracting gives (m - n)d = (m - n)/(mn) => d = 1/(mn). Then a = 1/n - (m - 1)/(mn) = 1/(mn). Thus a_mn = a + (mn - 1)d = 1/(mn) + (mn - 1)/(mn) = mn/(mn) = 1.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-002",
@@ -30,7 +41,18 @@
       ],
       "answer": 2,
       "explanation": "First 3-digit number divisible by 7 is 105. Last is 994. 994 = 105 + (n - 1)(7) => 889 = 7(n - 1) => n - 1 = 127 => n = 128 terms. S_128 = (128/2)[105 + 994] = 64 * 1099 = 70,336.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 13"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 13",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-003",
@@ -46,7 +68,18 @@
       ],
       "answer": 3,
       "explanation": "S_m / S_n = [m/2 (2a + (m-1)d)] / [n/2 (2a + (n-1)d)] = m^2 / n^2 => [2a + (m-1)d] / [2a + (n-1)d] = m / n. To find a_m / a_n = [a + (m-1)d] / [a + (n-1)d], replace m by (2m - 1) and n by (2n - 1). This gives [2a + (2m - 2)d] / [2a + (2n - 2)d] = (2m - 1)/(2n - 1) => a_m / a_n = (2m - 1)/(2n - 1).",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-004",
@@ -62,7 +95,18 @@
       ],
       "answer": 0,
       "explanation": "Let terms be (a - d), a, (a + d). Sum = 3a = 27 => a = 9. Product: (9 - d)(9)(9 + d) = 648 => 81 - d^2 = 72 => d^2 = 9 => d = +-3. The numbers are 6, 9, 12.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-005",
@@ -78,7 +122,18 @@
       ],
       "answer": 0,
       "explanation": "Here a = 20, d = -1, S_n = 200. (n/2)[40 + (n - 1)(-1)] = 200 => n(41 - n) = 400 => n^2 - 41n + 400 = 0 => (n - 16)(n - 25) = 0. For n = 25, a_25 = 20 + 24(-1) = -4 (impossible). Thus n = 16 rows. Top row has a_16 = 20 + 15(-1) = 5 logs.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 19"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 19",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-006",
@@ -94,7 +149,18 @@
       ],
       "answer": 2,
       "explanation": "a + (p - 1)d = q, and a + (q - 1)d = p. Subtracting gives (p - q)d = q - p = -(p - q) => d = -1. Then a = q - (p - 1)(-1) = p + q - 1. The (p + q)th term is a_(p+q) = a + (p + q - 1)d = (p + q - 1) + (p + q - 1)(-1) = 0.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-007",
@@ -110,7 +176,18 @@
       ],
       "answer": 3,
       "explanation": "S_1 = n/2 [2a + (n-1)d], S_2 = 2n/2 [2a + (2n-1)d] = n[2a + (2n-1)d]. S_2 - S_1 = n[2a + (2n-1)d] - n/2[2a + (n-1)d] = n/2 [4a + 4nd - 2d - 2a - nd + d] = n/2 [2a + (3n-1)d]. Thus 3(S_2 - S_1) = (3n/2)[2a + (3n-1)d] = S_3.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 3"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 3",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-008",
@@ -126,7 +203,18 @@
       ],
       "answer": 1,
       "explanation": "Sum of interior angles of n-gon = (n - 2)*180. By AP formula: S_n = (n/2)[2(120) + (n - 1)5] = (n/2)[240 + 5n - 5] = (n/2)[5n + 235]. Equating: (n/2)[5n + 235] = 180(n - 2) => 5n^2 + 235n = 360n - 720 => 5n^2 - 125n + 720 = 0 => n^2 - 25n + 144 = 0 => (n - 9)(n - 16) = 0. For n = 16, largest angle a_16 = 120 + 15(5) = 195 degrees > 180 degrees (impossible in a convex polygon). Thus n = 9.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-009",
@@ -142,7 +230,18 @@
       ],
       "answer": 0,
       "explanation": "For 11th term, replace n by 2(11) - 1 = 21. Ratio of 11th terms = [7(21) + 1] / [4(21) + 27] = [147 + 1] / [84 + 27] = 148 / 111. Dividing numerator and denominator by 37 gives 4 / 3.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-010",
@@ -158,7 +257,18 @@
       ],
       "answer": 2,
       "explanation": "Distance between top and bottom = 2.5 m = 250 cm. Number of rungs n = (250 / 25) + 1 = 10 + 1 = 11 rungs. Bottom rung a = 45 cm, top rung l = 25 cm. Total wood = S_11 = (11/2)[a + l] = (11/2)[45 + 25] = (11/2)(70) = 11 * 35 = 385 cm.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 3"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 3",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-011",
@@ -174,7 +284,18 @@
       ],
       "answer": 3,
       "explanation": "Let terms be (a - 3d), (a - d), (a + d), (a + 3d). Sum = 4a = 32 => a = 8. Ratio: [(a - 3d)(a + 3d)] / [(a - d)(a + d)] = 7/15 => (64 - 9d^2)/(64 - d^2) = 7/15 => 15(64 - 9d^2) = 7(64 - d^2) => 960 - 135d^2 = 448 - 7d^2 => 128d^2 = 512 => d^2 = 4 => d = +-2. Numbers are 8 - 6 = 2, 8 - 2 = 6, 8 + 2 = 10, 8 + 6 = 14.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 2"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.4 Question 2",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-012",
@@ -190,7 +311,18 @@
       ],
       "answer": 1,
       "explanation": "a = 200, d = 50, n = 30. S_30 = (30/2) [2(200) + 29(50)] = 15 [400 + 1450] = 15 [1850] = Rs 27,750.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 15"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 15",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-013",
@@ -206,7 +338,18 @@
       ],
       "answer": 2,
       "explanation": "Here a = 2, d = 2. S_n = (n/2)[2(2) + (n - 1)2] = (n/2)[4 + 2n - 2] = (n/2)[2n + 2] = n(n + 1).",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 14"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 14",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-014",
@@ -222,7 +365,18 @@
       ],
       "answer": 0,
       "explanation": "S_1 = a_1 = A + B. S_2 = a_1 + a_2 = A(4) + B(2) = 4A + 2B. a_2 = S_2 - S_1 = (4A + 2B) - (A + B) = 3A + B. Common difference d = a_2 - a_1 = (3A + B) - (A + B) = 2A.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-015",
@@ -238,7 +392,18 @@
       ],
       "answer": 1,
       "explanation": "For 1st potato: 2 * 5 = 10 m. For 2nd potato: 2 * (5 + 3) = 16 m. For 3rd potato: 2 * (5 + 6) = 22 m. This forms an AP: 10, 16, 22, ... with a = 10, d = 6, n = 10. S_10 = (10/2)[2(10) + 9(6)] = 5[20 + 54] = 5 * 74 = 370 metres.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 20"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 20",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-016",
@@ -254,7 +419,18 @@
       ],
       "answer": 3,
       "explanation": "Let angles be a - d, a, a + d. Sum = 3a = 180 => a = 60 degrees. Greatest angle is 60 + d, smallest is 60 - d. (60 + d) = 2(60 - d) => 60 + d = 120 - 2d => 3d = 60 => d = 20 degrees. The angles are 40 deg, 60 deg, 80 deg.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exemplar Problem",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-017",
@@ -270,7 +446,18 @@
       ],
       "answer": 3,
       "explanation": "Here a = 24, d = -3, S_n = 78. (n/2)[48 + (n - 1)(-3)] = 78 => n(51 - 3n) = 156 => 3n^2 - 51n + 156 = 0 => n^2 - 17n + 52 = 0 => (n - 4)(n - 13) = 0. Both n = 4 and n = 13 give sum 78 because the sum of terms from 5th to 13th is exactly 0.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3, Example 13"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Section 5.3, Example 13",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-018",
@@ -286,7 +473,18 @@
       ],
       "answer": 0,
       "explanation": "Here n = 7, S_7 = 700, d = -20. S_7 = (7/2)[2a + 6(-20)] = 700 => 7/2 [2a - 120] = 700 => 2a - 120 = 200 => 2a = 320 => a = Rs 160.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 16"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.3 Question 16",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-019",
@@ -302,7 +500,18 @@
       ],
       "answer": 1,
       "explanation": "The first multiple of 4 above 10 is 12. The last multiple below 250 is 248. The AP is 12, 16, ..., 248. 248 = 12 + (n - 1)(4) => 236 = 4(n - 1) => n - 1 = 59 => n = 60.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 14"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 14",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cbse10-math-ch05-s2-020",
@@ -318,7 +527,18 @@
       ],
       "answer": 2,
       "explanation": "For first AP: a_n = 63 + (n - 1)(2) = 63 + 2n - 2 = 2n + 61. For second AP: b_n = 3 + (n - 1)(7) = 3 + 7n - 7 = 7n - 4. Equating them: 2n + 61 = 7n - 4 => 5n = 65 => n = 13.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 15"
+      "citation": "NCERT Class 10 Mathematics, Chapter 5, Exercise 5.2 Question 15",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

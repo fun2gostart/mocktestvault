@@ -26,7 +26,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: WDEOH**\n\nPattern: Forward shift of +3 for each letter.\nC(+3)=F, H(+3)=K, A(+3)=D, I(+3)=L, R(+3)=U.\nApplying +3 to TABLE:\nT(20)+3 = 23 (W)\nA(1)+3 = 4 (D)\nB(2)+3 = 5 (E)\nL(12)+3 = 15 (O)\nE(5)+3 = 8 (H)\nResult = WDEOH.",
-      "citation": "SSC CGL Reasoning — Letter-Cluster Shift Patterns"
+      "citation": "SSC CGL Reasoning — Letter-Cluster Shift Patterns",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_02",
@@ -44,7 +55,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 342**\n\nPattern: n : n * (n + 1), or n^2 + n.\nFor 14: 14^2 + 14 = 196 + 14 = 210 (or 14 * 15 = 210).\nFor 18: 18^2 + 18 = 324 + 18 = 342 (or 18 * 19 = 342).",
-      "citation": "SSC CGL Reasoning — Number Operations & Product of Consecutive Integers"
+      "citation": "SSC CGL Reasoning — Number Operations & Product of Consecutive Integers",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_03",
@@ -62,7 +84,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: 441**\n\nPattern: Multiply by 2 and add consecutive integers (+1, +2, +3, +4, +5):\n12 * 2 + 1 = 25\n25 * 2 + 2 = 52\n52 * 2 + 3 = 107\n107 * 2 + 4 = 218\nNext term = 218 * 2 + 5 = 436 + 5 = 441.",
-      "citation": "SSC CGL Reasoning — Arithmetic-Geometric Series"
+      "citation": "SSC CGL Reasoning — Arithmetic-Geometric Series",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_04",
@@ -80,7 +113,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: c, b, a, d**\n\nDividing the 16-letter string into 4 equal blocks of 4 letters each:\nBlock 1: a b [c] d\nBlock 2: a [b] c d\nBlock 3: [a] b c d\nBlock 4: a b c [d]\nEvery block is the repeating pattern 'abcd'. The missing letters in order are c, b, a, d.",
-      "citation": "SSC CGL Reasoning — Repeating Pattern Letter Series"
+      "citation": "SSC CGL Reasoning — Repeating Pattern Letter Series",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_05",
@@ -98,7 +142,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 455978**\n\nPattern: Direct letter-to-digit substitution:\nP=7, A=4, I=1, N=2, T=8, E=9, X=3, C=5, L=6.\nFor ACCEPT:\nA = 4\nC = 5\nC = 5\nE = 9\nP = 7\nT = 8\nCode = 455978.",
-      "citation": "SSC CGL Reasoning — Direct Substitution Coding"
+      "citation": "SSC CGL Reasoning — Direct Substitution Coding",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_06",
@@ -116,7 +171,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: + and ÷**\n\nInterchanging + and ÷ yields:\n36 ÷ 6 × 3 + 12 - 8\nApplying BODMAS:\n= 6 × 3 + 12 - 8\n= 18 + 12 - 8\n= 30 - 8 = 22.\nThe equation is perfectly balanced.",
-      "citation": "SSC CGL Reasoning — Sign Interchanges & BODMAS Rule"
+      "citation": "SSC CGL Reasoning — Sign Interchanges & BODMAS Rule",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_07",
@@ -134,7 +200,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Only conclusion II follows**\n\nAnalysis:\n- Conclusion I: 'Some conductors are metals' is a possibility, but not definite since the intersection of conductors and metals is not guaranteed.\n- Conclusion II: 'Some solids are conductors' and 'No conductor is an insulator'. The specific solids that are conductors can NEVER be insulators. Hence, 'Some solids are not insulators' is 100% logically certain.\n- Conclusion III: 'No metal is an insulator' is not certain because metals that are not conductors could theoretically be insulators.\nTherefore, only conclusion II follows.",
-      "citation": "SSC CGL Reasoning — Categorical Syllogisms"
+      "citation": "SSC CGL Reasoning — Categorical Syllogisms",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_08",
@@ -152,7 +229,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Husband**\n\nDecoding step by step:\n- P + R: P is the father of R (Male).\n- R ÷ S: R is the daughter of S (Female child of S).\nSince R is the child of both P (father) and S, S must be the mother of R and the wife of P.\nTherefore, P is the husband of S.",
-      "citation": "SSC CGL Reasoning — Coded Family Tree Relations"
+      "citation": "SSC CGL Reasoning — Coded Family Tree Relations",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_09",
@@ -170,7 +258,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 10 km, North-East**\n\nTracking coordinate displacements:\n- North-South displacement: +12 km (North) - 6 km (South) = +6 km North.\n- East-West displacement: +5 km (East) + 3 km (East) = +8 km East.\nTotal straight-line distance = sqrt(6^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 km.\nDirection from starting point = North-East.",
-      "citation": "SSC CGL Reasoning — Pythagorean Displacement & Cardinal Directions"
+      "citation": "SSC CGL Reasoning — Pythagorean Displacement & Cardinal Directions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_10",
@@ -188,7 +287,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 12**\n\nSum of positions from both ends = 18 + 24 = 42.\nTotal number of students in the row = 54.\nSince the sum of positions (42) < total students (54), the persons do not overlap.\nNumber of students between them = Total - (Left Rank + Right Rank) = 54 - 42 = 12.",
-      "citation": "SSC CGL Reasoning — Linear Position & Ranking"
+      "citation": "SSC CGL Reasoning — Linear Position & Ranking",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_11",
@@ -206,7 +316,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: One circle entirely inside a second circle, with a third circle intersecting both**\n\nAll software developers are qualified engineers by profession (Software Developers is a subset of Engineers). Furthermore, some engineers and some software developers can have musical talent and work as musicians (Musicians intersects both circles).",
-      "citation": "SSC CGL Reasoning — Analytical Venn Classifications"
+      "citation": "SSC CGL Reasoning — Analytical Venn Classifications",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_12",
@@ -224,7 +345,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 5**\n\nStandard Dice Rule: When two faces are common in two positions of a single dice (here, faces 1 and 3 are common), the remaining uncommon faces are strictly opposite to each other. Thus, face 2 is opposite to face 5.",
-      "citation": "SSC CGL Reasoning — Dice Opposite Face Theorems"
+      "citation": "SSC CGL Reasoning — Dice Opposite Face Theorems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_13",
@@ -242,7 +374,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 3, 2, 4, 5, 1**\n\nComparing letter by letter after common prefix 'pers-':\n- 3. Persecution ('perse-c')\n- 2. Perseverance ('perse-v')\n- 4. Persistent ('persi-s')\n- 5. Personnel ('perso-n')\n- 1. Perspective ('persp-e')\nAlphabetical order: 3 -> 2 -> 4 -> 5 -> 1.",
-      "citation": "SSC CGL Reasoning — Lexicographical Ordering"
+      "citation": "SSC CGL Reasoning — Lexicographical Ordering",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_14",
@@ -260,7 +403,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: JLNQ**\n\nAnalyzing letter gaps:\n- PRTV: P(+2) R(+2) T(+2) V -> uniform gap of +2.\n- CEGI: C(+2) E(+2) G(+2) I -> uniform gap of +2.\n- UWYA: U(+2) W(+2) Y(+2) A -> uniform gap of +2 (cyclic past Z).\n- JLNQ: J(+2) L(+2) N(+3) Q -> has a gap of +3 between N and Q. Hence, JLNQ is the odd one out.",
-      "citation": "SSC CGL Reasoning — Letter Gap Anomalies"
+      "citation": "SSC CGL Reasoning — Letter Gap Anomalies",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_15",
@@ -278,7 +432,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: (8, 64, 520)**\n\nRule: (n, n^2, n^3).\n- (7, 7^2=49, 7^3=343)\n- (5, 5^2=25, 5^3=125)\n- (6, 6^2=36, 6^3=216)\n- For 8: 8^2 = 64, but 8^3 = 512, whereas the set contains 520. Hence, (8, 64, 520) is the odd one out.",
-      "citation": "SSC CGL Reasoning — Exponent Power Patterns"
+      "citation": "SSC CGL Reasoning — Exponent Power Patterns",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_16",
@@ -296,7 +461,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 4 triangular holes pointing radially inward toward the central point**\n\nFolding twice creates 4 symmetrical quadrants. Unfolding across the vertical and horizontal axes reflects the triangle symmetrically into all 4 quadrants, with each triangle maintaining its inward radial orientation towards the center.",
-      "citation": "SSC CGL Reasoning — Quadrant Reflection & Symmetry"
+      "citation": "SSC CGL Reasoning — Quadrant Reflection & Symmetry",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_17",
@@ -314,7 +490,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: A rectangular grid with diagonal cross-bracing in its central compartment**\n\nA rectangular grid with diagonal cross-bracing contains two parallel vertical uprights, a horizontal crossbar, and a diagonal member intersecting the central junction, reproducing the exact described geometry.",
-      "citation": "SSC CGL Reasoning — Embedded Geometrical Figures"
+      "citation": "SSC CGL Reasoning — Embedded Geometrical Figures",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_18",
@@ -332,7 +519,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Starts with laterally inverted Z and ends with laterally inverted B**\n\nLateral Mirror Inversion Rule: The rightmost character (Z) reflects to the front (leftmost position) with its horizontal orientation flipped. The sequence reverses from right to left: Z -> Q -> 9 -> 5 -> R -> B, with every non-symmetrical character laterally inverted.",
-      "citation": "SSC CGL Reasoning — Lateral Inversion Properties"
+      "citation": "SSC CGL Reasoning — Lateral Inversion Properties",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_19",
@@ -350,7 +548,18 @@
       ],
       "answer": 1,
       "explanation": "The interval from 1 March 2023 to 1 March 2024 includes 29 February 2024, so it contains 366 days. That is 52 weeks and 2 days. Two days after Wednesday is Friday.",
-      "citation": "Calendar calculation — Gregorian leap-year rule"
+      "citation": "Calendar calculation — Gregorian leap-year rule",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "targeted_practice_rewrite_checked; independent subject review still pending",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_20",
@@ -368,7 +577,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 10°**\n\nFormula for clock angle: θ = |30H - (11/2)M|.\nHere, H = 4 and M = 20:\nθ = |30(4) - (11/2)(20)|\nθ = |120 - 110| = 10°.\nAt 4:20, the minute hand is at 120° (mark 4) while the hour hand has moved (20 * 0.5°) = 10° ahead of mark 4, resulting in exactly 10° separation.",
-      "citation": "SSC CGL Reasoning — Clocks & Angular Velocity"
+      "citation": "SSC CGL Reasoning — Clocks & Angular Velocity",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_21",
@@ -386,7 +606,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: B**\n\nStep-by-step arrangement:\n- From (2), E is at an extreme end next to C. Since C is third to the right of A, C cannot be at the left end. Hence, E must be at position 6 (extreme right) and C at position 5.\n- From (1), C (pos 5) is third to the right of A -> A is at position 2: [_ , A , _ , _ , C , E].\n- From (3), B sits second to the left of F. The only vacant positions with a difference of 2 are positions 1 and 3 -> B is at pos 1, F at pos 3.\n- D occupies the remaining position 4.\nFinal order from left to right: [B, A, F, D, C, E].\nThe person at the extreme left end is B.",
-      "citation": "SSC CGL Reasoning — Linear Seating Constraints"
+      "citation": "SSC CGL Reasoning — Linear Seating Constraints",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_22",
@@ -404,7 +635,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Only Inference I is valid**\n\nInference I is directly corroborated by the 45% surge in EV registrations following the subsidy. Inference II is an extreme, unwarranted extrapolation that is nowhere stated or implied.",
-      "citation": "SSC CGL Reasoning — Logical Inferences & Critical Thinking"
+      "citation": "SSC CGL Reasoning — Logical Inferences & Critical Thinking",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_23",
@@ -422,7 +664,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: 225**\n\nPattern: Sum of squares of the first two numbers equals the third number in each row:\nRow 1: 6^2 + 8^2 = 36 + 64 = 100\nRow 2: 5^2 + 12^2 = 25 + 144 = 169\nRow 3: 9^2 + 12^2 = 81 + 144 = 225.",
-      "citation": "SSC CGL Reasoning — Pythagorean Triplet Number Matrices"
+      "citation": "SSC CGL Reasoning — Pythagorean Triplet Number Matrices",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_24",
@@ -440,7 +693,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 10**\n\nFormula for triangles sharing a common apex and divided into n base partitions:\nTotal Triangles = n * (n + 1) / 2.\nHere, n = 4 base segments:\nTotal Triangles = 4 * 5 / 2 = 10 triangles.",
-      "citation": "SSC CGL Reasoning — Geometrical Counting Theorems"
+      "citation": "SSC CGL Reasoning — Geometrical Counting Theorems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_25",
@@ -458,7 +722,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: Humidity**\n\nAn Ammeter is a scientific instrument designed to measure electric current. Similarly, a Hygrometer is an instrument used to measure atmospheric humidity and moisture levels.",
-      "citation": "SSC CGL Reasoning — Instrument & Measurement Analogy"
+      "citation": "SSC CGL Reasoning — Instrument & Measurement Analogy",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

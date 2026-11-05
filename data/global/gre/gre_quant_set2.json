@@ -1,6 +1,6 @@
 {
   "test_id": "gre_quant_set2",
-  "title": "GRE\u00ae Quantitative Reasoning Diagnostic Drill 02",
+  "title": "GRE® Quantitative Reasoning Diagnostic Drill 02",
   "total_questions": 20,
   "duration_minutes": 35,
   "questions": [
@@ -18,7 +18,18 @@
       ],
       "answer": 1,
       "explanation": "Express both quantities using the common exponent GCD(60, 40) = 20:\nQuantity A = 2^60 = (2^3)^20 = 8^20.\nQuantity B = 3^40 = (3^2)^20 = 9^20.\nSince 9 > 8 and 20 > 0, 9^20 > 8^20. Therefore, Quantity B is greater.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Exponent Comparison"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Exponent Comparison",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-022",
@@ -34,7 +45,18 @@
       ],
       "answer": 2,
       "explanation": "By the Triangle Inequality Theorem, for sides a, b, c: |a - b| < c < a + b.\nHere: |11 - 7| < x < 11 + 7 => 4 < x < 18.\nSince x is an integer, x can take values: 5, 6, 7, ..., 17.\nNumber of integer values = 17 - 5 + 1 = 13.\nQuantity A = 13 and Quantity B = 13. The two quantities are equal.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Triangle Inequality"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Triangle Inequality",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-023",
@@ -50,14 +72,25 @@
       ],
       "answer": 2,
       "explanation": "Simplify Quantity A:\n15! / 13! = 15 * 14 = 210.\n14! / 13! = 14.\nQuantity A = 210 - 14 = 196.\nQuantity B = 14^2 = 196.\nBoth quantities are equal.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Factorials"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Factorials",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-024",
       "type": "mcq",
       "subtopic": "Quantitative Comparison: Midpoint & Distance",
       "difficulty": "Medium",
-      "question": "Points P(-4, 6) and Q(6, -2) lie on the xy-plane.\n\nQuantity A: Distance from the midpoint of PQ to the origin (0, 0)\nQuantity B: \u221a5\n\nCompare Quantity A and Quantity B.",
+      "question": "Points P(-4, 6) and Q(6, -2) lie on the xy-plane.\n\nQuantity A: Distance from the midpoint of PQ to the origin (0, 0)\nQuantity B: √5\n\nCompare Quantity A and Quantity B.",
       "options": [
         "Quantity A is greater.",
         "Quantity B is greater.",
@@ -65,8 +98,19 @@
         "The relationship cannot be determined from the information given."
       ],
       "answer": 2,
-      "explanation": "Midpoint M = ((-4 + 6)/2, (6 + (-2))/2) = (2/2, 4/2) = (1, 2).\nDistance from origin to M = \u221a(1^2 + 2^2) = \u221a(1 + 4) = \u221a5.\nQuantity A = \u221a5 and Quantity B = \u221a5. The two quantities are equal.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Coordinate Geometry"
+      "explanation": "Midpoint M = ((-4 + 6)/2, (6 + (-2))/2) = (2/2, 4/2) = (1, 2).\nDistance from origin to M = √(1^2 + 2^2) = √(1 + 4) = √5.\nQuantity A = √5 and Quantity B = √5. The two quantities are equal.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Coordinate Geometry",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-025",
@@ -82,7 +126,18 @@
       ],
       "answer": 1,
       "explanation": "Combined rate = 1/6 + 1/4 = (2 + 3)/12 = 5/12 of the reservoir per hour.\nTime taken = 12 / 5 = 2.4 hours.\nQuantity A = 2.4 hours.\nQuantity B = 2.5 hours.\nSince 2.5 > 2.4, Quantity B is greater.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Rates"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Rates",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-026",
@@ -97,8 +152,19 @@
         "The relationship cannot be determined from the information given."
       ],
       "answer": 0,
-      "explanation": "The sum of the 7 integers is at least: 1 + 2 + 3 + 20 + 21 + 22 + 1000 = 1,069.\nMean \u2265 1,069 / 7 \u2248 152.7.\nQuantity A (Mean) > 150.\nQuantity B (Median) = 20.\nTherefore, Quantity A is strictly greater.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Statistics Mean vs Median"
+      "explanation": "The sum of the 7 integers is at least: 1 + 2 + 3 + 20 + 21 + 22 + 1000 = 1,069.\nMean ≥ 1,069 / 7 ≈ 152.7.\nQuantity A (Mean) > 150.\nQuantity B (Median) = 20.\nTherefore, Quantity A is strictly greater.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Statistics Mean vs Median",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-027",
@@ -114,7 +180,18 @@
       ],
       "answer": 2,
       "explanation": "Radius r = d / 2 = 10 cm.\nThe perpendicular from the center bisects the chord into two 8 cm segments.\nBy the Pythagorean theorem: distance^2 + 8^2 = 10^2 => distance^2 = 100 - 64 = 36 => distance = 6 cm.\nQuantity A = 6 cm and Quantity B = 6 cm. Both quantities are equal.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Circle Chords"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Circle Chords",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-028",
@@ -130,7 +207,18 @@
       ],
       "answer": 3,
       "explanation": "a * b < 0 implies one variable is positive and the other is negative.\na + b > 0 implies the positive variable has a strictly greater absolute value than the negative variable.\nHowever, we are not told which variable (a or b) is the positive one!\nIf a = 5 and b = -2: a + b = 3 > 0, |a| = 5, |b| = 2 => Quantity A > Quantity B.\nIf a = -2 and b = 5: a + b = 3 > 0, |a| = 2, |b| = 5 => Quantity B > Quantity A.\nTherefore, the relationship cannot be determined.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Inequalities & Absolute Values"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Inequalities & Absolute Values",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-029",
@@ -147,7 +235,18 @@
       ],
       "answer": 0,
       "explanation": "Circular permutation formula for n distinct objects is (n - 1)!.\nHere n = 6 => (6 - 1)! = 5! = 5 * 4 * 3 * 2 * 1 = 120 distinct seating arrangements.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Permutations"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Permutations",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-030",
@@ -164,7 +263,18 @@
       ],
       "answer": 0,
       "explanation": "Total apples = 5 + 7 = 12.\nP(1st green) = 5/12.\nP(2nd green | 1st green) = 4/11.\nP(both green) = (5/12) * (4/11) = 20 / 132 = 5 / 33.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Probability Without Replacement"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Probability Without Replacement",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-031",
@@ -181,7 +291,18 @@
       ],
       "answer": 0,
       "explanation": "Cost Price (CP) = $600.\nMarked Price (MP) = 600 * 1.50 = $900.\nSelling Price (SP) = 900 * (1 - 0.20) = 900 * 0.80 = $720.\nNet Profit = SP - CP = $720 - $600 = $120.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Profit and Loss"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Profit and Loss",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-032",
@@ -197,8 +318,19 @@
         "19 feet"
       ],
       "answer": 0,
-      "explanation": "The longest segment is the space diagonal d = \u221a(l^2 + w^2 + h^2).\nd = \u221a(12^2 + 9^2 + 8^2) = \u221a(144 + 81 + 64) = \u221a289 = 17 feet.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 3D Geometry Space Diagonal"
+      "explanation": "The longest segment is the space diagonal d = √(l^2 + w^2 + h^2).\nd = √(12^2 + 9^2 + 8^2) = √(144 + 81 + 64) = √289 = 17 feet.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — 3D Geometry Space Diagonal",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-033",
@@ -215,7 +347,18 @@
       ],
       "answer": 0,
       "explanation": "Prime factorize 360: 360 = 36 * 10 = (2^2 * 3^2) * (2 * 5) = 2^3 * 3^2 * 5^1.\nFormula for number of divisors = (e1 + 1)(e2 + 1)(e3 + 1) = (3 + 1)(2 + 1)(1 + 1) = 4 * 3 * 2 = 24 positive divisors.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Divisors Count"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Divisors Count",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-034",
@@ -232,14 +375,25 @@
       ],
       "answer": 0,
       "explanation": "General term: a_n = a_1 * r^(n - 1).\na_2 = a_1 * r = 12.\na_5 = a_1 * r^4 = 96.\nDivide a_5 by a_2: r^3 = 96 / 12 = 8 => r = 2.\nSince a_1 * 2 = 12 => a_1 = 6.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Geometric Sequences"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Geometric Sequences",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-035",
       "type": "mcq",
       "subtopic": "Functions & Transformations",
       "difficulty": "Hard",
-      "question": "If g(x) = (2x - 3) / (x + 4) for all real x \u2260 -4, what is the value of x for which g(x) = 5?",
+      "question": "If g(x) = (2x - 3) / (x + 4) for all real x ≠ -4, what is the value of x for which g(x) = 5?",
       "options": [
         "-23/3",
         "-17/3",
@@ -249,7 +403,18 @@
       ],
       "answer": 0,
       "explanation": "Set equation: (2x - 3) / (x + 4) = 5.\nCross-multiply: 2x - 3 = 5(x + 4) = 5x + 20.\nRearrange: 2x - 5x = 20 + 3 => -3x = 23 => x = -23/3.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Rational Functions"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Rational Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-036",
@@ -266,7 +431,18 @@
       ],
       "answer": 0,
       "explanation": "Average speed = Total Distance / Total Time.\nTotal Distance = 60 + 60 = 120 miles.\nTime going = 60 / 30 = 2 hours.\nTime returning = 60 / 60 = 1 hour.\nTotal Time = 2 + 1 = 3 hours.\nAverage speed = 120 / 3 = 40 mph.\n(Harmonic mean formula: 2 * v1 * v2 / (v1 + v2) = 2 * 30 * 60 / 90 = 40 mph).",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Harmonic Average Speed"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Harmonic Average Speed",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-037",
@@ -283,7 +459,18 @@
       ],
       "answer": 0,
       "explanation": "Combined percentage for Wind + Solar = 40% + 35% = 75%.\nTotal GWh = 75% of 500 GWh = 0.75 * 500 = 375 GWh.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Data Interpretation"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Data Interpretation",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-038",
@@ -300,7 +487,18 @@
       ],
       "answer": 0,
       "explanation": "Hydroelectric generation = 15% of 500 GWh = 75 GWh.\nConvert to MWh: 75 GWh * 1,000 MWh/GWh = 75,000 MWh.\nTotal Revenue = 75,000 MWh * $60/MWh = $4,500,000 = $4.5 million.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Unit Conversions in Data Interpretation"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Unit Conversions in Data Interpretation",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-039",
@@ -317,7 +515,18 @@
       ],
       "answer": 0,
       "explanation": "Initial 2024 generation:\nSolar = 35% of 500 = 175 GWh.\nWind = 40% of 500 = 200 GWh.\n2025 generation:\nSolar = 175 * 1.20 = 210 GWh.\nWind = 200 * 0.90 = 180 GWh.\nRatio = 210 / 180 = 21 / 18 = 7 : 6.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Proportional Changes"
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Proportional Changes",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "gre-quant-040",
@@ -326,15 +535,26 @@
       "difficulty": "Hard",
       "question": "Using the data in Q37, what is the degree measure of the central angle representing Biomass in a circular pie chart of 2024 generation?",
       "options": [
-        "36\u00b0",
-        "40\u00b0",
-        "30\u00b0",
-        "45\u00b0",
-        "25\u00b0"
+        "36°",
+        "40°",
+        "30°",
+        "45°",
+        "25°"
       ],
       "answer": 0,
-      "explanation": "Biomass accounts for 10% of the total generation.\nA complete circle is 360\u00b0.\nCentral angle = 10% of 360\u00b0 = 0.10 * 360\u00b0 = 36\u00b0.",
-      "citation": "Official ETS GRE Quantitative Reasoning Framework \u2014 Circular Sector Graphs"
+      "explanation": "Biomass accounts for 10% of the total generation.\nA complete circle is 360°.\nCentral angle = 10% of 360° = 0.10 * 360° = 36°.",
+      "citation": "Official ETS GRE Quantitative Reasoning Framework — Circular Sector Graphs",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
+        "authority_reference_scope": "ETS format reference only; item is independent practice, not official ETS content.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

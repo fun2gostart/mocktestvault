@@ -43,7 +43,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: WDEOH**\n\nPattern: Forward shift of +3 for each letter.\nC(+3)=F, H(+3)=K, A(+3)=D, I(+3)=L, R(+3)=U.\nApplying +3 to TABLE:\nT(20)+3 = 23 (W)\nA(1)+3 = 4 (D)\nB(2)+3 = 5 (E)\nL(12)+3 = 15 (O)\nE(5)+3 = 8 (H)\nResult = WDEOH.",
-      "citation": "SSC CGL Reasoning — Letter-Cluster Shift Patterns"
+      "citation": "SSC CGL Reasoning — Letter-Cluster Shift Patterns",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_02",
@@ -61,7 +72,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 342**\n\nPattern: n : n * (n + 1), or n^2 + n.\nFor 14: 14^2 + 14 = 196 + 14 = 210 (or 14 * 15 = 210).\nFor 18: 18^2 + 18 = 324 + 18 = 342 (or 18 * 19 = 342).",
-      "citation": "SSC CGL Reasoning — Number Operations & Product of Consecutive Integers"
+      "citation": "SSC CGL Reasoning — Number Operations & Product of Consecutive Integers",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_03",
@@ -79,7 +101,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: 441**\n\nPattern: Multiply by 2 and add consecutive integers (+1, +2, +3, +4, +5):\n12 * 2 + 1 = 25\n25 * 2 + 2 = 52\n52 * 2 + 3 = 107\n107 * 2 + 4 = 218\nNext term = 218 * 2 + 5 = 436 + 5 = 441.",
-      "citation": "SSC CGL Reasoning — Arithmetic-Geometric Series"
+      "citation": "SSC CGL Reasoning — Arithmetic-Geometric Series",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_04",
@@ -97,7 +130,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: c, b, a, d**\n\nDividing the 16-letter string into 4 equal blocks of 4 letters each:\nBlock 1: a b [c] d\nBlock 2: a [b] c d\nBlock 3: [a] b c d\nBlock 4: a b c [d]\nEvery block is the repeating pattern 'abcd'. The missing letters in order are c, b, a, d.",
-      "citation": "SSC CGL Reasoning — Repeating Pattern Letter Series"
+      "citation": "SSC CGL Reasoning — Repeating Pattern Letter Series",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_05",
@@ -115,7 +159,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 455978**\n\nPattern: Direct letter-to-digit substitution:\nP=7, A=4, I=1, N=2, T=8, E=9, X=3, C=5, L=6.\nFor ACCEPT:\nA = 4\nC = 5\nC = 5\nE = 9\nP = 7\nT = 8\nCode = 455978.",
-      "citation": "SSC CGL Reasoning — Direct Substitution Coding"
+      "citation": "SSC CGL Reasoning — Direct Substitution Coding",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_06",
@@ -133,7 +188,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: + and ÷**\n\nInterchanging + and ÷ yields:\n36 ÷ 6 × 3 + 12 - 8\nApplying BODMAS:\n= 6 × 3 + 12 - 8\n= 18 + 12 - 8\n= 30 - 8 = 22.\nThe equation is perfectly balanced.",
-      "citation": "SSC CGL Reasoning — Sign Interchanges & BODMAS Rule"
+      "citation": "SSC CGL Reasoning — Sign Interchanges & BODMAS Rule",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_07",
@@ -151,7 +217,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Only conclusion II follows**\n\nAnalysis:\n- Conclusion I: 'Some conductors are metals' is a possibility, but not definite since the intersection of conductors and metals is not guaranteed.\n- Conclusion II: 'Some solids are conductors' and 'No conductor is an insulator'. The specific solids that are conductors can NEVER be insulators. Hence, 'Some solids are not insulators' is 100% logically certain.\n- Conclusion III: 'No metal is an insulator' is not certain because metals that are not conductors could theoretically be insulators.\nTherefore, only conclusion II follows.",
-      "citation": "SSC CGL Reasoning — Categorical Syllogisms"
+      "citation": "SSC CGL Reasoning — Categorical Syllogisms",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_08",
@@ -169,7 +246,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Husband**\n\nDecoding step by step:\n- P + R: P is the father of R (Male).\n- R ÷ S: R is the daughter of S (Female child of S).\nSince R is the child of both P (father) and S, S must be the mother of R and the wife of P.\nTherefore, P is the husband of S.",
-      "citation": "SSC CGL Reasoning — Coded Family Tree Relations"
+      "citation": "SSC CGL Reasoning — Coded Family Tree Relations",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_09",
@@ -187,7 +275,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 10 km, North-East**\n\nTracking coordinate displacements:\n- North-South displacement: +12 km (North) - 6 km (South) = +6 km North.\n- East-West displacement: +5 km (East) + 3 km (East) = +8 km East.\nTotal straight-line distance = sqrt(6^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 km.\nDirection from starting point = North-East.",
-      "citation": "SSC CGL Reasoning — Pythagorean Displacement & Cardinal Directions"
+      "citation": "SSC CGL Reasoning — Pythagorean Displacement & Cardinal Directions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_10",
@@ -205,7 +304,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 12**\n\nSum of positions from both ends = 18 + 24 = 42.\nTotal number of students in the row = 54.\nSince the sum of positions (42) < total students (54), the persons do not overlap.\nNumber of students between them = Total - (Left Rank + Right Rank) = 54 - 42 = 12.",
-      "citation": "SSC CGL Reasoning — Linear Position & Ranking"
+      "citation": "SSC CGL Reasoning — Linear Position & Ranking",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_11",
@@ -223,7 +333,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: One circle entirely inside a second circle, with a third circle intersecting both**\n\nAll software developers are qualified engineers by profession (Software Developers is a subset of Engineers). Furthermore, some engineers and some software developers can have musical talent and work as musicians (Musicians intersects both circles).",
-      "citation": "SSC CGL Reasoning — Analytical Venn Classifications"
+      "citation": "SSC CGL Reasoning — Analytical Venn Classifications",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_12",
@@ -241,7 +362,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 5**\n\nStandard Dice Rule: When two faces are common in two positions of a single dice (here, faces 1 and 3 are common), the remaining uncommon faces are strictly opposite to each other. Thus, face 2 is opposite to face 5.",
-      "citation": "SSC CGL Reasoning — Dice Opposite Face Theorems"
+      "citation": "SSC CGL Reasoning — Dice Opposite Face Theorems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_13",
@@ -259,7 +391,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 3, 2, 4, 5, 1**\n\nComparing letter by letter after common prefix 'pers-':\n- 3. Persecution ('perse-c')\n- 2. Perseverance ('perse-v')\n- 4. Persistent ('persi-s')\n- 5. Personnel ('perso-n')\n- 1. Perspective ('persp-e')\nAlphabetical order: 3 -> 2 -> 4 -> 5 -> 1.",
-      "citation": "SSC CGL Reasoning — Lexicographical Ordering"
+      "citation": "SSC CGL Reasoning — Lexicographical Ordering",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_14",
@@ -277,7 +420,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: JLNQ**\n\nAnalyzing letter gaps:\n- PRTV: P(+2) R(+2) T(+2) V -> uniform gap of +2.\n- CEGI: C(+2) E(+2) G(+2) I -> uniform gap of +2.\n- UWYA: U(+2) W(+2) Y(+2) A -> uniform gap of +2 (cyclic past Z).\n- JLNQ: J(+2) L(+2) N(+3) Q -> has a gap of +3 between N and Q. Hence, JLNQ is the odd one out.",
-      "citation": "SSC CGL Reasoning — Letter Gap Anomalies"
+      "citation": "SSC CGL Reasoning — Letter Gap Anomalies",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_15",
@@ -295,7 +449,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: (8, 64, 520)**\n\nRule: (n, n^2, n^3).\n- (7, 7^2=49, 7^3=343)\n- (5, 5^2=25, 5^3=125)\n- (6, 6^2=36, 6^3=216)\n- For 8: 8^2 = 64, but 8^3 = 512, whereas the set contains 520. Hence, (8, 64, 520) is the odd one out.",
-      "citation": "SSC CGL Reasoning — Exponent Power Patterns"
+      "citation": "SSC CGL Reasoning — Exponent Power Patterns",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_16",
@@ -313,7 +478,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 4 triangular holes pointing radially inward toward the central point**\n\nFolding twice creates 4 symmetrical quadrants. Unfolding across the vertical and horizontal axes reflects the triangle symmetrically into all 4 quadrants, with each triangle maintaining its inward radial orientation towards the center.",
-      "citation": "SSC CGL Reasoning — Quadrant Reflection & Symmetry"
+      "citation": "SSC CGL Reasoning — Quadrant Reflection & Symmetry",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_17",
@@ -331,7 +507,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: A rectangular grid with diagonal cross-bracing in its central compartment**\n\nA rectangular grid with diagonal cross-bracing contains two parallel vertical uprights, a horizontal crossbar, and a diagonal member intersecting the central junction, reproducing the exact described geometry.",
-      "citation": "SSC CGL Reasoning — Embedded Geometrical Figures"
+      "citation": "SSC CGL Reasoning — Embedded Geometrical Figures",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_18",
@@ -349,7 +536,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Starts with laterally inverted Z and ends with laterally inverted B**\n\nLateral Mirror Inversion Rule: The rightmost character (Z) reflects to the front (leftmost position) with its horizontal orientation flipped. The sequence reverses from right to left: Z -> Q -> 9 -> 5 -> R -> B, with every non-symmetrical character laterally inverted.",
-      "citation": "SSC CGL Reasoning — Lateral Inversion Properties"
+      "citation": "SSC CGL Reasoning — Lateral Inversion Properties",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_19",
@@ -367,7 +565,18 @@
       ],
       "answer": 1,
       "explanation": "The interval from 1 March 2023 to 1 March 2024 includes 29 February 2024, so it contains 366 days. That is 52 weeks and 2 days. Two days after Wednesday is Friday.",
-      "citation": "Calendar calculation — Gregorian leap-year rule"
+      "citation": "Calendar calculation — Gregorian leap-year rule",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "targeted_practice_rewrite_checked; independent subject review still pending",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_20",
@@ -385,7 +594,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 10°**\n\nFormula for clock angle: θ = |30H - (11/2)M|.\nHere, H = 4 and M = 20:\nθ = |30(4) - (11/2)(20)|\nθ = |120 - 110| = 10°.\nAt 4:20, the minute hand is at 120° (mark 4) while the hour hand has moved (20 * 0.5°) = 10° ahead of mark 4, resulting in exactly 10° separation.",
-      "citation": "SSC CGL Reasoning — Clocks & Angular Velocity"
+      "citation": "SSC CGL Reasoning — Clocks & Angular Velocity",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_21",
@@ -403,7 +623,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: B**\n\nStep-by-step arrangement:\n- From (2), E is at an extreme end next to C. Since C is third to the right of A, C cannot be at the left end. Hence, E must be at position 6 (extreme right) and C at position 5.\n- From (1), C (pos 5) is third to the right of A -> A is at position 2: [_ , A , _ , _ , C , E].\n- From (3), B sits second to the left of F. The only vacant positions with a difference of 2 are positions 1 and 3 -> B is at pos 1, F at pos 3.\n- D occupies the remaining position 4.\nFinal order from left to right: [B, A, F, D, C, E].\nThe person at the extreme left end is B.",
-      "citation": "SSC CGL Reasoning — Linear Seating Constraints"
+      "citation": "SSC CGL Reasoning — Linear Seating Constraints",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_22",
@@ -421,7 +652,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Only Inference I is valid**\n\nInference I is directly corroborated by the 45% surge in EV registrations following the subsidy. Inference II is an extreme, unwarranted extrapolation that is nowhere stated or implied.",
-      "citation": "SSC CGL Reasoning — Logical Inferences & Critical Thinking"
+      "citation": "SSC CGL Reasoning — Logical Inferences & Critical Thinking",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_23",
@@ -439,7 +681,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: 225**\n\nPattern: Sum of squares of the first two numbers equals the third number in each row:\nRow 1: 6^2 + 8^2 = 36 + 64 = 100\nRow 2: 5^2 + 12^2 = 25 + 144 = 169\nRow 3: 9^2 + 12^2 = 81 + 144 = 225.",
-      "citation": "SSC CGL Reasoning — Pythagorean Triplet Number Matrices"
+      "citation": "SSC CGL Reasoning — Pythagorean Triplet Number Matrices",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_24",
@@ -457,7 +710,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 10**\n\nFormula for triangles sharing a common apex and divided into n base partitions:\nTotal Triangles = n * (n + 1) / 2.\nHere, n = 4 base segments:\nTotal Triangles = 4 * 5 / 2 = 10 triangles.",
-      "citation": "SSC CGL Reasoning — Geometrical Counting Theorems"
+      "citation": "SSC CGL Reasoning — Geometrical Counting Theorems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_reason_25",
@@ -475,7 +739,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: Humidity**\n\nAn Ammeter is a scientific instrument designed to measure electric current. Similarly, a Hygrometer is an instrument used to measure atmospheric humidity and moisture levels.",
-      "citation": "SSC CGL Reasoning — Instrument & Measurement Analogy"
+      "citation": "SSC CGL Reasoning — Instrument & Measurement Analogy",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_01",
@@ -493,7 +768,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: Certiorari**\n\nUnder Article 32 (Supreme Court) and Article 226 (High Courts), the writ of Certiorari is a curative writ issued to quash an order already passed by an inferior judicial or quasi-judicial body acting without or in excess of jurisdiction.",
-      "citation": "SSC CGL General Awareness — Indian Constitution & Judicial Writs"
+      "citation": "SSC CGL General Awareness — Indian Constitution & Judicial Writs",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_02",
@@ -511,7 +797,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 42nd Constitutional Amendment Act, 1976**\n\nThe 42nd Constitutional Amendment Act of 1976 introduced Part IV-A and Article 51A upon the recommendation of the Swaran Singh Committee, enacting 10 Fundamental Duties (an 11th was later added by the 86th Amendment in 2002).",
-      "citation": "SSC CGL General Awareness — Constitutional Amendments & Part IV-A"
+      "citation": "SSC CGL General Awareness — Constitutional Amendments & Part IV-A",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_03",
@@ -529,7 +826,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Lothal**\n\nLothal, located in the Bhal region of Gujarat on the Bhogava river, is famous for its tidal dockyard connected to the Gulf of Khambhat, which served as a major maritime trading emporium in the Bronze Age.",
-      "citation": "SSC CGL General Awareness — Harappan Maritime Archaeology"
+      "citation": "SSC CGL General Awareness — Harappan Maritime Archaeology",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_04",
@@ -547,7 +855,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Alauddin Khalji**\n\nAlauddin Khalji (reigned 1296–1316) instituted revolutionary economic reforms, fixing statutory prices for grains, textiles, and livestock while appointing market superintendents (Shahna-i-Mandi) to maintain an enormous standing army.",
-      "citation": "SSC CGL General Awareness — Delhi Sultanate Economic Administration"
+      "citation": "SSC CGL General Awareness — Delhi Sultanate Economic Administration",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_05",
@@ -565,7 +884,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: Electoral representation and reserved seats for the depressed classes within the joint electorate**\n\nSigned at Yerwada Central Jail in Pune, the Poona Pact replaced Ramsay MacDonald's Communal Award (which granted separate electorates) with reserved seats for depressed classes within a unified joint electorate.",
-      "citation": "SSC CGL General Awareness — Indian National Movement (1930s)"
+      "citation": "SSC CGL General Awareness — Indian National Movement (1930s)",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_06",
@@ -583,7 +913,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Assam**\n\nSattriya dance originated in the Sattras (monasteries) of Assam in the 15th century as a devotion-centered theatrical art created by Mahapurush Srimanta Sankardev, receiving national classical status in 2000.",
-      "citation": "SSC CGL General Awareness — Sangeet Natak Akademi Classical Dances"
+      "citation": "SSC CGL General Awareness — Sangeet Natak Akademi Classical Dances",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_07",
@@ -601,7 +942,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Santoor**\n\nPandit Shivkumar Sharma (1938–2022) modified the 100-stringed Kashmiri folk Santoor with chromatic tuning, becoming the world's foremost classical exponent of the instrument.",
-      "citation": "SSC CGL General Awareness — Indian Classical Instruments & Maestros"
+      "citation": "SSC CGL General Awareness — Indian Classical Instruments & Maestros",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_08",
@@ -619,7 +971,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Godavari**\n\nThe Godavari is India's second-longest river (approx 1,465 km) after the Ganga. Originating at Trimbakeshwar in Maharashtra, its vast basin covers Maharashtra, Telangana, and Andhra Pradesh, earning it the epithet 'Dakshin Ganga' or 'Vridha Ganga'.",
-      "citation": "SSC CGL General Awareness — Drainage Systems of India"
+      "citation": "SSC CGL General Awareness — Drainage Systems of India",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_09",
@@ -637,7 +1000,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: Zoji La**\n\nZoji La (altitude ~3,528 m) is situated on National Highway 1 (NH-1) and serves as the vital lifeline connecting the Kashmir Valley with the cold desert plateau of Ladakh.",
-      "citation": "SSC CGL General Awareness — Himalayan Geography & Mountain Passes"
+      "citation": "SSC CGL General Awareness — Himalayan Geography & Mountain Passes",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_10",
@@ -655,7 +1029,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Depreciation (Consumption of Fixed Capital)**\n\nThe mathematical relationship between Gross and Net output measures is defined as: Net Domestic Product (NDP) = Gross Domestic Product (GDP) - Depreciation (Consumption of Fixed Capital).",
-      "citation": "SSC CGL General Awareness — Macroeconomics & National Accounts"
+      "citation": "SSC CGL General Awareness — Macroeconomics & National Accounts",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_11",
@@ -673,7 +1058,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Cash Reserve Ratio (CRR)**\n\nCash Reserve Ratio (CRR) is the specified percentage of customer deposits that commercial banks must keep in vault cash or deposit with the RBI without earning interest, serving as a primary tool for liquidity regulation.",
-      "citation": "SSC CGL General Awareness — RBI Monetary Policy Framework"
+      "citation": "SSC CGL General Awareness — RBI Monetary Policy Framework",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_12",
@@ -691,7 +1087,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Total Internal Reflection**\n\nTotal Internal Reflection occurs when light travelling from a denser to a rarer optical medium strikes the interface at an angle of incidence greater than the critical angle, undergoing 100% internal reflection without refractive loss.",
-      "citation": "SSC CGL General Awareness — Wave Optics & Physical Phenomena"
+      "citation": "SSC CGL General Awareness — Wave Optics & Physical Phenomena",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_13",
@@ -709,7 +1116,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: Tesla (T)**\n\nThe SI unit of magnetic flux density is the Tesla (T), equivalent to one Weber per square meter (Wb/m^2). Gauss is the CGS unit (1 Tesla = 10,000 Gauss).",
-      "citation": "SSC CGL General Awareness — SI Units & Physical Quantities"
+      "citation": "SSC CGL General Awareness — SI Units & Physical Quantities",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_14",
@@ -727,7 +1145,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Calcium sulphate hemihydrate (CaSO4 · 1/2 H2O)**\n\nPlaster of Paris is calcium sulphate hemihydrate (CaSO4 · 1/2 H2O), produced by carefully heating gypsum (CaSO4 · 2H2O) to 373 K (100°C).",
-      "citation": "NCERT Chemistry Class 10 — Acids, Bases & Salts"
+      "citation": "NCERT Chemistry Class 10 — Acids, Bases & Salts",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_15",
@@ -745,7 +1174,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Hydrogen (H2)**\n\nChemical equation: Zn(s) + H2SO4(aq) -> ZnSO4(aq) + H2(g). The evolved hydrogen gas burns with a characteristic 'pop' sound when exposed to a lit splinter.",
-      "citation": "NCERT Chemistry Class 10 — Chemical Reactions & Equations"
+      "citation": "NCERT Chemistry Class 10 — Chemical Reactions & Equations",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_16",
@@ -763,7 +1203,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Pituitary Gland**\n\nThe pituitary gland produces tropic hormones (TSH, ACTH, FSH, LH, GH) that control thyroid, adrenal cortex, and gonadal functions, operating under feedback control from the hypothalamus.",
-      "citation": "NCERT Biology Class 10 — Control & Coordination"
+      "citation": "NCERT Biology Class 10 — Control & Coordination",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_17",
@@ -781,7 +1232,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: Lysosomes**\n\nLysosomes contain acid hydrolases (active at pH ~5.0) synthesized in the rough ER. During cellular autolysis or severe damage, lysosomal membranes can rupture, digesting the cell itself.",
-      "citation": "NCERT Biology Class 9 — Fundamental Unit of Life"
+      "citation": "NCERT Biology Class 9 — Fundamental Unit of Life",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_18",
@@ -799,7 +1261,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Phloem**\n\nPhloem tissue (comprising sieve tube elements, companion cells, phloem parenchyma, and phloem fibers) translocates sucrose and amino acids bidirectionally via mass-flow under turgor pressure gradients.",
-      "citation": "NCERT Biology Class 10 — Life Processes"
+      "citation": "NCERT Biology Class 10 — Life Processes",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "topic_reference_note_only",
+        "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_19",
@@ -817,7 +1290,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Jim Corbett National Park**\n\nEstablished in 1936 as Hailey National Park in the Nainital and Pauri Garhwal districts of Uttarakhand to protect the endangered Bengal tiger, it was renamed Jim Corbett National Park in 1957.",
-      "citation": "SSC CGL General Awareness — Environmental Ecology & Protected Areas"
+      "citation": "SSC CGL General Awareness — Environmental Ecology & Protected Areas",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_20",
@@ -835,7 +1319,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Kerala**\n\nIn Census 2011, Kerala achieved India's highest literacy rate of 94.00% (Male: 96.11%, Female: 92.07%), followed closely by the Union Territory of Lakshadweep (91.85%) and the state of Mizoram (91.33%).",
-      "citation": "SSC CGL General Awareness — Census of India 2011 Data"
+      "citation": "SSC CGL General Awareness — Census of India 2011 Data",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_21",
@@ -853,7 +1348,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: ₹6,000 per year (in three equal installments of ₹2,000)**\n\nLaunched in February 2019, PM-KISAN delivers ₹6,000 annually via Direct Benefit Transfer (DBT) in three four-monthly installments of ₹2,000 each (April-July, August-November, December-March).",
-      "citation": "SSC CGL General Awareness — Flagship Government Initiatives"
+      "citation": "SSC CGL General Awareness — Flagship Government Initiatives",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_22",
@@ -871,7 +1377,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Men's Javelin Throw (87.58 m)**\n\nOn 7 August 2021, Neeraj Chopra threw 87.58 meters in the men's javelin final, winning independent India's first Olympic track and field medal and second individual gold medal after Abhinav Bindra.",
-      "citation": "SSC CGL General Awareness — Sports Milestones & Olympic Records"
+      "citation": "SSC CGL General Awareness — Sports Milestones & Olympic Records",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_23",
@@ -889,7 +1406,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Dr. A.P.J. Abdul Kalam**\n\n'Wings of Fire' (1999) is the autobiography of aerospace scientist and 11th President of India, Dr. A.P.J. Abdul Kalam, co-authored with Arun Tiwari.",
-      "citation": "SSC CGL General Awareness — Eminent Indian Personalities & Books"
+      "citation": "SSC CGL General Awareness — Eminent Indian Personalities & Books",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_24",
@@ -907,7 +1435,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Paris, France**\n\nUNESCO was founded on 16 November 1945 to promote world peace and security through international cooperation in education, sciences, and culture. Its permanent headquarters is in Paris, France.",
-      "citation": "SSC CGL General Awareness — UN Agencies & Headquarters"
+      "citation": "SSC CGL General Awareness — UN Agencies & Headquarters",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_ga_25",
@@ -925,7 +1464,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: Aditya-L1**\n\nAditya-L1 is India's premier dedicated solar space observatory, carrying seven scientific payloads stationed ~1.5 million km from Earth at Sun-Earth Lagrange Point 1 (L1) to monitor solar coronal mass ejections continuously.",
-      "citation": "SSC CGL General Awareness — ISRO Space Exploration Achievements"
+      "citation": "SSC CGL General Awareness — ISRO Space Exploration Achievements",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_01",
@@ -943,7 +1493,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 194**\n\nStep 1: Square both sides of (x + 1/x = 4):\nx^2 + 1/x^2 = 4^2 - 2 = 16 - 2 = 14.\nStep 2: Square both sides of (x^2 + 1/x^2 = 14):\nx^4 + 1/x^4 = 14^2 - 2 = 196 - 2 = 194.",
-      "citation": "SSC CGL Quantitative Aptitude — Algebraic Identities"
+      "citation": "SSC CGL Quantitative Aptitude — Algebraic Identities",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_02",
@@ -961,7 +1522,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 18**\n\nIdentity: a^3 + b^3 + c^3 - 3abc = (a + b + c) * [(a + b + c)^2 - 3(ab + bc + ca)].\nSubstitute the given values:\n= 6 * [6^2 - 3(11)]\n= 6 * [36 - 33]\n= 6 * 3 = 18.",
-      "citation": "SSC CGL Quantitative Aptitude — Polynomial Factorization Formulas"
+      "citation": "SSC CGL Quantitative Aptitude — Polynomial Factorization Formulas",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_03",
@@ -979,7 +1551,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: 18**\n\nA number is divisible by 72 if it is divisible by both 8 and 9.\n1. Divisibility by 8: The last 3 digits '78y' must be divisible by 8.\n780 ÷ 8 = 97.5. 8 × 97 = 776; 8 × 98 = 784. Thus, y = 4.\n(The next multiple 792 changes the tens digit from 8 to 9, so y = 4 is unique).\n2. Divisibility by 9: Sum of digits must be a multiple of 9:\n7 + 8 + 5 + x + 3 + 6 + 7 + 8 + 4 = 48 + x.\nThe next multiple of 9 is 54 -> 48 + x = 54 => x = 6.\n3. Compute (5x - 3y):\n5(6) - 3(4) = 30 - 12 = 18.",
-      "citation": "SSC CGL Quantitative Aptitude — Number Divisibility Tests"
+      "citation": "SSC CGL Quantitative Aptitude — Number Divisibility Tests",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_04",
@@ -997,7 +1580,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 8**\n\nCalculate unit digits cyclically:\n- (7)^413: Power 413 mod 4 = 1 -> 7^1 = 7.\n- (9)^547: 9 raised to an odd power ends in 9.\n- (4)^624: 4 raised to an even power ends in 6.\n- (2)^812: Power 812 mod 4 = 0 (multiple of 4) -> 2^4 ends in 6.\nMultiply unit digits: 7 × 9 × 6 × 6 = 63 × 36 -> unit digit of (3 × 6) = 8.",
-      "citation": "SSC CGL Quantitative Aptitude — Modular Cyclicity of Unit Digits"
+      "citation": "SSC CGL Quantitative Aptitude — Modular Cyclicity of Unit Digits",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_05",
@@ -1015,7 +1609,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 25,000**\n\nLet total registered voters = V.\n- Votes cast = 0.90 V.\n- Valid votes = 0.90 × 0.90 V = 0.81 V.\n- Winner received 54%, loser received (100 - 54) = 46% of valid votes.\n- Margin of victory = (54% - 46%) = 8% of valid votes.\nEquation: 0.08 × 0.81 V = 1,620\n0.0648 V = 1,620\nV = 1,620 / 0.0648 = 25,000.",
-      "citation": "SSC CGL Quantitative Aptitude — Electoral Mathematics & Percentage Margins"
+      "citation": "SSC CGL Quantitative Aptitude — Electoral Mathematics & Percentage Margins",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_06",
@@ -1033,7 +1638,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 24.44%**\n\nLet the CP of 1,000 g be ₹1,000 (CP of 1 g = ₹1).\n- Marked Price (MP) = ₹1,000 + 40% = ₹1,400.\n- Selling Price (SP) after 20% discount = ₹1,400 × 0.80 = ₹1,120.\n- However, the trader dispenses only 900 g of goods for this ₹1,120.\n- Actual cost of 900 g to the trader = ₹900.\n- Net Profit = SP - CP = ₹1,120 - ₹900 = ₹220.\n- Profit Percentage = (220 / 900) × 100 = 24.44%.",
-      "citation": "SSC CGL Quantitative Aptitude — Commercial Arithmetic & False Weights"
+      "citation": "SSC CGL Quantitative Aptitude — Commercial Arithmetic & False Weights",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_07",
@@ -1051,7 +1667,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: ₹20,000**\n\nFormula for 3-year CI - SI difference:\nCI - SI = P * (R/100)^2 * (3 + R/100).\nSubstitute R = 10 and difference = 620:\n620 = P * (10/100)^2 * (3 + 10/100)\n620 = P * (1/100) * (3.1)\n620 = P * 0.031\nP = 620 / 0.031 = ₹20,000.",
-      "citation": "SSC CGL Quantitative Aptitude — CI vs SI Differential Formulas"
+      "citation": "SSC CGL Quantitative Aptitude — CI vs SI Differential Formulas",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_08",
@@ -1069,7 +1696,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 252**\n\nLet the coin counts be 5x, 6x, and 8x.\nTotal monetary value in rupees:\n= 5x(₹1.00) + 6x(₹0.50) + 8x(₹0.25)\n= 5x + 3x + 2x = 10x.\nGiven 10x = 420 => x = 42.\nNumber of 50 paise coins = 6x = 6 × 42 = 252 coins.",
-      "citation": "SSC CGL Quantitative Aptitude — Ratio & Coin Denomination Problems"
+      "citation": "SSC CGL Quantitative Aptitude — Ratio & Coin Denomination Problems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_09",
@@ -1087,7 +1725,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 58.32 litres**\n\nFormula for repeated dilution:\nFinal Quantity = Initial Volume * (1 - x / V)^n.\nHere, V = 80, x = 8, and n = 3:\nRemaining Milk = 80 * (1 - 8/80)^3\n= 80 * (1 - 0.10)^3\n= 80 * (0.9)^3\n= 80 * 0.729 = 58.32 litres.",
-      "citation": "SSC CGL Quantitative Aptitude — Successive Liquid Dilution Formulas"
+      "citation": "SSC CGL Quantitative Aptitude — Successive Liquid Dilution Formulas",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_10",
@@ -1105,7 +1754,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 24 days**\n\nTotal Work = LCM(20, 30) = 60 units.\n- Rate of A = 60 / 20 = 3 units/day.\n- Rate of B = 60 / 30 = 2 units/day.\nIn a 2-day cycle (Day 1: A, Day 2: B), work completed = 3 + 2 = 5 units.\nNumber of 2-day cycles to complete 60 units = 60 / 5 = 12 complete cycles.\nTotal elapsed time = 12 × 2 = 24 days.",
-      "citation": "SSC CGL Quantitative Aptitude — Work Rates on Alternate Pacing"
+      "citation": "SSC CGL Quantitative Aptitude — Work Rates on Alternate Pacing",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_11",
@@ -1123,7 +1783,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: 13 1/23 hours (300/23 hours)**\n\nCapacity of cistern = LCM(15, 20, 25) = 300 units.\n- Filling rate of A = +300 / 15 = +20 units/h.\n- Filling rate of B = +300 / 20 = +15 units/h.\n- Emptying rate of C = -300 / 25 = -12 units/h.\nNet flow rate when all three are open = 20 + 15 - 12 = 23 units/h.\nTime required to fill 300 units = 300 / 23 = 13 1/23 hours.",
-      "citation": "SSC CGL Quantitative Aptitude — Hydrodynamic Filling & Emptying Rates"
+      "citation": "SSC CGL Quantitative Aptitude — Hydrodynamic Filling & Emptying Rates",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_12",
@@ -1141,7 +1812,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 86.4 km/h**\n\nTotal distance traversed = Length of train + Length of platform = 240 + 360 = 600 m.\nSpeed in m/s = 600 / 25 = 24 m/s.\nConvert m/s to km/h by multiplying by (18/5):\nSpeed = 24 × (18/5) = 432 / 5 = 86.4 km/h.",
-      "citation": "SSC CGL Quantitative Aptitude — Relative Motion & Platform Traversals"
+      "citation": "SSC CGL Quantitative Aptitude — Relative Motion & Platform Traversals",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_13",
@@ -1159,7 +1841,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 10 km/h**\n\nLet speed of boat in still water = v km/h.\nDownstream speed = v + 2; Upstream speed = v - 2.\nTime equation: 36 / (v + 2) + 24 / (v - 2) = 6.\nTesting v = 10:\nDownstream time = 36 / 12 = 3 hours.\nUpstream time = 24 / 8 = 3 hours.\nTotal time = 3 + 3 = 6 hours (Satisfies the equation perfectly).\nThus, the speed of the boat in still water is 10 km/h.",
-      "citation": "SSC CGL Quantitative Aptitude — Hydrodynamic Upstream & Downstream Velocity"
+      "citation": "SSC CGL Quantitative Aptitude — Hydrodynamic Upstream & Downstream Velocity",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_14",
@@ -1177,7 +1870,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 128°**\n\nTheorem: The angle subtended by the incentre I is given by:\n∠BIC = 90° + ∠A / 2.\nGiven ∠A = 76°:\n∠BIC = 90° + 76° / 2 = 90° + 38° = 128°.",
-      "citation": "SSC CGL Quantitative Aptitude — Triangle Incentre Angle Theorems"
+      "citation": "SSC CGL Quantitative Aptitude — Triangle Incentre Angle Theorems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_15",
@@ -1195,7 +1899,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: 12 cm**\n\nTangent-Secant Power of a Point Theorem:\nPT^2 = PA * PB.\nHere, PB = PA + AB = 9 + 7 = 16 cm.\nPT^2 = 9 × 16 = 144.\nPT = sqrt(144) = 12 cm.",
-      "citation": "SSC CGL Quantitative Aptitude — Circle Power of Point Theorems"
+      "citation": "SSC CGL Quantitative Aptitude — Circle Power of Point Theorems",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_16",
@@ -1213,7 +1928,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 40°**\n\nStep 1: In a cyclic quadrilateral, opposite angles sum to 180°:\n∠B (∠ABC) + ∠ADC = 180° => ∠B = 180° - 130° = 50°.\nStep 2: Since AB is the diameter, the angle subtended by a semicircle at the circumference is a right angle:\n∠ACB = 90°.\nStep 3: In right triangle ABC:\n∠BAC = 180° - (∠ACB + ∠ABC) = 180° - (90° + 50°) = 40°.",
-      "citation": "SSC CGL Quantitative Aptitude — Semicircular & Concyclic Angles"
+      "citation": "SSC CGL Quantitative Aptitude — Semicircular & Concyclic Angles",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_17",
@@ -1231,7 +1957,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 80 cm**\n\nThe diagonals of a rhombus bisect each other at right angles:\nHalf-diagonals are d1/2 = 12 cm and d2/2 = 16 cm.\nSide of the rhombus (s) = sqrt(12^2 + 16^2) = sqrt(144 + 256) = sqrt(400) = 20 cm.\nPerimeter = 4 * s = 4 * 20 = 80 cm.",
-      "citation": "SSC CGL Quantitative Aptitude — Rhombus Geometrical Properties"
+      "citation": "SSC CGL Quantitative Aptitude — Rhombus Geometrical Properties",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_18",
@@ -1249,7 +1986,18 @@
       ],
       "answer": 1,
       "explanation": "When a solid metallic body is melted and recast into smaller objects without loss of material, the total volume of metal is conserved. Volume of a sphere = (4/3) * pi * r^3. Let R = 6 cm be the radius of the initial metallic sphere and r = 2 cm be the radius of each newly cast small sphere. Number of small spheres N = (Volume of large sphere) / (Volume of one small sphere) = [(4/3)*pi*R^3] / [(4/3)*pi*r^3] = R^3 / r^3 = (R / r)^3 = (6 / 2)^3 = 3^3 = 27 solid spheres.",
-      "citation": "SSC CGL Quantitative Aptitude — Volume Conservation in Solids"
+      "citation": "SSC CGL Quantitative Aptitude — Volume Conservation in Solids",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_19",
@@ -1267,7 +2015,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: (43 - 24√3) / 11**\n\nSubstitute standard values:\n- Numerator = 1/2 + 1 - 2/√3 = 3/2 - 2/√3 = (3√3 - 4) / (2√3).\n- Denominator = 2/√3 + 1/2 + 1 = 2/√3 + 3/2 = (3√3 + 4) / (2√3).\nDividing gives: (3√3 - 4) / (3√3 + 4).\nRationalize by multiplying numerator and denominator by (3√3 - 4):\n= (3√3 - 4)^2 / [(3√3)^2 - 4^2]\n= (27 + 16 - 24√3) / (27 - 16)\n= (43 - 24√3) / 11.",
-      "citation": "SSC CGL Quantitative Aptitude — Trigonometric Ratios & Rationalization"
+      "citation": "SSC CGL Quantitative Aptitude — Trigonometric Ratios & Rationalization",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_20",
@@ -1285,7 +2044,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: 24**\n\nBy AM-GM inequality on a = 16 sin^2 θ and b = 9 csc^2 θ:\na + b >= 2 * sqrt(16 sin^2 θ * 9 csc^2 θ) = 2 * sqrt(144) = 2 * 12 = 24.\nEquality holds when 16 sin^2 θ = 9 csc^2 θ => sin^4 θ = 9/16 => sin^2 θ = 3/4 (which is valid since 3/4 <= 1, corresponding to θ = 60°).\nTherefore, the minimum value is exactly 24.",
-      "citation": "SSC CGL Quantitative Aptitude — Extreme Values of Trigonometric Functions"
+      "citation": "SSC CGL Quantitative Aptitude — Extreme Values of Trigonometric Functions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_21",
@@ -1303,7 +2073,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: 30√3 metres**\n\nStandard two-angle distance formula:\nh = d / (cot θ1 - cot θ2).\nHere, d = 60 m, θ1 = 30°, θ2 = 60°:\ncot 30° = √3, cot 60° = 1/√3.\ncot 30° - cot 60° = √3 - 1/√3 = (3 - 1) / √3 = 2 / √3.\nh = 60 / (2 / √3) = 60√3 / 2 = 30√3 metres.",
-      "citation": "SSC CGL Quantitative Aptitude — Trigonometric Surveying & Altitudes"
+      "citation": "SSC CGL Quantitative Aptitude — Trigonometric Surveying & Altitudes",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_22",
@@ -1321,7 +2102,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: 67.5 kg**\n\nStep 1: Initial total weight of 24 students = 24 × 48 = 1,152 kg.\nStep 2: New total count = 26 students; new average = 48 + 1.5 = 49.5 kg.\nStep 3: New total weight = 26 × 49.5 = 1,287 kg.\nStep 4: Combined weight of 2 new students = 1,287 - 1,152 = 135 kg.\nStep 5: Average weight of the 2 students = 135 / 2 = 67.5 kg.",
-      "citation": "SSC CGL Quantitative Aptitude — Group Averages & Replacement Weights"
+      "citation": "SSC CGL Quantitative Aptitude — Group Averages & Replacement Weights",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_23",
@@ -1339,7 +2131,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Plant C (15.0%)**\n\nCalculate percentage variance: ((Actual - Target) / Target) × 100:\n- Plant A: (+150 / 1200) × 100 = +12.5%\n- Plant B: (-75 / 1500) × 100 = -5.0%\n- Plant C: (+150 / 1000) × 100 = +15.0% (Highest!)\n- Plant D: (+80 / 1600) × 100 = +5.0%\n- Plant E: (-180 / 1800) × 100 = -10.0%\nPlant C achieved the greatest percentage increase (+15.0%).",
-      "citation": "SSC CGL Quantitative Aptitude — Tabular Data Interpretation"
+      "citation": "SSC CGL Quantitative Aptitude — Tabular Data Interpretation",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_24",
@@ -1357,7 +2160,18 @@
       ],
       "answer": 3,
       "explanation": "In any circular statistical pie chart representing household expenditures, the spending allocated to each individual category is directly proportional to the central angle subtended by its corresponding circular sector at the center of the circle (360° total). Therefore: Ratio of Food expenditure to Education expenditure = Food central angle : Education central angle = 108° : 54°. Dividing both antecedent and consequent by their greatest common divisor 54 gives: (108 / 54) : (54 / 54) = 2 : 1.",
-      "citation": "SSC CGL Quantitative Aptitude — Pie Chart Angular Proportions"
+      "citation": "SSC CGL Quantitative Aptitude — Pie Chart Angular Proportions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_quant_25",
@@ -1375,7 +2189,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: ₹900 crore**\n\nIn FY23: Export / Import = 1.25.\nGiven Import = ₹400 crore:\nExport = 1.25 × 400 = ₹500 crore.\nTotal combined trade value = Export + Import = 500 + 400 = ₹900 crore.",
-      "citation": "SSC CGL Quantitative Aptitude — Line Graph Ratio & Trade Analytics"
+      "citation": "SSC CGL Quantitative Aptitude — Line Graph Ratio & Trade Analytics",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_01",
@@ -1393,7 +2218,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: nor the senior teachers was present (B)**\n\nSubject-Verb Agreement Rule: When two subjects are connected by 'neither... nor', the verb must agree in number with the nearer subject. Here, 'the senior teachers' is plural, so the auxiliary verb should be 'were present' instead of 'was present'.",
-      "citation": "SSC CGL English Comprehension — Subject-Verb Proximity Concord"
+      "citation": "SSC CGL English Comprehension — Subject-Verb Proximity Concord",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_02",
@@ -1411,7 +2247,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: he would pass the competitive examination with distinction. (C)**\n\nThird Conditional Rule: In an unreal past condition beginning with 'Had + Subject + V3', the consequence clause must take 'would have + V3'. Hence, 'would pass' must be corrected to 'would have passed'.",
-      "citation": "SSC CGL English Comprehension — Conditional Clause Syntax"
+      "citation": "SSC CGL English Comprehension — Conditional Clause Syntax",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_03",
@@ -1429,7 +2276,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: on conducting**\n\nPrepositional Idiom: The verb 'insist' is always followed by the preposition 'on' (or 'upon') and takes a gerund (-ing form). The correct phrasing is 'insisted on conducting'.",
-      "citation": "SSC CGL English Comprehension — Fixed Prepositions & Gerunds"
+      "citation": "SSC CGL English Comprehension — Fixed Prepositions & Gerunds",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_04",
@@ -1447,7 +2305,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: from reaching**\n\nSyntax Rule: The verb 'prevent' requires the construction 'prevent someone from doing something' (preposition 'from' + gerund). The correct phrasing is 'prevented the expedition from reaching'.",
-      "citation": "SSC CGL English Comprehension — Verb-Preposition Complements"
+      "citation": "SSC CGL English Comprehension — Verb-Preposition Complements",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_05",
@@ -1465,7 +2334,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: call off**\n\nPhrasal Verb Meanings:\n- 'Call off' means to cancel an event.\n- 'Call on' means to visit or appeal to someone.\n- 'Call out' means to shout or summon for assistance.\n- 'Call for' means to require or demand.\nHere, the event was cancelled, making 'call off' the only correct choice.",
-      "citation": "SSC CGL English Comprehension — Idiomatic Phrasal Verbs"
+      "citation": "SSC CGL English Comprehension — Idiomatic Phrasal Verbs",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_06",
@@ -1483,7 +2363,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: profound**\n\nContextual Collocation: 'Profound' denotes great depth of insight, knowledge, or intellect, which perfectly collocates with 'erudition' (extensive learning). The other options imply lack of depth or impermanence.",
-      "citation": "SSC CGL English Comprehension — High-Frequency Academic Vocabulary"
+      "citation": "SSC CGL English Comprehension — High-Frequency Academic Vocabulary",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_07",
@@ -1501,7 +2392,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Wise**\n\n'Sagacious' means having or showing keen mental discernment, good judgment, and practical wisdom (shrewd, discerning, wise). Its direct synonym is 'Wise'.",
-      "citation": "SSC CGL English Comprehension — Lexical Synonyms"
+      "citation": "SSC CGL English Comprehension — Lexical Synonyms",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_08",
@@ -1519,7 +2421,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Destructive**\n\n'Pernicious' describes something having a gradual, insidious, and highly harmful or lethal effect (detrimental, injurious, destructive). Its closest synonym is 'Destructive'.",
-      "citation": "SSC CGL English Comprehension — Advanced Lexical Nuances"
+      "citation": "SSC CGL English Comprehension — Advanced Lexical Nuances",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_09",
@@ -1537,7 +2450,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: Incriminate**\n\n'Exonerate' means to officially absolve someone from blame, guilt, or criminal responsibility. The opposite is to accuse or show proof of guilt, which is 'Incriminate'.",
-      "citation": "SSC CGL English Comprehension — Antonyms & Legal Terminology"
+      "citation": "SSC CGL English Comprehension — Antonyms & Legal Terminology",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_10",
@@ -1555,7 +2479,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Solitary**\n\n'Gregarious' describes a person or animal fond of company and highly sociable. The direct antonym is 'Solitary' (reclusive, preferring isolation).",
-      "citation": "SSC CGL English Comprehension — Behavioral Adjective Antonyms"
+      "citation": "SSC CGL English Comprehension — Behavioral Adjective Antonyms",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_11",
@@ -1573,7 +2508,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Stoic**\n\nA 'Stoic' is an individual who accepts hardships, pain, or adversity impassively without displaying distress. In contrast, a 'Hedonist' lives solely for sensory pleasure.",
-      "citation": "SSC CGL English Comprehension — One Word Substitutions"
+      "citation": "SSC CGL English Comprehension — One Word Substitutions",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_12",
@@ -1591,7 +2537,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Apostate**\n\nAn 'Apostate' is someone who consciously renounces, defects from, or abandons their former faith, religious allegiance, or political ideology.",
-      "citation": "SSC CGL English Comprehension — Classical Latin & Greek Derivatives"
+      "citation": "SSC CGL English Comprehension — Classical Latin & Greek Derivatives",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_13",
@@ -1609,7 +2566,18 @@
       ],
       "answer": 0,
       "explanation": "“To break the ice” means to say or do something that helps people feel more relaxed and comfortable when they first meet or when a conversation feels awkward.",
-      "citation": "Cambridge Dictionary — break the ice"
+      "citation": "Cambridge Dictionary — break the ice",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "targeted_practice_rewrite_checked; independent subject review still pending",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_14",
@@ -1627,7 +2595,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: To make every possible effort and explore all available avenues to accomplish an objective**\n\nThe idiom 'to leave no stone unturned' means to exhaust every conceivable strategy, investigation, or resource in pursuit of a solution or goal.",
-      "citation": "SSC CGL English Comprehension — Common Idioms & Metaphors"
+      "citation": "SSC CGL English Comprehension — Common Idioms & Metaphors",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_15",
@@ -1645,7 +2624,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: Bureaucracy**\n\nThe correct orthography is 'B-u-r-e-a-u-c-r-a-c-y' (originating from French 'bureau' meaning desk/office, combined with Greek '-kratia' meaning rule).",
-      "citation": "SSC CGL English Comprehension — Orthographic Spelling Accuracy"
+      "citation": "SSC CGL English Comprehension — Orthographic Spelling Accuracy",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_16",
@@ -1663,7 +2653,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: Embarasment**\n\nThe correct spelling is 'Embarrassment' with double 'r' and double 's' (E-m-b-a-r-r-a-s-s-m-e-n-t). The other three words are spelled correctly.",
-      "citation": "SSC CGL English Comprehension — High-Frequency Double Letter Pitfalls"
+      "citation": "SSC CGL English Comprehension — High-Frequency Double Letter Pitfalls",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_17",
@@ -1681,7 +2682,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: By whom was the priceless antique vase broken?**\n\nInterrogative Voice Shift: 'Who' shifts to 'By whom'. The simple past active verb 'broke' transforms into 'was + V3' (was broken). In questions, the auxiliary 'was' precedes the grammatical subject: 'By whom was the vase broken?'.",
-      "citation": "SSC CGL English Comprehension — Interrogative Passive Voice Transformations"
+      "citation": "SSC CGL English Comprehension — Interrogative Passive Voice Transformations",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_18",
@@ -1699,7 +2711,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: Let the security vault be locked immediately.**\n\nImperative Passive Rule: Imperative commands follow the standard structure: 'Let + Object + be + Past Participle (V3)'. Here, 'Let the security vault be locked immediately.'",
-      "citation": "SSC CGL English Comprehension — Imperative Sentence Structures"
+      "citation": "SSC CGL English Comprehension — Imperative Sentence Structures",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_19",
@@ -1717,7 +2740,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: The detective asked the witness if he had observed any suspicious activity near the bank the previous night.**\n\nReported Speech Rules for Yes/No Questions:\n1. Reporting verb 'said to' changes to 'asked' or 'inquired of'.\n2. Conjunction 'if' or 'whether' is used.\n3. Simple past tense 'Did you observe' changes to past perfect 'had observed'.\n4. Time adverbial 'last night' changes to 'the previous night'.",
-      "citation": "SSC CGL English Comprehension — Interrogative Indirect Narration"
+      "citation": "SSC CGL English Comprehension — Interrogative Indirect Narration",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_20",
@@ -1735,7 +2769,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: The astrophysics professor told the class that the earth revolves around the sun in an elliptical orbit.**\n\nUniversal Truth Rule: When the reported clause expresses an eternal scientific fact, universal truth, or habitual law of nature, its tense remains unchanged (present simple 'revolves' is preserved).",
-      "citation": "SSC CGL English Comprehension — Universal Truth Tense Retention"
+      "citation": "SSC CGL English Comprehension — Universal Truth Tense Retention",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_21",
@@ -1753,7 +2798,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: PQRS**\n\nLogical Discourse Flow:\n- P introduces the premise of 20th-century economic industrialization.\n- Q introduces the contrasting ecological cost ('However, this exponential growth...').\n- R elaborates on the specific environmental manifestations (carbon emissions, habitat loss).\n- S concludes with the logical consequence ('Consequently, transitioning...').\nCorrect sequence: PQRS.",
-      "citation": "SSC CGL English Comprehension — Discourse Markers & Logical Cohesion"
+      "citation": "SSC CGL English Comprehension — Discourse Markers & Logical Cohesion",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_22",
@@ -1771,7 +2827,18 @@
       ],
       "answer": 1,
       "explanation": "**Correct Answer: backbone**\n\n'Backbone' metaphorically signifies the central pillar, core foundation, or main support of a system. A positive foundational noun is needed to characterize sustainable transit.",
-      "citation": "SSC CGL English Comprehension — Contextual Cloze Assessment"
+      "citation": "SSC CGL English Comprehension — Contextual Cloze Assessment",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_23",
@@ -1789,7 +2856,18 @@
       ],
       "answer": 2,
       "explanation": "**Correct Answer: enhance**\n\n'Enhance' means to improve or augment quality. Since public transit reduces vehicular emissions, it positively enhances air quality.",
-      "citation": "SSC CGL English Comprehension — Contextual Cloze Assessment"
+      "citation": "SSC CGL English Comprehension — Contextual Cloze Assessment",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_24",
@@ -1807,7 +2885,18 @@
       ],
       "answer": 3,
       "explanation": "**Correct Answer: bridged**\n\nTo 'bridge a gap' is the standard idiomatic collocation meaning to connect, overcome, or close a deficiency or physical disconnect.",
-      "citation": "SSC CGL English Comprehension — Contextual Cloze Assessment"
+      "citation": "SSC CGL English Comprehension — Contextual Cloze Assessment",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "cgl3_eng_25",
@@ -1825,7 +2914,18 @@
       ],
       "answer": 0,
       "explanation": "**Correct Answer: obligations**\n\n'Obligations' refers to formal legal or moral duties and commitments. Cities have environmental obligations (such as carbon reduction pledges) to fulfill.",
-      "citation": "SSC CGL English Comprehension — Contextual Cloze Assessment"
+      "citation": "SSC CGL English Comprehension — Contextual Cloze Assessment",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "passed_selected_option_matches_explanation_label",
+        "source_provenance_status": "independent_practice_reference_unverified",
+        "source_note": "Practice/reference note only; no direct item-level source URL or independent authority match is attached.",
+        "authority_reference_url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023.pdf",
+        "authority_reference_scope": "Official notice confirms the candidate response-sheet process only; it does not authenticate individual question records.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }

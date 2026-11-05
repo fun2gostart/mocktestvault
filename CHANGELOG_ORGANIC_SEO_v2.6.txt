@@ -1,0 +1,26 @@
+MockTestVault Organic SEO v2.6 – final correction log
+Date: 5 November 2026
+Source archive: mocktestvault.com(5).zip
+
+Changes:
+1. SSC CGL 2026 pattern claims revised to the official SSC notification: 25 questions / 50 marks in each of four subjects, 60 minutes overall with 15-minute sequential subject sections, +2 correct and -0.50 incorrect. Official notification linked directly.
+2. The three current SSC CGL full practice mocks set strictLock=true so users cannot jump between subject sections; the engine advances when each 15-minute section expires.
+3. Removed misleading current-vendor/official interface claims and described MockTestVault as an independent CBT-style practice interface.
+4. Rewrote SSC CGL study-time advice, safe-score claims and FAQ/schema answers that conflicted with the 15-minute-per-subject structure or implied guaranteed cut-offs.
+5. 2023 shift-labelled SSC paper pages now disclose that they are independent shift-labelled practice compilations and not authenticated verbatim official SSC papers unless individual source/key evidence is supplied.
+6. TOEFL reading drills now clearly disclose that they are 20-question, non-adaptive, legacy-style academic passage practice with a custom 35-minute timer—not TOEFL iBT 2026 simulations and not ETS-scaled score conversions.
+7. Removed misleading "Official ETS Rationale" labels and ETS provenance citations from the two TOEFL practice question banks.
+8. Created /global/toefl/2026-format-guide.html with current ETS format and direct official references.
+9. Created /question-sources-review.html and QUESTION_PROVENANCE_AUDIT.csv. The CSV lists 6,404 question records and the current reference notes; it does not invent direct source URLs.
+10. Added crawlable, page-specific context sections to 114 interactive test pages; they explain topics, practice use and official curriculum/pattern references with internal links.
+11. Updated sitemap with the two new public guide/policy pages.
+12. Retained previous v2.5 corrections to ferrous sulphate answer/explanation and pole-shadow explanation.
+
+Validation limits:
+- ZIP integrity and JSON parsing/answer-index checks are automated structural checks, not full expert verification.
+- A direct item-level source URL is absent for the question records in this source ZIP. Official-pattern references do not prove an individual question is an official PYQ.
+- No full subject-expert re-solve of all 6,404 questions has been completed.
+- Live deployment, actual Googlebot rendering, Search Console index inclusion, and field Core Web Vitals were not testable from the ZIP alone.
+- No monetisation or advertising settings were changed.
+
+13. Final consistency pass: replaced remaining SSC study-time row allocations with the notification's 15-minute subject sections and removed remaining TOEFL 0–30 scaled-score language from the Global hub card/FAQ.

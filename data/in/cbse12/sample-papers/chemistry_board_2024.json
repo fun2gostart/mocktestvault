@@ -17,8 +17,20 @@
         "65.4 g/mol"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 41.35 g/mol\n\nBy Raoult's Law: (P0 - P) / P0 = n2 / (n1 + n2) \u2248 w2 * M1 / (M2 * w1). (1.013 - 1.004) / 1.013 = (2 * 18) / (M2 * 98) \u21d2 0.00888 = 36 / (98 * M2) \u21d2 M2 = 36 / (98 * 0.00888) \u2248 41.35 g/mol.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** 41.35 g/mol\n\nBy Raoult's Law: (P0 - P) / P0 = n2 / (n1 + n2) ≈ w2 * M1 / (M2 * w1). (1.013 - 1.004) / 1.013 = (2 * 18) / (M2 * 98) ⇒ 0.00888 = 36 / (98 * M2) ⇒ M2 = 36 / (98 * 0.00888) ≈ 41.35 g/mol.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-002",
@@ -27,16 +39,28 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "The molar conductivities at infinite dilution (\u039b\u00b0m) for NaCl, HCl, and CH3COONa are 126.4, 425.9, and 91.0 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9 respectively. What is the value of \u039b\u00b0m for acetic acid (CH3COOH)?",
+      "question": "The molar conductivities at infinite dilution (Λ°m) for NaCl, HCl, and CH3COONa are 126.4, 425.9, and 91.0 S·cm²·mol⁻¹ respectively. What is the value of Λ°m for acetic acid (CH3COOH)?",
       "options": [
-        "390.5 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9",
-        "425.9 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9",
-        "516.9 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9",
-        "300.0 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9"
+        "390.5 S·cm²·mol⁻¹",
+        "425.9 S·cm²·mol⁻¹",
+        "516.9 S·cm²·mol⁻¹",
+        "300.0 S·cm²·mol⁻¹"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 390.5 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9\n\nBy Kohlrausch's Law of Independent Migration of Ions:\n\u039b\u00b0m(CH3COOH) = \u039b\u00b0m(CH3COONa) + \u039b\u00b0m(HCl) - \u039b\u00b0m(NaCl)\n= 91.0 + 425.9 - 126.4 = 516.9 - 126.4 = 390.5 S\u00b7cm\u00b2\u00b7mol\u207b\u00b9.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** 390.5 S·cm²·mol⁻¹\n\nBy Kohlrausch's Law of Independent Migration of Ions:\nΛ°m(CH3COOH) = Λ°m(CH3COONa) + Λ°m(HCl) - Λ°m(NaCl)\n= 91.0 + 425.9 - 126.4 = 516.9 - 126.4 = 390.5 S·cm²·mol⁻¹.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-003",
@@ -47,14 +71,26 @@
       "marks": 1,
       "question": "For a first-order reaction, the time required for 99.9% completion of the reaction is related to its half-life (t1/2) by:",
       "options": [
-        "t99.9% \u2248 10 * t1/2",
-        "t99.9% \u2248 3 * t1/2",
-        "t99.9% \u2248 5 * t1/2",
-        "t99.9% \u2248 2 * t1/2"
+        "t99.9% ≈ 10 * t1/2",
+        "t99.9% ≈ 3 * t1/2",
+        "t99.9% ≈ 5 * t1/2",
+        "t99.9% ≈ 2 * t1/2"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** t99.9% \u2248 10 * t1/2\n\nFor a first-order reaction: k = 2.303 / t * log(a / (a - x)). For 99.9%: t = (2.303 / k) * log(100 / 0.1) = (2.303 / k) * log(1000) = (2.303 * 3) / k = 6.909 / k. Since t1/2 = 0.693 / k: t99.9% / t1/2 = 6.909 / 0.693 \u2248 10.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** t99.9% ≈ 10 * t1/2\n\nFor a first-order reaction: k = 2.303 / t * log(a / (a - x)). For 99.9%: t = (2.303 / k) * log(100 / 0.1) = (2.303 / k) * log(1000) = (2.303 * 3) / k = 6.909 / k. Since t1/2 = 0.693 / k: t99.9% / t1/2 = 6.909 / 0.693 ≈ 10.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-004",
@@ -65,14 +101,26 @@
       "marks": 1,
       "question": "Which of the following 3d transition metal ions is diamagnetic in nature?",
       "options": [
-        "Zn\u00b2\u207a (3d\u00b9\u2070)",
-        "Fe\u00b2\u207a (3d\u2076)",
-        "Cu\u00b2\u207a (3d\u2079)",
-        "Cr\u00b3\u207a (3d\u00b3)"
+        "Zn²⁺ (3d¹⁰)",
+        "Fe²⁺ (3d⁶)",
+        "Cu²⁺ (3d⁹)",
+        "Cr³⁺ (3d³)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Zn\u00b2\u207a (3d\u00b9\u2070)\n\nZn has atomic number 30 ([Ar] 3d\u00b9\u2070 4s\u00b2). The Zn\u00b2\u207a ion has electronic configuration [Ar] 3d\u00b9\u2070 with completely paired d-electrons (zero unpaired electrons), making it strictly diamagnetic.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** Zn²⁺ (3d¹⁰)\n\nZn has atomic number 30 ([Ar] 3d¹⁰ 4s²). The Zn²⁺ ion has electronic configuration [Ar] 3d¹⁰ with completely paired d-electrons (zero unpaired electrons), making it strictly diamagnetic.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-005",
@@ -89,8 +137,20 @@
         "Secondary valency = 6; Oxidation state = +2"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Secondary valency = 6; Oxidation state = +3\n\nSecondary valency equals the coordination number (number of donor ligand atoms directly bound to Co). Here 5 NH3 + 1 Cl\u207b inside brackets gives CN = 6. Oxidation state x + 5(0) + 1(-1) + 2(-1) = 0 \u21d2 x = +3.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** Secondary valency = 6; Oxidation state = +3\n\nSecondary valency equals the coordination number (number of donor ligand atoms directly bound to Co). Here 5 NH3 + 1 Cl⁻ inside brackets gives CN = 6. Oxidation state x + 5(0) + 1(-1) + 2(-1) = 0 ⇒ x = +3.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-006",
@@ -107,8 +167,20 @@
         "Methyl bromide"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** tert-Butyl bromide ((CH3)3C-Br)\n\nSN1 rate is determined by carbocation stability. The tertiary carbocation (CH3)3C\u207a is strongly stabilized by 9 hyperconjugative structures and +I inductive effects, making tert-butyl halides the most reactive.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** tert-Butyl bromide ((CH3)3C-Br)\n\nSN1 rate is determined by carbocation stability. The tertiary carbocation (CH3)3C⁺ is strongly stabilized by 9 hyperconjugative structures and +I inductive effects, making tert-butyl halides the most reactive.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-007",
@@ -126,7 +198,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Salicylaldehyde (2-hydroxybenzaldehyde)\n\nThis is the Reimer-Tiemann reaction. An electrophilic dichlorocarbene (:CCl2) intermediate attacks the activated ortho-position of the phenoxide ion, yielding salicylaldehyde.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-008",
@@ -143,8 +227,20 @@
         "Acetone (CH3COCH3)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Benzaldehyde (C6H5CHO)\n\nAldol condensation strictly requires the presence of at least one \u03b1-hydrogen atom. Benzaldehyde lacks \u03b1-hydrogens on the formyl carbon and instead undergoes the Cannizzaro reaction in concentrated alkali.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** Benzaldehyde (C6H5CHO)\n\nAldol condensation strictly requires the presence of at least one α-hydrogen atom. Benzaldehyde lacks α-hydrogens on the formyl carbon and instead undergoes the Cannizzaro reaction in concentrated alkali.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-009",
@@ -161,8 +257,20 @@
         "Nitrous acid (HNO2)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Benzenesulphonyl chloride (C6H5SO2Cl)\n\nHinsberg's reagent (C6H5SO2Cl) reacts with 1\u00b0 amines to form an alkali-soluble sulphonamide (with acidic N-H), with 2\u00b0 amines to form an alkali-insoluble sulphonamide, and does not react with 3\u00b0 amines.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** Benzenesulphonyl chloride (C6H5SO2Cl)\n\nHinsberg's reagent (C6H5SO2Cl) reacts with 1° amines to form an alkali-soluble sulphonamide (with acidic N-H), with 2° amines to form an alkali-insoluble sulphonamide, and does not react with 3° amines.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-010",
@@ -180,7 +288,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Vitamin C (Ascorbic acid)\n\nVitamins B-complex and C are water-soluble; they cannot be stored in the body (except B12) and are continuously excreted in urine. Vitamins A, D, E, K are fat-soluble.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-011",
@@ -197,8 +317,20 @@
         "1"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 5\n\nK4[Fe(CN)6] dissociates completely into 4 K\u207a cations and 1 [Fe(CN)6]\u2074\u207b coordination anion. Total ions produced n = 4 + 1 = 5 \u21d2 i = 1 + (n - 1)\u03b1 = 1 + (5 - 1)(1) = 5.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** 5\n\nK4[Fe(CN)6] dissociates completely into 4 K⁺ cations and 1 [Fe(CN)6]⁴⁻ coordination anion. Total ions produced n = 4 + 1 = 5 ⇒ i = 1 + (n - 1)α = 1 + (5 - 1)(1) = 5.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-012",
@@ -207,7 +339,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 1,
-      "question": "How many coulombs of electricity are required for the complete reduction of 1 mole of MnO4\u207b to Mn\u00b2\u207a in acidic medium?",
+      "question": "How many coulombs of electricity are required for the complete reduction of 1 mole of MnO4⁻ to Mn²⁺ in acidic medium?",
       "options": [
         "5 * 96,500 C (5 F = 482,500 C)",
         "1 * 96,500 C",
@@ -215,8 +347,20 @@
         "7 * 96,500 C"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** 5 * 96,500 C (5 F = 482,500 C)\n\nThe reduction half-reaction: MnO4\u207b + 8H\u207a + 5e\u207b \u2192 Mn\u00b2\u207a + 4H2O. 1 mole of MnO4\u207b requires 5 moles of electrons. By Faraday's second law, Q = n * F = 5 * 96,500 C = 482,500 C.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** 5 * 96,500 C (5 F = 482,500 C)\n\nThe reduction half-reaction: MnO4⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H2O. 1 mole of MnO4⁻ requires 5 moles of electrons. By Faraday's second law, Q = n * F = 5 * 96,500 C = 482,500 C.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-013",
@@ -233,8 +377,20 @@
         "-k / R"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** -Ea / R\n\nArrhenius equation: k = A * e^(-Ea / RT) \u21d2 ln k = ln A - (Ea / R) * (1/T). Comparing with straight line equation y = mx + c, plot of ln k vs 1/T yields slope m = -Ea / R.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** -Ea / R\n\nArrhenius equation: k = A * e^(-Ea / RT) ⇒ ln k = ln A - (Ea / R) * (1/T). Comparing with straight line equation y = mx + c, plot of ln k vs 1/T yields slope m = -Ea / R.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-014",
@@ -251,8 +407,20 @@
         "Ionic electrostatic salt bridges"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Hydrogen bonds between -NH- and -CO- groups of peptide bonds\n\nThe \u03b1-helix structure is stabilized by intramolecular hydrogen bonds formed between the -NH- of each amino acid residue and the -C=O of an amino acid situated four residues ahead in the coil.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** Hydrogen bonds between -NH- and -CO- groups of peptide bonds\n\nThe α-helix structure is stabilized by intramolecular hydrogen bonds formed between the -NH- of each amino acid residue and the -C=O of an amino acid situated four residues ahead in the coil.",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-015",
@@ -270,7 +438,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nThe catalytic properties of transition metals (e.g. Fe in Haber process, V2O5 in Contact process) stem directly from variable valency and provision of large surface areas with unpaired d-electrons.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-016",
@@ -287,8 +467,20 @@
         "(A) is false but (R) is true"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nThe electronegative chlorine in Cl-CH2-COOH pulls electron density away from the -COO\u207b group via -I effect, dispersing negative charge and stabilizing the conjugate base, making chloroacetic acid much stronger (lower pKa).",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "explanation": "**Official Solution:** Both (A) and (R) are true and (R) is the correct explanation of (A)\n\nThe electronegative chlorine in Cl-CH2-COOH pulls electron density away from the -COO⁻ group via -I effect, dispersing negative charge and stabilizing the conjugate base, making chloroacetic acid much stronger (lower pKa).",
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-017",
@@ -297,7 +489,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 17 \u2022 2 Marks]\nRegarding Solutions: Elevation in boiling point \u0394Tb = Kb * m and determination of molar mass.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 17 • 2 Marks]\nRegarding Solutions: Elevation in boiling point ΔTb = Kb * m and determination of molar mass.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Solutions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Solutions",
@@ -306,7 +498,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Solutions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Solutions.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-018",
@@ -315,7 +519,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 18 \u2022 2 Marks]\nRegarding Electrochemistry: Nernst equation application to Daniel Cell Ecell = E\u00b0cell - (0.059/2)log[Zn\u00b2\u207a]/[Cu\u00b2\u207a].\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 18 • 2 Marks]\nRegarding Electrochemistry: Nernst equation application to Daniel Cell Ecell = E°cell - (0.059/2)log[Zn²⁺]/[Cu²⁺].\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Electrochemistry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Electrochemistry",
@@ -324,7 +528,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Electrochemistry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Electrochemistry.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-019",
@@ -333,7 +549,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 19 \u2022 2 Marks]\nRegarding Kinetics: Unit of rate constant for zero, first, and second order reactions.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 19 • 2 Marks]\nRegarding Kinetics: Unit of rate constant for zero, first, and second order reactions.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Kinetics: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Kinetics",
@@ -342,7 +558,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Kinetics: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Kinetics.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-020",
@@ -351,7 +579,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 20 \u2022 2 Marks]\nRegarding Coordination: IUPAC naming and linkage isomerism in ambidentate ligands (NO2\u207b / SCN\u207b).\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 20 • 2 Marks]\nRegarding Coordination: IUPAC naming and linkage isomerism in ambidentate ligands (NO2⁻ / SCN⁻).\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Coordination: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Coordination",
@@ -360,7 +588,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Coordination: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Coordination.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-021",
@@ -369,7 +609,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 21 \u2022 2 Marks]\nRegarding Haloalkanes: Optical resolution and enantiomerism in 2-chlorobutane.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 21 • 2 Marks]\nRegarding Haloalkanes: Optical resolution and enantiomerism in 2-chlorobutane.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Haloalkanes: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Haloalkanes",
@@ -378,7 +618,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Haloalkanes: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Haloalkanes.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-022",
@@ -387,7 +639,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 22 \u2022 3 Marks]\nRegarding Organic Mechanisms: Mechanism of acid-catalysed dehydration of ethanol to ethene at 443 K.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 22 • 3 Marks]\nRegarding Organic Mechanisms: Mechanism of acid-catalysed dehydration of ethanol to ethene at 443 K.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Organic Mechanisms: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Organic Mechanisms",
@@ -396,7 +648,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Organic Mechanisms: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Organic Mechanisms.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-023",
@@ -405,7 +669,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 23 \u2022 3 Marks]\nRegarding Name Reactions: Kolbe's reaction, Rosenmund reduction, and Cannizzaro disproportionation.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 23 • 3 Marks]\nRegarding Name Reactions: Kolbe's reaction, Rosenmund reduction, and Cannizzaro disproportionation.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Name Reactions: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Name Reactions",
@@ -414,7 +678,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Name Reactions: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Name Reactions.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-024",
@@ -423,7 +699,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 24 \u2022 3 Marks]\nRegarding d-Block Trends: Lanthanoid contraction: cause and consequences on Zr-Hf twin pairs.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 24 • 3 Marks]\nRegarding d-Block Trends: Lanthanoid contraction: cause and consequences on Zr-Hf twin pairs.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for d-Block Trends: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in d-Block Trends",
@@ -432,7 +708,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for d-Block Trends: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on d-Block Trends.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-025",
@@ -441,7 +729,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 25 \u2022 3 Marks]\nRegarding Coordination Theory: Crystal Field Theory: d-orbital splitting \u0394o and pairing energy P in strong/weak fields.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 25 • 3 Marks]\nRegarding Coordination Theory: Crystal Field Theory: d-orbital splitting Δo and pairing energy P in strong/weak fields.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Coordination Theory: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Coordination Theory",
@@ -450,7 +738,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Coordination Theory: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Coordination Theory.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-026",
@@ -459,7 +759,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 26 \u2022 3 Marks]\nRegarding Biomolecules: Denaturation of proteins: structural collapse of 2\u00b0 and 3\u00b0 structures leaving 1\u00b0 intact.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 26 • 3 Marks]\nRegarding Biomolecules: Denaturation of proteins: structural collapse of 2° and 3° structures leaving 1° intact.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Biomolecules: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Biomolecules",
@@ -468,7 +768,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Biomolecules: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Biomolecules.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-027",
@@ -477,7 +789,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 27 \u2022 3 Marks]\nRegarding Aldehydes & Ketones: Clemmensen reduction vs Wolff-Kishner reduction with hydrazine and KOH.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 27 • 3 Marks]\nRegarding Aldehydes & Ketones: Clemmensen reduction vs Wolff-Kishner reduction with hydrazine and KOH.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Aldehydes & Ketones: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Aldehydes & Ketones",
@@ -486,7 +798,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Aldehydes & Ketones: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Aldehydes & Ketones.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-028",
@@ -495,7 +819,7 @@
       "type": "mcq",
       "difficulty": "Medium",
       "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 28 \u2022 3 Marks]\nRegarding Amines: Gabriel Phthalimide synthesis limitation for aromatic 1\u00b0 amines.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 28 • 3 Marks]\nRegarding Amines: Gabriel Phthalimide synthesis limitation for aromatic 1° amines.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Amines: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Amines",
@@ -504,7 +828,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Amines: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Amines.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-029",
@@ -513,7 +849,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 4,
-      "question": "[Official CBSE 2024 Board Examination Question 29 \u2022 4 Marks]\nRegarding Case Study 1: Passage on Commercial Galvanic Batteries (Lead Storage Battery & Fuel Cells).\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 29 • 4 Marks]\nRegarding Case Study 1: Passage on Commercial Galvanic Batteries (Lead Storage Battery & Fuel Cells).\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Case Study 1",
@@ -522,7 +858,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 3 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Case Study 1.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-030",
@@ -531,7 +879,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 4,
-      "question": "[Official CBSE 2024 Board Examination Question 30 \u2022 4 Marks]\nRegarding Case Study 2: Passage on Carbohydrate Anomers (\u03b1-D-glucopyranose and Mutarotation).\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 30 • 4 Marks]\nRegarding Case Study 2: Passage on Carbohydrate Anomers (α-D-glucopyranose and Mutarotation).\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Case Study 2",
@@ -540,7 +888,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 3 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Case Study 2.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-031",
@@ -549,7 +909,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 31 \u2022 5 Marks]\nRegarding Long Answer 1: Comprehensive Organic Conversions involving Benzene to Phenol, Aniline, and Benzoic Acid.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 31 • 5 Marks]\nRegarding Long Answer 1: Comprehensive Organic Conversions involving Benzene to Phenol, Aniline, and Benzoic Acid.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Long Answer 1: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Long Answer 1",
@@ -558,7 +918,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 1: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 4 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Long Answer 1.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-032",
@@ -567,7 +939,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 32 \u2022 5 Marks]\nRegarding Long Answer 2: Electrochemistry: Kohlrausch's law, degree of dissociation \u03b1 = \u039bm/\u039b\u00b0m, and Ka calculation.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 32 • 5 Marks]\nRegarding Long Answer 2: Electrochemistry: Kohlrausch's law, degree of dissociation α = Λm/Λ°m, and Ka calculation.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Long Answer 2: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Long Answer 2",
@@ -576,7 +948,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 2: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 4 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Long Answer 2.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     },
     {
       "id": "c12-chem-2024-033",
@@ -585,7 +969,7 @@
       "type": "mcq",
       "difficulty": "Hard",
       "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 33 \u2022 5 Marks]\nRegarding Long Answer 3: Chemical Kinetics: Integrated rate equation derivation for first-order reaction and graphs.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "[Official CBSE 2024 Board Examination Question 33 • 5 Marks]\nRegarding Long Answer 3: Chemical Kinetics: Integrated rate equation derivation for first-order reaction and graphs.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
       "options": [
         "Standard NCERT board derivation for Long Answer 3: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
         "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Long Answer 3",
@@ -594,7 +978,19 @@
       ],
       "answer": 0,
       "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 3: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 4 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Long Answer 3.",
-      "citation": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT"
+      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
+      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Chemistry 043) & NCERT",
+      "quality_review": {
+        "review_date": "2026-11-05",
+        "structural_validation": "passed",
+        "answer_accuracy_status": "pending_independent_subject_matter_verification",
+        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+        "source_provenance_status": "year_label_not_authenticated",
+        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
+        "authority_reference_url": "https://ncert.nic.in/textbook.php",
+        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
+        "item_level_source_url_present": false
+      }
     }
   ]
 }
