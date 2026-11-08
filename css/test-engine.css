@@ -2899,3 +2899,124 @@ body {
 
 
 
+
+/* Mobile layout hardening — prevent header and CBT controls from widening the viewport. */
+@media (max-width: 640px) {
+  .header-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 12px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .brand-link {
+    flex: 1 1 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .brand-text {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .brand-text h1,
+  .brand-text .brand-title,
+  .brand-text .brand-name {
+    font-size: 1rem;
+    line-height: 1.25;
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .brand-text p {
+    margin: 4px 0 0;
+  }
+
+  .header-controls {
+    width: 100%;
+    min-width: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .mode-pill-group {
+    max-width: 100%;
+  }
+
+  .mode-btn {
+    padding: 6px 10px;
+  }
+
+  .test-header-bar {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 14px;
+    box-sizing: border-box;
+  }
+
+  .test-layout {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 12px;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+    box-sizing: border-box;
+  }
+
+  .question-card,
+  .palette-card {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .question-card {
+    height: auto;
+    min-height: 560px;
+    padding: 16px 14px;
+  }
+
+  .question-scroll-body,
+  .question-text-box,
+  .options-list {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .card-action-bar {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .card-action-bar > div {
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 6px !important;
+  }
+
+  .card-action-bar .nav-btn {
+    padding: 8px 10px;
+    font-size: 0.82rem;
+    gap: 5px;
+  }
+
+  .palette-card {
+    position: static;
+    height: auto;
+    padding: 16px;
+  }
+
+  .palette-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .palette-btn {
+    min-width: 0;
+  }
+}

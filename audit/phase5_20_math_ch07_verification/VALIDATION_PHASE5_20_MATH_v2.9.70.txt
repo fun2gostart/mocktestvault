@@ -1,0 +1,13 @@
+PHASE 5.20 VALIDATION – v2.9.70
+Baseline: v2.9.69
+Target: Chapter 7 Phase 5.18 exception queue
+
+PASS: Exactly 50 Chapter 7 exception records found.
+PASS: All 50 IDs resolve to active Chapter 7 question JSON records.
+PASS: All 50 answer indexes are in range and resolve to an option.
+PASS: All 50 keyed answers and stored explanations checked for mathematical consistency.
+PASS: Provisional scope outcome totals: 30 core, 19 enrichment, 1 human adjudication.
+PASS: All 50 remain human-signoff pending and held from exam generation.
+PASS: No source question-bank JSON was modified.
+PASS: All baseline archive entries preserved byte-for-byte.
+PASS: ZIP integrity check passed.

@@ -1,0 +1,48 @@
+MOCKTESTVAULT – PHASE 5.4 ACADEMIC REVIEW
+Version: v2.9.17
+Date: 2026-11-06
+Scope: CBSE Class X Mathematics active practice bank
+
+EXECUTIVE RESULT
+- 14 chapters reviewed at active-bank inventory level.
+- 42 active practice sets (3 per chapter), 20 questions per set.
+- 840 active questions; 840 unique question IDs.
+- 50 additional root-level chapter JSON records were not counted as active practice-set questions.
+- 1 answer-key error confirmed and corrected in the candidate archive.
+- 15 pre-existing wording/assumption flags were rechecked: 14 answer keys were retained under explicit conditions, and 1 inconsistent key was corrected.
+- 2 previously invalid geometry items have corrected candidate wording and internally consistent keys; human SME acceptance is still required.
+- 1 previously rewritten tangential-quadrilateral item was rechecked; answer retained.
+- Existing prior AI-assisted solution-match statuses for the remaining questions were carried forward, not represented as fresh human or independent expert certification in this phase.
+
+CONFIRMED CORRECTION
+Question ID: cbse10-math-ch09-s3-005
+File: data/in/cbse10/mathematics/ch09_some_applications_of_trigonometry_set3.json
+The stored answer index was 3, while the explanation correctly stated that both Assertion and Reason are true and that the Reason explains the Assertion. The correct option is the first option, zero-based index 0. The key was corrected from 3 to 0. No question text or explanation change was needed.
+
+OTHER EXCEPTION REVIEW
+- 14 remaining conditional-wording items: answer keys remain defensible under explicit assumptions now stated in their current stems. See the 840-row register for IDs and notes.
+- 2 geometry items in Chapter 6: current rewritten stems describe coherent configurations; answer remains option 1. Both remain pending human SME sign-off.
+- Chapter 10 tangential quadrilateral prompt: tangent-segment equality supports AB + CD = AD + BC; key retained.
+
+CURRICULUM SCREEN
+The active 14-chapter sequence maps to the current CBSE Class X Mathematics syllabus structure: Number Systems, Algebra, Coordinate Geometry, Geometry, Trigonometry, Mensuration, Statistics and Probability. The NCERT Class X Mathematics textbook is the primary topic reference. CBSE's 2026-27 curriculum and sample-paper/marking-scheme portal were used as the current session references.
+Official references:
+1. CBSE Class X Mathematics 2026-27 curriculum PDF: https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf
+2. CBSE Class X 2026-27 Sample Question Papers and Marking Schemes: https://cbseacademic.nic.in/SQP_CLASSX_2026-27.html
+3. NCERT Class X Mathematics textbook (2026-27 edition listing): https://ncert.nic.in/textbook.php?jemh1=0-14
+4. NCERT Class X Mathematics textbook PDF: https://www.ncert.nic.in/textbook/pdf/jemh1ps.pdf
+
+VALIDATION
+- All 840 active questions parsed.
+- 840 unique active question IDs.
+- Every active question has a non-empty stem, at least two options, a non-empty explanation, and an in-range integer answer index.
+- Structural validation errors: 0.
+- All 42 active JSON set files parse successfully.
+- ZIP integrity test: performed after packaging.
+
+LIMITATIONS
+- This is an AI-assisted academic review and targeted correction pass, not human SME certification.
+- Exact item-level source authentication against original NCERT Exemplar/PYQ papers and official board marking schemes remains incomplete.
+- Mathematical proofs and long-form solutions still require qualified reviewer sign-off.
+- Standard and Basic course-specific mapping should be expanded separately if the platform intends to label questions by course difficulty/eligibility.
+- Do not describe the entire 840-question bank as fully academically certified.

@@ -1,0 +1,52 @@
+MockTestVault v2.9.8 — Academic Integration Candidate QA
+Date: 2026-11-06
+Baseline: mocktestvault.com_organic_seo_v2.9.1_academic_pilot.zip
+
+SCOPE
+- Integrated all 42 active CBSE Class X Mathematics practice-set JSON files across 14 chapters (3 sets × 20 questions = 840 questions).
+- Retained all active question IDs and the 20-question structure of each set.
+- Applied the chapter review candidates for wording, explanations, citations, curriculum labels, option uniqueness and answer-key/prompt corrections.
+- Updated question-level quality_review metadata to reflect AI-assisted review status, with human sign-off and exact item-source authentication explicitly pending.
+- Bumped the service-worker cache key from mtv-cbt-v46 to mtv-cbt-v47.
+- Corrected nine pre-existing dead in-page navigation fragments in three pages: seven unrepresented Physics guide sections are shown as not covered (not dead links), Chemistry coordination navigation points to the combined d/f-block and coordination section, and the Class 10 catalogue now has an All Chapters anchor.
+- No AdSense changes were made.
+
+ACADEMIC REVIEW STATUS (ORIGINAL ITEM STATUS BEFORE CANDIDATE REWRITE)
+- 821: stored answer matches AI-assisted independent solution.
+- 15: conditional on wording or assumption.
+- 2: invalid as originally written; candidate rewrites supplied.
+- 1: answer key corrected in candidate patch.
+- 1: prompt rewritten and candidate answer re-derived.
+Total: 840 active questions.
+
+The candidate JSON answers match the independent-answer index in the 840-question master register for all 840 records. This is a consistency check against the AI-assisted review register, not human expert certification.
+
+TECHNICAL REGRESSION RESULTS
+- HTML pages: 160.
+- JSON files: 287.
+- Question records with question text and options: 6,404.
+- Active CBSE Class X Maths set files: 42.
+- Active CBSE Class X Maths questions: 840; unique IDs: 840.
+- Invalid answer indexes across all 6,404 question records: 0.
+- Active question answer-index mismatches against master independent-answer register: 0.
+- Missing academic review metadata in active 840 questions: 0.
+- Duplicate HTML titles: 0.
+- Duplicate meta descriptions: 0.
+- Canonical URLs: 159; indexable canonical URLs: 156.
+- Sitemap URLs: 156; duplicate sitemap URLs: 0.
+- Broken local links/assets/fragments: 0 after the three-page navigation fix.
+- JSON-LD parse errors: 0.
+- External JavaScript files syntax checked: 4; inline JavaScript blocks syntax checked: 304; syntax errors: 0.
+- Local HTTP smoke checks: 50 requests, all HTTP 200, including all 42 active question-set JSON endpoints (each returned 20 questions).
+- ZIP integrity: see archive verification.
+
+LIMITATIONS / RELEASE GATES
+- This is an academic integration candidate, not a human-expert-certified release.
+- Human subject-matter sign-off remains pending for all 14 chapters.
+- Exact NCERT question-to-item matching and official PYQ answer-key authentication have not been completed.
+- 60 legacy/shadow records identified in the master audit remain untouched pending deployment-reference review.
+- Headless browser interaction testing was not completed in this environment. Local HTTP, structural, JavaScript syntax and data-integrity checks passed.
+- The website has not been deployed to Hostinger or tested in the live production environment.
+
+DEPLOYMENT CAUTION
+Back up the live site before uploading. After deployment, test all 14 chapter pages, all 42 sets, answer selection, timer, navigation and submission/scoring on desktop and mobile. Confirm /sw.js reports mtv-cbt-v47 and the browser fetches updated JSON rather than stale host/CDN cache.

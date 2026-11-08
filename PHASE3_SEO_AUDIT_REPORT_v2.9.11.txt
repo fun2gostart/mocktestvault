@@ -1,0 +1,72 @@
+MOCKTESTVAULT PHASE 3 — ORGANIC SEO & CONTENT QUALITY AUDIT
+Release candidate: v2.9.11
+Baseline: mocktestvault.com_organic_seo_v2.9.10_phase2_functionality.zip
+Date: 2026-11-06
+Scope: static source-archive SEO, metadata, internal linking, sitemap, robots and structured-data checks.
+AdSense: explicitly excluded.
+
+EXECUTIVE RESULT
+- Archive integrity: PASS
+- HTML files: 160
+- Indexable canonical pages: 156
+- Sitemap URLs: 156
+- Exact sitemap/canonical coverage: PASS (156 of 156)
+- Duplicate page titles: 0
+- Duplicate meta descriptions: 0
+- Missing title/description on content HTML pages: 0 (Google verification token file is not a content page)
+- One H1 on every content HTML page: PASS
+- Missing canonical on content pages: 0 (Google verification token file excluded)
+- Broken local links: 0
+- Broken local fragment links: 0
+- JSON-LD parse errors: 0
+- Orphan indexable content pages: 0
+- Feed referenced in robots.txt: feed.xml exists
+
+DETAILED FINDINGS
+1. Titles and descriptions
+- No duplicate titles or meta descriptions found.
+- All content pages have a title and meta description.
+- Two Social Science 2023/2024 paper titles were 62 characters. They were shortened to 59 characters while preserving the exam, subject, year and practice intent.
+- All content descriptions are within the tested 70–160 character working range; no truncation-length outliers were detected by this simple count. Search snippets remain query-dependent.
+
+2. Headings and page content
+- All 159 HTML documents other than the Google site-verification token have exactly one H1.
+- The shortest substantive content page is cbse-class-12/index.html at 345 visible words. This is a review candidate for possible useful enrichment, not proof of thin content.
+- progress.html is intentionally noindex,nofollow; 404.html is intentionally noindex,follow.
+- The old cbse-class-10-science-chapter-2.html alias is noindex,nofollow and points to the canonical science chapter URL. This duplicate canonical is intentional and excluded from indexable sitemap coverage.
+
+3. Internal linking
+- No broken local links or fragments found after resolving directory URLs to index.html.
+- No indexable content page is orphaned.
+- Ten pages have only two inbound internal links. They are linked from their parent sample-paper directory and a related paper/chapter page; this is not an orphan condition. Consider adding more contextual links only where editorially useful.
+
+4. Sitemap and crawl directives
+- 156 unique sitemap URLs exactly match the 156 indexable canonical URLs.
+- No noindex URL appears in the sitemap.
+- robots.txt references sitemap.xml and feed.xml; both files exist.
+- robots.txt allows the main site and disallows nested /data/ paths. This archive check does not prove how a live crawler interprets server/CDN rules.
+
+5. Structured data
+- JSON-LD blocks parse successfully; no JSON syntax errors found.
+- Types present: AboutPage=1, BreadcrumbList=79, FAQPage=6, Course=1, EducationalOrganization=4, Quiz=71, Article=2, ContactPage=1, WebPage=4.
+- This is a syntax and inventory check only. It is not a full Schema.org validator or a guarantee of Google rich-result eligibility. FAQ rich results are limited by Google to certain authoritative site types; do not treat FAQ markup as a traffic guarantee.
+
+CHANGES IN v2.9.11
+- Shortened the two Social Science board-paper page titles (2023 and 2024) from 62 to 59 characters.
+- Added this audit report, page-level SEO register and changelog.
+- No question-bank JSON, exam content, JavaScript, CSS, canonical URL, sitemap URL or robots directive was changed.
+
+NOT VERIFIED IN THIS PHASE
+- Google Search Console coverage, manual actions, crawl stats, Google-selected canonicals or live indexing.
+- Live HTTP status, redirects, HTTPS/TLS, host/CDN cache behaviour or Googlebot rendering.
+- PageSpeed Insights / Core Web Vitals on real devices.
+- Actual search rankings, query impressions, CTR or traffic.
+- Exact factual accuracy or academic provenance of questions.
+These require live production access, Search Console or external performance measurements and are not inferable from a ZIP archive.
+
+RECOMMENDATIONS
+- Keep all 156 canonical URLs in the sitemap.
+- In Search Console, inspect Page indexing, Sitemaps, Crawl stats and URL Inspection for representative page templates.
+- Run PageSpeed Insights on homepage, CBSE hub, a chapter quiz, a sample paper and a global practice page.
+- Review cbse-class-12/index.html for useful subject-level content expansion; do not add filler solely to increase word count.
+- Preserve noindex treatment for 404, progress tracker and the legacy alias unless the site's intended architecture changes.

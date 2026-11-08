@@ -1,0 +1,23 @@
+MockTestVault v2.9.8 — Academic Integration Candidate
+Date: 2026-11-06
+Base: mocktestvault.com_organic_seo_v2.9.1_academic_pilot.zip
+
+Integrated all 42 active CBSE Class X Mathematics practice-set JSON files (14 chapters × 3 sets) from the chapter academic review packages. The 840 active questions retain their IDs and set structure. Proposed wording, explanation, citation, option-quality and answer-key patches are included in the candidate data.
+
+The 840-question master academic register is supplied separately in the QA evidence pack. Question-level quality_review metadata has been normalized to reflect AI-assisted review outcomes, with human subject-matter sign-off and exact item-level source authentication explicitly pending.
+
+Answer status in the master register (original question status before candidate patch):
+- 821 matched independent solutions
+- 15 conditional on wording/assumptions
+- 2 invalid as originally written; replacement wording supplied in candidate patch
+- 1 answer key corrected in candidate patch
+- 1 prompt rewritten and candidate answer re-derived
+
+Chapter 14 option-quality changes address duplicate mathematically equivalent options. Chapter 6 contains candidate rewrites for invalid/under-specified geometry items. No question IDs were changed; question counts remain 20 per set.
+
+Service worker cache was incremented from mtv-cbt-v46 to mtv-cbt-v47 so deployed clients can fetch the revised JSON. No monetization/AdSense work was added.
+
+IMPORTANT RELEASE STATUS:
+This is an academic integration candidate, not an expert-certified or production-approved release. Human subject-matter sign-off remains pending for all chapters. Exact NCERT item matching and official PYQ answer-key authentication have not been performed. Review the master register and sign-off fields before production deployment.
+
+Additional navigation QA fixes: resolved nine pre-existing dead fragment links on the Class 10 catalogue, Class 12 Physics formula guide and Class 12 Chemistry reference. Unavailable Physics sections are now explicitly shown as not covered instead of presenting dead links; the Chemistry coordination link points to the combined d/f-block and coordination section.

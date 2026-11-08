@@ -1,0 +1,16 @@
+MockTestVault v2.9.9 — Phase 1 audit update
+Date: 6 November 2026
+Base: mocktestvault.com_organic_seo_v2.9.8_academic_candidate.zip
+
+Completed:
+- Inventoried 60 legacy/shadow CBSE Class X Mathematics question records across 15 JSON files.
+- Compared all 60 records against the active 840-question bank using question IDs.
+- Confirmed all 60 legacy records reuse IDs present in the active bank.
+- Exact static filename/path reference scan across candidate HTML, JavaScript, PHP, XML, and .htaccess found no references to the 15 legacy files.
+- Compared stem, options, answer index, and explanation. These are not safe to classify as exact duplicate copies.
+- Retained all 60 records unchanged because the live Hostinger filesystem, server-side scripts, scheduled jobs, and external consumers have not been checked.
+- Fresh regression: 286 JSON files parsed; 6,404 question records; zero invalid answer indexes; zero missing question/explanation fields.
+- Active CBSE Class X Mathematics scope: 42 sets / 840 questions; active set structure retained.
+- Four external JavaScript files passed Node syntax validation.
+
+No HTML, CSS, JavaScript, JSON question-bank, service-worker, or runtime application files were changed in this Phase 1 audit. Service-worker cache remains mtv-cbt-v47 because runtime assets did not change. No AdSense changes.

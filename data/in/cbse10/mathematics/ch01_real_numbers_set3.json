@@ -15,11 +15,11 @@
     "explanation": "From the formula HCF * LCM = a * b: 5 * LCM = 150 => LCM = 150 / 5 = 30. Both statements are true and Reason (R) directly explains Assertion (A).",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -33,7 +33,52 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "pilot_verification": {
+        "batch": "CBSE10_Mathematics_100Q_Pilot",
+        "review_date": "2026-11-06",
+        "method": "AI-assisted independent mathematical solution and explanation/context review",
+        "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+        "follow_up_flags": [],
+        "human_subject_matter_signoff": "pending",
+        "official_item_source_match": "not_performed",
+        "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core HCF–LCM property",
+      "review_register_question_id": "cbse10-math-ch01-s3-001",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "HCF×LCM=product gives 5×LCM=150, so LCM=30. Assertion and Reason are true, and Reason explains Assertion. Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core HCF–LCM property",
+      "review_note": "HCF×LCM=product gives 5×LCM=150, so LCM=30. Assertion and Reason are true, and Reason explains Assertion. Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "For two positive integers, HCF×LCM=product; LCM=150/5=30. Assertion and reason are true and explanatory; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -52,11 +97,11 @@
     "explanation": "Assertion (A) is true: Theorem 1.3 proves that if p is prime, sqrt(p) is strictly irrational. Reason (R) is false: square roots of perfect squares like sqrt(4) = 2, sqrt(9) = 3, and sqrt(16) = 4 are rational numbers.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -70,7 +115,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core irrationality concept",
+      "review_register_question_id": "cbse10-math-ch01-s3-002",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 2,
+      "review_note": "sqrt(p) is irrational for prime p, but sqrt of every positive integer is not irrational (e.g. sqrt4=2). A true, R false. Stored option C is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 2,
+      "independent_answer_index": 2,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core irrationality concept",
+      "review_note": "sqrt(p) is irrational for prime p, but sqrt of every positive integer is not irrational (e.g. sqrt4=2). A true, R false. Stored option C is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 2,
+      "independent_answer_index_zero_based": 2,
+      "review_note": "√p is irrational for prime p, so assertion is true; reason is false because √4=2 is rational; option C.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -89,11 +169,11 @@
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). A number ends with 0 if and only if 10 = 2 * 5 is a factor. By the uniqueness of prime factorisation (Fundamental Theorem of Arithmetic), 5 does not occur in 6^n, so it cannot end with 0.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 5",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -107,7 +187,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core FTA application",
+      "review_register_question_id": "cbse10-math-ch01-s3-003",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "6^n=2^n×3^n contains no factor 5, so it cannot end in 0. Both A and R are true and R explains A. Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core FTA application",
+      "review_note": "6^n=2^n×3^n contains no factor 5, so it cannot end in 0. Both A and R are true and R explains A. Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "6^n=2^n×3^n has no factor 5, hence no factor 10; both statements true and explanatory; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -126,11 +241,11 @@
     "explanation": "Both statements are true and Reason (R) provides the definition of coprime integers.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -144,7 +259,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Foundational definition",
+      "review_register_question_id": "cbse10-math-ch01-s3-004",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "HCF(a,b)=1 is the definition of coprime; the reason restates it. Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Foundational definition",
+      "review_note": "HCF(a,b)=1 is the definition of coprime; the reason restates it. Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "HCF=1 is the definition of coprime; the reason restates the definition; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -163,11 +313,11 @@
     "explanation": "Both statements are true and Reason (R) directly explains Assertion (A). 2 is rational and sqrt(3) is irrational; their sum (2 + sqrt(3)) is strictly irrational.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -181,7 +331,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Supporting irrationality reasoning",
+      "review_register_question_id": "cbse10-math-ch01-s3-005",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "2 is rational and √3 irrational; their sum is irrational. The reason explains the assertion. Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Supporting irrationality reasoning",
+      "review_note": "2 is rational and √3 irrational; their sum is irrational. The reason explains the assertion. Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "2 is rational and √3 irrational, so 2+√3 is irrational; reason explains assertion; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -200,11 +385,11 @@
     "explanation": "Both statements are true and Reason explains Assertion. Because 2 and 3 are coprime primes, any number divisible by both 2 and 3 is divisible by 2 * 3 = 6.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -218,7 +403,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core divisibility reasoning",
+      "review_register_question_id": "cbse10-math-ch01-s3-006",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "In three consecutive positive integers at least one is even and exactly one is divisible by 3; their product is divisible by 6. Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core divisibility reasoning",
+      "review_note": "In three consecutive positive integers at least one is even and exactly one is divisible by 3; their product is divisible by 6. Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "Three consecutive integers include one even integer and exactly one multiple of 3; product is divisible by 6; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -226,7 +446,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Prime Pair HCF",
     "difficulty": "Easy",
-    "question": "Assertion (A): The HCF of 11 and 17 is 1.\nReason (R): If two numbers are prime numbers, their only common positive divisor is 1, so their HCF is always 1.",
+    "question": "Assertion (A): The HCF of 11 and 17 is 1.\nReason (R): If two distinct prime numbers are given, their only common positive divisor is 1, so their HCF is always 1.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -234,14 +454,14 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Both statements are true and Reason explains Assertion. Both 11 and 17 are prime numbers, so HCF(11, 17) = 1.",
+    "explanation": "Both statements are true and Reason explains Assertion. The primes 11 and 17 are distinct, so their only common positive divisor is 1; hence HCF(11,17)=1.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "conditional_on_wording_or_assumption_human_signoff_pending",
+      "explanation_option_consistency": "WORDING_FIX_REQUIRED",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -255,7 +475,50 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "Answer is supported only when the revised wording or stated assumptions are applied; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core HCF / prime properties",
+      "review_register_question_id": "cbse10-math-ch01-s3-007",
+      "master_review_status": "CONDITIONAL_ON_WORDING_OR_ASSUMPTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "HCF(11,17)=1, but the reason as written is over-general: two prime numbers need not have HCF 1 if they are the same prime. Replace “two numbers are prime numbers” with “two distinct prime numbers”. Then both A and R are true and R explains A; stored option A remains correct after the edit.",
+      "phase5_4_review_date": "2026-11-06",
+      "phase5_4_review_status": "assumption_wording_rechecked",
+      "phase5_4_review_note": "Rechecked against the current explicit wording/assumptions. The stored answer remains defensible under those stated conditions; human SME sign-off remains pending."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "conditional_match_after_wording_revision",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "WORDING_FIX_REQUIRED",
+      "curriculum_classification": "Core HCF / prime properties",
+      "review_note": "HCF(11,17)=1, but the reason as written is over-general: two prime numbers need not have HCF 1 if they are the same prime. Replace “two numbers are prime numbers” with “two distinct prime numbers”. Then both A and R are true and R explains A; stored option A remains correct after the edit."
+    },
+    "academic_verification": {
+      "answer_key_status": "matches_under_explicit_wording_and_assumptions",
+      "review_note": "HCF(11,17)=1, but the reason as written is over-general: two prime numbers need not have HCF 1 if they are the same prime. Replace “two numbers are prime numbers” with “two distinct prime numbers”. Then both A and R are true and R explains A; stored option A remains correct after the edit.",
+      "human_subject_expert_signoff": "pending"
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "11 and 17 are distinct primes; their only common positive divisor is 1; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -274,11 +537,11 @@
     "explanation": "Both statements are true and Reason explains Assertion. Factoring n^2 - n gives n(n - 1). Between n and (n - 1), one is even, so their product is divisible by 2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -292,7 +555,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core divisibility reasoning",
+      "review_register_question_id": "cbse10-math-ch01-s3-008",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "n²−n=n(n−1), the product of consecutive integers, one of which is even. Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core divisibility reasoning",
+      "review_note": "n²−n=n(n−1), the product of consecutive integers, one of which is even. Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "n²−n=n(n−1); consecutive integers include an even factor, so the product is even; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -308,14 +606,14 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Both statements are true and Reason explains Assertion. Since the denominator's prime factors consist solely of powers of 5, the decimal expansion terminates (after 5 decimal places: 0.00416).",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.5",
+    "explanation": "gcd(13, 3125)=1, so the fraction is in lowest terms. The denominator is 3125=5^5, containing only the prime factor 5; a rational number in lowest terms with denominator of the form 2^n×5^m has a terminating decimal expansion. Indeed, 13/3125=0.00416, which terminates after five decimal places. This criterion is supplementary, not part of the listed CBSE 2026–27 core Real Numbers scope.",
+    "citation": "Supplementary enrichment: rational-number decimal expansion criterion; not listed in CBSE 2026–27 core Real Numbers scope.",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "ENRICHMENT_SCOPE_TAG_REQUIRED",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -329,7 +627,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Optional enrichment — not core 2026–27 Real Numbers scope",
+      "review_register_question_id": "cbse10-math-ch01-s3-009",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "13/3125 is in lowest terms because gcd(13,3125)=1; 3125=5^5, so the decimal terminates after five places (0.00416). Mathematical answer/reason are correct, but decimal-expansion criterion is not included in the 2026–27 core scope; keep as enrichment."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "ENRICHMENT_SCOPE_TAG_REQUIRED",
+      "curriculum_classification": "Optional enrichment — not core 2026–27 Real Numbers scope",
+      "review_note": "13/3125 is in lowest terms because gcd(13,3125)=1; 3125=5^5, so the decimal terminates after five places (0.00416). Mathematical answer/reason are correct, but decimal-expansion criterion is not included in the 2026–27 core scope; keep as enrichment."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "gcd(13,3125)=1 and 3125=5⁵; reduced denominator has only prime factor 5, so decimal terminates (13/3125=0.00416); option A.",
+      "curriculum_scope_status": "CURRICULUM_CONFIRMATION_REQUIRED",
+      "curriculum_scope_note": "Terminating-decimal denominator criterion/calculation is mentioned in the NCERT chapter introduction but is not developed as a numbered section or exercise in the 2026–27 chapter PDF. Confirm CBSE 2026–27 course-specification treatment before assigning Board-theory status.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -348,11 +681,11 @@
     "explanation": "Assertion (A) is false: negative integers (-3, -2, -1) and zero are integers but NOT natural numbers. (Every natural number is an integer, but not every integer is a natural number). Reason (R) is true.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -366,7 +699,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Foundational number sets",
+      "review_register_question_id": "cbse10-math-ch01-s3-010",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 3,
+      "review_note": "Every integer is not natural because negative integers are not natural (and zero is also excluded under the definition stated in R). A false, R true. Stored option D is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 3,
+      "independent_answer_index": 3,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Foundational number sets",
+      "review_note": "Every integer is not natural because negative integers are not natural (and zero is also excluded under the definition stated in R). A false, R true. Stored option D is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 3,
+      "independent_answer_index_zero_based": 3,
+      "review_note": "Assertion is false because 0 and negative integers are not natural numbers under the stated convention; reason is true; option D.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -385,11 +753,11 @@
     "explanation": "HCF(616, 32) = 8 columns. Band musicians per column = 32 / 8 = 4 musicians. Contingent soldiers per column = 616 / 8 = 77 soldiers.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.1 Question 3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -403,7 +771,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_register_question_id": "cbse10-math-ch01-s3-011",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 3,
+      "review_note": "The maximum common column count is gcd(616,32)=8; 616/8=77 soldiers and 32/8=4 musicians per column. Stored option D is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 3,
+      "independent_answer_index": 3,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_note": "The maximum common column count is gcd(616,32)=8; 616/8=77 soldiers and 32/8=4 musicians per column. Stored option D is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 3,
+      "independent_answer_index_zero_based": 3,
+      "review_note": "gcd(616,32)=8 columns; 616/8=77 soldiers and 32/8=4 musicians per column; option D.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -422,11 +825,11 @@
     "explanation": "The simultaneous change interval is LCM(48, 72, 108). 48 = 2^4 * 3; 72 = 2^3 * 3^2; 108 = 2^2 * 3^3. LCM = 2^4 * 3^3 = 16 * 27 = 432 seconds. 432 seconds = 7 minutes and 12 seconds. Adding to 7:00:00 AM gives 7:07:12 AM.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q6",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -440,7 +843,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life LCM application",
+      "review_register_question_id": "cbse10-math-ch01-s3-012",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 1,
+      "review_note": "LCM(48,72,108)=432 seconds = 7 minutes 12 seconds; next simultaneous change is 7:07:12 AM. Stored option B is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 1,
+      "independent_answer_index": 1,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life LCM application",
+      "review_note": "LCM(48,72,108)=432 seconds = 7 minutes 12 seconds; next simultaneous change is 7:07:12 AM. Stored option B is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 1,
+      "independent_answer_index_zero_based": 1,
+      "review_note": "LCM(48,72,108)=2⁴×3³=432 seconds=7 min 12 sec; next time is 7:07:12 AM; option B.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -459,11 +897,11 @@
     "explanation": "To minimize the number of rooms, the capacity of each room must be maximized: HCF(60, 84, 108) = 12 participants per room. Total participants = 60 + 84 + 108 = 252. Minimum rooms required = 252 / 12 = 21 rooms (Hindi: 5 rooms, English: 7 rooms, Math: 9 rooms).",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -477,7 +915,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_register_question_id": "cbse10-math-ch01-s3-013",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 2,
+      "review_note": "gcd(60,84,108)=12 per room; rooms required=(60+84+108)/12=21. Stored option C is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 2,
+      "independent_answer_index": 2,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_note": "gcd(60,84,108)=12 per room; rooms required=(60+84+108)/12=21. Stored option C is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 2,
+      "independent_answer_index_zero_based": 2,
+      "review_note": "gcd(60,84,108)=12 participants per room; total 252, so 252/12=21 rooms; option C.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -496,11 +969,11 @@
     "explanation": "Each stack has 10 barfis. Number of kaju barfi stacks = 420 / 10 = 42. Number of badam barfi stacks = 130 / 10 = 13. Total stacks = 42 + 13 = 55 stacks.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 4",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -514,7 +987,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_register_question_id": "cbse10-math-ch01-s3-014",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 3,
+      "review_note": "gcd(420,130)=10 barfis per stack; 42+13=55 stacks. Stored option D is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 3,
+      "independent_answer_index": 3,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_note": "gcd(420,130)=10 barfis per stack; 42+13=55 stacks. Stored option D is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 3,
+      "independent_answer_index_zero_based": 3,
+      "review_note": "Each stack has gcd(420,130)=10 sweets; 420/10+130/10=42+13=55 stacks; option D.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -533,11 +1041,11 @@
     "explanation": "Tile side = HCF(1872, 1320) = 24 cm. Number of tiles along length = 1872 / 24 = 78. Number of tiles along breadth = 1320 / 24 = 55. Total tiles required = 78 * 55 = 4,290 tiles.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -551,7 +1059,52 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "pilot_verification": {
+        "batch": "CBSE10_Mathematics_100Q_Pilot",
+        "review_date": "2026-11-06",
+        "method": "AI-assisted independent mathematical solution and explanation/context review",
+        "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+        "follow_up_flags": [],
+        "human_subject_matter_signoff": "pending",
+        "official_item_source_match": "not_performed",
+        "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_register_question_id": "cbse10-math-ch01-s3-015",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "gcd(1872,1320)=24 cm; 1872/24=78 and 1320/24=55, so 4290 tiles. Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_note": "gcd(1872,1320)=24 cm; 1872/24=78 and 1320/24=55, so 4290 tiles. Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "gcd(1872,1320)=24 cm; tile count=(1872/24)(1320/24)=78×55=4290; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -570,11 +1123,11 @@
     "explanation": "LCM(18, 12) = 36 minutes. Laps completed by Sonia = 36 / 18 = 2 laps. Laps completed by Ravi = 36 / 12 = 3 laps.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 7",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -588,7 +1141,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life LCM application",
+      "review_register_question_id": "cbse10-math-ch01-s3-016",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 1,
+      "review_note": "The first return to the starting point together is after lcm(18,12)=36 minutes; Sonia completes 2 laps and Ravi 3. Stored option B is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 1,
+      "independent_answer_index": 1,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life LCM application",
+      "review_note": "The first return to the starting point together is after lcm(18,12)=36 minutes; Sonia completes 2 laps and Ravi 3. Stored option B is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 1,
+      "independent_answer_index_zero_based": 1,
+      "review_note": "They meet at the start after lcm(18,12)=36 min; Sonia completes 36/18=2 laps and Ravi 36/12=3; option B. Exam-status flagged due NCERT footnote on related Exercise 1.1 Q7.",
+      "curriculum_scope_status": "SUPPLEMENTARY_EXAM_STATUS_CHECK",
+      "curriculum_scope_note": "Circular-track/meeting-at-starting-point LCM context. NCERT 2026–27 textbook Exercise 1.1 Q7 is footnoted “Not from the examination point of view”; confirm the precise question’s Board status against CBSE 2026–27 curriculum/SQP before classifying it as Board-focused.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -607,11 +1195,11 @@
     "explanation": "Max hampers = HCF(144, 180, 216). 144 = 36 * 4; 180 = 36 * 5; 216 = 36 * 6. HCF = 36 hampers. Bananas per hamper = 216 / 36 = 6 bananas (along with 4 apples and 5 oranges).",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -625,7 +1213,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_register_question_id": "cbse10-math-ch01-s3-017",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 1,
+      "review_note": "gcd(144,180,216)=36 hampers; bananas per hamper=216/36=6. Stored option B is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 1,
+      "independent_answer_index": 1,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_note": "gcd(144,180,216)=36 hampers; bananas per hamper=216/36=6. Stored option B is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 1,
+      "independent_answer_index_zero_based": 1,
+      "review_note": "Maximum hampers=gcd(144,180,216)=36; bananas per hamper=216/36=6; option B.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -644,11 +1267,11 @@
     "explanation": "Max pouches = HCF(120, 180, 240) = 60 pouches. Pencils per pouch = 180 / 60 = 3 pencils (with 2 pens and 4 erasers).",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -662,7 +1285,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_register_question_id": "cbse10-math-ch01-s3-018",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 3,
+      "review_note": "gcd(120,180,240)=60 pouches; pencils per pouch=180/60=3. Stored option D is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 3,
+      "independent_answer_index": 3,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_note": "gcd(120,180,240)=60 pouches; pencils per pouch=180/60=3. Stored option D is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 3,
+      "independent_answer_index_zero_based": 3,
+      "review_note": "Maximum pouches=gcd(120,180,240)=60; pencils per pouch=180/60=3; option D.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -678,14 +1336,14 @@
       "We prove that 3 is an even number"
     ],
     "answer": 0,
-    "explanation": "Squaring 3 = a^2 / b^2 => 3b^2 = a^2. By Theorem 1.3, 3 divides a^2, so 3 divides a. Substituting a = 3c gives 3b^2 = 9c^2 => b^2 = 3c^2, so 3 divides b. Thus 3 is a common factor of both a and b, directly contradicting that a and b share no common factor other than 1.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.4",
+    "explanation": "Squaring √3=a/b gives 3b²=a². By NCERT Theorem 1.2, because 3 is prime and 3 divides a², 3 divides a. Write a=3c and substitute: 3b²=9c², so b²=3c²; Theorem 1.2 then gives 3 divides b. Thus 3 divides both a and b, contradicting the assumption that they are coprime.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3 — Revisiting Irrational Numbers; Theorem 1.2 (prime divisor of a square).",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "CITATION_FIX_REQUIRED",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -699,7 +1357,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core irrationality proof of sqrt(3)",
+      "review_register_question_id": "cbse10-math-ch01-s3-019",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "The prime-divisor lemma is Theorem 1.2. From 3b²=a², 3 divides a², hence 3 divides a; substituting a=3c gives b²=3c², hence 3 divides b, contradicting coprimality. Stored option A is correct; theorem number and citation need correction."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "CITATION_FIX_REQUIRED",
+      "curriculum_classification": "Core irrationality proof of sqrt(3)",
+      "review_note": "The prime-divisor lemma is Theorem 1.2. From 3b²=a², 3 divides a², hence 3 divides a; substituting a=3c gives b²=3c², hence 3 divides b, contradicting coprimality. Stored option A is correct; theorem number and citation need correction."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "From 3b²=a², prime-divisor theorem gives 3|a; substituting a=3k gives b²=3k² and 3|b, contradicting coprimality; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -716,13 +1409,13 @@
     ],
     "answer": 2,
     "explanation": "Multiply numerator and denominator by 5^1 to equalize powers of 2 and 5 in the denominator: 23 / (2^3 * 5^2) = (23 * 5) / (2^3 * 5^3) = 115 / 10^3 = 115 / 1000 = 0.115.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 9",
+    "citation": "Supplementary enrichment: exact decimal conversion of a rational number. The related rational-decimal section is not listed in the CBSE 2026–27 core Real Numbers scope.",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "ENRICHMENT_SCOPE_TAG_REQUIRED",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -736,7 +1429,52 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "pilot_verification": {
+        "batch": "CBSE10_Mathematics_100Q_Pilot",
+        "review_date": "2026-11-06",
+        "method": "AI-assisted independent mathematical solution and explanation/context review",
+        "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+        "follow_up_flags": [],
+        "human_subject_matter_signoff": "pending",
+        "official_item_source_match": "not_performed",
+        "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Optional enrichment — not core 2026–27 Real Numbers scope",
+      "review_register_question_id": "cbse10-math-ch01-s3-020",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 2,
+      "review_note": "23/(2³×5²)=23/200=0.115. Stored option C is correct. Decimal expansion method is an extension because rational-decimal expansion section was rationalised out of current core scope."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 2,
+      "independent_answer_index": 2,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "ENRICHMENT_SCOPE_TAG_REQUIRED",
+      "curriculum_classification": "Optional enrichment — not core 2026–27 Real Numbers scope",
+      "review_note": "23/(2³×5²)=23/200=0.115. Stored option C is correct. Decimal expansion method is an extension because rational-decimal expansion section was rationalised out of current core scope."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 2,
+      "independent_answer_index_zero_based": 2,
+      "review_note": "23/(2³×5²)=23/200=115/1000=0.115; option C.",
+      "curriculum_scope_status": "CURRICULUM_CONFIRMATION_REQUIRED",
+      "curriculum_scope_note": "Terminating-decimal denominator criterion/calculation is mentioned in the NCERT chapter introduction but is not developed as a numbered section or exercise in the 2026–27 chapter PDF. Confirm CBSE 2026–27 course-specification treatment before assigning Board-theory status.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   }
 ]

@@ -15,10 +15,10 @@
     "explanation": "At any point in space, there is a single unique magnetic field vector. The direction of a magnetic field line at any location corresponds to the direction indicated by a compass needle's north pole. Two intersecting lines would imply two simultaneous field directions at one point, which is physically impossible.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.1 Magnetic Field and Field Lines",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -33,7 +33,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -41,7 +54,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Solenoid Field Uniformity",
     "difficulty": "Medium",
-    "question": "Assertion (A): The magnetic field inside a long current-carrying cylindrical solenoid is completely uniform.\nReason (R): Inside the solenoid, the magnetic field lines are represented by equidistant parallel straight lines running along the longitudinal axis.",
+    "question": "Assertion (A): The magnetic field in the central region of a long current-carrying solenoid is approximately uniform.\nReason (R): In this region, the magnetic field lines are approximately parallel, straight and equally spaced along the solenoid axis.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -49,13 +62,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). Equidistant parallel straight field lines indicate that the magnetic field has the exact same strength and direction at every point inside the interior of a long solenoid.",
+    "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). In the central region of a sufficiently long solenoid, the field is approximately uniform, as represented by parallel and equally spaced field lines. The field is not perfectly uniform at the ends of a finite solenoid.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Magnetic Field due to a Current in a Solenoid",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent_after_correction",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -70,7 +83,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_corrected",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "corrected_and_rechecked",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -89,10 +115,10 @@
     "explanation": "Assertion (A) is false: a magnetic field exerts force ONLY on moving charges; stationary charges experience no magnetic force regardless of field intensity. Reason (R) is completely true: when v = 0, F = q * (0) * B = 0.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -107,7 +133,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -126,10 +165,10 @@
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). By Fleming's Left-Hand Rule, the upward force on one arm and the downward force on the opposite arm form a couple that rotates the armature shaft, converting electrical power into mechanical work.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.4 Electric Motor",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -144,7 +183,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -152,7 +204,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Safety Earthing Mechanism",
     "difficulty": "Easy",
-    "question": "Assertion (A): The metallic chassis of high-power electrical appliances like washing machines and refrigerators must be connected to an earth ground wire.\nReason (R): Earthing provides an ultra-low resistance pathway for fault currents, ensuring user contact does not conduct dangerous currents through the human body.",
+    "question": "Assertion (A): The accessible metallic chassis of a Class I electrical appliance must be connected to a protective earth conductor.\nReason (R): A correctly designed low-impedance earth-fault path helps the protective device disconnect the supply if a live conductor contacts the chassis, reducing the risk of electric shock.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -160,13 +212,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Both statements are true and R explains A. If internal wiring insulation degrades and the live conductor contacts the metal body, current is shunted harmlessly to earth, instantly tripping the circuit breaker or blowing the fuse without shocking anyone touching the machine.",
+    "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). If a live conductor faults onto an earthed metal enclosure, the protective earth provides a low-impedance fault-current path. The correctly selected fuse, MCB or RCD then disconnects the supply according to its operating characteristics. Earthing reduces risk; it should not be described as guaranteeing that a user can never receive a shock.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent_after_correction",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -181,7 +233,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_corrected",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "corrected_and_rechecked",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -200,10 +265,10 @@
     "explanation": "Assertion (A) is false: copper is diamagnetic and cannot be magnetized to form an electromagnet core. Reason (R) is true: soft iron is the correct ferromagnetic core material because it magnetizes intensely and demagnetizes promptly when current stops.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Electromagnet",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -218,7 +283,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -226,7 +304,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Domestic AC Electrical Parameters",
     "difficulty": "Medium",
-    "question": "Assertion (A): Domestic AC electric power in India is supplied at 220 V with an oscillation frequency of 50 Hz.\nReason (R): A frequency of 50 Hz means the alternating current reverses its direction of flow exactly 100 times every second (once every 1/100th of a second).",
+    "question": "Assertion (A): The nominal single-phase domestic AC supply in India is 230 V at 50 Hz.\nReason (R): A 50 Hz alternating current completes 50 cycles per second and reverses direction twice in each cycle.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -234,13 +312,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "In 1 complete AC cycle, the direction of current reverses twice (once during the positive half-cycle and once during the negative half-cycle). Therefore, at 50 Hz (50 cycles/sec), current changes direction 2 * 50 = 100 times per second.",
+    "explanation": "Both statements are true and Reason (R) correctly describes the frequency. India’s nominal single-phase low-voltage supply is 230 V at 50 Hz. Each complete sinusoidal cycle has two direction reversals, so the current reverses direction 100 times per second. Older school texts may quote 220 V as an approximate legacy value.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent_after_correction",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -255,7 +333,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_corrected",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "corrected_and_rechecked",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -263,7 +354,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Domestic Wiring Safety: Fuse in Live Conductor",
     "difficulty": "Medium",
-    "question": "Assertion (A): An electric fuse must strictly be placed in the live wire of a household branch circuit.\nReason (R): If a fuse is placed in the neutral wire, blowing the fuse disconnects the return path, but the entire appliance remains energized at 220 V live voltage, creating a lethal shock hazard.",
+    "question": "Assertion (A): A fuse must be connected in the live conductor of a household branch circuit.\nReason (R): If a fuse is placed only in the neutral conductor and it blows, the appliance may remain connected to the live supply and can therefore remain hazardous.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -271,13 +362,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). Installing the fuse in the live wire guarantees that when an overcurrent melts the fuse, the supply voltage (220 V) is immediately cut off from the appliance.",
+    "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). A fuse in the live conductor disconnects the appliance from the supply when it operates. A fuse placed only in the neutral conductor may open the return path while leaving internal parts connected to the live conductor.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent_after_correction",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -292,7 +383,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_corrected",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "corrected_and_rechecked",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -311,10 +415,10 @@
     "explanation": "Because magnetic force F is perpendicular to velocity v, work done W = delta(KE) = 0. The magnetic field alters the direction of motion (providing centripetal acceleration) without changing the speed or kinetic energy of the electron.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -329,7 +433,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -348,10 +465,10 @@
     "explanation": "Assertion (A) is false: field strength B depends on current magnitude I and distance r; reversing current direction simply reverses field vector direction, leaving magnitude unchanged. Reason (R) is true.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.1 Magnetic Field due to a Current through a Straight Conductor",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -366,7 +483,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -376,19 +506,19 @@
     "difficulty": "Medium",
     "question": "A scrap yard crane uses an enormous electromagnet with a soft iron core to lift several tons of discarded iron automobile frames. When the crane operator swings the load over a recycling hopper and turns off the electric switch, the iron scrap falls instantly into the bin. Why does the scrap detach immediately upon switching off the current?",
     "options": [
-      "Soft iron has very low magnetic retentivity and loses its magnetism almost completely the instant the magnetizing current ceases",
       "A reverse electrostatic pulse repels the iron scrap",
+      "Soft iron has very low magnetic retentivity and loses its magnetism almost completely the instant the magnetizing current ceases",
       "The gravity of the scrap increases tenfold",
       "The scrap yard crane inverts the poles of Earth's magnetic field"
     ],
-    "answer": 0,
-    "explanation": "Soft iron is a magnetically 'soft' material: it magnetizes intensely in the presence of current, but possesses virtually zero residual magnetism (retentivity) when current is turned off. As a result, the magnetic field drops to zero immediately, dropping the scrap into the hopper.",
+    "answer": 1,
+    "explanation": "Soft iron has high magnetic permeability and relatively low retentivity. It becomes strongly magnetized while current flows and loses most of its magnetization rapidly when the current is switched off, allowing the lifted scrap to be released. Residual magnetism need not be exactly zero.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Electromagnet",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent_after_correction",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -403,7 +533,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_corrected",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "corrected_and_rechecked",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -411,21 +554,21 @@
     "type": "case-study",
     "subtopic": "High-Speed Rail Case Study: Maglev Train Levitation",
     "difficulty": "Medium",
-    "question": "Modern magnetic levitation (Maglev) bullet trains reach speeds exceeding 500 km/h without touching physical rails. Which magnetic effect is harnessed to suspend and propel these trains frictionlessly?",
+    "question": "In an electrodynamic-suspension (EDS) Maglev system, a train can travel without rolling contact with the guideway. Which magnetic effect is used to produce levitation and propulsion?",
     "options": [
       "Electrostatic charging of train wheels",
       "Aerodynamic vacuum suction below the carriage",
       "Geomagnetic gravitational cancellation",
-      "Electromagnetic repulsion between onboard superconducting magnets and electromagnets embedded along the guideway track"
+      "Electromagnetic interaction between onboard superconducting magnets and guideway coils, producing levitation and propulsion forces"
     ],
     "answer": 3,
-    "explanation": "Maglev trains use powerful onboard electromagnets that interact with guideway coils. Magnetic repulsion lifts the train 10-15 mm above the track, eliminating mechanical rolling friction, while computerized alternating fields propel it smoothly forward.",
+    "explanation": "This item describes an electrodynamic-suspension (EDS) design, not every Maglev architecture. In EDS systems, motion of onboard superconducting magnets relative to guideway coils induces currents and magnetic interactions that provide lift and propulsion. The train avoids rolling contact with the guideway, but aerodynamic drag remains; “frictionlessly” would therefore be inaccurate.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Electromagnet",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent_after_correction",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -440,7 +583,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "enrichment_or_extension_not_core_cbse_requirement",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_corrected",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "corrected_and_rechecked",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -448,21 +604,21 @@
     "type": "case-study",
     "subtopic": "Domestic Hazard Case Study: Damaged Toaster Insulation",
     "difficulty": "Medium",
-    "question": "A user notices a severe electric shock whenever touching the metal exterior of an electric toaster plugged into an ungrounded two-pin outlet. What specific electrical malfunction is present, and why does replacing it with a properly grounded three-pin plug eliminate the hazard?",
+    "question": "A user receives an electric shock when touching the metal exterior of a toaster plugged into an ungrounded two-pin outlet. What fault could cause this, and how does a correctly wired protective earth connection reduce the risk?",
     "options": [
       "The toaster element is cold; earthing heats it",
-      "The toaster needs higher supply frequency",
-      "The neutral wire was conducting too much magnetic flux",
-      "The live internal conductor is touching the metal casing; an earth wire provides a safe near-zero resistance path directly to ground, draining leakage current and tripping the circuit breaker"
+      "The toaster needs a higher supply frequency",
+      "The neutral wire is conducting too much magnetic flux",
+      "Insulation failure may allow a live conductor to contact the metal casing; a low-impedance earth-fault path can cause the correctly selected protective device to disconnect the supply"
     ],
     "answer": 3,
-    "explanation": "When internal insulation fails and the live element contacts the metal frame, the chassis becomes energized at 220 V. An ungrounded appliance shocks anyone who touches it. When connected to a 3-pin grounded outlet, the low-resistance earth wire carries the leakage current to ground, immediately blowing the fuse or tripping the breaker.",
+    "explanation": "A failure of internal insulation can allow a live conductor to energize the metal casing. A correctly installed protective earth provides a low-impedance fault-current path, helping a suitably selected fuse, MCB or RCD disconnect the supply. Earthing is not a substitute for repairing the faulty appliance, and disconnection depends on the installation and protective device.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent_after_correction",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -477,7 +633,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_corrected",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "corrected_and_rechecked",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -496,10 +665,10 @@
     "explanation": "Because the magnetic force F is always perpendicular to velocity v (F = q * v * B), it cannot change the particle's speed, only its direction. This constant perpendicular force acts as a centripetal force (q * v * B = m * v^2 / r), bending the path into a perfect circle of radius r = m * v / (q * B).",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.3 Force on a Current-Carrying Conductor in a Magnetic Field",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -514,7 +683,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "enrichment_or_extension_not_core_cbse_requirement",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -524,19 +706,19 @@
     "difficulty": "Medium",
     "question": "When an electric car driver presses the brake pedal, the vehicle decelerates smoothly while its battery state-of-charge increases. What electromagnetic principle makes this 'regenerative braking' possible?",
     "options": [
-      "The electric motor is operated in reverse as an electric generator via electromagnetic induction, converting the car's kinetic energy into electric current that recharges the battery",
       "Friction pads convert heat directly into electricity",
+      "The electric motor is operated in reverse as an electric generator via electromagnetic induction, converting the car's kinetic energy into electric current that recharges the battery",
       "Piezoelectric crystals in tires generate static electricity",
       "The car absorbs radio waves from the road"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "An electric machine is completely reversible: supplied with current, it acts as a motor (converting electrical energy to mechanical motion). When driven mechanically by the rolling wheels during braking, it functions as a generator, using electromagnetic induction to produce electricity, simultaneously exerting a counter-torque that slows the vehicle.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.4 & 12.5",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -551,7 +733,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "enrichment_or_extension_not_core_cbse_requirement",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -570,10 +765,10 @@
     "explanation": "Ferromagnetic transformer core plates undergo magnetostriction (microscopic dimensional changes) proportional to field strength B^2. Because an AC wave reaches peak magnetic intensity twice per cycle (positive and negative), the core undergoes 2 * 50 = 100 mechanical vibration pulses per second, generating a 100 Hz acoustic hum.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.7 Domestic Electric Circuits",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -588,7 +783,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "enrichment_or_extension_not_core_cbse_requirement",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -598,19 +806,19 @@
     "difficulty": "Hard",
     "question": "The spectacular Aurora Borealis (Northern Lights) and Aurora Australis (Southern Lights) are seen primarily in polar latitudes and rarely near the equator. Why does Earth's magnetic field concentrate auroral displays near the poles?",
     "options": [
-      "Earth's dipolar magnetic field lines converge and enter the upper atmosphere near the magnetic poles, funneling high-energy solar wind charged particles into the dense polar atmosphere to trigger luminous gas collisions",
       "The poles are cold, freezing atmospheric nitrogen",
       "The ozone hole allows solar wind through only at the poles",
+      "Earth's dipolar magnetic field lines converge and enter the upper atmosphere near the magnetic poles, funneling high-energy solar wind charged particles into the dense polar atmosphere to trigger luminous gas collisions",
       "Earth's magnetic field is zero at the equator"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Earth's geomagnetic field acts as a protective shield (magnetosphere) that deflects incoming solar wind particles away at equatorial latitudes. Near the magnetic poles, however, the field lines bend downward and dip into the upper atmosphere, guiding energetic protons and electrons to collide with oxygen and nitrogen atoms, producing colorful auroral light.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.1 Magnetic Field and Field Lines",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -625,7 +833,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "enrichment_or_extension_not_core_cbse_requirement",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -637,17 +858,17 @@
     "options": [
       "Aluminum is completely non-conductive to electric currents",
       "Cast iron reflects magnetic fields while aluminum absorbs them",
-      "Induction heating relies on high-frequency alternating magnetic fields inducing intense eddy currents and magnetic hysteresis losses, which require ferromagnetic materials with high magnetic permeability and suitable electrical resistance",
+      "A conventional domestic induction hob uses an alternating magnetic field to induce eddy currents in compatible cookware; ferromagnetic cookware couples effectively with the field, while ordinary glass or plain aluminium cookware is generally not compatible.",
       "Glass is too heavy for magnetic induction to penetrate"
     ],
     "answer": 2,
-    "explanation": "Induction cooktops use high-frequency alternating magnetic fields (approx. 25 kHz). A ferromagnetic pan (cast iron, stainless steel) concentrates the magnetic flux due to high permeability, generating massive localized eddy currents and hysteresis losses that produce Joule heat directly within the pan base. Aluminum has very low magnetic permeability and high electrical conductivity, while glass is an insulator.",
-    "citation": "NCERT Class 10 Science, Chapter 12, Section 12.5 Electromagnetic Induction",
+    "explanation": "A conventional domestic induction hob drives a high-frequency alternating current through a coil beneath the cooking surface. The changing magnetic field induces currents in compatible cookware, and electrical resistance in the cookware converts that energy into heat. Ferromagnetic cookware couples effectively with the field and is commonly required by domestic hobs. Ordinary glass cookware and plain aluminium pans are generally not detected or heated effectively by standard domestic induction hobs; some specially designed cookware uses a ferromagnetic base. Hysteresis losses can contribute in magnetic materials, but they are not the sole mechanism of induction heating.",
+    "citation": "Supplementary appliance-physics clarification; not a core NCERT Class X examination topic.",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -662,7 +883,23 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase5_3_review_date": "2026-11-06",
+      "phase5_3_review_status": "targeted_correction_applied",
+      "phase5_3_review_note": "Qualified the mechanism and cookware compatibility; removed the overstatement that hysteresis losses are required.",
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "enrichment_or_extension_not_core_cbse_requirement",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -681,10 +918,10 @@
     "explanation": "The electric bell uses a make-and-break contact screw mechanism. When the armature is pulled forward by the electromagnet to strike the gong, contact with the screw is broken. Current stops, the electromagnet demagnetizes, and a spring pulls the armature back, restoring contact. This cycle repeats rapidly, producing continuous ringing.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.2.3 Electromagnet",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -699,7 +936,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "class_10_core_or_direct_supporting_concept",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -711,17 +961,17 @@
     "options": [
       "Radioactive gamma radiation emission",
       "Infrared thermal body imaging",
-      "Static electricity buildup on the passenger's shoes",
-      "The transmitter coil creates a pulsed magnetic field; conducting metal moving through it generates eddy currents with secondary magnetic fields that are sensed by the receiver coil"
+      "The transmitter coil creates a pulsed magnetic field; conducting metal moving through it generates eddy currents with secondary magnetic fields that are sensed by the receiver coil",
+      "Static electricity buildup on the passenger's shoes"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Walk-through metal detectors utilize electromagnetic induction. A transmitter coil generates a time-varying magnetic field. When a metallic object passes through, the changing field induces eddy currents in the metal. These eddy currents generate their own secondary magnetic field, which is detected by receiver coils, triggering the electronic alarm.",
     "citation": "NCERT Class 10 Science, Chapter 12, Section 12.5 Electromagnetic Induction",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -736,7 +986,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "chapter_phase": "5.47",
+      "review_revision": "v2.9.96",
+      "human_academic_signoff": "pending",
+      "pyq_item_authentication": "pending_item_level_official_source_match",
+      "scope_assessment": "enrichment_or_extension_not_core_cbse_requirement",
+      "review_note": "Independent content review of the active question, four options, stored answer index and explanation. Topic-level NCERT reference is not proof of exact PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "independently_reviewed_consistent",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "verified_consistent",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   }
 ]

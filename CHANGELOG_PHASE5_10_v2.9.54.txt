@@ -1,0 +1,32 @@
+CHANGELOG – v2.9.54
+Baseline: v2.9.53
+Phase 5.10 Batch 9 – Mathematics Chapter 9: Some Applications of Trigonometry
+
+ACADEMIC REVIEW
+- Independently recalculated or logically evaluated all 60 active questions across three sets.
+- All 60 stored answer indexes match the independently reviewed correct options under the question wording and stated assumptions.
+- No answer-key index changes were required.
+- All 60 questions have four options, valid zero-based answer indexes, unique IDs and explanations.
+- No exact normalized duplicate stems were found within the three active Chapter 9 sets.
+
+CONTENT / METADATA CORRECTIONS
+- Set 1 Q5: clarified that the taut kite string makes a 60-degree angle with the horizontal ground.
+- Set 2 Q12: made the ladder-angle ordering explicit (0 degrees < beta < alpha < 90 degrees).
+- Set 2 Q16: corrected the mismatched subtopic label to “Balloon Geometry – Apparent Angular Diameter (Enrichment)”.
+
+CURRICULUM SCOPE
+- Added 12 curriculum-scope flags for enrichment or conceptual extensions that are not expressly prescribed as core Chapter 9 outcomes in the CBSE 2026-27 Class X syllabus.
+- Retained all flagged questions; no question was deleted.
+- The official syllabus limits Heights and Distances problems to no more than two right triangles and angles of elevation/depression of 30, 45 and 60 degrees.
+
+TECHNICAL VALIDATION
+- Confirmed Chapter 9 HTML page exists and exposes three set controls.
+- Confirmed the HTML config points to the three matching Chapter 9 question-set JSON files.
+- Revalidated JSON parsing, question counts, IDs, option counts and answer-index ranges.
+- Advanced service-worker cache from mtv-cbt-v79 to mtv-cbt-v80.
+
+LIMITATIONS / PENDING
+- Browser runtime UAT was not performed; staging/browser execution is still required.
+- Human subject-matter-expert sign-off remains pending.
+- Exact PYQ provenance and source authentication were not performed. NCERT/topic citations are not proof that an item is an authentic past-paper question.
+- No production deployment was performed.

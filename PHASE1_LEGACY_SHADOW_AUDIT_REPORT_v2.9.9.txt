@@ -1,0 +1,38 @@
+MockTestVault v2.9.9 — Phase 1 Legacy/Shadow Record Audit
+Audit date: 2026-11-06
+Baseline: mocktestvault.com_organic_seo_v2.9.8_academic_candidate.zip
+
+SCOPE
+- Audited legacy/shadow CBSE Class X Mathematics data records identified in the v2.9.8 review history.
+- Compared every legacy record with the active 840-question bank by question ID.
+- Searched candidate runtime HTML, JavaScript, PHP and XML files for exact legacy filename/path references.
+- No live Hostinger filesystem or server-side routing access was available in this archive-only pass.
+
+RESULTS
+- Legacy/shadow records inventoried: 60
+- Legacy/shadow JSON files: 15
+- Records with a matching question ID in the active 840-question bank: 60
+- Exact normalized question-stem matches: 4
+- Exact option-array matches: 1
+- Exact answer-index matches: 15
+- Exact explanation matches: 1
+- Records with no exact filename/path reference in candidate HTML/JS/PHP/XML: 60/60
+
+ASSESSMENT
+The 60 records are not safe to delete as if they were exact duplicate copies. All share IDs with active records, but most do not have identical stems, options, answers or explanations. They are stale/shadow versions with ID collisions, not byte-for-byte duplicates. Removing or renaming them could affect an undocumented legacy consumer, bookmark, external integration, or deployment-side script.
+
+DECISION
+- No legacy records were deleted, renamed, merged, or overwritten.
+- Active 42 practice-set JSON files were not modified.
+- All 60 records are listed in PHASE1_LEGACY_SHADOW_AUDIT_v2.9.9.csv with per-record comparisons.
+- Candidate archive source contains no exact static reference to the legacy file names/paths in HTML/JS/PHP/XML.
+- Final deletion/quarantine decision remains gated on checking Hostinger public_html, server-side files, rewrite rules, scheduled jobs, and any external integrations.
+
+PHASE 1 STATUS
+- Archive integrity: PASS
+- 286 JSON files parse: PASS (verified in fresh scan)
+- 6,404 question records: see regression summary
+- 42 active Mathematics sets / 840 questions: PASS
+- Legacy/shadow inventory: COMPLETE
+- Safe removal: NOT APPROVED pending live-host reference check
+- No academic sign-off or PYQ authentication is implied.

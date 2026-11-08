@@ -1,0 +1,68 @@
+MOCKTESTVAULT PHASE 5 – FINAL QA & ACADEMIC READINESS REPORT
+Version: v2.9.13
+Base: v2.9.12 Phase 4 Production Readiness ZIP
+Date: 6 November 2026
+
+1. RELEASE SUMMARY
+- 6,404 question records across 286 data JSON files.
+- Structural checks: 0 issues found (expected 0).
+- All question records have a non-empty stem, at least two options, a non-empty explanation, an ID, and an integer answer index within the option array.
+- Unique question IDs across all data files: 5,704.
+- Reused IDs across files: 560 IDs; 700 extra occurrences. 121 reused ID values have different question stems across files; most are separate/legacy copies rather than co-loaded pools. IDs are not globally unique in the full archive.
+
+2. RUNTIME QUESTION-ID COLLISION
+- Two live-page configurations combine multiple question JSON pools in Random mode: JEE Main Speed Drill 01 and NEET UG Speed Drill 01.
+- JEE page: 25 IDs collide across set 1 and set 2 with different question stems.
+- NEET page: 45 IDs collide across set 1 and set 2 with different question stems. The 70 co-loaded collisions are listed in PHASE5_ACTIVE_QUESTION_ID_COLLISIONS_v2.9.13.csv.
+- Root cause: persistent bookmark keys used page path + local question ID, while both pools restart numeric IDs at 1.
+- Fix: updated getQuestionKey() to append a stable content fingerprint (stem + ordered options) on those two pages only. Other pages retain their existing bookmark key format. Question-bank JSON and scoring logic were not changed.
+- Service-worker cache bumped from mtv-cbt-v48 to mtv-cbt-v49.
+- Existing saved bookmarks on these two NTA pages use ambiguous legacy path+ID keys and cannot be safely assigned to one of two different questions. Previously saved bookmarks on these pages may need to be recreated; new bookmarks use the unique fingerprint keys.
+
+3. DUPLICATE-STEM ANSWER-VARIANCE TRIAGE
+- 10 automated groups were flagged because selected-answer text differed across instances.
+- Manual cross-file option/explanation comparison found no confirmed answer conflict in these 10 groups.
+- 8 groups are equivalent answers with option-order/wording differences.
+- 2 groups are false-positive stem matches: generic spelling prompts reused with different word lists.
+- This is an AI-assisted comparison, not qualified independent subject-matter certification.
+
+4. EXPLANATION VARIANCE
+- 77 repeated-stem groups have differing explanation wording.
+- These remain in the Phase 5 explanation review queue; differing wording alone is not proof of factual error.
+- No explanation was silently overwritten or rewritten in this phase.
+
+5. OFFICIAL CBSE CLASS X 2026–27 SCOPE CHECK
+Reviewed current official CBSE curriculum and sample-paper pages/PDFs:
+- Mathematics: unit marks are Number Systems 6, Algebra 20, Coordinate Geometry 6, Geometry 15, Trigonometry 12, Mensuration 10, Statistics & Probability 11 (80 theory). No official chapter-wise allocation was found in the checked curriculum, so all 48 chapter-level mark badges were removed from the Class 10 catalogue.
+- Science: Heredity and Evolution and Periodic Classification of Elements are not assessed in the year-end examination. Motor, Electromagnetic Induction and Electric Generator are identified as formative-only. Unit-wise marks are 25, 25, 12, 13 and 5 (80 theory).
+- Social Science: Age of Industrialisation is periodic-assessment only; The Making of a Global World has limited board-exam subtopics; Lifelines of National Economy is map-pointing only; Globalisation has a limited board-exam scope with remaining listed areas in the interdisciplinary project; Consumer Rights is project work.
+- Updated catalogue labels, added a syllabus scope callout, added page-level notes to affected modules, and updated the question-source policy with current 2026–27 official references.
+
+6. FILES MODIFIED
+- cbse-class-10/index.html: removed outdated 2025–26 generic blueprint, removed 48 unsupported chapter-level marks badges, revised module labels and added assessment-scope notice.
+- cbse-class-10/2026-27-syllabus-sample-papers.html: added official unit marks and assessment scope notes.
+- question-sources-review.html: updated official CBSE references to the current 2026–27 curriculum and SQP/MS archive.
+- 6 topic pages: added explicit formative/project/map-only scope notes.
+- js/test-engine.js: fixed NTA random-pool bookmark-key collisions.
+- sw.js: cache version mtv-cbt-v49.
+- Question JSON files: no changes.
+- JavaScript syntax checks passed for test-engine.js and sw.js. Four bookmark-key regression checks passed.
+- HTML QA: 160 HTML files parsed; 159 content pages have exactly one H1 (Google verification token file intentionally has none); zero non-intentional local-link or fragment issues found.
+
+7. STILL PENDING – DO NOT CLAIM ACADEMIC CERTIFICATION
+- All 6,404 records still require independent subject-matter answer verification.
+- All 954 year/shift-labelled records still lack item-level original-paper and official final-key matches in this release.
+- 77 explanation-variance groups remain in the manual expert review queue.
+- CBSE syllabus mapping in this phase is a targeted check of official Class X 2026–27 documents, not an exhaustive item-by-item mapping of all 840 Class 10 questions.
+- No qualified reviewer names, qualifications, dates or signed approvals were supplied; no SME sign-off can be recorded.
+- Production deployment and post-deployment Hostinger checks remain separate from this archive QA.
+
+8. OFFICIAL SOURCES CHECKED
+- CBSE Class X 2026-27 Mathematics curriculum: https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf
+- CBSE Class X 2026-27 Science curriculum: https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Science_SecP1_2026-27.pdf
+- CBSE Class X 2026-27 Social Science curriculum: https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf
+- CBSE Class X 2026-27 sample question papers and marking schemes: https://cbseacademic.nic.in/sqp_classx_2026-27.html
+
+
+CONCLUSION
+v2.9.13 is a final-QA candidate with targeted runtime bookmark collision and CBSE 2026–27 syllabus-disclosure fixes. It is NOT an academically certified release. Keep answer verification and PYQ authentication pending until a qualified reviewer has completed and signed the item-level registers.

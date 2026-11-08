@@ -12,14 +12,14 @@
       "The number of decimal digits"
     ],
     "answer": 1,
-    "explanation": "The Fundamental Theorem of Arithmetic (also known as the Unique Prime Factorisation Theorem, formulated by Carl Friedrich Gauss) states that every composite integer greater than 1 can be expressed uniquely as a product of prime numbers, up to the order in which the prime factors are written. That is, for any positive integer n > 1, the representation n = p1^a1 * p2^a2 * ... * pk^ak (where p1 < p2 < ... < pk are distinct primes and a_i are positive integers) is completely unique, providing the cornerstone for all algebraic number theory.",
+    "explanation": "The Fundamental Theorem of Arithmetic states that every integer greater than 1 can be expressed as a product of prime numbers in a way that is unique apart from the order of the factors. The result builds on earlier work in number theory; Carl Friedrich Gauss gave an influential proof in his 1801 work Disquisitiones Arithmeticae. In the prime factorisation n = p1^a1 × p2^a2 × … × pk^ak, the primes are distinct and the exponents are positive integers.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2 The Fundamental Theorem of Arithmetic",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -33,7 +33,55 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "pilot_verification": {
+        "batch": "CBSE10_Mathematics_100Q_Pilot",
+        "review_date": "2026-11-06",
+        "method": "AI-assisted independent mathematical solution and explanation/context review",
+        "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+        "follow_up_flags": [
+          "explanation_review",
+          "curriculum_or_context_review"
+        ],
+        "human_subject_matter_signoff": "pending",
+        "official_item_source_match": "not_performed",
+        "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core supporting concept",
+      "review_register_question_id": "cbse10-math-ch01-s1-001",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 1,
+      "review_note": "The Fundamental Theorem of Arithmetic gives uniqueness of prime factorisation apart from order. Stored option B is correct. Gauss attribution is phrased as an influential proof, not as the origin of the theorem."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 1,
+      "independent_answer_index": 1,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core supporting concept",
+      "review_note": "The Fundamental Theorem of Arithmetic gives uniqueness of prime factorisation apart from order. Stored option B is correct. Gauss attribution is phrased as an influential proof, not as the origin of the theorem."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 1,
+      "independent_answer_index_zero_based": 1,
+      "review_note": "FTA: prime factorisation is unique except for the order of the prime factors; option B states this exception.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -52,11 +100,11 @@
     "explanation": "For any two positive integers a and b, the product of their Highest Common Factor (HCF) and Lowest Common Multiple (LCM) is strictly equal to the product of the two original numbers: HCF(a, b) * LCM(a, b) = a * b. This fundamental identity arises because the HCF takes the minimum exponent of each common prime factor, while the LCM takes the maximum exponent of every prime factor; their product perfectly sums exponents min(x, y) + max(x, y) = x + y. Important: this relation holds strictly for two numbers, not for three.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -70,7 +118,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core application",
+      "review_register_question_id": "cbse10-math-ch01-s1-002",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 2,
+      "review_note": "For two positive integers, HCF × LCM equals their product. Prime-exponent minima and maxima add to the original exponents. Stored option C is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 2,
+      "independent_answer_index": 2,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core application",
+      "review_note": "For two positive integers, HCF × LCM equals their product. Prime-exponent minima and maxima add to the original exponents. Stored option C is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 2,
+      "independent_answer_index_zero_based": 2,
+      "review_note": "For two positive integers, HCF(a,b) × LCM(a,b) = a × b; option C is the identity.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -89,11 +172,11 @@
     "explanation": "To find the Highest Common Factor (HCF) of two algebraic monomials expressed as prime power factorisations, we take the product of the smallest power (minimum exponent) of each common prime factor involved in the numbers. Given a = x^3 * y^2 and b = x * y^3, where x and y are prime numbers: the common prime factors are x and y. The minimum exponent of prime x is min(3, 1) = 1, giving x^1. The minimum exponent of prime y is min(2, 3) = 2, giving y^2. Multiplying these minimum power terms yields HCF(a, b) = x * y^2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -107,7 +190,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core application",
+      "review_register_question_id": "cbse10-math-ch01-s1-003",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "HCF uses minimum exponents: x^min(3,1) × y^min(2,3) = xy². Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core application",
+      "review_note": "HCF uses minimum exponents: x^min(3,1) × y^min(2,3) = xy². Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "HCF uses minimum exponents: x^min(3,1) × y^min(2,3) = x × y²; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -115,7 +233,7 @@
     "type": "mcq",
     "subtopic": "Prime Factorisation with Exponents: LCM",
     "difficulty": "Medium",
-    "question": "If two positive integers p and q are given by p = a * b^2 and q = a^3 * b, where a and b are prime numbers, what is LCM(p, q)?",
+    "question": "If two positive integers p and q are given by p = a * b^2 and q = a^3 * b, where a and b are distinct prime numbers, what is LCM(p, q)?",
     "options": [
       "a * b",
       "a^2 * b^2",
@@ -126,11 +244,11 @@
     "explanation": "To find the Lowest Common Multiple (LCM) of two numbers expressed in prime factorised form, we take the product of the highest power (maximum exponent) of every prime factor involved across the numbers. Given p = a * b^2 and q = a^3 * b, where a and b are distinct prime numbers: the prime factors are a and b. The maximum exponent of prime a is max(1, 3) = 3, contributing factor a^3. The maximum exponent of prime b is max(2, 1) = 2, contributing factor b^2. Multiplying highest power terms yields LCM(p, q) = a^3 * b^2.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "conditional_on_wording_or_assumption_human_signoff_pending",
+      "explanation_option_consistency": "WORDING_FIX_REQUIRED",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -144,7 +262,60 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "pilot_verification": {
+        "batch": "CBSE10_Mathematics_100Q_Pilot",
+        "review_date": "2026-11-06",
+        "method": "AI-assisted independent mathematical solution and explanation/context review",
+        "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+        "follow_up_flags": [],
+        "human_subject_matter_signoff": "pending",
+        "official_item_source_match": "not_performed",
+        "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+      },
+      "answer_accuracy_note": "Answer is supported only when the revised wording or stated assumptions are applied; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core application",
+      "review_register_question_id": "cbse10-math-ch01-s1-004",
+      "master_review_status": "CONDITIONAL_ON_WORDING_OR_ASSUMPTION",
+      "candidate_answer_index_0_based": 3,
+      "review_note": "With distinct primes a and b, LCM takes maximum exponents a³b². If a=b, the stated formula is not valid; the stem must say distinct prime numbers. Stored option D is correct only after that wording repair.",
+      "phase5_4_review_date": "2026-11-06",
+      "phase5_4_review_status": "assumption_wording_rechecked",
+      "phase5_4_review_note": "Rechecked against the current explicit wording/assumptions. The stored answer remains defensible under those stated conditions; human SME sign-off remains pending."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "conditional_match_after_wording_revision",
+      "stored_answer_index": 3,
+      "independent_answer_index": 3,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "WORDING_FIX_REQUIRED",
+      "curriculum_classification": "Core application",
+      "review_note": "With distinct primes a and b, LCM takes maximum exponents a³b². If a=b, the stated formula is not valid; the stem must say distinct prime numbers. Stored option D is correct only after that wording repair."
+    },
+    "academic_verification": {
+      "answer_key_status": "matches_under_explicit_wording_and_assumptions",
+      "review_note": "With distinct primes a and b, LCM takes maximum exponents a³b². If a=b, the stated formula is not valid; the stem must say distinct prime numbers. Stored option D is correct only after that wording repair.",
+      "human_subject_expert_signoff": "pending"
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 3,
+      "independent_answer_index_zero_based": 3,
+      "review_note": "LCM uses maximum exponents: a^max(1,3) × b^max(2,1) = a³b²; option D.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -160,14 +331,14 @@
       "sqrt(25) (equal to positive integer 5)"
     ],
     "answer": 2,
-    "explanation": "A real number is classified as 'irrational' if it cannot be expressed in the quotient form p / q, where p and q are integers and q != 0. According to Theorem 1.4 in NCERT, if p is any prime number, then sqrt(p) is unconditionally irrational (e.g., sqrt(2), sqrt(3), sqrt(5)). In contrast, 3.141414... is a non-terminating repeating decimal and can be expressed as a rational fraction (311/99); 22/7 is explicitly written as a ratio of integers; and sqrt(25) = 5 is a positive integer. Hence, sqrt(5) is the irrational number.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3",
+    "explanation": "A real number is irrational if it cannot be written as p/q for integers p and q with q ≠ 0. Section 1.3 of NCERT Class 10 Mathematics develops proofs that square roots of prime numbers such as √2, √3 and √5 are irrational. Here √5 is therefore irrational. By contrast, 3.141414… is a repeating decimal and is rational (311/99), 22/7 is a ratio of integers, and √25 = 5 is an integer.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3 — Revisiting Irrational Numbers (proof involving √5; no theorem number assigned to the general statement).",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "CITATION_FIX_REQUIRED",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -181,7 +352,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core irrationality concept",
+      "review_register_question_id": "cbse10-math-ch01-s1-005",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 2,
+      "review_note": "sqrt(5) is irrational; 3.141414… is repeating and rational, 22/7 is rational, and sqrt(25)=5. The mathematical answer is correct, but the theorem number/citation is inconsistent. Cite Chapter 1 Section 1.3 without assigning a theorem number to the general sqrt(p) statement."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 2,
+      "independent_answer_index": 2,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "CITATION_FIX_REQUIRED",
+      "curriculum_classification": "Core irrationality concept",
+      "review_note": "sqrt(5) is irrational; 3.141414… is repeating and rational, 22/7 is rational, and sqrt(25)=5. The mathematical answer is correct, but the theorem number/citation is inconsistent. Cite Chapter 1 Section 1.3 without assigning a theorem number to the general sqrt(p) statement."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 2,
+      "independent_answer_index_zero_based": 2,
+      "review_note": "√5 is irrational; 3.141414… is repeating, 22/7 is rational, and √25=5; option C.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -197,14 +403,14 @@
       "Zero"
     ],
     "answer": 0,
-    "explanation": "In real analysis, the sum or difference of a rational number and an irrational number is ALWAYS an irrational number. Proof by contradiction: Let r be a rational number and s be an irrational number. Suppose their sum were rational, say r + s = q (where q is rational). Then subtracting r from both sides yields s = q - r. Since the set of rational numbers is closed under subtraction, q - r must be a rational number, which implies that s is rational. This directly contradicts the premise that s is irrational, proving r + s is irrational.",
+    "explanation": "Let r be rational and s be irrational. If r+s were rational, say q, then s=q−r would be rational, a contradiction. Similarly, if r−s were rational, say t, then s=r−t would be rational, again a contradiction. Therefore both the sum and the difference of a rational and an irrational number are irrational.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3 Revisiting Irrational Numbers",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "EXPLANATION_EXPANSION_REQUIRED",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -218,7 +424,42 @@
         "selected_answer_text_variant_count": 2,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Supporting irrationality reasoning",
+      "review_register_question_id": "cbse10-math-ch01-s1-006",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "The sum and difference are both irrational: if r+s or r−s were rational for rational r and irrational s, rearranging would make s rational. Current explanation proves only the sum explicitly."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "EXPLANATION_EXPANSION_REQUIRED",
+      "curriculum_classification": "Supporting irrationality reasoning",
+      "review_note": "The sum and difference are both irrational: if r+s or r−s were rational for rational r and irrational s, rearranging would make s rational. Current explanation proves only the sum explicitly."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "If rational r ± irrational s were rational, subtracting r would make s rational, a contradiction; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -237,11 +478,11 @@
     "explanation": "For any natural number to end with the digit 0 in its decimal expansion, it must be divisible by 10, which means its prime factorisation must contain both 2 and 5 as prime factors (since 10 = 2 * 5). The prime factorisation of 4^n is: 4^n = (2^2)^n = 2^(2n). The only prime factor present in 4^n is the prime number 2. By the uniqueness property of the Fundamental Theorem of Arithmetic, there are no other prime factors in the factorisation of 4^n. Because the prime factor 5 is completely absent, 4^n can never end with the digit 0 for any n.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 5",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -255,7 +496,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core FTA application",
+      "review_register_question_id": "cbse10-math-ch01-s1-007",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 3,
+      "review_note": "4^n=2^(2n) has no factor 5, so it is not divisible by 10 and cannot end in zero. This remains true for n=0 as well. Stored option D is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 3,
+      "independent_answer_index": 3,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core FTA application",
+      "review_note": "4^n=2^(2n) has no factor 5, so it is not divisible by 10 and cannot end in zero. This remains true for n=0 as well. Stored option D is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 3,
+      "independent_answer_index_zero_based": 3,
+      "review_note": "4^n=2^(2n) has no prime factor 5, so it cannot be divisible by 10 or end in zero; option D.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -274,11 +550,11 @@
     "explanation": "To find the largest positive integer that divides 70 and 125 leaving remainders 5 and 8 respectively, the required number must divide (70 - 5 = 65) and (125 - 8 = 117) with zero remainder. Therefore, the required integer is the Highest Common Factor HCF(65, 117). Using prime factorisation: 65 = 5 * 13, and 117 = 9 * 13 = 3^2 * 13. The common prime factor shared between the two numbers is 13 with an exponent of 1. Hence, HCF(65, 117) = 13, which is the largest divisor satisfying both remainder conditions.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -292,7 +568,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core HCF application",
+      "review_register_question_id": "cbse10-math-ch01-s1-008",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 1,
+      "review_note": "The required divisor divides 70−5=65 and 125−8=117; gcd(65,117)=13. Stored option B is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 1,
+      "independent_answer_index": 1,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core HCF application",
+      "review_note": "The required divisor divides 70−5=65 and 125−8=117; gcd(65,117)=13. Stored option B is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 1,
+      "independent_answer_index_zero_based": 1,
+      "review_note": "The divisor must divide 70−5=65 and 125−8=117; gcd(65,117)=13, and 13 exceeds both remainders; option B.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -311,11 +622,11 @@
     "explanation": "The least natural number divisible by all positive integers from 1 to 10 inclusive is given by their Lowest Common Multiple: LCM(1, 2, 3, 4, 5, 6, 7, 8, 9, 10). Prime factorise each integer: 1 = 1; 2 = 2; 3 = 3; 4 = 2^2; 5 = 5; 6 = 2 * 3; 7 = 7; 8 = 2^3; 9 = 3^2; 10 = 2 * 5. Taking the highest power of each distinct prime factor present: for 2 it is 2^3 = 8; for 3 it is 3^2 = 9; for 5 it is 5^1 = 5; for 7 it is 7^1 = 7. Multiplying these powers yields: LCM = 2^3 * 3^2 * 5 * 7 = 8 * 9 * 5 * 7 = 72 * 35 = 2520.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, NCERT Exemplar Q7",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -329,7 +640,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core LCM application",
+      "review_register_question_id": "cbse10-math-ch01-s1-009",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 2,
+      "review_note": "LCM(1,…,10)=2³×3²×5×7=2520. Stored option C is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 2,
+      "independent_answer_index": 2,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core LCM application",
+      "review_note": "LCM(1,…,10)=2³×3²×5×7=2520. Stored option C is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 2,
+      "independent_answer_index_zero_based": 2,
+      "review_note": "LCM(1,…,10)=2³×3²×5×7=2520; option C.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -348,11 +694,11 @@
     "explanation": "Using the fundamental relationship connecting two positive integers: HCF(a, b) * LCM(a, b) = a * b. We are given the two numbers a = 306 and b = 657, along with their highest common factor HCF(306, 657) = 9. Rearranging the formula to solve for the LCM gives: LCM(306, 657) = (a * b) / HCF(a, b) = (306 * 657) / 9. Dividing 306 by 9 gives 34: LCM = 34 * 657 = 22,338. This formula computes large common multiples without requiring laborious prime factorisation of 657.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 4",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -366,7 +712,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core HCF–LCM application",
+      "review_register_question_id": "cbse10-math-ch01-s1-010",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 1,
+      "review_note": "LCM=(306×657)/9=22,338. Stored option B is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 1,
+      "independent_answer_index": 1,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core HCF–LCM application",
+      "review_note": "LCM=(306×657)/9=22,338. Stored option B is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 1,
+      "independent_answer_index_zero_based": 1,
+      "review_note": "LCM=(306×657)/9=34×657=22,338; option B.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -385,11 +766,11 @@
     "explanation": "To find the Highest Common Factor (HCF) of 96 and 404 by the prime factorisation method, write each number as a product of prime powers: 96 = 2 * 48 = 2^2 * 24 = 2^5 * 3, and 404 = 2 * 202 = 2^2 * 101 (where 101 is a prime number). The common prime factor is 2, and its smallest power is 2^2 = 4. Therefore, HCF(96, 404) = 4. Furthermore, their LCM can be computed as (96 * 404) / 4 = 96 * 101 = 9696, confirming the two-number product identity 4 * 9696 = 96 * 404.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Example 7",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -403,7 +784,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core HCF application",
+      "review_register_question_id": "cbse10-math-ch01-s1-011",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "96=2⁵×3 and 404=2²×101, so HCF=2²=4. Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core HCF application",
+      "review_note": "96=2⁵×3 and 404=2²×101, so HCF=2²=4. Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "96=2⁵×3 and 404=2²×101, so HCF=2²=4; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -422,11 +838,11 @@
     "explanation": "No, two positive integers cannot have 18 as their HCF and 380 as their LCM. Proof: By mathematical definition, the HCF is the product of common prime factors with lowest exponents, while the LCM is the product of all prime factors with highest exponents. Consequently, the HCF must always be an exact divisor (factor) of the LCM. Performing division: 380 / 18 = 21 with a non-zero remainder of 2 (since 18 * 21 = 378 != 380). Because 18 does not divide 380 completely, such a pair of integers cannot exist.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -440,7 +856,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core HCF–LCM properties",
+      "review_register_question_id": "cbse10-math-ch01-s1-012",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 3,
+      "review_note": "For any two positive integers, the HCF divides the LCM. Since 18 does not divide 380, such a pair cannot exist. Stored option D is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 3,
+      "independent_answer_index": 3,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core HCF–LCM properties",
+      "review_note": "For any two positive integers, the HCF divides the LCM. Since 18 does not divide 380, such a pair cannot exist. Stored option D is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 3,
+      "independent_answer_index_zero_based": 3,
+      "review_note": "For two positive integers, HCF must divide LCM; 380÷18 is not an integer, so impossible; option D.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -459,11 +910,11 @@
     "explanation": "To find the maximum number of equal marching columns in which an army contingent of 616 members can march behind an army band of 32 members, both groups must be divided into the same number of columns without remainder. Thus, the required number of columns is HCF(616, 32). Applying prime factorisation: 616 = 2^3 * 7 * 11 = 8 * 77, and 32 = 2^5. The common prime factor is 2, with lowest power 2^3 = 8. Hence, HCF(616, 32) = 8, meaning both contingents march in 8 identical columns.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.1 Question 3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -477,7 +928,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_register_question_id": "cbse10-math-ch01-s1-013",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 3,
+      "review_note": "The maximum common number of columns is gcd(616,32)=8. Stored option D is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 3,
+      "independent_answer_index": 3,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life HCF application",
+      "review_note": "The maximum common number of columns is gcd(616,32)=8. Stored option D is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 3,
+      "independent_answer_index_zero_based": 3,
+      "review_note": "The maximum common number of columns is gcd(616,32)=8; option D.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -496,11 +982,11 @@
     "explanation": "Two school bells that toll at intervals of 20 minutes and 25 minutes will toll together again at a time interval that is a common multiple of both periods. The earliest simultaneous toll occurs at their Lowest Common Multiple: LCM(20, 25). Factoring into prime powers: 20 = 2^2 * 5, and 25 = 5^2. Taking the highest power of each prime factor gives LCM = 2^2 * 5^2 = 4 * 25 = 100 minutes. Converting to hours: 100 minutes = 1 hour and 40 minutes. Adding to 12:00 noon: 12:00 + 1 hr 40 min = 1:40 PM.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 7",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -514,7 +1000,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core real-life LCM application",
+      "review_register_question_id": "cbse10-math-ch01-s1-014",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 2,
+      "review_note": "The bells next toll together after lcm(20,25)=100 minutes, i.e. 1:40 PM. Stored option C is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 2,
+      "independent_answer_index": 2,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core real-life LCM application",
+      "review_note": "The bells next toll together after lcm(20,25)=100 minutes, i.e. 1:40 PM. Stored option C is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 2,
+      "independent_answer_index_zero_based": 2,
+      "review_note": "LCM(20,25)=100 minutes; 12:00 noon + 1 h 40 min = 1:40 PM; option C.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -533,11 +1054,11 @@
     "explanation": "To determine the ratio of the LCM to the HCF for the three numbers 5, 15, and 20, first express each number in prime factorised form: 5 = 5^1; 15 = 3^1 * 5^1; and 20 = 2^2 * 5^1. The common prime factor is 5, with lowest exponent 1, so HCF(5, 15, 20) = 5. The LCM takes the highest power of all prime factors (2, 3, 5): LCM(5, 15, 20) = 2^2 * 3^1 * 5^1 = 4 * 3 * 5 = 60. Now calculate the requested ratio of LCM to HCF: Ratio = LCM / HCF = 60 / 5 = 12 / 1 = 12 : 1.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -551,7 +1072,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core HCF–LCM application",
+      "review_register_question_id": "cbse10-math-ch01-s1-015",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 1,
+      "review_note": "HCF(5,15,20)=5 and LCM=60, so LCM:HCF=12:1. Stored option B is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 1,
+      "independent_answer_index": 1,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core HCF–LCM application",
+      "review_note": "HCF(5,15,20)=5 and LCM=60, so LCM:HCF=12:1. Stored option B is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 1,
+      "independent_answer_index_zero_based": 1,
+      "review_note": "HCF(5,15,20)=5 and LCM=60; ratio LCM:HCF=60:5=12:1; option B.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -559,7 +1115,7 @@
     "type": "mcq",
     "subtopic": "Divisibility Theorem for Irrationality Proofs",
     "difficulty": "Easy",
-    "question": "Theorem 1.3 states: Let p be a prime number. If p divides a^2 (where a is a positive integer), then which of the following is necessarily true?",
+    "question": "Theorem 1.2 states: Let p be a prime number. If p divides a^2 (where a is a positive integer), then which of the following is necessarily true?",
     "options": [
       "p divides a",
       "p divides 2a",
@@ -567,14 +1123,14 @@
       "p^2 divides a"
     ],
     "answer": 0,
-    "explanation": "Theorem 1.3 in NCERT Mathematics states: Let p be a prime number. If p divides a^2 (where a is a positive integer), then p divides a. Proof outline: Let the prime factorisation of a be a = p1 * p2 * ... * pn. Then a^2 = (p1 * p2 * ... * pn)^2 = p1^2 * p2^2 * ... * pn^2. Since p divides a^2, by the Fundamental Theorem of Arithmetic, p must be one of the prime factors of a^2. But the only prime factors of a^2 are p1, p2, ..., pn, which are the prime factors of a. Therefore, p must divide a.",
-    "citation": "NCERT Class 10 Mathematics, Chapter 1, Theorem 1.3",
+    "explanation": "Theorem 1.2 in NCERT Mathematics states: Let p be a prime number. If p divides a^2 (where a is a positive integer), then p divides a. Proof outline: Let the prime factorisation of a be a = p1 * p2 * ... * pn. Then a^2 = (p1 * p2 * ... * pn)^2 = p1^2 * p2^2 * ... * pn^2. Since p divides a^2, by the Fundamental Theorem of Arithmetic, p must be one of the prime factors of a^2. But the only prime factors of a^2 are p1, p2, ..., pn, which are the prime factors of a. Therefore, p must divide a.",
+    "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3; Theorem 1.2 (prime divisor of a square).",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "CITATION_FIX_REQUIRED",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -588,7 +1144,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Supporting irrationality theorem",
+      "review_register_question_id": "cbse10-math-ch01-s1-016",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "The prime-divisor lemma is Theorem 1.2, not Theorem 1.3: if prime p divides a² for positive integer a, then p divides a. Stored option A is correct; theorem references in stem/explanation/citation need correction."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "CITATION_FIX_REQUIRED",
+      "curriculum_classification": "Supporting irrationality theorem",
+      "review_note": "The prime-divisor lemma is Theorem 1.2, not Theorem 1.3: if prime p divides a² for positive integer a, then p divides a. Stored option A is correct; theorem references in stem/explanation/citation need correction."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "Euclid/FTA prime-divisor property: if prime p divides a², p occurs in the prime factorisation of a and hence p divides a; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -607,11 +1198,11 @@
     "explanation": "The product of any non-zero rational number r and an irrational number s is ALWAYS an irrational number. Proof by contradiction: Let r = a / b (where a, b are non-zero integers) be rational and s be irrational. Suppose their product r * s were rational, equal to p / q (where p, q are integers and q != 0). Then (a / b) * s = p / q => s = (p * b) / (q * a). Since p, b, q, a are integers and q * a != 0, the right-hand side is a rational number, implying s is rational. This contradiction proves r * s is irrational.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -625,7 +1216,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Supporting irrationality reasoning",
+      "review_register_question_id": "cbse10-math-ch01-s1-017",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 0,
+      "review_note": "If r is non-zero rational and s irrational, rs cannot be rational; otherwise s=(rs)/r would be rational. Stored option A is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 0,
+      "independent_answer_index": 0,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Supporting irrationality reasoning",
+      "review_note": "If r is non-zero rational and s irrational, rs cannot be rational; otherwise s=(rs)/r would be rational. Stored option A is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 0,
+      "independent_answer_index_zero_based": 0,
+      "review_note": "For nonzero rational r, if rs were rational then s=(rs)/r would be rational; contradiction; option A.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -644,11 +1270,11 @@
     "explanation": "Two positive integers a and b are mathematically defined to be 'coprime' (also termed relatively prime or mutually prime) if and only if they share no common positive integer factor other than 1. In algebraic terms, this means their Highest Common Factor is strictly equal to one: HCF(a, b) = 1. Notably, coprime numbers do not need to be individual prime numbers; for instance, 8 (composite: 2^3) and 9 (composite: 3^2) share no common divisor other than 1, so HCF(8, 9) = 1 and they are coprime.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -662,7 +1288,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Foundational definition",
+      "review_register_question_id": "cbse10-math-ch01-s1-018",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 1,
+      "review_note": "Coprime positive integers have HCF 1. Stored option B is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 1,
+      "independent_answer_index": 1,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Foundational definition",
+      "review_note": "Coprime positive integers have HCF 1. Stored option B is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 1,
+      "independent_answer_index_zero_based": 1,
+      "review_note": "Coprime positive integers are defined by having HCF equal to 1; option B.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -681,11 +1342,11 @@
     "explanation": "By fundamental mathematical definition, a 'prime number' is any natural number strictly greater than 1 that possesses exactly TWO distinct positive divisors: the number 1 and the prime number itself. If a positive integer has more than two distinct positive factors, it is categorized as a composite number. The integer 1 is uniquely classified as neither prime nor composite because it has only one positive factor (itself). Therefore, any prime number p has precisely two positive factors: {1, p}.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Section 1.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -699,7 +1360,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Foundational definition",
+      "review_register_question_id": "cbse10-math-ch01-s1-019",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 1,
+      "review_note": "A prime has exactly two positive factors: 1 and itself. Stored option B is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 1,
+      "independent_answer_index": 1,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Foundational definition",
+      "review_note": "A prime has exactly two positive factors: 1 and itself. Stored option B is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 1,
+      "independent_answer_index_zero_based": 1,
+      "review_note": "A prime p has exactly two positive divisors, 1 and p; option B.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   },
   {
@@ -718,11 +1414,11 @@
     "explanation": "To explain why the expression (7 * 11 * 13 + 13) is a composite number, factor out the common integer 13 from both terms: 7 * 11 * 13 + 13 = 13 * (7 * 11 + 1) = 13 * (77 + 1) = 13 * 78. Now factor 78 into primes: 78 = 2 * 39 = 2 * 3 * 13. Thus, the expression equals 2 * 3 * 13^2 = 1,014. By the Fundamental Theorem of Arithmetic, because this number is expressed as a product of multiple prime factors (2, 3, and 13) and has factors other than 1 and itself, it is a composite number.",
     "citation": "NCERT Class 10 Mathematics, Chapter 1, Exercise 1.2 Question 6",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-06",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-      "source_provenance_status": "topic_reference_note_only",
+      "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "explanation_option_consistency": "PASS",
+      "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
       "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -736,7 +1432,42 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+      "item_level_source_authentication": "not_performed",
+      "human_subject_matter_signoff": "pending",
+      "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+      "curriculum_classification": "Core FTA application",
+      "review_register_question_id": "cbse10-math-ch01-s1-020",
+      "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+      "candidate_answer_index_0_based": 3,
+      "review_note": "7×11×13+13=13×(77+1)=13×78=2×3×13², so the number is composite. Stored option D is correct."
+    },
+    "academic_review_ch01_v2_9_2": {
+      "review_date": "2026-11-06",
+      "review_scope": "independent mathematical solve, explanation review and 2026-27 curriculum classification",
+      "answer_key_status": "matches_independent_solution",
+      "stored_answer_index": 3,
+      "independent_answer_index": 3,
+      "human_subject_matter_signoff": "pending",
+      "source_item_authentication": "not authenticated as an exact NCERT Exemplar / PYQ item",
+      "review_status": "PASS",
+      "curriculum_classification": "Core FTA application",
+      "review_note": "7×11×13+13=13×(77+1)=13×78=2×3×13², so the number is composite. Stored option D is correct."
+    },
+    "phase5_10_chapter_review": {
+      "review_version": "v2.9.46",
+      "review_scope": "independent mathematical verification of answer, options, assumptions and explanation for Chapter 1 Real Numbers",
+      "answer_review_status": "PASS_INDEPENDENT_SOLUTION",
+      "stored_answer_index_zero_based": 3,
+      "independent_answer_index_zero_based": 3,
+      "review_note": "7×11×13+13=13(77+1)=13×78=13×13×6, a nontrivial factorisation; option D.",
+      "curriculum_scope_status": "CORE_OR_SUPPORTING_CONCEPT_REVIEWED",
+      "curriculum_scope_note": "Check final question-level CBSE syllabus classification separately; this batch is an answer/content review.",
+      "reference_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+      "reference_source_note": "NCERT Class X Mathematics, Real Numbers, Reprint 2026–27, official PDF; used for topic/theorem cross-check, not exact question provenance.",
+      "human_sme_signoff": "PENDING",
+      "exact_item_provenance": "NOT_AUTHENTICATED"
     }
   }
 ]

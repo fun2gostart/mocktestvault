@@ -142,6 +142,19 @@
       background: var(--primary-light);
       color: var(--primary);
     }
+    .toc-link-unavailable {
+      cursor: default;
+      opacity: 0.78;
+    }
+    .toc-link-unavailable:hover {
+      background: var(--bg-subtle);
+      color: var(--text-secondary);
+    }
+    .toc-link-unavailable small {
+      margin-left: auto;
+      font-size: 0.72em;
+      font-weight: 500;
+    }
 
     .chapter-section {
       background: var(--bg-surface);
@@ -368,16 +381,16 @@
         <a href="#ch02" class="toc-link"><span>2.</span> Electrostatic Potential &amp; Capacitance</a>
         <a href="#ch03" class="toc-link"><span>3.</span> Current Electricity &amp; Circuits</a>
         <a href="#ch04" class="toc-link"><span>4.</span> Moving Charges &amp; Magnetism</a>
-        <a href="#ch05" class="toc-link"><span>5.</span> Magnetism and Matter</a>
+        <span class="toc-link toc-link-unavailable" aria-disabled="true"><span>5.</span> Magnetism and Matter <small>Not covered in this guide</small></span>
         <a href="#ch06" class="toc-link"><span>6.</span> Electromagnetic Induction (EMI)</a>
-        <a href="#ch07" class="toc-link"><span>7.</span> Alternating Current (AC)</a>
-        <a href="#ch08" class="toc-link"><span>8.</span> Electromagnetic Waves</a>
+        <span class="toc-link toc-link-unavailable" aria-disabled="true"><span>7.</span> Alternating Current (AC) <small>Not covered in this guide</small></span>
+        <span class="toc-link toc-link-unavailable" aria-disabled="true"><span>8.</span> Electromagnetic Waves <small>Not covered in this guide</small></span>
         <a href="#ch09" class="toc-link"><span>9.</span> Ray Optics &amp; Optical Instruments</a>
-        <a href="#ch10" class="toc-link"><span>10.</span> Wave Optics (Interference &amp; Diffraction)</a>
+        <span class="toc-link toc-link-unavailable" aria-disabled="true"><span>10.</span> Wave Optics (Interference &amp; Diffraction) <small>Not covered in this guide</small></span>
         <a href="#ch11" class="toc-link"><span>11.</span> Dual Nature of Radiation &amp; Matter</a>
-        <a href="#ch12" class="toc-link"><span>12.</span> Atoms (Bohr Model &amp; Spectra)</a>
-        <a href="#ch13" class="toc-link"><span>13.</span> Nuclei (Binding Energy &amp; Q-Value)</a>
-        <a href="#ch14" class="toc-link"><span>14.</span> Semiconductor Electronics &amp; Diodes</a>
+        <span class="toc-link toc-link-unavailable" aria-disabled="true"><span>12.</span> Atoms (Bohr Model &amp; Spectra) <small>Not covered in this guide</small></span>
+        <span class="toc-link toc-link-unavailable" aria-disabled="true"><span>13.</span> Nuclei (Binding Energy &amp; Q-Value) <small>Not covered in this guide</small></span>
+        <span class="toc-link toc-link-unavailable" aria-disabled="true"><span>14.</span> Semiconductor Electronics &amp; Diodes <small>Not covered in this guide</small></span>
         <a href="#derivations" class="toc-link" style="color:var(--accent-emerald); font-weight:700;"><span>⭐</span> Top 15 Mandatory 5-Mark Derivations</a>
       </div>
     </div>

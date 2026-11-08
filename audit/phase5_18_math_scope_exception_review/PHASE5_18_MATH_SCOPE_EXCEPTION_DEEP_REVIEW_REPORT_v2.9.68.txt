@@ -1,0 +1,27 @@
+PHASE 5.18 – MATHEMATICS SCOPE EXCEPTION DEEP REVIEW
+Version: v2.9.68
+Baseline: v2.9.67
+
+PURPOSE
+A focused review pack for the 350 questions not yet eligible for the core assessment pool: 200 previously marked REQUIRES_HUMAN_REVIEW and 150 marked ENRICHMENT_OPTIONAL. The pack now includes the actual question stem, options, stored explanation, source JSON path and a chapter-specific syllabus boundary prompt for every item.
+
+RESULT
+- 350 exception items linked to source question JSONs.
+- 200 remain human-review holds.
+- 150 remain enrichment/optional pending human confirmation.
+- 0 items automatically promoted, excluded, rewritten, deleted or re-keyed.
+- 0 items released to Standard or Basic exam generation.
+- All exception decisions remain PENDING human adjudication.
+
+WHY NO AUTOMATIC RECLASSIFICATION
+The CBSE syllabus boundary often depends on the actual solution method, diagram constraints, theorem prerequisites and contextual assumptions, not merely the topic label. The prior phase's 200 low-confidence/ambiguous cases and 150 enrichment candidates therefore require a teacher/SME to record the final decision. This phase makes that review operationally actionable rather than converting a heuristic into a false academic sign-off.
+
+REVIEW ORDER
+1. High-priority chapter hotspots: Ch 6 Triangles, Ch 7 Coordinate Geometry, Ch 9 Applications of Trigonometry, Ch 10 Circles, Ch 11 Areas Related to Circles, Ch 12 Surface Areas and Volumes.
+2. Remaining chapter exceptions.
+3. For each item, inspect stem + options + explanation and verify the complete method against CBSE 2026–27 boundaries.
+4. Reviewer records CORE_ALIGNED / ENRICHMENT_OPTIONAL / OUTSIDE_CORE_SCOPE / NEEDS_REWRITE, reason, reviewer and date.
+5. Only after human scope approval AND separate cognitive-demand approval can an item be released to an assessment blueprint.
+
+IMPORTANT
+This is an AI-assisted exception-review worksheet, not a human academic certification. The question bank and production assets are preserved. No deployment performed.

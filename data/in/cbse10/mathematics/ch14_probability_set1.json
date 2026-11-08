@@ -14,13 +14,13 @@
       ],
       "answer": 3,
       "explanation": "According to the fundamental axioms of probability in NCERT Class 10 Chapter 14, the probability P(E) of any empirical or theoretical event E is strictly bounded by 0 <= P(E) <= 1. Probability can never be a negative real number (such as -1.5) and can never strictly exceed 1 (or 100%). Any value outside the closed interval [0, 1] is mathematically invalid as a probability measure.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -34,7 +34,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-001",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "All four options were examined. A probability must be within [0,1]; only -1.5 is invalid.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -51,13 +79,13 @@
       ],
       "answer": 0,
       "explanation": "The event E and its negation 'not E' (denoted as Ē) are mutually exclusive and exhaustive complementary events covering the complete sample space S. By the complementary probability theorem: P(E) + P(Ē) = 1. Given P(E) = 0.05, we compute: P(Ē) = 1 - P(E) = 1 - 0.05 = 0.95. Thus, the probability of the complementary event 'not E' occurring is precisely 0.95 (or 95%).",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -71,7 +99,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-002",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "P(not E)=1−0.05=0.95.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -88,13 +144,13 @@
       ],
       "answer": 1,
       "explanation": "When a fair six-faced die is thrown once, the sample space of equally likely outcomes is S = {1, 2, 3, 4, 5, 6}, so total elementary outcomes n(S) = 6. A prime number is a natural number strictly greater than 1 that has no positive divisors other than 1 and itself. In S, prime numbers are {2, 3, 5} (note that 1 is neither prime nor composite). Favourable outcomes n(E) = 3. Therefore: P(prime) = n(E) / n(S) = 3 / 6 = 1/2.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 13",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -108,7 +164,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-003",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "P(Ē)=1−0.05=0.95; the reason states the complement rule and explains the assertion.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -125,13 +209,13 @@
       ],
       "answer": 2,
       "explanation": "When two unbiased coins are tossed simultaneously, the complete sample space consists of 4 equally likely outcomes: S = {HH, HT, TH, TT}, where H denotes Head and T denotes Tail, so n(S) = 4. The event 'at least one head' means obtaining 1 or 2 heads. The favourable outcomes are {HH, HT, TH}, giving n(E) = 3. Therefore: P(at least one head) = n(E) / n(S) = 3/4. Alternatively, using complementary probability: 1 - P(no heads) = 1 - P(TT) = 1 - 1/4 = 3/4.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -145,7 +229,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-004",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Sample space {HH,HT,TH,TT}; three outcomes have at least one head. Probability=3/4.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -158,17 +270,17 @@
         "1/13",
         "3/13",
         "4/13",
-        "12/52"
+        "6/52"
       ],
       "answer": 1,
       "explanation": "A standard well-shuffled French deck contains 52 playing cards divided into 4 suits (Spades, Hearts, Diamonds, Clubs). Each suit has 3 face cards (also called court cards or picture cards): 1 King, 1 Queen, and 1 Jack. Total face cards across the 4 suits = 4 * 3 = 12 face cards. Total possible outcomes n(S) = 52. Probability P(Face Card) = n(E) / n(S) = 12 / 52. Dividing numerator and denominator by 4 yields the simplified fraction 3/13.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 14",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; targeted correction/clarification included",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -182,7 +294,37 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-005",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "12 face cards in 52; probability=12/52=3/13. Options B and D were equivalent.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending",
+        "correction_patch_applied_in_review_copy": true,
+        "patch_reason": "Options B (3/13) and D (12/52) are equivalent correct answers. Changed D to a distinct distractor; B remains the keyed answer."
       }
     },
     {
@@ -199,13 +341,13 @@
       ],
       "answer": 3,
       "explanation": "A standard pack of 52 playing cards consists of 26 red cards (13 Hearts + 13 Diamonds) and 26 black cards (13 Spades + 13 Clubs). Each suit possesses exactly one King. Therefore, in the entire deck, there are exactly 2 red kings: the King of Hearts and the King of Diamonds. Total outcomes n(S) = 52; Favourable outcomes n(E) = 2. Probability P(Red King) = 2 / 52 = 1/26.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 14",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -219,7 +361,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-006",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "There are two red kings in 52 cards; 2/52=1/26.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -236,13 +406,13 @@
       ],
       "answer": 2,
       "explanation": "An impossible event (denoted by the empty set ∅) is an event that contains no favourable outcomes from the sample space under the conditions of the experiment (for example, rolling a 7 on a standard six-faced die). Because the number of favourable outcomes n(E) = 0, its probability is formally evaluated as: P(impossible event) = n(∅) / n(S) = 0 / n = 0. Its probability is always identically zero.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -256,7 +426,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-007",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "An impossible event has probability zero.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -273,13 +471,13 @@
       ],
       "answer": 0,
       "explanation": "A sure or certain event is an event that is mathematically guaranteed to occur on every performance of the experiment. The event set coincides exactly with the entire sample space S. The number of favourable outcomes equals the total number of elementary outcomes: n(E) = n(S). Therefore, by definition: P(sure event) = n(S) / n(S) = 1 (or 100%). Its probability is always identically 1.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -293,7 +491,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-008",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "A sure event has probability one.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -310,13 +536,13 @@
       ],
       "answer": 0,
       "explanation": "Let the random experiment be drawing a ball from the bag. The bag contains 3 red balls and 5 black balls, making the total number of balls (possible elementary outcomes) n(S) = 3 + 5 = 8. Since all balls are assumed identical in size and weight, each ball has an equal likelihood of being drawn. Number of favourable outcomes for drawing a red ball n(E) = 3. Hence, P(Red ball) = n(E) / n(S) = 3/8.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 8",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -330,7 +556,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-009",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "3 red of 8 total; probability=3/8.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -347,13 +601,13 @@
       ],
       "answer": 2,
       "explanation": "An elementary event is an event that contains exactly one outcome of the random experiment. If a sample space consists of n mutually exclusive and collectively exhaustive elementary outcomes E₁, E₂, ..., Eₙ, their respective probabilities sum to unity: P(E₁) + P(E₂) + ... + P(Eₙ) = 1. This is a foundational axiom of probability theory in NCERT Class 10 Chapter 14.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -367,7 +621,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-010",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "For a finite sample space, probabilities of all elementary outcomes sum to 1.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -375,7 +657,7 @@
       "type": "mcq",
       "subtopic": "Die Number Between 2 and 6",
       "difficulty": "Easy",
-      "question": "A die is thrown once. What is the probability of getting a number lying between 2 and 6?",
+      "question": "A fair standard die is thrown once. What is the probability of getting a number strictly between 2 and 6 (excluding 2 and 6)?",
       "options": [
         "1/3",
         "2/3",
@@ -384,13 +666,13 @@
       ],
       "answer": 3,
       "explanation": "When a single standard die is thrown, the sample space of equally likely outcomes is S = {1, 2, 3, 4, 5, 6}, giving total outcomes n(S) = 6. The condition requires selecting numbers strictly between 2 and 6 (excluding the boundaries 2 and 6). The numbers satisfying this condition are {3, 4, 5}. The count of favourable outcomes is n(E) = 3. Therefore, P(number between 2 and 6) = n(E) / n(S) = 3 / 6 = 1/2.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 13",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; targeted correction/clarification included",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -404,7 +686,37 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-011",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "Strict interpretation gives {3,4,5}; 3/6=1/2. “Between” is ambiguous without strict/inclusive wording.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending",
+        "correction_patch_applied_in_review_copy": true,
+        "patch_reason": "“Between 2 and 6” can be read with or without endpoints. Explicitly states strict inequality; {3,4,5} gives 3/6 = 1/2."
       }
     },
     {
@@ -421,13 +733,13 @@
       ],
       "answer": 1,
       "explanation": "The lot contains a total of 20 electric bulbs, so total elementary outcomes n(S) = 20. Among these, 4 bulbs are defective. Therefore, the number of non-defective (good working) bulbs is: 20 - 4 = 16 bulbs. Let E be the event that the drawn bulb is non-defective. Number of favourable outcomes n(E) = 16. The probability is given by: P(non-defective) = n(E) / n(S) = 16 / 20. Dividing by 4 gives the reduced fraction 4/5.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 17",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -441,7 +753,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-012",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "16 of 20 are good; probability=4/5.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -452,19 +792,19 @@
       "question": "A box contains 90 discs numbered from 1 to 90. One disc is drawn at random. What is the probability that it bears a two-digit number?",
       "options": [
         "89/90",
-        "81/90",
+        "80/90",
         "9/10",
         "4/5"
       ],
       "answer": 2,
       "explanation": "Single-digit numbers from 1 to 90 are 1, 2, ..., 9 (9 numbers). Two-digit numbers are 10 to 90, which is 90 - 9 = 81 numbers. P(two-digit number) = 81/90 = 9/10.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 19",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; targeted correction/clarification included",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -478,7 +818,37 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-013",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Two-digit numbers are 10–90 inclusive: 81/90=9/10. Options B and C were equivalent.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending",
+        "correction_patch_applied_in_review_copy": true,
+        "patch_reason": "Options B (81/90) and C (9/10) are equivalent correct answers. Changed B to a distinct distractor; C remains keyed."
       }
     },
     {
@@ -486,22 +856,22 @@
       "type": "mcq",
       "subtopic": "Numbered Discs Perfect Square",
       "difficulty": "Medium",
-      "question": "In the same box of 90 discs (1 to 90), what is the probability that the drawn disc bears a perfect square number?",
+      "question": "A box contains 90 discs numbered from 1 to 90. One disc is drawn at random. What is the probability that it bears a perfect-square number?",
       "options": [
         "1/10",
-        "9/90",
+        "8/90",
         "1/9",
         "1/15"
       ],
       "answer": 0,
       "explanation": "The box contains 90 discs numbered sequentially from 1 to 90, so total possible outcomes n(S) = 90. A perfect square is an integer that can be expressed as the square of an integer (k²). The perfect squares in the range 1 to 90 are: 1² = 1, 2² = 4, 3² = 9, 4² = 16, 5² = 25, 6² = 36, 7² = 49, 8² = 64, and 9² = 81 (note 10² = 100 > 90). There are exactly 9 perfect squares. P(perfect square) = 9 / 90 = 1/10.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 19",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; targeted correction/clarification included",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -515,7 +885,47 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "pilot_verification": {
+          "batch": "CBSE10_Mathematics_100Q_Pilot",
+          "review_date": "2026-11-06",
+          "method": "AI-assisted independent mathematical solution and explanation/context review",
+          "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+          "follow_up_flags": [],
+          "human_subject_matter_signoff": "pending",
+          "official_item_source_match": "not_performed",
+          "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-014",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "Squares in 1–90 are 1,4,9,16,25,36,49,64,81: 9/90=1/10. Options A and B were equivalent.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending",
+        "correction_patch_applied_in_review_copy": true,
+        "patch_reason": "Made the stem self-contained rather than referring to the previous question. Options A (1/10) and B (9/90) were equivalent; B changed to a distinct distractor."
       }
     },
     {
@@ -525,20 +935,20 @@
       "difficulty": "Medium",
       "question": "From 90 discs numbered 1 to 90, what is the probability of drawing a number divisible by 5?",
       "options": [
-        "18/90",
+        "16/90",
         "1/5",
         "1/6",
         "2/9"
       ],
       "answer": 1,
       "explanation": "The total number of discs numbered from 1 to 90 is n(S) = 90. The numbers divisible by 5 form an arithmetic progression: 5, 10, 15, ..., 90. Using the AP general term formula aₙ = a + (n - 1)d: 90 = 5 + (n - 1)5 => 85 = (n - 1)5 => n - 1 = 17 => n = 18 discs. Therefore, there are exactly 18 favourable outcomes. The probability of drawing a disc bearing a number divisible by 5 is: P(E) = 18 / 90 = 1/5.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 19",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; targeted correction/clarification included",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -552,7 +962,37 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-015",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "18 numbers from 1 to 90 are divisible by 5; 18/90=1/5. Options A and B were equivalent.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending",
+        "correction_patch_applied_in_review_copy": true,
+        "patch_reason": "Options A (18/90) and B (1/5) are equivalent correct answers. Changed A to a distinct distractor; B remains keyed."
       }
     },
     {
@@ -569,13 +1009,13 @@
       ],
       "answer": 3,
       "explanation": "A standard deck of 52 playing cards is divided into four equal suits: Spades, Clubs, Hearts, and Diamonds. Each suit contains exactly 13 cards (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King). Total outcomes n(S) = 52. The number of favourable outcomes for drawing a spade is n(E) = 13. Therefore, the probability is: P(Spade) = n(E) / n(S) = 13 / 52 = 1/4 (or 0.25).",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 14",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -589,7 +1029,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-016",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "13 spades in a 52-card deck; probability=1/4.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -602,17 +1070,17 @@
         "1/13",
         "1/26",
         "1/52",
-        "4/52"
+        "3/52"
       ],
       "answer": 2,
       "explanation": "In a complete deck of 52 playing cards, there are 4 suits, and each individual suit contains exactly one Queen. Specifically, there is only 1 Queen of Diamonds in the entire 52-card deck. Total possible outcomes n(S) = 52; Number of favourable outcomes n(E) = 1. Therefore, the probability of drawing the unique Queen of Diamonds at random is: P(Queen of Diamonds) = 1 / 52.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 14",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; targeted correction/clarification included",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -626,7 +1094,37 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-017",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Exactly one queen of diamonds; 1/52. Options A and D were equivalent distractors.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending",
+        "correction_patch_applied_in_review_copy": true,
+        "patch_reason": "Options A (1/13) and D (4/52) duplicate one another as distractors. Changed D to a distinct distractor; C remains the only correct answer."
       }
     },
     {
@@ -643,13 +1141,13 @@
       ],
       "answer": 0,
       "explanation": "Let the experiment be catching one fish at random from the aquarium tank. The aquarium contains 5 male fish and 8 female fish. Total number of fish (possible outcomes) n(S) = 5 + 8 = 13 fish. Since the selection is completely random, each fish is equally likely to be taken out. Number of favourable outcomes for drawing a male fish n(E) = 5. Therefore: P(Male fish) = n(E) / n(S) = 5/13.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Exercise 14.1 Question 11",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -663,7 +1161,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-018",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "5 male fish out of 13 total; probability=5/13.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -680,13 +1206,13 @@
       ],
       "answer": 3,
       "explanation": "When an unbiased coin is tossed, there are only two outcomes (Head and Tail) and both are equally likely with probability 1/2 each, ensuring complete fairness and unpredictability.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Section 14.1",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -700,7 +1226,45 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "pilot_verification": {
+          "batch": "CBSE10_Mathematics_100Q_Pilot",
+          "review_date": "2026-11-06",
+          "method": "AI-assisted independent mathematical solution and explanation/context review",
+          "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+          "follow_up_flags": [],
+          "human_subject_matter_signoff": "pending",
+          "official_item_source_match": "not_performed",
+          "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-019",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "For an unbiased coin, head and tail are equally likely.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     },
     {
@@ -717,13 +1281,13 @@
       ],
       "answer": 1,
       "explanation": "In a two-player tennis match with no possibility of a draw or tie, the events 'Sangeet wins' (S) and 'Reshma wins' (R) are complementary events that partition the sample space. Hence: P(S) + P(R) = 1. Given P(S) = 0.62, the probability of Reshma winning the match is: P(R) = 1 - P(S) = 1 - 0.62 = 0.38 (or 38%). This demonstrates the standard NCERT application of complementary event probabilities.",
-      "citation": "NCERT Class 10 Mathematics, Chapter 14 Probability, Example 6",
+      "citation": "NCERT Class X Mathematics, Chapter 14 — Probability (topic-alignment reference only; exact item-source authentication has not been performed).",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Reviewed; mathematically consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -737,7 +1301,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core / direct application",
+        "review_register_question_id": "cbse10-math-ch14-s1-020",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "With no tie, P(Reshma wins)=1−0.62=0.38.",
+        "phase5_10_batch14_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent probability calculation, sample-space, wording and explanation review",
+          "answer_key_status": "matches_independent_review",
+          "answer_index_status": "valid",
+          "duplicate_stem_status": "no_exact_duplicate_within_chapter_question_sets",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key or question-content correction required in this review."
         }
+      },
+      "academic_verification": {
+        "review_date": "2026-11-06",
+        "answer_accuracy_status": "ai_assisted_independent_solution_matches_stored_option",
+        "item_quality_status": "reviewed",
+        "curriculum_classification": "Core / direct application",
+        "source_provenance_status": "chapter_topic_reference_only_exact_item_not_authenticated",
+        "source_item_match": "Not performed",
+        "human_subject_matter_signoff": "Pending"
       }
     }
   ]

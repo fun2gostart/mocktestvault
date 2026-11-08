@@ -1,0 +1,49 @@
+PHASE 5.10 – DETAILED MATHEMATICS VERIFICATION
+Chapter 8: Introduction to Trigonometry
+Version: v2.9.53
+Baseline: v2.9.52
+Review date: 2026-11-07
+
+SCOPE
+- Set 1: 20 active questions
+- Set 2: 20 active questions
+- Set 3: 20 active questions
+- Total: 60 active questions
+
+RESULTS
+- 60/60 stored answer keys independently recalculated and matched.
+- 0 answer-key changes.
+- 5 question/explanation quality corrections or clarifications.
+- 0 exact normalized duplicate stems within the three active Chapter 8 sets.
+- 14 exact stem overlaps were found against other question-bank/sample-paper JSON records elsewhere in data/in; all 14 have identical option arrays and answer indices. These are content-reuse flags, not proof that the labelled sample-paper/PYQ records are authentic official questions. See the cross-collection overlap register.
+- All 3 chapter-page set JSON paths are explicitly present in the HTML source.
+- Service-worker cache advanced mtv-cbt-v78 -> mtv-cbt-v79 to ensure updated question payloads are fetched.
+
+CORRECTIONS / CLARIFICATIONS
+- Set 1 Q19: removed misleading wording that described undefined trigonometric values as infinity; exact values at 90 degrees are undefined.
+- Set 2 Q5: added a non-zero-denominator condition to avoid an invalid 0/0 cancellation case.
+- Set 3 Q13: replaced a 45-degree explanation with the requested 60-degree calculation, h = 2 sin 60 degrees = sqrt(3) m.
+- Set 3 Q15: replaced unrelated zipline explanation with the aviation horizontal-distance calculation, 12 cos 30 degrees = 6 sqrt(3) km.
+- Set 3 Q16: replaced unrelated zipline explanation with altitude/horizontal distance = tan theta.
+
+CURRICULUM / CHAPTER PLACEMENT
+- The official CBSE Class X 2026-27 Mathematics syllabus places acute-angle ratios, standard-angle values, relationships between ratios and simple trigonometric identities under Introduction to Trigonometry.
+- It separately lists Heights and Distances under the Trigonometry unit. Set 1 Q20 and Set 3 Q11-Q18 are therefore flagged as Chapter 9 / Some Applications of Trigonometry content, not Chapter 8 content.
+- Set 2 Q6-Q7 derive ellipse/hyperbola equations by eliminating theta. These conic-section results are not specified in the Class X syllabus and are flagged as beyond-chapter enrichment.
+- Several multi-step, parameterized and higher-power identity questions are tagged as supplementary/enrichment pending human curriculum sign-off. They are retained, not deleted.
+- Scope flags are recorded item by item in PHASE5_10_MATH_CH08_CURRICULUM_SCOPE_FLAGS_v2.9.53.csv.
+
+ACADEMIC REVIEW LIMITATIONS
+- This is AI-assisted independent mathematical verification, not human subject-matter expert certification.
+- Human academic sign-off remains pending for all 60 questions.
+- Exact PYQ/source-paper and official answer-key authentication was not performed; the 14 cross-collection matches are recorded for deduplication/provenance review.
+- No claim is made that any question is an authenticated official PYQ.
+- Browser runtime, Hostinger staging, network, and production checks were not performed.
+
+SOURCES
+- CBSE Class X Mathematics 2026-27 syllabus, Unit V Trigonometry: Introduction to Trigonometry, Trigonometric Identities, and Heights and Distances.
+- Official curriculum PDF: https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2026/04/20260402425130477.pdf
+- NCERT Class X Mathematics Chapter 8 topic reference; item-level source authentication not performed.
+
+DEPLOYMENT
+- No production deployment or Hostinger changes were made.

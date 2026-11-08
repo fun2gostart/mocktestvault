@@ -1168,6 +1168,8 @@ class MockTestEngine {
 
     let maxMarks = 0;
     let rawMarksObtained = 0;
+    let totalCorrectMarks = 0;
+    let totalWrongPenalty = 0;
 
     this.questions.forEach((q, idx) => {
       const qWeight = (q.marks !== undefined && q.marks !== null) ? Number(q.marks) : defaultCorrectWeight;
@@ -1177,8 +1179,10 @@ class MockTestEngine {
       const userChoice = this.userAnswers[idx];
       if (userChoice === q.answer) {
         rawMarksObtained += qWeight;
+        totalCorrectMarks += qWeight;
       } else if (userChoice !== null) {
         rawMarksObtained += qPenalty;
+        if (qPenalty < 0) totalWrongPenalty += Math.abs(qPenalty);
       }
     });
 
@@ -1388,10 +1392,10 @@ class MockTestEngine {
     if (mobileBar) mobileBar.style.display = 'none';
 
     // Render Stats Grid if element exists
-    const penaltyCard = wrongPenalty !== 0 ? `
+    const penaltyCard = totalWrongPenalty > 0 ? `
       <div class="stat-card">
-        <div class="stat-val" style="color:var(--danger)">${(wrong * Math.abs(wrongPenalty)).toFixed(1)}</div>
-        <div class="stat-label">Penalty (-${Math.abs(wrongPenalty)})</div>
+        <div class="stat-val" style="color:var(--danger)">${totalWrongPenalty.toFixed(1)}</div>
+        <div class="stat-label">Penalty</div>
       </div>
     ` : `
       <div class="stat-card">
@@ -1404,7 +1408,7 @@ class MockTestEngine {
       this.dom.statsGrid.innerHTML = `
         <div class="stat-card">
           <div class="stat-val" style="color:var(--success)">${correct}</div>
-          <div class="stat-label">Correct (+${correctWeight})</div>
+          <div class="stat-label">Marks from correct answers (${totalCorrectMarks.toFixed(2)})</div>
         </div>
         ${penaltyCard}
         <div class="stat-card">
@@ -2031,13 +2035,28 @@ class MockTestEngine {
   }
 
   getQuestionKey(q, index) {
-    const path = (typeof window !== 'undefined' && window.location.pathname) 
-      ? window.location.pathname.replace(/^\//, '').replace(/\.html$/, '') 
+    const path = (typeof window !== 'undefined' && window.location.pathname)
+      ? window.location.pathname.replace(/^\//, '').replace(/\.html$/, '')
       : 'test';
     const qId = (q && q.id !== undefined && q.id !== null) ? q.id : index;
+
+    // JEE/NEET speed-drill pages combine two independent JSON pools in Random mode.
+    // Both pools use local numeric IDs (1, 2, 3, ...), so path::id alone can
+    // collide for different questions. Add a stable content fingerprint only
+    // on those two pages; other pages retain their existing bookmark keys.
+    if (path === 'nta/jee-main-speed-drill-01' || path === 'nta/neet-ug-speed-drill-01') {
+      const optionText = Array.isArray(q && q.options) ? q.options.join('\u241e') : '';
+      const identity = `${(q && q.question) || ''}\u241f${optionText}`.trim().toLowerCase();
+      let hash = 2166136261;
+      for (let i = 0; i < identity.length; i++) {
+        hash ^= identity.charCodeAt(i);
+        hash = Math.imul(hash, 16777619);
+      }
+      const fingerprint = (hash >>> 0).toString(36);
+      return `${path}::${qId}::${fingerprint}`;
+    }
     return `${path}::${qId}`;
   }
-
   toggleBookmark(q, index) {
     const qKey = this.getQuestionKey(q, index);
     const wasBookmarked = this.bookmarkedSet.has(qKey);

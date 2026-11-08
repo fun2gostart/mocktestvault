@@ -4,7 +4,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Assertion & Reasoning - Small Intestine in Herbivores",
     "difficulty": "Board Standard",
-    "question": "Assertion (A): Herbivores like cows and deer have a significantly longer small intestine than carnivores like lions and tigers.\nReason (R): Digestion of tough plant cellulose requires a longer passage to allow symbiotic microbial fermentation.",
+    "question": "Assertion (A): Herbivores such as cows and deer generally have a longer digestive tract, including a longer small intestine, than carnivores such as lions and tigers.\nReason (R): Plant material is relatively difficult to digest and requires more time for digestion and absorption; symbiotic microbes help break down cellulose in specialised regions of the digestive tract.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -12,13 +12,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Cellulose is a complex carbohydrate that is difficult to digest and requires a longer time and extensive microbial activity. Meat is much easier to digest, so carnivores have shorter small intestines.",
+    "explanation": "Plant material contains cellulose, which mammals cannot digest with their own enzymes. Symbiotic microorganisms help break it down in specialised regions such as the rumen of ruminants or the enlarged caecum/colon of some hindgut fermenters. A longer digestive tract, including the small intestine, provides time and surface area for digestion and absorption. In cows, the main microbial fermentation site is the rumen, not the small intestine.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -33,7 +33,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -52,10 +62,10 @@
     "explanation": "Even though bile does not contain enzymes, it contains bile salts which emulsify fats into small droplets to increase enzyme efficiency, and provides the alkaline pH necessary for pancreatic lipase to act.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -70,7 +80,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -78,7 +98,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Assertion & Reasoning - Tracheal Cartilage Rings",
     "difficulty": "Board Standard",
-    "question": "Assertion (A): The human trachea is lined with C-shaped rings of cartilage.\nReason (R): Cartilaginous rings provide structural support preventing the respiratory passage from collapsing when air pressure drops during inhalation.",
+    "question": "Assertion (A): The human trachea is supported by C-shaped rings of cartilage.\nReason (R): These cartilaginous rings help keep the respiratory passage open and prevent it from collapsing during breathing.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -86,13 +106,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Rings of cartilage in the throat keep the trachea open at all times, preventing it from collapsing under atmospheric or muscular pressure when there is less air in the windpipe.",
+    "explanation": "C-shaped cartilage rings support the trachea and help prevent the airway from collapsing. The open posterior part of each ring faces the oesophagus and allows it to expand during swallowing. The rings provide support while retaining flexibility.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.3.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -107,7 +127,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -115,7 +145,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Assertion & Reasoning - Aerobic vs Anaerobic Energy",
     "difficulty": "Board Standard",
-    "question": "Assertion (A): Aerobic respiration in mitochondria generates much more energy than anaerobic respiration in yeast or muscle cells.\nReason (R): In aerobic respiration, glucose is completely oxidized into carbon dioxide and water, generating up to 38 ATP molecules per glucose molecule.",
+    "question": "Assertion (A): Aerobic respiration generates much more energy per glucose molecule than anaerobic respiration in yeast or muscle cells.\nReason (R): In aerobic respiration, glucose is completely oxidised to carbon dioxide and water, releasing much more energy than the incomplete breakdown that occurs in the absence of oxygen.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -123,13 +153,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Complete breakdown of pyruvate in the presence of oxygen occurs in mitochondria, yielding CO₂, H₂O, and a large release of energy (approx. 38 ATP). In anaerobic respiration, incomplete breakdown yields only 2 ATP.",
+    "explanation": "Both statements are true, and the Reason correctly explains the Assertion. Aerobic respiration completely oxidises glucose to carbon dioxide and water and releases far more usable energy than anaerobic pathways. A fixed figure such as 38 ATP per glucose is an older theoretical estimate and varies with the assumptions used; it is not necessary for this comparison.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -144,7 +174,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -163,10 +203,10 @@
     "explanation": "Since ventricles have to pump blood into various organs (the right ventricle to the lungs, the left ventricle to the entire body), they have thicker muscular walls than the atria do.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -181,7 +221,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -189,7 +239,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Assertion & Reasoning - Double Circulation in Mammals",
     "difficulty": "Board Standard",
-    "question": "Assertion (A): Birds and mammals possess a four-chambered heart with complete separation of oxygenated and deoxygenated blood.\nReason (R): Warm-blooded animals have high energy requirements to maintain a constant internal body temperature regardless of ambient environment.",
+    "question": "Assertion (A): Birds and mammals possess a four-chambered heart that keeps oxygenated and deoxygenated blood separate.\nReason (R): Birds and mammals are endothermic and have high metabolic demands associated with maintaining a relatively constant internal body temperature.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -197,13 +247,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Separation of right and left heart chambers ensures that oxygenated blood does not mix with deoxygenated blood, providing a highly efficient supply of oxygen needed for cellular thermoregulation in homeothermic birds and mammals.",
+    "explanation": "Both statements are true, and the Reason explains the advantage of complete separation. A four-chambered heart prevents mixing of oxygenated and deoxygenated blood and supports efficient oxygen delivery. Endothermic birds and mammals have high metabolic demands because they maintain a relatively constant internal body temperature.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -218,7 +268,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -226,7 +286,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Assertion & Reasoning - Transpiration Utility in Plants",
     "difficulty": "Board Standard",
-    "question": "Assertion (A): Transpiration is considered a necessary process for tall terrestrial trees.\nReason (R): Transpiration helps in the absorption and upward movement of water and dissolved minerals from roots to leaves, and also helps in temperature regulation (cooling).",
+    "question": "Assertion (A): Transpiration contributes to the upward movement of water and dissolved minerals in tall terrestrial plants.\nReason (R): Evaporation of water from leaves generates a pull in the xylem, helping draw water upward; transpiration can also cool the plant.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -234,13 +294,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Transpiration helps in the absorption and upward movement of water and minerals dissolved in it from roots to the leaves. It also helps in temperature regulation of the plant canopy on hot sunny days.",
+    "explanation": "Both statements are true, and the Reason explains the Assertion. Evaporation from leaf surfaces creates tension in the xylem water column, contributing to the upward movement of water and dissolved minerals. Transpiration also contributes to evaporative cooling. The wording avoids claiming that transpiration is the only possible mechanism or is absolutely necessary in every circumstance.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -255,7 +315,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -274,10 +344,10 @@
     "explanation": "Translocation in phloem is achieved by utilising energy. Material like sucrose is transferred into phloem tissue using energy from ATP, which increases osmotic pressure and moves materials according to plant needs.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -292,7 +362,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -311,10 +391,10 @@
     "explanation": "The initial filtrate contains large volumes of water, glucose, and salts. Because the body cannot afford massive fluid loss, selective reabsorption recovers more than 99% of the filtrate back into the bloodstream.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.5.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -329,7 +409,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -337,7 +427,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Assertion & Reasoning - Plant Excretion via Leaf Abscission",
     "difficulty": "Board Standard",
-    "question": "Assertion (A): Deciduous trees shed their leaves seasonally as a method of metabolic excretion.\nReason (R): Many toxic metabolic waste products in plants are safely sequestered in the vacuoles of older leaf cells that turn yellow and fall off.",
+    "question": "Assertion (A): Plants can remove some stored metabolic wastes when older leaves are shed.\nReason (R): Some waste products may be stored in vacuoles or other tissues of leaves before those leaves fall.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -345,13 +435,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Plants store many waste products in cellular vacuoles. Waste products may be stored in leaves that fall off, effectively discarding accumulated metabolic wastes without requiring specialized excretory organs.",
+    "explanation": "Both statements are true, and the Reason explains one way plants can eliminate stored wastes. Plants may store certain waste products in leaves and remove them when the leaves are shed. Leaf fall has several functions and should not be described as occurring solely for excretion.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.5.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -366,7 +456,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -374,21 +474,21 @@
     "type": "mcq",
     "subtopic": "Case Study - Muscle Cramps in Sprinting Athletes",
     "difficulty": "Medium",
-    "question": "During a 100-metre race, an athlete suddenly experiences severe and painful calf muscle cramps. What biochemical reaction inside the muscle cells caused this condition?",
+    "question": "During vigorous exercise, when muscle cells temporarily receive insufficient oxygen, which product is formed when pyruvate undergoes anaerobic respiration?",
     "options": [
       "Accumulation of excess urea in the muscle capillaries",
       "Complete dehydration of skeletal bones",
       "Breakdown of cellular ATP into toxic methanol",
-      "Anaerobic breakdown of pyruvate into lactic acid due to temporary oxygen deficiency"
+      "Lactate (lactic acid)"
     ],
     "answer": 3,
-    "explanation": "When there is a lack of oxygen in human muscle cells, pyruvate is converted into lactic acid (a 3-carbon molecule). The sudden build-up of lactic acid in our muscles during vigorous physical activity causes painful cramps.",
+    "explanation": "When oxygen availability is insufficient for the rate of activity, human muscle cells can convert pyruvate to lactate (often called lactic acid in school texts). This is the anaerobic pathway described in the Class X curriculum. Lactate formation is a metabolic response; it should not be presented as the sole established cause of exercise-associated muscle cramps.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -403,7 +503,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -422,10 +532,10 @@
     "explanation": "Under normal conditions, mucus protects the inner lining of the stomach from the corrosive action of hydrochloric acid. If mucus secretion is compromised (or broken down by Helicobacter pylori), acid burns the stomach wall, resulting in painful peptic ulcers.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -440,7 +550,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -448,21 +568,21 @@
     "type": "mcq",
     "subtopic": "Case Study - Gall Bladder Removal & Dietary Advice",
     "difficulty": "Hard",
-    "question": "A patient undergoes cholecystectomy (surgical removal of the gall bladder) due to gallstones. What dietary restriction will the doctor strictly advise following the surgery?",
+    "question": "After gall-bladder removal (cholecystectomy), which dietary adjustment may help some patients, particularly during recovery or if fatty meals cause symptoms?",
     "options": [
       "Avoid all dietary proteins because trypsin will no longer function",
-      "Limit consumption of high-fat and fried foods because the body lacks a reservoir to store and release concentrated bile for rapid fat emulsification",
+      "Choose smaller meals and moderate very high-fat or fried foods if they cause digestive symptoms",
       "Stop eating all carbohydrates completely",
       "Drink only pure hydrochloric acid with meals"
     ],
     "answer": 1,
-    "explanation": "The gall bladder stores and concentrates bile produced by the liver. Without a gall bladder, bile trickles slowly into the intestine rather than being delivered in concentrated boluses during heavy fatty meals, making fat emulsification less efficient.",
+    "explanation": "The liver continues to produce bile after gall-bladder removal, but bile is no longer stored and concentrated in the gall bladder. Some people experience digestive symptoms after large or high-fat meals and may benefit from smaller meals or moderating fat intake. Dietary advice should be individualised by the treating clinician; a strict restriction is not necessary for everyone.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -477,7 +597,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -487,19 +617,19 @@
     "difficulty": "Medium",
     "question": "Sleeping in a closed room with a burning charcoal heater is hazardous and often fatal. Why is carbon monoxide (CO) deadly to human respiration?",
     "options": [
-      "Haemoglobin binds with carbon monoxide with over 200 times higher affinity than oxygen, forming stable carboxyhaemoglobin that blocks cellular oxygen delivery",
       "Carbon monoxide solidifies all blood inside the aorta",
       "Carbon monoxide dissolves the rings of cartilage in the trachea",
+      "Haemoglobin binds carbon monoxide with over 200 times higher affinity than oxygen, forming carboxyhaemoglobin and reducing oxygen transport",
       "Carbon monoxide burns the alveoli into ash"
     ],
-    "answer": 0,
-    "explanation": "Haemoglobin has a vastly greater chemical affinity for carbon monoxide than for oxygen. Inhaled CO binds irreversibly with haemoglobin to form carboxyhaemoglobin, preventing blood from transporting oxygen to vital tissues and leading to asphyxiation.",
+    "answer": 2,
+    "explanation": "Carbon monoxide binds haemoglobin with a much higher affinity than oxygen and forms carboxyhaemoglobin, reducing the blood’s capacity to transport oxygen. The binding is reversible, but exposure can be life-threatening because carbon monoxide can remain bound long enough to impair oxygen delivery. A suspected exposure requires immediate fresh air and emergency medical assistance.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.3.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -514,7 +644,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -522,21 +662,21 @@
     "type": "mcq",
     "subtopic": "Case Study - Chronic Hypertension Complications",
     "difficulty": "Medium",
-    "question": "A patient records persistent resting blood pressure of 165/105 mm Hg (hypertension). What vascular event causes hypertension, and what dangerous complication can occur?",
+    "question": "Which vascular change can contribute to increased blood pressure, and what serious complication can sustained hypertension increase the risk of?",
     "options": [
       "Dilation of veins causing blood to pool in the feet",
-      "Constriction of arterioles increases vascular resistance; it can lead to rupture of an artery and internal bleeding (stroke)",
+      "Constriction of arterioles increases vascular resistance; sustained hypertension increases the risk of damage to blood vessels and stroke",
       "Rapid thinning of blood into pure saline",
       "Permanent opening of all heart valves simultaneously"
     ],
     "answer": 1,
-    "explanation": "High blood pressure is also called hypertension and is caused by the constriction of arterioles, which results in increased resistance to blood flow. It can lead to the rupture of an artery and internal bleeding.",
+    "explanation": "Constriction of small arteries and arterioles increases peripheral vascular resistance and can contribute to higher blood pressure. Persistent hypertension damages blood vessels and increases the risk of serious complications, including stroke. Hypertension has multiple contributing causes and should not be attributed to arteriolar constriction alone.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.2 (Box: Blood pressure)",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -551,7 +691,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -561,19 +711,19 @@
     "difficulty": "Easy",
     "question": "A patient suffering from dengue fever experiences a sharp drop in blood platelet count (thrombocytopenia). What life-threatening clinical symptom is the patient most susceptible to?",
     "options": [
-      "Inability to clot blood, resulting in uncontrolled internal or external bleeding from minor injuries",
       "Rapid multiplication of red blood cells leading to blood thickening",
       "Total stoppage of kidney urine formation",
-      "Immediate failure of salivary amylase secretion"
+      "Immediate failure of salivary amylase secretion",
+      "Inability to clot blood, resulting in uncontrolled internal or external bleeding from minor injuries"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Platelets are responsible for plugging vascular leaks by clotting blood at points of injury. A severe shortage of platelets impairs clot formation, putting the patient at risk of continuous hemorrhage.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -588,7 +738,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -607,10 +767,10 @@
     "explanation": "Because phloem is located in the outer bark, girdling removes the conduit for transporting sugars from leaves to roots. Sugars accumulate above the ring, causing swelling. Xylem inside the trunk remains intact so water reaches leaves, but roots eventually starve of carbohydrates, causing plant death.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -625,7 +785,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -638,16 +808,16 @@
       "Sunlight destroys all xylem vessels permanently at noon",
       "Leaves turn into roots during the afternoon",
       "Photosynthesis stops permanently after 12 PM",
-      "During peak afternoon heat, the rate of water loss via transpiration exceeds the rate of root absorption, causing guard cells to lose turgidity"
+      "During peak afternoon heat, water loss by transpiration can exceed root water uptake, causing leaf cells to lose turgor and wilt"
     ],
     "answer": 3,
-    "explanation": "When transpiration rate exceeds water absorption by roots in midday heat, leaf cells lose water and turgor pressure decreases, causing wilting. In the evening, stomata close, transpiration drops, root absorption catches up, and cells regain turgidity.",
+    "explanation": "In hot, dry conditions, transpiration can temporarily exceed the rate at which roots absorb and transport water. Leaf cells then lose turgor and the plant may wilt. When conditions become cooler and water balance is restored, turgor can recover. The loss of turgor is a property of leaf cells generally, not specifically a claim that guard cells alone lose turgidity.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -662,7 +832,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -681,10 +861,10 @@
     "explanation": "Normally, all glucose filtered through Bowman's capsule is actively reabsorbed by proximal convoluted tubules. In diabetics with severe hyperglycemia, the glucose load exceeds the tubular transport maximum, allowing unabsorbed glucose to spill into urine.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.5.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -699,7 +879,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -707,21 +897,21 @@
     "type": "mcq",
     "subtopic": "Case Study - Dialysis Patient Dietary Management",
     "difficulty": "Hard",
-    "question": "Between scheduled hemodialysis treatments, a patient with complete kidney failure must strictly monitor and limit fluid intake and dietary potassium/salt. Why?",
+    "question": "Between scheduled haemodialysis treatments, why may a patient with kidney failure be advised by their clinical team to monitor fluid, salt and potassium intake?",
     "options": [
-      "Without functioning kidneys, excess water and ions cannot be excreted, leading to severe fluid overload, pulmonary edema, and cardiac arrhythmias",
       "Drinking water neutralizes dialysis cellophane membranes",
       "Excess water causes blood platelets to multiply by 10,000 times",
-      "Salts turn artificial dialysis fluid into concentrated nitric acid"
+      "Salts turn artificial dialysis fluid into concentrated nitric acid",
+      "Without functioning kidneys, excess water and ions cannot be excreted, leading to severe fluid overload, pulmonary edema, and cardiac arrhythmias"
     ],
-    "answer": 0,
-    "explanation": "Non-functioning kidneys cannot eliminate fluid or regulate electrolytes between dialysis sessions. Excess fluid leads to swelling and heart failure, while elevated potassium (hyperkalemia) can cause fatal heart rhythm disruptions.",
+    "answer": 3,
+    "explanation": "When kidney function is severely reduced, the body may not remove excess water or regulate potassium and other electrolytes effectively between dialysis sessions. Excess fluid can cause swelling and fluid accumulation in the lungs, while high blood potassium can disturb heart rhythm. The appropriate limits depend on the individual patient and should be set by their renal care team.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.5.1 (Box: Artificial kidney)",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -736,7 +926,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   }
 ]

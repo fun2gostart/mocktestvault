@@ -1,0 +1,57 @@
+{
+  "phase": "5.51",
+  "revision": "2.9.100",
+  "baseline": "2.9.99",
+  "active_science_question_sets": 39,
+  "questions_reconciled": 780,
+  "unique_question_ids": 780,
+  "status_before": {
+    "ai_assisted_independent_solution_verified_human_signoff_pending": 60,
+    "pending_independent_subject_matter_verification": 180,
+    "ai_assisted_independent_subject_matter_reviewed": 60,
+    "ai_assisted_independent_solution_match_human_signoff_pending": 120,
+    "ai_assisted_independent_concept_check_passed": 60,
+    "ai_assisted_independent_solution_verified": 60,
+    "ai_assisted_independent_answer_review_completed_human_signoff_pending": 60,
+    "ai_assisted_independent_answer_review_pass_human_academic_signoff_pending": 60,
+    "independently_reviewed_consistent": 45,
+    "independently_reviewed_corrected": 15,
+    "independently_reviewed_answer_key_consistent": 60
+  },
+  "standardized_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+  "record_action_counts": {
+    "AMENDED_DURING_CHAPTER_REVIEW": 228,
+    "RETAINED_AFTER_CHAPTER_REVIEW": 552
+  },
+  "question_type_before": {
+    "mcq": 558,
+    "assertion_reasoning": 154,
+    "case_study": 8,
+    "case-study": 60
+  },
+  "question_type_after": {
+    "mcq": 558,
+    "assertion_reasoning": 154,
+    "case-study": 68
+  },
+  "question_type_labels_normalized": 8,
+  "legacy_alternate_science_json_files": 19,
+  "legacy_files_with_html_js_php_reference": 1,
+  "legacy_files_without_html_js_php_reference": 18,
+  "answer_position_flagged_sets": 11,
+  "answer_position_option_reorders": 0,
+  "human_academic_signoff": "PENDING_FOR_ALL_780",
+  "exact_cbse_pyq_authentication": "NOT_ESTABLISHED_FOR_ALL_780",
+  "deployment": "NOT_PERFORMED",
+  "output_zip_bytes": 9857396,
+  "original_entries": 1186,
+  "unchanged_original_entries_hash_verified": 1147,
+  "intentionally_updated_active_set_files": 39,
+  "new_audit_entries": 14,
+  "output_zip_integrity": "PASS",
+  "final_question_type_counts": {
+    "mcq": 558,
+    "assertion_reasoning": 154,
+    "case-study": 68
+  }
+}

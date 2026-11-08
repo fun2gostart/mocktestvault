@@ -1,0 +1,46 @@
+PHASE 5.7 – BATCH 20 ACADEMIC REVIEW REPORT
+MockTestVault v2.9.39
+Economics Chapter 3 – Money and Credit
+Review date: 2026-11-07
+
+SCOPE
+- 60 active questions reviewed: 20 each in Sets 1, 2 and 3.
+- Three active sets retained; supplementary base chapter JSON retained.
+- Review covers chapter alignment, factual accuracy, answer-option consistency, ambiguity, and time-sensitive/legal claims.
+
+RESULTS
+- Questions reviewed: 60/60
+- Question records with substantive edits: 22
+- Field-level corrections: 63
+- Answer-index changes: 9 (correct options moved to new positions in rewritten items)
+- Review metadata added: 60/60
+- Unique active question IDs: 60/60
+- Answer indexes within option bounds: 60/60
+
+KEY FIXES
+1. Corrected the bank cash-holding example from 15% to NCERT's approximately 5%, and removed the conflation with statutory CRR maintained with RBI.
+2. Corrected the urban poor informal-credit share from 85% to 54% (NCERT Graph 2).
+3. Fixed a cross-wired explanation: Salim's positive credit case had Swapna's debt-trap explanation.
+4. Corrected the Sonpur trader-credit attribution from Arun to Shyamal; corrected crop and sale-condition details.
+5. Clarified RBI banknote issuance and the Government of India's ₹1 note exception; qualified legal-tender wording.
+6. Corrected the A-R item conflating CRR with cash held by banks.
+7. Corrected the Sonpur case borrower count and rates; removed unsupported compounded-interest claim.
+8. Removed unsupported or overbroad priority-sector, coercive-recovery, microfinance and guaranteed-poverty-reduction claims.
+9. Clarified digital bank-account transfers and the distinction between payment mechanisms and demand deposits.
+
+TECHNICAL VALIDATION
+- ZIP payload JSON files parsed: 287/287
+- Active questions: 60; unique IDs: 60; answer-index bounds: 60/60
+- Batch review metadata: 60/60
+- JavaScript syntax: 4/4 passed using node --check
+- Service-worker cache: mtv-cbt-v70 -> mtv-cbt-v71
+- Prior chapter base JSON preserved byte-for-byte: PASS
+- ZIP integrity: PASS (final archive testzip returned None)
+
+SOURCE / LIMITATIONS
+- NCERT official chapter PDF: https://www.ncert.nic.in/textbook/pdf/jess203.pdf (the retrieved PDF identifies itself as Reprint 2025-26; it is the official chapter text used for this review).
+- RBI Currency FAQs updated 15 April 2025: https://m.rbi.org.in/scripts/BS_CurrencyFAQView.aspx?Id=136
+- RBI Act Section 26: https://www.incometaxindia.gov.in/w/section-26-189
+- No original PYQ provenance or official answer-key match was authenticated.
+- Human SME sign-off remains pending. AI-assisted review is not academic sign-off.
+- AdSense excluded. Not deployed to production.

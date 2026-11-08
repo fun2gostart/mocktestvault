@@ -1,0 +1,65 @@
+MOCKTESTVAULT – PHASE 5.5
+CBSE CLASS X SOCIAL SCIENCE QUESTION-BANK REVIEW
+Version: v2.9.18
+Review date: 06 November 2026
+
+SCOPE
+- 21 chapter-level JSON files and 63 set JSON files.
+- 1,260 questions in the active Set 1/2/3 practice modules (21 chapters x 3 sets x 20 questions).
+- 65 additional records in 21 base JSON files. These base files were not directly referenced by any HTML, JS, JSON, XML, TXT, PHP or CSS text asset in this archive; they were retained and included in the register, not deleted.
+- 1,325 total records included in the review register; 1,325 unique IDs.
+
+STRUCTURAL VALIDATION
+- 1,325/1,325 records passed the tested structural checks.
+- Each record had a non-empty ID, question, explanation, at least two options, and an integer answer index within the option range.
+- No duplicate IDs in the 1,325-record set.
+- This is structural validation, not independent fact-checking of every answer.
+
+EXPLANATION-CONSISTENCY SCREEN
+- Token-overlap heuristic flagged 130 records for review.
+- 8 confirmed cases had explanations unrelated to their question/selected answer. Their explanations were corrected; answer indexes were retained.
+- 14 additional non-Assertion/Reason flags were spot-checked and appeared semantically aligned (e.g., answer wording paraphrased in the explanation).
+- 108 Assertion–Reason records were flagged because the answer option is a generic A/R response; token overlap is not a valid semantic test for these. They remain in the anomaly queue for subject review and are not treated as errors.
+- No answer-index change was made in this phase.
+- No broad claim is made that all 1,325 answers have been independently verified.
+
+CONFIRMED EXPLANATION CORRECTIONS (8)
+1. Hosay in Trinidad – replaced unrelated Henry Ford assembly-line explanation.
+2. Abolition of indentured labour – replaced unrelated Great Depression explanation; answer remains 1921.
+3. Shikaripuri shroffs and Nattukottai Chettiars – replaced unrelated Bretton Woods explanation.
+4. Merchants moving to countryside – corrected explanation of guild restrictions and proto-industrial production.
+5. London as a finishing centre – corrected explanation of the putting-out system.
+6. Richard Arkwright and the cotton mill – corrected attribution/explanation.
+7. Hazira–Vijaipur–Jagdishpur pipeline – replaced unrelated waterways explanation with route through Gujarat, Madhya Pradesh and Uttar Pradesh.
+8. Income as an incomplete development indicator – replaced unrelated PDS explanation with the NCERT public-facilities explanation.
+
+All eight corrections are explanation-only. Selected answer options and answer indexes were retained. The Age of Industrialisation questions remain useful for periodic assessment even though the 2026–27 CBSE curriculum does not include the chapter in the year-end board examination.
+
+2026–27 SYLLABUS-SCOPE SCREEN
+- CBSE Class X Social Science syllabus is divided across History, Geography, Political Science and Economics.
+- The Making of a Global World: board scope is restricted to NCERT sections 1.1–1.3; later sections are interdisciplinary-project scope.
+- The Age of Industrialisation: Periodic Assessment only; not year-end board examination.
+- Lifelines of National Economy: only map pointing is assessed in the board examination; text-based chapter questions are supplementary.
+- Globalisation and the Indian Economy: board scope is restricted to “What is Globalisation?” and “Factors that have enabled Globalisation”; other listed areas are interdisciplinary-project scope.
+- Question-level scope tags are based on the existing subtopic labels. Chapter 3/21 labels that do not clearly map to the exact prescribed subtopic should be manually confirmed by an educator before being labelled board-ready.
+- 65 base JSON records are included for traceability but are not directly referenced by the archived site text assets.
+
+TECHNICAL CHANGES
+- 8 explanation fields and citation fields updated in 4 active JSON files.
+- Service-worker cache name bumped from mtv-cbt-v49 to mtv-cbt-v50 so clients fetch the updated question content.
+- No answer indexes, scoring rules, test-engine logic, layout, SEO metadata, sitemap, robots rules or ads settings changed.
+
+VALIDATION
+- All 84 Social Science JSON files re-parsed.
+- 1,325 records rechecked; all structural checks passed.
+- Confirmed all eight corrected records have the new explanation and source note.
+- Confirmed no answer index changed in the eight corrected records.
+- ZIP integrity test passed.
+
+LIMITATIONS / OPEN ITEMS
+- Full factual answer verification for all 1,260 active questions remains pending.
+- The 108 Assertion–Reason anomaly candidates need semantic review.
+- Some syllabus tags in chapters 3 and 21 need educator confirmation at exact subtopic level.
+- Item-level original-paper / official answer-key authentication is not complete.
+- Qualified human SME review and academic sign-off remain pending.
+- This package is a QA candidate, not an academically certified release.

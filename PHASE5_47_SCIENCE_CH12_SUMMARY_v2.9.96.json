@@ -1,0 +1,115 @@
+{
+  "phase": "5.47",
+  "revision": "2.9.96",
+  "baseline": "2.9.95",
+  "chapter": "Science Chapter 12 – Magnetic Effects of Electric Current",
+  "questions_reviewed": 60,
+  "sets_reviewed": 3,
+  "questions_per_set": 20,
+  "records_amended": 15,
+  "answer_key_changes": 2,
+  "all_answer_indexes_valid": true,
+  "duplicate_ids": 0,
+  "human_signoff": "pending",
+  "exact_pyq_authentication": "pending",
+  "scope_note": "9 items are identified as enrichment/extension rather than core CBSE requirements.",
+  "changes": [
+    {
+      "id": "cbse10-sci-ch12-s1-004",
+      "set": 1,
+      "kind": "technical_accuracy",
+      "reason": "Updated the nominal Indian single-phase supply voltage to 230 V while acknowledging the older 220 V textbook convention. Official supply-code material specifies 230 V phase-to-neutral and 50 Hz."
+    },
+    {
+      "id": "cbse10-sci-ch12-s1-009",
+      "set": 1,
+      "kind": "question_rewrite",
+      "reason": "Replaced an ambiguous geometric description with the well-defined field direction and local pattern at the loop centre."
+    },
+    {
+      "id": "cbse10-sci-ch12-s1-019",
+      "set": 1,
+      "kind": "scientific_precision",
+      "reason": "Removed the implication that the geomagnetic pole is exactly at the geographic pole; clarified magnetic declination."
+    },
+    {
+      "id": "cbse10-sci-ch12-s2-002",
+      "set": 2,
+      "kind": "answer_key_correction",
+      "reason": "Corrected the answer key and explanation. The original explanation applied Fleming’s left-hand rule inconsistently: upward conventional current crossed with an eastward field gives force North, not South."
+    },
+    {
+      "id": "cbse10-sci-ch12-s2-010",
+      "set": 2,
+      "kind": "safety_precision",
+      "reason": "Avoided the unsafe blanket claim that all plastic-cased appliances are double-insulated; specified the protection class."
+    },
+    {
+      "id": "cbse10-sci-ch12-s2-014",
+      "set": 2,
+      "kind": "scientific_precision",
+      "reason": "Corrected the over-precise geographic alignment claim and accounted for magnetic declination."
+    },
+    {
+      "id": "cbse10-sci-ch12-s2-016",
+      "set": 2,
+      "kind": "scope_and_wording",
+      "reason": "Removed the misleading implication that Alnico is the uniquely typical choice for modern loudspeakers; retained the correct material concept."
+    },
+    {
+      "id": "cbse10-sci-ch12-s2-017",
+      "set": 2,
+      "kind": "answer_key_correction",
+      "reason": "Rewrote the item and corrected its answer. The original “All of the above” grouped short circuiting with overloading and treated a voltage surge as an unconditional cause."
+    },
+    {
+      "id": "cbse10-sci-ch12-s3-002",
+      "set": 3,
+      "kind": "scientific_precision",
+      "reason": "Qualified “completely uniform” to account for finite solenoid end effects."
+    },
+    {
+      "id": "cbse10-sci-ch12-s3-005",
+      "set": 3,
+      "kind": "safety_precision",
+      "reason": "Removed absolute claims that earthing makes user contact harmless or always trips a breaker instantly; specified protective-device operation."
+    },
+    {
+      "id": "cbse10-sci-ch12-s3-007",
+      "set": 3,
+      "kind": "technical_accuracy",
+      "reason": "Updated nominal voltage to 230 V and clarified the meaning of frequency and direction reversals."
+    },
+    {
+      "id": "cbse10-sci-ch12-s3-008",
+      "set": 3,
+      "kind": "safety_precision",
+      "reason": "Removed an outdated fixed 220 V figure and refined the safety explanation without changing the correct concept."
+    },
+    {
+      "id": "cbse10-sci-ch12-s3-011",
+      "set": 3,
+      "kind": "scientific_precision",
+      "reason": "Removed the physically over-absolute claim that residual magnetism is virtually zero and disappears instantly."
+    },
+    {
+      "id": "cbse10-sci-ch12-s3-012",
+      "set": 3,
+      "kind": "scope_and_wording",
+      "reason": "Scoped the claim to EDS Maglev and removed the inaccurate implication that all Maglev systems use the same arrangement or have no resistance at all."
+    },
+    {
+      "id": "cbse10-sci-ch12-s3-013",
+      "set": 3,
+      "kind": "safety_precision",
+      "reason": "Removed the guarantee of an immediate trip and made clear that the appliance must be repaired; protective-device operation depends on installation."
+    }
+  ],
+  "nominal_indian_supply_reference": "230 V single phase, 50 Hz",
+  "sources": [
+    "NCERT Class X Science Chapter 12 for core magnetic effects, motor, induction and domestic circuit concepts",
+    "Bureau of Indian Standards, Plugs and Sockets (2023), https://www.bis.gov.in/wp-content/uploads/2023/08/Plugs-and-Sockets-20.pdf",
+    "Andhra Pradesh Electricity Regulatory Commission Draft Supply Code 2024, section 2.2, https://apserc.nic.in/pdf/Draft%20Regulations/Draft%20APSERC_Supply%20Code_2024.pdf"
+  ],
+  "deployment": "not deployed; production and staging untouched"
+}

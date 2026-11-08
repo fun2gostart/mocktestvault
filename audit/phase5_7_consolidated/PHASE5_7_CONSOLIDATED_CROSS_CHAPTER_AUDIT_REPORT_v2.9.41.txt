@@ -1,0 +1,40 @@
+MOCKTESTVAULT – PHASE 5.7 CONSOLIDATED CROSS-CHAPTER AUDIT
+Version: v2.9.41 | Baseline: v2.9.40 | Date: 2026-11-07
+
+SCOPE
+- 21 CBSE Class X Social Science chapters, Set 1–3 only.
+- 63 active set JSON files; 20 questions per set; 1,260 active questions.
+- 65 legacy base-file records were inventoried separately and not modified.
+
+RESULTS
+- All 1,260 active question IDs are unique.
+- All 1,260 answer indexes are within option bounds.
+- All 1,260 active records have required stem/options/answer/explanation fields.
+- No exact normalized duplicate stems remain among the 1,260 active records.
+- Pairwise fuzzy screen at >=78% stem similarity found two near-duplicate pairs before correction; both were rewritten to assess distinct concepts. No >=78% pairs remain after correction.
+- Automated explicit answer-letter marker scan found no mismatches. This is a narrow text screen, not semantic verification.
+- Two exact normalized-stem overlaps exist between active records and retained legacy base JSON records. Legacy files were left unchanged because runtime usage was not conclusively established.
+- 1,080 of 1,260 active questions lack a prior explicit question-level scope label. The audit adds a gap flag but does not invent Board-exam classification.
+- All records retain human SME sign-off pending and official PYQ authentication not performed.
+
+PRIMARY TEXT REFERENCES USED FOR THE TWO CROSS-CHAPTER CONCEPT DISTINCTIONS
+- NCERT Contemporary India-II, Chapter 7, Reprint 2026-27 (Kandla/Deendayal is a tidal port and was the first port developed soon after Independence to ease Mumbai): https://ncert.nic.in/textbook/pdf/jess107.pdf
+- NCERT Democratic Politics-II, Chapter 1 (federal division between general and provincial/regional governments; vertical division extends to higher/lower levels including municipalities and panchayats): https://www.ncert.nic.in/textbook/pdf/jess401.pdf
+
+CORRECTIONS
+1. cbse10-sst-geo-ch12-s3-012: Rewrote repeated Visakhapatnam port stem to test Kandla tidal-port identification; answer changed from Visakhapatnam to Kandla.
+2. cbse10-sst-civ-ch13-s2-016: Rewrote repeated federal-division definition to test vertical division across Union, State and local levels; option text corrected, answer index retained.
+
+SCOPE LIMITATIONS
+- This audit is structural, duplicate/near-duplicate and metadata-governance screening across the consolidated corpus. It does not re-perform full subject-matter verification for all 1,260 questions.
+- Chapter-level NCERT review evidence remains as previously recorded. Official CBSE 2026–27 scope mapping is incomplete at question level and must be finalized against the official curriculum before Board-exam tagging.
+- Original PYQ provenance and official answer-key authentication remain outstanding.
+- 65 legacy base records are retained unchanged; two have exact normalized stem overlap with active-set items. Their runtime loading status was not established in this audit.
+
+TECHNICAL VALIDATION
+- Input archive ZIP test: PASS.
+- Active JSON records parsed: 1,260/1,260.
+- Unique IDs: 1,260/1,260.
+- Valid answer indexes: 1,260/1,260.
+- Required fields: 1,260/1,260.
+- New cache key: mtv-cbt-v73 (previous mtv-cbt-v72 removed).

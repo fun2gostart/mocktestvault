@@ -1,0 +1,46 @@
+PHASE 5.10 – DETAILED MATHEMATICS VERIFICATION
+Chapter 7: Coordinate Geometry
+Version: v2.9.52
+Baseline: v2.9.51
+Review date: 2026-11-07
+
+SCOPE
+- Set 1: 20 active questions
+- Set 2: 20 active questions
+- Set 3: 20 active questions
+- Total: 60 active questions
+
+RESULTS
+- 60/60 stored answer keys match independent mathematical checks.
+- 0 answer-key changes.
+- 1 explanation/option-wording correction: Set 1 Q13 now uses a direct unequal-slope proof; answer index remains unchanged.
+- 1 curriculum-scope classification clarified: Set 1 Q15 uses the circle-centre/diameter fact in addition to midpoint calculation.
+- 0 exact normalized duplicate stems across active sets.
+- 3 fuzzy stem pairs at similarity >=72% were screened; all retained as distinct because the operation, values, or inference differs.
+- All 3 chapter-page set JSON paths are explicitly present in the HTML source.
+- Service-worker cache advanced mtv-cbt-v77 -> mtv-cbt-v78.
+
+ACADEMIC REVIEW
+- All 60 calculations, formula applications, and assertion–reason truth/explanation relationships were independently checked.
+- Set 3 Q2 was specifically re-examined: the y-axis condition x=0, combined with the section formula, yields AP:PB=3:2. The existing answer (option A) is defensible and was retained.
+- No answer-key discrepancy was identified. Set 1 Q13 had an incomplete proof for the selected answer; this was corrected without changing its key.
+- This is AI-assisted independent mathematical verification, not human SME certification.
+
+CURRICULUM SCOPE
+- CBSE Class X Mathematics 2026-27 Unit III explicitly lists the distance formula and section formula (internal division).
+- Midpoint is treated as the 1:1 internal-division case.
+- 31 questions are tagged as core/direct formula applications; 29 questions are tagged as enrichment/beyond the explicitly named Unit III content.
+- Enrichment items are retained, not deleted, but must not be represented as core syllabus coverage.
+- 29 questions are recorded in the scope-flag register.
+- Set 1 Q15 is flagged as cross-topic because it relies on the circle fact that the centre bisects a diameter.
+
+SOURCES
+- CBSE, Mathematics, Class X (2026-27), Unit III Coordinate Geometry: https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf
+- NCERT, Mathematics Textbook for Class X, Chapter 7 Coordinate Geometry (chapter/topic reference only; no item-level PYQ authentication).
+
+LIMITATIONS / GOVERNANCE
+- Human subject-matter sign-off remains pending for all 60 questions.
+- Exact PYQ/source-paper and official answer-key authentication was not performed.
+- Static source/page-path verification only; Hostinger staging, browser network, and production runtime checks were not performed.
+- Legacy root JSON data/in/cbse10/mathematics/ch07_coordinate_geometry.json is retained; chapter HTML explicitly references the three set JSON files, not this legacy root file. Do not delete legacy data without a separate live-reference check.
+- No production deployment or Hostinger changes were made.

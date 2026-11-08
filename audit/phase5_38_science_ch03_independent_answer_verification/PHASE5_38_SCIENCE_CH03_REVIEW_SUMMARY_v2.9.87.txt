@@ -1,0 +1,51 @@
+PHASE 5.38 – SCIENCE CHAPTER 3: METALS AND NON-METALS
+Revision: v2.9.87
+Baseline: v2.9.86
+
+SCOPE
+- Three active question sets reviewed: 20 questions each (60 total).
+- Each question stem, four options, stored answer index and explanation was checked.
+- The review is AI-assisted independent chemistry verification, not formal teacher/SME approval.
+
+RESULTS
+- Questions reviewed: 60/60
+- Verified without content change: 44
+- Question records corrected: 16
+- Field-level corrections: 32 (some records have more than one changed field).
+- Substantive answer-key corrections: 2 (Set 3 Q8 and Set 3 Q10). One additional answer-index update in Set 2 Q17 reflects the revised option ordering, not a change in the correct scientific answer.
+- Question IDs changed/deleted: 0
+- All 60 answer indexes valid after correction.
+
+KEY CORRECTIONS
+1. Set 1 Q2: clarified kerosene storage and avoided implying hydrogen always ignites.
+2. Set 1 Q7: removed unsupported precise thermite temperature.
+3. Set 1 Q12: qualified galvanic protection as local and finite.
+4. Set 1 Q14: corrected silver tarnish chemistry explanation.
+5. Set 1 Q16: corrected anodising mechanism.
+6. Set 2 Q17: removed absolute wording about pure iron and clarified steel alloying.
+7. Set 2 Q19: corrected soldering/welding terminology and context.
+8. Set 3 Q7: clarified that sacrificial protection applies locally while sufficient zinc remains.
+9. Set 3 Q8: reason is false as written; answer changed to option 3 (zero-based index 2).
+10. Set 3 Q10: iron-pillar reason is scientifically inaccurate; answer changed to option 3 (zero-based index 2).
+11. Set 3 Q13: reframed aluminium corrosion question to avoid overclaim about acidic food juices.
+12. Set 3 Q14: corrected eutectic solder composition to approximately 63% Sn / 37% Pb for 183°C.
+13. Set 3 Q15: reframed as reactivity-series order rather than a universal measured rate ranking.
+14. Set 3 Q18: specified common austenitic stainless steel; nickel is not in every stainless grade.
+15. Set 3 Q19: removed unsupported refinery electricity-bill claim and qualified anode-mud composition.
+16. Set 3 Q20: removed overbroad claim that zinc salts are necessarily toxic.
+
+NOTE: There are 16 corrected records. Two answer keys were changed (Set 3 Q8 and Q10). The field-level correction count is reported in the corrections CSV.
+
+CONTROLS
+- Three active JSON sets parsed successfully.
+- 60/60 IDs unique and preserved.
+- 60/60 answer indexes in range.
+- Two legacy Set 1 compatibility files synchronised with the active Set 1 JSON.
+- No HTML, JavaScript, CSS, routes, SEO metadata or deployment configuration changed.
+- Human academic sign-off remains pending.
+- No staging or production deployment performed.
+
+REFERENCE
+NCERT Class X Science, Chapter 3 – Metals and Non-metals (official NCERT textbook portal):
+https://ncert.nic.in/textbook.php?jesc1=1-11
+The question bank contains some enrichment material beyond the core NCERT chapter; this phase checks scientific correctness, not a full curriculum-scope adjudication.

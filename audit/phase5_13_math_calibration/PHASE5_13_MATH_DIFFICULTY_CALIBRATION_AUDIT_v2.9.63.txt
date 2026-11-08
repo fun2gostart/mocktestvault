@@ -1,0 +1,48 @@
+MOCKTESTVAULT — PHASE 5.13: MATHEMATICS DIFFICULTY CALIBRATION & MOCK-TEST BALANCING
+Revision: v2.9.63 | Baseline: v2.9.62 | Audit date: 2026-11-07
+Scope: 14 chapters, 42 active sets, 840 questions.
+
+EXECUTIVE DECISION
+No live question movement or difficulty-label changes were made. The current data does not support safe automatic balancing by quotas alone. Difficulty distributions differ materially, but granular subtopic labels are not shared across the three sets in any chapter. Moving questions solely to equalize difficulty counts could alter topic coverage and undermine assessment validity.
+
+CURRENT AGGREGATE DIFFICULTY
+Easy: 291 / 840 (34.6%)
+Medium: 360 / 840 (42.9%)
+Hard: 189 / 840 (22.5%)
+
+SET-LEVEL DIFFICULTY (280 QUESTIONS EACH)
+Set 1: Easy 155 (55.4%), Medium 112 (40.0%), Hard 13 (4.6%).
+Set 2: Easy 28 (10.0%), Medium 121 (43.2%), Hard 131 (46.8%).
+Set 3: Easy 108 (38.6%), Medium 127 (45.4%), Hard 45 (16.1%).
+
+CHAPTER-LEVEL VARIANCE
+Largest Hard-share range: Chapter 8 (75.0 percentage points).
+Next priority chapters: Chapter 8, Chapter 12, Chapter 4, Chapter 5, Chapter 9, Chapter 14.
+Common granular subtopic labels across all three sets: 0 in each chapter. This signals that the current metadata is too granular or that set topic coverage differs; normalize to learning outcomes before rearranging questions.
+
+WHY AUTO-REBALANCING WAS REJECTED
+A quota-only distribution prototype would require approximately 162 question transfers across the 14 chapters. It was not applied because a count-based move ignores topic/learning-outcome coverage and the dependency of question IDs on their original set. No safe subtopic-preserving swap could be confirmed from the available granular subtopic labels alone.
+A 6 Easy / 10 Medium / 4 Hard mix per 20-question set may be used as a provisional design target only after the learning-outcome blueprint and cognitive-demand scores are established. It is not an official CBSE blueprint.
+
+PRIORITY MANUAL CALIBRATION QUEUE
+286 questions have been placed in a review queue: all Set 1 questions currently labelled Easy and all Set 2 questions currently labelled Hard. These are candidates for reassessment, not confirmed misclassifications.
+Review rubric: direct recall vs routine application vs multi-step/non-routine reasoning; abstraction; calculation load; number of reasoning steps; likely completion time; and the learning outcome tested.
+
+RECOMMENDED CONTROLLED METHOD
+1. Normalize granular subtopic labels into a chapter-level learning-outcome taxonomy.
+2. Assign each question a cognitive-demand rating using a consistent rubric (L1 direct recall/one-step; L2 routine application/two-step; L3 multi-step/non-routine reasoning).
+3. Reassess the priority queue first; do not alter labels solely to meet quotas.
+4. Create a blueprint per 20-question set with matched learning outcomes, cognitive demand, marks and expected time.
+5. Only then recompose parallel sets. Preserve original question IDs in a migration map and update every dependent register/reference atomically.
+6. If existing items cannot produce equivalent forms without losing coverage, author additional questions rather than force-move items.
+7. If the intended design is progressive practice, label the sets accordingly instead of calling them equivalent mock tests.
+
+CHANGE CONTROL
+- No active question JSON changed.
+- No question, option, answer, explanation, difficulty label or question ID changed.
+- No website UI/service worker changed.
+- Added distribution registers, chapter priority register, impact assessment and 286-item priority queue.
+- ZIP integrity passed; no deployment performed.
+
+LIMITATIONS
+Difficulty labels were audited as metadata and have not been independently re-scored item by item. No student response or time-on-task data was provided, so empirical item difficulty, discrimination, distractor efficiency and completion-time estimates cannot be computed. Human academic verification reported by the user is respected; reviewer identities/dates were not inferred or altered.

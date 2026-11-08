@@ -1,0 +1,8 @@
+CHANGELOG — v2.9.61
+- Phase 5.11 Mathematics PYQ authenticity / provenance audit.
+- Added item-level provenance register for 160 CBSE 2023/2024 year-labelled Mathematics practice questions.
+- Changed dataset exam labels to explicitly identify independent year-labelled practice sets.
+- Rewrote legacy citation notes so they cannot be interpreted as proof of official-paper provenance.
+- Added structured per-question PYQ authentication status and required evidence.
+- Preserved question stems, options, answer indexes, explanations, existing academic review statuses, and public HTML disclosures.
+- No production deployment.

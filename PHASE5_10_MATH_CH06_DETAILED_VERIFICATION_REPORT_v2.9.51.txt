@@ -1,0 +1,47 @@
+PHASE 5.10 – DETAILED MATHEMATICS VERIFICATION
+Chapter 6: Triangles
+Version: v2.9.51
+Baseline: v2.9.50
+Review date: 2026-11-07
+
+SCOPE
+- Set 1: 20 active questions
+- Set 2: 20 active questions
+- Set 3: 20 active questions
+- Total: 60 active questions
+
+RESULTS
+- 60/60 stored answer keys match independent mathematical checks.
+- 0 answer-key changes.
+- 1 editorial wording cleanup: Set 3 Q17 had an irrelevant drone-altitude detail; the scale factor remains 1:2000 (option C).
+- 0 exact normalized duplicate stems remain across active sets.
+- 3 fuzzy stem pairs at similarity >=72% were screened; similarities were retained as distinct questions because the task/data/concept differs.
+- 24 curriculum/scope flags were recorded. No question was automatically deleted.
+- All 3 chapter-page set JSON paths are explicitly present in the HTML source.
+- Service-worker cache advanced mtv-cbt-v76 -> mtv-cbt-v77.
+
+ACADEMIC REVIEW
+- All calculations and theorem applications were independently checked against the stated geometry and data.
+- Assertion–Reason logic was checked for truth values and explanatory relationship.
+- No answer-key discrepancy was identified.
+- Some items are mathematically valid but assess prerequisite Pythagoras, rhombus/circle properties, angle-bisector theorem, Apollonius theorem, or derived right-triangle identities rather than the central outcomes of the current Triangles chapter. These are explicitly flagged for scope-aware presentation.
+
+SCOPE FLAGS
+- 24 questions flagged as prerequisite, derived extension, or cross-topic material.
+- Core chapter alignment is based on NCERT Class X Mathematics Chapter 6 (Reprint 2026-27): similarity of figures/triangles, BPT and converse, AAA/SSS/SAS similarity, trapezium applications, indirect measurement, medians in similar triangles, and related exercises/examples.
+- NCERT describes Pythagoras as a result learned earlier; Pythagoras-only tasks are therefore labelled prerequisite/application rather than misrepresented as new Chapter 6 theorem content.
+
+CORRECTION
+- Set 3 Q17: removed the unrelated “500 m altitude” detail because it is not used to calculate the image-to-ground scale factor. No answer, option, or answer index changed.
+
+SOURCES
+- NCERT, Mathematics Textbook for Class X, Chapter 6 “Triangles”, Reprint 2026-27: https://ncert.nic.in/textbook/pdf/jemh106.pdf
+- CBSE Curriculum 2026-27 Class X listing: https://cbseacademic.nic.in/curriculum_2027.html
+
+LIMITATIONS / GOVERNANCE
+- This is AI-assisted independent mathematical verification, not human SME certification.
+- Human SME sign-off remains pending for all 60 questions.
+- Exact PYQ/source-paper and official answer-key authentication was not performed.
+- NCERT chapter structure was checked directly; direct CBSE 2026-27 Mathematics curriculum PDF item-level mapping remains pending.
+- Static source/page-path verification only; Hostinger staging, browser network, and production runtime checks were not performed.
+- No production deployment or Hostinger changes were made.

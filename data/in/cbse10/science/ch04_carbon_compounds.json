@@ -4,21 +4,21 @@
     "type": "mcq",
     "subtopic": "Covalent Bonding in Carbon",
     "difficulty": "Easy",
-    "question": "Carbon forms covalent bonds rather than ionic bonds because forming C⁴⁺ or C⁴⁻ ions is energetically unfavorable. Which of the following properties are characteristic of covalent carbon compounds?",
+    "question": "Many simple molecular covalent compounds of carbon have relatively low melting and boiling points and do not conduct electricity. Which option best describes these typical properties?",
     "options": [
-      "Low melting/boiling points and are poor conductors of electricity",
       "High melting points and conduct electricity in solid state",
       "High electrical conductivity in molten state",
-      "Soluble exclusively in inorganic polar solvents"
+      "Soluble exclusively in inorganic polar solvents",
+      "Low melting/boiling points and are poor conductors of electricity"
     ],
-    "answer": 0,
-    "explanation": "Covalent compounds share electrons between atoms, so no free ions or charged particles are present, making them poor conductors of electricity. Their intermolecular forces are relatively weak, leading to low melting and boiling points.",
+    "answer": 3,
+    "explanation": "In simple molecular covalent compounds, atoms share electron pairs within each molecule. The covalent bonds within a molecule are strong, but the intermolecular attractions between molecules are often comparatively weak; therefore many such substances have relatively low melting and boiling points. They generally lack mobile ions or electrons, so they conduct electricity poorly. This is a typical pattern, not a rule for every covalent solid: giant covalent structures such as diamond have very high melting points.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.1",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -33,7 +33,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -43,19 +46,19 @@
     "difficulty": "Easy",
     "question": "Which allotrope of carbon consists of carbon atoms arranged in layers of hexagonal arrays held by weak van der Waals forces, making it soft, slippery, and a good conductor of electricity?",
     "options": [
+      "Graphite",
       "Diamond",
       "Buckminsterfullerene (C-60)",
-      "Carbon nanotube",
-      "Graphite"
+      "Carbon nanotube"
     ],
-    "answer": 3,
-    "explanation": "In graphite, each carbon atom is bonded to three other carbons in the same plane giving a hexagonal array. One valence electron remains delocalized, allowing graphite to conduct electricity. The slippery layers make it an effective solid lubricant.",
+    "answer": 0,
+    "explanation": "Graphite is a crystalline allotrope of carbon in which each carbon atom is covalently bonded to three neighbouring carbon atoms in the same plane, forming flat sheets of hexagonal arrays. Because only 3 of carbon's 4 valence electrons participate in localized sigma bonds, the fourth valence electron is delocalized throughout the planar pi-system, allowing graphite to conduct electricity exceptionally well. The hexagonal planes are held together by weak van der Waals forces, allowing them to slide smoothly, making graphite soft and slippery.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.1.1 (Allotropes Box)",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -70,7 +73,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -81,18 +87,18 @@
     "question": "In a homologous series of organic compounds, two successive members differ in their molecular formula and molecular mass respectively by:",
     "options": [
       "-CH₃ and 15 u",
-      "-CH- and 13 u",
       "-CH₂- and 14 u",
+      "-CH- and 13 u",
       "-C₂H₄ and 28 u"
     ],
-    "answer": 2,
-    "explanation": "Consecutive members of any homologous series (e.g. CH₄ and C₂H₆, or CH₃OH and C₂H₅OH) differ by one carbon atom and two hydrogen atoms (-CH₂- unit). Carbon mass = 12 u, 2×H = 2 u; total mass difference is 14 u.",
+    "answer": 1,
+    "explanation": "A homologous series is a family of organic compounds containing the same functional group and displaying similar chemical properties, where successive members conform to a regular structural progression. Any two adjacent successive members of a homologous series (such as methane CH₄ and ethane C₂H₆, or methanol CH₃OH and ethanol C₂H₅OH) differ structurally by a methylene bridge unit, -CH₂-. Given standard atomic masses of Carbon (12 u) and Hydrogen (1 u), the difference in molecular mass between successive members is exactly 12 + 2 = 14 u.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.2.2",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -107,7 +113,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -118,18 +127,18 @@
     "question": "What is the structural orientation of a soap molecule during micelle formation when dissolved in water containing oily dirt?",
     "options": [
       "Hydrophobic ionic head towards oil; hydrophilic hydrocarbon tail towards water",
-      "Hydrophobic hydrocarbon tail dissolves in oil/dirt; hydrophilic ionic head faces outward in water",
       "Both ends dissolve completely inside the oil droplet",
+      "Hydrophobic hydrocarbon tail dissolves in oil/dirt; hydrophilic ionic head faces outward in water",
       "Both ends face outward towards water molecules"
     ],
-    "answer": 1,
-    "explanation": "A soap molecule has two ends: a long non-polar hydrocarbon tail that is hydrophobic (water-repelling) and dissolves in oily dirt, and an ionic end (COO⁻Na⁺) that is hydrophilic (water-attracting). In water, they form radial spherical clusters called micelles.",
+    "answer": 2,
+    "explanation": "A soap molecule (e.g. sodium stearate, C₁₇H₃₅COO⁻Na⁺) is amphiphilic, containing two chemically distinct ends: (1) A long non-polar aliphatic hydrocarbon tail that is hydrophobic ('water-hating') and lipophilic, which readily dissolves into non-polar oily dirt; (2) An ionic carboxylate head (-COO⁻Na⁺) that is hydrophilic ('water-loving') and interacts strongly with polar water molecules via ion-dipole forces. In water, soap molecules assemble into spherical colloidal aggregates called micelles, trapping the oil droplet at the center.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.5 (Soaps and Detergents)",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -144,7 +153,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -152,7 +164,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Hydrogenation Reaction",
     "difficulty": "Board Standard",
-    "question": "Assertion (A): Vegetable oils containing unsaturated fatty acids are generally recommended for healthy cooking over animal fats.\nReason (R): Unsaturated hydrocarbons undergo addition reactions with hydrogen in the presence of nickel catalyst to form saturated fats.",
+    "question": "Assertion (A): Vegetable oils containing unsaturated fatty acids are generally preferred as cooking oils over fats high in saturated fatty acids.\nReason (R): Unsaturated fatty-acid chains in vegetable oils can undergo addition of hydrogen in the presence of a nickel catalyst, making the oil more saturated.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -160,13 +172,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 1,
-    "explanation": "Vegetable oils contain long unsaturated carbon chains and are considered heart-healthy, whereas saturated animal fats can raise cholesterol. The industrial hydrogenation of oils using nickel is also chemically true, but does not explain the biological nutritional benefit.",
+    "explanation": "NCERT describes vegetable oils as containing long unsaturated carbon chains and explains that hydrogenation with a nickel catalyst is used to convert vegetable oils into more saturated fats. The chemically precise description is hydrogenation of unsaturated fatty-acid chains within the oil; vegetable oils themselves are triglyceride mixtures, not hydrocarbons. The assertion reflects the school-level distinction between oils rich in unsaturated fatty acids and fats rich in saturated fatty acids. The hydrogenation statement is also true, but it does not explain the dietary reason for preferring unsaturated oils. Therefore, both statements are true, but the Reason is not the correct explanation of the Assertion.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.3.3",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -181,7 +193,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -193,17 +208,17 @@
     "options": [
       "1",
       "3",
-      "4",
-      "2"
+      "2",
+      "4"
     ],
-    "answer": 3,
-    "explanation": "Butane (C₄H₁₀) has two structural isomers: n-butane (unbranched straight chain: CH₃-CH₂-CH₂-CH₃) and isobutane / 2-methylpropane (branched chain: CH₃-CH(CH₃)-CH₃). Both possess identical molecular formulas but different carbon chain skeletal structures.",
+    "answer": 2,
+    "explanation": "Structural isomers are chemical compounds having identical molecular formulas but distinct skeletal arrangements or connectivity of carbon atoms. Butane has the molecular formula C₄H₁₀. It forms exactly two structural isomers: (1) n-butane (normal butane), an unbranched straight-chain alkane: CH₃-CH₂-CH₂-CH₃ (boiling point -0.5°C); (2) isobutane (IUPAC name: 2-methylpropane), a branched-chain isomer where a central carbon is bonded to three methyl groups: CH₃-CH(CH₃)-CH₃ (boiling point -11.7°C). No other stable skeletal arrangements exist.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.2.1",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -218,7 +233,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -226,7 +244,7 @@
     "type": "mcq",
     "subtopic": "Alkynes & General Formulas",
     "difficulty": "Easy",
-    "question": "Which of the following represents the correct general molecular formula for the homologous series of alkynes containing a triple bond?",
+    "question": "Which of the following represents the correct general molecular formula for open-chain alkynes containing one carbon-carbon triple bond?",
     "options": [
       "CₙH₂ₙ₊₂",
       "CₙH₂ₙ₋₂",
@@ -234,13 +252,13 @@
       "CₙH₂ₙ₋₄"
     ],
     "answer": 1,
-    "explanation": "Alkanes have the general formula CₙH₂ₙ₊₂, alkenes (with a double bond) have CₙH₂ₙ, and alkynes (containing a carbon-carbon triple bond) have the formula CₙH₂ₙ₋₂. For propyne (n=3), formula is C₃H₄.",
+    "explanation": "Open-chain (acyclic) alkynes containing one carbon-carbon triple bond have the general formula CₙH₂ₙ₋₂. For example, when n = 3, propyne has the formula C₃H₄. The stated formula is not a universal formula for cyclic or multiple-triple-bond compounds.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.2.1",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -255,7 +273,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -267,17 +288,17 @@
     "options": [
       "2 electrons (1 pair)",
       "4 electrons (2 pairs)",
-      "6 electrons (3 pairs)",
-      "8 electrons (4 pairs)"
+      "8 electrons (4 pairs)",
+      "6 electrons (3 pairs)"
     ],
-    "answer": 2,
-    "explanation": "Nitrogen has atomic number 7 with electronic configuration (2, 5). To attain an octet, each nitrogen atom contributes 3 electrons, sharing a total of 6 electrons (3 pairs) to form a triple covalent bond (N≡N).",
+    "answer": 3,
+    "explanation": "A nitrogen atom has atomic number 7 with ground-state electron configuration (2, 5), having 5 valence electrons in its outer shell. To achieve the stable noble-gas octet configuration of neon (8 electrons), each nitrogen atom requires 3 additional electrons. When two nitrogen atoms combine to form a diatomic nitrogen molecule (N₂), each nitrogen atom contributes 3 valence electrons toward sharing. A total of 6 electrons (3 electron pairs) are shared between the two nitrogen nuclei, establishing a strong triple covalent bond (:N≡N:).",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.1",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -292,7 +313,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -300,7 +324,7 @@
     "type": "mcq",
     "subtopic": "Oxidation of Ethanol",
     "difficulty": "Medium",
-    "question": "When ethanol (CH₃CH₂OH) is warmed with alkaline potassium permanganate (KMnO₄) or acidified potassium dichromate (K₂Cr₂O₇), it is converted into:",
+    "question": "When ethanol is oxidised completely using a suitable excess of alkaline potassium permanganate or acidified potassium dichromate, followed where necessary by acidification, which carboxylic acid is obtained?",
     "options": [
       "Ethanoic acid",
       "Ethene",
@@ -308,13 +332,13 @@
       "Methane"
     ],
     "answer": 0,
-    "explanation": "Alkaline KMnO₄ or acidified K₂Cr₂O₇ are strong oxidizing agents. They supply nascent oxygen to oxidize ethanol into ethanoic acid: CH₃CH₂OH + 2[O] → CH₃COOH + H₂O.",
+    "explanation": "Ethanol is a primary alcohol. With a suitable excess of a strong oxidising agent, it can be oxidised beyond ethanal to ethanoic acid. In alkaline potassium permanganate, the product is initially present as ethanoate; acidification gives ethanoic acid. Acidified potassium dichromate can also oxidise ethanol to ethanoic acid. The orange dichromate solution is reduced to green chromium(III) species; permanganate is also reduced as it oxidises the alcohol.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.3.2",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -329,7 +353,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -340,18 +367,18 @@
     "question": "Heating ethanol at 443 K (170°C) with excess concentrated sulfuric acid (conc. H₂SO₄) produces ethene and water. In this reaction, conc. H₂SO₄ functions as a:",
     "options": [
       "Catalytic reducing agent",
-      "Dehydrating agent",
       "Neutralizing base",
+      "Dehydrating agent",
       "Oxidizing salt"
     ],
-    "answer": 1,
-    "explanation": "Concentrated sulfuric acid removes water molecules from ethanol to yield ethene (CH₃CH₂OH → CH₂=CH₂ + H₂O at 443 K). Substances that remove water from compounds are known as dehydrating agents.",
+    "answer": 2,
+    "explanation": "When ethanol (CH₃CH₂OH) is heated at an elevated temperature of 443 K (170°C) with an excess of concentrated sulfuric acid (conc. H₂SO₄), an intramolecular dehydration reaction occurs: CH₃CH₂OH —[Conc. H₂SO₄, 443 K]→ CH₂=CH₂ + H₂O. Concentrated sulfuric acid has an extraordinarily high thermodynamic affinity for water, removing a molecule of water (a hydrogen atom from one carbon and a hydroxyl -OH group from the adjacent carbon) to generate unsaturated ethene gas. Hence, conc. H₂SO₄ functions strictly as a dehydrating agent.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.4.1",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -366,7 +393,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -382,13 +412,13 @@
       "Decarboxylation"
     ],
     "answer": 0,
-    "explanation": "CH₃COOH (Ethanoic acid) + C₂H₅OH (Ethanol) —[Acid]→ CH₃COOC₂H₅ (Ethyl ethanoate ester) + H₂O. The reaction between a carboxylic acid and an alcohol to form a sweet-smelling ester is known as esterification.",
+    "explanation": "Esterification is the reversible condensation reaction between a carboxylic acid and an alcohol in the presence of an inorganic mineral acid catalyst (such as concentrated H₂SO₄): CH₃COOH(l) + C₂H₅OH(l) —[Conc. H₂SO₄]⇌ CH₃COOC₂H₅(l) + H₂O(l). Ethanoic acid reacts with absolute ethanol to form ethyl ethanoate (an ester) and water. Esters are characterized by pleasant, volatile, fruity, sweet fragrances; they occur naturally in fruits and flowers and are extensively manufactured as synthetic flavouring essences and in fine perfumes.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.4.2",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -403,7 +433,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -414,18 +447,18 @@
     "question": "When ethyl ethanoate ester is treated with an aqueous solution of sodium hydroxide (NaOH), it is converted back into ethanol and sodium ethanoate. This alkaline hydrolysis is called:",
     "options": [
       "Esterification",
+      "Saponification",
       "Hydrogenation",
-      "Combustion",
-      "Saponification"
+      "Combustion"
     ],
-    "answer": 3,
-    "explanation": "CH₃COOC₂H₅ + NaOH → C₂H₅OH + CH₃COONa. Esters react in the presence of an alkali to give back the alcohol and sodium salt of carboxylic acid. This reaction is known as saponification because it is used in the preparation of soap.",
+    "answer": 1,
+    "explanation": "Alkaline hydrolysis of an ester produces an alcohol and the carboxylate salt. For ethyl ethanoate: CH₃COOC₂H₅ + NaOH → C₂H₅OH + CH₃COONa. This reaction is commonly called saponification in school chemistry; the term is especially associated with alkaline hydrolysis of fats and oils to make soap.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.4.2",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -440,7 +473,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -448,21 +484,21 @@
     "type": "mcq",
     "subtopic": "Testing Unsaturated Hydrocarbons",
     "difficulty": "Hard",
-    "question": "Which reagent is used in the laboratory to distinguish chemically between a cooking vegetable oil (unsaturated) and butter (saturated)?",
+    "question": "Which reagent can be used as a qualitative test for carbon-carbon unsaturation in a sample of vegetable oil?",
     "options": [
       "Universal indicator paper",
       "Sodium chloride solution",
-      "Bromine water (or alkaline KMnO₄)",
-      "Dilute hydrochloric acid"
+      "Dilute hydrochloric acid",
+      "Bromine water (or alkaline KMnO₄)"
     ],
-    "answer": 2,
-    "explanation": "Unsaturated hydrocarbons (like cooking vegetable oil) contain double or triple bonds and decolorize reddish-brown bromine water due to an addition reaction. Saturated compounds (like butter) do not undergo addition and do not decolorize bromine water.",
+    "answer": 3,
+    "explanation": "Bromine water can be decolourised by compounds containing carbon-carbon double bonds because bromine adds across the double bond. Vegetable oils commonly contain unsaturated fatty-acid chains, so a suitable oil sample can decolourise bromine water under an appropriate test procedure. The result indicates unsaturation; it does not imply that every animal fat, including butter, is completely saturated. Alkaline potassium permanganate is another qualitative reagent used to test unsaturation.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.3.3",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -477,7 +513,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -493,13 +532,13 @@
       "Sulfur dioxide (SO₂)"
     ],
     "answer": 1,
-    "explanation": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑. Ethanoic acid reacts with carbonates and hydrogencarbonates to liberate carbon dioxide gas with brisk effervescence, which turns lime water milky.",
+    "explanation": "Ethanoic acid (CH₃COOH) is a typical carboxylic acid that reacts with metal carbonates and metal hydrogencarbonates to form a salt, water, and liberate carbon dioxide gas with vigorous, brisk effervescence: (1) 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑; (2) CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂↑. When the evolved colourless and odourless gas is bubbled through freshly prepared clear lime water [Ca(OH)₂], it forms an insoluble white precipitate of calcium carbonate (CaCO₃), turning the lime water milky, confirming it is CO₂.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.4.2",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -514,7 +553,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -524,19 +566,19 @@
     "difficulty": "Medium",
     "question": "Why do soaps form an insoluble sticky precipitate (scum) when used with hard water?",
     "options": [
+      "Soap reacts with dissolved Ca²⁺ and Mg²⁺ ions to form insoluble calcium and magnesium salts of fatty acids",
       "Soap undergoes complete combustion in the presence of dissolved oxygen",
       "Soap dissolves the dirt but hard water instantly evaporates",
-      "Soap reacts with dissolved Ca²⁺ and Mg²⁺ ions to form insoluble calcium and magnesium salts of fatty acids",
       "Soap decomposes into gaseous sodium vapor"
     ],
-    "answer": 2,
-    "explanation": "Hard water contains dissolved calcium and magnesium hydrogencarbonates, chlorides, or sulphates. Soap molecules react with these Ca²⁺ and Mg²⁺ ions to form insoluble calcium and magnesium stearate/palmitate (scum), wasting soap before lather can form.",
+    "answer": 0,
+    "explanation": "Hard water contains dissolved salts of calcium and magnesium, such as calcium hydrogen carbonate [Ca(HCO₃)₂], magnesium chloride (MgCl₂), and calcium sulphate (CaSO₄). Ordinary soap molecules (sodium salts of long-chain fatty acids, RCOO⁻Na⁺) react instantaneously with dissolved Ca²⁺ and Mg²⁺ divalent cations: 2RCOO⁻Na⁺(aq) + Ca²⁺(aq) → (RCOO)₂Ca(s)↓ + 2Na⁺(aq). The resulting calcium and magnesium carboxylates are completely insoluble in water and precipitate out as a sticky, curdy grey-white scum, wasting soap and impeding lather.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.5",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -551,7 +593,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -561,19 +606,19 @@
     "difficulty": "Easy",
     "question": "Why are synthetic detergents effective for cleansing clothes even in hard water, unlike ordinary soaps?",
     "options": [
-      "Their charged ends (sulfonates/sulfates) do not form insoluble precipitates with calcium and magnesium ions",
       "They are acidic in nature and neutralize all water minerals",
       "They contain high concentrations of animal fat",
+      "Their charged ends (sulfonates/sulfates) do not form insoluble precipitates with calcium and magnesium ions",
       "They boil the hard water instantaneously upon contact"
     ],
-    "answer": 0,
-    "explanation": "Detergents are generally sodium salts of sulfonic acids or ammonium salts with chlorides or bromides ions. The charged ends of these compounds do not form insoluble precipitates with calcium and magnesium ions in hard water, allowing them to lather easily.",
+    "answer": 2,
+    "explanation": "Synthetic detergents are usually sodium salts of long-chain alkylbenzene sulphonic acids (R-C₆H₄-SO₃⁻Na⁺) or alkyl hydrogen sulphates. When added to hard water containing dissolved divalent calcium (Ca²⁺) and magnesium (Mg²⁺) mineral ions, the sulphonate head groups (-SO₃⁻) interact with Ca²⁺ and Mg²⁺ to form calcium and magnesium sulphonate compounds that remain fully soluble in water. Because detergents do not form an insoluble curdy precipitate (scum) with hard water minerals, they lather freely and cleanse fabrics effectively.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.5",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -588,7 +633,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -596,21 +644,21 @@
     "type": "mcq",
     "subtopic": "Combustion Flames",
     "difficulty": "Easy",
-    "question": "Saturated hydrocarbons generally burn in air with a clean blue flame. Why do unsaturated hydrocarbons (like ethene and ethyne) burn with a yellow flame producing lots of black smoke?",
+    "question": "When oxygen supply is limited, why can some unsaturated hydrocarbons such as ethyne burn with a yellow, sooty flame?",
     "options": [
       "They contain no carbon atoms in their molecular backbone",
       "They absorb all ambient oxygen without reacting chemically",
       "They have significantly higher boiling points than alkanes",
-      "They contain a higher percentage of carbon, leading to incomplete combustion of unburnt carbon particles"
+      "Their relatively high carbon-to-hydrogen ratio can favour formation of glowing carbon particles during incomplete combustion"
     ],
     "answer": 3,
-    "explanation": "Unsaturated hydrocarbons have a higher percentage of carbon than saturated hydrocarbons. As a result, they do not undergo complete oxidation in atmospheric oxygen and produce luminous yellow sooty flames containing glowing unburnt carbon particles.",
+    "explanation": "Some unsaturated hydrocarbons, particularly ethyne, have a relatively high carbon-to-hydrogen ratio. If the air supply is insufficient for complete combustion, tiny hot carbon particles can form and glow, producing a yellow luminous, sooty flame. Flame appearance also depends on the fuel and the availability and mixing of oxygen; unsaturation alone does not guarantee soot in every combustion condition.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.3.1",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -625,7 +673,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -635,19 +686,19 @@
     "difficulty": "Medium",
     "question": "In the presence of sunlight, methane reacts with chlorine to form chloromethane and hydrogen chloride: CH₄ + Cl₂ → CH₃Cl + HCl. This reaction is classified as a:",
     "options": [
-      "Substitution reaction",
       "Addition reaction",
       "Decomposition reaction",
+      "Substitution reaction",
       "Esterification reaction"
     ],
-    "answer": 0,
-    "explanation": "Saturated hydrocarbons are fairly unreactive in the presence of most reagents. However, in the presence of sunlight, chlorine replaces the hydrogen atoms of methane one by one. This type of reaction is called a substitution reaction.",
+    "answer": 2,
+    "explanation": "Saturated hydrocarbons (alkanes) are relatively inert toward many common laboratory chemical reagents due to strong single C-C and C-H sigma bonds. However, when exposed to diffused sunlight or ultraviolet irradiation, methane reacts with chlorine gas via a free-radical halogenation mechanism: CH₄ + Cl₂ —[Sunlight]→ CH₃Cl + HCl. In this photochemical reaction, chlorine atoms replace (substitute) the hydrogen atoms of the alkane molecule one by one. Such reactions where one atom or functional group replaces another are substitution reactions.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.3.4",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -662,7 +713,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -678,13 +732,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Carbon forms an exceptionally large number of compounds due to catenation and tetravalency. The carbon-carbon bond is very strong and stable because carbon's small size allows its nucleus to hold firmly to the shared electron pairs.",
+    "explanation": "Carbon displays an unmatched ability to link with other carbon atoms through covalent bonds to form straight chains, branched frameworks, and closed cyclic rings of virtually unlimited size; this unique property is called catenation. Catenation is exceptionally pronounced in carbon because carbon-carbon single bonds (C-C) possess a very high bond dissociation energy (~348 kJ/mol). Carbon's small atomic radius enables its nucleus to hold shared electron pairs tightly and stably. Both (A) and (R) are true, and (R) correctly explains (A).",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.2",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -699,7 +753,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   },
   {
@@ -715,13 +772,13 @@
       "Glacial acetic acid"
     ],
     "answer": 3,
-    "explanation": "5-8% solution of acetic acid in water is called vinegar. The melting point of pure ethanoic acid is 290 K, and hence it often freezes during winter in cold climates, giving it the name glacial acetic acid.",
+    "explanation": "Pure, anhydrous ethanoic acid (acetic acid, CH₃COOH) has a freezing/melting point of 290 K (approximately 16.6°C to 17°C). Because this temperature is frequently reached during winter months in temperate or cold climates, pure liquid ethanoic acid readily freezes into a solid mass of transparent, ice-like crystals resembling glaciers. For this reason, 100% pure anhydrous ethanoic acid is universally termed glacial acetic acid in chemistry. Note that a dilute 5% to 8% solution of acetic acid in water is known as household vinegar.",
     "citation": "NCERT Class 10 Science, Chapter 4, Section 4.4.2",
     "quality_review": {
       "review_date": "2026-11-05",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_subject_matter_reviewed",
+      "explanation_option_consistency": "reviewed_against_question_and_options",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -736,7 +793,10 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_human_signoff_status": "pending",
+      "phase5_39_review_date": "2026-11-07",
+      "phase5_39_review_note": "AI-assisted independent subject-matter review; not human academic sign-off or official PYQ authentication."
     }
   }
 ]

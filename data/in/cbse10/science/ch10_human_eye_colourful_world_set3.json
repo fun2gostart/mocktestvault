@@ -4,7 +4,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Scattering: Danger Signals",
     "difficulty": "Easy",
-    "question": "Assertion (A): Danger signal lights installed at high altitudes on tall towers and mobile masts are strictly red in color.\nReason (R): Red light has the longest wavelength in the visible spectrum and undergoes minimal scattering by atmospheric smoke and fog.",
+    "question": "Assertion (A): Red warning lights are commonly used for obstruction marking on tall structures at night.\nReason (R): Red light has a longer wavelength than blue light and undergoes less Rayleigh scattering by air molecules and very fine atmospheric particles.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -12,13 +12,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "According to Rayleigh scattering law, scattered light intensity is inversely proportional to the fourth power of wavelength (I proportional to 1/lambda^4). Red light has the longest visible wavelength (about 700 nm) and is scattered least, making danger beacons clearly visible over maximal distances through fog and smog.",
+    "explanation": "Both statements are broadly true in the stated context, and the reason gives a relevant optical explanation: red light is scattered less than blue light by molecules and very small particles. The wording is deliberately limited to common night-time obstruction marking; lighting standards can also permit other configurations, such as red-and-white systems or white lights, depending on structure and jurisdiction. The Rayleigh explanation does not describe dense fog droplets.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.6.3 Colour of the Sun at Sunrise and Sunset",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent_after_phase_5_45",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -33,7 +33,16 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "amended",
+      "review_note": "Wording/explanation corrected to avoid overgeneralising Rayleigh scattering to dense fog or overstating persistence/twinkling/daylight effects.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "AMENDED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -52,10 +61,10 @@
     "explanation": "Scattering of light requires particulate or molecular scatterers. In the vacuum of outer space, sunlight travels in straight lines without scattering; unless looking directly at the Sun or illuminated celestial bodies, the sky appears completely black.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.6.2 Why is the colour of the clear Sky Blue?",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -70,7 +79,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -89,10 +106,10 @@
     "explanation": "Both statements are true and Reason (R) correctly explains Assertion (A). Planets act as extended discs composed of millions of point sources, so minor atmospheric disturbances across individual points average out to zero net variation in brightness.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.5 Atmospheric Refraction",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -107,7 +124,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -126,10 +151,10 @@
     "explanation": "At the horizon, sunlight travels through a larger atmospheric path length. Extensive Rayleigh scattering depletes the shorter blue/violet wavelengths from the direct beam, leaving predominantly the unscattered longer red wavelengths to reach our eyes.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.6.3 Colour of the Sun at Sunrise and Sunset",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -144,7 +169,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -163,10 +196,10 @@
     "explanation": "Assertion (A) is false because myopia is corrected by a concave (diverging) lens, not a convex lens. Reason (R) is true: concave lenses diverge parallel rays so they converge precisely on the retina.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.2 Defects of Vision and Their Correction",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -181,7 +214,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -200,10 +241,10 @@
     "explanation": "Both statements are true and Reason (R) explains Assertion (A). This age-related refractive decline is known as Presbyopia, which occurs as the ciliary muscles and crystalline lens lose their ability to increase converging power for close-up tasks.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.2 Defects of Vision and Their Correction",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -218,7 +259,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -237,10 +286,10 @@
     "explanation": "Assertion (A) is false: violet light suffers the greatest deviation, while red light deviates the least. Reason (R) is true: red light has the longest wavelength, travels fastest in glass, and encounters the lowest refractive index, which is why it bends least.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.3 Refraction of Light Through a Prism",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -255,7 +304,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -274,10 +331,10 @@
     "explanation": "Both statements are true and R correctly explains A. The spherical water droplets refract and disperse incoming sunlight at their front surface, reflect it internally at the back surface, and refract it again upon exit into air, creating the colorful arc.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.4 Rainbow",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -292,7 +349,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -300,7 +365,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Atmospheric Refraction: Daylight Duration Extension",
     "difficulty": "Medium",
-    "question": "Assertion (A): The actual duration of daylight on Earth is lengthened by approximately 4 minutes every day due to atmospheric refraction.\nReason (R): Atmospheric refraction causes the Sun to become visible roughly 2 minutes before actual geometric sunrise and remain visible roughly 2 minutes after actual geometric sunset.",
+    "question": "Assertion (A): Atmospheric refraction makes the apparent interval of daylight about 4 minutes longer than it would be without this effect.\nReason (R): It makes the Sun visible roughly 2 minutes before geometric sunrise and roughly 2 minutes after geometric sunset.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -308,13 +373,13 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Because atmospheric refraction bends sunlight downward over the horizon curve, the Sun appears above the horizon about 2 minutes earlier at dawn and lingers about 2 minutes later at dusk, giving an extra ~4 minutes of daylight daily.",
+    "explanation": "Both statements are true in the usual approximate school-level treatment, and R explains A. Atmospheric refraction makes the Sun appear slightly higher than its geometric position near the horizon, advancing apparent sunrise by about 2 minutes and delaying apparent sunset by about 2 minutes. The resulting increase is in the apparent daylight interval, not an extra four minutes added anew every calendar day.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.5.1 Advance Sunrise and Delayed Sunset",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent_after_phase_5_45",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -329,7 +394,16 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "amended",
+      "review_note": "Wording/explanation corrected to avoid overgeneralising Rayleigh scattering to dense fog or overstating persistence/twinkling/daylight effects.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "AMENDED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -348,10 +422,10 @@
     "explanation": "Assertion (A) is true: the eye forms a real, inverted image on the retina, which the brain's visual cortex interprets right side up. Reason (R) is false: the crystalline eye lens is a biconvex converging lens system, not a diverging concave lens.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.1 The Human Eye",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -366,7 +440,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -385,10 +467,10 @@
     "explanation": "To view distant objects at infinity (u = -infinity), the lens must form an image at the student's far point (v = -1.5 m). Lens formula: 1/f = 1/v - 1/u = 1/(-1.5) - 0 = -1/1.5. Power P = 1 / f = -1 / 1.5 = -0.67 D. A concave lens of -0.67 D restores normal vision.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.2 Defects of Vision and Their Correction",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -403,7 +485,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -422,10 +512,10 @@
     "explanation": "The reading material is placed at u = -25 cm = -0.25 m. The lens must form its virtual image at v = -75 cm = -0.75 m. Lens formula: 1/f = 1/v - 1/u = -1/0.75 - (-1/0.25) = -1.333 + 4.0 = +2.667 D (+2.67 D). Focal length f = 1 / 2.667 = +0.375 m = +37.5 cm.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.2 Defects of Vision and Their Correction",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -440,7 +530,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -459,10 +557,10 @@
     "explanation": "This is a classical natural demonstration of the Tyndall effect. Fog and mist in a forest canopy consist of colloidal-sized water droplets suspended in air. As sunlight passes through, these droplets scatter light in all directions, illuminating the trajectory of the sunbeams.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.6.1 Tyndall Effect",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -477,7 +575,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -485,21 +591,21 @@
     "type": "case-study",
     "subtopic": "Aviation Engineering Case Study: Fog Navigation Lights",
     "difficulty": "Medium",
-    "question": "An airport lighting engineer designs runway visual guidance beacons for dense winter fog conditions. Why are high-power amber/red beacons chosen over blue/violet LED arrays?",
+    "question": "An airport engineer is selecting warning beacons for locations where visibility is reduced by fine smoke or atmospheric haze. Why can amber/red beacons be more conspicuous than blue/violet beacons?",
     "options": [
       "Blue light travels too quickly for the human retina to process",
-      "Fog droplets absorb red light and amplify it laser-style",
-      "Red light produces total internal reflection within the pilot's cockpit",
-      "Red light has longer wavelength and experiences far less Rayleigh scattering by fog droplets than blue light"
+      "Fine smoke particles absorb red light and amplify it laser-style",
+      "Red light produces total internal reflection within the pilot’s cockpit",
+      "Red light has a longer wavelength and undergoes less Rayleigh scattering by air molecules and very fine particles than blue/violet light"
     ],
     "answer": 3,
-    "explanation": "Because scattering intensity is inversely proportional to the 4th power of wavelength (I proportional to 1/lambda^4), blue light is heavily scattered and diffused into a blinding glare in fog. Red light, having the longest visible wavelength, penetrates fog with minimal scattering.",
+    "explanation": "For Rayleigh scattering by molecules and particles much smaller than visible wavelengths, scattered intensity varies approximately as 1/λ⁴. Longer-wavelength red/amber light is scattered less than blue/violet light in this regime. Dense fog consists of larger droplets and involves Mie-type scattering, so the simple Rayleigh rule alone cannot establish that red light always penetrates fog better; practical beacon selection also depends on visibility standards, intensity, background, and human visual response.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.6.3 Colour of the Sun at Sunrise and Sunset",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent_after_phase_5_45",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -514,7 +620,16 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "amended",
+      "review_note": "Wording/explanation corrected to avoid overgeneralising Rayleigh scattering to dense fog or overstating persistence/twinkling/daylight effects.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "AMENDED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -533,10 +648,10 @@
     "explanation": "Sir Isaac Newton proved white light recombination by placing a second identical prism in an inverted position relative to the first prism. The first prism disperses white light into colors, and the inverted second prism refracts the colors in the opposite direction, recombining them into a white emergent beam.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.3.1 Recombination of the Spectrum of White Light",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -551,7 +666,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -570,10 +693,10 @@
     "explanation": "From a high elevation, the geometric horizon dips downward, allowing the mountaineer to look 'around' the curve of the Earth to see the Sun before a sea-level observer. Additionally, atmospheric refraction bends solar rays upward from denser lower air layers.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.5.1 Advance Sunrise and Delayed Sunset",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -588,7 +711,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -607,10 +738,10 @@
     "explanation": "A rainbow is strictly formed in the direction opposite to that of the Sun. In the late afternoon, the Sun is in the West, so the rainbow forms and is visible in the Eastern sky.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.4 Rainbow",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -625,7 +756,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -644,10 +783,10 @@
     "explanation": "Electric arcs emit intense visible radiation and high levels of ultraviolet (UV) radiation. Unprotected exposure can cause acute photokeratitis ('welder's flash' or corneal burns) and permanent retinal burns. The dark glass filters out harmful UV and reduces visible glare to safe levels.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.1 The Human Eye",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -662,7 +801,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -681,10 +828,10 @@
     "explanation": "In dim light, the pupil is dilated to admit maximum light. When suddenly exposed to bright sunlight, the pupil constricts rapidly via contraction of circular muscles of the iris, restricting the amount of light entering the eye to protect the retina from dazzling glare.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.1 The Human Eye",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -699,7 +846,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -718,10 +873,10 @@
     "explanation": "Monochromatic light of a single wavelength (such as isolated green light) cannot be further dispersed because dispersion is the separation of constituent wavelengths. The green ray refracts through the second prism, emerging as green light without further color splitting.",
     "citation": "NCERT Class 10 Science, Chapter 10, Section 10.3 Refraction of Light Through a Prism",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "reviewed_and_consistent",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -736,7 +891,15 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase_5_45_review": "reviewed_no_content_change",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_answer_review_completed_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "REVIEWED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   }
 ]

@@ -1,0 +1,84 @@
+MOCKTESTVAULT — PHASE 5.14: MATHEMATICS LEARNING-OUTCOME MAPPING & COGNITIVE-DEMAND SCREEN
+Revision: v2.9.64
+Baseline: v2.9.63
+Audit date: 2026-11-07
+Scope: 14 chapters, 42 active question sets, 840 questions.
+Curriculum reference: CBSE Class X Mathematics 2026-27, Subject Codes 041 (Standard) and 241 (Basic).
+
+EXECUTIVE SUMMARY
+- Created a draft taxonomy of 47 measurable learning outcomes across the 14 chapter groups.
+- Mapped all 840 active question IDs to one primary learning outcome.
+- Created 840-row question-level mapping register and chapter-level coverage summary.
+- Identified 140 potential curriculum-scope review candidates across Chapters 6-14. These are not confirmed out-of-syllabus items.
+- Created provisional L1/L2/L3 cognitive-demand screening suggestions for all 840 questions. These are heuristic screening suggestions, not final teacher ratings.
+- No active question JSON, question text, option, answer key, explanation, existing difficulty label, ID or page was changed.
+
+OFFICIAL CURRICULUM BASIS
+The official CBSE 2026-27 Class X syllabus emphasises conceptual understanding, logical reasoning, problem-solving, visualisation, mathematical modelling, communication and real-life application.
+The syllabus groups the content into:
+- Number Systems: 6 marks
+- Algebra: 20 marks
+- Coordinate Geometry: 6 marks
+- Geometry: 15 marks
+- Trigonometry: 12 marks
+- Mensuration: 10 marks
+- Statistics and Probability: 11 marks
+Total theory paper: 80 marks.
+
+Official syllabus PDF:
+https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf
+
+QUESTION-PAPER TYPOLOGY BENCHMARK
+The same official syllabus specifies different typology weights for the two courses:
+- Mathematics Standard (041): Remembering/Understanding 54%, Applying 24%, Analysing/Evaluating/Creating 22%.
+- Mathematics Basic (241): Remembering/Understanding 75%, Applying 15%, Analysing/Evaluating/Creating 10%.
+The 840-question bank is not currently identified as exclusively Basic or Standard, and it contains 20 questions per set per chapter rather than an 80-mark exam blueprint. Therefore these weights are reference benchmarks, not pass/fail criteria for this bank.
+
+LEARNING-OUTCOME MAPPING
+- 47 chapter-specific outcome statements defined.
+- 840/840 question IDs mapped to one primary outcome.
+- All 47 outcomes have at least one mapped question.
+- The mapping is AI-assisted and based on the item stem, subtopic label and chapter scope. A teacher should confirm each mapping, especially where a question tests multiple outcomes.
+- One primary outcome is recorded per item for reporting consistency; secondary outcomes can be added during teacher review.
+
+COGNITIVE-DEMAND SCREEN
+Provisional screening suggestions:
+- L1: 45 (5.4%)
+- L2: 744 (88.6%)
+- L3: 51 (6.1%)
+These figures are NOT validated cognitive-level distributions. They were produced by a conservative text/subtopic screening rule and require teacher confirmation. Do not compare them to the CBSE typology percentages as a compliance result or change question difficulty labels based on them.
+Use the attached L1/L2/L3 rubric to perform item-level confirmation. In particular, do not infer cognitive demand from question length or the presence of a case-study label alone.
+
+CURRICULUM SCOPE WATCHLIST
+- 140 questions flagged for teacher scope review.
+- The highest review volumes are Chapter 10 Circles (24), Chapter 12 Surface Areas and Volumes (21), Chapter 7 Coordinate Geometry (15), Chapter 8 Introduction to Trigonometry (15), and Chapter 14 Probability (19).
+- Chapter-specific review notes are included in the scope register and scope guidance file.
+- Scope flags are screening candidates only; none has been declared out-of-syllabus in this phase.
+
+IMPORTANT SCOPE DETAILS TO ADJUDICATE
+- Triangles: CBSE's 2026-27 content list foregrounds similarity and BPT/converse; additional theorems need review.
+- Coordinate Geometry: listed content names distance and internal section formula; extended coordinate constructions need review.
+- Trigonometry: only simple identities are specified; advanced identities and range/monotonicity items need review.
+- Heights and Distances: the official limit is no more than two right triangles and angles 30°, 45°, 60°.
+- Circles: the named theorems are tangent-radius perpendicularity and equal tangents from an external point.
+- Areas Related to Circles: segment-area central angles are restricted to 60°, 90°, 120°.
+- Surface Areas and Volumes: combinations are of any two of the listed solids.
+- Statistics: grouped-data mean, median and mode.
+- Probability: classical definition and simple event problems.
+
+RECOMMENDED NEXT ACTION
+1. Teacher confirms the 47 learning-outcome statements against the intended course and school/exam session.
+2. Teacher adjudicates the 140 scope-review candidates; retain, relabel as enrichment, or remove only with an explicit decision.
+3. Confirm whether the bank targets Mathematics Standard, Basic, or both. If both, maintain separate blueprints.
+4. Re-score cognitive demand using the supplied L1/L2/L3 rubric and align a test blueprint to the applicable official typology.
+5. Only after mapping and scope sign-off, build balanced chapter/unit and cognitive-demand coverage for each mock test.
+
+CHANGE CONTROL
+- No live question data changed.
+- No answer keys, explanations, difficulty labels or question IDs changed.
+- Added taxonomy, item mapping, chapter coverage, cognitive rubric and scope-review registers.
+- ZIP integrity tested.
+- No staging or production deployment performed.
+
+LIMITATIONS
+This is an AI-assisted draft mapping, not a CBSE-issued learning-outcome codebook or a human teacher's endorsement. The official syllabus is used as the scope reference. The 47 outcome statements are operational paraphrases for this question bank, not verbatim official CBSE outcome IDs. Scope candidates require teacher adjudication. Cognitive levels are screening suggestions, not psychometric or official typology ratings.

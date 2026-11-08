@@ -1,0 +1,20 @@
+MockTestVault v2.9.18 – Phase 5.5 Changelog
+Date: 2026-11-06
+
+Changed:
+- Corrected 8 confirmed unrelated explanations in Social Science question data.
+- Retained all 8 selected answer options and answer indexes.
+- Updated citations and quality_review metadata for the corrected records.
+- Bumped service-worker cache from mtv-cbt-v49 to mtv-cbt-v50.
+- Added 1,325-record question review register.
+- Added 21-chapter summary, confirmed correction register, and 130-item explanation consistency anomaly queue.
+- Added active-set vs base-pool classification; base JSON pools were retained.
+
+Not changed:
+- No answer keys.
+- No question stems or options.
+- No scoring or test-engine logic.
+- No SEO, sitemap, robots, ads, or analytics configuration.
+
+Status:
+- QA candidate only. Full academic verification and human SME sign-off remain pending.

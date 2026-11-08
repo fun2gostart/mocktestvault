@@ -1,0 +1,57 @@
+MOCKTESTVAULT — PHASE 5.12: MATHEMATICS ASSESSMENT QUALITY AUDIT
+Revision: v2.9.62 | Baseline: v2.9.61 | Audit date: 2026-11-07
+Scope: 14 Class 10 Mathematics chapters; 3 active sets per chapter; 840 questions.
+
+EXECUTIVE SUMMARY
+- Active question-set files inspected: 42.
+- Question records inspected: 840; 20 per set and 60 per chapter.
+- Unique question IDs: 840; duplicate ID occurrences beyond first: 0.
+- Exact duplicate question-stem groups: 0 after Unicode and whitespace normalization.
+- Structural question-level flags: 0.
+- All active questions have four options, a valid stored answer index, non-empty stem, explanation and subtopic, and recognized difficulty metadata.
+- No question, option, answer key, explanation or difficulty label was changed.
+
+OVERALL DIFFICULTY
+Easy: 291 (34.6%); Medium: 360 (42.9%); Hard: 189 (22.5%).
+
+SET-LEVEL DIFFICULTY (280 QUESTIONS PER SET)
+Set 1: Easy 155 (55.4%), Medium 112 (40.0%), Hard 13 (4.6%).
+Set 2: Easy 28 (10.0%), Medium 121 (43.2%), Hard 131 (46.8%).
+Set 3: Easy 108 (38.6%), Medium 127 (45.4%), Hard 45 (16.1%).
+
+KEY FINDING: SETS ARE NOT DIFFICULTY-CALIBRATED
+Set 1 is much easier by its current labels (only 4.6% Hard); Set 2 is much harder (46.8% Hard); Set 3 is intermediate. If these are meant to be comparable parallel mock tests, calibrate difficulty chapter by chapter. A planning benchmark for each 20-question set is approximately 6 Easy / 10 Medium / 4 Hard. This is a suggested internal target, not a CBSE-mandated blueprint. If sets are intentionally progressive, explain that progression in the UI.
+
+QUESTION-TYPE MIX
+MCQ: 660 (78.6%); Assertion–Reasoning: 140 (16.7%); Case-study: 40 (4.8%).
+Case-study tags appear only in Chapters 1, 2, 13 and 14 (10 each); other chapters have none. Not automatically a defect, but review against the intended assessment blueprint. Confirm that each tagged item has a contextual stimulus/application and is not merely a standalone word problem.
+
+CHAPTER OBSERVATIONS
+- Chapter 11 Areas Related to Circles: 7/60 Hard (11.7%), lowest Hard share.
+- Chapter 13 Statistics: 11/60 Easy (18.3%), and 36/60 Medium (60.0%); Medium-heavy.
+- Chapters 3 and 4 have the highest Hard shares: 16/60 and 18/60 respectively.
+- Full counts for all chapters are in the chapter register.
+
+DISTRACTOR AND EXPLANATION QUALITY
+Automated checks found no repeated option strings within a question, no missing/invalid option structures, and no blank explanations. This does not prove distractors are pedagogically plausible, mutually exclusive, mathematically representative of common misconceptions, or free from answer cueing. Explanation presence is not explanation quality. Expert review should check method, notation, units, assumptions, edge cases, and consistency with options.
+The correct-answer option is longer on average than distractors in this dataset; this is only a screening signal, not proof of cueing. Do not mechanically shorten correct answers; inspect flagged examples in a human review.
+
+COVERAGE / REPETITION
+- No exact duplicate stems detected across the 840 active questions.
+- All 14 chapters have 60 questions and each of 3 sets has 20 questions.
+- Distinct subtopic labels do not prove complete concept coverage; synonymous labels may hide overlap and broad labels may hide gaps.
+
+RECOMMENDED ACTIONS
+1. Confirm whether Sets 1–3 are equal-difficulty parallel tests or progressive levels.
+2. If parallel tests, recalibrate the chapter/set distribution using the set-by-chapter register.
+3. Review Chapter 11 for potential under-representation of challenging application/reasoning items and Chapter 13 for its Medium-heavy mix.
+4. Conduct a distractor-quality pass: plausible misconceptions, uniqueness, mutual exclusivity, and answer cueing.
+5. Review the 40 case-study-tagged items for authentic contextual stimulus and multi-step application.
+6. Review explanations for teaching value and notation.
+7. If response data becomes available, compute p-values, point-biserial/discrimination, and distractor efficiency.
+
+LIMITATIONS
+Difficulty labels were audited as stored metadata, not independently reclassified by solving all 840 questions. No student response data was supplied, so psychometric item statistics cannot be calculated. This is an assessment structure/metadata audit, not a new mathematical proof of every answer. User-confirmed human academic verification is treated as complete for the chapter banks; this phase does not add reviewer names/dates or alter per-question sign-off fields.
+
+DEPLOYMENT
+Full website ZIP created and integrity-tested. No staging or production deployment performed.

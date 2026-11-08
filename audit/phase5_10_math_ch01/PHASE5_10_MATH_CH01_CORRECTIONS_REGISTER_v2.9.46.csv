@@ -1,0 +1,2 @@
+﻿question_id,set,issue,original_wording_summary,correction,answer_change,validation
+cbse10-math-ch01-s2-011,2,Non-unique answer / ambiguous stem,Asked for the value of n; both n=1 and n=2 satisfy the stated LCM.,Changed to ask for the greatest possible positive integer value of n.,No; option C (2) remains correct.,"PASS: max(1,1,n)=2 implies n<=2; greatest positive integer n is 2."

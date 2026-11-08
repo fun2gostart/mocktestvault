@@ -1,0 +1,49 @@
+PHASE 5.7 – BATCH 21 ACADEMIC REVIEW REPORT
+MockTestVault v2.9.40
+Economics Chapter 4 – Globalisation and the Indian Economy
+Review date: 2026-11-07
+
+SCOPE
+- 60 active questions reviewed: 20 each in Sets 1, 2 and 3.
+- Three active sets retained; supplementary base chapter JSON retained byte-for-byte.
+- Review covers factual accuracy, answer-option consistency, ambiguity, dated examples, legal/current claims and CBSE 2026-27 scope.
+
+RESULTS
+- Questions reviewed: 60/60
+- Question records with substantive edits: 25
+- Field-level corrections: 76
+- Answer-index changes: 0
+- Review metadata refreshed: 60/60
+- Unique active question IDs: 60/60
+- Answer indexes within option bounds: 60/60
+- CBSE 2026-27 Board-scope items classified: 11/60
+- Supplementary/project-scope items classified: 49/60
+
+KEY FIXES
+1. Corrected Parakh Foods refinery count from five to four and removed unsupported nationwide-network overstatement.
+2. Removed the unsupported claim that many Indian toy workshops necessarily shut down; aligned with NCERT’s statement that Indian toy makers faced losses as sales declined.
+3. Reframed the WTO agriculture question as the textbook’s critique of asymmetry in farm support and trade barriers, not a comprehensive legal statement.
+4. Marked the SEZ tax exemption as an NCERT policy snapshot, not a current blanket tax exemption.
+5. Corrected Sushila’s chronology: her earlier factory closed in the late 1990s; after six months she found temporary work 30 km away at less than half her earlier pay and without prior benefits.
+6. Replaced unsupported superlatives about India as the world’s leading BPO destination with a textbook-aligned explanation of ICT-enabled service delivery.
+7. Corrected the NCERT Ford export destinations to South Africa, Mexico, Brazil and the United States, and labelled the 2017 example historical.
+8. Corrected the dumping definition: export price below comparable normal value, with investigation requirements for dumping, material injury/threat and causal link.
+9. Removed unsupported claims about SEZs being categorically exempt from labour inspections or all labour laws.
+10. Clarified the uneven distribution of globalisation’s benefits and losses.
+11. CBSE 2026-27 scope register distinguishes Board-examinable definition/enabling-factor questions from interdisciplinary-project and supplementary chapter learning.
+
+TECHNICAL VALIDATION
+- JSON files parsed: 287/287
+- Active questions: 60; unique IDs: 60; answer-index bounds: 60/60
+- Batch review metadata: 60/60
+- JavaScript syntax: 4/4 passed using node --check
+- Service-worker cache: mtv-cbt-v71 -> mtv-cbt-v72
+- Previous Economics Chapter 3 base JSON preserved byte-for-byte: PASS
+- ZIP integrity: PASS (final archive testzip returned None)
+
+SOURCE / LIMITATIONS
+- Official NCERT Chapter 4 PDF: https://ncert.nic.in/textbook/pdf/jess204.pdf. The retrieved PDF identifies itself as Reprint 2025-26; a 2026-27 reprint was not verified.
+- CBSE 2026-27 curriculum text reproduced in the available syllabus search result lists “What is Globalisation?” and “Factors that have enabled Globalisation” for Board evaluation; the remaining listed themes are interdisciplinary-project content. Direct CBSE PDF fetch returned 502 during this review. Verify against the CBSE-hosted PDF before final Board publication.
+- Anti-dumping legal definition is supplementary; no original PYQ provenance or official answer-key match was authenticated.
+- Human SME sign-off remains pending. AI-assisted review is not academic sign-off.
+- AdSense excluded. Not deployed to production.

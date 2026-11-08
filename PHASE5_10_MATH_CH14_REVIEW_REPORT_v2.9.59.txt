@@ -1,0 +1,43 @@
+MOCKTESTVAULT – PHASE 5.10 BATCH 14 REVIEW
+Chapter 14: Probability
+Candidate build: v2.9.59
+Baseline: v2.9.58
+Review date: 2026-11-07
+
+REVIEW SCOPE
+- Three active question sets reviewed: 20 questions per set; 60 total.
+- Review covered probability calculations, equally-likely sample spaces, event counting, complements, independent and sequential draws, card/dice/coin/spinner/calendar examples, and explanation-to-option consistency.
+- All 60 stored answer indexes are valid and match the reviewed solutions.
+- No answer-key changes or question-content corrections were required.
+- No exact duplicate question stems were detected within the 60 active Chapter 14 questions.
+- Existing curriculum classifications were preserved; 4 questions remain explicitly flagged as enrichment or higher application and are retained.
+
+KEY MATHEMATICAL CHECKS
+- Probability range: 0 <= P(E) <= 1.
+- Complementary events sum to 1.
+- Single-die and two-dice sample spaces and event counts.
+- Coin-toss outcome counts.
+- Standard 52-card deck counts, including face cards and overlap for red-or-king.
+- Without-replacement draws and remaining sample spaces.
+- Leap-year and non-leap-year 53-Sunday assumptions.
+- Numbered discs, defective/good items, spinner sectors and raffle tickets.
+- Geometric-probability area ratios and conditional second-draw calculation.
+
+CURRICULUM / SOURCE GOVERNANCE
+- Geometric-probability items and broader probability reasoning remain identified as enrichment/application where the existing metadata so classifies them.
+- The without-replacement conditional draw is retained as higher application.
+- Calendar questions retain their stated equally-likely weekday assumption.
+- Topic-level NCERT citations do not authenticate exact question provenance or PYQ status.
+- Human academic sign-off and item-level source authentication remain pending.
+- This is AI-assisted verification, not human expert certification or official CBSE/NCERT endorsement.
+
+TECHNICAL VALIDATION
+- 287 JSON files parsed successfully after update.
+- 60 active Chapter 14 question records; 20 per set.
+- 60 unique question IDs.
+- All answer indexes valid.
+- No exact duplicate stems within the three active Chapter 14 sets.
+- Chapter HTML references all three question-set files.
+- Service-worker cache identifier advanced to mtv-cbt-v85.
+- ZIP integrity test passed.
+- No production deployment performed.

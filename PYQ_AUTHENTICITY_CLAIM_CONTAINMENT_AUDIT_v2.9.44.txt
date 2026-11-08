@@ -1,0 +1,57 @@
+MOCKTESTVAULT – PHASE 5.8 PYQ AUTHENTICITY & CLAIM-CONTAINMENT AUDIT
+Version: v2.9.44
+Baseline: v2.9.43
+Scope: 954 year/shift-labelled question records across 16 datasets and 16 linked HTML pages.
+
+EXECUTIVE RESULT
+- 954 records remain unauthenticated as exact original-paper questions.
+- 954 records remain unauthenticated against an official final answer key.
+- No record has been upgraded to authenticated status.
+- Existing website copy was checked against the exact linked page for each dataset.
+- No production, hosting, or deployment changes were made.
+
+RECORD COUNTS BY EXISTING SOURCE CATEGORY
+- year_label_not_authenticated: 754
+- shift_label_not_authenticated: 200
+
+PAGE CLAIM-CONTAINMENT CHECK
+- visible_practice_and_non_authentication_disclosure_found: 954
+
+The linked CBSE pages use practice-set / objective-practice language and disclose that the original board paper and official marking scheme have not been matched item by item. The two SSC pages identify the content as shift-labelled practice compilations and disclose that original paper and official answer-key matching are not authenticated. This is a static copy audit, not an external live-site check.
+
+OFFICIAL SOURCE ROUTING
+CBSE:
+- Previous-year question-paper archive: https://www.cbse.gov.in/cbsenew/question-paper.html
+- Marking-scheme archive: https://www.cbse.gov.in/cbsenew/marking-scheme.html
+- Sample-question-paper archive: https://cbseacademic.nic.in/sqp_archive.html
+
+SSC:
+- Official Answer Key archive: https://ssc.nic.in/Portal/AnswerKey
+- CGL Tier-I 2023 final-answer-key notice: https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Write_up_Answer%20Keys_CGLE_2023_T1_-29092023.pdf
+The SSC notice states that candidate-specific final answer keys and question papers were available through registered login for a limited period. The notice itself does not authenticate the supplied 200 question records.
+
+AUTHENTICATION STANDARD (REQUIRED BEFORE ANY PYQ CLAIM)
+1. Original question paper or candidate response-sheet export, not a generic syllabus/curriculum URL.
+2. Exact exam, year, subject, paper/set/code, shift and question number.
+3. Exact stem and option correspondence, allowing only documented formatting normalization.
+4. Official final answer key / marking scheme and accepted answer mapping.
+5. Reviewer, review date, source page/question reference, and disposition for ambiguous or changed items.
+
+DATASET-LEVEL DISPOSITION
+- CBSE year-labelled datasets: independent year-labelled practice drills; not authenticated reproductions of CBSE annual board papers.
+- SSC shift-labelled datasets: independent shift-labelled practice compilations; not authenticated reproductions of the SSC CGL Tier-I 2023 shift papers.
+- Keep current practice content available only with the existing disclaimers.
+- Do not remove practice pages solely because original-paper provenance is unavailable.
+- Do not use “official PYQ”, “actual previous-year paper”, or equivalent claims until item-level evidence is matched.
+
+ACADEMIC LIMITATIONS
+- This phase authenticates neither answer correctness nor explanations.
+- All 954 items remain pending independent subject-matter review in the source register.
+- The 6,404-row full-bank answer-verification register remains pending independent subject review; targeted AI-assisted corrections do not constitute SME sign-off.
+- Exact paper/key comparison must be performed against supplied or publicly retrievable primary source files. A year label, shift label, curriculum reference, or official archive landing page is not sufficient evidence.
+
+CHANGE SCOPE
+- Added a richer PYQ authentication register with linked page copy and required evidence fields.
+- Added a dataset-level evidence requirements register for all 16 datasets.
+- No question stems, options, answer indexes, explanations, active JSON files, HTML, JavaScript, SEO metadata, or service-worker files were changed in this phase.
+- No staging or production deployment was performed.

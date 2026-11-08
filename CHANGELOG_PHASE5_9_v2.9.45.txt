@@ -1,0 +1,6 @@
+MockTestVault v2.9.45 – Phase 5.9 Mathematics & Science active-bank audit
+Baseline: v2.9.44
+
+Added audit artifacts for 780 active Science questions and 840 active Mathematics questions (1,620 total). Performed structural checks, exact normalized stem screening, fuzzy similarity screening, option text duplication checks, explanation/citation presence checks, and explicit answer-marker scan. Manually screened 22 fuzzy similarity pairs as distinct tasks; no question pairs were found to be duplicates. Inspected 27 chapter HTML pages and confirmed each explicitly configures Set 1, Set 2, and Set 3 data files.
+
+No question content, answer key, explanation, page code, or runtime configuration was modified. No deployment was performed. Academic correctness and human SME sign-off remain pending.

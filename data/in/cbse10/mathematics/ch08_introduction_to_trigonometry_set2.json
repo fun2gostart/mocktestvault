@@ -16,11 +16,11 @@
       "explanation": "sin theta + sin^2 theta = 1 => sin theta = 1 - sin^2 theta = cos^2 theta. Squaring both sides: sin^2 theta = cos^4 theta. Substituting into the expression: cos^2 theta + cos^4 theta = cos^2 theta + sin^2 theta = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -34,7 +34,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-001",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 1,
+        "candidate_answer_text": "1",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -53,11 +85,11 @@
       "explanation": "cos theta - sin theta = x. Consider (sin theta + cos theta)^2 + (cos theta - sin theta)^2 = [sin^2 theta + cos^2 theta + 2 sin theta cos theta] + [cos^2 theta + sin^2 theta - 2 sin theta cos theta] = 1 + 1 = 2. Given sin theta + cos theta = sqrt(2) cos theta => (sqrt(2) cos theta)^2 + x^2 = 2 => 2 cos^2 theta + x^2 = 2 => x^2 = 2 - 2 cos^2 theta = 2(1 - cos^2 theta) = 2 sin^2 theta => x = sqrt(2) sin theta.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -71,7 +103,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-002",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 3,
+        "candidate_answer_text": "sqrt(2) sin theta",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -90,11 +154,11 @@
       "explanation": "Since sec^2 theta - tan^2 theta = 1, (sec theta - tan theta) = 1 / (sec theta + tan theta) = 1/p. Adding sec theta + tan theta = p and sec theta - tan theta = 1/p gives 2 sec theta = p + 1/p = (p^2 + 1)/p => sec theta = (p^2 + 1) / (2p).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -108,7 +172,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-003",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 0,
+        "candidate_answer_text": "(p^2 + 1) / (2p)",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -127,11 +223,11 @@
       "explanation": "Subtracting the two equations: 2 tan theta = p - 1/p = (p^2 - 1)/p => tan theta = (p^2 - 1)/(2p). From previous problem, sec theta = (p^2 + 1)/(2p). Then sin theta = tan theta / sec theta = [(p^2 - 1)/(2p)] / [(p^2 + 1)/(2p)] = (p^2 - 1) / (p^2 + 1).",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -145,7 +241,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-004",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 2,
+        "candidate_answer_text": "(p^2 - 1) / (p^2 + 1)",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -153,7 +281,7 @@
       "type": "mcq",
       "subtopic": "Cubic Trigonometric Quotient Identity",
       "difficulty": "Hard",
-      "question": "Simplify: (sin theta - 2 sin^3 theta) / (2 cos^3 theta - cos theta).",
+      "question": "For angles θ for which the denominator is non-zero, simplify: (sin θ − 2 sin³ θ) / (2 cos³ θ − cos θ).",
       "options": [
         "cot theta",
         "sin theta cos theta",
@@ -164,11 +292,11 @@
       "explanation": "[sin theta(1 - 2 sin^2 theta)] / [cos theta(2 cos^2 theta - 1)]. Note that 1 - 2 sin^2 theta = (sin^2 theta + cos^2 theta) - 2 sin^2 theta = cos^2 theta - sin^2 theta. Similarly 2 cos^2 theta - 1 = 2 cos^2 theta - (sin^2 theta + cos^2 theta) = cos^2 theta - sin^2 theta. The bracketed terms cancel completely, leaving sin theta / cos theta = tan theta.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 5(vii)",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -182,7 +310,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-005",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 2,
+        "candidate_answer_text": "tan theta",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -201,11 +361,11 @@
       "explanation": "cos theta = x/a, sin theta = y/b. Since cos^2 theta + sin^2 theta = 1, (x/a)^2 + (y/b)^2 = 1 => x^2/a^2 + y^2/b^2 = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -219,7 +379,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / outside Class X trigonometry scope",
+        "review_register_question_id": "cbse10-math-ch08-s2-006",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "Independent recalculation/proof agrees with the selected option. The algebraic identity is correct, but the resulting ellipse equation is outside current Class X trigonometry scope."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Enrichment / outside Class X trigonometry scope",
+        "review_note": "Independent recalculation/proof agrees with the selected option. The algebraic identity is correct, but the resulting ellipse equation is outside current Class X trigonometry scope.",
+        "syllabus_note": "Eliminating theta to obtain ellipse/hyperbola equations is not included in the current Class X trigonometry outcomes.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 1,
+        "candidate_answer_text": "x^2/a^2 + y^2/b^2 = 1",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Beyond Class X chapter scope",
+        "scope_note": "Eliminating θ to derive ellipse/hyperbola equations introduces conic-section results not specified in the Class X Trigonometry syllabus; retain only as clearly labelled enrichment or relocate.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -238,11 +430,11 @@
       "explanation": "sec theta = x/a and tan theta = y/b. From the identity sec^2 theta - tan^2 theta = 1, (x/a)^2 - (y/b)^2 = 1 => x^2/a^2 - y^2/b^2 = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -256,7 +448,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / outside Class X trigonometry scope",
+        "review_register_question_id": "cbse10-math-ch08-s2-007",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "Independent recalculation/proof agrees with the selected option. The algebraic identity is correct, but the resulting hyperbola equation is outside current Class X trigonometry scope."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Enrichment / outside Class X trigonometry scope",
+        "review_note": "Independent recalculation/proof agrees with the selected option. The algebraic identity is correct, but the resulting hyperbola equation is outside current Class X trigonometry scope.",
+        "syllabus_note": "Eliminating theta to obtain ellipse/hyperbola equations is not included in the current Class X trigonometry outcomes.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 0,
+        "candidate_answer_text": "x^2/a^2 - y^2/b^2 = 1",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Beyond Class X chapter scope",
+        "scope_note": "Eliminating θ to derive ellipse/hyperbola equations introduces conic-section results not specified in the Class X Trigonometry syllabus; retain only as clearly labelled enrichment or relocate.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -275,11 +499,11 @@
       "explanation": "Squaring both sides: (tan theta + cot theta)^2 = 2^2 => tan^2 theta + cot^2 theta + 2 tan theta cot theta = 4. Since tan theta * cot theta = 1: tan^2 theta + cot^2 theta + 2(1) = 4 => tan^2 theta + cot^2 theta = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -293,7 +517,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-008",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 3,
+        "candidate_answer_text": "2",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Core / simple application",
+        "scope_note": "Uses a basic ratio relationship, Pythagorean identity, or right-triangle application.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -312,11 +568,11 @@
       "explanation": "sin^4 theta - cos^4 theta = (sin^2 theta - cos^2 theta)(sin^2 theta + cos^2 theta) = sin^2 theta - cos^2 theta. Then (sin^2 theta - cos^2 theta + 1) = sin^2 theta + (1 - cos^2 theta) = sin^2 theta + sin^2 theta = 2 sin^2 theta. Multiplying by cosec^2 theta: (2 sin^2 theta)(1 / sin^2 theta) = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -330,7 +586,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-009",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 3,
+        "candidate_answer_text": "2",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -349,11 +637,11 @@
       "explanation": "cos theta = 1 - cos^2 theta = sin^2 theta. Squaring: cos^2 theta = sin^4 theta. Thus sin^2 theta + sin^4 theta = sin^2 theta + cos^2 theta = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -367,7 +655,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-010",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 0,
+        "candidate_answer_text": "1",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Core / simple application",
+        "scope_note": "Uses a basic ratio relationship, Pythagorean identity, or right-triangle application.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -386,11 +706,11 @@
       "explanation": "Expanding: [sin^2 A + cosec^2 A + 2 sin A cosec A] + [cos^2 A + sec^2 A + 2 cos A sec A] = (sin^2 A + cos^2 A) + 2(1) + 2(1) + cosec^2 A + sec^2 A = 1 + 4 + (1 + cot^2 A) + (1 + tan^2 A) = 7 + tan^2 A + cot^2 A.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 5(viii)",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -404,7 +724,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-011",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 2,
+        "candidate_answer_text": "7 + tan^2 A + cot^2 A",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -423,11 +775,11 @@
       "explanation": "Multiply numerator and denominator inside root by (1 - cos A): sqrt[(1 - cos A)^2 / (1 - cos^2 A)] = sqrt[(1 - cos A)^2 / sin^2 A] = (1 - cos A)/sin A = 1/sin A - cos A/sin A = cosec A - cot A.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Section 8.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -441,7 +793,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-012",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 1,
+        "candidate_answer_text": "cosec A - cot A",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -460,11 +844,11 @@
       "explanation": "m^2 = a^2 cos^2 theta + b^2 sin^2 theta + 2ab sin theta cos theta. n^2 = a^2 sin^2 theta + b^2 cos^2 theta - 2ab sin theta cos theta. Adding m^2 + n^2 = a^2(cos^2 theta + sin^2 theta) + b^2(sin^2 theta + cos^2 theta) = a^2(1) + b^2(1) = a^2 + b^2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -478,7 +862,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-013",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 2,
+        "candidate_answer_text": "a^2 + b^2",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -497,11 +913,11 @@
       "explanation": "Using identity a^3 + b^3 = (a + b)^3 - 3ab(a + b) with a = sin^2 theta, b = cos^2 theta: sin^6 theta + cos^6 theta = (sin^2 theta + cos^2 theta)^3 - 3 sin^2 theta cos^2 theta (sin^2 theta + cos^2 theta) = 1^3 - 3 sin^2 theta cos^2 theta (1) = 1 - 3 sin^2 theta cos^2 theta. Adding 3 sin^2 theta cos^2 theta yields exactly 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -515,7 +931,49 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "pilot_verification": {
+          "batch": "CBSE10_Mathematics_100Q_Pilot",
+          "review_date": "2026-11-06",
+          "method": "AI-assisted independent mathematical solution and explanation/context review",
+          "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+          "follow_up_flags": [],
+          "human_subject_matter_signoff": "pending",
+          "official_item_source_match": "not_performed",
+          "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-014",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 0,
+        "candidate_answer_text": "1",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -534,11 +992,11 @@
       "explanation": "(1 - sin^2 theta) / (1 - cos^2 theta) = cos^2 theta / sin^2 theta = cot^2 theta. Given cot theta = 7/8, cot^2 theta = (7/8)^2 = 49/64.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.1 Question 7",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -552,7 +1010,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-015",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 1,
+        "candidate_answer_text": "49/64",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Core / simple application",
+        "scope_note": "Uses a basic ratio relationship, Pythagorean identity, or right-triangle application.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -571,11 +1061,11 @@
       "explanation": "sec^4 theta - sec^2 theta = sec^2 theta(sec^2 theta - 1) = (1 + tan^2 theta)(tan^2 theta) = tan^2 theta + tan^4 theta.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -589,7 +1079,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-016",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 3,
+        "candidate_answer_text": "tan^4 theta + tan^2 theta",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -608,11 +1130,11 @@
       "explanation": "Convert to sin and cos: [1 + sin/cos + 1/cos][1 + cos/sin - 1/sin] = [(cos + sin + 1)/cos] * [(sin + cos - 1)/sin] = [((sin + cos) + 1)((sin + cos) - 1)] / (sin cos) = [(sin + cos)^2 - 1] / (sin cos) = [sin^2 + cos^2 + 2 sin cos - 1] / (sin cos) = [1 + 2 sin cos - 1] / (sin cos) = 2 sin cos / (sin cos) = 2.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.4 Question 4(ii)",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -626,7 +1148,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-017",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 2,
+        "candidate_answer_text": "2",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -645,11 +1199,11 @@
       "explanation": "m^2 - n^2 = (m + n)(m - n) = (2 tan theta)(2 sin theta) = 4 tan theta sin theta. mn = (tan theta + sin theta)(tan theta - sin theta) = tan^2 theta - sin^2 theta = sin^2 theta/cos^2 theta - sin^2 theta = sin^2 theta(1/cos^2 theta - 1) = sin^2 theta tan^2 theta. Thus 4 sqrt(mn) = 4 sin theta tan theta = m^2 - n^2. Squaring both sides: (m^2 - n^2)^2 = 16 mn.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -663,7 +1217,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-018",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 1,
+        "candidate_answer_text": "16 mn",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -682,11 +1268,11 @@
       "explanation": "Let QR = x cm. PR = 25 - x. PR^2 = PQ^2 + QR^2 => (25 - x)^2 = 5^2 + x^2 => 625 - 50x + x^2 = 25 + x^2 => 50x = 600 => x = 12 cm. Then PR = 25 - 12 = 13 cm. sin P = opposite / hypotenuse = QR / PR = 12/13.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exercise 8.1 Question 10",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -700,7 +1286,49 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "pilot_verification": {
+          "batch": "CBSE10_Mathematics_100Q_Pilot",
+          "review_date": "2026-11-06",
+          "method": "AI-assisted independent mathematical solution and explanation/context review",
+          "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+          "follow_up_flags": [],
+          "human_subject_matter_signoff": "pending",
+          "official_item_source_match": "not_performed",
+          "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-019",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 0,
+        "candidate_answer_text": "12/13",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Core / simple application",
+        "scope_note": "Uses a basic ratio relationship, Pythagorean identity, or right-triangle application.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     },
     {
@@ -719,11 +1347,11 @@
       "explanation": "1/(1 + cosec^2 A) = 1/(1 + 1/sin^2 A) = sin^2 A / (sin^2 A + 1). Adding them: 1/(1 + sin^2 A) + sin^2 A/(1 + sin^2 A) = (1 + sin^2 A)/(1 + sin^2 A) = 1.",
       "citation": "NCERT Class 10 Mathematics, Chapter 8, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "Explanation broadly consistent",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -737,7 +1365,39 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core or formula application",
+        "review_register_question_id": "cbse10-math-ch08-s2-020",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "Independent recalculation/proof agrees with the selected option."
+      },
+      "academic_verification": {
+        "batch": "CBSE Class X Mathematics Chapters 4-8",
+        "review_date": "2026-11-06",
+        "answer_key_status": "Verified – stored key matches independent solution",
+        "explanation_status": "Explanation broadly consistent",
+        "syllabus_scope": "Core or formula application",
+        "review_note": "Independent recalculation/proof agrees with the selected option.",
+        "syllabus_note": "Uses trigonometric ratios, standard angles, identities or heights-and-distances methods; see item-specific notes where applicable.",
+        "item_level_official_source_match": "not performed",
+        "human_subject_expert_signoff": "pending"
+      },
+      "phase5_10_batch8_review": {
+        "review_date": "2026-11-07",
+        "baseline": "v2.9.52",
+        "review_status": "ANSWER_KEY_MATCHES_INDEPENDENT_RECALCULATION",
+        "candidate_answer_index_0_based": 3,
+        "candidate_answer_text": "1",
+        "explanation_status": "reviewed_no_material_change",
+        "scope_classification": "Supplementary identity / enrichment",
+        "scope_note": "Uses multi-step, parameterized, higher-power, or derived secant/cosecant identity manipulation; retain as enrichment pending academic scope sign-off.",
+        "human_subject_matter_signoff": "pending",
+        "item_level_source_authentication": "not_performed"
       }
     }
   ]

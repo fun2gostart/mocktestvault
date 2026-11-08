@@ -16,11 +16,11 @@
       "explanation": "Let height be h. Angle 1 is theta, angle 2 is (90 - theta). tan theta = h / a. tan(90 - theta) = cot theta = h / b. Multiplying: tan theta * cot theta = (h/a) * (h/b) => 1 = h^2 / (ab) => h^2 = ab => h = sqrt(ab).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 16",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -34,7 +34,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "enrichment_not_explicitly_listed_as_core_2026_27_outcome",
+          "curriculum_scope_note": "Uses a general complementary-angle formula rather than only the specified 30°, 45° and 60° angles for heights-and-distances problems.",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / not expressly listed as core 2026–27 outcome",
+        "review_register_question_id": "cbse10-math-ch09-s2-001",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "Uses a general complementary-angle formula rather than only the specified 30°, 45° and 60° angles for heights-and-distances problems."
       }
     },
     {
@@ -53,11 +73,11 @@
       "explanation": "Let point be at distance x from pole 1 and (80 - x) from pole 2. h = x * tan 60 deg = x*sqrt(3). Also h = (80 - x) * tan 30 deg = (80 - x)/sqrt(3). Equating: x*sqrt(3) = (80 - x)/sqrt(3) => 3x = 80 - x => 4x = 80 => x = 20 m. Distances are 20 m and 60 m. Height h = 20*sqrt(3) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 10",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -71,7 +91,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-002",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": ""
       }
     },
     {
@@ -90,11 +130,11 @@
       "explanation": "Let tower height be h. At 60 deg, distance x = h / tan 60 = h/sqrt(3). At 30 deg, distance y = h / tan 30 = h*sqrt(3) = 3x. Distance traveled in 6 s = y - x = 3x - x = 2x. Speed = 2x / 6 = x / 3 per second. Remaining distance to foot is x. Time required = x / (x/3) = 3 seconds.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 15",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -108,7 +148,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-003",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": ""
       }
     },
     {
@@ -127,11 +187,11 @@
       "explanation": "Height above eye level = 88.2 - 1.2 = 87 m. Position 1: d1 = 87 / tan 60 = 87 / sqrt(3) = 29*sqrt(3) m. Position 2: d2 = 87 / tan 30 = 87*sqrt(3) m. Distance travelled = d2 - d1 = 87*sqrt(3) - 29*sqrt(3) = 58*sqrt(3) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 14",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -145,7 +205,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-004",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": ""
       }
     },
     {
@@ -153,7 +233,7 @@
       "type": "mcq",
       "subtopic": "Cloud Reflection in Water Surface",
       "difficulty": "Hard",
-      "question": "If the angle of elevation of a cloud from a point 'h' metres above a lake is alpha and the angle of depression of its reflection in the lake is beta, what is the height of the cloud above the lake surface?",
+      "question": "A cloud is above a lake. From an observation point h metres above the lake, the angle of elevation of the cloud is α and the angle of depression of its reflection in the lake is β, where 0° < α < β < 90°. What is the height of the cloud above the lake surface?",
       "options": [
         "h (tan beta - tan alpha) / (tan beta + tan alpha)",
         "h (cot alpha + cot beta)",
@@ -161,14 +241,14 @@
         "h tan alpha tan beta"
       ],
       "answer": 2,
-      "explanation": "Let height of cloud above lake be H. Cloud is H - h above observation point; its reflection is H + h below observation point. Horizontal distance d = (H - h)/tan alpha = (H + h)/tan beta. (H - h) tan beta = (H + h) tan alpha => H(tan beta - tan alpha) = h(tan beta + tan alpha) => H = h(tan beta + tan alpha) / (tan beta - tan alpha).",
+      "explanation": "Let H be the cloud's height above the lake and d the horizontal distance to its vertical projection. The cloud is H − h above the observer, while its reflection is H + h below the observer. Thus tan α = (H − h)/d and tan β = (H + h)/d. Eliminating d gives (H − h)tan β = (H + h)tan α, so H(tan β − tan α) = h(tan β + tan α). Therefore H = h(tan β + tan α)/(tan β − tan α). The condition β > α ensures a positive denominator.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "conditional_on_wording_or_assumption_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -182,7 +262,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation_after_assumption_clarification",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "enrichment_not_explicitly_listed_as_core_2026_27_outcome",
+          "curriculum_scope_note": "Uses general symbolic angles α and β in a reflection model; retain as enrichment beyond the prescribed standard-angle examples.",
+          "review_note": "The original formula is correct only when the cloud is above the observer and β > α; these assumptions are now explicit.",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "Answer is supported only when the revised wording or stated assumptions are applied; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / not expressly listed as core 2026–27 outcome",
+        "review_register_question_id": "cbse10-math-ch09-s2-005",
+        "master_review_status": "CONDITIONAL_ON_WORDING_OR_ASSUMPTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Uses general symbolic angles α and β in a reflection model; retain as enrichment beyond the prescribed standard-angle examples.",
+        "phase5_4_review_date": "2026-11-06",
+        "phase5_4_review_status": "assumption_wording_rechecked",
+        "phase5_4_review_note": "Rechecked against the current explicit wording/assumptions. The stored answer remains defensible under those stated conditions; human SME sign-off remains pending."
+      },
+      "academic_verification": {
+        "answer_key_status": "matches_under_explicit_wording_and_assumptions",
+        "review_note": "Uses general symbolic angles α and β in a reflection model; retain as enrichment beyond the prescribed standard-angle examples.",
+        "human_subject_expert_signoff": "pending"
       }
     },
     {
@@ -201,11 +309,11 @@
       "explanation": "Using formula h = sqrt(ab): h = sqrt(4 * 9) = sqrt(36) = 6 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 16",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -219,7 +327,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-006",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": ""
       }
     },
     {
@@ -238,11 +366,11 @@
       "explanation": "Initial ground distance d1 = 80 / tan 45 = 80 m. After 2 s, d2 = 80 / tan 30 = 80*sqrt(3) m. Distance flown = d2 - d1 = 80(sqrt(3) - 1) = 80(0.732) = 58.56 m. Speed = Distance / Time = 58.56 / 2 = 29.28 m/s.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -256,7 +384,37 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "pilot_verification": {
+          "batch": "CBSE10_Mathematics_100Q_Pilot",
+          "review_date": "2026-11-06",
+          "method": "AI-assisted independent mathematical solution and explanation/context review",
+          "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+          "follow_up_flags": [],
+          "human_subject_matter_signoff": "pending",
+          "official_item_source_match": "not_performed",
+          "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-007",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": ""
       }
     },
     {
@@ -275,11 +433,11 @@
       "explanation": "Let multi-storeyed height be H, ground distance be d. To bottom: tan 45 deg = H / d => d = H. To top: tan 30 deg = (H - 8)/d = (H - 8)/H => 1/sqrt(3) = (H - 8)/H => H = sqrt(3)H - 8*sqrt(3) => H(sqrt(3) - 1) = 8*sqrt(3) => H = 8*sqrt(3) / (sqrt(3) - 1) = 8*sqrt(3)(sqrt(3) + 1)/2 = 4*sqrt(3)(sqrt(3) + 1) = 4(3 + sqrt(3)) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1, Example 6",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -293,7 +451,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-008",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": ""
       }
     },
     {
@@ -312,11 +490,11 @@
       "explanation": "Distance to bank 1 = 3 / tan 30 = 3*sqrt(3) m. Distance to bank 2 = 3 / tan 45 = 3 m. Total river width = 3*sqrt(3) + 3 = 3(sqrt(3) + 1) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1, Example 7",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -330,7 +508,37 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "pilot_verification": {
+          "batch": "CBSE10_Mathematics_100Q_Pilot",
+          "review_date": "2026-11-06",
+          "method": "AI-assisted independent mathematical solution and explanation/context review",
+          "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+          "follow_up_flags": [],
+          "human_subject_matter_signoff": "pending",
+          "official_item_source_match": "not_performed",
+          "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-009",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": ""
       }
     },
     {
@@ -349,11 +557,11 @@
       "explanation": "Window height = 15 m. Foot depression: tan phi = 15 / d => 1/3 = 15 / d => d = 45 m. Top elevation: tan theta = h_above / d => 5/3 = h_above / 45 => h_above = 5 * 15 = 75 m. Total height of opposite house = 15 + 75 = 90 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -367,7 +575,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-010",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": ""
       }
     },
     {
@@ -386,11 +614,11 @@
       "explanation": "Distance to stone 1 = 1 / tan 45 = 1 km. Distance to stone 2 = 1 / tan 60 = 1/sqrt(3) km. Total distance = 1 + 1/sqrt(3) km.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -404,7 +632,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-011",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": ""
       }
     },
     {
@@ -412,7 +660,7 @@
       "type": "mcq",
       "subtopic": "Subtended Angle of Ladder",
       "difficulty": "Medium",
-      "question": "A ladder rests against a vertical wall at an inclination alpha to the horizontal. Its foot is pulled away through a distance 'a' so that it slides down a distance 'b' on the wall, making an angle beta with the horizontal. Which relation is correct?",
+      "question": "A ladder rests against a vertical wall at an inclination alpha to the horizontal. Its foot is pulled away through a distance 'a' so that it slides down a distance 'b' on the wall, making an angle beta with the horizontal. Assume 0 degrees < beta < alpha < 90 degrees. Which relation is correct?",
       "options": [
         "a/b = (sin alpha - sin beta) / (cos beta - cos alpha)",
         "a/b = tan alpha / tan beta",
@@ -423,11 +671,11 @@
       "explanation": "Let ladder length be L. Foot initially = L cos alpha, top = L sin alpha. Foot after = L cos beta, top = L sin beta. Slide a = L(cos beta - cos alpha). Drop b = L(sin alpha - sin beta). Ratio a/b = (cos beta - cos alpha)/(sin alpha - sin beta).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -441,7 +689,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "enrichment_not_explicitly_listed_as_core_2026_27_outcome",
+          "curriculum_scope_note": "Uses a general symbolic-angle ladder relation; retain as enrichment beyond the prescribed standard-angle examples.",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / not expressly listed as core 2026–27 outcome",
+        "review_register_question_id": "cbse10-math-ch09-s2-012",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "Uses a general symbolic-angle ladder relation; retain as enrichment beyond the prescribed standard-angle examples."
       }
     },
     {
@@ -460,11 +728,11 @@
       "explanation": "Let tower height be H, ground distance be d. From ground: tan 60 deg = H / d => d = H / sqrt(3). From 10 m above: tan 45 deg = (H - 10) / d => d = H - 10. Equating d: H / sqrt(3) = H - 10 => H = sqrt(3)H - 10*sqrt(3) => H(sqrt(3) - 1) = 10*sqrt(3) => H = 10*sqrt(3) / (sqrt(3) - 1) = 10*sqrt(3)(sqrt(3) + 1)/2 = 5*sqrt(3)(sqrt(3) + 1) = 5(3 + sqrt(3)) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -478,7 +746,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-013",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": ""
       }
     },
     {
@@ -497,11 +785,11 @@
       "explanation": "sin 30 deg = Height / Beam Length => 1/2 = 60 / L => L = 120 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -515,7 +803,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-014",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": ""
       }
     },
     {
@@ -534,11 +842,11 @@
       "explanation": "Let ground distance between them be d. From foot of building to tower: tan 60 deg = 50 / d => d = 50 / sqrt(3). From foot of tower to building: tan 30 deg = h / d => 1/sqrt(3) = h / (50/sqrt(3)) => h = 50 / 3 = 16 2/3 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 9",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -552,15 +860,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-015",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": ""
       }
     },
     {
       "id": "cbse10-math-ch09-s2-016",
       "type": "mcq",
-      "subtopic": "Two Ships Diverging Rate",
+      "subtopic": "Balloon Geometry – Apparent Angular Diameter (Enrichment)",
       "difficulty": "Hard",
-      "question": "A round balloon of radius 'r' subtends an angle alpha at the eye of the observer, while the angle of elevation of its centre is beta. What is the height of the centre of the balloon from the ground?",
+      "question": "A round balloon of radius r subtends an angle α at an observer whose eye is at ground level. The angle of elevation of the balloon's centre is β. What is the height of the centre of the balloon above the ground?",
       "options": [
         "r cos beta cosec(alpha / 2)",
         "r sin beta cosec(alpha / 2)",
@@ -568,14 +896,14 @@
         "r tan beta cosec alpha"
       ],
       "answer": 1,
-      "explanation": "Let centre of balloon be C and observer be O. The angle subtended by the balloon is alpha, so the half angle between line of sight to centre and tangent is alpha/2. In right triangle formed by tangent: sin(alpha/2) = r / OC => OC = r / sin(alpha/2) = r cosec(alpha/2). In right triangle for height of centre: sin beta = Height / OC => Height = OC * sin beta = r sin beta cosec(alpha/2).",
+      "explanation": "The line from the observer to the balloon's centre bisects the subtended angle, so the angle between it and a tangent is α/2. In the right triangle formed by the centre, observer and point of tangency, sin(α/2) = r/OC, hence OC = r cosec(α/2). The centre's vertical height above the ground is OC sin β = r sin β cosec(α/2). The ground-level eye assumption is needed because the question asks for height above ground.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exemplar Problem",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "conditional_on_wording_or_assumption_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -589,7 +917,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation_after_assumption_clarification",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "enrichment_not_explicitly_listed_as_core_2026_27_outcome",
+          "curriculum_scope_note": "Uses general symbolic apparent/elevation angles; retain as enrichment beyond the prescribed standard-angle examples.",
+          "review_note": "The original formula gives height above the observer; eye level is now explicitly set at ground level to answer height above ground.",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "Answer is supported only when the revised wording or stated assumptions are applied; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / not expressly listed as core 2026–27 outcome",
+        "review_register_question_id": "cbse10-math-ch09-s2-016",
+        "master_review_status": "CONDITIONAL_ON_WORDING_OR_ASSUMPTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "Uses general symbolic apparent/elevation angles; retain as enrichment beyond the prescribed standard-angle examples.",
+        "phase5_4_review_date": "2026-11-06",
+        "phase5_4_review_status": "assumption_wording_rechecked",
+        "phase5_4_review_note": "Rechecked against the current explicit wording/assumptions. The stored answer remains defensible under those stated conditions; human SME sign-off remains pending."
+      },
+      "academic_verification": {
+        "answer_key_status": "matches_under_explicit_wording_and_assumptions",
+        "review_note": "Uses general symbolic apparent/elevation angles; retain as enrichment beyond the prescribed standard-angle examples.",
+        "human_subject_expert_signoff": "pending"
       }
     },
     {
@@ -608,11 +964,11 @@
       "explanation": "h = sqrt(a * b) = sqrt(16 * 25) = sqrt(400) = 20 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Exercise 9.1 Question 16",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -626,7 +982,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-017",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": ""
       }
     },
     {
@@ -645,11 +1021,11 @@
       "explanation": "At 45 deg: shadow s1 = h / tan 45 = h. At 30 deg: shadow s2 = h / tan 30 = h*sqrt(3). The ratio s2 / s1 = (h*sqrt(3)) / h = sqrt(3).",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -663,7 +1039,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-018",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": ""
       }
     },
     {
@@ -682,11 +1078,11 @@
       "explanation": "tan 60 deg = 15 / width => sqrt(3) = 15 / w => w = 15 / sqrt(3) = 5*sqrt(3) m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -700,7 +1096,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-019",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": ""
       }
     },
     {
@@ -719,11 +1135,11 @@
       "explanation": "Height above eye level = 12 * tan 45 = 12 m. Total pole height = 12 + 1.6 = 13.6 m.",
       "citation": "NCERT Class 10 Mathematics, Chapter 9, Section 9.1",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -737,7 +1153,27 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch09-s2-020",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": ""
       }
     }
   ]

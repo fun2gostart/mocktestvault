@@ -7,12 +7,12 @@
     "question": "Which metal is liquid at room temperature, and which non-metal is a lustrous crystalline solid?",
     "options": [
       "Metal: Sodium; Non-metal: Sulphur",
-      "Metal: Gallium; Non-metal: Carbon",
       "Metal: Mercury; Non-metal: Iodine",
+      "Metal: Gallium; Non-metal: Carbon",
       "Metal: Lead; Non-metal: Phosphorus"
     ],
-    "answer": 2,
-    "explanation": "Mercury (Hg) is the only liquid metal at standard room temperature. Iodine is a non-metal, yet it displays exceptional metallic-like lustre.",
+    "answer": 1,
+    "explanation": "While metals are typically hard solids with high melting points, Mercury (Hg, atomic number 80) is the unique metal that exists as a liquid at standard room temperature (25°C, melting point -38.8°C). Conversely, non-metals are generally dull solids or gases with poor reflectance, but Iodine (I₂, atomic number 53) is an exceptional non-metal that forms dark purple-black lustrous crystalline plates with a distinct metallic sheen. Gallium and Caesium also have very low melting points (<30°C) and melt in the palm of a hand.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.1",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -45,11 +45,11 @@
     "options": [
       "To prevent them from evaporating into air",
       "To dissolve their outer oxide coating",
-      "To keep their metallic luster shiny for display",
-      "To prevent vigorous exothermic reaction with atmospheric oxygen and moisture that catches fire"
+      "To prevent vigorous exothermic reaction with atmospheric oxygen and moisture that catches fire",
+      "To keep their metallic luster shiny for display"
     ],
-    "answer": 3,
-    "explanation": "Sodium and potassium react so vigorously with moisture and oxygen in the air that they catch fire spontaneously (2Na + 2H₂O → 2NaOH + H₂ + Heat). Immersing them in kerosene protects them from contact with air and moisture.",
+    "answer": 2,
+    "explanation": "Sodium and potassium are highly reactive metals. They are stored under kerosene so that they do not come into contact with air or moisture. Contact with water causes a vigorous, exothermic reaction that forms the metal hydroxide and hydrogen gas; the heat can ignite the hydrogen. Kerosene acts as a barrier and is sufficiently unreactive under storage conditions.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.2.2",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -86,7 +86,7 @@
       "Basic oxides only"
     ],
     "answer": 0,
-    "explanation": "Metal oxides which react with both acids as well as bases to produce salts and water are known as amphoteric oxides. Examples: Al₂O₃ and ZnO. Al₂O₃ + 2NaOH → 2NaAlO₂ (sodium aluminate) + H₂O.",
+    "explanation": "Most metal oxides are basic in nature and react with acids to form salt and water. However, certain metal oxides, notably aluminium oxide (Al₂O₃) and zinc oxide (ZnO), react with both acids as well as strong bases to yield salts and water; such oxides are termed amphoteric oxides. With acid: Al₂O₃(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂O(l) (behaving as a base). With base: Al₂O₃(s) + 2NaOH(aq) → 2NaAlO₂(aq) + H₂O(l), forming soluble sodium aluminate (behaving as an acidic oxide) (NCERT Class 10 Chemistry Section 3.2.1).",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.2.1",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -118,12 +118,12 @@
     "question": "Aqua regia is a highly corrosive, fuming liquid capable of dissolving noble metals like gold and platinum. What is its exact chemical composition?",
     "options": [
       "Dilute HCl and Concentrated HNO₃ in a 3 : 1 ratio",
-      "Concentrated HCl and Concentrated HNO₃ in a 3 : 1 ratio",
       "Concentrated H₂SO₄ and Concentrated HNO₃ in a 1 : 1 ratio",
-      "Concentrated HCl and Concentrated H₂SO₄ in a 2 : 1 ratio"
+      "Concentrated HCl and Concentrated H₂SO₄ in a 2 : 1 ratio",
+      "Concentrated HCl and Concentrated HNO₃ in a 3 : 1 ratio"
     ],
-    "answer": 1,
-    "explanation": "Aqua regia (royal water) is a freshly prepared mixture of concentrated hydrochloric acid and concentrated nitric acid in the ratio of 3 : 1 by volume.",
+    "answer": 3,
+    "explanation": "Aqua regia (Latin for 'royal water') is a highly corrosive, fuming, orange-yellow liquid prepared freshly by mixing concentrated hydrochloric acid (conc. HCl) and concentrated nitric acid (conc. HNO₃) in a strict volumetric ratio of 3 : 1. Neither acid alone can dissolve noble metals. When mixed, nitric acid oxidizes hydrochloric acid to generate free nascent chlorine and nitrosyl chloride (HNO₃ + 3HCl → NOCl + Cl₂ + 2H₂O); nascent chlorine attacks noble metals like gold (Au) and platinum (Pt) to form soluble chloro complexes like HAuCl₄.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.2.3 (Aqua Regia Box)",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -160,7 +160,7 @@
       "Conduct electricity in aqueous solution or molten state"
     ],
     "answer": 2,
-    "explanation": "In solid state, ionic compounds do NOT conduct electricity because ions are locked in rigid crystal lattice positions. They conduct electricity only in molten or aqueous state where ions are free to migrate.",
+    "explanation": "Ionic (electrovalent) compounds like sodium chloride (NaCl) consist of three-dimensional crystal lattices where positively charged Na⁺ cations and negatively charged Cl⁻ anions are held rigidly in place by strong omnidirectional electrostatic forces of attraction. Because the ions are immobile and cannot migrate within the rigid solid lattice, ionic compounds do NOT conduct electricity in the solid state. They conduct electricity only when dissolved in polar water or melted, where ions are free to move and carry electrical current.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.3 (Properties of Ionic Compounds)",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -191,13 +191,13 @@
     "difficulty": "Hard",
     "question": "What is the difference between roasting and calcination during the extraction of metals from their ores?",
     "options": [
-      "Roasting strongly heats sulphide ores in excess air; Calcination strongly heats carbonate ores in limited/no air",
       "Roasting is done in absence of air for carbonates; Calcination is done in excess air for sulphides",
+      "Roasting strongly heats sulphide ores in excess air; Calcination strongly heats carbonate ores in limited/no air",
       "Both processes are identical methods of electrolytic refining",
       "Roasting converts oxides to metals; Calcination converts metals to alloys"
     ],
-    "answer": 0,
-    "explanation": "Roasting: 2ZnS + 3O₂ + Heat → 2ZnO + 2SO₂ (excess air for sulphide ores). Calcination: ZnCO₃ + Heat → ZnO + CO₂ (limited or absence of air for carbonate ores).",
+    "answer": 1,
+    "explanation": "Roasting and calcination are pyrometallurgical methods used to convert mineral ores into metal oxides before reduction: (1) Roasting is applied to sulphide ores (e.g. zinc blende, ZnS), which are heated strongly below their melting point in a continuous excess supply of air: 2ZnS(s) + 3O₂(g) + Heat → 2ZnO(s) + 2SO₂(g); (2) Calcination is applied to carbonate or hydrated ores (e.g. calamine, ZnCO₃), which are heated strongly in limited air or absence of air to expel volatile CO₂: ZnCO₃(s) + Heat → ZnO(s) + CO₂(g) (NCERT Section 3.4.3).",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.4.3",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -228,13 +228,13 @@
     "difficulty": "Medium",
     "question": "The highly exothermic reduction of iron(III) oxide with aluminium powder (Fe₂O₃ + 2Al → 2Fe + Al₂O₃ + Heat) is utilized practically for:",
     "options": [
+      "Joining railway tracks and cracked machine parts",
       "Electroplating copper utensils",
       "Manufacturing light-weight aircraft alloys",
-      "Extracting pure oxygen in submarines",
-      "Joining railway tracks and cracked machine parts"
+      "Extracting pure oxygen in submarines"
     ],
-    "answer": 3,
-    "explanation": "This displacement reaction is known as the thermite reaction. The heat evolved is so high that iron is produced in molten liquid state, allowing it to fuse and weld railway tracks on site.",
+    "answer": 0,
+    "explanation": "The thermite reaction is a highly exothermic displacement reaction: Fe₂O₃(s) + 2Al(s) → 2Fe(l) + Al₂O₃(s) + heat. Aluminium removes oxygen from iron(III) oxide because it has a greater affinity for oxygen. The heat produced is sufficient to form molten iron, which is used in thermite welding, including joining railway tracks.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.4.3 (Thermite Process)",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -266,12 +266,12 @@
     "question": "During the electrolytic refining of blister copper, what are the anode, cathode, and electrolyte respectively?",
     "options": [
       "Anode: Pure copper; Cathode: Impure copper; Electrolyte: Dilute HCl",
-      "Anode: Impure copper slab; Cathode: Thin pure copper strip; Electrolyte: Acidified CuSO₄ solution",
       "Anode: Carbon rod; Cathode: Pure copper; Electrolyte: Molten CuCl₂",
-      "Anode: Platinum; Cathode: Zinc; Electrolyte: CuSO₄ solution"
+      "Anode: Platinum; Cathode: Zinc; Electrolyte: CuSO₄ solution",
+      "Anode: Impure copper slab; Cathode: Thin pure copper strip; Electrolyte: Acidified CuSO₄ solution"
     ],
-    "answer": 1,
-    "explanation": "Impure copper acts as the Anode (+) and dissolves into solution as Cu²⁺ ions. Pure copper deposits onto the Cathode (-). Insoluble impurities settle below the anode as 'anode mud'.",
+    "answer": 3,
+    "explanation": "In the electrolytic refining of crude blister copper: (1) Anode (positive electrode): A thick block of impure blister copper; (2) Cathode (negative electrode): A thin sheet of pure refined copper; (3) Electrolyte: An aqueous solution of copper sulphate (CuSO₄) acidified with dilute sulphuric acid. When electric current passes, copper from the anode oxidizes and dissolves as Cu²⁺ ions: Cu(impure) → Cu²⁺ + 2e⁻. At the cathode, Cu²⁺ ions gain electrons to deposit pure copper: Cu²⁺ + 2e⁻ → Cu(pure). Insoluble impurities settle as 'anode mud'.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.4.4",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -303,12 +303,12 @@
     "question": "An amalgam is a special metallic alloy containing which mandatory metal component?",
     "options": [
       "Aluminium",
-      "Mercury",
       "Silver",
-      "Gold"
+      "Gold",
+      "Mercury"
     ],
-    "answer": 1,
-    "explanation": "If one of the constituent metals in an alloy is mercury (Hg), the alloy is specifically termed an amalgam (e.g. sodium amalgam, dental amalgam).",
+    "answer": 3,
+    "explanation": "An amalgam is a specialized category of alloy in which one of the mandatory constituent metals is elemental mercury (Hg). Mercury forms homogeneous metallic solutions with many metals at room temperature. Examples include sodium amalgam (Na-Hg), widely utilized in organic chemistry as a gentle reducing agent, zinc amalgam (Zn-Hg) used in the Clemmensen reduction, and dental amalgam (an alloy of mercury with silver, tin, and copper) traditionally utilized by dentists to fill cavities. Note that iron does not form an amalgam.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5 (Alloys)",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -337,15 +337,15 @@
     "type": "mcq",
     "subtopic": "Alloys & Compositions",
     "difficulty": "Easy",
-    "question": "What are the primary constituent metals in Brass, Bronze, and Solder respectively?",
+    "question": "In the conventional school-level examples, what are the primary constituent metals in brass, bronze, and traditional lead-tin solder, respectively?",
     "options": [
-      "Brass: Cu + Zn; Bronze: Cu + Sn; Solder: Pb + Sn",
       "Brass: Cu + Sn; Bronze: Cu + Zn; Solder: Fe + C",
+      "Brass: Cu + Zn; Bronze: Cu + Sn; Solder: Pb + Sn",
       "Brass: Fe + Cr; Bronze: Al + Cu; Solder: Pb + Zn",
       "Brass: Zn + Ni; Bronze: Cu + Pb; Solder: Sn + Ag"
     ],
-    "answer": 0,
-    "explanation": "Brass is an alloy of Copper and Zinc (Cu + Zn). Bronze is an alloy of Copper and Tin (Cu + Sn). Solder is an alloy of Lead and Tin (Pb + Sn), which has a low melting point used for welding electrical wires.",
+    "answer": 1,
+    "explanation": "Brass is primarily an alloy of copper and zinc (Cu + Zn). Traditional bronze is primarily copper and tin (Cu + Sn). Traditional soft solder is lead and tin (Pb + Sn). Alloy proportions vary by grade, and modern lead-free solders also exist; the answer refers specifically to the conventional lead-tin solder used in school-level examples.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -382,7 +382,7 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "HNO₃ oxidizes H₂ into H₂O and reduces to NO₂, NO, or N₂O. Only very dilute HNO₃ reacts with Magnesium (Mg) and Manganese (Mn) to evolve H₂ gas. Reason correctly explains Assertion.",
+    "explanation": "Unlike hydrochloric or sulphuric acid, dilute nitric acid (HNO₃) rarely evolves hydrogen gas when reacted with metals. This is because nitric acid is an exceptionally potent oxidizing agent: as rapidly as nascent hydrogen gas (H₂) is generated by metal displacement, HNO₃ oxidizes it into water (H₂O), while the nitric acid itself is reduced to various nitrogen oxides such as nitrogen dioxide (NO₂), nitric oxide (NO), or nitrous oxide (N₂O). Only very dilute (~1%) HNO₃ reacts with Magnesium (Mg) and Manganese (Mn) to liberate H₂ gas.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.2.3",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -411,7 +411,7 @@
     "type": "assertion_reasoning",
     "subtopic": "Assertion & Reasoning",
     "difficulty": "Board Standard",
-    "question": "Assertion (A): Galvanisation protects iron articles from rusting even if the protective zinc layer is scratched.\nReason (R): Zinc is more electropositive than iron and preferentially corrodes/sacrifices itself to protect the underlying iron.",
+    "question": "Assertion (A): A small scratch in the zinc coating of a galvanised iron article may remain protected from rusting while zinc remains nearby.\nReason (R): Zinc is more electropositive than iron and preferentially corrodes/sacrifices itself to protect the underlying iron.",
     "options": [
       "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
       "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
@@ -419,7 +419,7 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Zinc has a higher oxidation potential than iron. Even when scratched, zinc oxidizes sacrificially before iron can react with air and moisture (cathodic protection). Reason correctly explains Assertion.",
+    "explanation": "Galvanisation coats iron or steel with zinc. If a small area of the coating is scratched, zinc can still act as a sacrificial metal because it is more reactive than iron and oxidises preferentially. This provides protection around a local scratch while sufficient zinc remains; it should not be interpreted as unlimited protection after extensive coating loss or zinc consumption. Both the assertion and reason are true in the usual galvanisation context, and the reason explains the protection.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -456,7 +456,7 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Carbon cannot reduce oxides of Na, Mg, Ca, or Al because these metals bind oxygen with far greater affinity than carbon. They must be extracted by electrolytic reduction of their molten chlorides. Reason explains Assertion.",
+    "explanation": "Highly reactive metals at the top of the reactivity series (such as Potassium, Sodium, Calcium, Magnesium, and Aluminium) form ionic oxides with exceptionally high lattice enthalpies and strong chemical affinities for oxygen. Their bond energies with oxygen are far higher than the affinity of carbon for oxygen; therefore, coke or carbon monoxide cannot reduce these metal oxides to metals at any temperature. Instead, these electropositive metals must be extracted via electrolytic reduction of their molten anhydrous chlorides or oxides.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.4.4",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -493,7 +493,7 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "2Ag + H₂S → Ag₂S (black) + H₂. Silver does not react with oxygen easily, but traces of hydrogen sulphide gas in polluted air cause the formation of black silver sulphide. Reason explains Assertion.",
+    "explanation": "Silver tarnishes when it reacts with trace sulphur-containing compounds in the environment, especially hydrogen sulphide, to form a thin black layer of silver sulphide (Ag₂S). Oxygen and moisture can participate in the surface reaction; the tarnish is not simply oxidation of silver by oxygen alone. The black Ag₂S layer causes the loss of metallic lustre.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -530,7 +530,7 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Pure gold (24 carat) is very malleable and soft. In India, 22-carat gold (22 parts pure gold alloyed with 2 parts copper or silver) is standard to impart structural hardness. Reason correctly explains Assertion.",
+    "explanation": "Pure gold is designated as 24-carat gold (100% Au). In its unalloyed state, gold is extraordinarily soft, ductile, and malleable, meaning that delicate jewellery crafted from pure 24-carat gold would readily deform, scratch, bend, or snap under daily wear. To impart mechanical strength, durability, and hardness, pure gold is alloyed with copper or silver. In India, 22-carat gold is the standard for fine jewellery, consisting of 22 parts by weight of pure gold alloyed with 2 parts of copper or silver. Both (A) and (R) are true and (R) explains.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.5 (22-Carat Gold Box)",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -563,11 +563,11 @@
     "options": [
       "Coating iron with molten zinc; Iron",
       "Depositing chromium on steel bumpers; Nickel",
-      "Heating copper with charcoal; Copper",
-      "Forming a thick, protective oxide layer electrochemically; Aluminium"
+      "Forming a thick, protective oxide layer electrochemically; Aluminium",
+      "Heating copper with charcoal; Copper"
     ],
-    "answer": 3,
-    "explanation": "Anodising is an electrolytic process of forming a thick protective aluminium oxide (Al₂O₃) layer on aluminium articles. During electrolysis with dilute H₂SO₄, oxygen gas liberated at the anode reacts with aluminium to form an impermeable, dyeable protective coat.",
+    "answer": 2,
+    "explanation": "Anodising is an electrochemical surface-treatment process in which aluminium is made the anode and a thicker, controlled aluminium oxide layer is grown on its surface. This oxide layer improves corrosion and wear resistance. The porous oxide can also be coloured by dyes before sealing, which is why anodised aluminium is available in decorative finishes.",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.2.1 (Anodising Box)",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -598,13 +598,13 @@
     "difficulty": "Easy",
     "question": "Which of the following displacement pairs will result in an active chemical reaction?",
     "options": [
+      "AgNO₃ solution and Copper metal",
       "NaCl solution and Copper metal",
       "MgCl₂ solution and Aluminium metal",
-      "AgNO₃ solution and Copper metal",
       "FeSO₄ solution and Silver metal"
     ],
-    "answer": 2,
-    "explanation": "Copper is higher than silver in the reactivity series: Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag. Copper displaces silver, producing a lustrous grey-white deposit of silver crystals and a blue copper nitrate solution. In all other options, the metal is less reactive than the cation in solution.",
+    "answer": 0,
+    "explanation": "According to the reactivity series (K > Na > Ca > Mg > Al > Zn > Fe > Pb > [H] > Cu > Hg > Ag > Au), a metal can displace another metal from its salt solution only if the elemental metal is more electropositive (higher in the series). Here, Copper (Cu) is higher than Silver (Ag): Cu(s) + 2AgNO₃(aq) → Cu(NO₃)₂(aq) + 2Ag(s). Copper dissolves to form blue copper(II) nitrate, while lustrous dendritic crystals of pure silver metal precipitate out. In all other options, the free metal is lower than the cation in solution, so no reaction occurs.",
     "citation": "NCERT Class 10 Science, Chapter 3, Chapter Exercise Q1",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -641,7 +641,7 @@
       "Decomposes into hydrogen gas and sulphur"
     ],
     "answer": 2,
-    "explanation": "2HgS + 3O₂ + Heat → 2HgO + 2SO₂. On continuous strong heating, the oxide decomposes thermally without needing a reducing agent: 2HgO + Heat → 2Hg(l) + O₂(g).",
+    "explanation": "Mercury is low in the reactivity series and is extracted from its natural sulphide ore, cinnabar (HgS), by simple thermal reduction in air: (1) First, crushed cinnabar is roasted in a furnace with excess air, converting mercuric sulphide into mercuric oxide: 2HgS(s) + 3O₂(g) + Heat → 2HgO(s) + 2SO₂(g); (2) Because mercury has low chemical affinity for oxygen at high temperatures, on continued strong heating above ~500°C, mercuric oxide decomposes directly without any reducing agent: 2HgO(s) + Heat → 2Hg(l) + O₂(g) (NCERT Section 3.4.2).",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.4.2",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -672,13 +672,13 @@
     "difficulty": "Easy",
     "question": "Non-metals like sulphur and carbon burn in oxygen to produce non-metallic oxides. What is the nature of these oxides in aqueous solution?",
     "options": [
-      "Acidic or neutral; acidic oxides turn blue litmus red",
       "Basic; turns red litmus blue",
+      "Acidic or neutral; acidic oxides turn blue litmus red",
       "Strongly amphoteric; reacts with both acids and bases",
       "Saline with neutral pH 7"
     ],
-    "answer": 0,
-    "explanation": "Most non-metals produce acidic oxides when dissolved in water (e.g. SO₂ + H₂O → H₂SO₃ sulphurous acid, CO₂ + H₂O → H₂CO₃ carbonic acid). Neutral non-metal oxides include CO, H₂O, and N₂O.",
+    "answer": 1,
+    "explanation": "When non-metals burn in oxygen, they share electrons to form non-metallic covalent oxides. Most non-metallic oxides are acidic anhydrides that dissolve in water to yield oxyacids which turn moist blue litmus paper red: e.g. sulphur dioxide produces sulphurous acid (SO₂ + H₂O → H₂SO₃), and carbon dioxide produces carbonic acid (CO₂ + H₂O → H₂CO₃). A few non-metallic oxides are neutral (neither acidic nor basic) and do not affect litmus paper, including carbon monoxide (CO), water (H₂O), and nitrous oxide (N₂O) (NCERT Section 3.2.3).",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.2.1",
     "quality_review": {
       "review_date": "2026-11-05",
@@ -715,7 +715,7 @@
       "(A) is false, but (R) is true."
     ],
     "answer": 0,
-    "explanation": "Metals lower than hydrogen in the reactivity series (Cu, Ag, Au, Pt) lack sufficient reducing power to displace H⁺ from dilute HCl or dilute H₂SO₄. Reason correctly explains Assertion.",
+    "explanation": "When metals react with non-oxidizing dilute acids like dilute hydrochloric acid (HCl) or dilute sulphuric acid (H₂SO₄), the metal must donate electrons to reduce hydrogen ions into hydrogen gas: M + 2H⁺ → M²⁺ + H₂↑. In the electrochemical reactivity series, Copper (Cu), along with Silver, Gold, and Platinum, is positioned below hydrogen (standard reduction potential E° = +0.34 V for Cu²⁺/Cu vs 0.00 V for H⁺/H₂). Copper lacks the thermodynamic reducing power to displace H⁺ ions. Both Assertion (A) and Reason (R) are true, and (R) explains (A).",
     "citation": "NCERT Class 10 Science, Chapter 3, Section 3.2.3",
     "quality_review": {
       "review_date": "2026-11-05",

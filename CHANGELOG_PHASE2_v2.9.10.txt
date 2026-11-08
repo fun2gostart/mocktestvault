@@ -1,0 +1,12 @@
+MOCKTESTVAULT v2.9.10 — CHANGELOG
+Date: 2026-11-06
+Baseline: v2.9.9 Phase 1 audit candidate
+
+- Fixed scorecard ReferenceError caused by undefined `wrongPenalty` and `correctWeight` variables.
+- Added correct-answer mark accumulation and actual negative-penalty accumulation so scorecard figures reflect per-question marking settings.
+- Updated scorecard labels to avoid implying a fixed mark value when per-question marks may differ.
+- Added responsive mobile rules to prevent horizontal overflow on CBT chapter pages.
+- Incremented service-worker cache from mtv-cbt-v47 to mtv-cbt-v48.
+- Added Phase 2 functional QA report and chapter-wise browser test register.
+- No question-bank content was changed in Phase 2.
+- No AdSense changes were made.

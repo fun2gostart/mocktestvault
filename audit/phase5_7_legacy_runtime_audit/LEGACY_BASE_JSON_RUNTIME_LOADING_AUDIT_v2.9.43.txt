@@ -1,0 +1,30 @@
+MOCKTESTVAULT – PHASE 5.7 LEGACY BASE JSON RUNTIME LOADING AUDIT
+Version: v2.9.43
+Baseline: v2.9.42
+
+SCOPE: Social Science legacy/base JSON files only (Class X, 21 chapters).
+Legacy base JSON files: 21
+Question records in legacy base files: 65
+Active set JSON files: 63 (Set 1–3 across 21 chapters)
+Social Science chapter HTML pages checked: 21
+Exact legacy filename references in non-data source files: 0
+Every chapter page configures three _set1/_set2/_set3 source paths: 21 / 21
+
+FINDINGS:
+1. All 21 Social Science chapter HTML pages instantiate MockTestEngine with explicit set1, set2 and set3 JSON paths. No page configures its same-chapter legacy/base JSON file.
+2. js/test-engine.js loads the selected this.dataSource. In random mode, it aggregates Object.values(this.setSources); neither branch enumerates or falls back to legacy/base JSON files.
+3. A repository-wide exact-basename search found no internal source reference to any of the 21 Social Science legacy/base JSON filenames.
+4. Static evidence therefore indicates that the 21 legacy/base files (65 question records) are not part of the current chapter-test runtime question pool. Active chapter tests use the 63 set files (1,260 questions).
+5. This is a static repository audit, not a live production network trace. Direct URL access, external bookmarks, third-party crawlers, or undocumented server-side routing were not tested.
+
+DISPOSITION:
+- Do NOT delete the legacy/base files in this phase.
+- Keep them preserved in the package and classify them as legacy/shadow candidates pending explicit retirement approval.
+- Before retirement, run a live staging smoke test for all 21 chapter pages, verify Set 1/2/3 and Random mode network requests, inspect server access logs for direct base-file traffic, and confirm no external integration depends on those URLs.
+- The two previously reported exact stem overlaps remain preserved: (a) Gender, Religion and Caste secular-state question; (b) Globalisation/WTO objective question.
+- No application code, HTML, service-worker cache version, or question content was changed. No production deployment was performed.
+
+TECHNICAL BASIS:
+js/test-engine.js: loadQuestions() fetches this.dataSource for selected sets; random mode fetches Object.values(this.setSources || {}).
+HTML source configurations: cbse-class-10/social-science/chXX_*.html; each contains explicit set1/set2/set3 paths.
+See the two CSV registers embedded under audit/phase5_7_legacy_runtime_audit/.

@@ -1,0 +1,42 @@
+MOCKTESTVAULT v2.9.10 — PHASE 2 FUNCTIONALITY & BROWSER QA
+Date: 2026-11-06
+Baseline: v2.9.9 Phase 1 audit archive (built from the uploaded v2.9.8 academic candidate)
+Scope: CBSE Class X Mathematics chapter practice engine, 14 chapters / 42 active practice sets.
+
+EXECUTIVE RESULT
+- PASS: all 14 chapter practice pages loaded in a Chromium browser harness.
+- PASS: all 42 active chapter-set combinations loaded 20 questions each (840 questions total).
+- PASS: question rendering, option selection, Previous/Next navigation, Mark for Review, Clear Response, Submit Test, and scorecard display were exercised on every chapter.
+- PASS: no JavaScript page errors or failed local asset requests in the final 14-chapter run.
+- PASS: random-set mode loaded 20 questions.
+- PASS: timer counted down from 20:00 to 19:58 over approximately two seconds.
+- PASS: Practice Mode switched correctly and displayed explanation feedback after answer selection.
+- PASS: mobile width checks at 320, 360, 390, 430, 768 and 1024 CSS pixels showed no horizontal document overflow. All 14 chapter pages were additionally checked at 390px with no horizontal overflow.
+- PASS: representative scoring test showed 1 correct, 1 incorrect and 18 skipped, with a 5% score and correct/incorrect/skipped stats rendered.
+
+DEFECTS FOUND AND FIXED
+1. Scorecard submission threw a ReferenceError because `wrongPenalty` and `correctWeight` were referenced without declarations. This prevented the scorecard from completing.
+2. Scorecard calculation/display now tracks marks earned from correct answers and actual negative penalties from question-specific marking configurations. The penalty tile is shown only when a negative penalty was incurred.
+3. Mobile viewport overflow was found on the CBT chapter pages. The shared `css/test-engine.css` now has a compact mobile layout for the header, controls, test layout, action bar, and question palette.
+4. Service-worker cache key incremented from `mtv-cbt-v47` to `mtv-cbt-v48` so updated shared CSS/JS are not hidden behind the previous cache.
+
+REGRESSION RESULTS
+- Node syntax check: `js/test-engine.js` PASS.
+- Node syntax check: `sw.js` PASS.
+- Active sets tested: 42.
+- Questions loaded in active sets: 840.
+- Chapter pages with functional browser pass: 14/14.
+- Mobile pages at 390px with no overflow: 14/14.
+- Random mode: 20 questions loaded.
+- Timer and practice-mode feedback: PASS.
+
+TEST ENVIRONMENT / LIMITATIONS
+- Browser automation used the archive's actual HTML, CSS, JavaScript and JSON assets through a controlled local route harness. A minimal in-memory storage shim was used only in the harness because the execution environment blocks localStorage on opaque test documents; no storage shim was added to production source.
+- Service-worker registration was disabled in the isolated test harness; the cache-key bump was syntax-checked and verified in the source.
+- This is archive-level browser QA. It is not a live Hostinger deployment test, real-device test, or live CDN/cache verification.
+- Production deployment, HTTPS, real-device touch ergonomics, and live browser console/network checks remain outstanding.
+- Academic subject-matter sign-off and official NCERT/PYQ source authentication remain pending as previously agreed.
+- AdSense remains outside the current scope; no AdSense changes were made.
+
+DEPLOYMENT NOTE
+Back up the current live website before deployment. Upload this candidate as a complete release only after checking the live file structure. After deployment, verify the 14 chapter pages, 42 sets, answer selection, timer, scoring, mobile layout, and `/sw.js` cache key `mtv-cbt-v48`. Confirm that the browser loads the updated `test-engine.js` and `test-engine.css` rather than stale host/CDN/service-worker assets.

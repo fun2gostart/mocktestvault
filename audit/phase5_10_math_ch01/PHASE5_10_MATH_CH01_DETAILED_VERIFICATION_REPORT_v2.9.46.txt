@@ -1,0 +1,38 @@
+MOCKTESTVAULT – PHASE 5.10 / BATCH 1
+MATHEMATICS CHAPTER 1: REAL NUMBERS
+Version: v2.9.46
+Baseline: v2.9.45
+Review type: independent item-level mathematical verification + NCERT textbook cross-check
+
+SCOPE
+- Sets 1, 2 and 3: 60 active questions (20 per set).
+- All 60 questions independently checked for mathematical validity, stored answer, distractors, uniqueness of correct option, assumptions and explanation consistency.
+- 59 questions passed without content change.
+- 1 question corrected for a non-unique answer.
+- All 60 records received phase5_10_chapter_review metadata.
+
+CORRECTION
+Question ID: cbse10-math-ch01-s2-011 (Set 2, Q11).
+The original asked for the value of n where a=2^3*3, b=2*3*5, c=3^n*5 and LCM=2^3*3^2*5. The LCM condition is max(1,1,n)=2, which allows n=1 and n=2. Thus the original stem had two valid choices (1 and 2). The stem now asks for the greatest possible positive integer n. The unique answer is n=2 (option C); answer index is unchanged.
+
+CURRICULUM / EXAM-STATUS FLAGS
+1. cbse10-math-ch01-s2-013 and cbse10-math-ch01-s3-016: circular-track LCM context. NCERT 2026–27 Exercise 1.1 Q7 carries the footnote “Not from the examination point of view” (official PDF page 5/printed page 6). These items are flagged for Board-status confirmation, not declared out of syllabus.
+2. cbse10-math-ch01-s2-015, s2-016, s3-009, s3-020: terminating-decimal criterion/calculation. The NCERT 2026–27 Chapter 1 introduction mentions decimal expansion of rational numbers, but the PDF's numbered sections/exercises do not develop this as a standalone rule. Keep Board classification provisional until the official CBSE 2026–27 course specification is reconciled.
+
+SOURCE CHECK
+Official NCERT Class X Mathematics, Chapter 1 “Real Numbers”, Reprint 2026–27: https://ncert.nic.in/textbook/pdf/jemh101.pdf
+Relevant content: Fundamental Theorem of Arithmetic (Theorem 1.1); HCF/LCM applications; Theorem 1.2; irrationality proofs; rational/irrational sum and product properties; Exercise 1.1 and 1.2. The exercise footnote “Not from the examination point of view” appears for Exercise 1.1 Q7.
+The textbook citation supports topic and theorem context only. It does not authenticate these generated items as exact NCERT Exemplar/PYQ questions or prove their answer keys were published by CBSE.
+
+VALIDATION / LIMITATIONS
+- Exactly 60 active Chapter 1 questions reviewed; 20 each in Set 1, Set 2 and Set 3.
+- One question stem/explanation revised; no option order or answer index changed.
+- No other question, answer or explanation changed.
+- Human SME sign-off remains pending for all 60 questions.
+- Exact PYQ / NCERT Exemplar item authentication remains pending.
+- Official CBSE 2026–27 question-level syllabus status remains pending for the six scope-flagged records.
+- No live Hostinger, browser runtime or production verification was performed.
+- No deployment was performed.
+
+NEXT
+Proceed to Mathematics Chapter 2 (Polynomials), Sets 1–3, 60 questions, using the same item-level verification method.

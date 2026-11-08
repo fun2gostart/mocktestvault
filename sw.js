@@ -1,7 +1,7 @@
 // MockTestVault — Browser-based practice app service worker
 // Caches selected app-shell assets and question data for repeat visits and limited offline use.
 
-const CACHE_NAME = 'mtv-cbt-v47';
+const CACHE_NAME = 'mtv-cbt-v87';
 
 const STATIC_ASSETS = [
   '/',

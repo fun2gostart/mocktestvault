@@ -1,0 +1,31 @@
+MockTestVault v2.9.15 – Phase 5.2 Academic Verification
+
+Base archive: v2.9.13 (Phase 5 final QA candidate)
+Question-bank variance input: v2.9.14 Phase 5.1 (77 groups / 260 occurrences)
+
+JSON files changed: 13 (16 repeated question records updated)
+- data/in/cbse10/science_ch01_chemical_reactions.json
+- data/in/cbse10/science_ch03_metals_non_metals_set1.json
+- data/in/cbse10/science_ch01_chemical_reactions_set1.json
+- data/in/cbse10/science/ch03_metals_non_metals.json
+- data/in/cbse10/science/ch03_metals_non_metals_set1.json
+- data/in/cbse10/science/ch04_carbon_compounds_set1.json
+- data/in/cbse10/science/ch04_carbon_compounds.json
+- data/in/cbse10/science/ch01_chemical_reactions.json
+- data/in/cbse10/science/ch01_chemical_reactions_set1.json
+- data/in/cbse10/science/ch05_life_processes.json
+- data/in/cbse10/science/ch05_life_processes_set1.json
+- data/in/cbse10/sample-papers/science_board_2024.json
+- data/in/cbse10/sample-papers/science_board_mock01.json
+
+Targeted corrections:
+- Hydrogenation assertion/reason: technical wording refined; answer index retained.
+- Respiration assertion/reason: removed unsupported fixed ATP count and clarified digestion vs respiration.
+- Anaerobic muscle pathway: removed fixed 36–38 ATP yield; clarified the NCERT pathway.
+- Alloy question: qualified traditional Pb-Sn solder and variable alloy composition.
+- Alkyne formula question: limited formula to open-chain monoalkynes.
+
+No quiz scoring, navigation, UI, SEO, or service-worker logic changed.
+No answer key changed in this phase.
+
+Academic status: AI-assisted conceptual verification only. Qualified human SME sign-off remains pending.

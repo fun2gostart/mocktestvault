@@ -1,0 +1,47 @@
+File,Access policy after deployment
+ACADEMIC_INTEGRATION_FILE_CHANGE_SUMMARY_v2.9.8.csv,DENY - internal/historical QA artifact
+MockTestVault_Phase1_Correction_Changelog.csv,DENY - internal/historical QA artifact
+MockTestVault_Phase1_Updated_Verification_Register.csv,DENY - internal/historical QA artifact
+PHASE1_LEGACY_SHADOW_AUDIT_v2.9.9.csv,DENY - internal/historical QA artifact
+PHASE2_BROWSER_TEST_RESULTS_v2.9.10.csv,DENY - internal/historical QA artifact
+PHASE3_SEO_PAGE_AUDIT_v2.9.11.csv,DENY - internal/historical QA artifact
+PYQ_AUTHENTICATION_REGISTER_v2.7.csv,DENY - internal/historical QA artifact
+PYQ_AUTHENTICATION_REGISTER_v2.8.csv,DENY - internal/historical QA artifact
+PYQ_AUTHENTICATION_REGISTER_v2.9.csv,ALLOW - intentionally linked public register
+QUESTION_ANSWER_VERIFICATION_REGISTER_v2.7.csv,DENY - internal/historical QA artifact
+QUESTION_ANSWER_VERIFICATION_REGISTER_v2.8.csv,DENY - internal/historical QA artifact
+QUESTION_ANSWER_VERIFICATION_REGISTER_v2.9.csv,ALLOW - intentionally linked public register
+QUESTION_DUPLICATE_REVIEW_REGISTER_v2.9.csv,ALLOW - intentionally linked public register
+QUESTION_EXPLANATION_VARIANCE_REGISTER_v2.9.csv,ALLOW - intentionally linked public register
+QUESTION_PROVENANCE_AUDIT.csv,DENY - internal/historical QA artifact
+QUESTION_REVIEW_BACKLOG_BY_FILE_v2.7.csv,DENY - internal/historical QA artifact
+QUESTION_REVIEW_BACKLOG_BY_FILE_v2.8.csv,DENY - internal/historical QA artifact
+QUESTION_REVIEW_BACKLOG_BY_FILE_v2.9.csv,ALLOW - intentionally linked public register
+SEO_PAGE_AUDIT_v2.9.csv,DENY - internal/historical QA artifact
+CHANGELOG_ACADEMIC_INTEGRATION_v2.9.8.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_ORGANIC_GROWTH_v2.9.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_ORGANIC_SEO_v2.2.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_ORGANIC_SEO_v2.3.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_ORGANIC_SEO_v2.4.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_ORGANIC_SEO_v2.6.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_PHASE1_v2.9.9.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_PHASE2_v2.9.10.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_PHASE3_v2.9.11.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_PRODUCTION_v2.8.txt,DENY - internal QA/release/deployment artifact
+CHANGELOG_QUESTION_QA_v2.7.txt,DENY - internal QA/release/deployment artifact
+DEPLOYMENT_README_v2.9.8.txt,DENY - internal QA/release/deployment artifact
+ORGANIC_GROWTH_QA_v2.9.txt,DENY - internal QA/release/deployment artifact
+PHASE1_ACADEMIC_PATCH_README.txt,DENY - internal QA/release/deployment artifact
+PHASE1_LEGACY_SHADOW_AUDIT_REPORT_v2.9.9.txt,DENY - internal QA/release/deployment artifact
+PHASE2_FUNCTIONAL_QA_v2.9.10.txt,DENY - internal QA/release/deployment artifact
+PHASE3_SEO_AUDIT_REPORT_v2.9.11.txt,DENY - internal QA/release/deployment artifact
+PRODUCTION_QA_v2.8.txt,DENY - internal QA/release/deployment artifact
+PRODUCTION_QA_v2.9.8.txt,DENY - internal QA/release/deployment artifact
+PRODUCTION_QA_v2.9.9.txt,DENY - internal QA/release/deployment artifact
+ads.txt,ALLOW - public discovery/verification endpoint
+d2593d2bc318fe4903957431a33b15d1.txt,ALLOW - public discovery/verification endpoint
+llms-full.txt,ALLOW - public discovery/verification endpoint
+llms.txt,ALLOW - public discovery/verification endpoint
+robots.txt,ALLOW - public discovery/verification endpoint
+.gitignore,DENY - repository helper
+.nojekyll,DENY - repository helper

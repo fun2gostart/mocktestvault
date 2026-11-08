@@ -13,7 +13,7 @@
         "96.5 percent"
       ],
       "answer": 1,
-      "explanation": "According to UN and NCERT hydrological data, approximately 96.5% of the total volume of global water exists in saline oceans and seas, while barely 2.5% exists as fresh water. Of this miniscule 2.5% freshwater reserve, nearly 70% is locked up as permanent continental ice sheets and mountain glaciers in Antarctica, Greenland, and high Himalayan peaks, and slightly under 30% is stored as groundwater in subterranean aquifers. Surface runoff in rivers and freshwater lakes accounts for less than 1% of the planet's total freshwater.",
+      "explanation": "The United Nations Environment Programme estimates that approximately 2.5% of Earth's total water is freshwater; the remainder is saline. Percentages are rounded and depend on the underlying global water-distribution estimate. This is a global hydrology fact, not a figure stated in the current NCERT Water Resources chapter.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 1",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -34,6 +34,91 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "supplementary_or_source_hold",
+        "phase5_7_batch8_scope": "supplementary_or_dated_or_source_hold",
+        "phase5_7_batch8_review_note": "The 2.5% freshwater share is a global hydrological statistic and is not stated in the current NCERT chapter text; retain as supplementary with a dated authoritative hydrology source.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=supplementary_or_source_hold",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_PRESENT_SOURCE_OR_SME_HOLD_REQUIRES_RESOLUTION_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": true,
+          "source_hold_or_discrepancy_flag": true,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
+        },
+        "phase5_55_source_scope_resolution": {
+          "phase": "5.55",
+          "version": "v2.9.104",
+          "resolution_date": "2026-11-08",
+          "source_resolution_status": "SOURCE_VERIFIED_SUPPLEMENTARY",
+          "question_level_scope_classification": "SUPPLEMENTARY_ENRICHMENT_NOT_BOARD_CORE",
+          "chapter_level_scope_classification": "BOARD_THEORY",
+          "board_theory_question_permitted": false,
+          "resolution_note": "UNEP supports the rounded 2.5% global freshwater estimate; not stated in current NCERT Water Resources chapter.",
+          "source_urls": [
+            "https://www.unep.org/en/what-we-do/fresh-water/water-quality/multi-stakeholder-engagement/faqs-water-quality"
+          ],
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "limitations": "AI-assisted source/scope reconciliation; not human academic certification or official CBSE PYQ/marking-scheme authentication."
+        },
+        "phase5_55_source_validation": {
+          "phase": "5.55",
+          "version": "v2.9.104",
+          "review_date": "2026-11-08",
+          "status": "ai_assisted_source_reconciled_human_signoff_pending",
+          "sources": [
+            "https://www.unep.org/en/what-we-do/fresh-water/water-quality/multi-stakeholder-engagement/faqs-water-quality"
+          ],
+          "note": "Targeted source and wording reconciliation only; not human academic sign-off or official PYQ authentication."
+        }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "chapter_level_mapping_preserved; question_level_adjudication_added_in_phase5_55; human_SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task.",
+        "question_level_adjudication": {
+          "phase": "5.55",
+          "classification": "SUPPLEMENTARY_ENRICHMENT_NOT_BOARD_CORE",
+          "board_theory_question_permitted": false,
+          "reason": "UNEP supports the rounded 2.5% global freshwater estimate; not stated in current NCERT Water Resources chapter.",
+          "human_sme_validation": "pending"
         }
       }
     },
@@ -42,7 +127,7 @@
       "type": "mcq",
       "subtopic": "Glacial Freshwater Proportion",
       "difficulty": "Medium",
-      "question": "Nearly 70 percent of the world's total fresh water occurs as ice sheets and glaciers in:",
+      "question": "Approximately what share of the world's freshwater is stored in ice caps, glaciers and permanent snow?",
       "options": [
         "Antarctica, Greenland, and mountain ranges of the world",
         "The Pacific and Indian Oceans",
@@ -50,7 +135,7 @@
         "Underground aquifers of India and China"
       ],
       "answer": 0,
-      "explanation": "Glaciological assessments cited in NCERT Geography demonstrate that out of Earth's tiny 2.5% freshwater endowment, nearly 70% occurs in the form of deep continental ice sheets and mountain glaciers located across Antarctica, Greenland, and the glaciated mountain ranges of the world (including the Himalayas, Andes, and Alps). Consequently, less than 30% of global freshwater is stored in accessible underground aquifers as groundwater, while rivers, streams, and freshwater lakes constitute less than 1% of total accessible liquid freshwater.",
+      "explanation": "The United Nations Environment Programme's global water-distribution estimate places about 68.7% of freshwater in ice caps, glaciers and permanent snow. The figure refers to the share of freshwater, not the share of all water on Earth; percentages are rounded. This is supplementary global hydrology knowledge.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 1",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -71,6 +156,91 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "supplementary_or_source_hold",
+        "phase5_7_batch8_scope": "supplementary_or_dated_or_source_hold",
+        "phase5_7_batch8_review_note": "The approximate 70% freshwater-in-ice statistic is not stated in the current NCERT chapter text; retain as supplementary with a dated authoritative hydrology source.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=supplementary_or_source_hold",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_PRESENT_SOURCE_OR_SME_HOLD_REQUIRES_RESOLUTION_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": true,
+          "source_hold_or_discrepancy_flag": true,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
+        },
+        "phase5_55_source_scope_resolution": {
+          "phase": "5.55",
+          "version": "v2.9.104",
+          "resolution_date": "2026-11-08",
+          "source_resolution_status": "SOURCE_VERIFIED_SUPPLEMENTARY",
+          "question_level_scope_classification": "SUPPLEMENTARY_ENRICHMENT_NOT_BOARD_CORE",
+          "chapter_level_scope_classification": "BOARD_THEORY",
+          "board_theory_question_permitted": false,
+          "resolution_note": "UNEP supports the approximately 68.7% share of freshwater stored in ice caps, glaciers and permanent snow; not stated in current NCERT Water Resources chapter.",
+          "source_urls": [
+            "https://www.unep.org/en/what-we-do/fresh-water/water-quality/multi-stakeholder-engagement/faqs-water-quality"
+          ],
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "limitations": "AI-assisted source/scope reconciliation; not human academic certification or official CBSE PYQ/marking-scheme authentication."
+        },
+        "phase5_55_source_validation": {
+          "phase": "5.55",
+          "version": "v2.9.104",
+          "review_date": "2026-11-08",
+          "status": "ai_assisted_source_reconciled_human_signoff_pending",
+          "sources": [
+            "https://www.unep.org/en/what-we-do/fresh-water/water-quality/multi-stakeholder-engagement/faqs-water-quality"
+          ],
+          "note": "Targeted source and wording reconciliation only; not human academic sign-off or official PYQ authentication."
+        }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "chapter_level_mapping_preserved; question_level_adjudication_added_in_phase5_55; human_SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task.",
+        "question_level_adjudication": {
+          "phase": "5.55",
+          "classification": "SUPPLEMENTARY_ENRICHMENT_NOT_BOARD_CORE",
+          "board_theory_question_permitted": false,
+          "reason": "UNEP supports the approximately 68.7% share of freshwater stored in ice caps, glaciers and permanent snow; not stated in current NCERT Water Resources chapter.",
+          "human_sme_validation": "pending"
         }
       }
     },
@@ -79,7 +249,7 @@
       "type": "mcq",
       "subtopic": "India Share of Global Precipitation",
       "difficulty": "Easy",
-      "question": "India receives approximately what percentage of global precipitation, ranking 133 in the world in per capita water availability?",
+      "question": "According to NCERT, approximately what share of the world's total water resources is available to India?",
       "options": [
         "10 percent",
         "1 percent",
@@ -87,7 +257,7 @@
         "8 percent"
       ],
       "answer": 2,
-      "explanation": "India receives approximately 4% of total global precipitation annually. However, because India supports nearly 18% of the world's human population on just 2.4% of the global land area, the nation faces severe water stress and ranks 133rd in the world in terms of per capita water availability per annum. Hydrological projections warn that by 2025, vast regions of India containing hundreds of millions of citizens will join nations and territories suffering from absolute water scarcity (availability below 1,000 cubic meters per capita).",
+      "explanation": "NCERT states that India has about 4 per cent of the world's water resources while supporting a much larger share of the global population. The original question incorrectly called this India's share of global precipitation and attached an unreferenced per-capita availability rank and a dated 2025 projection; those claims have been removed.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 1",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -108,7 +278,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -116,7 +338,7 @@
       "type": "mcq",
       "subtopic": "Hydroelectricity Share in India",
       "difficulty": "Medium",
-      "question": "In India, hydroelectric power contributes approximately what proportion of the total electricity generated?",
+      "question": "An older NCERT textbook statement reports hydroelectric power at approximately what share of India's total electricity generation?",
       "options": [
         "50 percent",
         "5 percent",
@@ -124,7 +346,7 @@
         "22 percent"
       ],
       "answer": 3,
-      "explanation": "According to official Central Electricity Authority and NCERT Geography data, hydroelectric power generation accounts for approximately 22% of India's total electricity production. Multipurpose river valley projects and dedicated hydel stations harness the gravitational kinetic force of river waters through high-head water turbines to generate clean, renewable, and dispatchable electricity, playing an indispensable role in stabilizing the national power grid alongside coal thermal stations and emerging renewable solar/wind installations.",
+      "explanation": "The 22% figure is a textbook-era NCERT statement, not the current electricity-generation mix. The Central Electricity Authority's 2024–25 Growth Book reports utility hydro generation of 148,634 GWh, or 8.15% of total utility generation. The answer remains 22% only because the stem explicitly asks for the older textbook statement.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 1",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -145,6 +367,91 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "supplementary_or_source_hold",
+        "phase5_7_batch8_scope": "supplementary_or_dated_or_source_hold",
+        "phase5_7_batch8_review_note": "The 22% hydroelectricity share is explicitly stated in the NCERT chapter, but is a dated textbook figure; do not present it as a current 2026 electricity mix.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=supplementary_or_source_hold",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_PRESENT_SOURCE_OR_SME_HOLD_REQUIRES_RESOLUTION_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": true,
+          "source_hold_or_discrepancy_flag": true,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
+        },
+        "phase5_55_source_scope_resolution": {
+          "phase": "5.55",
+          "version": "v2.9.104",
+          "resolution_date": "2026-11-08",
+          "source_resolution_status": "RESOLVED_AS_DATED_NCERT_TEXTBOOK_SNAPSHOT",
+          "question_level_scope_classification": "SUPPLEMENTARY_HISTORICAL_ENRICHMENT_NOT_BOARD_CORE",
+          "chapter_level_scope_classification": "BOARD_THEORY",
+          "board_theory_question_permitted": false,
+          "resolution_note": "The 22% figure is explicitly retained as an older NCERT textbook statement. CEA 2024–25 utility data report hydro at 8.15%; the question stem now clearly asks for the older textbook figure.",
+          "source_urls": [
+            "https://cea.nic.in/reports/dashboardView?headingId=107&lang=en&source=archive&subHeadingId=1001&subSubHeadingId=10083&title=Annual+Report+of+CEA"
+          ],
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "limitations": "AI-assisted source/scope reconciliation; not human academic certification or official CBSE PYQ/marking-scheme authentication."
+        },
+        "phase5_55_source_validation": {
+          "phase": "5.55",
+          "version": "v2.9.104",
+          "review_date": "2026-11-08",
+          "status": "ai_assisted_source_reconciled_human_signoff_pending",
+          "sources": [
+            "https://cea.nic.in/reports/dashboardView?headingId=107&lang=en&source=archive&subHeadingId=1001&subSubHeadingId=10083&title=Annual+Report+of+CEA"
+          ],
+          "note": "Targeted source and wording reconciliation only; not human academic sign-off or official PYQ authentication."
+        }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "chapter_level_mapping_preserved; question_level_adjudication_added_in_phase5_55; human_SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task.",
+        "question_level_adjudication": {
+          "phase": "5.55",
+          "classification": "SUPPLEMENTARY_HISTORICAL_ENRICHMENT_NOT_BOARD_CORE",
+          "board_theory_question_permitted": false,
+          "reason": "The 22% figure is explicitly retained as an older NCERT textbook statement. CEA 2024–25 utility data report hydro at 8.15%; the question stem now clearly asks for the older textbook figure.",
+          "human_sme_validation": "pending"
         }
       }
     },
@@ -182,7 +489,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -198,7 +557,7 @@
         "Mahanadi river basin"
       ],
       "answer": 1,
-      "explanation": "The Bhakra-Nangal multipurpose project is constructed across the Satluj-Beas river basin in northern India. Featuring the colossal Bhakra concrete gravity dam (one of the highest gravity dams in the world at 226 meters) and the downstream Nangal barrage, it impounds the vast Gobind Sagar reservoir. The project provides both hydroelectric generation (over 1,300 MW) and an extensive network of irrigation canals that revolutionized agricultural productivity across Punjab, Haryana, and arid northern Rajasthan (Indira Gandhi Canal).",
+      "explanation": "The Bhakra–Nangal project is in the Sutluj–Beas river basin. NCERT identifies the project as an example of a multipurpose project whose water is used for both hydel power production and irrigation. The previous explanation added unverified capacity, dam-height and downstream-canal details that are not needed to establish the answer.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 2",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -219,7 +578,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -256,7 +667,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -272,7 +735,7 @@
         "Mahi"
       ],
       "answer": 2,
-      "explanation": "The Sardar Sarovar Dam is a colossal concrete gravity dam constructed across the Narmada River near Navagam in Gujarat. It is one of the largest water resources projects in India, designed with an installed hydroelectric capacity of 1,450 MW and a massive 9,490-kilometer canal distribution network. The project was engineered to deliver drinking water and irrigation to 1.8 million hectares of land across 9,490 drought-prone villages and 173 urban townships in Gujarat, as well as barren tracts of Barmer and Jalore in southern Rajasthan.",
+      "explanation": "The Sardar Sarovar Dam is built across the Narmada River in Gujarat. NCERT describes the project as covering Gujarat, Rajasthan, Madhya Pradesh and Maharashtra and identifies its intended water supply to drought-prone areas. Specific canal-length, capacity and beneficiary totals should be checked against current project documentation before being quoted.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 2",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -293,7 +756,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -301,7 +816,7 @@
       "type": "mcq",
       "subtopic": "Narmada Bachao Andolan Leader",
       "difficulty": "Easy",
-      "question": "Narmada Bachao Andolan (Save Narmada Movement) is an NGO-led social movement that mobilized tribal people, farmers, and human rights activists primarily against the:",
+      "question": "The Narmada Bachao Andolan mobilised tribal people, farmers, environmentalists and human-rights activists against which major dam project on the Narmada River?",
       "options": [
         "Sardar Sarovar Dam in Gujarat",
         "Tehri Dam in Uttarakhand",
@@ -309,7 +824,7 @@
         "Hirakud Dam in Odisha"
       ],
       "answer": 0,
-      "explanation": "Narmada Bachao Andolan (Save Narmada Movement) is an environmental Non-Governmental Organisation (NGO) mobilized by Medha Patkar, Baba Amte, tribal adivasis, farmers, and human rights activists against the Sardar Sarovar Dam on the Narmada River in Gujarat. The movement initially organized mass peaceful resistance against the submergence of vast biodiversity-rich forests and the forced displacement of over 250,000 riparian villagers without proper democratic rehabilitation, later advocating for sustainable decentralized water harvesting.",
+      "explanation": "NCERT identifies the Narmada Bachao Andolan as a movement that mobilised tribal people, farmers, environmentalists and human-rights activists against the Sardar Sarovar Dam on the Narmada in Gujarat. It initially focused on environmental issues related to trees that would be submerged and later refocused on full rehabilitation facilities for displaced people. Calling it simply an NGO-led campaign understates its broader mobilisation.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 2",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -330,7 +845,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -346,7 +913,7 @@
         "'Guls' or 'Kuls'"
       ],
       "answer": 3,
-      "explanation": "In the rugged hill and mountain terrain of the Western Himalayas (particularly in Himachal Pradesh, Uttarakhand, and Ladakh's Spiti Valley), traditional communities developed ingenious diversion channels known locally as 'guls' or 'kuls'. These narrow gravity-fed canals tap glacial meltwater streams and mountain torrents high up on mountain slopes, contouring around steep ridges to lead water gently down into terraced agricultural fields and village community storage tanks for high-altitude apple orchards and barley cultivation.",
+      "explanation": "NCERT identifies diversion channels called ‘guls’ or ‘kuls’ in the Western Himalayas as a traditional method of carrying water for agriculture. The answer is the local name; the original explanation added regional examples and uses not established by the chapter.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 3",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -367,7 +934,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -404,7 +1023,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -420,7 +1091,7 @@
         "Khadin jal"
       ],
       "answer": 1,
-      "explanation": "In arid Rajasthan, pure harvested rainwater collected from sloping roofs and sealed inside underground masonry tankas is revered as 'Palar pani'. Local communities regard palar pani as the purest, cleanest form of natural potable water on Earth, far superior to salty, mineralized groundwater. Furthermore, storing large volumes of cold palar pani inside underground chambers beneath living quarters cools the ambient temperature of adjoining rooms, providing vital relief during blistering 45°C+ summer desert heatwaves.",
+      "explanation": "In western Rajasthan, rainwater stored in tankas is known as ‘palar pani’ and is considered the purest form of natural water in the NCERT description. The original explanation overstated this as a universal scientific ranking and added unsupported claims about mineral content and temperature.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 3",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -441,7 +1112,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -478,7 +1201,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -494,7 +1269,7 @@
         "Meghalaya"
       ],
       "answer": 3,
-      "explanation": "In Meghalaya, tribal farmers (particularly Khasi and Jaintia communities) have practiced an ingenious 200-year-old indigenous water engineering system known as 'bamboo drip irrigation'. Using interconnected bamboo pipes of varying diameters, stream and spring water from uphill ridges is tapped and transported across hundreds of meters over rugged terrain and gorges. By carefully adjusting pipe slopes, inflow is reduced from 18–20 liters per minute at the source down to 20–80 precision drops per minute directly at roots of betel vines.",
+      "explanation": "Meghalaya's traditional bamboo-drip irrigation system diverts spring or stream water through gravity-fed bamboo channels to plantation crops on steep terrain. Government of Meghalaya and NITI for States material describe the practice as roughly two centuries old. The age is a historical estimate, not a precisely dated invention.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 3",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -515,6 +1290,93 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "supplementary_or_source_hold",
+        "phase5_7_batch8_scope": "supplementary_or_dated_or_source_hold",
+        "phase5_7_batch8_review_note": "Meghalaya bamboo-drip irrigation is not described in the current NCERT Water Resources chapter; retain as supplementary and authenticate the 200-year claim and technical details separately.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=supplementary_or_source_hold",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_PRESENT_SOURCE_OR_SME_HOLD_REQUIRES_RESOLUTION_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": true,
+          "source_hold_or_discrepancy_flag": true,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
+        },
+        "phase5_55_source_scope_resolution": {
+          "phase": "5.55",
+          "version": "v2.9.104",
+          "resolution_date": "2026-11-08",
+          "source_resolution_status": "SOURCE_VERIFIED_SUPPLEMENTARY_ENRICHMENT",
+          "question_level_scope_classification": "SUPPLEMENTARY_ENRICHMENT_NOT_BOARD_CORE",
+          "chapter_level_scope_classification": "BOARD_THEORY",
+          "board_theory_question_permitted": false,
+          "resolution_note": "The prior SME/source hold was narrowed through a source-backed correction or wording clarification. Retain as supplementary enrichment; human academic sign-off remains pending.",
+          "source_urls": [
+            "https://mbda.gov.in/sites/default/files/publication-5.pdf",
+            "https://www.nitiforstates.gov.in/public-assets/Policy/policy_files/BNTNAE000408.pdf"
+          ],
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "limitations": "AI-assisted source/scope reconciliation; not human academic certification or official CBSE PYQ/marking-scheme authentication."
+        },
+        "phase5_55_source_validation": {
+          "phase": "5.55",
+          "version": "v2.9.104",
+          "review_date": "2026-11-08",
+          "status": "ai_assisted_source_reconciled_human_signoff_pending",
+          "sources": [
+            "https://mbda.gov.in/sites/default/files/publication-5.pdf",
+            "https://www.nitiforstates.gov.in/public-assets/Policy/policy_files/BNTNAE000408.pdf"
+          ],
+          "note": "Targeted source and wording reconciliation only; not human academic sign-off or official PYQ authentication."
+        }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "chapter_level_mapping_preserved; question_level_adjudication_added_in_phase5_55; human_SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task.",
+        "question_level_adjudication": {
+          "phase": "5.55",
+          "classification": "SUPPLEMENTARY_ENRICHMENT_NOT_BOARD_CORE",
+          "board_theory_question_permitted": false,
+          "reason": "The prior SME/source hold was narrowed through a source-backed correction or wording clarification. Retain as supplementary enrichment; human academic sign-off remains pending.",
+          "human_sme_validation": "pending"
         }
       }
     },
@@ -552,7 +1414,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -568,7 +1482,7 @@
         "Pothanikkad"
       ],
       "answer": 0,
-      "explanation": "Gendathur, a remote agricultural village in Mysuru district of Karnataka, achieved national and global acclaim for community water conservation. Nearly 200 households installed standardized rooftop rainwater harvesting systems on their roofs. Each house harvests up to 50,000 to 1,00,000 liters of pristine rainwater annually from an average 1,000 mm of annual rainfall across 20 filling cycles, replenishing community wells and providing over 10 lakh liters of pure water annually, earning Gendathur the rare title of a 'water-rich village'.",
+      "explanation": "NCERT describes Gendathur, in Mysuru district of Karnataka, as a village where nearly 200 households installed rooftop rainwater-harvesting systems. The textbook gives an estimate of about 50,000 litres per household annually. Its printed village-total figure is arithmetically inconsistent with 200 households at that per-household rate, so no aggregate is repeated here.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 3",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -589,7 +1503,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -605,7 +1571,7 @@
         "By digging deep tubewells into the seabed"
       ],
       "answer": 1,
-      "explanation": "In the flood plains of Bengal, traditional farmers developed an ecological irrigation system of 'inundation canals'. During seasonal monsoon flooding of the Ganga and Brahmaputra river systems, farmers cut temporary breach channels through natural river levees to lead silt-laden floodwaters directly into low-lying agricultural fields. This ingenious indigenous system served a dual ecological purpose: it thoroughly irrigated paddy crops and deposited fresh, nutrient-rich alluvium across the fields while washing away agricultural pests.",
+      "explanation": "NCERT identifies inundation channels as a traditional irrigation method in the flood plains of Bengal. The previous explanation added detailed claims about temporary breaches, nutrient deposition and pest removal that are not stated in the chapter.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 3",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -626,7 +1592,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -663,7 +1681,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -700,7 +1770,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     },
     {
@@ -716,7 +1838,7 @@
         "Qutbuddin Aibak"
       ],
       "answer": 0,
-      "explanation": "In the fourteenth century, Sultan Shamsuddin Iltutmish (the third ruler of the Delhi Mamluk Sultanate) constructed the celebrated grand water reservoir tank known as the Hauz Khas (originally named Hauz-i-Shamsi) in Delhi. Engineered with lime-plastered stone masonry, the expansive reservoir was designed to capture monsoon runoff from the surrounding Aravalli ridges to provide an uninterrupted, reliable supply of potable water for the royal court and the imperial army garrison stationed at the fortified city of Siri Fort.",
+      "explanation": "The NCERT chapter states that the tank at Hauz Khas, Delhi, was constructed by Iltutmish in the fourteenth century to supply water to the Siri Fort area. This explanation follows the textbook's wording and avoids conflating this reference with other historic reservoirs in Delhi.",
       "citation": "NCERT Class 10 Geography, Chapter 3, Section 2, Box",
       "quality_review": {
         "review_date": "2026-11-05",
@@ -737,7 +1859,59 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "phase5_7_batch8_review_date": "2026-11-06",
+        "phase5_7_batch8_status": "ai_assisted_chapter_review_completed_pending_human_sme",
+        "phase5_7_batch8_scope": "current_chapter_content",
+        "phase5_7_batch8_review_note": "Checked against NCERT Contemporary India-II, Chapter 3 – Water Resources; textbook wording, answer, explanation and logical scope reviewed. Human SME sign-off remains pending.",
+        "phase5_7_batch8_primary_source": "https://philoid.com/ncert/chapter/jess103",
+        "phase5_7_batch8_primary_source_scope": "NCERT Contemporary India-II, Chapter 3 Water Resources; cross-checked against NCERT textbook structure and the current chapter text. Original PYQ/official answer-key provenance not authenticated.",
+        "phase5_54_review_reconciliation": {
+          "reconciliation_date": "2026-11-08",
+          "reconciliation_version": "v2.9.103",
+          "prior_review_batch": 8,
+          "prior_review_status": "phase5_7_batch8_status=ai_assisted_chapter_review_completed_pending_human_sme",
+          "normalized_review_status": "AI_REVIEW_EVIDENCE_RECONCILED_SME_PENDING",
+          "prior_answer_accuracy_status_preserved": "pending_independent_subject_matter_verification",
+          "review_evidence_source": "Phase 5.7 batch review metadata and/or retained batch review report; consolidated audit v2.9.41",
+          "human_sme_signoff": "pending",
+          "official_pyq_authentication": "not_performed",
+          "cbse_2026_27_scope_classification": "BOARD_THEORY",
+          "cbse_scope_mapping_validation": "automated_mapping_sme_validation_pending",
+          "supplementary_flag": false,
+          "source_hold_or_discrepancy_flag": false,
+          "sme_hold_flag": false,
+          "historical_context_flag": false,
+          "note": "Metadata reconciliation only. Does not constitute new subject-matter verification, human sign-off or PYQ authentication."
         }
+      },
+      "consolidated_phase57_audit": {
+        "audit_date": "2026-11-07",
+        "audit_version": "Phase 5.7 consolidated cross-chapter audit v2.9.41",
+        "batch": 8,
+        "chapter": "Geography – Water Resources",
+        "active_set_scope": "Set 1, Set 2 and Set 3",
+        "duplicate_screen": "passed_no_exact_or_high_similarity_duplicate_remaining_within_active_1260_question_corpus",
+        "near_duplicate_similarity_threshold_percent": 78,
+        "question_id_uniqueness": "passed",
+        "answer_index_bounds": "passed",
+        "explanation_answer_marker_screen": "no_explicit_option_letter_conflict_detected",
+        "interpretation_limit": "Automated structural and text-overlap screening only; does not constitute independent subject-matter verification or official answer-key authentication.",
+        "human_sme_signoff": "pending",
+        "official_pyq_authentication": "not_performed",
+        "syllabus_scope_metadata": "missing_in_prior_question_metadata; consult consolidated scope-gap register; no unsupported Board-exam classification assigned"
+      },
+      "cbse_2026_27_scope_mapping": {
+        "framework": "CBSE Class X Social Science (087), 2026–27",
+        "classification": "BOARD_THEORY",
+        "scope_basis": "Board theory; prescribed dams/reservoirs are separately assessed as map skills.",
+        "official_curriculum_pdf": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+        "official_curriculum_landing_page": "https://cbseacademic.nic.in/curriculum_2027.html",
+        "mapping_status": "automated_chapter_and_question_content_mapping; SME_validation_pending",
+        "prior_scope_label_preserved": null,
+        "board_exam_claim_permitted": true,
+        "board_theory_question_permitted": true,
+        "map_work_note": "Chapter 2 and Geography Chapters 6, 8, 9, 10 and 11 also have separately prescribed map skills; this field does not certify an MCQ as a map-pointing task."
       }
     }
   ]

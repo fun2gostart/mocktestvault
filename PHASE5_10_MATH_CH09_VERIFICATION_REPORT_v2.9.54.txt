@@ -1,0 +1,48 @@
+MOCKTESTVAULT – PHASE 5.10 BATCH 9
+Chapter 9: Some Applications of Trigonometry
+Revision: v2.9.54
+Baseline: v2.9.53
+
+1. REVIEW SCOPE
+Reviewed the three active Chapter 9 sets:
+- Set 1: 20 questions
+- Set 2: 20 questions
+- Set 3: 20 questions
+Total: 60 questions
+
+2. RESULTS
+- 60/60 answer keys independently recalculated or logically evaluated: PASS
+- Answer-key index changes: 0
+- Question/explanation/metadata corrections: 3
+- Exact normalized duplicate stems within the active 60-question bank: 0
+- Invalid answer indexes: 0
+- Missing explanations: 0
+- Curriculum scope/enrichment flags: 12
+- Questions deleted: 0
+
+3. CORRECTIONS
+- Set 1 Q5: wording clarified to explicitly attach the 60-degree angle to the taut string and horizontal ground.
+- Set 2 Q12: added 0° < beta < alpha < 90° to make the ladder's physical movement and formula assumptions explicit.
+- Set 2 Q16: corrected the subtopic metadata; the question is about a balloon's apparent angular diameter, not two ships diverging.
+
+4. CURRICULUM ALIGNMENT
+The official CBSE Class X Mathematics 2026-27 syllabus lists Heights and Distances, limits the problems to no more than two right triangles, and specifies only 30°, 45° and 60° for angles of elevation/depression.
+Twelve questions use general complementary angles, arbitrary alpha/beta, or broader conceptual reasoning. They are retained but flagged as enrichment rather than core syllabus coverage. See PHASE5_10_MATH_CH09_CURRICULUM_SCOPE_FLAGS_v2.9.54.csv.
+
+5. TECHNICAL / INTEGRATION CHECKS
+- All three set JSON files parse.
+- Each set contains 20 questions.
+- All 60 IDs are unique across the active sets.
+- Every question has four options, a valid zero-based answer index, and an explanation.
+- The Chapter 9 HTML page exists and its config points to the three set JSON paths.
+- Service-worker cache revision advanced to mtv-cbt-v80.
+
+6. STILL PENDING
+- Browser-based runtime UAT on staging.
+- Human academic SME sign-off.
+- Exact PYQ provenance authentication.
+- Full regression testing after deployment.
+- Production deployment approval.
+
+IMPORTANT
+This is an AI-assisted academic and archive verification candidate. It is not human-certified and has not been deployed to production.

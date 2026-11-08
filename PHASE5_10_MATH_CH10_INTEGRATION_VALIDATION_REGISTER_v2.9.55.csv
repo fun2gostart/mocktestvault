@@ -1,0 +1,15 @@
+﻿check,result,evidence
+Chapter page exists,PASS,cbse-class-10/mathematics/ch10_circles.html
+Set 1 JSON path referenced,PASS,ch10_circles_set1.json
+Set 2 JSON path referenced,PASS,ch10_circles_set2.json
+Set 3 JSON path referenced,PASS,ch10_circles_set3.json
+Active question count,PASS,20 questions per set; 60 total
+Question IDs,PASS,60 unique IDs across active sets
+Option / answer-index integrity,PASS,All questions have four options and an in-range zero-based answer index after corrections
+Explanation presence,PASS,All active questions include an explanation
+Exact duplicate stems,PASS,No exact normalized duplicate stems within active 60-question bank
+Duplicate equivalent answer choices,CORRECTED,Set 1 Q3 and Set 3 Q12 had mathematically equivalent answer choices; duplicate distractors replaced.
+JSON parse,PASS,All three patched question-set JSON files parse successfully
+Browser runtime UAT,NOT RUN,Requires browser execution on staging/live; archive inspection is not runtime testing
+Human academic sign-off,PENDING,AI-assisted review is not human SME certification
+PYQ/source authentication,PENDING,Topic citations do not authenticate exact item provenance

@@ -1,0 +1,13 @@
+﻿check,result,evidence
+Chapter page exists,PASS,cbse-class-10/mathematics/ch09_some_applications_of_trigonometry.html
+Three question-set buttons,PASS,"HTML contains set1, set2 and set3 controls"
+Set JSON paths,PASS,HTML config points to the three matching data/in/cbse10/mathematics/ch09..._setN.json files
+Active question count,PASS,20 questions per set; 60 total
+Question IDs,PASS,60 unique IDs across the active sets
+Option / answer-index integrity,PASS,All 60 questions have four options and an in-range zero-based answer index
+Explanation presence,PASS,All 60 active questions include an explanation
+Exact duplicate stems,PASS,No exact normalized duplicate stems within the 60 active questions
+JSON parse,PASS,All three patched question-set JSON files parse successfully
+Browser runtime UAT,NOT RUN,Requires browser execution on staging/live; archive inspection is not runtime testing
+Human academic sign-off,PENDING,AI-assisted review is not human SME certification
+PYQ/source authentication,PENDING,Topic citations do not authenticate exact item provenance

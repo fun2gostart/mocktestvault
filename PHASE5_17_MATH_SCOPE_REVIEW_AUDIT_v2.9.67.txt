@@ -1,0 +1,45 @@
+PHASE 5.17 — REMAINING 700 MATHEMATICS QUESTION CURRICULUM SCOPE REVIEW
+Version: v2.9.67
+Baseline: v2.9.66
+Date: 2026-11-07
+
+SCOPE
+- 14 CBSE Class X Mathematics chapters.
+- 42 active question sets (3 sets per chapter).
+- 840 active items identified from the question-set JSON files.
+- 140 Phase 5.15 decisions carried forward unchanged.
+- Remaining 700 items screened individually using question stem, subtopic label, chapter and syllabus boundary.
+
+NEW 700-ITEM SCREEN RESULTS
+- CORE_ALIGNED_PROVISIONAL: 413
+- ENRICHMENT_OPTIONAL: 87
+- REQUIRES_HUMAN_REVIEW: 200
+
+COMBINED 840-ITEM VIEW (DISTINGUISHING PRIOR ADJUDICATION FROM NEW PROVISIONAL SCREEN)
+- CORE_ALIGNED: 77
+- CORE_ALIGNED_PROVISIONAL: 413
+- ENRICHMENT_OPTIONAL: 150
+- REQUIRES_HUMAN_REVIEW: 200
+
+INTERPRETATION
+- The 77 CORE_ALIGNED items are the earlier Phase 5.15 adjudications, carried forward.
+- The 413 CORE_ALIGNED_PROVISIONAL items are new AI-assisted screening outcomes, not confirmed academic approvals.
+- The 150 ENRICHMENT_OPTIONAL items comprise 63 earlier decisions plus 87 new provisional screens.
+- The 200 REQUIRES_HUMAN_REVIEW items are held out of automated core selection.
+- No question is released for Standard or Basic paper generation by this phase.
+
+LIMITATIONS AND CONTROLS
+1. This is AI-assisted, rule-guided screening, not formal academic verification or teacher sign-off.
+2. Every item remains HUMAN_SIGNOFF=PENDING.
+3. The 140 earlier decisions are carried forward from Phase 5.15, not re-adjudicated in this phase.
+4. Cognitive-demand ratings from Phase 5.14 remain provisional and are not teacher-validated.
+5. Where the boundary depends on angle limits, number of solids, theorem dependency or sample-space complexity, the item is held for teacher review.
+6. No question, option, answer, explanation, ID, difficulty label, active JSON, HTML, JavaScript, CSS, service worker or production asset was modified.
+7. No deployment was performed.
+
+OFFICIAL REFERENCE
+CBSE Class X Mathematics Curriculum 2026-27, Standard (041) and Basic (241):
+https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf
+
+NEXT DEPENDENCY
+Teacher/SME sign-off of all 840 scope decisions, followed by validation of cognitive demand and final release rules for Standard and Basic blueprint eligibility.

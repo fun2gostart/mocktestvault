@@ -1,0 +1,51 @@
+MOCKTESTVAULT – PHASE 5.10 / BATCH 4
+MATHEMATICS CHAPTER 4: QUADRATIC EQUATIONS
+Version: v2.9.49
+Baseline: v2.9.48
+Review date: 2026-11-07
+
+SCOPE
+- Active Set 1, Set 2 and Set 3: 60 questions (20 per set).
+- Independent mathematical recomputation and answer-option validation completed for all 60.
+- Explanation consistency and contextual assumptions reviewed.
+- Current CBSE Class X 2026-27 scope screened against the official curriculum portal and the official NCERT 2026-27 Chapter 4 textbook.
+
+RESULTS
+- 60/60 stored answer indexes match independently recomputed answers.
+- 0 answer-key index changes.
+- 1 wording clarification applied to Set 3 Q11; answer, options and underlying mathematical model are unchanged.
+- 4 scope/enrichment flags recorded; no question removed.
+- No exact normalized duplicate stems found across the 60 active questions.
+- All three active sets contain 20 questions each.
+
+CORRECTION
+Set 3 Q11: The original stem said x was measured from “one bank”, while h(0)=-7 m. This meant the model did not place the arch at ground level at the stated bank. The wording now defines x from a fixed ground reference point. Solving h(x)=0 still gives x=1 m and x=7 m; stored answer remains option B.
+
+CURRICULUM SCOPE FLAGS
+1. Set 2 Q19 – rational-root condition (D is a non-negative rational square): mathematically valid but rational-root classification is not expressly listed in the current CBSE Quadratic Equations topic statement. Retain as supplementary/enrichment.
+2. Set 3 Q7 – conjugate irrational-root property for rational-coefficient quadratics: mathematically valid, but not expressly named in the current Class X topic statement. Retain as supplementary/enrichment.
+3. Set 3 Q13 – maximum value/vertex of a quadratic height model: useful enrichment; the current syllabus topic statement focuses on equations, real roots, discriminant and situational problems, and does not expressly list vertex/max-value methods.
+4. Set 3 Q18 – Pythagorean diagonal calculation: correct geometry follow-up but does not independently assess a quadratic-equation outcome. Retain as cross-topic enrichment.
+
+SOURCE BASIS
+- CBSE Curriculum 2026-27 portal lists Class X Mathematics as a main subject: https://cbseacademic.nic.in/curriculum_2027.html
+- Official NCERT Class X Mathematics, Chapter 4, Reprint 2026-27: https://ncert.nic.in/textbook/pdf/jemh104.pdf
+- NCERT Chapter 4 covers standard form, deciding whether an equation is quadratic after simplification, factorisation, real roots, discriminant and nature of roots, and situational problems. The PDF explicitly includes examples matching the structural logic of Set 1 Q1, Q7, Q14 and Q19.
+- CBSE 2026-27 direct topic-level PDF was linked from the official curriculum portal but could not be fetched directly in this run. The precise question-level scope classifications therefore remain provisional pending direct CBSE PDF review and human SME sign-off.
+
+TECHNICAL VALIDATION
+- All 3 JSON files parse successfully.
+- 20 questions per set; 60 total.
+- 60 unique question IDs.
+- All answer indexes are within their option arrays.
+- All 60 questions have academic_review_ch04_v2_9_49 metadata.
+- Chapter HTML references all three active set JSON paths.
+- Service-worker cache advanced from mtv-cbt-v74 to mtv-cbt-v75.
+- No question answer or answer option was changed.
+- No Hostinger staging test or production deployment was performed.
+
+LIMITATIONS / GOVERNANCE
+- AI-assisted independent mathematical review is not a substitute for a qualified human subject-matter expert. Human SME sign-off remains pending for all 60 questions.
+- Exact PYQ/official paper/marking-scheme provenance was not authenticated.
+- Direct CBSE 2026-27 PDF item-level mapping remains pending.
+- Production remains unchanged.

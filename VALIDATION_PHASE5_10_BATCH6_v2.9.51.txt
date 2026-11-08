@@ -1,0 +1,19 @@
+PHASE 5.10 / BATCH 6 VALIDATION – v2.9.51
+PASS: Set 1 contains 20 questions.
+PASS: Set 2 contains 20 questions.
+PASS: Set 3 contains 20 questions.
+PASS: 60 unique question IDs across active sets.
+PASS: All 60 stored answer indexes are valid and match the independent verification register.
+PASS: All 60 questions contain Phase 5.10 Chapter 6 review metadata.
+PASS: 0 answer-key corrections; 1 wording cleanup with no answer change.
+PASS: 0 exact normalized duplicate stem groups remain (zero expected).
+PASS: 3 fuzzy pairs at similarity >=72% screened and dispositioned.
+PASS: Chapter HTML explicitly references Set 1, Set 2 and Set 3 JSON files.
+PASS: All three JSON files parse successfully.
+PASS: Service-worker cache advanced mtv-cbt-v76 -> mtv-cbt-v77.
+PASS: 24 scope flags recorded; no flagged question deleted.
+PENDING: Human SME sign-off for all 60 questions.
+PENDING: Exact PYQ/source-paper and official answer-key authentication.
+PENDING: Direct CBSE 2026-27 PDF item-level scope confirmation.
+NOT PERFORMED: Hostinger staging/browser runtime verification.
+NOT PERFORMED: Production deployment.

@@ -1,0 +1,13 @@
+﻿question_id,set,correction,answer_key_changed
+cbse10-sci-ch11-s1-005,1,Replaced an over-specific alloy composition/ambiguous “appropriate resistance” wording with the relevant fuse characteristics and rating principle.,False
+cbse10-sci-ch11-s1-008,1,Removed “physical dimensions” from the correct option: the stated Ohm’s-law condition is constant temperature (and unchanged physical conditions).,False
+cbse10-sci-ch11-s1-010,1,Narrowed the material claim to Nichrome: its relatively high resistivity and oxidation resistance make it suitable; alloy resistivity is not universally higher than every constituent metal.,False
+cbse10-sci-ch11-s1-013,1,Updated the tungsten melting point from an imprecise older value to approximately 3422°C.,False
+cbse10-sci-ch11-s2-017,2,Retained the 4.55 A calculation but qualified fuse selection: choose a suitable standard rating above normal operating current and ensure it does not exceed the safe rating of the wiring and equipment; 5 A is not universally correct without installation details.,False
+cbse10-sci-ch11-s2-020,2,"Replaced “exponentially” with the correct square-law relationship: at fixed transmitted power, increasing voltage reduces current inversely, and I²R line loss falls with the square of current.",False
+cbse10-sci-ch11-s3-001,3,"Removed the unsupported “hundreds of times” comparison. For the same series current, the element’s much larger resistance concentrates substantially more I²R heating than the low-resistance supply cord.",False
+cbse10-sci-ch11-s3-007,3,Revised the reason to avoid claiming a 20 A fuse will always fail to melt during every overcurrent. A fuse rated above the wiring’s safe current may not protect the wiring adequately.,False
+cbse10-sci-ch11-s3-011,3,"Rebuilt the MCB-sizing item: calculated load current is 8.64 A, but an MCB rating cannot be safely prescribed from load current alone; cable current capacity, installation method, inrush and applicable standards are required.",True
+cbse10-sci-ch11-s3-014,3,"Clarified that 128 W is generated in the stated cable whether coiled or uncoiled. Coiling impedes heat dissipation, but the stated 0.5 Ω cable already has substantial loss and should not be assumed safe when unwound.",False
+cbse10-sci-ch11-s3-015,3,Replaced the technically incorrect “anti-fuse” term with “bypass/shunt device” for series LED strings.,False
+cbse10-sci-ch11-s3-018,3,"Removed universal lethal-current thresholds. The 220 mA result follows only from the question’s assumed 1 kΩ body resistance; actual shock risk depends on current path, duration, AC/DC, contact conditions and individual factors.",False

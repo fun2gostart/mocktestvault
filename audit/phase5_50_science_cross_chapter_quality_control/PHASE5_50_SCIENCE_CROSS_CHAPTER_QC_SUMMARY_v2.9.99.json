@@ -1,0 +1,137 @@
+{
+  "revision": "2.9.99",
+  "baseline": "2.9.98",
+  "questions": 780,
+  "active_set_files": 39,
+  "unique_ids": 780,
+  "exact_duplicate_stem_groups": 0,
+  "near_duplicate_candidate_pairs_similarity_ge_0_78": 0,
+  "structural_failures": 0,
+  "missing_citation_fields": 0,
+  "missing_subtopic_fields": 0,
+  "answer_position_counts_zero_based": {
+    "1": 156,
+    "0": 287,
+    "3": 167,
+    "2": 170
+  },
+  "aggregate_file_comparisons": [
+    {
+      "file": "ch01_chemical_reactions.json",
+      "aggregate_rows": 20,
+      "set_union_rows": 60,
+      "missing": 40,
+      "extra": 0,
+      "shared_content_differences": 20
+    },
+    {
+      "file": "ch02_acids_bases_salts.json",
+      "aggregate_rows": 20,
+      "set_union_rows": 60,
+      "missing": 40,
+      "extra": 0,
+      "shared_content_differences": 20
+    },
+    {
+      "file": "ch03_metals_non_metals.json",
+      "aggregate_rows": 20,
+      "set_union_rows": 60,
+      "missing": 40,
+      "extra": 0,
+      "shared_content_differences": 0
+    },
+    {
+      "file": "ch04_carbon_compounds.json",
+      "aggregate_rows": 20,
+      "set_union_rows": 60,
+      "missing": 40,
+      "extra": 0,
+      "shared_content_differences": 0
+    },
+    {
+      "file": "ch05_life_processes.json",
+      "aggregate_rows": 5,
+      "set_union_rows": 60,
+      "missing": 55,
+      "extra": 0,
+      "shared_content_differences": 5
+    },
+    {
+      "file": "ch06_control_coordination.json",
+      "aggregate_rows": 5,
+      "set_union_rows": 60,
+      "missing": 55,
+      "extra": 0,
+      "shared_content_differences": 5
+    },
+    {
+      "file": "ch07_how_organisms_reproduce.json",
+      "aggregate_rows": 5,
+      "set_union_rows": 60,
+      "missing": 55,
+      "extra": 0,
+      "shared_content_differences": 5
+    },
+    {
+      "file": "ch08_heredity.json",
+      "aggregate_rows": 5,
+      "set_union_rows": 60,
+      "missing": 55,
+      "extra": 0,
+      "shared_content_differences": 5
+    },
+    {
+      "file": "ch09_light_reflection_refraction.json",
+      "aggregate_rows": 5,
+      "set_union_rows": 60,
+      "missing": 55,
+      "extra": 0,
+      "shared_content_differences": 0
+    },
+    {
+      "file": "ch10_human_eye_colourful_world.json",
+      "aggregate_rows": 5,
+      "set_union_rows": 60,
+      "missing": 55,
+      "extra": 0,
+      "shared_content_differences": 5
+    },
+    {
+      "file": "ch11_electricity.json",
+      "aggregate_rows": 5,
+      "set_union_rows": 60,
+      "missing": 55,
+      "extra": 0,
+      "shared_content_differences": 5
+    },
+    {
+      "file": "ch12_magnetic_effects_electric_current.json",
+      "aggregate_rows": 5,
+      "set_union_rows": 60,
+      "missing": 55,
+      "extra": 0,
+      "shared_content_differences": 5
+    },
+    {
+      "file": "ch13_our_environment.json",
+      "aggregate_rows": 5,
+      "set_union_rows": 60,
+      "missing": 55,
+      "extra": 0,
+      "shared_content_differences": 0
+    }
+  ],
+  "question_type_counts": {
+    "mcq": 558,
+    "assertion_reasoning": 154,
+    "case_study": 8,
+    "case-study": 60
+  },
+  "difficulty_counts": {
+    "Easy": 217,
+    "Medium": 311,
+    "Hard": 146,
+    "Board Standard": 106
+  },
+  "content_changed": false
+}

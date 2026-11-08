@@ -1,0 +1,46 @@
+MOCKTESTVAULT – PHASE 5.10 BATCH 10
+Chapter 10: Circles
+Revision: v2.9.55
+Baseline: v2.9.54
+
+1. REVIEW SCOPE
+Reviewed the three active Chapter 10 sets: Set 1 (20), Set 2 (20), Set 3 (20), total 60 questions.
+
+2. RESULTS
+- 60/60 answer keys reviewed against the stated geometry/calculations; no answer-key index changes.
+- 3 question/option corrections applied.
+- Exact normalized duplicate stems within the active 60-question bank: 0.
+- Invalid answer indexes: 0.
+- Missing explanations: 0.
+- Curriculum enrichment flags: 28.
+- Questions deleted: 0.
+
+3. CORRECTIONS
+- Set 1 Q3: option 3 duplicated option 1 numerically (sqrt(169) = 13); replaced with 12 cm.
+- Set 2 Q6: removed dependency on an unavailable figure and specified segment ordering so the perimeter argument is determinate.
+- Set 3 Q12: option 2 duplicated the keyed value (sqrt(225) = 15); replaced with 17 cm.
+All three corrections preserve the existing answer key.
+
+4. CURRICULUM ALIGNMENT
+The CBSE Class X Mathematics 2026-27 syllabus lists two core Circles results: (1) the tangent at a point is perpendicular to the radius through the point of contact; and (2) tangents drawn from an external point have equal lengths. Several items apply these results through compound constructions (concentric circles, tangential quadrilaterals, incircles, tangent-secant theorem, common tangents to two circles, polygon geometry and satellite-horizon contexts). 28 items are retained but flagged as enrichment/not expressly prescribed as core.
+Official syllabus source: https://edustud.nic.in/edu/Syllabus_2026_27/10/10_math_SYLLABUS_2026_27_EM.pdf
+CBSE curriculum landing page: https://cbseacademic.nic.in/curriculum_2027.html
+
+5. TECHNICAL / INTEGRATION CHECKS
+- All three set JSON files parse.
+- Each set contains 20 questions.
+- All 60 IDs are unique across the active sets.
+- Every question has four options, a valid zero-based answer index, and an explanation.
+- Chapter 10 HTML page exists and references all three set JSON files.
+- Service-worker cache revision advanced to mtv-cbt-v81.
+- ZIP integrity checked after packaging.
+
+6. STILL PENDING
+- Browser-based runtime UAT on staging.
+- Human academic SME sign-off.
+- Exact PYQ/source provenance authentication.
+- Full regression testing after deployment.
+- Production deployment approval.
+
+IMPORTANT
+This is an AI-assisted academic and archive verification candidate. It is not human-certified and has not been deployed to production. Curriculum flags identify enrichment, not necessarily incorrect questions.

@@ -1,0 +1,42 @@
+{
+  "revision": "v2.9.79",
+  "phase": "5.29",
+  "baseline": "v2.9.78",
+  "review_date": "2026-11-07",
+  "chapters_covered": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "targeted_item_count": 248,
+  "unique_question_ids": 248,
+  "classification_counts": {
+    "ENRICHMENT_OPTIONAL_PROVISIONAL": 107,
+    "CORE_ALIGNED_PROVISIONAL": 137,
+    "HUMAN_SCOPE_ADJUDICATION_REQUIRED": 4
+  },
+  "human_academic_signoff_pending": 248,
+  "cognitive_demand_signoff_pending": 248,
+  "blueprint_hold_count": 248,
+  "human_scope_adjudication_question_ids": [
+    "cbse10-math-ch07-s2-003",
+    "cbse10-math-ch08-s3-017",
+    "cbse10-math-ch08-s3-018",
+    "cbse10-math-ch08-s3-019"
+  ],
+  "historical_duplicate_handling": {
+    "phase5_19_ch09_rows": 55,
+    "overlap_with_phase5_23_ch09": 55,
+    "phase5_19_included_in_consolidated_count": false,
+    "controlling_ch09_register": "Phase 5.23 / v2.9.73"
+  },
+  "scope_limitation": "Targeted exception-register subset only; not all 840 active Mathematics questions.",
+  "question_bank_modified": false,
+  "deployment_performed": false
+}

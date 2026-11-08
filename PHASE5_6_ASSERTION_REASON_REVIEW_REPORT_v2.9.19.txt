@@ -1,0 +1,60 @@
+MOCKTESTVAULT – PHASE 5.6
+CBSE CLASS X SOCIAL SCIENCE ASSERTION–REASON LOGIC REVIEW
+Version: v2.9.19
+Review date: 06 November 2026
+
+SCOPE
+- Reviewed the 108 active Assertion–Reason questions previously flagged by an automated explanation-token-overlap screen.
+- Scope was assertion/reason truth wording, whether the reason explains the assertion, legal/constitutional precision, explanation accuracy and textbook alignment.
+- This phase did not attempt independent subject-matter certification of every Social Science question.
+
+RESULTS
+- 108 Assertion–Reason records reviewed.
+- 33 records corrected or contextualised.
+- 72 records retained after the logic screen; no high-confidence contradiction was identified in this pass.
+- 3 records placed on hold for subject-matter review.
+- 0 answer-index changes. All existing selected answer options and answer indexes were retained.
+- The 33 updates primarily corrected overbroad wording, missing legal exceptions, unsupported absolute claims, incorrect causal statements and imprecise explanations.
+
+KEY CORRECTIONS
+1. Federalism / Article 254: added the President's-assent exception for a State law on a Concurrent List subject.
+2. Constitutional amendment procedure: stated the special-majority threshold and ratification by at least half of the States more precisely.
+3. Local government reservations: clarified that the Constitution mandates reservations for SCs, STs and women; State Legislatures may provide reservation for backward classes.
+4. Women's representation: separated the 73rd Amendment (Panchayats) from the 74th Amendment (Municipalities).
+5. Election law: aligned the religious-appeal question with Section 123(3) of the Representation of the People Act, 1951, rather than claiming a blanket ban on all religious places or objects.
+6. Anti-defection: removed the claim that any defection causes immediate loss of a seat; included the Tenth Schedule grounds, process and merger exception.
+7. Collateral: changed the universal claim that all bank loans require collateral to the NCERT-accurate position that lenders may require it.
+8. CRR: removed the old 15% textbook cash-holding illustration as a current CRR figure. The RBI website listed CRR at 3% on 06 November 2026. CRR changes over time.
+9. Globalisation/WTO: removed the inaccurate statement that WTO rules compel developing countries alone to dismantle trade barriers.
+10. Lifelines/Geography: corrected the Kolkata port dredging explanation, clarified the slurry-pipeline example, and removed absolute or overbroad claims about zero dust pollution and air travel.
+11. Democracy: removed the inaccurate term 'electoral recall' from the explanation of democratic correction mechanisms.
+12. Sectors/Economics: clarified the distinction between organised enterprises and informalisation of employment.
+13. Money and credit: aligned currency, collateral, demand deposits and informal-credit wording more closely with NCERT and the applicable regulatory framework.
+14. European Union: clarified that Brussels is a principal administrative centre hosting the Commission and Council; the EU does not have one formally designated capital.
+15. SEZs: clarified that the five-year tax exemption is the textbook's described policy provision, not a universal current tax benefit.
+
+HELD FOR SUBJECT REVIEW (3)
+- cbse10-sst-civ-ch15-s3-010: 'dominant norm in contemporary India' is a broad sociological claim; obtain dated, credible evidence or soften the wording.
+- cbse10-sst-civ-ch17-s3-009: assertion and reason make a broad causal claim about women's movements; educator/SME review required.
+- cbse10-sst-eco-ch18-s3-008: the Sri Lanka–India HDI comparison needs a specific UNDP report year and values. Infant mortality is not itself an HDI dimension.
+
+TECHNICAL CHANGES
+- Question data updated in the affected Social Science JSON files.
+- Added per-question review metadata.
+- Added 108-item logic review register, 33-item correction register and chapter summary.
+- Service-worker cache bumped from mtv-cbt-v50 to mtv-cbt-v51.
+- No scoring logic, test-engine logic, page layouts, SEO metadata, sitemap, robots rules, or ad settings changed.
+
+VALIDATION
+- All Social Science JSON files re-parsed.
+- All 108 reviewed records located and validated.
+- All selected answer indexes remained unchanged.
+- All records retained non-empty question, options, answer index and explanation.
+- JavaScript syntax check and ZIP integrity check passed.
+
+LIMITATIONS
+- 'No high-confidence logic defect found' does not mean factual content is independently certified.
+- The remaining 72 retained questions still require final subject expert sign-off.
+- The three held items need educator review before final academic approval.
+- All 1,260 active Social Science questions still require comprehensive factual verification and source authentication.
+- This is a QA candidate, not an academically certified release.

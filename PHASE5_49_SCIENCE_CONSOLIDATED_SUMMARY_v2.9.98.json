@@ -1,0 +1,133 @@
+{
+  "phase": "5.49",
+  "revision": "2.9.98",
+  "baseline": "2.9.97",
+  "chapters": 13,
+  "questions_reviewed_in_source_registers": 780,
+  "unique_question_ids": 780,
+  "duplicate_question_ids": 0,
+  "questions_per_chapter": {
+    "1": 60,
+    "2": 60,
+    "3": 60,
+    "4": 60,
+    "5": 60,
+    "6": 60,
+    "7": 60,
+    "8": 60,
+    "9": 60,
+    "10": 60,
+    "11": 60,
+    "12": 60,
+    "13": 60
+  },
+  "records_flagged_amended_normalized": 228,
+  "human_signoff_status_counts": {
+    "PENDING": 780
+  },
+  "pyq_authentication_status_counts": {
+    "NOT_ESTABLISHED": 240,
+    "PENDING": 180,
+    "NOT_VERIFIED": 180,
+    "NCERT CLASS X SCIENCE CH. 10 TOPIC ALIGNMENT; EXACT PYQ/SOURCE AUTHENTICATION NOT PERFORMED": 60,
+    "NOT ESTABLISHED BY TOPIC CITATION": 60,
+    "NOT VERIFIED": 60
+  },
+  "fresh_resolve_performed": false,
+  "content_changed": false,
+  "baseline_zip_test": "PASS",
+  "deployment": "NOT_PERFORMED",
+  "sources": [
+    {
+      "phase": 36,
+      "version": "2.9.85",
+      "archive": "mocktestvault.com_organic_seo_v2.9.85_phase5_36_science_ch01_independent_answer_verification.zip",
+      "register": "PHASE5_36_SCIENCE_CH01_60_QUESTION_VERIFICATION_REGISTER_v2.9.85.csv",
+      "rows": 60
+    },
+    {
+      "phase": 37,
+      "version": "2.9.86",
+      "archive": "mocktestvault.com_organic_seo_v2.9.86_phase5_37_science_ch02_independent_answer_verification.zip",
+      "register": "PHASE5_37_SCIENCE_CH02_60_QUESTION_VERIFICATION_REGISTER_v2.9.86.csv",
+      "rows": 60
+    },
+    {
+      "phase": 38,
+      "version": "2.9.87",
+      "archive": "mocktestvault.com_organic_seo_v2.9.87_phase5_38_science_ch03_independent_answer_verification.zip",
+      "register": "PHASE5_38_SCIENCE_CH03_INDEPENDENT_VERIFICATION_REGISTER_v2.9.87.csv",
+      "rows": 60
+    },
+    {
+      "phase": 39,
+      "version": "2.9.88",
+      "archive": "mocktestvault.com_organic_seo_v2.9.88_phase5_39_science_ch04_independent_answer_verification.zip",
+      "register": "PHASE5_39_SCIENCE_CH04_60_QUESTION_VERIFICATION_REGISTER_v2.9.88.csv",
+      "rows": 60
+    },
+    {
+      "phase": 40,
+      "version": "2.9.89",
+      "archive": "mocktestvault.com_organic_seo_v2.9.89_phase5_40_science_ch05_life_processes_independent_answer_verification.zip",
+      "register": "PHASE5_40_SCIENCE_CH05_60_QUESTION_VERIFICATION_REGISTER_v2.9.89.csv",
+      "rows": 60
+    },
+    {
+      "phase": 41,
+      "version": "2.9.90",
+      "archive": "mocktestvault.com_organic_seo_v2.9.90_phase5_41_science_ch06_control_coordination_independent_answer_verification.zip",
+      "register": "PHASE5_41_SCIENCE_CH06_60_QUESTION_VERIFICATION_REGISTER_v2.9.90.csv",
+      "rows": 60
+    },
+    {
+      "phase": 42,
+      "version": "2.9.91",
+      "archive": "mocktestvault.com_organic_seo_v2.9.91_phase5_42_science_ch07_reproduction_independent_answer_verification.zip",
+      "register": "PHASE5_42_CH07_REPRODUCTION_ITEM_LEVEL_REGISTER_v2.9.91.csv",
+      "rows": 60
+    },
+    {
+      "phase": 43,
+      "version": "2.9.92",
+      "archive": "mocktestvault.com_organic_seo_v2.9.92_phase5_43_science_ch08_heredity_independent_answer_verification.zip",
+      "register": "PHASE5_43_HEREDITY_60_ITEM_VERIFICATION_REGISTER_v2.9.92.csv",
+      "rows": 60
+    },
+    {
+      "phase": 44,
+      "version": "2.9.93",
+      "archive": "mocktestvault.com_organic_seo_v2.9.93_phase5_44_science_ch09_light_independent_answer_verification.zip",
+      "register": "PHASE5_44_SCI_CH09_LIGHT_ITEM_LEVEL_VERIFICATION_REGISTER_v2.9.93.csv",
+      "rows": 60
+    },
+    {
+      "phase": 45,
+      "version": "2.9.94",
+      "archive": "mocktestvault.com_organic_seo_v2.9.94_phase5_45_science_ch10_human_eye_independent_answer_verification.zip",
+      "register": "PHASE5_45_SCIENCE_CH10_ITEM_LEVEL_VERIFICATION_REGISTER_v2.9.94.csv",
+      "rows": 60
+    },
+    {
+      "phase": 46,
+      "version": "2.9.95",
+      "archive": "mocktestvault.com_organic_seo_v2.9.95_phase5_46_science_ch11_electricity_independent_answer_verification.zip",
+      "register": "PHASE5_46_SCIENCE_CH11_ITEM_LEVEL_VERIFICATION_REGISTER_v2.9.95.csv",
+      "rows": 60
+    },
+    {
+      "phase": 47,
+      "version": "2.9.96",
+      "archive": "mocktestvault.com_organic_seo_v2.9.96_phase5_47_science_ch12_magnetic_effects_independent_answer_verification.zip",
+      "register": "PHASE5_47_SCIENCE_CH12_ITEM_LEVEL_VERIFICATION_REGISTER_v2.9.96.csv",
+      "rows": 60
+    },
+    {
+      "phase": 48,
+      "version": "2.9.97",
+      "archive": "mocktestvault.com_organic_seo_v2.9.97_phase5_48_science_ch13_our_environment_independent_answer_verification.zip",
+      "register": "audit/phase5_48_science_ch13_our_environment/PHASE5_48_SCIENCE_CH13_ITEM_LEVEL_VERIFICATION_REGISTER_v2.9.97.csv",
+      "rows": 60
+    }
+  ]
+}

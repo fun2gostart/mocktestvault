@@ -1,0 +1,26 @@
+PHASE 5.16 — VALIDATION REPORT
+Revision: v2.9.66
+Baseline: v2.9.65
+
+PASS — Baseline ZIP integrity test passed.
+PASS — 840 unique question IDs found in Phase 5.14 learning-outcome register.
+PASS — 14 chapters represented, 60 questions per chapter.
+PASS — 42 active chapter/set JSON files located (3 sets x 14 chapters).
+PASS — Each of the 42 JSON files contains exactly 20 questions and matches its 20 registered question IDs.
+PASS — Phase 5.15 scope register contains 140 unique candidates; all match IDs in the 840-item register.
+PASS — Scope decisions reconcile to 77 CORE_ALIGNED + 63 ENRICHMENT_OPTIONAL + 0 OUTSIDE_CORE_SCOPE.
+PASS — Standard typology allocation totals 80 (43 + 19 + 18).
+PASS — Basic typology allocation totals 80 (60 + 12 + 8).
+PASS — Official unit allocation totals 80 (6 + 20 + 6 + 15 + 12 + 10 + 11).
+PASS — Chapter-to-unit mapping covers all 14 chapters exactly once.
+PASS — Original active question JSON files are copied unchanged; no question content, answer, explanation, ID or difficulty was edited.
+PASS — No production deployment performed.
+
+READINESS WARNINGS
+- Only 140/840 questions were individually adjudicated for curriculum scope in Phase 5.15; 700 remain unadjudicated.
+- All 140 adjudicated candidates still have human sign-off pending.
+- Existing L1/L2/L3 labels are AI-assisted provisional suggestions (45/744/51), not teacher-validated CBSE typology ratings.
+- No official unit-by-cognitive cross-tab was supplied by CBSE in the referenced question-paper design table; none has been invented here.
+- This phase does not create or publish live test papers. It adds reference blueprints and audit registers only.
+
+OVERALL RESULT: STRUCTURAL VALIDATION PASS; ACADEMIC SIGN-OFF AND AUTOMATED PAPER-ASSEMBLY READINESS NOT GRANTED.

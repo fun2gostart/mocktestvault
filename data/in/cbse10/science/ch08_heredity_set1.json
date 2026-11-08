@@ -15,10 +15,10 @@
     "explanation": "F1 generation (Tt) self-pollinates (Tt × Tt). The resulting F2 offspring are TT (Tall), Tt (Tall), Tt (Tall), and tt (Short), yielding a phenotypic ratio of 3 Tall : 1 Short (genotypic ratio 1 : 2 : 1).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -33,7 +33,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -52,10 +63,10 @@
     "explanation": "Females produce eggs containing only X chromosomes (22 + X). Males produce two types of sperms in equal 50:50 ratio: (22 + X) and (22 + Y). Fertilization by an X-sperm gives a female child (XX), and by a Y-sperm gives a male child (XY).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -70,7 +81,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -78,7 +100,7 @@
     "type": "mcq",
     "subtopic": "Dihybrid Cross Phenotypic Ratio",
     "difficulty": "Medium",
-    "question": "In a dihybrid cross between pea plants with Round Yellow seeds (RRYY) and Wrinkled Green seeds (rryy), what is the phenotypic ratio in the F2 generation?",
+    "question": "In a classical Mendelian dihybrid cross between pea plants with Round Yellow seeds (RRYY) and Wrinkled Green seeds (rryy), assuming the two gene pairs assort independently, what phenotypic ratio is expected in the F2 generation?",
     "options": [
       "3 : 1",
       "9 : 3 : 3 : 1",
@@ -86,13 +108,13 @@
       "1 : 1 : 1 : 1"
     ],
     "answer": 1,
-    "explanation": "Mendel's Law of Independent Assortment shows that seed shape and seed color segregate independently, producing 9 Round Yellow : 3 Round Green : 3 Wrinkled Yellow : 1 Wrinkled Green.",
+    "explanation": "The F1 plants are RrYy. If the genes assort independently and show complete dominance, the F1 plants produce RY, Ry, rY and ry gametes in equal proportions. Selfing them gives the F2 phenotypic ratio 9 Round Yellow : 3 Round Green : 3 Wrinkled Yellow : 1 Wrinkled Green.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -107,7 +129,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_with_correction",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "CORRECTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -126,10 +159,10 @@
     "explanation": "Human cells have 46 chromosomes (23 pairs). Of these, 22 pairs are autosomes (identical in males and females), and 1 pair is sex chromosomes (XX in females, XY in males).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -144,7 +177,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -163,10 +207,10 @@
     "explanation": "According to Mendel's Law of Dominance, when two contrasting alleles are brought together, only the dominant trait expresses in the phenotype of the F1 hybrid (Tt), while the recessive trait remains masked. Reason correctly explains Assertion.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -181,7 +225,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -191,19 +246,19 @@
     "difficulty": "Easy",
     "question": "In human populations, the lowest part of the ear (earlobe) is closely attached to the side of the head in some people, and free in others. Which of these is an inherited trait?",
     "options": [
-      "Only attached earlobe is genetic; free earlobe is caused by injury",
-      "Earlobe attachment depends entirely on atmospheric pressure",
-      "Neither is inherited; both are learned behaviors",
-      "Both free and attached earlobes are inherited traits; free earlobe is dominant over attached earlobe"
+      "Only attached earlobes are inherited; free earlobes result from injury",
+      "Earlobe attachment is determined entirely by atmospheric pressure",
+      "Neither form can be influenced by inheritance",
+      "Free and attached earlobes are common human variations; their inheritance is more complex than a universal single-gene dominant/recessive rule"
     ],
     "answer": 3,
-    "explanation": "The lowest part of the ear, called the earlobe, is closely attached to the side of the head in some of us, and not in others. Free and attached earlobes are two types of inherited traits found in human populations, with free earlobe being dominant.",
+    "explanation": "Free and attached earlobes are observable human variations. Earlobe shape can have an inherited component, but it does not reliably follow the simple single-gene dominant/recessive pattern traditionally presented in some classroom examples. The option avoids treating free earlobes as universally dominant.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -218,7 +273,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_with_correction",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "CORRECTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -237,10 +303,10 @@
     "explanation": "Mendel used a number of visible contrasting characters of garden peas — round/wrinkled seeds, tall/short plants, white/violet flowers and so on. Peas have a short annual life span, produce numerous seeds, and undergo reliable cross-pollination when emasculated.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -255,7 +321,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -274,10 +351,10 @@
     "explanation": "When Tt self-pollinates, the genotypic combinations are 1 homozygous dominant (TT), 2 heterozygous dominant (Tt), and 1 homozygous recessive (tt), yielding the ratio 1 : 2 : 1.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -292,7 +369,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -303,18 +391,18 @@
     "question": "In modern molecular genetics, what is a gene?",
     "options": [
       "A complete cell membrane unit",
-      "A specific section of cellular DNA that provides biochemical instructions for synthesizing a particular protein",
+      "A defined DNA sequence that contributes information for a functional product, such as a protein or functional RNA",
       "A type of carbohydrate used for energy storage",
       "A red blood cell protein that carries oxygen"
     ],
     "answer": 1,
-    "explanation": "Cellular DNA is the information source for making proteins in the cell. A section of DNA that provides information for one protein is called the gene for that protein.",
+    "explanation": "A gene is a sequence of DNA that contributes information for a functional product. Many genes encode proteins; some genes produce functional RNA molecules. At this level, the textbook often introduces genes through their role in providing information for protein synthesis.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -329,7 +417,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_with_correction",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "CORRECTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -348,10 +447,10 @@
     "explanation": "Plant height depends on the amount of a particular plant hormone. The amount of the plant hormone made will depend on the efficiency of the process for making it. If an enzyme that is important for this process works efficiently, a lot of hormone will be made, and the plant will be tall.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -366,7 +465,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -385,10 +495,10 @@
     "explanation": "In some animals, the temperature at which fertilised eggs are kept determines whether the animals developing in the eggs will be male or female (temperature-dependent sex determination).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -403,7 +513,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -416,16 +537,16 @@
       "Snails have 100 pairs of sex chromosomes",
       "Snails do not reproduce sexually",
       "Male snails are sterile clones",
-      "Sex is not genetically determined in snails"
+      "Some snail species can change sex during their lifetime; this shows that sex can be biologically flexible rather than fixed by a typical human-like XX/XY system"
     ],
     "answer": 3,
-    "explanation": "In other animals, such as snails, individuals can change sex, indicating that sex is not genetically determined.",
+    "explanation": "Some snail species are sequential hermaphrodites and can change sex during their lifetime. This demonstrates that sex expression and reproductive roles can be flexible in some organisms. It does not establish that genes play no role; the mechanism varies among species.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -440,7 +561,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_with_correction",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "CORRECTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -459,10 +591,10 @@
     "explanation": "Women have a perfect pair of sex chromosomes, both called X. But men have a mismatched pair in which one is a normal-sized X while the other is a short one called Y. So women are XX, while men are XY.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -477,7 +609,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -485,21 +628,21 @@
     "type": "mcq",
     "subtopic": "Statistical Probability of Child Sex",
     "difficulty": "Easy",
-    "question": "What is the exact theoretical probability that a human pregnancy will result in a female baby rather than a male baby?",
+    "question": "Under the simplified human XX/XY model, assuming X-bearing and Y-bearing sperm are equally likely to fertilize an ovum, what is the theoretical probability of an XX (female) conception?",
     "options": [
       "75% (3 in 4)",
       "25% (1 in 4)",
-      "50% (1 in 2)",
+      "50% (1 in 2) in the simplified model",
       "100% (dependent on maternal age)"
     ],
     "answer": 2,
-    "explanation": "All children will inherit an X chromosome from their mother regardless of whether they are boys or girls. Thus, half the children will inherit an X chromosome from their father and become girls, and half will inherit a Y chromosome and become boys. The probability is exactly 50% (1/2).",
+    "explanation": "In the simplified XX/XY model, the ovum contributes an X chromosome. If X-bearing and Y-bearing sperm are equally likely to fertilize it, the theoretical probabilities are 1/2 XX and 1/2 XY. This is a model-based probability, not a guarantee that real-world birth ratios are exactly 50:50.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -514,7 +657,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_with_correction",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "CORRECTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -533,10 +687,10 @@
     "explanation": "If each generation were to combine full sets of chromosomes from two parents, the chromosome number would double every generation, upsetting the entire cellular apparatus. Meiosis halves the chromosome number in germ cells so fertilization restores the stable diploid number.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -551,7 +705,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -567,13 +732,13 @@
       "When the organism reaches old age"
     ],
     "answer": 0,
-    "explanation": "A recessive trait can only be expressed in the phenotype when both copies of the gene are recessive (homozygous condition). In the presence of even a single dominant allele, the recessive phenotype is completely masked.",
+    "explanation": "In the simple Mendelian complete-dominance examples used here, a recessive phenotype appears when both alleles are recessive (homozygous recessive, such as tt or rr). This statement is specific to the stated model; inheritance patterns for all biological traits are not limited to this rule.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -588,7 +753,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_with_correction",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "CORRECTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -607,10 +783,10 @@
     "explanation": "When two pairs of traits are combined in a hybrid, segregation of one pair of characters is independent of the other pair of characters. This is the Law of Independent Assortment, producing the new recombinant phenotypes Round Green and Wrinkled Yellow.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -625,7 +801,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -644,10 +831,10 @@
     "explanation": "If we observe a field of sugarcane, there is very little variation among the individual plants because asexual reproduction generates very little diversity (only minor biochemical copying errors occur).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -662,7 +849,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -681,10 +879,10 @@
     "explanation": "Alleles are alternative forms of a gene that account for variations in inherited characters, such as T (tall) and t (dwarf).",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -699,7 +897,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_no_content_change",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "VERIFIED_NO_CHANGE",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -707,21 +916,21 @@
     "type": "mcq",
     "subtopic": "Father's Sole Determination of Child Sex",
     "difficulty": "Easy",
-    "question": "In Indian society, women are sometimes unjustly blamed for giving birth to female children. Scientifically, why is the father solely responsible for the genetic sex of the baby?",
+    "question": "Which statement correctly describes chromosomal sex determination in the typical human XX/XY system?",
     "options": [
-      "All mothers provide an X chromosome in every ovum; the child becomes male or female depending entirely on whether the father's sperm carries a Y or an X chromosome",
-      "The mother's egg rejects male chromosomes",
+      "The ovum contributes an X chromosome; the fertilizing sperm contributes either X or Y, producing an XX or XY zygote. Neither parent can consciously control which sperm fertilizes the ovum.",
+      "The mother contributes either X or Y chromosomes",
       "Only fathers have chromosomes in their reproductive cells",
       "The sex of the baby is determined by the hospital doctor"
     ],
     "answer": 0,
-    "explanation": "All children will inherit an X chromosome from their mother regardless of whether they are boys or girls. Thus, the sex of the children will be determined by what they inherit from their father. A child who inherits an X chromosome from her father will be a girl, and one who inherits a Y chromosome from him will be a boy.",
+    "explanation": "In the typical human XX/XY system, an ovum contributes an X chromosome. A sperm contributes either X or Y. An X-bearing sperm produces an XX zygote and a Y-bearing sperm usually produces an XY zygote. This describes chromosomal contribution; it should not be used to blame either parent, because fertilisation is not under their conscious control.",
     "citation": "NCERT Class 10 Science, Chapter 8, Section 8.2.4",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "independently_checked_and_consistent_after_review",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -736,7 +945,18 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "independent_answer_verification_status": "ai_assisted_independent_review_passed_with_correction",
+      "human_academic_signoff_status": "pending",
+      "official_pyq_authentication_status": "not_verified",
+      "review_phase": "phase5_43_science_ch08_heredity",
+      "review_note": "NCERT-topic-aligned conceptual review; existing citation is a chapter/topic reference, not item-level PYQ provenance.",
+      "answer_accuracy_status_original_phase5_51": "pending_independent_subject_matter_verification",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "CORRECTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   }
 ]

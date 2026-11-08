@@ -1,0 +1,47 @@
+PHASE 5.10 – DETAILED MATHEMATICS VERIFICATION
+Chapter 5: Arithmetic Progressions
+Version: v2.9.50
+Baseline: v2.9.49
+Review date: 2026-11-07
+
+SCOPE
+- Set 1: 20 active questions
+- Set 2: 20 active questions
+- Set 3: 20 active questions
+- Total: 60 active questions
+
+RESULTS
+- 60/60 stored answer keys match independent recalculation after the documented Set 2 Q6 replacement.
+- No answer key was left inconsistent with its final question/options.
+- 9 question records received a documented wording, proof, explanation, or item-design correction.
+- 0 exact normalized duplicate stems remain across the 60 active questions.
+- One high-similarity concept pair (Set 2 Q1 and Q6) was resolved by replacing Q6 with a different AP partial-sum application.
+- Other fuzzy similarities at/above 72% were reviewed as distinct skills or values and retained.
+- 14 curriculum/enrichment flags were recorded; none was automatically deleted.
+- All 3 chapter-page set JSON paths are explicitly present in the HTML source.
+- Service-worker cache advanced mtv-cbt-v75 -> mtv-cbt-v76.
+
+CORRECTIONS
+1. Set 2 Q1: added m ≠ n and positive-integer constraints; without m ≠ n the AP is not uniquely determined.
+2. Set 2 Q3: replaced invalid shortcut with cross-multiplication proof; added distinct positive integer condition.
+3. Set 2 Q6: replaced near-duplicate pth/qth-term identity with an original question using a5=18, a12=46 to find S20=800. No exact NCERT/PYQ claim is made for this replacement.
+4. Set 2 Q9: stated that the ratio condition holds for every positive integer n and added a valid derivation of the 11th-term ratio 4:3.
+5. Set 3 Q3: clarified S0=0 by definition and checked the first terms to establish non-AP.
+6. Set 3 Q9: added the valid index range 1≤m≤n.
+7. Set 3 Q14: corrected “perimeter” to “curved arc length”; the arc length of a semicircle is πr.
+8. Set 3 Q19–Q20: clarified the tier-block model so the kth block height is k/4 m; this matches the AP of volumes used in the solution.
+
+CURRICULUM SCOPE
+The official NCERT Class X Mathematics textbook (Reprint 2026-27), Chapter 5, defines APs as sequences with a fixed common difference (which may be positive, negative or zero), develops the nth-term formula, and develops the sum-of-n-terms formula. Exercise 5.4 is explicitly labelled Optional. Accordingly, Set 1 Q19 and Set 2 Q10 are flagged Optional NCERT Exercise 5.4. Geometry/mensuration-integrated items and advanced algebraic identities are retained with enrichment flags rather than removed.
+
+SOURCES
+- NCERT, Mathematics Textbook for Class X, Chapter 5 “Arithmetic Progressions”, Reprint 2026-27: https://ncert.nic.in/textbook/pdf/jemh105.pdf
+- CBSE Curriculum 2026-27 (Class X Mathematics listing): https://cbseacademic.nic.in/curriculum_2027.html
+
+LIMITATIONS / GOVERNANCE
+- This is AI-assisted independent mathematical verification, not human SME certification.
+- Human SME sign-off remains pending for all 60 questions.
+- Exact PYQ/source-paper and official answer-key authentication was not performed.
+- Direct CBSE PDF item-level syllabus confirmation is pending; scope flags are conservative and grounded in the NCERT chapter structure and the CBSE 2026-27 curriculum release.
+- Static source/page-path verification only; Hostinger staging, browser network, and production runtime checks were not performed.
+- No production deployment or Hostinger changes were made.

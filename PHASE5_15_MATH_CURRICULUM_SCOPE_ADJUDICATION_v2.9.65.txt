@@ -1,0 +1,58 @@
+MOCKTESTVAULT — PHASE 5.15: CURRICULUM SCOPE ADJUDICATION
+Revision: v2.9.65
+Baseline: v2.9.64
+Audit date: 2026-11-07
+Scope: All 140 items flagged by the Phase 5.14 keyword/subtopic screen.
+Curriculum source: CBSE Class X Mathematics, Subject Codes 041 and 241, 2026-27.
+Official PDF: https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf
+
+EXECUTIVE RESULT
+- 140 flagged items reviewed against the actual question stems/subtopics and the official CBSE 2026-27 content boundaries.
+- 77 items classified as CORE_ALIGNED (retain in core bank, subject to solution check).
+- 63 items classified as ENRICHMENT_OPTIONAL (retain only in a clearly labelled enrichment/extension section; do not count as core syllabus coverage).
+- 0 items classified as confirmed OUTSIDE_CORE_SCOPE.
+- No question was deleted, rewritten, re-keyed, or automatically moved.
+- Human sign-off remains pending for all 140 classifications.
+
+IMPORTANT INTERPRETATION
+The scope screen is not a deletion list. The CBSE syllabus includes broad competency language and allows applications of prescribed content. The adjudication distinguishes items that directly test named content from items that use additional theorems, constructions or extended modelling. An enrichment classification does not mean the mathematics is incorrect; it means the item should not be counted as core syllabus coverage without explicit course-owner approval.
+
+CHAPTER-WISE ADJUDICATION
+- Chapter 6 Triangles: 8 flagged; 1 core-aligned; 7 enrichment; 0 confirmed out-of-scope.
+- Chapter 7 Coordinate Geometry: 15 flagged; 2 core-aligned; 13 enrichment; 0 confirmed out-of-scope.
+- Chapter 8 Introduction to Trigonometry: 15 flagged; 5 core-aligned; 10 enrichment; 0 confirmed out-of-scope.
+- Chapter 9 Some Applications of Trigonometry: 11 flagged; 5 core-aligned; 6 enrichment; 0 confirmed out-of-scope.
+- Chapter 10 Circles: 24 flagged; 6 core-aligned; 18 enrichment; 0 confirmed out-of-scope.
+- Chapter 11 Areas Related to Circles: 15 flagged; 14 core-aligned; 1 enrichment; 0 confirmed out-of-scope.
+- Chapter 12 Surface Areas and Volumes: 21 flagged; 21 core-aligned; 0 enrichment; 0 confirmed out-of-scope.
+- Chapter 13 Statistics: 12 flagged; 9 core-aligned; 3 enrichment; 0 confirmed out-of-scope.
+- Chapter 14 Probability: 19 flagged; 14 core-aligned; 5 enrichment; 0 confirmed out-of-scope.
+
+KEY CURRICULUM BOUNDARIES USED
+1. Triangles: the listed Class X content is triangle similarity, similarity criteria, BPT and its converse. Additional theorems such as Apollonius, angle-bisector and altitude-to-hypotenuse are treated as enrichment unless directly reducible to the listed results.
+2. Coordinate Geometry: the prescribed named formulae are distance formula and section formula for internal division. Centroid, circumcentre, reflection and area formula extensions are treated as enrichment.
+3. Introduction to Trigonometry: acute-angle ratios, standard values 30°, 45°, 60°, ratio relationships, sin²A + cos²A = 1 and simple identities. High-power, monotonicity/range and compound identities are treated as enrichment.
+4. Heights and Distances: no more than two right triangles; angles of elevation/depression only 30°, 45°, 60°. Elaborate rate/time models and angular-diameter problems are enrichment; compliant two-triangle contexts remain core-aligned.
+5. Circles: the two named theorems are tangent-radius perpendicularity and equality of tangents from an external point. Direct consequences/applications are retained; secant-power and other extended circle results are enrichment.
+6. Areas Related to Circles: sector/arc and area/perimeter applications are retained. Segment-area items are core-aligned only when central angle is 60°, 90° or 120°.
+7. Surface Areas and Volumes: combinations of any two listed solids are permitted. Recasting/flow contexts are retained where the calculation is reducible to listed solids and no additional solid type is introduced.
+8. Statistics: grouped-data mean, median and mode are core. Cumulative frequency as a calculation aid is retained; graphical ogive construction/intersection is enrichment.
+9. Probability: simple classical sample-space events are core. Geometric/continuous probability and multi-stage conditional selection are enrichment.
+
+COURSE DESIGN RECOMMENDATION
+- Keep CORE_ALIGNED items in the core CBSE Class X bank, subject to mathematical answer/explanation checks.
+- Keep ENRICHMENT_OPTIONAL items in a separate, clearly labelled "Challenge / Enrichment" area. Do not mix them into core-aligned mock tests or use them to claim CBSE syllabus coverage.
+- Do not delete enrichment items: they can add value for advanced practice, school-level extensions or broader learning.
+- The user has not yet specified whether the bank targets Mathematics Basic (241), Standard (041), or both. Maintain course-neutral classification for now and later create separate blueprints if both are supported.
+- A teacher/academic owner must approve the 140 item decisions before implementation.
+
+CHANGE CONTROL
+- 140 review decisions and rationales recorded.
+- {adj_counts['CORE_ALIGNED']} core-aligned and {adj_counts['ENRICHMENT_OPTIONAL']} enrichment recommendations.
+- Zero confirmed removals; zero live question edits.
+- No question, option, answer, explanation, difficulty label, question ID, HTML or service-worker file changed.
+- ZIP integrity tested.
+- No staging or production deployment performed.
+
+LIMITATIONS
+This is an AI-assisted curriculum alignment review of flagged items, not an official CBSE endorsement. It is not a complete fresh audit of all 840 questions; it adjudicates the 140 candidates surfaced by the previous keyword screen. Human academic sign-off is still required, particularly for borderline items and for deciding whether enrichment content should remain visible to students.

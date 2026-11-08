@@ -1,0 +1,8 @@
+PHASE 5.10 – v2.9.60 CHANGELOG
+- Consolidated academic-quality audit across all 14 CBSE Class 10 Mathematics chapters.
+- Scanned all 42 active question-set JSON files and 840 active questions.
+- Confirmed 840 unique IDs, valid option/answer-index structure, no exact normalized duplicate stems, and no missing active JSON references.
+- Screened 17 high-similarity stem pairs; recorded them as distinct items after checking the substantive differences.
+- Reconciled one stale candidate_answer_index_0_based field for cbse10-math-ch09-s3-005 (3 -> 0); stored answer was already 0.
+- Added consolidated audit report, curriculum scope register, near-duplicate register, and validation summary.
+- No question/option/answer/explanation or production page changes. No production deployment.

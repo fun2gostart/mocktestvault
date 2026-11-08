@@ -1,0 +1,22 @@
+MOCKTESTVAULT v2.9.13 – PHASE 5 CHANGELOG
+Base: v2.9.12
+
+- Removed the stale generic 2025–26 CBSE Class X blueprint block from the Class 10 catalogue.
+- Removed 48 unsupported chapter-level marks badges; replaced with official 2026–27 unit/scope guidance.
+- Changed “Chapters Complete” labels to “Topic Modules” / “Chapter Modules” to avoid implying complete board-exam scope.
+- Added precise CBSE 2026–27 Mathematics unit marks and Science/Social Science assessment-scope notes.
+- Added direct page notices for Heredity, selected Magnetic Effects topics, Age of Industrialisation, Making of a Global World, Lifelines of National Economy, and Globalisation.
+- Updated the question-source policy with current CBSE 2026–27 curriculum and sample-paper/marking-scheme references.
+- Fixed bookmark-key collisions on JEE Main and NEET UG random pools by adding a stable content fingerprint for those pages only. Existing saved bookmarks on those two pages may need to be recreated because legacy keys cannot be unambiguously mapped to one of the two different questions.
+- Bumped service-worker cache from mtv-cbt-v48 to mtv-cbt-v49.
+- Added active question-ID collision, answer-variance triage, explanation-variance queue and CBSE scope registers.
+- No question-bank JSON, selected answers, explanations, scoring rules, canonical URLs, sitemap URLs or robots directives were changed.
+
+Validation:
+- ZIP integrity verified after packaging.
+- Full 6,404-question structural audit: 0 schema/answer-index/explanation-presence issues.
+- Runtime active random-pool collisions: 25 JEE + 45 NEET; content-fingerprint fix included.
+- 10 selected-answer variance groups compared manually against local option sets; no confirmed answer conflict found.
+- 77 explanation-variance groups remain pending expert review.
+- JavaScript syntax checks passed; four bookmark-key regression checks passed; 160 HTML files parsed with zero non-intentional local-link/fragment issues.
+- Academic sign-off remains pending; this is not a subject-matter-certified release.

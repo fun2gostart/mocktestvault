@@ -1,0 +1,145 @@
+PHASE 5.10 – CONSOLIDATED MATHEMATICS ACADEMIC QUALITY AUDIT
+Revision: v2.9.60
+Baseline: v2.9.59
+Date: 2026-11-07
+
+SCOPE
+CBSE Class 10 Mathematics, Chapters 1–14. The audit used the 3 question-set JSON files explicitly referenced by each chapter HTML page (42 active files).
+
+EXECUTIVE RESULT
+- Active chapters: 14 / 14
+- Active question sets: 42 / 42
+- Active questions: 840
+- Unique question IDs: 840
+- Duplicate question IDs: 0
+- Exact normalized question-stem duplicate groups: 0
+- Near-duplicate screening candidates (similarity >= 0.90): 17; manually inspected at stem level and treated as distinct questions, not duplicates.
+- Answer-index structural defects after reconciliation: 0
+- Review metadata mismatch: 1 found and corrected (stale candidate answer index for ch09-s3-005; stored answer index was already 0).
+- Question text, answer options, stored answer keys, and explanations were not changed in this consolidated audit.
+
+CHAPTER INVENTORY
+01. ch01_real_numbers: 60 questions across 3 active sets
+02. ch02_polynomials: 60 questions across 3 active sets
+03. ch03_linear_equations_two_variables: 60 questions across 3 active sets
+04. ch04_quadratic_equations: 60 questions across 3 active sets
+05. ch05_arithmetic_progressions: 60 questions across 3 active sets
+06. ch06_triangles: 60 questions across 3 active sets
+07. ch07_coordinate_geometry: 60 questions across 3 active sets
+08. ch08_introduction_to_trigonometry: 60 questions across 3 active sets
+09. ch09_some_applications_of_trigonometry: 60 questions across 3 active sets
+10. ch10_circles: 60 questions across 3 active sets
+11. ch11_areas_related_to_circles: 60 questions across 3 active sets
+12. ch12_surface_areas_volumes: 60 questions across 3 active sets
+13. ch13_statistics: 60 questions across 3 active sets
+14. ch14_probability: 60 questions across 3 active sets
+
+VALIDATION CHECKS
+- All 42 active JSON files referenced by chapter HTML exist in the archive.
+- Each chapter HTML references exactly 3 active question-set JSON files.
+- Each of the 14 chapters contains 60 active questions (20 per set).
+- All 840 active questions have IDs; all 840 IDs are unique.
+- All active question records have an options array with at least two options and an integer answer index within bounds.
+- Where candidate_answer_index_0_based metadata exists, it matches the stored answer index after the one documented reconciliation.
+- Where review_register_question_id metadata exists, it matches the question ID.
+- Exact duplicate scan: normalized Unicode/case/whitespace/punctuation-insensitive stems; no exact duplicate groups found across all 840 active questions.
+- Near-duplicate scan: 17 pairs reached >=0.90 string similarity. They differ in mathematical operation, values, event/property tested, coordinate/axis, or requested quantity; none was classified as an exact duplicate. See separate register.
+
+CURRICULUM SCOPE REGISTER – EXISTING LABELS
+Counts below reproduce existing per-question labels from quality_review / academic_verification. Labels are intentionally not collapsed into a single binary syllabus verdict because the source labels have different granularity and include chapter-specific notes.
+- Core topic / supports listed syllabus outcomes: 283
+- Core or direct application: 180
+- Core-aligned: 69
+- Core or formula application: 58
+- Core / direct application: 56
+- Core or direct formula application: 31
+- Enrichment / beyond named core: 29
+- Applied context: 22
+- Enrichment / not expressly listed as core 2026–27 outcome: 17
+- Core real-life HCF application: 9
+- Cross-topic enrichment: 5
+- Core FTA application: 4
+- Core divisibility reasoning: 4
+- Core real-life LCM application: 4
+- Enrichment / higher application: 4
+- Optional enrichment — not core 2026–27 Real Numbers scope: 4
+- Applied contextualisation: 3
+- Core HCF application: 3
+- Core HCF–LCM application: 3
+- Core application: 3
+- Core prime factorisation: 3
+- Foundational definition: 3
+- Foundational polynomial terminology: 3
+- Supporting irrationality reasoning: 3
+- Core irrationality concept: 2
+- Cross-unit: Quadratic Equations / graphical zeroes: 2
+- Enrichment / outside Class X trigonometry scope: 2
+- Supplementary higher-degree extension: 2
+- Core HCF / Euclidean reasoning: 1
+- Core HCF / prime properties: 1
+- Core HCF properties: 1
+- Core HCF–LCM properties: 1
+- Core HCF–LCM property: 1
+- Core LCM application: 1
+- Core arithmetic reasoning: 1
+- Core graphical zeroes: 1
+- Core irrationality proof method: 1
+- Core irrationality proof of sqrt(3): 1
+- Core relationship with wording clarification: 1
+- Core supporting concept: 1
+- Cross-unit: Quadratic Equations / supplementary to Polynomials: 1
+- Extension / applied reciprocal-speed model: 1
+- Extension / reciprocal work-rate model: 1
+- Extension / reciprocal-speed model: 1
+- Foundational HCF: 1
+- Foundational LCM: 1
+- Foundational extension: 1
+- Foundational number sets: 1
+- Supplementary algebraic enrichment: 1
+- Supplementary conjugate-root property: 1
+- Supplementary construction extension: 1
+- Supplementary graph/vertex enrichment: 1
+- Supplementary graphical enrichment: 1
+- Supplementary parameter problem: 1
+- Supporting concept / extension: 1
+- Supporting irrationality theorem: 1
+- Supporting/enrichment reasoning: 1
+
+ANSWER-QUALITY / PROVENANCE LIMITATIONS
+Existing answer-review status counts:
+- ai_assisted_independent_solution_match_human_signoff_pending: 760
+- ai_assisted_independent_review_human_signoff_pending: 60
+- conditional_on_wording_or_assumption_human_signoff_pending: 14
+- ai_assisted_independent_solution_match_human_signoff_pending_after_revision: 2
+- answer_key_corrected_in_candidate_human_signoff_pending: 2
+- candidate_rewrite_checked_human_signoff_pending: 2
+
+Existing source provenance labels:
+- topic_reference_only_exact_item_not_authenticated: 839
+- original_practice_item_no_external_item_claim: 1
+
+Human subject-matter sign-off labels:
+- pending: 780
+- PENDING: 60
+
+IMPORTANT QUALIFICATIONS
+- This consolidated batch is a structural, metadata, exact-duplicate, and near-duplicate screening audit. It is not a fresh human proof-check of all 840 mathematical solutions.
+- Existing per-question AI-assisted review annotations are retained as supplied; their presence is not equivalent to human academic approval.
+- 839 questions carry topic/chapter reference only and do not have authenticated item-level source provenance. One is explicitly marked as an original practice item with no external item claim.
+- No official PYQ claim should be made for a question unless the exact question and answer are matched to a primary official paper/source.
+- Human subject-matter sign-off remains pending across the reviewed question bank (existing fields use both “pending” and “PENDING”).
+- Curriculum labels are carried forward from the prior chapter-level reviews. This report does not independently certify alignment with every current CBSE 2026–27 syllabus exclusion or board circular.
+
+CHANGE SUMMARY
+- Added consolidated audit report, near-duplicate screening register, curriculum scope register, and validation summary.
+- Corrected one stale review metadata field for cbse10-math-ch09-s3-005 from candidate answer index 3 to 0 to match the already-corrected stored answer index 0. The historical review note remains documented.
+- No question, option, answer key, explanation, HTML page, or production behavior was changed.
+- No production deployment was performed.
+
+RECOMMENDED NEXT STEPS
+1. Subject-matter expert sign-off: review the 840 active questions, prioritizing all existing conditional / corrected / rewrite statuses and enrichment classifications.
+2. PYQ provenance: authenticate exact item-level source and answer-key match before applying any PYQ label.
+3. Curriculum sign-off: reconcile all enrichment/cross-topic labels against the official current CBSE syllabus and document retain / revise / exclude decisions.
+4. Optional assessment-quality pass: validate difficulty balance, distractor quality, and chapter-level learning-outcome coverage.
+
+END OF REPORT

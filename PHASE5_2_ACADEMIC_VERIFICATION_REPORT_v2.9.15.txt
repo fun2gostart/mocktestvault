@@ -1,0 +1,32 @@
+MOCKTESTVAULT – PHASE 5.2 ACADEMIC VERIFICATION REPORT v2.9.15
+
+Scope
+- Reviewed all 77 explanation-variance groups from the Phase 5.1 queue.
+- Compared 260 question occurrences across the supplied v2.9.13 question-bank archive.
+- Coverage: CBSE Class X question-bank content plus two SSC-style spelling items.
+- Focus: selected-answer validity, explanation accuracy, technical precision, and obvious curriculum/source alignment.
+
+Disposition
+- All 77 groups received a concept-level review.
+- No answer-index changes were made.
+- Five question groups (16 repeated records across 13 JSON files) received targeted wording/explanation improvements in the website JSON data.
+- Other groups were retained because their selected answer was consistent with the expected school-level concept.
+
+Targeted content improvements
+1. Vegetable-oil hydrogenation: clarified that hydrogenation acts on unsaturated fatty-acid chains in the oil; answer remains “both true, but Reason does not explain Assertion.”
+2. Respiration exothermic: removed a fixed ATP-yield figure and clarified the difference between digestion and cellular respiration.
+3. Anaerobic muscle pathway: removed unsupported 36–38 ATP detail and made the explanation track the NCERT Class X pathway.
+4. Alloys: qualified solder as traditional lead-tin solder; noted that alloy proportions vary and lead-free solders exist.
+5. Alkynes: qualified CnH2n-2 as the formula for open-chain alkynes containing one triple bond.
+
+Technical integrity
+- No answer index was changed.
+- No question scoring or quiz-engine code was changed.
+- Only the listed question/explanation content was updated. Structural validation covered all 286 question JSON files and 6,404 records; zero invalid option/answer-index combinations were found.
+- The full ZIP is validated after creation.
+
+Important limitations
+- This is an AI-assisted academic content review, not a qualified subject-matter expert (SME) certification.
+- NCERT/CBSE chapter-level alignment was used; this does not establish exact item-level PYQ provenance or official marking-scheme matching.
+- Questions outside the variance queue and the remaining full 6,404-question bank have not been fully academically verified.
+- Human academic sign-off remains pending and should be completed before claiming academic certification.

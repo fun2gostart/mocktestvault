@@ -13,14 +13,14 @@
         "32.5"
       ],
       "answer": 3,
-      "explanation": "In statistics, the class mark (also known as the mid-point or class midpoint $) represents the central value of a class interval. It is mathematically defined as the arithmetic mean of the upper and lower limits of the interval: $\\text{Class mark } x_i = \\frac{\\text{Upper class limit} + \\text{Lower class limit}}{2}$. For the given interval  - 40$, the lower limit is $ and the upper limit is $. Substituting these values gives: $\\text{Class mark} = \\frac{40 + 25}{2} = \\frac{65}{2} = 32.5$, which serves as the representative value in mean calculations.",
+      "explanation": "The class mark is the midpoint of the interval: (lower limit + upper limit)/2. For 25–40, it is (25 + 40)/2 = 65/2 = 32.5.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -34,6 +34,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-001",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -50,14 +79,14 @@
         "Median = 3 Mode - 2 Mean"
       ],
       "answer": 1,
-      "explanation": "For moderately asymmetrical (skewed) frequency distributions, English statistician Karl Pearson established the fundamental empirical relationship connecting the three measures of central tendency: $\\text{Mode} = 3\\text{Median} - 2\\text{Mean}$, which can also be rearranged algebraically as \\text{Median} = \\text{Mode} + 2\\text{Mean}$ or $\\text{Mean} - \\text{Mode} = 3(\\text{Mean} - \\text{Median})$. In perfectly symmetrical distributions, all three measures coincide ($\\text{Mean} = \\text{Median} = \\text{Mode}$), while skewness pulls the mean furthest into the long tail.",
+      "explanation": "For a moderately skewed distribution, the empirical relationship is Mode = 3 × Median − 2 × Mean. Rearranging gives Median = (Mode + 2 × Mean)/3. This is an empirical approximation, not an identity that holds for every distribution.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -71,6 +100,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "enrichment_not_explicitly_listed_as_core_2026_27_outcome",
+          "curriculum_scope_note": "Empirical relation among mean, median and mode is not expressly named in the 2026–27 listed Statistics outcomes; label enrichment.",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / not expressly listed as core 2026–27 outcome",
+        "review_register_question_id": "cbse10-math-ch13-s1-002",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "Empirical relation among mean, median and mode is not expressly named in the 2026–27 listed Statistics outcomes; label enrichment.",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -87,14 +145,14 @@
         "32"
       ],
       "answer": 2,
-      "explanation": "According to Karl Pearson's empirical formula connecting the three measures of central tendency: $\\text{Mode} = 3\\text{Median} - 2\\text{Mean}$. We are given that the distribution is moderately skewed with a mean of $ and a median of $. Substituting these values directly into the empirical formula yields: $\\text{Mode} = 3(26) - 2(24) = 78 - 48 = 30$. This relationship allows statisticians to compute any third measure when the other two are known, without requiring the full raw dataset.",
+      "explanation": "Use Mode = 3 × Median − 2 × Mean. Substituting Median = 26 and Mean = 24 gives Mode = 3(26) − 2(24) = 78 − 48 = 30.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -108,6 +166,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "enrichment_not_explicitly_listed_as_core_2026_27_outcome",
+          "curriculum_scope_note": "Empirical relation among mean, median and mode is not expressly named in the 2026–27 listed Statistics outcomes; label enrichment.",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / not expressly listed as core 2026–27 outcome",
+        "review_register_question_id": "cbse10-math-ch13-s1-003",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Empirical relation among mean, median and mode is not expressly named in the 2026–27 listed Statistics outcomes; label enrichment.",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -124,14 +211,14 @@
         "0 - 10"
       ],
       "answer": 0,
-      "explanation": "In a grouped frequency distribution, the 'modal class' is defined as the specific class interval that contains the maximum frequency (the highest number of observations). Examining the given frequency distribution: zsh-10$ has frequency $, -20$ has frequency $, -30$ has frequency $, and -40$ has frequency $. The highest frequency is $, which directly corresponds to the class interval  - 30$. Therefore,  - 30$ is the modal class, from which the lower boundary  = 20$ is chosen for mode computation.",
+      "explanation": "The modal class is the class interval with the greatest frequency. The frequencies are 5, 8, 15, 10 and 6; the maximum is 15, which belongs to 20–30. Therefore, the modal class is 20–30.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -145,6 +232,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-004",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -161,14 +277,14 @@
         "Cumulative frequency of the modal class"
       ],
       "answer": 2,
-      "explanation": "In the standard NCERT formula for calculating the mode of grouped continuous data: $\\text{Mode} = l + \\left[\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\right] \\times h$, each symbol represents a precise parameter: $ is the lower limit of the modal class, $ is the class size (width), $ is the frequency of the modal class itself, $ denotes the frequency of the class preceding the modal class, and $ represents the frequency of the class succeeding the modal class. These frequencies interpolate the exact mode within the modal class.",
+      "explanation": "In the grouped-data mode formula, f₁ is the frequency of the modal class, f₀ is the frequency of the class immediately preceding it, and f₂ is the frequency of the class immediately succeeding it. Thus f₀ denotes the preceding-class frequency.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -182,6 +298,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-005",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -198,14 +343,14 @@
         "10 - 20"
       ],
       "answer": 1,
-      "explanation": "To determine the median class of grouped data, we find the half-way observation index $\\frac{N}{2}$, where  = \\sum f_i$ is the total frequency. Given  = 60$, the median position is $\\frac{N}{2} = \\frac{60}{2} = 30$. The median class is the class interval whose cumulative frequency is just greater than or equal to $\\frac{N}{2}$. Given cumulative frequencies: -20$ ( = 8$), -30$ ( = 20$), -40$ ( = 38$). The first cumulative frequency exceeding $ is $, corresponding to the interval  - 40$.",
+      "explanation": "The total frequency is N = 60, so N/2 = 30. The cumulative frequencies are 8, 22, 38, 52 and 60. The first cumulative frequency greater than 30 is 38, corresponding to the class 30–40. Hence the median class is 30–40. (The cumulative frequency for 20–30 is 22.)",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -219,6 +364,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-006",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -235,14 +409,14 @@
         "(xi - a) * h"
       ],
       "answer": 0,
-      "explanation": "In the step-deviation method for computing the arithmetic mean of grouped continuous data, the reduced change of scale variable $ is defined as  = \\frac{x_i - a}{h}$, where $ is the class mark of the 569Xth class, $ is the assumed mean chosen from among the central class marks, and $ is the common class width. This linear transformation shifts the origin to $ and scales the data by $\\frac{1}{h}$, converting large multi-digit class marks into small integers (e.g., 569X2, -1, 0, 1, 2$) to minimize arithmetic errors.",
+      "explanation": "In the step-deviation method, uᵢ = (xᵢ − a)/h, where xᵢ is the class mark, a is the assumed mean and h is the common class width. This rescales the deviations to simplify the arithmetic.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -256,6 +430,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-007",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -275,11 +478,11 @@
       "explanation": "The direct method for calculating the arithmetic mean $\\bar{x}$ of a grouped frequency distribution is given by the formula $\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i}$, where $ represents the class mark of each interval and $ is its corresponding frequency. We are given that the sum of the products $\\sum f_i x_i = 1860$ and the total number of observations (total frequency) $\\sum f_i = 50$. Substituting these values gives: $\\bar{x} = \\frac{1860}{50} = \\frac{186}{5} = 37.2$, representing the weighted balance point of the data.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -293,6 +496,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-008",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -312,11 +544,11 @@
       "explanation": "The mode of grouped data is computed using: $\\text{Mode} = l + \\left[\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\right] \\times h$. Given parameters: modal class  - 20$, lower limit  = 10$, class width  = 10$, modal frequency  = 12$, preceding frequency  = 8$, and succeeding frequency  = 4$. Substituting values: $\\text{Mode} = 10 + \\left[\\frac{12 - 8}{2(12) - 8 - 4}\\right] \\times 10 = 10 + \\left[\\frac{4}{24 - 12}\\right] \\times 10 = 10 + \\left(\\frac{4}{12}\\right) \\times 10 = 10 + \\frac{10}{3} = 10 + 3.33 = 13.33$.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Exercise 13.2",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -330,6 +562,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-009",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -346,14 +607,14 @@
         "Cumulative frequency of the class succeeding the median class"
       ],
       "answer": 0,
-      "explanation": "In the NCERT formula for the median of grouped data: $\\text{Median} = l + \\left[\\frac{\\frac{n}{2} - cf}{f}\\right] \\times h$, the term $ strictly denotes the cumulative frequency of the class preceding (immediately before) the median class. The other parameters are: $ = lower limit of the median class,  = \\sum f_i$ = total number of observations, $ = absolute frequency of the median class itself, and $ = class size. Subtracting $ isolates the remaining count of observations required within the median class.",
+      "explanation": "In Median = l + [(n/2 − cf)/f] × h, cf is the cumulative frequency of the class immediately preceding the median class. Here l is the lower boundary of the median class, n is the total frequency, f is the median-class frequency and h is its width.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -367,6 +628,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-010",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -386,11 +676,11 @@
       "explanation": "For any frequency distribution with mean $\\bar{x}$, the algebraic sum of the deviations of individual observations from the mean is identically zero: $\\sum f_i (x_i - \\bar{x}) = 0$. Proof: expanding the summation gives $\\sum f_i (x_i - \\bar{x}) = \\sum f_i x_i - \\bar{x}\\sum f_i$. By definition of the arithmetic mean, $\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i} \\implies \\sum f_i x_i = \\bar{x}\\sum f_i$. Substituting this back yields $\\bar{x}\\sum f_i - \\bar{x}\\sum f_i = 0$. This confirms the mean as the true center of gravity of data.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -404,6 +694,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-011",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -420,14 +739,14 @@
         "40"
       ],
       "answer": 1,
-      "explanation": "Under a linear transformation of data, if each observation $ of a dataset is transformed into  = a x_i + b$ (where $ and $ are constants), then the new arithmetic mean $\\bar{y}$ is transformed by the exact same linear formula: $\\bar{y} = a\\bar{x} + b$. In this problem, every observation is multiplied by $ and then increased by $, so  = 3$ and  = 5$. Given the original mean $\\bar{x} = 35$, the new mean becomes $\\bar{y} = 3(35) + 5 = 105 + 5 = 110$. This property reflects the linearity of expectations.",
+      "explanation": "If each observation x is transformed to y = 3x + 5, the mean is transformed in the same way. The new mean is 3(35) + 5 = 105 + 5 = 110.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -441,6 +760,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-012",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -449,7 +797,7 @@
       "type": "mcq",
       "subtopic": "Continuous Interval Conversion",
       "difficulty": "Medium",
-      "question": "If class intervals are given as discontinuous: 1-10, 11-20, 21-30, what are the continuous class boundaries for the interval 11-20?",
+      "question": "The class intervals 1–10, 11–20 and 21–30 are inclusive intervals for whole-number measurements. What are the continuous class boundaries for the interval 11–20?",
       "options": [
         "11 - 20",
         "10 - 21",
@@ -460,11 +808,11 @@
       "explanation": "When class intervals are presented in discontinuous (inclusive) form (e.g., -10, 11-20, 21-30$), they must be converted into continuous (exclusive) boundaries before calculating mode or median. The gap between the upper limit of one class and the lower limit of the next class is  - 10 = 1$. The correction factor is half this gap: $\\frac{1}{2} = 0.5$. Subtract zsh.5$ from the lower limit ( - 0.5 = 10.5$) and add zsh.5$ to the upper limit ( + 0.5 = 20.5$), yielding continuous boundaries .5 - 20.5$.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -478,6 +826,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-013",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -494,14 +871,14 @@
         "26"
       ],
       "answer": 1,
-      "explanation": "To compute the median of grouped data, apply the formula $\\text{Median} = l + \\left[\\frac{\\frac{n}{2} - cf}{f}\\right] \\times h$. We are given: median class -30$ with lower limit  = 20$, class width  = 30 - 20 = 10$, total observations  = 50 \\implies \\frac{n}{2} = 25$, cumulative frequency of preceding class  = 18$, and median class frequency  = 10$. Substituting into the formula: $\\text{Median} = 20 + \\left[\\frac{25 - 18}{10}\\right] \\times 10 = 20 + \\left(\\frac{7}{10}\\right) \\times 10 = 20 + 7 = 27$.",
+      "explanation": "For grouped data, Median = l + [(n/2 − cf)/f] × h. Substituting l = 20, n/2 = 25, cf = 18, f = 10 and h = 10 gives Median = 20 + [(25 − 18)/10] × 10 = 27.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -515,6 +892,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-014",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -531,14 +937,14 @@
         "[sum(fi * di) / sum(fi)] - a"
       ],
       "answer": 0,
-      "explanation": "In the assumed mean method for calculating the arithmetic mean of grouped continuous data, the working formula is $\\bar{x} = a + \\frac{\\sum f_i d_i}{\\sum f_i}$, where $ represents the assumed mean (a central value chosen from the class marks $), and  = x_i - a$ represents the deviation of each class mark from $. By centering deviations around $, positive and negative deviations partially cancel each other out, significantly reducing the magnitudes of numbers in products  d_i$ and eliminating computational fatigue.",
+      "explanation": "In the assumed-mean method, the mean is calculated using x̄ = a + [Σ(fᵢdᵢ) / Σfᵢ], where a is the assumed mean, xᵢ is the class mark, dᵢ = xᵢ − a is the deviation from the assumed mean, and fᵢ is the corresponding frequency. The method simplifies arithmetic by using deviations from a convenient central value.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -552,6 +958,47 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "pilot_verification": {
+          "batch": "CBSE10_Mathematics_100Q_Pilot",
+          "review_date": "2026-11-06",
+          "method": "AI-assisted independent mathematical solution and explanation/context review",
+          "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+          "follow_up_flags": [
+            "explanation_review"
+          ],
+          "human_subject_matter_signoff": "pending",
+          "official_item_source_match": "not_performed",
+          "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-015",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -560,7 +1007,7 @@
       "type": "mcq",
       "subtopic": "Cumulative Frequency Table",
       "difficulty": "Easy",
-      "question": "In a 'less than' cumulative frequency distribution, the upper limits of the classes are plotted against:",
+      "question": "In a 'less than' cumulative frequency distribution, the upper class boundaries are plotted against:",
       "options": [
         "Their respective frequencies",
         "Class marks",
@@ -568,14 +1015,14 @@
         "Lower limits"
       ],
       "answer": 2,
-      "explanation": "In a cumulative frequency distribution of the 'less than' type, the upper limits of each class interval are plotted against their corresponding cumulative frequencies. The cumulative frequency indicates the total number of observations that are strictly less than or equal to that particular upper class boundary. When constructing a 'less than' ogive curve, the upper class limits are plotted on the horizontal 569Xaxis while the corresponding cumulative frequencies are plotted along the vertical 569Xaxis.",
+      "explanation": "For a less-than cumulative-frequency graph (ogive), plot each upper class boundary on the horizontal axis and its corresponding cumulative frequency on the vertical axis. Joining these points gives the less-than ogive.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -589,6 +1036,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "enrichment_not_explicitly_listed_as_core_2026_27_outcome",
+          "curriculum_scope_note": "Ogive construction is not expressly named in the 2026–27 listed Statistics outcomes; label graphical enrichment.",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / not expressly listed as core 2026–27 outcome",
+        "review_register_question_id": "cbse10-math-ch13-s1-016",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "Ogive construction is not expressly named in the 2026–27 listed Statistics outcomes; label graphical enrichment.",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "Question wording or metadata was corrected."
         }
       }
     },
@@ -605,14 +1081,14 @@
         "25"
       ],
       "answer": 0,
-      "explanation": "To find the upper limit of the median class, first determine the total frequency:  = 10 + 15 + 12 + 20 + 9 = 66$. Half the total frequency is $\\frac{N}{2} = \\frac{66}{2} = 33$. Compute the cumulative frequencies: zsh-5$ has  = 10$; -10$ has  = 10 + 15 = 25$; -15$ has  = 25 + 12 = 37$. The cumulative frequency that is just greater than $ is $, which corresponds to the class interval  - 15$. Thus, the median class is  - 15$, and its upper limit is $.",
+      "explanation": "First calculate the total frequency: N = 10 + 15 + 12 + 20 + 9 = 66. Therefore N/2 = 33. The cumulative frequencies are 10, 25, 37, 57 and 66. The first cumulative frequency greater than or equal to 33 is 37, which corresponds to the class interval 10–15. Hence the median class is 10–15 and its upper limit is 15. The correct option is A.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "reviewed; no correction needed",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -626,6 +1102,47 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "pilot_verification": {
+          "batch": "CBSE10_Mathematics_100Q_Pilot",
+          "review_date": "2026-11-06",
+          "method": "AI-assisted independent mathematical solution and explanation/context review",
+          "answer_check_status": "ai_independent_solution_matches_stored_key_pending_human_signoff",
+          "follow_up_flags": [
+            "explanation_review"
+          ],
+          "human_subject_matter_signoff": "pending",
+          "official_item_source_match": "not_performed",
+          "note": "This pilot review is not a human expert certification or proof that the item appeared in an official examination."
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "reviewed_no_change_required",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-017",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 0,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -642,14 +1159,14 @@
         "Median"
       ],
       "answer": 3,
-      "explanation": "When both the 'less than' cumulative frequency curve (less than ogive) and 'more than' cumulative frequency curve (more than ogive) of a grouped distribution are plotted on the same graph, they intersect at a unique point whose coordinates are $\\left(\\text{Median}, \\frac{N}{2}\\right)$. The abscissa (the 569Xcoordinate) of this intersection point on the horizontal axis corresponds exactly to the Median of the distribution, providing an elegant graphical method to locate the median without mathematical formula computation.",
+      "explanation": "The less-than and more-than ogives intersect at a point whose x-coordinate gives the median (and whose y-coordinate is N/2). Therefore, the abscissa of their intersection is the median.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.4",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -663,6 +1180,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "enrichment_not_explicitly_listed_as_core_2026_27_outcome",
+          "curriculum_scope_note": "Ogive-intersection method is not expressly named in the 2026–27 listed Statistics outcomes; label graphical enrichment.",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / not expressly listed as core 2026–27 outcome",
+        "review_register_question_id": "cbse10-math-ch13-s1-018",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 3,
+        "review_note": "Ogive-intersection method is not expressly named in the 2026–27 listed Statistics outcomes; label graphical enrichment.",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -679,14 +1225,14 @@
         "Weighted Mean"
       ],
       "answer": 1,
-      "explanation": "The Mode of a grouped distribution can be determined graphically from a Histogram. In a histogram, the modal class corresponds to the tallest bar. By drawing two intersecting diagonal straight lines from the top corners of the highest rectangle to adjacent corners of neighboring bars, the 569Xcoordinate of their intersection gives the Mode. Conversely, the median is located graphically using intersecting cumulative frequency curves (ogives), while the mean cannot be determined from graphical plots.",
+      "explanation": "In a histogram, the modal class is represented by the tallest rectangle. The mode can be estimated graphically by drawing the standard diagonals within the modal rectangle and the adjacent rectangles; their intersection is projected to the horizontal axis. This is a graphical extension; the current CBSE syllabus names the algebraic method for grouped-data mode.",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.3",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -700,6 +1246,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "enrichment_not_explicitly_listed_as_core_2026_27_outcome",
+          "curriculum_scope_note": "Histogram-based graphical mode is not expressly named in the 2026–27 listed Statistics outcomes; label graphical enrichment.",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Enrichment / not expressly listed as core 2026–27 outcome",
+        "review_register_question_id": "cbse10-math-ch13-s1-019",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 1,
+        "review_note": "Histogram-based graphical mode is not expressly named in the 2026–27 listed Statistics outcomes; label graphical enrichment.",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     },
@@ -716,14 +1291,14 @@
         "47"
       ],
       "answer": 2,
-      "explanation": "The lower limit of a class interval can be found using the relationship: $\\text{Lower limit} = \\text{Class mark} - \\frac{\\text{Class size}}{2}$. We are given that the class mark (midpoint) of the interval is $ and the class size (width $) is $. Substituting these values into the formula gives: $\\text{Lower limit} = 47 - \\frac{10}{2} = 47 - 5 = 42$. Similarly, the upper limit is $\\text{Class mark} + \\frac{\\text{Class size}}{2} = 47 + 5 = 52$. Hence, the continuous class interval is  - 52$.",
+      "explanation": "Class mark = (lower limit + upper limit)/2 = 47. The class size is 10, so the lower limit is 47 − 10/2 = 42 (and the upper limit is 52).",
       "citation": "NCERT Class 10 Mathematics, Chapter 13 Statistics, Section 13.2",
       "quality_review": {
-        "review_date": "2026-11-05",
+        "review_date": "2026-11-06",
         "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "topic_reference_note_only",
+        "answer_accuracy_status": "ai_assisted_independent_solution_match_human_signoff_pending",
+        "explanation_option_consistency": "corrected",
+        "source_provenance_status": "topic_reference_only_exact_item_not_authenticated",
         "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
         "authority_reference_url": "https://ncert.nic.in/textbook.php",
         "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
@@ -737,6 +1312,35 @@
           "selected_answer_text_variant_count": 1,
           "explanation_variant_count": 1,
           "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
+        },
+        "academic_verification_v2_9_6": {
+          "review_date": "2026-11-06",
+          "review_type": "AI-assisted independent mathematical calculation and explanation review",
+          "answer_key_status": "matches_independent_calculation",
+          "explanation_status": "corrected_in_review_patch",
+          "curriculum_scope": "aligned_to_or_supports_listed_2026_27_topic",
+          "curriculum_scope_note": "",
+          "review_note": "",
+          "human_sme_signoff": "pending",
+          "official_item_source_authentication": "not_performed; this is not PYQ provenance verification"
+        },
+        "answer_accuracy_note": "AI-assisted independent solution matches the candidate answer; human sign-off pending.",
+        "item_level_source_authentication": "not_performed",
+        "human_subject_matter_signoff": "pending",
+        "reviewer_type": "AI-assisted independent mathematical review; not human expert certification",
+        "curriculum_classification": "Core topic / supports listed syllabus outcomes",
+        "review_register_question_id": "cbse10-math-ch13-s1-020",
+        "master_review_status": "MATCHES_INDEPENDENT_SOLUTION",
+        "candidate_answer_index_0_based": 2,
+        "review_note": "",
+        "phase5_10_batch13_review": {
+          "review_date": "2026-11-07",
+          "review_type": "AI-assisted independent mathematical/statistical recalculation, explanation and wording review",
+          "answer_key_status": "matches_independent_review",
+          "explanation_status": "reviewed; clarity corrections applied where recorded",
+          "human_sme_signoff": "pending",
+          "item_level_source_authentication": "not_performed",
+          "review_note": "No answer-key correction required in this review."
         }
       }
     }

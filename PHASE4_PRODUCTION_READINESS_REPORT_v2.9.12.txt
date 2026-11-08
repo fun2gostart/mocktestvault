@@ -1,0 +1,70 @@
+MOCKTESTVAULT PHASE 4 — PERFORMANCE & PRODUCTION READINESS
+Release candidate: v2.9.12
+Baseline: v2.9.11 Phase 3 SEO audit ZIP
+Audit date: 2026-11-06
+
+EXECUTIVE RESULT
+- Completed a static production-configuration audit of the supplied v2.9.11 archive.
+- Inspected the live homepage, robots.txt, sitemap.xml, and a representative CBSE Class 10 Mathematics chapter URL through a live page fetch.
+- Live homepage and representative chapter loaded; homepage resolves to /index.html. No visible browser-console errors were reported by the browser inspection.
+- Identified an actionable information-exposure risk: the archive contains internal release/QA CSV and TXT artifacts at the web root, while the previous .htaccess did not deny CSV/TXT access. Five CSV registers are intentionally linked from question-sources-review.html and must remain publicly accessible.
+- Applied a narrowly scoped .htaccess protection update. No HTML, question-bank JSON, CSS, JavaScript, service-worker logic, canonical URLs, sitemap, or robots directives were changed.
+
+CHANGES IN v2.9.12
+1. CSV exposure control:
+   - Deny direct requests for root-level CSV files except the five registers intentionally linked from question-sources-review.html:
+     QUESTION_ANSWER_VERIFICATION_REGISTER_v2.9.csv
+     PYQ_AUTHENTICATION_REGISTER_v2.9.csv
+     QUESTION_REVIEW_BACKLOG_BY_FILE_v2.9.csv
+     QUESTION_DUPLICATE_REVIEW_REGISTER_v2.9.csv
+     QUESTION_EXPLANATION_VARIANCE_REGISTER_v2.9.csv
+   - 14 other root-level CSV files are covered by the deny rule, including historical audit registers and Phase 1–3 QA outputs.
+2. TXT exposure control:
+   - Deny direct requests for root-level TXT files except the public discovery/verification endpoints:
+     robots.txt, ads.txt, llms.txt, llms-full.txt, and the existing domain-verification token file.
+   - 20 internal release notes, QA reports, and deployment notes are covered by the deny rule.
+3. Repository helper files:
+   - Deny direct access to .gitignore and .nojekyll.
+4. Existing protections retained:
+   - Existing denial of .py, .pyc, .md, .sh, .log, .bak and .sql remains unchanged.
+   - Existing security headers, HTTPS redirect, compression, cache-control rules, and service-worker no-cache rules remain unchanged.
+
+PERFORMANCE / CONFIGURATION FINDINGS
+- Archive size: approximately 38.67 MiB uncompressed across 515 entries.
+- HTML documents contain no raster <img> elements in the static HTML audit; visual interface elements are primarily inline SVG/emoji. The 384 KB assets/og-image.png is a social-preview asset, not a normal in-page image.
+- Largest core resources:
+  js/test-engine.js: 112,863 bytes (approximately 26,201 bytes when gzip-compressed)
+  css/test-engine.css: 66,933 bytes (approximately 11,156 bytes when gzip-compressed)
+  js/homepage.js: 21,156 bytes (approximately 6,392 bytes when gzip-compressed)
+  css/homepage.css: 37,142 bytes (approximately 6,092 bytes when gzip-compressed)
+  js/consent.js: 4,500 bytes (approximately 1,625 bytes when gzip-compressed)
+- Static HTML references to local scripts, stylesheets, images and iframes resolve to files present in the archive (0 missing references in the audited categories).
+- Service-worker precache list contains 27 assets; all 27 exist in the archive.
+- Service worker cache name is mtv-cbt-v48. The .htaccess has explicit no-cache/no-store headers for sw.js.
+- JS files are loaded at the end of the document body on the inspected homepage and chapter template; consent.js is deferred in the head.
+- .htaccess includes mod_deflate compression and browser cache policies: HTML revalidation, 1-hour CSS/JS/JSON cache, and 7-day image/font cache with stale-while-revalidate.
+- .htaccess includes `CacheEngine off` within the LiteSpeed block. This may disable LiteSpeed's cache engine for the site. It was deliberately not changed because the exact Hostinger/LiteSpeed cache configuration and intended deployment behavior cannot be established from the ZIP alone; verify with Hostinger before changing it.
+- Service-worker registration is confirmed in js/homepage.js and js/test-engine.js. The live browser inspection did not expose the registration state directly; static source confirms the registration calls.
+
+LIVE CHECKS AND LIMITATIONS
+- Live homepage fetched successfully and resolved to https://mocktestvault.com/index.html.
+- Live robots.txt and sitemap.xml fetched successfully; sitemap advertises 156 URLs.
+- The URL /cbse-class-10/mathematics/ returned 404 because that directory has no index page in this archive. This is not a listed sitemap URL; the canonical chapter file /cbse-class-10/mathematics/ch01_real_numbers.html loaded successfully.
+- Browser inspection reported no visible console errors on the homepage and representative chapter.
+- Reliable Core Web Vitals (LCP, INP, CLS), Lighthouse/PageSpeed scores, transfer sizes, response headers, compression negotiation, and server response timings were not obtainable from the available browser inspection. They are NOT marked as passed.
+- Direct command-line HTTP header measurement was unavailable in the execution environment. Hostinger-side verification is still required for actual response headers and LiteSpeed behavior.
+- Google Search Console coverage/indexing and field CWV are outside this ZIP audit.
+
+DEPLOYMENT NOTES
+- Deploy the complete v2.9.12 archive to the website document root, replacing the prior release after taking a backup.
+- Confirm that .htaccess rules are honored by the hosting server.
+- Test direct access:
+  Expected 403: internal QA/change-log/deployment CSV and TXT files, .gitignore, .nojekyll.
+  Expected 200: robots.txt, ads.txt, llms.txt, llms-full.txt, domain verification TXT, and the five public CSV registers linked by question-sources-review.html.
+- After deployment, test a normal chapter test end-to-end and confirm service-worker update behavior.
+- Ask Hostinger to confirm whether LiteSpeed Cache is enabled/disabled by the current CacheEngine directive, and obtain PageSpeed Insights / CrUX data for field CWV.
+
+SCOPE EXCLUSIONS
+- No AdSense review or changes.
+- No academic answer certification or SME sign-off.
+- No question content, answer keys, test engine, or user-facing page design changes.

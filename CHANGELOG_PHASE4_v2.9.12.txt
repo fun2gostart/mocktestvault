@@ -1,0 +1,10 @@
+MOCKTESTVAULT v2.9.12 — PHASE 4 CHANGELOG
+Baseline: v2.9.11 Phase 3 SEO audit ZIP
+Date: 2026-11-06
+
+- Added root-level CSV access control in .htaccess. Only the five CSV registers explicitly linked from question-sources-review.html remain accessible; the other 14 root CSV artifacts are denied.
+- Added root-level TXT access control in .htaccess. Kept robots.txt, ads.txt, llms.txt, llms-full.txt, and the existing domain-verification token public; denied the other 20 internal QA/release TXT artifacts.
+- Denied direct access to .gitignore and .nojekyll.
+- Retained existing security headers, HTTPS redirect, gzip configuration, cache policies, and service-worker behavior.
+- No HTML, CSS, JS, JSON question banks, sitemap, robots directives, canonical URLs, or test logic changed.
+- Added Phase 4 production-readiness report and artifact exposure register.

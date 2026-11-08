@@ -1,0 +1,62 @@
+MOCKTESTVAULT – PHASE 5.3 CBSE CLASS X SCIENCE PRELIMINARY ACADEMIC SCREEN
+Version: v2.9.16
+Date: 2026-11-06
+
+SCOPE
+- Reviewed the 905 question records in data/in/cbse10/science/ across 13 chapter pools.
+- This is a targeted content/syllabus screen and correction pass, not 905 independent expert certifications.
+- Structural checks covered question stem, option array, explanation and answer-index bounds.
+
+CHAPTER COVERAGE
+- Chapter 1: 80 records
+- Chapter 2: 80 records
+- Chapter 3: 80 records
+- Chapter 4: 80 records
+- Chapter 5: 65 records
+- Chapter 6: 65 records
+- Chapter 7: 65 records
+- Chapter 8: 65 records
+- Chapter 9: 65 records
+- Chapter 10: 65 records
+- Chapter 11: 65 records
+- Chapter 12: 65 records
+- Chapter 13: 65 records
+- Total: 905 records; unique IDs: 780.
+
+DISPOSITION
+- No immediate red flag in preliminary screen: 879
+- Targeted correction applied: 3
+- Supplementary / beyond core Class X scope: 15
+- CBSE formative-only topic: 8
+- Structural failures: 0.
+- Targeted content corrections: 3 records; no answer-index changes.
+- All 905 records are listed in the accompanying review register.
+
+CORRECTIONS APPLIED
+1. Explanation corrected: microbial fermentation occurs in specialised gut regions such as rumen or caecum/colon, not generally in small intestine.
+2. Question and explanation corrected: MRI uses strong external magnetic fields and radiofrequency pulses, not weak endogenous neural magnetic fields.
+3. Explanation and option refined: clarified eddy-current heating and cookware compatibility; hysteresis is not the sole mechanism.
+
+SYLLABUS AND PRESENTATION FLAGS
+- CBSE 2026-27 identifies evolution topics, electric motor, electromagnetic induction and electric generator as formative-only (not assessed in the year-end board examination). Flagged items should be visibly labelled formative-only rather than mixed into a board-exam-only drill.
+- Advanced applications (including MRI, charged-particle deflection, maglev, cyclotron, transformer hum, and advanced synaptic/neural mechanisms) should be labelled supplementary/enrichment where retained.
+- The 2026-27 curriculum document and CBSE sample paper should control the final assessment classification. A teacher's note in the curriculum is broader than the topic-level unit descriptions; use the detailed topic lists and current sample paper to resolve the distinction. In particular, do not mistakenly suppress the core magnetic-field/current topics or Mendelian heredity questions.
+
+TECHNICAL VALIDATION
+- All 52 JSON files in this Science folder parsed successfully.
+- All 905 records passed structural checks (question, options, explanation, and answer-index range).
+- ZIP integrity test passed after packaging.
+- No quiz engine, scoring, HTML, SEO, or service-worker code changed.
+
+LIMITATIONS
+- The 902 unmodified records have not been independently fact-checked one by one against official marking schemes.
+- Existing citations are mostly topic-level references, not item-level provenance or official answer-key matches.
+- The 905-question pool excludes CBSE Class X Science sample-paper files, Class XII Science, NEET, and other Science-related banks; those require separate subject-specific passes.
+- Human SME review and sign-off remain pending. Do not describe this build as academically certified.
+
+AUTHORITATIVE REFERENCES
+- CBSE Class X Science Curriculum 2026-27: https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Science_SecP1_2026-27.pdf
+- CBSE Class X Science Sample Paper 2026-27: https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/Science-SQP.pdf
+- CBSE Class X Science Marking Scheme 2026-27: https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/Science-MS.pdf
+- NCERT Class X Science textbook contents: https://www.ncert.nic.in/textbook/pdf/jesc1ps.pdf
+- NIBIB MRI technical reference: https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri

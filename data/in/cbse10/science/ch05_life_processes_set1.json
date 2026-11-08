@@ -15,10 +15,10 @@
     "explanation": "Photosynthesis in green autotrophic plants proceeds through three fundamental biophysical stages: (1) Absorption of light energy by chlorophyll pigments located in chloroplast thylakoids; (2) Conversion of light energy into chemical energy (ATP and NADPH) accompanied by the photolysis (splitting) of water molecules: 2H₂O → 4H⁺ + 4e⁻ + O₂↑; (3) Biochemical REDUCTION (not oxidation) of carbon dioxide to carbohydrates (glucose): 6CO₂ + 12H₂O —[Light/Chlorophyll]→ C₆H₁₂O₆ + 6O₂ + 6H₂O. Carbon dioxide is reduced by adding hydrogen from water.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -33,7 +33,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -41,7 +51,7 @@
     "type": "mcq",
     "subtopic": "Respiration Pathways",
     "difficulty": "Medium",
-    "question": "When energy is required rapidly during intense muscular exercise in humans, pyruvate is converted into which compound in muscle cells, causing muscle fatigue and cramps?",
+    "question": "During intense muscular exercise, when oxygen supply to muscle cells is insufficient, into which substance is pyruvate converted during anaerobic respiration?",
     "options": [
       "Ethanol + Carbon dioxide + Energy",
       "Lactic acid + Energy",
@@ -49,13 +59,13 @@
       "Glucose + Pyruvate"
     ],
     "answer": 1,
-    "explanation": "Under normal resting conditions, human cells undergo aerobic cellular respiration inside mitochondria, fully oxidizing pyruvate to carbon dioxide, water, and 36-38 ATP molecules. However, during vigorous sprinting or intense muscular exertion, oxygen delivery via blood cannot keep pace with the cellular metabolic demand. In this hypoxic state, muscle cells resort to anaerobic lactic acid fermentation in the cytoplasm: Pyruvate (3-carbon) —[LDH]→ Lactic acid (3-carbon) + 2 ATP. Accumulation of lactic acid drops muscle pH, causing cramps.",
+    "explanation": "When oxygen supply to actively working muscle cells is insufficient, pyruvate formed during glycolysis is converted into lactic acid (lactate). This is the anaerobic pathway described in NCERT Class X Science, Life Processes. The NCERT text links lactic-acid build-up during sudden activity with cramps. The question’s intended product is therefore lactic acid; the small energy yield is associated with the anaerobic pathway of glucose breakdown, not a separate high-yield step in the conversion of pyruvate to lactate.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.3 (Breakdown of Glucose Diagram)",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -70,7 +80,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -89,10 +109,10 @@
     "explanation": "In the human double circulatory system, arteries typically carry oxygenated blood away from the heart, while veins return deoxygenated blood to the heart. However, the pulmonary vessels are a vital anatomical exception: the pulmonary veins (two from each lung, four in total) carry freshly oxygenated blood from the alveolar capillary beds of the lungs directly into the left atrium of the heart. From the left atrium, blood passes into the left ventricle and is pumped via the systemic aorta to supply the entire body (NCERT Section 5.4.1).",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -107,7 +127,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -126,10 +156,10 @@
     "explanation": "Each human kidney contains approximately 1 to 1.2 million microscopic functional filtration units called nephrons. A nephron begins in the renal cortex as a cup-shaped sac known as Bowman's capsule, which tightly envelops a tuft of high-pressure fenestrated blood capillaries called the glomerulus. Renal arterial blood enters the glomerulus via the wider afferent arteriole and exits through the narrower efferent arteriole; the resulting hydrostatic pressure drives ultrafiltration across the podocyte basement membrane into the capsule.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.5.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -144,7 +174,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -163,10 +203,10 @@
     "explanation": "The inner mucosal lining of the small intestine (especially the jejunum and ileum) is folded into millions of microscopic, vascularized, finger-like projections called villi. Each individual villus is additionally lined with microscopic microvilli (forming a brush border). This structural specialization multiplies the internal absorptive surface area of the gut to over 30 m² (roughly the size of half a badminton court), allowing rapid absorption of glucose, amino acids, and fatty acids. Both (A) and (R) are true, and (R) explains (A).",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -181,7 +221,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 2,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -200,10 +250,10 @@
     "explanation": "Stomatal transpiration and gas exchange (CO₂ uptake, O₂ release) are regulated by pairs of specialized epidermal cells called guard cells flanking each pore. Guard cells have differentially thickened cell walls: the inner wall facing the stoma is thick and inelastic, while the outer wall is thin and elastic. When potassium ions (K⁺) and water enter guard cells by osmosis, their turgor pressure increases; the guard cells swell and curve outward, pulling the pore open. When water exits, they become flaccid, causing the stomatal pore to close.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -218,7 +268,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -234,13 +294,13 @@
       "It neutralizes alkaline pancreatic secretions"
     ],
     "answer": 0,
-    "explanation": "The gastric mucosa of the human stomach contains specialized gastric glands consisting of parietal (oxyntic) cells that secrete concentrated hydrochloric acid (HCl, creating a pH of ~1.5 to 2.0), chief cells that secrete inactive pepsinogen, and goblet cells that secrete alkaline mucus. HCl provides an acidic medium essential for activating pepsinogen into active pepsin (for protein digestion) and kills ingested pathogens. The thick alkaline mucus forms an impermeable protective physical barrier against acid autodigestion and ulcers.",
+    "explanation": "The stomach lining is protected by a mucus-bicarbonate barrier. Surface mucous cells and mucous neck cells secrete mucus that coats the gastric mucosa; bicarbonate trapped in this layer helps keep the epithelial surface less acidic than the stomach lumen. Hydrochloric acid provides the acidic conditions needed for pepsin activity, while the mucus barrier helps prevent damage to the stomach wall.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -255,7 +315,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -263,21 +333,21 @@
     "type": "mcq",
     "subtopic": "Herbivore vs Carnivore Small Intestine Length",
     "difficulty": "Medium",
-    "question": "Why do herbivorous mammals (like cows) have a significantly longer small intestine compared to carnivores (like tigers)?",
+    "question": "Why do herbivorous mammals (such as cows) generally have a longer digestive tract than carnivores (such as tigers)?",
     "options": [
       "Herbivores consume 100 times more dietary protein than carnivores",
       "To store undigested meat for months",
       "Herbivores lack stomach hydrochloric acid entirely",
-      "To allow sufficient time and surface area for the digestion of tough plant cellulose by symbiotic bacteria"
+      "To provide more time and surface area for processing plant material and absorbing nutrients released through microbial fermentation"
     ],
     "answer": 3,
-    "explanation": "The structural length of the small intestine across vertebrate species is an evolutionary adaptation to diet. Herbivores (like cows, deer, and sheep) consume coarse plant forage composed primarily of structural cellulose. Because cellulose possesses beta-1,4-glycosidic linkages that vertebrates cannot enzymatically hydrolyse directly, herbivores require a significantly longer intestine to house anaerobic symbiotic microflora and provide prolonged transit time for microbial fermentation. Carnivores eat easily digestible meat, so intestines are shorter.",
-    "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.3",
+    "explanation": "Plant material contains cellulose, which mammals cannot digest using their own enzymes. Herbivores therefore depend on symbiotic microorganisms in specialised parts of the digestive tract. In ruminants such as cows, much of the microbial fermentation occurs in the rumen; in hindgut fermenters, it occurs mainly in an enlarged caecum and/or colon. A longer digestive tract provides additional time and surface area for processing plant material and absorbing nutrients. The microbes are not generally located in the small intestine, so the original explanation overstated where cellulose fermentation occurs.",
+    "citation": "NCERT Class X Science, Life Processes (digestive system and nutrition); supplementary clarification on ruminant and hindgut fermentation.",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -292,7 +362,20 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "phase5_3_review_date": "2026-11-06",
+      "phase5_3_review_status": "targeted_correction_applied",
+      "phase5_3_review_note": "Corrected inaccurate implication that cellulose-fermenting symbiotic bacteria are housed in the small intestine.",
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -308,13 +391,13 @@
       "Bile solidifies liquid oils into insoluble calcium stones"
     ],
     "answer": 1,
-    "explanation": "Dietary lipids enter the alkaline duodenum as large, water-insoluble hydrophobic fat droplets that present a small surface area for water-soluble digestive enzymes. The liver continuously synthesizes bile, which is concentrated in the gall bladder and discharged into the duodenum. Bile salts (sodium glycocholate and sodium taurocholate) act as biological detergents: their amphipathic structure breaks large lipid globules down into microscopic colloidal micelles (emulsification), vastly expanding the surface area for pancreatic lipase.",
+    "explanation": "Bile is produced by the liver and stored and concentrated in the gall bladder. Bile salts act as biological detergents and emulsify large fat globules into many smaller droplets. This increases the surface area available to pancreatic lipase. Bile does not itself digest fats with an enzyme, and emulsified droplets should not be confused with the mixed micelles formed later during lipid absorption.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.2.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -329,7 +412,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -348,10 +441,10 @@
     "explanation": "The universal first step of cellular respiration in all living organisms (both aerobic and anaerobic) is glycolysis (the EMP pathway). Glycolysis occurs entirely within the aqueous cytoplasm (cytosol) of the cell and does not require oxygen. In this ten-step enzymatic pathway, one 6-carbon molecule of glucose (C₆H₁₂O₆) is broken down into two 3-carbon molecules of pyruvate (CH₃COCOOH), generating a net gain of 2 ATP and 2 NADH molecules. The subsequent fate of pyruvate (mitochondrial Krebs cycle or fermentation) depends on oxygen presence.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -366,7 +459,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -382,13 +485,13 @@
       "To secrete digestive bile into the lungs"
     ],
     "answer": 2,
-    "explanation": "The human trachea (windpipe) and primary bronchi are reinforced along their length by 16 to 20 incomplete, C-shaped rings of tough hyaline cartilage. During forceful inhalation, thoracic expansion creates a negative (sub-atmospheric) intrapulmonary pressure inside the airway relative to ambient atmospheric pressure. The rigid cartilage rings provide architectural scaffolding that prevents the flexible fibroelastic tracheal tube from collapsing inward under suction. The open posterior gap accommodates expansion of the adjacent oesophagus.",
+    "explanation": "C-shaped rings of cartilage support the trachea and help keep the airway open during breathing. The open part of each C faces the oesophagus, allowing it to expand when food is swallowed. The cartilage therefore prevents the tracheal wall from collapsing while preserving flexibility.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.3.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -403,7 +506,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -422,10 +535,10 @@
     "explanation": "Inside the human lungs, the bronchial tree branches repeatedly into terminal bronchioles, culminating in clusters of microscopic, thin-walled air sacs called alveoli (approximately 300 to 500 million per pair of lungs). This alveolar architecture provides an enormous total surface area of roughly 80 m² (equivalent to a tennis court). Alveolar walls are only one cell thick (composed of simple squamous epithelium) and are densely enveloped by a network of pulmonary capillaries, enabling rapid, passive Fick's diffusion of O₂ and CO₂.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.3.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -440,7 +553,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -453,16 +576,16 @@
       "Oxygen is completely insoluble in human blood plasma",
       "Haemoglobin converts oxygen into nitrogen gas",
       "Human body temperature freezes ambient oxygen",
-      "Diffusion is too slow; in humans, it would take an estimated 3 years for an oxygen molecule to diffuse from lungs to toes without haemoglobin"
+      "Diffusion over the long distances in a large human body is too slow to deliver oxygen at the rate required by tissues"
     ],
     "answer": 3,
-    "explanation": "In small microscopic organisms (such as Amoeba or flatworms), simple diffusion across the body surface is sufficient to supply oxygen because diffusion distances are tiny. However, in large multicellular organisms like humans, the volume-to-surface-area ratio is huge and diffusion is far too slow: mathematical models calculate that simple diffusion would take approximately 3 years for a single oxygen molecule to travel from lungs to the toes. Specialized respiratory pigments like iron-containing haemoglobin in erythrocytes bind O₂.",
+    "explanation": "Diffusion is effective over short distances, as in small organisms, but it is too slow to supply all tissues across the long distances in a large human body. Haemoglobin in red blood cells binds oxygen in the lungs and transports it through the circulation, allowing oxygen to be delivered efficiently to tissues. The exact time for hypothetical diffusion across the body depends on assumptions and should not be stated as a fixed three-year figure.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.3.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -477,7 +600,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -496,10 +629,10 @@
     "explanation": "Birds and mammals are endothermic (warm-blooded) homeotherms that constantly expend significant metabolic energy to maintain a high, constant internal body temperature regardless of ambient environmental fluctuations. Complete separation of the human heart into right (deoxygenated) and left (oxygenated) chambers by the interatrial and interventricular septa prevents any mixing of venous and arterial blood. This double circulation ensures that systemic tissues receive blood saturated with oxygen at high arterial hydrostatic pressures.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -514,7 +647,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -522,7 +665,7 @@
     "type": "mcq",
     "subtopic": "Valves in Veins vs Arteries",
     "difficulty": "Medium",
-    "question": "Why do veins possess one-way internal valves, whereas thick-walled arteries do not require them?",
+    "question": "Why are one-way valves commonly present in veins but generally absent along most arteries?",
     "options": [
       "Arteries carry deoxygenated blood that cannot flow backwards",
       "Veins have thick muscular walls that pulse blood rhythmically",
@@ -530,13 +673,13 @@
       "Veins lack blood cells, making them susceptible to reverse gravity"
     ],
     "answer": 2,
-    "explanation": "Arteries receive blood directly from the ventricles of the heart under high hydrostatic pressure; to withstand and smooth these systolic pressure surges, arteries possess thick, muscular, elastic walls and do not need valves. By the time blood traverses systemic capillaries and enters the venous system, blood pressure drops significantly. To prevent reverse gravitational backflow and pooling of blood in lower extremities (such as the legs), veins possess thin walls, wide lumens, and semilunar valves that permit only forward flow.",
+    "explanation": "Blood pressure is relatively high in arteries, and their elastic, muscular walls help maintain forward flow. Most arteries therefore do not need valves along their length, although valves are present at the exits of the ventricles (the aortic and pulmonary semilunar valves). Venous pressure is much lower, so valves in many veins, especially in the limbs, help prevent backflow and assist the return of blood to the heart.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.2",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -551,7 +694,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -567,13 +720,13 @@
       "Blood plasma proteins"
     ],
     "answer": 0,
-    "explanation": "When a vascular injury or laceration occurs, the immediate physiological response is hemostasis. Blood contains specialized enucleated cell fragments derived from bone marrow megakaryocytes called platelets (thrombocytes, normal count: 150,000–450,000/μL). Platelets adhere to exposed collagen at the wound site, activate, and release clotting factors (such as thromboplastin). These initiate an enzymatic coagulation cascade converting prothrombin to thrombin, which polymerises soluble fibrinogen into an insoluble fibrin mesh to clot blood.",
+    "explanation": "Platelets are small cell fragments that help stop bleeding. They adhere to the damaged vessel wall, become activated, and help form a platelet plug. They also support the clotting reactions that generate thrombin and convert soluble fibrinogen into fibrin strands, which reinforce the plug to form a clot. Plasma clotting proteins are also essential, but platelets are the blood component asked for here.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.2 (Maintenance by platelets)",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -588,7 +741,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -599,18 +762,18 @@
     "question": "Lymph (tissue fluid) is another fluid involved in transportation. How does lymph differ in composition from blood plasma?",
     "options": [
       "Lymph contains 10 times more red blood cells than blood",
-      "Lymph is colorless and contains significantly less protein than blood plasma",
+      "Lymph is usually clear or pale and generally contains less protein than blood plasma",
       "Lymph contains no white blood cells or antibodies",
       "Lymph is completely devoid of water"
     ],
     "answer": 1,
-    "explanation": "At systemic capillary beds, high arterial hydrostatic pressure forces fluid, mineral ions, and small molecules across endothelial fenestrations into intercellular tissue spaces; this interstitial fluid is collected by blind-ended lymphatic capillaries as lymph. Lymph is chemically similar to blood plasma, but because large plasma proteins, erythrocytes (RBCs), and platelets cannot cross capillary pores, lymph is completely colorless and contains much less protein. Lymph transports absorbed dietary fats from intestinal lacteals and houses lymphocytes.",
+    "explanation": "Lymph forms from interstitial fluid and is broadly similar to blood plasma but usually contains less protein. It normally has no red blood cells and contains white blood cells, especially lymphocytes. Lymph from intestinal lacteals can appear milky after absorbing dietary fats, so lymph is not invariably colourless.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.2 (Lymph)",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -625,7 +788,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -644,10 +817,10 @@
     "explanation": "During daytime hours when stomatal pores are open, water vapour evaporates continuously from leaf mesophyll intercellular spaces into the atmosphere (transpiration). This evaporation lowers the water potential of mesophyll cells, drawing water from adjoining xylem vessels. Because water molecules exhibit strong cohesion (attraction between water molecules via hydrogen bonding) and adhesion (attraction to hydrophilic xylem tracheid/vessel cell walls), transpiration generates a continuous tension (suction pull) in the xylem column.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -662,7 +835,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -681,10 +864,10 @@
     "explanation": "The translocation of soluble photosynthates (predominantly sucrose) through living phloem sieve tubes is an active transport mechanism requiring metabolic energy. Companion cells use ATP to actively load sucrose into sieve tube elements against a concentration gradient. This accumulation of solute lowers the water potential, causing water to enter the phloem from adjoining xylem vessels by osmosis. The resulting high hydrostatic turgor pressure pushes the sap towards sink tissues with lower turgor pressure (Münch pressure-flow hypothesis).",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.4.3",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -699,7 +882,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "retained_after_review",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "retained_after_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   },
   {
@@ -715,13 +908,13 @@
       "Bile pigments and cholesterol crystals"
     ],
     "answer": 0,
-    "explanation": "In human kidneys, glomerular filtration produces roughly 180 litres of primitive filtrate every 24 hours. However, human urine output is typically only 1.0 to 1.5 litres per day, meaning over 99% of the filtrate is obligatorily and facultatively reabsorbed. Along the proximal convoluted tubule (PCT) and Loop of Henle, essential nutrients including 100% of filtered glucose and amino acids, roughly 70% of electrolytes (Na⁺, Cl⁻, HCO₃⁻), and a major proportion of water are selectively reabsorbed by active transport and osmosis.",
+    "explanation": "Glomerular filtration produces a large volume of filtrate, but most of it is returned to the blood by selective reabsorption. Under normal conditions, glucose and amino acids are almost completely reabsorbed, mainly in the proximal convoluted tubule. Much of the water and required salts are also reabsorbed at different parts of the nephron; the remaining fluid forms urine.",
     "citation": "NCERT Class 10 Science, Chapter 5, Section 5.5.1",
     "quality_review": {
-      "review_date": "2026-11-05",
+      "review_date": "2026-11-08",
       "structural_validation": "passed",
-      "answer_accuracy_status": "pending_independent_subject_matter_verification",
-      "explanation_option_consistency": "not_tested_no_explicit_answer_line",
+      "answer_accuracy_status": "ai_assisted_independent_answer_reviewed_human_signoff_pending",
+      "explanation_option_consistency": "ai_assisted_independently_checked",
       "source_provenance_status": "topic_reference_note_only",
       "source_note": "Citation is a textbook/chapter/topic note; no direct item-source URL or answer-key match is attached.",
       "authority_reference_url": "https://ncert.nic.in/textbook.php",
@@ -736,7 +929,17 @@
         "selected_answer_text_variant_count": 1,
         "explanation_variant_count": 1,
         "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-      }
+      },
+      "academic_review_phase": "phase5_40_science_ch05_life_processes",
+      "content_correction_status": "corrected",
+      "review_note": "AI-assisted item-level review of concept, selected option and explanation; formal human academic sign-off and exact PYQ authentication remain pending.",
+      "answer_accuracy_status_original_phase5_51": "ai_assisted_independent_solution_match_human_signoff_pending",
+      "answer_review_outcome_phase5_51": "amended_during_chapter_review",
+      "answer_review_source_status_phase5_51": "PASS_AI_ASSISTED",
+      "metadata_reconciled_in_phase": "5.51",
+      "metadata_reconciliation_revision": "2.9.100",
+      "human_academic_signoff_status": "pending",
+      "exact_cbse_pyq_authentication_status": "not_established"
     }
   }
 ]

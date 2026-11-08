@@ -32,12 +32,45 @@ DirectoryIndex index.html
     Require all denied
 </FilesMatch>
 
+
+# Protect internal audit / release artefacts shipped in development ZIPs.
+# Keep only the five registers intentionally linked from question-sources-review.html public.
+<FilesMatch "^(?!QUESTION_ANSWER_VERIFICATION_REGISTER_v2\.9\.csv$|PYQ_AUTHENTICATION_REGISTER_v2\.9\.csv$|QUESTION_REVIEW_BACKLOG_BY_FILE_v2\.9\.csv$|QUESTION_DUPLICATE_REVIEW_REGISTER_v2\.9\.csv$|QUESTION_EXPLANATION_VARIANCE_REGISTER_v2\.9\.csv$).+\.csv$">
+    Require all denied
+</FilesMatch>
+
+# Keep public discovery/verification text endpoints available; deny internal release notes and QA reports.
+<FilesMatch "^(?!robots\.txt$|ads\.txt$|llms\.txt$|llms-full\.txt$|d2593d2bc318fe4903957431a33b15d1\.txt$).+\.txt$">
+    Require all denied
+</FilesMatch>
+
+# Hide repository helper files from direct requests.
+<FilesMatch "^(\.gitignore|\.nojekyll)$">
+    Require all denied
+</FilesMatch>
+
 # Browser Caching & Performance
 <IfModule mod_headers.c>
-    # Ensure HTML, CSS, JS, sitemaps, robots, service worker and data are fresh
-    <FilesMatch "\.(html|htm|xml|txt|css|js)$">
+    # HTML pages must revalidate so updated study content and test configuration are not stuck in browser cache.
+    <FilesMatch "\.(html|htm)$">
         Header set Cache-Control "no-cache, must-revalidate, max-age=0"
         Header set Pragma "no-cache"
+    </FilesMatch>
+
+    # Versioned-by-release static resources: short browser cache with revalidation.
+    # The service-worker cache name is also bumped in each release.
+    <FilesMatch "\.(css|js|json)$">
+        Header set Cache-Control "public, max-age=3600, must-revalidate"
+    </FilesMatch>
+
+    # Static images, icons and fonts change infrequently but filenames are not content-hashed.
+    <FilesMatch "\.(png|jpe?g|webp|gif|svg|ico|woff2?)$">
+        Header set Cache-Control "public, max-age=604800, stale-while-revalidate=86400"
+    </FilesMatch>
+
+    # Search and discovery files should refresh daily/hourly rather than be held indefinitely.
+    <FilesMatch "^(sitemap\.xml|feed\.xml|robots\.txt|llms\.txt|llms-full\.txt)$">
+        Header set Cache-Control "public, max-age=3600, must-revalidate"
     </FilesMatch>
 
     # Never cache Service Worker (critical for PWA updates)
@@ -67,11 +100,11 @@ DirectoryIndex index.html
     ExpiresByType text/html "access plus 0 seconds"
     ExpiresByType application/xml "access plus 0 seconds"
     ExpiresByType text/plain "access plus 0 seconds"
-    ExpiresByType text/css "access plus 0 seconds"
-    ExpiresByType application/javascript "access plus 0 seconds"
-    ExpiresByType image/svg+xml "access plus 1 year"
-    ExpiresByType image/png "access plus 1 year"
-    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType text/css "access plus 1 hour"
+    ExpiresByType application/javascript "access plus 1 hour"
+    ExpiresByType image/svg+xml "access plus 1 week"
+    ExpiresByType image/png "access plus 1 week"
+    ExpiresByType image/x-icon "access plus 1 week"
     ExpiresByType application/json "access plus 1 hour"
 </IfModule>
 
