@@ -1022,7 +1022,7 @@ def generate_runner_html(p):
         </div>
 
         <div class="score-card grade-score">
-          <div class="metric-label">CBSE Predicted Grade</div>
+          <div class="metric-label">Diagnostic Benchmark Tier</div>
           <div id="res-grade" class="metric-value">--</div>
           <div id="res-grade-desc" class="metric-sub">Evaluation Complete</div>
         </div>

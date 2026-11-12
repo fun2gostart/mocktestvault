@@ -718,9 +718,9 @@ def generate_ssc_runner(p):
         </div>
 
         <div class="score-card grade-score">
-          <div class="metric-label">Cutoff Verdict</div>
+          <div class="metric-label">Benchmark Tier</div>
           <div id="res-grade" class="metric-value">--</div>
-          <div id="res-grade-desc" class="metric-sub">Simulation Complete</div>
+          <div id="res-grade-desc" class="metric-sub">Evaluation Complete</div>
         </div>
 
         <div class="score-card time-score">
