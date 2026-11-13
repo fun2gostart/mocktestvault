@@ -40,12 +40,12 @@
     "id": "nta-jee-d2-002",
     "question": "A uniformly charged non-conducting solid sphere of radius R has total charge Q. The electric field at a distance r (where r < R) from the center is:",
     "options": [
-      "Q r / (4πε₀ R³)",
       "Q / (4πε₀ r²)",
+      "Q r / (4πε₀ R³)",
       "Q / (4πε₀ R²)",
       "Zero"
     ],
-    "answer": 0,
+    "answer": 1,
     "subtopic": "Physics • Electrostatics",
     "explanation": "By Gauss's law with a spherical Gaussian surface of radius r < R: ∮ E·dA = E(4πr²) = q_enclosed / ε₀. Since charge is uniformly distributed: q_enclosed = Q (r³ / R³). Therefore, E(4πr²) = Q r³ / (ε₀ R³) ⇒ E = Q r / (4πε₀ R³).",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 1 (Electric Charges and Fields)",
@@ -77,12 +77,12 @@
     "id": "nta-jee-d2-003",
     "question": "A parallel plate capacitor of capacitance C₀ has plate separation d. A dielectric slab of dielectric constant K = 4 and thickness t = d/2 is inserted between the plates. The new capacitance is:",
     "options": [
-      "(8/5) C₀",
       "(5/8) C₀",
       "2 C₀",
+      "(8/5) C₀",
       "(4/3) C₀"
     ],
-    "answer": 0,
+    "answer": 2,
     "subtopic": "Physics • Capacitance",
     "explanation": "Capacitance with a slab of thickness t and dielectric constant K is C = ε₀ A / (d - t + t/K). Here t = d/2 and K = 4. d - t + t/K = d - d/2 + (d/2)/4 = d/2 + d/8 = 5d/8. Therefore, C = ε₀ A / (5d/8) = (8/5)(ε₀ A / d) = (8/5) C₀ = 1.6 C₀.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 2 (Electrostatic Potential and Capacitance)",
@@ -114,12 +114,12 @@
     "id": "nta-jee-d2-004",
     "question": "A conducting rod of length L rotates with constant angular velocity ω in a plane perpendicular to a uniform magnetic field B about one of its ends. The induced EMF between its ends is:",
     "options": [
-      "(1/2) B ω L²",
       "B ω L²",
       "(1/4) B ω L²",
-      "2 B ω L²"
+      "2 B ω L²",
+      "(1/2) B ω L²"
     ],
-    "answer": 0,
+    "answer": 3,
     "subtopic": "Physics • Electromagnetic Induction",
     "explanation": "Consider an element of length dr at distance r from the axis of rotation. Its linear speed is v = ω r. The motional EMF across this element is dε = B v dr = B (ω r) dr. Integrating from r = 0 to L: ε = ∫₀ᴸ B ω r dr = B ω [r² / 2]₀ᴸ = (1/2) B ω L².",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 6 (Electromagnetic Induction)",
@@ -188,12 +188,12 @@
     "id": "nta-jee-d2-006",
     "question": "In Young's double-slit experiment, fringe width in air is β = 0.4 mm. When the entire apparatus is immersed in water (refractive index μ = 4/3), the new fringe width is:",
     "options": [
-      "0.30 mm",
       "0.53 mm",
+      "0.30 mm",
       "0.25 mm",
       "0.40 mm"
     ],
-    "answer": 0,
+    "answer": 1,
     "subtopic": "Physics • Wave Optics",
     "explanation": "Fringe width is β = λ D / d. In a medium of refractive index μ, the wavelength becomes λ' = λ / μ. Since D and d remain unchanged, β' = β / μ = 0.4 mm / (4/3) = 0.4 × 3 / 4 = 0.30 mm.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 10 (Wave Optics)",
@@ -225,12 +225,12 @@
     "id": "nta-jee-d2-007",
     "question": "In a common emitter (CE) transistor amplifier, the collector current changes by 2 mA when the base current changes by 20 μA. The common emitter current gain β is:",
     "options": [
-      "100",
       "50",
       "200",
+      "100",
       "10"
     ],
-    "answer": 0,
+    "answer": 2,
     "subtopic": "Physics • Semiconductors",
     "explanation": "Current gain in common emitter configuration is β = ΔI_c / ΔI_b. Given ΔI_c = 2 mA = 2 × 10⁻³ A and ΔI_b = 20 μA = 20 × 10⁻⁶ A. β = (2 × 10⁻³) / (20 × 10⁻⁶) = 2000 / 20 = 100.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Physics Chapter 14 (Semiconductor Electronics)",
@@ -262,12 +262,12 @@
     "id": "nta-jee-d2-008",
     "question": "An ideal gas undergoes an adiabatic expansion such that its volume doubles (V₂ = 2 V₁). If the ratio of specific heats is γ = 1.5, the final pressure P₂ is related to the initial pressure P₁ by:",
     "options": [
-      "P₂ = P₁ / (2√2)",
       "P₂ = P₁ / 4",
       "P₂ = P₁ / 2",
-      "P₂ = P₁ / 8"
+      "P₂ = P₁ / 8",
+      "P₂ = P₁ / (2√2)"
     ],
-    "answer": 0,
+    "answer": 3,
     "subtopic": "Physics • Thermodynamics",
     "explanation": "For a reversible adiabatic process: P₁ V₁^γ = P₂ V₂^γ. Given γ = 1.5 = 3/2 and V₂ / V₁ = 2. P₂ / P₁ = (V₁ / V₂)^γ = (1/2)^(3/2) = 1 / (2^(3/2)) = 1 / (2√2). Thus, P₂ = P₁ / (2√2).",
     "citation": "NTA JEE Main Blueprint • NCERT Class 11 Physics Chapter 12 (Thermodynamics)",
@@ -336,12 +336,12 @@
     "id": "nta-jee-d2-010",
     "question": "For the galvanic cell: Zn(s) | Zn²⁺ (0.01 M) || Cu²⁺ (1.0 M) | Cu(s), given E°_cell = 1.10 V at 298 K, the EMF of the cell is (2.303 RT/F = 0.059 V):",
     "options": [
-      "1.159 V",
       "1.041 V",
+      "1.159 V",
       "1.100 V",
       "1.218 V"
     ],
-    "answer": 0,
+    "answer": 1,
     "subtopic": "Chemistry • Electrochemistry",
     "explanation": "Cell reaction: Zn(s) + Cu²⁺(aq) ⇌ Zn²⁺(aq) + Cu(s) with n = 2. Reaction quotient Q = [Zn²⁺] / [Cu²⁺] = 0.01 / 1.0 = 10⁻². By Nernst equation: E_cell = E°_cell - (0.059 / n) log Q = 1.10 - (0.059 / 2) log(10⁻²) = 1.10 - (0.0295)(-2) = 1.10 + 0.059 = 1.159 V.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 3 (Electrochemistry)",
@@ -373,12 +373,12 @@
     "id": "nta-jee-d2-011",
     "question": "For the Haber synthesis N₂(g) + 3H₂(g) ⇌ 2NH₃(g) with ΔH < 0, the equilibrium yield of ammonia is maximized by:",
     "options": [
-      "High pressure and low temperature",
       "Low pressure and high temperature",
       "High pressure and high temperature",
+      "High pressure and low temperature",
       "Low pressure and low temperature"
     ],
-    "answer": 0,
+    "answer": 2,
     "subtopic": "Chemistry • Chemical Equilibrium",
     "explanation": "By Le Chatelier's principle: (1) Since Δn_g = 2 - (1 + 3) = -2 (decrease in moles of gas), increasing pressure favors the forward reaction. (2) Since the reaction is exothermic (ΔH < 0), lowering temperature shifts the equilibrium toward the product side.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 11 Chemistry Chapter 7 (Equilibrium)",
@@ -410,12 +410,12 @@
     "id": "nta-jee-d2-012",
     "question": "The number of P-OH, P=O, and P-H bonds in orthophosphorous acid (H₃PO₃) are respectively:",
     "options": [
-      "2, 1, 1",
       "3, 1, 0",
       "1, 2, 1",
-      "2, 0, 2"
+      "2, 0, 2",
+      "2, 1, 1"
     ],
-    "answer": 0,
+    "answer": 3,
     "subtopic": "Chemistry • p-Block Elements",
     "explanation": "The structural formula of H₃PO₃ (phosphonic acid) shows that phosphorus is bonded to one oxo oxygen (P=O), two hydroxyl groups (P-OH), and one directly attached hydrogen (P-H). This also explains why H₃PO₃ is a diprotic (dibasic) acid and acts as a strong reducing agent due to the ionizable P-H bond.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 7 (p-Block Elements)",
@@ -484,12 +484,12 @@
     "id": "nta-jee-d2-014",
     "question": "Which of the following carbohydrates is a non-reducing sugar?",
     "options": [
-      "Sucrose",
       "Maltose",
+      "Sucrose",
       "Lactose",
       "Glucose"
     ],
-    "answer": 0,
+    "answer": 1,
     "subtopic": "Chemistry • Biomolecules",
     "explanation": "Sucrose is composed of α-D-glucopyranose and β-D-fructofuranose linked by a glycosidic bond between C1 of glucose and C2 of fructose. Since both reducing carbonyl groups (hemiacetal/hemiketal) participate in the glycosidic linkage, sucrose lacks a free anomeric carbon and does not reduce Fehling's or Tollens' reagent.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 14 (Biomolecules)",
@@ -521,12 +521,12 @@
     "id": "nta-jee-d2-015",
     "question": "In a face-centered cubic (FCC) unit cell of edge length a, the distance between two nearest neighboring atoms is:",
     "options": [
-      "a / √2",
       "a √3 / 2",
       "a / 2",
+      "a / √2",
       "a √2"
     ],
-    "answer": 0,
+    "answer": 2,
     "subtopic": "Chemistry • Solid State",
     "explanation": "In an FCC lattice, atoms touch along the face diagonal: 4r = a √2. The distance between the centers of two nearest neighbors is d = 2r = (a √2) / 2 = a / √2.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 1 (The Solid State)",
@@ -558,12 +558,12 @@
     "id": "nta-jee-d2-016",
     "question": "Brown ring test for the detection of nitrate (NO₃⁻) ion involves the formation of the complex:",
     "options": [
-      "[Fe(H₂O)₅(NO)]²⁺",
       "[Fe(H₂O)₆]³⁺",
       "[Fe(NO)₆]²⁺",
-      "[Fe(H₂O)₄(NO)₂]²⁺"
+      "[Fe(H₂O)₄(NO)₂]²⁺",
+      "[Fe(H₂O)₅(NO)]²⁺"
     ],
-    "answer": 0,
+    "answer": 3,
     "subtopic": "Chemistry • Qualitative Analysis",
     "explanation": "When freshly prepared FeSO₄ solution is added to a nitrate solution followed by concentrated H₂SO₄ down the sides of the test tube, nitrate is reduced to nitric oxide (NO) which coordinates with hydrated ferrous ion to form the pentaaquanitrosyliron(I) sulfate complex: [Fe(H₂O)₅(NO)]²⁺, forming a characteristic brown ring.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Chemistry Chapter 7 (p-Block Elements - Group 15)",
@@ -632,12 +632,12 @@
     "id": "nta-jee-d2-018",
     "question": "The coefficient of x⁶ in the binomial expansion of (x² - 1/x)⁹ is:",
     "options": [
-      "126",
       "-126",
+      "126",
       "84",
       "-84"
     ],
-    "answer": 0,
+    "answer": 1,
     "subtopic": "Mathematics • Binomial Theorem",
     "explanation": "General term T_(r+1) = ⁹C_r (x²)^(9-r) (-1/x)^r = ⁹C_r (-1)^r x^(18 - 2r - r) = ⁹C_r (-1)^r x^(18 - 3r). We require the power of x to be 6: 18 - 3r = 6 ⇒ 3r = 12 ⇒ r = 4. The coefficient is ⁹C₄ (-1)⁴ = (9 × 8 × 7 × 6) / (4 × 3 × 2 × 1) × 1 = 126? Wait: 9*8*7*6 / 24 = 3024 / 24 = 126. Wait! Let's re-verify ⁹C₄: 9*8*7*6 / (4*3*2*1) = 9*2*7 = 126. If r=4, coefficient is 126. Let's fix options to 126.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 11 Mathematics Chapter 8 (Binomial Theorem)",
@@ -669,12 +669,12 @@
     "id": "nta-jee-d2-019",
     "question": "The number of distinct ways 6 boys and 6 girls can sit in a circle such that no two girls sit together is:",
     "options": [
-      "5! × 6!",
       "6! × 6!",
       "11!",
+      "5! × 6!",
       "5! × 5!"
     ],
-    "answer": 0,
+    "answer": 2,
     "subtopic": "Mathematics • Permutations & Combinations",
     "explanation": "First, arrange the 6 boys in a circle. The number of circular permutations of 6 boys is (6 - 1)! = 5!. This creates 6 available distinct gaps between adjacent boys. The 6 girls can then be seated in these 6 gaps in 6! ways. Total arrangements = 5! × 6! = 120 × 720 = 86,400.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 11 Mathematics Chapter 7 (Permutations and Combinations)",
@@ -706,12 +706,12 @@
     "id": "nta-jee-d2-020",
     "question": "The area enclosed between the parabola y² = 4x and the line y = 2x is:",
     "options": [
-      "1 / 3",
       "2 / 3",
       "1 / 6",
-      "4 / 3"
+      "4 / 3",
+      "1 / 3"
     ],
-    "answer": 0,
+    "answer": 3,
     "subtopic": "Mathematics • Integral Calculus (Area)",
     "explanation": "Points of intersection: (2x)² = 4x ⇒ 4x² - 4x = 0 ⇒ 4x(x - 1) = 0 ⇒ x = 0 and x = 1. Corresponding y values are y = 0 and y = 2. Area = ∫₀¹ (y_upper - y_lower) dx = ∫₀¹ (2√x - 2x) dx = [2 (x^(3/2) / (3/2)) - x²]₀¹ = [ (4/3) x^(3/2) - x² ]₀¹ = 4/3 - 1 = 1 / 3.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 8 (Application of Integrals)",
@@ -780,12 +780,12 @@
     "id": "nta-jee-d2-022",
     "question": "The angle between the planes 2x - y + z = 6 and x + y + 2z = 3 is:",
     "options": [
-      "π / 3 (60°)",
       "π / 4 (45°)",
+      "π / 3 (60°)",
       "π / 2 (90°)",
       "π / 6 (30°)"
     ],
-    "answer": 0,
+    "answer": 1,
     "subtopic": "Mathematics • 3D Geometry",
     "explanation": "Normal vectors are n₁ = 2i - j + k and n₂ = i + j + 2k. Dot product n₁·n₂ = (2)(1) + (-1)(1) + (1)(2) = 2 - 1 + 2 = 3. Magnitudes: |n₁| = √(4 + 1 + 1) = √6; |n₂| = √(1 + 1 + 4) = √6. cos θ = (n₁·n₂) / (|n₁| |n₂|) = 3 / (√6 × √6) = 3 / 6 = 1/2 ⇒ θ = π / 3 = 60°.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 11 (Three Dimensional Geometry)",
@@ -817,12 +817,12 @@
     "id": "nta-jee-d2-023",
     "question": "If matrix A satisfies A² - 5A + 7I = 0, then the inverse matrix A⁻¹ is:",
     "options": [
-      "(5I - A) / 7",
       "(A - 5I) / 7",
       "5I - A",
+      "(5I - A) / 7",
       "(A + 5I) / 7"
     ],
-    "answer": 0,
+    "answer": 2,
     "subtopic": "Mathematics • Matrices",
     "explanation": "From the given matrix equation: 7I = 5A - A². Multiplying both sides by A⁻¹: 7 A⁻¹ I = 5 A A⁻¹ - A² A⁻¹ ⇒ 7 A⁻¹ = 5I - A ⇒ A⁻¹ = (5I - A) / 7.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 12 Mathematics Chapter 3 (Matrices)",
@@ -854,12 +854,12 @@
     "id": "nta-jee-d2-024",
     "question": "The variance of the first n natural numbers {1, 2, 3, ..., n} is:",
     "options": [
-      "(n² - 1) / 12",
       "(n² - 1) / 6",
       "n(n + 1) / 12",
-      "(n + 1)² / 12"
+      "(n + 1)² / 12",
+      "(n² - 1) / 12"
     ],
-    "answer": 0,
+    "answer": 3,
     "subtopic": "Mathematics • Statistics",
     "explanation": "Variance σ² = (1/n) ∑ x_i² - (x̄)². The sum of squares is ∑ x_i² = n(n+1)(2n+1)/6, so (1/n) ∑ x_i² = (n+1)(2n+1)/6. Mean x̄ = (n+1)/2, so (x̄)² = (n+1)²/4. σ² = (n+1) [ (2n+1)/6 - (n+1)/4 ] = (n+1) [ 2(2n+1) - 3(n+1) ] / 12 = (n+1)(4n + 2 - 3n - 3) / 12 = (n+1)(n-1) / 12 = (n² - 1) / 12.",
     "citation": "NTA JEE Main Blueprint • NCERT Class 11 Mathematics Chapter 15 (Statistics)",
