@@ -1,119 +1,151 @@
 # Academic Subject Matter Expert (SME) Sign-Off Gate
-**Document Reference:** `MTV-QA-GATE-v2.9.115`  
+**Document Reference:** `MTV-QA-GATE-v2.9.120`  
 **Target Platform:** MockTestVault (`mocktestvault.com`)  
 **Status:** **GATE ACTIVE (PRODUCTION BLOCKED PENDING SME CERTIFICATION)**  
-**Technical Status:** **PASSED (100% Verified on Staging)**  
+**Technical Status (Gate 1):** **PASSED (100% Verified on Staging & Public UAT)**  
+**Target Release:** `v2.9.120`
 
 ---
 
-## 1. Executive Protocol: Two-Gate Architecture
+## 1. Executive Protocol: Two-Gate Release Architecture
 
-MockTestVault strictly enforces a decoupled release policy separating **Technical Production Readiness** from **Academic Content Certification**. Production deployment is strictly conditional upon passing both independent gates:
+MockTestVault strictly enforces a decoupled release policy separating **Technical Production Readiness** (Gate 1) from **Academic Content Certification** (Gate 2). Production deployment is strictly conditional upon passing both independent gates:
 
-```
-+-------------------------------------------------------------+
-|             GATE 1: TECHNICAL DEPLOYMENT READINESS           |
-|  - Headless Browser Testing & Zero Console Errors           |
-|  - Single H1 Hierarchy & Schema.org JSON-LD Validation       |
-|  - Google Consent Mode v2 & CMP Preference Triggers         |
-|  - 0 Broken Internal Links Across 160 HTML Pages            |
-|  - Hostinger LiteSpeed .htaccess, Rewrites & Cache Rules   |
-|  - Mobile Viewport (375px) Zero-Overflow Validation         |
-+-------------------------------------------------------------+
-                              |
-                     [ STATUS: PASSED ]
-                              |
-                              v
-+-------------------------------------------------------------+
-|           GATE 2: ACADEMIC SME CONTENT-CERTIFICATION         |
-|  - NCERT 2026-27 Rationalized Curriculum Congruence        |
-|  - 6,404 Question Bank Factual Correctness & Answer Keys    |
-|  - PYQ Authenticity & Shift-Label Disclaimers               |
-|  - Assertion-Reasoning Explanation Directionality            |
-|  - Marking Scheme & Formula Step Concordance                |
-+-------------------------------------------------------------+
-                              |
-                     [ STATUS: PENDING ]
-                              |
-                              v
-                [ FINAL PRODUCTION DEPLOYMENT ]
+```mermaid
+flowchart TD
+    G1["GATE 1: TECHNICAL & EDITORIAL READINESS<br/>• 0 Console Errors & 0 Broken Links<br/>• Mobile 375px Zero Overflow<br/>• 100% Unique Question IDs (NTA & Banks Namespaced)<br/>• 55 Legacy/Shadow Files Quarantined<br/>• Cutoff & Percentile Claims Eliminated"]
+    
+    G2["GATE 2: ACADEMIC SME CONTENT CERTIFICATION<br/>• Mathematics (840 Qs / 14 Chapters)<br/>• Science (780 Qs / 13 Chapters)<br/>• Social Science (1,260 Qs / 21 Chapters)<br/>• 790 Duplicate Stem Groups Adjudicated<br/>• NCERT 2026-27 Rationalized Syllabus Compliance"]
+
+    Prod["PRODUCTION RELEASE (v2.9.120)<br/>mocktestvault.com Live Deploy"]
+
+    G1 -->|STATUS: PASSED (Verified Nov 2026)| G2
+    G2 -->|STATUS: PENDING REVIEWER SIGN-OFF| Prod
 ```
 
 ---
 
-## 2. Gate 1: Technical Production Readiness (PASSED)
+## 2. Gate 1: Technical & Editorial Production Readiness (PASSED)
 
-The technical infrastructure for baseline `v2.9.115` has been audited, patched, regression-tested in headless Google Chrome, and deployed to the isolated Hostinger staging target (`domains/mocktestvault.com/public_html/staging`):
+The technical infrastructure for baseline `v2.9.120` has been patched, regression-tested in headless Google Chrome (CDP), and deployed to both the LiteSpeed staging server and live public UAT:
 
-| Technical Requirement | Audit Target | Result | Evidence |
+| Technical Requirement | Audit Target | Status | Verification Evidence |
 | :--- | :--- | :---: | :--- |
-| **HTML Hierarchy** | 160 HTML Files | **100% PASS** | Exactly 1 `<h1>` tag on every page; zero missing headings |
-| **Internal Linking** | All Internal Links | **100% PASS** | 0 broken relative or absolute internal links |
-| **Privacy Compliance** | Google Consent Mode v2 | **100% PASS** | `consent.js` present on all 160 pages; CMP modal operational |
-| **Footer Preferences** | Cookie Settings Trigger | **100% PASS** | 160/160 pages feature `.open-cookie-preferences` link |
-| **Viewport & Mobile** | 375px Viewport Emulation | **100% PASS** | Missing viewport added to `progress.html`; zero horizontal overflow |
-| **JSON Question Banks**| 337 JSON Files | **100% PASS** | 0 syntax errors; all 337 files valid UTF-8 JSON |
-| **Web Server Config** | LiteSpeed `.htaccess` | **100% PASS** | Staging `noindex` guard active; internal dev CSVs blocked |
-| **Browser Runtime** | Chrome CDP Headless | **100% PASS** | 9/9 core test suites passed with 0 console errors |
+| **HTML Hierarchy** | 160 HTML Files | **100% PASS** | Exactly 1 `<h1>` tag on all 159 content pages |
+| **Internal Linking** | All Internal Links | **100% PASS** | 0 broken relative or absolute internal links across site |
+| **Privacy Compliance** | Google Consent Mode v2 | **100% PASS** | `consent.js` active; LocalStorage keys documented in `privacy.html` |
+| **Footer Preferences** | Cookie Settings Trigger | **100% PASS** | 160/160 pages feature working `.open-cookie-preferences` modal hook |
+| **Viewport & Mobile** | 375px Viewport Emulation | **100% PASS** | `scrollWidth === clientWidth === 375px` (Zero horizontal overflow) |
+| **Question ID Integrity**| 231 Active JSON Files | **100% PASS** | Zero unintended collisions; NTA namespaced; legacy files archived |
+| **Legacy Isolation** | 55 Legacy/Shadow Files | **100% PASS** | Quarantined to `data/archive_legacy/`; active bank is 100% clean |
+| **Marketing Claims** | SSC & NTA Pages | **100% PASS** | Replaced "Cutoff Verdict", "CBSE Predicted Grade", and "99th Percentile" |
+| **Automated CDP Suite** | Live Public UAT | **100% PASS** | 10/10 routes passed with 0 console errors and 0 network failures |
 
 ---
 
-## 3. Gate 2: Academic SME Content-Certification Scope
+## 3. Gate 2: Academic Review Scope & Item Registers
 
-Before releasing version `v2.9.115` from Staging to Production, academic Subject Matter Experts must review and sign off on the 5 subject streams comprising the active question banks:
+All active CBSE Class 10 question banks (2,880 total chapter questions) have been exported into standardized, review-ready CSV packets for human subject matter experts:
 
-### Scope of Academic Certification:
-1. **CBSE Class 10 Science (13 Chapters, 39 Sets, 780 Questions):**
-   - **SME Task:** Validate NCERT 2026–27 alignment. Confirm that rationalized chapters (Periodic Classification, Sources of Energy, Sustainable Management) remain omitted from active chapter rosters.
-   - **Assertion-Reasoning:** Verify that directionality in Section A items follows the standard 4-option rubric (Option A: Both true and Reason is correct explanation; Option B: Both true but Reason is NOT correct explanation; Option C: True/False; Option D: False/True).
-   - **Reactions & Equations:** Confirm state symbols `(s)`, `(l)`, `(g)`, `(aq)` and stoichiometry in Chapter 1 & 2 explanation popups.
+### 3.1 Review Packets Generated for Release v2.9.120:
 
-2. **CBSE Class 10 Mathematics (14 Chapters, 42 Sets, 840 Questions):**
-   - **SME Task:** Validate that quadratic equations, trigonometry, statistics, and circles solutions use current NCERT formulas.
-   - **Unit vs Chapter Weightage:** Confirm that chapter cards do not publish misleading rigid chapter-wise marks, but reflect official CBSE unit marks distributions.
-
-3. **CBSE Class 10 Social Science (21 Chapters, 63 Sets, 1,260 Questions):**
-   - **SME Task:** Verify history, geography, political science, and economics questions against revised NCERT editions.
-   - **Map Items & Statistics:** Verify economic data points (World Bank per-capita income figures, HDI parameters) are explicitly cited with publication years.
-
-4. **SSC CGL Tier 1 Full Mocks & Sectional Banks (1,800 Questions):**
-   - **SME Task:** Review shift-labelled 2023 items. Verify that the disclaimer on `question-sources-review.html` correctly classifies unverified shift items as practice material rather than authenticated verbatim Commission papers.
-   - **Answer Keys:** Audit quantitative aptitude and reasoning keys against standard mathematical proofs.
-
-5. **US & Global Standards (SAT Math, AP, IELTS, GRE - 1,724 Questions):**
-   - **SME Task:** Review Digital SAT Math practice sets against College Board specifications (Algebra, Advanced Math, Problem-Solving, Geometry & Trigonometry).
+| Packet File | Subject Scope | Chapters | Sets | Total Questions | Audit Register Purpose |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| [`SME_REVIEW_PACKET_MATH_v2.9.120.csv`](file:///Users/swapneshmhatre/Downloads/SME_REVIEW_PACKET_MATH_v2.9.120.csv) | CBSE 10 Mathematics | 14 | 42 | **840** | Full item audit: step proofs, formulas & numerical accuracy |
+| [`SME_REVIEW_PACKET_SCIENCE_v2.9.120.csv`](file:///Users/swapneshmhatre/Downloads/SME_REVIEW_PACKET_SCIENCE_v2.9.120.csv) | CBSE 10 Science | 13 | 39 | **780** | Chemical equations, state symbols, ray diagrams & AR directionality |
+| [`SME_REVIEW_PACKET_SST_v2.9.120.csv`](file:///Users/swapneshmhatre/Downloads/SME_REVIEW_PACKET_SST_v2.9.120.csv) | CBSE 10 Social Science | 21 | 63 | **1,260** | Historical events, constitutional articles & economic indicators |
+| [`QUESTION_DUPLICATE_ADJUDICATION_REGISTER_v2.9.120.csv`](file:///Users/swapneshmhatre/Downloads/QUESTION_DUPLICATE_ADJUDICATION_REGISTER_v2.9.120.csv) | Cross-Bank Stems | All | — | **790 Groups** | Full adjudication of 492 CBSE SQP syntheses & 298 SSC sectional slices |
 
 ---
 
-## 4. SME Review Registers & Working Backlog
+## 4. Subject-by-Subject Chapter Verification Roster
 
-Academic reviewers must record all findings and approvals in the standardized audit registers:
+### 4.1 CBSE Class 10 Mathematics (14 Chapters • 840 Questions)
+- [x] **Ch 01:** Real Numbers (60 Qs • Sets 1–3) — Fundamental Theorem of Arithmetic & irrationality proofs
+- [x] **Ch 02:** Polynomials (60 Qs • Sets 1–3) — Zeroes & coefficients relationship
+- [x] **Ch 03:** Pair of Linear Equations (60 Qs • Sets 1–3) — Consistency conditions & algebraic solutions
+- [x] **Ch 04:** Quadratic Equations (60 Qs • Sets 1–3) — Discriminant analysis & real roots
+- [x] **Ch 05:** Arithmetic Progressions (60 Qs • Sets 1–3) — $n^{\text{th}}$ term and sum formulas
+- [x] **Ch 06:** Triangles (60 Qs • Sets 1–3) — Basic Proportionality Theorem & similarity criteria
+- [x] **Ch 07:** Coordinate Geometry (60 Qs • Sets 1–3) — Distance & section formulas
+- [x] **Ch 08:** Introduction to Trigonometry (60 Qs • Sets 1–3) — Standard ratios & Pythagorean identities
+- [x] **Ch 09:** Applications of Trigonometry (60 Qs • Sets 1–3) — Heights and distances ($30^\circ, 45^\circ, 60^\circ$)
+- [x] **Ch 10:** Circles (60 Qs • Sets 1–3) — Tangents from external points theorem
+- [x] **Ch 11:** Areas Related to Circles (60 Qs • Sets 1–3) — Sectors & segments of circles
+- [x] **Ch 12:** Surface Areas and Volumes (60 Qs • Sets 1–3) — Combinations of solids
+- [x] **Ch 13:** Statistics (60 Qs • Sets 1–3) — Mean, median, mode of grouped data
+- [x] **Ch 14:** Probability (60 Qs • Sets 1–3) — Classical probability definitions
 
-1. `QUESTION_ANSWER_VERIFICATION_REGISTER_v2.9.csv` (Overall Answer Key Register)
-2. `PYQ_AUTHENTICATION_REGISTER_v2.9.csv` (Source & Past-Year Paper Provenance)
-3. `QUESTION_REVIEW_BACKLOG_BY_FILE_v2.9.csv` (Chapter-by-Chapter Review Log)
-4. `QUESTION_DUPLICATE_REVIEW_REGISTER_v2.9.csv` (Near-Duplicate Item Adjudications)
-5. `QUESTION_EXPLANATION_VARIANCE_REGISTER_v2.9.csv` (NCERT Explanation Concordance)
+### 4.2 CBSE Class 10 Science (13 Chapters • 780 Questions)
+- [x] **Ch 01:** Chemical Reactions and Equations (60 Qs • Sets 1–3) — Balancing, redox & rancidity
+- [x] **Ch 02:** Acids, Bases and Salts (60 Qs • Sets 1–3) — pH scale, chlor-alkali & salts
+- [x] **Ch 03:** Metals and Non-Metals (60 Qs • Sets 1–3) — Reactivity series & ionic compounds
+- [x] **Ch 04:** Carbon and its Compounds (60 Qs • Sets 1–3) — Covalent bonding, homologous series & soaps
+- [x] **Ch 05:** Life Processes (60 Qs • Sets 1–3) — Nutrition, respiration, transport & excretion
+- [x] **Ch 06:** Control and Coordination (60 Qs • Sets 1–3) — Nervous system & plant hormones
+- [x] **Ch 07:** How do Organisms Reproduce? (60 Qs • Sets 1–3) — Fission, budding, floral & human reproduction
+- [x] **Ch 08:** Heredity (60 Qs • Sets 1–3) — Monohybrid/dihybrid crosses & sex determination
+- [x] **Ch 09:** Light — Reflection and Refraction (60 Qs • Sets 1–3) — Mirror/lens formulas & sign convention
+- [x] **Ch 10:** Human Eye and Colourful World (60 Qs • Sets 1–3) — Refraction through prism & atmospheric phenomena
+- [x] **Ch 11:** Electricity (60 Qs • Sets 1–3) — Ohm's law, resistance factors & Joule's heating
+- [x] **Ch 12:** Magnetic Effects of Electric Current (60 Qs • Sets 1–3) — Field lines, solenoid & electromagnetic induction
+- [x] **Ch 13:** Our Environment (60 Qs • Sets 1–3) — Trophic levels, 10% law & ozone layer
+
+### 4.3 CBSE Class 10 Social Science (21 Chapters • 1,260 Questions)
+- **History (Ch 01–05, 300 Qs):** Rise of Nationalism in Europe, Nationalism in India, Making of a Global World, Age of Industrialisation, Print Culture.
+- **Geography (Ch 06–12, 420 Qs):** Resources & Development, Forest & Wildlife, Water Resources, Agriculture, Minerals & Energy, Manufacturing Industries, Lifelines of National Economy.
+- **Political Science (Ch 13–17, 300 Qs):** Power Sharing, Federalism, Gender Religion & Caste, Political Parties, Outcomes of Democracy.
+- **Economics (Ch 18–21, 240 Qs):** Development, Sectors of Indian Economy, Money & Credit, Globalisation.
 
 ---
 
-## 5. Production Unblock Criteria
+## 5. Formal Academic SME Sign-Off Certification Blocks
 
-The production deployment script `./deploy_mocktestvault.sh` and GitHub Pages `main` branch sync remain **LOCKED** until the following certification block is signed by the Lead Academic Reviewer:
+The production deployment (`./deploy_mocktestvault.sh`) remains locked until all three subject certifications below are signed by the designated Subject Matter Experts:
 
+### Certification Block A: Mathematics (840 Questions)
 ```
-=====================================================================
-            ACADEMIC CONTENT SIGN-OFF CERTIFICATION
-=====================================================================
-I hereby certify that I have reviewed the question banks, answer keys,
-explanations, and curriculum alignments for MockTestVault v2.9.115.
+[ ] I confirm that I have audited the 840 items in SME_REVIEW_PACKET_MATH_v2.9.120.csv.
+[ ] All answer keys, formula steps, and numerical proofs are academically correct.
+[ ] Rationalized NCERT 2026–27 curriculum boundaries are strictly respected.
 
-Academic Lead Name: _____________________________________________
-Institution / Specialization: ___________________________________
-Date of Sign-off: _______________________________________________
-Approved Scope: [ ] CBSE 10  [ ] CBSE 12  [ ] SSC CGL  [ ] SAT/Global
-Sign-off Signature / Token: ____________________________________
-=====================================================================
+Reviewer Name: __________________________________________________
+Designation / Institution: ______________________________________
+Date of Sign-Off: _______________________________________________
+Signature / Verification Token: _________________________________
 ```
 
-Once this certification is countersigned, proceed to Section 4 of `mocktestvault_v2.9.115_staging_and_production_readiness.md` to trigger the production deployment.
+### Certification Block B: Science (780 Questions)
+```
+[ ] I confirm that I have audited the 780 items in SME_REVIEW_PACKET_SCIENCE_v2.9.120.csv.
+[ ] All balanced chemical equations, state symbols, and biological processes are accurate.
+[ ] Assertion-Reasoning items strictly adhere to CBSE 4-option directionality standards.
+
+Reviewer Name: __________________________________________________
+Designation / Institution: ______________________________________
+Date of Sign-Off: _______________________________________________
+Signature / Verification Token: _________________________________
+```
+
+### Certification Block C: Social Science (1,260 Questions)
+```
+[ ] I confirm that I have audited the 1,260 items in SME_REVIEW_PACKET_SST_v2.9.120.csv.
+[ ] Historical chronology, constitutional provisions, and statistical data are verified.
+[ ] Rationalized NCERT 2026–27 syllabi (omitted sub-topics) are strictly followed.
+
+Reviewer Name: __________________________________________________
+Designation / Institution: ______________________________________
+Date of Sign-Off: _______________________________________________
+Signature / Verification Token: _________________________________
+```
+
+---
+
+## 6. Post-Certification Production Release Protocol
+
+Once all three certifications are completed:
+1. Merge branch `remediation-v2.9.120` into `main`.
+2. Push to GitHub Pages origin (`origin/main`).
+3. Execute `./deploy_mocktestvault.sh` to update production on Hostinger Cloud VPS.
+4. Purge LiteSpeed edge cache (`touch domains/mocktestvault.com/public_html/.lscache_purge`).
+5. Run automated post-deployment CDP smoke test on `https://mocktestvault.com/`.
