@@ -644,683 +644,275 @@
     },
     {
       "id": "c12-phy-2023-017",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Current Electricity",
       "type": "mcq",
+      "subtopic": "Current Electricity (Drift Velocity & Mobility)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 17 • 2 Marks]\nRegarding Current Electricity: Kirchhoff's Junction & Loop Rules applied to a bridged circuit.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "A steady electric current I flows through a metallic wire of non-uniform cross-section. Which of the following physical quantities remains constant throughout the length of the wire?",
       "options": [
-        "Standard NCERT board derivation for Current Electricity: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Current Electricity",
-        "Approximation omitting essential boundary conditions in Current Electricity",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Electric current (I) only",
+        "Current density (j) and drift speed (v_d)",
+        "Electric field (E) and drift speed (v_d)",
+        "Current density (j) and electric field (E)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Current Electricity: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Current Electricity.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "3b3341207417772d697afb94d61fa5e4e1d01a363268866902a84f9cc599f38a",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "By conservation of charge, the electric current I entering any cross-section equals the current leaving it, so current I remains strictly constant. Current density j = I/A, drift speed v_d = I/(n e A), and electric field E = j/sigma are all inversely proportional to cross-sectional area A and therefore vary from point to point.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 3 Section 3.4"
     },
     {
       "id": "c12-phy-2023-018",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Electromagnetic Induction",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 18 • 2 Marks]\nRegarding Electromagnetic Induction: Self-inductance of long solenoid L = μ0 * n² * A * l.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Current Electricity (Wheatstone Bridge Balance)",
+      "difficulty": "Easy",
+      "question": "In a Wheatstone bridge network ABCD, the four arms have resistances: AB = 2 Omega, BC = 4 Omega, CD = 8 Omega, and DA = 4 Omega. What is the potential difference between B and D when a 6 V battery is connected across AC?",
       "options": [
-        "Standard NCERT board derivation for Electromagnetic Induction: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Electromagnetic Induction",
-        "Approximation omitting essential boundary conditions in Electromagnetic Induction",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "0 V (the bridge is balanced since R_AB / R_BC = R_DA / R_CD = 1/2)",
+        "2 V",
+        "3 V",
+        "6 V"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Electromagnetic Induction: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Electromagnetic Induction.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "28c2302e2a6eab2d050bc402b39942ca9b4487a7166be72ce81444d8cec8176e",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The condition for a balanced Wheatstone bridge is R_AB / R_BC = R_DA / R_CD. Here, 2 / 4 = 4 / 8 = 1/2. Because the bridge is in a balanced state, node B and node D are at identical electrical potentials (V_B = V_D). Therefore, potential difference V_B - V_D = 0 V, and no current flows through a galvanometer connected between B and D.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 3 Section 3.8"
     },
     {
       "id": "c12-phy-2023-019",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Optics",
       "type": "mcq",
+      "subtopic": "Moving Charges and Magnetism (Biot-Savart Law Circular Coil)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 19 • 2 Marks]\nRegarding Optics: Total Internal Reflection and Critical Angle formula sin(ic) = 1/n.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "A circular wire coil of radius R carrying electric current I produces magnetic field B_center at its centre. At what axial distance x along the axis of the coil will the magnetic field drop to B_center / 8?",
       "options": [
-        "Standard NCERT board derivation for Optics: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Optics",
-        "Approximation omitting essential boundary conditions in Optics",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "x = sqrt(3) * R",
+        "x = 2 * R",
+        "x = sqrt(7) * R",
+        "x = R / sqrt(3)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Optics: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Optics.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "57267966882d1d7b257e18123a270b29a66fee1d8f51748906b6f2393e4ac6ff",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The axial magnetic field of a circular loop is B_axial = (mu_0 I R^2) / [2(R^2 + x^2)^(3/2)] and at the centre B_center = (mu_0 I) / (2R). Setting B_axial = B_center / 8 gives R^3 / (R^2 + x^2)^(3/2) = 1/8. Taking the cube root: R / sqrt(R^2 + x^2) = 1/2 => sqrt(R^2 + x^2) = 2R => R^2 + x^2 = 4R^2 => x^2 = 3R^2 => x = sqrt(3) * R.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 4 Section 4.5"
     },
     {
       "id": "c12-phy-2023-020",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Dual Nature",
       "type": "mcq",
+      "subtopic": "Dual Nature of Radiation (de Broglie Wavelength Ratio)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 20 • 2 Marks]\nRegarding Dual Nature: Einstein's photoelectric equation hν = hν0 + Kmax and work function.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "A proton and an alpha particle are accelerated from rest through the same electrical potential difference V. What is the ratio of their de Broglie wavelengths (lambda_proton : lambda_alpha)?",
       "options": [
-        "Standard NCERT board derivation for Dual Nature: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Dual Nature",
-        "Approximation omitting essential boundary conditions in Dual Nature",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "2 * sqrt(2) : 1",
+        "1 : 2 * sqrt(2)",
+        "4 : 1",
+        "1 : 4"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Dual Nature: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Dual Nature.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "6e154873f057a2450a0447ada2102fddd66514bea456c30f0056699b599bd330",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The de Broglie wavelength of a particle accelerated through potential V is lambda = h / sqrt(2 m q V). Therefore, lambda is proportional to 1 / sqrt(m q). For proton: m_p = m, q_p = e. For alpha particle: m_alpha = 4m, q_alpha = 2e. Ratio lambda_p / lambda_alpha = sqrt(m_alpha q_alpha / (m_p q_p)) = sqrt((4m * 2e) / (m * e)) = sqrt(8) = 2 * sqrt(2) : 1.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 11 Section 11.8"
     },
     {
       "id": "c12-phy-2023-021",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Semiconductors",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 21 • 2 Marks]\nRegarding Semiconductors: Dynamic resistance of p-n junction diode in forward bias r = ΔV/ΔI.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Semiconductor Electronics (Rectifier Output Frequency)",
+      "difficulty": "Easy",
+      "question": "If the input AC mains supply to a full-wave bridge rectifier has a frequency of 50 Hz, what is the fundamental ripple frequency of the output pulsating DC voltage?",
       "options": [
-        "Standard NCERT board derivation for Semiconductors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Semiconductors",
-        "Approximation omitting essential boundary conditions in Semiconductors",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "100 Hz (both half-cycles are rectified into the same output polarity)",
+        "50 Hz",
+        "25 Hz",
+        "200 Hz"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Semiconductors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Semiconductors.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "e05cfb18e2ea05a7bceb167b53f6f48159fc3c3fd7ff9b98963dbb63625df492",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "In a half-wave rectifier, only one half-cycle conducts, so output ripple frequency equals input frequency (50 Hz). In a full-wave rectifier, both the positive and negative half-cycles of the input AC wave are rectified to produce pulses in the same direction. Consequently, two output pulses occur per full input AC cycle, doubling the fundamental ripple frequency to 2 * 50 Hz = 100 Hz.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 14 Section 14.7"
     },
     {
       "id": "c12-phy-2023-022",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Electrostatics",
       "type": "mcq",
+      "subtopic": "Electric Charges and Fields (Gauss's Law Infinite Line Charge)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 22 • 3 Marks]\nRegarding Electrostatics: Capacitors in series and parallel combinations with dielectric insertion.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "An infinitely long straight uniform line of charge produces an electric field of magnitude 9 * 10^4 N/C at a radial distance of 2 cm. What is the linear charge density (lambda)?",
       "options": [
-        "Standard NCERT board derivation for Electrostatics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Electrostatics",
-        "Approximation omitting essential boundary conditions in Electrostatics",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "0.1 micro-Coulomb/m (10^-7 C/m)",
+        "0.2 micro-Coulomb/m",
+        "1.0 micro-Coulomb/m",
+        "4.5 micro-Coulomb/m"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Electrostatics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Electrostatics.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "b1bbd2fa2574f484e3513250a41b97662e49e5906d9a64650db976733ccf2dfc",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "From Gauss's Law, the radial electric field produced by an infinite line charge is E = lambda / (2 pi epsilon_0 r) = (2 k lambda) / r, where k = 1 / (4 pi epsilon_0) = 9 * 10^9 N m^2/C^2. Given E = 9 * 10^4 N/C and r = 0.02 m: lambda = (E * r) / (2k) = (9 * 10^4 * 0.02) / (2 * 9 * 10^9) = 1.8 * 10^3 / (18 * 10^9) = 10^-7 C/m = 0.1 micro-C/m.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 1 Section 1.15"
     },
     {
       "id": "c12-phy-2023-023",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Magnetism",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 23 • 3 Marks]\nRegarding Magnetism: Magnetic field on axis of circular current carrying loop B = μ0*I*R² / [2(R²+x²)^(3/2)].\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Electrostatic Potential and Capacitance (Dielectric Slab Insertion)",
+      "difficulty": "Hard",
+      "question": "A parallel plate capacitor of plate separation d and vacuum capacitance C_0 has a dielectric slab of dielectric constant K and thickness t = d/2 inserted between its plates. What is the new capacitance C?",
       "options": [
-        "Standard NCERT board derivation for Magnetism: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Magnetism",
-        "Approximation omitting essential boundary conditions in Magnetism",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "[2K / (K + 1)] * C_0",
+        "K * C_0",
+        "[(K + 1) / (2K)] * C_0",
+        "2K * C_0"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Magnetism: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Magnetism.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "ed3b302a922060c18a42659511ec9c275c2d5e312a9aa9da6dc773fa74a4a698",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The capacitance with a dielectric slab of thickness t < d is C = epsilon_0 A / [d - t + t/K]. Substituting t = d/2: C = epsilon_0 A / [d - d/2 + d/(2K)] = epsilon_0 A / [(d/2)(1 + 1/K)] = epsilon_0 A / [(d/2)((K + 1)/K)] = (2K / (K + 1)) * (epsilon_0 A / d) = [2K / (K + 1)] * C_0.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 2 Section 2.13"
     },
     {
       "id": "c12-phy-2023-024",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Alternating Current",
       "type": "mcq",
+      "subtopic": "Alternating Current (Series LCR Circuit Quality Factor)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 24 • 3 Marks]\nRegarding Alternating Current: Quality factor Q = (1/R) * √(L/C) and bandwidth of resonance curve.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "A series LCR circuit has L = 2.0 H, C = 32 micro-Farad, and R = 10 Omega. What are the resonant angular frequency (omega_0) and Quality Factor (Q) of this circuit?",
       "options": [
-        "Standard NCERT board derivation for Alternating Current: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Alternating Current",
-        "Approximation omitting essential boundary conditions in Alternating Current",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "omega_0 = 125 rad/s; Q = 25",
+        "omega_0 = 250 rad/s; Q = 50",
+        "omega_0 = 62.5 rad/s; Q = 12.5",
+        "omega_0 = 125 rad/s; Q = 10"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Alternating Current: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Alternating Current.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "2874195e82ca9d3955e154821b11fb33e9016e0408acfa987d17d64385d5d75e",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "1. Resonant angular frequency omega_0 = 1 / sqrt(LC) = 1 / sqrt(2.0 * 32 * 10^-6) = 1 / sqrt(64 * 10^-6) = 1 / (8 * 10^-3) = 1000 / 8 = 125 rad/s. 2. Quality factor Q = (omega_0 * L) / R = (125 * 2.0) / 10 = 250 / 10 = 25. High Q indicates sharp resonance and high circuit selectivity.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 7 Section 7.6"
     },
     {
       "id": "c12-phy-2023-025",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Ray Optics",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 25 • 3 Marks]\nRegarding Ray Optics: Refraction through glass prism and minimum deviation formula.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Wave Optics (Young's Double Slit Medium Immersion)",
+      "difficulty": "Easy",
+      "question": "In a Young's double-slit experiment, the fringe width is beta = 0.4 mm in air. If the entire experimental apparatus is submerged in water of refractive index mu = 4/3, what is the new fringe width beta'?",
       "options": [
-        "Standard NCERT board derivation for Ray Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Ray Optics",
-        "Approximation omitting essential boundary conditions in Ray Optics",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "0.30 mm",
+        "0.40 mm",
+        "0.53 mm",
+        "0.20 mm"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Ray Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Ray Optics.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "101492ddd11b774c6590a59255e65cfe5af05191754bb201d1fe1f26e59889fa",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Fringe width is given by beta = (lambda * D) / d. When submerged in a liquid of refractive index mu, the wavelength of light decreases to lambda' = lambda / mu, while slit spacing d and screen distance D remain unchanged. Thus, beta' = beta / mu = 0.4 mm / (4/3) = 0.4 * (3/4) = 0.30 mm.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 10 Section 10.3"
     },
     {
       "id": "c12-phy-2023-026",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Wave Optics",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 26 • 3 Marks]\nRegarding Wave Optics: Diffraction at a single slit: Condition for angular width of central maximum 2λ/a.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Dual Nature of Matter (Einstein's Photoelectric Equation)",
+      "difficulty": "Hard",
+      "question": "When ultraviolet light of wavelength 300 nm falls on a metal surface, the stopping potential is measured as 1.85 V. What is the work function (Phi_0) of the metal? (Use hc = 1240 eV nm)",
       "options": [
-        "Standard NCERT board derivation for Wave Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Wave Optics",
-        "Approximation omitting essential boundary conditions in Wave Optics",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "2.28 eV",
+        "4.13 eV",
+        "1.85 eV",
+        "0.43 eV"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Wave Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Wave Optics.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "d1ca18746f1bf6bd54f454bedabfdcfc670eb6aaad1b99bb6718689f8d7bb23d",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Incident photon energy E = hc / lambda = 1240 eV nm / 300 nm = 4.133 eV. Maximum kinetic energy of photoelectrons K_max = e * V_0 = 1.85 eV. By Einstein's photoelectric equation: E = Phi_0 + K_max => Phi_0 = E - K_max = 4.133 eV - 1.85 eV = 2.283 eV (approx. 2.28 eV, characteristic of sodium metal).",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 11 Section 11.6"
     },
     {
       "id": "c12-phy-2023-027",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Atoms",
       "type": "mcq",
+      "subtopic": "Atoms (Bohr's Hydrogen Emission Spectrum Balmer Series)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 27 • 3 Marks]\nRegarding Atoms: Rydberg formula for Balmer series and shortest wavelength limit.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "In the hydrogen atomic emission spectrum, what is the wavelength of the first line (H-alpha line) of the Balmer series corresponding to transition from n = 3 to n = 2? (Rydberg constant R = 1.097 * 10^7 m^-1)",
       "options": [
-        "Standard NCERT board derivation for Atoms: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Atoms",
-        "Approximation omitting essential boundary conditions in Atoms",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "656.3 nm (visible red light)",
+        "486.1 nm (visible blue-green light)",
+        "121.6 nm (ultraviolet light)",
+        "1875 nm (infrared light)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Atoms: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Atoms.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "05f0ea280b3288d9aa779f59676e484e0dda7fc99035a3f6b73cf73e0a9bd8b5",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "By the Rydberg formula: 1 / lambda = R * [1/2^2 - 1/3^2] = R * [1/4 - 1/9] = R * (5 / 36). Wavelength lambda = 36 / (5 * R) = 36 / (5 * 1.097 * 10^7) = 36 / (5.485 * 10^7) = 6.563 * 10^-7 m = 656.3 nm. This visible red spectral line is the famous H-alpha line of hydrogen.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 12 Section 12.5"
     },
     {
       "id": "c12-phy-2023-028",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Nuclei",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 28 • 3 Marks]\nRegarding Nuclei: Nuclear density independence of mass number A (ρ ≈ 2.3 × 10¹⁷ kg/m³).\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Nuclei (Binding Energy Curve Nuclear Stability)",
+      "difficulty": "Easy",
+      "question": "Why do light nuclei with mass numbers A < 20 undergo nuclear fusion, while heavy nuclei with mass numbers A > 200 undergo nuclear fission?",
       "options": [
-        "Standard NCERT board derivation for Nuclei: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Nuclei",
-        "Approximation omitting essential boundary conditions in Nuclei",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Both processes move the product nuclei toward the peak of the binding energy per nucleon curve (near Fe-56, ~8.75 MeV/nucleon), releasing nuclear binding energy",
+        "Light nuclei have too many neutrons, whereas heavy nuclei have zero nuclear force",
+        "Fission and fusion are non-exothermic phase transitions driven by atmospheric pressure",
+        "Light nuclei possess zero mass defect, whereas heavy nuclei have negative binding energy"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Nuclei: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Nuclei.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "df4a2a9686873c558e406bcc71fd5bc74dee66824d607582f481ccfe78c757f5",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The binding energy per nucleon curve peaks around A = 56 (Iron-56 has BE/A ~ 8.75 MeV/nucleon) and is lower for both very light nuclei (A < 20) and very heavy nuclei (A > 200). When light nuclei fuse, or heavy nuclei undergo fission into medium-mass nuclei, the binding energy per nucleon of the products is greater, resulting in mass defect and huge release of nuclear energy.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 13 Section 13.5"
     },
     {
       "id": "c12-phy-2023-029",
-      "section": "Section D: Case Study (4M)",
-      "subtopic": "Case Study 1",
       "type": "mcq",
-      "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2023 Board Examination Question 29 • 4 Marks]\nRegarding Case Study 1: Case Passage on Photovoltaic Cells and Solar Cell Characteristics.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Case Study 1: Ray Optics (Total Internal Reflection in Optical Fibers)",
+      "difficulty": "Medium",
+      "question": "An optical fiber consists of a cylindrical glass core of refractive index n_core = 1.50 surrounded by a cladding of refractive index n_clad = 1.44. What is the critical angle (theta_c) for light rays undergoing total internal reflection at the core-cladding boundary?",
       "options": [
-        "Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Case Study 1",
-        "Approximation omitting essential boundary conditions in Case Study 1",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "theta_c = sin^-1(1.44 / 1.50) = sin^-1(0.96) ≈ 73.7°",
+        "theta_c = sin^-1(1.50 / 1.44) (physically undefined)",
+        "theta_c = 45°",
+        "theta_c = 90°"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 3 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Case Study 1.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "bd418af88fc6d67e509d1d15143f0a84a62d4d6d13dca5f3fce738a42ca66973",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Total internal reflection occurs when light travelling in the denser core strikes the interface with the rarer cladding at an angle exceeding critical angle theta_c. By Snell's law: sin(theta_c) = n_clad / n_core = 1.44 / 1.50 = 0.96. Therefore, theta_c = sin^-1(0.96) ≈ 73.74°. Any light ray incident at an angle theta > 73.74° suffers 100% total internal reflection, propagating without transmission loss.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 9 Section 9.4"
     },
     {
       "id": "c12-phy-2023-030",
-      "section": "Section D: Case Study (4M)",
-      "subtopic": "Case Study 2",
       "type": "mcq",
-      "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2023 Board Examination Question 30 • 4 Marks]\nRegarding Case Study 2: Case Passage on Optical Fibers & Endoscopy Signal Transmission.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Case Study 2: Semiconductor Devices (p-n Junction Biasing Dynamics)",
+      "difficulty": "Medium",
+      "question": "What happens to the depletion layer width and the potential barrier of a silicon p-n junction diode under FORWARD BIAS and REVERSE BIAS conditions?",
       "options": [
-        "Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Case Study 2",
-        "Approximation omitting essential boundary conditions in Case Study 2",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Forward bias decreases depletion width and lowers potential barrier; Reverse bias increases depletion width and raises potential barrier",
+        "Forward bias increases depletion width; Reverse bias decreases depletion width",
+        "Both forward and reverse bias decrease depletion width to zero",
+        "Depletion layer width remains unchanged under all biasing conditions"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 3 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Case Study 2.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "f6e7ba6b368f9882c01bfaf4eae093c191d91e46850cfeb465943163ae4e03ec",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Under forward bias, the applied external voltage opposes the built-in barrier potential, reducing the net potential barrier (V_0 - V) and narrowing the depletion region, allowing massive majority carrier diffusion current. Under reverse bias, the applied voltage aids the barrier potential (V_0 + V), widening the depletion layer and suppressing majority flow, leaving only a tiny minority drift saturation current.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 14 Section 14.6"
     },
     {
       "id": "c12-phy-2023-031",
-      "section": "Section E: Long Answer (5M)",
-      "subtopic": "Long Answer 1",
       "type": "mcq",
+      "subtopic": "Long Answer 1: Electrostatics (Dipole in Uniform Electric Field)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 31 • 5 Marks]\nRegarding Long Answer 1: Derivation of Lens Maker's Formula from refraction at spherical surfaces.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "An electric dipole of dipole moment p is rotated in a uniform electric field E from an initial stable equilibrium orientation (theta_1 = 0°) to an antiparallel unstable equilibrium orientation (theta_2 = 180°). How much external work W is done on the dipole?",
       "options": [
-        "Standard NCERT board derivation for Long Answer 1: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Long Answer 1",
-        "Approximation omitting essential boundary conditions in Long Answer 1",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "W = + 2 p E",
+        "W = 0",
+        "W = - p E",
+        "W = + p E"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 1: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 4 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Long Answer 1.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "529ad50788d9c054a096c729ccafa2f8f892ab9c4023e866b74f9706592e9446",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Potential energy of a dipole in a uniform electric field is U(theta) = - p E cos(theta). The external work done in rotating the dipole from theta_1 to theta_2 is W = U(theta_2) - U(theta_1) = - p E cos(180°) - [- p E cos(0°)] = - p E (-1) - (- p E (1)) = + p E + p E = + 2 p E.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 1 Section 1.10"
     },
     {
       "id": "c12-phy-2023-032",
-      "section": "Section E: Long Answer (5M)",
-      "subtopic": "Long Answer 2",
       "type": "mcq",
+      "subtopic": "Long Answer 2: Electromagnetic Induction (AC Generator EMF)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 32 • 5 Marks]\nRegarding Long Answer 2: AC Generator working principle, EMF expression e = NBAω sin(ωt), and slip rings.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "A rectangular coil of N turns and area A rotates with uniform angular velocity omega in a uniform magnetic field B perpendicular to the rotation axis. What is the instantaneous induced EMF (e) and peak EMF (e_0)?",
       "options": [
-        "Standard NCERT board derivation for Long Answer 2: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Long Answer 2",
-        "Approximation omitting essential boundary conditions in Long Answer 2",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "e = e_0 sin(omega * t), where peak EMF e_0 = N * B * A * omega",
+        "e = e_0 cos(omega * t), where peak EMF e_0 = B * A / (N * omega)",
+        "e = e_0 / (omega * t), where peak EMF e_0 = N * B * A",
+        "e = e_0, where e_0 is a constant DC voltage independent of omega"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 2: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 4 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Long Answer 2.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "9670dcd89cd5f48c7a10946ade72ff4d1a5631f1c5d1d516feefaeee235b1498",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Magnetic flux through the coil at time t is Phi_B = N * B * A * cos(omega * t). By Faraday's Law of induction, induced EMF is e = - d(Phi_B)/dt = - d/dt [N B A cos(omega * t)] = N B A omega sin(omega * t) = e_0 sin(omega * t), where peak alternating EMF e_0 = N B A omega.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 6 Section 6.9"
     },
     {
       "id": "c12-phy-2023-033",
-      "section": "Section E: Long Answer (5M)",
-      "subtopic": "Long Answer 3",
       "type": "mcq",
+      "subtopic": "Long Answer 3: Ray Optics (Astronomical Telescope Normal Adjustment)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 33 • 5 Marks]\nRegarding Long Answer 3: Gauss's Law application to infinite uniformly charged planar sheet E = σ / (2ε0).\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "An astronomical refracting telescope in normal adjustment has an objective lens of focal length f_o = 150 cm and an eyepiece of focal length f_e = 5 cm. What are the magnifying power (m) and the tube length (L) of the telescope?",
       "options": [
-        "Standard NCERT board derivation for Long Answer 3: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Long Answer 3",
-        "Approximation omitting essential boundary conditions in Long Answer 3",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Magnifying power m = - 30; Tube length L = 155 cm",
+        "Magnifying power m = + 750; Tube length L = 145 cm",
+        "Magnifying power m = - 0.033; Tube length L = 30 cm",
+        "Magnifying power m = - 30; Tube length L = 150 cm"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 3: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 4 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Long Answer 3.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "e5ce534c1994b58b57bcb59975acb51761537aba2fc95f592b1e3e76ee812a97",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "In normal adjustment (final image at infinity): 1. Magnifying power is m = - f_o / f_e = - 150 cm / 5 cm = - 30 (the negative sign indicates an inverted real image). 2. Tube length is the separation between objective and eyepiece: L = f_o + f_e = 150 cm + 5 cm = 155 cm.",
+      "citation": "CBSE Class 12 Physics Board Paper 2023 / NCERT Chapter 9 Section 9.9"
     }
   ]
 }

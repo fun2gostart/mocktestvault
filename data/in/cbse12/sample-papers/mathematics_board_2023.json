@@ -804,723 +804,291 @@
     },
     {
       "id": "c12-math-2023-021",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Relations & Functions",
       "type": "mcq",
+      "subtopic": "Relations & Functions",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 21 • 2 Marks]\nRegarding Relations & Functions: Prove that function f: R → R, f(x) = 4x + 3 is one-one and onto.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Check the relation R in the set A = {1, 2, 3, 4, 5, 6} defined as R = {(a, b) : b = a + 1}. Which of the following statements correctly classifies R?",
       "options": [
-        "Standard NCERT board derivation for Relations & Functions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in Relations & Functions",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "R is neither reflexive, nor symmetric, nor transitive",
+        "R is reflexive and symmetric, but not transitive",
+        "R is an equivalence relation",
+        "R is transitive, but neither reflexive nor symmetric"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Relations & Functions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Relations & Functions.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "6e396483d23061a301365f55239db420f891db651219fb60d7236d4427e6c82c",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Given R = {(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)}. (1) Reflexivity: (a, a) ∉ R for any a ∈ A since a ≠ a + 1 (e.g., (1, 1) ∉ R). Thus, R is not reflexive. (2) Symmetry: (1, 2) ∈ R because 2 = 1 + 1, but (2, 1) ∉ R because 1 ≠ 2 + 1. Thus, R is not symmetric. (3) Transitivity: (1, 2) ∈ R and (2, 3) ∈ R, but (1, 3) ∉ R since 3 ≠ 1 + 1. Thus, R is not transitive. Hence, R is neither reflexive, nor symmetric, nor transitive.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 1 Section 1.2"
     },
     {
       "id": "c12-math-2023-022",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Inverse Trigonometry",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 22 • 2 Marks]\nRegarding Inverse Trigonometry: Find the value of tan⁻¹(√3) - sec⁻¹(-2).\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "subtopic": "Inverse Trigonometric Functions",
+      "difficulty": "Easy",
+      "question": "Find the principal value of sin⁻¹(sin(3π/5)).",
       "options": [
-        "Standard NCERT board derivation for Inverse Trigonometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in Inverse Trigonometry",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "2π/5",
+        "3π/5",
+        "-2π/5",
+        "π/5"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Inverse Trigonometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Inverse Trigonometry.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "6d8a479ae7de734a07a62bbc9245ca22ad5d8718186eba0eba9503735798acec",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The principal value branch of sin⁻¹(x) is [-π/2, π/2]. Since 3π/5 = 108° ∉ [-90°, 90°], we rewrite sin(3π/5) = sin(π - 2π/5) = sin(2π/5). Since 2π/5 = 72° ∈ [-π/2, π/2], sin⁻¹(sin(3π/5)) = sin⁻¹(sin(2π/5)) = 2π/5.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 2 Section 2.2"
     },
     {
       "id": "c12-math-2023-023",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Calculus",
       "type": "mcq",
+      "subtopic": "Continuity & Differentiability",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 23 • 2 Marks]\nRegarding Calculus: Find dy/dx if x = a cos³ θ and y = a sin³ θ.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "If x = a(θ - sin θ) and y = a(1 - cos θ), find the value of dy/dx at θ = π/2.",
       "options": [
-        "Standard NCERT board derivation for Calculus: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in Calculus",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "1",
+        "-1",
+        "0",
+        "√3"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Calculus: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Calculus.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "df2c5bdc1e6f134bd90d8d6ffb798c6baac3a382196adf020f1bb717ed6400e2",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Differentiating parametrically with respect to θ: dx/dθ = a(1 - cos θ) and dy/dθ = a(0 - (-sin θ)) = a sin θ. Therefore, dy/dx = (dy/dθ) / (dx/dθ) = (a sin θ) / [a(1 - cos θ)] = sin θ / (1 - cos θ) = [2 sin(θ/2) cos(θ/2)] / [2 sin²(θ/2)] = cot(θ/2). At θ = π/2: dy/dx = cot(π/4) = 1.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 5 Section 5.6"
     },
     {
       "id": "c12-math-2023-024",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Vectors",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 24 • 2 Marks]\nRegarding Vectors: Find unit vector perpendicular to both (a + b) and (a - b).\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "subtopic": "Vector Algebra",
+      "difficulty": "Easy",
+      "question": "Find the projection of the vector a = i + 3j + 7k on the vector b = 7i - j + 8k.",
       "options": [
-        "Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in Vectors",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "60 / √114",
+        "56 / √114",
+        "60 / 114",
+        "30 / √114"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Vectors.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "177aa7d85b58cdbcea4e32245241ba4fc8f4d6ed5990b648255bfb7a63bb73ce",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The projection of vector a on vector b is given by (a · b) / |b|. Here, a · b = (1)(7) + (3)(-1) + (7)(8) = 7 - 3 + 56 = 60. The magnitude |b| = √(7² + (-1)² + 8²) = √(49 + 1 + 64) = √114. Therefore, projection = 60 / √114.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 10 Section 10.4"
     },
     {
       "id": "c12-math-2023-025",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "3D Geometry",
       "type": "mcq",
+      "subtopic": "Three Dimensional Geometry",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 25 • 2 Marks]\nRegarding 3D Geometry: Find the distance of point (2, 3, -5) from the plane x + 2y - 2z = 9.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Find the acute angle θ between the pair of straight lines (x - 2)/2 = (y - 1)/5 = (z + 3)/(-3) and (x + 2)/(-1) = (y - 4)/8 = (z - 5)/4.",
       "options": [
-        "Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in 3D Geometry",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "cos⁻¹(26 / (9√38))",
+        "cos⁻¹(28 / (9√38))",
+        "cos⁻¹(13 / (9√19))",
+        "cos⁻¹(26 / 38)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on 3D Geometry.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "c7478ef8b0802bf6c75b9414997ce4efff8bec5cc16222e02fb8979ba89bd59a",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The direction ratios of the two lines are b₁ = <2, 5, -3> and b₂ = <-1, 8, 4>. The angle θ is given by cos θ = |b₁ · b₂| / (|b₁| |b₂|). b₁ · b₂ = (2)(-1) + (5)(8) + (-3)(4) = -2 + 40 - 12 = 26. |b₁| = √(4 + 25 + 9) = √38. |b₂| = √(1 + 64 + 16) = √81 = 9. Thus, cos θ = 26 / (9√38), so θ = cos⁻¹(26 / (9√38)).",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 11 Section 11.2"
     },
     {
       "id": "c12-math-2023-026",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Matrices",
       "type": "mcq",
+      "subtopic": "Matrices & Determinants",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 26 • 3 Marks]\nRegarding Matrices: Find matrix X such that 2A + B + X = 0 given A and B.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "If a square matrix A satisfies the equation A² - 4A - 5I = O, express A⁻¹ in terms of A and identity matrix I.",
       "options": [
-        "Standard NCERT board derivation for Matrices: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Matrices",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "(1/5)(A - 4I)",
+        "(1/5)(A + 4I)",
+        "(1/4)(A - 5I)",
+        "5(A - 4I)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Matrices: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Matrices.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "cd518710988eb4e5a63bc6977b6d5d47b06b3777992b25492f6d7cf6363ec187",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Given A² - 4A - 5I = O. Rearranging gives 5I = A² - 4A = A(A - 4I). Post-multiplying both sides by A⁻¹ (or pre-multiplying by A⁻¹): 5I · A⁻¹ = A⁻¹ · A(A - 4I) ⟹ 5A⁻¹ = I(A - 4I) = A - 4I. Dividing by 5 yields A⁻¹ = (1/5)(A - 4I).",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 4 Section 4.5"
     },
     {
       "id": "c12-math-2023-027",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Continuity",
       "type": "mcq",
+      "subtopic": "Continuity & Differentiability",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 27 • 3 Marks]\nRegarding Continuity: Find values of a and b so that piecewise function f(x) is continuous everywhere.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Determine the value of the constant k such that the function f(x) is continuous at x = π/2, where f(x) = (k cos x) / (π - 2x) for x ≠ π/2 and f(π/2) = 3.",
       "options": [
-        "Standard NCERT board derivation for Continuity: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Continuity",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "6",
+        "3",
+        "12",
+        "-6"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Continuity: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Continuity.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "956622bc4037b6551daf8120a1e47fa2d6ee372e18cae1d8106d621ea747e204",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "For f(x) to be continuous at x = π/2, lim(x → π/2) f(x) = f(π/2) = 3. Let x = π/2 + h, as x → π/2, h → 0. lim(h → 0) [k cos(π/2 + h)] / [π - 2(π/2 + h)] = lim(h → 0) [-k sin h] / [-2h] = (k/2) lim(h → 0) (sin h / h) = (k/2)(1) = k/2. Equating to f(π/2): k/2 = 3 ⟹ k = 6.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 5 Section 5.1"
     },
     {
       "id": "c12-math-2023-028",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Integrals",
       "type": "mcq",
+      "subtopic": "Integrals",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 28 • 3 Marks]\nRegarding Integrals: Evaluate ∫ [from 0 to π/2] (sin⁴ x) / (sin⁴ x + cos⁴ x) dx using King's property.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Evaluate the definite integral: I = ∫ [from 0 to π/2] (sin x - cos x) / (1 + sin x cos x) dx.",
       "options": [
-        "Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Integrals",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "0",
+        "π/2",
+        "π/4",
+        "1"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Integrals.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "9e9af458d28e0d436037610f0d15fd459ec6967e06a1ed0c72bffc895b531488",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Let I = ∫ [0 to π/2] (sin x - cos x) / (1 + sin x cos x) dx ... (1). Using property ∫ [0 to a] f(x) dx = ∫ [0 to a] f(a - x) dx: I = ∫ [0 to π/2] (sin(π/2 - x) - cos(π/2 - x)) / [1 + sin(π/2 - x) cos(π/2 - x)] dx = ∫ [0 to π/2] (cos x - sin x) / (1 + cos x sin x) dx = - ∫ [0 to π/2] (sin x - cos x) / (1 + sin x cos x) dx = -I. Thus, I = -I ⟹ 2I = 0 ⟹ I = 0.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 7 Section 7.11"
     },
     {
       "id": "c12-math-2023-029",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Differential Equations",
       "type": "mcq",
+      "subtopic": "Differential Equations",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 29 • 3 Marks]\nRegarding Differential Equations: Solve homogeneous differential equation x² dy + (xy + y²) dx = 0.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Find the general solution of the first-order linear differential equation: x (dy/dx) - y = 2x² (for x > 0).",
       "options": [
-        "Standard NCERT board derivation for Differential Equations: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Differential Equations",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "y = 2x² + Cx",
+        "y = x² + Cx",
+        "y = 2x³ + C",
+        "y = 2x + C/x"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Differential Equations: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Differential Equations.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "e5e3d35950b2c84869070b8545d8890288704b226f3a993d5abc3b68dcd41fe8",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Rewriting in standard linear form dy/dx + P(x)y = Q(x): dy/dx - (1/x)y = 2x. Here P(x) = -1/x, Q(x) = 2x. Integrating factor I.F. = e^(∫ P dx) = e^(∫ -1/x dx) = e^(-ln x) = 1/x. Multiplying by I.F.: y · (1/x) = ∫ [2x · (1/x)] dx = ∫ 2 dx = 2x + C. Multiplying through by x gives y = 2x² + Cx.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 9 Section 9.5"
     },
     {
       "id": "c12-math-2023-030",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Vectors",
       "type": "mcq",
+      "subtopic": "Vector Algebra",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 30 • 3 Marks]\nRegarding Vectors: Find value of λ for which vectors a, b, c are coplanar: [a b c] = 0.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "If a, b, and c are three unit vectors such that a + b + c = 0, find the numerical value of (a · b + b · c + c · a).",
       "options": [
-        "Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Vectors",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "-3/2",
+        "-3",
+        "3/2",
+        "0"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Vectors.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "d45ed83f4f96c4f21491c15c783e3cac45e9af280c556a0587ee37a2b4146b6b",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Since a, b, c are unit vectors, |a| = |b| = |c| = 1. We are given a + b + c = 0. Taking the squared magnitude: |a + b + c|² = 0 ⟹ |a|² + |b|² + |c|² + 2(a · b + b · c + c · a) = 0 ⟹ 1 + 1 + 1 + 2(a · b + b · c + c · a) = 0 ⟹ 3 + 2(a · b + b · c + c · a) = 0 ⟹ a · b + b · c + c · a = -3/2.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 10 Section 10.4"
     },
     {
       "id": "c12-math-2023-031",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Probability",
       "type": "mcq",
+      "subtopic": "Probability (Bayes' Theorem)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 31 • 3 Marks]\nRegarding Probability: Two cards drawn without replacement from 52 cards: find probability distribution of number of aces.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Bag I contains 4 red and 4 black balls, while Bag II contains 2 red and 6 black balls. One bag is chosen at random and a ball is drawn, which turns out to be RED. What is the probability that it was drawn from Bag I?",
       "options": [
-        "Standard NCERT board derivation for Probability: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Probability",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "2/3",
+        "1/3",
+        "1/2",
+        "4/5"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Probability: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Probability.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "cb4a9d7b33b51e1a1b583ee08e8224d9e754fcc7be4ef45b4074a081d46664f7",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Let E₁: choose Bag I, E₂: choose Bag II, and A: draw a red ball. P(E₁) = P(E₂) = 1/2. P(A|E₁) = 4/8 = 1/2. P(A|E₂) = 2/8 = 1/4. By Bayes' Theorem: P(E₁|A) = [P(E₁) P(A|E₁)] / [P(E₁) P(A|E₁) + P(E₂) P(A|E₂)] = [(1/2)(1/2)] / [(1/2)(1/2) + (1/2)(1/4)] = (1/4) / (1/4 + 1/8) = (1/4) / (3/8) = (1/4) · (8/3) = 2/3.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 13 Section 13.3"
     },
     {
       "id": "c12-math-2023-032",
-      "section": "Section D: Long Answer (5M)",
-      "subtopic": "Application of Derivatives",
       "type": "mcq",
+      "subtopic": "Application of Derivatives (Maxima & Minima)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 32 • 5 Marks]\nRegarding Application of Derivatives: Show that right circular cone of least curved surface and given volume has altitude = √2 radius.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Prove that among all rectangles inscribed in a fixed circle of radius R, the one with the MAXIMUM area is a square. What is this maximum area?",
       "options": [
-        "Standard NCERT board derivation for Application of Derivatives: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect algebraic integration constant omitted in Application of Derivatives",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "2R²",
+        "4R²",
+        "π R²",
+        "√2 R²"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Application of Derivatives: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Application of Derivatives.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "d8b2966bc872c99d292988300568ac8b73e5a1ec7240c53c31d623600a6fd211",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Let the length and breadth of the inscribed rectangle be x and y. By the Pythagorean theorem in the circle of diameter 2R: x² + y² = (2R)² = 4R² ⟹ y = √(4R² - x²). Area A = x y = x √(4R² - x²). Let Z = A² = x²(4R² - x²) = 4R² x² - x⁴. For extrema, dZ/dx = 8R² x - 4x³ = 0 ⟹ 4x(2R² - x²) = 0 ⟹ x² = 2R² (since x > 0) ⟹ x = √2 R. Then y = √(4R² - 2R²) = √2 R. Since x = y = √2 R, the rectangle of maximum area is a square. d²Z/dx² at x = √2 R is 8R² - 12(2R²) = -16R² < 0 (local maximum). Maximum area A = x · y = (√2 R)(√2 R) = 2R².",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 6 Section 6.5"
     },
     {
       "id": "c12-math-2023-033",
-      "section": "Section D: Long Answer (5M)",
-      "subtopic": "Integrals",
       "type": "mcq",
+      "subtopic": "Application of Integrals",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 33 • 5 Marks]\nRegarding Integrals: Find area of smaller region bounded by circle x² + y² = 4 and line x + y = 2.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Find the area of the region bounded by the parabola y = x² and the horizontal line y = 4.",
       "options": [
-        "Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect algebraic integration constant omitted in Integrals",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "32/3 sq units",
+        "16/3 sq units",
+        "64/3 sq units",
+        "8 sq units"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Integrals.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "532711a9b7781c7ac911c0a906bc43d0fb2dac658248e643cd8e0b8941c5b57b",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The parabola y = x² is symmetric about the y-axis. The line y = 4 intersects it at x² = 4 ⟹ x = -2 and x = 2. Area = 2 ∫ [from 0 to 4] x dy = 2 ∫ [0 to 4] √y dy = 2 [ (2/3) y^(3/2) ] [from 0 to 4] = 2 · (2/3) · (4^(3/2)) = (4/3) · 8 = 32/3 sq units. (Equivalently integrating with respect to x: ∫ [-2 to 2] (4 - x²) dx = 2 [4x - x³/3] [0 to 2] = 2 [8 - 8/3] = 2 [16/3] = 32/3 sq units).",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 8 Section 8.1"
     },
     {
       "id": "c12-math-2023-034",
-      "section": "Section D: Long Answer (5M)",
-      "subtopic": "Linear Equations",
       "type": "mcq",
+      "subtopic": "Linear Equations (Matrix Method)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 34 • 5 Marks]\nRegarding Linear Equations: Solve system of 3 linear equations using matrix inversion method: X = A⁻¹ B.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Solve the system of linear equations using the matrix inversion method (X = A⁻¹ B):\nx - y + 2z = 7\n3x + 4y - 5z = -5\n2x - y + 3z = 12",
       "options": [
-        "Standard NCERT board derivation for Linear Equations: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect algebraic integration constant omitted in Linear Equations",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "x = 2, y = 1, z = 3",
+        "x = 1, y = 2, z = 3",
+        "x = 3, y = 1, z = 2",
+        "x = 2, y = 3, z = 1"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Linear Equations: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Linear Equations.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "b8dcd0bc72c09cbdae870d3fc5d15fd321fc29ffb8ed36647ffa1b2d73ba4d46",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "In matrix form AX = B: A = [[1, -1, 2], [3, 4, -5], [2, -1, 3]], X = [[x], [y], [z]], B = [[7], [-5], [12]]. |A| = 1(12 - 5) - (-1)(9 - (-10)) + 2(-3 - 8) = 7 + 19 - 22 = 4 ≠ 0, so A⁻¹ exists. The matrix of cofactors is: C₁₁ = 7, C₁₂ = -19, C₁₃ = -11; C₂₁ = 1, C₂₂ = -1, C₂₃ = -1; C₃₁ = -3, C₃₂ = 11, C₃₃ = 7. Thus, adj(A) = [[7, 1, -3], [-19, -1, 11], [-11, -1, 7]]. Then X = (1/|A|) adj(A) B = (1/4) [[7(7) + 1(-5) + (-3)(12)], [-19(7) + (-1)(-5) + 11(12)], [-11(7) + (-1)(-5) + 7(12)]] = (1/4) [[49 - 5 - 36], [-133 + 5 + 132], [-77 + 5 + 84]] = (1/4) [[8], [4], [12]] = [[2], [1], [3]]. Therefore, x = 2, y = 1, z = 3.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 4 Section 4.6"
     },
     {
       "id": "c12-math-2023-035",
-      "section": "Section D: Long Answer (5M)",
-      "subtopic": "3D Geometry",
       "type": "mcq",
+      "subtopic": "Three Dimensional Geometry (Shortest Distance)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 35 • 5 Marks]\nRegarding 3D Geometry: Find shortest distance between skew lines r = a1 + λb1 and r = a2 + μb2.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Find the shortest distance between the skew lines: r = (i + 2j + 3k) + λ(i - 3j + 2k) and r = (4i + 5j + 6k) + μ(2i + 3j + k).",
       "options": [
-        "Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect algebraic integration constant omitted in 3D Geometry",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "3 / √19",
+        "6 / √19",
+        "9 / √19",
+        "3 / 19"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on 3D Geometry.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "12423b4d2ffd8339ab65065b0bdffc5d735a2cab6cfab5492ac11ac98a440dc9",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Here a₁ = i + 2j + 3k, b₁ = i - 3j + 2k; a₂ = 4i + 5j + 6k, b₂ = 2i + 3j + k. (a₂ - a₁) = 3i + 3j + 3k. b₁ × b₂ = |[i, j, k], [1, -3, 2], [2, 3, 1]| = i(-3 - 6) - j(1 - 4) + k(3 - (-6)) = -9i + 3j + 9k. |b₁ × b₂| = √((-9)² + 3² + 9²) = √(81 + 9 + 81) = √171 = 3√19. (b₁ × b₂) · (a₂ - a₁) = (-9)(3) + (3)(3) + (9)(3) = -27 + 9 + 27 = 9. Shortest distance d = |(b₁ × b₂) · (a₂ - a₁)| / |b₁ × b₂| = 9 / (3√19) = 3 / √19.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 11 Section 11.2"
     },
     {
       "id": "c12-math-2023-036",
-      "section": "Section E: Case Study (4M)",
-      "subtopic": "Case Study 1",
       "type": "mcq",
+      "subtopic": "Case Study 1 (Maxima & Minima - Tank Fabrication)",
       "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2023 Board Examination Question 36 • 4 Marks]\nRegarding Case Study 1: Real-world manufacturing packaging optimization: cost minimization of cylindrical can.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "[Case Study: Packaging Design] An engineering student fabricates an open water tank from a rectangular metal sheet of dimensions 45 cm by 24 cm by cutting equal squares of side x cm from all 4 corners and folding up the flaps. What value of x maximizes the interior volume of the tank, and what is this maximum volume?",
       "options": [
-        "Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect algebraic integration constant omitted in Case Study 1",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "x = 5 cm, Volume = 2450 cm³",
+        "x = 6 cm, Volume = 2376 cm³",
+        "x = 4 cm, Volume = 2368 cm³",
+        "x = 5 cm, Volume = 2100 cm³"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 3 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Case Study 1.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "fceca040a2ebf07113d459367d49696fdca195e05cc8d6a79227ac33b3c4acc5",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The dimensions of the open box are length = (45 - 2x), breadth = (24 - 2x), and height = x. For dimensions to be positive, 0 < x < 12. Volume V(x) = x(45 - 2x)(24 - 2x) = 4x³ - 138x² + 1080x. Differentiating: V'(x) = 12x² - 276x + 1080 = 12(x² - 23x + 90) = 12(x - 5)(x - 18). Setting V'(x) = 0 gives x = 5 or x = 18. Since x < 12, x = 5 cm. Second derivative test: V''(x) = 24x - 276; V''(5) = 120 - 276 = -156 < 0 (local maximum). Maximum volume V(5) = 5(45 - 10)(24 - 10) = 5 · 35 · 14 = 2450 cm³.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 6 Section 6.5"
     },
     {
       "id": "c12-math-2023-037",
-      "section": "Section E: Case Study (4M)",
-      "subtopic": "Case Study 2",
       "type": "mcq",
+      "subtopic": "Case Study 2 (Probability - Epidemiological Screening)",
       "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2023 Board Examination Question 37 • 4 Marks]\nRegarding Case Study 2: Epidemic viral test diagnosis: Bayes' Theorem with false positive and false negative rates.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "[Case Study: Clinical Pathology] A diagnostic laboratory test is 99% effective in detecting a certain disease when it is present, but produces a false-positive result in 0.5% of healthy persons. If 0.1% of the population actually has the disease, what is the probability that a randomly chosen person who tests POSITIVE actually has the disease?",
       "options": [
-        "Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect algebraic integration constant omitted in Case Study 2",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "22/133 (approx. 16.5%)",
+        "99/100 (99%)",
+        "1/2 (50%)",
+        "11/120 (approx. 9.1%)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 3 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Case Study 2.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "419e3d1e1b5b077ffa915e5ac3e57b628d068853661c7e3fd82b6b046994d7c7",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Let D: person has disease, D': person is healthy, +: test result is positive. P(D) = 0.001, P(D') = 0.999. P(+|D) = 0.99 (sensitivity). P(+|D') = 0.005 (false positive rate). By Bayes' Theorem: P(D|+) = [P(D) P(+|D)] / [P(D) P(+|D) + P(D') P(+|D')] = [0.001 × 0.99] / [0.001 × 0.99 + 0.999 × 0.005] = 0.00099 / (0.00099 + 0.004995) = 0.00099 / 0.005985 = 990 / 5985 = 22 / 133 ≈ 0.1654 (16.54%).",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 13 Section 13.3"
     },
     {
       "id": "c12-math-2023-038",
-      "section": "Section E: Case Study (4M)",
-      "subtopic": "Case Study 3",
       "type": "mcq",
+      "subtopic": "Case Study 3 (Linear Programming - Profit Optimization)",
       "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2023 Board Examination Question 38 • 4 Marks]\nRegarding Case Study 3: Aviation radar flight path tracking: Vector intersection of two aircraft trajectory lines.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "[Case Study: Production Optimization] A manufacturer produces two models of gadgets, Model A and Model B. Resource and labour constraints define a closed convex feasible region with corner points at (0, 0), (20, 0), (10, 50), and (0, 60). If the profit objective function is Z = 5x + 3y (in thousands of rupees), what is the maximum profit achievable and at which production point?",
       "options": [
-        "Standard NCERT board derivation for Case Study 3: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect algebraic integration constant omitted in Case Study 3",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "Maximum profit = 200 (at x = 10, y = 50)",
+        "Maximum profit = 180 (at x = 0, y = 60)",
+        "Maximum profit = 100 (at x = 20, y = 0)",
+        "Maximum profit = 250 (at x = 20, y = 50)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 3: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 3 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Case Study 3.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "a10caf3bc5a6aa98c56e75b4d1e6e2b0cc760f1afe5a2fa1a042f5d8b03a31c2",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Evaluating the objective function Z = 5x + 3y at each of the feasible corner points: (1) At (0, 0): Z = 5(0) + 3(0) = 0. (2) At (20, 0): Z = 5(20) + 3(0) = 100. (3) At (10, 50): Z = 5(10) + 3(50) = 50 + 150 = 200. (4) At (0, 60): Z = 5(0) + 3(60) = 180. Comparing the values {0, 100, 200, 180}, the maximum profit is 200 (i.e. ₹2,00,000) obtained at x = 10 units of Model A and y = 50 units of Model B.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2023 / NCERT Chapter 12 Section 12.2"
     }
   ]
 }

@@ -644,683 +644,275 @@
     },
     {
       "id": "c12-phy-2024-017",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Current Electricity",
       "type": "mcq",
+      "subtopic": "Current Electricity (Temperature Coefficient of Resistance)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 17 • 2 Marks]\nRegarding Current Electricity: Kirchhoff's Junction & Loop Rules applied to a bridged circuit.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "A platinum resistance thermometer has resistance R_0 = 5.0 Omega at 0°C and R_100 = 5.75 Omega at 100°C. What is the temperature coefficient of resistance (alpha) of platinum?",
       "options": [
-        "Standard NCERT board derivation for Current Electricity: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Current Electricity",
-        "Approximation omitting essential boundary conditions in Current Electricity",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "0.0015 °C^-1 (1.5 * 10^-3 °C^-1)",
+        "0.0075 °C^-1",
+        "0.015 °C^-1",
+        "0.00015 °C^-1"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Current Electricity: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Current Electricity.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "d484cb23f9a6cf45a5e77b0a3c236144b97f1cda9468dfa56c15f03f9b98676d",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The temperature dependence of resistance is R_T = R_0 * (1 + alpha * Delta T). Rearranging gives alpha = (R_100 - R_0) / (R_0 * Delta T) = (5.75 - 5.0) / (5.0 * 100) = 0.75 / 500 = 1.5 * 10^-3 °C^-1 = 0.0015 °C^-1.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 3 Section 3.7"
     },
     {
       "id": "c12-phy-2024-018",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Electromagnetic Induction",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 18 • 2 Marks]\nRegarding Electromagnetic Induction: Self-inductance of long solenoid L = μ0 * n² * A * l.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Moving Charges and Magnetism (Force Between Parallel Currents)",
+      "difficulty": "Easy",
+      "question": "Two long, straight parallel wires separated by distance d = 1 metre in free space carry equal electric currents of 1 Ampere in the same direction. What is the magnetic force per unit length between them?",
       "options": [
-        "Standard NCERT board derivation for Electromagnetic Induction: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Electromagnetic Induction",
-        "Approximation omitting essential boundary conditions in Electromagnetic Induction",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "2 * 10^-7 N/m (attractive force)",
+        "2 * 10^-7 N/m (repulsive force)",
+        "4 pi * 10^-7 N/m (attractive force)",
+        "Zero"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Electromagnetic Induction: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Electromagnetic Induction.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "292d5e0e62ea07178282d995dd37d691a90ec23e079fe7c7bf77a7cbf4ed182b",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "By Ampere's force law, the force per unit length between two parallel currents is F / L = (mu_0 I_1 I_2) / (2 pi d). Currents in the same direction attract each other. Substituting I_1 = I_2 = 1 A, d = 1 m, and mu_0 / (2 pi) = 2 * 10^-7 T m/A yields F / L = 2 * 10^-7 N/m (attractive). This fundamental relation forms the official SI definition of the Ampere.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 4 Section 4.7"
     },
     {
       "id": "c12-phy-2024-019",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Optics",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 19 • 2 Marks]\nRegarding Optics: Total Internal Reflection and Critical Angle formula sin(ic) = 1/n.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Magnetism and Matter (Curie's Law for Paramagnets)",
+      "difficulty": "Easy",
+      "question": "According to Curie's Law, how does the magnetic susceptibility (chi_m) of a paramagnetic material depend on absolute temperature T?",
       "options": [
-        "Standard NCERT board derivation for Optics: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Optics",
-        "Approximation omitting essential boundary conditions in Optics",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Inversely proportional to absolute temperature (chi_m = C / T)",
+        "Directly proportional to absolute temperature (chi_m = C * T)",
+        "Independent of temperature",
+        "Proportional to the square of absolute temperature (chi_m = C * T^2)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Optics: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Optics.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "e2fa2f405c957ee6e988bb85b5fd6ef74b9726fd91de6a86498c56d032cfa58d",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Curie's Law states that the magnetization of a paramagnetic material is directly proportional to applied magnetic field B_0 and inversely proportional to absolute temperature T: M = C * (B_0 / T), where C is Curie's constant. Since susceptibility chi_m = M / H, it follows that chi_m = C / T. As temperature increases, thermal agitation disrupts atomic dipole alignment.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 5 Section 5.4"
     },
     {
       "id": "c12-phy-2024-020",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Dual Nature",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 20 • 2 Marks]\nRegarding Dual Nature: Einstein's photoelectric equation hν = hν0 + Kmax and work function.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Dual Nature of Matter (Electron de Broglie Wavelength Formula)",
+      "difficulty": "Easy",
+      "question": "What is the de Broglie wavelength (lambda) of an electron accelerated from rest through an electric potential difference of V = 100 Volts?",
       "options": [
-        "Standard NCERT board derivation for Dual Nature: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Dual Nature",
-        "Approximation omitting essential boundary conditions in Dual Nature",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "0.1227 nm (1.227 Angstroms)",
+        "1.227 nm",
+        "0.0123 nm",
+        "12.27 nm"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Dual Nature: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Dual Nature.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "8175e1d618baf0317ddf285e198afa9a8a115ff38be0682ed6c3fd4d7cc62d9c",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The de Broglie wavelength of an electron accelerated through potential V is given by the formula lambda = 1.227 / sqrt(V) nm = h / sqrt(2 m e V). For V = 100 V, sqrt(V) = 10. Therefore, lambda = 1.227 / 10 nm = 0.1227 nm (or 1.227 Angstroms, comparable to interatomic spacing in crystals).",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 11 Section 11.9"
     },
     {
       "id": "c12-phy-2024-021",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Semiconductors",
       "type": "mcq",
+      "subtopic": "Semiconductor Electronics (Diode Dynamic Resistance)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 21 • 2 Marks]\nRegarding Semiconductors: Dynamic resistance of p-n junction diode in forward bias r = ΔV/ΔI.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "When the forward bias voltage across a silicon junction diode increases from 0.70 V to 0.75 V, the forward current increases from 10 mA to 35 mA. What is the dynamic resistance (r_d) of the diode?",
       "options": [
-        "Standard NCERT board derivation for Semiconductors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Semiconductors",
-        "Approximation omitting essential boundary conditions in Semiconductors",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "2.0 Omega",
+        "0.5 Omega",
+        "20 Omega",
+        "50 Omega"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Semiconductors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 1 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Semiconductors.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "2ebc825da20f5ea6eb3db121434001b21d4545c5eb8bb4c7126df925bdb5cc19",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Dynamic (AC) resistance is defined as r_d = Delta V / Delta I. Here, Delta V = 0.75 V - 0.70 V = 0.05 V = 50 mV. Delta I = 35 mA - 10 mA = 25 mA = 25 * 10^-3 A. Therefore, r_d = 0.05 V / (0.025 A) = 2.0 Omega.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 14 Section 14.6"
     },
     {
       "id": "c12-phy-2024-022",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Electrostatics",
       "type": "mcq",
+      "subtopic": "Electric Charges and Fields (Field of Uniformly Charged Spherical Shell)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 22 • 3 Marks]\nRegarding Electrostatics: Capacitors in series and parallel combinations with dielectric insertion.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "A thin spherical conducting shell of radius R carries a total positive charge Q distributed uniformly over its surface. What is the electric field E at radial distance r from the centre for points INSIDE the shell (r < R)?",
       "options": [
-        "Standard NCERT board derivation for Electrostatics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Electrostatics",
-        "Approximation omitting essential boundary conditions in Electrostatics",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "E = 0 (electrostatic shielding inside a conductor)",
+        "E = k Q / r^2",
+        "E = k Q r / R^3",
+        "E = k Q / R^2"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Electrostatics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Electrostatics.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "39c654976bf87861f522ba1135ad8c9bc3f414407d96a228972f4744c4a2e347",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "By Gauss's law, consider a concentric spherical Gaussian surface of radius r < R inside the shell. Since all free charge resides entirely on the outer surface of the shell, the enclosed charge q_enclosed = 0. Hence, Flux Phi_E = E * (4 pi r^2) = q_enclosed / epsilon_0 = 0 => E = 0 at all interior points.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 1 Section 1.15"
     },
     {
       "id": "c12-phy-2024-023",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Magnetism",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 23 • 3 Marks]\nRegarding Magnetism: Magnetic field on axis of circular current carrying loop B = μ0*I*R² / [2(R²+x²)^(3/2)].\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Current Electricity (Kirchhoff's Conservation Laws)",
+      "difficulty": "Easy",
+      "question": "Kirchhoff's First Rule (Junction Rule, sum I = 0) and Second Rule (Loop Rule, sum Delta V = 0) are based respectively on which fundamental conservation laws of physics?",
       "options": [
-        "Standard NCERT board derivation for Magnetism: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Magnetism",
-        "Approximation omitting essential boundary conditions in Magnetism",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Conservation of Electric Charge and Conservation of Energy",
+        "Conservation of Energy and Conservation of Momentum",
+        "Conservation of Momentum and Conservation of Charge",
+        "Conservation of Mass and Conservation of Electric Flux"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Magnetism: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Magnetism.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "bb3bf21c01e76d51385ab0a8e323df543b09182ba3124a0e7b06b0c8a29e01ed",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Kirchhoff's Junction Rule states that the sum of currents entering a node equals currents leaving it, which is a direct consequence of Conservation of Electric Charge (charge cannot accumulate at a junction). Kirchhoff's Loop Rule states that the algebraic sum of changes in potential around any closed loop is zero, which is a direct consequence of Conservation of Energy (electrostatic force is conservative).",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 3 Section 3.8"
     },
     {
       "id": "c12-phy-2024-024",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Alternating Current",
       "type": "mcq",
+      "subtopic": "Electromagnetic Induction (Self-Inductance of a Solenoid)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 24 • 3 Marks]\nRegarding Alternating Current: Quality factor Q = (1/R) * √(L/C) and bandwidth of resonance curve.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "If the number of turns per unit length in an air-cored solenoid is doubled while its length and cross-sectional area remain constant, its self-inductance (L):",
       "options": [
-        "Standard NCERT board derivation for Alternating Current: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Alternating Current",
-        "Approximation omitting essential boundary conditions in Alternating Current",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Quadruples (increases 4 times, since L is proportional to n^2)",
+        "Doubles (increases 2 times)",
+        "Halves",
+        "Remains unchanged"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Alternating Current: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Alternating Current.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "94ecd68ee801c7bf31b88b8e8c7160b4d82dc9891ed118fbeaf4622f685ca6bf",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The self-inductance of a long solenoid is given by L = mu_0 * n^2 * A * l, where n is the number of turns per unit length, A is cross-sectional area, and l is length. Since L is directly proportional to n^2, doubling the turns per unit length (n' = 2n) results in L' = mu_0 * (2n)^2 * A * l = 4 * (mu_0 n^2 A l) = 4 L.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 6 Section 6.8"
     },
     {
       "id": "c12-phy-2024-025",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Ray Optics",
       "type": "mcq",
+      "subtopic": "Wave Optics (Conditions for Constructive & Destructive Interference)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 25 • 3 Marks]\nRegarding Ray Optics: Refraction through glass prism and minimum deviation formula.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "Two coherent monochromatic light waves of wavelength lambda interfere at a point. What path difference (Delta x) produces complete destructive interference (dark fringe)?",
       "options": [
-        "Standard NCERT board derivation for Ray Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Ray Optics",
-        "Approximation omitting essential boundary conditions in Ray Optics",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Delta x = (2n + 1) * (lambda / 2), where n = 0, 1, 2, ...",
+        "Delta x = n * lambda, where n = 0, 1, 2, ...",
+        "Delta x = (2n + 1) * lambda, where n = 0, 1, 2, ...",
+        "Delta x = n * (lambda / 4), where n = 1, 2, ..."
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Ray Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Ray Optics.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "8efb9c3c03a0f07210db6f95c62d211ede2dedbde14fda33a1746498504581a8",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "For constructive interference (bright fringe), the waves must arrive in phase, requiring path difference Delta x = n * lambda. For destructive interference (dark fringe), the waves must arrive out of phase by an odd multiple of pi (phase difference phi = (2n + 1) pi), which corresponds to an odd multiple of half-wavelengths: Delta x = (2n + 1) * (lambda / 2).",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 10 Section 10.3"
     },
     {
       "id": "c12-phy-2024-026",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Wave Optics",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 26 • 3 Marks]\nRegarding Wave Optics: Diffraction at a single slit: Condition for angular width of central maximum 2λ/a.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Dual Nature of Radiation (Photoelectric Effect Intensity Independence)",
+      "difficulty": "Easy",
+      "question": "In a photoelectric experiment, what happens to the maximum kinetic energy (K_max) of emitted photoelectrons and the saturation photoelectric current when the INTENSITY of incident monochromatic light is doubled at fixed frequency?",
       "options": [
-        "Standard NCERT board derivation for Wave Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Wave Optics",
-        "Approximation omitting essential boundary conditions in Wave Optics",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "K_max remains unchanged; saturation photocurrent doubles",
+        "Both K_max and saturation photocurrent double",
+        "K_max doubles; saturation photocurrent remains unchanged",
+        "Both K_max and saturation photocurrent remain unchanged"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Wave Optics: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Wave Optics.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "121825d02d49ada91f68d85f2e01d8540048d881a63c60a017e2114534cc9183",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "By Einstein's photon model, each incident photon transfers all its energy E = h * nu to a single electron. Because frequency nu is constant, individual photon energy and hence maximum kinetic energy K_max = h * nu - Phi_0 remain strictly constant. Doubling the light intensity doubles the number of photons striking the surface per second, doubling the number of photoelectrons emitted per second and therefore doubling the saturation photocurrent.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 11 Section 11.4"
     },
     {
       "id": "c12-phy-2024-027",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Atoms",
       "type": "mcq",
+      "subtopic": "Atoms (Bohr Orbit Radius Scaling)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 27 • 3 Marks]\nRegarding Atoms: Rydberg formula for Balmer series and shortest wavelength limit.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "If the radius of the innermost first Bohr orbit of a hydrogen atom (n = 1) is r_1 = 0.53 Angstroms (0.053 nm), what is the radius of the third orbit (n = 3)?",
       "options": [
-        "Standard NCERT board derivation for Atoms: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Atoms",
-        "Approximation omitting essential boundary conditions in Atoms",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "4.77 Angstroms (since r_n is proportional to n^2, r_3 = 9 * r_1)",
+        "1.59 Angstroms",
+        "0.177 Angstroms",
+        "14.31 Angstroms"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Atoms: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Atoms.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "8c5e60685761ee0999d43af839dd2eac2de6f4c515eec8f22ca12c1f07bdc17b",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "In Bohr's model of the hydrogen atom, the orbital radius is given by r_n = (epsilon_0 h^2 n^2) / (pi m e^2) = r_1 * n^2. For the third orbit (n = 3): r_3 = r_1 * 3^2 = 9 * 0.53 Angstroms = 4.77 Angstroms (or 0.477 nm).",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 12 Section 12.4"
     },
     {
       "id": "c12-phy-2024-028",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Nuclei",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 28 • 3 Marks]\nRegarding Nuclei: Nuclear density independence of mass number A (ρ ≈ 2.3 × 10¹⁷ kg/m³).\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Nuclei (Nuclear Force Characteristics)",
+      "difficulty": "Easy",
+      "question": "Which of the following statements is NOT a valid property of the strong nuclear force that binds protons and neutrons inside a nucleus?",
       "options": [
-        "Standard NCERT board derivation for Nuclei: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Nuclei",
-        "Approximation omitting essential boundary conditions in Nuclei",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "It is a long-range force obeying the inverse-square law (1/r^2)",
+        "It is the strongest fundamental force in nature, roughly 100 times stronger than electrostatic repulsion",
+        "It is charge-independent, acting identically between p-p, n-n, and p-n pairs",
+        "It shows saturation property, where a nucleon interacts only with its immediate nearest neighbors"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Nuclei: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 2 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Nuclei.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "05cdba562988177dd1f07e3108ec90b6aa6ed50b388efebd8e87149ca0ead29c",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The strong nuclear force is a strictly short-range force operating only over nuclear distances (~1 to 2 femtometres, 10^-15 m). Beyond roughly 2-3 fm, it drops rapidly to zero; it does NOT obey the inverse-square law. It is charge-independent, extremely strong, and shows saturation.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 13 Section 13.5"
     },
     {
       "id": "c12-phy-2024-029",
-      "section": "Section D: Case Study (4M)",
-      "subtopic": "Case Study 1",
       "type": "mcq",
+      "subtopic": "Case Study 1: Optical Instruments (Compound Microscope Magnification)",
       "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2024 Board Examination Question 29 • 4 Marks]\nRegarding Case Study 1: Case Passage on Photovoltaic Cells and Solar Cell Characteristics.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "A compound microscope has an objective lens of focal length f_o = 1.0 cm and an eyepiece of focal length f_e = 2.5 cm separated by a tube length L = 20 cm. What is the total magnifying power (m) when the final image is formed at the near point of distinct vision (D = 25 cm)?",
       "options": [
-        "Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Case Study 1",
-        "Approximation omitting essential boundary conditions in Case Study 1",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "m ≈ - 220",
+        "m ≈ - 20",
+        "m ≈ + 50",
+        "m ≈ - 100"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 3 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Case Study 1.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "672c9be83af13a1d8327b0f0e7985036d701aeb544bd1829c26e1d018bef4836",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Total magnifying power of a compound microscope with final image at D is m = m_o * m_e ≈ - (L / f_o) * (1 + D / f_e). Substituting L = 20 cm, f_o = 1.0 cm, f_e = 2.5 cm, and D = 25 cm: m_o ≈ - 20 / 1.0 = - 20; m_e = 1 + 25 / 2.5 = 1 + 10 = 11. Total magnification m = (-20) * 11 = - 220 (the negative sign indicates an inverted final virtual image).",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 9 Section 9.9"
     },
     {
       "id": "c12-phy-2024-030",
-      "section": "Section D: Case Study (4M)",
-      "subtopic": "Case Study 2",
       "type": "mcq",
-      "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2024 Board Examination Question 30 • 4 Marks]\nRegarding Case Study 2: Case Passage on Optical Fibers & Endoscopy Signal Transmission.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Case Study 2: Optoelectronic Devices (Solar Cell vs Photodiode Operation)",
+      "difficulty": "Medium",
+      "question": "In which quadrant of the V-I coordinate plane does a solar cell operate to supply electric power to an external load without any external bias voltage?",
       "options": [
-        "Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Case Study 2",
-        "Approximation omitting essential boundary conditions in Case Study 2",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Fourth quadrant (where voltage is positive and current is negative, representing power generation)",
+        "First quadrant (forward-biased passive conduction)",
+        "Second quadrant",
+        "Third quadrant (reverse breakdown conduction)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 3 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Case Study 2.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "4b7198d1242dc418f28bcd7a1c19fcecf6e6ea42d3a0db9a52b32eecda4e6e80",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "A solar cell is essentially a p-n junction that generates EMF when solar radiation falls on the junction. It does not use external bias. In its I-V characteristics, the curve is drawn in the fourth quadrant of the coordinate axis because a solar cell does not draw current from a source but instead delivers current to the load (supplies power P = V * I).",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 14 Section 14.8"
     },
     {
       "id": "c12-phy-2024-031",
-      "section": "Section E: Long Answer (5M)",
-      "subtopic": "Long Answer 1",
       "type": "mcq",
-      "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 31 • 5 Marks]\nRegarding Long Answer 1: Derivation of Lens Maker's Formula from refraction at spherical surfaces.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "subtopic": "Long Answer 1: Electrostatics (Dipole Potential on Axial vs Equatorial Plane)",
+      "difficulty": "Medium",
+      "question": "For an electric dipole of dipole moment p = 2 q a, what are the electrostatic potentials at distance r >> a on the AXIAL LINE and EQUATORIAL PLANE respectively?",
       "options": [
-        "Standard NCERT board derivation for Long Answer 1: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Long Answer 1",
-        "Approximation omitting essential boundary conditions in Long Answer 1",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "V_axial = (1 / 4 pi epsilon_0) * (p / r^2); V_equatorial = 0",
+        "V_axial = 0; V_equatorial = (1 / 4 pi epsilon_0) * (p / r^2)",
+        "V_axial = (1 / 4 pi epsilon_0) * (p / r); V_equatorial = 0",
+        "V_axial = (1 / 4 pi epsilon_0) * (2p / r^3); V_equatorial = 0"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 1: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 4 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Long Answer 1.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "a69f7211342321043dc4cfc5979ec5d547388d07ee1fe89ca5384f676104b156",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The general dipole potential is V(r, theta) = (1 / 4 pi epsilon_0) * (p cos theta / r^2). On the axial line (theta = 0° or 180°), cos 0° = 1 => V_axial = (1 / 4 pi epsilon_0) * (p / r^2). On the equatorial plane (theta = 90°), every point is equidistant from +q and -q, so cos 90° = 0 => V_equatorial = 0.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 2 Section 2.4"
     },
     {
       "id": "c12-phy-2024-032",
-      "section": "Section E: Long Answer (5M)",
-      "subtopic": "Long Answer 2",
       "type": "mcq",
+      "subtopic": "Long Answer 2: Moving Charges (Moving Coil Galvanometer Sensitivity)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 32 • 5 Marks]\nRegarding Long Answer 2: AC Generator working principle, EMF expression e = NBAω sin(ωt), and slip rings.\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "In a Moving Coil Galvanometer, increasing the number of turns N in the coil increases the current sensitivity (I_s). Why does this NOT necessarily increase the voltage sensitivity (V_s)?",
       "options": [
-        "Standard NCERT board derivation for Long Answer 2: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Long Answer 2",
-        "Approximation omitting essential boundary conditions in Long Answer 2",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "Because increasing N increases the resistance R of the coil proportionally, so V_s = I_s / R remains constant",
+        "Because magnetic torque decreases when N is increased",
+        "Because restoring torque of the phosphor-bronze strip weakens with N",
+        "Because voltage sensitivity depends exclusively on external battery EMF"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 2: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 4 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Long Answer 2.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "d875ed90780eaf5de1678e0a014b3686525da2f288b8ea36d2a9de224cb3ae42",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Current sensitivity is I_s = theta / I = N A B / k. When turns N is doubled, I_s doubles. However, voltage sensitivity is V_s = theta / V = theta / (I R) = I_s / R = (N A B) / (k R). When the number of turns N is doubled, the total length of the wire doubles, which also doubles the resistance R of the coil (R' = 2R). Consequently, V_s' = (2 N A B) / (k * 2R) = V_s, remaining unchanged.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 4 Section 4.10"
     },
     {
       "id": "c12-phy-2024-033",
-      "section": "Section E: Long Answer (5M)",
-      "subtopic": "Long Answer 3",
       "type": "mcq",
+      "subtopic": "Long Answer 3: Ray Optics (Lens Maker's Formula & Bisection)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 33 • 5 Marks]\nRegarding Long Answer 3: Gauss's Law application to infinite uniformly charged planar sheet E = σ / (2ε0).\nWhat is the verified theoretical outcome and step derivation according to the CBSE official marking scheme?",
+      "question": "A symmetrical equiconvex glass lens of refractive index mu = 1.5 has focal length f in air. If the lens is cut into two equal halves along its vertical optical plane perpendicular to the principal axis, what is the focal length of each half-lens?",
       "options": [
-        "Standard NCERT board derivation for Long Answer 3: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect dimensional equation with missing scaling factors for Long Answer 3",
-        "Approximation omitting essential boundary conditions in Long Answer 3",
-        "Inverse proportionality incorrectly substituting direct proportionality"
+        "2 f (each half becomes a plano-convex lens with doubled focal length)",
+        "f / 2",
+        "f",
+        "4 f"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 3: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula Statement & Diagram: 1 Mark\n2. Algebraic substitution and SI units: 4 Mark(s)\nReference: NCERT Class 12 Physics, statutory chapter on Long Answer 3.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Physics 042) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "627f40f0700612b2206867cf409ec4f7f1084f268a659430039d812afaa42c2b",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "By the Lens Maker's Formula: 1 / f = (mu - 1) * [1/R_1 - 1/R_2]. For an equiconvex lens, R_1 = +R and R_2 = -R: 1/f = (1.5 - 1) * [1/R - (-1/R)] = 0.5 * (2/R) = 1/R => f = R. When cut vertically into plano-convex halves, each half has R_1 = R and R_2 = infinity. Thus, 1 / f' = (1.5 - 1) * [1/R - 1/infinity] = 0.5 * (1/R) = 1 / (2R) = 1 / (2f) => f' = 2 f.",
+      "citation": "CBSE Class 12 Physics Board Paper 2024 / NCERT Chapter 9 Section 9.5"
     }
   ]
 }

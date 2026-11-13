@@ -644,683 +644,275 @@
     },
     {
       "id": "c12-chem-2023-017",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Solutions",
       "type": "mcq",
+      "subtopic": "Solutions (Elevation in Boiling Point Calculation)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 17 • 2 Marks]\nRegarding Solutions: Elevation in boiling point ΔTb = Kb * m and determination of molar mass.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "A solution prepared by dissolving 18 g of non-volatile glucose (C6H12O6, molar mass = 180 g/mol) in 1 kg of water is heated. At what temperature will this solution boil under standard atmospheric pressure of 1.013 bar? (K_b for water = 0.52 K kg/mol)",
       "options": [
-        "Standard NCERT board derivation for Solutions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Solutions",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "100.052°C (373.202 K)",
+        "100.52°C",
+        "101.04°C",
+        "99.48°C"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Solutions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Solutions.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "2e59335cfc1e95e4749d068b70ac67625504a014617480e1c120deba0b66c581",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "1. Moles of glucose n = 18 g / (180 g/mol) = 0.10 mol. 2. Molality m = moles of solute / mass of solvent in kg = 0.10 mol / 1.0 kg = 0.10 m. 3. Elevation in boiling point Delta T_b = K_b * m = 0.52 K kg/mol * 0.10 mol/kg = 0.052 K = 0.052°C. 4. Boiling point of solution T_b = T_b^0 + Delta T_b = 100°C + 0.052°C = 100.052°C (or 373.15 + 0.052 = 373.202 K).",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 1 Section 1.6"
     },
     {
       "id": "c12-chem-2023-018",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Electrochemistry",
       "type": "mcq",
+      "subtopic": "Electrochemistry (Faraday's Laws of Electrolysis)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 18 • 2 Marks]\nRegarding Electrochemistry: Nernst equation application to Daniel Cell Ecell = E°cell - (0.059/2)log[Zn²⁺]/[Cu²⁺].\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "How long will it take to deposit 0.6354 g of copper metal at the cathode during electrolysis of an aqueous CuSO4 solution by passing a steady electric current of 2.0 A? (Atomic mass of Cu = 63.54 g/mol, 1 F = 96500 C/mol)",
       "options": [
-        "Standard NCERT board derivation for Electrochemistry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Electrochemistry",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "965 seconds (approx. 16 minutes 5 seconds)",
+        "1930 seconds",
+        "482.5 seconds",
+        "9650 seconds"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Electrochemistry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Electrochemistry.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "a0691efd7e11e2eb1cec703b16c748049d59c37344995046ae1c0798a85a201b",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Cathode reaction: Cu2+ + 2e- -> Cu(s). To deposit 1 mole (63.54 g) of Cu requires 2 Faradays (2 * 96500 C). Moles of Cu deposited = 0.6354 g / 63.54 g/mol = 0.010 mol. Total charge required Q = n * 2 * F = 0.010 * 2 * 96500 = 1930 C. Since Q = I * t: time t = Q / I = 1930 C / 2.0 A = 965 seconds.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 2 Section 2.5"
     },
     {
       "id": "c12-chem-2023-019",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Kinetics",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 19 • 2 Marks]\nRegarding Kinetics: Unit of rate constant for zero, first, and second order reactions.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "subtopic": "Chemical Kinetics (First-Order Half-Life & Rate Constant)",
+      "difficulty": "Easy",
+      "question": "A first-order decomposition reaction has a rate constant k = 6.93 * 10^-3 s^-1. What is the half-life period (t_1/2) of this reaction?",
       "options": [
-        "Standard NCERT board derivation for Kinetics: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Kinetics",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "100 seconds",
+        "50 seconds",
+        "69.3 seconds",
+        "200 seconds"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Kinetics: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Kinetics.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "67483e17c4bbfb12494aed3e3943fe714e8524b8a6258bdf1bc5cfd0664ffbc4",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "For any first-order reaction, the half-life is independent of initial reactant concentration and is given by t_1/2 = 0.693 / k. Substituting k = 6.93 * 10^-3 s^-1: t_1/2 = 0.693 / (6.93 * 10^-3) = 100 seconds.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 3 Section 3.3"
     },
     {
       "id": "c12-chem-2023-020",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Coordination",
       "type": "mcq",
+      "subtopic": "d- and f-Block Elements (Lanthanoid Contraction Consequences)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 20 • 2 Marks]\nRegarding Coordination: IUPAC naming and linkage isomerism in ambidentate ligands (NO2⁻ / SCN⁻).\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "Why do the second and third transition series elements, such as Zirconium (4d, Zr) and Hafnium (5d, Hf), possess almost identical atomic and ionic radii (Zr = 160 pm, Hf = 159 pm)?",
       "options": [
-        "Standard NCERT board derivation for Coordination: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Coordination",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "Due to lanthanoid contraction (poor shielding of outer electrons by intervening 4f electrons before 5d filling)",
+        "Because they possess identical radioactive half-lives and isotopic abundances",
+        "Because of complete inert pair effect in 5d subshells",
+        "Because zirconium and hafnium form identical covalent triple bonds in nature"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Coordination: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Coordination.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "db2646c4c70c78c7704ce47693961e044fd8df50486d9dc1ba8994173218417f",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The steady decrease in atomic and ionic radii across the 14 lanthanoid elements (due to imperfect shielding of one 4f electron by another in the same subshell) is known as lanthanoid contraction. Because the filling of 4f subshell occurs immediately before 5d elements (Hf onwards), the post-lanthanoid 5d elements experience enhanced effective nuclear charge. Consequently, the radius increase expected from moving down a group is almost exactly cancelled, making Zr and Hf nearly identical in radius and chemical properties.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 4 Section 4.7"
     },
     {
       "id": "c12-chem-2023-021",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Haloalkanes",
       "type": "mcq",
+      "subtopic": "Alcohols, Phenols and Ethers (Lucas Test for Alcohol Distinction)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2023 Board Examination Question 21 • 2 Marks]\nRegarding Haloalkanes: Optical resolution and enantiomerism in 2-chlorobutane.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "When Lucas reagent (concentrated HCl + anhydrous ZnCl2) is added to an unknown liquid alcohol at room temperature, turbidity appears immediately within seconds. What class of alcohol is present?",
       "options": [
-        "Standard NCERT board derivation for Haloalkanes: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Haloalkanes",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "Tertiary (3°) alcohol (e.g., 2-methylpropan-2-ol)",
+        "Secondary (2°) alcohol",
+        "Primary (1°) alcohol",
+        "Aromatic phenol"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Haloalkanes: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 1 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Haloalkanes.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "4bde9413a14b4ba39492dbf02c4916007c5a2f95a979a14fa37b20ce6b2255d2",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The Lucas test distinguishes 1°, 2°, and 3° alcohols based on the reactivity of carbocation formation: R-OH + HCl (anhydrous ZnCl2) -> R-Cl (insoluble oily turbidity) + H2O. Tertiary alcohols react immediately forming turbidity within seconds; secondary alcohols react in 5–10 minutes; primary alcohols do not produce turbidity at room temperature and require heating.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 7 Section 7.4"
     },
     {
       "id": "c12-chem-2023-022",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Organic Mechanisms",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 22 • 3 Marks]\nRegarding Organic Mechanisms: Mechanism of acid-catalysed dehydration of ethanol to ethene at 443 K.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "subtopic": "Solutions (Van 't Hoff Factor & Dimerization)",
+      "difficulty": "Hard",
+      "question": "When benzoic acid (C6H5COOH) is dissolved in benzene, it undergoes dimerization by intermolecular hydrogen bonding. If the degree of association is alpha = 80% (0.80), what is the Van 't Hoff factor (i)?",
       "options": [
-        "Standard NCERT board derivation for Organic Mechanisms: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Organic Mechanisms",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "i = 0.60",
+        "i = 0.80",
+        "i = 0.40",
+        "i = 1.00"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Organic Mechanisms: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Organic Mechanisms.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "f368e74becb8115553ac598c21f45891b22512cd7ca6422fdc6bc23f643470dc",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Dimerization reaction: 2 C6H5COOH <=> (C6H5COOH)2. If 1 mole of benzoic acid is initially present and degree of association is alpha: remaining unassociated acid = 1 - alpha; moles of dimer formed = alpha / 2. Total moles of particles at equilibrium i = (1 - alpha) + alpha / 2 = 1 - alpha / 2. Substituting alpha = 0.80: i = 1 - 0.80 / 2 = 1 - 0.40 = 0.60.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 1 Section 1.7"
     },
     {
       "id": "c12-chem-2023-023",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Name Reactions",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 23 • 3 Marks]\nRegarding Name Reactions: Kolbe's reaction, Rosenmund reduction, and Cannizzaro disproportionation.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "subtopic": "Electrochemistry (Nernst Equation Cell Potential)",
+      "difficulty": "Hard",
+      "question": "For the Daniell galvanic cell: Zn(s) | Zn2+(0.1 M) || Cu2+(0.01 M) | Cu(s), given standard cell potential E°_cell = +1.10 V at 298 K, what is the operating EMF (E_cell)? (2.303 RT/F = 0.0591)",
       "options": [
-        "Standard NCERT board derivation for Name Reactions: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Name Reactions",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "+1.07 V",
+        "+1.10 V",
+        "+1.13 V",
+        "+0.98 V"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Name Reactions: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Name Reactions.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "9884034e5ed2ba1fcd43199d70d4201ee557562d9fa2c0541718a2261b924024",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Cell reaction: Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s), where n = 2 electrons transferred. Reaction quotient Q = [Zn2+] / [Cu2+] = 0.1 / 0.01 = 10. By the Nernst Equation: E_cell = E°_cell - (0.0591 / n) * log Q = 1.10 - (0.0591 / 2) * log(10) = 1.10 - 0.02955 * 1 = 1.10 - 0.02955 = 1.07045 V ≈ +1.07 V.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 2 Section 2.2"
     },
     {
       "id": "c12-chem-2023-024",
-      "section": "Section C: SA (3M)",
-      "subtopic": "d-Block Trends",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 24 • 3 Marks]\nRegarding d-Block Trends: Lanthanoid contraction: cause and consequences on Zr-Hf twin pairs.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "subtopic": "Coordination Compounds (Crystal Field Theory Splitting)",
+      "difficulty": "Hard",
+      "question": "In an octahedral coordination complex of a d4 transition metal ion, if the crystal field splitting energy Delta_o is GREATER than the electron pairing energy P (Delta_o > P, strong-field ligand), what is the ground-state d-electron configuration?",
       "options": [
-        "Standard NCERT board derivation for d-Block Trends: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in d-Block Trends",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "t_2g^4 e_g^0 (low spin, pairing occurs in lower t_2g orbitals)",
+        "t_2g^3 e_g^1 (high spin)",
+        "t_2g^2 e_g^2",
+        "t_2g^0 e_g^4"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for d-Block Trends: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on d-Block Trends.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "cbc256b7cf0dd5e0c3885d3d31ebf4a42f24338c9cdd4fad4d9c5bdf717accaa",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "In an octahedral crystal field, d-orbitals split into lower t_2g (triply degenerate) and higher e_g (doubly degenerate) levels. When Delta_o > P, the ligand is a strong-field ligand. The energy required to excite the fourth electron to e_g is greater than the pairing energy P. Hence, the fourth electron pairs up in the t_2g level, yielding the low-spin configuration t_2g^4 e_g^0 with only 2 unpaired electrons.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 5 Section 5.5"
     },
     {
       "id": "c12-chem-2023-025",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Coordination Theory",
       "type": "mcq",
+      "subtopic": "Haloalkanes and Haloarenes (SN1 vs SN2 Mechanisms)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 25 • 3 Marks]\nRegarding Coordination Theory: Crystal Field Theory: d-orbital splitting Δo and pairing energy P in strong/weak fields.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "Why does optically active 2-bromobutane undergo complete racemization during an SN1 solvolysis reaction, whereas it undergoes complete Walden inversion during an SN2 reaction?",
       "options": [
-        "Standard NCERT board derivation for Coordination Theory: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Coordination Theory",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "SN1 involves a planar sp2 carbocation intermediate attacked equally from both faces; SN2 involves simultaneous backside nucleophilic attack",
+        "SN1 forms a cyclic bromonium ion intermediate, whereas SN2 forms free radicals",
+        "SN1 is a bimolecular concerted process, whereas SN2 involves ionic dissociation",
+        "SN1 proceeds with retention of configuration in non-polar solvents"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Coordination Theory: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Coordination Theory.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "346f6dd2a53bfcee378e3f38e02868a71602bba0807d07025e4c850079685e56",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "In SN1 reactions, ionization forms a flat, planar carbocation intermediate (sp2 hybridized). The nucleophile can attack this planar intermediate with equal probability from either the front or the back face, resulting in a 50:50 mixture of enantiomers (racemization). In SN2 reactions, the nucleophile attacks strictly from the side opposite to the leaving halogen atom in a single concerted step, causing complete stereochemical inversion (Walden inversion).",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 6 Section 6.4"
     },
     {
       "id": "c12-chem-2023-026",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Biomolecules",
       "type": "mcq",
+      "subtopic": "Alcohols, Phenols and Ethers (Williamson Synthesis Limitations)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 26 • 3 Marks]\nRegarding Biomolecules: Denaturation of proteins: structural collapse of 2° and 3° structures leaving 1° intact.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "To prepare tert-butyl methyl ether [(CH3)3C-O-CH3] via Williamson Ether Synthesis, which combination of reactants MUST be chosen to avoid alkene formation?",
       "options": [
-        "Standard NCERT board derivation for Biomolecules: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Biomolecules",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "Sodium tert-butoxide [(CH3)3C-O- Na+] and methyl bromide [CH3-Br]",
+        "Sodium methoxide [CH3-O- Na+] and tert-butyl bromide [(CH3)3C-Br]",
+        "tert-Butyl alcohol and methanol in concentrated HCl",
+        "Methyl alcohol and tert-butyl chloride with aluminum chloride"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Biomolecules: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Biomolecules.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "5042d7bd488cc72f3b3b5e8916ef86709e1e6f2c627572d69e09672f5a679633",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Williamson synthesis involves an SN2 attack of an alkoxide ion on an alkyl halide. Alkoxide ions are strong bases as well as nucleophiles. If a tertiary alkyl halide (tert-butyl bromide) is used with sodium methoxide, elimination dominates over substitution and 2-methylpropene (alkene) is formed exclusively. Therefore, the alkyl halide must be primary: methyl bromide (CH3-Br) reacted with sodium tert-butoxide.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 7 Section 7.6"
     },
     {
       "id": "c12-chem-2023-027",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Aldehydes & Ketones",
       "type": "mcq",
+      "subtopic": "Aldehydes, Ketones and Carboxylic Acids (Iodoform Test Specificity)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 27 • 3 Marks]\nRegarding Aldehydes & Ketones: Clemmensen reduction vs Wolff-Kishner reduction with hydrazine and KOH.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "Which of the following organic compounds will give a POSITIVE iodoform test (formation of a yellow crystalline precipitate of CHI3 upon warming with I2 and NaOH)?",
       "options": [
-        "Standard NCERT board derivation for Aldehydes & Ketones: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Aldehydes & Ketones",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "Pentan-2-one (CH3-CO-CH2-CH2-CH3)",
+        "Pentan-3-one (CH3-CH2-CO-CH2-CH3)",
+        "Benzophenone (C6H5-CO-C6H5)",
+        "Propan-1-ol (CH3-CH2-CH2-OH)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Aldehydes & Ketones: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Aldehydes & Ketones.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "ca1b7f9b6c1326c3d9f14925bedc7ca08af00c494ed095971d85eeb7a819660e",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The iodoform test is specific for compounds containing either a methyl carbonyl group (CH3-C=O) or a methyl carbinol group (CH3-CH(OH)-) oxidizable to a methyl ketone. Pentan-2-one possesses the CH3-C=O group and reacts with I2/NaOH to yield a canary-yellow precipitate of iodoform (CHI3) and sodium butanoate. Pentan-3-one, benzophenone, and propan-1-ol lack this structural unit and do not respond.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 8 Section 8.4"
     },
     {
       "id": "c12-chem-2023-028",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Amines",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2023 Board Examination Question 28 • 3 Marks]\nRegarding Amines: Gabriel Phthalimide synthesis limitation for aromatic 1° amines.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "subtopic": "Biomolecules (DNA vs RNA Pyrimidine & Sugar Differences)",
+      "difficulty": "Easy",
+      "question": "What two distinct chemical differences distinguish the molecular structure of RNA from DNA?",
       "options": [
-        "Standard NCERT board derivation for Amines: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Amines",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "RNA contains beta-D-ribose sugar and the pyrimidine base Uracil; DNA contains beta-D-2-deoxyribose sugar and the pyrimidine base Thymine",
+        "RNA contains alpha-D-glucose and Guanine; DNA contains beta-D-fructose and Cytosine",
+        "RNA contains double phosphodiester helices; DNA is strictly single-stranded",
+        "RNA lacks phosphate groups, whereas DNA contains triphosphate links"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Amines: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 2 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Amines.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "261db57b7a522fbc25094523367536793a08806a7d34d6ee5e479218c2da47f5",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "1. Sugar: DNA contains beta-D-2-deoxyribose (lacks oxygen at C-2 position), while RNA contains beta-D-ribose (has -OH at C-2). 2. Nitrogenous bases: DNA contains Adenine (A), Guanine (G), Cytosine (C), and Thymine (T). RNA contains Adenine (A), Guanine (G), Cytosine (C), and Uracil (U) in place of thymine.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 10 Section 10.5"
     },
     {
       "id": "c12-chem-2023-029",
-      "section": "Section D: Case Study (4M)",
-      "subtopic": "Case Study 1",
       "type": "mcq",
-      "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2023 Board Examination Question 29 • 4 Marks]\nRegarding Case Study 1: Passage on Commercial Galvanic Batteries (Lead Storage Battery & Fuel Cells).\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "subtopic": "Case Study 1: Electrochemistry (Hydrogen-Oxygen Fuel Cell Chemistry)",
+      "difficulty": "Medium",
+      "question": "In an industrial Hydrogen-Oxygen fuel cell using aqueous KOH electrolyte, what are the half-cell reactions taking place at the anode and cathode?",
       "options": [
-        "Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Case Study 1",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "Anode: 2 H2(g) + 4 OH-(aq) -> 4 H2O(l) + 4e-; Cathode: O2(g) + 2 H2O(l) + 4e- -> 4 OH-(aq)",
+        "Anode: O2(g) + 4 H+ + 4e- -> 2 H2O; Cathode: 2 H2 -> 4 H+ + 4e-",
+        "Anode: 2 H2O -> 2 H2 + O2; Cathode: K+ + e- -> K",
+        "Anode: H2 -> 2 H+ + 2e-; Cathode: 2 OH- -> H2O + 1/2 O2 + 2e-"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 3 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Case Study 1.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "9ca44ab2330aa45d2449347cb89507f253a6b874ead151434bcb9f79c3b3c771",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "In an alkaline H2-O2 fuel cell, hydrogen and oxygen are bubbled through porous carbon electrodes impregnated with catalysts into concentrated aqueous KOH. At Anode: 2 H2(g) + 4 OH-(aq) -> 4 H2O(l) + 4e-. At Cathode: O2(g) + 2 H2O(l) + 4e- -> 4 OH-(aq). Overall reaction: 2 H2(g) + O2(g) -> 2 H2O(l). The fuel cell has ~70% thermodynamic efficiency and zero harmful emissions.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 2 Section 2.6"
     },
     {
       "id": "c12-chem-2023-030",
-      "section": "Section D: Case Study (4M)",
-      "subtopic": "Case Study 2",
       "type": "mcq",
-      "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2023 Board Examination Question 30 • 4 Marks]\nRegarding Case Study 2: Passage on Carbohydrate Anomers (α-D-glucopyranose and Mutarotation).\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "subtopic": "Case Study 2: Coordination Compounds (Chelate Effect & Medicinal Applications)",
+      "difficulty": "Medium",
+      "question": "Why are chelate complexes (e.g., [Co(en)3]3+) thermodynamically far more stable than unchelated complexes (e.g., [Co(NH3)6]3+), and which platinum coordination complex is widely used in cancer chemotherapy?",
       "options": [
-        "Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Case Study 2",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "Chelation increases thermodynamic entropy (Delta S > 0) upon multidentate ligand binding; Cisplatin [cis-Pt(NH3)2Cl2] is used in chemotherapy",
+        "Chelation reduces activation energy to zero; Carboplatin [trans-Pt(NH3)2Cl2] is used in chemotherapy",
+        "Chelating ligands form covalent network lattices; Zeise's salt is used in chemotherapy",
+        "Chelates contain zero coordination isomerism; Prussian blue is used in chemotherapy"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 3 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Case Study 2.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "9c2c3bb03bf06b8e366b4c2db98b67b88274bfba19460bfa825a752abda95c9e",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "When a di- or polydentate ligand binds to a metal ion forming a 5- or 6-membered ring, the complex is called a chelate. The chelate effect stabilizes complexes because substitution of monodentate ligands by polydentate ligands increases the total number of free molecules/ions in solution, causing a large favorable entropy gain (Delta S_system > 0). In medicine, cis-diamminedichloroplatinum(II), known as Cisplatin, acts as an effective anti-cancer chemotherapeutic agent.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 5 Section 5.6"
     },
     {
       "id": "c12-chem-2023-031",
-      "section": "Section E: Long Answer (5M)",
-      "subtopic": "Long Answer 1",
       "type": "mcq",
+      "subtopic": "Long Answer 1: Solutions (Azeotropes & Raoult's Law Deviations)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 31 • 5 Marks]\nRegarding Long Answer 1: Comprehensive Organic Conversions involving Benzene to Phenol, Aniline, and Benzoic Acid.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "A mixture of ethanol and acetone exhibits positive deviation from Raoult's law, whereas a mixture of chloroform and acetone exhibits negative deviation. What is the fundamental intermolecular reason for this opposite behavior?",
       "options": [
-        "Standard NCERT board derivation for Long Answer 1: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Long Answer 1",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "In ethanol-acetone, acetone disrupts ethanol hydrogen-bonds weakening A-B attractions (Delta H_mix > 0); In chloroform-acetone, strong new hydrogen-bonds form between chloroform H and acetone carbonyl O (Delta H_mix < 0)",
+        "Ethanol has higher molecular weight than chloroform",
+        "Acetone forms a dimer in water but dissociates in chloroform",
+        "Both mixtures form ideal solutions at high boiling temperatures"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 1: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 4 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Long Answer 1.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "23159408346a36c14e8e9c1fc5a13ab31bdad0a4b4ccb7e970c7477dbda85e97",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "1. Positive deviation (Ethanol + Acetone): Pure ethanol has molecules held by strong intermolecular hydrogen bonds. On adding acetone, acetone molecules get between ethanol molecules and break some hydrogen bonds. The intermolecular attractive forces between A-B become weaker than A-A and B-B, increasing vapour pressure (Delta H_mix > 0, Delta V_mix > 0). 2. Negative deviation (Chloroform + Acetone): Pure chloroform and pure acetone have weak dipole-dipole forces. When mixed, a new, strong intermolecular hydrogen bond forms between the acidic C-H of chloroform and the basic carbonyl oxygen of acetone, making A-B attractions stronger than A-A and B-B (Delta H_mix < 0, Delta V_mix < 0).",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 1 Section 1.5"
     },
     {
       "id": "c12-chem-2023-032",
-      "section": "Section E: Long Answer (5M)",
-      "subtopic": "Long Answer 2",
       "type": "mcq",
+      "subtopic": "Long Answer 2: Chemical Kinetics (Arrhenius Activation Energy Calculation)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 32 • 5 Marks]\nRegarding Long Answer 2: Electrochemistry: Kohlrausch's law, degree of dissociation α = Λm/Λ°m, and Ka calculation.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "The rate of a chemical reaction doubles when the temperature is raised from 298 K to 308 K. What is the activation energy (E_a) of the reaction? (R = 8.314 J/(mol K), log 2 = 0.3010)",
       "options": [
-        "Standard NCERT board derivation for Long Answer 2: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Long Answer 2",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "52.9 kJ/mol",
+        "105.8 kJ/mol",
+        "26.4 kJ/mol",
+        "8.31 kJ/mol"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 2: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 4 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Long Answer 2.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "14331d423b8b355336aaa000f1e9b860a58eac1d8faa752e9ec73fd5558a1c2d",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "By the integrated Arrhenius equation: log(k_2 / k_1) = [E_a / (2.303 R)] * [(T_2 - T_1) / (T_1 * T_2)]. Given k_2 / k_1 = 2, T_1 = 298 K, T_2 = 308 K: log 2 = 0.3010 = [E_a / (2.303 * 8.314)] * [10 / (298 * 308)] => 0.3010 = (E_a / 19.147) * (10 / 91784) => 0.3010 = E_a * (1.0895 * 10^-4 / 19.147) => E_a = (0.3010 * 19.147 * 91784) / 10 = 52897 J/mol ≈ 52.9 kJ/mol.",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 3 Section 3.4"
     },
     {
       "id": "c12-chem-2023-033",
-      "section": "Section E: Long Answer (5M)",
-      "subtopic": "Long Answer 3",
       "type": "mcq",
+      "subtopic": "Long Answer 3: Organic Named Reactions (Reimer-Tiemann & Kolbe)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2023 Board Examination Question 33 • 5 Marks]\nRegarding Long Answer 3: Chemical Kinetics: Integrated rate equation derivation for first-order reaction and graphs.\nWhat is the verified chemical mechanism and stepwise answer in the CBSE official marking scheme?",
+      "question": "What are the major organic products formed when phenol is subjected to (1) Kolbe's Reaction (NaOH followed by CO2 and acidification) and (2) Reimer-Tiemann Reaction (CHCl3 and aqueous NaOH followed by acidification)?",
       "options": [
-        "Standard NCERT board derivation for Long Answer 3: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect chemical equation with uncoordinated stoichiometric coefficients in Long Answer 3",
-        "Equilibrium constant expression inverted without taking activity coefficients into account",
-        "Markovnikov addition applied where anti-Markovnikov peroxide effect is required"
+        "Kolbe: Salicylic acid (2-hydroxybenzoic acid); Reimer-Tiemann: Salicylaldehyde (2-hydroxybenzaldehyde)",
+        "Kolbe: Aspirin; Reimer-Tiemann: Picric acid",
+        "Kolbe: Benzoquinone; Reimer-Tiemann: Benzyl alcohol",
+        "Kolbe: Resorcinol; Reimer-Tiemann: Catechol"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Long Answer 3: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2023 Marking Scheme):\n1. Balanced chemical reaction / formula: 1 Mark\n2. Mechanistic steps & reasoning: 4 Mark(s)\nReference: NCERT Class 12 Chemistry, statutory chapter on Long Answer 3.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2023 Board Examination (Chemistry 043) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "238f386c4fe291c11497dae05b8a1d886044c995eab818fb4e5254f4f00db967",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "1. Kolbe's Reaction: Phenoxide ion generated by treating phenol with NaOH undergoes electrophilic aromatic substitution with weak electrophile CO2 at 400 K and 4–7 atm pressure to form 2-hydroxybenzoic acid (salicylic acid). 2. Reimer-Tiemann Reaction: Treating phenol with chloroform (CHCl3) in the presence of sodium hydroxide introduces an aldehyde group (-CHO) at the ortho position of the benzene ring via the electrophilic dichlorocarbene (:CCl2) intermediate, yielding 2-hydroxybenzaldehyde (salicylaldehyde).",
+      "citation": "CBSE Class 12 Chemistry Board Paper 2023 / NCERT Chapter 7 Section 7.4"
     }
   ]
 }

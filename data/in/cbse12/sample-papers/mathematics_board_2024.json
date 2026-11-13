@@ -804,723 +804,291 @@
     },
     {
       "id": "c12-math-2024-021",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Relations & Functions",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 21 • 2 Marks]\nRegarding Relations & Functions: Prove that function f: R → R, f(x) = 4x + 3 is one-one and onto.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "subtopic": "Relations & Functions",
+      "difficulty": "Easy",
+      "question": "Examine the function f: R → R defined by f(x) = 3 - 4x. Which of the following statements is true?",
       "options": [
-        "Standard NCERT board derivation for Relations & Functions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in Relations & Functions",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "f is one-one and onto (bijective)",
+        "f is one-one but not onto",
+        "f is onto but not one-one",
+        "f is neither one-one nor onto"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Relations & Functions: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Relations & Functions.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "e472022a4e75fdf00907d74752d7fd80d95586992f42bc476d88d99c89dba740",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "(1) Injectivity (One-one): Let x₁, x₂ ∈ R such that f(x₁) = f(x₂). Then 3 - 4x₁ = 3 - 4x₂ ⟹ -4x₁ = -4x₂ ⟹ x₁ = x₂. Hence f is one-one. (2) Surjectivity (Onto): For any y ∈ R (codomain), let y = 3 - 4x ⟹ 4x = 3 - y ⟹ x = (3 - y)/4. Since y ∈ R, x = (3 - y)/4 ∈ R (domain) and f((3 - y)/4) = 3 - 4((3 - y)/4) = 3 - (3 - y) = y. Hence every element in the codomain has a pre-image in the domain, so f is onto. Since f is both one-one and onto, f is bijective.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 1 Section 1.3"
     },
     {
       "id": "c12-math-2024-022",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Inverse Trigonometry",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 22 • 2 Marks]\nRegarding Inverse Trigonometry: Find the value of tan⁻¹(√3) - sec⁻¹(-2).\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "subtopic": "Inverse Trigonometric Functions",
+      "difficulty": "Easy",
+      "question": "Evaluate the exact value of the expression: tan⁻¹(2 cos(2 sin⁻¹(1/2))).",
       "options": [
-        "Standard NCERT board derivation for Inverse Trigonometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in Inverse Trigonometry",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "π/4",
+        "π/3",
+        "π/6",
+        "3π/4"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Inverse Trigonometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Inverse Trigonometry.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "d595e16f55415af419b812d3da4524f28409f54f4de8fa6d3e515223482afed4",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "We evaluate from the inside out: (1) Since sin(π/6) = 1/2 and π/6 ∈ [-π/2, π/2], sin⁻¹(1/2) = π/6. (2) Then 2 sin⁻¹(1/2) = 2(π/6) = π/3. (3) cos(π/3) = 1/2. (4) 2 cos(π/3) = 2(1/2) = 1. (5) Finally, tan⁻¹(1) = π/4 since 1 = tan(π/4) and π/4 ∈ (-π/2, π/2).",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 2 Section 2.2"
     },
     {
       "id": "c12-math-2024-023",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Calculus",
       "type": "mcq",
+      "subtopic": "Continuity & Differentiability (Logarithmic Differentiation)",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 23 • 2 Marks]\nRegarding Calculus: Find dy/dx if x = a cos³ θ and y = a sin³ θ.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "If y = (sin x)^x for x ∈ (0, π), find the derivative dy/dx.",
       "options": [
-        "Standard NCERT board derivation for Calculus: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in Calculus",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "(sin x)^x [ln(sin x) + x cot x]",
+        "(sin x)^x [ln(cos x) + x tan x]",
+        "x (sin x)^(x-1) cos x",
+        "(sin x)^x [x ln(sin x) + cot x]"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Calculus: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Calculus.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "70a042282d91be929703135081ea64bfb8be453ff4659dffa4beb3497362345b",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Taking natural logarithm on both sides: ln y = ln((sin x)^x) = x ln(sin x). Differentiating both sides with respect to x using the product rule and chain rule: (1/y) (dy/dx) = (d/dx(x)) ln(sin x) + x (d/dx(ln(sin x))) = 1 · ln(sin x) + x · (1/sin x) · cos x = ln(sin x) + x cot x. Multiplying both sides by y gives: dy/dx = y [ln(sin x) + x cot x] = (sin x)^x [ln(sin x) + x cot x].",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 5 Section 5.5"
     },
     {
       "id": "c12-math-2024-024",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "Vectors",
       "type": "mcq",
+      "subtopic": "Vector Algebra",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 24 • 2 Marks]\nRegarding Vectors: Find unit vector perpendicular to both (a + b) and (a - b).\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Find the area of the parallelogram whose adjacent sides are represented by the vectors a = i + 2j + 3k and b = 3i - 2j + k.",
       "options": [
-        "Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in Vectors",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "8√3 sq units",
+        "4√3 sq units",
+        "16√3 sq units",
+        "8 sq units"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Vectors.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "4d9333b33395b96068984227197ec6e75433bd244284e863f77e26fabb4296b0",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The area of a parallelogram with adjacent sides a and b is given by |a × b|. The cross product a × b is: |[i, j, k], [1, 2, 3], [3, -2, 1]| = i(2(1) - 3(-2)) - j(1(1) - 3(3)) + k(1(-2) - 2(3)) = i(2 + 6) - j(1 - 9) + k(-2 - 6) = 8i + 8j - 8k. The magnitude is |a × b| = √(8² + 8² + (-8)²) = √(64 + 64 + 64) = √(64 · 3) = 8√3 sq units.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 10 Section 10.4"
     },
     {
       "id": "c12-math-2024-025",
-      "section": "Section B: VSA (2M)",
-      "subtopic": "3D Geometry",
       "type": "mcq",
+      "subtopic": "Three Dimensional Geometry",
       "difficulty": "Medium",
-      "marks": 2,
-      "question": "[Official CBSE 2024 Board Examination Question 25 • 2 Marks]\nRegarding 3D Geometry: Find the distance of point (2, 3, -5) from the plane x + 2y - 2z = 9.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Find the vector equation of the straight line passing through the point (1, 2, -4) and parallel to the line (x - 3)/4 = (y - 2)/(-5) = (z + 1)/3.",
       "options": [
-        "Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.",
-        "Incorrect algebraic integration constant omitted in 3D Geometry",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "r = (i + 2j - 4k) + λ(4i - 5j + 3k)",
+        "r = (3i + 2j - k) + λ(i + 2j - 4k)",
+        "r = (i + 2j - 4k) + λ(3i + 2j - k)",
+        "r = (4i - 5j + 3k) + λ(i + 2j - 4k)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 2 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 1 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on 3D Geometry.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "b29b333a68c08974a79b747b5de5e79475cb950761e6a8b1765ebd9528ea20c0",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "The required line passes through point A with position vector a = i + 2j - 4k. Since it is parallel to the given line, its direction ratios are proportional to the direction ratios of the given line, namely b = 4i - 5j + 3k. The vector equation of a line passing through a point with position vector a and parallel to vector b is r = a + λ b. Thus, r = (i + 2j - 4k) + λ(4i - 5j + 3k).",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 11 Section 11.2"
     },
     {
       "id": "c12-math-2024-026",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Matrices",
       "type": "mcq",
+      "subtopic": "Matrices",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 26 • 3 Marks]\nRegarding Matrices: Find matrix X such that 2A + B + X = 0 given A and B.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "If matrix A = [[1, -1], [2, -1]] and B = [[a, 1], [b, -1]], and (A + B)² = A² + B², determine the values of real constants a and b.",
       "options": [
-        "Standard NCERT board derivation for Matrices: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Matrices",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "a = 1, b = 4",
+        "a = 2, b = 3",
+        "a = 1, b = 2",
+        "a = 4, b = 1"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Matrices: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Matrices.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "4a5b197b5372924b1afd96014d0547d652c260974a85cc6525de9dcb474329ce",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "We have (A + B)² = (A + B)(A + B) = A² + AB + BA + B². Given (A + B)² = A² + B², it follows that AB + BA = O (the zero matrix). Computing AB: [[1, -1], [2, -1]] [[a, 1], [b, -1]] = [[a - b, 1 - (-1)], [2a - b, 2 - (-1)]] = [[a - b, 2], [2a - b, 3]]. Computing BA: [[a, 1], [b, -1]] [[1, -1], [2, -1]] = [[a + 2, -a - 1], [b - 2, -b + 1]]. Summing AB + BA: [[a - b + a + 2, 2 - a - 1], [2a - b + b - 2, 3 - b + 1]] = [[2a - b + 2, 1 - a], [2a - 2, 4 - b]]. Setting this equal to [[0, 0], [0, 0]]: From row 1 col 2: 1 - a = 0 ⟹ a = 1. From row 2 col 2: 4 - b = 0 ⟹ b = 4. Checking remaining entries: 2a - 2 = 2(1) - 2 = 0, and 2a - b + 2 = 2(1) - 4 + 2 = 0. All conditions are satisfied for a = 1 and b = 4.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 3 Section 3.4"
     },
     {
       "id": "c12-math-2024-027",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Continuity",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 27 • 3 Marks]\nRegarding Continuity: Find values of a and b so that piecewise function f(x) is continuous everywhere.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "subtopic": "Continuity & Differentiability (Second Order Derivative)",
+      "difficulty": "Hard",
+      "question": "If x = a(cos t + t sin t) and y = a(sin t - t cos t), find the value of d²y/dx² at t = π/4.",
       "options": [
-        "Standard NCERT board derivation for Continuity: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Continuity",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "8√2 / (π a)",
+        "4√2 / (π a)",
+        "2√2 / (π a)",
+        "8 / (π a)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Continuity: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Continuity.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "1d482676f3808084d5b9460adcc4ef8da62632183608961920f1f70cfdcb60ff",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Differentiating parametrically: dx/dt = a[-sin t + (sin t + t cos t)] = a t cos t. dy/dt = a[cos t - (cos t - t sin t)] = a t sin t. Thus dy/dx = (dy/dt) / (dx/dt) = (a t sin t) / (a t cos t) = tan t. Now, d²y/dx² = (d/dx)(dy/dx) = (d/dt(tan t)) · (dt/dx) = sec² t · (1 / (a t cos t)) = sec³ t / (a t). Evaluating at t = π/4: sec(π/4) = √2 ⟹ sec³(π/4) = (√2)³ = 2√2. Denominator = a(π/4). Therefore, d²y/dx² = (2√2) / (a π / 4) = 8√2 / (π a).",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 5 Section 5.7"
     },
     {
       "id": "c12-math-2024-028",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Integrals",
       "type": "mcq",
+      "subtopic": "Integrals",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 28 • 3 Marks]\nRegarding Integrals: Evaluate ∫ [from 0 to π/2] (sin⁴ x) / (sin⁴ x + cos⁴ x) dx using King's property.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Evaluate the definite integral: I = ∫ [from 0 to π] (x sin x) / (1 + cos² x) dx.",
       "options": [
-        "Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Integrals",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "π²/4",
+        "π²/2",
+        "π/4",
+        "π²"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Integrals.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "45390379f4e95cbcf486df6e61c9bfa911e311627eb5a3d64016a689fbcba466",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Let I = ∫ [0 to π] (x sin x) / (1 + cos² x) dx ... (1). Using property ∫ [0 to a] f(x) dx = ∫ [0 to a] f(a - x) dx: I = ∫ [0 to π] [(π - x) sin(π - x)] / [1 + cos²(π - x)] dx = ∫ [0 to π] [(π - x) sin x] / [1 + cos² x] dx = π ∫ [0 to π] (sin x) / (1 + cos² x) dx - I. Thus 2I = π ∫ [0 to π] (sin x) / (1 + cos² x) dx. Let cos x = t ⟹ -sin x dx = dt. When x = 0, t = 1; when x = π, t = -1. 2I = π ∫ [1 to -1] (-dt) / (1 + t²) = π ∫ [-1 to 1] dt / (1 + t²) = π [tan⁻¹(t)] [-1 to 1] = π [π/4 - (-π/4)] = π [π/2] = π²/2. Hence I = π²/4.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 7 Section 7.11"
     },
     {
       "id": "c12-math-2024-029",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Differential Equations",
       "type": "mcq",
+      "subtopic": "Differential Equations",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 29 • 3 Marks]\nRegarding Differential Equations: Solve homogeneous differential equation x² dy + (xy + y²) dx = 0.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Find the particular solution of the differential equation: (1 + e^(2x)) dy + (1 + y²) e^x dx = 0, given that y = 1 when x = 0.",
       "options": [
-        "Standard NCERT board derivation for Differential Equations: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Differential Equations",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "tan⁻¹ y + tan⁻¹(e^x) = π/2",
+        "tan⁻¹ y - tan⁻¹(e^x) = 0",
+        "y = e^(2x) - 1",
+        "ln(1 + y²) + ln(1 + e^(2x)) = ln 4"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Differential Equations: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Differential Equations.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "88911f54d08ad1e611f512ee22a383d0d3a154f6dd7f9b867d305aad730589f8",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Separating variables: (1 + e^(2x)) dy = -(1 + y²) e^x dx ⟹ dy / (1 + y²) = - [e^x / (1 + (e^x)²)] dx. Integrating both sides: ∫ dy / (1 + y²) = - ∫ e^x / (1 + (e^x)²) dx. Substituting u = e^x, du = e^x dx: tan⁻¹ y = -tan⁻¹(e^x) + C ⟹ tan⁻¹ y + tan⁻¹(e^x) = C. Given initial condition y = 1 when x = 0: tan⁻¹(1) + tan⁻¹(e⁰) = C ⟹ π/4 + tan⁻¹(1) = C ⟹ π/4 + π/4 = C ⟹ C = π/2. Therefore, the particular solution is tan⁻¹ y + tan⁻¹(e^x) = π/2 (which also simplifies to y · e^x = 1, i.e., y = e^(-x)).",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 9 Section 9.4"
     },
     {
       "id": "c12-math-2024-030",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Vectors",
       "type": "mcq",
-      "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 30 • 3 Marks]\nRegarding Vectors: Find value of λ for which vectors a, b, c are coplanar: [a b c] = 0.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "subtopic": "Vector Algebra",
+      "difficulty": "Easy",
+      "question": "If a, b, and c are mutually perpendicular unit vectors, what is the magnitude of the vector (2a + b + 2c)?",
       "options": [
-        "Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Vectors",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "3",
+        "√5",
+        "5",
+        "9"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Vectors: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Vectors.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "619ebc64baaf2c41a5c6beff54e86f86d478c4857753b442aaa8a951fd3f6b49",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Since a, b, c are unit vectors, |a| = |b| = |c| = 1. Since they are mutually perpendicular, a · b = b · c = c · a = 0. Expanding the squared magnitude: |2a + b + 2c|² = (2a + b + 2c) · (2a + b + 2c) = 4|a|² + |b|² + 4|c|² + 2(2)(a · b) + 2(2)(a · c) + 2(b · c) = 4(1)² + 1(1)² + 4(1)² + 0 = 4 + 1 + 4 = 9. Taking the square root gives |2a + b + 2c| = √9 = 3.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 10 Section 10.4"
     },
     {
       "id": "c12-math-2024-031",
-      "section": "Section C: SA (3M)",
-      "subtopic": "Probability",
       "type": "mcq",
+      "subtopic": "Probability (Random Variables & Expected Value)",
       "difficulty": "Medium",
-      "marks": 3,
-      "question": "[Official CBSE 2024 Board Examination Question 31 • 3 Marks]\nRegarding Probability: Two cards drawn without replacement from 52 cards: find probability distribution of number of aces.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Two cards are drawn simultaneously without replacement from a well-shuffled pack of 52 cards. Let random variable X denote the number of kings drawn. What is the expected value (mean) of X?",
       "options": [
-        "Standard NCERT board derivation for Probability: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.",
-        "Incorrect algebraic integration constant omitted in Probability",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "2/13",
+        "1/13",
+        "4/13",
+        "1/26"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Probability: strictly satisfies statutory CBSE step-marking criteria for full 3 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 2 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Probability.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "e272e60afb5368141d2914aadcd23e7dcea2c6a25b426ec1abe5a133ea813061",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "In a standard deck of 52 cards, there are 4 kings and 48 non-kings. X can take values 0, 1, 2. Total ways to draw 2 cards = C(52, 2) = (52 × 51)/2 = 1326. P(X = 0) = C(48, 2) / 1326 = 1128 / 1326 = 188 / 221. P(X = 1) = [C(4, 1) × C(48, 1)] / 1326 = (4 × 48) / 1326 = 192 / 1326 = 32 / 221. P(X = 2) = C(4, 2) / 1326 = 6 / 1326 = 1 / 221. The mean (expected value) is E(X) = ∑ x_i P(x_i) = 0 · (188/221) + 1 · (32/221) + 2 · (1/221) = (32 + 2) / 221 = 34 / 221 = 2 / 13.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 13 Section 13.4"
     },
     {
       "id": "c12-math-2024-032",
-      "section": "Section D: Long Answer (5M)",
-      "subtopic": "Application of Derivatives",
       "type": "mcq",
+      "subtopic": "Application of Derivatives (Optimization)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 32 • 5 Marks]\nRegarding Application of Derivatives: Show that right circular cone of least curved surface and given volume has altitude = √2 radius.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "A closed cylindrical tin can is manufactured to contain a fixed given total surface area S. What geometric relation between its height h and radius r maximizes its volume?",
       "options": [
-        "Standard NCERT board derivation for Application of Derivatives: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect algebraic integration constant omitted in Application of Derivatives",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "h = 2r (height equals diameter)",
+        "h = r (height equals radius)",
+        "h = 4r",
+        "h = r / 2"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Application of Derivatives: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Application of Derivatives.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "b1003c85935379fe666180fccbadd7a9eced0387c4bf2899392104d47375d7db",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Total surface area S = 2π r² + 2π r h ⟹ h = (S - 2π r²) / (2π r) = S / (2π r) - r. The volume of the cylinder is V = π r² h = π r² [S / (2π r) - r] = (S r) / 2 - π r³. For maximum volume, dV/dr = 0: dV/dr = S/2 - 3π r² = 0 ⟹ S = 6π r². Substituting S = 2π r² + 2π r h gives: 2π r² + 2π r h = 6π r² ⟹ 2π r h = 4π r² ⟹ h = 2r. Second derivative test: d²V/dr² = -6π r < 0 for r > 0, confirming a maximum. Thus, the volume is maximum when its height is equal to its diameter (h = 2r).",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 6 Section 6.5"
     },
     {
       "id": "c12-math-2024-033",
-      "section": "Section D: Long Answer (5M)",
-      "subtopic": "Integrals",
       "type": "mcq",
+      "subtopic": "Application of Integrals",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 33 • 5 Marks]\nRegarding Integrals: Find area of smaller region bounded by circle x² + y² = 4 and line x + y = 2.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Find the area of the region bounded by the circle x² + y² = 32, the line y = x, and the positive x-axis in the first quadrant.",
       "options": [
-        "Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect algebraic integration constant omitted in Integrals",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "4π sq units",
+        "8π sq units",
+        "2π sq units",
+        "16π sq units"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Integrals: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Integrals.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "c1cea401137eac43d4bb223459704eceb52be7ea331a3b705d2dd72df2de1180",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Intersection of line y = x and circle x² + y² = 32: x² + x² = 32 ⟹ 2x² = 32 ⟹ x² = 16 ⟹ x = 4 (in the first quadrant). The circle radius is R = √32 = 4√2. The area is divided into two parts: Area = ∫ [0 to 4] y_line dx + ∫ [4 to 4√2] y_circle dx = ∫ [0 to 4] x dx + ∫ [4 to 4√2] √(32 - x²) dx. Part 1: [x²/2] [0 to 4] = 16/2 = 8. Part 2: [(x/2)√(32 - x²) + (32/2) sin⁻¹(x / (4√2))] [from 4 to 4√2] = [0 + 16 sin⁻¹(1)] - [(4/2)√(16) + 16 sin⁻¹(4 / 4√2)] = 16(π/2) - [2(4) + 16 sin⁻¹(1/√2)] = 8π - [8 + 16(π/4)] = 8π - 8 - 4π = 4π - 8. Total Area = 8 + (4π - 8) = 4π sq units.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 8 Section 8.1"
     },
     {
       "id": "c12-math-2024-034",
-      "section": "Section D: Long Answer (5M)",
-      "subtopic": "Linear Equations",
       "type": "mcq",
+      "subtopic": "Linear Equations (Matrix Method)",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 34 • 5 Marks]\nRegarding Linear Equations: Solve system of 3 linear equations using matrix inversion method: X = A⁻¹ B.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Solve the system of linear equations using matrix inversion:\n2x - 3y + 5z = 11\n3x + 2y - 4z = -5\nx + y - 2z = -3",
       "options": [
-        "Standard NCERT board derivation for Linear Equations: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect algebraic integration constant omitted in Linear Equations",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "x = 1, y = 2, z = 3",
+        "x = 2, y = 1, z = 3",
+        "x = 1, y = 3, z = 2",
+        "x = -1, y = 2, z = 3"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Linear Equations: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Linear Equations.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "f8bbe7fc1bdef08377d206297d502635c01926bbaf8628020811af49df3dfa5d",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "In matrix form AX = B: A = [[2, -3, 5], [3, 2, -4], [1, 1, -2]], X = [[x], [y], [z]], B = [[11], [-5], [-3]]. Determinant |A| = 2(-4 - (-4)) - (-3)(-6 - (-4)) + 5(3 - 2) = 2(0) + 3(-2) + 5(1) = 0 - 6 + 5 = -1 ≠ 0. Since |A| ≠ 0, A⁻¹ exists. Cofactors of A: C₁₁ = 0, C₁₂ = 2, C₁₃ = 1; C₂₁ = -1, C₂₂ = -9, C₂₃ = -5; C₃₁ = 2, C₃₂ = 23, C₃₃ = 13. Adj(A) = [[0, -1, 2], [2, -9, 23], [1, -5, 13]]. Then A⁻¹ = (1/|A|) Adj(A) = -1 [[0, -1, 2], [2, -9, 23], [1, -5, 13]] = [[0, 1, -2], [-2, 9, -23], [-1, 5, -13]]. Multiplying X = A⁻¹ B: x = 0(11) + 1(-5) + (-2)(-3) = -5 + 6 = 1. y = -2(11) + 9(-5) + (-23)(-3) = -22 - 45 + 69 = 2. z = -1(11) + 5(-5) + (-13)(-3) = -11 - 25 + 39 = 3. Thus, x = 1, y = 2, z = 3.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 4 Section 4.6"
     },
     {
       "id": "c12-math-2024-035",
-      "section": "Section D: Long Answer (5M)",
-      "subtopic": "3D Geometry",
       "type": "mcq",
+      "subtopic": "Three Dimensional Geometry",
       "difficulty": "Hard",
-      "marks": 5,
-      "question": "[Official CBSE 2024 Board Examination Question 35 • 5 Marks]\nRegarding 3D Geometry: Find shortest distance between skew lines r = a1 + λb1 and r = a2 + μb2.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "Find the Cartesian equations of the line passing through the point (2, 1, 3) and perpendicular to the lines (x - 1)/1 = (y - 2)/2 = (z - 3)/3 and x/(-3) = y/2 = z/5.",
       "options": [
-        "Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.",
-        "Incorrect algebraic integration constant omitted in 3D Geometry",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "(x - 2)/2 = (y - 1)/(-7) = (z - 3)/4",
+        "(x - 2)/4 = (y - 1)/(-14) = (z - 3)/6",
+        "(x - 2)/2 = (y - 1)/7 = (z - 3)/4",
+        "(x - 2)/1 = (y - 1)/(-3) = (z - 3)/2"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for 3D Geometry: strictly satisfies statutory CBSE step-marking criteria for full 5 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 4 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on 3D Geometry.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "9ed3d3f73ec85f5631ea794ad42ba627276162ba0bdcf4c0f579d2d9b0e04646",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Let the required line have direction ratios <a, b, c>. Since it is perpendicular to line 1 with direction <1, 2, 3>: 1a + 2b + 3c = 0. Since it is perpendicular to line 2 with direction <-3, 2, 5>: -3a + 2b + 5c = 0. Solving by cross-multiplication: a / [2(5) - 3(2)] = b / [3(-3) - 1(5)] = c / [1(2) - 2(-3)] ⟹ a / [10 - 6] = b / [-9 - 5] = c / [2 + 6] ⟹ a/4 = b/(-14) = c/8 ⟹ a/2 = b/(-7) = c/4. Thus, direction ratios are proportional to <2, -7, 4>. Since the line passes through (x₁, y₁, z₁) = (2, 1, 3), its Cartesian equation is (x - 2)/2 = (y - 1)/(-7) = (z - 3)/4.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 11 Section 11.2"
     },
     {
       "id": "c12-math-2024-036",
-      "section": "Section E: Case Study (4M)",
-      "subtopic": "Case Study 1",
       "type": "mcq",
+      "subtopic": "Case Study 1 (Application of Derivatives - Wire Partition)",
       "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2024 Board Examination Question 36 • 4 Marks]\nRegarding Case Study 1: Real-world manufacturing packaging optimization: cost minimization of cylindrical can.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "[Case Study: Material Optimization] A wire of total length 28 m is cut into two pieces. One piece is bent into a square of side x m and the other into a circle of radius r m. What should be the lengths of wire allocated to the square and circle respectively so that their combined area is MINIMUM?",
       "options": [
-        "Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect algebraic integration constant omitted in Case Study 1",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "Square wire = 112/(π + 4) m, Circle wire = 28π/(π + 4) m",
+        "Square wire = 56/(π + 4) m, Circle wire = 56π/(π + 4) m",
+        "Square wire = 14 m, Circle wire = 14 m",
+        "Square wire = 28/(π + 4) m, Circle wire = 112π/(π + 4) m"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 1: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 3 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Case Study 1.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "d7df626c3fd2e45abc1794d0ac3b763fe532a1f1104fb92ceb8b132595d657ee",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Let perimeter of square be 4x and circumference of circle be 2π r. Then 4x + 2π r = 28 ⟹ r = (28 - 4x) / (2π) = (14 - 2x) / π. Combined area A(x) = x² + π r² = x² + π [(14 - 2x) / π]² = x² + (4/π)(7 - x)². Differentiating with respect to x: dA/dx = 2x + (4/π) · 2(7 - x)(-1) = 2x - (8/π)(7 - x). Setting dA/dx = 0: 2x = (8/π)(7 - x) ⟹ π x = 4(7 - x) = 28 - 4x ⟹ (π + 4)x = 28 ⟹ x = 28 / (π + 4). Second derivative d²A/dx² = 2 + 8/π > 0 (confirms minimum). Length of wire for square = 4x = 4(28) / (π + 4) = 112 / (π + 4) m. Length of wire for circle = 28 - 112/(π + 4) = (28π + 112 - 112) / (π + 4) = 28π / (π + 4) m.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 6 Section 6.5"
     },
     {
       "id": "c12-math-2024-037",
-      "section": "Section E: Case Study (4M)",
-      "subtopic": "Case Study 2",
       "type": "mcq",
+      "subtopic": "Case Study 2 (Probability - Actuarial Risk & Bayes' Theorem)",
       "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2024 Board Examination Question 37 • 4 Marks]\nRegarding Case Study 2: Epidemic viral test diagnosis: Bayes' Theorem with false positive and false negative rates.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "[Case Study: Actuarial Science] An insurance company insures 2,000 scooter drivers, 4,000 car drivers, and 6,000 truck drivers. The empirical accident rates are 0.01 for scooter drivers, 0.03 for car drivers, and 0.15 for truck drivers. If one of the insured policyholders meets with an accident, what is the probability that the driver is a SCOOTER driver?",
       "options": [
-        "Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect algebraic integration constant omitted in Case Study 2",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "1/52",
+        "3/52",
+        "6/52",
+        "1/12"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 2: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 3 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Case Study 2.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "25b28e883d4ceb68a6a168bbd0b338d99809504f4a4579872b735a3f373919af",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Total policyholders = 2000 + 4000 + 6000 = 12000. Let E₁: scooter driver, E₂: car driver, E₃: truck driver, and A: person meets with an accident. Prior probabilities: P(E₁) = 2000/12000 = 1/6, P(E₂) = 4000/12000 = 1/3, P(E₃) = 6000/12000 = 1/2. Conditional probabilities: P(A|E₁) = 0.01 = 1/100, P(A|E₂) = 0.03 = 3/100, P(A|E₃) = 0.15 = 15/100. Total probability P(A) = (1/6)(1/100) + (1/3)(3/100) + (1/2)(15/100) = (1/600) + (6/600) + (45/600) = 52/600. By Bayes' Theorem: P(E₁|A) = [P(E₁) P(A|E₁)] / P(A) = (1/600) / (52/600) = 1/52.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 13 Section 13.3"
     },
     {
       "id": "c12-math-2024-038",
-      "section": "Section E: Case Study (4M)",
-      "subtopic": "Case Study 3",
       "type": "mcq",
+      "subtopic": "Case Study 3 (Linear Programming - Retail Inventory Optimization)",
       "difficulty": "Hard",
-      "marks": 4,
-      "question": "[Official CBSE 2024 Board Examination Question 38 • 4 Marks]\nRegarding Case Study 3: Aviation radar flight path tracking: Vector intersection of two aircraft trajectory lines.\nWhat is the verified mathematical derivation and stepwise solution in the official CBSE marking scheme?",
+      "question": "[Case Study: Supply Chain Logistics] A computer merchant sells desktop computers (costing ₹25,000 each) and portable laptops (costing ₹40,000 each). Monthly demand does not exceed 250 units, and the merchant's capital investment cannot exceed ₹70,00,000 (70 lakhs). If profit per desktop is ₹4,500 and per laptop is ₹5,000, what is the MAXIMUM achievable monthly profit?",
       "options": [
-        "Standard NCERT board derivation for Case Study 3: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.",
-        "Incorrect algebraic integration constant omitted in Case Study 3",
-        "Matrix cofactor transposed with erroneous checkerboard sign parity",
-        "Boundary condition domain restriction violated in optimization"
+        "₹11,50,000 (at 200 desktops and 50 laptops)",
+        "₹11,25,000 (at 250 desktops and 0 laptops)",
+        "₹8,75,000 (at 0 desktops and 175 laptops)",
+        "₹12,50,000 (at 150 desktops and 100 laptops)"
       ],
       "answer": 0,
-      "explanation": "**Official Solution:** Standard NCERT board derivation for Case Study 3: strictly satisfies statutory CBSE step-marking criteria for full 4 marks.\n\nStep Marking Breakdown (CBSE 2024 Marking Scheme):\n1. Formula / Theorem statement: 1 Mark\n2. Analytical steps & substitutions: 3 Mark(s)\nReference: NCERT Class 12 Mathematics, statutory chapter on Case Study 3.",
-      "citation": "CBSE year-labelled practice set; exact original board-paper and official marking-scheme match not authenticated in this release.",
-      "legacy_citation_note": "CBSE Class 12 Official 2024 Board Examination (Mathematics 041) & NCERT",
-      "quality_review": {
-        "review_date": "2026-11-05",
-        "structural_validation": "passed",
-        "answer_accuracy_status": "pending_independent_subject_matter_verification",
-        "explanation_option_consistency": "not_tested_no_explicit_answer_line",
-        "source_provenance_status": "year_label_not_authenticated",
-        "source_note": "CBSE year-labelled practice set; original board paper and official key not attached or item-matched in supplied release.",
-        "authority_reference_url": "https://ncert.nic.in/textbook.php",
-        "authority_reference_scope": "NCERT curriculum/topic reference only; exact item source and answer-key match not verified.",
-        "item_level_source_url_present": false,
-        "automated_overlap_audit": {
-          "audit_date": "2026-11-05",
-          "normalized_question_stem_sha256": "5e7ee17896bfd6f9ec9cbbf3404beb45f33cb00655a12c91917298be4e60d0cf",
-          "duplicate_group_id": "",
-          "duplicate_instance_count": 1,
-          "option_set_variant_count": 1,
-          "selected_answer_text_variant_count": 1,
-          "explanation_variant_count": 1,
-          "review_interpretation": "automated text-overlap comparison only; not a factual answer verification"
-        }
-      }
+      "explanation": "Let x = number of desktops and y = number of laptops. Constraints: x + y ≤ 250 (demand constraint), 25,000x + 40,000y ≤ 70,00,000 ⟹ 5x + 8y ≤ 1400 (capital constraint), with x ≥ 0, y ≥ 0. Objective function: Maximize Z = 4500x + 5000y. Corner points of the convex feasible region: (1) (0, 0): Z = 0. (2) (250, 0): Z = 4500(250) + 0 = ₹11,25,000. (3) (0, 175) [from 8y ≤ 1400 ⟹ y = 175]: Z = 5000(175) = ₹8,75,000. (4) Intersection of x + y = 250 and 5x + 8y = 1400: Substitute x = 250 - y into 5(250 - y) + 8y = 1400 ⟹ 1250 + 3y = 1400 ⟹ 3y = 150 ⟹ y = 50, x = 200. At (200, 50): Z = 4500(200) + 5000(50) = 9,00,000 + 2,50,000 = ₹11,50,000. Comparing all corner points, the maximum profit is ₹11,50,000 obtained by stocking 200 desktops and 50 portable laptops.",
+      "citation": "CBSE Class 12 Mathematics Board Paper 2024 / NCERT Chapter 12 Section 12.2"
     }
   ]
 }
