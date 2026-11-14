@@ -44,12 +44,12 @@
       "difficulty": "Easy",
       "question": "Which organelle is found in both prokaryotic bacterium and eukaryotic hepatocytes?",
       "options": [
-        "Ribosomes",
         "Mitochondria",
+        "Ribosomes",
         "Endoplasmic reticulum",
         "Golgi apparatus"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Ribosomes are non-membrane bound organelles present in both prokaryotes (70S) and eukaryotes (80S), carrying out polypeptide translation.",
       "citation": "IB Biology Subject Guide — Topic 1.2: Ultrastructure of Cells",
       "quality_review": {
@@ -81,12 +81,12 @@
       "difficulty": "Medium",
       "question": "When plant tissue is placed in a hypertonic sucrose solution with a more negative water potential than the cytoplasm, what physiological event occurs?",
       "options": [
-        "Plasmolysis occurs as water leaves the cell by osmosis, causing the plasma membrane to detach from the cell wall",
         "The cell becomes fully turgid as water rushes into the central vacuole down its osmotic gradient",
         "The cell bursts due to osmotic lysis because plant cell walls cannot withstand tensile tension",
+        "Plasmolysis occurs as water leaves the cell by osmosis, causing the plasma membrane to detach from the cell wall",
         "Active sucrose symporters pump water out of the cell against concentration gradients"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "In a hypertonic solution (lower water potential/higher osmolarity), water leaves the plant cell vacuole via osmosis. Turgor pressure drops to zero, and the shrinking protoplast pulls away from the rigid cellulose wall (plasmolysis).",
       "citation": "IB Biology Subject Guide — Topic 1.4: Membrane Transport",
       "quality_review": {
@@ -118,12 +118,12 @@
       "difficulty": "Medium",
       "question": "In a biopsy sample of malignant tumor tissue, 120 cells out of 800 counted cells are undergoing active mitosis. What is the mitotic index?",
       "options": [
-        "0.15 (15%)",
         "0.015 (1.5%)",
         "0.66 (66%)",
-        "0.08 (8%)"
+        "0.08 (8%)",
+        "0.15 (15%)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Mitotic Index = (Number of cells in mitosis) / (Total number of cells). Mitotic Index = 120 / 800 = 0.15 (or 15%). Elevated mitotic indices are diagnostic of rapid cell proliferation in carcinomas.",
       "citation": "IB Biology Subject Guide — Topic 1.6: Cell Division",
       "quality_review": {
@@ -192,12 +192,12 @@
       "difficulty": "Easy",
       "question": "Which reaction represents an anabolic metabolic process requiring condensation and ATP input?",
       "options": [
-        "Synthesis of a polypeptide chain from amino acid monomers on a ribosome",
         "Hydrolysis of glycogen into individual glucose-6-phosphate molecules in skeletal muscle",
+        "Synthesis of a polypeptide chain from amino acid monomers on a ribosome",
         "Catabolic breakdown of glucose to pyruvate during glycolysis",
         "Oxidative deamination of amino acids into urea and keto acids in liver tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Anabolism refers to the metabolic synthesis of complex organic macromolecules from simpler precursor monomers via condensation reactions, consuming ATP energy (e.g. protein synthesis, DNA replication).",
       "citation": "IB Biology Subject Guide — Topic 2.1: Molecules to Metabolism",
       "quality_review": {
@@ -229,12 +229,12 @@
       "difficulty": "Medium",
       "question": "How does extreme deviation from optimum pH cause permanent denaturation of a globular enzyme?",
       "options": [
-        "Alters the ionization and charges on amino acid R-groups, disrupting ionic bonds and hydrogen bonds that maintain tertiary structure",
         "Breaks all primary peptide bonds between adjacent amino acids",
         "Hydrolyzes all carbon-carbon covalent bonds throughout the polypeptide backbone",
+        "Alters the ionization and charges on amino acid R-groups, disrupting ionic bonds and hydrogen bonds that maintain tertiary structure",
         "Inverts the chirality of alpha carbons from L-amino acids to D-amino acids"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Changes in pH alter the ionization of acidic and basic R-groups (e.g., carboxyl and amino groups). This disrupts ionic interactions and hydrogen bonds stabilizing the enzyme's specific 3D tertiary conformation, causing loss of catalytic active site structure.",
       "citation": "IB Biology Subject Guide — Topic 2.5: Enzymes",
       "quality_review": {
@@ -266,12 +266,12 @@
       "difficulty": "Easy",
       "question": "Which combination of pentose sugar and nitrogenous pyrimidine base distinguishes RNA from DNA?",
       "options": [
-        "Ribose and Uracil",
         "Deoxyribose and Thymine",
         "Ribose and Cytosine",
-        "Deoxyribose and Adenine"
+        "Deoxyribose and Adenine",
+        "Ribose and Uracil"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "RNA contains ribose sugar (with a 2'-OH hydroxyl group) and the pyrimidine base uracil, whereas DNA contains 2'-deoxyribose sugar and thymine.",
       "citation": "IB Biology Subject Guide — Topic 2.6: Structure of DNA and RNA",
       "quality_review": {
@@ -340,12 +340,12 @@
       "difficulty": "Medium",
       "question": "What does the action spectrum of photosynthesis depict?",
       "options": [
-        "The relative rate of photosynthetic activity at different wavelengths of light across the visible spectrum",
         "The percentage of light absorbed by an isolated solution of chlorophyll a",
+        "The relative rate of photosynthetic activity at different wavelengths of light across the visible spectrum",
         "The exact absorption bands of thylakoid carotenes in non-polar organic solvents",
         "The rate of stomatal transpiration at varying ambient temperatures"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "An action spectrum shows the rate of photosynthesis (e.g. oxygen production) across the visible light spectrum (400–700 nm), demonstrating peak efficiency in blue (~430 nm) and red (~660 nm) wavelengths.",
       "citation": "IB Biology Subject Guide — Topic 2.9: Photosynthesis",
       "quality_review": {
@@ -377,12 +377,12 @@
       "difficulty": "Hard",
       "question": "In the light-independent reactions (Calvin cycle), which reaction is catalyzed by the enzyme Rubisco?",
       "options": [
-        "Carboxylation of ribulose bisphosphate (RuBP, 5C) by CO2 to yield an unstable 6C intermediate that splits into two molecules of glycerate-3-phosphate (GP, 3C)",
         "Reduction of glycerate-3-phosphate (GP) into triose phosphate (TP) using ATP and NADPH",
         "Regeneration of RuBP from triose phosphate requiring consumption of GTP",
+        "Carboxylation of ribulose bisphosphate (RuBP, 5C) by CO2 to yield an unstable 6C intermediate that splits into two molecules of glycerate-3-phosphate (GP, 3C)",
         "Oxidative decarboxylation of glucose into two molecules of oxaloacetate"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Ribulose-1,5-bisphosphate carboxylase-oxygenase (Rubisco) fixes atmospheric CO2 onto the 5-carbon sugar RuBP. The unstable 6-carbon intermediate breaks down immediately into two 3-carbon molecules of glycerate-3-phosphate (GP).",
       "citation": "IB Biology Subject Guide — Topic 8.3: Photosynthesis (HL)",
       "quality_review": {
@@ -414,12 +414,12 @@
       "difficulty": "Hard",
       "question": "In the metabolic pathway converting threonine to isoleucine in bacteria, how does isoleucine regulate its own synthesis when cellular concentrations are high?",
       "options": [
-        "Acts as a non-competitive allosteric inhibitor of the first enzyme in the pathway, threonine deaminase",
         "Binds covalently to bacterial ribosomes to permanently degrade mRNA transcripts",
         "Competes directly with threonine at the catalytic active site of threonine deaminase",
-        "Hydrolyzes all downstream intermediate metabolites through feedback proteolysis"
+        "Hydrolyzes all downstream intermediate metabolites through feedback proteolysis",
+        "Acts as a non-competitive allosteric inhibitor of the first enzyme in the pathway, threonine deaminase"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "This is the classic textbook example of end-product feedback inhibition. When isoleucine accumulates, it binds to an allosteric regulatory site on threonine deaminase (the first enzyme), altering its conformation and shutting down the pathway.",
       "citation": "IB Biology Subject Guide — Topic 8.1: Enzymes (HL)",
       "quality_review": {
@@ -488,12 +488,12 @@
       "difficulty": "Medium",
       "question": "Which specific base substitution mutation in the HBB gene causes sickle cell anemia?",
       "options": [
-        "GAG is mutated to GTG on the sense DNA strand, causing valine to replace glutamic acid at position 6 of the beta-globin polypeptide",
         "AAG is mutated to TAG, introducing a premature stop codon that truncates the alpha-globin chain",
+        "GAG is mutated to GTG on the sense DNA strand, causing valine to replace glutamic acid at position 6 of the beta-globin polypeptide",
         "Insertion of an extra adenine residue, causing a complete frameshift mutation",
         "Deletion of three nucleotides, deleting a single phenylalanine residue in the transmembrane channel"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The sickle-cell mutation is a single base substitution where the 6th codon of the beta-globin gene changes from GAG to GTG (mRNA: GAG to GUG). This substitutes polar, hydrophilic glutamic acid with non-polar, hydrophobic valine, causing hemoglobin to polymerize in low oxygen.",
       "citation": "IB Biology Subject Guide — Topic 3.1: Genes",
       "quality_review": {
@@ -525,12 +525,12 @@
       "difficulty": "Easy",
       "question": "During agarose gel electrophoresis of restriction-digested DNA fragments, why do smaller DNA fragments migrate faster towards the positive anode (+)?",
       "options": [
-        "All DNA fragments have a uniform negative charge due to phosphate groups, and smaller fragments experience less frictional resistance through the agarose matrix",
         "Smaller DNA fragments possess a higher net positive charge than larger fragments",
         "Agarose gel pores selectively bind larger nucleotide bases like adenine and guanine",
+        "All DNA fragments have a uniform negative charge due to phosphate groups, and smaller fragments experience less frictional resistance through the agarose matrix",
         "DNA ligase actively propels smaller fragments towards the electrode"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "DNA has a constant charge-to-mass ratio due to negatively charged phosphate groups in its sugar-phosphate backbone, causing it to migrate toward the positive anode (+). The agarose gel acts as a molecular sieve; shorter fragments encounter less resistance and travel further.",
       "citation": "IB Biology Subject Guide — Topic 3.5: Genetic Modification and Biotechnology",
       "quality_review": {
@@ -562,12 +562,12 @@
       "difficulty": "Hard",
       "question": "Why does continuous variation (such as human height or melanin skin pigmentation) follow a bell-shaped normal distribution curve?",
       "options": [
-        "The trait is controlled by multiple unlinked polygenic loci, whose additive alleles combine with environmental influences",
         "The trait is governed by a single Mendelian locus with complete dominance",
         "The trait results strictly from autosomal non-disjunction in parental meiosis",
-        "Epigenetic methylation completely silences all maternal alleles in embryonic development"
+        "Epigenetic methylation completely silences all maternal alleles in embryonic development",
+        "The trait is controlled by multiple unlinked polygenic loci, whose additive alleles combine with environmental influences"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Polygenic traits are controlled by two or more genes located at different loci. As the number of contributing additive alleles increases, the number of possible phenotypic combinations increases dramatically, approximating a smooth bell-shaped normal distribution.",
       "citation": "IB Biology Subject Guide — Topic 10.2: Inheritance (HL)",
       "quality_review": {
@@ -636,12 +636,12 @@
       "difficulty": "Easy",
       "question": "An organism that ingests other living or recently killed organisms to obtain internal chemical nutrition is classified as what?",
       "options": [
-        "A consumer (heterotroph)",
         "A saprotroph",
+        "A consumer (heterotroph)",
         "An autotroph",
         "A detritivore"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Consumers are heterotrophs that feed on living organisms by ingestion. Detritivores ingest non-living organic detritus internally, while saprotrophs secrete digestive enzymes externally and absorb the products.",
       "citation": "IB Biology Subject Guide — Topic 4.1: Species, Communities and Ecosystems",
       "quality_review": {
@@ -673,12 +673,12 @@
       "difficulty": "Medium",
       "question": "Which domain of organisms produces methane (CH4) gas from organic matter in anoxic environments like wetlands, digestive tracts of ruminants, and landfill sites?",
       "options": [
-        "Archaea (methanogenic archaeans)",
         "Eubacteria (cyanobacteria)",
         "Fungi (ascomycetes)",
+        "Archaea (methanogenic archaeans)",
         "Protista (ciliates)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Methanogenesis is carried out exclusively by methanogenic archaeans in strictly anaerobic conditions. They convert acetate, carbon dioxide, and hydrogen into methane gas: CO2 + 4H2 → CH4 + 2H2O.",
       "citation": "IB Biology Subject Guide — Topic 4.3: Carbon Cycling",
       "quality_review": {
@@ -710,12 +710,12 @@
       "difficulty": "Medium",
       "question": "Which three fundamental requirements are essential for the long-term sustainability of an ecological mesocosm?",
       "options": [
-        "Continuous supply of energy (light), nutrient recycling by decomposers, and detoxification of metabolic waste products",
         "Continuous artificial addition of synthetic nitrogen fertilizer, aeration, and pesticide application",
         "Presence of apex carnivorous predators, continuous water outflow, and soil turnover",
-        "Constant ambient temperature of exactly 37 °C, zero fungal presence, and airtight vacuum sealing"
+        "Constant ambient temperature of exactly 37 °C, zero fungal presence, and airtight vacuum sealing",
+        "Continuous supply of energy (light), nutrient recycling by decomposers, and detoxification of metabolic waste products"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Ecosystem sustainability depends on three requirements: continuous energy availability (e.g., sunlight for photosynthesis), nutrient availability through internal nutrient cycles (saprotrophic recycling), and recycling/detoxification of waste products.",
       "citation": "IB Biology Subject Guide — Topic 4.1: Species, Communities and Ecosystems",
       "quality_review": {
@@ -784,12 +784,12 @@
       "difficulty": "Hard",
       "question": "In a forest inhabited by light-colored and dark-colored peppered moths, intense industrial soot deposits on tree trunks led to a rapid increase in dark melanic morphs while light morphs were heavily predated. What form of natural selection occurred?",
       "options": [
-        "Directional selection",
         "Stabilizing selection",
+        "Directional selection",
         "Disruptive selection",
         "Artificial cloning selection"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Directional selection favors one extreme phenotype over intermediate and opposite extreme phenotypes, shifting the population mean towards the advantageous extreme (melanism).",
       "citation": "IB Biology Subject Guide — Topic 10.3: Gene Pools and Speciation (HL)",
       "quality_review": {
@@ -821,12 +821,12 @@
       "difficulty": "Medium",
       "question": "Based on Carl Woese's ribosomal RNA (16S/18S rRNA) sequence phylogeny, what are the three universally recognized domains of cellular life?",
       "options": [
-        "Archaea, Eubacteria, and Eukaryota",
         "Monera, Protista, and Animalia",
         "Prokaryota, Plantae, and Fungi",
+        "Archaea, Eubacteria, and Eukaryota",
         "Bacteria, Extremophiles, and Mammalia"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Molecular sequencing established the three-domain system: Archaea, Eubacteria (true bacteria), and Eukaryota (eukaryotes).",
       "citation": "IB Biology Subject Guide — Topic 5.3: Classification of Biodiversity",
       "quality_review": {
@@ -858,12 +858,12 @@
       "difficulty": "Medium",
       "question": "The streamlined body shape and dorsal fins of sharks (cartilaginous fish) and dolphins (mammals) represent which evolutionary concept?",
       "options": [
-        "Analogous structures arising from convergent evolution in response to similar hydrodynamic selective pressures",
         "Homologous structures inherited directly from an ancestral cetacean ancestor",
         "Vestigial structures undergoing rapid disruptive genetic drift",
-        "Adaptive divergence from a recent common terrestrial ancestor"
+        "Adaptive divergence from a recent common terrestrial ancestor",
+        "Analogous structures arising from convergent evolution in response to similar hydrodynamic selective pressures"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Sharks and dolphins belong to distinct taxonomic classes (Chondrichthyes vs Mammalia). Their similar aquatic body forms are analogous structures evolved independently through convergent evolution in an open water habitat.",
       "citation": "IB Biology Subject Guide — Topic 5.4: Cladistics",
       "quality_review": {
@@ -932,12 +932,12 @@
       "difficulty": "Easy",
       "question": "Why are clinical antibiotics completely ineffective in treating viral infections such as influenza, measles, and COVID-19?",
       "options": [
-        "Viruses lack their own metabolic pathways and cellular structures (no bacterial cell wall, 70S ribosomes, or replication enzymes), relying on host eukaryotic machinery",
         "Viruses rapidly mutate their outer lipid bilayers into peptidoglycan within minutes",
+        "Viruses lack their own metabolic pathways and cellular structures (no bacterial cell wall, 70S ribosomes, or replication enzymes), relying on host eukaryotic machinery",
         "Antibiotics are degraded by human gastric bile salts before reaching viruses",
         "Viruses possess active efflux pumps that neutralize beta-lactam rings"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Antibiotics target bacterial prokaryotic structures and processes (e.g., transpeptidase enzymes that crosslink peptidoglycan cell walls, 70S bacterial ribosomes). Viruses lack cellular metabolism, replicating inside host eukaryotic cells, rendering antibiotics ineffective.",
       "citation": "IB Biology Subject Guide — Topic 6.3: Defence Against Infectious Disease",
       "quality_review": {
@@ -969,12 +969,12 @@
       "difficulty": "Medium",
       "question": "During active physical inspiration, what are the coordinated muscular actions of the diaphragm and the intercostal muscles?",
       "options": [
-        "The diaphragm contracts and flattens downward while external intercostal muscles contract, pulling ribs upward and outward to increase thoracic volume",
         "The diaphragm relaxes and arches upward while internal intercostal muscles contract",
         "Both internal and external intercostal muscles contract simultaneously, compressing pleural sacs",
+        "The diaphragm contracts and flattens downward while external intercostal muscles contract, pulling ribs upward and outward to increase thoracic volume",
         "The diaphragm relaxes while abdominal wall rectus muscles contract inward"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Inspiration requires expanding thoracic volume to lower intra-pulmonary pressure below atmospheric pressure. The diaphragm contracts and moves downward, and external intercostal muscles contract, pulling ribs up and out (antagonistic muscle action).",
       "citation": "IB Biology Subject Guide — Topic 6.4: Gas Exchange",
       "quality_review": {
@@ -1006,12 +1006,12 @@
       "difficulty": "Hard",
       "question": "At a cholinergic chemical synapse, what event directly triggers the exocytosis of acetylcholine vesicles into the synaptic cleft?",
       "options": [
-        "Influx of calcium ions (Ca2+) through voltage-gated Ca2+ channels into the presynaptic terminal in response to an arriving action potential",
         "Efflux of potassium ions (K+) through non-gated leak channels",
         "Direct opening of ligand-gated sodium channels in the presynaptic axon hillock",
-        "Hydrolysis of ATP by acetylcholinesterase bound to the presynaptic membrane"
+        "Hydrolysis of ATP by acetylcholinesterase bound to the presynaptic membrane",
+        "Influx of calcium ions (Ca2+) through voltage-gated Ca2+ channels into the presynaptic terminal in response to an arriving action potential"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "When an action potential arrives at the axon terminal, the local depolarization causes voltage-gated Ca2+ channels in the presynaptic membrane to open. Inward diffusion of Ca2+ causes synapsin phosphorylation and vesicle fusion with the presynaptic membrane, releasing acetylcholine.",
       "citation": "IB Biology Subject Guide — Topic 6.5: Neurons and Synapses",
       "quality_review": {
@@ -1080,12 +1080,12 @@
       "difficulty": "Medium",
       "question": "Which hormone is secreted by adipose tissue to act on the hypothalamus to inhibit appetite, and which hormone is secreted by the pineal gland to regulate circadian sleep cycles?",
       "options": [
-        "Leptin (adipose) and Melatonin (pineal gland)",
         "Ghrelin (adipose) and Cortisol (pineal gland)",
+        "Leptin (adipose) and Melatonin (pineal gland)",
         "Insulin (adipose) and Adrenaline (pineal gland)",
         "Prolactin (adipose) and Oxytocin (pineal gland)"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Leptin is produced by adipocytes; higher fat stores increase leptin secretion, which binds receptors in the hypothalamus to signal satiety. Melatonin is synthesized by the pineal gland in response to darkness, synchronizing the 24-hour sleep-wake cycle.",
       "citation": "IB Biology Subject Guide — Topic 6.6: Hormones, Homeostasis and Reproduction",
       "quality_review": {
@@ -1117,12 +1117,12 @@
       "difficulty": "Hard",
       "question": "How does chemical acetylation of lysine residues on histone protein tails affect gene expression?",
       "options": [
-        "Neutralizes positive charges on histones, reducing their affinity for negatively charged DNA and decondensing chromatin into transcriptionally active euchromatin",
         "Tightens DNA wrapping around the nucleosome core into transcriptionally inactive heterochromatin",
         "Induces cleavage of phosphodiester bonds at all promoter TATA boxes",
+        "Neutralizes positive charges on histones, reducing their affinity for negatively charged DNA and decondensing chromatin into transcriptionally active euchromatin",
         "Permanently deletes promoter regions from mammalian somatic chromosomes"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Histones are rich in positively charged lysine residues that bind negatively charged DNA. Histone acetyltransferases add acetyl groups, neutralizing lysine's charge. Chromatin relaxes into open euchromatin, allowing RNA polymerase access.",
       "citation": "IB Biology Subject Guide — Topic 7.2: Transcription and Gene Expression (HL)",
       "quality_review": {
@@ -1154,12 +1154,12 @@
       "difficulty": "Hard",
       "question": "What is required for the attachment of a specific amino acid to its cognate tRNA molecule by an aminoacyl-tRNA synthetase enzyme?",
       "options": [
-        "Hydrolysis of ATP to AMP and pyrophosphate (PPi) to form an aminoacyl-AMP intermediate",
         "Cleavage of GTP to GDP during peptide bond elongation",
         "Phosphorylation of the tRNA anticodon loop by cyclin-dependent kinases",
-        "Direct protonation of the 5'-phosphate terminus of the acceptor stem"
+        "Direct protonation of the 5'-phosphate terminus of the acceptor stem",
+        "Hydrolysis of ATP to AMP and pyrophosphate (PPi) to form an aminoacyl-AMP intermediate"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Amino acid activation is a two-step reaction catalyzed by specific aminoacyl-tRNA synthetases: Amino acid + ATP → Aminoacyl-AMP + PPi, followed by transfer of the amino acid to the 3'-CCA terminus of the tRNA, storing energy for peptide bond synthesis.",
       "citation": "IB Biology Subject Guide — Topic 7.3: Translation (HL)",
       "quality_review": {
@@ -1228,12 +1228,12 @@
       "difficulty": "Medium",
       "question": "Which morphological adaptation minimizes transpirational water loss in xerophytic desert plants like Marram grass (Ammophila arenaria)?",
       "options": [
-        "Rolled leaves with sunken stomata situated in interior microcrypts protected by epidermal trichomes (hairs)",
         "Extremely thin cuticles with broad flattened lamina to maximize radiant cooling",
+        "Rolled leaves with sunken stomata situated in interior microcrypts protected by epidermal trichomes (hairs)",
         "High density of stomata exclusively on the upper adaxial leaf surface",
         "Permanent daytime opening of stomata coupled with total absence of root endodermis"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Marram grass rolls its leaves, trapping moist air in the inner core. Sunken stomata located in hair-lined pits create localized microclimates of high humidity, dramatically decreasing the water vapor concentration gradient and transpirational flux.",
       "citation": "IB Biology Subject Guide — Topic 9.1: Transport in the Xylem of Plants (HL)",
       "quality_review": {
@@ -1265,12 +1265,12 @@
       "difficulty": "Hard",
       "question": "How does phytochrome control flowering in short-day (long-night) plants?",
       "options": [
-        "Active phytochrome Pfr acts as an inhibitor of flowering; during long uninterrupted nights, Pfr slowly reverts to inactive Pr, removing the inhibition and allowing flowering",
         "Pr absorbs far-red light and directly stimulates flowering promoter genes at noon",
         "Pfr accumulates during long nights and stimulates florigen synthesis in root meristems",
+        "Active phytochrome Pfr acts as an inhibitor of flowering; during long uninterrupted nights, Pfr slowly reverts to inactive Pr, removing the inhibition and allowing flowering",
         "Short-day plants flower only when night length is repeatedly interrupted by brief red light flashes"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Phytochrome exists in two interconvertible forms: Pr (absorbs red light ~660 nm, converting to Pfr) and Pfr (absorbs far-red light ~730 nm, slowly reverting to Pr in darkness). In short-day plants, Pfr is an inhibitor of flowering. A long uninterrupted darkness period allows Pfr to drop below the threshold, triggering flowering.",
       "citation": "IB Biology Subject Guide — Topic 9.3: Reproduction in Plants (HL)",
       "quality_review": {
@@ -1302,12 +1302,12 @@
       "difficulty": "Medium",
       "question": "What structural feature of an immunoglobulin G (IgG) antibody molecule enables it to bind specifically to two identical epitopes simultaneously on a pathogen?",
       "options": [
-        "A bivalent Y-shaped quaternary structure with two identical variable antigen-binding sites (Fab fragments) formed by the heavy and light chains",
         "A single constant domain containing four allosteric catalytic protease sites",
         "A circular carbohydrate ring surrounded by eight identical Fc fragments",
-        "Disulfide bonds that crosslink with host erythrocyte hemoglobin"
+        "Disulfide bonds that crosslink with host erythrocyte hemoglobin",
+        "A bivalent Y-shaped quaternary structure with two identical variable antigen-binding sites (Fab fragments) formed by the heavy and light chains"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "An antibody consists of 4 polypeptide chains (2 heavy, 2 light) linked by disulfide bonds into a Y-shape. The tips of the Y form two hypervariable antigen-binding regions (Fab), conferring bivalent specificity.",
       "citation": "IB Biology Subject Guide — Topic 11.1: Antibody Production and Vaccination (HL)",
       "quality_review": {
@@ -1376,12 +1376,12 @@
       "difficulty": "Hard",
       "question": "Why is the descending limb of the loop of Henle permeable to water but impermeable to sodium chloride, while the ascending limb is impermeable to water and actively pumps sodium chloride?",
       "options": [
-        "To establish a steep hypertonic osmotic gradient in the medullary interstitium, enabling maximum passive water reabsorption from the collecting duct",
         "To neutralize acidic glomerular filtrate before it enters the renal pelvis",
+        "To establish a steep hypertonic osmotic gradient in the medullary interstitium, enabling maximum passive water reabsorption from the collecting duct",
         "To pump glucose into the renal cortex against steep diffusion gradients",
         "To dilute urine into hypotonic sweat for cutaneous excretion"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The countercurrent multiplier system creates an increasing osmotic gradient in the renal medulla (up to ~1200 mOsm/L). The active transport of Na+ and Cl- out of the thick ascending limb without water creates hypertonicity, drawing water out of the descending limb and collecting duct.",
       "citation": "IB Biology Subject Guide — Topic 11.3: The Kidney and Osmoregulation (HL)",
       "quality_review": {
@@ -1413,12 +1413,12 @@
       "difficulty": "Medium",
       "question": "How does human oogenesis differ fundamentally from spermatogenesis in terms of meiotic timing and cellular yield?",
       "options": [
-        "Oogenesis produces one functional ovum and polar bodies through unequal cytokinesis, with meiosis arrested in Prophase I until puberty, whereas spermatogenesis continuously produces four equal functional spermatozoa",
         "Oogenesis begins at puberty and produces four functional gametes per primary oocyte",
         "Spermatogenesis arrests in Metaphase II during embryonic fetal life until copulation",
+        "Oogenesis produces one functional ovum and polar bodies through unequal cytokinesis, with meiosis arrested in Prophase I until puberty, whereas spermatogenesis continuously produces four equal functional spermatozoa",
         "Oogenesis proceeds without meiotic crossing over or chiasmata formation"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Oogenesis starts before birth (primary oocytes arrest in Prophase I until puberty). Each cycle, one oocyte resumes meiosis, arresting at Metaphase II until fertilization, producing only 1 mature ovum and 2-3 non-functional polar bodies due to unequal cytoplasmic division.",
       "citation": "IB Biology Subject Guide — Topic 11.4: Sexual Reproduction (HL)",
       "quality_review": {
@@ -1450,12 +1450,12 @@
       "difficulty": "Hard",
       "question": "What is the biochemical mechanism of the cortical reaction in the ovum following sperm fusion?",
       "options": [
-        "Cortical granules release enzymes via exocytosis that digest sperm-binding receptors and harden the zona pellucida, permanently preventing polyspermy",
         "Rapid influx of potassium ions hyperpolarizes the vitelline membrane, attracting additional sperm nuclei",
         "The ovum discharges maternal lysosomes into the perivitelline space to hydrolyze the male pronucleus",
-        "The corona radiata forms an impermeable chitin shell within 5 milliseconds"
+        "The corona radiata forms an impermeable chitin shell within 5 milliseconds",
+        "Cortical granules release enzymes via exocytosis that digest sperm-binding receptors and harden the zona pellucida, permanently preventing polyspermy"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Sperm-egg fusion triggers an intracellular Ca2+ wave that prompts cortical granules to fuse with the egg plasma membrane. Their exocytosed proteases destroy ZP3 receptors and cross-link glycoproteins, hardening the zona pellucida into an impenetrable fertilization envelope (slow block to polyspermy).",
       "citation": "IB Biology Subject Guide — Topic 11.4: Sexual Reproduction (HL)",
       "quality_review": {

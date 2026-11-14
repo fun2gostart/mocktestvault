@@ -44,12 +44,12 @@
       "difficulty": "Hard",
       "question": "Which experimental evidence directly refuted the Davson-Danielli 'protein sandwich' model and supported the Singer-Nicolson fluid mosaic model?",
       "options": [
-        "Freeze-etched electron micrographs showing globular proteins embedded across the hydrophobic core of the bilayer",
         "Biochemical analysis demonstrating that cell membranes contain equal masses of lipids and carbohydrates",
+        "Freeze-etched electron micrographs showing globular proteins embedded across the hydrophobic core of the bilayer",
         "X-ray crystallography showing uniform continuous monolayer coatings of peripheral fibrous proteins",
         "Observation that hydrophobic fatty acid tails face outward towards the polar extracellular aqueous medium"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Freeze-fracture electron microscopy cleaved membranes along the central hydrophobic plane of the lipid bilayer, revealing transmembrane globular proteins projecting into the interior. Additionally, antibody fluorescent tagging proved membrane protein lateral fluidity.",
       "citation": "IB Biology Subject Guide — Topic 1.3: Membrane Structure",
       "quality_review": {
@@ -81,12 +81,12 @@
       "difficulty": "Medium",
       "question": "What is the primary mechanism of the sodium-potassium pump (Na+/K+-ATPase) across an axon membrane during one complete cycle?",
       "options": [
-        "Pumps 3 Na+ ions out of the cell and 2 K+ ions into the cell using hydrolysis of 1 ATP molecule",
         "Pumps 2 Na+ ions out of the cell and 3 K+ ions into the cell using hydrolysis of 1 ATP molecule",
         "Facilitates passive influx of 3 Na+ ions and passive efflux of 2 K+ ions down concentration gradients",
+        "Pumps 3 Na+ ions out of the cell and 2 K+ ions into the cell using hydrolysis of 1 ATP molecule",
         "Translocates 3 Na+ ions and 3 K+ ions simultaneously into the cytoplasm via secondary symport"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The electrogenic sodium-potassium pump actively expels 3 Na+ ions into the extracellular matrix while importing 2 K+ ions into the cytoplasm against their respective electrochemical gradients per molecule of ATP hydrolyzed.",
       "citation": "IB Biology Subject Guide — Topic 1.4: Membrane Transport",
       "quality_review": {
@@ -118,12 +118,12 @@
       "difficulty": "Medium",
       "question": "Which characteristic of chloroplasts and mitochondria provides conclusive evidence for endosymbiotic theory?",
       "options": [
-        "They possess their own circular naked DNA and 70S ribosomes, similar to prokaryotes",
         "They possess linear chromosomes bounded by a true nuclear membrane",
         "They transcribe eukaryotic 80S ribosomes and contain peptidoglycan outer capsules",
-        "They divide synchronously only when the host cell completes cytokinesis"
+        "They divide synchronously only when the host cell completes cytokinesis",
+        "They possess their own circular naked DNA and 70S ribosomes, similar to prokaryotes"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Mitochondria and chloroplasts replicate independently by binary fission, contain circular double-stranded DNA unassociated with histones, possess 70S ribosomes, and have a double membrane—traits shared with prokaryotic organisms.",
       "citation": "IB Biology Subject Guide — Topic 1.5: The Origin of Cells",
       "quality_review": {
@@ -192,12 +192,12 @@
       "difficulty": "Medium",
       "question": "Sweat cools the human body during vigorous exercise. Which property of water explains this thermoregulatory cooling effect?",
       "options": [
-        "High latent heat of vaporization requiring substantial thermal energy to break intermolecular hydrogen bonds",
         "High specific heat capacity preventing rapid changes in internal body temperature",
+        "High latent heat of vaporization requiring substantial thermal energy to break intermolecular hydrogen bonds",
         "Strong cohesive forces enabling uninterrupted water column transpiration in capillary beds",
         "Maximum density at 4 °C preventing thermal stratification in subcutaneous capillaries"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Water has a high latent heat of vaporization (approx. 2.26 × 10^6 J/kg). Evaporation of water molecules from epidermal sweat glands absorbs significant heat energy from skin tissues, cooling the body.",
       "citation": "IB Biology Subject Guide — Topic 2.2: Water",
       "quality_review": {
@@ -229,12 +229,12 @@
       "difficulty": "Hard",
       "question": "Which statement accurately contrasts cellulose and amylose in terms of monomer conformation and glycosidic linkages?",
       "options": [
-        "Cellulose consists of β-D-glucose with β-1,4-glycosidic bonds forming straight unbranched chains, whereas amylose consists of α-D-glucose with α-1,4-glycosidic bonds forming helical polymers",
         "Cellulose consists of α-D-glucose with α-1,6-glycosidic branch points, whereas amylose is composed entirely of β-D-fructose monomers",
         "Cellulose forms globular energy storage granules in animal hepatocytes, whereas amylose forms structural fibers in fungal cell walls",
+        "Cellulose consists of β-D-glucose with β-1,4-glycosidic bonds forming straight unbranched chains, whereas amylose consists of α-D-glucose with α-1,4-glycosidic bonds forming helical polymers",
         "Cellulose is easily hydrolyzed by mammalian salivary amylase, whereas amylose is completely indigestible by animals"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Cellulose is an unbranched polymer of β-D-glucose linked by β-1,4-glycosidic bonds; alternating glucose monomers are rotated 180°, producing linear ribbons that bundle into microfibrils via hydrogen bonds. Amylose has α-1,4-linkages coiling into a helix.",
       "citation": "IB Biology Subject Guide — Topic 2.3: Carbohydrates and Lipids",
       "quality_review": {
@@ -266,12 +266,12 @@
       "difficulty": "Medium",
       "question": "How does an uncompetitive or non-competitive allosteric inhibitor alter the maximum reaction rate (Vmax) and the Michaelis constant (Km) of an enzyme-catalyzed reaction?",
       "options": [
-        "Decreases Vmax while leaving Km unchanged",
         "Maintains Vmax constant while significantly increasing Km",
         "Increases both Vmax and Km simultaneously",
-        "Decreases Km while doubling Vmax at saturating substrate concentrations"
+        "Decreases Km while doubling Vmax at saturating substrate concentrations",
+        "Decreases Vmax while leaving Km unchanged"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Non-competitive inhibitors bind to an allosteric site rather than the active site, altering enzyme conformation. This reduces the catalytic efficiency, lowering Vmax. Because substrate binding affinity at the active site is unaffected, Km remains constant.",
       "citation": "IB Biology Subject Guide — Topic 8.1: Enzymes (HL)",
       "quality_review": {
@@ -340,12 +340,12 @@
       "difficulty": "Medium",
       "question": "If an mRNA coding sequence contains the codon 5'-AUG-3', what is the complementary anticodon on the initiator tRNA and the amino acid it carries?",
       "options": [
-        "3'-UAC-5' carrying Methionine",
         "5'-UAC-3' carrying Formylmethionine",
+        "3'-UAC-5' carrying Methionine",
         "3'-AUG-5' carrying Valine",
         "5'-CAU-3' carrying Tryptophan"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Antiparallel base-pairing requires the codon 5'-AUG-3' to pair with the tRNA anticodon 3'-UAC-5' (or 5'-CAU-3' read 5' to 3'). AUG universally codes for methionine.",
       "citation": "IB Biology Subject Guide — Topic 2.7: Transcription and Translation",
       "quality_review": {
@@ -377,12 +377,12 @@
       "difficulty": "Hard",
       "question": "During oxidative phosphorylation in aerobic cell respiration, what directly drives the synthesis of ATP by ATP synthase?",
       "options": [
-        "The chemiosmotic flow of protons (H+) from the intermembrane space into the mitochondrial matrix down their electrochemical gradient",
         "Direct substrate-level phosphorylation driven by acetyl-CoA condensation with oxaloacetate",
         "The active transport of electrons through ATP synthase rotor sub-units into the inner cristae membrane",
+        "The chemiosmotic flow of protons (H+) from the intermembrane space into the mitochondrial matrix down their electrochemical gradient",
         "The oxidative decarboxylation of pyruvate into lactate in the outer membrane space"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The electron transport chain pumps protons from the matrix into the intermembrane space, establishing an electrochemical proton gradient. Protons diffuse back through ATP synthase via chemiosmosis, inducing rotational catalysis to form ATP from ADP and Pi.",
       "citation": "IB Biology Subject Guide — Topic 8.2: Cell Respiration (HL)",
       "quality_review": {
@@ -414,12 +414,12 @@
       "difficulty": "Medium",
       "question": "What is the primary role of the light-dependent reactions of photosynthesis in supporting the light-independent reactions (Calvin cycle)?",
       "options": [
-        "To generate ATP and reduced NADP (NADPH) required to convert glycerate-3-phosphate (GP) into triose phosphate (TP)",
         "To fix atmospheric carbon dioxide directly onto ribulose bisphosphate (RuBP) using Rubisco",
         "To hydrolyze sucrose into glucose and fructose inside the thylakoid lumen",
-        "To pump molecular oxygen directly into the stomatal guard cells"
+        "To pump molecular oxygen directly into the stomatal guard cells",
+        "To generate ATP and reduced NADP (NADPH) required to convert glycerate-3-phosphate (GP) into triose phosphate (TP)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The light-dependent reactions capture solar energy to produce ATP and NADPH via photophosphorylation and photolysis of water. These energy carriers enter the stroma to power the reduction of GP to TP in the Calvin cycle.",
       "citation": "IB Biology Subject Guide — Topic 8.3: Photosynthesis (HL)",
       "quality_review": {
@@ -488,12 +488,12 @@
       "difficulty": "Medium",
       "question": "A woman with blood group A (whose father had blood group O) has a child with a man who has blood group B (whose mother had blood group O). What is the probability that their child will have blood group O?",
       "options": [
-        "0.25 (25%)",
         "0.50 (50%)",
+        "0.25 (25%)",
         "0.125 (12.5%)",
         "0.75 (75%)"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The woman is heterozygous (IAi) because her father had type O (ii). The man is heterozygous (IBi) because his mother was type O. Cross: IAi × IBi produces IAIB (25%), IAi (25%), IBi (25%), and ii (25%). Blood group O corresponds to genotype ii = 25% (0.25).",
       "citation": "IB Biology Subject Guide — Topic 3.4: Inheritance",
       "quality_review": {
@@ -525,12 +525,12 @@
       "difficulty": "Medium",
       "question": "Red-green colorblindness is an X-linked recessive condition. If a carrier female (X^B X^b) and a normal vision male (X^B Y) have children, what proportion of their sons are expected to be colorblind?",
       "options": [
-        "50%",
         "100%",
         "25%",
+        "50%",
         "0%"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The sons receive their Y chromosome from the father and either X^B or X^b from the mother with equal 50% probability. Therefore, 50% of the sons (X^b Y) will exhibit red-green colorblindness.",
       "citation": "IB Biology Subject Guide — Topic 3.4: Inheritance",
       "quality_review": {
@@ -562,12 +562,12 @@
       "difficulty": "Easy",
       "question": "Which heat-stable enzyme is utilized in the polymerase chain reaction (PCR) to synthesize complementary DNA strands across repeated thermal cycles?",
       "options": [
-        "Taq DNA polymerase",
         "RNA polymerase II",
         "DNA ligase",
-        "Topoisomerase"
+        "Topoisomerase",
+        "Taq DNA polymerase"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Taq polymerase, isolated from the thermophilic bacterium Thermus aquaticus, retains stability and catalytic activity through repetitive high-temperature denaturation steps (95 °C) in PCR thermocyclers.",
       "citation": "IB Biology Subject Guide — Topic 3.5: Genetic Modification and Biotechnology",
       "quality_review": {
@@ -636,12 +636,12 @@
       "difficulty": "Easy",
       "question": "Why is the transfer of energy between successive trophic levels in a terrestrial ecosystem typically limited to approximately 10%?",
       "options": [
-        "Much energy is lost as metabolic heat during cellular respiration, unconsumed biomass, and undigested waste",
         "Primary producers consume 90% of incident solar radiant energy through stomatal photorespiration",
+        "Much energy is lost as metabolic heat during cellular respiration, unconsumed biomass, and undigested waste",
         "Decomposers assimilate all chemical bond energy before apex carnivores feed",
         "Carnivores possess metabolic enzymes incapable of catabolizing secondary trophic lipids"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Energy is dissipated between trophic levels due to cellular respiration (released as thermal energy/heat, which cannot be converted into organic forms), material unconsumed by predators, and unassimilated waste (feces/urine).",
       "citation": "IB Biology Subject Guide — Topic 4.2: Energy Flow",
       "quality_review": {
@@ -673,12 +673,12 @@
       "difficulty": "Medium",
       "question": "Under anaerobic and acidic conditions in waterlogged soils, incomplete decomposition of dead organic matter by methanogens and saprotrophs leads to the formation of which geological carbon sink?",
       "options": [
-        "Peat",
         "Limestone",
         "Basalt",
+        "Peat",
         "Silica chert"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "In waterlogged bogs, lack of oxygen creates anoxic conditions. Saprotrophs cannot break down organic material completely, causing acidic, partially decomposed plant matter to accumulate over millennia as peat, which can fossilize into coal.",
       "citation": "IB Biology Subject Guide — Topic 4.3: Carbon Cycling",
       "quality_review": {
@@ -710,12 +710,12 @@
       "difficulty": "Medium",
       "question": "Which two gases exert the greatest natural greenhouse effect on Earth based on their atmospheric concentration and ability to absorb longwave infrared radiation?",
       "options": [
-        "Water vapour and carbon dioxide",
         "Methane and ozone",
         "Nitrogen and oxygen",
-        "Chlorofluorocarbons and sulfur dioxide"
+        "Chlorofluorocarbons and sulfur dioxide",
+        "Water vapour and carbon dioxide"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Water vapour and carbon dioxide (CO2) have the highest overall warming impact due to their high atmospheric concentrations and broad absorption bands in the infrared spectrum. Methane is more potent per molecule, but exists in much lower concentrations.",
       "citation": "IB Biology Subject Guide — Topic 4.4: Climate Change",
       "quality_review": {
@@ -784,12 +784,12 @@
       "difficulty": "Hard",
       "question": "How does increased dissolution of anthropogenic atmospheric CO2 in seawater affect marine calcifying organisms such as reef-building corals?",
       "options": [
-        "CO2 reacts with water to produce carbonic acid, which dissociates into H+ ions that bind free carbonate ions (CO3^2-), depleting the carbonate pool needed to precipitate CaCO3 skeletons",
         "Dissolved CO2 directly binds magnesium ions, precipitating aragonite crusts over polyp mouths",
+        "CO2 reacts with water to produce carbonic acid, which dissociates into H+ ions that bind free carbonate ions (CO3^2-), depleting the carbonate pool needed to precipitate CaCO3 skeletons",
         "High CO2 raises oceanic pH to alkaline levels above 9.0, dissolving calcium phosphate deposits",
         "Carbonic acid inhibits zooxanthellae nitrogenase, stopping calcification outright"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "CO2 + H2O → H2CO3 → H+ + HCO3-. The excess H+ ions react with existing carbonate ions (H+ + CO3^2- → HCO3-), reducing the saturation state of carbonate (CO3^2-) needed by corals and molluscs to synthesize calcium carbonate (CaCO3).",
       "citation": "IB Biology Subject Guide — Topic 4.4: Climate Change",
       "quality_review": {
@@ -821,12 +821,12 @@
       "difficulty": "Medium",
       "question": "The pentadactyl limb found in humans, whales, bats, and lizards represents which evolutionary phenomenon?",
       "options": [
-        "Adaptive radiation from a common ancestor resulting in homologous anatomical structures",
         "Convergent evolution among unrelated taxa resulting in analogous functional adaptations",
         "Genetic drift in isolated populations causing disruptive anatomical convergence",
+        "Adaptive radiation from a common ancestor resulting in homologous anatomical structures",
         "Polyploid hybrid speciation within terrestrial tetrapod clades"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Pentadactyl limbs share a fundamental bone architecture (humerus/femur, radius/tibia, ulna/fibula, carpals/tarsals, metacarpals/metatarsals, phalanges) inherited from a common tetrapod ancestor, diversified by adaptive radiation for locomotion.",
       "citation": "IB Biology Subject Guide — Topic 5.1: Evidence for Evolution",
       "quality_review": {
@@ -858,12 +858,12 @@
       "difficulty": "Easy",
       "question": "Which condition is an absolute prerequisite for natural selection to act upon a population?",
       "options": [
-        "Genetically determined phenotypic variation among individuals within the population",
         "An infinitely large population with zero intraspecific reproductive competition",
         "Total absence of environmental selective pressures and predation mortality",
-        "Continuous asexual cloning without meiotic recombination or mutation"
+        "Continuous asexual cloning without meiotic recombination or mutation",
+        "Genetically determined phenotypic variation among individuals within the population"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Natural selection requires heritable genetic variation. Individuals possessing advantageous traits suited to their environment enjoy differential survival and reproductive success, passing favorable alleles to progeny.",
       "citation": "IB Biology Subject Guide — Topic 5.2: Natural Selection",
       "quality_review": {
@@ -932,12 +932,12 @@
       "difficulty": "Easy",
       "question": "What is the correct taxonomic hierarchy from broadest domain to most specific species according to universal binomial classification?",
       "options": [
-        "Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species",
         "Domain, Phylum, Kingdom, Family, Order, Class, Genus, Species",
+        "Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species",
         "Kingdom, Domain, Class, Phylum, Family, Order, Species, Genus",
         "Domain, Kingdom, Class, Order, Phylum, Genus, Family, Species"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The standard Linnaean taxonomic hierarchy is: Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species.",
       "citation": "IB Biology Subject Guide — Topic 5.3: Classification of Biodiversity",
       "quality_review": {
@@ -969,12 +969,12 @@
       "difficulty": "Medium",
       "question": "How does widespread sub-therapeutic antibiotic administration in livestock accelerate the evolution of multi-drug resistant bacterial strains?",
       "options": [
-        "It establishes strong directional selection, eliminating vulnerable bacteria while selecting for individuals bearing resistance alleles (often on plasmids)",
         "The antibiotic directly mutates bacterial chromosomal DNA at a specific point locus",
         "It induces eukaryotic endosymbiosis within gastrointestinal flora",
+        "It establishes strong directional selection, eliminating vulnerable bacteria while selecting for individuals bearing resistance alleles (often on plasmids)",
         "Antibiotics act as allosteric co-factors that activate ribosomal transcription factors in non-resistant strains"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Antibiotic exposure applies directional natural selection. Sensitive bacteria are destroyed, while rare mutants possessing resistance genes (often encoded on R-plasmids transmitted via conjugation) survive, reproduce, and dominate the population.",
       "citation": "IB Biology Subject Guide — Topic 5.2: Natural Selection",
       "quality_review": {
@@ -1006,12 +1006,12 @@
       "difficulty": "Medium",
       "question": "Which enzyme is secreted by the acinar cells of the exocrine pancreas to digest triglycerides into monoglycerides and two free fatty acids in the small intestine?",
       "options": [
-        "Pancreatic lipase",
         "Pepsin",
         "Salivary amylase",
-        "Enteropeptidase"
+        "Enteropeptidase",
+        "Pancreatic lipase"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Pancreatic lipase hydrolyzes dietary triglycerides emulsified by bile salts into monoglycerides and fatty acids within the alkaline lumen of the duodenum and jejunum.",
       "citation": "IB Biology Subject Guide — Topic 6.1: Digestion and Absorption",
       "quality_review": {
@@ -1080,12 +1080,12 @@
       "difficulty": "Hard",
       "question": "In the human blood clotting cascade, what is the role of active thrombin?",
       "options": [
-        "Catalyzes the conversion of soluble fibrinogen into insoluble fibrin strands that entrap platelets and erythrocytes",
         "Hydrolyzes prothrombin into tissue thromboplastin at damaged endothelial surfaces",
+        "Catalyzes the conversion of soluble fibrinogen into insoluble fibrin strands that entrap platelets and erythrocytes",
         "Directly stimulates cytotoxic T cells to phagocytose circulating pathogenic bacterial clots",
         "Secretes heparin to prevent unwanted thrombosis in intact cerebral capillaries"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Clotting factors released from damaged platelets convert inactive prothrombin into active thrombin. Thrombin then enzymatically converts soluble fibrinogen into insoluble fibrin monomers that cross-link to form a mesh stabilizing the platelet plug.",
       "citation": "IB Biology Subject Guide — Topic 6.3: Defence Against Infectious Disease",
       "quality_review": {
@@ -1117,12 +1117,12 @@
       "difficulty": "Medium",
       "question": "What is the specialized function of Type II pneumocytes in the alveolar epithelium of human lungs?",
       "options": [
-        "Secretion of pulmonary surfactant (phospholipids and proteins) to reduce alveolar surface tension and prevent lung collapse",
         "Extremely thin flattened squamous morphology to facilitate rapid passive diffusion of oxygen and carbon dioxide",
         "Ciliated beat movements to translocate mucus upward toward the pharyngeal mucociliary escalator",
+        "Secretion of pulmonary surfactant (phospholipids and proteins) to reduce alveolar surface tension and prevent lung collapse",
         "Phagocytosis of inhaled asbestos particulate matter and microbial spores"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Type II pneumocytes are cuboidal cells that secrete pulmonary surfactant, a lipoprotein mixture that reduces surface tension in alveolar fluid, preventing alveoli from collapsing during expiration. (Type I pneumocytes carry out gas exchange).",
       "citation": "IB Biology Subject Guide — Topic 6.4: Gas Exchange",
       "quality_review": {
@@ -1154,12 +1154,12 @@
       "difficulty": "Hard",
       "question": "During the repolarization phase of an action potential along an axon, which ion channels open and which direction do the ions move?",
       "options": [
-        "Voltage-gated K+ channels open, allowing rapid efflux of K+ ions out of the axon into extracellular fluid",
         "Voltage-gated Na+ channels open, allowing rapid influx of Na+ ions into the axoplasm",
         "Ligand-gated Cl- channels open, causing influx of Cl- ions to depolarize the axolemma",
-        "Mechanosensitive Ca2+ pumps open, importing Ca2+ ions to restore the -70 mV resting potential"
+        "Mechanosensitive Ca2+ pumps open, importing Ca2+ ions to restore the -70 mV resting potential",
+        "Voltage-gated K+ channels open, allowing rapid efflux of K+ ions out of the axon into extracellular fluid"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "At peak depolarization (+30 to +40 mV), voltage-gated Na+ channels inactivate. Voltage-gated K+ channels open, driving K+ ions out of the cell down their electrochemical gradient, restoring the negative internal membrane potential (repolarization).",
       "citation": "IB Biology Subject Guide — Topic 6.5: Neurons and Synapses",
       "quality_review": {
@@ -1228,12 +1228,12 @@
       "difficulty": "Medium",
       "question": "Which hormone surge triggers ovulation (follicular rupture and secondary oocyte release) during the human menstrual cycle?",
       "options": [
-        "Luteinizing hormone (LH)",
         "Progesterone",
+        "Luteinizing hormone (LH)",
         "Human chorionic gonadotropin (hCG)",
         "Prolactin"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Rising estrogen levels from the maturing Graafian follicle exert positive feedback on the anterior pituitary gland around day 12–14, triggering a steep spike in Luteinizing Hormone (LH surge) that initiates ovulation.",
       "citation": "IB Biology Subject Guide — Topic 6.6: Hormones, Homeostasis and Reproduction",
       "quality_review": {
@@ -1265,12 +1265,12 @@
       "difficulty": "Hard",
       "question": "What is the specific enzymatic function of DNA Polymerase I during lagging strand replication in prokaryotes?",
       "options": [
-        "Removes RNA primers through 5' to 3' exonuclease activity and replaces them with complementary deoxyribonucleotides",
         "Synthesizes the bulk of the Okazaki fragments continuously from 5' to 3'",
         "Unwinds the double-stranded DNA helix ahead of the replication fork by breaking hydrogen bonds",
+        "Removes RNA primers through 5' to 3' exonuclease activity and replaces them with complementary deoxyribonucleotides",
         "Forms covalent phosphodiester bonds between adjacent 3'-hydroxyl and 5'-phosphate Okazaki termini"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "DNA Polymerase III synthesizes Okazaki fragments. DNA Polymerase I removes the RNA primer ribonucleotides using its 5'→3' exonuclease activity and fills the resulting gaps with DNA nucleotides. DNA ligase subsequently seals the nicks.",
       "citation": "IB Biology Subject Guide — Topic 7.1: DNA Structure and Replication (HL)",
       "quality_review": {
@@ -1302,12 +1302,12 @@
       "difficulty": "Medium",
       "question": "Which physical forces maintain the continuous unbroken column of water in xylem vessels under negative pressure during transpiration in tall trees?",
       "options": [
-        "Cohesion between water molecules via hydrogen bonding and adhesion of water molecules to hydrophilic xylem cell walls containing cellulose and lignin",
         "Active symplastic pumping of sucrose by companion cells into vessel elements",
         "Positive turgor pressure generated by root cortical endodermis Casparian strips",
-        "Osmotic pull generated exclusively by active stomatal closure at midday"
+        "Osmotic pull generated exclusively by active stomatal closure at midday",
+        "Cohesion between water molecules via hydrogen bonding and adhesion of water molecules to hydrophilic xylem cell walls containing cellulose and lignin"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The cohesion-tension theory explains water transport: evaporation at mesophyll cell surfaces generates negative hydrostatic pressure (tension). Cohesion (hydrogen bonds between water molecules) and adhesion (attraction to xylem walls) prevent cavitation.",
       "citation": "IB Biology Subject Guide — Topic 9.1: Transport in the Xylem of Plants (HL)",
       "quality_review": {
@@ -1376,12 +1376,12 @@
       "difficulty": "Hard",
       "question": "How does antidiuretic hormone (ADH / vasopressin) increase water reabsorption in the human kidney collecting duct?",
       "options": [
-        "ADH binds basolateral V2 receptors, triggering cAMP-mediated exocytosis of aquaporin-2 water channels into the apical luminal membrane",
         "ADH directly pumps sodium ions out of the collecting duct lumen to create an osmotic draw",
+        "ADH binds basolateral V2 receptors, triggering cAMP-mediated exocytosis of aquaporin-2 water channels into the apical luminal membrane",
         "ADH constricts the afferent arteriole to drastically increase glomerular filtration pressure",
         "ADH hydrolyzes urea in the renal pelvis to generate hypotonic medullary interstitium"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "ADH binds G-protein coupled receptors on principal cells in collecting ducts, initiating a signal cascade that translocates aquaporin-2 storage vesicles into the apical membrane. This dramatically increases water permeability, allowing water reabsorption into the hypertonic medulla.",
       "citation": "IB Biology Subject Guide — Topic 11.3: The Kidney and Osmoregulation (HL)",
       "quality_review": {
@@ -1413,12 +1413,12 @@
       "difficulty": "Hard",
       "question": "What is the biochemical role of calcium ions (Ca2+) released from the sarcoplasmic reticulum during skeletal muscle contraction?",
       "options": [
-        "Ca2+ binds to troponin, causing a conformational change in tropomyosin that exposes myosin-binding sites on actin filaments",
         "Ca2+ hydrolyzes ATP bound to the myosin heavy chain to trigger cross-bridge detachment",
         "Ca2+ binds to the Z-disc, mechanically shortening titin filaments within each sarcomere",
+        "Ca2+ binds to troponin, causing a conformational change in tropomyosin that exposes myosin-binding sites on actin filaments",
         "Ca2+ stimulates acetylcholine release from T-tubule voltage gates into the synaptic cleft"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Depolarization of T-tubules releases Ca2+ from the sarcoplasmic reticulum. Ca2+ binds troponin C, inducing a conformational shift that pulls tropomyosin away from actin active sites, enabling myosin heads to bind and form cross-bridges.",
       "citation": "IB Biology Subject Guide — Topic 11.2: Movement (HL)",
       "quality_review": {
@@ -1450,12 +1450,12 @@
       "difficulty": "Medium",
       "question": "In the production of monoclonal antibodies, what are hybridoma cells formed by fusing?",
       "options": [
-        "Antigen-sensitized B-lymphocytes (plasma cells) and immortal myeloma (cancer) cells",
         "Cytotoxic T-lymphocytes and active macrophages",
         "Red blood cells and embryonic stem cell colonies",
-        "Human memory helper T cells and bacterial spheroplasts"
+        "Human memory helper T cells and bacterial spheroplasts",
+        "Antigen-sensitized B-lymphocytes (plasma cells) and immortal myeloma (cancer) cells"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Hybridoma technology fuses antibody-producing plasma B cells (isolated from an immunized animal spleen) with immortal myeloma cells. The resulting hybrid cells divide indefinitely while producing large quantities of a single monoclonal antibody.",
       "citation": "IB Biology Subject Guide — Topic 11.1: Antibody Production and Vaccination (HL)",
       "quality_review": {

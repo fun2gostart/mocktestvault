@@ -44,12 +44,12 @@
       "difficulty": "Easy",
       "question": "How does distributing application servers across multiple Availability Zones in the same AWS Region enhance High Availability?",
       "options": [
-        "It protects the application against single data center failure caused by localized power outages, fires, or hardware disruptions",
         "It eliminates all billing charges for inter-instance network data transfer",
+        "It protects the application against single data center failure caused by localized power outages, fires, or hardware disruptions",
         "It automatically converts relational database queries into non-relational graph queries",
         "It prevents users from connecting through unsecured public Wi-Fi networks"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Because Availability Zones are physically separated facilities with independent utility infrastructure, distributing servers across multiple AZs ensures that an event taking down one data center will not cause application downtime.",
       "citation": "AWS Global Infrastructure Guide — Multi-AZ Architecture",
       "quality_review": {
@@ -81,12 +81,12 @@
       "difficulty": "Medium",
       "question": "Which design principle aligns directly with the Operational Excellence pillar of the AWS Well-Architected Framework?",
       "options": [
-        "Perform operations as code and make frequent, small, reversible changes",
         "Deploy manual administrative console procedures to prevent automated script errors",
         "Avoid analyzing past production incidents to maintain forward engineering momentum",
+        "Perform operations as code and make frequent, small, reversible changes",
         "Limit system telemetry metrics to save on logging storage costs"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "The Operational Excellence pillar focuses on running and monitoring systems to deliver business value and continually improving processes. Key principles include performing operations as code, making frequent and reversible changes, and learning from all operational failures.",
       "citation": "AWS Well-Architected Framework — Operational Excellence Pillar",
       "quality_review": {
@@ -118,12 +118,12 @@
       "difficulty": "Hard",
       "question": "Which disaster recovery (DR) strategy involves maintaining a minimal, scaled-down version of core architecture running in a secondary AWS Region that can be rapidly scaled up if the primary region fails?",
       "options": [
-        "Pilot Light",
         "Backup and Restore",
         "Warm Standby",
-        "Multi-Region Active-Active"
+        "Multi-Region Active-Active",
+        "Pilot Light"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "In a Pilot Light DR strategy, the critical core elements of the workload (like continuous database replication) are kept running in the recovery region, while compute servers are powered off or scaled to zero until a failover event occurs, upon which they are quickly provisioned.",
       "citation": "AWS Disaster Recovery Whitepaper — Disaster Recovery Strategies",
       "quality_review": {
@@ -192,12 +192,12 @@
       "difficulty": "Medium",
       "question": "Which infrastructure offering embeds AWS compute and storage services directly within telecommunication providers' 5G network data centers to deliver ultra-low latency applications for mobile devices and autonomous vehicles?",
       "options": [
-        "AWS Wavelength",
         "AWS Outposts",
+        "AWS Wavelength",
         "AWS Transit Gateway",
         "Amazon CloudFront Edge Locations"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "AWS Wavelength optimizes applications for mobile devices by embedding AWS compute and storage services inside the 5G networks of telecom carriers, routing application traffic directly without leaving the mobile carrier's network.",
       "citation": "AWS Wavelength Developer Guide — 5G Edge Computing",
       "quality_review": {
@@ -229,12 +229,12 @@
       "difficulty": "Medium",
       "question": "An enterprise requires certain workloads to remain physically on-premises in their local data center due to strict national data residency regulations, but wants to use the exact same AWS APIs, hardware, and management tools. Which service fulfills this?",
       "options": [
-        "AWS Outposts",
         "AWS Storage Gateway",
         "AWS Direct Connect",
+        "AWS Outposts",
         "Amazon VPC Peering"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "AWS Outposts brings native AWS services, infrastructure, and operating models directly to virtually any on-premises data center or co-location facility in a fully managed physical rack delivered and installed by AWS.",
       "citation": "AWS Outposts User Guide — Hybrid Cloud on-premises",
       "quality_review": {
@@ -266,12 +266,12 @@
       "difficulty": "Medium",
       "question": "Which design principle aligns with the Performance Efficiency pillar of the AWS Well-Architected Framework?",
       "options": [
-        "Democratize advanced technologies by consuming them as managed services (e.g., machine learning, NoSQL databases) rather than building them from scratch",
         "Always run database instances on single-core virtual servers to keep resource consumption predictable",
         "Perform all operational testing only in production environments during peak traffic hours",
-        "Restrict cloud storage to local hard drives attached to physical server racks"
+        "Restrict cloud storage to local hard drives attached to physical server racks",
+        "Democratize advanced technologies by consuming them as managed services (e.g., machine learning, NoSQL databases) rather than building them from scratch"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The Performance Efficiency pillar emphasizes democratizing advanced technologies: technologies that require specialized expertise (such as media transcoding, NoSQL databases, or machine learning) should be consumed as managed services so your team can focus on development rather than resource management.",
       "citation": "AWS Well-Architected Framework — Performance Efficiency Pillar",
       "quality_review": {
@@ -340,12 +340,12 @@
       "difficulty": "Hard",
       "question": "In disaster recovery planning, what does the Recovery Time Objective (RTO) represent?",
       "options": [
-        "The maximum acceptable duration of time that an application can be offline following an outage",
         "The maximum acceptable amount of data loss measured in time between backup points",
+        "The maximum acceptable duration of time that an application can be offline following an outage",
         "The total financial cost incurred during a cloud migration assessment",
         "The time required to provision a brand-new AWS root administrative account"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Recovery Time Objective (RTO) is the maximum acceptable time an application can be unavailable before normal service is restored. Recovery Point Objective (RPO) is the maximum acceptable period of data loss measured backward in time.",
       "citation": "AWS Disaster Recovery Whitepaper — RTO and RPO Metrics",
       "quality_review": {
@@ -377,12 +377,12 @@
       "difficulty": "Medium",
       "question": "Why is a microservices architecture preferred over a monolithic architecture when building highly resilient cloud applications?",
       "options": [
-        "Microservices decouple components so that failures in one service do not cascade and bring down the entire application",
         "Microservices require all code to be written in a single unified programming language",
         "Microservices store all user session state inside a single relational database table",
+        "Microservices decouple components so that failures in one service do not cascade and bring down the entire application",
         "Microservices eliminate the need for container orchestrators and network APIs"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "A microservices architecture breaks complex applications into smaller, independent components that communicate via APIs or message queues. If one service experiences a disruption, other services continue operating without cascading system failure.",
       "citation": "AWS Architecture Center — Microservices Architecture on AWS",
       "quality_review": {
@@ -414,12 +414,12 @@
       "difficulty": "Easy",
       "question": "Which statement accurately describes a major advantage of Platform as a Service (PaaS) offerings like AWS Elastic Beanstalk?",
       "options": [
-        "Customers can focus entirely on writing application code while the cloud provider manages server provisioning, OS patches, and auto-scaling",
         "Customers have full physical access to the server motherboards in AWS data center facilities",
         "Customers are required to manually install kernel security updates on hypervisors every 30 days",
-        "PaaS applications can only communicate with on-premises mainframe servers"
+        "PaaS applications can only communicate with on-premises mainframe servers",
+        "Customers can focus entirely on writing application code while the cloud provider manages server provisioning, OS patches, and auto-scaling"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Platform as a Service (PaaS) removes the need for organizations to manage underlying hardware and operating systems. Developers focus purely on deployment and management of their applications.",
       "citation": "AWS Cloud Practitioner Essentials — Types of Cloud Computing",
       "quality_review": {
@@ -488,12 +488,12 @@
       "difficulty": "Hard",
       "question": "Which disaster recovery strategy achieves the lowest possible Recovery Time Objective (RTO) and Recovery Point Objective (RPO) by serving user traffic simultaneously from two or more AWS Regions?",
       "options": [
-        "Multi-Region Active-Active",
         "Warm Standby",
+        "Multi-Region Active-Active",
         "Pilot Light",
         "Backup and Restore"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "A Multi-Region Active-Active strategy deploys full application stacks and synchronously/near-synchronously replicates data across two or more AWS Regions. User requests are routed to the nearest healthy region, achieving near-zero RTO and RPO.",
       "citation": "AWS Disaster Recovery Whitepaper — Multi-Region Strategies",
       "quality_review": {
@@ -525,12 +525,12 @@
       "difficulty": "Easy",
       "question": "What is the primary financial risk eliminated when an enterprise replaces heavy on-premises server purchasing with AWS pay-as-you-go pricing?",
       "options": [
-        "The risk of investing large amounts of capital in hardware that becomes idle or insufficient as business needs shift",
         "The risk of receiving automated electronic monthly invoices from cloud vendors",
         "The risk of application response times improving beyond user expectations",
+        "The risk of investing large amounts of capital in hardware that becomes idle or insufficient as business needs shift",
         "The risk of having too many automated data backups stored across multiple Availability Zones"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Trading fixed capital expenses for variable expenses eliminates the risk of purchasing expensive physical servers that sit idle during demand troughs or become a bottleneck during unexpected growth spikes.",
       "citation": "AWS Cloud Value Framework — Eliminating Capital Waste",
       "quality_review": {
@@ -562,12 +562,12 @@
       "difficulty": "Easy",
       "question": "Which of the following is considered a Software as a Service (SaaS) solution on AWS?",
       "options": [
-        "Amazon QuickSight",
         "Amazon EC2 bare-metal instances",
         "Amazon Virtual Private Cloud (VPC)",
-        "Amazon Elastic Block Store (EBS) standard volumes"
+        "Amazon Elastic Block Store (EBS) standard volumes",
+        "Amazon QuickSight"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Software as a Service (SaaS) provides complete, fully managed applications that users consume over the web without managing any underlying infrastructure or platform code. Amazon QuickSight (business intelligence) is an example of a SaaS product on AWS.",
       "citation": "AWS Cloud Practitioner Essentials — Cloud Service Categories",
       "quality_review": {
@@ -636,12 +636,12 @@
       "difficulty": "Easy",
       "question": "Which AWS IAM feature allows administrators to mandate minimum password lengths, require specific character combinations, and enforce periodic password expirations for IAM users?",
       "options": [
-        "IAM Account Password Policy",
         "Service Control Policy (SCP)",
+        "IAM Account Password Policy",
         "Security Group Inbound Rule",
         "Amazon Cognito User Pool Rule"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Administrators can configure an IAM Account Password Policy in the IAM console to enforce password complexity rules, minimum character lengths, prevent password reuse, and mandate regular password rotations.",
       "citation": "AWS IAM User Guide — Managing Account Password Policies",
       "quality_review": {
@@ -673,12 +673,12 @@
       "difficulty": "Medium",
       "question": "Which IAM feature analyzes resource-based policies across S3 buckets, KMS keys, and IAM roles to alert administrators if resources are accessible from outside their AWS account or organization?",
       "options": [
-        "IAM Access Analyzer",
         "AWS Systems Manager Inventory",
         "Amazon Inspector",
+        "IAM Access Analyzer",
         "AWS Trusted Advisor Cost Filter"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "IAM Access Analyzer uses mathematical logic and provable security to analyze resource-based policies and generate findings when resources (like S3 buckets or KMS keys) are shared with public or external identities outside the organization.",
       "citation": "AWS IAM User Guide — Identifying External Access with Access Analyzer",
       "quality_review": {
@@ -710,12 +710,12 @@
       "difficulty": "Hard",
       "question": "An enterprise must comply with strict corporate mandates requiring dedicated, FIPS 140-2 Level 3 validated single-tenant hardware security modules where only the customer controls the encryption keys and hardware partition. Which service satisfies this requirement?",
       "options": [
-        "AWS CloudHSM",
         "AWS Key Management Service (AWS KMS) Standard",
         "AWS Secrets Manager",
-        "AWS Certificate Manager"
+        "AWS Certificate Manager",
+        "AWS CloudHSM"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "AWS CloudHSM provides dedicated, single-tenant physical Hardware Security Module (HSM) appliances directly within the customer's VPC. Unlike AWS KMS (which is a multi-tenant managed service), CloudHSM gives customers sole cryptographic control over HSM hardware partitions.",
       "citation": "AWS CloudHSM User Guide — Dedicated HSM Architecture",
       "quality_review": {
@@ -784,12 +784,12 @@
       "difficulty": "Medium",
       "question": "Which service automatically centralizes, normalizes, and manages security log data from multiple AWS accounts, VPC Flow Logs, and third-party security vendors into the Open Cybersecurity Schema Framework (OCSF) format?",
       "options": [
-        "Amazon Security Lake",
         "Amazon GuardDuty",
+        "Amazon Security Lake",
         "AWS CloudTrail Insights",
         "Amazon Detective"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Amazon Security Lake automatically centralizes security data from cloud, on-premises, and custom sources into a purpose-built security data lake, normalizing logs into the OCSF standard for rapid multi-account security analysis.",
       "citation": "Amazon Security Lake Documentation — Centralized Log Lake",
       "quality_review": {
@@ -821,12 +821,12 @@
       "difficulty": "Medium",
       "question": "Following an alert from Amazon GuardDuty regarding suspicious account activity, which AWS service helps security teams analyze, investigate, and quickly identify the root cause of potential security issues using interactive graph visualizations?",
       "options": [
-        "Amazon Detective",
         "AWS X-Ray",
         "AWS Audit Manager",
+        "Amazon Detective",
         "AWS Systems Manager Run Command"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Amazon Detective automatically collects log data from your AWS resources and uses machine learning, statistical analysis, and graph theory to build a linked dataset that enables rapid investigation of security findings from GuardDuty.",
       "citation": "Amazon Detective Administration Guide — Root Cause Investigation",
       "quality_review": {
@@ -858,12 +858,12 @@
       "difficulty": "Medium",
       "question": "Which service acts as a single pane of glass for Cloud Security Posture Management (CSPM), aggregating security findings from GuardDuty, Inspector, Macie, and IAM Access Analyzer against CIS AWS Foundations benchmarks?",
       "options": [
-        "AWS Security Hub",
         "AWS Trusted Advisor",
         "AWS Systems Manager Explorer",
-        "AWS Control Tower"
+        "AWS Control Tower",
+        "AWS Security Hub"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "AWS Security Hub gives you a comprehensive view of your security state across all AWS accounts. It aggregates, organizes, and prioritizes security alerts and findings from multiple AWS services and checks environments against compliance standards like CIS and PCI DSS.",
       "citation": "AWS Security Hub User Guide — Aggregating Security Findings",
       "quality_review": {
@@ -932,12 +932,12 @@
       "difficulty": "Hard",
       "question": "Which stateful network security service provides high-throughput Layer 3 through Layer 7 stateful packet inspection, URL domain filtering, and intrusion prevention system (IPS) capabilities for entire Amazon VPCs?",
       "options": [
-        "AWS Network Firewall",
         "Security Groups",
+        "AWS Network Firewall",
         "Network ACLs",
         "AWS WAF"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "AWS Network Firewall is a managed service that deploys stateful Layer 3-7 inspection across VPC boundaries. Unlike Security Groups or NACLs, it includes advanced intrusion prevention rules (Suricata-compatible) and outbound domain filtering.",
       "citation": "AWS Network Firewall Developer Guide — Stateful Traffic Inspection",
       "quality_review": {
@@ -969,12 +969,12 @@
       "difficulty": "Medium",
       "question": "In an AWS IAM JSON policy document, what are the four fundamental building-block elements that define the access grant or restriction?",
       "options": [
-        "Effect, Action, Resource, and Condition",
         "Protocol, Port, Subnet, and Direction",
         "Domain, URL, Method, and Headers",
+        "Effect, Action, Resource, and Condition",
         "Instance, Disk, Volume, and Snapshot"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "An IAM policy statement consists of four core elements: Effect (Allow or Deny), Action (the specific API operations, like s3:GetObject), Resource (the ARN of the target resource), and optional Condition (rules under which the policy applies).",
       "citation": "AWS IAM User Guide — Grammar of the IAM Policy Language",
       "quality_review": {
@@ -1006,12 +1006,12 @@
       "difficulty": "Medium",
       "question": "How does deploying Amazon CloudFront in front of web applications improve overall DDoS attack resilience?",
       "options": [
-        "By absorbing attack traffic across hundreds of globally distributed edge locations, shielding the origin server from direct traffic spikes",
         "By automatically deleting the origin web server when an attack is detected",
         "By requiring all end-users to enter biometric identity authentication before loading web pages",
-        "By disabling all HTTP POST requests across the entire application"
+        "By disabling all HTTP POST requests across the entire application",
+        "By absorbing attack traffic across hundreds of globally distributed edge locations, shielding the origin server from direct traffic spikes"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Amazon CloudFront is integrated with AWS Shield Standard. Because CloudFront terminates connections at edge locations worldwide, it absorbs and diffuses massive Layer 3/4 volumetric DDoS attacks, keeping the backend origin servers protected.",
       "citation": "AWS Best Practices for DDoS Resiliency — Edge Architecture",
       "quality_review": {
@@ -1080,12 +1080,12 @@
       "difficulty": "Medium",
       "question": "Which service provides a centralized portal where workforce users can sign in once (SSO) to access all their assigned AWS accounts and third-party SaaS cloud applications (such as Microsoft 365)?",
       "options": [
-        "AWS IAM Identity Center (successor to AWS Single Sign-On)",
         "Amazon Cognito Identity Pools",
+        "AWS IAM Identity Center (successor to AWS Single Sign-On)",
         "AWS Directory Service Connector",
         "AWS Organizations Master Vault"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "AWS IAM Identity Center (formerly AWS SSO) is the recommended service for managing workforce access to AWS accounts and cloud business applications. It connects with your existing identity provider (like Active Directory or Okta).",
       "citation": "AWS IAM Identity Center User Guide — Workforce Identity Management",
       "quality_review": {
@@ -1117,12 +1117,12 @@
       "difficulty": "Easy",
       "question": "Which Amazon S3 feature provides centralized settings at the account or bucket level that override all bucket policies and access control lists to guarantee that S3 buckets cannot be made public?",
       "options": [
-        "Amazon S3 Block Public Access",
         "Amazon S3 Object Lock",
         "Amazon S3 Versioning",
+        "Amazon S3 Block Public Access",
         "Amazon S3 Server-Side Encryption (SSE-S3)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Amazon S3 Block Public Access settings provide controls across an entire AWS account or individual buckets to ensure objects cannot become publicly accessible, preventing accidental data leaks.",
       "citation": "Amazon S3 User Guide — Blocking Public Access",
       "quality_review": {
@@ -1154,12 +1154,12 @@
       "difficulty": "Easy",
       "question": "According to the AWS Shared Responsibility Model, who is responsible for the secure physical destruction and decommissioning of decommissioned hard drives that formerly stored customer data?",
       "options": [
-        "AWS, following rigorous Department of Defense (DoD 5220.22-M) and NIST 800-88 sanitization standards",
         "The customer, who must send physical technicians to AWS data centers to oversee disk shredding",
         "Local municipal government recycling authorities",
-        "Third-party commercial electronics salvage wholesalers"
+        "Third-party commercial electronics salvage wholesalers",
+        "AWS, following rigorous Department of Defense (DoD 5220.22-M) and NIST 800-88 sanitization standards"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "AWS is responsible for the physical security of data center hardware. When storage devices reach the end of their useful life, AWS decommissions and destroys them in accordance with NIST 800-88 sanitization techniques.",
       "citation": "AWS Data Center Physical Security Overview — Media Sanitization",
       "quality_review": {
@@ -1228,12 +1228,12 @@
       "difficulty": "Hard",
       "question": "Which managed audit tool allows security teams to run SQL-based analytical queries directly on immutable CloudTrail activity logs without having to export them into external databases?",
       "options": [
-        "AWS CloudTrail Lake",
         "Amazon CloudWatch Insights",
+        "AWS CloudTrail Lake",
         "Amazon Athena Standard Tables",
         "AWS Glue Data Catalog"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "CloudTrail Lake is a managed security and audit data lake that aggregates, immutably stores, and enables SQL queries on user and API activity recorded by CloudTrail without requiring complex ETL pipelines.",
       "citation": "AWS CloudTrail User Guide — Working with CloudTrail Lake",
       "quality_review": {
@@ -1265,12 +1265,12 @@
       "difficulty": "Medium",
       "question": "In an Infrastructure as a Service (IaaS) deployment using Amazon EC2, who is responsible for applying security patches to the physical hypervisor that hosts virtual instances?",
       "options": [
-        "AWS is responsible for patching the physical hypervisor",
         "The customer is responsible for patching the physical hypervisor",
         "Both AWS and the customer must coordinate simultaneous hypervisor restarts",
+        "AWS is responsible for patching the physical hypervisor",
         "The operating system vendor (e.g., Microsoft or Canonical) is responsible"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Under the Shared Responsibility Model, AWS owns the virtualization layer (hypervisor) and the physical host server. The customer has zero access to the underlying hypervisor and is only responsible for the guest OS inside their virtual instance.",
       "citation": "AWS Shared Responsibility Model Documentation — Hypervisor Layer",
       "quality_review": {
@@ -1302,12 +1302,12 @@
       "difficulty": "Easy",
       "question": "Which authentication factor options can be used to enable Multi-Factor Authentication (MFA) on an AWS IAM user account?",
       "options": [
-        "FIDO-certified security keys (e.g., YubiKey) and virtual authenticator apps (e.g., Google Authenticator)",
         "Standard unencrypted email links and plain text SMS password reminders",
         "Credit card verification numbers stored in browser cookies",
-        "Static challenge questions based on childhood pet names"
+        "Static challenge questions based on childhood pet names",
+        "FIDO-certified security keys (e.g., YubiKey) and virtual authenticator apps (e.g., Google Authenticator)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "AWS supports multiple MFA methods for IAM users, including FIDO-certified physical hardware keys (YubiKey), virtual MFA authenticator apps (Google Authenticator, Microsoft Authenticator), and hardware TOTP tokens.",
       "citation": "AWS IAM User Guide — Supported MFA Device Types",
       "quality_review": {
@@ -1376,12 +1376,12 @@
       "difficulty": "Medium",
       "question": "Which serverless compute engine allows teams to run Docker containers on Amazon ECS or Amazon EKS without having to provision, configure, or scale underlying EC2 virtual servers?",
       "options": [
-        "AWS Fargate",
         "Amazon EC2 Dedicated Hosts",
+        "AWS Fargate",
         "AWS Batch Bare Metal",
         "Amazon Elastic Beanstalk Worker Tier"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "AWS Fargate is a serverless, pay-as-you-go compute engine that lets you build applications without managing servers. Fargate runs containers on Amazon ECS and Amazon EKS without requiring you to manage EC2 clusters.",
       "citation": "AWS Fargate User Guide — Serverless Container Compute",
       "quality_review": {
@@ -1413,12 +1413,12 @@
       "difficulty": "Medium",
       "question": "An enterprise must store compliance archives for 10 years that are accessed only once or twice per year, where a retrieval time of 12 hours is completely acceptable. Which S3 storage class offers the lowest storage cost in the AWS Cloud?",
       "options": [
-        "S3 Glacier Deep Archive",
         "S3 Glacier Flexible Retrieval",
         "S3 Standard-Infrequent Access",
+        "S3 Glacier Deep Archive",
         "S3 Intelligent-Tiering Archive Instant"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "S3 Glacier Deep Archive is Amazon S3's lowest-cost storage class, designed for long-term retention of data that is accessed rarely (1-2 times a year) and where retrieval times of 12 to 48 hours are acceptable.",
       "citation": "Amazon S3 Storage Classes — S3 Glacier Deep Archive",
       "quality_review": {
@@ -1450,12 +1450,12 @@
       "difficulty": "Medium",
       "question": "Which Amazon EBS volume type is designed as the default cost-effective storage option for a broad range of transactional workloads, virtual desktops, and medium-sized databases?",
       "options": [
-        "General Purpose SSD (gp3)",
         "Provisioned IOPS SSD (io2)",
         "Throughput Optimized HDD (st1)",
-        "Cold HDD (sc1)"
+        "Cold HDD (sc1)",
+        "General Purpose SSD (gp3)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "General Purpose SSD (gp3) volumes offer the ideal balance of price and performance for a wide range of transactional applications, boot volumes, and dev/test environments, allowing independent IOPS and throughput provisioning.",
       "citation": "Amazon EBS Volume Types Documentation — General Purpose SSD",
       "quality_review": {
@@ -1524,12 +1524,12 @@
       "difficulty": "Easy",
       "question": "What is the primary function of Amazon EC2 Auto Scaling?",
       "options": [
-        "To automatically adjust the number of active EC2 instances up or down based on traffic demand and health checks",
         "To automatically convert SQL queries into NoSQL JSON documents",
+        "To automatically adjust the number of active EC2 instances up or down based on traffic demand and health checks",
         "To reboot all customer virtual instances every night at midnight",
         "To automatically negotiate lower domain name renewal fees"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Amazon EC2 Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost, launching instances when traffic surges and terminating them when demand drops.",
       "citation": "Amazon EC2 Auto Scaling User Guide — Overview",
       "quality_review": {
@@ -1561,12 +1561,12 @@
       "difficulty": "Medium",
       "question": "An architect needs to route web requests based on the URL path (e.g., routing /orders to one container fleet and /images to another) at Layer 7. Which load balancer should be chosen?",
       "options": [
-        "Application Load Balancer (ALB)",
         "Network Load Balancer (NLB)",
         "Gateway Load Balancer (GWLB)",
+        "Application Load Balancer (ALB)",
         "Classic Load Balancer (CLB)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Application Load Balancer (ALB) operates at the request level (Layer 7) and supports advanced routing features, such as path-based routing, host-based routing, and routing to containerized applications.",
       "citation": "Elastic Load Balancing User Guide — Application Load Balancers",
       "quality_review": {
@@ -1598,12 +1598,12 @@
       "difficulty": "Medium",
       "question": "Which Elastic Load Balancer operates at Layer 4 (Transport layer) and is capable of handling millions of requests per second with ultra-low latency while supporting static IP addresses?",
       "options": [
-        "Network Load Balancer (NLB)",
         "Application Load Balancer (ALB)",
         "Gateway Load Balancer (GWLB)",
-        "Amazon Route 53 Traffic Flow"
+        "Amazon Route 53 Traffic Flow",
+        "Network Load Balancer (NLB)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Network Load Balancer (NLB) operates at the connection level (Layer 4) and is optimized to handle volatile traffic patterns and millions of requests per second with ultra-low latency. It provides a static IP per Availability Zone.",
       "citation": "Elastic Load Balancing User Guide — Network Load Balancer",
       "quality_review": {
@@ -1672,12 +1672,12 @@
       "difficulty": "Medium",
       "question": "Which serverless service makes it easy to connect applications together using real-time data streams from SaaS applications, custom applications, and AWS services using an event-driven architecture?",
       "options": [
-        "Amazon EventBridge",
         "Amazon SQS",
+        "Amazon EventBridge",
         "AWS Step Functions",
         "AWS Glue"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Amazon EventBridge is a serverless event bus service that makes it easy to connect applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your applications, third-party SaaS apps, and AWS services.",
       "citation": "Amazon EventBridge User Guide — Event-Driven Architecture",
       "quality_review": {
@@ -1709,12 +1709,12 @@
       "difficulty": "Medium",
       "question": "Which visual workflow orchestration service allows developers to coordinate multiple AWS Lambda functions and microservices into state machines with built-in error handling and retries?",
       "options": [
-        "AWS Step Functions",
         "Amazon EventBridge",
         "AWS CodePipeline",
+        "AWS Step Functions",
         "AWS Systems Manager Run Command"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "AWS Step Functions is a low-code visual workflow service used to orchestrate AWS services, automate business processes, and build distributed applications using finite state machines.",
       "citation": "AWS Step Functions Developer Guide — Visual Workflows",
       "quality_review": {
@@ -1746,12 +1746,12 @@
       "difficulty": "Easy",
       "question": "Which managed AWS service makes it easy to perform interactive log analytics, real-time application monitoring, and full-text search across application data using open-source OpenSearch or Elasticsearch engines?",
       "options": [
-        "Amazon OpenSearch Service",
         "Amazon Athena",
         "Amazon Kinesis Data Streams",
-        "Amazon QuickSight"
+        "Amazon QuickSight",
+        "Amazon OpenSearch Service"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Amazon OpenSearch Service is a fully managed service that makes it easy to deploy, operate, and scale OpenSearch clusters for application search, website search, and real-time log analytics.",
       "citation": "Amazon OpenSearch Service Developer Guide",
       "quality_review": {
@@ -1820,12 +1820,12 @@
       "difficulty": "Medium",
       "question": "Which managed cloud big data platform enables data engineers to run large-scale distributed data processing frameworks like Apache Spark, Apache Hadoop, and Presto on AWS?",
       "options": [
-        "Amazon EMR (Elastic MapReduce)",
         "AWS Glue",
+        "Amazon EMR (Elastic MapReduce)",
         "Amazon Kinesis",
         "Amazon QuickSight"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Amazon EMR is an industry-leading cloud big data platform for processing vast amounts of data using open-source tools such as Apache Spark, Apache Hive, Apache HBase, Presto, and Hadoop.",
       "citation": "Amazon EMR Management Guide — Big Data Frameworks",
       "quality_review": {
@@ -1857,12 +1857,12 @@
       "difficulty": "Medium",
       "question": "Which serverless data integration service discovers, categorizes, cleans, transforms, and loads (ETL) data from diverse sources into data lakes or data warehouses, featuring an automated metadata Data Catalog?",
       "options": [
-        "AWS Glue",
         "Amazon EMR",
         "AWS DataSync",
+        "AWS Glue",
         "AWS Database Migration Service (DMS)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development with an integrated AWS Glue Data Catalog.",
       "citation": "AWS Glue Developer Guide — Serverless ETL Pipelines",
       "quality_review": {
@@ -1894,12 +1894,12 @@
       "difficulty": "Medium",
       "question": "Which service helps businesses migrate relational databases, non-relational databases, and data warehouses to AWS securely with minimal downtime, keeping the source database fully operational during migration?",
       "options": [
-        "AWS Database Migration Service (AWS DMS)",
         "AWS DataSync",
         "AWS Application Migration Service (MGN)",
-        "AWS Snowball Edge"
+        "AWS Snowball Edge",
+        "AWS Database Migration Service (AWS DMS)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "AWS Database Migration Service (AWS DMS) helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database.",
       "citation": "AWS Database Migration Service User Guide",
       "quality_review": {
@@ -1968,12 +1968,12 @@
       "difficulty": "Easy",
       "question": "A developer needs to convert written blog articles into lifelike, natural-sounding spoken audio speech files. Which pre-trained AWS AI service performs text-to-speech conversion?",
       "options": [
-        "Amazon Polly",
         "Amazon Transcribe",
+        "Amazon Polly",
         "Amazon Rekognition",
         "Amazon Lex"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Amazon Polly is a cloud service that turns text into lifelike speech using advanced deep learning technologies to synthesize natural sounding human speech across dozens of languages.",
       "citation": "Amazon Polly Developer Guide — Text-to-Speech",
       "quality_review": {
@@ -2005,12 +2005,12 @@
       "difficulty": "Easy",
       "question": "Which managed AI service provides advanced natural language understanding and automatic speech recognition to build conversational interfaces and voice chatbots into applications (powering Amazon Alexa)?",
       "options": [
-        "Amazon Lex",
         "Amazon Kendra",
         "Amazon Textract",
+        "Amazon Lex",
         "Amazon Translate"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Amazon Lex is a fully managed service that provides advanced natural language understanding (NLU) and automatic speech recognition (ASR) to build conversational interfaces (chatbots) into any application.",
       "citation": "Amazon Lex Developer Guide — Building Conversational Chatbots",
       "quality_review": {
@@ -2042,12 +2042,12 @@
       "difficulty": "Medium",
       "question": "Which networking service uses the AWS global private network to optimize the path from end users to applications, providing static anycast IP addresses and improving TCP/UDP performance by up to 60%?",
       "options": [
-        "AWS Global Accelerator",
         "Amazon Route 53",
         "Amazon CloudFront",
-        "AWS Direct Connect"
+        "AWS Direct Connect",
+        "AWS Global Accelerator"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "AWS Global Accelerator is a networking service that improves the availability and performance of applications by routing traffic over the AWS global network infrastructure using static Anycast IP addresses.",
       "citation": "AWS Global Accelerator Developer Guide",
       "quality_review": {
@@ -2116,12 +2116,12 @@
       "difficulty": "Medium",
       "question": "Which capability of AWS Systems Manager allows engineering teams to deploy application configurations and feature flags safely and gradually to running applications with automatic rollbacks if errors occur?",
       "options": [
-        "AWS AppConfig",
         "AWS CodeCommit",
+        "AWS AppConfig",
         "AWS CloudFormation Change Sets",
         "AWS OpsWorks Stacks"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "AWS AppConfig helps you quickly and safely deploy application configurations and feature toggles to applications of any size. It validates configurations before deployment and monitors alarms to roll back changes automatically if issues arise.",
       "citation": "AWS AppConfig User Guide — Feature Flag Deployment",
       "quality_review": {
@@ -2153,12 +2153,12 @@
       "difficulty": "Medium",
       "question": "Which flexible pricing model offers savings of up to 66% in exchange for a commitment to a consistent amount of compute usage (measured in $/hour) for a 1- or 3-year term, applying automatically across EC2, Lambda, and Fargate?",
       "options": [
-        "Compute Savings Plans",
         "EC2 Instance Savings Plans",
         "Standard Reserved Instances",
+        "Compute Savings Plans",
         "Spot Instance Fleet Contracts"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Compute Savings Plans provide the greatest flexibility, automatically applying discounts of up to 66% regardless of instance family, size, OS, tenancy, or AWS Region, and applying seamlessly across Amazon EC2, AWS Fargate, and AWS Lambda.",
       "citation": "AWS Cost Management Guide — Understanding Savings Plans",
       "quality_review": {
@@ -2190,12 +2190,12 @@
       "difficulty": "Easy",
       "question": "What are the three distinct types of free offers provided by the AWS Free Tier?",
       "options": [
-        "Always Free, 12 Months Free, and Short-term Free Trials",
         "Weekly Promos, Monthly Allowances, and Annual Rebates",
         "Executive Trials, Startup Vouchers, and Enterprise Grants",
-        "Academic Credits, Beta Access, and Colocation Discounts"
+        "Academic Credits, Beta Access, and Colocation Discounts",
+        "Always Free, 12 Months Free, and Short-term Free Trials"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The AWS Free Tier offers three distinct categories of free offers: 'Always Free' (e.g., 1 million Lambda requests/mo), '12 Months Free' (available for the first year following initial sign-up, e.g., 750 hrs/mo of t2/t3.micro EC2), and 'Short-term Free Trials.'",
       "citation": "AWS Free Tier Documentation — Categories of Free Services",
       "quality_review": {
@@ -2264,12 +2264,12 @@
       "difficulty": "Easy",
       "question": "Which AWS Support Plan is recommended for early-stage development and testing workloads, offering business-hours email access to Cloud Support Associates for one primary contact with response times under 12 hours?",
       "options": [
-        "AWS Developer Support",
         "AWS Basic Support",
+        "AWS Developer Support",
         "AWS Business Support",
         "AWS Enterprise Support"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "The AWS Developer Support plan is designed for non-production environments and early experimentation. It provides business-hours email access to Cloud Support Associates, 1 primary contact, and response times under 12 hours for general guidance.",
       "citation": "AWS Support Plans Guide — Developer Support Tier",
       "quality_review": {
@@ -2301,12 +2301,12 @@
       "difficulty": "Easy",
       "question": "Which digital catalog allows customers to find, test, buy, and instantly deploy third-party software applications, AMIs, containers, and SaaS solutions with charges integrated directly into their monthly AWS bill?",
       "options": [
-        "AWS Marketplace",
         "AWS Service Catalog",
         "AWS Systems Manager Store",
+        "AWS Marketplace",
         "Amazon AppFlow"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "AWS Marketplace is a curated digital catalog that makes it easy for customers to find, buy, deploy, and manage third-party software, data, and services. Purchases appear seamlessly on the consolidated AWS monthly bill.",
       "citation": "AWS Marketplace Buyer Guide — Overview",
       "quality_review": {
@@ -2338,12 +2338,12 @@
       "difficulty": "Medium",
       "question": "Which machine learning-powered service analyzes historical CloudWatch utilization metrics to recommend optimal rightsizing for Amazon EC2 instances, EBS volumes, and Lambda functions to reduce costs and improve performance?",
       "options": [
-        "AWS Compute Optimizer",
         "AWS Trusted Advisor",
         "AWS Cost Explorer",
-        "AWS Well-Architected Tool"
+        "AWS Well-Architected Tool",
+        "AWS Compute Optimizer"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "AWS Compute Optimizer uses machine learning to analyze historical resource utilization metrics from CloudWatch and delivers actionable recommendations to rightsize EC2 instances, EBS volumes, and Lambda functions to cut unnecessary costs.",
       "citation": "AWS Compute Optimizer User Guide — Rightsizing Recommendations",
       "quality_review": {

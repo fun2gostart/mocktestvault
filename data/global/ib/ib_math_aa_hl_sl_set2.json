@@ -44,12 +44,12 @@
       "difficulty": "Medium",
       "question": "If log_2(a) = p , what is log_8(a) in terms of p ?",
       "options": [
-        "(p/3)",
         "3p",
+        "(p/3)",
         "p - 3",
         "p^3"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Use change of base rule: log_8(a) = (log_2(a)/log_2(8)) . Since log_2(8) = 3 and log_2(a) = p , log_8(a) = (p/3) .",
       "citation": "IB Mathematics AA Guide — Topic 1.5: Laws of Logarithms",
       "quality_review": {
@@ -81,12 +81,12 @@
       "difficulty": "Hard",
       "question": "What is the term independent of x (constant term) in the expansion of ≤ft(x^2 + (2/x)\\right)^6 ?",
       "options": [
-        "240",
         "160",
         "60",
+        "240",
         "15"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "General term: T_r+1 = C(6, r) (x^2)^6-r ≤ft((2/x)\\right)^r = C(6, r) 2^r x^12 - 2r - r = C(6, r) 2^r x^12 - 3r . For the constant term: 12 - 3r = 0 ⇒ r = 4 . Term = C(6, 4) 2^4 = 15 × 16 = 240 .",
       "citation": "IB Mathematics AA Guide — Topic 1.9: Binomial Theorem",
       "quality_review": {
@@ -118,12 +118,12 @@
       "difficulty": "Medium",
       "question": "The roots of the cubic polynomial 2x^3 - 6x^2 + 8x - 10 = 0 are α, β, γ . What is the value of α + β + γ ?",
       "options": [
-        "3",
         "-3",
         "4",
-        "5"
+        "5",
+        "3"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "By Vieta's formulas, for ax^3 + bx^2 + cx + d = 0 , the sum of roots is α + β + γ = -(b/a) = -(-6/2) = (6/2) = 3 .",
       "citation": "IB Mathematics AA Guide — Topic 1.11: Polynomials (HL)",
       "quality_review": {
@@ -192,12 +192,12 @@
       "difficulty": "Hard",
       "question": "For what value of m does the system of equations x + 2y = 4 and 2x + my = 8 have infinitely many solutions?",
       "options": [
-        "m = 4",
         "m = 2",
+        "m = 4",
         "m = -4",
         "m = 0"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Infinitely many solutions occur when the equations are linearly dependent (same line). Multiplying the first equation by 2 gives 2x + 4y = 8 . Comparing with 2x + my = 8 yields m = 4 .",
       "citation": "IB Mathematics AA Guide — Topic 1.16: Systems of Linear Equations (HL)",
       "quality_review": {
@@ -229,12 +229,12 @@
       "difficulty": "Medium",
       "question": "What is the natural real domain of the function f(x) = √(\\fracx - 2)x + 5 ?",
       "options": [
-        "x < -5 or x ≥ 2",
         "-5 < x ≤ 2",
         "x ≥ 2",
+        "x < -5 or x ≥ 2",
         "x ≠ -5"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "We require (x - 2/x + 5) ≥ 0 and x + 5 ≠ 0 . Using a sign diagram with critical points at x = -5 and x = 2 : when x > 2 , (+)/(+) > 0 ; when -5 < x < 2 , (-)/(+) < 0 ; when x < -5 , (-)/(-) > 0 . Hence, domain is (-∞, -5) \\cup [2, ∞) .",
       "citation": "IB Mathematics AA Guide — Topic 2.1: Domain and Range",
       "quality_review": {
@@ -266,12 +266,12 @@
       "difficulty": "Easy",
       "question": "What are the coordinates of the vertex of the parabola y = 2x^2 - 12x + 11 ?",
       "options": [
-        "(3, -7)",
         "(-3, 7)",
         "(3, 11)",
-        "(6, -7)"
+        "(6, -7)",
+        "(3, -7)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Vertex x-coordinate: x = -(b/2a) = -(-12/2(2)) = (12/4) = 3 . Substitute x = 3 : y = 2(3)^2 - 12(3) + 11 = 2(9) - 36 + 11 = 18 - 36 + 11 = -7 . Vertex is (3, -7) .",
       "citation": "IB Mathematics AA Guide — Topic 2.6: Quadratic Functions",
       "quality_review": {
@@ -340,12 +340,12 @@
       "difficulty": "Medium",
       "question": "Which of the following functions is a self-inverse function (satisfies f(f(x)) = x )?",
       "options": [
-        "f(x) = (1/x) , x ≠ 0",
         "f(x) = 2x",
+        "f(x) = (1/x) , x ≠ 0",
         "f(x) = x^2 , x ≥ 0",
         "f(x) = e^x"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "f(f(x)) = f≤ft((1/x)\\right) = (1/1/x) = x . Therefore f(x) = (1/x) is its own inverse.",
       "citation": "IB Mathematics AA Guide — Topic 2.2: Composite and Inverse Functions",
       "quality_review": {
@@ -377,12 +377,12 @@
       "difficulty": "Hard",
       "question": "What is the equation of the oblique (slant) asymptote of the rational function f(x) = (2x^2 + 3x - 1/x - 1) ?",
       "options": [
-        "y = 2x + 5",
         "y = 2x + 3",
         "y = 2x - 1",
+        "y = 2x + 5",
         "y = x + 5"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Perform polynomial long division: (2x^2 + 3x - 1) \\div (x - 1) = 2x + 5 + (4/x - 1) . As x \\to ±∞ , (4/x - 1) \\to 0 , leaving the oblique asymptote y = 2x + 5 .",
       "citation": "IB Mathematics AA Guide — Topic 2.14: Rational Functions & Slant Asymptotes (HL)",
       "quality_review": {
@@ -414,12 +414,12 @@
       "difficulty": "Medium",
       "question": "Why does the function f(x) = x^2 - 4x + 7 defined on ℝ not possess an inverse function f^-1(x) ?",
       "options": [
-        "It is not one-to-one (fails the horizontal line test across ℝ )",
         "It is not continuous across the real line",
         "The range is strictly limited to non-negative integers",
-        "Its derivative is identically zero everywhere"
+        "Its derivative is identically zero everywhere",
+        "It is not one-to-one (fails the horizontal line test across ℝ )"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "A function has an inverse if and only if it is bijective (both one-to-one and onto). A parabola opens upwards with vertex at x = 2 , so horizontal lines for y > 3 intersect the curve twice, violating the one-to-one requirement.",
       "citation": "IB Mathematics AA Guide — Topic 2.2: Inverse Functions",
       "quality_review": {
@@ -488,12 +488,12 @@
       "difficulty": "Medium",
       "question": "In triangle ABC , a = 5 , b = 7 , and c = 8 . What is the exact value of cos B ?",
       "options": [
-        "(1/2)",
         "(1/4)",
+        "(1/2)",
         "(√(3)/2)",
         "(3/5)"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "By the cosine rule: cos B = (a^2 + c^2 - b^2/2ac) = (5^2 + 8^2 - 7^2/2(5)(8)) = (25 + 64 - 49/80) = (40/80) = (1/2) . (Thus B = 60^° ).",
       "citation": "IB Mathematics AA Guide — Topic 3.2: Cosine Rule",
       "quality_review": {
@@ -525,12 +525,12 @@
       "difficulty": "Medium",
       "question": "What is the simplified form of the identity (sin(2x)/1 + cos(2x)) ?",
       "options": [
-        "tan x",
         "cot x",
         "sin x",
+        "tan x",
         "2tan x"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Substitute sin(2x) = 2sin x cos x and cos(2x) = 2cos^2 x - 1 : (2sin x cos x/1 + (2cos^2 x - 1)) = (2sin x cos x/2cos^2 x) = (sin x/cos x) = tan x .",
       "citation": "IB Mathematics AA Guide — Topic 3.6: Double Angle Identities",
       "quality_review": {
@@ -562,12 +562,12 @@
       "difficulty": "Easy",
       "question": "What is the unit vector in the direction of v = ( 3 , -4 ) ?",
       "options": [
-        "( 3/5 , -4/5 )",
         "( 3/7 , -4/7 )",
         "( 1/5 , -1/5 )",
-        "( 4/5 , -3/5 )"
+        "( 4/5 , -3/5 )",
+        "( 3/5 , -4/5 )"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Magnitude |v| = √(3^2 + (-4)^2) = √(9 + 16) = 5 . The unit vector is \\fracv|v| = ( 3/5 , -4/5 ) .",
       "citation": "IB Mathematics AA Guide — Topic 3.12: Vectors",
       "quality_review": {
@@ -636,12 +636,12 @@
       "difficulty": "Medium",
       "question": "Two lines have direction vectors d_1 = ( 1 , 1 , 0 ) and d_2 = ( 0 , 1 , 1 ) . What is the acute angle θ between the two lines?",
       "options": [
-        "60^° ( (π/3) rad )",
         "45^° ( (π/4) rad )",
+        "60^° ( (π/3) rad )",
         "30^° ( (π/6) rad )",
         "90^° ( (π/2) rad )"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "cosθ = \\frac|d_1 · d_2||d_1||d_2| . Dot product = (1)(0) + (1)(1) + (0)(1) = 1 . Magnitudes |d_1| = √(1^2 + 1^2) = √(2) and |d_2| = √(1^2 + 1^2) = √(2) . cosθ = (1/√(2) × √(2)) = (1/2) ⇒ θ = 60^° .",
       "citation": "IB Mathematics AA Guide — Topic 3.14: Angles Between Lines",
       "quality_review": {
@@ -673,12 +673,12 @@
       "difficulty": "Easy",
       "question": "If the probability that it rains on any given day in April is 0.35, what is the probability that it does NOT rain on that day?",
       "options": [
-        "0.65",
         "0.35",
         "0.70",
+        "0.65",
         "0.00"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "P(A') = 1 - P(A) = 1 - 0.35 = 0.65 .",
       "citation": "IB Mathematics AA Guide — Topic 4.5: Probability of Complementary Events",
       "quality_review": {
@@ -710,12 +710,12 @@
       "difficulty": "Medium",
       "question": "A discrete random variable has E(X) = 4 and E(X^2) = 25 . What is the standard deviation \\sigma of X ?",
       "options": [
-        "3",
         "9",
         "√(41)",
-        "5"
+        "5",
+        "3"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Var(X) = E(X^2) - [E(X)]^2 = 25 - 4^2 = 25 - 16 = 9 . The standard deviation is \\sigma = √(Var)(X) = √(9) = 3 .",
       "citation": "IB Mathematics AA Guide — Topic 4.7: Discrete Random Variables",
       "quality_review": {
@@ -784,12 +784,12 @@
       "difficulty": "Medium",
       "question": "For a standard normal distribution Z \\sim N(0, 1) , if P(Z < 1.25) = 0.8944 , what is P(-1.25 < Z < 1.25) ?",
       "options": [
-        "0.7888",
         "0.8944",
+        "0.7888",
         "0.1056",
         "0.2112"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "By symmetry, P(Z < -1.25) = 1 - P(Z < 1.25) = 1 - 0.8944 = 0.1056 . Therefore, P(-1.25 < Z < 1.25) = P(Z < 1.25) - P(Z < -1.25) = 0.8944 - 0.1056 = 0.7888 .",
       "citation": "IB Mathematics AA Guide — Topic 4.9: Normal Distribution",
       "quality_review": {
@@ -821,12 +821,12 @@
       "difficulty": "Hard",
       "question": "A rare disease affects 1% of a population. A diagnostic test is 95% accurate (sensitivity = 0.95, specificity = 0.95). If a randomly selected person tests positive, what is the probability they actually have the disease?",
       "options": [
-        "\\approx 16.1\\%",
         "95.0\\%",
         "50.0\\%",
+        "\\approx 16.1\\%",
         "5.0\\%"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "By Bayes' theorem: P(D|+) = (P(+|D)P(D)/P(+|D)P(D) + P(+|D')P(D')) = ((0.95)(0.01)/(0.95)(0.01) + (0.05)(0.99)) = (0.0095/0.0095 + 0.0495) = (0.0095/0.0590) \\approx 0.161 (16.1%).",
       "citation": "IB Mathematics AA Guide — Topic 4.13: Bayes' Theorem (HL)",
       "quality_review": {
@@ -858,12 +858,12 @@
       "difficulty": "Hard",
       "question": "A continuous random variable X has probability density function f(x) = kx^2 for 0 ≤ x ≤ 3 , and f(x) = 0 elsewhere. What is the value of k ?",
       "options": [
-        "(1/9)",
         "(1/27)",
         "(1/3)",
-        "(2/9)"
+        "(2/9)",
+        "(1/9)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Total probability must equal 1: ∫_0^3 k x^2 dx = 1 ⇒ k ≤ft[ (x^3/3) \\right]_0^3 = 1 ⇒ k ≤ft((27/3)\\right) = 1 ⇒ 9k = 1 ⇒ k = (1/9) .",
       "citation": "IB Mathematics AA Guide — Topic 4.15: Continuous Random Variables (HL)",
       "quality_review": {
@@ -932,12 +932,12 @@
       "difficulty": "Hard",
       "question": "For the curve defined by x^2 + y^2 = 25 , what is the gradient (dy/dx) at the point (3, 4) ?",
       "options": [
-        "-(3/4)",
         "(3/4)",
+        "-(3/4)",
         "-(4/3)",
         "(4/3)"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Differentiate implicitly with respect to x : 2x + 2y (dy/dx) = 0 ⇒ 2y (dy/dx) = -2x ⇒ (dy/dx) = -(x/y) . At (3, 4) , (dy/dx) = -(3/4) .",
       "citation": "IB Mathematics AA Guide — Topic 5.12: Implicit Differentiation (HL)",
       "quality_review": {
@@ -969,12 +969,12 @@
       "difficulty": "Medium",
       "question": "Where does the curve f(x) = x^3 - 6x^2 + 9x + 2 have a point of inflexion?",
       "options": [
-        "(2, 4)",
         "(1, 6)",
         "(3, 2)",
+        "(2, 4)",
         "(0, 2)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "f'(x) = 3x^2 - 12x + 9 . f''(x) = 6x - 12 . Setting f''(x) = 0 ⇒ 6x = 12 ⇒ x = 2 . Since f''(x) changes sign at x = 2 (negative for x < 2 , positive for x > 2 ), x = 2 is a point of inflexion. Value f(2) = 2^3 - 6(2^2) + 9(2) + 2 = 8 - 24 + 18 + 2 = 4 . Point is (2, 4) .",
       "citation": "IB Mathematics AA Guide — Topic 5.8: Points of Inflexion",
       "quality_review": {
@@ -1006,12 +1006,12 @@
       "difficulty": "Hard",
       "question": "A particle moves with velocity v(t) = 2t - 4 m/s . What is the total distance traveled by the particle between t = 0 and t = 3 ?",
       "options": [
-        "5 m",
         "3 m",
         "-3 m",
-        "9 m"
+        "9 m",
+        "5 m"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Velocity changes sign at 2t - 4 = 0 ⇒ t = 2 . Total distance = ∫_0^3 |v(t)| dt = ∫_0^2 -(2t - 4) dt + ∫_2^3 (2t - 4) dt . First segment: [-t^2 + 4t]_0^2 = -4 + 8 = 4 m . Second segment: [t^2 - 4t]_2^3 = (9 - 12) - (4 - 8) = -3 - (-4) = 1 m . Total distance = 4 + 1 = 5 m . (Displacement is -3 m ).",
       "citation": "IB Mathematics AA Guide — Topic 5.9: Kinematics (Total Distance)",
       "quality_review": {
@@ -1080,12 +1080,12 @@
       "difficulty": "Hard",
       "question": "Using integration by parts, what is ∫ x cos x dx ?",
       "options": [
-        "x sin x + cos x + C",
         "x sin x - cos x + C",
+        "x sin x + cos x + C",
         "-x sin x + cos x + C",
         "x cos x - sin x + C"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Integration by parts formula: ∫ u v' dx = uv - ∫ u' v dx . Choose u = x ⇒ u' = 1 , and v' = cos x ⇒ v = sin x . Then: ∫ x cos x dx = x sin x - ∫ (1)(sin x) dx = x sin x - (-cos x) + C = x sin x + cos x + C .",
       "citation": "IB Mathematics AA Guide — Topic 5.13: Integration by Parts (HL)",
       "quality_review": {
